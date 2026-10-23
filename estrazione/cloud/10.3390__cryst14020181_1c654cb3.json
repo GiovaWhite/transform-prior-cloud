@@ -1,0 +1,1082 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/cryst14020181",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2309015-2309017"
+ ],
+ "note": "CCDC 2309015-2309017 dichiarati nei dati; la Table 1 attribuisce 2309015 al solvato 2:1:1 (150 K) e 2309017 al cocristallo 2:1 (297 K); 2309016 non e' attribuito (il solvato e' misurato anche a RT, Table S2, ma l'articolo non lo associa a un numero). Transizione vetrosa: «Upon cooling, melting, and reheating, a glass transition occurs at Tmidpoint = 53.15 ◦C» (DSC, 5 ◦C/min): e' la Tg del fuso raffreddato di composizione PZQ:CU 2:1, non di una molecola ne' di un cristallo, quindi non e' un evento ne' una proprieta' molecolare. L'articolo non scrive «amorphous»: non e' stato estratto l'evento fuso -> amorfo. Disordine del solvato: la curcumina mostra disordine di molecola intera (91/9 a 150 K; 85/15 a RT), l'acetato di etile e' disordinato su un centro di inversione: non sono eventi. Il testo dice che l'accordo fra VT-XRPD, DSC e TGA e' stretto («This closely matches the observed temperatures in DSC and TGA») e subito dopo parla di «difference in the reported desolvation temperatures» attribuita all'assenza di gas di trasporto nel capillare chiuso.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "praziquantel (PZQ)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "curcumin (CU)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "RS-PZQ",
+   "etichette_alternative": [
+    "racemic praziquantel"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Synthetic curcumin (CAS: 458-37-7, >97.0%) and racemic praziquantel (CAS: 5526874-1, >98.0%) were acquired from TCI EUROPE N.V. (Zwijndrecht, Belgium).",
+   "note": "Reagente commerciale (racemo). La didascalia della Fig. 3 dice che «the praziquantel parent compound matches with the simulated pattern of FI», fra i polimorfi noti FI-III e l'emidrato: il polimorfo non e' altrimenti nominato."
+  },
+  {
+   "id": "F2",
+   "composto": "C2",
+   "etichetta": "CU",
+   "etichette_alternative": [
+    "curcumin"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Curcumin is shown to match with FI, whereas the praziquantel parent compound matches with the simulated pattern of FI.",
+   "note": "Reagente commerciale (curcumina sintetica). Corrisponde alla forma FI secondo la didascalia della Fig. 3."
+  },
+  {
+   "id": "F3",
+   "etichetta": "RS-PZQ + CU (miscela 1:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F2"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "Each tube was filled with an equimolar quantity (0.4 mmol) of curcumin and racemic praziquantel and 100 µL of toluene as well as 4 small stainless-steel beads (Ø 3 mm).",
+   "note": "Miscela equimolare di partenza del LAG (0.4 mmol) e delle sospensioni 1:1 (0.3 mmol)."
+  },
+  {
+   "id": "F4",
+   "etichetta": "RS-PZQ + CU (miscela 2:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F2"
+   ],
+   "proporzioni": "2:1",
+   "citazione": "Then, slurry experiments were carried out using a 2:1 ratio of racemic praziquantel (0.6 mmol) and curcumin (0.3 mmol) in a suitable amount of ethyl acetate (from 1 to 4 mL).",
+   "note": "Miscela di partenza della sospensione in acetato di etile da cui si ottiene il solvato."
+  },
+  {
+   "id": "F5",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "PZQ-CU-EtOAc (2:1:1)",
+   "etichette_alternative": [
+    "PZQ-CU-EtOAc 2:1:1",
+    "PZQ–CU–EtOAc (2:1:1) cocrystal solvate",
+    "praziquantel–curcumin-ethyl acetate cocrystal solvate"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "ethyl acetate",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2/c",
+   "cella": {
+    "a": 37.57,
+    "b": 5.9187,
+    "c": 26.6434,
+    "beta": 110.574,
+    "V": 5546.6,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "2309015",
+   "strutture": [
+    {
+     "ccdc": "2309015",
+     "temperatura": {
+      "valore": 150,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "T (K) 150 (2) 297 (2) Crystal system Monoclinic Monoclinic Space group C2/c P21/n a, b, and c (Å) 37.570 (2), 5.9187 (3), 26.6434 (17) 27.330 (4), 5.8708 (7), 35.486 (7) β (◦) 110.574 (7) 111.06 (2) Cell volume (Å3) 5546.6 (6) 5313.5 (17) Z 4 4 CCDC 2309015 2309017"
+    },
+    {
+     "ccdc": null,
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "RT"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Additionally, PZQ-CU-EtOAc 2:1:1 cocrystal solvate SCXRD was also measured at RT (Table S2)."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "S1 1(6) intramolecular hydrogen bond pattern",
+     "chi": "curcumin, intramolecular O-H---O=C involving the enol group",
+     "citazione": "This hydrogen bond has an S1 1(6) intramolecular hydrogen bond pattern, according to Etter’s graph-set notation [44]"
+    },
+    {
+     "motivo": "two D1 1(2) finite patterns coupled into one D2 2(21) finite pattern (assembly PZQ---CU---PZQ)",
+     "chi": "-OH group of curcumin and C=O function of the cyclohexylcarbonyl group of praziquantel",
+     "citazione": "result in two D1 1(2) finite patterns coupled into one D2 2(21) finite pattern, involving the -OH group of curcumin and the C=O function of the cyclohexylcarbonyl group of praziquantel"
+    }
+   ],
+   "citazione": "As shown in Table 1, PZQ-CU-EtOAc (2:1:1) crystallizes in the C-centered monoclinic space group C2/c and comprises four formula units within its unit cell.",
+   "note": "Solvato stechiometrico 2:1:1 (1H NMR conferma la stechiometria). L'acetato di etile e' disordinato su un centro di inversione, occupa i vuoti e non ha interazioni di stabilizzazione. La curcumina sta su un asse binario con disordine di molecola intera (91/9 a 150 K; 85/15 a RT). Ospite per unita' formula (2 PZQ, 1 CU, 1 EtOAc)."
+  },
+  {
+   "id": "F6",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "PZQ-CU (2:1)",
+   "etichette_alternative": [
+    "PZQ–CU (2:1) cocrystal",
+    "praziquantel–curcumin (2:1) cocrystal",
+    "non-solvated cocrystal",
+    "desolvated (2:1) cocrystal"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 27.33,
+    "b": 5.8708,
+    "c": 35.486,
+    "beta": 111.06,
+    "V": 5313.5,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "297 K"
+   },
+   "ccdc": "2309017",
+   "strutture": [
+    {
+     "ccdc": "2309017",
+     "temperatura": {
+      "valore": 297,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "T (K) 150 (2) 297 (2) Crystal system Monoclinic Monoclinic Space group C2/c P21/n a, b, and c (Å) 37.570 (2), 5.9187 (3), 26.6434 (17) 27.330 (4), 5.8708 (7), 35.486 (7) β (◦) 110.574 (7) 111.06 (2) Cell volume (Å3) 5546.6 (6) 5313.5 (17) Z 4 4 CCDC 2309015 2309017"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "S1 1(6) intramolecular hydrogen bond pattern",
+     "chi": "curcumin, intramolecular O-H---O",
+     "citazione": "Curcumin molecules form strong intramolecular O-H---O hydrogen bonds following an S1 1(6) intramolecular hydrogen bond pattern."
+    },
+    {
+     "motivo": "two D1 1(2) finite patterns merged into one D2 2(21) finite pattern (assembly PZQ–CU–PZQ)",
+     "chi": "hydroxy group of curcumin and carbonyl function of the cyclohexylcarbonyl group of praziquantel",
+     "citazione": "are connected to 1 curcumin by two hydrogen bonds, combined in two D1 1(2) finite patterns merged into one D2 2(21) finite pattern. The molecular assembly PZQ–CU–PZQ involves the hydroxy group of curcumin and the carbonyl function of the cyclohexylcarbonyl group of praziquantel"
+    }
+   ],
+   "citazione": "PZQ–CU (2:1) was found to crystallize in the primitive monoclinic space group P21/n and contains four molecules per unit cell.",
+   "note": "Cocristallo non solvato, ottenuto dal solvato per perdita di solvente (SC-SC), per LAG con toluene e per VT-XRPD. Struttura dal cristallo singolo del solvato scaldato a 390 K e raffreddato a 298 K nel capillare (Table 1: T = 297 (2) K); qualita' del cristallo molto peggiorata, risoluzione limitata. Due R- (o due S-) molecole di PZQ per una curcumina."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "MM 400 Mixer Mill (RETSCH)",
+     "frequenza_Hz": 30,
+     "durata": {
+      "valore": 90,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "4 small stainless-steel beads (Ø 3 mm)",
+     "liquido": "toluene, 100 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "toluene",
+      "proporzione": "100 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F6"
+     },
+     {
+      "forma": "F2"
+     }
+    ]
+   },
+   "citazioni": [
+    "Screening of cocrystals between curcumin and racemic praziquantel was performed using liquid-assisted grinding (LAG) in the MM 400 Mixer Mill grinder manufactured by RETSCH (Haan, Germany).",
+    "Each tube was filled with an equimolar quantity (0.4 mmol) of curcumin and racemic praziquantel and 100 µL of toluene as well as 4 small stainless-steel beads (Ø 3 mm). The grinding program was set for 90 min at a beating frequency of 30 Hz. The resulting ground powders were studied via X-ray powder diffraction (XRPD).",
+    "However, the diffractogram of the solids resulting from the LAG experiment shows peaks of unreacted curcumin, suggesting that a new potential solid form exists in a ratio other than a 1:1 ratio.",
+    "As shown in Figure 3, the simulated XRPD pattern of the praziquantel–curcumin (2:1) cocrystal closely matches the experimental pattern obtained via liquid-assisted grinding with toluene, with the experimental pattern showing some parent compound remaining.",
+    "As will be shown later on, this phase can be desolvated, leading to the praziquantel–curcumin cocrystal (PZQ-CU 2:1), also identified during the toluene LAG experiment (Figure 3)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "LAG di curcumina e PZQ racemico equimolari (1:1) con toluene: il macinato e' caratterizzato (XRPD) e combacia con il cocristallo 2:1 non solvato, con curcumina non reagita (il rapporto 1:1 di partenza e' diverso dal 2:1 del cocristallo; gli autori scrivono «some parent compound remaining»). Quantita' di residuo non detta. Temperatura non detta."
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature (RT)"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": "day",
+     "tipo": "attesa",
+     "min": 3,
+     "max": 4
+    },
+    "agitazione": {
+     "valore": 150,
+     "unita": "rpm"
+    },
+    "rapporto_solido_solvente": "equimolar amount (0.3 mmol) of racemic praziquantel and curcumin in a suitable amount of solvent (from 1 to 4 mL)",
+    "solventi": [
+     {
+      "nome": "isopropanol (2-propanol, IPA)"
+     },
+     {
+      "nome": "acetonitrile (ACN)"
+     },
+     {
+      "nome": "ethanol (EtOH)"
+     },
+     {
+      "nome": "methanol (MeOH)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "citazioni": [
+    "1:1 slurry experiments were performed in isopropanol, acetonitrile, ethanol, methanol, and ethyl acetate (EtOAc). For all but the latter, curcumin was obtained in suspension (Figure S1).",
+    "Congruency experiments were carried out via slurry crystallization. At first, slurry experiments were prepared by suspending an equimolar amount (0.3 mmol) of racemic praziquantel and curcumin in a suitable amount of solvent (from 1 to 4 mL). The solvents tested include 2-propanol (IPA), acetonitrile (ACN), ethanol (EtOH), ethyl acetate (EtOAc), and methanol (MeOH).",
+    "The suspensions were shaken at 150 rpm for 3 to 4 days at room temperature (RT) in 5 mL sealed vials using the “Orbital Shaker SO3” from Stuart Scientific."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "esito_dettaglio": "nessun_cocristallo",
+   "solventi_alternativi": true,
+   "note": "Sospensioni equimolari in isopropanolo, acetonitrile, etanolo e metanolo: nel solido in sospensione si ottiene curcumina, nessuna fase nuova. L'articolo non dice che cosa succede al PZQ ne' se in questi solventi la curcumina cambi forma. Un solo evento con i quattro solventi come alternative (una prova per solvente); certezza media perche' i solventi sono delimitati da «all but the latter»."
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature (RT)"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": "day",
+     "tipo": "attesa",
+     "min": 3,
+     "max": 4
+    },
+    "agitazione": {
+     "valore": 150,
+     "unita": "rpm"
+    },
+    "rapporto_solido_solvente": "equimolar amount (0.3 mmol) of racemic praziquantel and curcumin in a suitable amount of solvent (from 1 to 4 mL)",
+    "solventi": [
+     {
+      "nome": "ethyl acetate (EtOAc)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "citazioni": [
+    "The slurry from ethyl acetate shows a pattern different from the parent compounds (Figure S1).",
+    "1:1 slurry experiments were performed in isopropanol, acetonitrile, ethanol, methanol, and ethyl acetate (EtOAc). For all but the latter, curcumin was obtained in suspension (Figure S1).",
+    "At first, slurry experiments were prepared by suspending an equimolar amount (0.3 mmol) of racemic praziquantel and curcumin in a suitable amount of solvent (from 1 to 4 mL).",
+    "The suspensions were shaken at 150 rpm for 3 to 4 days at room temperature (RT) in 5 mL sealed vials using the “Orbital Shaker SO3” from Stuart Scientific."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "Sospensione 1:1 in acetato di etile: il solido ha un diffrattogramma diverso da quello dei composti di partenza. La fase non e' identificata in quella frase (a = ignota): subito dopo gli autori cercano monocristalli in questo solvente con rapporti 1:1, 2:1 e 1:2 e il rapporto 2:1 da' il solvato 2:1:1."
+  },
+  {
+   "id": "E4",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": "day",
+     "tipo": "attesa",
+     "min": 3,
+     "max": 4
+    },
+    "agitazione": {
+     "valore": 150,
+     "unita": "rpm"
+    },
+    "rapporto_solido_solvente": "racemic praziquantel (0.6 mmol) and curcumin (0.3 mmol) in a suitable amount of ethyl acetate (from 1 to 4 mL)",
+    "solventi": [
+     {
+      "nome": "ethyl acetate"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "XRPD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "Then, slurry experiments were carried out using a 2:1 ratio of racemic praziquantel (0.6 mmol) and curcumin (0.3 mmol) in a suitable amount of ethyl acetate (from 1 to 4 mL). The suspensions were also shaken at 150 rpm for 3 to 4 days at RT in 5 mL sealed vials using the “Orbital Shaker SO3” from Stuart Scientific. The powders were then filtered, washed with fresh ethyl acetate, dried, and analyzed by XRPD. This provided the bulk material.",
+    "The bulk material of the cocrystal solvate can be obtained from a 2:1 slurry experiment in ethyl acetate at room temperature (see Supporting Information, Figure S1).",
+    "The 2:1 ratio led to the formation of a praziquantel–curcumin-ethyl acetate cocrystal solvate (PZQ-CU-EtOAc 2:1:1).",
+    "The 1H NMR analysis (see Supporting Information, Figure S3) confirms the 2:1:1 stoichiometry of this novel cocrystal solvate composed of praziquantel, curcumin, and ethyl acetate"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "Sospensione 2:1 PZQ:CU (0.6 e 0.3 mmol) in acetato di etile: polvere filtrata, lavata e asciugata = materiale di partenza di DSC e TGA. 1H NMR (in DMSO-d6) per la stechiometria."
+  },
+  {
+   "id": "E5",
+   "da": "F5",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 101.9,
+     "picco": 113.32
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen, continuous flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "XRPD"
+    ],
+    "entalpia": {
+     "valore": 44,
+     "unita": "J/g",
+     "tipo": "desolvatazione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "°C",
+       "onset": 101.9,
+       "picco": 113.32
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC analysis conducted using a heating rate of 5 ◦C/min (Figure 8) also showed this desolvation as an endothermic peak with Tonset = 101.90 ◦C (Tpeak = 113.32 ◦C)",
+    "and a heat of desolvation of ∆H = 44 J/g.",
+    "X-ray powder diffraction (XRPD) analysis of the resulting powder (see Supporting Information, Figure S2) confirms the presence of the PZQ–CU (2:1) cocrystal as the residual phase, validating the desolvation process.",
+    "A sample mass of approximately 5 to 10 mg was placed in an aluminum Tzero pan with a perforated hermetic lid, and the temperature was scanned at a rate of 5 ◦C/min: first heating from 25 ◦C to 150 ◦C, then cooling from 150 ◦C to 25 ◦C, to eventually finishing the cycle with a second heating period from 25 to 220 ◦C.",
+    "The purge gas was nitrogen, with a continuous flow rate of 50 mL/min.",
+    "Figure 8. Differential scanning calorimetry analysis of the PZQ–CU–EtOAc (2:1:1) cocrystal solvate obtained via slurry in ethyl acetate, expressed in mW as a function of temperature (◦C)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 5 to 10 mg",
+    "crogiolo": "forato"
+   },
+   "note": "Pentola di alluminio Tzero con coperchio ermetico forato, azoto. Il prodotto e' identificato dall'XRPD sulla polvere dopo il trattamento (Fig. S2). Entalpia in J/g come scritta (heat of desolvation). Sul DSC la perdita di acetato di etile e' attribuita a questo picco endotermico."
+  },
+  {
+   "id": "E6",
+   "da": "F5",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen, continuous flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 7,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "Thermogravimetric analysis (Figure 7) showed the praziquantel–curcumin–ethyl acetate (2:1:1) cocrystal solvate to be stable up to approximately 100 ◦C, at which point weight loss of 7% was observed, which closely aligns with the theoretically expected weight loss of a single ethyl acetate molecule from the cocrystal solvate (theoretical value of 8.15%).",
+    "Approximately 5 to 10 mg of sample were placed in an aluminum oxide crucible, and the temperature was ramped from 25 ◦C to 600 ◦C at a heating rate of 5 ◦C/min. The purge gas was nitrogen, with a continuous flow rate of 50 mL/min.",
+    "Figure 7. Thermogravimetric analysis of the PZQ–CU–EtOAc (2:1:1) cocrystal solvate obtained via slurry in ethyl acetate (initial sample mass: 7.5200 mg), expressed in weight (%) as a function of temperature (◦C) and time (min).",
+    "Thermal analyses revealed that the cocrystal solvate remains stable up to approximately 100 ◦C, at which point a transition to the non-solvated phase occurs."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "massa": "7.5200 mg"
+   },
+   "note": "Perdita di massa del 7% (teorica 8.15% per una molecola di acetato di etile). Il prodotto della TGA non e' caratterizzato nella TGA: a = F6 perche' gli autori lo identificano con l'XRPD della polvere dopo il DSC e scrivono «a transition to the non-solvated phase occurs». Crogiolo di ossido di alluminio, coperchio non detto. Massa: 5-10 mg nei metodi, 7.5200 mg nella didascalia della Fig. 7."
+  },
+  {
+   "id": "E7",
+   "da": "F5",
+   "a": "F6",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "max": 100,
+     "circa": true,
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "Thermogravimetric analysis (Figure 7) showed the praziquantel–curcumin–ethyl acetate (2:1:1) cocrystal solvate to be stable up to approximately 100 ◦C, at which point weight loss of 7% was observed",
+    "Thermal analyses revealed that the cocrystal solvate remains stable up to approximately 100 ◦C, at which point a transition to the non-solvated phase occurs.",
+    "Approximately 5 to 10 mg of sample were placed in an aluminum oxide crucible, and the temperature was ramped from 25 ◦C to 600 ◦C at a heating rate of 5 ◦C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Lato freddo della soglia dell'evento E6: il solvato resta stabile fino a circa 100 °C (TGA). 'Thermal analyses' nelle conclusioni e nell'abstract coprono anche il DSC (onset 101.90 °C)."
+  },
+  {
+   "id": "E8",
+   "da": "F5",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 380,
+     "unita": "K",
+     "tipo": "osservata",
+     "min": 296
+    },
+    "velocita": {
+     "valore": 3,
+     "unita": "K/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "cinetica": "gradual change from the (2:1:1) cocrystal solvate to the desolvated (2:1) cocrystal"
+   },
+   "citazioni": [
+    "A capillary filled with the cocrystal solvate was heated at 3 K/min to 380 K. The sample was allowed to equilibrate for a few minutes, and an XRD pattern was recorded. Subsequent PXRD patterns were recorded after 2 K/min heating ramps at 385 and 395 K.",
+    "Furthermore, VT-XRD experiments were performed between RT and 121.85 ◦C (395 K), revealing the gradual change from the (2:1:1) cocrystal solvate to the desolvated (2:1) cocrystal, providing valuable insight into thermal behaviors and phase evolution.",
+    "Figure 9 illustrates that the simulated diffraction pattern of the single crystal structure (SC_RT) determined at room temperature is similar to the PXRD pattern at 296 K (RT).",
+    "At 380 K, the peak at 6.45◦starts to disappear, while the peak at 6◦shifts toward lower angles, indicative of changes in the unit cell parameters.",
+    "Also, the characteristic peak of the desolvated",
+    "phase emerges at 6.7◦, signifying the formation of the distinct phase. At 395 K, the phase transformation is complete, and the PXRD patterns closely resemble the 2:1 desolvated structure (SC_HT).",
+    "The difference in the reported desolvation temperatures can be attributed to the absence of carrier gas in the case of the VT-PXRD performed within a closed capillary."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare"
+   },
+   "note": "Misura a gradini: pattern a 296 K (RT, ancora il solvato), a 380 K comincia a sparire il picco a 6.45° e compare quello del desolvato a 6.7°, a 395 K la trasformazione e' completa (rampe di 3 K/min fino a 380 K, poi 2 K/min fino a 385 e 395 K). Capillare di vetro da 0.7 mm, «closed capillary» senza gas di trasporto: gli autori attribuiscono a questo la differenza di temperatura di desolvatazione rispetto a DSC/TGA."
+  },
+  {
+   "id": "E9",
+   "da": "F5",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "max": 390,
+     "testo": "from RT to 370 K at 3 °C/min, then from 370 K to 390 K at 2 °C/min"
+    },
+    "velocita": {
+     "valore": 3,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 flow (Oxford Cryostream)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ],
+    "integrita": "degradato"
+   },
+   "citazioni": [
+    "Due to the loosely bound ethyl acetate molecules, the cocrystal solvate can be desolvated in a single-crystal-to-single-crystal transition. The praziquantel–curcumin (2:1) cocrystal structure was thus obtained by slowly heating a single crystal from RT to 370 K at 3 ◦C/min, then at a slower heating rate of 2 ◦C/min from 370 K to 390 K, and finally cooling down to 298 K at 4 ◦C/min.",
+    "To obtain (non-solvated) 2:1 praziquantel–curcumin cocrystals, a single crystal of 2:1:1 praziquantel–curcumin–ethyl acetate cocrystal solvate was mounted in a glass capillary and placed in an N2-flow of an Oxford Cryostream set at RT. The system was heated from RT to 370 K at 3 ◦C/min and then heated further from 370 K to 390 K at 2 ◦C/min. Unit cell determination was performed at 380 K and 390 K to follow the crystal-to-crystal transformation. Finally, the crystal inside the capillary was cooled down to 298 K at 4 ◦C/min.",
+    "Due to the heat treatment and the subsequent solvent removal, leading to a phase transformation, the quality of the single crystal deteriorated significantly, resulting in a lower resolution limit.",
+    "In the praziquantel–curcumin (2:1) cocrystal, the dominant supramolecular interactions are therefore similar to the ones in the cocrystal solvate, as shown in Figure 6.",
+    "The comparison of the unit cell parameters of the cocrystal solvate and the cocrystal in Table 1 shows these two solid forms to be slightly different, leading to some differences in the XRPD patterns (Figure 3). The crystal lattices indeed exhibit a high degree of similarity (Figure 5), with solvent removal leading to a slight crystal lattice volume reduction.",
+    "The molecular assembly PZQ–CU–PZQ involves the hydroxy group of curcumin and the carbonyl function of the cyclohexylcarbonyl group of praziquantel, following the b and c descriptors along the <b >c path."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "crogiolo": "capillare"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydroxy group of curcumin",
+     "ruolo": null,
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F6",
+     "citazione": "The molecular assembly PZQ–CU–PZQ involves the hydroxy group of curcumin and the carbonyl function of the cyclohexylcarbonyl group of praziquantel, following the b and c descriptors along the <b >c path."
+    },
+    {
+     "gruppo": "carbonyl function of the cyclohexylcarbonyl group of praziquantel",
+     "ruolo": null,
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F6",
+     "citazione": "The molecular assembly PZQ–CU–PZQ involves the hydroxy group of curcumin and the carbonyl function of the cyclohexylcarbonyl group of praziquantel, following the b and c descriptors along the <b >c path."
+    }
+   ],
+   "note": "Riscaldamento lento di un cristallo singolo del solvato in capillare di vetro sotto flusso di N2: rampa 3 °C/min da RT a 370 K, poi 2 °C/min fino a 390 K; la cella e' determinata a 380 e 390 K per seguire la trasformazione cristallo-cristallo; poi raffreddamento a 298 K (4 °C/min) e raccolta dei dati. La temperatura a cui la trasformazione avviene non e' data in questo esperimento: intervallo di riscaldamento. I legami fra l'OH della curcumina e il C=O del PZQ restano (le interazioni dominanti «are therefore similar» nei due reticoli); l'acetato di etile non ha interazioni di stabilizzazione. Il testo dice «loosely bound ethyl acetate»."
+  },
+  {
+   "id": "E10",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 129.51
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen, continuous flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The melting point of the PZQ–CU (2:1) cocrystal was found to be Tonset = 129.51 ◦C, which is notably lower than the individual melting points of the parent compounds (Tmelting = 183 ◦C for curcumin; Tmelting = 136 ◦C for praziquantel).",
+    "This latter one melts at 130 ◦C, which is a lower melting point compared to the individual components.",
+    "A sample mass of approximately 5 to 10 mg was placed in an aluminum Tzero pan with a perforated hermetic lid, and the temperature was scanned at a rate of 5 ◦C/min: first heating from 25 ◦C to 150 ◦C, then cooling from 150 ◦C to 25 ◦C, to eventually finishing the cycle with a second heating period from 25 to 220 ◦C."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 5 to 10 mg",
+    "crogiolo": "forato"
+   },
+   "da_evento": "E5",
+   "pretrattamento": "solvato 2:1:1 desolvatato nella stessa corsa DSC (E5)",
+   "note": "Fusione del cocristallo non solvato prodotto dal solvato nella stessa corsa DSC (primo riscaldamento 25-150 °C a 5 °C/min). Nell'abstract e nelle conclusioni «130 °C» (stesso evento)."
+  },
+  {
+   "id": "E11",
+   "da": "fuso",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 190,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Degradation of the resulting melt occurs at approximately 190◦C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "da_evento": "E10",
+   "note": "Degradazione del fuso del cocristallo PZQ-CU (2:1). L'articolo non dice con quale tecnica (le corse DSC arrivano a 220 °C)."
+  },
+  {
+   "id": "E12",
+   "da": "fuso",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 25,
+     "max": 150
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Upon cooling, melting, and reheating, a glass transition occurs at Tmidpoint = 53.15◦C. No (re)crystallization peaks were observed during temperature cycling.",
+    "A sample mass of approximately 5 to 10 mg was placed in an aluminum Tzero pan with a perforated hermetic lid, and the temperature was scanned at a rate of 5 ◦C/min: first heating from 25 ◦C to 150 ◦C, then cooling from 150 ◦C to 25 ◦C, to eventually finishing the cycle with a second heating period from 25 to 220 ◦C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 5 to 10 mg",
+    "crogiolo": "forato"
+   },
+   "da_evento": "E10",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Il fuso del cocristallo non ricristallizza ne' nel raffreddamento 150 -> 25 °C ne' nel riscaldamento successivo (fino a 220 °C): «No (re)crystallization peaks were observed during temperature cycling». Nel secondo riscaldamento compare una transizione vetrosa (Tmidpoint = 53.15 °C): il materiale non e' detto «amorphous» dall'articolo. a = ignota perche' il testo non nomina la forma attesa."
+  },
+  {
+   "id": "E13",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 136,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The melting point of the PZQ–CU (2:1) cocrystal was found to be Tonset = 129.51 ◦C, which is notably lower than the individual melting points of the parent compounds (Tmelting = 183 ◦C for curcumin; Tmelting = 136 ◦C for praziquantel)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "incerta",
+   "natura": "fisica",
+   "note": "Punto di fusione del composto di partenza (PZQ racemico). L'articolo non dice se e' rimisurato qui o preso dalla letteratura, ne' con quale tecnica; non e' detto neppure a quale polimorfo si riferisca (il reagente combacia con FI, Fig. 3)."
+  },
+  {
+   "id": "E14",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 183,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The melting point of the PZQ–CU (2:1) cocrystal was found to be Tonset = 129.51 ◦C, which is notably lower than the individual melting points of the parent compounds (Tmelting = 183 ◦C for curcumin; Tmelting = 136 ◦C for praziquantel)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "incerta",
+   "natura": "fisica",
+   "note": "Punto di fusione del composto di partenza (curcumina). L'articolo non dice se e' rimisurato qui o preso dalla letteratura, ne' con quale tecnica; il reagente combacia con FI (Fig. 3)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "temperatura": null,
+   "esito": "ottenuta",
+   "citazioni": [
+    "Synthetic curcumin (CAS: 458-37-7, >97.0%) and racemic praziquantel (CAS: 5526874-1, >98.0%) were acquired from TCI EUROPE N.V. (Zwijndrecht, Belgium). Solvents were acquired from VWR International BV (Brecht, Belgium). All materials were used as received without any further purification."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "temperatura": null,
+   "esito": "ottenuta",
+   "citazioni": [
+    "As will be shown later on, this phase can be desolvated, leading to the praziquantel–curcumin cocrystal (PZQ-CU 2:1), also identified during the toluene LAG experiment (Figure 3)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cocristallo 2:1 non solvato nel macinato LAG con toluene, con curcumina non reagita (evento E1)."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E4",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "temperatura": null,
+   "esito": "ottenuta",
+   "citazioni": [
+    "The bulk material of the cocrystal solvate can be obtained from a 2:1 slurry experiment in ethyl acetate at room temperature (see Supporting Information, Figure S1)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Materiale in polvere (evento E4)."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "+/− RT"
+   },
+   "tempo": {
+    "valore": null,
+    "unita": "day",
+    "min": 3,
+    "max": 10
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Single crystals were grown through slow evaporation and cooling of the supernatants retrieved from the slurry experiments (prepared as previously described using a 2:1 ratio of racemic praziquantel and curcumin in EtOAc).",
+    "experiments, the supernatants were left to evaporate slowly from 3 to 10 days at +/− RT.",
+    "Suitable crystals of the 2:1: praziquantel–curcumin–ethyl acetate cocrystal solvate were successfully obtained both from cooling and the slow evaporation experiments."
+   ],
+   "fonte_dati": "propria",
+   "note": "Evaporazione lenta del surnatante della sospensione 2:1 in acetato di etile."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": -4,
+    "unita": "°C"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "For the single crystals formed through cooling, the supernatants retrieved from the slurry experiments were placed in a refrigerator at −4 ◦C.",
+    "Suitable crystals of the 2:1: praziquantel–curcumin–ethyl acetate cocrystal solvate were successfully obtained both from cooling and the slow evaporation experiments."
+   ],
+   "fonte_dati": "propria",
+   "note": "Raffreddamento in frigorifero del surnatante della sospensione 2:1 in acetato di etile."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E9",
+   "solventi": [],
+   "temperatura": null,
+   "esito": "ottenuta",
+   "citazioni": [
+    "The praziquantel–curcumin (2:1) cocrystal structure was thus obtained by slowly heating a single crystal from RT to 370 K at 3 ◦C/min, then at a slower heating rate of 2 ◦C/min from 370 K to 390 K, and finally cooling down to 298 K at 4 ◦C/min."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristallo singolo del cocristallo non solvato per desolvatazione SC-SC (evento E9)."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "sospensione",
+   "solventi": [],
+   "temperatura": null,
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "Trials were performed with various solvents to obtain the non-solvated bulk material, but these attempts were unsuccessful."
+   ],
+   "fonte_dati": "propria",
+   "note": "Sospensioni con vari solventi (non nominati) per ottenere in polvere il cocristallo 2:1 non solvato: senza successo."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "temperatura": null,
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "Trials were performed with various solvents to obtain the non-solvated single cocrystal, but these attempts were unsuccessful."
+   ],
+   "fonte_dati": "propria",
+   "note": "Crescita di monocristalli del cocristallo non solvato con vari solventi (non nominati; la sezione parla di evaporazione lenta e raffreddamento): senza successo."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.4,
+      "unita": "mg/mL"
+     },
+     "solvente": "water",
+     "temperatura": {
+      "valore": 25,
+      "unita": "°C"
+     },
+     "calcolato": false,
+     "metodo": "valore riportato nell'introduzione con rif. [8]",
+     "citazione": "Furthermore, RS-PZQ exhibits poor solubility in aqueous media (0.40 mg/mL in water at 25 ◦C) and consequently shows poor bioavailability"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "chiral compound, commercially marketed as a racemate (RSPZQ); the schistosomicidal activity mainly comes from the (R)-enantiomer",
+     "citazione": "Praziquantel is a chiral compound and is commercially marketed as a racemate (RSPZQ)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F5",
+     "testo": "anti-conformation of the C=O groups of the piperazinone-cyclohexylcarbonyl segment",
+     "citazione": "The PZQ molecules adopted an anti-conformation of the C=O groups of the piperazinone– cyclohexylcarbonyl segment."
+    },
+    {
+     "tipo": "altro",
+     "testo": "no ionizable group, unsuitable for salt formation; two carbonyl groups able to act as hydrogen bond acceptors",
+     "citazione": "Since PZQ has no ionizable group, it is unsuitable for salt formation."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.6,
+      "unita": "µg/mL"
+     },
+     "solvente": "pure water",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "RT"
+     },
+     "calcolato": false,
+     "metodo": "valore riportato nell'introduzione con rif. [31]",
+     "citazione": "it has very poor aqueous solubility (0.6 µg/mL in pure water at RT) and low bioavailability"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "tautomeria",
+     "testo": "keto-enol tautomerism",
+     "citazione": "Curcumin shows keto-enol tautomerism and can interact with various targets (protein kinases, transcription factors, etc.) [30]."
+    },
+    {
+     "tipo": "tautomeria",
+     "forma": "F5",
+     "testo": "keto-enol equilibrium at the center of the molecule: intramolecular H-bond with the hydrogen on either of the two central oxygens (50% occupancy on both in the refinement)",
+     "citazione": "The keto-enol equilibrium at the center of the curcumin molecule results in an intra-molecular H-bond with the hydrogen located on either of the two central oxygens."
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "forma": "F5",
+     "testo": "strong intramolecular O-H---O=C hydrogen bonds involving the enol group, preserved for the disordered molecules",
+     "citazione": "present strong intramolecular O-H—O=C hydrogen bonds involving the enol group, which is preserved for the disordered molecules."
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "forma": "F6",
+     "testo": "strong intramolecular O-H---O hydrogen bonds",
+     "citazione": "Curcumin molecules form strong intramolecular O-H---O hydrogen bonds following an S1 1(6) intramolecular hydrogen bond pattern."
+    }
+   ]
+  }
+ ]
+}
