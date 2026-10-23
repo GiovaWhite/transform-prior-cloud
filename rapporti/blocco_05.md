@@ -10,7 +10,7 @@ Cinque articoli, estratti da tre sottoagenti (A: 2 articoli di questo blocco, B:
 | 10.1021/acs.cgd.2c00861 | sì | 23 (17/0/6) | termica 11, solvente 9, umidità 3 | 7 | 3 | 1 | 23/0/0 |
 | 10.3390/ijms22020928 | sì | 4 (3/0/1) | termica 2, desolvatazione 2 | 2 | 0 | 2 | 4/0/0 |
 
-Totale: 81 eventi (49 avvenuti, 32 negativi), 31 preparazioni, 4 relazioni, 12 molecole; nessun respinto, nessun «quasi». I negativi sono il 40 % degli eventi del blocco (nel blocco 04 erano circa la metà dei 190 senza la regola nuova, ma concentrati in pochi articoli).
+Totale: 81 eventi (49 avvenuti, 32 negativi), 31 preparazioni, 4 relazioni, 12 molecole; nessun respinto, nessun «quasi». I negativi sono il 40 % degli eventi del blocco (32 su 81).
 
 Note per articolo (fatti incontrati, non proposte):
 - **cryst12040550** (baloxavir marboxil): «DSC curve of Form II and III shows stability up to approximately 235.5 °C and 238.7 °C» → due negativi con soglia; fusione di II e III senza temperatura (certezza bassa). Form III → Form I in dissoluzione a pH 1.2; Form I e II invariate (anche 7 giorni in acqua). Table 1: temperature e CCDC non legati alle forme (attribuiti per ordine di colonna).
