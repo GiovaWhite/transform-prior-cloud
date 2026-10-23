@@ -1,0 +1,2235 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1039/c6ce00872k",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "1471780-147190"
+ ],
+ "note": "Materiali ospite-ospitante di N-phenylurea e 5-nitroisophthalic acid (IM1-IM7, CIM1, CIM2, due non solvatati NS1 e NS2). Ogni solvato/idrato e' un cocristallo con ospite: i componenti N-phenylurea e 5-nitroisophthalic acid in `componenti`, l'ospite in `ospite` con `riferito_a: unita_formula` (la stechiometria e' per unita' formula del cocristallo, come scritta: 7:4:2, 3:2:1, 1:1:0.5:1). Le temperature sono gli onset della Table 9 (il testo: «onset temperatures of the desolvation endotherms»); le colonne della tabella sono state assegnate dalla spaziatura del PDF (celle vuote), e per IM7 Endotherm 1 e' 143.4 °C anche se il testo dice «below 130 ᵒC». Non estratti: la TG (tre passi di perdita di massa: guest, poi N-phenylurea e 5-nitroisophthalic acid dell'ospitante; valori attesi e osservati in Table S12, supplementare); le fusioni intermedie delle IM (Melt 1, 2, 3 della Table 9, senza attribuzione); densita', volumi dei vuoti e distanza fra gli strati (proprieta' delle forme, non eventi). Il cambiamento del rapporto di partenza dei componenti (1:1, 2:1, 1:2) non cambia la rete ospitante, tranne per CIM1: nessun evento, e' un'osservazione sulle preparazioni. Incoerenze dell'articolo: Table 9 NS2 Melt 1 = 134.8 contro «Tonset 134.7» nel testo; ricristallizzazione di NS2 a 157.1 °C contro «ca. Tonset 170 ᵒC» per tutte; IM7 Endotherm 1 143.4 °C contro «below 130 ᵒC»; «CCDC 1471780-147190» (intervallo troncato); NS2 «2:2 ratio» nei risultati e 1:1 nella formula; numerazione doppia «Table 7»; in Experimental «Non-solvated form 1 (NS2)».",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "N-phenylurea",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "5-nitroisophthalic acid",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "IM1",
+   "etichette_alternative": [
+    "Inclusion material 1"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 7
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 4
+    }
+   ],
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 12.2579,
+    "b": 14.7289,
+    "c": 23.505,
+    "alpha": 94.49,
+    "beta": 91.215,
+    "gamma": 90.291,
+    "V": 4229.6,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471780",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "carboxylic acid:amide R2^2(8) synthon (four, in U:A and U:A:U motifs); ring of eight building blocks",
+     "chi": "carboxylic acid – amide",
+     "citazione": "via four carboxylic acid:amide"
+    },
+    {
+     "motivo": "R8^8(42) ring (graph set)",
+     "chi": "ring network of eight molecular building blocks",
+     "citazione": "At first glance, the host ring networks in IM1 – IM5 appear 𝟖(42). However, isostructural, having the same graphset notation 𝑹𝟖 the arrangement of the hydrogen bond synthons in space"
+    },
+    {
+     "motivo": "guest tethered to host carboxylic acid hydroxyl by O–H···O (methanol)",
+     "chi": "carboxylic acid hydroxyl – guest",
+     "citazione": "Guest inclusion occurs in IM1 – IM6 and CIM1 and CIM2 by tethering to a carboxylic acid hydroxyl group of the host via an O—H∙∙∙O or O—H∙∙∙N hydrogen bond that is not involved in formation of the hydrogen bonded host"
+    }
+   ],
+   "citazione": "Inclusion material 1 (IM1) – Yellow block shaped crystals of the 7:4:2 complex of N-phenylurea, 5-nitroisophthalic acid and methanol were grown from methanol solvent at 40 ᵒC.",
+   "note": "7:4:2 = N-phenylurea : 5-nitroisophthalic acid : methanol per unita' formula (C83H84N18O33, Table 1; Table 5 per unita' asimmetrica: 7, 4, 2). Cella da Table 1 (150 K, Z = 2). CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F2",
+   "etichetta": "IM2",
+   "etichette_alternative": [
+    "Inclusion material 2"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 3
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "ospite": [
+    {
+     "specie": "ethanol",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 6.9335,
+    "b": 12.4902,
+    "c": 25.4854,
+    "alpha": 89.062,
+    "beta": 83.694,
+    "gamma": 74.923,
+    "V": 2118.02,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1471781",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R8^8(42) ring (graph set)",
+     "chi": "ring network of eight molecular building blocks",
+     "citazione": "At first glance, the host ring networks in IM1 – IM5 appear 𝟖(42). However, isostructural, having the same graphset notation 𝑹𝟖 the arrangement of the hydrogen bond synthons in space"
+    },
+    {
+     "motivo": "guest tethered to host carboxylic acid hydroxyl by O–H···O (ethanol)",
+     "chi": "carboxylic acid hydroxyl – guest",
+     "citazione": "Guest inclusion occurs in IM1 – IM6 and CIM1 and CIM2 by tethering to a carboxylic acid hydroxyl group of the host via an O—H∙∙∙O or O—H∙∙∙N hydrogen bond that is not involved in formation of the hydrogen bonded host"
+    }
+   ],
+   "citazione": "Inclusion material 2 (IM2) – Yellow needle shaped crystals of the 3:2:1:1 complex of N-phenylurea, 5-nitroisophthalic acid, ethanol and water were grown from ethanol solvent at room temperature.",
+   "note": "3:2:1:1 = N-phenylurea : 5-nitroisophthalic acid : ethanol : water (C39H42N8O17). Cella da Table 1 (100 K, Z = 2). L'acqua e' inclusa insieme al solvente di cristallizzazione. CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F3",
+   "etichetta": "IM3",
+   "etichette_alternative": [
+    "Inclusion material 3"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 3
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 10.0887,
+    "b": 12.3161,
+    "c": 17.3345,
+    "alpha": 70.478,
+    "beta": 87.122,
+    "gamma": 87.659,
+    "V": 2026.83,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471782",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R8^8(42) ring (graph set)",
+     "chi": "ring network of eight molecular building blocks",
+     "citazione": "At first glance, the host ring networks in IM1 – IM5 appear 𝟖(42). However, isostructural, having the same graphset notation 𝑹𝟖 the arrangement of the hydrogen bond synthons in space"
+    },
+    {
+     "motivo": "guest tethered to host carboxylic acid hydroxyl by O–H···N (acetonitrile)",
+     "chi": "carboxylic acid hydroxyl – guest",
+     "citazione": "Guest inclusion occurs in IM1 – IM6 and CIM1 and CIM2 by tethering to a carboxylic acid hydroxyl group of the host via an O—H∙∙∙O or O—H∙∙∙N hydrogen bond that is not involved in formation of the hydrogen bonded host"
+    }
+   ],
+   "citazione": "Inclusion material 3 (IM3) – Yellow block shaped crystals of the 3:2:1 complex of N-phenylurea, 5-nitroisophthalic acid and acetonitrile were grown from acetonitrile solvent at 40 ᵒC.",
+   "note": "3:2:1 = N-phenylurea : 5-nitroisophthalic acid : acetonitrile (C39H37N9O15). Cella da Table 1 (150 K, Z = 2). CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F4",
+   "etichetta": "IM4",
+   "etichette_alternative": [
+    "Inclusion material 4"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 3
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "ospite": [
+    {
+     "specie": "acetone",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 12.3639,
+    "b": 13.0486,
+    "c": 13.8208,
+    "alpha": 71.686,
+    "beta": 89.156,
+    "gamma": 87.439,
+    "V": 2114.7,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471783",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R8^8(42) ring (graph set)",
+     "chi": "ring network of eight molecular building blocks",
+     "citazione": "At first glance, the host ring networks in IM1 – IM5 appear 𝟖(42). However, isostructural, having the same graphset notation 𝑹𝟖 the arrangement of the hydrogen bond synthons in space"
+    },
+    {
+     "motivo": "water tethers to host carboxylic acid hydroxyl; acetone held by guest-guest O–H···O to water",
+     "chi": "carboxylic acid hydroxyl – water – acetone",
+     "citazione": "In IM4 and IM5, water acts as the tether to the host framework by interacting with the carboxylic acid hydroxyl group and the second solvent molecule is held in place by a guest-guest"
+    }
+   ],
+   "citazione": "Inclusion material 4 (IM4) – Yellow plate shaped crystals of the 3:2:1:1 complex of N-phenylurea, 5-nitroisophthalic acid, acetone and water were grown from acetone solvent at 30 ᵒC.",
+   "note": "3:2:1:1 = N-phenylurea : 5-nitroisophthalic acid : acetone : water (C40H42N8O17). Cella da Table 1 (150 K, Z = 2). CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F5",
+   "etichetta": "IM5",
+   "etichette_alternative": [
+    "Inclusion material 5"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 3
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "ospite": [
+    {
+     "specie": "tetrahydrofuran (THF)",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 12.3606,
+    "b": 13.4644,
+    "c": 14.3535,
+    "alpha": 81.404,
+    "beta": 83.684,
+    "gamma": 64.194,
+    "V": 2123.73,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471784",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R8^8(42) ring (graph set)",
+     "chi": "ring network of eight molecular building blocks",
+     "citazione": "At first glance, the host ring networks in IM1 – IM5 appear 𝟖(42). However, isostructural, having the same graphset notation 𝑹𝟖 the arrangement of the hydrogen bond synthons in space"
+    },
+    {
+     "motivo": "water tethers to host carboxylic acid hydroxyl; THF held by guest-guest O–H···O to water",
+     "chi": "carboxylic acid hydroxyl – water – THF",
+     "citazione": "In IM4 and IM5, water acts as the tether to the host framework by interacting with the carboxylic acid hydroxyl group and the second solvent molecule is held in place by a guest-guest"
+    }
+   ],
+   "citazione": "Inclusion material 5 (IM5) – Yellow block shaped crystals of the 3:2:1:1 complex of N-phenylurea, 5-nitroisophthalic acid, THF and water were grown from THF solvent at 30 ᵒC.",
+   "note": "3:2:1:1 = N-phenylurea : 5-nitroisophthalic acid : THF : water (C41H44N8O17). Cella da Table 1 (150 K, Z = 2). CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F6",
+   "etichetta": "IM6",
+   "etichette_alternative": [
+    "Inclusion material 6"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 3
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "ospite": {
+    "specie": "ethyl acetate",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 9.8732,
+    "b": 10.997,
+    "c": 20.4449,
+    "alpha": 80.035,
+    "beta": 89.288,
+    "gamma": 77.29,
+    "V": 2131.99,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471785",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R8^8(40) expanded ring (graph set)",
+     "chi": "ring network of eight molecular building blocks",
+     "citazione": "The hydrogen bonded network in IM6 contains the same number of each hydrogen bond synthon as in IM1 – IM5 but has an expanded ring"
+    },
+    {
+     "motivo": "R8^8(40) expanded ring (graph set), notazione",
+     "chi": "ring network",
+     "citazione": "𝟖(40). In IM7, a structure with a different graphset notation of"
+    },
+    {
+     "motivo": "guest tethered to host carboxylic acid hydroxyl by O–H···O (ethyl acetate)",
+     "chi": "carboxylic acid hydroxyl – guest",
+     "citazione": "Guest inclusion occurs in IM1 – IM6 and CIM1 and CIM2 by tethering to a carboxylic acid hydroxyl group of the host via an O—H∙∙∙O or O—H∙∙∙N hydrogen bond that is not involved in formation of the hydrogen bonded host"
+    }
+   ],
+   "citazione": "Inclusion material 6 (IM6) – Yellow plate shaped crystals of the 3:2:1 complex of N-phenylurea, 5-nitroisophthalic acid and ethyl acetate were grown from ethyl acetate solvent at room temperature.",
+   "note": "3:2:1 = N-phenylurea : 5-nitroisophthalic acid : ethyl acetate (C41H42N8O17). Cella da Table 1 (150 K, Z = 2). Anello espanso (circa 15 Å). CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F7",
+   "etichetta": "IM7",
+   "etichette_alternative": [
+    "Inclusion material 7"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": [
+    {
+     "specie": "tetrahydrofuran (THF)",
+     "stechiometria": 0.5,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "methanol",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 9.9483,
+    "b": 9.9564,
+    "c": 10.6641,
+    "alpha": 66.488,
+    "beta": 75.79,
+    "gamma": 71.335,
+    "V": 909.16,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471786",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R6^6(36) ring (graph set)",
+     "chi": "ring network of six molecular building blocks",
+     "citazione": "different combination of synthons to IM1 – IM6, are present and the overall hydrogen bonding network is altered, with graphset notation 𝟔(36)."
+    },
+    {
+     "motivo": "carboxylic acid dimer R2^2(8) (two)",
+     "chi": "5-nitroisophthalic acid – 5-nitroisophthalic acid",
+     "citazione": "bond synthons and two carboxylic acid dimer"
+    },
+    {
+     "motivo": "guests held by pi-interactions to host rings in the layers above and below (no carboxylic acid hydroxyl to tether)",
+     "chi": "guest – host rings",
+     "citazione": "Instead, the guest species are held in place by π-interactions to host rings in the layers above and below (dπ∙∙∙π 3.220(5) to 3.316(5)"
+    }
+   ],
+   "citazione": "Inclusion material 7 (IM7) – Yellow block shaped crystals of the 1:1:0.5:1 complex of N-phenylurea, 5-nitroisophthalic acid, THF and methanol were grown from a 50:50 solvent volume mix of THF and methanol solvent, at room temperature.",
+   "note": "1:1:0.5:1 = N-phenylurea : 5-nitroisophthalic acid : THF : methanol (C18H21N3O8.5; Table 5: 1.5 molecole di ospite). Cella da Table 2 (150 K, Z = 2). Canali. CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F8",
+   "etichetta": "CIM1",
+   "etichette_alternative": [
+    "Condensed inclusion material 1"
+   ],
+   "tipo": [
+    "cocristallo",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 6.8562,
+    "b": 11.9649,
+    "c": 20.6362,
+    "alpha": 78.951,
+    "beta": 88.87,
+    "gamma": 76.106,
+    "V": 1612.26,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471787",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "condensed network: carboxylic acid:amide synthon (U:A motif) alongside a nitro:amide synthon (graph-set labels garbled in the text)",
+     "chi": "portions of the ring networks",
+     "citazione": "present in IM1 – IM6; carboxylic acid:amide 𝑅2 2(8) synthons, in a U:A motif, form in both alongside a nitro:amide 𝑅2 1(6) hydrogen bond synthon in CIM1 and a carboxylic acid:amide 𝑅2 synthon in CIM2."
+    }
+   ],
+   "citazione": "Condensed inclusion material 1 (CIM1) – Yellow fine needle shaped crystals of the 2:2:2 complex of N-phenylurea, 5-nitroisophthalic acid and water were grown from ethyl acetate solvent at room temperature.",
+   "note": "2:2:2 = N-phenylurea : 5-nitroisophthalic acid : water per unita' formula (C30H30N6O16; Table 5 per unita' asimmetrica: 1, 1, 1). Cella da Table 2 (150 K, Z = 2). Acqua inclusa solo cristallizzando da acetato di etile con rapporto 1:1. CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F9",
+   "etichetta": "CIM2",
+   "etichette_alternative": [
+    "Condensed inclusion material 2"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "acetone",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 7.7787,
+    "b": 18.8747,
+    "c": 13.0343,
+    "alpha": 90,
+    "beta": 91.528,
+    "gamma": 90,
+    "V": 1913.02,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471788",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "condensed network: carboxylic acid:amide synthon (U:A motif) plus a second carboxylic acid:amide synthon (graph-set labels garbled in the text)",
+     "chi": "portions of the ring networks",
+     "citazione": "present in IM1 – IM6; carboxylic acid:amide 𝑅2 2(8) synthons, in a U:A motif, form in both alongside a nitro:amide 𝑅2 1(6) hydrogen bond synthon in CIM1 and a carboxylic acid:amide 𝑅2 synthon in CIM2."
+    }
+   ],
+   "citazione": "Condensed inclusion material 2 (CIM2) – Colourless rectangular block shaped crystals of the 1:1:1 complex of N-phenylurea, 5-",
+   "note": "1:1:1 = N-phenylurea : 5-nitroisophthalic acid : acetone (C18H19N3O8). Cella da Table 2 (150 K, Z = 4). Il testo e' interrotto da un'intestazione di pagina fra «5-» e «nitroisophthalic»: seconda meta' della frase nelle preparazioni. CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F10",
+   "etichetta": "NS1",
+   "etichette_alternative": [
+    "Non-solvated form 1",
+    "non-solvated N-phenylurea 5-nitroisophthalic acid complex (2:1)"
+   ],
+   "tipo": "cocristallo",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 8.9131,
+    "b": 9.7105,
+    "c": 13.3778,
+    "alpha": 71.44,
+    "beta": 78.479,
+    "gamma": 83.019,
+    "V": 1073.43,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471789",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "carboxylic acid:amide R2^2(8) synthon (additional one, N-phenylurea in the centre of the ring in place of the guest)",
+     "chi": "carboxylic acid – amide",
+     "citazione": "in NS1, an N-phenylurea molecule sits in place of the guest in the centre of the ring and an additional carboxylic 𝟐(8) hydrogen bond synthon is formed."
+    }
+   ],
+   "citazione": "Non-solvated form 1 (NS1) – Pale yellow plate shaped crystals of the 2:1 complex of N-phenylurea and 5-nitroisophthalic acid were grown from water at room temperature.",
+   "note": "2:1 = N-phenylurea : 5-nitroisophthalic acid (C22H21N5O8). Cella da Table 2 (150 K, Z = 2). Prodotto di desolvatazione di IM1-IM7 e CIM2 e di conversione di NS2. CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F11",
+   "etichetta": "NS2",
+   "etichette_alternative": [
+    "Non-solvated form 2"
+   ],
+   "tipo": "cocristallo",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 15.1254,
+    "b": 12.7462,
+    "c": 16.2905,
+    "alpha": 90,
+    "beta": 107.286,
+    "gamma": 90,
+    "V": 2998.81,
+    "Z": 8,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": "1471790",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "single carboxylic acid:amide R2^2(8) synthon (U:A motif) with nitro:amide R2^1(6) synthon",
+     "chi": "carboxylic acid – amide; nitro – amide",
+     "citazione": "different structure to all other complexes discussed here. A single 𝟐(8) hydrogen bond synthon is formed, in a carboxylic acid:amide 𝑹𝟐 𝟏(6) hydrogen bond synthon and U:A motif, alongside a nitro:amide"
+    }
+   ],
+   "citazione": "Non-solvated form 1 (NS2) – Yellow plate shaped crystals of the 1:1 complex of N-phenylurea and 5-nitroisophthalic acid were grown from diethyl ether at 30ᵒC.",
+   "note": "1:1 = N-phenylurea : 5-nitroisophthalic acid (C15H13N3O7, Table 2, Z = 8); nei risultati e' scritto «in a 2:2 ratio» (stesso rapporto). Nell'elenco dei metodi l'etichetta e' «Non-solvated form 1 (NS2)» (refuso). Struttura molto diversa dalle altre. CCDC: il testo scrive «CCDC 1471780-147190» (intervallo con la fine troncata) e il supplementare elenca gli CIF «for IM1 to IM7, CIM1, CIM2, NS1 and NS2», cioe' 11 strutture: 1471780 + posizione (11 numeri, 1471780-1471790). Attribuito per ordine (ccdc_dedotto)."
+  },
+  {
+   "id": "F12",
+   "etichetta": "UN1",
+   "etichette_alternative": [
+    "unidentified product 1"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "The presence of a more stable higher temperature form of NS1 (UN1) is suggested by both DSC and PXRD analysis however the identity of this product is unknown.",
+   "note": "Prodotto non identificato («unidentified»): forma piu' stabile ad alta temperatura di NS1; indicizzazione e Pawley inconcludenti."
+  },
+  {
+   "id": "F13",
+   "etichetta": "UN2",
+   "etichette_alternative": [
+    "unidentified product 2"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "PXRD analysis of CIM1 at 25ᵒC and on samples preheated to 145 ᵒC (Fig. 9), past the desolvation point just below the melt temperature, confirmed a structural change (Fig. S16 †) and that desolvation did not lead to NS1 (Fig. 9) but to an unidentified product (UN2).",
+   "note": "Prodotto non identificato della desolvatazione di CIM1."
+  },
+  {
+   "id": "F14",
+   "etichetta": "UN3",
+   "etichette_alternative": [
+    "unidentified product 3"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "PXRD analysis of UN2, preheated further to 189 ᵒC, confirmed a further structural change and  indicated the  formation of  a  different  unidentified recrystallisation product (UN3) to that of UN1.",
+   "note": "Prodotto non identificato della ricristallizzazione di UN2, diverso da UN1."
+  },
+  {
+   "id": "F15",
+   "composto": "C1",
+   "etichetta": "native crystal structure (PHUREA01)",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "refcode": "PHUREA01",
+   "citazione": "angles between the plane of the two moieties range from ca. 0 to 35 ᵒ in the IMs versus ca. 48 ᵒ in the native crystal structure CSD Refcode PHUREA01.",
+   "note": "Struttura nativa dell'N-phenylurea citata per confronto (angolo urea-fenile ca. 48°); nessun evento."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F11",
+    "F10"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F10",
+   "condizioni": "riscaldamento (conversione di NS2 in NS1)",
+   "citazione": "NS1 has a greater thermal stability than NS2, shown by conversion of NS2 on heating to NS1, and is therefore likely to be the thermodynamically more favourable desolvation product",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Maggiore stabilita' termica di NS1 (fusione a Tonset 163.0 contro 134.7 °C per NS2); «likely to be the thermodynamically more favourable»: ipotesi degli autori."
+  },
+  {
+   "forme": [
+    "F10",
+    "F12"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F12",
+   "condizioni": "alta temperatura (dopo la ricristallizzazione di NS1, ca. 170 °C)",
+   "citazione": "The presence of a more stable higher temperature form of NS1 (UN1) is suggested by both DSC and PXRD analysis however the identity of this product is unknown.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "UN1 e' detta «a more stable higher temperature form of NS1», non identificata."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 103.3,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "HSM",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "The broad endotherms, below 130 ᵒC, in the DSC trace for each IM correspond to the loss of the solvent guest from the host; these occur within the temperature range of the first mass loss step in the TG curves of each IM. Two endotherms are present in the case of IM2, IM4 and IM5, where two types of guests occupy the host structure. The differing onset temperatures of the desolvation endotherms indicate there is a significant difference in energy required to remove each guest molecule from the host structure across the different IMs",
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "IM1  103.3    138.6  159.7    169.2",
+    "A melt present in the DSC traces of IM1 – IM7 and CIM2, post desolvation at Tonset ca. 150 ᵒC, matches the main melt of NS1, suggesting the identity of the desolvation product as NS1.",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9).",
+    "HSM on single crystals of IM1 – IM7, CIM1 and CIM2 indicated loss of single crystallinity upon desolvation",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out.",
+    "Samples (5 to 10 mg) were measured in an Alumina crucible, 170 μl, under an Argon gas purge, flow rate 20 ml min-1. A heating regime of 5 ᵒC min-1, between 20 and 400 ᵒC, was carried out on each sample",
+    "Single crystals of each complex were heated from ambient temperature to a final temperature of 290 °C, at a rate of 5 °C per minute.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)",
+    "The conversion to NS1 results in the fulfilment of the hydrogen",
+    "bonding capabilities of this group, accompanied by the replacement of the solvent in the hydrogen bonded ring host network with an N- phenylurea molecular building block."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Temperatura: onset della/e endoterma/e di desolvatazione in DSC (Table 9, Endotherm 1; il testo parla di «onset temperatures of the desolvation endotherms»), 5 °C/min, pan Tzero di alluminio sigillato (3-6 mg), 20-290 °C. Prodotto NS1: la fusione dopo la desolvatazione coincide con la fusione principale di NS1 e la PXRD su polveri preriscaldate su HSM a 145 o 150 °C (il testo non dice quale per ogni materiale) conferma NS1. TG-MS (crogiolo di allumina, Ar, 5 °C/min): il primo passo di perdita di massa e' l'ospite, identificato con MS; i valori attesi e osservati stanno nella Table S12 (supplementare). In HSM i cristalli singoli perdono la cristallinita' singola e danno una polvere.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "5-nitroisophthalic acid hydroxyl",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "cambia_partner",
+     "forma": "F1",
+     "citazione": "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)"
+    }
+   ],
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valori": [
+      86.9,
+      112.8
+     ],
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "HSM",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "The broad endotherms, below 130 ᵒC, in the DSC trace for each IM correspond to the loss of the solvent guest from the host; these occur within the temperature range of the first mass loss step in the TG curves of each IM. Two endotherms are present in the case of IM2, IM4 and IM5, where two types of guests occupy the host structure. The differing onset temperatures of the desolvation endotherms indicate there is a significant difference in energy required to remove each guest molecule from the host structure across the different IMs",
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "IM2  86.9  112.8    163.4  169.0  172.2",
+    "A melt present in the DSC traces of IM1 – IM7 and CIM2, post desolvation at Tonset ca. 150 ᵒC, matches the main melt of NS1, suggesting the identity of the desolvation product as NS1.",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9).",
+    "HSM on single crystals of IM1 – IM7, CIM1 and CIM2 indicated loss of single crystallinity upon desolvation",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out.",
+    "Samples (5 to 10 mg) were measured in an Alumina crucible, 170 μl, under an Argon gas purge, flow rate 20 ml min-1. A heating regime of 5 ᵒC min-1, between 20 and 400 ᵒC, was carried out on each sample",
+    "Single crystals of each complex were heated from ambient temperature to a final temperature of 290 °C, at a rate of 5 °C per minute.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)",
+    "The conversion to NS1 results in the fulfilment of the hydrogen",
+    "bonding capabilities of this group, accompanied by the replacement of the solvent in the hydrogen bonded ring host network with an N- phenylurea molecular building block."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Temperatura: onset della/e endoterma/e di desolvatazione in DSC (Table 9, Endotherm 1 e 2; il testo parla di «onset temperatures of the desolvation endotherms»), 5 °C/min, pan Tzero di alluminio sigillato (3-6 mg), 20-290 °C. Prodotto NS1: la fusione dopo la desolvatazione coincide con la fusione principale di NS1 e la PXRD su polveri preriscaldate su HSM a 145 o 150 °C (il testo non dice quale per ogni materiale) conferma NS1. TG-MS (crogiolo di allumina, Ar, 5 °C/min): il primo passo di perdita di massa e' l'ospite, identificato con MS; i valori attesi e osservati stanno nella Table S12 (supplementare). In HSM i cristalli singoli perdono la cristallinita' singola e danno una polvere. Due endoterme (due tipi di ospite: etanolo e acqua); l'articolo non dice quale endoterma sia di quale ospite.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "5-nitroisophthalic acid hydroxyl",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "cambia_partner",
+     "forma": "F2",
+     "citazione": "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)"
+    }
+   ],
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 106.6,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "HSM",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "The broad endotherms, below 130 ᵒC, in the DSC trace for each IM correspond to the loss of the solvent guest from the host; these occur within the temperature range of the first mass loss step in the TG curves of each IM. Two endotherms are present in the case of IM2, IM4 and IM5, where two types of guests occupy the host structure. The differing onset temperatures of the desolvation endotherms indicate there is a significant difference in energy required to remove each guest molecule from the host structure across the different IMs",
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "IM3  106.6    138.1  162.7  168.8  174.1",
+    "A melt present in the DSC traces of IM1 – IM7 and CIM2, post desolvation at Tonset ca. 150 ᵒC, matches the main melt of NS1, suggesting the identity of the desolvation product as NS1.",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9).",
+    "HSM on single crystals of IM1 – IM7, CIM1 and CIM2 indicated loss of single crystallinity upon desolvation",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out.",
+    "Samples (5 to 10 mg) were measured in an Alumina crucible, 170 μl, under an Argon gas purge, flow rate 20 ml min-1. A heating regime of 5 ᵒC min-1, between 20 and 400 ᵒC, was carried out on each sample",
+    "Single crystals of each complex were heated from ambient temperature to a final temperature of 290 °C, at a rate of 5 °C per minute.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)",
+    "The conversion to NS1 results in the fulfilment of the hydrogen",
+    "bonding capabilities of this group, accompanied by the replacement of the solvent in the hydrogen bonded ring host network with an N- phenylurea molecular building block."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Temperatura: onset della/e endoterma/e di desolvatazione in DSC (Table 9, Endotherm 1; il testo parla di «onset temperatures of the desolvation endotherms»), 5 °C/min, pan Tzero di alluminio sigillato (3-6 mg), 20-290 °C. Prodotto NS1: la fusione dopo la desolvatazione coincide con la fusione principale di NS1 e la PXRD su polveri preriscaldate su HSM a 145 o 150 °C (il testo non dice quale per ogni materiale) conferma NS1. TG-MS (crogiolo di allumina, Ar, 5 °C/min): il primo passo di perdita di massa e' l'ospite, identificato con MS; i valori attesi e osservati stanno nella Table S12 (supplementare). In HSM i cristalli singoli perdono la cristallinita' singola e danno una polvere.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "5-nitroisophthalic acid hydroxyl",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "cambia_partner",
+     "forma": "F3",
+     "citazione": "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)"
+    }
+   ],
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E4",
+   "da": "F4",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valori": [
+      80.8,
+      99.8
+     ],
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "HSM",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "The broad endotherms, below 130 ᵒC, in the DSC trace for each IM correspond to the loss of the solvent guest from the host; these occur within the temperature range of the first mass loss step in the TG curves of each IM. Two endotherms are present in the case of IM2, IM4 and IM5, where two types of guests occupy the host structure. The differing onset temperatures of the desolvation endotherms indicate there is a significant difference in energy required to remove each guest molecule from the host structure across the different IMs",
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "IM4  80.8  99.8    159.1  166.1  170.7",
+    "A melt present in the DSC traces of IM1 – IM7 and CIM2, post desolvation at Tonset ca. 150 ᵒC, matches the main melt of NS1, suggesting the identity of the desolvation product as NS1.",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9).",
+    "HSM on single crystals of IM1 – IM7, CIM1 and CIM2 indicated loss of single crystallinity upon desolvation",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out.",
+    "Samples (5 to 10 mg) were measured in an Alumina crucible, 170 μl, under an Argon gas purge, flow rate 20 ml min-1. A heating regime of 5 ᵒC min-1, between 20 and 400 ᵒC, was carried out on each sample",
+    "Single crystals of each complex were heated from ambient temperature to a final temperature of 290 °C, at a rate of 5 °C per minute.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)",
+    "The conversion to NS1 results in the fulfilment of the hydrogen",
+    "bonding capabilities of this group, accompanied by the replacement of the solvent in the hydrogen bonded ring host network with an N- phenylurea molecular building block."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Temperatura: onset della/e endoterma/e di desolvatazione in DSC (Table 9, Endotherm 1 e 2; il testo parla di «onset temperatures of the desolvation endotherms»), 5 °C/min, pan Tzero di alluminio sigillato (3-6 mg), 20-290 °C. Prodotto NS1: la fusione dopo la desolvatazione coincide con la fusione principale di NS1 e la PXRD su polveri preriscaldate su HSM a 145 o 150 °C (il testo non dice quale per ogni materiale) conferma NS1. TG-MS (crogiolo di allumina, Ar, 5 °C/min): il primo passo di perdita di massa e' l'ospite, identificato con MS; i valori attesi e osservati stanno nella Table S12 (supplementare). In HSM i cristalli singoli perdono la cristallinita' singola e danno una polvere. Due endoterme (due tipi di ospite: acetone e acqua); l'articolo non dice quale endoterma sia di quale ospite.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "5-nitroisophthalic acid hydroxyl",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "cambia_partner",
+     "forma": "F4",
+     "citazione": "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)"
+    }
+   ],
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E5",
+   "da": "F5",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valori": [
+      76.0,
+      89.5
+     ],
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "HSM",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "The broad endotherms, below 130 ᵒC, in the DSC trace for each IM correspond to the loss of the solvent guest from the host; these occur within the temperature range of the first mass loss step in the TG curves of each IM. Two endotherms are present in the case of IM2, IM4 and IM5, where two types of guests occupy the host structure. The differing onset temperatures of the desolvation endotherms indicate there is a significant difference in energy required to remove each guest molecule from the host structure across the different IMs",
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "IM5  76.0  89.5  136.1  159.8  165.7  167.8",
+    "A melt present in the DSC traces of IM1 – IM7 and CIM2, post desolvation at Tonset ca. 150 ᵒC, matches the main melt of NS1, suggesting the identity of the desolvation product as NS1.",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9).",
+    "HSM on single crystals of IM1 – IM7, CIM1 and CIM2 indicated loss of single crystallinity upon desolvation",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out.",
+    "Samples (5 to 10 mg) were measured in an Alumina crucible, 170 μl, under an Argon gas purge, flow rate 20 ml min-1. A heating regime of 5 ᵒC min-1, between 20 and 400 ᵒC, was carried out on each sample",
+    "Single crystals of each complex were heated from ambient temperature to a final temperature of 290 °C, at a rate of 5 °C per minute.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)",
+    "The conversion to NS1 results in the fulfilment of the hydrogen",
+    "bonding capabilities of this group, accompanied by the replacement of the solvent in the hydrogen bonded ring host network with an N- phenylurea molecular building block."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Temperatura: onset della/e endoterma/e di desolvatazione in DSC (Table 9, Endotherm 1 e 2; il testo parla di «onset temperatures of the desolvation endotherms»), 5 °C/min, pan Tzero di alluminio sigillato (3-6 mg), 20-290 °C. Prodotto NS1: la fusione dopo la desolvatazione coincide con la fusione principale di NS1 e la PXRD su polveri preriscaldate su HSM a 145 o 150 °C (il testo non dice quale per ogni materiale) conferma NS1. TG-MS (crogiolo di allumina, Ar, 5 °C/min): il primo passo di perdita di massa e' l'ospite, identificato con MS; i valori attesi e osservati stanno nella Table S12 (supplementare). In HSM i cristalli singoli perdono la cristallinita' singola e danno una polvere. Due endoterme (due tipi di ospite: THF e acqua); l'articolo non dice quale endoterma sia di quale ospite.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "5-nitroisophthalic acid hydroxyl",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "cambia_partner",
+     "forma": "F5",
+     "citazione": "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)"
+    }
+   ],
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E6",
+   "da": "F6",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 95.8,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "HSM",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "The broad endotherms, below 130 ᵒC, in the DSC trace for each IM correspond to the loss of the solvent guest from the host; these occur within the temperature range of the first mass loss step in the TG curves of each IM. Two endotherms are present in the case of IM2, IM4 and IM5, where two types of guests occupy the host structure. The differing onset temperatures of the desolvation endotherms indicate there is a significant difference in energy required to remove each guest molecule from the host structure across the different IMs",
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "IM6  95.8    136.6  161.2  168.2  170.1",
+    "A melt present in the DSC traces of IM1 – IM7 and CIM2, post desolvation at Tonset ca. 150 ᵒC, matches the main melt of NS1, suggesting the identity of the desolvation product as NS1.",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9).",
+    "HSM on single crystals of IM1 – IM7, CIM1 and CIM2 indicated loss of single crystallinity upon desolvation",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out.",
+    "Samples (5 to 10 mg) were measured in an Alumina crucible, 170 μl, under an Argon gas purge, flow rate 20 ml min-1. A heating regime of 5 ᵒC min-1, between 20 and 400 ᵒC, was carried out on each sample",
+    "Single crystals of each complex were heated from ambient temperature to a final temperature of 290 °C, at a rate of 5 °C per minute.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)",
+    "The conversion to NS1 results in the fulfilment of the hydrogen",
+    "bonding capabilities of this group, accompanied by the replacement of the solvent in the hydrogen bonded ring host network with an N- phenylurea molecular building block.",
+    "significant for IM6, where the expanded hydrogen bond network"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Temperatura: onset della/e endoterma/e di desolvatazione in DSC (Table 9, Endotherm 1; il testo parla di «onset temperatures of the desolvation endotherms»), 5 °C/min, pan Tzero di alluminio sigillato (3-6 mg), 20-290 °C. Prodotto NS1: la fusione dopo la desolvatazione coincide con la fusione principale di NS1 e la PXRD su polveri preriscaldate su HSM a 145 o 150 °C (il testo non dice quale per ogni materiale) conferma NS1. TG-MS (crogiolo di allumina, Ar, 5 °C/min): il primo passo di perdita di massa e' l'ospite, identificato con MS; i valori attesi e osservati stanno nella Table S12 (supplementare). In HSM i cristalli singoli perdono la cristallinita' singola e danno una polvere. Per IM6 la rete espansa si condensa nella conversione a NS1.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "5-nitroisophthalic acid hydroxyl",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "cambia_partner",
+     "forma": "F6",
+     "citazione": "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)"
+    }
+   ],
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E7",
+   "da": "F7",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 143.4,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "HSM",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "The broad endotherms, below 130 ᵒC, in the DSC trace for each IM correspond to the loss of the solvent guest from the host; these occur within the temperature range of the first mass loss step in the TG curves of each IM. Two endotherms are present in the case of IM2, IM4 and IM5, where two types of guests occupy the host structure. The differing onset temperatures of the desolvation endotherms indicate there is a significant difference in energy required to remove each guest molecule from the host structure across the different IMs",
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "IM7  143.4      158.6  167.0  172.3",
+    "A melt present in the DSC traces of IM1 – IM7 and CIM2, post desolvation at Tonset ca. 150 ᵒC, matches the main melt of NS1, suggesting the identity of the desolvation product as NS1.",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9).",
+    "HSM on single crystals of IM1 – IM7, CIM1 and CIM2 indicated loss of single crystallinity upon desolvation",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out.",
+    "Samples (5 to 10 mg) were measured in an Alumina crucible, 170 μl, under an Argon gas purge, flow rate 20 ml min-1. A heating regime of 5 ᵒC min-1, between 20 and 400 ᵒC, was carried out on each sample",
+    "Single crystals of each complex were heated from ambient temperature to a final temperature of 290 °C, at a rate of 5 °C per minute.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "which switches a carboxylic acid dimer",
+    "bond synthon for a carboxylic acid:amide",
+    "In the case of IM7, the fact an empty host network is not formed is more surprising; guest removal can occur from the channels without disrupting the hydrogen bonded ring."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Temperatura: onset della/e endoterma/e di desolvatazione in DSC (Table 9, Endotherm 1; il testo parla di «onset temperatures of the desolvation endotherms»), 5 °C/min, pan Tzero di alluminio sigillato (3-6 mg), 20-290 °C. Prodotto NS1: la fusione dopo la desolvatazione coincide con la fusione principale di NS1 e la PXRD su polveri preriscaldate su HSM a 145 o 150 °C (il testo non dice quale per ogni materiale) conferma NS1. TG-MS (crogiolo di allumina, Ar, 5 °C/min): il primo passo di perdita di massa e' l'ospite, identificato con MS; i valori attesi e osservati stanno nella Table S12 (supplementare). In HSM i cristalli singoli perdono la cristallinita' singola e danno una polvere. Per IM7 la Table 9 da' Endotherm 1 = 143.4 °C, ma il testo dice «broad endotherms, below 130 °C» per ogni IM. In IM7 non c'e' ossidrile carbossilico a cui l'ospite si leghi; lo scambio e' fra il dimero dell'acido carbossilico e la sintone acido:ammide. La rimozione dell'ospite dai canali non rompe l'anello; la densita' cala nel passaggio a NS1.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "carboxylic acid dimer",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F7",
+     "citazione": "which switches a carboxylic acid dimer"
+    },
+    {
+     "gruppo": "carboxylic acid:amide",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F10",
+     "citazione": "bond synthon for a carboxylic acid:amide"
+    }
+   ],
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E8",
+   "da": "F9",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 83.2,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "HSM",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "The broad endotherms, below 130 ᵒC, in the DSC trace for each IM correspond to the loss of the solvent guest from the host; these occur within the temperature range of the first mass loss step in the TG curves of each IM. Two endotherms are present in the case of IM2, IM4 and IM5, where two types of guests occupy the host structure. The differing onset temperatures of the desolvation endotherms indicate there is a significant difference in energy required to remove each guest molecule from the host structure across the different IMs",
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "CIM2  83.2    140.1  155.5  164.9  177.8",
+    "A melt present in the DSC traces of IM1 – IM7 and CIM2, post desolvation at Tonset ca. 150 ᵒC, matches the main melt of NS1, suggesting the identity of the desolvation product as NS1.",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9).",
+    "HSM on single crystals of IM1 – IM7, CIM1 and CIM2 indicated loss of single crystallinity upon desolvation",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out.",
+    "Samples (5 to 10 mg) were measured in an Alumina crucible, 170 μl, under an Argon gas purge, flow rate 20 ml min-1. A heating regime of 5 ᵒC min-1, between 20 and 400 ᵒC, was carried out on each sample",
+    "Single crystals of each complex were heated from ambient temperature to a final temperature of 290 °C, at a rate of 5 °C per minute.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)",
+    "The conversion to NS1 results in the fulfilment of the hydrogen",
+    "bonding capabilities of this group, accompanied by the replacement of the solvent in the hydrogen bonded ring host network with an N- phenylurea molecular building block."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Temperatura: onset della/e endoterma/e di desolvatazione in DSC (Table 9, Endotherm 1; il testo parla di «onset temperatures of the desolvation endotherms»), 5 °C/min, pan Tzero di alluminio sigillato (3-6 mg), 20-290 °C. Prodotto NS1: la fusione dopo la desolvatazione coincide con la fusione principale di NS1 e la PXRD su polveri preriscaldate su HSM a 145 o 150 °C (il testo non dice quale per ogni materiale) conferma NS1. TG-MS (crogiolo di allumina, Ar, 5 °C/min): il primo passo di perdita di massa e' l'ospite, identificato con MS; i valori attesi e osservati stanno nella Table S12 (supplementare). In HSM i cristalli singoli perdono la cristallinita' singola e danno una polvere. CIM2 passa da monoclino a triclino (nel testo: «change in symmetry from monoclinic to triclinic») e il rapporto componenti da 1:1 a 2:1.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "5-nitroisophthalic acid hydroxyl",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "cambia_partner",
+     "forma": "F9",
+     "citazione": "guest removal leads to an unsatisfied hydrogen bonding group (5-nitroisophthalic acid hydroxyl)"
+    }
+   ],
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E9",
+   "da": "F8",
+   "a": "F13",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 96.6,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "HSM",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "The broad endotherms, below 130 ᵒC, in the DSC trace for each IM correspond to the loss of the solvent guest from the host; these occur within the temperature range of the first mass loss step in the TG curves of each IM. Two endotherms are present in the case of IM2, IM4 and IM5, where two types of guests occupy the host structure. The differing onset temperatures of the desolvation endotherms indicate there is a significant difference in energy required to remove each guest molecule from the host structure across the different IMs",
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "CIM1  96.6        174.2  185.7",
+    "Different thermal behaviour, post desolvation, is observed for CIM1. The main melt in the DSC trace occurs at a higher temperature of Tonset 174.2 ᵒC followed by a recrystallisation at Tonset 185.7 ᵒC; CIM1 is not suggested to convert to NS1 on desolvation but to a different unidentified product (UN2) which then converts to a further different unidentified product (UN3) post recrystallisation.",
+    "PXRD analysis of CIM1 at 25ᵒC and on samples preheated to 145 ᵒC (Fig. 9), past the desolvation point just below the melt temperature, confirmed a structural change (Fig. S16 †) and that desolvation did not lead to NS1 (Fig. 9) but to an unidentified product (UN2).",
+    "HSM on single crystals of IM1 – IM7, CIM1 and CIM2 indicated loss of single crystallinity upon desolvation",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out.",
+    "Samples (5 to 10 mg) were measured in an Alumina crucible, 170 μl, under an Argon gas purge, flow rate 20 ml min-1. A heating regime of 5 ᵒC min-1, between 20 and 400 ᵒC, was carried out on each sample",
+    "Single crystals of each complex were heated from ambient temperature to a final temperature of 290 °C, at a rate of 5 °C per minute.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "CIM1 non diventa NS1 dopo la desolvatazione ma un prodotto non identificato (UN2). Onset da Table 9 (Endotherm 1). PXRD su polvere preriscaldata a 145 °C («past the desolvation point just below the melt temperature»). Spiegazioni proposte (ipotesi dell'articolo): densita' simili di CIM1 e NS1; ospiti piccoli, spazio lasciato troppo piccolo per il riarrangiamento a NS1.",
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E10",
+   "da": "F8",
+   "a": "F10",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 145,
+     "unita": "°C",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "PXRD analysis of CIM1 at 25ᵒC and on samples preheated to 145 ᵒC (Fig. 9), past the desolvation point just below the melt temperature, confirmed a structural change (Fig. S16 †) and that desolvation did not lead to NS1 (Fig. 9) but to an unidentified product (UN2).",
+    "Unlike IM1 – IM7 and CIM2, CIM1 does not convert to NS1; instead different unidentified desolvation (UN2) and recrystallisation (UN3) products are formed.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "La PXRD su polvere preriscaldata a 145 °C conferma che la desolvatazione di CIM1 non porta a NS1 (ma a UN2, E9).",
+   "esito_dettaglio": "prodotto_diverso"
+  },
+  {
+   "id": "E11",
+   "da": "F1",
+   "a": "F11",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The selective conversion of IM1 – IM7 and CIM2 to NS1, on desolvation, rather than to NS2 (which is only produced here by crystallisation from diethyl ether)",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Regola «solo in Y»: la desolvatazione porta a NS1 «rather than to NS2» (NS2 e' prodotta qui solo per cristallizzazione da dietiletere); quindi NS2 non si forma dal riscaldamento. Le condizioni sono quelle della desolvatazione per riscaldamento (la frase non da' numeri).",
+   "esito_dettaglio": "prodotto_diverso"
+  },
+  {
+   "id": "E12",
+   "da": "F2",
+   "a": "F11",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The selective conversion of IM1 – IM7 and CIM2 to NS1, on desolvation, rather than to NS2 (which is only produced here by crystallisation from diethyl ether)",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Regola «solo in Y»: la desolvatazione porta a NS1 «rather than to NS2» (NS2 e' prodotta qui solo per cristallizzazione da dietiletere); quindi NS2 non si forma dal riscaldamento. Le condizioni sono quelle della desolvatazione per riscaldamento (la frase non da' numeri).",
+   "esito_dettaglio": "prodotto_diverso"
+  },
+  {
+   "id": "E13",
+   "da": "F3",
+   "a": "F11",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The selective conversion of IM1 – IM7 and CIM2 to NS1, on desolvation, rather than to NS2 (which is only produced here by crystallisation from diethyl ether)",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Regola «solo in Y»: la desolvatazione porta a NS1 «rather than to NS2» (NS2 e' prodotta qui solo per cristallizzazione da dietiletere); quindi NS2 non si forma dal riscaldamento. Le condizioni sono quelle della desolvatazione per riscaldamento (la frase non da' numeri).",
+   "esito_dettaglio": "prodotto_diverso"
+  },
+  {
+   "id": "E14",
+   "da": "F4",
+   "a": "F11",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The selective conversion of IM1 – IM7 and CIM2 to NS1, on desolvation, rather than to NS2 (which is only produced here by crystallisation from diethyl ether)",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Regola «solo in Y»: la desolvatazione porta a NS1 «rather than to NS2» (NS2 e' prodotta qui solo per cristallizzazione da dietiletere); quindi NS2 non si forma dal riscaldamento. Le condizioni sono quelle della desolvatazione per riscaldamento (la frase non da' numeri).",
+   "esito_dettaglio": "prodotto_diverso"
+  },
+  {
+   "id": "E15",
+   "da": "F5",
+   "a": "F11",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The selective conversion of IM1 – IM7 and CIM2 to NS1, on desolvation, rather than to NS2 (which is only produced here by crystallisation from diethyl ether)",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Regola «solo in Y»: la desolvatazione porta a NS1 «rather than to NS2» (NS2 e' prodotta qui solo per cristallizzazione da dietiletere); quindi NS2 non si forma dal riscaldamento. Le condizioni sono quelle della desolvatazione per riscaldamento (la frase non da' numeri).",
+   "esito_dettaglio": "prodotto_diverso"
+  },
+  {
+   "id": "E16",
+   "da": "F6",
+   "a": "F11",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The selective conversion of IM1 – IM7 and CIM2 to NS1, on desolvation, rather than to NS2 (which is only produced here by crystallisation from diethyl ether)",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Regola «solo in Y»: la desolvatazione porta a NS1 «rather than to NS2» (NS2 e' prodotta qui solo per cristallizzazione da dietiletere); quindi NS2 non si forma dal riscaldamento. Le condizioni sono quelle della desolvatazione per riscaldamento (la frase non da' numeri).",
+   "esito_dettaglio": "prodotto_diverso"
+  },
+  {
+   "id": "E17",
+   "da": "F7",
+   "a": "F11",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The selective conversion of IM1 – IM7 and CIM2 to NS1, on desolvation, rather than to NS2 (which is only produced here by crystallisation from diethyl ether)",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Regola «solo in Y»: la desolvatazione porta a NS1 «rather than to NS2» (NS2 e' prodotta qui solo per cristallizzazione da dietiletere); quindi NS2 non si forma dal riscaldamento. Le condizioni sono quelle della desolvatazione per riscaldamento (la frase non da' numeri).",
+   "esito_dettaglio": "prodotto_diverso"
+  },
+  {
+   "id": "E18",
+   "da": "F9",
+   "a": "F11",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The selective conversion of IM1 – IM7 and CIM2 to NS1, on desolvation, rather than to NS2 (which is only produced here by crystallisation from diethyl ether)",
+    "PXRD analysis on IM1 – IM7 and CIM2 at 25ᵒC and on samples preheated to 145 ᵒC or 150 ᵒC, past the desolvation point and just below the melt temperature, confirmed a structural change (Fig. S14† and Fig. S15†) and conversion to NS1 post desolvation (Fig. 9)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Regola «solo in Y»: la desolvatazione porta a NS1 «rather than to NS2» (NS2 e' prodotta qui solo per cristallizzazione da dietiletere); quindi NS2 non si forma dal riscaldamento. Le condizioni sono quelle della desolvatazione per riscaldamento (la frase non da' numeri).",
+   "esito_dettaglio": "prodotto_diverso"
+  },
+  {
+   "id": "E19",
+   "da": "F11",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 134.8,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "NS2      134.8  149.6    157.1",
+    "NS1 has a greater thermal stability than NS2, shown by conversion of NS2 on heating to NS1, and is therefore likely to be the thermodynamically more favourable desolvation product; the main melt for NS2 occurs at Tonset 134.7 ᵒC compared with Tonset 163.0 ᵒC for NS1.",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione principale di NS2 (Melt 1 della Table 9).",
+   "conflitto": "Table 9: 134.8 °C; il testo scrive «Tonset 134.7 ᵒC». Si tiene il valore della tabella (134.8).",
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E20",
+   "da": "F11",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 149.6,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "NS2      134.8  149.6    157.1",
+    "The short melt in the DSC trace of NS2, at Tonset 149.6 ᵒC, also matches the main melt of NS1, suggesting conversion to NS1 at this temperature.",
+    "PXRD analysis on NS2 at 25ᵒC and at 150 ᵒC, past the main melt and just below the second smaller melt peak, also confirmed a structural change (Fig. S16 †) and conversion to NS1 (Fig. 9).",
+    "NS1 has a greater thermal stability than NS2, shown by conversion of NS2 on heating to NS1, and is therefore likely to be the thermodynamically more favourable desolvation product; the main melt for NS2 occurs at Tonset 134.7 ᵒC compared with Tonset 163.0 ᵒC for NS1.",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "La breve fusione di NS2 a Tonset 149.6 °C coincide con la fusione principale di NS1 («suggesting conversion to NS1 at this temperature»); PXRD a 150 °C, oltre la fusione principale e appena sotto il secondo picco di fusione, conferma NS1 (Fig. 9). Dopo la fusione principale (134.8 °C): se la conversione passi dal fuso non e' detto.",
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E21",
+   "da": "F10",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 163.0,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "NS1        163.0    169.4",
+    "NS1 has a greater thermal stability than NS2, shown by conversion of NS2 on heating to NS1, and is therefore likely to be the thermodynamically more favourable desolvation product; the main melt for NS2 occurs at Tonset 134.7 ᵒC compared with Tonset 163.0 ᵒC for NS1.",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione principale di NS1 (Table 9, colonna Melt 2). NS1 fonde piu' in alto di NS2.",
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E22",
+   "da": "F10",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "onset": 169.4,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD",
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "NS1        163.0    169.4",
+    "The recrystallisation peak in the DSC traces of IM1 – IM7, CIM2, NS1 and NS2 at ca. Tonset 170 ᵒC suggest conversion to the same unidentified product (UN1) at this temperature.",
+    "PXRD analysis of IM1 – IM7, CIM2, NS1 and NS2, preheated to 184 ᵒC beyond the recrystallisation point, confirmed conversion to the same unidentified (UN1) product (Fig. 10).",
+    "The presence of a more stable higher temperature form of NS1 (UN1) is suggested by both DSC and PXRD analysis however the identity of this product is unknown.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Picco di ricristallizzazione dopo la fusione (Table 9, Melt 2 e Recrystallisation 1): conversione al prodotto non identificato UN1; PXRD su campioni preriscaldati a 184 °C conferma UN1 (Fig. 10). Lo stesso picco di ricristallizzazione a ca. Tonset 170 °C si ha per IM1-IM7, CIM2 e NS2 (Table 9: 167.8-177.8 °C; NS2 157.1 °C), che passano da NS1: un solo evento, con il dato di NS1. Sottovia dal_fuso perche' la tabella e il testo mettono la fusione e poi la «recrystallisation».",
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E23",
+   "da": "F13",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 174.2,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "CIM1  96.6        174.2  185.7",
+    "Different thermal behaviour, post desolvation, is observed for CIM1. The main melt in the DSC trace occurs at a higher temperature of Tonset 174.2 ᵒC followed by a recrystallisation at Tonset 185.7 ᵒC; CIM1 is not suggested to convert to NS1 on desolvation but to a different unidentified product (UN2) which then converts to a further different unidentified product (UN3) post recrystallisation.",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione principale nella traccia DSC di CIM1 dopo la desolvatazione (Tonset 174.2 °C): attribuita a UN2, il prodotto della desolvatazione.",
+   "da_dedotto": true,
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E24",
+   "da": "F13",
+   "a": "F14",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "onset": 185.7,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (DSC); argon purge (TG)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD",
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Material  Endotherm 1 (ᵒC)  Endotherm 2 (ᵒC)  Melt 1 (ᵒC)  Melt 2 (ᵒC)  Melt 3 (ᵒC)  Recrystallisation 1",
+    "CIM1  96.6        174.2  185.7",
+    "Different thermal behaviour, post desolvation, is observed for CIM1. The main melt in the DSC trace occurs at a higher temperature of Tonset 174.2 ᵒC followed by a recrystallisation at Tonset 185.7 ᵒC; CIM1 is not suggested to convert to NS1 on desolvation but to a different unidentified product (UN2) which then converts to a further different unidentified product (UN3) post recrystallisation.",
+    "PXRD analysis of UN2, preheated further to 189 ᵒC, confirmed a further structural change and  indicated the  formation of  a  different  unidentified recrystallisation product (UN3) to that of UN1.",
+    "Powder samples of each complex were heated from ambient temperature to just above the transition temperatures (145 or 150 ᵒC and 184 or 189 ᵒC), at a rate of 5 °C per minute.",
+    "Samples (3 to 6 mg) were each loaded in a TzeroTM aluminium pan sealed with a TzeroTM aluminium lid and a heating regime of 5 ᵒC min−1, between 20 and 290 ᵒC, was carried out."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Ricristallizzazione a Tonset 185.7 °C dopo la fusione principale; PXRD di UN2 preriscaldato a 189 °C conferma un altro cambio strutturale e un prodotto (UN3) diverso da UN1.",
+   "da_dedotto": true,
+   "campione": {
+    "massa": "3 to 6 mg (DSC)",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E25",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "temperatura": {
+     "valore": -18,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "osservata"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Vapour diffusion studies were carried out on powdered samples of NS1 and NS2 to attempt their resolvation",
+    "Changes in the powder patterns of NS1 and NS2 were only indicated after 24 h of vapour diffusion in acetone solvent (at -18 ᵒC) however it was not",
+    "possible to confirm the nature of the structural change"
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Tentativo di risolvatazione di NS1 per diffusione di vapore su polvere: cambiamento dei diffrattogrammi solo dopo 24 h in vapore di acetone a -18 °C, ma «it was not possible to confirm the nature of the structural change» (Fig. S18-S19). I diffrattogrammi e i tempi precedenti sono nel supplementare (Fig. S17).",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E26",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "temperatura": {
+     "valore": -18,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "max": 24,
+     "unita": "h",
+     "tipo": "attesa",
+     "limite": "sotto"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Vapour diffusion studies were carried out on powdered samples of NS1 and NS2 to attempt their resolvation",
+    "Changes in the powder patterns of NS1 and NS2 were only indicated after 24 h of vapour diffusion in acetone solvent (at -18 ᵒC) however it was not"
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Soglia «only indicated after 24 h»: prima di 24 h in vapore di acetone a -18 °C nessun cambiamento dei diffrattogrammi di NS1. Nessun prodotto atteso nominato.",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E27",
+   "da": "F11",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "temperatura": {
+     "valore": -18,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "osservata"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Vapour diffusion studies were carried out on powdered samples of NS1 and NS2 to attempt their resolvation",
+    "Changes in the powder patterns of NS1 and NS2 were only indicated after 24 h of vapour diffusion in acetone solvent (at -18 ᵒC) however it was not",
+    "possible to confirm the nature of the structural change"
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Tentativo di risolvatazione di NS2 per diffusione di vapore su polvere: cambiamento dei diffrattogrammi solo dopo 24 h in vapore di acetone a -18 °C, ma «it was not possible to confirm the nature of the structural change» (Fig. S18-S19). I diffrattogrammi e i tempi precedenti sono nel supplementare (Fig. S17).",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E28",
+   "da": "F11",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "temperatura": {
+     "valore": -18,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "max": 24,
+     "unita": "h",
+     "tipo": "attesa",
+     "limite": "sotto"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Vapour diffusion studies were carried out on powdered samples of NS1 and NS2 to attempt their resolvation",
+    "Changes in the powder patterns of NS1 and NS2 were only indicated after 24 h of vapour diffusion in acetone solvent (at -18 ᵒC) however it was not"
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Soglia «only indicated after 24 h»: prima di 24 h in vapore di acetone a -18 °C nessun cambiamento dei diffrattogrammi di NS2. Nessun prodotto atteso nominato.",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "dettagli_nel_supplementare": true
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The inclusion materials were formed via evaporative crystallisation of a 2:1 stoichiometric ratio of the N-phenylurea and 5- nitroisophthalic acid host components (1:1 for CIM1) from a minimum volume of solvent.",
+    "Inclusion material 1 (IM1) – Yellow block shaped crystals of the 7:4:2 complex of N-phenylurea, 5-nitroisophthalic acid and methanol were grown from methanol solvent at 40 ᵒC."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 40,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 2:1",
+   "note": "Cristalli gialli a blocco; da un volume minimo di solvente. Il rapporto 2:1 viene dalla frase generale dei metodi."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The inclusion materials were formed via evaporative crystallisation of a 2:1 stoichiometric ratio of the N-phenylurea and 5- nitroisophthalic acid host components (1:1 for CIM1) from a minimum volume of solvent.",
+    "Inclusion material 2 (IM2) – Yellow needle shaped crystals of the 3:2:1:1 complex of N-phenylurea, 5-nitroisophthalic acid, ethanol and water were grown from ethanol solvent at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 2:1",
+   "note": "Cristalli gialli aghiformi. L'acqua inclusa non e' un solvente di cristallizzazione dichiarato."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The inclusion materials were formed via evaporative crystallisation of a 2:1 stoichiometric ratio of the N-phenylurea and 5- nitroisophthalic acid host components (1:1 for CIM1) from a minimum volume of solvent.",
+    "Inclusion material 3 (IM3) – Yellow block shaped crystals of the 3:2:1 complex of N-phenylurea, 5-nitroisophthalic acid and acetonitrile were grown from acetonitrile solvent at 40 ᵒC."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 40,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 2:1",
+   "note": "Cristalli gialli a blocco."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The inclusion materials were formed via evaporative crystallisation of a 2:1 stoichiometric ratio of the N-phenylurea and 5- nitroisophthalic acid host components (1:1 for CIM1) from a minimum volume of solvent.",
+    "Inclusion material 4 (IM4) – Yellow plate shaped crystals of the 3:2:1:1 complex of N-phenylurea, 5-nitroisophthalic acid, acetone and water were grown from acetone solvent at 30 ᵒC."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 30,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 2:1",
+   "note": "Cristalli gialli a piastra."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "THF"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The inclusion materials were formed via evaporative crystallisation of a 2:1 stoichiometric ratio of the N-phenylurea and 5- nitroisophthalic acid host components (1:1 for CIM1) from a minimum volume of solvent.",
+    "Inclusion material 5 (IM5) – Yellow block shaped crystals of the 3:2:1:1 complex of N-phenylurea, 5-nitroisophthalic acid, THF and water were grown from THF solvent at 30 ᵒC."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 30,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 2:1",
+   "note": "Cristalli gialli a blocco."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The inclusion materials were formed via evaporative crystallisation of a 2:1 stoichiometric ratio of the N-phenylurea and 5- nitroisophthalic acid host components (1:1 for CIM1) from a minimum volume of solvent.",
+    "Inclusion material 6 (IM6) – Yellow plate shaped crystals of the 3:2:1 complex of N-phenylurea, 5-nitroisophthalic acid and ethyl acetate were grown from ethyl acetate solvent at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 2:1",
+   "note": "Cristalli gialli a piastra."
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "THF",
+    "methanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The inclusion materials were formed via evaporative crystallisation of a 2:1 stoichiometric ratio of the N-phenylurea and 5- nitroisophthalic acid host components (1:1 for CIM1) from a minimum volume of solvent.",
+    "Inclusion material 7 (IM7) – Yellow block shaped crystals of the 1:1:0.5:1 complex of N-phenylurea, 5-nitroisophthalic acid, THF and methanol were grown from a 50:50 solvent volume mix of THF and methanol solvent, at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 2:1",
+   "note": "Miscela 50:50 in volume di THF e metanolo («50:50 solvent volume mix»); IM7 e' l'unico caso in cui le due specie delle miscele 50:50 sono incluse entrambe («with the exception of IM7»). Cristalli gialli a blocco.",
+   "solventi_alternativi": false
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The inclusion materials were formed via evaporative crystallisation of a 2:1 stoichiometric ratio of the N-phenylurea and 5- nitroisophthalic acid host components (1:1 for CIM1) from a minimum volume of solvent.",
+    "Condensed inclusion material 1 (CIM1) – Yellow fine needle shaped crystals of the 2:2:2 complex of N-phenylurea, 5-nitroisophthalic acid and water were grown from ethyl acetate solvent at room temperature.",
+    "Water was also only included as a guest when crystallised from ethyl acetate from a 1:1 stoichiometric ratio of the N- phenylurea and 5-nitroisophthalic acid host components whilst crystallisation from water from a 2:1 stoichiometric ratio of components presented a direct route to NS1."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 1:1",
+   "note": "Cristalli gialli aghiformi fini; l'acqua e' inclusa solo cristallizzando da acetato di etile con rapporto 1:1 dei componenti."
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The inclusion materials were formed via evaporative crystallisation of a 2:1 stoichiometric ratio of the N-phenylurea and 5- nitroisophthalic acid host components (1:1 for CIM1) from a minimum volume of solvent.",
+    "Condensed inclusion material 2 (CIM2) – Colourless rectangular block shaped crystals of the 1:1:1 complex of N-phenylurea, 5-",
+    "nitroisophthalic acid and acetone were grown from acetone solvent at 4 ᵒC."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 2:1",
+   "note": "Cristalli rettangolari incolori a blocco. Il rapporto 2:1 e' quello della frase generale (esclusa CIM1): per CIM2 il rapporto di partenza non e' ripetuto."
+  },
+  {
+   "forme": [
+    "F10"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "water"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Non-solvated form 1 (NS1) – Pale yellow plate shaped crystals of the 2:1 complex of N-phenylurea and 5-nitroisophthalic acid were grown from water at room temperature.",
+    "Water was also only included as a guest when crystallised from ethyl acetate from a 1:1 stoichiometric ratio of the N- phenylurea and 5-nitroisophthalic acid host components whilst crystallisation from water from a 2:1 stoichiometric ratio of components presented a direct route to NS1."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "rapporto_soluzione": "N-phenylurea : 5-nitroisophthalic acid 2:1",
+   "note": "Cristalli giallo pallido a piastra, complesso 2:1; la cristallizzazione da acqua con rapporto 2:1 e' «a direct route to NS1»."
+  },
+  {
+   "forme": [
+    "F11"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "diethyl ether"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Non-solvated form 1 (NS2) – Yellow plate shaped crystals of the 1:1 complex of N-phenylurea and 5-nitroisophthalic acid were grown from diethyl ether at 30ᵒC.",
+    "Not all the solvents trialled generated inclusion materials; the host components were set up in a range of polar (methanol, ethanol, acetonitrile, acetone, THF, ethyl acetate, water) and non-polar solvents (diethyl ether, hexane and cyclohexane) singly and in 50:50 mixtures. Only the polar solvents formed inclusion materials; diethyl ether produced NS2 whilst the host components were insoluble in hexane and cyclohexane."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 30,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "note": "Cristalli gialli a piastra, complesso 1:1. NS2 si ottiene qui solo da dietiletere: il grosso volume del solvente potrebbe impedire il solvato iniziale (ipotesi degli autori)."
+  },
+  {
+   "forme": null,
+   "metodo": "non_specificato",
+   "solventi": [
+    "hexane",
+    "cyclohexane"
+   ],
+   "solventi_alternativi": true,
+   "esito": "non_ottenuta",
+   "componenti_cercati": [
+    "hexane",
+    "cyclohexane"
+   ],
+   "citazioni": [
+    "Not all the solvents trialled generated inclusion materials; the host components were set up in a range of polar (methanol, ethanol, acetonitrile, acetone, THF, ethyl acetate, water) and non-polar solvents (diethyl ether, hexane and cyclohexane) singly and in 50:50 mixtures. Only the polar solvents formed inclusion materials; diethyl ether produced NS2 whilst the host components were insoluble in hexane and cyclohexane."
+   ],
+   "fonte_dati": "propria",
+   "note": "I componenti dell'ospite non sono solubili in esano e cicloesano (solventi apolari): nessun materiale di inclusione e nessun cristallo. Solo i solventi polari danno materiali di inclusione."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "forma": null,
+     "testo": "angle between the urea and phenyl planes: ca. 0 to 35° in the inclusion materials versus ca. 48° in the native crystal structure PHUREA01; co-planarity increased in the IMs; variation also within the same crystal structure",
+     "citazione": "In general, the co- planarity of the phenyl and urea moieties is increased in the IMs compared to the native crystal structure; angles between the plane of the two moieties range from ca. 0 to 35 ᵒ in the IMs versus ca. 48 ᵒ in the native crystal structure CSD Refcode PHUREA01."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "forma": null,
+     "testo": "torsions of the carboxylic acid groups with the benzene ring (OCCC) 0 to 12°, only small variation across the IMs",
+     "citazione": "The variation in the torsion angles of the 5-nitroisophthalic acid carboxylic acid groups with the benzene ring across the IMs is only small in comparison (OCCC torsions in the range of 0 to 12"
+    }
+   ]
+  }
+ ]
+}
