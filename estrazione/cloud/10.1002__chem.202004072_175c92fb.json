@@ -1,0 +1,1488 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1002/chem.202004072",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Articolo di spin-crossover (SCO) su sali [FeL2]X2 (X = BF4, ClO4) con vari solvati. Le transizioni di spin (T½, isteresi, 'reverse-SCO' della fase 2 a 5 K/min) non sono eventi di forma solida e non sono estratte, tranne quando l'articolo dice esplicitamente che non c'e' cambio di fase cristallografico (E4, E11, E13). Non sono eventi: la discontinuita' dei parametri di cella di fase 3 fra 150 e 180 K (coincide con l'SCO parziale), le tabelle 1 e 2 (distanze Fe-N, VOh, Σ, Θ, φ, θ), il polimorfismo del ligando libero (α-L e β-L, cristallizzati insieme dall'olio). Incoerenze: x ≈ 2.3 (testo) e 2.34 (microanalisi) per la fase 1; acqua 0.2 (cristallo) e 0.5 (microanalisi, 'n = 0,5') in 1[ClO4]2·½Me2CO·nH2O; y ≈ 1.59 (corpo) e ≈ 1.6 (abstract); '[FeL2][ClO4]' scritto senza il pedice 2 nel testo; il tertbutile 'might be involved' nelle trasformazioni di 1[BF4]2·xMeNO2 (ipotesi degli autori, non estratta come gruppo coinvolto). I valori di cella e i CCDC sono nel supplementare.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "4-(tert-butylsulfanyl)-2,6-di(pyrazol-1-yl)pyridine (L)",
+   "nome_scritto": "4-(tertbutylsulfanyl)-2,6-di(pyrazol-1-yl)pyridine (L)"
+  },
+  {
+   "id": "C2",
+   "nome": "[FeL2]2+ (iron(II) complex of L)"
+  },
+  {
+   "id": "C3",
+   "nome": "tetrafluoroborate",
+   "nome_scritto": "BF4‒"
+  },
+  {
+   "id": "C4",
+   "nome": "perchlorate",
+   "nome_scritto": "ClO4‒"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "α-L",
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "Z_primo": 3
+   },
+   "citazione": "forms adopt the monoclinic P21/c space group, with three and one independent molecules per asymmetric unit respectively",
+   "note": "L'etichetta e' scritta con una lettera greca persa dal PDF («-L»): per il contesto «The - and - forms» sono le due forme alfa e beta, la prima con tre molecole indipendenti, la seconda con una."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "β-L",
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "Z_primo": 1
+   },
+   "citazione": "forms adopt the monoclinic P21/c space group, with three and one independent molecules per asymmetric unit respectively",
+   "note": "Vedi α-L: una sola molecola indipendente."
+  },
+  {
+   "id": "F3",
+   "etichetta": "phase 1 of 1[BF4]2·xMeNO2",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "nitromethane (MeNO2)",
+    "stechiometria": 2.3,
+    "riferito_a": "unita_formula",
+    "circa": true
+   },
+   "etichette_alternative": [
+    "1[BF4]2·2.34MeNO2 (phase 1)",
+    "1[BF4]2·xMeNO2 (x ≈ 2.3)"
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "Z": 8,
+    "Z_primo": 2,
+    "condizioni": "120 K e 250 K"
+   },
+   "citazione": "Its crystals (phase 1; monoclinic, P21/c, Z = 8) were analyzed at 120 and 250 K, and contain two unique molecules of the complex per asymmetric unit (Figure S11).",
+   "note": "x ≈ 2.3 nel materiale appena preparato («where x ≈ 2.3 in the freshly prepared material»); l'analisi elementare e' scritta con 2.34. La stechiometria non intera viene da uno dei quattro siti di solvente, rifinito come uno o due nitrometano disordinati. Cella e CCDC solo nel supplementare."
+  },
+  {
+   "id": "F4",
+   "etichetta": "phase 2 of 1[BF4]2·xMeNO2",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "nitromethane (MeNO2)",
+    "stechiometria": null,
+    "riferito_a": "unita_formula"
+   },
+   "citazione": "Heating 1[BF4]2·xMeNO2 phase 1 to 370 K on a powder diffractometer causes its clean conversion to the intermediate phase 2 (Figure 3).",
+   "note": "Fase intermedia nella desolvatazione a gradini; non caratterizzata cristallograficamente («Since phase 2 was not crystallographically characterized»). Contenuto di nitrometano non dichiarato: stechiometria null. Il primo gradino in TGA (ca 0.8 equiv MeNO2 persi) lascerebbe ca 1.5, ma non e' scritto per la fase 2."
+  },
+  {
+   "id": "F5",
+   "etichetta": "phase 3 of 1[BF4]2·xMeNO2",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "nitromethane (MeNO2)",
+    "stechiometria": 0.75,
+    "riferito_a": "unita_formula",
+    "circa": true
+   },
+   "etichette_alternative": [
+    "[FeL2][BF4]2·0.75 MeNO2",
+    "1[BF4]2·¾MeNO2 (phase 3)"
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pbca",
+   "cella": {
+    "Z": 8,
+    "Z_primo": 1,
+    "condizioni": "220 K e 120 K"
+   },
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 220,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Full structure refinements from this crystal were achieved at 220 and 120 K, either side of its partial spin transition."
+    },
+    {
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Full structure refinements from this crystal were achieved at 220 and 120 K, either side of its partial spin transition."
+    }
+   ],
+   "citazione": "The crystal (orthorhombic, Pbca, Z = 8) had a reduced solvent content of x ≈ 0.75, which agrees with the formulation after the second mass loss step in the TGA data.",
+   "note": "Prodotto finale della desolvatazione; una molecola indipendente con un ligando L disordinato su due siti ugualmente occupati (A e B). SCO brusco ma incompleto a T½ = 172 K. Cristallo ottenuto una sola volta. x ≈ 0.75 (analisi elementare: ¾). Nessun CCDC nel testo."
+  },
+  {
+   "id": "F6",
+   "etichetta": "1[BF4]2·yMe2CO",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "acetone (Me2CO)",
+    "stechiometria": 1.59,
+    "riferito_a": "unita_formula",
+    "circa": true
+   },
+   "etichette_alternative": [
+    "1[BF4]2·yMe2CO (y ≈ 1.6)"
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "Z": 20,
+    "Z_primo": 5,
+    "condizioni": "120 K"
+   },
+   "citazione": "Crystals of 1[BF4]2·yMe2CO (y ≈ 1.59; orthorhombic, P212121, Z = 20, Z’ = 5[36]) have a large unit cell and are sensitive to solvent loss, but a reasonably precise refinement was achieved at 120 K.",
+   "note": "Cinque cationi indipendenti (A-E), grande cella; sensibile alla perdita di solvente. y ≈ 1.59 nel corpo, ≈ 1.6 nell'abstract."
+  },
+  {
+   "id": "F7",
+   "etichetta": "1[BF4]2·½Me2CO·H2O",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato",
+    "idrato"
+   ],
+   "ospite": [
+    {
+     "specie": "acetone (Me2CO)",
+     "stechiometria": "1/2",
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "citazione": "Elemental analysis for 1[BF4]2·½Me2CO·H2O",
+   "note": "Forma definita dalla sola formula della microanalisi (campione di polvere): il testo non dice se coincide con la struttura a y ≈ 1.59 (F6), da cui si distingue per contenuto di solvente. Per questo e' una forma a parte."
+  },
+  {
+   "id": "F8",
+   "etichetta": "1[BF4]2·H2O",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "citazione": "After drying in vacuo at 80 °C for 16 hrs, followed by exposure to air, the same crystals analysed with a monohydrate formulation.",
+   "note": "Monoidrato per microanalisi dopo essiccamento in vuoto a 80 °C e aria (formula: C30H34B2F8FeN10S2·H2O). Nessuna struttura."
+  },
+  {
+   "id": "F9",
+   "etichetta": "1[BF4]2·MeCN (major polymorph)",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "acetonitrile (MeCN)",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "etichette_alternative": [
+    "1[BF4]2·MeCN"
+   ],
+   "sistema_cristallino": "triclino",
+   "citazione": "The major polymorph consistently suffered from twinning, but a preliminary structure solution showed it to be isostructural with the triclinic phase 2 of 1[ClO4]2·MeCN at 120 K.",
+   "note": "Polimorfo maggioritario (soluzione preliminare a 120 K: isostrutturale alla fase 2 triclina di 1[ClO4]2·MeCN). Le polveri del bulk sono isostrutturali a 1[ClO4]2·MeCN («bulk samples of that material are isostructural to 1[ClO4]2·MeCN»). T½ = 276 K del materiale (SCO graduale)."
+  },
+  {
+   "id": "F10",
+   "etichetta": "1[BF4]2·MeCN (Pc polymorph)",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "acetonitrile (MeCN)",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "Pc",
+   "cella": {
+    "Z": 4,
+    "Z_primo": 2
+   },
+   "citazione": "The other polymorph (monoclinic, Pc, Z = 4) was only detected in some crystallization vials, and is crystallographically unrelated to the perchlorate solvates.",
+   "note": "Due molecole indipendenti che differiscono nell'orientazione dei gruppi StBu. Rilevato solo in alcune vials; componente minoritaria del bulk."
+  },
+  {
+   "id": "F11",
+   "etichetta": "phase 1 of 1[ClO4]2·MeNO2",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "nitromethane (MeNO2)",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "etichette_alternative": [
+    "1[ClO4]2·MeNO2"
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "Z": 4
+   },
+   "citazione": "Crystals of 1[ClO4]2·MeNO2 and 1[ClO4]2·MeCN are isostructural at room temperature (both monoclinic, P21/n, Z = 4; phase 1), but undergo different symmetry-breaking transitions on cooling.",
+   "note": "Fase 1 a temperatura ambiente, isostrutturale a 1[ClO4]2·MeCN fase 1."
+  },
+  {
+   "id": "F12",
+   "etichetta": "phase 2 of 1[ClO4]2·MeNO2",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "nitromethane (MeNO2)",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "Z": 4,
+    "condizioni": "120 K"
+   },
+   "citazione": "The low-temperature phase 2 structure of 1[ClO4]2·MeNO2 is a racemic twin in the monoclinic P21 space group with Z = 4.",
+   "note": "Geminato racemico; due molecole indipendenti per unita' asimmetrica. Cella molto simile alla fase 1; fase 1 -> 2 per perdita del piano di scorrimento n. Alla struttura a 120 K entrambi i siti sono low-spin."
+  },
+  {
+   "id": "F13",
+   "etichetta": "phase 1 of 1[ClO4]2·MeCN",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "acetonitrile (MeCN)",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "etichette_alternative": [
+    "1[ClO4]2·MeCN"
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "Z": 4
+   },
+   "citazione": "Crystals of 1[ClO4]2·MeNO2 and 1[ClO4]2·MeCN are isostructural at room temperature (both monoclinic, P21/n, Z = 4; phase 1), but undergo different symmetry-breaking transitions on cooling.",
+   "note": "Fase 1 a temperatura ambiente, isostrutturale a 1[ClO4]2·MeNO2 fase 1."
+  },
+  {
+   "id": "F14",
+   "etichetta": "phase 2 of 1[ClO4]2·MeCN",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "acetonitrile (MeCN)",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P 1",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "Z": 4,
+    "Z_primo": 2,
+    "condizioni": "120 K"
+   },
+   "citazione": "In contrast phase 2 of 1[ClO4]2·MeCN is triclinic, in P 1 with Z = 4.",
+   "note": "Il simbolo e' scritto «P 1» (barra sopra l'1 persa dal PDF). P-1 e' dedotto: sistema triclino, Z = 4 con due molecole indipendenti per unita' asimmetrica (Z' = 2, quindi due posizioni generali, come P-1); P1 darebbe quattro molecole indipendenti."
+  },
+  {
+   "id": "F15",
+   "etichetta": "1[ClO4]2·0.5Me2CO·0.2H2O (phase 1)",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "solvato",
+    "idrato"
+   ],
+   "ospite": [
+    {
+     "specie": "acetone (Me2CO)",
+     "stechiometria": 0.5,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 0.2,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "etichette_alternative": [
+    "1[ClO4]2·½Me2CO·nH2O",
+    "phase 1 of 1[ClO4]2·½Me2CO·nH2O"
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "Z": 2,
+    "Z_primo": 1
+   },
+   "citazione": "Lastly, the asymmetric unit of 1[ClO4]2·0.5Me2CO·0.2H2O (triclinic, P1 , Z = 2) contains one unique cation site, with half an acetone molecule spanning the crystallographic inversion center (Figure S35).",
+   "note": "Simbolo letto «P1 » (barra persa dal PDF). P-1 dedotto da «triclinic» + «crystallographic inversion center» + Z = 2 con un sito catione. Acqua: 0.2 nel cristallo; la microanalisi usa n = 0.5 («n = 0,5»), incoerenza dell'articolo. Complesso low-spin a temperatura ambiente."
+  },
+  {
+   "id": "F16",
+   "etichetta": "1[ClO4]2 (solvent-free phase 2)",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": "sale",
+   "etichette_alternative": [
+    "solvent-free phase 2",
+    "desolvated phase"
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "Z": 6,
+    "Z_primo": 3,
+    "condizioni": "120 K"
+   },
+   "citazione": "Annealing its single crystals at 370 K on the diffractometer causes loss of the acetone solvent, in a single-crystal-to-single-crystal transformation to a solvent-free phase with a three-fold expansion of the unit cell",
+   "note": "Tre molecole indipendenti, tutte low-spin, che differiscono nell'orientazione di StBu (la B ruotata di ca 60°). Simbolo «P1 , Z = 6» con barra persa; P-1 dedotto dall'abstract («retaining the P 1 space group» del solvato, che ha il centro di inversione) e dalla stessa dicitura del solvato. Vuoti accessibili al solvente di 470 Å3 per cella (78 Å3 per unita' formula) a 120 K, vuoti secondo SQUEEZE."
+  },
+  {
+   "id": "F17",
+   "etichetta": "1[ClO4]2·2H2O",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 2
+    }
+   ],
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "citazione": "leading to a microanalysis formulation of 1[ClO4]2·2H2O",
+   "note": "Diidrato definito dalla sola microanalisi (e dall'assorbimento d'acqua atmosferica dopo annealing); low-spin a temperatura ambiente e sotto. Nessuna struttura."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 370,
+     "unita": "K",
+     "tipo": "non_specificato"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Heating 1[BF4]2·xMeNO2 phase 1 to 370 K on a powder diffractometer causes its clean conversion to the intermediate phase 2 (Figure 3).",
+    "Most unusual is the stepwise partial desolvation of 1[BF4]2·xMeNO2 from phase 1 (x = 2.3) to phase 3 (x = 0.75) via a detectable intermediate phase 2."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Perdita parziale di nitrometano (fase 2 intermedia, mai caratterizzata per cristallografia: «Since phase 2 was not crystallographically characterized»). Le citazioni dicono «clean conversion» a 370 K; velocita' di riscaldamento e tempo non scritti. La composizione della fase 2 non e' dichiarata."
+  },
+  {
+   "id": "E2",
+   "da": "F4",
+   "a": "F5",
+   "esito": "parziale",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "da_evento": "E1",
+   "condizioni": {
+    "temperatura": {
+     "valore": 370,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "attesa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Heating phase 2 in situ at 370 K for 1 hr resulted in its incomplete conversion to phase 3.",
+    "The annealed phase 2 sample was heated to 370 K for 1 hr, and is a mixture of phases 2 and 3."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dopo 1 h a 370 K il campione e' una miscela di fasi 2 e 3 («incomplete conversion»). «in situ» dopo il riscaldamento di fase 1 (E1): da_evento E1 letto dal contesto."
+  },
+  {
+   "id": "E3",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "da_evento": "E2",
+   "pretrattamento": "stesso campione gia' scaldato a 370 K per 1 h (miscela di fasi 2 e 3)",
+   "condizioni": {
+    "temperatura": {
+     "valore": 370,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Further annealing the same sample at 370 K for 48 hrs did completely transform it to phase 3, however.",
+    "The annealed phase 2 sample was heated to 370 K for 1 hr, and is a mixture of phases 2 and 3."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "«Further annealing the same sample at 370 K for 48 hrs»: trasformazione completa in fase 3 (il prodotto «phase 3» e' quello con x ≈ 0.75). Il tempo e' quello di annealing complessivo dopo la prima ora, non un tempo di trasformazione misurato."
+  },
+  {
+   "id": "E4",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 223,
+     "max": 360
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "The phase 2 powder pattern is retained with minor changes upon cooling from 360 to 223 K, showing the scan rate-dependent SCO in phase 2 is not associated with a crystallographic phase change.",
+    "That is consistent with the powder diffraction data, which were measured under “slow” conditions and show SCO in phase 2 occurs without significant structural changes"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Raffreddando la fase 2 da 360 a 223 K il diffrattogramma di polvere si conserva «with minor changes»: il SCO della fase 2 non e' accompagnato da un cambio di fase cristallografico. «a» ignota: il testo non nomina una forma attesa. Velocita' di raffreddamento non scritta."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 5,
+     "max": 370
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "altro": "scansioni termiche ripetute (nove scansioni, Fig. 1: la prima, terza, sesta e nona sono mostrate)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "Repeated scanning of the sample between 5 and 370 K at 5 Kmin−1 revealed two spin transition regimes, whose relative intensities change as the sample was aged (Figure 1, top; Figures S7 and S8).",
+    "These data indicate a sequence of phase changes in the sample, which slowly proceed as the sample is cycled during the 5 Kmin−1 measurement.",
+    "A single crystal of phase 3 was isolated from the SQUID magnetometer sample, after the repeated thermal cycling in Figure 1 (top) was complete.",
+    "irreversible when the sample is recooled, indicating a change in spin state properties which is probably triggered by loss of lattice solvent at these elevated temperatures.",
+    "Figure 1 Top: Magnetic susceptibility data for 1[BF4]2·xMeNO2 upon multiple thermal scanning at 5 Kmin‒1.",
+    "Solvated samples were protected against solvent loss by saturating the (tightly sealed) sample holder capsules with a drop of diethyl ether."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "altro",
+    "mezzo": "capsule tightly sealed, saturated with a drop of diethyl ether"
+   },
+   "note": "Misure SQUID di suscettivita' magnetica (tecnica «altro»: magnetometria). Cicli ripetuti fra 5 e 370 K a 5 K/min: la fase 1 diventa lentamente la fase 3 (prodotto finale) passando per la fase 2 (regime a ~250 K), gli stessi passaggi di E1-E3. Un unico evento 1 -> 3 perche' le condizioni del singolo passo (quale scansione) non sono separabili. Il primo riscaldamento (T½ ≈ 320 K, completamente high-spin a 350 K) e' irreversibile al raffreddamento, «probably triggered by loss of lattice solvent». Un cristallo di fase 3 e' stato isolato dal campione dopo i cicli (preparazione P3). La fase 2 si deduce dalle misure magnetiche."
+  },
+  {
+   "id": "E6",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "da_dedotto": true,
+   "condizioni": {
+    "velocita": {
+     "valore": 1,
+     "unita": "K/min"
+    },
+    "altro": "sei cicli termici a 1 K/min nel SQUID"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "The measurement was repeated using a different annealed sample of 1[BF4]2·xMeNO2, at a slower scan rate of 1 Kmin‒1 (Figure 1, bottom).",
+    "In contrast to the first measurement, the composition of this sample was unchanged after six thermal cycles at 1 Kmin‒1 inside the SQUID magnetometer (Figure S9).",
+    "The SCO discontinuity at 50 % completeness in phase 2 at 1 Kmin−1 lends tentative support to that suggestion."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "altro"
+   },
+   "note": "Campione «annealed» diverso dal primo, misurato a 1 K/min: «the composition of this sample was unchanged after six thermal cycles», al contrario del primo esperimento a 5 K/min (E5). La forma di partenza non e' nominata; la fase 2 e' dedotta perche' le conclusioni parlano di «phase 2 at 1 Kmin−1» e i processi attorno a 250 K sono della fase 2 (da_dedotto). T massima dei cicli non scritta. «The reason for that difference between the two experiments is unclear.»"
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "a_possibili": [
+    "F4",
+    "F5"
+   ],
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "altro": "annealing in situ (temperatura e tempo non scritti)"
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "integrita": "degradato"
+   },
+   "citazioni": [
+    "Notably, we only obtained a crystal of phase 3 on one occasion, and our attempts to convert phase 1 into phase 2 or 3 by annealing in situ led to crystal decomposition."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "«Hence, it is unclear whether the phase 1→2→3 transformations occur in single-crystal-to-single-crystal fashion»: i tentativi di ottenere la fase 2 o 3 da un cristallo della fase 1 portano a «crystal decomposition» (perdita del cristallo, non e' detto che sia decomposizione chimica). Esito non_avvenuta nel senso che nessuna delle fasi 2 e 3 e' stata ottenuta come cristallo singolo; la tecnica non e' nominata nella frase (campione detto «crystal», trattamento «in situ»)."
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 423,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "stream of nitrogen gas"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 9.7,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "TGA data were consistent with that view in showing two gradual but distinct mass losses summing to 5 % at 358 K, which corresponds to ca 0.8 equiv MeNO2, and to 9.7 % at 423 K (1.5 equiv MeNO2; Figure S6).",
+    "Hence 1[BF4]2·xMeNO2 (x ≈ 2.3) loses solvent in stepwise fashion on heating, and still retains ca 0.8 equiv of nitromethane at 423 K.",
+    "The crystal (orthorhombic, Pbca, Z = 8) had a reduced solvent content of x ≈ 0.75, which agrees with the formulation after the second mass loss step in the TGA data.",
+    "Different samples from the same crystallization vials were used for the thermogravimetric analyses, which employed a TA Instruments TGA Q50 analyser with a temperature ramp of 10 Kmin‒1 under a stream of nitrogen gas."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Due perdite di massa «gradual but distinct» in TGA: 5 % a 358 K (ca 0.8 equiv MeNO2) e 9.7 % a 423 K (1.5 equiv MeNO2); a 423 K restano ca 0.8 equiv di nitrometano. Prodotto identificato come fase 3 perche' il cristallo di fase 3 ha x ≈ 0.75, «which agrees with the formulation after the second mass loss step in the TGA data» (identificazione da altro esperimento, certezza media). Il primo gradino corrisponderebbe alla fase 2 (non detto in modo esplicito). Campione: cristalli dalle stesse vials, massa non scritta."
+  },
+  {
+   "id": "E9",
+   "da": "F3",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 16,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "in vacuo"
+    },
+    "altro": "poi esposizione all'aria"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "After drying in vacuo at 80 °C for 16 hrs, followed by exposure to air, the same crystals analysed with a formulation consistent with phase 3 of the material.",
+    "Elemental analysis for 1[BF4]2·2.34MeNO2 (phase 1)"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Gli stessi cristalli della fase 1 (analisi elementare 1[BF4]2·2.34MeNO2) dopo essiccamento in vuoto a 80 °C per 16 h e esposizione all'aria hanno una formula «consistent with phase 3»: la fase e' attribuita dalla sola formula (analisi elementare, x = ¾), senza diffrazione. Vuoto e riscaldamento insieme: sottovia vuoto. Il campione e' detto «crystals»; tipo non precisato."
+  },
+  {
+   "id": "E10",
+   "da": "F6",
+   "a": "amorfo",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "min": 330,
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro",
+     "TGA",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Warming above 330 K leads to a rapid drop in",
+    "corresponding to desolvation of the sample in the TGA data for the compound. The solvent-free material is amorphous by powder diffraction and, unusually, is fully low-spin.",
+    "Data were measured at a 5 Kmin‒1 scan rate.",
+    "Crystals of 1[BF4]2·yMe2CO (y ≈ 1.59; orthorhombic, P212121, Z = 20, Z’ = 5[36]) have a large unit cell and are sensitive to solvent loss, but a reasonably precise refinement was achieved at 120 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "altro",
+    "mezzo": "capsule tightly sealed, saturated with a drop of diethyl ether"
+   },
+   "note": "Riscaldando oltre 330 K la suscettivita' cala rapidamente, in accordo con la desolvatazione vista in TGA; il materiale senza solvente e' amorfo in PXRD e (insolitamente) tutto low-spin. La T di 330 K e' quella della misura magnetica (5 K/min); il testo non da' la T della TGA ne' la perdita di massa. Il solvato e' «sensitive to solvent loss»."
+  },
+  {
+   "id": "E11",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "picchi": [
+      150,
+      275
+     ],
+     "circa": true
+    }
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "However, 1[BF4]2·yMe2CO is a unique example of a high Z’ crystal undergoing stepwise SCO without a crystallographic phase change.",
+    "The transformation occurs without hysteresis and in two discrete steps, centered near 150 and 275 K from the first derivative maxima in the data (Figure 6, inset)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Cinque molecole indipendenti (Z' = 5), SCO graduale a due gradini, centrati vicino a 150 e 275 K: «stepwise SCO without a crystallographic phase change». Le due T sono quelle dei gradini di SCO, non di un cambio di fase. Il testo non descrive la misura cristallografica a piu' T (rimando al rif. 55)."
+  },
+  {
+   "id": "E12",
+   "da": "F7",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 16,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "in vacuo"
+    },
+    "altro": "poi esposizione all'aria"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "After drying in vacuo at 80 °C for 16 hrs, followed by exposure to air, the same crystals analysed with a monohydrate formulation.",
+    "Elemental analysis for 1[BF4]2·½Me2CO·H2O"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dalla formula 1[BF4]2·½Me2CO·H2O (analisi elementare) alla formula monoidrato 1[BF4]2·H2O dopo essiccamento in vuoto a 80 °C per 16 h e esposizione all'aria: le forme sono definite dalle sole formule di microanalisi, nessuna diffrazione. L'acqua entra con l'esposizione all'aria (RH non detta); il solvato acetonico perde acetone."
+  },
+  {
+   "id": "E13",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "testo": "attraverso il SCO a T½ = 255 ±5 K"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "Unusually, both molecules undergo abrupt SCO simultaneously at T½ = 255 ±5 K, without a crystallographic phase change (Table S13).",
+    "The other polymorph (monoclinic, Pc, Z = 4) was only detected in some crystallization vials, and is crystallographically unrelated to the perchlorate solvates."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Le due molecole indipendenti del polimorfo Pc di 1[BF4]2·MeCN fanno un SCO brusco e simultaneo a T½ = 255 ±5 K «without a crystallographic phase change». Il numero e' la T del SCO, non la T di un cambio di fase."
+  },
+  {
+   "id": "E14",
+   "da": "F11",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 160,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "testo": "160±10 K"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "displaciva"
+    ]
+   },
+   "citazioni": [
+    "Crystals of 1[ClO4]2·MeNO2 and 1[ClO4]2·MeCN are isostructural at room temperature (both monoclinic, P21/n, Z = 4; phase 1), but undergo different symmetry-breaking transitions on cooling.",
+    "Variable temperature unit cell data show the phase 1→2 transitions occur at 160±10 K (1[ClO4]2·MeNO2) and 215±15 K (1[ClO4]2·MeCN)",
+    "The low-temperature phase 2 structure of 1[ClO4]2·MeNO2 is a racemic twin in the monoclinic P21 space group with Z = 4.",
+    "Its unit cell parameters are very similar to those of phase 1, with the phase 1→2 transformation simply involving loss of the crystallographic n glide plane.",
+    "Rather, the symmetry breaking is induced by small displacements of the anions and solvent between the two phases."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Transizione con rottura di simmetria: perdita del piano di scorrimento n (P21/n -> P21, geminato racemico). Avviene quando il materiale e' quasi o del tutto low-spin. Gli autori attribuiscono la rottura di simmetria a piccoli spostamenti di anioni e solvente (meccanismo displaciva letto da qui). Misura a T variabile delle celle (SCXRD, tecnica non nominata per questa frase). Velocita' di raffreddamento non scritta."
+  },
+  {
+   "id": "E15",
+   "da": "F13",
+   "a": "F14",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 215,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "testo": "215±15 K"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "displaciva"
+    ]
+   },
+   "citazioni": [
+    "Crystals of 1[ClO4]2·MeNO2 and 1[ClO4]2·MeCN are isostructural at room temperature (both monoclinic, P21/n, Z = 4; phase 1), but undergo different symmetry-breaking transitions on cooling.",
+    "Variable temperature unit cell data show the phase 1→2 transitions occur at 160±10 K (1[ClO4]2·MeNO2) and 215±15 K (1[ClO4]2·MeCN)",
+    "In contrast phase 2 of 1[ClO4]2·MeCN is triclinic",
+    "Both these phase 2 structures contain two unique molecules per asymmetric unit.",
+    "Rather, the symmetry breaking is induced by small displacements of the anions and solvent between the two phases."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Fase 2 triclina (P-1, Z = 4, due molecole indipendenti), con a = a', b = c', c = b' rispetto alla fase 1. Rottura di simmetria diversa da quella del solvato MeNO2 (E14). Avviene quando il materiale e' quasi o del tutto low-spin."
+  },
+  {
+   "id": "E16",
+   "da": "F11",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 370,
+     "max": 380,
+     "testo": "above 370-380 K"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "stream of nitrogen gas"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 1,
+     "unita": "mol/mol",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "That is consistent with TGA data for the perchlorate salts, which both show an abrupt mass loss corresponding to 1 equiv solvent above 370-380 K.",
+    "Different samples from the same crystallization vials were used for the thermogravimetric analyses, which employed a TA Instruments TGA Q50 analyser with a temperature ramp of 10 Kmin‒1 under a stream of nitrogen gas."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«the perchlorate salts, which both show an abrupt mass loss corresponding to 1 equiv solvent above 370-380 K»: la frase vale per i due perclorati (1[ClO4]2·MeNO2 e 1[ClO4]2·MeCN), un evento per sale con certezza media. Perdita in equivalenti di solvente (1 equiv = 1 mol/mol). Prodotto non caratterizzato (a ignota)."
+  },
+  {
+   "id": "E17",
+   "da": "F13",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 370,
+     "max": 380,
+     "testo": "above 370-380 K"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "stream of nitrogen gas"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 1,
+     "unita": "mol/mol",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "That is consistent with TGA data for the perchlorate salts, which both show an abrupt mass loss corresponding to 1 equiv solvent above 370-380 K.",
+    "Different samples from the same crystallization vials were used for the thermogravimetric analyses, which employed a TA Instruments TGA Q50 analyser with a temperature ramp of 10 Kmin‒1 under a stream of nitrogen gas."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«the perchlorate salts, which both show an abrupt mass loss corresponding to 1 equiv solvent above 370-380 K»: la frase vale per i due perclorati (1[ClO4]2·MeNO2 e 1[ClO4]2·MeCN), un evento per sale con certezza media. Perdita in equivalenti di solvente (1 equiv = 1 mol/mol). Prodotto non caratterizzato (a ignota)."
+  },
+  {
+   "id": "E18",
+   "da": "F15",
+   "a": "F16",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 370,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 30,
+     "unita": "min",
+     "tipo": "attesa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ],
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Annealing its single crystals at 370 K on the diffractometer causes loss of the acetone solvent, in a single-crystal-to-single-crystal transformation to a solvent-free phase with a three-fold expansion of the unit cell",
+    "Heating a crystal of phase 1 of 1[ClO4]2·½Me2CO·nH2O at 370 K for 30 mins on the diffractometer transformed it into solvent-free phase 2, in single-crystal-to-single-crystal fashion.",
+    "undergoes a single-crystal-singlecrystal desolvation coupled to a crystallographic Z’ = 1→3 symmetry breaking, involving rotation of a StBu substituent in one-third of the cations in the crystal"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "tBuS substituent",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F16",
+     "citazione": "One tBuS substituent in molecule ‘B’ of the desolvated phase has rotated about its C{pyridyl}‒S bond by ca 60° compared to molecules A and C, which retain the ligand conformation in the original solvated form (Figure S36)."
+    }
+   ],
+   "note": "Annealing sul diffrattometro a 370 K per 30 min: perdita di acetone in modo single-crystal-to-single-crystal, cella triplicata (Z' da 1 a 3, gruppo spaziale triclino mantenuto), un tBuS su tre cationi ruotato di ca 60°. Nessuna transizione di spin coinvolta. Il solido senza solvente ha vuoti di 470 Å3 per cella, essenzialmente vuoti secondo SQUEEZE."
+  },
+  {
+   "id": "E19",
+   "da": "F15",
+   "a": "F16",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": null,
+   "senza_condizioni": true,
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Desolvation of bulk samples of 1[ClO4]2·0.5Me2CO·0.2H2O occurs cleanly with no loss of crystallinity, by X-ray powder diffraction (Figure S39)."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Desolvatazione di campioni di polvere «cleanly with no loss of crystallinity»: nessuna condizione scritta (T, tempo, mezzo). Il prodotto e' la fase senza solvente (F16) per contesto, non detto in modo esplicito per la polvere."
+  },
+  {
+   "id": "E20",
+   "da": "F15",
+   "a": "F17",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 16,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "in vacuo"
+    },
+    "altro": "poi esposizione all'aria (assorbimento di umidita' atmosferica)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "After drying in vacuo at 80 °C for 16 hrs, followed by exposure to air, the same sample gave a microanalysis consistent with a dihydrate material.",
+    "However, they may account for the observation that bulk samples of 1[ClO4]2·0.5Me2CO·0.2H2O absorb atmospheric moisture after annealing, leading to a microanalysis formulation of 1[ClO4]2·2H2O."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Campioni di polvere di 1[ClO4]2·½Me2CO·nH2O (fase 1; n = 0.5 nella microanalisi) essiccati in vuoto a 80 °C per 16 h e poi esposti all'aria danno una microanalisi da diidrato 1[ClO4]2·2H2O. Il testo principale dice che i campioni «absorb atmospheric moisture after annealing» e che i vuoti di 78 Å3 per unita' formula possono accogliere due molecole d'acqua (30 Å3 ciascuna). Passi: perdita di acetone (come E18, fase senza solvente) e poi assorbimento d'acqua dall'aria (RH non detta). L'identificazione e' dalla sola formula. Non e' detto se «annealing» del testo sia lo stesso trattamento dell'essiccamento in vuoto."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "metodo": "altro",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente"
+   },
+   "citazioni": [
+    "Flash silica column chromatography (2:1 dichloromethane:hexane eluent) afforded L as a pale yellow oil (Rf 0.15), which slowly crystallized upon standing at room temperature.",
+    "The two polymorphs of L crystallized together from the oil that was initially obtained after purification of the compound."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "I due polimorfi di L cristallizzano insieme dall'olio giallo ottenuto dopo la colonna; metodo «altro» (cristallizzazione lenta dall'olio a temperatura ambiente, non dal fuso con una T dichiarata)."
+  },
+  {
+   "forme": [
+    "F3",
+    "F6",
+    "F9",
+    "F10",
+    "F11",
+    "F13",
+    "F15"
+   ],
+   "metodo": "diffusione",
+   "solventi": [
+    "nitromethane",
+    "acetonitrile",
+    "acetone"
+   ],
+   "solventi_alternativi": true,
+   "citazioni": [
+    "Recrystallization of both complex salts from nitromethane, acetonitrile or acetone using diethyl ether antisolvent gave different single crystalline solvates with different stoichiometries, which are mostly not isostructural and exhibit different spin state properties.",
+    "Recrystallization of 1[BF4]2 by slow diffusion of diethyl ether into solutions of the complex in the appropriate solvent yielded the different solvate materials described below. Solvates of yellow 1[ClO4]2 were prepared similarly"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Diffusione lenta di dietiletere (antisolvente) in soluzioni del complesso in nitrometano, acetonitrile o acetone; ogni solvato (MeNO2, MeCN, Me2CO) si forma dal solvente che porta nel nome. Tempi e T non scritti."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E5",
+   "citazioni": [
+    "A single crystal of phase 3 was isolated from the SQUID magnetometer sample, after the repeated thermal cycling in Figure 1 (top) was complete.",
+    "The crystal of phase 3 of 1[BF4]2·xMeNO2 was found in a sample of the compound which had been annealed inside the SQUID magnetometer."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Il cristallo di fase 3 per la diffrazione viene dal campione dopo i cicli termici nel SQUID (E5); ottenuto «on one occasion»."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "citazioni": [
+    "Heating 1[BF4]2·xMeNO2 phase 1 to 370 K on a powder diffractometer causes its clean conversion to the intermediate phase 2 (Figure 3)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Fase 2 ottenuta in polvere scaldando la fase 1 a 370 K."
+  },
+  {
+   "forme": [
+    "F16"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E18",
+   "citazioni": [
+    "Heating a crystal of phase 1 of 1[ClO4]2·½Me2CO·nH2O at 370 K for 30 mins on the diffractometer transformed it into solvent-free phase 2, in single-crystal-to-single-crystal fashion."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Fase senza solvente da un cristallo di fase 1 scaldato a 370 K per 30 min sul diffrattometro."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "four unique molecules in the two polymorphs with essentially identical conformations: transoid-coplanar heterocyclic rings and StBu groups perpendicular to the tris-heterocyclic core",
+     "citazione": "The conformations of the four unique molecules in the two polymorphs are essentially identical, with transoid-coplanar heterocyclic rings and StBu groups oriented perpendicular to the tris-heterocyclic core."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 172,
+      "unita": "K"
+     },
+     "forma": "F5",
+     "metodo": "magnetic susceptibility (SQUID); T½ spin-crossover midpoint, abrupt, 3 K hysteresis, 50 % completeness",
+     "calcolato": false,
+     "citazione": "By scan 9, only this transition is observed, where the sample undergoes an abrupt transition at T½ = 172 K with a 3 K thermal hysteresis, to 50 % completeness."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 244,
+      "unita": "K"
+     },
+     "forma": "F11",
+     "metodo": "magnetic susceptibility; T½ spin-crossover midpoint, gradual",
+     "calcolato": false,
+     "citazione": "In contrast, 1[ClO4]2·MeNO2 and the two acetonitrile solvate salts show typical gradual thermal SCO, with T½ = 244 (1[ClO4]2·MeNO2), 276 (1[BF4]2·MeCN) and 253 K (1[ClO4]2·MeCN; Figure 5)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 276,
+      "unita": "K"
+     },
+     "forma": "F9",
+     "metodo": "magnetic susceptibility; T½ spin-crossover midpoint, gradual",
+     "calcolato": false,
+     "citazione": "In contrast, 1[ClO4]2·MeNO2 and the two acetonitrile solvate salts show typical gradual thermal SCO, with T½ = 244 (1[ClO4]2·MeNO2), 276 (1[BF4]2·MeCN) and 253 K (1[ClO4]2·MeCN; Figure 5)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 253,
+      "unita": "K"
+     },
+     "forma": "F13",
+     "metodo": "magnetic susceptibility; T½ spin-crossover midpoint, gradual",
+     "calcolato": false,
+     "citazione": "In contrast, 1[ClO4]2·MeNO2 and the two acetonitrile solvate salts show typical gradual thermal SCO, with T½ = 244 (1[ClO4]2·MeNO2), 276 (1[BF4]2·MeCN) and 253 K (1[ClO4]2·MeCN; Figure 5)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 255,
+      "unita": "K",
+      "testo": "255 ±5 K"
+     },
+     "forma": "F10",
+     "metodo": "T½ spin-crossover midpoint, abrupt, both molecules simultaneously",
+     "calcolato": false,
+     "citazione": "Unusually, both molecules undergo abrupt SCO simultaneously at T½ = 255 ±5 K, without a crystallographic phase change (Table S13)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "StBu groups perpendicular to the heterocyclic core (torsions >70°) in the free ligand and in 1[BF4]2·xMeNO2; almost parallel (coplanar) in all the perchlorate solvates; mixture in 1[BF4]2·yMe2CO and in the structurally characterized phase of 1[BF4]2·MeCN",
+     "citazione": "The StBu groups are perpendicular to the heterocyclic core in both phases of the free L ligand, and in 1[BF4]2·xMeNO2, with C{pyridyl}−C{pyridyl}−S−C{tBu} torsions >70°. Conversely, the StBu groups are oriented almost parallel (coplanar) to their bound pyridyl rings in all the perchlorate solvate crystals."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "desolvation of 1[ClO4]2·0.5Me2CO·0.2H2O rotates one StBu group from parallel towards perpendicular orientation (ca 60° in one third of the cations)",
+     "forma": "F16",
+     "citazione": "while desolvation of 1[ClO4]2·0.5Me2CO·0.2H2O involves rotation of a StBu group from a parallel towards a perpendicular orientation"
+    }
+   ]
+  }
+ ]
+}
