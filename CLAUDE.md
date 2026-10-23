@@ -74,3 +74,35 @@ Scrivi `rapporti/blocco_<NN>.md` (NN con due cifre) e fai commit e push. Dentro:
   testi; non toccare i file degli altri blocchi.
 - Non scaricare niente e non usare internet.
 - Non condividere i testi fuori da questo repo: sono qui solo per l'estrazione.
+
+## Aggiornamento del 2026-10-23 (vincolante)
+
+Vale per te e per ogni sottoagente: se lavori con sottoagenti, passa questa sezione
+per intero nel prompt di ciascuno.
+
+1. **Niente formato extra.** Si scrive solo `estrazione/cloud/<file>.json`. I file
+   gia' in `estrazione/extra/` restano dove sono e non si toccano.
+2. **I negativi sono il dato che manca di piu' al modello.** Si estraggono cosi':
+   - «X si trasforma solo in Y» («only to Y», «exclusively»): oltre a X → Y, un
+     evento X → Z `non_avvenuta` per ogni altra forma Z dell'articolo che con la
+     stessa leva poteva nascere da X (per esempio gli altri idrati in una prova
+     d'umidita'). Condizioni della frase, certezza `media`, una `note` che spiega il
+     ragionamento. Z deve essere una forma dell'articolo: mai forme inventate.
+   - «solo sotto/sopra una soglia» («only below 5% RH», «only above 150 °C»):
+     l'evento avvenuto con la sua soglia, piu' un evento `non_avvenuta` dall'altra
+     parte della soglia.
+   - «even at 90% RH», «even after 6 months», «stable up to», «no change»,
+     «remained», «unchanged»: un evento `non_avvenuta` con quella condizione; `a` e'
+     la forma attesa se il testo la nomina, altrimenti `ignota`.
+   - Una prova fatta su piu' forme in parallelo in cui ne cambia una sola: un
+     evento `non_avvenuta` per ciascuna delle altre.
+   - Mai un negativo dedotto dal silenzio: ci vuole una frase che lo dica.
+3. **Aria.** Un solvato o un idrato che cambia (perde trasparenza, si sfalda, si
+   opacizza) quando lo si toglie dall'acqua madre o lo si lascia all'aria →
+   `desolvatazione` / `aria`, certezza `media`, anche se il testo non nomina il
+   solvente che esce. `altro` / `esposizione_ambiente` solo per forme senza ospiti.
+4. **Niente doppioni.** Le frasi sulla stessa trasformazione gia' coperta da un
+   evento (riassunti, la stessa prova vista con una seconda tecnica) non diventano
+   eventi nuovi.
+
+I compiti del giro in corso sono in `compiti/`.
