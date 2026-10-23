@@ -1,0 +1,794 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1038/s41467-023-44214-x",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Non-covalent organic framework (HOF) a legami H fra molecole organiche, con acqua di reticolo: cristallo molecolare, pertinente. Non sono eventi di forma: i comportamenti di commutazione resistiva (RRAM, WORM, ON/OFF, set voltage, cicli, impulsi, deriva di resistenza) e la prova di commutazione sul dispositivo attivato HOF-FJU-52a sotto vuoto a 353 K («It remains the RS behaviors»), nessuna frase dice che la forma cambi. Le prove 'if exposed to various solvents and humidities, even under conditions of annealing at 500 K' riguardano il comportamento elettrico, non la forma. Il calcolo DFT (6.97 eV) non e' un evento. L'articolo dice 'resulting in 12 different structures' ma ne descrive nel testo solo alcune; i parametri di cella e i gruppi spaziali stanno nel supplementare (Supplementary Table 4), nessun CCDC o refcode nel testo. Le strutture HOF-FJU-52-150K, -100K e le -R (riscaldamento) sono citate ma senza gruppo spaziale: sono tenute come la fase a bassa T F2 (vedi note di F2). Il TGA e' citato solo per la formula, senza valori nel testo.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "1,1′-bis(4-carboxy-benzyl)−4,4′-bipyridinium",
+   "smiles": null,
+   "nome_scritto": "1,1′-bis(4-carboxy-benzyl)−4,4′-bipyridinium dichloride (H2L1Cl2)"
+  },
+  {
+   "id": "C2",
+   "nome": "pyrene-1,3,6,8-tetrayltetrakis(phosphonic acid)",
+   "smiles": null,
+   "nome_scritto": "pyrene-1,3,6,8-tetrayltetrakis(phosphonic acid) (H8L2)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "HOF-FJU-52",
+   "tipo": [
+    "altro",
+    "idrato"
+   ],
+   "etichette_alternative": [
+    "as-synthesized HOF-FJU-52",
+    "pristine HOF-FJU-52"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 12,
+    "riferito_a": "unita_formula"
+   },
+   "gruppo_spaziale": "Ccce",
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "asymmetric O-H···O dimers",
+     "chi": "–COOH ('pin' 4-carboxyphenyl groups of H2L1) and –PO3H groups of H4L2",
+     "citazione": "H2L1 acting as a “staple” employs its “pins” 4-carboxyphenyl groups to fasten H4L2 through two asymmetric O-H···O dimers between –COOH and –PO3H groups with O9···O6 distance of 2.505 Å and O10···O8 distance of 2.627 Å to form a 0D molecular loop of [(H4L2)(H2L)]2-."
+    },
+    {
+     "motivo": "O···H-C hydrogen bonds (ladder chain)",
+     "chi": "H2L1 molecules of the ladder chain",
+     "citazione": "H2L1 molecules link to each other through two O···H-C hydrogen bonds with O2···C29 distance of 3.067 Å to give a ladder chain along the a axis."
+    }
+   ],
+   "citazione": "HOF-FJU-52 crystallizes in the space group Ccce.",
+   "note": "Formula dell'articolo: [(H4L2)(H2L1)][H2L1]·(H2O)12 (H2L1 = catione del composto C1; H4L2 = acido fosfonico C2, scritto H8L2 come reagente). Stechiometria dell'acqua per unita' formula (un H4L2). Tipo 'altro' + 'idrato': l'articolo non dice 'salt' ne' 'cocrystal'. Sistema cristallino non scritto. Acqua di reticolo: 'solvent-accessible volume per unit cell 2894 Å3 (20% of the total unit cell volume) ... occupied by a large amount of lattice water molecules'."
+  },
+  {
+   "id": "F2",
+   "etichetta": "HOF-FJU-52-200K",
+   "tipo": "altro",
+   "etichette_alternative": [
+    "HOF-FJU-52-100K-HRS"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": "C2cb",
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "hydrogen bond dimers in the 0D loops (meta' distrutti)",
+     "chi": "–COOH and –PO3H groups of the 0D loop",
+     "citazione": "Upon altering the temperature from 200 to 100 K, the HOFs exhibit the destruction of half the hydrogen bond dimers in the 0D loops, accompanied by the rotation of one phosphonic acid group (Fig. 3 and Supplementary Fig. 9)."
+    }
+   ],
+   "citazione": "At 200 K, an obvious SCSC transformation occurs with the space group from Ccce in HOF-FJU-52 and HOF-FJU-52-250K to C2cb in HOF-FJU-52-200K.",
+   "note": "Fase a bassa temperatura. Sono state misurate anche HOF-FJU-52-150K e HOF-FJU-52-100K (e le -R in riscaldamento: 'Eight crystal structures, termed HOF-FJU-52-XK(-R)'); l'articolo non scrive il loro gruppo spaziale ma descrive le strutture da 200 a 100 K come un'unica evoluzione ('Upon altering the temperature from 200 to 100 K, the HOFs exhibit the destruction of half the hydrogen bond dimers'), quindi qui sono trattate come la stessa fase F2 (scelta di chi estrae; il testo non le dichiara identiche). La struttura HOF-FJU-52-100K-HRS dei Metodi e' presa come F2 a 100 K. Contenuto d'acqua di questa struttura non ridetto nel testo (SCSC): per questo ospite e' null e il tipo non e' 'idrato'."
+  },
+  {
+   "id": "F3",
+   "etichetta": "HOF-FJU-52a",
+   "tipo": "anidro",
+   "etichette_alternative": [
+    "activated HOF-FJU-52a",
+    "desolvated HOF-FJU-52a"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "After vacuum outgassing of the as-synthesized sample at 353 K for 12 h to remove the lattice water molecules, the activated HOF-FJU-52a sample can be obtained.",
+   "note": "Campione attivato, senza acqua di reticolo. Nessuna struttura cristallina descritta per questo campione nel testo."
+  },
+  {
+   "id": "F4",
+   "etichetta": "HOF-FJU-52-0.6V",
+   "tipo": "altro",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "The structures of HOF-FJU-52-0.6V and HOF-FJU-52-(-)0.1V were obtained under the stimulus of 0.6 V and succedent –0.1 V voltages (Fig. 7 and Supplementary Fig. 21), respectively.",
+   "note": "Struttura dello stesso cristallo di HOF-FJU-52 sotto tensione di 0.6 V: 'no substantial change has been observed ... except for some subtle changes in the asymmetric hydrogen bond dimers and the infinite π–π stacking'. Gli spostamenti di protone sono dentro la stessa fase; e' tenuta come forma distinta perche' l'articolo la nomina come struttura a se' (una delle '12 different structures'). Caso limite, vedi rapporto."
+  },
+  {
+   "id": "F5",
+   "etichetta": "HOF-FJU-52-(-)0.1V",
+   "tipo": "altro",
+   "etichette_alternative": [
+    "HOF-FJU-52-(–)0.1V"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "The structures of HOF-FJU-52-0.6V and HOF-FJU-52-(-)0.1V were obtained under the stimulus of 0.6 V and succedent –0.1 V voltages (Fig. 7 and Supplementary Fig. 21), respectively.",
+   "note": "Struttura dopo la tensione inversa di -0.1 V: i protoni 'migrate back to the center position' e theta1 e d4 'nearly come back to the initial state'. L'articolo la nomina come struttura a se'; potrebbe coincidere con F1 (vedi lettura_alternativa dell'evento)."
+  },
+  {
+   "id": "F6",
+   "etichetta": "HOF-FJU-52-100K-19V",
+   "tipo": "altro",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Finally, the DC voltage of 19 V was applied on HOF-FJU-52-100K-HRS along the b axis to obtain the structure of HOF-FJU-52-100K-19V.",
+   "note": "Struttura a 100 K con 19 V applicati: 'Although there is only one hydrogen-bonded dimers in 0D loop, the resonant migration of shared protons to phosphonic groups and the shrinkage (0.068 Å) of π–π stacking column are also observed'."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F2",
+   "condizioni": "calcolo DFT sulle strutture misurate (energia totale), non una stabilita' sperimentale a una temperatura",
+   "citazione": "As expected, the total energy of HOF-FJU-52-200K is –4019.69 eV, which is about 6.97 eV lower than that of HOF-FJU-52, implying that the HOF-FJU-52-200K is energetically more stable than the HOF-FJU-52.",
+   "fonte_dati": "propria",
+   "certezza": "bassa",
+   "note": "Solo calcolata (DFT): confronta le strutture misurate a 200 K e a temperatura ambiente. Gli autori ne deducono che il ritorno al gruppo Ccce e' sfavorito 'from a thermodynamic viewpoint' (isteresi). A temperatura ambiente la forma osservata e' F1."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "reversibile": true,
+   "inverso_di": [
+    "E2",
+    "E3"
+   ],
+   "condizioni": {
+    "temperatura": {
+     "valore": 200,
+     "min": 250,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen bond dimers in the 0D loops",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F2",
+     "citazione": "Upon altering the temperature from 200 to 100 K, the HOFs exhibit the destruction of half the hydrogen bond dimers in the 0D loops, accompanied by the rotation of one phosphonic acid group (Fig. 3 and Supplementary Fig. 9)."
+    },
+    {
+     "gruppo": "phosphonic acid group",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "Upon altering the temperature from 200 to 100 K, the HOFs exhibit the destruction of half the hydrogen bond dimers in the 0D loops, accompanied by the rotation of one phosphonic acid group (Fig. 3 and Supplementary Fig. 9)."
+    }
+   ],
+   "citazioni": [
+    "First, we explored changes in the single crystal structures upon altering the temperatures from 293 to 100 K (Fig. 3a).",
+    "The temperature dropped from room temperature to 100 K at intervals of 50 K and then rose back to room temperature at the same interval.",
+    "At 200 K, an obvious SCSC transformation occurs with the space group from Ccce in HOF-FJU-52 and HOF-FJU-52-250K to C2cb in HOF-FJU-52-200K.",
+    "Especially, both the asymmetric hydrogen bond dimers and π–π stacking column display remarkable variations at 200 K (Supplementary Fig. 8)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Raffreddamento a passi di 50 K (293, 250, 200, 150, 100 K): a 250 K il gruppo e' ancora Ccce, a 200 K C2cb; 'valore' e' la T in cui si vede la fase nuova, 'min' l'ultima T senza cambio (250 K, dal testo: 'HOF-FJU-52-250K' ancora Ccce). 'sharp shrinkage with the rate of 0.009 Å per Kelvin' a 200 K sull'asse b. Da 200 a 100 K si ha ancora la distruzione di meta' dei dimeri e la rotazione di un gruppo fosfonico, il che fa pensare a un'evoluzione continua in F2 (i gruppi sono attribuiti a questo intervallo). Il ritorno e' in E2 (a T ambiente dopo 5 h) e E3 (nessun ritorno a 250 K)."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "da_evento": "E3",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "h",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "raffreddato da temperatura ambiente a 100 K e poi riscaldato a passi di 50 K (HOF-FJU-52-XK-R), ancora in F2 a 250 K",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen-bonded dimer",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F1",
+     "citazione": "The HOF with the original hydrogen-bonded dimer can be reconstructed after being placed at room temperature for 5 h, and the space group Ccce can also be restored."
+    }
+   ],
+   "citazioni": [
+    "The HOF with the original hydrogen-bonded dimer can be reconstructed after being placed at room temperature for 5 h, and the space group Ccce can also be restored.",
+    "Meanwhile, the π–π stacking column can be expanded to the original state at room temperature, corresponding to the recovered cell unit parameters b (Supplementary Fig. 7a).",
+    "Obviously, the recovery during the heating process only occurs at room temperature, lagging behind 250 K.",
+    "As a result, HOF-FJU-52 is the single crystal showing a reversible hysteresis loop in the function of the cell parameter b with temperatures."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il tempo (5 h) e' il tempo di permanenza a temperatura ambiente dopo cui il gruppo Ccce e il dimero originale risultano ripristinati; non e' detto quanto ci metta davvero (potrebbe essere meno). Isteresi: il ritorno avviene piu' in alto del punto di andata (200 K)."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "inverso_di": "E1",
+   "condizioni": {
+    "temperatura": {
+     "valore": 250,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "raffreddato a 100 K a passi di 50 K, poi riscaldato a passi di 50 K",
+   "citazioni": [
+    "Oppositely, during the reverse heating process, no obvious SCSC transformation occurs at 250 K.",
+    "In another word, the structural transformation with the recovery of space group from C2cb to Ccce is likely to occur difficultly from a thermodynamic viewpoint; thus, no obvious SCSC transformation occurs even at 250 K during the reverse heating process and results in the hysteresis loop in the single crystal structures upon altering the temperatures."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo nel verso del riscaldamento: a 250 K la fase C2cb non torna a Ccce (isteresi). Il ritorno avviene solo a temperatura ambiente (E2). La spiegazione termodinamica degli autori e' basata sul calcolo DFT."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "F2",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 200,
+     "unita": "K",
+     "tipo": "intervallo",
+     "limite": "sopra"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen bond dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F1",
+     "citazione": "Above 200 K, the 0D loops in the HOFs can keep the hydrogen bond dimers in both sites."
+    }
+   ],
+   "citazioni": [
+    "At 200 K, an obvious SCSC transformation occurs with the space group from Ccce in HOF-FJU-52 and HOF-FJU-52-250K to C2cb in HOF-FJU-52-200K.",
+    "Above 200 K, the 0D loops in the HOFs can keep the hydrogen bond dimers in both sites."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Altro lato della soglia di E1: sopra 200 K (misurati 293 e 250 K) la struttura resta Ccce e i dimeri restano in entrambi i siti; il testo lo dice per HOF-FJU-52-250K ('space group from Ccce in HOF-FJU-52 and HOF-FJU-52-250K to C2cb in HOF-FJU-52-200K') e con 'Above 200 K'."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 100,
+     "unita": "K",
+     "tipo": "intervallo",
+     "testo": "from room temperature to 100 K"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "K/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Next, we obtained the in situ variable-temperature powder XRD (VTPXRD) from room temperature to 100 K, which almost remains unchanged.",
+    "No similar reversible hysteresis loop was observed in its VTPXRD experiments (Fig. 3a), which may perhaps be due to the quench effect as the fast cooling rate of 2 K/min during the test."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Stessa prova di E1 con un'altra tecnica (VT-PXRD su polvere) e con esito diverso: i diffrattogrammi restano quasi invariati, solo 'a very slow shift of the (0 8 0) peaks to high angles' (restringimento delle colonne π–π, 0.0011 Å per Kelvin). 'a' ignota perche' il testo non nomina la fase attesa: gli autori attribuiscono l'assenza di isteresi al raffreddamento veloce ('quench effect'), non a una assenza di transizione."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 353,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 12,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "vacuum"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "After vacuum outgassing of the as-synthesized sample at 353 K for 12 h to remove the lattice water molecules, the activated HOF-FJU-52a sample can be obtained.",
+    "HOF materials (HOF-FJU-52) were degassed at 353 K under vacuum condition for 12 h at a Micromeritics 3Flex degas station before adsorption measurements."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Attivazione sotto vuoto a 353 K: l'acqua di reticolo esce. Valore del vuoto non scritto. Nessuna perdita di massa riportata nel testo. Il campione e' detto 'as-synthesized sample' (tipo non specificato)."
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 294,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 0.95,
+     "unita": "P/P0"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro",
+     "PXRD"
+    ],
+    "variazione_massa": {
+     "valore": 11.3,
+     "unita": "mol/mol",
+     "testo": "11.3 water molecules per H4L2"
+    }
+   },
+   "citazioni": [
+    "The water vapor adsorption of the HOF-FJU-52a sample on 3Flex surface characterization analyzer monitors that at 294 K and P/P0 = 0.95, it can take water molecules with 11.3 per H4L2 (Supplementary Fig. 5), close to the value of its molecular formula.",
+    "Also, its framework is well preserved after water vapor adsorption, as confirmed by the observed powder X-ray diffraction (PXRD) patterns (Supplementary Fig. 6).",
+    "Water vapor adsorption isotherm of activated HOF-FJU-52a was measured on Micromeritics 3Flex surface characterization analyzer at 294 K."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Reidratazione dell'attivato: 11.3 molecole d'acqua per H4L2 a P/P0 = 0.95, 'close to the value of its molecular formula' (12). Il prodotto non e' nominato (la PXRD mostra solo che 'its framework is well preserved'), quindi 'a' e' ignota; l'umidita' e' data come P/P0 dell'isoterma, non come RH."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "campo",
+   "reversibile": true,
+   "inverso_di": "E9",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "atmosfera": "ambient atmosphere",
+    "altro": "campo elettrico: tensione DC di 0.6 V applicata lungo l'asse b del cristallo (stesso cristallo, sulla probe station)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "IR",
+     "altro"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "asymmetric hydrogen bond dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F4",
+     "citazione": "Interestingly, the two shared protons migrate toward the positions near the phosphonic acid group but far away from the “pin” O atoms in HOF-FJU-52-0.6V (Fig. 7b), while the two protons migrate back to the center position of the hydrogen bond dimers in HOF-FJU-52-(-)0.1V (Fig. 7c), indicating that the voltage can induce the resonant migration of proton within the dimers."
+    },
+    {
+     "gruppo": "phosphonic acid group",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F4",
+     "citazione": "Interestingly, the two shared protons migrate toward the positions near the phosphonic acid group but far away from the “pin” O atoms in HOF-FJU-52-0.6V (Fig. 7b), while the two protons migrate back to the center position of the hydrogen bond dimers in HOF-FJU-52-(-)0.1V (Fig. 7c), indicating that the voltage can induce the resonant migration of proton within the dimers."
+    },
+    {
+     "gruppo": "“pin” carboxylic groups",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F4",
+     "citazione": "This is probably because the deprotonation of the “pin” carboxylic groups triggers the dispelling of the “pin” frustration to decrease dihedral angle θ1, leading to an increase of π-conjugation."
+    }
+   ],
+   "citazioni": [
+    "Firstly, we studied the mechanism of RRAM behavior at room temperature.",
+    "The structures of HOF-FJU-52-0.6V and HOF-FJU-52-(-)0.1V were obtained under the stimulus of 0.6 V and succedent –0.1 V voltages (Fig. 7 and Supplementary Fig. 21), respectively.",
+    "In comparison with the pristine one, no substantial change has been observed in the two structures, except for some subtle changes in the asymmetric hydrogen bond dimers and the infinite π–π stacking from the staggered 4-carboxyphenyl groups.",
+    "Next, this crystal was placed on the probe station with a Keithley 4200 system and DC voltage of 0.6 V was applied on HOF-FJU-52 along the b axis to obtain the structure of HOF-FJU-52-0.6V under ambient atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Caso limite: lo spostamento di protone nei dimeri e' dentro la stessa fase ('no substantial change'; distanza d4 da 23.966 a 23.929 Å, angolo θ1 da 4.28° a 2.91°), ma l'articolo parla di 'reversible transformations between multistate structures' e nomina la struttura. Il testo dice: 'Under temperature and electric field effects, asymmetric hydrogen bonds and π–π stacking change synergistically, resulting in 12 different structures'. Il dato XPS/IR (rapporto P-O-H/C-O-H da circa 1 a 7) e' coerente. 'Room temperature' viene da 'the mechanism of RRAM behavior at room temperature'. Atmosfera: 'ambient atmosphere'."
+  },
+  {
+   "id": "E9",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "campo",
+   "reversibile": true,
+   "inverso_di": "E8",
+   "da_evento": "E8",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "atmosfera": "ambient atmosphere",
+    "altro": "campo elettrico: tensione DC inversa di -0.1 V applicata lungo l'asse b dopo i 0.6 V",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "IR",
+     "altro"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "HOF-FJU-52-0.6V (tensione di 0.6 V applicata lungo b)",
+   "lettura_alternativa": "F5 e' tornata allo stato iniziale (F1): 'the dihedral angle θ1 and d4 nearly come back to the initial state'.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen bond dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F5",
+     "citazione": "Interestingly, the two shared protons migrate toward the positions near the phosphonic acid group but far away from the “pin” O atoms in HOF-FJU-52-0.6V (Fig. 7b), while the two protons migrate back to the center position of the hydrogen bond dimers in HOF-FJU-52-(-)0.1V (Fig. 7c), indicating that the voltage can induce the resonant migration of proton within the dimers."
+    }
+   ],
+   "citazioni": [
+    "Similarly, the DC voltage of –0.1 V was applied on HOF-FJU-52-0.6V along b axis to get the structure of HOF-FJU-52-(-)0.1V under ambient atmosphere.",
+    "As the protons migrate back to the original center position upon –0.1 V DC voltage applied, the dihedral angle θ1 and d4 nearly come back to the initial state; thus, the HRS behavior is recovered in HOF-FJU-52-(-)0.1V.",
+    "Therefore, structural reversibility in resonant migration of shared protons of the asymmetric H-bond dimers and in breathing effect of the π–π stacking column endows our HOF with reversible and nonvolatile RRAM behaviors at room temperature."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Ritorno dei protoni al centro dei dimeri con -0.1 V. Vedi la nota di E8: caso limite (stessa fase, struttura nominata a se')."
+  },
+  {
+   "id": "E10",
+   "da": "F2",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "campo",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "altro": "campo elettrico: tensione DC di 19 V applicata lungo l'asse b sul cristallo raffreddato a 100 K (stato HRS)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "raffreddato a 100 K (HOF-FJU-52-100K-HRS)",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phosphonic groups",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "Although there is only one hydrogen-bonded dimers in 0D loop, the resonant migration of shared protons to phosphonic groups and the shrinkage (0.068 Å) of π–π stacking column are also observed, leading to the LRS behavior upon the external stimulus of electrical field E (Supplementary Fig. 23)."
+    }
+   ],
+   "citazioni": [
+    "Secondly, we also investigated the WORM mechanism in the crystal of HOF-FJU-52-100K-19V, in which the temperature was cooled down to 100 K and the voltage was raised up to 19 V.",
+    "Although there is only one hydrogen-bonded dimers in 0D loop, the resonant migration of shared protons to phosphonic groups and the shrinkage (0.068 Å) of π–π stacking column are also observed, leading to the LRS behavior upon the external stimulus of electrical field E (Supplementary Fig. 23).",
+    "Finally, the DC voltage of 19 V was applied on HOF-FJU-52-100K-HRS along the b axis to obtain the structure of HOF-FJU-52-100K-19V."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Meccanismo del comportamento WORM (non riscrivibile elettricamente). Come E8 e' un caso limite (spostamento di protoni e restringimento della colonna π–π, forma nominata). Nessuna frase sul ritorno strutturale di questo stato, quindi nessun evento inverso."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "CH3OH/H2O (1.5:3.5, v/v)",
+    "N,N’-dimethylacetamide (DEF), 2 mL"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 85,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h"
+   },
+   "citazioni": [
+    "The solvothermal reaction of H8L2 and [H2L1]Cl2 in mixed MeOH/H2O (3:2, v/v) solution at 85 °C for 24 h gave orange bulk crystals of HOF-FJU-52, and its formula was substantiated by TGA, single- crystal x-ray diffraction (SCXRD) and elemental analysis (Supplementary Fig. 2 and Supplementary Table 4).",
+    "A mixture of H2L1Cl2 (3.8 mg, 0.0075 mmol), H8L2 (1.31 mg, 0.0025 mmol), 5 mL CH3OH/H2O (1.5:3.5, v/v) and 2 mL N,N’-dimethylacetamide (DEF) solution was stirred for 5 min. Then, the solution was transferred to a 23-ml glass jar and heated to 85 °C. After 24 h, the system was cooled to room temperature, and orange bulk crystals were obtained."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "conflitto": "Risultati: 'mixed MeOH/H2O (3:2, v/v)'; Metodi: '5 mL CH3OH/H2O (1.5:3.5, v/v) and 2 mL N,N’-dimethylacetamide (DEF)'. Si e' scelta la parte sperimentale (piu' circostanziata, con il terzo solvente).",
+   "note": "Reazione solvotermale (metodo 'altro'). Resa: 25% rispetto a H8L2 (The yield of the HOF-FJU-52 was 25% based on H8L2). Nei Metodi il solvente e' una miscela (CH3OH/H2O + dimetilacetammide, scritto 'DEF')."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E6",
+   "solventi": [],
+   "temperatura": {
+    "valore": 353,
+    "unita": "K",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 12,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "After vacuum outgassing of the as-synthesized sample at 353 K for 12 h to remove the lattice water molecules, the activated HOF-FJU-52a sample can be obtained."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "H2L1 trans-conformation nella catena a scala (meta' molecola indipendente); cis-conformation nel loop 0D (meta' molecola indipendente)",
+     "citazione": "In the chain, there are half of crystallographically independent H2L1 molecule with trans-conformation, in which its 4,4′-bipyridine group acts as the “rung” and its 4-carboxyphenyl group acts as the “rail”."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "cis-conformation di H2L1 nel loop, che funge da 'staple' con i 4-carboxyphenyl 'pins'",
+     "citazione": "In the loop, there are half of crystallographically independent H2L1 molecule with cis-conformation and half of H4L2 molecule."
+    },
+    {
+     "tipo": "flessibilita",
+     "forma": "F1",
+     "testo": "semirigid; angolo diedro fra anello fenilico e piano COOH (θ1) 4.28° nel gruppo 'pin' contro 1.78° nel 'rail'",
+     "citazione": "And the dihedral angle between the phenyl ring and −COOH plane (θ1) in the “pin” group is 4.28°, which is obviously larger than the dihedral angle of 1.78° in the “rail” group."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "semirigid",
+     "citazione": "HOF-FJU-52, [(H4L2)(H2L1)][H2L1]·(H2O)12, self-assembled from the semirigid 1,1′-bis(4-carboxy-benzyl)−4,4′-bipyridinium dichloride (H2L1Cl2) and rigid pyrene-1,3,6,8-tetrayltetrakis(phosphonic acid) (H8L2) (Fig. 1a)."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "rigid",
+     "citazione": "HOF-FJU-52, [(H4L2)(H2L1)][H2L1]·(H2O)12, self-assembled from the semirigid 1,1′-bis(4-carboxy-benzyl)−4,4′-bipyridinium dichloride (H2L1Cl2) and rigid pyrene-1,3,6,8-tetrayltetrakis(phosphonic acid) (H8L2) (Fig. 1a)."
+    }
+   ]
+  }
+ ]
+}
