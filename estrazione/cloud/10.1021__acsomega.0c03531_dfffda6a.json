@@ -1,0 +1,415 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acsomega.0c03531",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Drospirenone (DE): forma A (polimorfo senza solvente), forma B (amorfo, gia' riportato in letteratura) e forma C (solvato 1:1 con DMSO, nuovo). CCDC: la riga della Table 1 attribuisce 1994085 alla forma A e 1994086 alla forma C. Gruppo spaziale P212121 per entrambe (testo e tabella). Non sono eventi: la macinazione dei monocristalli della forma A («Several small pieces of single crystals were ground to powder») e la setacciatura a 100 mesh, per preparare i campioni, senza cambiamento di forma riportato; il confronto con altri solvati farmaceutici («The DSC curve of pharmaceutical solvatomorphs usually possesses more than one endothermic peak») che e' un riferimento generico a lavori citati senza forme ne' numeri. Incoerenze: la parte sperimentale dice che i monocristalli si ottengono tenendo la soluzione in frigorifero a 10 °C per circa 10 giorni (forma A) o a 20 °C per circa 30 giorni (forma C), mentre i Risultati e la discussione dicono «obtained from their solutions by slow evaporation» / «solvent evaporation method»: il metodo e' stato registrato come evaporazione. Strutture misurate a 293 K (metodi) / 293(2) K (Table 1). L'ipotesi «might transform from solvatomorphism to amorphous» (DSC) diventa «confirmed»/«will transform into an amorphous one» nella discussione e nelle conclusioni.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "drospirenone (DE)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "crystal form A",
+   "etichette_alternative": [
+    "polymorph of DE obtained without solvent"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 12.22,
+    "b": 12.6,
+    "c": 12.894,
+    "V": 1985.2,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "293 K"
+   },
+   "ccdc": "1994085",
+   "strutture": [
+    {
+     "ccdc": "1994085",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "temperature (K) | 293(2) | 293(2)\ncrystal system | orthorhombic | orthorhombic\nspace group | P212121 | P212121\na (Å) | 12.220(4) | 6.3541(3)\nb (Å) | 12.600(5) | 11.5712(3)\nc (Å) | 12.894(4) | 32.2251(4)\nZ | 4 | 4\nvolume (Å3) | 1985.2(11) | 2369.34(13)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "H···O hydrogen bonds (DE as donor and acceptor)",
+     "chi": "DE molecules",
+     "citazione": "Two sharp spikes appeared in the DE molecule in crystal form A, which means that the DE molecule in crystal form A acted as a hydrogen bond donor and a hydrogen bond acceptor."
+    }
+   ],
+   "citazione": "The SXRD results suggested that crystal forms A and C are crystallized in the space group P212121.",
+   "note": "Densita' calcolata 1.226 g/cm3 (Table 1); impaccamento «loose» (circa 1.2 g/cm3). Il testo la chiama «a polymorphism without solvents»; non e' mai scritto «anhydrous»."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "crystal form B",
+   "tipo": "amorfo",
+   "ospite": null,
+   "citazione": "Two different solid states of DE, a polymorphism without solvents (crystal form A) and an amorphism (crystal form B), have been reported previously.",
+   "note": "Amorfo gia' riportato in un lavoro precedente: nessun evento in questo articolo. L'articolo non dice se coincida con il prodotto della desolvatazione della forma C."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "crystal form C",
+   "etichette_alternative": [
+    "new solvatomorph of DE with dimethyl sulfoxide",
+    "DE·DMSO"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethyl sulfoxide (DMSO)",
+    "stechiometria": 1,
+    "fonte_stechiometria": "cristallografica"
+   },
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 6.3541,
+    "b": 11.5712,
+    "c": 32.2251,
+    "V": 2369.34,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "293 K"
+   },
+   "ccdc": "1994086",
+   "strutture": [
+    {
+     "ccdc": "1994086",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "temperature (K) | 293(2) | 293(2)\ncrystal system | orthorhombic | orthorhombic\nspace group | P212121 | P212121\na (Å) | 12.220(4) | 6.3541(3)\nb (Å) | 12.600(5) | 11.5712(3)\nc (Å) | 12.894(4) | 32.2251(4)\nZ | 4 | 4\nvolume (Å3) | 1985.2(11) | 2369.34(13)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "weak C9–H9···O1D hydrogen bond (no classical hydrogen bonds between DE and DMSO)",
+     "chi": "DE and DMSO",
+     "citazione": "Weak hydrogen bonds via C9–H9···O1D existed between DE and DMSO molecules, which only formed feeble intermolecular interactions with relatively long D···A distances (3.281 Å) and small D–H···A angles (151°)."
+    }
+   ],
+   "citazione": "For the single crystal of crystal form C, the stoichiometric ratio between DE and DMSO molecules was 1:1 in an asymmetric unit.",
+   "note": "Solvato 1:1 DE·DMSO. Classici legami H assenti fra DE e DMSO; la molecola di DE agisce solo da donatore (HS), il DMSO da donatore e accettore. Densita' calcolata 1.246 g/cm3."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "amorfo",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 90,
+     "max": 130,
+     "picco": 116.9
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry helium (99.999%), flow 200 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "The peak temperature of differential thermogravimetry (DTG) was at 116.9 °C, where the mass-less rate is maximum in TG. This temperature (116.9 °C) is close to the temperature of the maximum mass spectrum signal intensity (115.4 °C).",
+    "Therefore, the main ingredient of evolved gas from crystal form C was DMSO, and the mass-loss stage in the temperature range of 90–130 °C in the TG curve of crystal form C was caused by the evolution process of DMSO in crystal form C.",
+    "Approximately 5–8 mg of the powder of crystal form C of DE was used for the TG–MS measurements. The sample was weighed in an alumina crucible and heated up to 300 °C with a controlled temperature program. The measurement was performed at a heating rate of 5 °C min–1 under high purity analytical grade dry helium (He) gas (99.999%) with a flow rate of 200 mL min–1.",
+    "Through TG–MS and DSC analyses, the relatively low desolvation temperature and the disappearance of original melting point of DE caused by transformation to amorphous after desolvation behavior were confirmed.",
+    "The thermodynamic property of this new solvatomorph of DE is distinct from those of most pharmaceutical solvates, and the solid state of this solvatomorph will transform into an amorphous one after the desolvation behavior.",
+    "SXRD analysis indicated that classical hydrogen bonds between DE molecules and DMSO molecules in crystal form C were absent, and only weak hydrogen bonds via C9–H9···O1D existed between them. These weak hydrogen bonds have relatively long H···A distances (2.39), D···A distances (3.281 Å), and small D–H···A angles (151°). This intermolecular interaction is weaker than other classical hydrogen bonds. This phenomenon may explain the lower temperature of desolvation of this solvatomorph of DE compared with most other solvatomorphs with DMSO."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–8 mg"
+   },
+   "note": "TG-MS con interfaccia a skimmer: stadio di perdita di massa fra 90 e 130 °C dovuto all'evoluzione di DMSO (gas principale; frammenti m/z 32, 45, 63, 78); picco DTG a 116.9 °C, massimo del segnale MS a 115.4 °C. Il frammento H2O+ (m/z 18) non viene dal DMSO e sarebbe dovuto a «secondary reactions during desolvation». Percentuale di massa persa non scritta nel testo. a = amorfo: il TG-MS non caratterizza il solido; gli autori identificano il prodotto con DSC e PXRD (evento E2) e nelle conclusioni scrivono che la forma C «will transform into an amorphous one» (certezza media). Crogiolo di allumina, coperchio non detto.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "weak C9–H9···O1D hydrogen bond between DE and DMSO",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "This phenomenon may explain the lower temperature of desolvation of this solvatomorph of DE compared with most other solvatomorphs with DMSO."
+    }
+   ]
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "amorfo",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 120,
+     "unita": "°C",
+     "tipo": "picco",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air ambience",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 120,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "There is a single sharp endothermic peak at approximately 120 °C in the DSC curve of crystal form C, whereas no other endothermic or exothermic peaks appeared in the DSC curve of crystal form C.",
+    "The results indicated that the single endothermic peak at 120 °C in the DSC curve of crystal form C was caused by its desolvation behavior according to the temperature range of desolvation process of crystal form C determined by TG–MS before.",
+    "The solid state of crystal form C might transform from solvatomorphism to amorphous after desolvation during the measurements.",
+    "The sample of crystal form C after desolvation was the sample at 180 °C during the DSC measurement",
+    "Results confirm that the solid-state transformation occurred before and after the desolvation process of crystal form C.",
+    "Approximately, 3–5 mg was placed on an aluminum crucible and heated at a series of constant rates of 10 °C min–1 over the temperature range of 30–230 °C under air ambience.",
+    "SXRD analysis indicated that classical hydrogen bonds between DE molecules and DMSO molecules in crystal form C were absent, and only weak hydrogen bonds via C9–H9···O1D existed between them. These weak hydrogen bonds have relatively long H···A distances (2.39), D···A distances (3.281 Å), and small D–H···A angles (151°). This intermolecular interaction is weaker than other classical hydrogen bonds. This phenomenon may explain the lower temperature of desolvation of this solvatomorph of DE compared with most other solvatomorphs with DMSO."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "3–5 mg"
+   },
+   "note": "Picco endotermico netto e unico a circa 120 °C, attribuito alla desolvatazione (T e' nell'intervallo 90-130 °C del TG-MS). Il PXRD del campione di forma C prelevato a 180 °C durante la corsa DSC (dopo la desolvatazione) differisce da quello prima: la stessa prova vista con una seconda tecnica, quindi nello stesso evento. Gli autori scrivono dapprima «might transform ... to amorphous» e poi «confirmed»: certezza media. Dopo il picco la linea di base «started to become less smooth and straight».",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "weak C9–H9···O1D hydrogen bond between DE and DMSO",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "This phenomenon may explain the lower temperature of desolvation of this solvatomorph of DE compared with most other solvatomorphs with DMSO."
+    }
+   ]
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 30,
+     "max": 230
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air ambience",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "There is a single sharp endothermic peak at approximately 120 °C in the DSC curve of crystal form C, whereas no other endothermic or exothermic peaks appeared in the DSC curve of crystal form C.",
+    "Meanwhile, after the one single sharp endothermic peak, the DSC curve of crystal form C started to become less smooth and straight, and the sharp endothermic peak at approximately 203 °C (melting point of DE) in the DSC curve of crystal form A disappeared in the DSC curve of crystal form C.",
+    "Approximately, 3–5 mg was placed on an aluminum crucible and heated at a series of constant rates of 10 °C min–1 over the temperature range of 30–230 °C under air ambience."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "3–5 mg"
+   },
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "note": "Oltre al picco di desolvatazione a circa 120 °C (E2) la curva DSC della forma C non mostra altri picchi endotermici o esotermici fra 30 e 230 °C: ne' cristallizzazione ne' fusione; in particolare scompare il picco di fusione di DE a circa 203 °C presente nella forma A. Nessuna forma attesa e' nominata (a = ignota)."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 203,
+     "unita": "°C",
+     "tipo": "picco",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air ambience",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 203,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "Figure 3(i) shows the DSC curves of crystal forms A and C of DE.",
+    "the sharp endothermic peak at approximately 203 °C (melting point of DE) in the DSC curve of crystal form A",
+    "Approximately, 3–5 mg was placed on an aluminum crucible and heated at a series of constant rates of 10 °C min–1 over the temperature range of 30–230 °C under air ambience."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "3–5 mg"
+   },
+   "note": "Picco endotermico netto a circa 203 °C della curva DSC della forma A, indicato come punto di fusione di DE. Nessun altro picco della forma A e' descritto nel testo."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 10,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 10,
+    "unita": "day",
+    "tipo": "conservazione",
+    "circa": true
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_solido_solvente": "approximately 200 mg of DE raw material in 10 mL of ethanol",
+   "pretrattamento": "soluzione agitata per una notte a temperatura ambiente e filtrata fino a soluzione limpida",
+   "citazioni": [
+    "(Crystal form A) Approximately, 200 mg of DE raw material was added to 10 mL of ethanol. The solutions were stirred overnight at an ambient temperature and filtered to obtain clear and transparent solutions. The solutions were placed in a refrigerator for crystallization for approximately 10 days at 10 °C to obtain single crystals without solvents.",
+    "The prism crystals of crystal forms A and C suitable for crystal structure determined by the SXRD experiment were obtained from their solutions by slow evaporation."
+   ],
+   "note": "Metodo registrato come evaporazione (Risultati e discussione: «slow evaporation», «solvent evaporation method»); la parte sperimentale dice solo che le soluzioni stanno in frigorifero a 10 °C per circa 10 giorni. I monocristalli sono poi macinati e setacciati (100 mesh) per le analisi."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "dimethyl sulfoxide (DMSO)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 20,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 30,
+    "unita": "day",
+    "tipo": "conservazione",
+    "circa": true
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_solido_solvente": "come per la forma A (circa 200 mg di DE in 10 mL), con DMSO al posto dell'etanolo",
+   "citazioni": [
+    "(Crystal form C) For this solvatomorph of DE, the process basically follows the procedure for crystal form A, but the solvent in the first step was replaced by DMSO, and the solutions were placed for crystallization for approximately 30 days at 20 °C to obtain single crystals of solvatomorphs.",
+    "The prism crystals of crystal forms A and C suitable for crystal structure determined by the SXRD experiment were obtained from their solutions by slow evaporation."
+   ],
+   "note": "Come la forma A ma con DMSO come solvente della prima fase."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "forma": "F3",
+     "testo": "rings A and B (six-membered): sofa; rings D and E (five-membered): envelope; ring C (six-membered): chair; the conformational difference between the DE molecules of forms A and C is not significant",
+     "citazione": "For the DE molecule in the solvatomorph, six-membered rings (rings A and B) showed sofa conformations and five-membered rings (rings D and E) showed envelope conformations, whereas the six-membered ring (ring C) showed a chair conformation."
+    },
+    {
+     "tipo": "altro",
+     "forma": "F1",
+     "testo": "in form A the DE molecule acts as hydrogen bond donor and acceptor (Hirshfeld fingerprint plot)",
+     "citazione": "Two sharp spikes appeared in the DE molecule in crystal form A, which means that the DE molecule in crystal form A acted as a hydrogen bond donor and a hydrogen bond acceptor."
+    },
+    {
+     "tipo": "altro",
+     "forma": "F3",
+     "testo": "in form C the DE molecule acts only as hydrogen bond donor; DMSO acts as donor and acceptor (Hirshfeld fingerprint plots)",
+     "citazione": "So, the DE molecule acted only as a hydrogen bond donor in crystal form C."
+    }
+   ]
+  }
+ ]
+}

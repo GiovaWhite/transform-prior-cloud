@@ -1,0 +1,116 @@
+{
+ "file": "estrazione/cloud/10.1021__acsomega.0c03531_dfffda6a.json",
+ "doi": "10.1021/acsomega.0c03531",
+ "schema": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "via": "desolvatazione",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E2",
+   "via": "desolvatazione",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E3",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E4",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F2",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F3",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "problemi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "relazioni": []
+}
