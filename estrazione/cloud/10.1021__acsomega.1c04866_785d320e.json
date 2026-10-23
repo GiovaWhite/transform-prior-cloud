@@ -1,0 +1,772 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acsomega.1c04866",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Cristallo liquido ionico 1-Bf (sale di imidazolio con BF4–, nucleo azobenzenico): due polimorfi di partenza (α-Cr, forma lineare L; β-Cr, forma 'step-stair' SS), una fase cristallina intermedia i-Cr (supercooled, con regioni amorfe, solo SAXS/XRD) e il cold crystal cc-Cr, che gli autori identificano con β-Cr («we identified the β-Cr phase as the cc-Cr»): una sola forma F2 con due strutture (β-Cr e cc-Cr, CCDC 2024816 e 2024817, entrambe a 93.15 K; cella di cc-Cr in nota). Le fasi liquido-cristalline sono estratte come forme: SmA (smectica A, tipo altro) e Iso (liquido isotropo, tipo fuso, usato come 'da' nelle trasformazioni di raffreddamento; la fusione verso il liquido isotropo e' scritta a: fuso). Tutte le temperature di transizione sono onset («The onset temperature of thermal anomaly is defined as the phase transition temperature throughout this work») e le rampe sono ±5.0 °C/min (+ in riscaldamento, − in raffreddamento). La transizione vetrosa vista in riscaldamento prima della cristallizzazione fredda («the endothermic peak anomaly observed immediately before the exothermic anomaly upon heating around Tcc is identified as a glass transition partially coupled to the cold crystallization») e' dentro l'i-Cr, non e' un evento di forma; non si osserva Tg in raffreddamento. Il comportamento termico oltre il terzo ciclo e' detto simile al secondo («The thermal behavior of the crystal beyond the third thermal cycle was similar to the second cycle»): nessun evento nuovo. Incoerenza dell'articolo: punto di fusione di α-Cr 123.6 °C (Tm1–1, Risultati, Figura 3) contro 122.5 °C (parte sperimentale, «with a melting point of 122.5 °C (first heating process)»), entrambi onset del primo riscaldamento. Anche la frase «that transformed the cc-Cr to SmA» sull'inizio del secondo ciclo e' formulata male (la cold crystallization e' i-Cr → cc-Cr).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "1-{[4′-(4″-nitrophenylazo)phenyloxy]}hexyl-3-methyl-1H-imidazol-3-ium"
+  },
+  {
+   "id": "C2",
+   "nome": "tetrafluoroborate"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "α-Cr",
+   "etichette_alternative": [
+    "initial crystal",
+    "as-grown crystal",
+    "Sample-I",
+    "1-Bf (α-Cr)"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 8.6295,
+    "b": 18.4095,
+    "c": 14.6734,
+    "beta": 95.813,
+    "V": 2319.1,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "93.15 K"
+   },
+   "ccdc": "2045382",
+   "ccdc_dedotto": true,
+   "refcode": null,
+   "citazione": "1-Bf (α-Cr): C22H26N5O3BF4, Mw = 495.29, orange needle, monoclinic, space group P21/c, a = 8.6295(3) Å, b = 18.4095(7) Å, c = 14.6734(6) Å, β = 95.813(4)°, V = 2319.10(15) Å3, Z = 4, Dcalcd = 1.419 g cm–3, T = 93.15 K",
+   "note": "Cationi in forma lineare (L-form). CCDC attribuiti per ordine: «relate the deposition numbers CCDC-2045382, 2024816, and 2024817 to compounds 1-Bf (α-Cr), 1-Bf (β-Cr), and 1-Bf (cc-Cr)». Cristalli aghiformi arancioni da diclorometano."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "β-Cr",
+   "etichette_alternative": [
+    "cc-Cr",
+    "cold crystal",
+    "cc-Cr (β-Cr)",
+    "Sample-II",
+    "Sample-III",
+    "1-Bf (β-Cr)",
+    "1-Bf (cc-Cr)"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 6.2676,
+    "b": 7.2265,
+    "c": 25.7041,
+    "alpha": 93.703,
+    "beta": 91.665,
+    "gamma": 94.709,
+    "V": 1157.17,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "93.15 K"
+   },
+   "ccdc": "2024816",
+   "ccdc_dedotto": true,
+   "refcode": null,
+   "strutture": [
+    {
+     "ccdc": "2024816",
+     "temperatura": {
+      "valore": 93.15,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "1-Bf (β-Cr): C22H26N5O3BF4, Mw = 495.29, yellow block, triclinic, space group P-1, a = 6.2676(3) Å, b = 7.2265(5) Å, c = 25.7041(8) Å, α = 93.703(4)°, β = 91.665(3)°, γ = 94.709(5)°, V = 1157.17(10) Å3, Z = 2, Dcalcd = 1.421 g cm–3, T = 93.15 K"
+    },
+    {
+     "ccdc": "2024817",
+     "temperatura": {
+      "valore": 93.15,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "1-Bf (cc-Cr): C22H26N5O3BF4, Mw = 495.29, yellow block, triclinic, space group P-1, a = 6.3153(7) Å, b = 7.2355(11) Å, c = 25.527(3) Å, α = 93.493(12)°, β = 91.539(10)°, γ = 94.822(10)°, V = 1159.6(3) Å3, Z = 2, Dcalcd = 1.419 g cm–3, T = 93.15 K"
+    }
+   ],
+   "citazione": "From these results, we identified the β-Cr phase as the cc-Cr and concluded that the crucial process in the formation of cold crystals with the β-Cr structure is the ordering into an intermediate crystalline phase (i-Cr) during cooling after the melting of the initial crystal into Iso.",
+   "note": "Cationi in forma step-stair (SS-form). La cella in 'cella' e CCDC 2024816 sono di β-Cr (cristallo da etanolo, Sample-II); il cold crystal cc-Cr (frammenti di Sample-II dopo il DSC e raffreddati a temperatura ambiente, Sample-III) ha CCDC 2024817 e cella a = 6.3153(7), b = 7.2355(11), c = 25.527(3) Å, α = 93.493(12), β = 91.539(10), γ = 94.822(10)°, V = 1159.6(3) Å3, Z = 2: stessa struttura (RMS 0.060, 15 molecole su 15 in comune), per questo una forma sola. CCDC attribuiti per ordine."
+  },
+  {
+   "id": "F3",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "SmA",
+   "etichette_alternative": [
+    "liquid crystal phase",
+    "smectic liquid crystal"
+   ],
+   "tipo": "altro",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "from the initial crystal phase (α-Cr) to the liquid crystal phase (SmA) (Tm1–1: 123.6 °C)",
+   "note": "Fase smectica A (cristallo liquido), non cristallina: vista con SAXS (picchi di strato a 2θ = 2.8 e 5.7° in raffreddamento). Conformazione SS dei cationi."
+  },
+  {
+   "id": "F4",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "Iso",
+   "etichette_alternative": [
+    "isotropic liquid phase",
+    "isotropic liquid"
+   ],
+   "tipo": "fuso",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "melting from SmA to an isotropic liquid phase (Iso) (Tm1–2: 155.1 °C)",
+   "note": "Liquido isotropo; nessun picco di diffrazione («no diffraction peaks were observed in the entire 2θ range»). Usato come 'da' nelle trasformazioni di raffreddamento."
+  },
+  {
+   "id": "F5",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "i-Cr",
+   "etichette_alternative": [
+    "intermediate supercooled crystalline phase",
+    "intermediate crystal phase"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "crystallization from SmA (Tc1–2: 37.6 °C) to an intermediate supercooled crystalline phase i-Cr",
+   "note": "Fase cristallina intermedia con costanti reticolari variabili (contrazione dell'asse c «to varying degrees») e regioni amorfe (transizione vetrosa in riscaldamento); struttura non determinata, solo SAXS/XRD. Precursore del cold crystal."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "condizioni": "dal punto di fusione: Tm2–1 (cold crystal) 7.7 °C piu' basso di Tm1–1 (cristallo iniziale)",
+   "citazione": "The cold crystal in the second heating cycle exhibited a melting point (Tm2–1) 7.7 °C lower than that of the initial crystal (Tm1–1), indicating that the cold crystal was thermodynamically less stable than the initial crystal (Figure 3 and Table S1).",
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "note": "«cold crystal was thermodynamically less stable than the initial crystal», ragionamento sui punti di fusione (onset). Il cold crystal e' β-Cr (F2)."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 123.6,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5.0,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 atmosphere (50 mL min–1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "IR"
+    ]
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "citazioni": [
+    "DSC analysis of the initial crystal revealed that 1-Bf underwent a series of phase transitions (Figure 3). They are, namely, from the initial crystal phase (α-Cr) to the liquid crystal phase (SmA) (Tm1–1: 123.6 °C) and melting from SmA to an isotropic liquid phase (Iso) (Tm1–2: 155.1 °C) during the first heating process.",
+    "The phase transition behavior of 1-Bf was investigated between −30 and 180 °C using a differential scanning calorimeter (Mettler Toledo, DSC-1).",
+    "Measurements were conducted under a N2 atmosphere (50 mL min–1) using an aluminum open pan at a scanning rate of ±5.0 °C min–1. The onset temperature of thermal anomaly is defined as the phase transition temperature throughout this work.",
+    "Upon first heating at approximately Tm1–1, at which point the α-Cr transitions into SmA, the FTIR spectra above Tm1–1 closely matched that of in β-Cr, suggesting that a conformational alteration occurred, which changed the L-form in α-Cr to the SS-form in β-Cr.",
+    "In summary, the cold crystal of 1-Bf consists of cations in the step-stair conformation that is irreversibly formed after the first melting of the initial crystal, α-Cr, at Tm1–1. This molecular conformation persists throughout the subsequent phases: Iso, SmA, i-Cr, and cc-Cr."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Primo riscaldamento di α-Cr (Sample-I): fusione a cristallo liquido SmA a Tm1–1 = 123.6 °C (onset). Nella parte sperimentale: «orange needle-shaped crystals (α-Cr) with a melting point of 122.5 °C (first heating process)» (stesso onset del primo riscaldamento, valore diverso): scelto 123.6 (Risultati con Figura 3). Alla transizione i cationi passano irreversibilmente dalla forma lineare (L) a quella step-stair (SS) (FTIR sopra Tm1–1 simile a β-Cr).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "alkyl chain between the azobenzene and imidazolium moieties (linear L-form)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Upon first heating at approximately Tm1–1, at which point the α-Cr transitions into SmA, the FTIR spectra above Tm1–1 closely matched that of in β-Cr, suggesting that a conformational alteration occurred, which changed the L-form in α-Cr to the SS-form in β-Cr."
+    },
+    {
+     "gruppo": "linear cation molecule",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "The originally linear cation molecule bends and forms a step-stair conformation that persists throughout the subsequent heating and cooling processes as phase transition occurs from the crystal phase to the liquid crystal phase and then to the isotropic liquid phase."
+    }
+   ],
+   "reversibile": false,
+   "inverso_di": "E8",
+   "conflitto": "Tm1–1 123.6 °C nei Risultati (Figura 3); «melting point of 122.5 °C (first heating process)» nella parte sperimentale; entrambi onset del primo riscaldamento. Scelto 123.6."
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 155.1,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5.0,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 atmosphere (50 mL min–1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "IR"
+    ]
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "citazioni": [
+    "DSC analysis of the initial crystal revealed that 1-Bf underwent a series of phase transitions (Figure 3). They are, namely, from the initial crystal phase (α-Cr) to the liquid crystal phase (SmA) (Tm1–1: 123.6 °C) and melting from SmA to an isotropic liquid phase (Iso) (Tm1–2: 155.1 °C) during the first heating process.",
+    "The phase transition behavior of 1-Bf was investigated between −30 and 180 °C using a differential scanning calorimeter (Mettler Toledo, DSC-1).",
+    "Measurements were conducted under a N2 atmosphere (50 mL min–1) using an aluminum open pan at a scanning rate of ±5.0 °C min–1. The onset temperature of thermal anomaly is defined as the phase transition temperature throughout this work.",
+    "The subsequent series of transitions from SmA to Iso and cooling back to SmA exhibited no spectral shifts in the FTIR spectra, indicating that Iso and SmA maintained the same SS-form conformation."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Primo riscaldamento: «melting from SmA to an isotropic liquid phase (Iso)», Tm1–2 = 155.1 °C (onset); i cationi restano in forma SS.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "step-stair (SS-form) conformation of the cation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "The subsequent series of transitions from SmA to Iso and cooling back to SmA exhibited no spectral shifts in the FTIR spectra, indicating that Iso and SmA maintained the same SS-form conformation."
+    }
+   ],
+   "da_evento": "E1"
+  },
+  {
+   "id": "E3",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 155.0,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5.0,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 atmosphere (50 mL min–1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "IR"
+    ]
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "citazioni": [
+    "Upon cooling, a phase transition from Iso to SmA (Tc1–1: 155.0 °C) and crystallization from SmA (Tc1–2: 37.6 °C) to an intermediate supercooled crystalline phase i-Cr, the details of which will be given later, were observed.",
+    "The phase transition behavior of 1-Bf was investigated between −30 and 180 °C using a differential scanning calorimeter (Mettler Toledo, DSC-1).",
+    "Measurements were conducted under a N2 atmosphere (50 mL min–1) using an aluminum open pan at a scanning rate of ±5.0 °C min–1. The onset temperature of thermal anomaly is defined as the phase transition temperature throughout this work.",
+    "The subsequent series of transitions from SmA to Iso and cooling back to SmA exhibited no spectral shifts in the FTIR spectra, indicating that Iso and SmA maintained the same SS-form conformation."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Raffreddamento da Iso: transizione a SmA a Tc1–1 = 155.0 °C (onset); rampa −5.0 °C/min (la rampa e' scritta ±5.0 °C/min). I cationi restano in forma SS.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "step-stair (SS-form) conformation of the cation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "The subsequent series of transitions from SmA to Iso and cooling back to SmA exhibited no spectral shifts in the FTIR spectra, indicating that Iso and SmA maintained the same SS-form conformation."
+    }
+   ],
+   "da_evento": "E2"
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37.6,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5.0,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 atmosphere (50 mL min–1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "IR"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ]
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "citazioni": [
+    "Upon cooling, a phase transition from Iso to SmA (Tc1–1: 155.0 °C) and crystallization from SmA (Tc1–2: 37.6 °C) to an intermediate supercooled crystalline phase i-Cr, the details of which will be given later, were observed.",
+    "Interestingly, continued cooling below Tc1–2 induced a transition from SmA to i-Cr, leading to the emergence of a diffraction pattern, namely, the broadened SAXS peaks at 2θ = 3.0–3.3 and 6.0–6.6 °, suggestive of c-axis contraction to varying degrees (Figure 4A-iii), distinct from that of the initial crystal (α-Cr).",
+    "Specifically, nuclei were formed from SmA and subsequently grew into i-Cr by aggregating into microcrystals that served as the seed crystal for the growth of the β-Cr. In other words, the i-Cr acted as an intermediate crystal phase for the formation of the cc-Cr (β-Cr).",
+    "The phase transition behavior of 1-Bf was investigated between −30 and 180 °C using a differential scanning calorimeter (Mettler Toledo, DSC-1).",
+    "Measurements were conducted under a N2 atmosphere (50 mL min–1) using an aluminum open pan at a scanning rate of ±5.0 °C min–1. The onset temperature of thermal anomaly is defined as the phase transition temperature throughout this work.",
+    "Upon further cooling from SmA to i-Cr and finally to β-Cr, the two peaks (857 and 840 cm–1) did not show a significant change, indicating that the SS-form was maintained throughout the crystalline phases."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Raffreddamento: cristallizzazione da SmA alla fase cristallina intermedia i-Cr a Tc1–2 = 37.6 °C (onset). Gli autori: «nuclei were formed from SmA and subsequently grew into i-Cr». Il pattern di i-Cr e' «distinct from that of the initial crystal (α-Cr)». I cationi restano in forma SS.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "step-stair (SS-form) conformation of the cation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "Upon further cooling from SmA to i-Cr and finally to β-Cr, the two peaks (857 and 840 cm–1) did not show a significant change, indicating that the SS-form was maintained throughout the crystalline phases."
+    }
+   ],
+   "da_evento": "E3"
+  },
+  {
+   "id": "E5",
+   "da": "F5",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 42.2,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5.0,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 atmosphere (50 mL min–1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "IR"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ]
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "citazioni": [
+    "The second heating cycle involved recrystallization (i.e., cold crystallization, Tcc: 42.2 °C) that transformed the cc-Cr to SmA (Tm2–1: 115.9 °C) and finally to Iso (Tm2–2: 154.9 °C).",
+    "Upon heating, no change in the diffraction pattern was observed until approximately 40 °C. The exothermal anomaly (cold crystallization) observed at temperatures exceeding Tcc (42.2 °C) via Tg was accompanied by the appearance of a sharp diffraction pattern resembling the β-Cr (Figure 5B-ix).",
+    "Specifically, nuclei were formed from SmA and subsequently grew into i-Cr by aggregating into microcrystals that served as the seed crystal for the growth of the β-Cr. In other words, the i-Cr acted as an intermediate crystal phase for the formation of the cc-Cr (β-Cr).",
+    "The phase transition behavior of 1-Bf was investigated between −30 and 180 °C using a differential scanning calorimeter (Mettler Toledo, DSC-1).",
+    "Measurements were conducted under a N2 atmosphere (50 mL min–1) using an aluminum open pan at a scanning rate of ±5.0 °C min–1. The onset temperature of thermal anomaly is defined as the phase transition temperature throughout this work.",
+    "Upon further cooling from SmA to i-Cr and finally to β-Cr, the two peaks (857 and 840 cm–1) did not show a significant change, indicating that the SS-form was maintained throughout the crystalline phases."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Cristallizzazione fredda (secondo riscaldamento) di i-Cr a cc-Cr (= β-Cr) a Tcc = 42.2 °C (onset), via transizione vetrosa; nessun cambio del diffrattogramma fino a circa 40 °C; il picco esotermico a Tcc ha due componenti («two-step cold crystallization», nessun valore) e si estende circa 40-70 °C. I cationi restano in forma SS. La frase degli autori sul secondo ciclo («that transformed the cc-Cr to SmA») e' mal formulata; la lettura i-Cr → cc-Cr viene dal resto del testo.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "step-stair (SS-form) conformation of the cation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "Upon further cooling from SmA to i-Cr and finally to β-Cr, the two peaks (857 and 840 cm–1) did not show a significant change, indicating that the SS-form was maintained throughout the crystalline phases."
+    }
+   ],
+   "da_evento": "E4",
+   "pretrattamento": "raffreddato da SmA a i-Cr (E4) dopo il primo riscaldamento di α-Cr fino a circa 180 °C"
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 115.9,
+     "unita": "°C",
+     "tipo": "onset",
+     "relativo_a": "E1",
+     "delta": 7.7
+    },
+    "velocita": {
+     "valore": 5.0,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 atmosphere (50 mL min–1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ]
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "citazioni": [
+    "The second heating cycle involved recrystallization (i.e., cold crystallization, Tcc: 42.2 °C) that transformed the cc-Cr to SmA (Tm2–1: 115.9 °C) and finally to Iso (Tm2–2: 154.9 °C).",
+    "Further heating of cc-Cr (β-Cr) resulted in a transition to SmA stabilized between Tm2–1 (115.9 °C) and Tm2–2 (154.9 °C), which was accompanied by a shift in the 001 and 002 reflections in the cc-Cr (β-Cr) (Figure 5A-vii) and the disappearance of higher angle diffraction peaks (Figure 5B-xi). Finally, above Tm2–2, no diffraction peaks were observed in the entire 2θ range, indicating a transition into the Iso (Figure 5A-viii,B-xii).",
+    "The cold crystal in the second heating cycle exhibited a melting point (Tm2–1) 7.7 °C lower than that of the initial crystal (Tm1–1), indicating that the cold crystal was thermodynamically less stable than the initial crystal (Figure 3 and Table S1).",
+    "The phase transition behavior of 1-Bf was investigated between −30 and 180 °C using a differential scanning calorimeter (Mettler Toledo, DSC-1).",
+    "Measurements were conducted under a N2 atmosphere (50 mL min–1) using an aluminum open pan at a scanning rate of ±5.0 °C min–1. The onset temperature of thermal anomaly is defined as the phase transition temperature throughout this work."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Secondo riscaldamento: cc-Cr (β-Cr) fonde a cristallo liquido SmA a Tm2–1 = 115.9 °C (onset), 7.7 °C sotto Tm1–1 di α-Cr (E1): delta = 7.7 come scritto («7.7 °C lower»), il segno e' nel testo (piu' basso).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "step-stair (SS-form) conformation of the cation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "In summary, the cold crystal of 1-Bf consists of cations in the step-stair conformation that is irreversibly formed after the first melting of the initial crystal, α-Cr, at Tm1–1. This molecular conformation persists throughout the subsequent phases: Iso, SmA, i-Cr, and cc-Cr."
+    }
+   ],
+   "da_evento": "E5"
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 154.9,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5.0,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 atmosphere (50 mL min–1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ]
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "citazioni": [
+    "The second heating cycle involved recrystallization (i.e., cold crystallization, Tcc: 42.2 °C) that transformed the cc-Cr to SmA (Tm2–1: 115.9 °C) and finally to Iso (Tm2–2: 154.9 °C).",
+    "Further heating of cc-Cr (β-Cr) resulted in a transition to SmA stabilized between Tm2–1 (115.9 °C) and Tm2–2 (154.9 °C), which was accompanied by a shift in the 001 and 002 reflections in the cc-Cr (β-Cr) (Figure 5A-vii) and the disappearance of higher angle diffraction peaks (Figure 5B-xi). Finally, above Tm2–2, no diffraction peaks were observed in the entire 2θ range, indicating a transition into the Iso (Figure 5A-viii,B-xii).",
+    "The phase transition behavior of 1-Bf was investigated between −30 and 180 °C using a differential scanning calorimeter (Mettler Toledo, DSC-1).",
+    "Measurements were conducted under a N2 atmosphere (50 mL min–1) using an aluminum open pan at a scanning rate of ±5.0 °C min–1. The onset temperature of thermal anomaly is defined as the phase transition temperature throughout this work."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Secondo riscaldamento: SmA → Iso a Tm2–2 = 154.9 °C (onset); sopra questa T nessun picco di diffrazione.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "step-stair (SS-form) conformation of the cation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "In summary, the cold crystal of 1-Bf consists of cations in the step-stair conformation that is irreversibly formed after the first melting of the initial crystal, α-Cr, at Tm1–1. This molecular conformation persists throughout the subsequent phases: Iso, SmA, i-Cr, and cc-Cr."
+    }
+   ],
+   "da_evento": "E6"
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C"
+    },
+    "velocita": {
+     "valore": 5.0,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 atmosphere (50 mL min–1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "IR"
+    ]
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "citazioni": [
+    "By conducting thorough structural characterization, we found that the prerequisite for cold crystallization is the irreversible molecular conformational alteration induced by the initial heating of the as-grown crystal into a smectic liquid crystal. The originally linear cation molecule bends and forms a step-stair conformation that persists throughout the subsequent heating and cooling processes as phase transition occurs from the crystal phase to the liquid crystal phase and then to the isotropic liquid phase.",
+    "In summary, the cold crystal of 1-Bf consists of cations in the step-stair conformation that is irreversibly formed after the first melting of the initial crystal, α-Cr, at Tm1–1. This molecular conformation persists throughout the subsequent phases: Iso, SmA, i-Cr, and cc-Cr.",
+    "Interestingly, continued cooling below Tc1–2 induced a transition from SmA to i-Cr, leading to the emergence of a diffraction pattern, namely, the broadened SAXS peaks at 2θ = 3.0–3.3 and 6.0–6.6 °, suggestive of c-axis contraction to varying degrees (Figure 4A-iii), distinct from that of the initial crystal (α-Cr).",
+    "Measurements were conducted under a N2 atmosphere (50 mL min–1) using an aluminum open pan at a scanning rate of ±5.0 °C min–1. The onset temperature of thermal anomaly is defined as the phase transition temperature throughout this work."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: dopo il primo riscaldamento la forma lineare non si ricostituisce («irreversible molecular conformational alteration»; il raffreddamento da SmA porta a i-Cr, il cui pattern e' «distinct from that of the initial crystal (α-Cr)», e poi a β-Cr). a = α-Cr come forma di ritorno attesa. Nessuna temperatura propria: il raffreddamento va da SmA (Tc1–2 = 37.6 °C per la cristallizzazione, E4).",
+   "esito_dettaglio": "ritorno_assente",
+   "inverso_di": "E1"
+  },
+  {
+   "id": "E9",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Note that we observed no apparent changes of the cold crystal sample as it was cooled while sampling from the DSC pan (Figure S2)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: il cold crystal (cc-Cr) non cambia in modo apparente quando viene raffreddato prelevandolo dal crogiolo DSC (Figura S2); T finale e velocita' non dette. La tecnica di verifica non e' detta nella frase."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "dichloromethane"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "citazioni": [
+    "The crude product was dissolved in dichloromethane, recrystallized, and dried under vacuum for 24 h to obtain pure orange needle-shaped crystals of 1-Bf (1.3 g, 65%), which we define as the α phase (α-Cr)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Ricristallizzazione da diclorometano (modalita' non detta), seguita da essiccamento sottovuoto 24 h. Il prodotto grezzo viene dal bromuro 1-Br con LiBF4 in acqua (80 °C, 1 h, N2)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "ethanol"
+   ],
+   "solventi_alternativi": false,
+   "pretrattamento": "meta' dei cristalli iniziali (α-Cr) ridisciolti",
+   "esito": "ottenuta",
+   "citazioni": [
+    "A half portion of the initial crystals was further dissolved in ethanol and recrystallized (0.5 g, 79%), which we define as the β phase (β-Cr)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Ricristallizzazione da etanolo dei cristalli α-Cr (modalita' non detta): cristalli gialli (Sample-II)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E5",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Similarly, crystal fragments (0.02 × 0.02 × 0.01 mm3) of Sample-II after DSC analysis and cooled to room temperature (Sample-III) are defined as a cold crystal (cc-Cr)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Il cold crystal per SCXRD (Sample-III) sono frammenti di Sample-II dopo il DSC e raffreddati a temperatura ambiente; il ciclo termico esatto di questo campione non e' descritto, il legame con E5 (cristallizzazione fredda di i-Cr descritta per Sample-I) segue l'identificazione β-Cr = cc-Cr."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 1,
+      "unita": "kJ mol–1",
+      "circa": true
+     },
+     "metodo": "calcolo ONIOM (differenza di energia fra le conformazioni L e SS)",
+     "calcolato": true,
+     "citazione": "Combined with the negligible energy difference (∼1 kJ mol–1) between the two conformations obtained from the calculations, these results suggest that the intermolecular Coulombic interaction plays a crucial role in the series of crystallization processes (Table S4)."
+    },
+    {
+     "tipo": "temperatura_transizione_vetrosa",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "endothermic anomaly immediately before the cold crystallization exotherm (around Tcc), partially coupled to it; no Tg observed on cooling"
+     },
+     "metodo": "DSC dipendente dalla velocita' di scansione (Figura S4)",
+     "calcolato": false,
+     "citazione": "We note that a glass transition (Tg) was not observed in the cooling process, and the endothermic peak anomaly observed immediately before the exothermic anomaly upon heating around Tcc is identified as a glass transition partially coupled to the cold crystallization, based on a series of sweep rate dependent thermal analysis (Figure S4)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "azobenzene core and a flexible alkyl group with an imidazolium moiety at the end",
+     "citazione": "This molecule has an azobenzene core and a flexible alkyl group with an imidazolium moiety at the end."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "linear form (L-form) in α-Cr: linear alkyl chain between azobenzene and imidazolium; phi1 = 177.5°, phi2 = −58.0°, xi = 0.8 Å, angle between the aromatic ring planes 16.6°",
+     "citazione": "The dihedral angle O3–C13–C14–C15 (C17–C18–N4–C19) was defined as ϕ1 (ϕ2) and measured as ϕ1 = 177.5° (ϕ2 = −58.0°) in α-Cr as shown in Figure 1B (left)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "step-stair form (SS-form) in β-Cr: single bend between azobenzene and imidazolium; phi1 = 67.7°, phi2 = 59.8°, xi = 4.8 Å, angle between the aromatic ring planes 1.2°",
+     "citazione": "The two dihedral angles were ϕ1 = 67.7° and ϕ2 = 59.8°, as shown in Figure 1B (right)."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "irreversible change from the linear to the step-stair conformation at the first melting of the initial crystal; the cold crystallization selects the SS-form, more metastable than the linear form",
+     "citazione": "Overall, the cold crystallization of 1-Bf is a crystallization process that selects the step-stair conformation that is more metastable than the linear form in the initial crystal."
+    }
+   ]
+  }
+ ]
+}
