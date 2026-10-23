@@ -1,0 +1,2664 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/pharmaceutics15020449",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2232928-2232933"
+ ],
+ "note": "Sali molecolari di metformina (MTF) con cinque FANS (MEF, TLF, NIF, DIF, FLP). I CCDC 2232928-2232933 sono dati come intervallo senza attribuzione alle sei strutture della Table 2 (MTF–MEF, MTF–TLF, MTF–NIF, MTF–NIF·2H2O, MTF–DIF, MTF–FLP): restano qui. Incoerenze dell'articolo: (1) il testo dice 'MTF–TLF increased solubility 111 times, MTF–MEF 208 times, MTF–NIF·2H2O 574 times, and finally MTF–FLP 1110 times' ma la Table 3 da' MEF 119x e TLF 208x (e 0.0127x/0.0110x per MTF); (2) aging: i Metodi dicono 'for two months', i Risultati 'after four months'; (3) il flurbiprofene e' 'FLF' nell'introduzione e 'FLP' dopo; (4) intestazioni della Table 2 'MFT–' invece di 'MTF–'; (5) la didascalia della Figure 7(c) parla di 'NIF anions' e 'MTF–DIF' per la struttura di MTF–FLP; (6) 'Metfomin·HCl' nei Metodi; (7) la frase 'ranging from 250 mg/mL [46,62,63]' sulla solubilita' di MTF·HCl e' troncata e non e' stata estratta; (8) per MTF–NIF il testo dice sia 'an intermediate phase or a hydrate phase' sia, nei Metodi, 'hydrates'. Non estratti: i punti di fusione dei coformeri (MEF 230, DIF 210–211, TLF 207, NIF 204 °C; FLP 110 °C implicito) perche' dati senza riferimento e senza dire quale forma (sono usati solo come estremi degli intervalli di fusione dei sali); la degradazione dopo la fusione ('other endothermic events ... ascribed to the degradation') senza temperatura; i fattori di miglioramento di solubilita' e i ΔpKa, che sono derivati. Non sono eventi: la sola cristallizzazione da soluzione dei cristalli singoli (preparazioni) e la neutralizzazione di MTF·HCl in isopropanolo.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "Metformin (MTF)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "Mefenamic acid (MEF)",
+   "smiles": null
+  },
+  {
+   "id": "C3",
+   "nome": "Tolfenamic acid (TLF)",
+   "smiles": null
+  },
+  {
+   "id": "C4",
+   "nome": "Niflumic acid (NIF)",
+   "smiles": null
+  },
+  {
+   "id": "C5",
+   "nome": "Diflunisal (DIF)",
+   "smiles": null
+  },
+  {
+   "id": "C6",
+   "nome": "Flurbiprofen (FLP)",
+   "smiles": null,
+   "nome_scritto": "Flurbiprofen (FLF)"
+  },
+  {
+   "id": "C7",
+   "nome": "hydrochloric acid",
+   "smiles": null,
+   "nome_scritto": "HCl"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "MTF–MEF",
+   "etichette_alternative": [
+    "MFT–MEF"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": "P21/c",
+   "sistema_cristallino": "monoclino",
+   "cella": {
+    "a": 15.5701,
+    "b": 8.7141,
+    "c": 16.239,
+    "alpha": 90,
+    "beta": 116.408,
+    "gamma": 90,
+    "V": 1973.4,
+    "Z": 4,
+    "condizioni": "temperatura ambiente (SCXRD at room temperature)",
+    "fonte": "SCXRD"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "protonazione": "MTF monoprotonato (MTF+, cation) e NSAID deprotonato (carbossilato): trasferimento di protone dall'acido dell'NSAID al sito basico di MTF",
+   "motivi_hb": [
+    {
+     "motivo": "R228 ring motif",
+     "chi": "COO− group of the fenamate anion and terminal amine moiety of MTF+",
+     "citazione": "In the molecular salt, the ions are associated through the R228 ring motif built by the COO− group and the terminal amines moiety of the MTF+ cation (Figure 2)."
+    },
+    {
+     "motivo": "1D-chain by N–H⋯O H-bond (N2–H2D⋯O1)",
+     "chi": "NH2 group of MTF+ and COO− group of the fenamate anion",
+     "citazione": "Ionic pairs are aligned in a 1D-chain along [010] direction by the N–H⋯O H-bond (N2–H2D⋯O1) formed between the NH2 group in MTF+ cations and the COO− group of fenamate anions."
+    },
+    {
+     "motivo": "R428 homo dimeric motif",
+     "chi": "two MTF+ fenamate pairs related by an inversion center",
+     "citazione": "Along [001] direction, adjacent chains are held together through the R428 homo dimeric motif between two MTF+ fenamate pairs related by an inversion center, generating a ribbon structure."
+    }
+   ],
+   "citazione": "These molecular salts crystallize in the monoclinic P21/c space group, with one monoprotonated MTF+ cation and one fenamate (MEF or TLF) anion in the asymmetric unit as ionic pair.",
+   "note": "Sale 1:1 (anidro, formula C19H26N6O2 in Table 2). Isostrutturale e isomorfo con MTF–TLF (indice di similarita' di cella Π = 0.003). Cella dalla Table 2 (SCXRD a temperatura ambiente). I CCDC 2232928-2232933 non sono attribuiti alle forme nel testo (in ccdc dell'articolo)."
+  },
+  {
+   "id": "F2",
+   "etichetta": "MTF–TLF",
+   "etichette_alternative": [
+    "MFT–TLF"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": "P21/c",
+   "sistema_cristallino": "monoclino",
+   "cella": {
+    "a": 15.5584,
+    "b": 8.7072,
+    "c": 16.3668,
+    "alpha": 90,
+    "beta": 117.919,
+    "gamma": 90,
+    "V": 1959.2,
+    "Z": 4,
+    "condizioni": "temperatura ambiente (SCXRD at room temperature)",
+    "fonte": "SCXRD"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "protonazione": "MTF monoprotonato (MTF+, cation) e NSAID deprotonato (carbossilato): trasferimento di protone dall'acido dell'NSAID al sito basico di MTF",
+   "motivi_hb": [
+    {
+     "motivo": "R228 ring motif",
+     "chi": "COO− group of the fenamate anion and terminal amine moiety of MTF+",
+     "citazione": "In the molecular salt, the ions are associated through the R228 ring motif built by the COO− group and the terminal amines moiety of the MTF+ cation (Figure 2)."
+    },
+    {
+     "motivo": "1D-chain by N–H⋯O H-bond (N2–H2D⋯O1)",
+     "chi": "NH2 group of MTF+ and COO− group of the fenamate anion",
+     "citazione": "Ionic pairs are aligned in a 1D-chain along [010] direction by the N–H⋯O H-bond (N2–H2D⋯O1) formed between the NH2 group in MTF+ cations and the COO− group of fenamate anions."
+    },
+    {
+     "motivo": "R428 homo dimeric motif",
+     "chi": "two MTF+ fenamate pairs related by an inversion center",
+     "citazione": "Along [001] direction, adjacent chains are held together through the R428 homo dimeric motif between two MTF+ fenamate pairs related by an inversion center, generating a ribbon structure."
+    }
+   ],
+   "citazione": "These molecular salts crystallize in the monoclinic P21/c space group, with one monoprotonated MTF+ cation and one fenamate (MEF or TLF) anion in the asymmetric unit as ionic pair.",
+   "note": "Sale 1:1 (formula C18H23ClN6O2 in Table 2). Isostrutturale e isomorfo con MTF–MEF ('Molecular salts of MTF and the fenamic acids reported in this study (MEF and TLF) are isostructural'). Cella dalla Table 2."
+  },
+  {
+   "id": "F3",
+   "etichetta": "MTF–NIF",
+   "etichette_alternative": [
+    "MFT–NIF",
+    "MTF–NIF anhydrate salt"
+   ],
+   "tipo": [
+    "sale",
+    "anidro"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": "P21/n",
+   "sistema_cristallino": "monoclino",
+   "cella": {
+    "a": 6.2011,
+    "b": 32.216,
+    "c": 9.846,
+    "alpha": 90,
+    "beta": 101.051,
+    "gamma": 90,
+    "V": 1930.6,
+    "Z": 4,
+    "condizioni": "temperatura ambiente (SCXRD at room temperature)",
+    "fonte": "SCXRD"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "protonazione": "MTF monoprotonato (MTF+, cation) e NSAID deprotonato (carbossilato): trasferimento di protone dall'acido dell'NSAID al sito basico di MTF",
+   "motivi_hb": [
+    {
+     "motivo": "charge-assisted hydrogen bond guanidium···carboxylate",
+     "chi": "guanidium moiety of MTF and carboxylate group of NIF",
+     "citazione": "The ion pair is associated with a charge-assisted hydrogen bond involving the guanidium moiety of MTF and the carboxylate group of NIF."
+    },
+    {
+     "motivo": "1D chain (along the a-axis)",
+     "chi": "adjacent ion pairs",
+     "citazione": "As in the previously described salt structures containing MEF and TLF, adjacent ion pairs are H-bonded to build a 1D chain (along the a-axis)."
+    }
+   ],
+   "citazione": "MTF–NIF salt crystallizes in the monoclinic system spacegroup P21/n.",
+   "note": "Sale anidro ottenuto da MTF–NIF idrato (LAG con acqua) scaldando a 100 °C (E6); i cristalli singoli da acetato di etile. Cella dalla Table 2."
+  },
+  {
+   "id": "F4",
+   "etichetta": "MTF–NIF·2H2O",
+   "etichette_alternative": [
+    "MFT–NIF·2H2O",
+    "MTF–NIF dihydrate salt",
+    "MTF–NIF salt hydrate"
+   ],
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "gruppo_spaziale": "P21/c",
+   "sistema_cristallino": "monoclino",
+   "cella": {
+    "a": 19.9296,
+    "b": 7.9245,
+    "c": 14.6836,
+    "alpha": 90,
+    "beta": 109.362,
+    "gamma": 90,
+    "V": 2187.9,
+    "Z": 4,
+    "condizioni": "temperatura ambiente (SCXRD at room temperature)",
+    "fonte": "SCXRD"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "protonazione": "MTF monoprotonato (MTF+, cation) e NSAID deprotonato (carbossilato): trasferimento di protone dall'acido dell'NSAID al sito basico di MTF",
+   "motivi_hb": [
+    {
+     "motivo": "R216 graph set (charge-assisted H-bond, one carboxylate O)",
+     "chi": "guanidinium moiety of MTF and one oxygen of the carboxylate group of NIF",
+     "citazione": "Unlike the previously described structures, this interaction involves only one oxygen atom from the carboxylate group of NIF (R216 graph set)."
+    },
+    {
+     "motivo": "ribbon of ion pairs and water molecules along the b-axis",
+     "chi": "water molecules and ion pairs",
+     "citazione": "Water molecules and ion pars are connected by H-bonding interactions to build a ribbon structure that extends along the b-axis, locating the –CF3 groups in the periphery."
+    },
+    {
+     "motivo": "H-bonds amino group–water connecting ribbons (2D layers)",
+     "chi": "terminal amino group of MTF+ and water molecules",
+     "citazione": "Additional H-bonding interactions involving the terminal amino group of the MTF+ cation and water molecules connect ribbons to build a 2D layered structure that extends parallel to the bc- plane of the crystal."
+    }
+   ],
+   "citazione": "MTF–NIF·2H2O crystallized in the monoclinic system spacegroup P21/c.",
+   "note": "Sale diidrato: l'unita' asimmetrica ha un catione MTF+, un anione niflumato e due molecole d'acqua ('resulting in a salt hydrate'). Acqua per unita' formula (sale 1:1). Cella dalla Table 2."
+  },
+  {
+   "id": "F5",
+   "etichetta": "MTF–DIF",
+   "etichette_alternative": [
+    "MTF–DIF anhydrous salt",
+    "MTF–DIF anhydrated salt",
+    "anhydride phase"
+   ],
+   "tipo": [
+    "sale",
+    "anidro"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": "C2/c",
+   "sistema_cristallino": "monoclino",
+   "cella": {
+    "a": 36.998,
+    "b": 6.722,
+    "c": 15.0427,
+    "alpha": 90,
+    "beta": 104.981,
+    "gamma": 90,
+    "V": 3614.0,
+    "Z": 8,
+    "condizioni": "temperatura ambiente (SCXRD at room temperature)",
+    "fonte": "SCXRD"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "protonazione": "MTF monoprotonato (MTF+, cation) e NSAID deprotonato (carbossilato): trasferimento di protone dall'acido dell'NSAID al sito basico di MTF",
+   "motivi_hb": [
+    {
+     "motivo": "trimer MTF + 2 DIF by guanidinium···carboxylate H-bonds (R228 graph set)",
+     "chi": "guanidinium of MTF and carboxylate groups of two DIF ions",
+     "citazione": "A trimer was formed by MTF and two DIF ions through guanidinium···carboxylate, N4–H4E⋯O2 (3.01 Å) and N5–H5B⋯O1 (2.96 Å) (R228 graph set), and N2–H2A···O2 (2.92 Å) hydrogen bonds (Figure 6)."
+    }
+   ],
+   "citazione": "MTF–DIF crystallized in the monoclinic system spacegroup C2/c, with one MTF+ cation and one DIF anion in the asymmetric unit.",
+   "note": "Sale anidro. Cristalli singoli per via idrotermale; la polvere (anidra) dalla disidratazione a 100 °C del prodotto di LAG con acqua (E7). Il testo la chiama 'anhydride phase' (sic) e 'anhydrated salts'. Cella dalla Table 2 (Z = 8)."
+  },
+  {
+   "id": "F6",
+   "etichetta": "MTF–FLP",
+   "etichette_alternative": [
+    "MFT–FLP"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": "P-1",
+   "sistema_cristallino": "triclino",
+   "cella": {
+    "a": 8.7587,
+    "b": 10.5391,
+    "c": 10.599,
+    "alpha": 90.265,
+    "beta": 96.217,
+    "gamma": 94.624,
+    "V": 969.37,
+    "Z": 2,
+    "condizioni": "temperatura ambiente (SCXRD at room temperature)",
+    "fonte": "SCXRD"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "protonazione": "MTF monoprotonato (MTF+, cation) e NSAID deprotonato (carbossilato): trasferimento di protone dall'acido dell'NSAID al sito basico di MTF",
+   "motivi_hb": [
+    {
+     "motivo": "charge-assisted H-bond guanidinium···carboxylate (R228 graph set)",
+     "chi": "guanidinium moiety of MTF+ and carboxylate group of FLP anion",
+     "citazione": "Both ions are associated with a charge-assisted H-bond through the guanidinium moiety of MTF+ and the carboxylate group of FLP anion (R228 graph set)."
+    },
+    {
+     "motivo": "ribbon by H-bonds (R428 graph set) along the c-axis",
+     "chi": "adjacent ion pairs",
+     "citazione": "Adjacent pairs are further connected by H-bonds (R428 graph set) to build a ribbon structure that extends along the c-axis, locating the FLP ions outside."
+    }
+   ],
+   "citazione": "This molecular salt crystallizes in the triclinic system space group P-1, with one monoprotonated MTF+ cation and one FLP anion in the asymmetric unit as ionic pair.",
+   "note": "Sale 1:1 (formula C19H24FN5O2 in Table 2). Cella dalla Table 2. Nel testo la sigla e' FLP (FLF solo nell'introduzione)."
+  },
+  {
+   "id": "F7",
+   "etichetta": "[MTF–NIF idrato da LAG con acqua]",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "etichette_alternative": [
+    "product obtained from LAG synthesis (MTF–NIF)",
+    "MTF–NIF hydrate"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": null
+   },
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "As expected, however, the PXRD patterns of MTF–NIF·2H2O and the product obtained from LAG synthesis did not match since they are different hydrated forms (Figure S2).",
+   "conflitto": "Sezione 3.1: 'indicating the formation of an intermediate phase or a hydrate phase'; Metodi: 'MTF–DIF and MTF–NIF hydrates were obtained using LAG'. Si e' scelto 'idrato' (Metodi e 'they are different hydrated forms').",
+   "note": "Fase del prodotto di LAG di MTF + NIF con acqua, diversa dal diidrato MTF–NIF·2H2O. Struttura non risolta; stechiometria dell'acqua non detta."
+  },
+  {
+   "id": "F8",
+   "etichetta": "[MTF–DIF idrato da LAG con acqua]",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "etichette_alternative": [
+    "MTF–DIF hydrate",
+    "hydrate form of MTF–DIF salt"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": null
+   },
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Interestingly, this unknown phase agrees with the phase obtained directly from the LAG reaction using water as a liquid additive (Figure S5), suggesting the formation of a hydrate form of MTF–DIF salt.",
+   "note": "Fase non determinata ('no crystalline structure of a hydrate form was found'): e' il prodotto del LAG di MTF + DIF con acqua, e secondo gli autori coincide con la fase finale della sospensione di MTF–DIF; idrato dichiarato nei Metodi ('MTF–DIF and MTF–NIF hydrates were obtained using LAG') e 'suggesting the formation of a hydrate form'."
+  },
+  {
+   "id": "F9",
+   "etichetta": "[MTF–NIF dopo aging 40 °C/75% RH]",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "etichette_alternative": [
+    "new phase of MTF–NIF"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": null
+   },
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "This new phase matched neither the already determined dihydrate salt form nor the product of the LAG in water, suggesting the formation of different grades of hydrate salt for the MTF–NIF system.",
+   "note": "Fase nuova di MTF–NIF dopo l'aging: non coincide ne' con il diidrato F4 ne' con il prodotto del LAG in acqua F7. Idrato solo suggerito dagli autori ('suggesting the formation of different grades of hydrate salt'); struttura non risolta."
+  },
+  {
+   "id": "F10",
+   "etichetta": "MTF base",
+   "tipo": "non_specificato",
+   "etichette_alternative": [
+    "metformin base",
+    "MTF base molecule"
+   ],
+   "composto": "C1",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "The remaining powder was dried and characterized by powder X-ray diffraction (PXRD) to confirm the purity of the MTF base obtained.",
+   "note": "Base libera ottenuta per neutralizzazione di MTF·HCl; caratterizzata solo da PXRD (purezza). Forma cristallina non descritta."
+  },
+  {
+   "id": "F11",
+   "etichetta": "MEF (parent API)",
+   "tipo": "non_specificato",
+   "composto": "C2",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Diflunisal and mefenamic acid were obtained from Sigma-Aldrich (St. Louis, CA, USA).",
+   "note": "Reagente commerciale, forma cristallina non specificata."
+  },
+  {
+   "id": "F12",
+   "etichetta": "TLF (parent API)",
+   "tipo": "non_specificato",
+   "composto": "C3",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Metfomin·HCl, tolfenamic acid, niflumic acid, and flurbiprofen were obtained from TCI Europe (Zwijndrecht, Belgium).",
+   "note": "Reagente commerciale, forma cristallina non specificata."
+  },
+  {
+   "id": "F13",
+   "etichetta": "NIF (parent API)",
+   "tipo": "non_specificato",
+   "composto": "C4",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Metfomin·HCl, tolfenamic acid, niflumic acid, and flurbiprofen were obtained from TCI Europe (Zwijndrecht, Belgium).",
+   "note": "Reagente commerciale, forma cristallina non specificata."
+  },
+  {
+   "id": "F14",
+   "etichetta": "DIF (parent API)",
+   "tipo": "non_specificato",
+   "composto": "C5",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Diflunisal and mefenamic acid were obtained from Sigma-Aldrich (St. Louis, CA, USA).",
+   "note": "Reagente commerciale, forma cristallina non specificata."
+  },
+  {
+   "id": "F15",
+   "etichetta": "FLP (parent API)",
+   "tipo": "non_specificato",
+   "composto": "C6",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Metfomin·HCl, tolfenamic acid, niflumic acid, and flurbiprofen were obtained from TCI Europe (Zwijndrecht, Belgium).",
+   "note": "Reagente commerciale, forma cristallina non specificata."
+  },
+  {
+   "id": "F16",
+   "etichetta": "MTF·HCl",
+   "tipo": "sale",
+   "etichette_alternative": [
+    "metformin hydrochloride",
+    "Metfomin·HCl"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "It is most commonly prescribed alone as metformin hydrochloride (MTF·HCl), i.e., chemically defined as a salt, in order to increase solubility and stability [7,8,9].",
+   "note": "Reagente commerciale (TCI), forma cristallina non specificata; punto di fusione citato da [46]."
+  },
+  {
+   "id": "F17",
+   "etichetta": "[miscela MTF base + MEF 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F10",
+    "F11"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "citazione": "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent.",
+   "note": "Miscela di partenza del LAG: MTF base (0.5 mmol, 64.58 mg) e MEF in rapporto stechiometrico 1:1."
+  },
+  {
+   "id": "F18",
+   "etichetta": "[miscela MTF base + TLF 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F10",
+    "F12"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "citazione": "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent.",
+   "note": "Miscela di partenza del LAG: MTF base (0.5 mmol, 64.58 mg) e TLF in rapporto stechiometrico 1:1."
+  },
+  {
+   "id": "F19",
+   "etichetta": "[miscela MTF base + FLP 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F10",
+    "F15"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "citazione": "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent.",
+   "note": "Miscela di partenza del LAG: MTF base (0.5 mmol, 64.58 mg) e FLP in rapporto stechiometrico 1:1."
+  },
+  {
+   "id": "F20",
+   "etichetta": "[miscela MTF base + DIF 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F10",
+    "F14"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "citazione": "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent.",
+   "note": "Miscela di partenza del LAG: MTF base (0.5 mmol, 64.58 mg) e DIF in rapporto stechiometrico 1:1."
+  },
+  {
+   "id": "F21",
+   "etichetta": "[miscela MTF base + NIF 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F10",
+    "F13"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "citazione": "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent.",
+   "note": "Miscela di partenza del LAG: MTF base (0.5 mmol, 64.58 mg) e NIF in rapporto stechiometrico 1:1."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F17",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "stainless steel balls 7 mm in diameter",
+     "liquido": "ultrapure water, 100 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "ultrapure water",
+      "proporzione": "100 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "MTF–MEF was obtained by LAG of a mixture of MTF (0.5 mmol, 64.58 mg) and MEF (0.5 mmol, 120.64 mg) in a 1:1 stoichiometric ratio with 100 µL of ultrapure water as a liquid additive.",
+    "The mechanochemical synthesis of MTF salts was conducted using Liquid-Assisted Grinding (LAG) in a Retsh MM2000 ball mill (Retsch, Haan, Germany), operating at a 25-Hz frequency, using stainless steel jars along with stainless steel balls 7 mm in diameter.",
+    "All reaction syntheses lasted for 30 min and were repeated to ensure reproducibility.",
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1).",
+    "The structural information allowed the simulation of a calculated PXRD for each salt (Figure S1), which confirmed the phase purity of the bulk products obtained from LAG except for MTF–NIF, whose calculated powder pattern did not match the product obtained from the LAG reaction, thus indicating the formation of an intermediate phase or a hydrate phase."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF base + MEF 1:1 con 100 µL di acqua ultrapura: il prodotto del LAG e' il sale MTF–MEF (fase pura secondo il confronto col PXRD calcolato). Quantita' dei reagenti: 0.5 mmol di ciascuno (64.58 e 120.64 mg). Il rapporto liquido/solido (η) non e' dato nel testo.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of NSAIDs to the basic nitrogen site of metformin."
+    },
+    {
+     "gruppo": "basic nitrogen site of metformin",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of NSAIDs to the basic nitrogen site of metformin."
+    },
+    {
+     "gruppo": "guanidinium···carboxylate synthons (R228 ring motif)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F1",
+     "citazione": "Due to the protonation of MTF, the resulting MTF+ cation is able to participate in hetero-synthons with the NSAID anion through guanidinium···carboxylate synthons, engaged through the R228 ring motif [54,55]."
+    },
+    {
+     "gruppo": "NSAID–NSAID dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F1",
+     "citazione": "The disruption of the robust NSAID–NSAID dimers present in the crystal structure of isolated NSAIDs is key for understanding their enhancement in solubility."
+    }
+   ]
+  },
+  {
+   "id": "E2",
+   "da": "F18",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "stainless steel balls 7 mm in diameter",
+     "liquido": "ethanol, 100 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol",
+      "proporzione": "100 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "MTF–FLP and MTF–TLF were obtained using LAG of a mixture of MTF (0.5 mmol, 64.58 mg) and the respective coformer (130.85 mg of TLF, 122.13 mg of FLP) in a 1:1 stoichiometric ratio, along with 100 µL of ethanol as a liquid additive.",
+    "The mechanochemical synthesis of MTF salts was conducted using Liquid-Assisted Grinding (LAG) in a Retsh MM2000 ball mill (Retsch, Haan, Germany), operating at a 25-Hz frequency, using stainless steel jars along with stainless steel balls 7 mm in diameter.",
+    "All reaction syntheses lasted for 30 min and were repeated to ensure reproducibility.",
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1).",
+    "The structural information allowed the simulation of a calculated PXRD for each salt (Figure S1), which confirmed the phase purity of the bulk products obtained from LAG except for MTF–NIF, whose calculated powder pattern did not match the product obtained from the LAG reaction, thus indicating the formation of an intermediate phase or a hydrate phase."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF base + TLF 1:1 con 100 µL di etanolo: il prodotto del LAG e' il sale MTF–TLF (fase pura secondo il PXRD calcolato).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of NSAIDs to the basic nitrogen site of metformin."
+    },
+    {
+     "gruppo": "basic nitrogen site of metformin",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of NSAIDs to the basic nitrogen site of metformin."
+    },
+    {
+     "gruppo": "guanidinium···carboxylate synthons (R228 ring motif)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F2",
+     "citazione": "Due to the protonation of MTF, the resulting MTF+ cation is able to participate in hetero-synthons with the NSAID anion through guanidinium···carboxylate synthons, engaged through the R228 ring motif [54,55]."
+    },
+    {
+     "gruppo": "NSAID–NSAID dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F2",
+     "citazione": "The disruption of the robust NSAID–NSAID dimers present in the crystal structure of isolated NSAIDs is key for understanding their enhancement in solubility."
+    }
+   ]
+  },
+  {
+   "id": "E3",
+   "da": "F19",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "stainless steel balls 7 mm in diameter",
+     "liquido": "ethanol, 100 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol",
+      "proporzione": "100 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "MTF–FLP and MTF–TLF were obtained using LAG of a mixture of MTF (0.5 mmol, 64.58 mg) and the respective coformer (130.85 mg of TLF, 122.13 mg of FLP) in a 1:1 stoichiometric ratio, along with 100 µL of ethanol as a liquid additive.",
+    "The mechanochemical synthesis of MTF salts was conducted using Liquid-Assisted Grinding (LAG) in a Retsh MM2000 ball mill (Retsch, Haan, Germany), operating at a 25-Hz frequency, using stainless steel jars along with stainless steel balls 7 mm in diameter.",
+    "All reaction syntheses lasted for 30 min and were repeated to ensure reproducibility.",
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1).",
+    "The structural information allowed the simulation of a calculated PXRD for each salt (Figure S1), which confirmed the phase purity of the bulk products obtained from LAG except for MTF–NIF, whose calculated powder pattern did not match the product obtained from the LAG reaction, thus indicating the formation of an intermediate phase or a hydrate phase."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF base + FLP 1:1 con 100 µL di etanolo: il prodotto del LAG e' il sale MTF–FLP (fase pura secondo il PXRD calcolato).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of NSAIDs to the basic nitrogen site of metformin."
+    },
+    {
+     "gruppo": "basic nitrogen site of metformin",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of NSAIDs to the basic nitrogen site of metformin."
+    },
+    {
+     "gruppo": "guanidinium···carboxylate synthons (R228 ring motif)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F6",
+     "citazione": "Due to the protonation of MTF, the resulting MTF+ cation is able to participate in hetero-synthons with the NSAID anion through guanidinium···carboxylate synthons, engaged through the R228 ring motif [54,55]."
+    },
+    {
+     "gruppo": "NSAID–NSAID dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F6",
+     "citazione": "The disruption of the robust NSAID–NSAID dimers present in the crystal structure of isolated NSAIDs is key for understanding their enhancement in solubility."
+    }
+   ]
+  },
+  {
+   "id": "E4",
+   "da": "F20",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "stainless steel balls 7 mm in diameter",
+     "liquido": "ultrapure water, 100 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "ultrapure water",
+      "proporzione": "100 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "MTF–DIF and MTF–NIF hydrates were obtained using LAG of a mixture of MTF (0.5 mmol, 64.58 mg) and the respective coformer (125.10 mg of DIF, 141.11 mg of NIF) in a 1:1 stoichiometric ratio, along with 100 µL of ultrapure water as a liquid additive.",
+    "The mechanochemical synthesis of MTF salts was conducted using Liquid-Assisted Grinding (LAG) in a Retsh MM2000 ball mill (Retsch, Haan, Germany), operating at a 25-Hz frequency, using stainless steel jars along with stainless steel balls 7 mm in diameter.",
+    "All reaction syntheses lasted for 30 min and were repeated to ensure reproducibility.",
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1).",
+    "Although good-quality single crystals were obtained from hydrothermal reactions, the bulk material obtained from LAG did not match the PXRD pattern of the anhydride phase. Following the previous methodology, the product of the LAG was heated at 100 °C for 2 h. After the treatment, the PXRD patterns matched perfectly."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF base + DIF 1:1 con 100 µL di acqua ultrapura: il prodotto non coincide con il PXRD dell'anidro MTF–DIF ('the bulk material obtained from LAG did not match the PXRD pattern of the anhydride phase'); i Metodi lo chiamano idrato. Fase non risolta: certezza media."
+  },
+  {
+   "id": "E5",
+   "da": "F21",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "stainless steel balls 7 mm in diameter",
+     "liquido": "ultrapure water, 100 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "ultrapure water",
+      "proporzione": "100 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "MTF–DIF and MTF–NIF hydrates were obtained using LAG of a mixture of MTF (0.5 mmol, 64.58 mg) and the respective coformer (125.10 mg of DIF, 141.11 mg of NIF) in a 1:1 stoichiometric ratio, along with 100 µL of ultrapure water as a liquid additive.",
+    "The mechanochemical synthesis of MTF salts was conducted using Liquid-Assisted Grinding (LAG) in a Retsh MM2000 ball mill (Retsch, Haan, Germany), operating at a 25-Hz frequency, using stainless steel jars along with stainless steel balls 7 mm in diameter.",
+    "All reaction syntheses lasted for 30 min and were repeated to ensure reproducibility.",
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1).",
+    "The structural information allowed the simulation of a calculated PXRD for each salt (Figure S1), which confirmed the phase purity of the bulk products obtained from LAG except for MTF–NIF, whose calculated powder pattern did not match the product obtained from the LAG reaction, thus indicating the formation of an intermediate phase or a hydrate phase.",
+    "As expected, however, the PXRD patterns of MTF–NIF·2H2O and the product obtained from LAG synthesis did not match since they are different hydrated forms (Figure S2)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF base + NIF 1:1 con 100 µL di acqua ultrapura: il PXRD del prodotto non coincide con quello calcolato del sale anidro ('whose calculated powder pattern did not match the product obtained from the LAG reaction') ne' con quello del diidrato ('different hydrated forms'). Idrato dai Metodi ('MTF–DIF and MTF–NIF hydrates were obtained using LAG'). Fase non risolta: certezza media.",
+   "conflitto": "Sezione 3.1: 'indicating the formation of an intermediate phase or a hydrate phase'; Metodi: 'MTF–NIF hydrates were obtained using LAG'. Si e' scelto 'idrato'."
+  },
+  {
+   "id": "E6",
+   "da": "F7",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "To obtain MTF–DIF and MTF–NIF as anhydrated salts, the product of the mechanochemical synthesis was heated at 100 °C for 2 h.",
+    "For that reason, the product of the LAG of MTF and NIF was heated at 100 °C for 2 h. After the thermal treatment, the PXRD pattern was in good agreement with the calculated powder pattern for MTF–NIF anhydrate salt."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il prodotto di LAG di MTF + NIF (idrato) scaldato a 100 °C per 2 h da' il sale anidro MTF–NIF (PXRD in buon accordo con quello calcolato). Il testo non dice il tipo di stufa/crogiolo ne' la perdita di massa."
+  },
+  {
+   "id": "E7",
+   "da": "F8",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "To obtain MTF–DIF and MTF–NIF as anhydrated salts, the product of the mechanochemical synthesis was heated at 100 °C for 2 h.",
+    "Although good-quality single crystals were obtained from hydrothermal reactions, the bulk material obtained from LAG did not match the PXRD pattern of the anhydride phase. Following the previous methodology, the product of the LAG was heated at 100 °C for 2 h. After the treatment, the PXRD patterns matched perfectly."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il prodotto di LAG di MTF + DIF scaldato a 100 °C per 2 h da' il sale anidro MTF–DIF ('the PXRD patterns matched perfectly'). Il testo non dice il tipo di stufa/crogiolo ne' la perdita di massa."
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": 6.8
+    },
+    "solventi": [
+     {
+      "nome": "phosphate buffer (pH 6.8)"
+     }
+    ],
+    "rapporto_solido_solvente": "An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Stability in an aqueous solution was evaluated through slurry experiments. An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8) and stirred for 24 h in sealed vials. The solids were collected, filtered, dried, and analyzed with PXRD.",
+    "The thermodynamic stability of molecular salts was studied by conducting aqueous slurry experiments at 25 °C. After 24 h, the suspensions were filtered, air-dried at room temperature, and characterized using PXRD (Figure S4).",
+    "Despite MTF–NIF and MTF–DIF displaying a phase transition indicating low stability in solution, MTF–TLF, MTF–MEF, and MTF–FLP remained stable upon slurrying, as the crystallinity and the initial crystal structures remained intact.",
+    "SCXRD and further PXRD confirmed the formation of the dihydrate salt of MTF–NIF, but it was impossible to determine the final phase of MTF–DIF.",
+    "A phase transformation for MTF–NIF was confirmed through the obtention of MTF–NIF·2H2O single crystals.",
+    "In the case of MTF–NIF, the faces {−110}, {−1–10}, {1 1 0} and {1 −1 0} (corresponding to 14.4 % of the total surface) and the faces {1 −1 −1}, {1 1 −1}, {−1 −1 1} and {−1 1 1} (corresponding to 32 % of the total surface) expose amino groups of MTF and carboxylate groups of NIF to the surface and coincide with the crystal structure region where the ion pairs form the tape-like structures. Therefore, it seems reasonable that water molecules can access and form additional H-bonds with the groups involved resulting in the hydrated structure as reported herein."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF–NIF (anidro) in sospensione in tampone fosfato a pH 6.8 a 25 °C per 24 h diventa il diidrato MTF–NIF·2H2O (confermato da SCXRD e PXRD). Gli autori spiegano la trasformazione con la morfologia BFDH prevista: le facce espongono i gruppi amminici di MTF e carbossilati di NIF dove si formano le strutture a nastro, e l'acqua puo' fare legami H aggiuntivi (spiegazione dichiarata come 'possible', cioe' ipotesi). Il testo dei risultati dice solo 'aqueous slurry experiments at 25 °C'; il tampone pH 6.8 e' nei Metodi.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amino groups of MTF",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_forma",
+     "forma": "F4",
+     "citazione": "expose amino groups of MTF and carboxylate groups of NIF to the surface and coincide with the crystal structure region where the ion pairs form the tape-like structures."
+    },
+    {
+     "gruppo": "carboxylate groups of NIF",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_forma",
+     "forma": "F4",
+     "citazione": "expose amino groups of MTF and carboxylate groups of NIF to the surface and coincide with the crystal structure region where the ion pairs form the tape-like structures."
+    }
+   ]
+  },
+  {
+   "id": "E9",
+   "da": "F5",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": 6.8
+    },
+    "solventi": [
+     {
+      "nome": "phosphate buffer (pH 6.8)"
+     }
+    ],
+    "rapporto_solido_solvente": "An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Stability in an aqueous solution was evaluated through slurry experiments. An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8) and stirred for 24 h in sealed vials. The solids were collected, filtered, dried, and analyzed with PXRD.",
+    "The thermodynamic stability of molecular salts was studied by conducting aqueous slurry experiments at 25 °C. After 24 h, the suspensions were filtered, air-dried at room temperature, and characterized using PXRD (Figure S4).",
+    "Despite MTF–NIF and MTF–DIF displaying a phase transition indicating low stability in solution, MTF–TLF, MTF–MEF, and MTF–FLP remained stable upon slurrying, as the crystallinity and the initial crystal structures remained intact.",
+    "SCXRD and further PXRD confirmed the formation of the dihydrate salt of MTF–NIF, but it was impossible to determine the final phase of MTF–DIF.",
+    "Interestingly, this unknown phase agrees with the phase obtained directly from the LAG reaction using water as a liquid additive (Figure S5), suggesting the formation of a hydrate form of MTF–DIF salt.",
+    "On the other hand, the phase transformation for MTF–DIF could not be determined, thus, making MTF–DIF unsuitable for solubility studies."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF–DIF in sospensione cambia fase ('displaying a phase transition indicating low stability in solution'). La fase finale non e' stata determinata ('it was impossible to determine the final phase of MTF–DIF'), ma 'this unknown phase agrees with the phase obtained directly from the LAG reaction using water' (F8, idrato suggerito): a = F8 per identificazione con un altro esperimento, certezza media."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": 6.8
+    },
+    "solventi": [
+     {
+      "nome": "phosphate buffer (pH 6.8)"
+     }
+    ],
+    "rapporto_solido_solvente": "An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Stability in an aqueous solution was evaluated through slurry experiments. An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8) and stirred for 24 h in sealed vials. The solids were collected, filtered, dried, and analyzed with PXRD.",
+    "The thermodynamic stability of molecular salts was studied by conducting aqueous slurry experiments at 25 °C. After 24 h, the suspensions were filtered, air-dried at room temperature, and characterized using PXRD (Figure S4).",
+    "Despite MTF–NIF and MTF–DIF displaying a phase transition indicating low stability in solution, MTF–TLF, MTF–MEF, and MTF–FLP remained stable upon slurrying, as the crystallinity and the initial crystal structures remained intact.",
+    "Saturated solutions were obtained by stirring an excess amount of APIs in 10 mL of pH 6.8 phosphate buffer at 25 °C until the thermodynamic equilibrium was reached after 24 h.",
+    "The remaining solids were finally analyzed using PXRD to identify the crystalline phases, thus confirming the stability of the initial phases and the congruent solubility of these new salts."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF–MEF resta stabile in sospensione in tampone pH 6.8 a 25 °C per 24 h ('remained stable upon slurrying, as the crystallinity and the initial crystal structures remained intact'). Frase che elenca tre sali: un evento per sale, certezza media. Anche nella prova di solubilita' (10 mL di tampone pH 6.8, 25 °C, 24 h) i solidi residui confermano 'the stability of the initial phases'.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": 6.8
+    },
+    "solventi": [
+     {
+      "nome": "phosphate buffer (pH 6.8)"
+     }
+    ],
+    "rapporto_solido_solvente": "An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Stability in an aqueous solution was evaluated through slurry experiments. An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8) and stirred for 24 h in sealed vials. The solids were collected, filtered, dried, and analyzed with PXRD.",
+    "The thermodynamic stability of molecular salts was studied by conducting aqueous slurry experiments at 25 °C. After 24 h, the suspensions were filtered, air-dried at room temperature, and characterized using PXRD (Figure S4).",
+    "Despite MTF–NIF and MTF–DIF displaying a phase transition indicating low stability in solution, MTF–TLF, MTF–MEF, and MTF–FLP remained stable upon slurrying, as the crystallinity and the initial crystal structures remained intact.",
+    "Saturated solutions were obtained by stirring an excess amount of APIs in 10 mL of pH 6.8 phosphate buffer at 25 °C until the thermodynamic equilibrium was reached after 24 h.",
+    "The remaining solids were finally analyzed using PXRD to identify the crystalline phases, thus confirming the stability of the initial phases and the congruent solubility of these new salts."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF–TLF resta stabile in sospensione in tampone pH 6.8 a 25 °C per 24 h ('remained stable upon slurrying, as the crystallinity and the initial crystal structures remained intact'). Frase che elenca tre sali: un evento per sale, certezza media. Anche nella prova di solubilita' (10 mL di tampone pH 6.8, 25 °C, 24 h) i solidi residui confermano 'the stability of the initial phases'.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E12",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": 6.8
+    },
+    "solventi": [
+     {
+      "nome": "phosphate buffer (pH 6.8)"
+     }
+    ],
+    "rapporto_solido_solvente": "An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Stability in an aqueous solution was evaluated through slurry experiments. An excess of powder samples of each phase was added to 1 mL of buffer phosphate (pH 6.8) and stirred for 24 h in sealed vials. The solids were collected, filtered, dried, and analyzed with PXRD.",
+    "The thermodynamic stability of molecular salts was studied by conducting aqueous slurry experiments at 25 °C. After 24 h, the suspensions were filtered, air-dried at room temperature, and characterized using PXRD (Figure S4).",
+    "Despite MTF–NIF and MTF–DIF displaying a phase transition indicating low stability in solution, MTF–TLF, MTF–MEF, and MTF–FLP remained stable upon slurrying, as the crystallinity and the initial crystal structures remained intact.",
+    "Saturated solutions were obtained by stirring an excess amount of APIs in 10 mL of pH 6.8 phosphate buffer at 25 °C until the thermodynamic equilibrium was reached after 24 h.",
+    "The remaining solids were finally analyzed using PXRD to identify the crystalline phases, thus confirming the stability of the initial phases and the congruent solubility of these new salts."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF–FLP resta stabile in sospensione in tampone pH 6.8 a 25 °C per 24 h ('remained stable upon slurrying, as the crystallinity and the initial crystal structures remained intact'). Frase che elenca tre sali: un evento per sale, certezza media. Anche nella prova di solubilita' (10 mL di tampone pH 6.8, 25 °C, 24 h) i solidi residui confermano 'the stability of the initial phases'.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E13",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": 6.8
+    },
+    "solventi": [
+     {
+      "nome": "phosphate buffer (pH 6.8)"
+     }
+    ],
+    "rapporto_solido_solvente": "an excess amount of APIs in 10 mL of pH 6.8 phosphate buffer"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Saturated solutions were obtained by stirring an excess amount of APIs in 10 mL of pH 6.8 phosphate buffer at 25 °C until the thermodynamic equilibrium was reached after 24 h.",
+    "Instead, the solubility corresponding to the MTF–NIF salt hydrate was obtained.",
+    "The remaining solids were finally analyzed using PXRD to identify the crystalline phases, thus confirming the stability of the initial phases and the congruent solubility of these new salts."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF–NIF·2H2O nella prova di solubilita' (eccesso di solido in 10 mL di tampone pH 6.8 a 25 °C fino all'equilibrio, 24 h): 'the solubility corresponding to the MTF–NIF salt hydrate was obtained' e il PXRD dei solidi residui conferma 'the stability of the initial phases'. La frase vale per 'these new salts' senza nominare il diidrato: certezza bassa. Stesso tampone della sospensione, 10 mL invece di 1 mL.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E14",
+   "da": "F3",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "week",
+     "tipo": "trasformazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "cinetica": "transizione parziale al terzo giorno, conversione finale a una settimana"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "200 mg"
+   },
+   "citazioni": [
+    "Stability at accelerated aging conditions was also studied: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity using a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). Under the above-accelerated aging conditions, the stability of the solid forms was periodically monitored using PXRD for two months.",
+    "The molecular salts were also stored under accelerated aging conditions (40 °C and 75% RH). Under these conditions, all the samples remained stable after four months, with the exception of MTF–NIF (Figure S6), which presented a partial phase transition on the third day, with a final conversion at one week.",
+    "This new phase matched neither the already determined dihydrate salt form nor the product of the LAG in water, suggesting the formation of different grades of hydrate salt for the MTF–NIF system."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MTF–NIF (anidro) a 40 °C e 75% RH: 'a partial phase transition on the third day, with a final conversion at one week'. Un solo evento (esito avvenuta, tempo di conversione una settimana); il parziale al terzo giorno e' nella cinetica. Prodotto F9, fase nuova che non e' il diidrato ne' il prodotto del LAG in acqua; idrato solo suggerito, quindi via 'umidita' / 'assorbimento' con certezza media. Il testo dice 'The molecular salts were also stored' (200 mg di solido in vetrini da orologio)."
+  },
+  {
+   "id": "E15",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%"
+    },
+    "tempo": {
+     "valore": 4,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "200 mg"
+   },
+   "citazioni": [
+    "Stability at accelerated aging conditions was also studied: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity using a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). Under the above-accelerated aging conditions, the stability of the solid forms was periodically monitored using PXRD for two months.",
+    "The molecular salts were also stored under accelerated aging conditions (40 °C and 75% RH). Under these conditions, all the samples remained stable after four months, with the exception of MTF–NIF (Figure S6), which presented a partial phase transition on the third day, with a final conversion at one week."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "conflitto": "Metodi: 'periodically monitored using PXRD for two months'; Risultati: 'all the samples remained stable after four months'. Si e' tenuto il dato dei Risultati (quattro mesi).",
+   "note": "MTF–MEF a 40 °C e 75% RH: 'all the samples remained stable after four months, with the exception of MTF–NIF'. La frase non elenca i sali ('The molecular salts'), quindi certezza media. Per MTF–DIF, stabile qui, in sospensione acquosa invece cambia fase (E9)."
+  },
+  {
+   "id": "E16",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%"
+    },
+    "tempo": {
+     "valore": 4,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "200 mg"
+   },
+   "citazioni": [
+    "Stability at accelerated aging conditions was also studied: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity using a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). Under the above-accelerated aging conditions, the stability of the solid forms was periodically monitored using PXRD for two months.",
+    "The molecular salts were also stored under accelerated aging conditions (40 °C and 75% RH). Under these conditions, all the samples remained stable after four months, with the exception of MTF–NIF (Figure S6), which presented a partial phase transition on the third day, with a final conversion at one week."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "conflitto": "Metodi: 'periodically monitored using PXRD for two months'; Risultati: 'all the samples remained stable after four months'. Si e' tenuto il dato dei Risultati (quattro mesi).",
+   "note": "MTF–TLF a 40 °C e 75% RH: 'all the samples remained stable after four months, with the exception of MTF–NIF'. La frase non elenca i sali ('The molecular salts'), quindi certezza media. Per MTF–DIF, stabile qui, in sospensione acquosa invece cambia fase (E9)."
+  },
+  {
+   "id": "E17",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%"
+    },
+    "tempo": {
+     "valore": 4,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "200 mg"
+   },
+   "citazioni": [
+    "Stability at accelerated aging conditions was also studied: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity using a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). Under the above-accelerated aging conditions, the stability of the solid forms was periodically monitored using PXRD for two months.",
+    "The molecular salts were also stored under accelerated aging conditions (40 °C and 75% RH). Under these conditions, all the samples remained stable after four months, with the exception of MTF–NIF (Figure S6), which presented a partial phase transition on the third day, with a final conversion at one week."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "conflitto": "Metodi: 'periodically monitored using PXRD for two months'; Risultati: 'all the samples remained stable after four months'. Si e' tenuto il dato dei Risultati (quattro mesi).",
+   "note": "MTF–FLP a 40 °C e 75% RH: 'all the samples remained stable after four months, with the exception of MTF–NIF'. La frase non elenca i sali ('The molecular salts'), quindi certezza media. Per MTF–DIF, stabile qui, in sospensione acquosa invece cambia fase (E9)."
+  },
+  {
+   "id": "E18",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%"
+    },
+    "tempo": {
+     "valore": 4,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "200 mg"
+   },
+   "citazioni": [
+    "Stability at accelerated aging conditions was also studied: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity using a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). Under the above-accelerated aging conditions, the stability of the solid forms was periodically monitored using PXRD for two months.",
+    "The molecular salts were also stored under accelerated aging conditions (40 °C and 75% RH). Under these conditions, all the samples remained stable after four months, with the exception of MTF–NIF (Figure S6), which presented a partial phase transition on the third day, with a final conversion at one week."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "conflitto": "Metodi: 'periodically monitored using PXRD for two months'; Risultati: 'all the samples remained stable after four months'. Si e' tenuto il dato dei Risultati (quattro mesi).",
+   "note": "MTF–DIF a 40 °C e 75% RH: 'all the samples remained stable after four months, with the exception of MTF–NIF'. La frase non elenca i sali ('The molecular salts'), quindi certezza media. Per MTF–DIF, stabile qui, in sospensione acquosa invece cambia fase (E9)."
+  },
+  {
+   "id": "E19",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 200,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Interestingly, the melting point of MTF–FLP is 200 °C, while the melting point of the components goes from 110 to 117 °C, increasing the thermal stability and the melting point of both APIs by more than 80 °C.",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione di MTF–FLP, 'the melting point of MTF–FLP is 200 °C' (unico sale a fondere sopra il coformero: 'while the melting point of the components goes from 110 to 117 °C'). Il testo non dice se e' onset o picco. Velocita' di riscaldamento 1 e 10 °C/min date per l'insieme delle prove DSC, non per sale. Crogioli di alluminio da 40 µL, tipo di coperchio non detto."
+  },
+  {
+   "id": "E20",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 117,
+     "max": 230,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "With the exception of MTF–FLP, all the molecular salts show a melting point in a range between the melting point of the MTF base (117 °C) and the corresponding NSAID coformer (MEF 230 °C, DIF 210–211 °C, TLF 207 °C, NIF 204 °C), increasing the thermal stability of the MTF base in all cases, although still under the melting point of the commercially available MTF·HCl (231.5 °C) [46].",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il testo dice solo che MTF–MEF ha un punto di fusione 'in a range between the melting point of the MTF base (117 °C) and the corresponding NSAID coformer (MEF 230 °C)'; il valore preciso sta nel Figure 8 (non leggibile nel testo). Estremo inferiore: MTF base 117 °C; estremo superiore: il punto di fusione del coformero. Forma misurata: il sale anidro (il testo parla di 'pure molecular salts'). Velocita' 1 e 10 °C/min date per l'insieme delle prove DSC."
+  },
+  {
+   "id": "E21",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 117,
+     "max": 207,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "With the exception of MTF–FLP, all the molecular salts show a melting point in a range between the melting point of the MTF base (117 °C) and the corresponding NSAID coformer (MEF 230 °C, DIF 210–211 °C, TLF 207 °C, NIF 204 °C), increasing the thermal stability of the MTF base in all cases, although still under the melting point of the commercially available MTF·HCl (231.5 °C) [46].",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il testo dice solo che MTF–TLF ha un punto di fusione 'in a range between the melting point of the MTF base (117 °C) and the corresponding NSAID coformer (TLF 207 °C)'; il valore preciso sta nel Figure 8 (non leggibile nel testo). Estremo inferiore: MTF base 117 °C; estremo superiore: il punto di fusione del coformero. Forma misurata: il sale anidro (il testo parla di 'pure molecular salts'). Velocita' 1 e 10 °C/min date per l'insieme delle prove DSC."
+  },
+  {
+   "id": "E22",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 117,
+     "max": 204,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "With the exception of MTF–FLP, all the molecular salts show a melting point in a range between the melting point of the MTF base (117 °C) and the corresponding NSAID coformer (MEF 230 °C, DIF 210–211 °C, TLF 207 °C, NIF 204 °C), increasing the thermal stability of the MTF base in all cases, although still under the melting point of the commercially available MTF·HCl (231.5 °C) [46].",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il testo dice solo che MTF–NIF ha un punto di fusione 'in a range between the melting point of the MTF base (117 °C) and the corresponding NSAID coformer (NIF 204 °C)'; il valore preciso sta nel Figure 8 (non leggibile nel testo). Estremo inferiore: MTF base 117 °C; estremo superiore: il punto di fusione del coformero. Forma misurata: il sale anidro (il testo parla di 'pure molecular salts'). Velocita' 1 e 10 °C/min date per l'insieme delle prove DSC."
+  },
+  {
+   "id": "E23",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 117,
+     "max": 211,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "With the exception of MTF–FLP, all the molecular salts show a melting point in a range between the melting point of the MTF base (117 °C) and the corresponding NSAID coformer (MEF 230 °C, DIF 210–211 °C, TLF 207 °C, NIF 204 °C), increasing the thermal stability of the MTF base in all cases, although still under the melting point of the commercially available MTF·HCl (231.5 °C) [46].",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il testo dice solo che MTF–DIF ha un punto di fusione 'in a range between the melting point of the MTF base (117 °C) and the corresponding NSAID coformer (DIF 210–211 °C)'; il valore preciso sta nel Figure 8 (non leggibile nel testo). Estremo inferiore: MTF base 117 °C; estremo superiore: il punto di fusione del coformero. Per DIF il testo scrive 210–211 °C: si e' preso 211 come estremo. Forma misurata: il sale anidro (il testo parla di 'pure molecular salts'). Velocita' 1 e 10 °C/min date per l'insieme delle prove DSC."
+  },
+  {
+   "id": "E24",
+   "da": "F10",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 117,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "With the exception of MTF–FLP, all the molecular salts show a melting point in a range between the melting point of the MTF base (117 °C) and the corresponding NSAID coformer (MEF 230 °C, DIF 210–211 °C, TLF 207 °C, NIF 204 °C), increasing the thermal stability of the MTF base in all cases, although still under the melting point of the commercially available MTF·HCl (231.5 °C) [46].",
+    "DSC traces of the pure molecular salts and MTF base.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione della base MTF, 'the melting point of the MTF base (117 °C)'; la didascalia di Figure 8 mette la base MTF fra le tracce DSC. Non e' detto se onset o picco."
+  },
+  {
+   "id": "E25",
+   "da": "F16",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 231.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "although still under the melting point of the commercially available MTF·HCl (231.5 °C) [46]"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "note": "Punto di fusione di MTF·HCl commerciale, citato da un altro lavoro ([46]).",
+   "riferimento": "[46]"
+  },
+  {
+   "id": "E26",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "limite": "sotto",
+     "tipo": "intervallo",
+     "testo": "under the melting point"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In addition, the presence of only one endothermic event demonstrates the stability of the phase under the melting point.",
+    "The existence of one single and well-defined endothermic event confirms the purity of the phases, which is in good agreement with the results obtained using PXRD.",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "generalizzazione": false,
+   "note": "DSC di MTF–MEF: un solo evento endotermico, la fusione; 'the presence of only one endothermic event demonstrates the stability of the phase under the melting point'. Frase generale sulle fasi della Figure 8 (i cinque sali), non una frase per sale: certezza media. Dopo la fusione altri eventi endotermici sono attribuiti a degradazione ('Over the transition state, other endothermic events are observed, ascribed to the degradation of the samples')."
+  },
+  {
+   "id": "E27",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "limite": "sotto",
+     "tipo": "intervallo",
+     "testo": "under the melting point"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In addition, the presence of only one endothermic event demonstrates the stability of the phase under the melting point.",
+    "The existence of one single and well-defined endothermic event confirms the purity of the phases, which is in good agreement with the results obtained using PXRD.",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "generalizzazione": false,
+   "note": "DSC di MTF–TLF: un solo evento endotermico, la fusione; 'the presence of only one endothermic event demonstrates the stability of the phase under the melting point'. Frase generale sulle fasi della Figure 8 (i cinque sali), non una frase per sale: certezza media. Dopo la fusione altri eventi endotermici sono attribuiti a degradazione ('Over the transition state, other endothermic events are observed, ascribed to the degradation of the samples')."
+  },
+  {
+   "id": "E28",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "limite": "sotto",
+     "tipo": "intervallo",
+     "testo": "under the melting point"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In addition, the presence of only one endothermic event demonstrates the stability of the phase under the melting point.",
+    "The existence of one single and well-defined endothermic event confirms the purity of the phases, which is in good agreement with the results obtained using PXRD.",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "generalizzazione": false,
+   "note": "DSC di MTF–NIF: un solo evento endotermico, la fusione; 'the presence of only one endothermic event demonstrates the stability of the phase under the melting point'. Frase generale sulle fasi della Figure 8 (i cinque sali), non una frase per sale: certezza media. Dopo la fusione altri eventi endotermici sono attribuiti a degradazione ('Over the transition state, other endothermic events are observed, ascribed to the degradation of the samples')."
+  },
+  {
+   "id": "E29",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "limite": "sotto",
+     "tipo": "intervallo",
+     "testo": "under the melting point"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In addition, the presence of only one endothermic event demonstrates the stability of the phase under the melting point.",
+    "The existence of one single and well-defined endothermic event confirms the purity of the phases, which is in good agreement with the results obtained using PXRD.",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "generalizzazione": false,
+   "note": "DSC di MTF–DIF: un solo evento endotermico, la fusione; 'the presence of only one endothermic event demonstrates the stability of the phase under the melting point'. Frase generale sulle fasi della Figure 8 (i cinque sali), non una frase per sale: certezza media. Dopo la fusione altri eventi endotermici sono attribuiti a degradazione ('Over the transition state, other endothermic events are observed, ascribed to the degradation of the samples')."
+  },
+  {
+   "id": "E30",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 200,
+     "unita": "°C",
+     "limite": "sotto",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": null,
+     "valori": [
+      1,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In addition, the presence of only one endothermic event demonstrates the stability of the phase under the melting point.",
+    "The existence of one single and well-defined endothermic event confirms the purity of the phases, which is in good agreement with the results obtained using PXRD.",
+    "Differential scanning calorimetry (DSC) was used to evaluate the thermal stability and determine the melting point of the new phases. Figure 8 shows the DSC traces and the endothermic events occurring during the experiments, which correspond to the melting point of the salts.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, an atmosphere of dry nitrogen with 50 mL/min flow rate, and heating rates of 1 °C/min and 10 °C/min.",
+    "Interestingly, the melting point of MTF–FLP is 200 °C, while the melting point of the components goes from 110 to 117 °C, increasing the thermal stability and the melting point of both APIs by more than 80 °C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "generalizzazione": false,
+   "note": "DSC di MTF–FLP: un solo evento endotermico, la fusione; 'the presence of only one endothermic event demonstrates the stability of the phase under the melting point'. Frase generale sulle fasi della Figure 8 (i cinque sali), non una frase per sale: certezza media. Dopo la fusione altri eventi endotermici sono attribuiti a degradazione ('Over the transition state, other endothermic events are observed, ascribed to the degradation of the samples')."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "All APIs and solvents used in this work were purchased from commercial sources and used as received."
+   ],
+   "note": "Metformin·HCl, acido tolfenamico, acido niflumico e flurbiprofene da TCI Europe; diflunisal e acido mefenamico da Sigma-Aldrich."
+  },
+  {
+   "forme": [
+    "F10"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "isopropanol"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "To obtain the MTF base, MTF·HCl was neutralized by stirring 10 mmol of MTF·HCl (1.656 g) and 10 mmol of NaOH (0.4 g) in 60 mL of isopropanol at room temperature, using a magnetic stirrer and a sealed glass beaker to avoid evaporation. After 24 h, the solution was filtered using 0.22 µm syringe filters to remove the NaCl (insoluble in isopropanol). The solvent of the clear filtered obtained (containing the MTF base) was removed using a rotatory evaporator set at 50 °C and 30 rpm. The remaining powder was dried and characterized by powder X-ray diffraction (PXRD) to confirm the purity of the MTF base obtained."
+   ],
+   "note": "Neutralizzazione di MTF·HCl (F16) con NaOH in isopropanolo a temperatura ambiente, poi evaporazione del solvente al rotavapor a 50 °C e 30 rpm; reazione in soluzione, non un evento solido-solido."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1)."
+   ],
+   "note": "Polvere ottenuta per LAG (vedi evento)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E2",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1)."
+   ],
+   "note": "Polvere ottenuta per LAG (vedi evento)."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E3",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1)."
+   ],
+   "note": "Polvere ottenuta per LAG (vedi evento)."
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E4",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1)."
+   ],
+   "note": "Polvere ottenuta per LAG con acqua (vedi evento)."
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E5",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "In this work, LAG reactions were performed using a 1:1 stoichiometric mixture of metformin base, previously neutralized, and the corresponding NSAIDs, along with ultrapure water or ethanol as an additive solvent. After 30 min of reaction, the powder obtained in each reaction was characterized using PXRD and compared with the corresponding parent APIs to evaluate the formation of the new salts. PXRD patterns demonstrated the formation of five new phases after LAG reactions and their purity (Figure 1 and Figure S1)."
+   ],
+   "note": "Polvere ottenuta per LAG con acqua (vedi evento)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E6",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 100,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "To obtain MTF–DIF and MTF–NIF as anhydrated salts, the product of the mechanochemical synthesis was heated at 100 °C for 2 h.",
+    "For that reason, the product of the LAG of MTF and NIF was heated at 100 °C for 2 h. After the thermal treatment, the PXRD pattern was in good agreement with the calculated powder pattern for MTF–NIF anhydrate salt."
+   ],
+   "note": "Anidro MTF–NIF per disidratazione a 100 °C del prodotto di LAG (vedi evento)."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E7",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 100,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "To obtain MTF–DIF and MTF–NIF as anhydrated salts, the product of the mechanochemical synthesis was heated at 100 °C for 2 h.",
+    "Although good-quality single crystals were obtained from hydrothermal reactions, the bulk material obtained from LAG did not match the PXRD pattern of the anhydride phase. Following the previous methodology, the product of the LAG was heated at 100 °C for 2 h. After the treatment, the PXRD patterns matched perfectly."
+   ],
+   "note": "Anidro MTF–DIF per disidratazione a 100 °C del prodotto di LAG (vedi evento)."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2",
+    "F6",
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Single crystals of MTF–based salts were obtained by dissolving the product of the LAGs in ethanol (for MTF–NIF·2H2O, MTF–MEF, MTF–FLP, and MTF–TLF) and ethyl acetate (for MTF–NIF).",
+    "After slow solvent evaporation at room temperature, suitable crystals for single-crystal X-ray diffraction (SCXRD) were obtained."
+   ],
+   "note": "Cristalli singoli per SCXRD dal prodotto di LAG sciolto in etanolo e fatto evaporare lentamente a temperatura ambiente. Per MTF–NIF·2H2O il solido di partenza e' il prodotto di LAG idrato (F7)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Single crystals of MTF–based salts were obtained by dissolving the product of the LAGs in ethanol (for MTF–NIF·2H2O, MTF–MEF, MTF–FLP, and MTF–TLF) and ethyl acetate (for MTF–NIF).",
+    "After slow solvent evaporation at room temperature, suitable crystals for single-crystal X-ray diffraction (SCXRD) were obtained."
+   ],
+   "note": "Cristalli singoli di MTF–NIF anidro dal prodotto di LAG sciolto in acetato di etile (per gli altri sali: etanolo)."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "distilled water"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 110,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "rapporto_solido_solvente": "0.2 mmol of MTF (25.8 mg) and 0.2 mmol of DIF (50.4 mg) ... 3 mL of distilled water",
+   "citazioni": [
+    "MTF–DIF single crystals were obtained using a hydrothermal reaction by placing a mixture of 0.2 mmol of MTF (25.8 mg) and 0.2 mmol of DIF (50.4 mg) in a hydrothermal reactor along with 3 mL of distilled water. The reactor was sealed and heated at 110 °C for 24 h. After cooling down to room temperature, the reactor was opened, and single crystals were separated from the solution for further characterization."
+   ],
+   "note": "Sintesi idrotermale in reattore sigillato (cristalli singoli di MTF–DIF)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 12.4,
+      "unita": null
+     },
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [47] (Table 1, 'Reported pKa Values')",
+     "citazione": "Metformin | 12.4 | [47] | 12.30 | -"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 12.3,
+      "unita": null
+     },
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna 'Calculated pKa Values *' della Table 1; la nota * non e' riportata nel testo)",
+     "citazione": "Metformin | 12.4 | [47] | 12.30 | -"
+    },
+    {
+     "tipo": "igroscopicita",
+     "grandezza": {
+      "valore": null,
+      "testo": "highly hygroscopic"
+     },
+     "calcolato": false,
+     "citazione": "However, this drug is also highly hygroscopic, thus showing stability problems."
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F4",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C, 24 h (MTF dissolto dal sale MTF–NIF·2H2O)",
+     "grandezza": {
+      "valore": 5.29,
+      "unita": "mg/mL"
+     },
+     "metodo": "shake-flask, HPLC (Table 3, colonna 'MTF Solubility in the Salts')",
+     "calcolato": false,
+     "citazione": "MTF–NIF·2H2O | 5.290 | 11.493 | 0.0212x/574x | <0.02 | [66]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F6",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C, 24 h (MTF dissolto dal sale MTF–FLP)",
+     "grandezza": {
+      "valore": 4.775,
+      "unita": "mg/mL"
+     },
+     "metodo": "shake-flask, HPLC (Table 3, colonna 'MTF Solubility in the Salts')",
+     "calcolato": false,
+     "citazione": "MTF–FLP | 4.775 | 5.552 | 0.0191x/1110x | <0.005 | [67]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C, 24 h (MTF dissolto dal sale MTF–MEF)",
+     "grandezza": {
+      "valore": 3.185,
+      "unita": "mg/mL"
+     },
+     "metodo": "shake-flask, HPLC (Table 3, colonna 'MTF Solubility in the Salts')",
+     "calcolato": false,
+     "citazione": "MTF–MEF | 3.185 | 5.950 | 0.0127x/119x | <0.05 | [68,69]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F2",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C, 24 h (MTF dissolto dal sale MTF–TLF)",
+     "grandezza": {
+      "valore": 2.74,
+      "unita": "mg/mL"
+     },
+     "metodo": "shake-flask, HPLC (Table 3, colonna 'MTF Solubility in the Salts')",
+     "calcolato": false,
+     "citazione": "MTF–TLF | 2.740 | 10.397 | 0.0110x/208x | <0.05 | [68]"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "strong basic nature",
+     "citazione": "The high number of observed molecular salts agrees with the strong basic nature of MTF."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.93,
+      "unita": null
+     },
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [48]",
+     "citazione": "Mefenamic Acid | 3.93 | [48] | 3.89 | 8.41"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.89,
+      "unita": null
+     },
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna 'Calculated pKa Values *')",
+     "citazione": "Mefenamic Acid | 3.93 | [48] | 3.89 | 8.41"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C, 24 h (MEF dissolto dal sale MTF–MEF)",
+     "grandezza": {
+      "valore": 5.95,
+      "unita": "mg/mL"
+     },
+     "metodo": "shake-flask, HPLC su MTF, normalizzato con stechiometria e massa molecolare (Table 3, colonna 'NSAID Solubility in the Salts')",
+     "calcolato": false,
+     "citazione": "MTF–MEF | 3.185 | 5.950 | 0.0127x/119x | <0.05 | [68,69]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F11",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C",
+     "grandezza": {
+      "valore": null,
+      "max": 0.05,
+      "unita": "mg/mL",
+      "limite": "sotto"
+     },
+     "metodo": "valore riportato in letteratura, rif. [68,69] (Table 3, colonna 'NSAID Solubility')",
+     "calcolato": false,
+     "citazione": "MTF–MEF | 3.185 | 5.950 | 0.0127x/119x | <0.05 | [68,69]"
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.3,
+      "unita": null
+     },
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [49]",
+     "citazione": "Tolfenamic Acid | 4.3 | [49] | 3.88 | 8.42"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.88,
+      "unita": null
+     },
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna 'Calculated pKa Values *')",
+     "citazione": "Tolfenamic Acid | 4.3 | [49] | 3.88 | 8.42"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F2",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C, 24 h (TLF dissolto dal sale MTF–TLF)",
+     "grandezza": {
+      "valore": 10.397,
+      "unita": "mg/mL"
+     },
+     "metodo": "shake-flask, HPLC su MTF, normalizzato con stechiometria e massa molecolare (Table 3, colonna 'NSAID Solubility in the Salts')",
+     "calcolato": false,
+     "citazione": "MTF–TLF | 2.740 | 10.397 | 0.0110x/208x | <0.05 | [68]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F12",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C",
+     "grandezza": {
+      "valore": null,
+      "max": 0.05,
+      "unita": "mg/mL",
+      "limite": "sotto"
+     },
+     "metodo": "valore riportato in letteratura, rif. [68] (Table 3, colonna 'NSAID Solubility')",
+     "calcolato": false,
+     "citazione": "MTF–TLF | 2.740 | 10.397 | 0.0110x/208x | <0.05 | [68]"
+    }
+   ]
+  },
+  {
+   "composto": "C4",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 1.88,
+      "unita": null
+     },
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [50]",
+     "citazione": "Niflumic acid | 1.88 | [50] | 1.88 | 10.42"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 1.88,
+      "unita": null
+     },
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna 'Calculated pKa Values *')",
+     "citazione": "Niflumic acid | 1.88 | [50] | 1.88 | 10.42"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F4",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C, 24 h (NIF dissolto dal sale MTF–NIF·2H2O)",
+     "grandezza": {
+      "valore": 11.493,
+      "unita": "mg/mL"
+     },
+     "metodo": "shake-flask, HPLC su MTF, normalizzato con stechiometria e massa molecolare (Table 3, colonna 'NSAID Solubility in the Salts')",
+     "calcolato": false,
+     "citazione": "MTF–NIF·2H2O | 5.290 | 11.493 | 0.0212x/574x | <0.02 | [66]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F13",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C",
+     "grandezza": {
+      "valore": null,
+      "max": 0.02,
+      "unita": "mg/mL",
+      "limite": "sotto"
+     },
+     "metodo": "valore riportato in letteratura, rif. [66] (Table 3, colonna 'NSAID Solubility')",
+     "calcolato": false,
+     "citazione": "MTF–NIF·2H2O | 5.290 | 11.493 | 0.0212x/574x | <0.02 | [66]"
+    }
+   ]
+  },
+  {
+   "composto": "C5",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 2.69,
+      "unita": null
+     },
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [50]",
+     "citazione": "Diflunisal | 2.69 | [50] | 2.69 | 9.61"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 2.69,
+      "unita": null
+     },
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna 'Calculated pKa Values *')",
+     "citazione": "Diflunisal | 2.69 | [50] | 2.69 | 9.61"
+    }
+   ]
+  },
+  {
+   "composto": "C6",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.2,
+      "unita": null
+     },
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [51]",
+     "citazione": "Flurbiprofen | 4.2 | [51] | 4.42 | 7.88"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.42,
+      "unita": null
+     },
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna 'Calculated pKa Values *')",
+     "citazione": "Flurbiprofen | 4.2 | [51] | 4.42 | 7.88"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F6",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C, 24 h (FLP dissolto dal sale MTF–FLP)",
+     "grandezza": {
+      "valore": 5.552,
+      "unita": "mg/mL"
+     },
+     "metodo": "shake-flask, HPLC su MTF, normalizzato con stechiometria e massa molecolare (Table 3, colonna 'NSAID Solubility in the Salts')",
+     "calcolato": false,
+     "citazione": "MTF–FLP | 4.775 | 5.552 | 0.0191x/1110x | <0.005 | [67]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F15",
+     "solvente": "pH 6.8 phosphate buffer, 25 °C",
+     "grandezza": {
+      "valore": null,
+      "max": 0.005,
+      "unita": "mg/mL",
+      "limite": "sotto"
+     },
+     "metodo": "valore riportato in letteratura, rif. [67] (Table 3, colonna 'NSAID Solubility')",
+     "calcolato": false,
+     "citazione": "MTF–FLP | 4.775 | 5.552 | 0.0191x/1110x | <0.005 | [67]"
+    }
+   ]
+  }
+ ]
+}
