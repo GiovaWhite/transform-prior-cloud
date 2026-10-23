@@ -1,0 +1,2177 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/cryst11040342",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Il testo non contiene i parametri di cella delle forme I, III, e dei solvati ne' le T di raccolta (Tabelle S15 e S16 del supplementare; screening nelle Tabelle S1-S14): nelle forme restano solo i dati scritti nel testo. Nessun CCDC ne' refcode. La Fig. 8 (percorsi di trasformazione) e le Fig. 2, 5, 6 non sono leggibili nel testo: i percorsi sono quelli del riepilogo scritto. Il collasso del cristallo di S3CHCl3-H2O a r.t. non e' un evento a parte: e' parte dell'evento E17. Nelle prove di atmosfera di solvente il DMF serve da diluente per fissare la pressione parziale di cloroformio (legge di Raoult) e non e' un composto dell'estrazione. Contraddizione interna sul campione della VT-PXRD: metodo «S3CHCl3-H2O sample» contro risultati/didascalia «SCHCl3-H2O» (si tiene SCHCl3-H2O, nel conflitto dell'evento). Il brevetto WO03089425 (forme 1, 2, 3) e' dato dagli autori come corrispondente alle forme I, II, III per i punti di fusione.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "2-[4-[2-[4-[1-(2-ethoxyethyl)-1H-benzimidazol-2-yl]-1-piperidinyl]ethyl]phenyl]-2-methylpropionic acid (Bilastine, BL)",
+   "nome_scritto": "Bilastine, 2-[4-[2-[4-[1-(2-ethoxyethyl)-1H-benzimidazol-2-yl]-1-piperidinyl]ethyl] phenyl]- 2-methylpropionic acid",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Form I",
+   "etichette_alternative": [
+    "form I",
+    "polymorph 1 (patent WO03089425)",
+    "form 1"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "Z": 4,
+    "fonte": "SCXRD"
+   },
+   "protonazione": "zwitterionic: piperidinyl N atom protonated (piperidinium) by proton transfer from the carboxylic group",
+   "motivi_hb": [
+    {
+     "motivo": "carboxylate O···piperidinium N-H hydrogen bonds in an alternated mode, corrugated layers",
+     "chi": "carboxylate oxygen of one BL and piperidinium nitrogen of another BL",
+     "citazione": "involving the carboxylate oxygen of one BL molecule and the piperidinium nitrogen of another BL in an alternated mode, forming corrugated layer structures (Figure 9)."
+    }
+   ],
+   "citazione": "Form I was solved by single crystal XRD. This anhydrate crystallizes in the monoclinic space group P21/c with Z = 4.",
+   "note": "Struttura da cristallo singolo (SCXRD) da DCM per raffreddamento. Parametri di cella, T e volume nel supplementare (Tabella S15), non nel testo. Per il testo e' la forma piu' stabile a r.t. fra le anidre. Corrisponde al polimorfo 1 del brevetto WO03089425 («forms I, II and III correspond to polymorphs 1, 2 and 3 previously reported in patent WO03089425»)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "Form II",
+   "etichette_alternative": [
+    "form II",
+    "polymorph 2 (patent WO03089425)",
+    "form 2"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 28.3374,
+    "b": 9.9384,
+    "c": 19.7547,
+    "beta": 109.2696,
+    "V": 5251.8,
+    "V_circa": true,
+    "Z": 8,
+    "Z_primo": 2,
+    "fonte": "PXRD"
+   },
+   "citazione": "The powder diffraction pattern of form II was indexed to a monoclinic cell (a = 28.3374 Å, b = 9.9384 Å, c = 19.7547 Å, β = 109.2696◦) of about 5251.8 Å3 and the space group perfectly determined to be P21/c from the systematic absences (Figure 16).",
+   "note": "Struttura non risolta: solo cella e gruppo spaziale da indicizzazione della polvere e pattern matching di Pawley («Thus far, we have not managed to solve its crystal structure»; due molecole di BL diverse nell'unita' asimmetrica). Cella da indicizzazione PXRD: T non detta. V «about 5251.8 Å3», che torna con abc·sinβ = 5251.8. Z = 8 dal testo («a cell for Form II with double volume than forms I and III and with Z = 8»), Z′ = 2 dalle due molecole nell'unita' asimmetrica."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Form III",
+   "etichette_alternative": [
+    "form III",
+    "polymorph 3 (patent WO03089425)",
+    "form 3"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "V": 2682,
+    "V_circa": true,
+    "Z": 4,
+    "fonte": "PXRD",
+    "T_scritta": "300K",
+    "condizioni": "300 K"
+   },
+   "protonazione": "zwitterionic: piperidinyl N atom protonated (piperidinium) by proton transfer from the carboxylic group",
+   "motivi_hb": [
+    {
+     "motivo": "carboxylate O···piperidinium N hydrogen bonds, all BL molecules oriented the same way (cascade layers)",
+     "chi": "carboxylate oxygen and piperidinium nitrogen",
+     "citazione": "BL molecules in Form III are also linked by hydrogen bonds (distance: 1.518 Å) involving the carboxylate oxygen and the piperidinium nitrogen but not in the alternated mode shown in Form I. In Form III, all BL molecules are orientated in the same way. Therefore, a remarkable difference between both polymorphs is the different orientation of the selfassembled BL chains. While in Form I BL molecules are interdigitated, in Form III, they are organized as cascade layers (Figure 14)."
+    }
+   ],
+   "citazione": "The powder diffraction pattern of form III was indexed to a monoclinic cell of about 2682 Å3, and the space group perfectly determined to be P21/c from the systematic absences.",
+   "note": "Struttura risolta da dati PXRD di sincrotrone (ALBA, linea BL04-MSPD) col metodo dello spazio diretto TALP e raffinamento Rietveld (Rwp = 2.4%). T 300K dal metodo dei dati di sincrotrone («at 300K»). Volume «about 2682 Å3»; Z = 4 («four molecules in the unit cell»). Parametri di cella nel supplementare (Tabella S16). Cristalli di forma III spesso geminati («macles»)."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "S3CHCl3-H2O",
+   "etichette_alternative": [
+    "heterosolvate S3CHCl3-H2O",
+    "mixed solvate S3CHCl3-H2O"
+   ],
+   "tipo": "solvato",
+   "ospite": [
+    {
+     "specie": "chloroform",
+     "stechiometria": 3,
+     "riferito_a": "molecola"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "molecola"
+    }
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pna21",
+   "cella": {
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "T_scritta": "100K",
+    "condizioni": "100 K"
+   },
+   "protonazione": "zwitterionic: piperidinyl N atom protonated (piperidinium) by proton transfer from the carboxylic group",
+   "motivi_hb": [
+    {
+     "motivo": "R23 (11) and R21(4) supramolecular heterosynthons (asymmetric three-center / bifurcated hydrogen bond system)",
+     "chi": "carboxylate oxygen, piperidinium and the water of the heterosolvate",
+     "citazione": "This carboxylate oxygen is also involved in an asymmetric three-center (or bifurcated) hydrogen bond system (distances: 1.887 Å and 2.452 Å) with the piperidinium of the ﬁrst BL (being the structure zwitterionic), forming altogether R23 (11) and R21(4) supramolecular heterosynthons."
+    }
+   ],
+   "citazione": "However, its crystal structure has been successfully determined at 100K resulting in an orthorhombic Pna21 cell with Z = 4.",
+   "note": "Eterosolvato: un BL, una acqua e tre cloroformi nell'unita' asimmetrica (stechiometria BL:H2O:CHCl3 = 1:1:3). Instabile fuori dall'acqua madre: struttura risolta a bassa T (100K); i cristalli collassano e si oscurano a r.t. I simboli R2^3(11) e R2^1(4) sono scritti dal PDF come «R23 (11)» e «R21(4)». Parametri di cella nel supplementare (Tabella S15)."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "SCHCl3-H2O",
+   "etichette_alternative": [
+    "heterosolvate SCHCl3-H2O"
+   ],
+   "tipo": "solvato",
+   "ospite": [
+    {
+     "specie": "chloroform",
+     "stechiometria": 1,
+     "riferito_a": "molecola"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "molecola"
+    }
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pna21",
+   "cella": {
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "PXRD",
+    "T_scritta": "300K",
+    "condizioni": "300 K"
+   },
+   "protonazione": "zwitterionic: piperidinyl N atom protonated (piperidinium) by proton transfer from the carboxylic group",
+   "motivi_hb": [
+    {
+     "motivo": "R21(4) heterosynthon; asymmetric three-center hydrogen bond system, corrugated layers",
+     "chi": "carboxylate oxygen and piperidinium nitrogen of BL",
+     "citazione": "BL molecules are also linked by hydrogen bonds involving the carboxylate oxygen of one BL molecule and the piperidinium nitrogen of another BL in an asymmetric three-center hydrogen bond system (distances: 1.731 Å and 2.253 Å), with the same R21(4) heterosynthon, forming corrugated layer structures as in S3CHCl3-H2O."
+    }
+   ],
+   "citazione": "Therefore, its powder diffraction pattern was indexed to an orthorhombic cell and the space group perfectly determined to be Pna21 from the systematic absences.",
+   "note": "Struttura risolta da dati PXRD di sincrotrone (ALBA, T 300K dal metodo) con TALP e Rietveld (Rwp = 2.3%): non si sono ottenuti cristalli singoli («it was not possible to grow single crystals of SCHCl3-H2O»). Un BL, una acqua e un cloroformio nell'unita' asimmetrica. E' il solvato di cloroformio piu' stabile (conclusioni) e quello in cui si trasformano gli altri due fuori dall'acqua madre. Z = 4 dal testo («the three solvates with Z = 4»)."
+  },
+  {
+   "id": "F6",
+   "composto": "C1",
+   "etichetta": "SCHCl3",
+   "etichette_alternative": [
+    "monosolvate SCHCl3"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "chloroform",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD"
+   },
+   "protonazione": "zwitterionic: piperidinyl N atom protonated (piperidinium) by proton transfer from the carboxylic group",
+   "motivi_hb": [
+    {
+     "motivo": "carboxylate O···piperidinium NH hydrogen bonds forming cascade layers as in Form III",
+     "chi": "one oxygen of the carboxylate and piperidinium NH",
+     "citazione": "Again, BL molecules are linked by hydrogen bonds (distance: 1.583 Å) involving one oxygen of the carboxylate and the piperidinium NH, forming cascade layers as in Form III (Figure 24)."
+    }
+   ],
+   "citazione": "This solvate crystallizes in the monoclinic space group P21 with two molecules of BL and two molecules of chloroform in the asymmetric unit.",
+   "note": "Monosolvato anidro (senza acqua): ottenuto solo come cristallo singolo da cloroformio anidro; struttura risolta a bassa T (T non detta). Due molecole di BL e due di cloroformio nell'unita' asimmetrica (Z′ = 2); Z = 4 dal testo («the three solvates with Z = 4»). Parametri di cella nel supplementare (Tabella S15)."
+  },
+  {
+   "id": "F7",
+   "etichetta": "[miscela di forma I e forma II]",
+   "tipo": "miscela",
+   "composto": "C1",
+   "forme_componenti": [
+    "F1",
+    "F2"
+   ],
+   "citazione": "slurries of mixtures of I + II and I + III resulted in complete transformation into form I",
+   "note": "Miscela di partenza di una sospensione competitiva; rapporti non detti."
+  },
+  {
+   "id": "F8",
+   "etichetta": "[miscela di forma I e forma III]",
+   "tipo": "miscela",
+   "composto": "C1",
+   "forme_componenti": [
+    "F1",
+    "F3"
+   ],
+   "citazione": "slurries of mixtures of I + II and I + III resulted in complete transformation into form I",
+   "note": "Miscela di partenza di una sospensione competitiva; rapporti non detti."
+  },
+  {
+   "id": "F9",
+   "etichetta": "[miscela di forma II e forma III]",
+   "tipo": "miscela",
+   "composto": "C1",
+   "forme_componenti": [
+    "F2",
+    "F3"
+   ],
+   "citazione": "Thus, a mixture of the two modiﬁcations was stirred in ethanol at r.t.",
+   "note": "Miscela di partenza delle sospensioni in etanolo per stabilire la stabilita' relativa II/III; rapporti non detti."
+  },
+  {
+   "id": "F10",
+   "etichetta": "[miscela di forma III e forma I, prodotto]",
+   "tipo": "miscela",
+   "composto": "C1",
+   "forme_componenti": [
+    "F3",
+    "F1"
+   ],
+   "citazione": "form III transformed into a mixture of III+I",
+   "note": "Prodotto della forma III sotto atmosfera con 60-80% di CHCl3 (nella DMF): miscela di III e I, rapporti non detti."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "enantiotropa",
+   "piu_stabile": "F1",
+   "condizioni": "r.t. (la forma I e' la piu' stabile delle anidre a r.t.)",
+   "relazione_scritta": "forms I and II are enantiotropically related due to the higher enthalpy of fusion and lower melting point of form I (Heat of Fusion Rule of Burger and Ramberger)",
+   "temperatura_transizione": [
+    {
+     "grandezza": {
+      "valore": 137,
+      "unita": "°C",
+      "tipo": "non_specificato",
+      "derivato": true
+     },
+     "metodo": "treatment of Yu (k = 0.003), from melting temperatures and enthalpies of fusion",
+     "natura": "derivata",
+     "citazione": "A value of 0.003 was used for the factor k, which was empirically determined and allows a good approximation of the heat capacity differences in the majority of cases [23]. Using this equation, we calculated a value of 137 ◦C for the I/II pair."
+    }
+   ],
+   "citazione": "and Ramberger [22], forms I and II are enantiotropically related due to the higher enthalpy of fusion and lower melting point of form I.",
+   "fonte_dati": "propria",
+   "note": "Regola del calore di fusione: la forma I ha entalpia di fusione piu' alta (119.9 contro 118.2 J/g) e fusione piu' bassa (200 contro 202 °C). T di transizione stimata col trattamento di Yu sulle T e le entalpie di fusione. Anche il riepilogo (Fig. 8) dice che la II e' «enantiotropically related with both forms»."
+  },
+  {
+   "forme": [
+    "F1",
+    "F3"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F1",
+   "condizioni": "almeno da r.t.",
+   "relazione_scritta": "forms I and III must be monotropically related at least from r.t., being form I the most stable one",
+   "citazione": "Therefore, forms I and III must be monotropically related at least from r.t., being form I the most stable one.",
+   "fonte_dati": "propria",
+   "note": "Senza l'entalpia di fusione della forma III (si trasforma nella DSC): la forma I e' piu' stabile della III a r.t. e la III e' quella che fonde piu' in basso; gli autori dicono «at least from r.t.»."
+  },
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "relazione": "enantiotropa",
+   "piu_stabile": "F3",
+   "stabile_a_temperatura_ambiente": "F3",
+   "condizioni": "r.t., in etanolo",
+   "relazione_scritta": "an enantiotropy relation could be inferred for the II/III pair",
+   "citazione": "We concluded that form III was more stable than form II at r.t., and as III is the lower melting form, an enantiotropy relation could be inferred for the II/III pair.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Dedotta (non misurata) dalla sospensione competitiva in etanolo (la II cala rispetto alla III) e dal fatto che la III e' la forma che fonde piu' in basso. Senza l'entalpia di fusione della III non si puo' calcolare la T di transizione fra II e III."
+  },
+  {
+   "forme": [
+    "F4",
+    "F5"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F5",
+   "condizioni": "fuori dall'acqua madre, a r.t. e in condizioni ambiente",
+   "citazione": "The analyses of their crystal structures when comparing with the anhydrous forms shows that SCHCl3-H2O, the more stable solvate, incorporates one water molecule and one chloroform molecule",
+   "fonte_dati": "propria",
+   "note": "SCHCl3-H2O e' «the more stable solvate»: S3CHCl3-H2O si trasforma in lei subito fuori dall'acqua madre (E17). Fra solvati la stabilita' dipende dall'attivita' del solvente: S3CHCl3-H2O e' stabile solo a bassa T o in soluzione di cloroformio."
+  },
+  {
+   "forme": [
+    "F6",
+    "F5"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F5",
+   "condizioni": "fuori dall'acqua madre, a r.t. e in condizioni ambiente",
+   "citazione": "The analyses of their crystal structures when comparing with the anhydrous forms shows that SCHCl3-H2O, the more stable solvate, incorporates one water molecule and one chloroform molecule",
+   "fonte_dati": "propria",
+   "note": "SCHCl3 (monosolvato anidro) si trasforma in SCHCl3-H2O prendendo acqua dall'aria (E18); SCHCl3-H2O e' «the more stable solvate»."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 200,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 119.9,
+     "unita": "J/g",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "Figure 2. DSC analysis of the different anhydrous forms of BL, showing the melting of form I at 200 ◦C, form II at 202 ◦C and form III at 197 ◦C followed by simultaneous crystallization and melting of form I and subsequent crystallization and melting of form II.",
+    "Table 1. Physicochemical data of anhydrous forms of BL. Form I 200 119.9 Form II 202 118.2 Form III 197 -",
+    "Tfus (◦C) ∆Hfus (J/g)",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min."
+   ],
+   "certezza": "alta",
+   "note": "Fusione della forma I a 200 °C (didascalia della Fig. 2 e Tabella 1: Tfus 200 °C, ΔHfus 119.9 J/g). Il tipo di T (onset o picco) non e' detto. La velocita' e l'atmosfera sono quelle generali del DSC (parte sperimentale 2.2.3). Il numero di ΔHfus sta in tabella con l'unita' nell'intestazione (J/g).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 202,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 118.2,
+     "unita": "J/g",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "Figure 2. DSC analysis of the different anhydrous forms of BL, showing the melting of form I at 200 ◦C, form II at 202 ◦C and form III at 197 ◦C followed by simultaneous crystallization and melting of form I and subsequent crystallization and melting of form II.",
+    "Table 1. Physicochemical data of anhydrous forms of BL. Form I 200 119.9 Form II 202 118.2 Form III 197 -",
+    "Tfus (◦C) ∆Hfus (J/g)",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min."
+   ],
+   "certezza": "alta",
+   "note": "Fusione della forma II (la piu' alta) a 202 °C, ΔHfus 118.2 J/g (Tabella 1). T non qualificata (onset o picco non detto).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 197,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Figure 2. DSC analysis of the different anhydrous forms of BL, showing the melting of form I at 200 ◦C, form II at 202 ◦C and form III at 197 ◦C followed by simultaneous crystallization and melting of form I and subsequent crystallization and melting of form II.",
+    "Table 1. Physicochemical data of anhydrous forms of BL. Form I 200 119.9 Form II 202 118.2 Form III 197 -",
+    "It was not possible to obtain the value of the enthalpy of fusion of form III as this form transformed while heating in the DSC analysis.",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min."
+   ],
+   "certezza": "alta",
+   "note": "Fusione della forma III (la piu' bassa) a 197 °C. L'entalpia di fusione non si e' potuta ottenere perche' la forma si trasforma durante il riscaldamento («this form transformed while heating in the DSC analysis»): in Tabella 1 il valore e' «-».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The DSC of the lowest melting form III shows its melting and simultaneous crystallization and melting of form I followed by the crystallization and melting of form II, the highest melting form.",
+    "Figure 2. DSC analysis of the different anhydrous forms of BL, showing the melting of form I at 200 ◦C, form II at 202 ◦C and form III at 197 ◦C followed by simultaneous crystallization and melting of form I and subsequent crystallization and melting of form II.",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min."
+   ],
+   "certezza": "alta",
+   "note": "Nella corsa DSC della forma III il fuso (197 °C) cristallizza come forma I che fonde subito («simultaneous crystallization and melting of form I»). La T della cristallizzazione non e' detta; la fusione della forma I e' a 200 °C (Fig. 2).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "da_evento": "E4",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The DSC of the lowest melting form III shows its melting and simultaneous crystallization and melting of form I followed by the crystallization and melting of form II, the highest melting form.",
+    "Figure 2. DSC analysis of the different anhydrous forms of BL, showing the melting of form I at 200 ◦C, form II at 202 ◦C and form III at 197 ◦C followed by simultaneous crystallization and melting of form I and subsequent crystallization and melting of form II.",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min."
+   ],
+   "certezza": "alta",
+   "note": "Nella stessa corsa, dopo la fusione della forma I, il fuso cristallizza come forma II («followed by the crystallization and melting of form II») che fonde a 202 °C (Fig. 2). T di cristallizzazione non detta.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 200,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "campione": {
+    "massa": "20 mg"
+   },
+   "citazioni": [
+    "Form III of BL (20 mg) (0.043 mmol) was placed in a 70 µL alumina crucible and heated under nitrogen atmosphere inside a TGA equipment from 30 ◦C to 200 ◦C at a rate of 10 ◦C/min, maintained at 200 ◦C for 5 min and cooled down to 30 ◦C.",
+    "Form II can be obtained from I and from III by increasing temperature, as it is enantiotropically related with both forms."
+   ],
+   "certezza": "alta",
+   "note": "Preparazione della forma II (par. 2.1.2): forma III (20 mg) in un crogiolo di allumina da 70 µL, scaldata in azoto dentro una TGA da 30 a 200 °C a 10 °C/min, mantenuta a 200 °C per 5 min e raffreddata a 30 °C. Il crogiolo non e' fra i valori dello schema (allumina, 70 µL, non detto se aperto). Lo stato del campione (polvere o cristalli) non e' descritto. La T finale di 200 °C e' sopra il fuso della forma III (197 °C) e sotto quello della II (202 °C).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Form II can be obtained from I and from III by increasing temperature, as it is enantiotropically related with both forms."
+   ],
+   "certezza": "media",
+   "note": "Frase di riepilogo dei percorsi (Fig. 8): nessuna T ne' tecnica per la forma I. Enantiotropia I/II con T di transizione stimata 137 °C (relazioni).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E8",
+   "da": "F7",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "composizione_iniziale": [
+     {
+      "forma": "F1"
+     },
+     {
+      "forma": "F2"
+     }
+    ],
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Form I was known to be the most stable form at r.t., and slurries of mixtures of I + II and I + III resulted in complete transformation into form I."
+   ],
+   "certezza": "media",
+   "note": "Sospensione di una miscela I + II: trasformazione completa in forma I. Il solvente, la T e il tempo non sono detti in questa frase; il riepilogo dei percorsi dice «Form I ... can be obtained by slurry in ethanol from the other anhydrous forms». Frazioni nominali non dette.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E9",
+   "da": "F8",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "composizione_iniziale": [
+     {
+      "forma": "F1"
+     },
+     {
+      "forma": "F3"
+     }
+    ],
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Form I was known to be the most stable form at r.t., and slurries of mixtures of I + II and I + III resulted in complete transformation into form I."
+   ],
+   "certezza": "media",
+   "note": "Sospensione di una miscela I + III: trasformazione completa in forma I. Solvente, T e tempo non detti in questa frase (vedi riepilogo: etanolo).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E10",
+   "da": "F9",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "composizione_iniziale": [
+     {
+      "forma": "F2"
+     },
+     {
+      "forma": "F3"
+     }
+    ],
+    "solventi": [
+     {
+      "nome": "ethanol",
+      "proporzione": null
+     }
+    ],
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "attesa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Thus, a mixture of the two modiﬁcations was stirred in ethanol at r.t., and after one hour, pure form I was recovered."
+   ],
+   "certezza": "alta",
+   "note": "Prima prova della sospensione competitiva II/III: dopo un'ora in etanolo a r.t. si recupera forma I pura, quindi il tempo e' stato ridotto (E11).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E11",
+   "da": "F9",
+   "a": "F3",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "composizione_iniziale": [
+     {
+      "forma": "F2"
+     },
+     {
+      "forma": "F3"
+     }
+    ],
+    "solventi": [
+     {
+      "nome": "ethanol",
+      "proporzione": null
+     }
+    ],
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "tempo": {
+     "valore": 15,
+     "unita": "min",
+     "tipo": "attesa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Hence, a reduction of time was required and a suspension of II and III was stirred for 15 min. Comparing the PXRD between the initial and the ﬁnal mixture, a decrease in the intensity of X-ray diffraction peaks attributed to form II (compared to form III) was observed, while form I did not appear."
+   ],
+   "certezza": "media",
+   "note": "Dopo 15 min i picchi attribuiti alla forma II diminuiscono rispetto a quelli della III e la forma I non compare: la II si converte in III solo in parte (esito parziale). Il solvente e la T sono quelli della prova precedente (etanolo, r.t.; la frase non li ripete).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E12",
+   "da": "F9",
+   "a": "F3",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "da_evento": "E11",
+   "prodotti_secondari": [
+    "F1"
+   ],
+   "pretrattamento": "miscela finale della sospensione precedente di 15 min",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "ethanol",
+      "proporzione": null
+     }
+    ],
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "attesa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "This ﬁnal mixture was suspended again in ethanol for 10 min, and form II decreased again; however, form I began to appear in the mixture, so the transformation of II into III no longer could be studied."
+   ],
+   "certezza": "media",
+   "note": "Seconda sospensione di 10 min: la forma II cala ancora ma comincia a comparire la forma I, per cui non si puo' piu' studiare la trasformazione II → III. La miscela di partenza e' il prodotto di E11 (composizione non detta); T non ripetuta.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E13",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "ethanol",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Form I is the most stable anhydrous form at r.t. which can be obtained by slurry in ethanol from the other anhydrous forms."
+   ],
+   "certezza": "media",
+   "note": "Frase di riepilogo (Fig. 8): la forma I si ottiene dalle altre anidre per sospensione in etanolo. Una per forma di partenza; T e tempo non detti.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E14",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "ethanol",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Form I is the most stable anhydrous form at r.t. which can be obtained by slurry in ethanol from the other anhydrous forms."
+   ],
+   "certezza": "media",
+   "note": "Come E13, per la forma III.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E15",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": null,
+   "fonte_dati": "citata",
+   "riferimento": "patent WO03089425 [15]",
+   "senza_condizioni": true,
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "It was said that forms 2 and 3 of BL easily converted into form 1.",
+    "According to their melting points (Figure 2), forms I, II and III correspond to polymorphs 1, 2 and 3 previously reported in patent WO03089425."
+   ],
+   "certezza": "media",
+   "note": "Dal brevetto: «forms 2 and 3 of BL easily converted into form 1»; la corrispondenza fra i polimorfi 1, 2, 3 del brevetto e le forme I, II, III dell'articolo e' data dagli autori in base ai punti di fusione. Nessuna condizione.",
+   "natura": "fisica"
+  },
+  {
+   "id": "E16",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": null,
+   "fonte_dati": "citata",
+   "riferimento": "patent WO03089425 [15]",
+   "senza_condizioni": true,
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "It was said that forms 2 and 3 of BL easily converted into form 1.",
+    "According to their melting points (Figure 2), forms I, II and III correspond to polymorphs 1, 2 and 3 previously reported in patent WO03089425."
+   ],
+   "certezza": "media",
+   "note": "Come E15, per il polimorfo 3 del brevetto (forma III).",
+   "natura": "fisica"
+  },
+  {
+   "id": "E17",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "immediately"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "pseudomorfosi"
+    ],
+    "integrita": "opaco"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "chloroform molecules not linked by hydrogen bonds to the carboxylate",
+     "ruolo": "altro",
+     "con": "ospite",
+     "forma": "F4",
+     "citazione": "In fact, the two chloroform molecules in S3CHCl3-H2O which are not linked by hydrogen bonds to the carboxylate, are lost when this solvate is removed from the solution."
+    }
+   ],
+   "citazioni": [
+    "Indeed, form S3CHCl3-H2O is the one which is always obtained in chloroform solutions, and it immediately transforms into SCHCl3-H2O when removing it from the mother liquor",
+    "The ﬁrst visible signs of desolvation, such as opaciﬁcation of the crystals, were observed only after seconds at r.t.",
+    "Its structure was solved at low temperature, and when leaving the crystal to reach r.t., the crystal collapsed, and it was impossible to measure it at ambient conditions.",
+    "The presence of opaque crystals indicated that the product had transformed opaque due to pseudomorphosis.",
+    "Therefore, the single crystals (which darkened immediately at r.t.) were analyzed by PXRD at r.t., and their diffractogram matched with the one of form SCHCl3-H2O.",
+    "Therefore, the new form obtained at low temperature in SCXRD is a precursor of SCHCl3-H2O by losing 2 chloroform molecules from its crystal structure."
+   ],
+   "certezza": "alta",
+   "note": "S3CHCl3-H2O perde due molecole di cloroformio e diventa SCHCl3-H2O appena tolto dall'acqua madre: i primi segni visibili (opacizzazione) dopo secondi a r.t.; il cristallo collassa e scurisce; PXRD a r.t. = SCHCl3-H2O. Solvato «transient/elusive». I due cloroformi persi sono quelli non legati a idrogeno al carbossilato (gruppo coinvolto).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E18",
+   "da": "F6",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "umidita": null,
+    "umidita_ignota": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "benzimidazole",
+     "ruolo": "accettore",
+     "con": "ospite",
+     "cambia": "si_forma",
+     "forma": "F5",
+     "citazione": "incorporates one water molecule and one chloroform molecule to satisfy the acceptor capacities of the benzimidazole and the carboxylate, respectively"
+    }
+   ],
+   "citazioni": [
+    "Again, this solvate darkened when removing it from the mother liquor at r.t., and it was only possible to solve its structure at low temperature.",
+    "The analysis of the corresponding PXRD at r.t. resulted in SCHCl3-H2O, revealing that SCHCl3 transformed also into SCHCl3-H2O, but in this case by incorporating one water molecule in its crystal structure.",
+    "On the other hand, a water molecule captured from the air is incorporated in the crystal structure of SCHCl3 when taking it out from the solution, probably to further stabilize its structure."
+   ],
+   "certezza": "alta",
+   "note": "SCHCl3 (cloroformio anidro) tolto dall'acqua madre a r.t. assorbe una molecola d'acqua dall'aria e diventa SCHCl3-H2O («probably to further stabilize its structure»). RH non detta (aria ambiente). Il cristallo scurisce. Il gruppo coinvolto e' la spiegazione strutturale degli autori per la forma di arrivo (benzimidazolo accettore dell'acqua), non una frase sul percorso.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E19",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 4,
+     "max": 5,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": [
+     {
+      "nome": "CHCl3",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "The solution was cooled down overnight and left in the fridge (4–5 ◦C) for four days until single crystal growing. This solvate was stable in the mother liquor."
+   ],
+   "certezza": "media",
+   "note": "S3CHCl3-H2O stabile nell'acqua madre di cloroformio nel frigo (4-5 °C) durante la crescita dei cristalli (quattro giorni). La durata della stabilita' non e' detta oltre questo.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E20",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "However, its crystal structure has been successfully determined at 100K resulting in an orthorhombic Pna21 cell with Z = 4.",
+    "The single crystal was analyzed by SCXRD at low temperature to prevent its transformation into form SCHCl3-H2O."
+   ],
+   "certezza": "media",
+   "note": "A bassa T (100K, T della raccolta SCXRD) il cristallo non si trasforma durante la misura; a r.t. collassa (E17).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E21",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 4,
+     "max": 5,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": [
+     {
+      "nome": "anhydrous CHCl3",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "The solution was cooled down inside the fridge (4–5 ◦C) until single crystal growing. This solvate was stable in the mother liquor."
+   ],
+   "certezza": "media",
+   "note": "SCHCl3 stabile nell'acqua madre di cloroformio anidro nel frigo (4-5 °C) durante la crescita.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E22",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato",
+     "testo": "low temperature"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "The single crystal was analyzed by SCXRD at low temperature to prevent its transformation into form SCHCl3-H2O."
+   ],
+   "certezza": "media",
+   "note": "A bassa T (non detta) il cristallo di SCHCl3 non si trasforma durante la raccolta SCXRD; fuori dall'acqua madre a r.t. scurisce e diventa SCHCl3-H2O (E18).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E23",
+   "da": "F5",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 74,
+     "fine": 85,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "conflitto": "Il metodo 2.2.1 scrive «Variable temperature experiments of S3CHCl3-H2O sample were performed at the ALBA Synchrotron», mentre il testo e la didascalia della Fig. 6 dicono «Temperature variable powder X-ray diffraction of form SCHCl3-H2O» (e S3CHCl3-H2O diventa SCHCl3-H2O non appena tolto dall'acqua madre): si tiene SCHCl3-H2O, piu' specifico (didascalia).",
+   "citazioni": [
+    "Temperature variable powder X-ray diffraction of form SCHCl3-H2O has been performed in synchrotron Alba.",
+    "In Figure 6, we can appreciate the diffractogram of SCHCl3-H2O which is stable until 74 ◦C and from this temperature, some new peaks corresponding to form",
+    "III begin to appear, while characteristic peaks of SCHCl3-H2O disappear. Form SCHCl3-H2O progressively transforms into form III while increasing temperature until 85 ◦C.",
+    "Variable temperature experiments of S3CHCl3-H2O sample were performed at the ALBA Synchrotron using a Cyberstar hot gas blower with an Eurotherm temperature controller (Eurotherm, Worthing, UK) and continuously collecting diffraction data during the heating and cooling ramps (30◦to 230◦and 230◦to 30◦at 2◦/min, 18 sec/pattern).",
+    "Figure 6. Temperature variable PXRD of SCHCl3-H2O showing its transformation into form III."
+   ],
+   "certezza": "alta",
+   "note": "VT-PXRD di sincrotrone: stabile fino a 74 °C; da 74 °C compaiono i picchi della forma III e quelli del solvato spariscono; trasformazione progressiva fino a 85 °C. Rampa 30-230 °C a «2°/min» (il PDF omette la C), 18 s per pattern; capillare di 0.7 mm. Il riepilogo (Fig. 8) dice «Heating SCHCl3-H2O produces its desolvation and transformation into form III».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E24",
+   "da": "F5",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 50,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The stability of SCHCl3-H2O in front of temperature was studied when heating it in a DSC experiment, and it was observed that from 50 ◦C this solvate was no longer stable and began to transform into form III (Figure 5).",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min.",
+    "Figure 5. DSC (blue) and TGA (red) of form SCHCl3-H2O."
+   ],
+   "certezza": "media",
+   "note": "Da 50 °C il solvato non e' piu' stabile e comincia a trasformarsi in forma III (DSC): la T e' il punto in cui la trasformazione comincia, non un picco. La velocita' e l'atmosfera sono quelle generali del DSC.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E25",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 77,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "passo": "evaporation of the solvent",
+   "citazioni": [
+    "Its DSC analysis (Figure 5) shows a ﬁrst wide endothermic phenomenon overlapped with an endothermic phenomenon at 77 ◦C, which could be attributed to the evaporation of the solvent and the melting of the solvate taking place simultaneously.",
+    "Thermal desolvation is a complex process in which the melting, release of solvent vapor and crystallization of a new phase may occur simultaneously.",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min.",
+    "Figure 5. DSC (blue) and TGA (red) of form SCHCl3-H2O."
+   ],
+   "certezza": "bassa",
+   "note": "Il picco DSC a 77 °C («phenomenon at 77 °C», tipo di T non detto) e' attribuito (con «could be») a due processi simultanei: evaporazione del solvente (questo evento) e fusione del solvato (E26). Il prodotto non e' caratterizzato da questo evento.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E26",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 77,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "passo": "melting of the solvate",
+   "citazioni": [
+    "Its DSC analysis (Figure 5) shows a ﬁrst wide endothermic phenomenon overlapped with an endothermic phenomenon at 77 ◦C, which could be attributed to the evaporation of the solvent and the melting of the solvate taking place simultaneously.",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min.",
+    "Figure 5. DSC (blue) and TGA (red) of form SCHCl3-H2O."
+   ],
+   "certezza": "bassa",
+   "note": "Secondo processo attribuito al picco a 77 °C: fusione del solvato (insieme all'evaporazione del solvente, E25).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E27",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 32,
+     "max": 100,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 19.4,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "Its TGA analysis shows a weight loss of 19.4% from 32 to 100 ◦C which could be attributed to 1 chloroform molecule and 1 H2O molecule (theoretical weight loss of 22.9%).",
+    "Experimental conditions: Alumina crucibles of 70 µL volume, atmosphere of dry nitrogen with 50 mL/min flow rate, heating rate of 10 ◦C/min.",
+    "Figure 5. DSC (blue) and TGA (red) of form SCHCl3-H2O."
+   ],
+   "certezza": "media",
+   "note": "Perdita di massa TGA del 19.4% da 32 a 100 °C, attribuita (con «could be») a 1 CHCl3 + 1 H2O; la perdita teorica e' 22.9%. Il prodotto non e' caratterizzato dalla TGA. Crogiolo di allumina da 70 µL (parte sperimentale 2.2.4), non fra i valori dello schema.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E28",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E24",
+   "pretrattamento": "forma III formata in situ dal solvato SCHCl3-H2O nella stessa corsa DSC",
+   "condizioni": {
+    "temperatura": {
+     "valore": 198,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Next, a low intensity phenomenon is observed at 198 ◦C which could be attributed to the melting of form III, followed by the melting of form II at 203 ◦C.",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min.",
+    "Figure 5. DSC (blue) and TGA (red) of form SCHCl3-H2O."
+   ],
+   "certezza": "media",
+   "note": "Nella DSC del solvato un fenomeno a bassa intensita' a 198 °C e' attribuito (con «could be») alla fusione della forma III prodotta dalla desolvatazione. Il fuso dell'anidra pura e' a 197 °C (E3).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E29",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E28",
+   "pretrattamento": "forma II presente nella corsa DSC del solvato SCHCl3-H2O (origine non detta)",
+   "condizioni": {
+    "temperatura": {
+     "valore": 203,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen, 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Next, a low intensity phenomenon is observed at 198 ◦C which could be attributed to the melting of form III, followed by the melting of form II at 203 ◦C.",
+    "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min.",
+    "Figure 5. DSC (blue) and TGA (red) of form SCHCl3-H2O."
+   ],
+   "certezza": "media",
+   "note": "Fusione della forma II a 203 °C nella DSC del solvato (202 °C per la II pura, E2). Il testo non dice come la forma II si formi nella corsa (nella DSC della III pura cristallizza dal fuso, E5).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E30",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita": {
+     "valore": null,
+     "min": 0,
+     "max": 43,
+     "unita": "%RH",
+     "tipo": "intervallo"
+    },
+    "tempo": {
+     "valore": null,
+     "min": 1,
+     "unita": "month",
+     "tipo": "conservazione",
+     "limite": "sopra"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The stability of SCHCl3-H2O in front of relative humidity has been studied at r.t. by placing this sample inside desiccators containing different saturated salt solutions which create different RH conditions.",
+    "From 0% to 43% RH, SCHCl3-H2O was stable at least during one month."
+   ],
+   "certezza": "alta",
+   "note": "Stabile da 0% a 43% RH per almeno un mese (desiccatori con soluzioni saline sature). Tecnica e tipo di campione non sono detti per questa prova.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E31",
+   "da": "F5",
+   "a": "F3",
+   "esito": "parziale",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita": {
+     "valore": null,
+     "min": 57,
+     "max": 75,
+     "unita": "%RH",
+     "tipo": "intervallo"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "month",
+     "tipo": "osservata"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The stability of SCHCl3-H2O in front of relative humidity has been studied at r.t. by placing this sample inside desiccators containing different saturated salt solutions which create different RH conditions.",
+    "At 57–75% RH, this form began to transform into form III after one month."
+   ],
+   "certezza": "alta",
+   "note": "A 57-75% RH il solvato comincia a trasformarsi in forma III dopo un mese (esito parziale: «began to transform»); un mese e' il controllo in cui il cambio si vede (non si sa se prima c'era un altro controllo).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E32",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "desolvatazione",
+   "sottovia": "secco_senza_mezzo",
+   "generalizzazione": true,
+   "condizioni": {
+    "umidita": {
+     "valore": 0,
+     "unita": "%RH",
+     "tipo": null
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Curiously, at r.t. under 0% RH, SCHCl3-H2O does not desolvate"
+   ],
+   "certezza": "media",
+   "note": "A 0% RH e r.t. il solvato non desolvata (il mezzo secco non e' detto: desiccatori). Gia' implicato da E30 (0-43% RH per un mese), ma qui il testo lo sottolinea come sorprendente («Curiously»).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E33",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": "0–40% CHCl3 (solution in DMF)"
+     },
+     {
+      "nome": "DMF",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "To obtain different relative solvent vapor pressures, chloroform solutions in DMF were prepared according to the Raoult’s law [28]:",
+    "The samples were placed in desiccators with the prepared solutions of different partial pressures of chloroform. At 0–40% CHCl3, forms I and III remain invariable while SCHCl3-H2O transformed into II + traces of I at 0% and into I at 20–40% CHCl3."
+   ],
+   "certezza": "media",
+   "note": "Forma I invariata con atmosfera di vapori di soluzioni di CHCl3 in DMF da 0 a 40% CHCl3 (pressioni parziali di cloroformio diverse per la legge di Raoult). T e tempo non detti. La tecnica non e' scritta per questa prova.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E34",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": "0–40% CHCl3 (solution in DMF)"
+     },
+     {
+      "nome": "DMF",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "To obtain different relative solvent vapor pressures, chloroform solutions in DMF were prepared according to the Raoult’s law [28]:",
+    "The samples were placed in desiccators with the prepared solutions of different partial pressures of chloroform. At 0–40% CHCl3, forms I and III remain invariable while SCHCl3-H2O transformed into II + traces of I at 0% and into I at 20–40% CHCl3."
+   ],
+   "certezza": "media",
+   "note": "Forma III invariata con 0-40% CHCl3 (soluzioni in DMF).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E35",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": "60–80% CHCl3 (solution in DMF)"
+     },
+     {
+      "nome": "DMF",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "To obtain different relative solvent vapor pressures, chloroform solutions in DMF were prepared according to the Raoult’s law [28]:",
+    "While increasing chloroform proportion to 60–80%, form I did not change; form III transformed into a mixture of III+I, and SCHCl3-H2O remained invariable."
+   ],
+   "certezza": "media",
+   "note": "Forma I invariata con 60-80% CHCl3 (soluzioni in DMF).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E36",
+   "da": "F3",
+   "a": "F10",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": "60–80% CHCl3 (solution in DMF)"
+     },
+     {
+      "nome": "DMF",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "To obtain different relative solvent vapor pressures, chloroform solutions in DMF were prepared according to the Raoult’s law [28]:",
+    "While increasing chloroform proportion to 60–80%, form I did not change; form III transformed into a mixture of III+I, and SCHCl3-H2O remained invariable."
+   ],
+   "certezza": "media",
+   "note": "Con 60-80% CHCl3 la forma III diventa una miscela di III e I (esito parziale): rapporti non detti.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E37",
+   "da": "F1",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": "100% chloroform atmosphere"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "To obtain different relative solvent vapor pressures, chloroform solutions in DMF were prepared according to the Raoult’s law [28]:",
+    "Under 100% chloroform atmosphere, both anhydrous forms transformed into SCHCl3-H2O."
+   ],
+   "certezza": "media",
+   "note": "Sotto atmosfera di cloroformio al 100% la forma I diventa SCHCl3-H2O. L'acqua necessaria non e' attribuita a una fonte nel testo. T e tempo non detti.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E38",
+   "da": "F3",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": "100% chloroform atmosphere"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "To obtain different relative solvent vapor pressures, chloroform solutions in DMF were prepared according to the Raoult’s law [28]:",
+    "Under 100% chloroform atmosphere, both anhydrous forms transformed into SCHCl3-H2O."
+   ],
+   "certezza": "media",
+   "note": "Come E37, per la forma III.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E39",
+   "da": "F5",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "prodotti_secondari": [
+    "F1"
+   ],
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": "0% CHCl3 (100% DMF atmosphere)"
+     },
+     {
+      "nome": "DMF",
+      "proporzione": null
+     }
+    ],
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "short time"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F1",
+      "prevalenza": "tracce"
+     }
+    ]
+   },
+   "citazioni": [
+    "To obtain different relative solvent vapor pressures, chloroform solutions in DMF were prepared according to the Raoult’s law [28]:",
+    "The samples were placed in desiccators with the prepared solutions of different partial pressures of chloroform. At 0–40% CHCl3, forms I and III remain invariable while SCHCl3-H2O transformed into II + traces of I at 0% and into I at 20–40% CHCl3.",
+    "Curiously, at r.t. under 0% RH, SCHCl3-H2O does not desolvate, while under 100% DMF atmosphere, mixture of II+traces of I is obtained.",
+    "while maintaining SCHCl3-H2O under DMF atmosphere allows the isolation of form II in short time (form I appears later)"
+   ],
+   "certezza": "alta",
+   "note": "Con 0% CHCl3 (cioe' atmosfera di DMF al 100%) il solvato diventa forma II con tracce di I; la forma II si isola in breve tempo e la I compare dopo («form I appears later»). La frase «at r.t.» del 'Curiously' precede la clausola sulla DMF ma non e' ripetuta: T non assegnata.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E40",
+   "da": "F5",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": "20–40% CHCl3 (solution in DMF)"
+     },
+     {
+      "nome": "DMF",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "To obtain different relative solvent vapor pressures, chloroform solutions in DMF were prepared according to the Raoult’s law [28]:",
+    "The samples were placed in desiccators with the prepared solutions of different partial pressures of chloroform. At 0–40% CHCl3, forms I and III remain invariable while SCHCl3-H2O transformed into II + traces of I at 0% and into I at 20–40% CHCl3."
+   ],
+   "certezza": "media",
+   "note": "Con 20-40% CHCl3 il solvato SCHCl3-H2O diventa forma I.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E41",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": "60–80% CHCl3 (solution in DMF)"
+     },
+     {
+      "nome": "DMF",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "To obtain different relative solvent vapor pressures, chloroform solutions in DMF were prepared according to the Raoult’s law [28]:",
+    "While increasing chloroform proportion to 60–80%, form I did not change; form III transformed into a mixture of III+I, and SCHCl3-H2O remained invariable."
+   ],
+   "certezza": "media",
+   "note": "Con 60-80% CHCl3 il solvato SCHCl3-H2O resta invariato.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E42",
+   "da": "F5",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "DMF",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "On the other hand, the slurry of SCHCl3-H2O in DMF leads to form I"
+   ],
+   "certezza": "media",
+   "note": "Sospensione del solvato in DMF: forma I. T e tempo non detti.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "DCM"
+   ],
+   "temperatura": {
+    "valore": null,
+    "min": 25,
+    "max": 60,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "velocita": {
+    "valore": null,
+    "unita": null,
+    "testo": "slowly cooled"
+   },
+   "tempo": {
+    "valore": 18,
+    "unita": "day",
+    "tipo": "trasformazione"
+   },
+   "rapporto_solido_solvente": "40 mg BL (0.086 mmol) in 0.7 mL",
+   "citazioni": [
+    "BL (40 mg) (0.086 mmol) was dissolved in DCM (0.7 mL) at 60 ◦C, and the solution was slowly cooled down to 25 ◦C. After 18 days, single crystals were obtained, ﬁltered, dried under vacuum and analyzed by SCXRD."
+   ],
+   "note": "BL disciolto a 60 °C e soluzione raffreddata lentamente a 25 °C; dopo 18 giorni cristalli singoli, filtrati, seccati sotto vuoto. «DCM» non e' sciolto nel testo.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "CHCl3"
+   ],
+   "temperatura": {
+    "valore": null,
+    "min": 25,
+    "max": 60,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "tempo": {
+    "valore": null,
+    "unita": null,
+    "testo": "one night"
+   },
+   "rapporto_solido_solvente": "100 mg BL (0.216 mmol) in 0.6 mL",
+   "citazioni": [
+    "BL (100 mg) (0.216 mmol) was dissolved in CHCl3 (0.6 mL) at 60 ◦C, and the solution was cooled down to 25 ◦C outside the heating block. The solid precipitated after one night and it was ﬁltered and dried under vacuum."
+   ],
+   "note": "Soluzione a 60 °C raffreddata a 25 °C fuori dal blocco riscaldante; il solido precipita dopo una notte, filtrato e seccato sotto vuoto. La forma III e' anidra pur partendo da cloroformio.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E6",
+   "temperatura": {
+    "valore": 200,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "velocita": {
+    "valore": 10,
+    "unita": "°C/min"
+   },
+   "tempo": {
+    "valore": 5,
+    "unita": "min",
+    "tipo": "processo"
+   },
+   "atmosfera": "nitrogen",
+   "citazioni": [
+    "Form III of BL (20 mg) (0.043 mmol) was placed in a 70 µL alumina crucible and heated under nitrogen atmosphere inside a TGA equipment from 30 ◦C to 200 ◦C at a rate of 10 ◦C/min, maintained at 200 ◦C for 5 min and cooled down to 30 ◦C."
+   ],
+   "note": "Forma II da riscaldamento della forma III in TGA (evento E6).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "CHCl3"
+   ],
+   "temperatura": {
+    "valore": null,
+    "min": 4,
+    "max": 5,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "tempo": {
+    "valore": 4,
+    "unita": "day",
+    "tipo": "trasformazione"
+   },
+   "rapporto_solido_solvente": "330 mg BL in 2.3 mL",
+   "citazioni": [
+    "CHCl3 (2.3 mL) was added to 330 mg of BL at 60 ◦C. The solution was cooled down overnight and left in the fridge (4–5 ◦C) for four days until single crystal growing.",
+    "This solvate was stable in the mother liquor."
+   ],
+   "note": "CHCl3 aggiunto a BL a 60 °C; soluzione raffreddata per una notte e tenuta nel frigo (4-5 °C) per quattro giorni fino alla crescita di cristalli singoli. Stabile nell'acqua madre.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "diffusione",
+   "solventi": [
+    "chloroform"
+   ],
+   "citazioni": [
+    "In addition, different experiments in chloroform (vapor diffusion, slow cool crystallizations) were performed in order to get a single crystal of SCHCl3-H2O.",
+    "Curiously, we always obtained under different conditions good quality crystals of a new solid form",
+    "Indeed, form S3CHCl3-H2O is the one which is always obtained in chloroform solutions"
+   ],
+   "note": "Prove in cloroformio (diffusione di vapore, raffreddamento lento) fatte per ottenere cristalli singoli di SCHCl3-H2O: si ottiene sempre S3CHCl3-H2O. Le condizioni di dettaglio non sono nel testo.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "chloroform"
+   ],
+   "velocita": {
+    "valore": null,
+    "unita": null,
+    "testo": "slow cooling"
+   },
+   "citazioni": [
+    "In addition, different experiments in chloroform (vapor diffusion, slow cool crystallizations) were performed in order to get a single crystal of SCHCl3-H2O.",
+    "Curiously, we always obtained under different conditions good quality crystals of a new solid form",
+    "Indeed, form S3CHCl3-H2O is the one which is always obtained in chloroform solutions"
+   ],
+   "note": "Come la preparazione precedente, per la cristallizzazione per raffreddamento lento.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "sospensione",
+   "solventi": [
+    "CHCl3"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "r.t."
+   },
+   "citazioni": [
+    "A slurry in CHCl3 at r.t. produces the heterosolvate S3CHCl3-H2O which is transformed into SCHCl3-H2O when taken out of the solution."
+   ],
+   "note": "Riepilogo dei percorsi (Fig. 8): non si sa da quale solido si parta.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "sospensione",
+   "solventi": [
+    "CHCl3"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "r.t."
+   },
+   "tempo": {
+    "valore": null,
+    "unita": null,
+    "testo": "overnight"
+   },
+   "rapporto_solido_solvente": "1 g BL in 6.5 mL",
+   "citazioni": [
+    "CHCl3 (6.5 mL) was added to 1 g of BL, and the resulting suspension was stirred overnight at r.t. The solid was ﬁltered and dried under vacuum."
+   ],
+   "note": "Sospensione agitata tutta la notte a r.t.; solido filtrato e seccato sotto vuoto. La forma di BL di partenza non e' detta.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "chloroform"
+   ],
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "In addition, different experiments in chloroform (vapor diffusion, slow cool crystallizations) were performed in order to get a single crystal of SCHCl3-H2O.",
+    "As stated, it was not possible to grow single crystals of SCHCl3-H2O as once its precursor solvate was obtained, the crystals were not stable and two chloroform molecules were rapidly lost after removal from the mother liquor, leaving a darkened crystal."
+   ],
+   "note": "Cercati cristalli singoli di SCHCl3-H2O (diffusione di vapore, raffreddamento lento in cloroformio): non ottenuti, si ottiene il precursore S3CHCl3-H2O. La polvere di SCHCl3-H2O si prepara per sospensione (preparazione precedente).",
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "anhydrous CHCl3"
+   ],
+   "temperatura": {
+    "valore": null,
+    "min": 4,
+    "max": 5,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "rapporto_solido_solvente": "45 mg BL in the minimum quantity (0.35 mL)",
+   "pretrattamento": "BL sciolto a 90 °C nella minima quantita' di CHCl3 anidro",
+   "citazioni": [
+    "BL (45 mg) was dissolved in the minimum quantity of anhydrous CHCl3 (0.35 mL) at 90 ◦C. The solution was cooled down inside the fridge (4–5 ◦C) until single crystal growing.",
+    "This solvate was stable in the mother liquor."
+   ],
+   "note": "Soluzione calda (90 °C) raffreddata nel frigo (4-5 °C) fino alla crescita di cristalli singoli; stabile nell'acqua madre.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E17",
+    "E18"
+   ],
+   "citazioni": [
+    "both transforming into solvate SCHCl3-H2O when being exposed to ambient conditions, outside the solution of crystallization"
+   ],
+   "note": "SCHCl3-H2O si forma da S3CHCl3-H2O e da SCHCl3 quando escono dall'acqua madre.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E37",
+    "E38"
+   ],
+   "citazioni": [
+    "Under 100% chloroform atmosphere, both anhydrous forms transformed into SCHCl3-H2O."
+   ],
+   "note": "Dalle forme anidre I e III sotto atmosfera di cloroformio al 100%.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E23",
+    "E24"
+   ],
+   "citazioni": [
+    "Heating SCHCl3-H2O produces its desolvation and transformation into form III."
+   ],
+   "note": "Forma III da riscaldamento del solvato SCHCl3-H2O (riepilogo Fig. 8).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "gruppo": "carboxylic acid",
+     "grandezza": {
+      "valore": 4.06
+     },
+     "metodo": "measured (metodo non detto)",
+     "calcolato": false,
+     "citazione": "For an amphoteric molecule with measured pKa values of 4.06 (carboxylic acid) and 9.43 (piperidine-N), application of the pKa rule of three would suggest that proton transfer from the carboxylic acid to the piperidine-N is essentially complete rendering BL zwitterionic."
+    },
+    {
+     "tipo": "pKa",
+     "gruppo": "piperidine-N",
+     "grandezza": {
+      "valore": 9.43
+     },
+     "metodo": "measured (metodo non detto)",
+     "calcolato": false,
+     "citazione": "For an amphoteric molecule with measured pKa values of 4.06 (carboxylic acid) and 9.43 (piperidine-N), application of the pKa rule of three would suggest that proton transfer from the carboxylic acid to the piperidine-N is essentially complete rendering BL zwitterionic."
+    },
+    {
+     "tipo": "igroscopicita",
+     "forma": "F6",
+     "grandezza": {
+      "testo": "hygroscopic solid form: takes up and retains water vapor"
+     },
+     "citazione": "SCHCl3 can be considered a hygroscopic solid form as it has the ability"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "zwitterione",
+     "forma": "F1",
+     "testo": "zwitterionic: piperidinyl N protonated, proton transfer from the carboxylic group",
+     "citazione": "This structure is zwitterionic as the piperidinyl N atom is protonated, revealing a proton transfer from the carboxylic group."
+    },
+    {
+     "tipo": "zwitterione",
+     "testo": "all the structures solved are zwitterionic",
+     "citazione": "All the structures solved are zwitterionic and BL molecules are linked by hydrogen bonds involving the carboxylate oxygen and the piperidinium nitrogen."
+    },
+    {
+     "tipo": "altro",
+     "testo": "imbalance between hydrogen bond donors and acceptors, only one N-H donor group",
+     "citazione": "BL is a molecule which shows an imbalance between hydrogen bond donors and acceptor groups, having only one N-H donor group."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "conformations in the two heterosolvates differ particularly in the orientation of the carboxylate fragment",
+     "citazione": "The conformations of the BL molecules in both heterosolvates are compared in Figure 22, differing particularly with respect to the orientation of the carboxylate fragment."
+    }
+   ]
+  }
+ ]
+}

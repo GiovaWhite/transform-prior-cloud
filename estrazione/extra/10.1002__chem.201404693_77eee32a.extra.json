@@ -1,0 +1,3867 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1002/chem.201404693",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "Mr (formula weight), Tabella 1",
+   "citazione": "Mr 649.93 1421.88 613.90 622.91 760.11 686.03 720.04 645.96",
+   "valori": [
+    {
+     "etichetta": "Mr",
+     "forma": "F1",
+     "valore": 649.93
+    },
+    {
+     "etichetta": "Mr",
+     "forma": "F6",
+     "valore": 1421.88
+    },
+    {
+     "etichetta": "Mr",
+     "forma": "F3",
+     "valore": 613.9
+    },
+    {
+     "etichetta": "Mr",
+     "forma": "F2",
+     "valore": 622.91
+    },
+    {
+     "etichetta": "Mr",
+     "forma": "F7",
+     "valore": 760.11
+    },
+    {
+     "etichetta": "Mr",
+     "forma": "F8",
+     "valore": 686.03
+    },
+    {
+     "etichetta": "Mr",
+     "forma": "F9",
+     "valore": 720.04
+    },
+    {
+     "etichetta": "Mr",
+     "forma": "F10",
+     "valore": 645.96
+    }
+   ],
+   "note": "Colonne attribuite per ordine (dihydrate, DTS tetrahydrate, form I, tetarto hydrate, DMF disolvate, THF monosolvate, dioxane/water, methanol): l'intestazione della tabella e' rimescolata dal PDF (vedi note delle forme nell'estrazione principale). Mr della colonna 2 (1421.88) vale circa due unita' DTS."
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "R1 (%), Tabella 1",
+   "citazione": "R1 (%) 2.16 2.12 4.59 7.40 2.51 4.40 4.42 2.46",
+   "valori": [
+    {
+     "etichetta": "R1",
+     "forma": "F1",
+     "valore": 2.16,
+     "unita": "%"
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F6",
+     "valore": 2.12,
+     "unita": "%"
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F3",
+     "valore": 4.59,
+     "unita": "%"
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F2",
+     "valore": 7.4,
+     "unita": "%"
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F7",
+     "valore": 2.51,
+     "unita": "%"
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F8",
+     "valore": 4.4,
+     "unita": "%"
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F9",
+     "valore": 4.42,
+     "unita": "%"
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F10",
+     "valore": 2.46,
+     "unita": "%"
+    }
+   ],
+   "note": "Stesso ordine di colonne della riga Mr. Il testo dice che il modello del tetartoidrato (R1 7.40) «is not of the highest precision due to lack of observed data caused by the small crystal size»."
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "formula, DTS tetrahydrate (Tabella 1)",
+   "citazione": "C11H8O4N2I3 Na · 4.25 H2O",
+   "valori": [
+    {
+     "etichetta": "H2O per unita' DTS",
+     "forma": "F6",
+     "valore": 4.25
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "note": "Formula come scritta nella cella della tabella (il PDF ha rimescolato le celle di formula: solo quelle leggibili di seguito sono riportate)."
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "formula, tetartohydrate (Tabella 1)",
+   "citazione": "C11H9O4N2I3 · 0.25 H2O",
+   "valori": [
+    {
+     "etichetta": "H2O per DTA",
+     "forma": "F2",
+     "valore": 0.25
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "note": "Formula come scritta; cella di formula rimescolata dal PDF, attribuita al tetartoidrato per i 0.25 H2O."
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "formula, DMF disolvate (Tabella 1)",
+   "citazione": "C11H9I3N2O4 · 2 (C3H7NO)",
+   "valori": [
+    {
+     "etichetta": "DMF per DTA",
+     "forma": "F7",
+     "valore": 2
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "note": "Formula come scritta (C3H7NO = DMF)."
+  },
+  {
+   "id": "X6",
+   "categoria": "geometria",
+   "proprieta": "C-H bond lengths, neutron structure of DTA dihydrate (range)",
+   "citazione": "The C-H bonds vary between 0.99(6) and 1.07(5) Å and thus these values are close to the geometrically constrained calculated C-H bonds of the X-ray model (0.98 Å).",
+   "valori": [
+    {
+     "etichetta": "C-H minimum",
+     "valore": 0.99,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C-H maximum",
+     "valore": 1.07,
+     "incertezza": 5,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X7",
+   "categoria": "geometria",
+   "proprieta": "C-H bond length, geometrically constrained X-ray model of DTA dihydrate",
+   "citazione": "The C-H bonds vary between 0.99(6) and 1.07(5) Å and thus these values are close to the geometrically constrained calculated C-H bonds of the X-ray model (0.98 Å).",
+   "valori": [
+    {
+     "etichetta": "C-H constrained",
+     "valore": 0.98,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "SCXRD",
+   "calcolato": true
+  },
+  {
+   "id": "X8",
+   "categoria": "geometria",
+   "proprieta": "differenza delle distanze X-H fra modello X-ray (olex.refine) e struttura a neutroni, DTA dihydrate",
+   "citazione": "For this reason, the directionality of the X-H bond fits well with that found in the neutron structure, whilst the bond distances vary to up to 0.3 Å (Table S2).",
+   "valori": [
+    {
+     "etichetta": "massima differenza di distanza X-H",
+     "valore": 0.3,
+     "unita": "Å",
+     "limite": "sotto"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "SCXRD / neutron diffraction",
+   "note": "«vary to up to 0.3 Å»; i valori di dettaglio sono nella Tabella S2 (supplementare). Gli H del modello X-ray sono localizzati da mappe di Fourier e raffinati liberamente, con ottimizzazione elettrostatica di olex.refine."
+  },
+  {
+   "id": "X9",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O2-H2···O1W (Tabella 2, DTA dihydrate)",
+   "citazione": "O2-H2···O1W 2.49(2) 1.45(3)a 177(2) -56.4",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.49,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance",
+     "valore": 1.45,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 177,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A derivata dai dati a neutroni (nota [a] della Tabella 2)"
+  },
+  {
+   "id": "X10",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of D-H···A: O2-H2···O1W (Tabella 2, DTA dihydrate)",
+   "citazione": "O2-H2···O1W 2.49(2) 1.45(3)a 177(2) -56.4",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -56.4,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "Energie di interazione calcolate con l'algoritmo PACHA (nota [b] della Tabella 2), sulle coordinate della struttura a neutroni"
+  },
+  {
+   "id": "X11",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: N1-H1···O2 (Tabella 2, DTA dihydrate)",
+   "citazione": "N1-H1···O2 2.80(2) 1.81(3) 175(1) -16.6",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.8,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance",
+     "valore": 1.81,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 175,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; senza la nota [a]: la tabella non dice da che dato derivi la distanza H···A"
+  },
+  {
+   "id": "X12",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of D-H···A: N1-H1···O2 (Tabella 2, DTA dihydrate)",
+   "citazione": "N1-H1···O2 2.80(2) 1.81(3) 175(1) -16.6",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -16.6,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "Energie di interazione calcolate con l'algoritmo PACHA (nota [b] della Tabella 2), sulle coordinate della struttura a neutroni"
+  },
+  {
+   "id": "X13",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: N2-H2a···O3 (Tabella 2, DTA dihydrate)",
+   "citazione": "N2-H2a···O3 2.82(1) 1.82(2)a 172(1) -15.1",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.82,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance",
+     "valore": 1.82,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 172,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A derivata dai dati a neutroni (nota [a] della Tabella 2)"
+  },
+  {
+   "id": "X14",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of D-H···A: N2-H2a···O3 (Tabella 2, DTA dihydrate)",
+   "citazione": "N2-H2a···O3 2.82(1) 1.82(2)a 172(1) -15.1",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -15.1,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "Energie di interazione calcolate con l'algoritmo PACHA (nota [b] della Tabella 2), sulle coordinate della struttura a neutroni"
+  },
+  {
+   "id": "X15",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O1W-H1Wa···O2W (Tabella 2, DTA dihydrate)",
+   "citazione": "O1W-H1Wa···O2W 2.68(3) 1.72(3)a 165(1) -28.5",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.68,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance",
+     "valore": 1.72,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 165,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A derivata dai dati a neutroni (nota [a] della Tabella 2)"
+  },
+  {
+   "id": "X16",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of D-H···A: O1W-H1Wa···O2W (Tabella 2, DTA dihydrate)",
+   "citazione": "O1W-H1Wa···O2W 2.68(3) 1.72(3)a 165(1) -28.5",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -28.5,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "Energie di interazione calcolate con l'algoritmo PACHA (nota [b] della Tabella 2), sulle coordinate della struttura a neutroni"
+  },
+  {
+   "id": "X17",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O1W-H1Wb···O2W (Tabella 2, DTA dihydrate)",
+   "citazione": "O1W-H1Wb···O2W 2.72(2) 1.77(3)a 174(2) -28.5",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.72,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance",
+     "valore": 1.77,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 174,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A derivata dai dati a neutroni (nota [a] della Tabella 2)"
+  },
+  {
+   "id": "X18",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of D-H···A: O1W-H1Wb···O2W (Tabella 2, DTA dihydrate)",
+   "citazione": "O1W-H1Wb···O2W 2.72(2) 1.77(3)a 174(2) -28.5",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -28.5,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "Energie di interazione calcolate con l'algoritmo PACHA (nota [b] della Tabella 2), sulle coordinate della struttura a neutroni"
+  },
+  {
+   "id": "X19",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O2W-H2Wa···O4 (Tabella 2, DTA dihydrate)",
+   "citazione": "O2W-H2Wa···O4 2.67(2) 1.73(2)a 163(2) -34.0",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.67,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance",
+     "valore": 1.73,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 163,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A derivata dai dati a neutroni (nota [a] della Tabella 2)"
+  },
+  {
+   "id": "X20",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of D-H···A: O2W-H2Wa···O4 (Tabella 2, DTA dihydrate)",
+   "citazione": "O2W-H2Wa···O4 2.67(2) 1.73(2)a 163(2) -34.0",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -34.0,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "Energie di interazione calcolate con l'algoritmo PACHA (nota [b] della Tabella 2), sulle coordinate della struttura a neutroni"
+  },
+  {
+   "id": "X21",
+   "categoria": "geometria",
+   "proprieta": "D···A: O1···O4 (Tabella 4, DTA tetartohydrate)",
+   "citazione": "O1···O4 2.51(2) 178a -51.9",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.51,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 178,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; angolo dopo ottimizzazione elettrostatica delle posizioni degli H dell'acqua (nota [a] della Tabella 4)"
+  },
+  {
+   "id": "X22",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O1···O4 (DTA tetartohydrate, Tabella 4)",
+   "citazione": "O1···O4 2.51(2) 178a -51.9",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -51.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X23",
+   "categoria": "geometria",
+   "proprieta": "D···A: N1···O2 (Tabella 4, DTA tetartohydrate)",
+   "citazione": "N1···O2 2.95(2) 175.7(9) -28.9",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.95,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 175.7,
+     "incertezza": 9,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X24",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N1···O2 (DTA tetartohydrate, Tabella 4)",
+   "citazione": "N1···O2 2.95(2) 175.7(9) -28.9",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -28.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X25",
+   "categoria": "geometria",
+   "proprieta": "D···A: N2···O3 (Tabella 4, DTA tetartohydrate)",
+   "citazione": "N2···O3 2.82(2) 151.8(9) -36.2",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.82,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 151.8,
+     "incertezza": 9,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X26",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N2···O3 (DTA tetartohydrate, Tabella 4)",
+   "citazione": "N2···O3 2.82(2) 151.8(9) -36.2",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -36.2,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X27",
+   "categoria": "geometria",
+   "proprieta": "D···A: O1W···O4 (Tabella 4, DTA tetartohydrate)",
+   "citazione": "O1W···O4 3.16(3) 172a -18.5",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.16,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 172,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; angolo dopo ottimizzazione elettrostatica delle posizioni degli H dell'acqua (nota [a] della Tabella 4)"
+  },
+  {
+   "id": "X28",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O1W···O4 (DTA tetartohydrate, Tabella 4)",
+   "citazione": "O1W···O4 3.16(3) 172a -18.5",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -18.5,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X29",
+   "categoria": "geometria",
+   "proprieta": "D···A: O1···O4 (Tabella 4, Form I)",
+   "citazione": "O1···O4 2.55(1) 160(6) -51.1",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.55,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 160,
+     "incertezza": 6,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form I"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X30",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O1···O4 (Form I, Tabella 4)",
+   "citazione": "O1···O4 2.55(1) 160(6) -51.1",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -51.1,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form I"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X31",
+   "categoria": "geometria",
+   "proprieta": "D···A: N1···O2 (Tabella 4, Form I)",
+   "citazione": "N1···O2 2.817(9) 150.1(6) -31.9",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.817,
+     "incertezza": 9,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 150.1,
+     "incertezza": 6,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form I"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X32",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N1···O2 (Form I, Tabella 4)",
+   "citazione": "N1···O2 2.817(9) 150.1(6) -31.9",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -31.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form I"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X33",
+   "categoria": "geometria",
+   "proprieta": "D···A: N2···O3 (Tabella 4, Form I)",
+   "citazione": "N2···O3 2.921(9) 174.3(8) -29.5",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.921,
+     "incertezza": 9,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 174.3,
+     "incertezza": 8,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form I"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X34",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N2···O3 (Form I, Tabella 4)",
+   "citazione": "N2···O3 2.921(9) 174.3(8) -29.5",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -29.5,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form I"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X35",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: N1···O2 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "N1···O2 2.87(1) 1.85(2)a 172(1)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.87,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.85,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 172,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X36",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: N101···O102 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "N101···O102 2.76(1) 1.70(2)a 174(1)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.76,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.7,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 174,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X37",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: N2···O103 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "N2···O103 2.929(7) 1.93(1)a 165(1)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.929,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.93,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 165,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X38",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: N102···O3 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "N102···O3 1.794(7) 1.76(1)a 174(1)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 1.794,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.76,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 174,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5). ATTENZIONE: la distanza D···A scritta (1.794) e' minore della H···A (1.76 in tabella 1.76(1)): impossibile per un legame D-H···A, probabile refuso del testo; riportata come scritta"
+  },
+  {
+   "id": "X39",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O1W···O1 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O1W···O1 3.48(3) 2.52(5)a 178(3)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.48,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 2.52,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 178,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X40",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O1W···O4 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O1W···O4 2.86(3) 1.92(5)a 164(3)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.86,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.92,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 164,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X41",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O2W···O101 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O2W···O101 2.81(2) 1.85(2)a 169(2)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.81,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.85,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 169,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X42",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O3W···O103 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O3W···O103 2.92(2) 1.97(3)a 174(2)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.92,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.97,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 174,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X43",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O3W···O104 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O3W···O104 3.14(1) 2.30(2)a 146(2)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.14,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 2.3,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 146,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X44",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O5W···O2 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O5W···O2 2.82(2) 1.88(2)a 169(3)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.82,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.88,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 169,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X45",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O5W···O7W (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O5W···O7W 2.84(1) 1.88(2)a 169(2)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.84,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.88,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 169,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X46",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O6W···O4 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O6W···O4 2.86(1) 1.90(2)a 167(2)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.86,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.9,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 167,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X47",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O6W···O102 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O6W···O102 2.94(1) 2.01(2)a 173(1)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.94,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 2.01,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 173,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X48",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O7W···O2 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O7W···O2 2.88(2) 1.94(2)a 156(1)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.88,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.94,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 156,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X49",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O7W···O104 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O7W···O104 2.83(1) 1.89(2)a 164(2)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.83,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.89,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 164,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X50",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O8WA···O1W (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O8WA···O1W 2.75(2) 1.60(3)a 167(3)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.75,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 1.6,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 167,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X51",
+   "categoria": "geometria",
+   "proprieta": "D-H···A: O8WB···O4 (Tabella 5, DTS tetrahydrate)",
+   "citazione": "O8WB···O4 2.96(3) 2.08(4)a 160(4)",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.96,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···A distance (neutron)",
+     "valore": 2.08,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 160,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; H···A (colonna «D-H···A distance») derivata dai dati a neutroni (nota [a] della Tabella 5)"
+  },
+  {
+   "id": "X52",
+   "categoria": "geometria",
+   "proprieta": "D···A: O1···O1SA (Tabella 6, DTA DMF disolvate)",
+   "citazione": "O1···O1SA 2.528(5) 169(2) -53.1a",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.528,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 169,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X53",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O1···O1SA (DTA DMF disolvate, Tabella 6)",
+   "citazione": "O1···O1SA 2.528(5) 169(2) -53.1a",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -53.1,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "media su due posizioni di disordine (nota [a] della Tabella 6)"
+  },
+  {
+   "id": "X54",
+   "categoria": "geometria",
+   "proprieta": "D···A: N1···O3 (Tabella 6, DTA DMF disolvate)",
+   "citazione": "N1···O3 2.796(5) 159.9(2) -34.5",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.796,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 159.9,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X55",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N1···O3 (DTA DMF disolvate, Tabella 6)",
+   "citazione": "N1···O3 2.796(5) 159.9(2) -34.5",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -34.5,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X56",
+   "categoria": "geometria",
+   "proprieta": "D···A: N2···O4 (Tabella 6, DTA DMF disolvate)",
+   "citazione": "N2···O4 2.807(6) 168.1(2) -28.7",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.807,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 168.1,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X57",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N2···O4 (DTA DMF disolvate, Tabella 6)",
+   "citazione": "N2···O4 2.807(6) 168.1(2) -28.7",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -28.7,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X58",
+   "categoria": "geometria",
+   "proprieta": "D···A: I1···O2 (Tabella 6, DTA DMF disolvate)",
+   "citazione": "I1∙∙∙O2 3.044(3) -2.6",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.044,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; legame a alogeno: nessun angolo in tabella"
+  },
+  {
+   "id": "X59",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of I1···O2 (DTA DMF disolvate, Tabella 6)",
+   "citazione": "I1∙∙∙O2 3.044(3) -2.6",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -2.6,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X60",
+   "categoria": "geometria",
+   "proprieta": "I2···O contacts with the two DMF positions O1SC and O1SD (Tabella 6, DMF disolvate)",
+   "citazione": "3.27(2) 2.97(1) -5.8a",
+   "valori": [
+    {
+     "etichetta": "I2···O1SC distance",
+     "valore": 3.27,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "I2···O1SD distance",
+     "valore": 2.97,
+     "incertezza": 1,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; riga rimescolata dal PDF: le etichette «I2···O1SC I2···O1SD» e «I3···O1SC I3···O1SD» stanno prima e dopo le due righe di numeri; attribuzione per ordine (prima riga a I2, seconda a I3). Nessun angolo in tabella (legame a alogeno)"
+  },
+  {
+   "id": "X61",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of the I2···O1SC/O1SD contacts (Tabella 6, DMF disolvate)",
+   "citazione": "3.27(2) 2.97(1) -5.8a",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -5.8,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "media su due posizioni di disordine (nota [a]); riga rimescolata dal PDF: le etichette «I2···O1SC I2···O1SD» e «I3···O1SC I3···O1SD» stanno prima e dopo le due righe di numeri; attribuzione per ordine (prima riga a I2, seconda a I3). Nessun angolo in tabella (legame a alogeno)"
+  },
+  {
+   "id": "X62",
+   "categoria": "geometria",
+   "proprieta": "I3···O contacts with the two DMF positions O1SC and O1SD (Tabella 6, DMF disolvate)",
+   "citazione": "2.92(2) 3.07(1) -7.7a",
+   "valori": [
+    {
+     "etichetta": "I3···O1SC distance",
+     "valore": 2.92,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "I3···O1SD distance",
+     "valore": 3.07,
+     "incertezza": 1,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; riga rimescolata dal PDF: le etichette «I2···O1SC I2···O1SD» e «I3···O1SC I3···O1SD» stanno prima e dopo le due righe di numeri; attribuzione per ordine (prima riga a I2, seconda a I3). Nessun angolo in tabella (legame a alogeno)"
+  },
+  {
+   "id": "X63",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of the I3···O1SC/O1SD contacts (Tabella 6, DMF disolvate)",
+   "citazione": "2.92(2) 3.07(1) -7.7a",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -7.7,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "media su due posizioni di disordine (nota [a]); riga rimescolata dal PDF: le etichette «I2···O1SC I2···O1SD» e «I3···O1SC I3···O1SD» stanno prima e dopo le due righe di numeri; attribuzione per ordine (prima riga a I2, seconda a I3). Nessun angolo in tabella (legame a alogeno)"
+  },
+  {
+   "id": "X64",
+   "categoria": "geometria",
+   "proprieta": "D···A: O1···O1S (Tabella 6, DTA THF monosolvate)",
+   "citazione": "O1···O1S 2.54(1) 167(6) -36.6",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.54,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 167,
+     "incertezza": 6,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X65",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O1···O1S (DTA THF monosolvate, Tabella 6)",
+   "citazione": "O1···O1S 2.54(1) 167(6) -36.6",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -36.6,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X66",
+   "categoria": "geometria",
+   "proprieta": "D···A: N1···O4 (Tabella 6, DTA THF monosolvate)",
+   "citazione": "N1···O4 2.80(1) 167(1) -25.5",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.8,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 167,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X67",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N1···O4 (DTA THF monosolvate, Tabella 6)",
+   "citazione": "N1···O4 2.80(1) 167(1) -25.5",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -25.5,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X68",
+   "categoria": "geometria",
+   "proprieta": "D···A: N2···O3 (Tabella 6, DTA THF monosolvate)",
+   "citazione": "N2···O3 2.81(1) 173(1) -27.8",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.81,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 173,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X69",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N2···O3 (DTA THF monosolvate, Tabella 6)",
+   "citazione": "N2···O3 2.81(1) 173(1) -27.8",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -27.8,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X70",
+   "categoria": "geometria",
+   "proprieta": "D···A: I1···O2 (Tabella 6, DTA THF monosolvate)",
+   "citazione": "I1···O2 3.184(8) -5.9",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.184,
+     "incertezza": 8,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; legame a alogeno: nessun angolo in tabella"
+  },
+  {
+   "id": "X71",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of I1···O2 (DTA THF monosolvate, Tabella 6)",
+   "citazione": "I1···O2 3.184(8) -5.9",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -5.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X72",
+   "categoria": "geometria",
+   "proprieta": "D···A: I2···O2 (Tabella 6, DTA THF monosolvate)",
+   "citazione": "I2···O2 3.063(6) -2.7",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.063,
+     "incertezza": 6,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; legame a alogeno: nessun angolo in tabella"
+  },
+  {
+   "id": "X73",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of I2···O2 (DTA THF monosolvate, Tabella 6)",
+   "citazione": "I2···O2 3.063(6) -2.7",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -2.7,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X74",
+   "categoria": "geometria",
+   "proprieta": "D···A: O2···O2M (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "O2···O2M 2.509(4) 167(7) -44.3",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.509,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 167,
+     "incertezza": 7,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X75",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O2···O2M (DTA methanol monosolvate, Tabella 6)",
+   "citazione": "O2···O2M 2.509(4) 167(7) -44.3",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -44.3,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X76",
+   "categoria": "geometria",
+   "proprieta": "D···A: O102···O1M (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "O102···O1M 2.567(3) 176(6) -38.9",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.567,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 176,
+     "incertezza": 6,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X77",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O102···O1M (DTA methanol monosolvate, Tabella 6)",
+   "citazione": "O102···O1M 2.567(3) 176(6) -38.9",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -38.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X78",
+   "categoria": "geometria",
+   "proprieta": "D···A: O1M···O4 (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "O1M···O4 2.678(4) 176(6) -32.8",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.678,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 176,
+     "incertezza": 6,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X79",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O1M···O4 (DTA methanol monosolvate, Tabella 6)",
+   "citazione": "O1M···O4 2.678(4) 176(6) -32.8",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -32.8,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X80",
+   "categoria": "geometria",
+   "proprieta": "D···A: O2M···O103 (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "O2M···O103 2.718(5) 175(8) -35.2",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.718,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 175,
+     "incertezza": 8,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X81",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O2M···O103 (DTA methanol monosolvate, Tabella 6)",
+   "citazione": "O2M···O103 2.718(5) 175(8) -35.2",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -35.2,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X82",
+   "categoria": "geometria",
+   "proprieta": "D···A: N1···O2 (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "N1···O2 2.889(5) 171.0(3) -32.6",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.889,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 171.0,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X83",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N1···O2 (DTA methanol monosolvate, Tabella 6)",
+   "citazione": "N1···O2 2.889(5) 171.0(3) -32.6",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -32.6,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X84",
+   "categoria": "geometria",
+   "proprieta": "D···A: N102···O102 (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "N102···O102 2.842(4) 164.7(3) -36.2c",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.842,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 164.7,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X85",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N102···O102 (DTA methanol monosolvate, Tabella 6)",
+   "citazione": "N102···O102 2.842(4) 164.7(3) -36.2c",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -36.2,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "somma dei contributi del legame C-H···O e del legame a alogeno (nota [c] della Tabella 6)"
+  },
+  {
+   "id": "X86",
+   "categoria": "geometria",
+   "proprieta": "D···A: N2···O3 (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "N2···O3 2.866(5) 146.3(3) -27.7",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.866,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 146.3,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X87",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N2···O3 (DTA methanol monosolvate, Tabella 6)",
+   "citazione": "N2···O3 2.866(5) 146.3(3) -27.7",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -27.7,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X88",
+   "categoria": "geometria",
+   "proprieta": "D···A: N101···O104 (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "N101···O104 2.734(5) 165.1(3) -33.0c",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.734,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 165.1,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X89",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N101···O104 (DTA methanol monosolvate, Tabella 6)",
+   "citazione": "N101···O104 2.734(5) 165.1(3) -33.0c",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -33.0,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "somma dei contributi del legame C-H···O e del legame a alogeno (nota [c] della Tabella 6)"
+  },
+  {
+   "id": "X90",
+   "categoria": "geometria",
+   "proprieta": "D···A: I1···O4 (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "I1···O4 3.111(3) [d]",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.111,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; legame a alogeno: nessun angolo in tabella; energia «[d]»: non deconvolvibile dai legami H concomitanti (nota [d] della Tabella 6)"
+  },
+  {
+   "id": "X91",
+   "categoria": "geometria",
+   "proprieta": "D···A: I3···O103 (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "I3···O103 3.032(3) -5.9c",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.032,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; legame a alogeno: nessun angolo in tabella"
+  },
+  {
+   "id": "X92",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of I3···O103 (DTA methanol monosolvate, Tabella 6)",
+   "citazione": "I3···O103 3.032(3) -5.9c",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -5.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "somma dei contributi del legame C-H···O e del legame a alogeno (nota [c] della Tabella 6)"
+  },
+  {
+   "id": "X93",
+   "categoria": "geometria",
+   "proprieta": "D···A: I103···O103 (Tabella 6, DTA methanol monosolvate)",
+   "citazione": "I103···O103 3.038(3) [d]",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.038,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; legame a alogeno: nessun angolo in tabella; energia «[d]»: non deconvolvibile dai legami H concomitanti (nota [d] della Tabella 6)"
+  },
+  {
+   "id": "X94",
+   "categoria": "geometria",
+   "proprieta": "D···A: O1···O2S (Tabella 6, DTA dioxane/water monosolvate)",
+   "citazione": "O1···O2S 2.559(5) 168.4(5) -52.2",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.559,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 168.4,
+     "incertezza": 5,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X95",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O1···O2S (DTA dioxane/water monosolvate, Tabella 6)",
+   "citazione": "O1···O2S 2.559(5) 168.4(5) -52.2",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -52.2,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X96",
+   "categoria": "geometria",
+   "proprieta": "D···A: N2···O2 (Tabella 6, DTA dioxane/water monosolvate)",
+   "citazione": "N2···O2 2.841(5) 160.9(4) -26.7",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.841,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 160.9,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X97",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N2···O2 (DTA dioxane/water monosolvate, Tabella 6)",
+   "citazione": "N2···O2 2.841(5) 160.9(4) -26.7",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -26.7,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X98",
+   "categoria": "geometria",
+   "proprieta": "D···A: O3···O1W (Tabella 6, DTA dioxane/water monosolvate)",
+   "citazione": "O3···O1W 2.744(5) 147(5) -46.6",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.744,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 147,
+     "incertezza": 5,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X99",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O3···O1W (DTA dioxane/water monosolvate, Tabella 6)",
+   "citazione": "O3···O1W 2.744(5) 147(5) -46.6",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -46.6,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X100",
+   "categoria": "geometria",
+   "proprieta": "D···A: N1···O1W (Tabella 6, DTA dioxane/water monosolvate)",
+   "citazione": "N1···O1W 2.844(5) 161.8(4) -12.1",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.844,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 161.8,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra"
+  },
+  {
+   "id": "X101",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of N1···O1W (DTA dioxane/water monosolvate, Tabella 6)",
+   "citazione": "N1···O1W 2.844(5) 161.8(4) -12.1",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -12.1,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X102",
+   "categoria": "geometria",
+   "proprieta": "D···A: O1W···O1S (Tabella 6, DTA dioxane/water monosolvate)",
+   "citazione": "O1W···O1S 2.841(5) 165.6b -21.8",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.841,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D-H···A angle",
+     "valore": 165.6,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; angolo dopo ottimizzazione elettrostatica delle posizioni degli H dell'acqua (nota [b])"
+  },
+  {
+   "id": "X103",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of O1W···O1S (DTA dioxane/water monosolvate, Tabella 6)",
+   "citazione": "O1W···O1S 2.841(5) 165.6b -21.8",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -21.8,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X104",
+   "categoria": "geometria",
+   "proprieta": "D···A: I1···O4 (Tabella 6, DTA dioxane/water monosolvate)",
+   "citazione": "I1···O4 2.986(3) -5.3",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 2.986,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; legame a alogeno: nessun angolo in tabella"
+  },
+  {
+   "id": "X105",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of I1···O4 (DTA dioxane/water monosolvate, Tabella 6)",
+   "citazione": "I1···O4 2.986(3) -5.3",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -5.3,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true
+  },
+  {
+   "id": "X106",
+   "categoria": "geometria",
+   "proprieta": "D···A: I3···O1W (Tabella 6, DTA dioxane/water monosolvate)",
+   "citazione": "I3···O1W 3.034(4) -10.9c",
+   "valori": [
+    {
+     "etichetta": "D···A distance",
+     "valore": 3.034,
+     "incertezza": 4,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze: cifra fra parentesi sull'ultima cifra; legame a alogeno: nessun angolo in tabella"
+  },
+  {
+   "id": "X107",
+   "categoria": "computazionale",
+   "proprieta": "PACHA interaction energy of I3···O1W (DTA dioxane/water monosolvate, Tabella 6)",
+   "citazione": "I3···O1W 3.034(4) -10.9c",
+   "valori": [
+    {
+     "etichetta": "PACHA interaction energy",
+     "valore": -10.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "PACHA",
+   "calcolato": true,
+   "note": "somma dei contributi del legame C-H···O e del legame a alogeno (nota [c] della Tabella 6)"
+  },
+  {
+   "id": "X108",
+   "categoria": "geometria",
+   "proprieta": "C-I···O halogen bond angles, DMF disolvate (second DMF molecule)",
+   "citazione": "The second DMF molecule, on the other hand, interacts with the host molecule with an near linear O∙∙∙I3 halogen bond and a somewhat more angular interaction to the iodine atom I2 (C-I∙∙∙O angles of 173° and 167°, respectively, averaged over both solvent positions).",
+   "valori": [
+    {
+     "etichetta": "C-I3···O angle",
+     "valore": 173,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C-I2···O angle",
+     "valore": 167,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "SCXRD",
+   "note": "173° per il legame O···I3 «near linear» e 167° per I2, «averaged over both solvent positions»; i due numeri sono attribuiti nell'ordine «respectively»."
+  },
+  {
+   "id": "X109",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DMF disolvate: disordine dei solventi su due posizioni (occupanze)",
+   "citazione": "These show disorder over two positions for both molecules, with an occupancy of approximately 50:50 for one molecule and 30:70 for the other.",
+   "valori": [
+    {
+     "etichetta": "occupancy, first DMF molecule",
+     "testo": "approximately 50:50",
+     "circa": true
+    },
+    {
+     "etichetta": "occupancy, second DMF molecule",
+     "testo": "30:70"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "solvent molecules disordered over two positions; the overall orientation of the envelope of the two solvent sites is unchanged and the carbonyl oxygen stays almost in the same position"
+  },
+  {
+   "id": "X110",
+   "categoria": "termica",
+   "proprieta": "Form II: transition temperature (onset) e calore di transizione con incertezza (Tabella 3)",
+   "citazione": "Form II 210.8±0.4 -7.3±0.3",
+   "valori": [
+    {
+     "etichetta": "transition temperature (onset)",
+     "valore": 210.8,
+     "incertezza": 0.4,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "heat of transition",
+     "valore": -7.3,
+     "incertezza": 0.3,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "Form II"
+   },
+   "tecnica": "DSC",
+   "note": "Gli stessi valori sono nell'evento E4 dell'estrazione principale; qui si aggiungono le incertezze («±»), che la grandezza dello schema v1.4 non puo' contenere. L'unita' sta nell'intestazione della tabella."
+  },
+  {
+   "id": "X111",
+   "categoria": "termica",
+   "proprieta": "Form III: punto di fusione (onset) e calore di fusione con incertezza (Tabella 3)",
+   "citazione": "Form III 306.7±2.3 31.6±1.7",
+   "valori": [
+    {
+     "etichetta": "melting point (onset)",
+     "valore": 306.7,
+     "incertezza": 2.3,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "heat of fusion",
+     "valore": 31.6,
+     "incertezza": 1.7,
+     "unita": "kJ/mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "Form III"
+   },
+   "tecnica": "DSC",
+   "note": "Gli stessi valori sono nell'evento E5 dell'estrazione principale; qui si aggiungono le incertezze."
+  },
+  {
+   "id": "X112",
+   "categoria": "composizione",
+   "proprieta": "perdita di massa calcolata per un diidrato",
+   "citazione": "(calculated value for a dihydrate is 5.54%)",
+   "valori": [
+    {
+     "etichetta": "calculated mass loss for a dihydrate",
+     "valore": 5.54,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "TGA",
+   "calcolato": true,
+   "note": "Il valore osservato (5.68%) e' nell'evento E1."
+  },
+  {
+   "id": "X113",
+   "categoria": "termica",
+   "proprieta": "DTS tetrahydrate: acqua persa nel primo passo TG (moli)",
+   "citazione": "TGA analysis shows an initial weight loss step of 6.38%, corresponding to 2.4 moles of water.",
+   "valori": [
+    {
+     "etichetta": "water lost, first TG step",
+     "valore": 2.4,
+     "unita": "mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "TGA",
+   "note": "Il 6.38% e' nell'evento E10. Il testo scrive «moles of water»; il confronto con le «4 moles anticipated for a tetrahydrate» indica moli per mole (unita' DTS)."
+  },
+  {
+   "id": "X114",
+   "categoria": "termica",
+   "proprieta": "DTS tetrahydrate: acqua persa nel secondo passo TG (moli)",
+   "citazione": "a second mass loss of 2.08% (0.75 moles of water) occurs in the range 170 to 210 °C.",
+   "valori": [
+    {
+     "etichetta": "water lost, second TG step",
+     "valore": 0.75,
+     "unita": "mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "TGA",
+   "note": "Il 2.08% e l'intervallo sono nell'evento E11."
+  },
+  {
+   "id": "X115",
+   "categoria": "termica",
+   "proprieta": "DTS tetrahydrate: perdita totale d'acqua prima della decomposizione (moli)",
+   "citazione": "The total mass loss before decomposition adds up to 3.15 moles,",
+   "valori": [
+    {
+     "etichetta": "total water lost before decomposition",
+     "valore": 3.15,
+     "unita": "mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "TGA"
+  },
+  {
+   "id": "X116",
+   "categoria": "termica",
+   "proprieta": "DTS tetrahydrate: moli d'acqua attese per un tetraidrato",
+   "citazione": "considerably lower than the 4 moles anticipated for a tetrahydrate.",
+   "valori": [
+    {
+     "etichetta": "water anticipated for a tetrahydrate",
+     "valore": 4,
+     "unita": "mol"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "TGA",
+   "calcolato": true,
+   "note": "La frase continua quella della voce precedente (3.15 moli), interrotta dall'intestazione di pagina. Il testo discute la discrepanza: gli autori ammettono che il campione puo' aver perso acqua in conservazione o nel gas di spurgo secco della TG."
+  },
+  {
+   "id": "X117",
+   "categoria": "termica",
+   "proprieta": "DTS tetrahydrate: decomposizione piu' bassa che nel diidrato di DTA",
+   "citazione": "Compared to the DTA dihydrate, this decomposition takes place about 40 °C lower and indicates the lower thermal stability of the sodium salt.",
+   "valori": [
+    {
+     "etichetta": "decomposition temperature difference, DTS vs DTA dihydrate",
+     "valore": 40,
+     "unita": "°C",
+     "circa": true
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "TGA"
+  },
+  {
+   "id": "X118",
+   "categoria": "termica",
+   "proprieta": "Form I: TG di Folen et al. presentata solo da 40 °C",
+   "citazione": "Form I is originally also characterised by TG, but the data is only presented from a starting temperature of 40 °C.",
+   "valori": [
+    {
+     "etichetta": "starting temperature of the published TG",
+     "valore": 40,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form I"
+   },
+   "tecnica": "TGA",
+   "note": "citato dal rif. 25 (Folen et al.)"
+  },
+  {
+   "id": "X119",
+   "categoria": "termica",
+   "proprieta": "perdita di massa calcolata per il tetartoidrato (0.7%)",
+   "citazione": "Taking into account the possible non-stoichiometric behaviour of the tetartohydrate and the calculated overall mass loss of only 0.7%, the release of the water could be easily missed or misinterpreted as loss of surface attached solvent.",
+   "valori": [
+    {
+     "etichetta": "calculated overall mass loss",
+     "valore": 0.7,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "TGA",
+   "calcolato": true
+  },
+  {
+   "id": "X120",
+   "categoria": "metodo",
+   "proprieta": "HSM della disidratazione di DTS tetrahydrate: T della prima micrografia e intervallo fra le immagini",
+   "citazione": "The first micrograph is taken at 74 °C with the following images taken every 5 seconds at a heating rate of 10 °C min-1.",
+   "valori": [
+    {
+     "etichetta": "temperature of the first micrograph",
+     "valore": 74,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "interval between images",
+     "valore": 5,
+     "unita": "s"
+    },
+    {
+     "etichetta": "heating rate",
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "HSM",
+   "note": "La velocita' di riscaldamento e' anche nell'evento E9."
+  },
+  {
+   "id": "X121",
+   "categoria": "composizione",
+   "proprieta": "DTS tetrahydrate: stechiometria dell'acqua a occupanza piena",
+   "citazione": "stoichiometry of 4.5 water molecules per DTS unit.",
+   "valori": [
+    {
+     "etichetta": "water stoichiometry if all water positions were fully occupied",
+     "valore": 4.5,
+     "unita": "H2O per unita' DTS"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "SCXRD",
+   "calcolato": true,
+   "note": "Continua «Full occupancy of all water positions would result in a», interrotta da un'intestazione di pagina. La stechiometria osservata (4.25) e' nella forma F6."
+  },
+  {
+   "id": "X122",
+   "categoria": "spettroscopia",
+   "proprieta": "OH and NH vibrational region, dihydrate -> Form II (IR)",
+   "citazione": "The most striking changes are in the OH and NH vibrational region around 3500 cm-1, which changes significantly from the dihydrate to its dehydrated Form II.",
+   "valori": [
+    {
+     "etichetta": "OH and NH vibrational region",
+     "valore": 3500,
+     "unita": "cm-1",
+     "circa": true
+    }
+   ],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "dihydrate to its dehydrated Form II"
+   },
+   "tecnica": "FTIR",
+   "qualitativo": "the OH/NH region changes significantly from the dihydrate to Form II"
+  },
+  {
+   "id": "X123",
+   "categoria": "spettroscopia",
+   "proprieta": "OH and NH vibrational region, Form III (IR)",
+   "citazione": "Surprisingly, Form III has a sharp peak in this region, which points towards a very distinct hydrogen-bonding pattern involving the carboxylic acid or the amido NH groups.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "Form III"
+   },
+   "tecnica": "FTIR",
+   "qualitativo": "sharp peak in the OH/NH region (around 3500 cm-1, see previous entry): points to a very distinct hydrogen-bonding pattern involving the carboxylic acid or the amido NH groups"
+  },
+  {
+   "id": "X124",
+   "categoria": "spettroscopia",
+   "proprieta": "carbonyl stretch vibrations (IR)",
+   "citazione": "This assumption is supported by the changes detected in the carbonyl stretch vibrations at around 1700 cm-1.",
+   "valori": [
+    {
+     "etichetta": "carbonyl stretch",
+     "valore": 1700,
+     "unita": "cm-1",
+     "circa": true
+    }
+   ],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "dihydrate, Form II, Form III"
+   },
+   "tecnica": "FTIR",
+   "qualitativo": "changes detected in the carbonyl stretch vibrations"
+  },
+  {
+   "id": "X125",
+   "categoria": "spettroscopia",
+   "proprieta": "aromatic ring vibrations region (IR)",
+   "citazione": "Another region of changes is between 1700 and 1600 cm-1, in which the aromatic ring vibrations are located.",
+   "valori": [
+    {
+     "etichetta": "upper limit of the region",
+     "valore": 1700,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "lower limit of the region",
+     "valore": 1600,
+     "unita": "cm-1"
+    }
+   ],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "dihydrate, Form II, Form III"
+   },
+   "tecnica": "FTIR",
+   "qualitativo": "region of changes between the forms"
+  },
+  {
+   "id": "X126",
+   "categoria": "spettroscopia",
+   "proprieta": "fingerprint region (IR)",
+   "citazione": "For phase identification, even though the exact nature of the vibrations is hard to establish, the fingerprint region offers unique patterns for each of the three crystal forms.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "dihydrate, Form II, Form III"
+   },
+   "tecnica": "FTIR",
+   "qualitativo": "the fingerprint region gives a unique pattern for each of the three forms"
+  },
+  {
+   "id": "X127",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intensita' dei picchi PXRD di Form II e Form III",
+   "citazione": "Due to the high absorption of the DTA molecule caused by the three iodine substituents, the PXRD patterns of Forms II and III are very low in intensity.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "Forms II and III"
+   },
+   "tecnica": "PXRD",
+   "qualitativo": "very low intensity because of the high absorption of the three iodine substituents"
+  },
+  {
+   "id": "X128",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "variazioni delle posizioni dei picchi PXRD fra le forme anidre",
+   "citazione": "However, clear changes in peak positions can be seen, proving that a phase transition occurred.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "dihydrate, Form II, Form III"
+   },
+   "tecnica": "PXRD",
+   "qualitativo": "clear changes in peak positions: the transition occurred"
+  },
+  {
+   "id": "X129",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD calcolati di tetartohydrate e Form I",
+   "citazione": "the calculated patterns show such similarity such that it would be very difficult to differentiate between the two forms with experimental data from lab-based X-ray diffractometers (Figure S4).",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "tetartohydrate and Form I"
+   },
+   "tecnica": "PXRD",
+   "qualitativo": "calculated PXRD patterns of the tetartohydrate and Form I are very similar; experimental patterns could not be measured because sufficient pure Form I could not be obtained",
+   "calcolato": true
+  },
+  {
+   "id": "X130",
+   "categoria": "morfologia",
+   "proprieta": "DTA dihydrate: abito dei cristalli",
+   "citazione": "prismatic block-shaped crystals of the dihydrate",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "qualitativo": "prismatic block-shaped crystals; crystal size depends on the cooling rate"
+  },
+  {
+   "id": "X131",
+   "categoria": "morfologia",
+   "proprieta": "DTS tetrahydrate: lamelle iniziali che maturano in blocchi",
+   "citazione": "The initial crystals formed are fine blades (Figure 1b), which over time ripen to blocks (Figure 1c).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "qualitativo": "fine blades that ripen to blocks (Ostwald ripening, no phase transition)"
+  },
+  {
+   "id": "X132",
+   "categoria": "morfologia",
+   "proprieta": "DTS tetrahydrate: blocchi gemellati",
+   "citazione": "Block-shaped single crystals of the DTS tetrahydrate turned out to be twinned and represent presumably an aggregation of the initially crystallising blades.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "qualitativo": "block-shaped crystals twinned, presumably an aggregation of the initial blades"
+  },
+  {
+   "id": "X133",
+   "categoria": "morfologia",
+   "proprieta": "DTA DMF disolvate: abito dei cristalli",
+   "citazione": "large prisms form (Figure S5)",
+   "valori": [],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "qualitativo": "large prisms"
+  },
+  {
+   "id": "X134",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dihydrate: impacchettamento a strati",
+   "citazione": "This crystal packing results in the formation of layers which are strongly hydrogen bonded.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "qualitativo": "layers strongly hydrogen bonded"
+  },
+  {
+   "id": "X135",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dihydrate: legame fra gli strati lungo b",
+   "citazione": "Interestingly, in the direction of the crystallographic b-axis, the packing of the layers is only stabilised through weaker C-H···O interactions, and thus the association between layers cannot be as strong as the interactions within the layers.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "qualitativo": "packing of the layers along b stabilised only by weaker C-H···O interactions"
+  },
+  {
+   "id": "X136",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dihydrate: gruppi CH3 terminali (neutroni)",
+   "citazione": "As expected, the terminal CH3 groups of the host molecule show rather large atomic anisotropic displacement parameters (ADPs) for the hydrogen positions indicating rotational mobility in these groups, which could not be modelled as static disorder and is most likely of dynamic origin.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "qualitativo": "large ADPs of the CH3 hydrogens: rotational mobility, most likely dynamic, not modelled as static disorder"
+  },
+  {
+   "id": "X137",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dihydrate: neutroni, qualita' del modello",
+   "citazione": "Due to the low symmetry of this crystal structure (triclinic, P1ത) the Laue diffraction patterns measured for a single orientation of the crystal on the φ axis gave only a restricted amount of data. However, the structural model could be refined to give a stable solution without restraints and all hydrogen atoms could be identified reliably from the Fourier difference maps (Figure 2a).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "qualitativo": "restricted amount of data, model refined without restraints, all H atoms identified from difference Fourier maps"
+  },
+  {
+   "id": "X138",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dihydrate: contatti O···I",
+   "citazione": "Even though there are short contacts between oxygen and iodine atoms in the dihydrate, these are not shorter than the sum of the van der Waals radii, and PACHA calculations do not suggest that this is a stabilising interaction.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "qualitativo": "short O···I contacts, not shorter than the sum of the van der Waals radii: no halogen bonds, consequence of the final packing"
+  },
+  {
+   "id": "X139",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: niente legami a alogeno",
+   "citazione": "For the DTS tetrahydrate, no halogen bonds were observed, which is",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "qualitativo": "no halogen bonds observed"
+  },
+  {
+   "id": "X140",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: perche' niente legami a alogeno",
+   "citazione": "likely due to the much stronger forces of the ionic interactions shaping the crystal packing.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "qualitativo": "attributed to the much stronger forces of the ionic interactions shaping the packing (continua la voce precedente, interrotta dall'intestazione di pagina)"
+  },
+  {
+   "id": "X141",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: acqua O1W e O2W",
+   "citazione": "the non-coordinated water molecules O1W and O2W could leave more readily, especially since they are located in very small channels along (0 1 0) in the crystal structure",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "qualitativo": "non-coordinated water molecules O1W and O2W in very small channels along (0 1 0) (autori: plausible che escano per primi)"
+  },
+  {
+   "id": "X142",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: acqua O4W e O5W a ponte fra due sodi",
+   "citazione": "These sites are most likely the water molecules O4W and O5W, which bridge two sodium cations.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "qualitativo": "O4W and O5W bridge two sodium cations; in the present determination both fully occupied (half occupancy of one site in Tonnessen et al.)"
+  },
+  {
+   "id": "X143",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: occupanze rispetto a Tonnessen et al.",
+   "citazione": "Tonnessen et al.[23] report in their structure only half occupancy of one of these sites, while the present determination exhibits full occupancy for both water molecules, which is presumably due to rapid sample handling and hence less dehydration before the single-crystal diffraction experiment.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "half occupancy of one of the O4W/O5W sites in the earlier structure, full occupancy of both here",
+   "note": "citato dal rif. 23"
+  },
+  {
+   "id": "X144",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: ADP grandi di H nei gruppi CH3 e in alcune acque (neutroni)",
+   "citazione": "In addition, the hydrogen atoms on three of the water molecules (O1W, O2W and O4W) show large ADPs, which in the case of the former two can be explained by higher mobility of the water molecules in the crystal lattice, as they are not coordinated to sodium cations.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "qualitativo": "large ADPs on the H atoms of O1W, O2W and O4W; O4W bridges two cations so its mobility should be reduced"
+  },
+  {
+   "id": "X145",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: neutroni, una sola rotazione",
+   "citazione": "The neutron beam time available permitted data collection for rotation around just one direction in the crystal.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "qualitativo": "data collection for rotation around just one direction: paucity of data along that axis can exaggerate the displacement parameters"
+  },
+  {
+   "id": "X146",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: motivi di legame H simili al diidrato",
+   "citazione": "However, similar motifs of hydrogen bonding can be found in both crystal forms.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "DTS tetrahydrate and DTA dihydrate"
+   },
+   "qualitativo": "similar hydrogen-bonding motifs in the DTS tetrahydrate and the DTA dihydrate, although DTS has a more complex network (host and water coordinated to sodium)"
+  },
+  {
+   "id": "X147",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: dimeri separati dai sodi",
+   "citazione": "crystallographic c-axis (Figure 2), the dimers in the DTS tetrahydrate are separated by the water-coordinated sodium cations.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "qualitativo": "in the dihydrate the dimer motif links the DTA-water capsules along c; in the tetrahydrate the dimers are separated by water-coordinated sodium cations",
+   "note": "La frase comincia con «But whilst this motif links the DTA-water capsules in the dihydrate along the» prima dell'intestazione di pagina."
+  },
+  {
+   "id": "X148",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: rete di legami dell'ossigeno O4 con tre acque",
+   "citazione": "The amido carbonyl oxygen (O4) of the other molecule is involved in hydrogen bonding to three different water molecules: a bridging water molecule (O1W) between the amido carbonyl and sodium-coordinated oxygen atom of the carboxylate of the same molecule (Figure 7), a bridging water molecule (O6W) between the carbonyl oxygen and the carboxylate of an adjacent anion and a water molecule (O8Wb) bridging to another water molecule (O8Wa).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "qualitativo": "O4 H-bonded to O1W (bridging to the carboxylate), O6W (bridging to an adjacent anion) and O8Wb (bridging to O8Wa)"
+  },
+  {
+   "id": "X149",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTS tetrahydrate: un carbonile amidico libero verso il dimero successivo",
+   "citazione": "This leaves one amido carbonyl group free for linking to the next DTS dimer through hydrogen bonding to the remaining free amido NH group (N2 and N102).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "qualitativo": "one amido carbonyl group free to link the next DTS dimer through the remaining free amido NH (N2 and N102)"
+  },
+  {
+   "id": "X150",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA tetartohydrate: conformazione trans e acqua lontana dai gruppi",
+   "citazione": "The incorporated water molecule is relatively far away from any potential hydrogen bond donor or acceptor, and hydrogen atom positions could not be located in the Fourier maps.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "water far from any donor/acceptor; H atom positions not located in the Fourier maps"
+  },
+  {
+   "id": "X151",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA tetartohydrate: interazione a lungo raggio dell'acqua con O4",
+   "citazione": "However, electrostatic optimisation of the hydrogen positions suggests long distance interactions between the water molecule and the amido carbonyl oxygen atom O4, which would give a bridging connection between two host stacks along the crystallographic a-axis.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "qualitativo": "electrostatic optimisation suggests long-distance water···O4 interactions bridging two host stacks along a",
+   "calcolato": true
+  },
+  {
+   "id": "X152",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA tetartohydrate: l'acqua come space filler",
+   "citazione": "the water molecules act mainly as ‘space fillers’ and that the interactions involving them are not essential for the stability of the crystal structure.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "qualitativo": "water acts mainly as space filler; its interactions are not essential for the stability"
+  },
+  {
+   "id": "X153",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "tetartohydrate e Form I: struttura quasi uguale",
+   "citazione": "Since the tetartohydrate and Form I are structurally very closely related, it is difficult to determine with certainty, which crystal form was originally described by Folen et al.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "tetartohydrate and Form I"
+   },
+   "qualitativo": "structurally very closely related (isostructural); unclear which of the two Folen et al. described"
+  },
+  {
+   "id": "X154",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "isostrutturalita' e relazioni di impacchettamento fra le forme",
+   "citazione": "Considering the crystal packing, the DTA DMSO monosolvate and the DTA THF monosolvate are isostructural, whilst the DTA brickwork-like network can also be found in the DTA DMF disolvate.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "DMSO monosolvate, THF monosolvate, DMF disolvate"
+   },
+   "qualitativo": "DMSO monosolvate and THF monosolvate isostructural; brickwork-like network also in the DMF disolvate"
+  },
+  {
+   "id": "X155",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "isostrutturalita': DTS tetrahydrate/dioxane-water e tetartohydrate/Form I",
+   "citazione": "The DTS tetrahydrate and the DTA dioxane water monosolvate show a close relationship in their packing, whilst the DTA tetartohydrate and the anhydrous Form I are isostructural.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "DTS tetrahydrate, dioxane/water monosolvate, tetartohydrate, Form I"
+   },
+   "qualitativo": "close packing relationship DTS tetrahydrate / dioxane-water monosolvate; tetartohydrate and Form I isostructural"
+  },
+  {
+   "id": "X156",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DMSO disolvate: interazioni fra le molecole di DTA",
+   "citazione": "The DMSO disolvate shows only two interactions between the DTA molecules, one being a N-H∙∙∙O hydrogen bond between two amide groups, the other the pseudocentrosymmetric dimer formation via an I∙∙∙O halogen bond involving the carboxylic acid group.",
+   "valori": [],
+   "oggetto": {
+    "etichetta": "DTA DMSO disolvate"
+   },
+   "qualitativo": "only two host···host interactions (amide N-H···O and pseudocentrosymmetric dimer via I···O halogen bond at the carboxylic acid); the other H-bonding groups interact with the solvent",
+   "note": "Forma gia' pubblicata (rif. 26), non nell'estrazione principale"
+  },
+  {
+   "id": "X157",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DMF disolvate: orientazione AABB della rete a mattoni",
+   "citazione": "The network shows the DTA molecules orienting in an AABB fashion, which is different to the ABAB orientation of the DMSO monosolvate.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "qualitativo": "AABB orientation of the brickwork network, different from the ABAB orientation of the DMSO monosolvate"
+  },
+  {
+   "id": "X158",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DMF disolvate: stesso gruppo spaziale del disolvato di DMSO, impacchettamento diverso",
+   "citazione": "Even though DMF and DMSO are related in size and shape, and although the DMF disolvate and the DMSO disolvate crystallise in the same space group, the overall packing of the two crystal structures is different.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "qualitativo": "same space group as the DMSO disolvate, but different overall packing"
+  },
+  {
+   "id": "X159",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DMF disolvate: conformazione anti delle catene amidiche",
+   "citazione": "The DTA molecule adopts an antiparallel conformation of the amide side-chains, similar to the DMSO tetra- and disolvates.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "qualitativo": "antiparallel conformation of the amide side-chains",
+   "note": "Il testo dice poi (sezione «Structural relationships») che il disolvato di DMSO ha la conformazione syn: contraddizione interna dell'articolo."
+  },
+  {
+   "id": "X160",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA THF monosolvate: conformazione syn, imparentato col disolvato di DMF",
+   "citazione": "It is structurally related to the DMF disolvate and the DMSO monosolvate, even though the host molecule exhibits a syn-conformation of the amido substituents, unlike the anticonformation found in the related solvates.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "qualitativo": "syn-conformation of the amido substituents; structurally related to the DMF disolvate and the DMSO monosolvate"
+  },
+  {
+   "id": "X161",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA THF monosolvate: isostrutturale col monosolvato di DMSO",
+   "citazione": "In fact, the THF monosolvate and the DMSO monosolvate are isostructural, even though the former crystallises in a lower symmetry space group.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "DTA THF monosolvate"
+   },
+   "qualitativo": "isostructural with the DMSO monosolvate, in a lower symmetry space group"
+  },
+  {
+   "id": "X162",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA methanol monosolvate: impacchettamento simile alla Form I",
+   "citazione": "The overall packing resembles that of Form I of solvent-free DTA (vide supra).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "qualitativo": "overall packing resembles that of Form I"
+  },
+  {
+   "id": "X163",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA methanol monosolvate: legami a alogeno",
+   "citazione": "Halogen bonds can be detected from I1, I3 and I103 to the carbonyl oxygen atoms of the amido groups of neighbouring DTA molecules.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "qualitativo": "halogen bonds from I1, I3 and I103 to amido carbonyl oxygen atoms: additional stabilising factor between the stacks"
+  },
+  {
+   "id": "X164",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dioxane/water monosolvate: impacchettamento con grandi cavita'",
+   "citazione": "This packing results in large cavities, which contain the solvent, and thus resembles the packing of the DTS tetrahydrate.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "qualitativo": "large cavities containing the solvent; packing resembles the DTS tetrahydrate"
+  },
+  {
+   "id": "X165",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dioxane/water monosolvate: due legami a alogeno",
+   "citazione": "In addition to these strong interactions, two halogen bonds are observed from I1 to an amido oxygen atom O4 and from I3 to the water molecule.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "qualitativo": "two halogen bonds: I1···O4 (amido) and I3···water"
+  },
+  {
+   "id": "X166",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dioxane/water monosolvate: l'acqua non e' solo uno space filler",
+   "citazione": "Unlike the DTA tetartohydrate, the dioxane/water monosolvate does not incorporate water molecules purely as space fillers.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "qualitativo": "water interacts extensively with the host and the other solvent molecule: inherent part of the structure"
+  },
+  {
+   "id": "X167",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dioxane/water monosolvate: conformazione syn",
+   "citazione": "molecules adopt a syn-conformation. They assemble in",
+   "valori": [],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "qualitativo": "host molecules in syn-conformation",
+   "note": "La frase «The host» e' prima dell'intestazione di pagina e della Figura 9."
+  },
+  {
+   "id": "X168",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "i soli idrati non hanno legami a alogeno",
+   "citazione": "Another interesting finding is that when DTA interacts purely with water, i.e. in the case of the dihydrate and the tetartohydrate, no halogen bonds are formed, in stark contrast to the nonaqueous solvates.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "dihydrate and tetartohydrate"
+   },
+   "qualitativo": "no halogen bonds with pure water, in contrast to the non-aqueous solvates"
+  },
+  {
+   "id": "X169",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "ruolo dell'acqua nel tetartoidrato: solo space filler",
+   "citazione": "The only exception is the tetarto hydrate, for which the water molecule fulfils a purely space-filling role without any interaction with the host.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "qualitativo": "the only form in which the solvent (water) does not interact with the host via the carboxylic acid group: purely space-filling"
+  },
+  {
+   "id": "X170",
+   "categoria": "computazionale",
+   "proprieta": "PACHA: base di calcolo (neutroni) e limiti",
+   "citazione": "The atomic coordinates derived from the neutron structure determination were used for semi-empirical lattice energy calculations using PACHA.[15c]",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "semi-empirical lattice energy calculations on the neutron coordinates",
+   "calcolato": true,
+   "note": "Nella Conclusione gli stessi calcoli sono chiamati «non-empirical lattice energy calculations»: incoerenza dell'articolo."
+  },
+  {
+   "id": "X171",
+   "categoria": "computazionale",
+   "proprieta": "PACHA: ordine delle energie di legame H nel diidrato",
+   "citazione": "All hydrogen bonds involving the water molecules are considerably stronger than the homomeric host to host interactions.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "all H bonds involving water considerably stronger than the homomeric host···host ones; strongest: acid OH···O1W",
+   "calcolato": true
+  },
+  {
+   "id": "X172",
+   "categoria": "computazionale",
+   "proprieta": "PACHA: legami O1W···O2W del quadrato d'acqua",
+   "citazione": "The hydrogen bonds between O1W and O2W in the water square have a stabilising energy of almost double the value compared to the homomeric interactions.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "stabilising energy almost double that of the homomeric interactions",
+   "calcolato": true
+  },
+  {
+   "id": "X173",
+   "categoria": "computazionale",
+   "proprieta": "PACHA: legame O-H···O dell'acido con O1W",
+   "citazione": "The strongest interaction, however, is the hydrogen bond donated from the carboxylic acid OH group of the host to the oxygen atom O1W of the water molecule",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "strongest interaction of the dihydrate: carboxylic acid OH to O1W",
+   "calcolato": true
+  },
+  {
+   "id": "X174",
+   "categoria": "computazionale",
+   "proprieta": "PACHA: tetartoidrato, dimeri e acido",
+   "citazione": "The DTA dimers are both connected through medium-strength hydrogen bonds (Table 4), while the interaction involving the acid group is considerably stronger.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "both dimer hydrogen bonds of medium strength; the interaction involving the acid group considerably stronger",
+   "calcolato": true
+  },
+  {
+   "id": "X175",
+   "categoria": "computazionale",
+   "proprieta": "PACHA: tetartoidrato, interazioni dell'acqua deboli",
+   "citazione": "The interactions involving the water molecule are rather weak compared to those found in the dihydrate, which is attributed to the long distance of the interacting atoms.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "DTA tetartohydrate"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "water interactions rather weak compared to those of the dihydrate, attributed to the long distance of the interacting atoms",
+   "calcolato": true
+  },
+  {
+   "id": "X176",
+   "categoria": "computazionale",
+   "proprieta": "PACHA: solvati, la piu' forte e' l'acido carbossilico",
+   "citazione": "It is clear that the strongest interaction in all solvates involves the carboxylic acid group, followed by",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "solvates"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "strongest interaction in all solvates involves the carboxylic acid group, followed by the homomeric interactions through the amide moieties",
+   "calcolato": true,
+   "note": "La frase continua dopo la didascalia della Figura 10 con «homomeric interactions of the DTA through the amide moieties»."
+  },
+  {
+   "id": "X177",
+   "categoria": "computazionale",
+   "proprieta": "PACHA: dioxane/water, seconda interazione piu' forte con l'acqua",
+   "citazione": "In the case of the dioxane/water solvate, the second strongest interaction involves the incorporated water molecule, supporting the statement that the water is not only a space-filler in this solvate.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "DTA dioxane/water monosolvate"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "second strongest interaction involves the incorporated water molecule",
+   "calcolato": true
+  },
+  {
+   "id": "X178",
+   "categoria": "computazionale",
+   "proprieta": "PACHA non applicabile al DTS tetrahydrate",
+   "citazione": "crystal lattice energy calculations using the PACHA algorithm were not feasible due to the high complexity of the coordination network.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "PACHA lattice energy calculations not feasible because of the complexity of the coordination network",
+   "calcolato": true
+  },
+  {
+   "id": "X179",
+   "categoria": "altro",
+   "proprieta": "numero di forme solide di DTA (abstract)",
+   "citazione": "Diatrizoic acid (DTA), a clinically used X-ray contrast agent, crystallises in two hydrated, three anhydrous and nine solvated solid forms, all of which have been characterised by X-ray crystallography.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "two hydrated, three anhydrous and nine solvated solid forms, all characterised by X-ray crystallography (comprese le tre forme DMSO gia' pubblicate)",
+   "note": "Conteggio dell'articolo; le forme anidre II e III non hanno struttura a cristallo singolo (nessuna struttura per esse), contro «all of which have been characterised by X-ray crystallography» dell'abstract."
+  },
+  {
+   "id": "X180",
+   "categoria": "altro",
+   "proprieta": "numero di forme riportate (conclusione)",
+   "citazione": "In the present study we report and analyse nine crystal forms of diatrizoic acid (DTA) and one crystal form of its monosodium salt (DTS); eight of all crystal forms have been characterised by X-ray single-crystal diffraction.",
+   "valori": [
+    {
+     "etichetta": "crystal forms of DTA",
+     "valore": 9
+    },
+    {
+     "etichetta": "crystal form of DTS",
+     "valore": 1
+    },
+    {
+     "etichetta": "forms characterised by X-ray single-crystal diffraction",
+     "valore": 8
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   }
+  },
+  {
+   "id": "X181",
+   "categoria": "altro",
+   "proprieta": "numero di forme non solvate e solvate (strutturali)",
+   "citazione": "Taking into account that DTA crystallises in three non-solvated and nine solvate forms",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "three non-solvated and nine solvate forms (compresi gli idrati)"
+  },
+  {
+   "id": "X182",
+   "categoria": "altro",
+   "proprieta": "numero di solvati (conclusione)",
+   "citazione": "The presence of nine solvated crystal forms (including three DMSO solvates previously reported) in addition to the three unsolvated modifications",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "nine solvated forms including the three previously reported DMSO solvates, plus three unsolvated modifications"
+  },
+  {
+   "id": "X183",
+   "categoria": "geometria",
+   "proprieta": "O2-H2···O1W (DTA dihydrate): H···A sorprendentemente corta",
+   "citazione": "It is, however, surprising how short this interaction is, with only 1.45 Å distance between the hydrogen atom and the acceptor oxygen atom.",
+   "valori": [
+    {
+     "etichetta": "H···A distance of the acid OH···O1W hydrogen bond",
+     "valore": 1.45,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "qualitativo": "surprisingly short",
+   "note": "Lo stesso valore e' nella riga della Tabella 2; qui si aggiunge il commento degli autori."
+  },
+  {
+   "id": "X184",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "DTA dihydrate: H acido possibile spostamento fra donatore e accettore, congelato a 120 K",
+   "citazione": "It is possible that this hydrogen atom can move between the donor and the acceptor oxygen at elevated temperatures, as has been shown for a dimethylurea co-crystal,[30] but since the neutron structure has been determined at 120 K, the hydrogen atom is frozen in a more localised position.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "qualitativo": "possible migration of the acid H atom between the donor and the acceptor oxygen at elevated temperatures; in the 120 K neutron structure it is frozen in a more localised position",
+   "note": "Ipotesi degli autori (non osservata); lo spostamento di protone non e' un evento nell'estrazione principale."
+  },
+  {
+   "id": "X185",
+   "categoria": "computazionale",
+   "proprieta": "legami H dell'acido: i piu' forti e gli ultimi a rompersi in desolvatazione (DMSO solvati, rif. 26)",
+   "citazione": "which is consistent with our previous work on DMSO solvates of DTA,[26] in which the hydrogen bonds donated from the acid of DTA are the strongest and hence are expected to be broken last during desolvation during the crystal nucleation process.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "carboxylic acid OH hydrogen bonds"
+   },
+   "tecnica": "PACHA",
+   "qualitativo": "hydrogen bonds donated from the acid of DTA are the strongest and hence are expected to be broken last during desolvation during the crystal nucleation process",
+   "calcolato": true,
+   "note": "Ipotesi sul processo di nucleazione in soluzione (non una trasformazione allo stato solido); anche nell'abstract e nella conclusione."
+  },
+  {
+   "id": "X186",
+   "categoria": "metodo",
+   "proprieta": "probabilita' degli ellissoidi nella Figura 2 (neutroni, DTA dihydrate)",
+   "citazione": "Ellipsoids are drawn at 30 % probability.",
+   "valori": [
+    {
+     "etichetta": "ellipsoid probability",
+     "valore": 30,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "neutron diffraction"
+  },
+  {
+   "id": "X187",
+   "categoria": "metodo",
+   "proprieta": "probabilita' degli ellissoidi nella Figura 8 (neutroni, DTS tetrahydrate)",
+   "citazione": "Atomic displacement ellipsoids are drawn at 30% probability.",
+   "valori": [
+    {
+     "etichetta": "ellipsoid probability",
+     "valore": 30,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "DTS tetrahydrate"
+   },
+   "tecnica": "neutron diffraction",
+   "note": "La stessa frase compare nelle didascalie delle Figure 8 e 10; qui una voce per la frase"
+  },
+  {
+   "id": "X188",
+   "categoria": "metodo",
+   "proprieta": "probabilita' degli ADP nella Figura 9 (DMF disolvate)",
+   "citazione": "ADPs are drawn at 30% probability.",
+   "valori": [
+    {
+     "etichetta": "ADP probability",
+     "valore": 30,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "DTA DMF disolvate"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X189",
+   "categoria": "metodo",
+   "proprieta": "probabilita' degli ellissoidi nella Figura 10 (methanol monosolvate)",
+   "citazione": "Atomic displacement ellipsoids are drawn at 30% probability.",
+   "valori": [
+    {
+     "etichetta": "ellipsoid probability",
+     "valore": 30,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "DTA methanol monosolvate"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X190",
+   "categoria": "cristallografia",
+   "proprieta": "DTA dihydrate: H del modello X-ray localizzati da mappe di Fourier e raffinati liberamente",
+   "citazione": "As all of the remaining hydrogen atoms in the X-ray crystal structure were located from the difference Fourier maps and refined freely, the atomic positions are a compromise between experimental electron density and electrostatic energy optimisation employed in the algorithm of olex.refine.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "DTA dihydrate"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "remaining H atoms located from difference Fourier maps and refined freely; positions a compromise between experimental electron density and the electrostatic energy optimisation of olex.refine"
+  }
+ ]
+}

@@ -1,0 +1,1287 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.3390/cryst11040342",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "metodo",
+   "proprieta": "PXRD di laboratorio: lunghezza d'onda Cu Kα1+2 e lunghezza attiva del rivelatore",
+   "citazione": "Powder X-ray diffraction patterns were obtained on a PANalytical X’Pert PRO MPD diffractometer (Malvern Panalytical, Almelo, Netherlands) in transmission conﬁguration using Cu Kα1+2 radiation (λ = 1.5418 Å) with a focalizing elliptic mirror and a PIXcel detector working at a maximum detector’s active length of 3.347◦.",
+   "valori": [
+    {
+     "etichetta": "wavelength (Cu Kα1+2)",
+     "valore": 1.5418,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "maximum active length of the PIXcel detector",
+     "valore": 3.347,
+     "unita": "°"
+    }
+   ],
+   "tecnica": "PXRD",
+   "note": "Diffrattometro PANalytical X'Pert PRO MPD in trasmissione con specchio ellittico focalizzante."
+  },
+  {
+   "id": "X2",
+   "categoria": "metodo",
+   "proprieta": "PXRD in capillare: diametro dei capillari, intervallo 2θ, passo e tempo totale",
+   "citazione": "Capillary geometry has been used with samples placed in glass capillaries (Lindemman) of 0.5 mm of diameter measuring from 2 to 60◦in 2θ, with a step size of 0.026◦and a total measuring time of 30 min.",
+   "valori": [
+    {
+     "etichetta": "capillary diameter",
+     "valore": 0.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "2θ start",
+     "valore": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ end",
+     "valore": 60,
+     "unita": "°"
+    },
+    {
+     "etichetta": "step size",
+     "valore": 0.026,
+     "unita": "°"
+    },
+    {
+     "etichetta": "total measuring time",
+     "valore": 30,
+     "unita": "min"
+    }
+   ],
+   "tecnica": "PXRD"
+  },
+  {
+   "id": "X3",
+   "categoria": "metodo",
+   "proprieta": "PXRD in geometria piatta: spessore del film di poliestere, intervallo 2θ, passo e tempo per passo",
+   "citazione": "Flat geometry has been used for routine samples sandwiched between low absorbing ﬁlms (polyester of 3.6 microns of thickness) measuring 2theta/theta scans from 2 to 40◦in 2θ with a step size of 0.026◦and a measuring time of 80 seconds per step.",
+   "valori": [
+    {
+     "etichetta": "polyester film thickness",
+     "valore": 3.6,
+     "unita": "microns"
+    },
+    {
+     "etichetta": "2θ start",
+     "valore": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ end",
+     "valore": 40,
+     "unita": "°"
+    },
+    {
+     "etichetta": "step size",
+     "valore": 0.026,
+     "unita": "°"
+    },
+    {
+     "etichetta": "measuring time per step",
+     "valore": 80,
+     "unita": "s"
+    }
+   ],
+   "tecnica": "PXRD",
+   "note": "Campioni di routine."
+  },
+  {
+   "id": "X4",
+   "categoria": "metodo",
+   "proprieta": "PXRD di sincrotrone: lunghezze d'onda per la forma III e per SCHCl3-H2O",
+   "citazione": "The wavelength, 0.63493 Å for form III and 0.61927 Å for SCHCl3-H2O, was selected with a double-crystal Si (111) monochromator and determined from a Si640d NIST standard",
+   "valori": [
+    {
+     "etichetta": "wavelength, form III",
+     "forma": "F3",
+     "valore": 0.63493,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "wavelength, SCHCl3-H2O",
+     "forma": "F5",
+     "valore": 0.61927,
+     "unita": "Å"
+    }
+   ],
+   "tecnica": "PXRD sincrotrone",
+   "note": "Linea BL04-MSPD di ALBA, rivelatore Mythen. La frase continua dopo l'intestazione di pagina con «(a = 5.43123 Å) measurement», voce seguente."
+  },
+  {
+   "id": "X5",
+   "categoria": "metodo",
+   "proprieta": "PXRD di sincrotrone: parametro reticolare dello standard Si640d NIST",
+   "citazione": "(a = 5.43123 Å) measurement.",
+   "valori": [
+    {
+     "etichetta": "a of the Si640d NIST standard",
+     "valore": 5.43123,
+     "unita": "Å"
+    }
+   ],
+   "tecnica": "PXRD sincrotrone",
+   "note": "Continua «determined from a Si640d NIST standard», interrotta dall'intestazione di pagina."
+  },
+  {
+   "id": "X6",
+   "categoria": "metodo",
+   "proprieta": "PXRD di sincrotrone: capillare di 0.7 mm",
+   "citazione": "The capillary of 0.7 mm containing the sample was rotated during data collection to improve diffracting particle statistics.",
+   "valori": [
+    {
+     "etichetta": "capillary diameter",
+     "valore": 0.7,
+     "unita": "mm"
+    }
+   ],
+   "tecnica": "PXRD sincrotrone"
+  },
+  {
+   "id": "X7",
+   "categoria": "metodo",
+   "proprieta": "PXRD di sincrotrone: tempo per pattern, numero di acquisizioni, intervallo angolare e T",
+   "citazione": "The data acquisition time was 10 min per pattern, and the ﬁnal treated data are the addition of ten acquisitions to attain very good signal-to-noise ratio over the angular range 0.5–43.6◦(2θ) at 300K.",
+   "valori": [
+    {
+     "etichetta": "acquisition time per pattern",
+     "valore": 10,
+     "unita": "min"
+    },
+    {
+     "etichetta": "number of acquisitions added",
+     "valore": 10
+    },
+    {
+     "etichetta": "2θ start",
+     "valore": 0.5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ end",
+     "valore": 43.6,
+     "unita": "°"
+    },
+    {
+     "etichetta": "temperature",
+     "valore": 300,
+     "unita": "K"
+    }
+   ],
+   "tecnica": "PXRD sincrotrone",
+   "note": "«ten acquisitions» e' scritto in lettere (10). La T di 300K e' quella dei dati di sincrotrone delle forme III e SCHCl3-H2O (celle F3 e F5)."
+  },
+  {
+   "id": "X8",
+   "categoria": "metodo",
+   "proprieta": "PXRD di sincrotrone: indicizzazione e raffinamento delle celle (software)",
+   "citazione": "Both powder diffraction patterns were indexed using DICVOL06 [17], and the obtained cell parameters were reﬁned via pattern matching with Dajust software [18].",
+   "valori": [],
+   "tecnica": "PXRD sincrotrone",
+   "qualitativo": "both synchrotron patterns (form III and SCHCl3-H2O) indexed with DICVOL06; cell parameters refined by pattern matching with Dajust",
+   "note": "Nomi di software senza valore numerico; riportato come fatto di metodo."
+  },
+  {
+   "id": "X9",
+   "categoria": "metodo",
+   "proprieta": "PXRD di sincrotrone: soluzione e raffinamento delle strutture",
+   "citazione": "The crystal structures were solved with the direct-space strategy TALP [19] introducing the bond distances and angles from the single crystal structure of form I as restraints.",
+   "valori": [],
+   "tecnica": "PXRD sincrotrone",
+   "qualitativo": "direct-space strategy TALP with bond distances and angles from the form I single crystal structure as restraints; restrained Rietveld refinement (RIBOLS); H atoms placed at calculated positions after the final refinement"
+  },
+  {
+   "id": "X10",
+   "categoria": "metodo",
+   "proprieta": "VT-PXRD: rampe di temperatura e tempo per pattern",
+   "citazione": "Variable temperature experiments of S3CHCl3-H2O sample were performed at the ALBA Synchrotron using a Cyberstar hot gas blower with an Eurotherm temperature controller (Eurotherm, Worthing, UK) and continuously collecting diffraction data during the heating and cooling ramps (30◦to 230◦and 230◦to 30◦at 2◦/min, 18 sec/pattern).",
+   "valori": [
+    {
+     "etichetta": "ramp start (heating) / end (cooling)",
+     "valore": 30,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "ramp end (heating) / start (cooling)",
+     "valore": 230,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "ramp rate",
+     "valore": 2,
+     "unita": "°/min"
+    },
+    {
+     "etichetta": "time per pattern",
+     "valore": 18,
+     "unita": "s"
+    }
+   ],
+   "tecnica": "VT-PXRD",
+   "note": "Le rampe sono «30° to 230° and 230° to 30° at 2°/min» (il PDF omette la C). La velocita' di 2 °C/min e le T di inizio/fine della corsa di riscaldamento sono anche nell'evento del solvato; il campione e' detto «S3CHCl3-H2O» nel metodo e «SCHCl3-H2O» nei risultati (vedi il conflitto nell'evento)."
+  },
+  {
+   "id": "X11",
+   "categoria": "metodo",
+   "proprieta": "VT-PXRD: misura piu' lunga a temperatura ambiente",
+   "citazione": "A longer measurement (180s) was performed at room temperature.",
+   "valori": [
+    {
+     "etichetta": "longer measurement",
+     "valore": 180,
+     "unita": "s"
+    }
+   ],
+   "tecnica": "VT-PXRD"
+  },
+  {
+   "id": "X12",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: lunghezza d'onda Mo",
+   "citazione": "The single crystal structures were solved on a D8 (Bruker, Karlsrühe, Germany) Venture system equipped with a multilayer monochromator, and a Mo microfocus (λ = 0.71073 Å) has been used too.",
+   "valori": [
+    {
+     "etichetta": "wavelength (Mo microfocus)",
+     "valore": 0.71073,
+     "unita": "Å"
+    }
+   ],
+   "tecnica": "SCXRD",
+   "note": "Diffrattometro Bruker D8 Venture. Software di integrazione e raffinamento (SAINT, SADABS, SHELXTL, ShelXle) non estratti: nomi senza valore."
+  },
+  {
+   "id": "X13",
+   "categoria": "metodo",
+   "proprieta": "DSC: volume dei crogioli di alluminio, atmosfera, flusso e velocita'",
+   "citazione": "Experimental conditions: Aluminum crucibles of 40 µL volume, atmosphere of dry nitrogen with 50 mL/min ﬂow rate, heating rate of 10 ◦C/min.",
+   "valori": [
+    {
+     "etichetta": "crucible volume",
+     "valore": 40,
+     "unita": "µL"
+    },
+    {
+     "etichetta": "nitrogen flow rate",
+     "valore": 50,
+     "unita": "mL/min"
+    },
+    {
+     "etichetta": "heating rate",
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   ],
+   "tecnica": "DSC",
+   "note": "Calorimetro Mettler-Toledo DSC822e. Velocita' e atmosfera sono anche nelle condizioni degli eventi DSC."
+  },
+  {
+   "id": "X14",
+   "categoria": "metodo",
+   "proprieta": "DSC: calibrazione con indio",
+   "citazione": "The calorimeter was calibrated with indium of 99.99% purity.",
+   "valori": [
+    {
+     "etichetta": "purity of the indium calibrant",
+     "valore": 99.99,
+     "unita": "%"
+    }
+   ],
+   "tecnica": "DSC"
+  },
+  {
+   "id": "X15",
+   "categoria": "metodo",
+   "proprieta": "TGA: volume dei crogioli di allumina, atmosfera, flusso e velocita'",
+   "citazione": "Experimental conditions: Alumina crucibles of 70 µL volume, atmosphere of dry nitrogen with 50 mL/min flow rate, heating rate of 10 ◦C/min.",
+   "valori": [
+    {
+     "etichetta": "crucible volume",
+     "valore": 70,
+     "unita": "µL"
+    },
+    {
+     "etichetta": "nitrogen flow rate",
+     "valore": 50,
+     "unita": "mL/min"
+    },
+    {
+     "etichetta": "heating rate",
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   ],
+   "tecnica": "TGA",
+   "note": "Termobilancia Mettler-Toledo TGA-851e, usata «to detect the presence of hydrates/solvates»."
+  },
+  {
+   "id": "X16",
+   "categoria": "computazionale",
+   "proprieta": "trattamento di Yu: fattore k",
+   "citazione": "A value of 0.003 was used for the factor k, which was empirically determined and allows a good approximation of the heat capacity differences in the majority of cases [23].",
+   "valori": [
+    {
+     "etichetta": "k",
+     "valore": 0.003
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "Form I / Form II pair"
+   },
+   "tecnica": "trattamento di Yu",
+   "calcolato": true,
+   "note": "Il valore di T di transizione ottenuto (137 °C) e' nelle relazioni dell'estrazione principale. Il fattore k e' «empirically determined», citato dal rif. 23."
+  },
+  {
+   "id": "X17",
+   "categoria": "composizione",
+   "proprieta": "perdita di massa teorica per 1 CHCl3 + 1 H2O in SCHCl3-H2O",
+   "citazione": "Its TGA analysis shows a weight loss of 19.4% from 32 to 100 ◦C which could be attributed to 1 chloroform molecule and 1 H2O molecule (theoretical weight loss of 22.9%).",
+   "valori": [
+    {
+     "etichetta": "theoretical weight loss for 1 CHCl3 + 1 H2O",
+     "valore": 22.9,
+     "unita": "%"
+    },
+    {
+     "etichetta": "chloroform molecules per BL",
+     "valore": 1
+    },
+    {
+     "etichetta": "water molecules per BL",
+     "valore": 1
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "tecnica": "TGA",
+   "calcolato": true,
+   "note": "La perdita osservata (19.4%) e' nell'evento TGA dell'estrazione principale; qui si aggiunge il valore teorico, calcolato dagli autori, e la composizione attribuita (con «could be»)."
+  },
+  {
+   "id": "X18",
+   "categoria": "geometria",
+   "proprieta": "Form I: legame H carbossilato···piperidinio (parte 1: distanza)",
+   "citazione": "BL molecules are linked by hydrogen bonds (distance: 1.567 Å)",
+   "valori": [
+    {
+     "etichetta": "H-bond distance carboxylate O···piperidinium N (NH···O)",
+     "valore": 1.567,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "Form I"
+   },
+   "tecnica": "SCXRD",
+   "note": "La frase continua dopo l'intestazione di pagina: «involving the carboxylate oxygen of one BL molecule and the piperidinium nitrogen of another BL in an alternated mode, forming corrugated layer structures» (motivi_hb di F1). La Fig. 9 indica la distanza NH···O."
+  },
+  {
+   "id": "X19",
+   "categoria": "geometria",
+   "proprieta": "Form I: π-π stacking dei benzimidazoli (lateral offset, centroidi, distanza interplanare)",
+   "citazione": "The observed lateral offset stack is 2.61 Å [29], the centroid to centroid distance, d(π· · · π) is 4.25 Å and the interplanar distance is 3.35 Å.",
+   "valori": [
+    {
+     "etichetta": "lateral offset stack",
+     "valore": 2.61,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "centroid to centroid distance d(π···π)",
+     "valore": 4.25,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "interplanar distance",
+     "valore": 3.35,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "Form I"
+   },
+   "tecnica": "SCXRD",
+   "note": "Il rimando [29] segue il valore di lateral offset (2.61 Å)."
+  },
+  {
+   "id": "X20",
+   "categoria": "geometria",
+   "proprieta": "Form III: legame H carbossilato···piperidinio",
+   "citazione": "Form III crystallizes in the same space group P21/c with four molecules in the unit cell. BL molecules in Form III are also linked by hydrogen bonds (distance: 1.518 Å)",
+   "valori": [
+    {
+     "etichetta": "H-bond distance carboxylate O···piperidinium N",
+     "valore": 1.518,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form III"
+   },
+   "tecnica": "PXRD (Rietveld)",
+   "note": "Il legame H non e' in modo alternato come nella forma I: tutte le molecole di BL sono orientate nello stesso modo. Struttura da dati di polvere: la distanza e' del modello raffinato."
+  },
+  {
+   "id": "X21",
+   "categoria": "geometria",
+   "proprieta": "Form III: interazione CH-π del gruppo piperidinile (distanze)",
+   "citazione": "with one hydrogen of the piperidinyl group (distance to the centroid: 2.93 Å, distance to the plane: 2.64 Å and H: 1.27 Å)",
+   "valori": [
+    {
+     "etichetta": "distance to the centroid",
+     "valore": 2.93,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "distance to the plane",
+     "valore": 2.64,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H",
+     "valore": 1.27,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form III"
+   },
+   "tecnica": "PXRD (Rietveld)",
+   "note": "Nella forma III i benzimidazoli interagiscono per CH-π (non per π-π come nella forma I). Il «H: 1.27 Å» e' scritto cosi' nel testo, senza dire a che distanza si riferisca."
+  },
+  {
+   "id": "X22",
+   "categoria": "geometria",
+   "proprieta": "Form III: interazione CH-π del gruppo metile (distanze)",
+   "citazione": "and with one hydrogen of the methyl group (distance to the centroid: 3.41 Å, distance to the plane: 2.45 Å and H: 2.37 Å)",
+   "valori": [
+    {
+     "etichetta": "distance to the centroid",
+     "valore": 3.41,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "distance to the plane",
+     "valore": 2.45,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H",
+     "valore": 2.37,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form III"
+   },
+   "tecnica": "PXRD (Rietveld)"
+  },
+  {
+   "id": "X23",
+   "categoria": "geometria",
+   "proprieta": "S3CHCl3-H2O: legame H dell'acqua con l'azoto del benzimidazolo",
+   "citazione": "its hydrogens showing H-bonding with the nitrogen of the benzimidazol of one BL, on one hand (distance: 2.077 Å)",
+   "valori": [
+    {
+     "etichetta": "H-bond distance water···N (benzimidazole)",
+     "valore": 2.077,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD",
+   "note": "L'acqua e' donatrice in ambiente DD."
+  },
+  {
+   "id": "X24",
+   "categoria": "geometria",
+   "proprieta": "S3CHCl3-H2O: legame H dell'acqua con un ossigeno del carbossilato di un altro BL",
+   "citazione": "and with an oxygen of the carboxylate of another BL molecule, on the other hand (distance: 2.133 Å).",
+   "valori": [
+    {
+     "etichetta": "H-bond distance water···O (carboxylate)",
+     "valore": 2.133,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X25",
+   "categoria": "geometria",
+   "proprieta": "S3CHCl3-H2O: sistema di legami H a tre centri (biforcato) del carbossilato col piperidinio",
+   "citazione": "This carboxylate oxygen is also involved in an asymmetric three-center (or bifurcated) hydrogen bond system (distances: 1.887 Å and 2.452 Å) with the piperidinium of the ﬁrst BL (being the structure zwitterionic), forming altogether R23 (11) and R21(4) supramolecular heterosynthons.",
+   "valori": [
+    {
+     "etichetta": "first H-bond distance",
+     "valore": 1.887,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "second H-bond distance",
+     "valore": 2.452,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD",
+   "note": "Forma insieme i sinteni R2^3(11) e R2^1(4), scritti dal PDF «R23 (11)» e «R21(4)» (motivi_hb di F4)."
+  },
+  {
+   "id": "X26",
+   "categoria": "geometria",
+   "proprieta": "S3CHCl3-H2O: legame a alogeno Cl2HC-Cl···O=C del cloroformio col carbossilato",
+   "citazione": "Moreover, one chloroform molecule interacts via halogen bond with the other oxygen of the carboxylate, being 3.139 Å its Cl2HC-Cl···O=C distance, shorter than the sum of the van der Waals radii of the involved atoms.",
+   "valori": [
+    {
+     "etichetta": "Cl2HC-Cl···O=C distance",
+     "valore": 3.139,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "shorter than the sum of the van der Waals radii of the involved atoms"
+  },
+  {
+   "id": "X27",
+   "categoria": "geometria",
+   "proprieta": "S3CHCl3-H2O: legame H Cl3C-H···O=C del primo cloroformio col carbossilato",
+   "citazione": "Moreover, this chloroform molecule is involved in a Cl3C-H···O=C (distance: 2.142 Å) hydrogen bond with the carboxylate and in a Cl2HC-Cl···Cl-CHCl2 (distance: 3.366 Å) halogen bond with a second chloroform molecule which in turn interacts with the third chloroform forming also a Cl2HC-Cl···Cl-CHCl2 (distance: 3.322 Å) halogen bond.",
+   "valori": [
+    {
+     "etichetta": "Cl3C-H···O=C distance",
+     "valore": 2.142,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X28",
+   "categoria": "geometria",
+   "proprieta": "S3CHCl3-H2O: legame a alogeno Cl2HC-Cl···Cl-CHCl2 fra il primo e il secondo cloroformio",
+   "citazione": "Moreover, this chloroform molecule is involved in a Cl3C-H···O=C (distance: 2.142 Å) hydrogen bond with the carboxylate and in a Cl2HC-Cl···Cl-CHCl2 (distance: 3.366 Å) halogen bond with a second chloroform molecule which in turn interacts with the third chloroform forming also a Cl2HC-Cl···Cl-CHCl2 (distance: 3.322 Å) halogen bond.",
+   "valori": [
+    {
+     "etichetta": "Cl2HC-Cl···Cl-CHCl2 distance (first-second chloroform)",
+     "valore": 3.366,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X29",
+   "categoria": "geometria",
+   "proprieta": "S3CHCl3-H2O: legame a alogeno Cl2HC-Cl···Cl-CHCl2 fra il secondo e il terzo cloroformio",
+   "citazione": "Moreover, this chloroform molecule is involved in a Cl3C-H···O=C (distance: 2.142 Å) hydrogen bond with the carboxylate and in a Cl2HC-Cl···Cl-CHCl2 (distance: 3.366 Å) halogen bond with a second chloroform molecule which in turn interacts with the third chloroform forming also a Cl2HC-Cl···Cl-CHCl2 (distance: 3.322 Å) halogen bond.",
+   "valori": [
+    {
+     "etichetta": "Cl2HC-Cl···Cl-CHCl2 distance (second-third chloroform)",
+     "valore": 3.322,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X30",
+   "categoria": "geometria",
+   "proprieta": "S3CHCl3-H2O: interazione Cl3C-H···π del secondo cloroformio con un fenile",
+   "citazione": "The second chloroform is involved also in a Cl3C-H···π (distance Ph-center: 2.354 Å) interaction with the phenyl ring of another BL",
+   "valori": [
+    {
+     "etichetta": "Cl3C-H···π distance (Ph-center)",
+     "valore": 2.354,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X31",
+   "categoria": "geometria",
+   "proprieta": "S3CHCl3-H2O: legame H Cl3C-H···O-H2 del terzo cloroformio con l'acqua",
+   "citazione": "the third chloroform in turn interacts also with the water molecule via Cl3C-H···O-H2 (distance: 2.011 Å) hydrogen bond.",
+   "valori": [
+    {
+     "etichetta": "Cl3C-H···O-H2 distance",
+     "valore": 2.011,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X32",
+   "categoria": "geometria",
+   "proprieta": "SCHCl3-H2O: sistema di legami H a tre centri carbossilato···piperidinio",
+   "citazione": "in an asymmetric three-center hydrogen bond system (distances: 1.731 Å and 2.253 Å)",
+   "valori": [
+    {
+     "etichetta": "first H-bond distance",
+     "valore": 1.731,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "second H-bond distance",
+     "valore": 2.253,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "tecnica": "PXRD (Rietveld)",
+   "note": "Con lo stesso sintone R2^1(4) di S3CHCl3-H2O."
+  },
+  {
+   "id": "X33",
+   "categoria": "geometria",
+   "proprieta": "SCHCl3-H2O: π···π fra fenili alternati (lateral offset)",
+   "citazione": "In this case, an interlayer interaction is accomplished by π···π parallel displaced phenyl stacking of the alternated BL (observed lateral offset stack: 4.66 Å,",
+   "valori": [
+    {
+     "etichetta": "observed lateral offset stack",
+     "valore": 4.66,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "tecnica": "PXRD (Rietveld)",
+   "note": "La parentesi continua dopo l'intestazione di pagina (voce seguente)."
+  },
+  {
+   "id": "X34",
+   "categoria": "geometria",
+   "proprieta": "SCHCl3-H2O: π···π fra fenili alternati (centroidi e distanza interplanare)",
+   "citazione": "centroid to centroid distance d(π· · · π): 5.19 Å, interplanar distance: 2.29 Å)",
+   "valori": [
+    {
+     "etichetta": "centroid to centroid distance d(π···π)",
+     "valore": 5.19,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "interplanar distance",
+     "valore": 2.29,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "tecnica": "PXRD (Rietveld)"
+  },
+  {
+   "id": "X35",
+   "categoria": "geometria",
+   "proprieta": "SCHCl3-H2O: legame H dell'acqua (donatore D) con l'azoto del benzimidazolo",
+   "citazione": "Moreover, the water molecule acts as hydrogen bond donor in a D environment as only one hydrogen is involved in hydrogen-bonding (distance: 1.942 Å) with the nitrogen of the benzimidazol of one BL.",
+   "valori": [
+    {
+     "etichetta": "H-bond distance water···N (benzimidazole)",
+     "valore": 1.942,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "tecnica": "PXRD (Rietveld)"
+  },
+  {
+   "id": "X36",
+   "categoria": "geometria",
+   "proprieta": "SCHCl3-H2O: legame H Cl3C-H···O=C del cloroformio col carbossilato",
+   "citazione": "Finally, the chloroform molecule is involved in a Cl3C-H···O=C (distance: 2.337 Å) hydrogen bond with the carboxylate (Figure 21).",
+   "valori": [
+    {
+     "etichetta": "Cl3C-H···O=C distance",
+     "valore": 2.337,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "tecnica": "PXRD (Rietveld)"
+  },
+  {
+   "id": "X37",
+   "categoria": "geometria",
+   "proprieta": "SCHCl3: legame H carbossilato···piperidinio NH",
+   "citazione": "Again, BL molecules are linked by hydrogen bonds (distance: 1.583 Å) involving one oxygen of the carboxylate and the piperidinium NH, forming cascade layers as in Form III (Figure 24).",
+   "valori": [
+    {
+     "etichetta": "H-bond distance carboxylate O···piperidinium NH",
+     "valore": 1.583,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "SCHCl3"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X38",
+   "categoria": "geometria",
+   "proprieta": "SCHCl3: legame H Cl3C-H···O=C del cloroformio 1-CHCl3",
+   "citazione": "There are two different chloroform molecules in this solvate: 1-CHCl3 which is involved in a Cl3C-H···O=C (distance: 2.008 Å) hydrogen bond with the carboxylate of one BL and 2-CHCl3 which forms the same H-bond (distance: 2.013 Å) with the carboxylate of the other BL (Figure 25).",
+   "valori": [
+    {
+     "etichetta": "Cl3C-H···O=C distance, 1-CHCl3",
+     "valore": 2.008,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "SCHCl3"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X39",
+   "categoria": "geometria",
+   "proprieta": "SCHCl3: legame H Cl3C-H···O=C del cloroformio 2-CHCl3",
+   "citazione": "There are two different chloroform molecules in this solvate: 1-CHCl3 which is involved in a Cl3C-H···O=C (distance: 2.008 Å) hydrogen bond with the carboxylate of one BL and 2-CHCl3 which forms the same H-bond (distance: 2.013 Å) with the carboxylate of the other BL (Figure 25).",
+   "valori": [
+    {
+     "etichetta": "Cl3C-H···O=C distance, 2-CHCl3",
+     "valore": 2.013,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "SCHCl3"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X40",
+   "categoria": "geometria",
+   "proprieta": "SCHCl3: interazione Cl···π del 2-CHCl3 con l'anello benzenico di un altro BL",
+   "citazione": "This chloroform participates also in a Cl···π interaction with the benzene ring of another BL (Cl-centroid distance: 3.683 Å, C-Cl-centroid angle: 159.51◦).",
+   "valori": [
+    {
+     "etichetta": "Cl-centroid distance",
+     "valore": 3.683,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C-Cl-centroid angle",
+     "valore": 159.51,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "SCHCl3"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X41",
+   "categoria": "cristallografia",
+   "proprieta": "Form III: fattore di accordo Rwp del raffinamento Rietveld",
+   "citazione": "Figure 13. Final Rietveld plot for the crystal structure reﬁnement of form III. Agreement factor: Rwp = 2.4%.",
+   "valori": [
+    {
+     "etichetta": "Rwp",
+     "valore": 2.4,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form III"
+   },
+   "tecnica": "PXRD (Rietveld)"
+  },
+  {
+   "id": "X42",
+   "categoria": "cristallografia",
+   "proprieta": "Form II: fattore di accordo Rwp del pattern matching di Pawley",
+   "citazione": "Figure 16. Pawley pattern matching plot of form II. Agreement factor: Rwp = 1.3%.",
+   "valori": [
+    {
+     "etichetta": "Rwp",
+     "valore": 1.3,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "Form II"
+   },
+   "tecnica": "PXRD (Pawley)"
+  },
+  {
+   "id": "X43",
+   "categoria": "cristallografia",
+   "proprieta": "SCHCl3-H2O: fattore di accordo Rwp del raffinamento Rietveld",
+   "citazione": "Figure 20. Final Rietveld plot for the crystal structure reﬁnement of form SCHCl3-H2O. Agreement factor: Rwp = 2.3%.",
+   "valori": [
+    {
+     "etichetta": "Rwp",
+     "valore": 2.3,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "tecnica": "PXRD (Rietveld)"
+  },
+  {
+   "id": "X44",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form II: due molecole di BL nell'unita' asimmetrica",
+   "citazione": "Thus far, we have not managed to solve its crystal structure by using the direct space methodology, being an additional difficulty the presence of two different BL molecules in the asymmetric unit.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "Form II"
+   },
+   "qualitativo": "two different BL molecules in the asymmetric unit; structure not solved (further work in progress)"
+  },
+  {
+   "id": "X45",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "le tre anidre: stesso gruppo spaziale, cella della II doppia",
+   "citazione": "The three anhydrous polymorphs of BL crystallize in the same space group P21/c and Form II shows a unit cell similar to Form III except for the parameter “a” which is approximately twice as much as in Form III.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "Forms I, II, III"
+   },
+   "qualitativo": "same space group P21/c; Form II cell similar to Form III except for 'a', approximately twice as much",
+   "note": "Il testo continua: «This results in a cell for Form II with double volume than forms I and III and with Z = 8» (Z di F2 nell'estrazione principale)."
+  },
+  {
+   "id": "X46",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "i solvati: stesso gruppo spaziale degli eterosolvati, cella simile",
+   "citazione": "On the other hand, both heterosolvates S3CHCl3-H2O and SCHCl3-H2O crystallize in the same orthorhombic space group Pna21 showing similar unit cell parameters, while the monosolvate SCHCl3 crystallizes in P21, the three solvates with Z = 4.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "S3CHCl3-H2O, SCHCl3-H2O, SCHCl3"
+   },
+   "qualitativo": "the two heterosolvates crystallize in the same space group Pna21 with similar unit cell parameters; the monosolvate in P21"
+  },
+  {
+   "id": "X47",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form I e S3CHCl3-H2O: strati ondulati con modo alternato",
+   "citazione": "In S3CHCl3-H2O BL molecules are linked by hydrogen bonds involving the carboxylate oxygen of one BL molecule and the piperidinium nitrogen of another BL in an alternated mode similar to form I, forming corrugated layer structures (Figure 17).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "qualitativo": "alternated mode H-bonded corrugated layers, similar to form I"
+  },
+  {
+   "id": "X48",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "S3CHCl3-H2O: acqua e cloroformio nei vuoti",
+   "citazione": "Water and chloroform molecules occupy voids inside the crystal structure as it is shown in Figure 18.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "qualitativo": "water and chloroform molecules occupy voids"
+  },
+  {
+   "id": "X49",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "S3CHCl3-H2O: unita' asimmetrica",
+   "citazione": "The X-ray structural analysis reveals the presence of one hydrogen-bonded water molecule as well as three hydrogen- and halogen-bonded chloroform molecules and one BL in its asymmetric unit.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "one hydrogen-bonded water, three hydrogen- and halogen-bonded chloroform molecules and one BL in the asymmetric unit"
+  },
+  {
+   "id": "X50",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "SCHCl3-H2O: unita' asimmetrica",
+   "citazione": "The X-ray structural analysis of the structure of SCHCl3-H2O solved from PXRD reveals the presence of one hydrogen-bonded water molecule, one hydrogen-bonded chloroform molecule and one BL in its asymmetric unit.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "tecnica": "PXRD",
+   "qualitativo": "one hydrogen-bonded water, one hydrogen-bonded chloroform and one BL in the asymmetric unit"
+  },
+  {
+   "id": "X51",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "SCHCl3-H2O vs S3CHCl3-H2O: l'acqua non puo' fare il secondo legame H col carbossilato",
+   "citazione": "Unlike solvate S3CHCl3-H2O, the water molecule cannot form another H-bond with an oxygen of the carboxylate of another BL molecule as the carboxylate is not pointing towards it as it has rotated some degrees being in this case too far.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "qualitativo": "the carboxylate has rotated some degrees and is too far from the water"
+  },
+  {
+   "id": "X52",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "SCHCl3-H2O: canali separati per cloroformio e acqua",
+   "citazione": "The channeled crystal structure of solvate SCHCl3-H2O is shown in Figure 23 where chloroform and water molecules occupy different channels.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "qualitativo": "channeled structure: chloroform and water occupy different channels"
+  },
+  {
+   "id": "X53",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "SCHCl3: unita' asimmetrica e strati a cascata",
+   "citazione": "This solvate crystallizes in the monoclinic space group P21 with two molecules of BL and two molecules of chloroform in the asymmetric unit.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "SCHCl3"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "two BL and two chloroform molecules in the asymmetric unit; cascade layers as in Form III",
+   "note": "Dato gia' nella forma F6 (Z′ = 2, gruppo); qui il fatto strutturale."
+  },
+  {
+   "id": "X54",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form I e Form III: orientamento diverso delle catene di BL",
+   "citazione": "While in Form I BL molecules are interdigitated, in Form III, they are organized as cascade layers (Figure 14).",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "Forms I and III"
+   },
+   "qualitativo": "Form I: interdigitated BL molecules (corrugated layers); Form III: cascade layers"
+  },
+  {
+   "id": "X55",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form I contro Form III: π-π contro CH-π",
+   "citazione": "Moreover, in Form I benzimidazoles interact via π-π stacking while in Form III, the same benzimidazoles interact via CH-π",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "Forms I and III"
+   },
+   "qualitativo": "Form I: benzimidazoles π-π stacking; Form III: benzimidazoles CH-π (distances in the geometria entries)"
+  },
+  {
+   "id": "X56",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "legami a alogeno nei solvati di cloroformio",
+   "citazione": "Some halogen bonds are also observed in these structures, conﬁrming that halogen bonding is one of the stabilizing interactions in chloroform solvates.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "chloroform solvates"
+   },
+   "qualitativo": "halogen bonds observed: one of the stabilizing interactions in chloroform solvates, not strong enough alone to retain the solvent"
+  },
+  {
+   "id": "X57",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "i cloroformi legati al carbossilato in tutti i solvati",
+   "citazione": "Instead, chloroform molecules form hydrogen bonds with the carboxylate in all solvates.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "chloroform solvates"
+   },
+   "qualitativo": "chloroform molecules hydrogen-bonded to the carboxylate in all solvates"
+  },
+  {
+   "id": "X58",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "l'acqua donatrice nei due eterosolvati",
+   "citazione": "Water molecules act as hydrogen bond donors in both heterosolvates, interacting with the nitrogen of the benzimidazol of BL.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "heterosolvates"
+   },
+   "qualitativo": "water as H-bond donor to the benzimidazole N in both heterosolvates"
+  },
+  {
+   "id": "X59",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "origine del solvato: squilibrio fra donatori e accettori",
+   "citazione": "The reason for solvate formation in BL is the lack of H-bonding donor groups.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "BL"
+   },
+   "qualitativo": "solvate formation attributed to the lack of H-bonding donor groups (only one N-H donor)"
+  },
+  {
+   "id": "X60",
+   "categoria": "morfologia",
+   "proprieta": "Form III: cristalli osservati al microscopio ma non adatti alla SCXRD",
+   "citazione": "Crystals of form III were grown and observed under the microscope.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form III"
+   },
+   "qualitativo": "crystals of form III grown and observed under the microscope; extinction observed (Fig. 11); not possible to cut the extreme of the crystal to determine the structure by SCXRD"
+  },
+  {
+   "id": "X61",
+   "categoria": "morfologia",
+   "proprieta": "Form III: macles",
+   "citazione": "Usually form III crystallized as macles, as it is shown in Figure 12.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "Form III"
+   },
+   "qualitativo": "usually crystallizes as macles (twins)"
+  },
+  {
+   "id": "X62",
+   "categoria": "morfologia",
+   "proprieta": "Forme II e III: cristalli di qualita' non ottenuti",
+   "citazione": "Attempts to grow quality crystals of forms II and III were unsuccessful.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "Forms II and III"
+   },
+   "qualitativo": "attempts to grow quality crystals unsuccessful"
+  },
+  {
+   "id": "X63",
+   "categoria": "morfologia",
+   "proprieta": "S3CHCl3-H2O: cristalli di buona qualita' da cloroformio",
+   "citazione": "Curiously, we always obtained under different conditions good quality crystals of a new solid form",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "qualitativo": "good quality crystals always obtained in chloroform under different conditions"
+  },
+  {
+   "id": "X64",
+   "categoria": "morfologia",
+   "proprieta": "S3CHCl3-H2O: cristalli instabili",
+   "citazione": "the crystals losing solvent rapidly after removal from the mother liquor and generally rendering manipulation of the material and accurate analysis of its composition impossible",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "S3CHCl3-H2O"
+   },
+   "qualitativo": "crystals losing solvent rapidly after removal from the mother liquor"
+  },
+  {
+   "id": "X65",
+   "categoria": "altro",
+   "proprieta": "screening: risultato",
+   "citazione": "The experimental solid form screening resulted in six solid forms (three anhydrates and three chloroform solvates) as conﬁrmed by PXRD and thermal analysis.",
+   "valori": [
+    {
+     "etichetta": "solid forms found",
+     "valore": 6
+    },
+    {
+     "etichetta": "anhydrates",
+     "valore": 3
+    },
+    {
+     "etichetta": "chloroform solvates",
+     "valore": 3
+    }
+   ],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "BL"
+   },
+   "qualitativo": "six solid forms confirmed by PXRD and thermal analysis; the screen included evaporations, cooling crystallizations at different rates, antisolvent precipitations, antisolvent diffusions and slurries (details in the Supplementary Materials)"
+  },
+  {
+   "id": "X66",
+   "categoria": "altro",
+   "proprieta": "brevetto WO03089425: tre forme cristalline di BL",
+   "citazione": "Later, the patent WO03089425 reported three crystalline forms of BL: 1, 2 and 3, characterized by IR, and crystallographic parameters were provided only for form 1 [15].",
+   "valori": [
+    {
+     "etichetta": "crystalline forms reported",
+     "valore": 3
+    }
+   ],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "BL"
+   },
+   "qualitativo": "three crystalline forms (1, 2, 3) characterized by IR; crystallographic parameters only for form 1",
+   "note": "citato dal rif. 15"
+  },
+  {
+   "id": "X67",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form II: cella a volume doppio e Z = 8",
+   "citazione": "This results in a cell for Form II with double volume than forms I and III and with Z = 8.",
+   "valori": [
+    {
+     "etichetta": "Z of Form II",
+     "valore": 8
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "Form II"
+   },
+   "qualitativo": "cell with double the volume of forms I and III",
+   "note": "Z = 8 e' anche nella cella di F2 dell'estrazione principale: qui e' la frase che lo sostiene."
+  },
+  {
+   "id": "X68",
+   "categoria": "cristallografia",
+   "proprieta": "stato della determinazione strutturale delle tre anidre",
+   "citazione": "High quality single crystals suitable for crystal structure determination have been obtained only for Form I, while the crystal structure of form III was determined from PXRD data obtained in Synchrotron. Regarding form II, only its unit cell and space group could be determined.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "Forms I, II, III"
+   },
+   "qualitativo": "Form I: single crystal structure; Form III: structure from synchrotron PXRD; Form II: only unit cell and space group"
+  },
+  {
+   "id": "X69",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "perche' si formano i solvati di BL",
+   "citazione": "The incorporation of water and chloroform molecules in the solvates of BL can be attributed to the imbalance in the ratio of donors and acceptors groups.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "BL solvates"
+   },
+   "qualitativo": "incorporation of water and chloroform attributed to the imbalance in the donor/acceptor ratio"
+  },
+  {
+   "id": "X70",
+   "categoria": "altro",
+   "proprieta": "S3CHCl3-H2O e SCHCl3: fasi transitorie",
+   "citazione": "Both forms can be best described as transient or elusive phases as they become unstable after removal from the mother liquor.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "S3CHCl3-H2O and SCHCl3"
+   },
+   "qualitativo": "transient or elusive phases: unstable after removal from the mother liquor"
+  },
+  {
+   "id": "X71",
+   "categoria": "altro",
+   "proprieta": "SCHCl3-H2O come intermedio verso le forme anidre",
+   "citazione": "Interesting and novel, solvate SCHCl3-H2O can serve as a useful intermediate towards any of the three anhydrous forms of BL, provided the right conditions are chosen.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "SCHCl3-H2O"
+   },
+   "qualitativo": "useful intermediate towards any of the three anhydrous forms, provided the right conditions are chosen"
+  },
+  {
+   "id": "X72",
+   "categoria": "altro",
+   "proprieta": "SCHCl3: solido igroscopico",
+   "citazione": "SCHCl3 can be considered a hygroscopic solid form as it has the ability",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "SCHCl3"
+   },
+   "qualitativo": "hygroscopic solid form (ability to take up and retain water vapor)",
+   "note": "La frase continua dopo l'intestazione di pagina con «to take up and retain water vapor». Anche in molecole.proprieta dell'estrazione principale."
+  },
+  {
+   "id": "X73",
+   "categoria": "metodo",
+   "proprieta": "qualita' dei solventi",
+   "citazione": "The organic solvents used were all of analytical quality.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "BL"
+   },
+   "qualitativo": "organic solvents of analytical quality"
+  }
+ ]
+}

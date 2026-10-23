@@ -1,0 +1,1628 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1002/chem.201404693",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Il testo e' la versione «peer reviewed» senza parte sperimentale (ne' CCDC, refcode o PXRD/FTIR: stanno nel supplementare, citato come Table S1-S3 e Figure S1-S7). Le forme DMSO (tetra-, di- e monosolvato) sono gia' state pubblicate (rif. 26) e sono confrontate nella discussione («isostructural» col THF monosolvato): non hanno eventi qui e non sono estratte come forme. Altri sistemi citati senza dati (teofillina monoidrato che disidrata «leaving the overall structural network intact», rif. 15a; furosemide il cui solvato DMSO desolvata a un anidro diverso da quello dei solvati di THF, diossano e DMF, rif. 39) non sono estratti. Non sono eventi: l'ordinamento dei gruppi CH3 (ADP grandi) e il possibile spostamento dell'H acido nel diidrato a temperatura elevata («It is possible that this hydrogen atom can move between the donor and the acceptor oxygen at elevated temperatures»). Calcoli PACHA, geometrie di legame, spettri e dati cristallografici stanno nell'estrazione extra. Tabella 1: intestazioni e colonne rimescolate dal PDF; le celle sono attribuite per ordine di colonna (dihydrate, DTS tetrahydrate, form I, tetartohydrate, DMF disolvate, THF monosolvate, dioxane/water, methanol) e controllate con V, Mr, sistema e gruppo del testo (cella_dedotta). Il volume della cella del DTS scritto (2024.1) non torna con i suoi parametri (1997.5). Contraddizione interna sulla conformazione del disolvato di DMSO: «anti-conformation ... similar to the DMSO tetra- and disolvates» (sezione DMF) contro «the DMSO disolvate and the THF monosolvate ... syn-conformation» (sezione strutture).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "diatrizoic acid (DTA)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "sodium",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "DTA dihydrate",
+   "etichette_alternative": [
+    "dihydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1ത",
+   "cella": {
+    "a": 7.8264,
+    "b": 9.4397,
+    "c": 13.302,
+    "alpha": 89.673,
+    "beta": 75.57,
+    "gamma": 71.091,
+    "V": 897.4,
+    "Z": 2,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "120 K"
+   },
+   "cella_dedotta": true,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     },
+     "citazione": "Crystal system triclinic triclinic monoclinic monoclinic orthorhombic monoclinic monoclinic triclinic Space group P-1 P-1 C2/c C2/c Pbca P21/n P21/n P-1 T (K) 120 120 120 120 120 120 150 120 a (Å) 7.8264(6) 11.754(2) 20.646(4) 20.70(2) 21.321(3) 8.893(1) 11.940(4) 9.4497(1) b (Å) 9.4397(8) 13.091(3) 9.353(2) 9.407(8) 9.277(1) 18.818(2) 11.878(4) 13.9552(2) c (Å) 13.302(1) 15.129(4) 18.688(3) 18.68(2) 25.724(1) 12.767(1) 15.642(5) 14.6126(2) α (°) 89.673(2) 73.62(2) 90 90 90 90 90 85.214(1) β (°) 75.570(2) 84.56(2) 117.020(5) 116.440(8) 90 90.188 100.925(3) 87.695(1) γ (°) 71.091(2) 63.50(1) 90 90 90 90 90 72.367(1) V (Å3) 897.4(1) 2024.1(8) 3215(1) 3257(5) 5088(1) 2136.5(4) 2178(1) 1829.83(4) Z 2 2 8 8 8 4 4 4 R1 (%) 2.16 2.12 4.59 7.40 2.51 4.40 4.42 2.46"
+    },
+    {
+     "fonte": "neutroni",
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     },
+     "citazione": "A single-crystal neutron-diffraction structure determination of DTA dihydrate was undertaken at 120 K using the Laue diffractometer KOALA at the Bragg Institute (Lucas Heights, Australia)."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "hydrogen-bonded square of four water molecules encapsulated between two DTA hosts (capsule)",
+     "chi": "four water molecules and a pair of DTA hosts",
+     "citazione": "Four water molecules are sandwiched between pairs of DTA hosts in a hydrogen bonded square (Figure 2a). Two of these donate hydrogen bonds to the carbonyl groups of DTA, while the other two accept one hydrogen bond from the acid group of the host forming a hydrogen-bonded capsule, resembling the water squares encapsulated in tetrapodal urea complexes characterised by neutron diffraction.[28]"
+    },
+    {
+     "motivo": "capsules stacking along (0 0 1) via amide N1-H to carboxylic acid O2",
+     "chi": "amido N1 and carboxylic acid O2 of the next capsule",
+     "citazione": "Firstly, the capsules stack along (0 0 1) through hydrogen bonding from N1 of an amido group to the non-protonated oxygen atom O2 of the carboxylic acid group of the next capsule (Figure 2b)."
+    },
+    {
+     "motivo": "stacks along the a-axis via amide N2-H to amide O3",
+     "chi": "amido N2 and amido O3 of an adjacent capsule",
+     "citazione": "The second stacking motif involves hydrogen bonding from N2 of the second amido group to O3 of the amido group of an adjacent capsule resulting in stacks along the crystallographic aaxis."
+    },
+    {
+     "motivo": "centrosymmetric dimer through two amide N1-H to acid O2 hydrogen bonds",
+     "chi": "amide N1 and acid group O2 of two host molecules",
+     "citazione": "The connection of these dimers is also found in the structures of the dihydrate, and involves two hydrogen bonds from the amide N1 to the acid group O2 connecting two of the host molecules in a centrosymmetric fashion."
+    }
+   ],
+   "citazione": "DTA dihydrate crystallises in the triclinic space group P1ത with one formula unit in the asymmetric unit (Z′ = 1, Table 1, supplementary information Table S1).",
+   "note": "Cella dalla Tabella 1 (colonna «DTA dihydrate»; PDF con intestazioni e colonne rimescolate, attribuzione per ordine di colonna e verificata con V = abc·sqrt(1-cos²α-cos²β-cos²γ+2cosα·cosβ·cosγ) = 897.3 contro 897.4 scritto, con Mr 649.93, e con «triclinic, P-1» del testo). Il testo scrive «P1ത» (barra sopra il 1 rovinata), la tabella «P-1». T 120 K (riga «T (K)» della Tabella 1; la citazione delle strutture e' il blocco della Tabella 1 da «Crystal system» a «R1 (%)», dove stanno sistema, gruppo, T, cella, Z). Z′ = 1. Struttura a neutroni a 120 K (KOALA). Nessun CCDC né refcode nel testo (la parte sperimentale e il supplementare non ci sono). «known dihydrate» riportato da Folen et al. (rif. 25)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "DTA tetartohydrate",
+   "etichette_alternative": [
+    "tetartohydrate",
+    "tetarto hydrate",
+    "DTA tetarto hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 0.25,
+    "riferito_a": "molecola",
+    "fonte_stechiometria": "cristallografica"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2/c",
+   "cella": {
+    "a": 20.7,
+    "b": 9.407,
+    "c": 18.68,
+    "alpha": 90,
+    "beta": 116.44,
+    "V": 3257,
+    "Z": 8,
+    "fonte": "SCXRD",
+    "condizioni": "120 K"
+   },
+   "cella_dedotta": true,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     },
+     "citazione": "Crystal system triclinic triclinic monoclinic monoclinic orthorhombic monoclinic monoclinic triclinic Space group P-1 P-1 C2/c C2/c Pbca P21/n P21/n P-1 T (K) 120 120 120 120 120 120 150 120 a (Å) 7.8264(6) 11.754(2) 20.646(4) 20.70(2) 21.321(3) 8.893(1) 11.940(4) 9.4497(1) b (Å) 9.4397(8) 13.091(3) 9.353(2) 9.407(8) 9.277(1) 18.818(2) 11.878(4) 13.9552(2) c (Å) 13.302(1) 15.129(4) 18.688(3) 18.68(2) 25.724(1) 12.767(1) 15.642(5) 14.6126(2) α (°) 89.673(2) 73.62(2) 90 90 90 90 90 85.214(1) β (°) 75.570(2) 84.56(2) 117.020(5) 116.440(8) 90 90.188 100.925(3) 87.695(1) γ (°) 71.091(2) 63.50(1) 90 90 90 90 90 72.367(1) V (Å3) 897.4(1) 2024.1(8) 3215(1) 3257(5) 5088(1) 2136.5(4) 2178(1) 1829.83(4) Z 2 2 8 8 8 4 4 4 R1 (%) 2.16 2.12 4.59 7.40 2.51 4.40 4.42 2.46"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "stacks along b of centrosymmetric dimers connected by amide N2-H to amide carbonyl O3",
+     "chi": "amide N2 and amide carbonyl O3",
+     "citazione": "This trans conformation causes the assembly of a different hydrogenbonded network, based on stacks along the crystallographic baxis, consisting of centrosymmetric dimers connected through hydrogen bonds from the amide N2 to the amide carbonyl O3 (Figure 5)."
+    },
+    {
+     "motivo": "centrosymmetric dimers through two amide N1-H to acid O2 hydrogen bonds",
+     "chi": "amide N1 and acid group O2 of two host molecules",
+     "citazione": "The connection of these dimers is also found in the structures of the dihydrate, and involves two hydrogen bonds from the amide N1 to the acid group O2 connecting two of the host molecules in a centrosymmetric fashion."
+    },
+    {
+     "motivo": "carboxylic acid O1-H to O4 connecting the stacks along c",
+     "chi": "remaining hydrogen-bond donor O1 of the carboxylic acid and acceptor O4",
+     "citazione": "The remaining hydrogen-bond donor of the tetartohydrate, O1 of the carboxylic acid group, interacts with the remaining hydrogen-bond acceptor O4. This last interaction connects the stacks along the crystallographic c-axis."
+    }
+   ],
+   "citazione": "a second hydrated structure of DTA was crystallised from 1-propanol (Table 1). The singlecrystal X-ray data can be successfully modelled as containing 0.25 molecules of water making this crystal form a tetartohydrate.",
+   "note": "Cella dalla Tabella 1 (colonna «DTA tetarto hydrate»: quarta; la scelta fra Form I e tetartoidrato per le colonne 3 e 4 si appoggia sull'ordine dell'intestazione, su R1 = 7.40 (il testo dice che il modello del tetartoidrato «is not of the highest precision») e su Mr = 613.90 per l'anidro; V calcolato 3257.0 = scritto). Struttura da radiazione di sincrotrone. 0.25 molecole d'acqua per molecola di DTA («one water molecule per four host molecules»); l'acqua e' un «space filler» senza legami con l'ospite e gli autori ritengono possibile un comportamento non stechiometrico. Mr scritto in tabella 622.91, che non torna con 0.25 H2O (613.90 + 0.25 × 18.015 = 618.40) ma con 0.5 H2O (622.91 - 613.90 = 9.01): incoerenza della tabella, valore riportato come scritto. Le posizioni degli H dell'acqua non si sono potute localizzare."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Form I",
+   "etichette_alternative": [
+    "DTA form I",
+    "anhydrous Form I",
+    "anhydrous crystal form I"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2/c",
+   "cella": {
+    "a": 20.646,
+    "b": 9.353,
+    "c": 18.688,
+    "alpha": 90,
+    "beta": 117.02,
+    "gamma": 90,
+    "V": 3215,
+    "Z": 8,
+    "fonte": "SCXRD",
+    "condizioni": "120 K"
+   },
+   "cella_dedotta": true,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     },
+     "citazione": "Crystal system triclinic triclinic monoclinic monoclinic orthorhombic monoclinic monoclinic triclinic Space group P-1 P-1 C2/c C2/c Pbca P21/n P21/n P-1 T (K) 120 120 120 120 120 120 150 120 a (Å) 7.8264(6) 11.754(2) 20.646(4) 20.70(2) 21.321(3) 8.893(1) 11.940(4) 9.4497(1) b (Å) 9.4397(8) 13.091(3) 9.353(2) 9.407(8) 9.277(1) 18.818(2) 11.878(4) 13.9552(2) c (Å) 13.302(1) 15.129(4) 18.688(3) 18.68(2) 25.724(1) 12.767(1) 15.642(5) 14.6126(2) α (°) 89.673(2) 73.62(2) 90 90 90 90 90 85.214(1) β (°) 75.570(2) 84.56(2) 117.020(5) 116.440(8) 90 90.188 100.925(3) 87.695(1) γ (°) 71.091(2) 63.50(1) 90 90 90 90 90 72.367(1) V (Å3) 897.4(1) 2024.1(8) 3215(1) 3257(5) 5088(1) 2136.5(4) 2178(1) 1829.83(4) Z 2 2 8 8 8 4 4 4 R1 (%) 2.16 2.12 4.59 7.40 2.51 4.40 4.42 2.46"
+    }
+   ],
+   "citazione": "Form I has been previously reported by Folen and co-workers[25] and crystallises only from the melt",
+   "note": "Cella dalla Tabella 1 (colonna «DTA form I», terza; V calcolato 3214.8 contro 3215 scritto). Gli autori la riportano come forma gia' descritta da Folen et al. (rif. 25) e ne danno la struttura qui («This form (Table S1 and Figure 5) corresponds to the anhydrous crystal form described by Folen and co-workers (Form I)»); non e' certo quale forma fosse quella originale di Folen, perche' tetartoidrato e Form I sono strutturalmente quasi uguali. Isostrutturale col tetartoidrato. Si ottiene solo dal fuso."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "Form II",
+   "etichette_alternative": [
+    "anhydrous Form II"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "citazione": "The crystal form present after this dehydration event was verified by FTIR measurements to be a new anhydrous form, Form II, as compared to the spectra of the dihydrate and the previously published anhydrous Form I.",
+   "note": "Nuova forma anidra: non si sono ottenuti cristalli singoli per la struttura; PXRD e FTIR sono nel supplementare (Figure S1, S2). Nessuna cella."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "Form III",
+   "etichette_alternative": [
+    "anhydrous Form III"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "citazione": "Upon further heating, Form II transforms in an exothermic event into anhydrous Form III, a second new crystal form.",
+   "note": "Seconda nuova forma anidra: nessun cristallo singolo adatto alla struttura; PXRD e FTIR nel supplementare. Nessuna cella."
+  },
+  {
+   "id": "F6",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "DTS tetrahydrate",
+   "etichette_alternative": [
+    "monosodium DTA tetrahydrate",
+    "tetrahydrate"
+   ],
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 4.25,
+    "riferito_a": "unita_formula",
+    "fonte_stechiometria": "cristallografica"
+   },
+   "protonazione": "monosodium salt: carboxylic acid deprotonated (carboxylate)",
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 11.754,
+    "b": 13.091,
+    "c": 15.129,
+    "alpha": 73.62,
+    "beta": 84.56,
+    "gamma": 63.5,
+    "V": 2024.1,
+    "Z": 2,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "120 K"
+   },
+   "cella_dedotta": true,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     },
+     "citazione": "Crystal system triclinic triclinic monoclinic monoclinic orthorhombic monoclinic monoclinic triclinic Space group P-1 P-1 C2/c C2/c Pbca P21/n P21/n P-1 T (K) 120 120 120 120 120 120 150 120 a (Å) 7.8264(6) 11.754(2) 20.646(4) 20.70(2) 21.321(3) 8.893(1) 11.940(4) 9.4497(1) b (Å) 9.4397(8) 13.091(3) 9.353(2) 9.407(8) 9.277(1) 18.818(2) 11.878(4) 13.9552(2) c (Å) 13.302(1) 15.129(4) 18.688(3) 18.68(2) 25.724(1) 12.767(1) 15.642(5) 14.6126(2) α (°) 89.673(2) 73.62(2) 90 90 90 90 90 85.214(1) β (°) 75.570(2) 84.56(2) 117.020(5) 116.440(8) 90 90.188 100.925(3) 87.695(1) γ (°) 71.091(2) 63.50(1) 90 90 90 90 90 72.367(1) V (Å3) 897.4(1) 2024.1(8) 3215(1) 3257(5) 5088(1) 2136.5(4) 2178(1) 1829.83(4) Z 2 2 8 8 8 4 4 4 R1 (%) 2.16 2.12 4.59 7.40 2.51 4.40 4.42 2.46"
+    },
+    {
+     "fonte": "neutroni",
+     "citazione": "single-crystal neutron diffraction data was collected on the Laue diffractometer VIVALDI at the Institut Laue-Langevin (Grenoble, France)."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "centrosymmetric dimer of host molecules via amide N-H to carboxylic acid/carboxylate O",
+     "chi": "amide NH (N1 and N101) and carboxylic acid group (O2 and O102)",
+     "citazione": "The centrosymmetric dimer formation of the host molecule (protonated as well as deprotonated) through hydrogen bonds from the amide NH (N1 and N101) to the carboxylic acid group (O2 and O102) is realised in both forms."
+    },
+    {
+     "motivo": "water O3W bridging the two amide carbonyl groups of the same molecule (O103 and O104)",
+     "chi": "water O3W and amide carbonyls O103, O104 (one of the two independent host molecules)",
+     "citazione": "The second motif is a water molecule (O3W) bridging between the two amide carbonyl groups of the same molecule (O103 and O104). This motif, however, is only realised for one of the two crystallographically independent host molecules in the DTS tetrahydrate."
+    }
+   ],
+   "citazione": "We could confirm the model published earlier by Tonnessen et al.[23] with two formula units in the asymmetric unit (Z′ = 2). The authors report a tetrahydrate with partially disordered water sites. In the present determination the water positions are also disordered, but the positions could be refined with a higher occupancy, raising the water stoichiometry to 4.25 water molecules per DTS unit.",
+   "note": "Sale monosodico 1:1 (DTA + sodium) con 4.25 molecole d'acqua per unita' DTS (X-ray qui); il nome «tetrahydrate» e' mantenuto («For the purposes of the present discussion, however, the name tetrahydrate will be retained»). Occupanza piena di tutte le posizioni dell'acqua darebbe 4.5; la TGA perde in totale 3.15 moli prima della decomposizione contro le 4 attese; gli autori dicono parzialmente non stechiometrico. Struttura gia' riportata da Tonnessen et al. (rif. 23) con Z′ = 2 e acqua parzialmente disordinata. Cella dalla Tabella 1 (colonna 2, Mr 1421.88: due unita' DTS, da cui Z = 2 nonostante Z′ = 2 e P-1). Il volume calcolato dai parametri scritti e' 1997.5 Å3, non 2024.1: la tabella e' incoerente (o un angolo e' sbagliato), i valori sono riportati come scritti. Cristalli a blocchi gemellati. Struttura anche a neutroni (VIVALDI, ILL), senza T detta nel testo."
+  },
+  {
+   "id": "F7",
+   "composto": "C1",
+   "etichetta": "DTA DMF disolvate",
+   "etichette_alternative": [
+    "DMF disolvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethylformamide (DMF)",
+    "stechiometria": 2,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pbca",
+   "cella": {
+    "a": 21.321,
+    "b": 9.277,
+    "c": 25.724,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 5088,
+    "Z": 8,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "120 K"
+   },
+   "cella_dedotta": true,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     },
+     "citazione": "Crystal system triclinic triclinic monoclinic monoclinic orthorhombic monoclinic monoclinic triclinic Space group P-1 P-1 C2/c C2/c Pbca P21/n P21/n P-1 T (K) 120 120 120 120 120 120 150 120 a (Å) 7.8264(6) 11.754(2) 20.646(4) 20.70(2) 21.321(3) 8.893(1) 11.940(4) 9.4497(1) b (Å) 9.4397(8) 13.091(3) 9.353(2) 9.407(8) 9.277(1) 18.818(2) 11.878(4) 13.9552(2) c (Å) 13.302(1) 15.129(4) 18.688(3) 18.68(2) 25.724(1) 12.767(1) 15.642(5) 14.6126(2) α (°) 89.673(2) 73.62(2) 90 90 90 90 90 85.214(1) β (°) 75.570(2) 84.56(2) 117.020(5) 116.440(8) 90 90.188 100.925(3) 87.695(1) γ (°) 71.091(2) 63.50(1) 90 90 90 90 90 72.367(1) V (Å3) 897.4(1) 2024.1(8) 3215(1) 3257(5) 5088(1) 2136.5(4) 2178(1) 1829.83(4) Z 2 2 8 8 8 4 4 4 R1 (%) 2.16 2.12 4.59 7.40 2.51 4.40 4.42 2.46"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "brickwork-like hydrogen-bonded network of amide groups in the c-plane",
+     "chi": "amide groups of adjacent DTA molecules",
+     "citazione": "Hydrogen bonding between the amide groups results in a brickwork-like network in the crystallographic c-plane, similar to that observed in the DMSO monosolvate."
+    },
+    {
+     "motivo": "carboxylic acid O-H to DMF carbonyl hydrogen bond",
+     "chi": "carboxylic acid group of the host and one DMF molecule",
+     "citazione": "Consistent with the DMSO solvates, one DMF molecule interacts with the carboxylic acid group of the host molecule through hydrogen"
+    }
+   ],
+   "citazione": "The single-crystal X-ray structure was determined in the orthorhombic space group Pbca with one molecular unit in the asymmetric unit (Z’ = 1).",
+   "note": "Cella dalla Tabella 1 (colonna 5, Mr 760.11; V calcolato 5088.1). Ottenuto per evaporazione di soluzioni in DMF (prismi grandi, «relatively stable at room temperature»). Le due molecole di DMF sono disordinate su due posizioni (occupanze circa 50:50 e 30:70). Nel testo il solvente e' scritto «Ndimethylformamide (DMF)» (PDF) e «dimethyl formamide»."
+  },
+  {
+   "id": "F8",
+   "composto": "C1",
+   "etichetta": "DTA THF monosolvate",
+   "etichette_alternative": [
+    "THF monosolvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "tetrahydrofuran (THF)",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 8.893,
+    "b": 18.818,
+    "c": 12.767,
+    "alpha": 90,
+    "beta": 90.188,
+    "gamma": 90,
+    "V": 2136.5,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "120 K"
+   },
+   "cella_dedotta": true,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     },
+     "citazione": "Crystal system triclinic triclinic monoclinic monoclinic orthorhombic monoclinic monoclinic triclinic Space group P-1 P-1 C2/c C2/c Pbca P21/n P21/n P-1 T (K) 120 120 120 120 120 120 150 120 a (Å) 7.8264(6) 11.754(2) 20.646(4) 20.70(2) 21.321(3) 8.893(1) 11.940(4) 9.4497(1) b (Å) 9.4397(8) 13.091(3) 9.353(2) 9.407(8) 9.277(1) 18.818(2) 11.878(4) 13.9552(2) c (Å) 13.302(1) 15.129(4) 18.688(3) 18.68(2) 25.724(1) 12.767(1) 15.642(5) 14.6126(2) α (°) 89.673(2) 73.62(2) 90 90 90 90 90 85.214(1) β (°) 75.570(2) 84.56(2) 117.020(5) 116.440(8) 90 90.188 100.925(3) 87.695(1) γ (°) 71.091(2) 63.50(1) 90 90 90 90 90 72.367(1) V (Å3) 897.4(1) 2024.1(8) 3215(1) 3257(5) 5088(1) 2136.5(4) 2178(1) 1829.83(4) Z 2 2 8 8 8 4 4 4 R1 (%) 2.16 2.12 4.59 7.40 2.51 4.40 4.42 2.46"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "brickwork-like packing, ABAB motif",
+     "chi": "DTA host molecules (syn-conformation)",
+     "citazione": "The overall packing is brickwork-like similar to the DMF disolvate, but due to the synconformation of the host molecule, the orientation of the brickwork follows the ABAB motif found in the DMSO monosolvate (Figure S7)."
+    }
+   ],
+   "citazione": "This molecular complex was characterised by X-ray crystallography in the monoclinic spacegroup P21/n with one molecular unit in the asymmetric unit (Z′ = 1).",
+   "note": "Cella dalla Tabella 1 (colonna 6, Mr 686.03; V calcolato 2136.5). Ottenuto raffreddando una soluzione in THF da temperatura ambiente a 4 °C. Isostrutturale con il monosolvato di DMSO (rif. 26), in un gruppo spaziale a simmetria piu' bassa. beta 90.188 senza incertezza nella tabella."
+  },
+  {
+   "id": "F9",
+   "composto": "C1",
+   "etichetta": "DTA dioxane/water monosolvate",
+   "etichette_alternative": [
+    "mixed water/dioxane monosolvate",
+    "dioxane/water solvate",
+    "DTA dioxane/water"
+   ],
+   "tipo": "solvato",
+   "ospite": [
+    {
+     "specie": "dioxane",
+     "stechiometria": 1,
+     "riferito_a": "molecola"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "molecola"
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 11.94,
+    "b": 11.878,
+    "c": 15.642,
+    "alpha": 90,
+    "beta": 100.925,
+    "gamma": 90,
+    "V": 2178,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "cella_dedotta": true,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 150,
+      "unita": "K"
+     },
+     "citazione": "Crystal system triclinic triclinic monoclinic monoclinic orthorhombic monoclinic monoclinic triclinic Space group P-1 P-1 C2/c C2/c Pbca P21/n P21/n P-1 T (K) 120 120 120 120 120 120 150 120 a (Å) 7.8264(6) 11.754(2) 20.646(4) 20.70(2) 21.321(3) 8.893(1) 11.940(4) 9.4497(1) b (Å) 9.4397(8) 13.091(3) 9.353(2) 9.407(8) 9.277(1) 18.818(2) 11.878(4) 13.9552(2) c (Å) 13.302(1) 15.129(4) 18.688(3) 18.68(2) 25.724(1) 12.767(1) 15.642(5) 14.6126(2) α (°) 89.673(2) 73.62(2) 90 90 90 90 90 85.214(1) β (°) 75.570(2) 84.56(2) 117.020(5) 116.440(8) 90 90.188 100.925(3) 87.695(1) γ (°) 71.091(2) 63.50(1) 90 90 90 90 90 72.367(1) V (Å3) 897.4(1) 2024.1(8) 3215(1) 3257(5) 5088(1) 2136.5(4) 2178(1) 1829.83(4) Z 2 2 8 8 8 4 4 4 R1 (%) 2.16 2.12 4.59 7.40 2.51 4.40 4.42 2.46"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "centrosymmetric dimers via two amide N-H to carboxylic acid O hydrogen bonds",
+     "chi": "N-H of one amido group and the non-protonated oxygen of the carboxylic acid",
+     "citazione": "They assemble in centrosymmetric dimers, which are stabilised through two hydrogen bonds formed between the N-H of one amido group and the non-protonated oxygen atom of the carboxylic acid."
+    },
+    {
+     "motivo": "carboxylic acid O-H to dioxane; second amido group donates and accepts one hydrogen bond with the water",
+     "chi": "protonated acid oxygen and dioxane; second amido group and water",
+     "citazione": "The second amido group donates as well as accepts one hydrogen bond involving the incorporated water molecule, while the protonated oxygen atom of the acid moiety hydrogen bonds to the dioxane."
+    }
+   ],
+   "citazione": "Finally, a mixed water/dioxane monosolvate (ratio of 1:1:1 water:dioxane:DTA) could be crystallised from dioxane solution at 4 °C. The X-ray crystal structure was determined by synchrotron radiation using beam line I19 at Diamond Lightsource, Oxfordshire, UK[36] in the monoclinic space group P21/n with one molecular unit in the asymmetric unit (Z′ = 1).",
+   "note": "Cella dalla Tabella 1 (colonna 7, Mr 720.04, T 150 K: l'unica colonna a T diversa; V calcolato 2178.2). Struttura da radiazione di sincrotrone (linea I19, Diamond). Ottenuto da soluzione in diossano a 4 °C. Il testo non dice da dove venga l'acqua."
+  },
+  {
+   "id": "F10",
+   "composto": "C1",
+   "etichetta": "DTA methanol monosolvate",
+   "etichette_alternative": [
+    "methanol monosolvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1ത",
+   "cella": {
+    "a": 9.4497,
+    "b": 13.9552,
+    "c": 14.6126,
+    "alpha": 85.214,
+    "beta": 87.695,
+    "gamma": 72.367,
+    "V": 1829.83,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "120 K"
+   },
+   "cella_dedotta": true,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     },
+     "citazione": "Crystal system triclinic triclinic monoclinic monoclinic orthorhombic monoclinic monoclinic triclinic Space group P-1 P-1 C2/c C2/c Pbca P21/n P21/n P-1 T (K) 120 120 120 120 120 120 150 120 a (Å) 7.8264(6) 11.754(2) 20.646(4) 20.70(2) 21.321(3) 8.893(1) 11.940(4) 9.4497(1) b (Å) 9.4397(8) 13.091(3) 9.353(2) 9.407(8) 9.277(1) 18.818(2) 11.878(4) 13.9552(2) c (Å) 13.302(1) 15.129(4) 18.688(3) 18.68(2) 25.724(1) 12.767(1) 15.642(5) 14.6126(2) α (°) 89.673(2) 73.62(2) 90 90 90 90 90 85.214(1) β (°) 75.570(2) 84.56(2) 117.020(5) 116.440(8) 90 90.188 100.925(3) 87.695(1) γ (°) 71.091(2) 63.50(1) 90 90 90 90 90 72.367(1) V (Å3) 897.4(1) 2024.1(8) 3215(1) 3257(5) 5088(1) 2136.5(4) 2178(1) 1829.83(4) Z 2 2 8 8 8 4 4 4 R1 (%) 2.16 2.12 4.59 7.40 2.51 4.40 4.42 2.46"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "infinite chains of centrosymmetric dimers (amido N-H to non-protonated carboxylic acid O)",
+     "chi": "amido N-H and carboxylic acid non-protonated oxygen; free amido groups to the next dimer",
+     "citazione": "The first mode connects two DTA molecules by two hydrogen bonds between an amido N-H and the carboxylic acid non-protonated oxygen atom into centrosymmetric dimers. These connect through hydrogen bonds of the free amido functionalities to the next dimer, forming a second centrosymmetric dimer, which connects the host molecules in an offset stack."
+    },
+    {
+     "motivo": "methanol bridging chains: acid O-H to methanol O, methanol OH to amido O of the next host",
+     "chi": "protonated carboxylic acid oxygen, methanol hydroxyl, amido oxygen",
+     "citazione": "The methanol guest is connected to these chains through hydrogen bonds from the protonated carboxylic acid oxygen atom to its hydroxyl oxygen atom, which furthermore hydrogen bonds to the oxygen atoms of the amido group of the next host. This links the individual chains of host molecules."
+    }
+   ],
+   "citazione": "The methanol monosolvate was obtained by cooling a supersaturated methanol solution of DTA to 4 ˚C. The crystal structure was determined in the triclinic space group P1ത with two molecular units in the asymmetric unit (Z′ = 2).",
+   "note": "Cella dalla Tabella 1 (colonna 8, Mr 645.96; V calcolato 1829.8). Il testo scrive «P1ത» (barra rovinata), la tabella «P-1». Impacchettamento simile a quello della Form I. Forma molto instabile: si trasforma subito nel diidrato anche a bassa temperatura nelle acque madri."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F4",
+    "F5"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F5",
+   "relazione_scritta": "monotropically related; Form III is the thermodynamically stable polymorph at all temperatures",
+   "citazione": "With the thermal data listed in Table 3, a semi-schematic energy/temperature diagram was constructed (Figure 4).[32-33] It is clearly visible that the G-isobars of the two polymorphs run in parallel over the whole temperature range and do not intersect. Thus, these two crystal forms are monotropically related to each other, and Form III is the thermodynamically stable polymorph at all temperatures.",
+   "fonte_dati": "propria",
+   "note": "Dal diagramma energia/temperatura semi-schematico (Fig. 4): le isobare G delle due forme corrono parallele e non si incrociano; anche «Exothermic transitions generally imply a monotropic relationship». Nessuna T di transizione."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 80,
+     "max": 150,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dynamic dry helium flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC",
+     "IR",
+     "PXRD"
+    ],
+    "perdita_massa": {
+     "valore": 5.68,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "The thermogram shows no weight loss of the sample up to 80 °C, while a following single step of 5.68% weight loss represents the release of the crystal water (calculated value for a dihydrate is 5.54%).",
+    "The thermogram shows a dehydration endotherm in the temperature range from 80 to 150 °C, which coincides with the mass loss found by TG.",
+    "The crystal form present after this dehydration event was verified by FTIR measurements to be a new anhydrous form, Form II, as compared to the spectra of the dihydrate and the previously published anhydrous Form I.",
+    "Figure 3. Thermogravimetric (upper curve) and differential scanning calorimetric (lower curve) thermograms of DTA dihydrate, both recorded at 10 °C min-1.",
+    "The dehydration temperature detected in the TG is lower than that observed by thermo-microscopy which is due to the dynamic dry helium flow around the sample."
+   ],
+   "certezza": "alta",
+   "note": "Disidratazione del diidrato (5.68% osservato contro 5.54% calcolato per un diidrato: il valore calcolato e' dato nel testo). Nessuna perdita fino a 80 °C; endotermo di disidratazione DSC fra 80 e 150 °C, che coincide con la perdita di massa TG. Il prodotto, Form II, e' identificato per FTIR (e per PXRD nel supplementare: «clear changes in peak positions ... proving that a phase transition occurred»). La T di disidratazione in TG e' piu' bassa che in termomicroscopia per il flusso dinamico di elio secco (E3). Il crogiolo non e' detto.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 120,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Thermo-microscopic investigations showed that the dihydrate crystals remain unchanged between room temperature and 120 °C."
+   ],
+   "certezza": "alta",
+   "note": "Termomicroscopia: nessun cambiamento fra temperatura ambiente e 120 °C. Poi cambia (E3).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 120,
+     "fine": 135,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "pseudomorfosi"
+    ],
+    "integrita": "salta"
+   },
+   "campione": {
+    "mezzo": "paraffin oil"
+   },
+   "citazioni": [
+    "Thermo-microscopic investigations showed that the dihydrate crystals remain unchanged between room temperature and 120 °C.",
+    "Upon further heating, the crystals start to move and jump whilst undergoing pseudomorphosis, indicating radical changes to the crystal structure.",
+    "A preparation of the dihydrate in paraffin oil shows bubble formation accompanying the pseudomorphosis verifying the release of water, which is complete at about 135 °C.",
+    "Dehydration at such high temperatures is unusual for organic hydrates without cation coordination of the incorporated water and demonstrates the extraordinary stability of this crystal form."
+   ],
+   "certezza": "media",
+   "note": "Termomicroscopia. Dopo 120 °C («remain unchanged between room temperature and 120 °C», E2) i cristalli si muovono e saltano con pseudomorfosi; la preparazione in olio di paraffina forma bolle che «verify the release of water», completa a circa 135 °C (onset 120 = ultima T senza cambiamento, il cambiamento comincia sopra). Il prodotto non e' identificato dalla termomicroscopia (a ignota). La T di disidratazione in termomicroscopia e' piu' alta di quella in TG (E1) per via del flusso di elio secco della TG. Il mezzo e' detto solo per la preparazione in olio di paraffina (bolle); per il movimento dei cristalli il testo non nomina il mezzo.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E4",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 210.8,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD",
+     "IR"
+    ],
+    "entalpia": {
+     "valore": -7.3,
+     "unita": "kJ/mol",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "Upon further heating, Form II transforms in an exothermic event into anhydrous Form III, a second new crystal form. Exothermic transitions generally imply a monotropic relationship between the two crystal forms.[32]",
+    "Table 3. Thermal data of the solid state transitions of the anhydrous crystal forms of DTA. Transition Heat of Melting point Heat of temperature transition [kJ (onset) [°C] fusion [kJ mol-1] mol-1] Form II 210.8±0.4 -7.3±0.3",
+    "Figure 3. Thermogravimetric (upper curve) and differential scanning calorimetric (lower curve) thermograms of DTA dihydrate, both recorded at 10 °C min-1."
+   ],
+   "certezza": "media",
+   "note": "Transizione esotermica Form II → Form III (la relazione monotropa e' in relazioni). Tabella 3: T di transizione (onset) 210.8±0.4 °C, calore di transizione -7.3±0.3 kJ/mol (incertezze non rappresentabili nella grandezza). La velocita' di 10 °C/min e' quella del termogramma della Fig. 3 (il testo descrive la transizione II → III nello stesso termogramma); la Tabella 3 non la ripete. Il testo non descrive un ritorno.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E5",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 306.7,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 31.6,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "Table 3. Thermal data of the solid state transitions of the anhydrous crystal forms of DTA. Transition Heat of Melting point Heat of temperature transition [kJ (onset) [°C] fusion [kJ mol-1] mol-1] Form II 210.8±0.4 -7.3±0.3 Form III 306.7±2.3 31.6±1.7"
+   ],
+   "certezza": "media",
+   "note": "Tabella 3: punto di fusione (onset) 306.7±2.3 °C, calore di fusione 31.6±1.7 kJ/mol (incertezze non rappresentabili). Velocita' non detta per questo valore. La termomicroscopia del campione partito dal diidrato da' invece fusione sopra 320 °C (E7): condizioni diverse, valori riportati entrambi.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "sublimazione",
+   "da_evento": "E3",
+   "pretrattamento": "dihydrate crystals heated in the thermo-microscope (dehydrated above 120 °C, E3)",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sopra"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Upon further heating sublimation into fine needles can be observed above 300 °C"
+   ],
+   "certezza": "bassa",
+   "note": "Sublimazione in aghi sottili osservata in termomicroscopia sopra 300 °C, nella stessa corsa dell'E3. La forma di partenza a quella T e' il campione disidratato (non nominato dal testo); si registra F1 come campione caricato. La forma degli aghi non e' identificata.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E3",
+   "pretrattamento": "dihydrate crystals heated in the thermo-microscope (dehydrated above 120 °C, E3)",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 320,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sopra"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "while above 320 °C the sample melts and decomposes concomitantly."
+   ],
+   "certezza": "bassa",
+   "note": "Fusione con decomposizione concomitante sopra 320 °C in termomicroscopia, dal campione partito dal diidrato (la forma anidra presente non e' nominata). Il DSC da' per la Form III onset 306.7 °C (E5): valori diversi riportati entrambi.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "natura": "chimica",
+   "da_evento": "E1",
+   "pretrattamento": "campione disidratato nel passo TG (E1)",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 290,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The dehydrated sample is stable to 290 °C, above which a second weight loss indicates decomposition during which volatile decomposition products are released.",
+    "Figure 3. Thermogravimetric (upper curve) and differential scanning calorimetric (lower curve) thermograms of DTA dihydrate, both recorded at 10 °C min-1."
+   ],
+   "certezza": "media",
+   "note": "Il campione disidratato e' stabile fino a 290 °C, poi seconda perdita di massa (decomposizione con prodotti volatili). La forma anidra presente non e' nominata; si registra F1 come campione caricato.",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E9",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 75,
+     "max": 79,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "pseudomorfosi"
+    ],
+    "integrita": "polverizzato"
+   },
+   "citazioni": [
+    "Thermomicroscopy shows that these blocks undergo a very strong pseudomorphosis accompanying dehydration between 75 and 79 °C to the extent that the DTS tetrahydrate crystals not only transform into powder but the particles additionally lose all of their initial macroscopic integrity during this event (Figure 6).",
+    "Figure 6 Photo micrographs of the dehydration of DTS tetrahydrate upon heating. The first micrograph is taken at 74 °C with the following images taken every 5 seconds at a heating rate of 10 °C min-1."
+   ],
+   "certezza": "media",
+   "note": "Disidratazione in termomicroscopia con pseudomorfosi molto forte: i cristalli diventano polvere e perdono ogni integrita' macroscopica. Il prodotto («dehydrated crystal form») non e' caratterizzato. Il tetraidrato e' piu' instabile del diidrato di DTA.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E10",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "fine": 85,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry purge gas",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 6.38,
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "sodium coordination of water molecules",
+     "ruolo": "coordina_ospite",
+     "con": "controione",
+     "cambia": "si_rompe",
+     "forma": "F6",
+     "citazione": "On the other hand, approximately 2.4 moles of water leave the crystal lattice on the first dehydration step, thus the sodium coordination has to be broken for at least some of the water molecules."
+    }
+   ],
+   "citazioni": [
+    "the TG trace shows the release of the incorporated water starting even at room temperature (Figure 7).",
+    "TGA analysis shows an initial weight loss step of 6.38%, corresponding to 2.4 moles of water. At about 85 °C this mass loss process is complete",
+    "it cannot be excluded that the sample loses crystal water during storage or when the sample is initially put into the dry purge gas of the TG",
+    "Thermogravimetric (upper curve) and differential scanning calorimetric (lower curve) thermograms of DTS tetrahydrate, both recorded at 10 °C min-1."
+   ],
+   "certezza": "media",
+   "note": "Primo passo TG: 6.38% = 2.4 moli d'acqua, comincia gia' a temperatura ambiente e finisce a circa 85 °C (fine 85). TG-MS: acqua rilasciata in entrambi i passi di disidratazione. Il prodotto («dehydrated crystal form») non e' caratterizzato. Il gruppo coinvolto e' la deduzione degli autori («has to be broken for at least some of the water molecules»; i siti probabili sono O4W e O5W che fanno ponte fra due sodi, ma il testo li dice 'most likely'). Il testo avverte che il campione puo' aver perso acqua in conservazione o nel gas secco della TG.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E11",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "da_evento": "E10",
+   "pretrattamento": "dopo il primo passo di perdita di massa TG (fino a circa 85 °C)",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 170,
+     "max": 210,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 2.08,
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "citazioni": [
+    "At about 85 °C this mass loss process is complete and the TG trace indicates that the sample is in equilibrium until a second mass loss of 2.08% (0.75 moles of water) occurs in the range 170 to 210 °C.",
+    "This second event was not observed by thermomicroscopy, which could be due to the small particle size of the corresponding dehydrated crystal form.",
+    "Thermogravimetric (upper curve) and differential scanning calorimetric (lower curve) thermograms of DTS tetrahydrate, both recorded at 10 °C min-1."
+   ],
+   "certezza": "media",
+   "note": "Secondo passo TG: 2.08% = 0.75 moli d'acqua fra 170 e 210 °C; la perdita totale prima della decomposizione e' 3.15 moli contro le 4 attese. Non osservato in termomicroscopia (forse per le particelle piccole). Prodotto non caratterizzato.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E12",
+   "da": "F6",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "natura": "chimica",
+   "da_evento": "E11",
+   "pretrattamento": "dopo i due passi di perdita d'acqua della TG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 240,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "A third mass loss is detected above 240 °C representing decomposition of the sample. Compared to the DTA dihydrate, this decomposition takes place about 40 °C lower and indicates the lower thermal stability of the sodium salt.",
+    "Thermogravimetric (upper curve) and differential scanning calorimetric (lower curve) thermograms of DTS tetrahydrate, both recorded at 10 °C min-1."
+   ],
+   "certezza": "media",
+   "note": "Terzo passo TG sopra 240 °C: decomposizione, circa 40 °C piu' in basso che per il diidrato di DTA. Il TG-MS mostra acqua rilasciata anche in questo passo: acqua di cristallo, non prodotto di decomposizione.",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E13",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 90,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 90,
+       "circa": true,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "Two endothermic events can be detected, the first at approximately 90 °C, which correlates with the first dehydration.",
+    "Thermogravimetric (upper curve) and differential scanning calorimetric (lower curve) thermograms of DTS tetrahydrate, both recorded at 10 °C min-1."
+   ],
+   "certezza": "media",
+   "note": "Primo endotermo DSC del tetraidrato di DTS a circa 90 °C = primo passo di disidratazione (stesso fenomeno dell'E10, misurato con un'altra tecnica a T diversa).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E14",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "da_evento": "E13",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 190,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "onset": 190,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The second event starts at 190 °C, matching the second weight loss observed by TG.",
+    "Thermogravimetric (upper curve) and differential scanning calorimetric (lower curve) thermograms of DTS tetrahydrate, both recorded at 10 °C min-1."
+   ],
+   "certezza": "media",
+   "note": "Secondo endotermo DSC che parte a 190 °C, in accordo col secondo passo TG (E11).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E15",
+   "da": "F6",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "natura": "chimica",
+   "da_evento": "E14",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 190,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 190,
+       "unita": "°C",
+       "limite": "sopra"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "The second event starts at 190 °C, matching the second weight loss observed by TG. Above this temperature, a very pronounced exothermic event represents the decomposition of the sample and is in good agreement with the results of the TG experiment.",
+    "Thermogravimetric (upper curve) and differential scanning calorimetric (lower curve) thermograms of DTS tetrahydrate, both recorded at 10 °C min-1."
+   ],
+   "certezza": "bassa",
+   "note": "Esotermo molto marcato sopra la T del secondo endotermo (190 °C), attribuito alla decomposizione e in accordo con la TG (che la mette sopra 240 °C, E12). «Above this temperature» si riferisce ai 190 °C della frase precedente.",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E16",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E9",
+   "pretrattamento": "campione disidratato in termomicroscopia (75-79 °C, E9)",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "condizioni": {
+    "temperatura": {
+     "valore": 278,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "lettura_alternativa": "gradual amorphisation or glass-transition: the crystals lose their birefringence without obvious formation of a liquid phase",
+   "citazioni": [
+    "Upon further heating, melting occurs at 278 °C. This event resembles a gradual amorphisation or glass-transition, in which the crystals lose their birefringence without obvious formation of a liquid phase and there is rapid decay of the morphology of the particles. This behaviour is similar to that of polymers, whilst small molecular crystals generally show a sharp melting event, and it is presumably due to concomitant decomposition.",
+    "Additionally, bubbles form in the resulting melt, which indicates either decomposition or residual water entrapped in the crystals during the dehydration process being released upon melting."
+   ],
+   "certezza": "media",
+   "note": "Fusione a 278 °C in termomicroscopia: l'evento somiglia a una amorfizzazione graduale o a una transizione vetrosa (i cristalli perdono la birifrangenza senza una fase liquida evidente, comportamento da polimeri), «presumably due to concomitant decomposition». Si formano bolle nel fuso: decomposizione o acqua residua rilasciata alla fusione. La forma di partenza a quella T e' il campione disidratato (non nominato).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E17",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita": {
+     "valore": 40,
+     "circa": true,
+     "unita": "%RH",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "while samples of the tetrahydrate can be stored unchanged as dry powder under ambient conditions (~40% RH)."
+   ],
+   "certezza": "media",
+   "note": "Conservazione come polvere secca in condizioni ambiente (~40% RH) senza cambiamenti; durata non detta.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E18",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "desorbimento",
+   "condizioni": {
+    "umidita": null,
+    "umidita_ignota": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "osservato": false,
+   "certezza": "bassa",
+   "citazioni": [
+    "This indicates, that the crystal form can be dehydrated by lowering the relative humidity (RH)"
+   ],
+   "note": "Deduzione degli autori dal fatto che la TG mostra perdita d'acqua gia' a temperatura ambiente nel gas di spurgo secco (E10): la disidratazione si puo' ottenere abbassando l'umidita'. Nessuna RH di prova e nessun solido analizzato in quelle condizioni.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E19",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "senza_condizioni": true,
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The initial crystals formed are fine blades (Figure 1b), which over time ripen to blocks (Figure 1c). This proved to be due to Ostwald ripening and not to the existence of different crystal forms and a phase transition, as demonstrated by PXRD."
+   ],
+   "certezza": "media",
+   "note": "Le lamelle iniziali diventano blocchi per maturazione di Ostwald e non per una transizione di fase fra forme cristalline diverse: lo dimostra la PXRD. Tempi e mezzo non detti (si presume il mezzo di cristallizzazione). I blocchi, gemellati, sono gli aggregati delle lamelle.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E20",
+   "da": "F10",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato",
+     "testo": "low temperatures"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "this crystal form is the most unstable of all reported, as it readily transforms to the dihydrate, even when stored at low temperatures in the methanol mother liquor."
+   ],
+   "certezza": "media",
+   "note": "Il monosolvato di metanolo si trasforma subito nel diidrato anche conservato a bassa temperatura nelle acque madri di metanolo. Il testo non dice la T, ne' da dove venga l'acqua, ne' come e' stato identificato il diidrato.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E21",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "ambient conditions"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "pseudomorfosi"
+    ],
+    "integrita": "fratturato"
+   },
+   "citazioni": [
+    "When taken out of solution, the crystals crack and show strong pseudomorphosis due to loss of solvent at ambient conditions."
+   ],
+   "certezza": "alta",
+   "note": "Fuori dalla soluzione i cristalli si fratturano e mostrano pseudomorfosi forte per perdita di solvente in condizioni ambiente. Il prodotto non e' identificato.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E22",
+   "da": "F7",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The DMF disolvate can be crystallised by evaporation of DMF solutions under ambient conditions, upon which large prisms form (Figure S5) that are relatively stable at room temperature."
+   ],
+   "certezza": "bassa",
+   "note": "«Relatively stable at room temperature»: nessuna durata ne' un cambiamento specifico; per questo certezza bassa.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E23",
+   "da": "F7",
+   "a": "F3",
+   "esito": "avvenuta",
+   "esito_dettaglio": "peritettica",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato",
+     "testo": "peritectic melting point"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "mezzo": "paraffin oil"
+   },
+   "citazioni": [
+    "In addition, as the only method to produce pure Form I is by melting the DMF solvate in a paraffin oil suspension to reach the peritectic melting point"
+   ],
+   "certezza": "media",
+   "note": "Unico metodo per ottenere la Form I pura: fondere il solvato di DMF in sospensione di olio di paraffina fino al punto di fusione peritettico. T non data. I campioni di Form I per l'IR contengono grandi quantita' di olio di paraffina.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "water",
+    "ethanol (minor amounts, as solubiliser)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "non_specificato",
+    "testo": "from boiling point to room temperature"
+   },
+   "velocita": {
+    "testo": "very slow cooling"
+   },
+   "tempo": {
+    "testo": "within a couple of hours"
+   },
+   "citazioni": [
+    "On cooling this solution, prismatic block-shaped crystals of the dihydrate grow within a couple of hours, and their crystal size depends on the cooling rate.",
+    "Large, high quality crystals (Figure 1a) were obtained by very slow cooling of a saturated aqueous",
+    "solution containing minor amounts of ethanol as solubiliser from boiling point to room temperature."
+   ],
+   "note": "Il diidrato cresce raffreddando la soluzione acquosa satura dal punto di ebollizione alla temperatura ambiente; la dimensione dei cristalli dipende dalla velocita' di raffreddamento. L'etanolo e' presente in piccole quantita' come solubilizzante.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "1-propanol"
+   ],
+   "citazioni": [
+    "a second hydrated structure of DTA was crystallised from 1-propanol (Table 1)."
+   ],
+   "note": "Il testo non dice il metodo di cristallizzazione ne' da dove venga l'acqua.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "dal_fuso",
+   "citazioni": [
+    "Form I has been previously reported by Folen and co-workers[25] and crystallises only from the melt",
+    "a crystal form closely related to the tetartohydrate can be grown from the melt completely water-free."
+   ],
+   "note": "Cristallizza solo dal fuso; il solo metodo per la Form I pura e' la fusione peritettica del solvato di DMF in olio di paraffina (E23).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E23",
+   "citazioni": [
+    "In addition, as the only method to produce pure Form I is by melting the DMF solvate in a paraffin oil suspension to reach the peritectic melting point"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "citazioni": [
+    "while forms II and III can only be obtained by thermal dehydration of the dihydrate."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E1",
+    "E4"
+   ],
+   "citazioni": [
+    "while forms II and III can only be obtained by thermal dehydration of the dihydrate."
+   ],
+   "note": "Form III dalla trasformazione esotermica della Form II (E4), a sua volta dalla disidratazione termica del diidrato (E1).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "antisolvente",
+   "solventi": [
+    "water",
+    "acetone"
+   ],
+   "solventi_alternativi": false,
+   "citazioni": [
+    "can be crystallised by precipitation from aqueous solution with anti-solvent, e.g. acetone."
+   ],
+   "note": "Acetone indicato come esempio di antisolvente («e.g.»). Le lamelle iniziali maturano in blocchi (E19).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "dimethylformamide (DMF)"
+   ],
+   "atmosfera": "ambient conditions",
+   "citazioni": [
+    "The DMF disolvate can be crystallised by evaporation of DMF solutions under ambient conditions, upon which large prisms form (Figure S5)"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "tetrahydrofuran (THF)"
+   ],
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "citazioni": [
+    "Cooling a THF solution from room temperature to 4 °C results in the formation of a THF monosolvate."
+   ],
+   "note": "Raffreddamento da temperatura ambiente a 4 °C.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F10"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "methanol"
+   ],
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "citazioni": [
+    "The methanol monosolvate was obtained by cooling a supersaturated methanol solution of DTA to 4 ˚C."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "dioxane"
+   ],
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "citazioni": [
+    "could be crystallised from dioxane solution at 4 °C."
+   ],
+   "note": "Il testo non dice se la cristallizzazione avvenga per raffreddamento o isotermicamente, ne' da dove venga l'acqua.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "solvente": "water",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "room temperature"
+     },
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "very sparingly soluble"
+     },
+     "citazione": "DTA is very sparingly soluble in water at room temperature, while the solubility increases significantly upon heating to boiling point."
+    },
+    {
+     "tipo": "solubilita",
+     "solvente": "water",
+     "forma": "F6",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "considerably higher than that of the free acid"
+     },
+     "citazione": "While the sodium salt also crystallises in a highly hydrated form,[23] the solubility of the charged species in water is considerably higher than that of the free acid."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "syn-conformation: both amide substituents and the carboxylic acid group rotated out of the aromatic ring plane, amide oxygens and acid hydroxyl on the same side of the ring",
+     "citazione": "The host molecule adopts a conformation in which both amide substituents as well as the carboxylic acid group are rotated out of the aromatic ring plane, with the oxygen atoms of the amide groups and the hydroxyl function of the acid group being on the same side of the ring in a syn-conformation."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "trans conformation: the two amide carbonyl oxygen atoms lie on opposite sides of the ring",
+     "citazione": "The crystal structure contains the host molecule in a different conformation to the dihydrate, in which the two amide carbonyl oxygen atoms lie on opposite sides of the ring. This trans conformation"
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "syn in the dihydrate, the DMSO disolvate and the THF monosolvate; anti in all the other crystal structures; no clear trend",
+     "citazione": "In the case of the dihydrate, the DMSO disolvate and the THF monosolvate, the host adopts a syn-conformation, in which both carbonyl groups of the amide chains lie on one side of the rigid core. All other crystal structures show an anti-conformation."
+    },
+    {
+     "tipo": "altro",
+     "testo": "two amide NH and one carboxylic acid OH donors; two amide and one carboxylic acid carbonyl acceptors; three iodo substituents allow halogen bonding",
+     "citazione": "The DTA molecule has two amide NH groups and one carboxylic acid OH functionality as hydrogen-bond donors, as well as two amide and one carboxylic acid carbonyl groups as hydrogen-bond acceptors."
+    }
+   ]
+  }
+ ]
+}
