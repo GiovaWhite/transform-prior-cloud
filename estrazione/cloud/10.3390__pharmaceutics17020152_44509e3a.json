@@ -1,0 +1,1544 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/pharmaceutics17020152",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Cardarine/GW501516. Stesso composto (C1) di 10.3390/pharmaceutics16050623, i cui valori di fusione ed energie reticolari di GW-1...GW-5 coincidono con quelli citati qui; in questo articolo i polimorfi GW-1...GW-5 compaiono solo come riferimento al rif. 11 nella Table 2 e nel confronto delle energie reticolari, quindi non sono forme di questa estrazione: i loro punti di fusione e le energie reticolari stanno nell'extra come citati). Nessun CCDC ne' refcode nel testo. Eventi: tracce DTA/TGA delle nuove forme (transizioni, desolvatazioni, fusioni, degradazione), bipiridina pura, stabilita' a 40 °C e 75% RH. Non sono eventi: solubilita' in acqua (UV), lo spostamento ipotizzato dell'H del COOH verso S2 (interpretazione IR), le energie. Difetti del testo: (1) riferimenti a figure sbagliati nel confronto dei punti di fusione («in the cocrystal (Figure 7c) ... than in bipyridine (Figure 7d)»); (2) lattice energy di GW-SO: Table 3 «−210.6», testo «−211.1 kJ/mol»; (3) GW-SO2 con T «250(60)» in Table 1; (4) la GW-SO con peso formula 938.97 per formula C21H18F3NO4S2; (5) la didascalia di Table 2 chiama «GW1 to GW-5» i polimorfi citati; (6) «B3LYP/6-31H(d,p)» nel testo. Frasi dei metodi di sintesi: «obtained from a mixture with nitromethane» (composizione non detta).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "2-[2-methyl-4-[[4-methyl-2-[4-(trifluoromethyl)phenyl]-1,3-thiazol-5-yl]methylsulfanyl]phenoxy]acetic acid (cardarine, GW501516)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "4,4′-bipyridine",
+   "smiles": null
+  },
+  {
+   "id": "C3",
+   "nome": "mono-oxidized cardarine (C21H18F3NO4S2, sulfoxide derivative of cardarine)",
+   "smiles": null,
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C4",
+   "nome": "dioxidized cardarine (C21H18F3NO5S2, sulfone derivative of cardarine)",
+   "smiles": null,
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "GW",
+   "etichette_alternative": [
+    "starting form of cardarine",
+    "GW cardarine start compound"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "The crystalline powder of cardarine was received from Wuhan Shu Mai Technology Co. (Wuhan, China)",
+   "note": "Cardarine di partenza (polvere cristallina commerciale); nel testo la forma non e' identificata (non dice se sia uno dei polimorfi GW-1..GW-5 del rif. 11). Sigla «GW» nei dati UV («AGW», «CGW») e «GW cardarine start compound» nella didascalia della Figure 7."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "GW-6",
+   "etichette_alternative": [
+    "Cardarine polymorph",
+    "GW-polymorph",
+    "new polymorph"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 4.8413,
+    "b": 10.7961,
+    "c": 40.778,
+    "alpha": 90.0,
+    "beta": 92.1,
+    "gamma": 90.0,
+    "V": 2129.9,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K",
+    "Z_primo": 1
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2) | 293(2) | 250(60)\nCrystal system | monoclinic | triclinic | monoclinic | triclinic | triclinic | monoclinic\nSpace group | P21/n | P-1 | P21/c | P-1 | P-1 | P21/n\na/Å | 4.8413(6) | 4.8765(5) | 4.6702(2) | 6.6428(2) | 11.7781(9) | 4.6735(4)\nb/Å | 10.7961(15) | 15.418(2) | 10.9176(4) | 11.6468(3) | 12.8498(14) | 27.738(2)\nc/Å | 40.778(6) | 16.734(2) | 44.4184(18) | 16.5294(4) | 15.1481(19) | 16.3811(14)\nα/° | 90 | 90.787(10) | 90 | 91.443(2) | 108.143(10) | 90\nβ/° | 92.100(11) | 93.949(10) | 91.048(4) | 96.521(2) | 101.939(9) | 91.101(7)\nγ/° | 90 | 95.890(10) | 90 | 98.027(2) | 90.002(8) | 90\nVolume/Å3 | 2129.9(5) | 1248.3(3) | 2264.40(16) | 1257.02(6) | 2126.4(4) | 2123.2(3)\nZ | 4 | 2 | 4 | 2 | 2 | 4",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     }
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(8) homosynthon (carboxyl···carboxyl O3-H3···O2)",
+     "chi": "carboxyl groups of two cardarine molecules",
+     "citazione": "The crystal exhibits strong mutual carboxyl···carboxyl O3-H3···O2 hydrogen bonds depicting a R22(8) homosynthon."
+    }
+   ],
+   "citazione": "The recrystallization of cardarine in methanol yielded the formation of a new polymorph, which was proven to be monoclinic with the centrosymmetric space group P21/n whose asymmetric unit comprises one molecule as depicted in Figure 1a.",
+   "note": "Nuovo polimorfo di cardarine (formula C21H18F3NO3S2, senza solvente): anidro presunto. Cella e T dalla Table 1 (colonna GW-6). Nessun CCDC ne' refcode nel testo (i dati di deposito stanno nel supplementare, se ci sono)."
+  },
+  {
+   "id": "F3",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "GW-Bipy",
+   "etichette_alternative": [
+    "GW-bipy",
+    "Cardarine 4,4′-bipyridine cocrystal",
+    "2:1 GW-Bipy cocrystal"
+   ],
+   "tipo": "cocristallo",
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 4.8765,
+    "b": 15.418,
+    "c": 16.734,
+    "alpha": 90.787,
+    "beta": 93.949,
+    "gamma": 95.89,
+    "V": 1248.3,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K",
+    "Z_primo": 1
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2) | 293(2) | 250(60)\nCrystal system | monoclinic | triclinic | monoclinic | triclinic | triclinic | monoclinic\nSpace group | P21/n | P-1 | P21/c | P-1 | P-1 | P21/n\na/Å | 4.8413(6) | 4.8765(5) | 4.6702(2) | 6.6428(2) | 11.7781(9) | 4.6735(4)\nb/Å | 10.7961(15) | 15.418(2) | 10.9176(4) | 11.6468(3) | 12.8498(14) | 27.738(2)\nc/Å | 40.778(6) | 16.734(2) | 44.4184(18) | 16.5294(4) | 15.1481(19) | 16.3811(14)\nα/° | 90 | 90.787(10) | 90 | 91.443(2) | 108.143(10) | 90\nβ/° | 92.100(11) | 93.949(10) | 91.048(4) | 96.521(2) | 101.939(9) | 91.101(7)\nγ/° | 90 | 95.890(10) | 90 | 98.027(2) | 90.002(8) | 90\nVolume/Å3 | 2129.9(5) | 1248.3(3) | 2264.40(16) | 1257.02(6) | 2126.4(4) | 2123.2(3)\nZ | 4 | 2 | 4 | 2 | 2 | 4",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     }
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "O-H···N hydrogen bridges (hydroxyl donor to bipyridine nitrogen)",
+     "chi": "hydroxyl group of cardarine and nitrogen of bipyridine",
+     "citazione": "Within the asymmetric unit, the hydroxyl group acts as a donor in the formation of strong hydrogen bridges with the nitrogen of bipiridine."
+    }
+   ],
+   "citazione": "Using the X-ray diffraction method, it was found to be in a stoichiometric ratio of 2:1 between cardarine to bipyridine and to crystallize in the triclinic crystal system (centrosymmetric P-1 space group) with one cardarine molecule in the asymmetric unit (Figure 2a) and half a molecule of bipirydine, which is located on special positions (namely inversion centers of the unit cell corners).",
+   "note": "Cocristallo 2:1 cardarine:bipiridina (nel testo «bipirydine»). Unita' asimmetrica: una molecola di cardarine e meta' di bipiridina (su un centro di inversione); Z_primo 1 si riferisce alla cardarine. La formula in Table 1 (C26H22F3N2O3S2) e' per una cardarine e mezza bipiridina. Cella e T dalla Table 1."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "GW-DMF",
+   "etichette_alternative": [
+    "Cardarine dimethylformamide solvate",
+    "GW-DMF solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethylformamide",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 6.6428,
+    "b": 11.6468,
+    "c": 16.5294,
+    "alpha": 91.443,
+    "beta": 96.521,
+    "gamma": 98.027,
+    "V": 1257.02,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K"
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2) | 293(2) | 250(60)\nCrystal system | monoclinic | triclinic | monoclinic | triclinic | triclinic | monoclinic\nSpace group | P21/n | P-1 | P21/c | P-1 | P-1 | P21/n\na/Å | 4.8413(6) | 4.8765(5) | 4.6702(2) | 6.6428(2) | 11.7781(9) | 4.6735(4)\nb/Å | 10.7961(15) | 15.418(2) | 10.9176(4) | 11.6468(3) | 12.8498(14) | 27.738(2)\nc/Å | 40.778(6) | 16.734(2) | 44.4184(18) | 16.5294(4) | 15.1481(19) | 16.3811(14)\nα/° | 90 | 90.787(10) | 90 | 91.443(2) | 108.143(10) | 90\nβ/° | 92.100(11) | 93.949(10) | 91.048(4) | 96.521(2) | 101.939(9) | 91.101(7)\nγ/° | 90 | 95.890(10) | 90 | 98.027(2) | 90.002(8) | 90\nVolume/Å3 | 2129.9(5) | 1248.3(3) | 2264.40(16) | 1257.02(6) | 2126.4(4) | 2123.2(3)\nZ | 4 | 2 | 4 | 2 | 2 | 4",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     }
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(7) ring graph set (hydroxyl···carbonyl O3-H···O4 and C22-H···O2)",
+     "chi": "cardarine and DMF molecule",
+     "citazione": "displays a ring like R22(7) graph set motif, which links the cardarine and solvent molecule via hydroxyl···carbonyl O3-H···O4 and C22-H···O2 hydrogen bonds."
+    },
+    {
+     "motivo": "R2^2(7) motif linking two cardarine molecules and one solvent molecule (C7-H···O4, C6-H···O3, O3-H3···O4)",
+     "chi": "two cardarine molecules and one DMF molecule",
+     "citazione": "The formation of supramolecular architectures are also sustained by C7-H···O4, C6-H···O3, and O3-H3···O4 hydrogen bonds, which link two cardarine molecules and one solvent molecule in a R22(7) motif."
+    }
+   ],
+   "citazione": "The recrystallization of cardarine in a solution of dimethylformamide yielded the formation of a solvate, which embedded dimethylformamide molecules within the lattice found in a stoichiometric ratio of cardarine: dimethylformamide of 1:1.",
+   "note": "Solvato 1:1 cardarine:DMF. Cella e T dalla Table 1 (colonna GW-DMF)."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "GW-MeOH",
+   "etichette_alternative": [
+    "Cardarine methanol solvate",
+    "GW-MeOH solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 4.6702,
+    "b": 10.9176,
+    "c": 44.4184,
+    "alpha": 90.0,
+    "beta": 91.048,
+    "gamma": 90.0,
+    "V": 2264.4,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K"
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2) | 293(2) | 250(60)\nCrystal system | monoclinic | triclinic | monoclinic | triclinic | triclinic | monoclinic\nSpace group | P21/n | P-1 | P21/c | P-1 | P-1 | P21/n\na/Å | 4.8413(6) | 4.8765(5) | 4.6702(2) | 6.6428(2) | 11.7781(9) | 4.6735(4)\nb/Å | 10.7961(15) | 15.418(2) | 10.9176(4) | 11.6468(3) | 12.8498(14) | 27.738(2)\nc/Å | 40.778(6) | 16.734(2) | 44.4184(18) | 16.5294(4) | 15.1481(19) | 16.3811(14)\nα/° | 90 | 90.787(10) | 90 | 91.443(2) | 108.143(10) | 90\nβ/° | 92.100(11) | 93.949(10) | 91.048(4) | 96.521(2) | 101.939(9) | 91.101(7)\nγ/° | 90 | 95.890(10) | 90 | 98.027(2) | 90.002(8) | 90\nVolume/Å3 | 2129.9(5) | 1248.3(3) | 2264.40(16) | 1257.02(6) | 2126.4(4) | 2123.2(3)\nZ | 4 | 2 | 4 | 2 | 2 | 4",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     }
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R4^4(12) homosynthon (two cardarine and two methanol molecules bridged via O-H···O)",
+     "chi": "two cardarine and two methanol molecules",
+     "citazione": "Two cardarine and two solvent molecules are bridged via O-H···O hydrogen bonds and form a R44(12) homosynthon."
+    }
+   ],
+   "citazione": "The fourth investigated and reported new solid form of cardarine is the methanol solvate, which has formed in a 1:1 stoichiometric ratio as well as its analogous dimethylformamide solvate. The crystal is a monoclinic with P21/c space group with the asymmetric unit being shown in Figure 4a.",
+   "note": "Solvato 1:1 cardarine:metanolo. Cella e T dalla Table 1 (colonna GW-MeOH)."
+  },
+  {
+   "id": "F6",
+   "composto": "C3",
+   "etichetta": "GW-SO",
+   "etichette_alternative": [
+    "mono-oxidized cardarine",
+    "Cardarine, in the mono-oxidized form"
+   ],
+   "tipo": "prodotto_reazione",
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 11.7781,
+    "b": 12.8498,
+    "c": 15.1481,
+    "alpha": 108.143,
+    "beta": 101.939,
+    "gamma": 90.002,
+    "V": 2126.4,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K",
+    "Z_primo": 2
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2) | 293(2) | 250(60)\nCrystal system | monoclinic | triclinic | monoclinic | triclinic | triclinic | monoclinic\nSpace group | P21/n | P-1 | P21/c | P-1 | P-1 | P21/n\na/Å | 4.8413(6) | 4.8765(5) | 4.6702(2) | 6.6428(2) | 11.7781(9) | 4.6735(4)\nb/Å | 10.7961(15) | 15.418(2) | 10.9176(4) | 11.6468(3) | 12.8498(14) | 27.738(2)\nc/Å | 40.778(6) | 16.734(2) | 44.4184(18) | 16.5294(4) | 15.1481(19) | 16.3811(14)\nα/° | 90 | 90.787(10) | 90 | 91.443(2) | 108.143(10) | 90\nβ/° | 92.100(11) | 93.949(10) | 91.048(4) | 96.521(2) | 101.939(9) | 91.101(7)\nγ/° | 90 | 95.890(10) | 90 | 98.027(2) | 90.002(8) | 90\nVolume/Å3 | 2129.9(5) | 1248.3(3) | 2264.40(16) | 1257.02(6) | 2126.4(4) | 2123.2(3)\nZ | 4 | 2 | 4 | 2 | 2 | 4",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     }
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "chains of alternating A and B molecules bridged by carboxyl···sulfoxide O-H···O",
+     "chi": "carboxyl group and sulfoxide group of molecules A and B",
+     "citazione": "The layout of supramolecular arrangements is comprised by alternant chains of A and B molecules, which are bridged by carboxyl···sulfoxide (O3B-H3B··O4B and O3A-H3A···O4A) (Figure 5b)."
+    }
+   ],
+   "citazione": "The asymmetric unit of the newly crystalline form includes two individual such molecules (denoted by A and B suffixes, Figure 5a).",
+   "note": "Derivato mono-ossidato di cardarine (sulfossido sullo zolfo S1 del metilsulfanile), ottenuto per ricristallizzazione in dimetilsolfossido e non piu' riprodotto. Due molecole indipendenti (A e B) nell'unita' asimmetrica: Z_primo 2 per molecola. Il sistema e il gruppo sono dalla Table 1 e dalle conclusioni («GW-SO are centrosymmetric triclinic crystals»). In Table 1 la formula e' C21H18F3NO4S2 (una molecola) ma il peso formula e' 938.97, che corrisponde a due molecole (A e B): riportato come scritto."
+  },
+  {
+   "id": "F7",
+   "composto": "C4",
+   "etichetta": "GW-SO2",
+   "etichette_alternative": [
+    "dioxidized cardarine",
+    "Cardarine, in the dioxidized form"
+   ],
+   "tipo": "prodotto_reazione",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 4.6735,
+    "b": 27.738,
+    "c": 16.3811,
+    "alpha": 90.0,
+    "beta": 91.101,
+    "gamma": 90.0,
+    "V": 2123.2,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "250(60) K",
+    "T_scritta": "250(60)"
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2) | 293(2) | 250(60)\nCrystal system | monoclinic | triclinic | monoclinic | triclinic | triclinic | monoclinic\nSpace group | P21/n | P-1 | P21/c | P-1 | P-1 | P21/n\na/Å | 4.8413(6) | 4.8765(5) | 4.6702(2) | 6.6428(2) | 11.7781(9) | 4.6735(4)\nb/Å | 10.7961(15) | 15.418(2) | 10.9176(4) | 11.6468(3) | 12.8498(14) | 27.738(2)\nc/Å | 40.778(6) | 16.734(2) | 44.4184(18) | 16.5294(4) | 15.1481(19) | 16.3811(14)\nα/° | 90 | 90.787(10) | 90 | 91.443(2) | 108.143(10) | 90\nβ/° | 92.100(11) | 93.949(10) | 91.048(4) | 96.521(2) | 101.939(9) | 91.101(7)\nγ/° | 90 | 95.890(10) | 90 | 98.027(2) | 90.002(8) | 90\nVolume/Å3 | 2129.9(5) | 1248.3(3) | 2264.40(16) | 1257.02(6) | 2126.4(4) | 2123.2(3)\nZ | 4 | 2 | 4 | 2 | 2 | 4",
+     "temperatura": {
+      "valore": 250,
+      "unita": "K",
+      "testo": "250(60)"
+     }
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "O3-H3··N1 bonds between the carboxyl group and the thiazole nitrogen",
+     "chi": "carboxyl group and thiazole nitrogen",
+     "citazione": "in dioxidized GW-SO2, the carboxyl group is bridged to the nitrogen of the thiazole ring by O3-H3··N1 bonds"
+    }
+   ],
+   "citazione": "Another derivative was obtained by recrystallization in a mixture of nitromethane, which is dioxidized at the methylsulfanyl S2 sulfur",
+   "note": "Derivato diossidato (solfone) di cardarine, ottenuto da una miscela con nitrometano e non piu' riprodotto. Il testo dice «obtained by recrystallization in a mixture of nitromethane». Temperatura della raccolta in Table 1: «250(60)», con un'incertezza di 60 K non plausibile rispetto alle altre cinque strutture (293(2)): riportata come scritta in T_scritta, nessuna lettura probabile. Sistema e gruppo dalla Table 1 e dalle conclusioni."
+  },
+  {
+   "id": "F8",
+   "composto": "C2",
+   "etichetta": "bipyridine",
+   "etichette_alternative": [
+    "4,4′-bipyridine",
+    "pure coformer (bipyridine)",
+    "4,4′-bipyridine conformer"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "To prove that the cocrystal with 4,4 bipyridine (GW-bipy) has a different thermal behavior compared to the pure coformer (bipyridine), the DTA/TGA curves for it were also recorded (Figure 7d).",
+   "note": "Coformero puro: il testo non dice la provenienza ne' la forma cristallina."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 101,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "For the GW-6 (Figure 7a), an endothermic peak at ~101 °C is assigned to the heat absorbed by the sample during the process of phase transition in a new phase (most likely a new polymorphic phase).",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Picco endotermico di GW-6 a ~101 °C, attribuito a una transizione di fase «in a new phase (most likely a new polymorphic phase)»: la fase nuova non e' caratterizzata (a = ignota); la frase e' ipotetica («most likely a new polymorphic phase»). Segue un esotermo a ~105 °C (E2) e la fusione (E3)."
+  },
+  {
+   "id": "E2",
+   "da": "ignota",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 105,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "picco": 105,
+       "circa": true,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "Shortly after this event, a small exothermic peak appears at ~105 °C, which can be explained by the crystallization process and the rearrangement of cardarine molecules in the lattice.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E1",
+   "passo": "crystallization and rearrangement of cardarine molecules in the lattice",
+   "note": "Piccolo picco esotermico a ~105 °C subito dopo E1, spiegato con «the crystallization process and the rearrangement of cardarine molecules in the lattice»: da e a non sono identificati (fase di E1 e fase che ne risulta)."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picchi": [
+      130,
+      134
+     ],
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA"
+    ]
+   },
+   "citazioni": [
+    "The two endothermic signals with a maximum at ~130 and 134 °C are attributed to the melting event of cardarine.",
+    "It can be noted that the melting point of the new polymorph (GW-6) is comparable with the other",
+    "GW-6 | 130 and 134",
+    "The melting process that occurs in successive steps with small temperature differences between the steps (GW-6, GW-MeOH and GW-DMF) can be explained by a partial melting of the compound, followed immediately by a minor structural rearrangement before melting completely.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E2",
+   "lettura_alternativa": "La fusione (130 e 134 °C) potrebbe essere quella della fase formatasi dopo la transizione a ~101 °C e la cristallizzazione a ~105 °C (E1, E2), non quella di GW-6 tal quale: il testo la attribuisce a «cardarine» e la Table 2 a GW-6.",
+   "note": "Due endotermi a ~130 e 134 °C attribuiti alla fusione di cardarine; la Table 2 li riporta come punti di fusione di GW-6 («130 and 134»), tenuta come attribuzione letterale. Fusione a due passi che gli autori spiegano con «a partial melting of the compound, followed immediately by a minor structural rearrangement before melting completely». Prima della fusione ci sono E1 (~101 °C) ed E2 (~105 °C) sulla stessa traccia."
+  },
+  {
+   "id": "E4",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 84,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 5,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "The DTA trace of GW-MeOH (Figure 7b) exhibits a sharp endothermic peak at 84 °C, which can be attributed to the loss of methanol molecules found within the crystal lattice, which is accompanied by the TGA graph with an experimental mass loss of 5% due to the loss of methanol molecules, which is quite close to the theoretical solvent content of 6.59%.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Perdita di metanolo del solvato: picco endotermico netto a 84 °C con perdita di massa sperimentale del 5% (6.59% e' il contenuto teorico di solvente: nell'extra). Gli autori spiegano la differenza di circa 1.5% con l'ipotesi che non tutte le molecole di cardarine abbiano un metanolo associato. Il prodotto (cardarine senza metanolo) non e' caratterizzato: a = ignota. Crogiolo: «open alumina pan»."
+  },
+  {
+   "id": "E5",
+   "da": "ignota",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 104,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "picco": 104,
+       "circa": true,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "At ~104 °C, a small exothermic peak can be noticed, which corresponds to the rearrangement and crystallization of the cardarine molecules, which further undergo the melting process in two steps evidenced by the two endothermic peaks at ~121 °C and 135 °C.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E4",
+   "passo": "rearrangement and crystallization of the cardarine molecules",
+   "note": "Piccolo esotermo a ~104 °C dopo la perdita di metanolo, «the rearrangement and crystallization of the cardarine molecules»; da e a non identificati."
+  },
+  {
+   "id": "E6",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picchi": [
+      121,
+      135
+     ],
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA"
+    ]
+   },
+   "citazioni": [
+    "At ~104 °C, a small exothermic peak can be noticed, which corresponds to the rearrangement and crystallization of the cardarine molecules, which further undergo the melting process in two steps evidenced by the two endothermic peaks at ~121 °C and 135 °C.",
+    "GW-MeOH | 121 and 135",
+    "The melting process that occurs in successive steps with small temperature differences between the steps (GW-6, GW-MeOH and GW-DMF) can be explained by a partial melting of the compound, followed immediately by a minor structural rearrangement before melting completely.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E5",
+   "lettura_alternativa": "La fase che fonde non e' GW-MeOH tal quale ma la cardarine rimasta dopo la perdita di metanolo (E4) e il riordino (E5); la Table 2 riporta i due picchi sotto l'etichetta GW-MeOH.",
+   "note": "Fusione «in two steps» a ~121 e 135 °C dopo E4 ed E5. Attribuzione per etichetta come nella Table 2 («GW-MeOH | 121 and 135»), ma il testo dice che fonde la cardarine che resta dopo la perdita del solvente."
+  },
+  {
+   "id": "E7",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 91,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": null,
+     "valori": [
+      8.2,
+      5.6
+     ],
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "citazioni": [
+    "The DTA diagram of the GW-DMF (Figure 7c) solvate manifests a sharp endothermic signal at ~91 °C, which corresponds to the loss of dimethylformamide molecules embedded within the lattice and is accompanied by an experimental mass loss of 8.2% and 5.6%, which accounts for the mass of lost solvent molecules, being exactly the same as the theoretical mass assigned to DMF molecules, which accounts for 13.8% of the total mass.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Perdita di DMF del solvato: picco endotermico netto a ~91 °C, con perdite di massa sperimentali di «8.2% and 5.6%» che gli autori dicono pari alla massa teorica di DMF, 13.8% della massa totale. Le due perdite sono riportate come scritte (due valori); il testo non dice a quali temperature cadono. Il prodotto non e' caratterizzato: a = ignota. Crogiolo: «open alumina pan»."
+  },
+  {
+   "id": "E8",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picchi": [
+      133,
+      144
+     ],
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "picco": 133,
+       "circa": true,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     },
+     {
+      "grandezza": {
+       "picco": 144,
+       "circa": true,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The melting of the cardarine molecules that are left occurs in two steps and is seen as a small endothermic signal at ~133 °C and a sharp protruding endotherm at ~144 °C.",
+    "GW-DMF | 133 and 144",
+    "The melting process that occurs in successive steps with small temperature differences between the steps (GW-6, GW-MeOH and GW-DMF) can be explained by a partial melting of the compound, followed immediately by a minor structural rearrangement before melting completely.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E7",
+   "lettura_alternativa": "Fonde la cardarine rimasta dopo la perdita di DMF (E7), non GW-DMF tal quale; la Table 2 riporta i picchi sotto l'etichetta GW-DMF.",
+   "note": "Fusione in due passi: un piccolo segnale endotermico a ~133 °C e un endotermo netto a ~144 °C, dopo la perdita di DMF (E7). Il testo dice «the cardarine molecules that are left»."
+  },
+  {
+   "id": "E9",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 123,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA"
+    ]
+   },
+   "citazioni": [
+    "The DTA curve of the cocrystal multicomponent 2:1 ratio of GW-bipy adduct (Figure 7d) shows an endothermic signal with a maximum value at ~123 °C, which is associated with the melting of the multicomponent cardarine-bipyridine system.",
+    "GW-Bipy | 123",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Fusione del cocristallo 2:1 a ~123 °C (picco endotermico). Il testo dice che il punto di fusione del cocristallo e' piu' alto di quello della bipiridina e piu' basso della cardarine di partenza, ma con i riferimenti alle figure sbagliati («Figure 7c», «Figure 7d»)."
+  },
+  {
+   "id": "E10",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "min": 140,
+     "max": 275,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 21.5,
+     "unita": "%",
+     "tipo": "passo"
+    },
+    "meccanismo": [
+     "perdita_componente"
+    ]
+   },
+   "citazioni": [
+    "With increasing heating of the sample, the first weight loss of 21.5% occurs from 140 to 275 °C, which corresponded to the loss of the 4,4′-bipyridine molecules from the melt.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E9",
+   "esito_dettaglio": "perdita_di_coformero_dal_fuso",
+   "note": "Perdita di massa del 21.5% da 140 a 275 °C attribuita alla perdita delle molecole di 4,4′-bipiridina dal fuso del cocristallo (dopo la fusione, E9). Il residuo non e' caratterizzato: a = ignota. Il campione e' gia' fuso: l'evento e' dal fuso di GW-Bipy e non dal cristallo."
+  },
+  {
+   "id": "E11",
+   "da": "F8",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 112,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA"
+    ]
+   },
+   "citazioni": [
+    "The endothermic peak observed in the DTA curve of bipyridine at ~75 °C is attributed to the evaporation of water absorbed on the surface and is accompanied by a mass loss of 8.3%. Furthermore, the sharp peak at ~112 °C is associated with the melting of bipyridine (Figure 7e).",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Fusione della 4,4′-bipiridina pura: picco netto a ~112 °C. Nella stessa traccia: acqua adsorbita in superficie evapora a ~75 °C con perdita di massa dell'8.3% (non estratta come evento: non cambia la forma; nell'extra)."
+  },
+  {
+   "id": "E12",
+   "da": "F8",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 189,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 91.6,
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "citazioni": [
+    "Its degradation was evidenced by an endothermic signal with a maximum at ~189 °C, being accompanied by a mass loss of 91.6%.",
+    "Thus, in the case of pure bipyridine, the mass loss occurs in the temperature range of 111–200 °C",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E11",
+   "note": "«Degradation» della bipiridina pura: endotermo a ~189 °C con perdita di massa del 91.6%; gli autori dicono poi che la perdita di massa della bipiridina pura avviene fra 111 e 200 °C. Il testo scrive «degradation» per un segnale endotermico accompagnato da questa perdita di massa."
+  },
+  {
+   "id": "E13",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 294,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": null,
+     "min": 50,
+     "unita": "%",
+     "tipo": "totale",
+     "limite": "sopra"
+    }
+   },
+   "citazioni": [
+    "From the comparison of the temperatures at which the thermal events take place, it can be observed that all new solid forms exhibit similar behavior in terms of degradation and oxidation, which occurs at 294 °C for GW-polymorph, 281 °C and 290.5 °C for GW-MeOH, 294 °C for GW-Bipy, and 303 °C for GW-DMF. These processes are also accompanied by a great mass loss of over 50% of the total mass.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E3",
+   "note": "Degradazione e ossidazione di GW-6 a 294 °C, accompagnate da «a great mass loss of over 50% of the total mass» (frase unica per le quattro forme). Avviene a una temperatura piu' alta della fusione dello stesso campione (evento precedente): gli autori la attribuiscono comunque all'etichetta della forma. Tipo di segnale (eso o endo) non detto per questa frase."
+  },
+  {
+   "id": "E14",
+   "da": "F5",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picchi": [
+      281,
+      290.5
+     ],
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": null,
+     "min": 50,
+     "unita": "%",
+     "tipo": "totale",
+     "limite": "sopra"
+    }
+   },
+   "citazioni": [
+    "From the comparison of the temperatures at which the thermal events take place, it can be observed that all new solid forms exhibit similar behavior in terms of degradation and oxidation, which occurs at 294 °C for GW-polymorph, 281 °C and 290.5 °C for GW-MeOH, 294 °C for GW-Bipy, and 303 °C for GW-DMF. These processes are also accompanied by a great mass loss of over 50% of the total mass.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E6",
+   "note": "Degradazione e ossidazione di GW-MeOH a 281 e 290.5 °C, accompagnate da «a great mass loss of over 50% of the total mass» (frase unica per le quattro forme). Avviene a una temperatura piu' alta della fusione dello stesso campione (evento precedente): gli autori la attribuiscono comunque all'etichetta della forma. Tipo di segnale (eso o endo) non detto per questa frase."
+  },
+  {
+   "id": "E15",
+   "da": "F3",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 294,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": null,
+     "min": 50,
+     "unita": "%",
+     "tipo": "totale",
+     "limite": "sopra"
+    }
+   },
+   "citazioni": [
+    "From the comparison of the temperatures at which the thermal events take place, it can be observed that all new solid forms exhibit similar behavior in terms of degradation and oxidation, which occurs at 294 °C for GW-polymorph, 281 °C and 290.5 °C for GW-MeOH, 294 °C for GW-Bipy, and 303 °C for GW-DMF. These processes are also accompanied by a great mass loss of over 50% of the total mass.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E10",
+   "note": "Degradazione e ossidazione di GW-Bipy a 294 °C, accompagnate da «a great mass loss of over 50% of the total mass» (frase unica per le quattro forme). Avviene a una temperatura piu' alta della fusione dello stesso campione (evento precedente): gli autori la attribuiscono comunque all'etichetta della forma. Tipo di segnale (eso o endo) non detto per questa frase."
+  },
+  {
+   "id": "E16",
+   "da": "F4",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen gas flow of 70 mL/min",
+    "solventi": [],
+    "temperatura": {
+     "picco": 303,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": null,
+     "min": 50,
+     "unita": "%",
+     "tipo": "totale",
+     "limite": "sopra"
+    }
+   },
+   "citazioni": [
+    "From the comparison of the temperatures at which the thermal events take place, it can be observed that all new solid forms exhibit similar behavior in terms of degradation and oxidation, which occurs at 294 °C for GW-polymorph, 281 °C and 290.5 °C for GW-MeOH, 294 °C for GW-Bipy, and 303 °C for GW-DMF. These processes are also accompanied by a great mass loss of over 50% of the total mass.",
+    "Differential thermal analysis (DTA) and thermogravimetric analysis (TGA) were conducted concurrently using a Shimadzu DTG-60H instrument. The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E8",
+   "note": "Degradazione e ossidazione di GW-DMF a 303 °C, accompagnate da «a great mass loss of over 50% of the total mass» (frase unica per le quattro forme). Avviene a una temperatura piu' alta della fusione dello stesso campione (evento precedente): gli autori la attribuiscono comunque all'etichetta della forma. Tipo di segnale (eso o endo) non detto per questa frase."
+  },
+  {
+   "id": "E17",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 6,
+     "unita": "weeks",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Consequently, it is essential to store the polymorphs in a controlled environment where they are subjected to specific humidity and temperature conditions (75% relative humidity and 40 °C) in order to assess their stability.",
+    "The new polymorph and the 2:1 cocrystal samples were stored for up to three months in the climatic chamber and the powder X-ray diffraction patterns were recorded at six-week and three-month intervals, respectively. No significant structural changes occurred in the meantime with the exception that the samples became slightly more amorphous, which indicates that the samples are stable and did not suffer phase transitions (Figure S4, Supporting Information)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_transizione_di_fase",
+   "note": "GW-6 conservato a 40 °C e 75% RH per «up to three months» con PXRD a intervalli «six-week and three-month ... respectively» (polimorfo e cocristallo, nell'ordine): «No significant structural changes occurred»; il tempo qui e' l'intervallo di controllo del PXRD (6 settimane) secondo il «respectively». Camera climatica Memmert: ±1% RH, ±0.1 °C. «six-week» e' scritto con il trattino: il verificatore non lo riconosce accanto a «weeks» (evento «quasi»)."
+  },
+  {
+   "id": "E18",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "months",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Consequently, it is essential to store the polymorphs in a controlled environment where they are subjected to specific humidity and temperature conditions (75% relative humidity and 40 °C) in order to assess their stability.",
+    "The new polymorph and the 2:1 cocrystal samples were stored for up to three months in the climatic chamber and the powder X-ray diffraction patterns were recorded at six-week and three-month intervals, respectively. No significant structural changes occurred in the meantime with the exception that the samples became slightly more amorphous, which indicates that the samples are stable and did not suffer phase transitions (Figure S4, Supporting Information)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_transizione_di_fase",
+   "note": "GW-Bipy conservato a 40 °C e 75% RH per «up to three months» con PXRD a intervalli «six-week and three-month ... respectively» (polimorfo e cocristallo, nell'ordine): «No significant structural changes occurred»; il tempo qui e' l'intervallo di controllo del PXRD (3 mesi) secondo il «respectively». Camera climatica Memmert: ±1% RH, ±0.1 °C."
+  },
+  {
+   "id": "E19",
+   "da": "F2",
+   "a": "amorfo",
+   "esito": "parziale",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 6,
+     "unita": "weeks",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Consequently, it is essential to store the polymorphs in a controlled environment where they are subjected to specific humidity and temperature conditions (75% relative humidity and 40 °C) in order to assess their stability.",
+    "The new polymorph and the 2:1 cocrystal samples were stored for up to three months in the climatic chamber and the powder X-ray diffraction patterns were recorded at six-week and three-month intervals, respectively. No significant structural changes occurred in the meantime with the exception that the samples became slightly more amorphous, which indicates that the samples are stable and did not suffer phase transitions (Figure S4, Supporting Information)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Gli stessi campioni di GW-6 sono diventati «slightly more amorphous» nella stessa prova (E17); gli autori concludono che sono stabili e senza transizioni di fase. Amorfizzazione lieve non quantificata: esito parziale. «six-week» e' scritto con il trattino: il verificatore non lo riconosce accanto a «weeks» (evento «quasi»)."
+  },
+  {
+   "id": "E20",
+   "da": "F3",
+   "a": "amorfo",
+   "esito": "parziale",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "months",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Consequently, it is essential to store the polymorphs in a controlled environment where they are subjected to specific humidity and temperature conditions (75% relative humidity and 40 °C) in order to assess their stability.",
+    "The new polymorph and the 2:1 cocrystal samples were stored for up to three months in the climatic chamber and the powder X-ray diffraction patterns were recorded at six-week and three-month intervals, respectively. No significant structural changes occurred in the meantime with the exception that the samples became slightly more amorphous, which indicates that the samples are stable and did not suffer phase transitions (Figure S4, Supporting Information)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Gli stessi campioni di GW-Bipy sono diventati «slightly more amorphous» nella stessa prova (E18); gli autori concludono che sono stabili e senza transizioni di fase. Amorfizzazione lieve non quantificata: esito parziale."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "The crystalline powder of cardarine was received from Wuhan Shu Mai Technology Co. (Wuhan, China)"
+   ],
+   "note": "Cardarine commerciale (polvere cristallina)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "citazioni": [
+    "The new solid forms and their suitable single crystals were prepared by slow evaporation from a wide class of solvents and mixtures. The solutions were kept in the refrigerator at a temperature of 4 °C and evaporated slowly during a period of up to two months.",
+    "Cardarine polymorph (GW-6, Scheme 1a) was obtained from a solution of methanol;"
+   ],
+   "note": "Evaporazione lenta a 4 °C, fino a due mesi. Tempo: «a period of up to two months» e' il massimo comune a tutte le forme.",
+   "tempo": {
+    "valore": null,
+    "max": 2,
+    "unita": "months",
+    "tipo": "processo",
+    "limite": "sotto"
+   }
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile",
+    "ethanol",
+    "methanol"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "citazioni": [
+    "The new solid forms and their suitable single crystals were prepared by slow evaporation from a wide class of solvents and mixtures. The solutions were kept in the refrigerator at a temperature of 4 °C and evaporated slowly during a period of up to two months.",
+    "Cardarine 4,4′-bipyridine cocrystal (GW-Bipy, Scheme 1b) was obtained from multiple solutions such as acetonitrile, ethanol, and methanol;",
+    "The slow evaporation of the solvent from a mixture of cardarine and 4,4′-bipyridine with various solvents (methanol, ethanol, acetonitrile) led to the self-assembling of a new cocrystal."
+   ],
+   "note": "Cardarine e 4,4′-bipiridina in vari solventi (uno per prova); rapporto in soluzione non detto (il 2:1 e' quello del cristallo).",
+   "tempo": {
+    "valore": null,
+    "max": 2,
+    "unita": "months",
+    "tipo": "processo",
+    "limite": "sotto"
+   },
+   "solventi_alternativi": true
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol and water in a 1:1 volumetric ratio"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "citazioni": [
+    "The new solid forms and their suitable single crystals were prepared by slow evaporation from a wide class of solvents and mixtures. The solutions were kept in the refrigerator at a temperature of 4 °C and evaporated slowly during a period of up to two months.",
+    "Cardarine methanol solvate (GW-MeOH, Scheme 1c) was prepared in a solution of methanol and water in a 1:1 volumetric ratio;"
+   ],
+   "note": "Miscela metanolo/acqua 1:1 (v/v).",
+   "tempo": {
+    "valore": null,
+    "max": 2,
+    "unita": "months",
+    "tipo": "processo",
+    "limite": "sotto"
+   },
+   "solventi_alternativi": false
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "dimethylformamide"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "citazioni": [
+    "The new solid forms and their suitable single crystals were prepared by slow evaporation from a wide class of solvents and mixtures. The solutions were kept in the refrigerator at a temperature of 4 °C and evaporated slowly during a period of up to two months.",
+    "Cardarine dimethylformamide solvate (GW-DMF, Scheme 1d) was obtained from a solution of dimethylformamide;",
+    "The recrystallization of cardarine in a solution of dimethylformamide yielded the formation of a solvate"
+   ],
+   "note": "Soluzione di DMF.",
+   "tempo": {
+    "valore": null,
+    "max": 2,
+    "unita": "months",
+    "tipo": "processo",
+    "limite": "sotto"
+   }
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "dimethyl sulfoxide"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "citazioni": [
+    "The new solid forms and their suitable single crystals were prepared by slow evaporation from a wide class of solvents and mixtures. The solutions were kept in the refrigerator at a temperature of 4 °C and evaporated slowly during a period of up to two months.",
+    "Cardarine, in the mono-oxidized form (GW-SO, Scheme 1e), was obtained from a solution of dimethyl sulfoxide but was not further reproduced;",
+    "The recrystallization of cardarine in dimethyl sulfoxide yielded to the formation of a new cardarine derivative, which gained an oxygen atom at the S1 sulfur of the methylsulfanyl group; in this way, the valence of S1 is 4 and becomes a sulfoxide group."
+   ],
+   "note": "Ricristallizzazione in DMSO: la cardarine si ossida a sulfossido (derivato mono-ossidato) e il cristallo ottenuto non e' stato piu' riprodotto. Reazione chimica in soluzione durante la cristallizzazione: nessun solido di partenza e nessuna condizione di ossidazione dette, quindi preparazione e non evento.",
+   "tempo": {
+    "valore": null,
+    "max": 2,
+    "unita": "months",
+    "tipo": "processo",
+    "limite": "sotto"
+   }
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "nitromethane"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "citazioni": [
+    "The new solid forms and their suitable single crystals were prepared by slow evaporation from a wide class of solvents and mixtures. The solutions were kept in the refrigerator at a temperature of 4 °C and evaporated slowly during a period of up to two months.",
+    "Cardarine, in the dioxidized form (GW-SO2, Scheme 1f), was obtained from a mixture with nitromethane and was not further reproduced anymore.",
+    "Another derivative was obtained by recrystallization in a mixture of nitromethane, which is dioxidized at the methylsulfanyl S2 sulfur, thus gaining two oxygen atoms and the valence of sulfur becomes 6. The transformation involves a sulfur atom with two carbons attached (a thioether group, C-S-C) being oxidized to a sulfonyl group (C-SO2-C), where two oxygen atoms are added to the sulfur atom. This is a process called oxidation of a thioether to a sulfone (SO2) group."
+   ],
+   "note": "Ricristallizzazione da una «mixture with nitromethane» (la composizione non e' detta): la cardarine si ossida a solfone (derivato diossidato) e il cristallo non e' stato piu' riprodotto. Reazione chimica in soluzione durante la cristallizzazione: preparazione e non evento.",
+   "tempo": {
+    "valore": null,
+    "max": 2,
+    "unita": "months",
+    "tipo": "processo",
+    "limite": "sotto"
+   }
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "solvente": "deionized water (pH = 6)",
+     "grandezza": {
+      "valore": 0.07,
+      "unita": "mg/mL"
+     },
+     "metodo": "UV a 317 nm contro curva di calibrazione; 3 mg di campione, eccesso agitato a 100 rpm a 37 °C ± 1 °C per 48 h, filtro 0.45 μm; concentrazione della soluzione filtrata al massimo di assorbanza",
+     "calcolato": false,
+     "citazione": "AGW = 0.81, CGW = 0.070 mg/mL"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F2",
+     "solvente": "deionized water (pH = 6)",
+     "grandezza": {
+      "valore": 0.06,
+      "unita": "mg/mL"
+     },
+     "metodo": "UV a 317 nm contro curva di calibrazione; 3 mg di campione, eccesso agitato a 100 rpm a 37 °C ± 1 °C per 48 h, filtro 0.45 μm; concentrazione della soluzione filtrata al massimo di assorbanza",
+     "calcolato": false,
+     "citazione": "AGW-polymprph = 0.95, CGW-6 = 0.06 mg/mL"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F3",
+     "solvente": "deionized water (pH = 6)",
+     "grandezza": {
+      "valore": 0.072,
+      "unita": "mg/mL"
+     },
+     "metodo": "UV a 317 nm contro curva di calibrazione; 3 mg di campione, eccesso agitato a 100 rpm a 37 °C ± 1 °C per 48 h, filtro 0.45 μm; concentrazione della soluzione filtrata al massimo di assorbanza",
+     "calcolato": false,
+     "citazione": "AGW-bipy = 1.05, CGW-bipy = 0.072 mg/mL"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F5",
+     "solvente": "deionized water (pH = 6)",
+     "grandezza": {
+      "valore": 0.075,
+      "unita": "mg/mL"
+     },
+     "metodo": "UV a 317 nm contro curva di calibrazione; 3 mg di campione, eccesso agitato a 100 rpm a 37 °C ± 1 °C per 48 h, filtro 0.45 μm; concentrazione della soluzione filtrata al massimo di assorbanza",
+     "calcolato": false,
+     "citazione": "AGW-MeOH = 1.10, CGW-MeOH = 0.075 mg/mL"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F4",
+     "solvente": "deionized water (pH = 6)",
+     "grandezza": {
+      "valore": 0.079,
+      "unita": "mg/mL"
+     },
+     "metodo": "UV a 317 nm contro curva di calibrazione; 3 mg di campione, eccesso agitato a 100 rpm a 37 °C ± 1 °C per 48 h, filtro 0.45 μm; concentrazione della soluzione filtrata al massimo di assorbanza",
+     "calcolato": false,
+     "citazione": "AGW-DMF = 0.96, CGW-DMF = 0.079 mg/mL"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "high molecular flexibility at the methylsulfanyl group (carbon-sulfur C12-S2 bond)",
+     "citazione": "Cardarine shows a high yield in being prepared in the form of new crystalline forms and derivatives mostly due to the high molecular flexibility exhibited at the methylsulfanyl group (carbon-sulfur C12-S2 bond)"
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "twisted shape at the methylsulfanyl moiety",
+     "citazione": "The molecule adopts a twisted shape at the methylsulfanyl moiety."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F3",
+     "testo": "twisted shape in the methylsulfanyl group",
+     "citazione": "The cardarine molecule is found in a twisted shape in the methylsulfanyl group (Figure 2a)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F6",
+     "testo": "heavily distorted configurations at the sulfoxide moiety (molecules A and B)",
+     "citazione": "Both molecules depict heavily distorted configurations at the sulfoxide moiety."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F7",
+     "testo": "slightly twisted geometry at the methylsulfanyl group",
+     "citazione": "showing the molecule adopting a slightly twisted geometry at the methylsulfanyl group"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F2",
+     "testo": "COOH hydrogen likely migrates to sulfur S2 and is attached to it in a disordered manner (interpretation of an IR band at 2600-2500 cm-1)",
+     "citazione": "it is likely that the hydrogen from the carboxyl group COOH migrates to the sulfur S2 and this hydrogen atom is attached to the sulfur in a disordered manner"
+    }
+   ]
+  }
+ ]
+}

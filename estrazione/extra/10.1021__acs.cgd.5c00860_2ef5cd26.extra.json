@@ -1,0 +1,2570 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1021/acs.cgd.5c00860",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "altro",
+   "proprieta": "nuove forme multicomponente scoperte: TBR e TPH con PMLA",
+   "citazione": "Solution-based screening experiments with TBR resulted in the identification of a new TBR·PMLA 2:1 cocrystal. In the case of TPH, four new multicomponent forms were discovered, including two polymorphic TPH·PMLA 2:1 cocrystals (forms I and II) and two cocrystal solvates: TPH·PMLA·MeOH 2:1:2 and TPH·PMLA·H2O 1:1:2.",
+   "valori": [
+    {
+     "etichetta": "new TBR·PMLA 2:1 cocrystal",
+     "valore": 1
+    },
+    {
+     "etichetta": "new multicomponent forms of TPH",
+     "valore": 4
+    },
+    {
+     "etichetta": "polymorphic TPH·PMLA 2:1 cocrystals",
+     "valore": 2
+    },
+    {
+     "etichetta": "cocrystal solvates of TPH",
+     "valore": 2
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "TBR·PMLA 2:1; TPH·PMLA 2:1 forms I and II; TPH·PMLA·MeOH 2:1:2 and TPH·PMLA·H2O 1:1:2",
+   "note": "Numeri in lettere («a new», «four», «two»)."
+  },
+  {
+   "id": "X2",
+   "categoria": "metodo",
+   "proprieta": "tempi di cocristallizzazione per macinazione e per microonde (abstract)",
+   "citazione": "Cocrystallization via grinding enabled the formation of cocrystals within 30 min to 2 h, while microwave-assisted cocrystallization significantly reduced the process time to just 5 min.",
+   "valori": [
+    {
+     "etichetta": "grinding time, from",
+     "valore": 30,
+     "unita": "min"
+    },
+    {
+     "etichetta": "grinding time, to",
+     "valore": 2,
+     "unita": "h"
+    },
+    {
+     "etichetta": "microwave-assisted time",
+     "valore": 5,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "note": "Riepilogo dell'abstract; i tempi per ogni prova sono negli eventi."
+  },
+  {
+   "id": "X3",
+   "categoria": "altro",
+   "proprieta": "numero di sistemi multicomponente ottenuti selettivamente (introduzione)",
+   "citazione": "The conditions for selectively obtaining five multicomponent systems by using these techniques were developed. This required selecting the appropriate stoichiometric ratio of substrates, volume and type of liquid medium, and reaction time.",
+   "valori": [
+    {
+     "etichetta": "multicomponent systems obtained selectively",
+     "valore": 5
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "qualitativo": "the conditions required selecting the stoichiometric ratio of substrates, volume and type of liquid medium, and reaction time",
+   "note": "«five» in lettere."
+  },
+  {
+   "id": "X4",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "purezza delle fasi confermata dalla polvere",
+   "citazione": "The purity of the TBR·PMLA 2:1 (Figure S1), TPH·PMLA 2:1 (polymorphsI and II), and TPH·PMLA·H2O 1:1:2 phases was confirmed by powder analysis (Figure S2).",
+   "valori": [],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "PXRD",
+   "qualitativo": "purity of the TBR·PMLA 2:1, TPH·PMLA 2:1 (polymorphs I and II) and TPH·PMLA·H2O 1:1:2 phases confirmed by powder analysis"
+  },
+  {
+   "id": "X5",
+   "categoria": "metodo",
+   "proprieta": "macinazione: intervallo di tempi per i sistemi 2:1 e 1:1",
+   "citazione": "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h.",
+   "valori": [
+    {
+     "etichetta": "grinding time of 2:1 systems, from",
+     "valore": 0.5,
+     "unita": "h"
+    },
+    {
+     "etichetta": "grinding time of 2:1 systems, to",
+     "valore": 2,
+     "unita": "h"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "macinazione",
+   "note": "Solventi e tempi di ogni prova sono negli eventi; i dettagli nelle Tabelle S2-S4."
+  },
+  {
+   "id": "X6",
+   "categoria": "metodo",
+   "proprieta": "macinazione 1:1 di TPH e PMLA: intervallo di tempi",
+   "citazione": "Neat or water-assisted grindings of TPH and PMLA in a 1:1 stoichiometric ratio were carried out for 1 to 2 h.",
+   "valori": [
+    {
+     "etichetta": "grinding time of 1:1 systems, from",
+     "valore": 1,
+     "unita": "h"
+    },
+    {
+     "etichetta": "grinding time of 1:1 systems, to",
+     "valore": 2,
+     "unita": "h"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "macinazione"
+  },
+  {
+   "id": "X7",
+   "categoria": "metodo",
+   "proprieta": "macinazione: giara e sfera",
+   "citazione": "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+   "valori": [
+    {
+     "etichetta": "jar volume",
+     "valore": 3,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "ball diameter",
+     "valore": 6,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "frequency",
+     "valore": 25,
+     "unita": "Hz"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "macinazione",
+   "note": "Frequenza anche nelle condizioni degli eventi di macinazione."
+  },
+  {
+   "id": "X8",
+   "categoria": "metodo",
+   "proprieta": "scala della macinazione: massa totale dei reagenti",
+   "citazione": "Mechanochemical cocrystallizations with purine alkaloids were conducted in 3 mL jars. It was possible to scale the syntheses using TPH from 20 to 100 mg of total substrate mass. For theobromine, the total mass of components could not exceed 50 mg.",
+   "valori": [
+    {
+     "etichetta": "jar volume",
+     "valore": 3,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "total substrate mass with TPH, from",
+     "valore": 20,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "total substrate mass with TPH, to",
+     "valore": 100,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "maximum total mass with TBR",
+     "valore": 50,
+     "unita": "mg",
+     "limite": "sotto"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "macinazione"
+  },
+  {
+   "id": "X9",
+   "categoria": "metodo",
+   "proprieta": "scala delle microonde: volume della fiala e massa totale dei reagenti",
+   "citazione": "Microwave cocrystallizations were performed in 10 mL vials. Theobromine synthesis was scalable within the range 30–70 mg of total substrate mass. In comparison, for theophylline, cocrystallizations used a total substrate mass between 40 and 55 mg.",
+   "valori": [
+    {
+     "etichetta": "vial volume",
+     "valore": 10,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "total substrate mass with TBR, from",
+     "valore": 30,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "total substrate mass with TBR, to",
+     "valore": 70,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "total substrate mass with TPH, from",
+     "valore": 40,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "total substrate mass with TPH, to",
+     "valore": 55,
+     "unita": "mg"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "microonde"
+  },
+  {
+   "id": "X10",
+   "categoria": "metodo",
+   "proprieta": "scala massima degli esperimenti",
+   "citazione": "No experiments were performed on a scale larger than 100 mg, which could be the next step in exploring the potential for preparing the described multicomponent systems on a larger scale.",
+   "valori": [
+    {
+     "etichetta": "maximum scale",
+     "valore": 100,
+     "unita": "mg",
+     "limite": "sotto"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   }
+  },
+  {
+   "id": "X11",
+   "categoria": "metodo",
+   "proprieta": "microonde: fiala, solvente, tempi e agitazione",
+   "citazione": "Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor. After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm.",
+   "valori": [
+    {
+     "etichetta": "solvent volume",
+     "valore": 200,
+     "unita": "μL"
+    },
+    {
+     "etichetta": "vial volume",
+     "valore": 10,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "reaction time",
+     "valore": 5,
+     "unita": "min"
+    },
+    {
+     "etichetta": "reaction time, alternative",
+     "valore": 10,
+     "unita": "min"
+    },
+    {
+     "etichetta": "stirring",
+     "valore": 600,
+     "unita": "rpm"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "microonde",
+   "note": "Volume del solvente, tempi e agitazione sono anche nelle condizioni degli eventi a microonde; qui la fiala da 10 mL (borosilicato, chiusa a tenuta)."
+  },
+  {
+   "id": "X12",
+   "categoria": "metodo",
+   "proprieta": "microonde: intervallo di temperatura per TBR",
+   "citazione": "Microwave cocrystallizations involving theobromine were performed using different solvents for 5 to 10 min at temperatures ranging from 100 to 175 °C (Table S5).",
+   "valori": [
+    {
+     "etichetta": "temperature, from",
+     "valore": 100,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "temperature, to",
+     "valore": 175,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "time, from",
+     "valore": 5,
+     "unita": "min"
+    },
+    {
+     "etichetta": "time, to",
+     "valore": 10,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "microonde"
+  },
+  {
+   "id": "X13",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD a bassa temperatura: T e lunghezza d'onda",
+   "citazione": "Reflections intensity data for single crystals of the described PMLA multicomponent systems were collected at 134 K using an Oxford Diffraction SuperNova diffractometer equipped with monochromatic Cu Kα radiation (λ = 1.54184 Å) and Oxford Instruments Cryosystem cold nitrogen-gas blower.",
+   "valori": [
+    {
+     "etichetta": "temperature",
+     "valore": 134,
+     "unita": "K"
+    },
+    {
+     "etichetta": "λ (Cu Kα)",
+     "valore": 1.54184,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "SCXRD",
+   "note": "La T e' anche nelle strutture delle forme F1-F5; la lunghezza d'onda e' qui."
+  },
+  {
+   "id": "X14",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: raffinamento, atomi non idrogeno e idrogeni",
+   "citazione": "Nonhydrogen atoms were refined with anisotropic displacement parameters. Positions of hydrogen atoms were derived from difference Fourier maps and refined freely.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "non-hydrogen atoms refined anisotropically; hydrogen atoms derived from difference Fourier maps and refined freely"
+  },
+  {
+   "id": "X15",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: gruppi carbossilici di PMLA disordinati su due posizioni (134 K)",
+   "citazione": "The carboxylic groups of pyromellitic acid molecules in TPH·PMLA·MeOH 2:1:2 are disordered over two positions with fixed occupancies of 50%.",
+   "valori": [
+    {
+     "etichetta": "occupancy of each position",
+     "valore": 50,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X16",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: vuoto occupato dal solvente (solvent mask, 134 K)",
+   "citazione": "The solvent molecule in the obtained cocrystal solvate could not be modeled satisfactorily and their contribution to the structure factors was eliminated using the solvent mask command in Olex2. The calculated void volume of 429.4 Å3, occupied by the solvent, corresponds to 14.8% of the cell volume (Figure S3), and the determined number of electrons per free space is 144.8, corresponding to 8 molecules of methanol per unit cell.",
+   "valori": [
+    {
+     "etichetta": "void volume",
+     "valore": 429.4,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "fraction of the cell volume",
+     "valore": 14.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "electrons per free space",
+     "valore": 144.8
+    },
+    {
+     "etichetta": "methanol molecules per unit cell",
+     "valore": 8
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "solvent molecule could not be modeled satisfactorily; its contribution to the structure factors was eliminated with the solvent mask command in Olex2"
+  },
+  {
+   "id": "X17",
+   "categoria": "morfologia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: cristallo singolo della VT-SXRD (abito, dimensioni, supporto)",
+   "citazione": "A high-quality block-shaped single crystal of TPH·PMLA·MeOH 2:1:2 with dimensions of 0.32 × 0.38 × 0.43 mm3 was mounted on a round 0.4 mm loop using grease",
+   "valori": [
+    {
+     "etichetta": "crystal dimension 1",
+     "valore": 0.32,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "crystal dimension 2",
+     "valore": 0.38,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "crystal dimension 3",
+     "valore": 0.43,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "loop diameter",
+     "valore": 0.4,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "high-quality block-shaped single crystal mounted on a round loop using grease",
+   "note": "Il testo scrive «0.32 × 0.38 × 0.43 mm3» (unita' rovinata: sono lunghezze in mm)."
+  },
+  {
+   "id": "X18",
+   "categoria": "metodo",
+   "proprieta": "VT-SXRD: intervallo di temperatura e passo",
+   "citazione": "Reflection intensities were collected from 300 to 425 K, with 10 K intervals within the 340–410 K temperature range.",
+   "valori": [
+    {
+     "etichetta": "temperature, from",
+     "valore": 300,
+     "unita": "K"
+    },
+    {
+     "etichetta": "temperature, to",
+     "valore": 425,
+     "unita": "K"
+    },
+    {
+     "etichetta": "step",
+     "valore": 10,
+     "unita": "K"
+    },
+    {
+     "etichetta": "stepped range, from",
+     "valore": 340,
+     "unita": "K"
+    },
+    {
+     "etichetta": "stepped range, to",
+     "valore": 410,
+     "unita": "K"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "note": "I metodi scrivono 300-425 K; l'abstract e i risultati 300-415 K (incoerenza dell'articolo, vedi l'estrazione principale)."
+  },
+  {
+   "id": "X19",
+   "categoria": "cristallografia",
+   "proprieta": "VT-SXRD: radiazione Cu Kα e controllo della temperatura",
+   "citazione": "The single-crystal experiments were conducted on a New Xcalibur EosS2 diffractometer using graphite-monochromated Cu Kα radiation (λ = 1.54184 Å). The crystal was maintained under a nitrogen stream, and the temperature during data collection was regulated using an Oxford Instruments CryoJet-HT device.",
+   "valori": [
+    {
+     "etichetta": "λ (Cu Kα)",
+     "valore": 1.54184,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "graphite-monochromated Cu Kα radiation; crystal under a nitrogen stream; Oxford Instruments CryoJet-HT device for the temperature"
+  },
+  {
+   "id": "X20",
+   "categoria": "cristallografia",
+   "proprieta": "VT-SXRD: idrogeni calcolati e disordine dei gruppi carbossilici",
+   "citazione": "All nonhydrogen atoms were refined with anisotropic displacement parameters. The hydrogen atoms were placed using calculated positions and refined as riding on their parent atoms. Both carboxylic groups of PMLA are disordered over two positions, with fixed occupancies at 50%.",
+   "valori": [
+    {
+     "etichetta": "occupancy of each position",
+     "valore": 50,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "hydrogen atoms in calculated positions, riding on parent atoms; both carboxylic groups of PMLA disordered over two positions"
+  },
+  {
+   "id": "X21",
+   "categoria": "cristallografia",
+   "proprieta": "VT-SXRD: vuoto e numero di elettroni calcolati con il solvent mask",
+   "citazione": "Void volume and the electron number per void in the unit cell were calculated using solvent masking in Olex2.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "void volume and electron number per void in the unit cell calculated using solvent masking at each temperature"
+  },
+  {
+   "id": "X22",
+   "categoria": "cristallografia",
+   "proprieta": "VT-SXRD a 415 K: criterio di riduzione dei dati",
+   "citazione": "At this stage, after performing data reduction for reflections with I/σ­(I) > 8, the structure refinement process showed the presence of two methanol molecules per unit cell.",
+   "valori": [
+    {
+     "etichetta": "I/σ(I) threshold",
+     "valore": 8,
+     "limite": "sopra"
+    },
+    {
+     "etichetta": "methanol molecules per unit cell at 415 K",
+     "valore": 2
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "note": "Il cristallo e' gia' in polvere iniziale a 415 K. Nell'estrazione principale E40 e la forma F12."
+  },
+  {
+   "id": "X23",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD: intervallo angolare, passo e tempo per passo",
+   "citazione": "The powder X-ray diffraction patterns for the TBR-PMLA and TPH-PMLA phases were recorded in the angular range of 4 ≤ 2θ ≤ 50°, with a 0.05° step between thetas and a 1s time per step using monochromatic Cu Kα1 (1.54056 Å) radiation with a Bruker AXS D8 ADVANCE powder diffractometer.",
+   "valori": [
+    {
+     "etichetta": "2θ minimum",
+     "valore": 4,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ maximum",
+     "valore": 50,
+     "unita": "°"
+    },
+    {
+     "etichetta": "step",
+     "valore": 0.05,
+     "unita": "°"
+    },
+    {
+     "etichetta": "time per step",
+     "valore": 1,
+     "unita": "s"
+    },
+    {
+     "etichetta": "λ (Cu Kα1)",
+     "valore": 1.54056,
+     "unita": "Å"
+    }
+   ],
+   "tecnica": "PXRD",
+   "note": "Il testo scrive «4 ≤ 2θ ≤ 50°» e «1s»."
+  },
+  {
+   "id": "X24",
+   "categoria": "spettroscopia",
+   "proprieta": "UV-vis: acqua, cammino ottico e intervallo spettrale",
+   "citazione": "The powdered samples of the obtained cocrystals were dissolved in Millipore quality (MQ) distilled water (18 MΩ cm) and analyzed using a Cary 100 (Agilent) dual-beam UV–vis spectrometer. UV–vis absorption spectra were recorded in the 200–400 nm range with 1 nm increments.",
+   "valori": [
+    {
+     "etichetta": "water resistivity",
+     "valore": 18,
+     "unita": "MΩ cm"
+    },
+    {
+     "etichetta": "spectral range, from",
+     "valore": 200,
+     "unita": "nm"
+    },
+    {
+     "etichetta": "spectral range, to",
+     "valore": 400,
+     "unita": "nm"
+    },
+    {
+     "etichetta": "increment",
+     "valore": 1,
+     "unita": "nm"
+    }
+   ],
+   "tecnica": "UV-vis",
+   "note": "Spettrometro Cary 100 a doppio fascio."
+  },
+  {
+   "id": "X25",
+   "categoria": "metodo",
+   "proprieta": "UV-vis: cammino ottico delle celle e diluizione delle soluzioni sature",
+   "citazione": "Quartz cells with a 2 mm optical length were used. Standard curves were prepared from solutions with known concentrations. Plots of substance concentration versus absorbance at the detection wavelength (Figure S4) were generated. A linear relationship was obtained, and the slope was calculated from the graph. To determine the cocrystals’ solubility, saturated aqueous solutions of each were prepared, and then 50 μL of saturated solution was aspirated from the decanted liquid and filled to 1 mL once again with MQ water.",
+   "valori": [
+    {
+     "etichetta": "optical length",
+     "valore": 2,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "aspirated volume of saturated solution",
+     "valore": 50,
+     "unita": "μL"
+    },
+    {
+     "etichetta": "final volume",
+     "valore": 1,
+     "unita": "mL"
+    }
+   ],
+   "tecnica": "UV-vis"
+  },
+  {
+   "id": "X26",
+   "categoria": "metodo",
+   "proprieta": "UV-vis: ripetizioni e temperatura delle misure di solubilita'",
+   "citazione": "All experiments were repeated five times at room temperature (approximately 25 °C), and the average of the results has been presented with double standard deviation.",
+   "valori": [
+    {
+     "etichetta": "repetitions",
+     "valore": 5
+    },
+    {
+     "etichetta": "temperature (room temperature)",
+     "valore": 25,
+     "unita": "°C",
+     "circa": true
+    }
+   ],
+   "tecnica": "UV-vis",
+   "note": "«five times» in lettere; media presentata con doppia deviazione standard."
+  },
+  {
+   "id": "X27",
+   "categoria": "metodo",
+   "proprieta": "STA: massa, intervallo di temperatura e velocita'",
+   "citazione": "A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1.",
+   "valori": [
+    {
+     "etichetta": "sample mass",
+     "valore": 10,
+     "unita": "mg",
+     "circa": true
+    },
+    {
+     "etichetta": "final temperature",
+     "valore": 500,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "rate",
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    {
+     "etichetta": "purge value as written",
+     "valore": 20,
+     "unita": "°C/min"
+    }
+   ],
+   "tecnica": "STA",
+   "note": "Il testo scrive «under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1»: il 20 °C min–1 accanto alla corrente di azoto e' un possibile refuso (velocita' 10 °C/min nelle condizioni degli eventi)."
+  },
+  {
+   "id": "X28",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "TBR·PMLA 2:1: ogni PMLA legata a quattro alcaloidi",
+   "citazione": "In the TBR·PMLA 2:1 crystal lattice, all of the PMLA molecules are hydrogen-bonded to four purine alkaloids (Figure ).",
+   "valori": [
+    {
+     "etichetta": "purine alkaloids per PMLA",
+     "valore": 4
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X29",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "TBR·PMLA 2:1: strati paralleli al piano (113̅)",
+   "citazione": "Components of this cocrystal, sustained by the aforementioned hydrogen bonds, form layers parallel to the (113̅) plane (Figure ).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "components form layers parallel to the (113̅) plane"
+  },
+  {
+   "id": "X30",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "TBR·PMLA 2:1: omosintone ammide–ammide preferito dalle TBR con un derivato dell'acido benzoico",
+   "citazione": "Consistent with previous studies, TBR molecules in the presence of a benzoic acid derivative as a coformer preferentially form an amide–amide homosynthon R 2 2(8) through the CO­(exo-carbonyl)···H–N­(pyrimidine) hydrogen bond involving the exo-carbonyl oxygen atom (N1–H1···O5ii hydrogen bonds), which are observed in the described structure.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "TBR molecules with a benzoic acid derivative preferentially form an amide–amide homosynthon R2^2(8) through the exo-carbonyl oxygen and pyrimidine N–H",
+   "note": "Gia' fra i motivi H della forma: qui il riferimento agli «previous studies» (confronto con la letteratura)."
+  },
+  {
+   "id": "X31",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "TPH·PMLA 2:1 I: strati paralleli al piano (131̅)",
+   "citazione": "In form I, the components are arranged into layers parallel to the (131̅) plane (Figure a).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "TPH·PMLA 2:1 I"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "layers parallel to the (131̅) plane"
+  },
+  {
+   "id": "X32",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "TPH·PMLA 2:1 II: catene molecolari lungo [011]",
+   "citazione": "Components of TPH·PMLA 2:1 II, through the aforementioned hydrogen bonds, are arranged into molecular chains along the [011] direction (Figure b).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "TPH·PMLA 2:1 II"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "molecular chains along the [011] direction"
+  },
+  {
+   "id": "X33",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "TPH·PMLA 2:1: i due polimorfi sono polimorfi di sintone",
+   "citazione": "This structural analysis confirms that both TPH·PMLA 2:1 polymorphs, which crystallize in a triclinic P1̅ space group, are examples of synthon polymorphism.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C2",
+    "etichetta": "TPH·PMLA 2:1 I e II"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "synthon polymorphism"
+  },
+  {
+   "id": "X34",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: canali lungo [001] che contengono il solvente",
+   "citazione": "The rearrangement of TPH molecules relative to these groups leads to the formation of channels along the [001] direction which incorporate solvent molecules (Figures b and S3).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "channels along the [001] direction incorporating solvent molecules"
+  },
+  {
+   "id": "X35",
+   "categoria": "geometria",
+   "proprieta": "TPH·PMLA·H2O 1:1:2: lato della rete a griglia rombica (testo)",
+   "citazione": "Due to these interactions, the molecules are arranged into a two-dimensional rhombic-grid network, the side length of which is 13.4317(2) Å (Figure ).",
+   "valori": [
+    {
+     "etichetta": "side length of the rhombic grid",
+     "valore": 13.4317,
+     "incertezza": 2,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "TPH·PMLA·H2O 1:1:2"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezza sull'ultima cifra: 13.4317(2). Le diagonali sono nella didascalia della Fig. 9."
+  },
+  {
+   "id": "X36",
+   "categoria": "geometria",
+   "proprieta": "TPH·PMLA·H2O 1:1:2: lato e diagonali della rete a griglia rombica (didascalia Fig. 9)",
+   "citazione": "Fragment of 2D rhombic-grid network of TPH·PMLA·H2O 1:1:2 (side length: 13.4317(2) Å, diagonals: 16.7812(2) and 20.9770(4) Å) formed by noncovalent interactions",
+   "valori": [
+    {
+     "etichetta": "side length",
+     "valore": 13.4317,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "diagonal 1",
+     "valore": 16.7812,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "diagonal 2",
+     "valore": 20.977,
+     "incertezza": 4,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "TPH·PMLA·H2O 1:1:2"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze sull'ultima cifra: 13.4317(2), 16.7812(2) e 20.9770(4); il testo scrive «20.9770(4)» (zero finale). Rete senza la partecipazione delle molecole d'acqua («without water molecules participation»)."
+  },
+  {
+   "id": "X37",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "TBR·PMLA 2:1: solubilita' in acqua con incertezza e rapporto rispetto all'alcaloide puro (Tabella 1)",
+   "citazione": "TBR·PMLA 2:1 | 1.83 | 8.17 ± 0.42 (×4.46)",
+   "valori": [
+    {
+     "etichetta": "absorption solubility of the alkaloid–PMLA system in water",
+     "forma": "F1",
+     "valore": 8.17,
+     "incertezza": 0.42,
+     "unita": "10-3 mmol mL-1"
+    },
+    {
+     "etichetta": "ratio to the pure alkaloid",
+     "forma": "F1",
+     "valore": 4.46
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "UV-vis",
+   "condizioni": "acqua, saturazione; cinque ripetizioni a temperatura ambiente (circa 25 °C)",
+   "note": "Il valore e' anche in molecole; qui l'incertezza (± doppia deviazione standard) e il rapporto «×» della tabella. Unita' dall'intestazione: «absorption solubility of alkaloid–PMLA system in water (10 –3 mmol mL –1 )». La solubilita' dell'alcaloide puro, nella cella a sinistra di questa riga, e' 1.83 (TBR)."
+  },
+  {
+   "id": "X38",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "TPH·PMLA 2:1 I: solubilita' in acqua con incertezza e rapporto rispetto all'alcaloide puro (Tabella 1)",
+   "citazione": "TPH·PMLA 2:1 I | 45.7 | 14.37 ± 1.04 (×0.31)",
+   "valori": [
+    {
+     "etichetta": "absorption solubility of the alkaloid–PMLA system in water",
+     "forma": "F2",
+     "valore": 14.37,
+     "incertezza": 1.04,
+     "unita": "10-3 mmol mL-1"
+    },
+    {
+     "etichetta": "ratio to the pure alkaloid",
+     "forma": "F2",
+     "valore": 0.31
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "TPH·PMLA 2:1 I"
+   },
+   "tecnica": "UV-vis",
+   "condizioni": "acqua, saturazione; cinque ripetizioni a temperatura ambiente (circa 25 °C)",
+   "note": "Il valore e' anche in molecole; qui l'incertezza (± doppia deviazione standard) e il rapporto «×» della tabella. Unita' dall'intestazione: «absorption solubility of alkaloid–PMLA system in water (10 –3 mmol mL –1 )». Rapporto «×0.31» rispetto a TPH (45.7)."
+  },
+  {
+   "id": "X39",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "TPH·PMLA 2:1 II: solubilita' in acqua con incertezza e rapporto rispetto all'alcaloide puro (Tabella 1)",
+   "citazione": "TPH·PMLA 2:1 II | 13.69 ± 1.79 (×0.30)",
+   "valori": [
+    {
+     "etichetta": "absorption solubility of the alkaloid–PMLA system in water",
+     "forma": "F3",
+     "valore": 13.69,
+     "incertezza": 1.79,
+     "unita": "10-3 mmol mL-1"
+    },
+    {
+     "etichetta": "ratio to the pure alkaloid",
+     "forma": "F3",
+     "valore": 0.3
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "TPH·PMLA 2:1 II"
+   },
+   "tecnica": "UV-vis",
+   "condizioni": "acqua, saturazione; cinque ripetizioni a temperatura ambiente (circa 25 °C)",
+   "note": "Il valore e' anche in molecole; qui l'incertezza (± doppia deviazione standard) e il rapporto «×» della tabella. Unita' dall'intestazione: «absorption solubility of alkaloid–PMLA system in water (10 –3 mmol mL –1 )». La solubilita' dell'alcaloide puro (TPH, 45.7) e' scritta solo nella riga di TPH·PMLA 2:1 I; per questa riga la cella e' vuota."
+  },
+  {
+   "id": "X40",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "TPH·PMLA·H2O 1:1:2: solubilita' in acqua con incertezza e rapporto rispetto all'alcaloide puro (Tabella 1)",
+   "citazione": "TPH·PMLA·H2O 1:1:2 | 4.83 ± 0.26 (×0.11)",
+   "valori": [
+    {
+     "etichetta": "absorption solubility of the alkaloid–PMLA system in water",
+     "forma": "F5",
+     "valore": 4.83,
+     "incertezza": 0.26,
+     "unita": "10-3 mmol mL-1"
+    },
+    {
+     "etichetta": "ratio to the pure alkaloid",
+     "forma": "F5",
+     "valore": 0.11
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "TPH·PMLA·H2O 1:1:2"
+   },
+   "tecnica": "UV-vis",
+   "condizioni": "acqua, saturazione; cinque ripetizioni a temperatura ambiente (circa 25 °C)",
+   "note": "Il valore e' anche in molecole; qui l'incertezza (± doppia deviazione standard) e il rapporto «×» della tabella. Unita' dall'intestazione: «absorption solubility of alkaloid–PMLA system in water (10 –3 mmol mL –1 )». La solubilita' dell'alcaloide puro (TPH, 45.7) e' scritta solo nella riga di TPH·PMLA 2:1 I; per questa riga la cella e' vuota."
+  },
+  {
+   "id": "X41",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "TBR·PMLA 2:1: solubilita' piu' alta di 4.5 volte rispetto alla teobromina pura",
+   "citazione": "results in a TBR·PMLA 2:1 cocrystal formation with 4.5-fold higher water solubility than pure theobromine (Table ).",
+   "valori": [
+    {
+     "etichetta": "fold increase in water solubility",
+     "valore": 4.5
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "UV-vis",
+   "note": "Il rapporto in Tabella 1 e' ×4.46. La solubilita' di PMLA in acqua (43.2·10–3 mmol/mL a 25 °C) e' in molecole."
+  },
+  {
+   "id": "X42",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "TPH·PMLA 2:1 I e II: solubilita' in acqua oltre tre volte piu' bassa di TPH",
+   "citazione": "Both TPH·PMLA 2:1 I and II polymorphs show more than 3 times lower solubility in water than TPH.",
+   "valori": [
+    {
+     "etichetta": "times lower than TPH",
+     "valore": 3,
+     "limite": "sopra"
+    }
+   ],
+   "oggetto": {
+    "composto": "C2",
+    "etichetta": "TPH·PMLA 2:1 I e II"
+   },
+   "tecnica": "UV-vis"
+  },
+  {
+   "id": "X43",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "TPH·PMLA·H2O 1:1:2: solubilita' in acqua 9.5 volte piu' bassa di TPH",
+   "citazione": "The cocrystal hydrate TPH·PMLA·H2O 1:1:2 is 9.5 times less soluble in water compared to theophylline, probably due to the formation of a complex three-dimensional network of strong hydrogen bonds.",
+   "valori": [
+    {
+     "etichetta": "times less soluble than TPH",
+     "valore": 9.5
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "TPH·PMLA·H2O 1:1:2"
+   },
+   "tecnica": "UV-vis",
+   "qualitativo": "probably due to the formation of a complex three-dimensional network of strong hydrogen bonds"
+  },
+  {
+   "id": "X44",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: solubilita' non misurata per la scarsa riproducibilita'",
+   "citazione": "Due to difficulties with the repeatability of obtaining TPH·PMLA·MeOH 2:1:2 solvate, this system was not subjected to solubility tests.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "qualitativo": "not subjected to solubility tests because of difficulties with the repeatability of obtaining the solvate"
+  },
+  {
+   "id": "X45",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "TBR·PMLA 2:1: solubilita' piu' alta di quasi 4.5 volte (conclusioni)",
+   "citazione": "The TBR·PMLA 2:1 cocrystal is almost 4.5 times more soluble in water than pure TBR and demonstrates thermal stability up to 203 °C.",
+   "valori": [
+    {
+     "etichetta": "times more soluble than TBR",
+     "valore": 4.5,
+     "circa": true
+    },
+    {
+     "etichetta": "thermal stability up to",
+     "valore": 203,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "UV-vis"
+  },
+  {
+   "id": "X46",
+   "categoria": "termica",
+   "proprieta": "TBR·PMLA 2:1: tre picchi DSC endotermici e residuo carbonizzato",
+   "citazione": "The DSC curve exhibits three sharp endothermic peaks (Figure ). The first DSC peak, observed in the 203–249 °C temperature range (9.2%), can be attributed to the partial loss of pyromellitic acid. The second at 311 °C corresponds to the decomposition of theobromine and the residual part of PMLA. The third DSC peak represents the decomposition of the theobromine molecules. , Approximately 2% of the initial sample remained as a charred residue above 500 °C.",
+   "valori": [
+    {
+     "etichetta": "sharp endothermic peaks",
+     "valore": 3
+    },
+    {
+     "etichetta": "charred residue",
+     "valore": 2,
+     "unita": "%",
+     "circa": true
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "DSC",
+   "qualitativo": "the third DSC peak represents the decomposition of the theobromine molecules; approximately 2% of the initial sample remained as charred residue above 500 °C",
+   "note": "«three» in lettere. Il primo picco (203-249 °C) e il secondo (311 °C) sono negli eventi E28 e E29."
+  },
+  {
+   "id": "X47",
+   "categoria": "termica",
+   "proprieta": "TPH·PMLA 2:1: stabili fino a 205 °C e perdita di massa totale",
+   "citazione": "Both TPH·PMLA 2:1 I and TPH·PMLA 2:1 II are stable up to 205 °C (Figure A,B, respectively).",
+   "valori": [
+    {
+     "etichetta": "stable up to",
+     "valore": 205,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "composto": "C2",
+    "etichetta": "TPH·PMLA 2:1 I e II"
+   },
+   "tecnica": "STA",
+   "note": "Eventi E30-E31 nell'estrazione principale."
+  },
+  {
+   "id": "X48",
+   "categoria": "termica",
+   "proprieta": "TPH·PMLA 2:1 II: picco endotermico aggiuntivo durante la perdita di massa",
+   "citazione": "However, an additional endothermic peak is observed for the II form of that loss.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "TPH·PMLA 2:1 II"
+   },
+   "tecnica": "DSC",
+   "qualitativo": "an additional endothermic peak observed for the II form during the weight loss (no temperature given)"
+  },
+  {
+   "id": "X49",
+   "categoria": "termica",
+   "proprieta": "TPH·PMLA·H2O 1:1:2: perdita di massa del 12 % fra 210 e 250 °C e del 38 % fino a 335 °C",
+   "citazione": "Between 210 and 250 °C, a subsequent weight loss of approximately 12% is observed. Further heating up to 335 °C, a weight loss of about 38% was observed.",
+   "valori": [
+    {
+     "etichetta": "weight loss, 210 to 250 °C",
+     "valore": 12,
+     "unita": "%",
+     "circa": true
+    },
+    {
+     "etichetta": "temperature range, from",
+     "valore": 210,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "temperature range, to",
+     "valore": 250,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "weight loss up to 335 °C",
+     "valore": 38,
+     "unita": "%",
+     "circa": true
+    },
+    {
+     "etichetta": "final temperature of the second step",
+     "valore": 335,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "TPH·PMLA·H2O 1:1:2"
+   },
+   "tecnica": "TGA",
+   "note": "Le perdite non sono assegnate a processi nel testo (vedi la nota dell'estrazione principale). La prima perdita (7.8 %, acqua) e' nell'evento E36. «about 38%» e' la perdita riportata fino a 335 °C."
+  },
+  {
+   "id": "X50",
+   "categoria": "termica",
+   "proprieta": "residuo a 500 °C di TPH·PMLA·H2O 1:1:2, TPH·PMLA 2:1 II e TPH·PMLA 2:1 I",
+   "citazione": "At 500 °C, the initial sample residue is 23% (the same as for the TPH·PMLA 2:1 II, where for the TPH·PMLA 2:1 I form, it is 31%).",
+   "valori": [
+    {
+     "etichetta": "residue of TPH·PMLA·H2O 1:1:2 at 500 °C",
+     "forma": "F5",
+     "valore": 23,
+     "unita": "%"
+    },
+    {
+     "etichetta": "residue of TPH·PMLA 2:1 II at 500 °C",
+     "forma": "F3",
+     "valore": 23,
+     "unita": "%"
+    },
+    {
+     "etichetta": "residue of TPH·PMLA 2:1 I at 500 °C",
+     "forma": "F2",
+     "valore": 31,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "TGA",
+   "note": "Attribuzione dalla frase: «the same as for the TPH·PMLA 2:1 II» (23 % anche per II) e «for the TPH·PMLA 2:1 I form, it is 31%»."
+  },
+  {
+   "id": "X51",
+   "categoria": "termica",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: seconda perdita di massa e residui a 500 e 600 °C",
+   "citazione": "Then, up to 236 °C, the weight loss of about 7.5%. At the temperature of 500 °C, the initial sample residue is 30%, 600 °C–nearly 23%.",
+   "valori": [
+    {
+     "etichetta": "weight loss up to 236 °C",
+     "valore": 7.5,
+     "unita": "%",
+     "circa": true
+    },
+    {
+     "etichetta": "final temperature of the second step",
+     "valore": 236,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "residue at 500 °C",
+     "valore": 30,
+     "unita": "%"
+    },
+    {
+     "etichetta": "residue at 600 °C",
+     "valore": 23,
+     "unita": "%",
+     "circa": true
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "TGA",
+   "note": "La prima perdita (8.2 %, metanolo) e' nell'evento E38. «600 °C–nearly 23%» nel testo."
+  },
+  {
+   "id": "X52",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: coefficienti di dilatazione termica lineare lungo a e c (300-415 K)",
+   "citazione": "Changes in the value of a and c parameters indicate negative linear thermal expansion (NTE), which contracts during heating from 300 to 415 K (αa = −355.46 and αc = −95.57 MK–1, Figure a,c).",
+   "valori": [
+    {
+     "etichetta": "αa",
+     "valore": -355.46,
+     "unita": "MK-1"
+    },
+    {
+     "etichetta": "αc",
+     "valore": -95.57,
+     "unita": "MK-1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "a and c parameters contract on heating from 300 to 415 K (negative linear thermal expansion)",
+   "note": "Il testo scrive «αa = −355.46 and αc = −95.57 MK–1» (MK-1 = 10-6 K-1)."
+  },
+  {
+   "id": "X53",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: dilatazione termica lineare lungo b",
+   "citazione": "The expansion of the b parameter value is observed and the thermal expansion coefficient (CTE) is αb = 233.40 MK–1 (Figure b).",
+   "valori": [
+    {
+     "etichetta": "αb",
+     "valore": 233.4,
+     "unita": "MK-1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X54",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: espansione termica biassiale negativa e uniassiale positiva",
+   "citazione": "The experiment showed a large biaxial negative thermal expansion and a large uniaxial positive thermal expansion (PTE) of the TPH·PMLA·MeOH 2:1:2 cocrystal solvate.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "large biaxial negative thermal expansion and large uniaxial positive thermal expansion",
+   "note": "Formula usata per α: α = (1/L0)·(dL/dT), con L0 il parametro di cella a 300 K (la formula e' rovinata nel testo letto)."
+  },
+  {
+   "id": "X55",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: angolo β fra 300 e 415 K",
+   "citazione": "In addition, a monotonic decrease in the β angle value is observed from 107.679(4)° at 300 K to 105.489(5)° at 415 K (Figure d).",
+   "valori": [
+    {
+     "etichetta": "β at 300 K",
+     "valore": 107.679,
+     "incertezza": 4,
+     "unita": "°"
+    },
+    {
+     "etichetta": "β at 415 K",
+     "valore": 105.489,
+     "incertezza": 5,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze sull'ultima cifra."
+  },
+  {
+   "id": "X56",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: volume di cella fra 300 e 350 K e coefficiente volumetrico",
+   "citazione": "As the temperature rises from 300 to 350 K, a gradual increase in volume is noted from 2982.5(2) Å3 to 3001.0(2) Å3, and a PTE in this range is characterized by the volumetric thermal expansion coefficient of 131.76 MK–1.",
+   "valori": [
+    {
+     "etichetta": "V at 300 K",
+     "valore": 2982.5,
+     "incertezza": 2,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V at 350 K",
+     "valore": 3001.0,
+     "incertezza": 2,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "volumetric CTE, 300–350 K",
+     "valore": 131.76,
+     "unita": "MK-1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze sull'ultima cifra. PTE = positive thermal expansion; V a 300 K e' anche nella cella della forma."
+  },
+  {
+   "id": "X57",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: passaggio da PTE a NTE a 350 K e volume a 415 K",
+   "citazione": "The switching from PTE to NTE is observed at 350 K (Figure e), as a further increase in temperature causes a decrease of volume from 3001.0(2) Å3 at 350 K to 2938.3(3) Å3 at 415 K.",
+   "valori": [
+    {
+     "etichetta": "switching temperature",
+     "valore": 350,
+     "unita": "K"
+    },
+    {
+     "etichetta": "V at 350 K",
+     "valore": 3001.0,
+     "incertezza": 2,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V at 415 K",
+     "valore": 2938.3,
+     "incertezza": 3,
+     "unita": "Å3"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "note": "incertezze sull'ultima cifra."
+  },
+  {
+   "id": "X58",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: coefficiente volumetrico fra 350 e 415 K e su tutto l'intervallo",
+   "citazione": "The volumetric CTE determined for this range is −336.04 MK–1, indicating an exceptionally large negative volumetric thermal expansion (NVTE). The determined volumetric thermal expansion coefficient parameter in the entire temperature range from 300 to 415 K is −128.87 MK–1.",
+   "valori": [
+    {
+     "etichetta": "volumetric CTE, 350–415 K",
+     "valore": -336.04,
+     "unita": "MK-1"
+    },
+    {
+     "etichetta": "volumetric CTE, 300–415 K",
+     "valore": -128.87,
+     "unita": "MK-1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "exceptionally large negative volumetric thermal expansion (NVTE) in the 350–415 K range"
+  },
+  {
+   "id": "X59",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: assi principali di dilatazione (PASCAL) su 300-415 K",
+   "citazione": "Calculations were carried out for the full temperature range (300–415 K) and for two temperature ranges, where an increase (300–350) and then a decrease (350–415 K) of the unit cell volume were observed (Tables S17 and S18). In the full temperature range of 300 and 415 K, the thermal expansion coefficients along the principal axes, X1 [0.3424, 0, 0.9396], X2 [0.8888, 0, −0.4583], and X3 [0, 1, 0] are 43.90, −423.62, and 253.49 MK–1, respectively, and −135.09 MK–1 is the value of volumetric thermal expansion coefficient.",
+   "valori": [
+    {
+     "etichetta": "X1 [0.3424, 0, 0.9396]",
+     "valore": 43.9,
+     "unita": "MK-1"
+    },
+    {
+     "etichetta": "X2 [0.8888, 0, −0.4583]",
+     "valore": -423.62,
+     "unita": "MK-1"
+    },
+    {
+     "etichetta": "X3 [0, 1, 0]",
+     "valore": 253.49,
+     "unita": "MK-1"
+    },
+    {
+     "etichetta": "volumetric",
+     "valore": -135.09,
+     "unita": "MK-1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD (PASCAL)",
+   "calcolato": true,
+   "note": "Attribuzione per ordine («respectively»): X1 = 43.90, X2 = −423.62, X3 = 253.49 MK–1. Gli intervalli analizzati sono 300-415 K (completo), 300-350 K e 350-415 K (Tabelle S17 e S18)."
+  },
+  {
+   "id": "X60",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: assi principali di dilatazione (PASCAL) su 350-415 K",
+   "citazione": "The determined CTE values along these axes, namely, X1 [0.8577, 0, −0.5141], X2 [0.363, 0, 0.9318], and X3 [0, −1, 0], are −696.55, 61.88, 310.83 MK–1, respectively.",
+   "valori": [
+    {
+     "etichetta": "X1 [0.8577, 0, −0.5141]",
+     "valore": -696.55,
+     "unita": "MK-1"
+    },
+    {
+     "etichetta": "X2 [0.363, 0, 0.9318]",
+     "valore": 61.88,
+     "unita": "MK-1"
+    },
+    {
+     "etichetta": "X3 [0, −1, 0]",
+     "valore": 310.83,
+     "unita": "MK-1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD (PASCAL)",
+   "calcolato": true,
+   "note": "Attribuzione per ordine («respectively»): X1 = −696.55, X2 = 61.88, X3 = 310.83 MK–1. Nel testo X3 e' [0, −1, 0] (segno opposto a quello dell'intervallo completo)."
+  },
+  {
+   "id": "X61",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: i due assi di dilatazione positivi e negativi corrispondono nei due intervalli",
+   "citazione": "In both discussed temperature ranges, colossal PTE and colossal NTE values corresponding to the same thermal expansion axes are observed.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD (PASCAL)",
+   "qualitativo": "in both temperature ranges colossal PTE and colossal NTE values correspond to the same thermal expansion axes"
+  },
+  {
+   "id": "X62",
+   "categoria": "geometria",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: interazione π(TPH)···π(TPH) lungo [010]",
+   "citazione": "The dominant interaction observed along the [010] direction is the π­(TPH)···π­(TPH) interaction between the imidazole fragment of one alkaloid molecule and the pyrimidine fragment of the other. The observed increase in the distance between the centroids of these rings (Figure a) aligns with the positive value of the thermal expansion coefficient along the X3 axis.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "dominant interaction along [010] is the π(TPH)···π(TPH) interaction between the imidazole fragment of one alkaloid molecule and the pyrimidine fragment of the other; the distance between ring centroids increases with temperature, in line with the positive coefficient along X3"
+  },
+  {
+   "id": "X63",
+   "categoria": "geometria",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: dimero TPH-acido e NTE lungo [201̅] (coefficienti)",
+   "citazione": "The analysis of the distances between molecules in the TPH-ACID dimer, as illustrated in Figure b, is associated with NTE along the approximate axis of thermal expansion [201̅]. The thermal expansion parameters in the 300–415 and 350–415 K ranges are −423.6156 and −696.5488 MK–1, respectively, indicating a colossal negative thermal expansion.",
+   "valori": [
+    {
+     "etichetta": "thermal expansion along [201̅], 300–415 K",
+     "valore": -423.6156,
+     "unita": "MK-1"
+    },
+    {
+     "etichetta": "thermal expansion along [201̅], 350–415 K",
+     "valore": -696.5488,
+     "unita": "MK-1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD (PASCAL)",
+   "qualitativo": "NTE along the approximate axis [201̅], associated with the analysis of the distances between molecules in the TPH-ACID dimer",
+   "calcolato": true,
+   "note": "Il testo dice «approximate axis of thermal expansion [201̅]»."
+  },
+  {
+   "id": "X64",
+   "categoria": "geometria",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: distanze C3···C9 e C3···C6 fra 300 e 415 K",
+   "citazione": "The observed reduction of the C3···C9 parameter from 6.049(3) Å at 300 K to 5.693(12) Å at 415 K, and the C3···C6 parameter from 4.986(3) Å at 300 K to 4.704(11) Å at 415 K, indicates that the TPH and PMLA molecules come closer together as the temperature rises, consistent with the observed negative thermal expansion along the [201̅] direction.",
+   "valori": [
+    {
+     "etichetta": "C3···C9 at 300 K",
+     "valore": 6.049,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C3···C9 at 415 K",
+     "valore": 5.693,
+     "incertezza": 12,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C3···C6 at 300 K",
+     "valore": 4.986,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C3···C6 at 415 K",
+     "valore": 4.704,
+     "incertezza": 11,
+     "unita": "Å"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "TPH and PMLA molecules come closer together as the temperature rises, consistent with the negative thermal expansion along [201̅]",
+   "note": "incertezze sull'ultima cifra."
+  },
+  {
+   "id": "X65",
+   "categoria": "geometria",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: distanza O4···O4 dei carbossili di PMLA",
+   "citazione": "The observed increase in distance between the oxygen atoms O4 of the carboxyl groups of acid molecules with rising temperature may relate to changes in the COOH group’s conformation relative to the acid’s aromatic ring.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "the distance between oxygen atoms O4 of carboxyl groups of acid molecules increases with temperature; may relate to changes in the COOH conformation relative to the aromatic ring",
+   "note": "Attribuzione dubitativa degli autori («may relate»)."
+  },
+  {
+   "id": "X66",
+   "categoria": "geometria",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: eterosintone TPH-acido lungo [205] (coefficienti)",
+   "citazione": "The hydrogen bonds forming the TPH-ACID heterosynthon occur along the [205] direction, which is approximately one of the axes of thermal expansion determined by using PASCAL software. The thermal expansion parameters along this direction in the 300–415 and 350–415 K ranges are positive, and equal to 43.90 and 61.88 MK–1, respectively.",
+   "valori": [
+    {
+     "etichetta": "thermal expansion along [205], 300–415 K",
+     "valore": 43.9,
+     "unita": "MK-1"
+    },
+    {
+     "etichetta": "thermal expansion along [205], 350–415 K",
+     "valore": 61.88,
+     "unita": "MK-1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD (PASCAL)",
+   "calcolato": true,
+   "note": "Attribuzione per ordine («respectively»)."
+  },
+  {
+   "id": "X67",
+   "categoria": "geometria",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: distanza D···A dell'eterosintone TPH-acido con la temperatura",
+   "citazione": "Aside from the parameters derived from the structure obtained at 415 K, at which the single crystal was initially powdered, affecting data quality – the D···A parameter increased with the temperature rise from 300 to 410 K, except for N3···O3, where this value decreased.",
+   "valori": [
+    {
+     "etichetta": "temperature range of the D···A increase, from",
+     "valore": 300,
+     "unita": "K"
+    },
+    {
+     "etichetta": "temperature range of the D···A increase, to",
+     "valore": 410,
+     "unita": "K"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "D···A parameter increased with temperature from 300 to 410 K, except for N3···O3, where it decreased; the structure at 415 K is of lower quality (crystal initially powdered)",
+   "note": "L'analisi del legame H e' ostacolata dal disordine del gruppo carbossilico su due posizioni nella cella (static disorder)."
+  },
+  {
+   "id": "X68",
+   "categoria": "altro",
+   "proprieta": "TBR: zona di inibizione della crescita batterica (mm), Tabella 2",
+   "citazione": "TBR | 0 | 0 | 0 | 6",
+   "valori": [
+    {
+     "etichetta": "M. luteus",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. subtilis",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "P. fluorescens",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "E. coli",
+     "valore": 6,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "agar, diffusione da pozzetto con il composto in dimetilsolfossido; 48 h a 27 °C (M. luteus, B. subtilis, P. fluorescens) o 37 °C (E. coli)",
+   "note": "Colonne in ordine di intestazione: M. luteus, B. subtilis, P. fluorescens, E. coli. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X69",
+   "categoria": "altro",
+   "proprieta": "TPH: zona di inibizione della crescita batterica (mm), Tabella 2",
+   "citazione": "TPH | 4 | 1 | 0 | 5",
+   "valori": [
+    {
+     "etichetta": "M. luteus",
+     "valore": 4,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. subtilis",
+     "valore": 1,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "P. fluorescens",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "E. coli",
+     "valore": 5,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "agar, diffusione da pozzetto con il composto in dimetilsolfossido; 48 h a 27 °C (M. luteus, B. subtilis, P. fluorescens) o 37 °C (E. coli)",
+   "note": "Colonne in ordine di intestazione: M. luteus, B. subtilis, P. fluorescens, E. coli. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X70",
+   "categoria": "altro",
+   "proprieta": "PMLA: zona di inibizione della crescita batterica (mm), Tabella 2",
+   "citazione": "PMLA | 3 | 3 | 0 | 5",
+   "valori": [
+    {
+     "etichetta": "M. luteus",
+     "valore": 3,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. subtilis",
+     "valore": 3,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "P. fluorescens",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "E. coli",
+     "valore": 5,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "agar, diffusione da pozzetto con il composto in dimetilsolfossido; 48 h a 27 °C (M. luteus, B. subtilis, P. fluorescens) o 37 °C (E. coli)",
+   "note": "Colonne in ordine di intestazione: M. luteus, B. subtilis, P. fluorescens, E. coli. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X71",
+   "categoria": "altro",
+   "proprieta": "TBR·PMLA 2:1: zona di inibizione della crescita batterica (mm), Tabella 2",
+   "citazione": "TBR·PMLA 2:1 | 1 | 0.5 | 6.5 | 3",
+   "valori": [
+    {
+     "etichetta": "M. luteus",
+     "valore": 1,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. subtilis",
+     "valore": 0.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "P. fluorescens",
+     "valore": 6.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "E. coli",
+     "valore": 3,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "agar, diffusione da pozzetto con il composto in dimetilsolfossido; 48 h a 27 °C (M. luteus, B. subtilis, P. fluorescens) o 37 °C (E. coli)",
+   "note": "Colonne in ordine di intestazione: M. luteus, B. subtilis, P. fluorescens, E. coli. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X72",
+   "categoria": "altro",
+   "proprieta": "TPH·PMLA 2:1 I: zona di inibizione della crescita batterica (mm), Tabella 2",
+   "citazione": "TPH·PMLA 2:1 I | 0 | 1 | 0 | 5",
+   "valori": [
+    {
+     "etichetta": "M. luteus",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. subtilis",
+     "valore": 1,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "P. fluorescens",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "E. coli",
+     "valore": 5,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "TPH·PMLA 2:1 I"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "agar, diffusione da pozzetto con il composto in dimetilsolfossido; 48 h a 27 °C (M. luteus, B. subtilis, P. fluorescens) o 37 °C (E. coli)",
+   "note": "Colonne in ordine di intestazione: M. luteus, B. subtilis, P. fluorescens, E. coli. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X73",
+   "categoria": "altro",
+   "proprieta": "TPH·PMLA 2:1 II: zona di inibizione della crescita batterica (mm), Tabella 2",
+   "citazione": "TPH·PMLA 2:1 II | 0 | 1.5 | 0 | 4",
+   "valori": [
+    {
+     "etichetta": "M. luteus",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. subtilis",
+     "valore": 1.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "P. fluorescens",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "E. coli",
+     "valore": 4,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "TPH·PMLA 2:1 II"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "agar, diffusione da pozzetto con il composto in dimetilsolfossido; 48 h a 27 °C (M. luteus, B. subtilis, P. fluorescens) o 37 °C (E. coli)",
+   "note": "Colonne in ordine di intestazione: M. luteus, B. subtilis, P. fluorescens, E. coli. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X74",
+   "categoria": "altro",
+   "proprieta": "TPH·PMLA·H2O 1:1:2: zona di inibizione della crescita batterica (mm), Tabella 2",
+   "citazione": "TPH·PMLA·H 2 O 1:1:2 | 0 | 1.5 | 0 | 4",
+   "valori": [
+    {
+     "etichetta": "M. luteus",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. subtilis",
+     "valore": 1.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "P. fluorescens",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "E. coli",
+     "valore": 4,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "TPH·PMLA·H2O 1:1:2"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "agar, diffusione da pozzetto con il composto in dimetilsolfossido; 48 h a 27 °C (M. luteus, B. subtilis, P. fluorescens) o 37 °C (E. coli)",
+   "note": "Colonne in ordine di intestazione: M. luteus, B. subtilis, P. fluorescens, E. coli. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X75",
+   "categoria": "altro",
+   "proprieta": "TBR: zona di inibizione della crescita fungina (mm), Tabella 3",
+   "citazione": "TBR | 17.5 | 14 | 4 | 10 | 11 | 0",
+   "valori": [
+    {
+     "etichetta": "F. culmorum",
+     "valore": 17.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "F. graminearum",
+     "valore": 14,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. atroviridae",
+     "valore": 4,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. harzianum",
+     "valore": 10,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "A. alternata",
+     "valore": 11,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. cinerea",
+     "valore": 0,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "PDA, diffusione da pozzetto con il composto in dimetilsolfossido; 5 giorni a 24 °C",
+   "note": "Colonne in ordine di intestazione: F. culmorum, F. graminearum, T. atroviridae, T. harzianum, A. alternata, B. cinerea. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X76",
+   "categoria": "altro",
+   "proprieta": "TPH: zona di inibizione della crescita fungina (mm), Tabella 3",
+   "citazione": "TPH | 11 | 14 | 15 | 9 | 11.5 | 10",
+   "valori": [
+    {
+     "etichetta": "F. culmorum",
+     "valore": 11,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "F. graminearum",
+     "valore": 14,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. atroviridae",
+     "valore": 15,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. harzianum",
+     "valore": 9,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "A. alternata",
+     "valore": 11.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. cinerea",
+     "valore": 10,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "PDA, diffusione da pozzetto con il composto in dimetilsolfossido; 5 giorni a 24 °C",
+   "note": "Colonne in ordine di intestazione: F. culmorum, F. graminearum, T. atroviridae, T. harzianum, A. alternata, B. cinerea. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X77",
+   "categoria": "altro",
+   "proprieta": "PMLA: zona di inibizione della crescita fungina (mm), Tabella 3",
+   "citazione": "PMLA | 20 | 11 | 10 | 9 | 10 | 9",
+   "valori": [
+    {
+     "etichetta": "F. culmorum",
+     "valore": 20,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "F. graminearum",
+     "valore": 11,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. atroviridae",
+     "valore": 10,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. harzianum",
+     "valore": 9,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "A. alternata",
+     "valore": 10,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. cinerea",
+     "valore": 9,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "PDA, diffusione da pozzetto con il composto in dimetilsolfossido; 5 giorni a 24 °C",
+   "note": "Colonne in ordine di intestazione: F. culmorum, F. graminearum, T. atroviridae, T. harzianum, A. alternata, B. cinerea. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X78",
+   "categoria": "altro",
+   "proprieta": "TBR·PMLA 2:1: zona di inibizione della crescita fungina (mm), Tabella 3",
+   "citazione": "TBR·PMLA 2:1 | 0 | 13 | 11.5 | 13.5 | 11.5 | 11",
+   "valori": [
+    {
+     "etichetta": "F. culmorum",
+     "valore": 0,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "F. graminearum",
+     "valore": 13,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. atroviridae",
+     "valore": 11.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. harzianum",
+     "valore": 13.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "A. alternata",
+     "valore": 11.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. cinerea",
+     "valore": 11,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "PDA, diffusione da pozzetto con il composto in dimetilsolfossido; 5 giorni a 24 °C",
+   "note": "Colonne in ordine di intestazione: F. culmorum, F. graminearum, T. atroviridae, T. harzianum, A. alternata, B. cinerea. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X79",
+   "categoria": "altro",
+   "proprieta": "TPH·PMLA 2:1 I: zona di inibizione della crescita fungina (mm), Tabella 3",
+   "citazione": "TPH·PMLA 2:1 I | 14.5 | 13 | 16.5 | 12 | 10.5 | 13",
+   "valori": [
+    {
+     "etichetta": "F. culmorum",
+     "valore": 14.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "F. graminearum",
+     "valore": 13,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. atroviridae",
+     "valore": 16.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. harzianum",
+     "valore": 12,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "A. alternata",
+     "valore": 10.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. cinerea",
+     "valore": 13,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "TPH·PMLA 2:1 I"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "PDA, diffusione da pozzetto con il composto in dimetilsolfossido; 5 giorni a 24 °C",
+   "note": "Colonne in ordine di intestazione: F. culmorum, F. graminearum, T. atroviridae, T. harzianum, A. alternata, B. cinerea. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X80",
+   "categoria": "altro",
+   "proprieta": "TPH·PMLA 2:1 II: zona di inibizione della crescita fungina (mm), Tabella 3",
+   "citazione": "TPH·PMLA 2:1 II | 16 | 13 | 4 | 10 | 10 | 11",
+   "valori": [
+    {
+     "etichetta": "F. culmorum",
+     "valore": 16,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "F. graminearum",
+     "valore": 13,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. atroviridae",
+     "valore": 4,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. harzianum",
+     "valore": 10,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "A. alternata",
+     "valore": 10,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. cinerea",
+     "valore": 11,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "TPH·PMLA 2:1 II"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "PDA, diffusione da pozzetto con il composto in dimetilsolfossido; 5 giorni a 24 °C",
+   "note": "Colonne in ordine di intestazione: F. culmorum, F. graminearum, T. atroviridae, T. harzianum, A. alternata, B. cinerea. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X81",
+   "categoria": "altro",
+   "proprieta": "TPH·PMLA·H2O 1:1:2: zona di inibizione della crescita fungina (mm), Tabella 3",
+   "citazione": "TPH·PMLA·H 2 O 1:1:2 | 16 | 12 | 15 | 4 | 10 | 10",
+   "valori": [
+    {
+     "etichetta": "F. culmorum",
+     "valore": 16,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "F. graminearum",
+     "valore": 12,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. atroviridae",
+     "valore": 15,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "T. harzianum",
+     "valore": 4,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "A. alternata",
+     "valore": 10,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "B. cinerea",
+     "valore": 10,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "TPH·PMLA·H2O 1:1:2"
+   },
+   "tecnica": "well-diffusion",
+   "condizioni": "PDA, diffusione da pozzetto con il composto in dimetilsolfossido; 5 giorni a 24 °C",
+   "note": "Colonne in ordine di intestazione: F. culmorum, F. graminearum, T. atroviridae, T. harzianum, A. alternata, B. cinerea. Dato biologico (nessuna categoria dedicata: usata «altro»)."
+  },
+  {
+   "id": "X82",
+   "categoria": "altro",
+   "proprieta": "TBR e TBR·PMLA 2:1: zone di inibizione sui batteri (testo)",
+   "citazione": "An analysis of the results illustrating the effect of selected bacterial species on TBR indicates interaction only with the E. coli strain, giving a zone of inhibition of bacterial growth of 6 mm. On the other hand, the remaining bacterial strains did not show any interaction with the tested compound. However, the synthesized TBR·PMLA 2:1 cocrystal showed a stronger effect on individual bacterial species, especially on P. fluorescens, limiting the growth of the strain to 6.5 mm (Table ). In the case of this complex, E. coli turned out to be less sensitive, with a growth inhibition zone of only 3 mm.",
+   "valori": [
+    {
+     "etichetta": "TBR on E. coli",
+     "valore": 6,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "TBR·PMLA 2:1 on P. fluorescens",
+     "valore": 6.5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "TBR·PMLA 2:1 on E. coli",
+     "valore": 3,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "well-diffusion",
+   "qualitativo": "TBR interacts only with E. coli; the cocrystal has a stronger effect on individual bacterial species, especially P. fluorescens, and E. coli is less sensitive",
+   "note": "Valori anche nella Tabella 2."
+  },
+  {
+   "id": "X83",
+   "categoria": "altro",
+   "proprieta": "TPH e PMLA: zona di inibizione piu' forte su E. coli (testo)",
+   "citazione": "The TPH and PMLA compounds had a similar effect on the tested bacterial species, most strongly limiting the growth of E. coli (5 mm). However, the synthesized TPH·PMLA 2:1 cocrystal (both forms I and II), and TPH·PMLA·H2O 1:1:2 have a weaker effect on the tested bacteria than PMLA acid itself, which is particularly noticeable in the case of M. luteus and B. subtilis strains.",
+   "valori": [
+    {
+     "etichetta": "TPH and PMLA on E. coli",
+     "valore": 5,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "composto": "C2",
+    "etichetta": "TPH e PMLA"
+   },
+   "tecnica": "well-diffusion",
+   "qualitativo": "TPH·PMLA 2:1 (forms I and II) and TPH·PMLA·H2O 1:1:2 have a weaker effect on the bacteria than PMLA itself, particularly for M. luteus and B. subtilis"
+  },
+  {
+   "id": "X84",
+   "categoria": "altro",
+   "proprieta": "TBR, TPH, PMLA e cocristalli: inibizione dei funghi (testo)",
+   "citazione": "When analyzing the effect of the tested compounds (TBR, TPH, and PMLA) on selected fungal species, the strongest inhibition of F. culmorum growth was observed, especially under the influence of PMLA (the zone of inhibition of mold development was 20 mm) and under the influence of TBR (inhibition zone = 17.5 mm).",
+   "valori": [
+    {
+     "etichetta": "PMLA on F. culmorum",
+     "valore": 20,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "TBR on F. culmorum",
+     "valore": 17.5,
+     "unita": "mm"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "well-diffusion",
+   "qualitativo": "the strongest inhibition was of F. culmorum, especially by PMLA and TBR",
+   "note": "Valori anche nella Tabella 3."
+  },
+  {
+   "id": "X85",
+   "categoria": "altro",
+   "proprieta": "TPH e cocristalli di TPH: inibizione dei funghi (testo)",
+   "citazione": "Comparing the analyzed compounds, it was found that TPH most strongly inhibited the development of most of the tested fungal species (Table ). The formation of a TPH cocrystal with PMLA acid in some cases limits the growth of fungi more effectively than individual compounds (e.g., in the case ofF. culmorum); however, it does not clearly indicate an increased inhibitory effect on the tested molds.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "well-diffusion",
+   "qualitativo": "TPH most strongly inhibited most of the tested fungal species; the TPH cocrystals with PMLA in some cases limit growth more effectively (e.g. F. culmorum) but no clear increased inhibitory effect"
+  },
+  {
+   "id": "X86",
+   "categoria": "altro",
+   "proprieta": "TBR·PMLA 2:1 e funghi: nessun effetto tossico significativamente piu' forte (testo)",
+   "citazione": "A similar trend was also observed in the case of the TBR·PMLA 2:1 cocrystal, which in most cases did not have a significantly stronger toxic effect on individual mold species than TBR and PMLA alone.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "well-diffusion",
+   "qualitativo": "in most cases the cocrystal did not have a significantly stronger toxic effect on individual mold species than TBR and PMLA alone"
+  },
+  {
+   "id": "X87",
+   "categoria": "altro",
+   "proprieta": "esiti biologici sintetici (conclusioni)",
+   "citazione": "It exhibits a stronger bacterial inhibition than theobromine, particularly evident with P. fluorescens. This cocrystal also inhibits the growth of certain fungi, especially B. cinerea, more effectively than TBR.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "TBR·PMLA 2:1"
+   },
+   "tecnica": "well-diffusion",
+   "qualitativo": "stronger bacterial inhibition than TBR, particularly P. fluorescens; inhibits certain fungi, especially B. cinerea, more effectively than TBR"
+  },
+  {
+   "id": "X88",
+   "categoria": "metodo",
+   "proprieta": "saggio antimicrobico: terreni, anelli e volumi",
+   "citazione": "6 mL each of liquidized medium was poured into sterile Petri dishes and allowed to solidify. Next, two sterile glass rings with a diameter of 0.5 cm were placed on the surface of each plate. Then, 20 mL each of liquid medium containing suspensions of the tested microorganisms was introduced.",
+   "valori": [
+    {
+     "etichetta": "medium volume per dish",
+     "valore": 6,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "glass ring diameter",
+     "valore": 0.5,
+     "unita": "cm"
+    },
+    {
+     "etichetta": "volume of liquid medium with microorganisms",
+     "valore": 20,
+     "unita": "mL"
+    }
+   ],
+   "tecnica": "well-diffusion"
+  },
+  {
+   "id": "X89",
+   "categoria": "metodo",
+   "proprieta": "saggio antimicrobico: densita' delle sospensioni",
+   "citazione": "The final suspension of bacteria had a density of 107 cells/cm3, obtained from 48 h cultures on broth slants, and fungal suspension had a density of 108 spores/cm3, obtained from 5-day cultures on PDA slants.",
+   "valori": [
+    {
+     "etichetta": "bacteria suspension density",
+     "testo": "107 cells/cm3",
+     "lettura_probabile": 10000000
+    },
+    {
+     "etichetta": "age of bacteria cultures",
+     "valore": 48,
+     "unita": "h"
+    },
+    {
+     "etichetta": "fungal suspension density",
+     "testo": "108 spores/cm3",
+     "lettura_probabile": 100000000
+    },
+    {
+     "etichetta": "age of fungal cultures",
+     "valore": 5,
+     "unita": "day"
+    }
+   ],
+   "tecnica": "well-diffusion",
+   "note": "Esponenti rovinati dal PDF: «107» e «108» sono probabilmente 10^7 e 10^8 (lettura_probabile; non e' sostenuta dal testo). Colture di 48 h su broth slants e di 5 giorni su PDA slants."
+  },
+  {
+   "id": "X90",
+   "categoria": "metodo",
+   "proprieta": "saggio antimicrobico: volume del composto, ripetizioni, incubazione",
+   "citazione": "0.1 mL of compound dissolved in pure dimethyl sulfoxide was introduced into one well, and 0.1 mL of pure dimethyl sulfoxide was introduced into the other well, which was used as a control. Each compound was tested in quadruplicate. The plates were incubated for 48 h in a thermostat at 27 °C for M. luteus, B. subtilis, and P. fluorescens cultures, and the E. coli culture at 37 °C. All fungal cultures were incubated for 5 days in a thermostat at 24 °C.",
+   "valori": [
+    {
+     "etichetta": "volume of compound solution per well",
+     "valore": 0.1,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "replicates",
+     "testo": "quadruplicate"
+    },
+    {
+     "etichetta": "incubation time of bacteria",
+     "valore": 48,
+     "unita": "h"
+    },
+    {
+     "etichetta": "incubation temperature, M. luteus, B. subtilis, P. fluorescens",
+     "valore": 27,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "incubation temperature, E. coli",
+     "valore": 37,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "incubation time of fungi",
+     "valore": 5,
+     "unita": "days"
+    },
+    {
+     "etichetta": "incubation temperature of fungi",
+     "valore": 24,
+     "unita": "°C"
+    }
+   ],
+   "tecnica": "well-diffusion"
+  },
+  {
+   "id": "X91",
+   "categoria": "altro",
+   "proprieta": "tecniche di cocristallizzazione usate nel lavoro",
+   "citazione": "In this article, three techniques of cocrystallization were used to obtain cocrystals of purine alkaloids (TBR and TPH) with benzene-1,2,4,5-tetracarboxylic acid (PMLA).",
+   "valori": [
+    {
+     "etichetta": "cocrystallization techniques",
+     "valore": 3
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "note": "«three» in lettere; i numeri 1,2,4,5 sono i locanti del nome dell'acido."
+  },
+  {
+   "id": "X92",
+   "categoria": "metodo",
+   "proprieta": "macinazione e microonde: prove ripetute per la riproducibilita'",
+   "citazione": "Cocrystallizations by grinding and microwave techniques were performed multiple times, not only to produce more material for further analyses but also to test the reproducibility of the designed syntheses.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "qualitativo": "cocrystallizations by grinding and microwave techniques performed multiple times, to produce more material and to test the reproducibility"
+  },
+  {
+   "id": "X93",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "TPH·PMLA 2:1: due polimorfi che differiscono per la disposizione delle molecole",
+   "citazione": "Theophylline and pyromellitic acid in a 2:1 stoichiometric ratio, depending on the cocrystallization conditions, form two polymorphic TPH·PMLA 2:1 forms I and II (Figures S16 and S17), differing in the arrangement of the molecules in the crystal lattice.",
+   "valori": [
+    {
+     "etichetta": "polymorphic forms",
+     "valore": 2
+    }
+   ],
+   "oggetto": {
+    "composto": "C2",
+    "etichetta": "TPH·PMLA 2:1 I e II"
+   },
+   "tecnica": "SCXRD",
+   "note": "«two» in lettere."
+  },
+  {
+   "id": "X94",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "intestazione della Tabella 1: unita' della solubilita' (10-3 mmol mL-1)",
+   "citazione": "alkaloid–PMLA | alkaloid solubility in water (10 –3 mmol mL –1 ) | absorption solubility of alkaloid–PMLA system in water (10 –3 mmol mL –1 )",
+   "valori": [
+    {
+     "etichetta": "exponent of the unit",
+     "valore": -3,
+     "unita": "mmol mL-1"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "UV-vis",
+   "note": "L'unita' delle righe della Tabella 1 e' quella dell'intestazione: 10–3 mmol mL–1."
+  },
+  {
+   "id": "X95",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: due fasi della variazione volumetrica fra 300 e 415 K",
+   "citazione": "Interestingly, two stages of volumetric thermal expansion change are observed in the 300–415 K temperature range (Figure e).",
+   "valori": [
+    {
+     "etichetta": "stages of volumetric thermal expansion change",
+     "valore": 2
+    },
+    {
+     "etichetta": "temperature range, from",
+     "valore": 300,
+     "unita": "K"
+    },
+    {
+     "etichetta": "temperature range, to",
+     "valore": 415,
+     "unita": "K"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "note": "«two» in lettere; le due fasi sono 300-350 K (PTE) e 350-415 K (NTE), nelle voci seguenti."
+  },
+  {
+   "id": "X96",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: assi di dilatazione nell'intervallo 350-415 K quasi coincidenti con quelli dell'intero intervallo",
+   "citazione": "It is worth noting that in the 350–415 K range, where only the decrease in volume is observed, as indicated by the colossal NTE of −336.04 MK–1, the indices of the thermal expansion axes practically coincide with the indices determined in the whole 300–415 K temperature range.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD (PASCAL)",
+   "qualitativo": "in the 350–415 K range, where only the volume decrease is observed (colossal NTE), the indices of the thermal expansion axes practically coincide with those of the whole 300–415 K range",
+   "note": "Il valore −336.04 MK–1 e' nella voce del coefficiente volumetrico 350-415 K."
+  },
+  {
+   "id": "X97",
+   "categoria": "termica",
+   "proprieta": "STA dei solvati: presenza del solvente nel reticolo (conclusioni)",
+   "citazione": "For solvates, STA studies confirmed the presence of a solvent within the crystal lattice, which was crucial for TPH·PMLA·MeOH 2:1:2 due to the challenges in determining the precise positions of the solvent molecules.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "STA",
+   "qualitativo": "STA studies confirmed the presence of the solvent within the crystal lattice, crucial for TPH·PMLA·MeOH 2:1:2 because of the difficulty of locating the solvent molecules"
+  },
+  {
+   "id": "X98",
+   "categoria": "cristallografia",
+   "proprieta": "VT-SXRD fra 300 e 415 K: espansione termica volumetrica negativa (conclusioni)",
+   "citazione": "Furthermore, the VT-SXRD experiment conducted in the 300–415 K range revealed the negative volumetric thermal expansion of TPH·PMLA·MeOH 2:1:2, possibly due to structural factors.",
+   "valori": [
+    {
+     "etichetta": "temperature range, from",
+     "valore": 300,
+     "unita": "K"
+    },
+    {
+     "etichetta": "temperature range, to",
+     "valore": 415,
+     "unita": "K"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "negative volumetric thermal expansion of TPH·PMLA·MeOH 2:1:2, possibly due to structural factors"
+  },
+  {
+   "id": "X99",
+   "categoria": "altro",
+   "proprieta": "biologia: potenziale applicativo dei risultati (discussione)",
+   "citazione": "Promising results of inhibiting the growth of the opportunistic bacterial species P. fluorescens under the influence of the TBR·PMLA 2:1 cocrystal and F. culmorum under the influence of the TPH cocrystal with PMLA indicate the significant potential of newly synthesized compounds, whose properties may have real application possibilities, particularly in the medical sector.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "well-diffusion",
+   "qualitativo": "promising inhibition of the opportunistic bacterium P. fluorescens by the TBR·PMLA 2:1 cocrystal and of F. culmorum by the TPH cocrystal with PMLA"
+  },
+  {
+   "id": "X100",
+   "categoria": "cristallografia",
+   "proprieta": "definizione del coefficiente di dilatazione termica lineare",
+   "citazione": "The linear thermal expansion coefficients (α) were calculated using the standard expression: α=1L0·dLdT , where L 0 is the initial unit cell parameter at 300 K and dLdT is the rate of change of the lattice dimension with temperature.",
+   "valori": [
+    {
+     "etichetta": "reference temperature of L0",
+     "valore": 300,
+     "unita": "K"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "α = (1/L0)(dL/dT), with L0 the initial unit cell parameter at 300 K and dL/dT the rate of change of the lattice dimension with temperature",
+   "calcolato": true,
+   "note": "La formula e' rovinata nel testo letto («α=1L0·dLdT»); i simboli sono definiti nel testo."
+  },
+  {
+   "id": "X101",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: parametri di cella e volume registrati fra 300 e 415 K (didascalia Fig. 12)",
+   "citazione": "Changes in unit cell parameters (a, b, c, and β) and volume (V) with increasing temperature in the 300–415 K range.",
+   "valori": [
+    {
+     "etichetta": "temperature range, from",
+     "valore": 300,
+     "unita": "K"
+    },
+    {
+     "etichetta": "temperature range, to",
+     "valore": 415,
+     "unita": "K"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "a, b, c, β and V reported as a function of temperature (Figure 12a–e); the values at each temperature are in the supplementary tables (S14–S16) and in the figure",
+   "note": "Solo la didascalia: i valori numerici per temperatura non sono nel testo."
+  },
+  {
+   "id": "X102",
+   "categoria": "cristallografia",
+   "proprieta": "TPH·PMLA·MeOH 2:1:2: numero di elettroni per volume accessibile in funzione della temperatura (didascalia Fig. 14)",
+   "citazione": "Graph of changes in the number of electrons per accessible void volume in the unit cell as a function of the temperature change.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "TPH·PMLA·MeOH 2:1:2"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "the number of electrons per accessible void volume in the unit cell is plotted against temperature (Figure 14); no values in the text",
+   "note": "Dato solo in figura."
+  }
+ ]
+}

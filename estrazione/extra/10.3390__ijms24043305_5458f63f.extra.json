@@ -1,0 +1,1815 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.3390/ijms24043305",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "altro",
+   "proprieta": "numero di sali farmaco-farmaco riportati e di NSAID coinvolti",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "multidrug salts",
+     "valore": 6
+    },
+    {
+     "etichetta": "different NSAIDs",
+     "valore": 6
+    }
+   ],
+   "citazione": "In this work, six multidrug salts involving six different NSAIDs and the antibiotic ciprofloxacin are reported.",
+   "note": "Il testo conta sei sali; le fasi cristalline nuove con struttura sono sette (sei sali piu' il sale monoidrato CIP–MEF·H2O)."
+  },
+  {
+   "id": "X2",
+   "categoria": "altro",
+   "proprieta": "MEF: dose tipica e farmacocinetica orale",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "valori": [
+    {
+     "etichetta": "typical dosage",
+     "valore": 500,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "peak plasma concentration, da",
+     "valore": 2,
+     "unita": "h"
+    },
+    {
+     "etichetta": "peak plasma concentration, a",
+     "valore": 4,
+     "unita": "h"
+    },
+    {
+     "etichetta": "elimination half-life",
+     "valore": 2,
+     "unita": "h",
+     "circa": true
+    }
+   ],
+   "citazione": "A typical dosage of 500 mg is employed for MEF and it is rapidly absorbed, with a peak plasma concentration attained in 2 to 4 h and elimination half-life of ca. 2 h [7].",
+   "note": "citato dal rif. 7; farmacocinetica riportata nell'introduzione, citata da altri lavori"
+  },
+  {
+   "id": "X3",
+   "categoria": "altro",
+   "proprieta": "TLF: dose tipica, ritardo di assorbimento e farmacocinetica orale",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "valori": [
+    {
+     "etichetta": "typical dosage",
+     "valore": 200,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "oral absorption delay",
+     "valore": 30,
+     "unita": "min",
+     "circa": true
+    },
+    {
+     "etichetta": "peak plasma concentration, da",
+     "valore": 1,
+     "unita": "h"
+    },
+    {
+     "etichetta": "peak plasma concentration, a",
+     "valore": 2,
+     "unita": "h"
+    },
+    {
+     "etichetta": "elimination half-life, da",
+     "valore": 8.1,
+     "unita": "h"
+    },
+    {
+     "etichetta": "elimination half-life, a",
+     "valore": 13.5,
+     "unita": "h"
+    }
+   ],
+   "citazione": "On the other hand, TLF works with a typical dosage of 200 mg but shows an oral absorption delay of about 30 min., with a peak plasma concentration attained in 1–2 h and elimination half-life between 8.1 and 13.5 h [8].",
+   "note": "citato dal rif. 8; farmacocinetica riportata nell'introduzione, citata da altri lavori"
+  },
+  {
+   "id": "X4",
+   "categoria": "altro",
+   "proprieta": "KET: inversione R -> S dopo somministrazione orale",
+   "oggetto": {
+    "composto": "C4"
+   },
+   "valori": [
+    {
+     "etichetta": "R to S inversion",
+     "valore": 10,
+     "unita": "%",
+     "circa": true
+    }
+   ],
+   "citazione": "It should be noted that KET is reported to undergo about 10% R to S inversion upon oral administration [10].",
+   "note": "citato dal rif. 10; farmacocinetica riportata nell'introduzione, citata da altri lavori"
+  },
+  {
+   "id": "X5",
+   "categoria": "altro",
+   "proprieta": "KET: farmacocinetica orale",
+   "oggetto": {
+    "composto": "C4"
+   },
+   "valori": [
+    {
+     "etichetta": "peak plasma levels, da",
+     "valore": 0.5,
+     "unita": "h"
+    },
+    {
+     "etichetta": "peak plasma levels, a",
+     "valore": 2,
+     "unita": "h"
+    },
+    {
+     "etichetta": "half-life, da",
+     "valore": 1,
+     "unita": "h"
+    },
+    {
+     "etichetta": "half-life, a",
+     "valore": 3,
+     "unita": "h"
+    }
+   ],
+   "citazione": "KET is rapidly and efficiently absorbed orally, with peak plasma levels attained in 0.5 to 2 h and a half-life of 1 to 3 h",
+   "note": "La frase intera e' «... while the maximum concentration of DEX ...» [9,10]; i dati di DEX sono nella voce seguente. farmacocinetica riportata nell'introduzione, citata da altri lavori"
+  },
+  {
+   "id": "X6",
+   "categoria": "altro",
+   "proprieta": "DEX (dexketoprofene): concentrazione massima ed emivita plasmatica",
+   "oggetto": {
+    "composto": "C5"
+   },
+   "valori": [
+    {
+     "etichetta": "maximum concentration after administration",
+     "valore": 30,
+     "unita": "min",
+     "circa": true
+    },
+    {
+     "etichetta": "plasma half-life, da",
+     "valore": 4,
+     "unita": "h",
+     "circa": true
+    },
+    {
+     "etichetta": "plasma half-life, a",
+     "valore": 6,
+     "unita": "h",
+     "circa": true
+    }
+   ],
+   "citazione": "while the maximum concentration of DEX is attained about 30 min after administration and the plasma half-life is about 4–6 h [9,10].",
+   "note": "citato dai rif. 9, 10; il testo scrive «DEX» per il dexketoprofene (sigla DKT altrove nell'articolo). farmacocinetica riportata nell'introduzione, citata da altri lavori"
+  },
+  {
+   "id": "X7",
+   "categoria": "altro",
+   "proprieta": "DIC: assorbimento orale e frazione che raggiunge la circolazione",
+   "oggetto": {
+    "composto": "C6"
+   },
+   "valori": [
+    {
+     "etichetta": "peak plasma level, da",
+     "valore": 30,
+     "unita": "min"
+    },
+    {
+     "etichetta": "fraction of the drug reaching systemic circulation unchanged",
+     "valore": 60,
+     "unita": "%"
+    },
+    {
+     "etichetta": "apparent half-life including all metabolites, da",
+     "valore": 26,
+     "unita": "h"
+    },
+    {
+     "etichetta": "apparent half-life including all metabolites, a",
+     "valore": 33,
+     "unita": "h"
+    }
+   ],
+   "citazione": "Its oral absorption strongly depends on the formulation and food administration, with the peak plasma level occurring between 30 min and several hours [11,12]. It is assumed that only 60% of the drug reaches systemic circulation unchanged, for which the apparent half-life, including all metabolites, is 26–33 h [11].",
+   "note": "citato dai rif. 11, 12; «between 30 min and several hours» per il picco plasmatico. farmacocinetica riportata nell'introduzione, citata da altri lavori"
+  },
+  {
+   "id": "X8",
+   "categoria": "altro",
+   "proprieta": "SLD: profarmaco, picco plasmatico ed emivita di eliminazione",
+   "oggetto": {
+    "composto": "C7"
+   },
+   "valori": [
+    {
+     "etichetta": "peak plasma concentration after administration",
+     "valore": 1,
+     "unita": "h"
+    },
+    {
+     "etichetta": "elimination half-life, da",
+     "valore": 1.7,
+     "unita": "h"
+    },
+    {
+     "etichetta": "elimination half-life, a",
+     "valore": 7,
+     "unita": "h"
+    }
+   ],
+   "citazione": "Finally, SLD is a prodrug that belongs to the arylalkanoic acid class of NSAIDs; it exhibits high and rapid oral absorption, reaching the peak plasma concentration after 1 h of administration and having an elimination half-life between 1.7 and 7 h [13].",
+   "note": "citato dal rif. 13; farmacocinetica riportata nell'introduzione, citata da altri lavori"
+  },
+  {
+   "id": "X9",
+   "categoria": "metodo",
+   "proprieta": "pH rilevanti per i farmaci orali (ambiente gastrointestinale)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "pH, gastric environment",
+     "valore": 1.2
+    },
+    {
+     "etichetta": "pH, intestinal environment",
+     "valore": 6.8
+    }
+   ],
+   "citazione": "Note that, when referring to oral-administration drugs, only those pH values corresponding to the gastrointestinal system are pharmaceutically relevant; i.e., pH 1.2 and 6.8 for gastric and intestinal environments, respectively."
+  },
+  {
+   "id": "X10",
+   "categoria": "altro",
+   "proprieta": "indagine CSD su CIP: risultati",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "hits",
+     "valore": 67
+    },
+    {
+     "etichetta": "molecular salts remaining",
+     "valore": 35
+    },
+    {
+     "etichetta": "molecular salts",
+     "valore": 52,
+     "unita": "%"
+    }
+   ],
+   "qualitativo": "dopo aver escluso idrati, solvati, polimorfi e complessi metallici di CIP, i restanti 35 sono sali molecolari (52%); versione CSD 5.43, update 4 di novembre 2022",
+   "citazione": "A Cambridge Structural Database (CSD version 5.43, update 4 from November 2022) survey based on CIP resulted in 67 hits. After excluding entries corresponding to CIP hydrates, solvates, and polymorphs, as well as CIP metal complexes, the remaining dataset contained 35 molecular salts (52%)."
+  },
+  {
+   "id": "X11",
+   "categoria": "altro",
+   "proprieta": "strutture di sali di CIP con un NSAID gia' riportate",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "salt structures containing CIP and a NSAID",
+     "valore": 2
+    }
+   ],
+   "citazione": "Only two salt structures containing CIP and a NSAID as counterion have been reported: CIP–indoprofen monohydrate and CIP–diflunisal salts [18].",
+   "note": "citato dal rif. 18; indoprofene e diflunisal non sono fra i composti di questo lavoro."
+  },
+  {
+   "id": "X12",
+   "categoria": "altro",
+   "proprieta": "regola del pKa (soglie di ΔpKa)",
+   "valori": [
+    {
+     "etichetta": "ΔpKa for salt formation",
+     "valore": 3,
+     "unita": "pKa units",
+     "limite": "sopra"
+    },
+    {
+     "etichetta": "ΔpKa for exclusively salts",
+     "valore": 4,
+     "unita": "pKa units",
+     "limite": "sopra"
+    }
+   ],
+   "citazione": "This rule, based on experimental crystallographic data, states that salt formation usually occurs when the ΔpKa between ionizable groups (acid–base) is greater than three pKa units, with systems showing a ΔpKa > 4 usually exclusively forming salts.",
+   "note": "regola generale citata dal rif. 5 e usata dagli autori per progettare i sali; non e' un dato misurato su questo sistema."
+  },
+  {
+   "id": "X13",
+   "categoria": "altro",
+   "proprieta": "differenza fra i pKa calcolati degli NSAID e la piperazina di CIP",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "difference between NSAIDs and the piperazine moiety of CIP",
+     "valore": 3,
+     "unita": "pKa units",
+     "limite": "sopra"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The calculated pKa values were rather similar to the experimental ones, showing a difference of at least three pKa units between the NSAIDs and the piperazine moiety of CIP."
+  },
+  {
+   "id": "X14",
+   "categoria": "altro",
+   "proprieta": "ΔpKa (Table 1) per DKT",
+   "oggetto": {
+    "composto": "C5"
+   },
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 4.86
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Dexketoprofen | 3.88; 4.55; 5.02 | [28,29,30] | 3.88 | 4.86",
+   "note": "I pKa riportati e calcolati della riga sono nelle molecole dell'estrazione principale; qui la colonna ΔpKa. Il testo non dice da quali valori e' calcolata."
+  },
+  {
+   "id": "X15",
+   "categoria": "altro",
+   "proprieta": "ΔpKa (Table 1) per MEF",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 4.81
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Mefenamic acid | 3.93; 4.64 | [31] | 3.89 | 4.81",
+   "note": "I pKa riportati e calcolati della riga sono nelle molecole dell'estrazione principale; qui la colonna ΔpKa. Il testo non dice da quali valori e' calcolata."
+  },
+  {
+   "id": "X16",
+   "categoria": "altro",
+   "proprieta": "ΔpKa (Table 1) per TLF",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 4.44
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Tolfenamic acid | 4.3; 5.11 | [32,33] | 3.88 | 4.44",
+   "note": "I pKa riportati e calcolati della riga sono nelle molecole dell'estrazione principale; qui la colonna ΔpKa. Il testo non dice da quali valori e' calcolata."
+  },
+  {
+   "id": "X17",
+   "categoria": "altro",
+   "proprieta": "ΔpKa (Table 1) per KET",
+   "oggetto": {
+    "composto": "C4"
+   },
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 4.94
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Ketoprofen | 3.8; 3.7; 4; 4.30 | [31,33,34,35] | 3.88 | 4.94",
+   "note": "I pKa riportati e calcolati della riga sono nelle molecole dell'estrazione principale; qui la colonna ΔpKa. Il testo non dice da quali valori e' calcolata."
+  },
+  {
+   "id": "X18",
+   "categoria": "altro",
+   "proprieta": "ΔpKa (Table 1) per DIC",
+   "oggetto": {
+    "composto": "C6"
+   },
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 4.59
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Diclofenac | 4.15; 4.2 | [33,36] | 4.00 | 4.59",
+   "note": "I pKa riportati e calcolati della riga sono nelle molecole dell'estrazione principale; qui la colonna ΔpKa. Il testo non dice da quali valori e' calcolata."
+  },
+  {
+   "id": "X19",
+   "categoria": "altro",
+   "proprieta": "ΔpKa (Table 1) per SLD",
+   "oggetto": {
+    "composto": "C7"
+   },
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 4.04
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Sulindac | 4.7 | [30,37] | 4.09 | 4.04",
+   "note": "I pKa riportati e calcolati della riga sono nelle molecole dell'estrazione principale; qui la colonna ΔpKa. Il testo non dice da quali valori e' calcolata."
+  },
+  {
+   "id": "X20",
+   "categoria": "computazionale",
+   "proprieta": "energia di eccesso H_ex da COSMOQuick, coformero Tolfenamic acid con CIP (Table 2)",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [
+    {
+     "etichetta": "H_ex",
+     "valore": -2.718395,
+     "unita": "kcal/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Tolfenamic acid | −2.718395 | This work",
+   "note": "Colonna «Reference»: This work. L'unita' kcal/mol sta nell'intestazione della tabella. La tabella e' intitolata «Ranking positions» ma le righe non seguono l'ordine dei valori di H_ex."
+  },
+  {
+   "id": "X21",
+   "categoria": "computazionale",
+   "proprieta": "energia di eccesso H_ex da COSMOQuick, coformero Diclofenac con CIP (Table 2)",
+   "oggetto": {
+    "composto": "C6"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [
+    {
+     "etichetta": "H_ex",
+     "valore": -3.069495,
+     "unita": "kcal/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Diclofenac | −3.069495 | This work",
+   "note": "Colonna «Reference»: This work. L'unita' kcal/mol sta nell'intestazione della tabella. La tabella e' intitolata «Ranking positions» ma le righe non seguono l'ordine dei valori di H_ex."
+  },
+  {
+   "id": "X22",
+   "categoria": "computazionale",
+   "proprieta": "energia di eccesso H_ex da COSMOQuick, coformero Mefenamic acid con CIP (Table 2)",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [
+    {
+     "etichetta": "H_ex",
+     "valore": -2.540215,
+     "unita": "kcal/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Mefenamic acid | −2.540215 | This work",
+   "note": "Colonna «Reference»: This work. L'unita' kcal/mol sta nell'intestazione della tabella. La tabella e' intitolata «Ranking positions» ma le righe non seguono l'ordine dei valori di H_ex."
+  },
+  {
+   "id": "X23",
+   "categoria": "computazionale",
+   "proprieta": "energia di eccesso H_ex da COSMOQuick, coformero Ketoprofen con CIP (Table 2)",
+   "oggetto": {
+    "composto": "C4"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [
+    {
+     "etichetta": "H_ex",
+     "valore": -1.530325,
+     "unita": "kcal/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Ketoprofen | −1.530325 | This work",
+   "note": "Colonna «Reference»: This work. L'unita' kcal/mol sta nell'intestazione della tabella. La tabella e' intitolata «Ranking positions» ma le righe non seguono l'ordine dei valori di H_ex."
+  },
+  {
+   "id": "X24",
+   "categoria": "computazionale",
+   "proprieta": "energia di eccesso H_ex da COSMOQuick, coformero Dexketoprofen con CIP (Table 2)",
+   "oggetto": {
+    "composto": "C5"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [
+    {
+     "etichetta": "H_ex",
+     "valore": -1.530325,
+     "unita": "kcal/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Dexketoprofen | −1.530325 | This work",
+   "note": "Colonna «Reference»: This work. L'unita' kcal/mol sta nell'intestazione della tabella. La tabella e' intitolata «Ranking positions» ma le righe non seguono l'ordine dei valori di H_ex."
+  },
+  {
+   "id": "X25",
+   "categoria": "computazionale",
+   "proprieta": "energia di eccesso H_ex da COSMOQuick, coformero Sulindac con CIP (Table 2)",
+   "oggetto": {
+    "composto": "C7"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [
+    {
+     "etichetta": "H_ex",
+     "valore": -0.260615,
+     "unita": "kcal/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Sulindac | −0.260615 | This work",
+   "note": "Colonna «Reference»: This work. L'unita' kcal/mol sta nell'intestazione della tabella. La tabella e' intitolata «Ranking positions» ma le righe non seguono l'ordine dei valori di H_ex."
+  },
+  {
+   "id": "X26",
+   "categoria": "computazionale",
+   "proprieta": "energia di eccesso H_ex da COSMOQuick, coformero Diflunisal con CIP (Table 2)",
+   "oggetto": {
+    "etichetta": "Diflunisal"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [
+    {
+     "etichetta": "H_ex",
+     "valore": -3.80753,
+     "unita": "kcal/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Diflunisal | −3.80753 | [17]",
+   "note": "Colonna «Reference»: [17]. L'unita' kcal/mol sta nell'intestazione della tabella. Diflunisal e indoprofene sono i due NSAID gia' riportati nel CSD (in grassetto nella tabella). La tabella e' intitolata «Ranking positions» ma le righe non seguono l'ordine dei valori di H_ex."
+  },
+  {
+   "id": "X27",
+   "categoria": "computazionale",
+   "proprieta": "energia di eccesso H_ex da COSMOQuick, coformero Indoprofen con CIP (Table 2)",
+   "oggetto": {
+    "etichetta": "Indoprofen"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [
+    {
+     "etichetta": "H_ex",
+     "valore": -1.520345,
+     "unita": "kcal/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Indoprofen | −1.520345 | [17]",
+   "note": "Colonna «Reference»: [17]. L'unita' kcal/mol sta nell'intestazione della tabella. Diflunisal e indoprofene sono i due NSAID gia' riportati nel CSD (in grassetto nella tabella). La tabella e' intitolata «Ranking positions» ma le righe non seguono l'ordine dei valori di H_ex."
+  },
+  {
+   "id": "X28",
+   "categoria": "computazionale",
+   "proprieta": "screening virtuale COSMOQuick: significato di H_ex negativo",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [],
+   "qualitativo": "eccesso di entalpia di miscelazione o formazione (Hex) dei due API rispetto ai componenti puri in fase liquida sottoraffreddata; i composti con Hex negativo formano probabilmente solidi multicomponente",
+   "calcolato": true,
+   "citazione": "To evaluate the propensity of CIP to form multicomponent solids with our selection of NSAIDs, a COSMOQuick virtual screening was conducted. This tool is based on thermodynamical calculations that determine the excess enthalpy of mixing or formation (Hex) for both APIs in comparison to the pure components in a supercooled liquid phase [39]. Those compounds with negative Hex values are likely to form multicomponent solids."
+  },
+  {
+   "id": "X29",
+   "categoria": "computazionale",
+   "proprieta": "COSMOQuick: esito per i candidati NSAID",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "COSMOQuick",
+   "valori": [],
+   "qualitativo": "gli NSAID candidati (compresi quelli gia' riportati) hanno preferenza a formare nuovi composti con CIP",
+   "calcolato": true,
+   "citazione": "The results obtained with COSMOQuick (Table 2) confirmed the preference of our NSAID candidates (including those already reported in the literature) to form new compounds with CIP."
+  },
+  {
+   "id": "X30",
+   "categoria": "sintesi",
+   "proprieta": "quantita' di CIP nelle LAG di CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET e CIP–DKT",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "CIP",
+     "valore": 0.2,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "CIP",
+     "valore": 66.27,
+     "unita": "mg"
+    }
+   ],
+   "citazione": "mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID",
+   "note": "La massa dell'NSAID corrispondente non e' scritta per questi sali; rapporto 1:1 (1:1 stoichiometric ratio)."
+  },
+  {
+   "id": "X31",
+   "categoria": "sintesi",
+   "proprieta": "quantita' di CIP e MEF nella sintesi di CIP–MEF",
+   "oggetto": {
+    "forma": "F8"
+   },
+   "valori": [
+    {
+     "etichetta": "CIP",
+     "valore": 0.2,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "CIP",
+     "valore": 66.27,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "MEF",
+     "valore": 0.2,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "MEF",
+     "valore": 48.26,
+     "unita": "mg"
+    }
+   ],
+   "citazione": "Synthesis of CIP–MEF salt: a mixture of CIP (0.2 mmol, 66.27 mg) and MEF (0.2 mmol, 48.26 mg) was placed in a stainless-steel jar along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). After 30 min of milling, the product was collected and heated at 120 °C for 2 days.",
+   "note": "Sintesi del sale anidro: LAG (il prodotto della macinazione e' il monoidrato, E1) e poi riscaldamento a 120 °C per 2 giorni (E8). Temperatura e durata sono negli eventi."
+  },
+  {
+   "id": "X32",
+   "categoria": "sintesi",
+   "proprieta": "quantita' di CIP e DIC nella sintesi del cocristallo-sale CIP–DIC (1:2)",
+   "oggetto": {
+    "forma": "F12"
+   },
+   "valori": [
+    {
+     "etichetta": "CIP",
+     "valore": 0.2,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "CIP",
+     "valore": 66.27,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "DIC",
+     "valore": 0.4,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "DIC",
+     "valore": 118.46,
+     "unita": "mg"
+    }
+   ],
+   "citazione": "Synthesis of CIP–DIC cocrystal salt: a mixture of CIP (0.2 mmol, 66.27 mg) and DIC (0.4 mmol, 118.46 mg) was placed in a stainless-steel jar along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:2 stoichiometric ratio)."
+  },
+  {
+   "id": "X33",
+   "categoria": "sintesi",
+   "proprieta": "sintesi idrotermale di CIP–SLD: quantita' di reagenti e di acqua",
+   "oggetto": {
+    "forma": "F11"
+   },
+   "valori": [
+    {
+     "etichetta": "CIP",
+     "valore": 0.1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "CIP",
+     "valore": 33.1,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "SLD",
+     "valore": 0.1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "SLD",
+     "valore": 35.64,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "distilled water",
+     "valore": 3,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "A mixture of CIP (0.1 mmol, 33.10 mg) and SLD (0.1 mmol, 35.64 mg) (1:1 stoichiometric ratio), was placed in a hydrothermal reactor with 3 mL of distilled water.",
+   "note": "110 °C e 24 h sono nella preparazione dell'estrazione principale."
+  },
+  {
+   "id": "X34",
+   "categoria": "sintesi",
+   "proprieta": "cristalli singoli di CIP–MEF·H2O e CIP–TLF: quantita' sciolte",
+   "valori": [
+    {
+     "etichetta": "first amount (compound not named in the text)",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "first amount (compound not named in the text)",
+     "valore": 16.56,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "MEF and TLF",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "MEF",
+     "valore": 12.06,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "TLF",
+     "valore": 13.08,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "solvent mix, acetonitrile/methanol",
+     "valore": null,
+     "testo": "1:1 (v/v)"
+    }
+   ],
+   "citazione": "Single crystals of CIP–MEFH2O and CIP–TLF were obtained by dissolving 0.5 mmol (16.56 mg) and 0.5 mmol of MEF and TLF, respectively (12.06 and 13.08 mg), in a 1:1 (v/v) mix of acetonitrile/methanol.",
+   "note": "Il testo non nomina il composto della prima quantita'. Gli mg non tornano con le mmol secondo i rapporti dell'articolo stesso (66.27 mg per 0.2 mmol di CIP e 48.26 mg per 0.2 mmol di MEF nei metodi di macinazione, quindi 0.5 mmol sarebbero circa dieci volte i mg scritti): quantita' riportate come scritte."
+  },
+  {
+   "id": "X35",
+   "categoria": "sintesi",
+   "proprieta": "diclofenac acido da DICNa: quantita' e condizioni di idrolisi",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [
+    {
+     "etichetta": "DICNa",
+     "valore": 5,
+     "unita": "mol"
+    },
+    {
+     "etichetta": "DICNa",
+     "valore": 1.59,
+     "unita": "g"
+    },
+    {
+     "etichetta": "ultrapure water",
+     "valore": 30,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "temperature",
+     "valore": 40,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "dissolving 5 mol of DICNa (1.590 g) in 30 mL of ultrapure water (Milli-Q, Millipore, Burlington, MA, USA) at 40 °C.",
+   "note": "«5 mol» come scritto; la temperatura e' anche nella preparazione dell'estrazione principale."
+  },
+  {
+   "id": "X36",
+   "categoria": "sintesi",
+   "proprieta": "diclofenac acido da DICNa: acido cloridrico aggiunto",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [
+    {
+     "etichetta": "HCl",
+     "valore": 1,
+     "unita": "M"
+    }
+   ],
+   "citazione": "HCl was added dropwise at 1 M to the solution until no more diclofenac precipitated."
+  },
+  {
+   "id": "X37",
+   "categoria": "sintesi",
+   "proprieta": "diclofenac acido da DICNa: essiccamento della polvere",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [
+    {
+     "etichetta": "drying temperature",
+     "valore": 35,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "drying time",
+     "valore": 24,
+     "unita": "h"
+    }
+   ],
+   "citazione": "The polycrystalline powder was filtrated and washed with cold deionized water and then allowed to dry at 35 °C for 24 h."
+  },
+  {
+   "id": "X38",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "trasferimento di protone dagli NSAID alla piperazina di CIP (densita' elettronica e distanze C–O)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "ΔD(C–O) in salts (typical)",
+     "valore": 0.03,
+     "unita": "Å",
+     "limite": "sotto"
+    }
+   ],
+   "qualitativo": "trasferimento di protone confermato dalla mappa di densita' elettronica e dalle distanze C–O del carbossilato degli NSAID, con ΔD(C–O) simili a quelli dei sali",
+   "citazione": "This was also evidenced in the experimental electron density map and confirmed by the analysis of the C–O bond distances for the carboxylate group in the NSAIDs, with the ΔDC–O values being similar to those observed in salts (typically lower than 0.03 Å) [22].",
+   "note": "soglia tipica citata dal rif. 22."
+  },
+  {
+   "id": "X39",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "colonne infinite di CIP impilate per π–π nei sali",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "colonne infinite di CIP presenti in CIP–MEF, CIP–TLF e CIP–DIC (Figure 2a); non presenti in CIP–SLD, CIP–KET e CIP–DKT (Figure 2b)",
+   "citazione": "The structures of many fluoroquinolone crystals are characterized by arrangements of quinolone molecules in infinite columns that are held together by π–π interactions [26]. This feature was observed in the structures of the salts formed from CIP and MEF, TLF, and DIC (Figure 2a). However, this structural feature was not found for the salts formed from CIP and SLD, KET, and DKT (Figure 2b)."
+  },
+  {
+   "id": "X40",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–MEF: colonne di CIP impilate e C–H···π",
+   "oggetto": {
+    "forma": "F8"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "colonne infinite di cationi CIP per impilamento π–π testa-coda dei chinoloni, circondate dagli ioni MEF; C-H···π fra l'anello ciclopropilico di CIP e l'anello aromatico sostituito di MEF",
+   "citazione": "CIP cations formed infinite columnar structures through head-to-tail π–π stacking interactions between their quinolone moieties. In the crystal structure, the columnar stacks were surrounded by MEF ions and the supramolecular architecture was built through additional C-H··· π interactions between the cyclopropyl ring (CIP) and the substituted aromatic ring of MEF (Figure 3)."
+  },
+  {
+   "id": "X41",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–MEF·H2O: canali che ospitano l'acqua",
+   "oggetto": {
+    "forma": "F9"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "volume of the channels hosting water, as fraction of the unit cell volume",
+     "valore": 7.7,
+     "unita": "%"
+    }
+   ],
+   "qualitativo": "unita' tetrameriche e impilamento π–π testa-coda multiplo fra gli ioni CIP; canali infiniti lungo l'asse a che ospitano le molecole d'acqua",
+   "citazione": "In addition to the formation of tetrameric units and the observed head-to-tail multi-π–π stacking between CIP ions, the crystal structure of this compound exhibited infinite channels extending along the a-axis where the water molecules were hosted (Figure 4), corresponding to 7.7% of the unit cell volume."
+  },
+  {
+   "id": "X42",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–MEF·H2O: colonne di CIP circondate da MEF e canali con acqua",
+   "oggetto": {
+    "forma": "F9"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "come nel sale anidro le colonne di CIP sono circondate da molecole di MEF, ma qui con canali contenenti acqua (Figure 5); C-H···π fra ciclopropile di CIP e anello aromatico sostituito di MEF",
+   "citazione": "Similarly to the anhydrous salt, in the 3D crystal structure, the ciprofloxacin columns were surrounded by mefenamic acid molecules, but, in this case, channels containing water molecules (Figure 5) were also present. Likewise, C-H··· π interactions between the cyclopropyl ring of CIP and the substituted aromatic ring of MEF reinforced the supramolecular structure."
+  },
+  {
+   "id": "X43",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–MEF·H2O: idrato a canale vicino al sale anidro",
+   "oggetto": {
+    "forma": "F9"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "sale idrato strettamente legato al sale molecolare anidro CIP–MEF",
+   "citazione": "resulting in a salt hydrate closely related to the anhydrous molecular salt previously described."
+  },
+  {
+   "id": "X44",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–MEF·H2O: l'acqua puo' uscire dai canali senza alterare la cristallinita'",
+   "oggetto": {
+    "forma": "F9"
+   },
+   "valori": [],
+   "qualitativo": "idrato a canale da cui le molecole d'acqua possono uscire facilmente scaldando senza alterare la cristallinita'",
+   "citazione": "which showed a channel hydrate from which H2O molecules could easily evacuate upon heating without altering crystallinity, resulting in the anhydrous salt."
+  },
+  {
+   "id": "X45",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–TLF e CIP–MEF·H2O: stessa conformazione di CIP, diversa da CIP–MEF anidro",
+   "oggetto": {
+    "forma": "F10"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "conformazione di CIP uguale a quella del sale idrato con MEF e diversa da quella del sale anidro CIP–MEF",
+   "citazione": "Both this salt and the salt hydrate with MEF exhibited the same CIP conformation, unlike the related anhydrous CIP–MEF salt.",
+   "note": "Il fatto e' anche nelle molecole (conformeri) dell'estrazione principale."
+  },
+  {
+   "id": "X46",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–TLF: unita' tetrameriche e colonne di CIP",
+   "oggetto": {
+    "forma": "F10"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "unita' tetrameriche tenute insieme da legami H assistiti dalla carica che collegano le colonne di ioni CIP costruite per impilamento π–π",
+   "citazione": "As observed in the CIP–fenamate molecular salts, tetrameric supramolecular units were held together by charge-assisted hydrogen bonds connecting the columns of CIP ions built by π–π stacking interactions (Figure 5)."
+  },
+  {
+   "id": "X47",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–TLF: C–H···π che rinforzano la struttura a colonne",
+   "oggetto": {
+    "forma": "F10"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "C-H···π fra ciclopropile di CIP e anello aromatico sostituito di TLF rinforzano la struttura a colonne multiple",
+   "citazione": "C-H·· π interactions involving the cyclopropyl ring of CIP and the substituted aromatic ring of TLF reinforced this multi-stacked columnar structure."
+  },
+  {
+   "id": "X48",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–SLD: nastri, interazioni CH···O centrosimmetriche e C–H···π",
+   "oggetto": {
+    "forma": "F11"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "i nastri sono associati tramite interazioni CH···O centrosimmetriche degli ambienti chinolonici e poi tramite C-H···π fra l'anello piperazinico protonato e l'anello aromatico di SLD, a dare la struttura 3D",
+   "citazione": "These structures were further associated through quinolone environments resulting from centrosymmetric CH···O interactions. Finally, these entities were associated through C-H·· π interactions involving the protonated piperazine ring and the aromatic ring of SLD, generating the 3D supramolecular structure (Figure 6b)."
+  },
+  {
+   "id": "X49",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–SLD: assenza di unita' tetrameriche e di colonne di CIP (frase del testo)",
+   "oggetto": {
+    "forma": "F11"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "CIP–SLD si distingue dalle altre strutture riguardo alle unita' tetrameriche o alle colonne di CIP impilate",
+   "citazione": "Unlike the other structures described in this section, there was formation of tetrameric units or stacked CIP columns.",
+   "note": "La frase, come scritta, afferma la formazione di tetrameri o colonne in CIP–SLD, contro «with the exception of CIP–SLD» (tetrameri) e «not found for the salts formed from CIP and SLD» (colonne); manca verosimilmente una negazione. Non usata nell'estrazione principale."
+  },
+  {
+   "id": "X50",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–DIC: cocristallo-sale con molecole neutre di DIC nei vuoti",
+   "oggetto": {
+    "forma": "F12"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "classificato come cocristallo ionico molecolare coniugato acido/base (un catione CIP, un anione diclofenac e una molecola neutra di acido diclofenac nell'unita' asimmetrica)",
+   "citazione": "Hence, it can be classified as a conjugate acid/base molecular ionic cocrystal [49]."
+  },
+  {
+   "id": "X51",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–DIC: interazioni C–H···π e C–H···O, colonne di CIP e struttura a griglia",
+   "oggetto": {
+    "forma": "F12"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "l'unita' supramolecolare e' rinforzata da C-H···π e C-H···O(carbonile) fra il ciclopropile di CIP e DIC; gli ioni CIP formano colonne infinite testa-coda impilate; struttura a griglia che ospita nei vuoti le molecole neutre di DIC",
+   "citazione": "This new supramolecular unit was reinforced by C-H·· π and C-H···O(carbonyl) interactions between the cyclopropyl ring of CIP and DIC. As already described for the CIP–fenamate salts, CIP ions associated with each other to generate infinite head-to-tail stacked columns. The resulting supramolecular structure consisted of a grid structure built by the ions, hosting neutral DIC molecules in the voids (Figure 7)."
+  },
+  {
+   "id": "X52",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–KET: coppie di CIP impilate senza colonne infinite",
+   "oggetto": {
+    "forma": "F13"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "unita' tetrameriche presenti; ioni CIP associati a coppie per impilamento π–π, senza colonne infinite; gli anioni KET si inseriscono fra le coppie di CIP; C-H···O(carbonile) CIP–CIP e KET–KET rinforzano la struttura 3D",
+   "citazione": "Although tetrameric units were observed, CIP ions were associated in pairs through π–π stacking interactions but did not form infinite columns. KET anions interrupted the formation of the stacked columns, occupying the space between CIP stacked pairs. C-H···O (carbonyl) interactions involving CIP–CIP and KET–KET pairs reinforced the 3D structure (Figure 8a)."
+  },
+  {
+   "id": "X53",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–DKT: coppie di CIP circondate da DKT, senza colonne impilate",
+   "oggetto": {
+    "forma": "F14"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "impilamento π–π fra i chinoloni delle coppie di CIP; le coppie sono circondate da ioni DKT, evitando colonne impilate (Figure 8b); C-H···O(carbonile) CIP–CIP e DKT–DKT contribuiscono alla coesione",
+   "citazione": "π–π stacking interactions connected the quinolone moieties of the CIP pairs. These pairs were then further surrounded by DKT ions, avoiding the formation of stacked columns (Figure 8b). This feature was in good agreement with the behavior reported for CIP salts with more than one independent molecule in the asymmetric unit [26]. In the crystal structure, additional C-H⋯O(carbonyl) interactions between CIP–CIP and DKT–DKT pairs contributed to the cohesion of the supramolecular structure.",
+   "note": "Comportamento in accordo con quello riportato (rif. 26) per sali di CIP con piu' di una molecola indipendente nell'unita' asimmetrica."
+  },
+  {
+   "id": "X54",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "CIP–SLD piu' esposto a nastro; CIP–MEF idrato vicino all'anidro (conclusioni)",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "CIP–SLD ha una struttura a nastro piu' esposta; la struttura del sale idrato CIP–MEF e' estremamente vicina al sale anidro (spiegazione della conversione in acqua)",
+   "citazione": "The weaknesses of these solids were rationalized according to their intimate crystal structure; for instance, CIP–SLD presented a more exposed ribbon-like structure, while the CIP–MEF salt hydrate structure was extremely close to the anhydrous molecular salt."
+  },
+  {
+   "id": "X55",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "eterosintoni assistiti dalla carica che adattano l'energia reticolare",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "i legami H assistiti dalla carica promuovono nuovi eterosintoni che modulano l'energia reticolare",
+   "citazione": "The charge-assisted H-bonds within the supramolecular arrangement effectively promoted the formation of new heterosynthons that tailored the crystal lattice energy."
+  },
+  {
+   "id": "X56",
+   "categoria": "termica",
+   "proprieta": "ordine dei punti di fusione dei sali uguale a quello dei componenti",
+   "tecnica": "DSC",
+   "valori": [],
+   "qualitativo": "i sali seguono lo stesso ordine di punto di fusione dei componenti: CIP–MEF, CIP–TLF, CIP–SLD, CIP–DIC, CIP–KET, CIP–DKT (valori nelle fusioni dell'estrazione principale)",
+   "citazione": "The corresponding phases followed the same order"
+  },
+  {
+   "id": "X57",
+   "categoria": "termica",
+   "proprieta": "correlazione positiva fra punto di fusione dell'NSAID e della fase corrispondente",
+   "tecnica": "DSC",
+   "valori": [],
+   "qualitativo": "correlazione positiva fra il punto di fusione dell'NSAID e quello della fase corrispondente",
+   "citazione": "Interestingly, a positive correlation between the melting point of the NSAID molecule and the corresponding phase was observed."
+  },
+  {
+   "id": "X58",
+   "categoria": "termica",
+   "proprieta": "i sali fondono fra i punti di fusione dei due API; KET e DKT aumentano molto",
+   "valori": [],
+   "qualitativo": "in tutti i casi la fase nuova fonde fra i due API di partenza; per KET e DKT il punto di fusione sale da 94 e 75 °C a 191 e 184 °C nei sali (valori nelle fusioni E40, E41, E33, E34)",
+   "citazione": "In all cases, the new solid phases had melting points between those of the two parent APIs. This was particularly noticeable for KET and DKT, for which the melting points increased from 94 and 75 °C to 191 and 184 °C in the combined salts."
+  },
+  {
+   "id": "X59",
+   "categoria": "termica",
+   "proprieta": "tracce DSC dei sali: un solo evento endotermico",
+   "tecnica": "DSC",
+   "valori": [],
+   "qualitativo": "una sola endoterma per traccia, attribuita alla fusione, coerente con la purezza di fase suggerita dal PXRD",
+   "citazione": "Each DSC trace shows one single endothermic event ascribable to the melting point of the sample, consistent with the phase purity of the powders suggested by the PXRD."
+  },
+  {
+   "id": "X60",
+   "categoria": "metodo",
+   "proprieta": "DSC e TGA: crogiolo e flusso di azoto",
+   "tecnica": "DSC/TGA",
+   "valori": [
+    {
+     "etichetta": "aluminum crucible volume",
+     "valore": 40,
+     "unita": "µL"
+    },
+    {
+     "etichetta": "dry nitrogen flow rate",
+     "valore": 50,
+     "unita": "mL/min"
+    }
+   ],
+   "citazione": "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min.",
+   "note": "Velocita' di riscaldamento (10 °C/min) nelle condizioni degli eventi."
+  },
+  {
+   "id": "X61",
+   "categoria": "metodo",
+   "proprieta": "calibrazione del calorimetro con indio",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "indium purity",
+     "valore": 99.99,
+     "unita": "%"
+    },
+    {
+     "etichetta": "indium melting point",
+     "valore": 156.4,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "indium DH",
+     "valore": 28.14,
+     "unita": "J/g"
+    }
+   ],
+   "citazione": "The calorimeter was calibrated with 99.99% purity indium (m.p.: 156.4 °C; DH: 28.14 J/g).",
+   "note": "«DH» come scritto (entalpia di fusione dell'indio)."
+  },
+  {
+   "id": "X62",
+   "categoria": "termica",
+   "proprieta": "TGA di CIP–MEF·H2O: molecole d'acqua rilasciate",
+   "oggetto": {
+    "forma": "F9"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "water released",
+     "valore": 0.43,
+     "unita": "H2O molecules"
+    }
+   ],
+   "citazione": "which revealed an initial mass loss below 100 °C (1.3272%) corresponding to the dehydration process, implying the release of 0.43 H2O molecules (Figure S10).",
+   "note": "La perdita di massa (1.3272%) e la T sono nell'evento E9. La struttura ha una molecola d'acqua per unita' formula (F9)."
+  },
+  {
+   "id": "X63",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "aumento di solubilita' di CIP–DKT a pH 6.8 rispetto a CIP / all'NSAID (Table 3)",
+   "oggetto": {
+    "forma": "F14"
+   },
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "CIP solubility, salt compared to CIP (pH 6.8)",
+     "forma": "F14",
+     "valore": 5.5,
+     "unita": "x"
+    }
+   ],
+   "citazione": "CIP–DKT | 0.465 | 9.980 | 5.5x/- | Not reported | ",
+   "note": "Colonna «Solubility Enhancement Compared to CIP/NSAIDs (pH 6.8)», formato «CIP/NSAID»; l'unita' «x» e' scritta nella cella. Per l'NSAID di CIP–DKT la cella e' «-» (solubilita' dell'NSAID «Not reported»). Le solubilita' in mg/mL sono nelle molecole dell'estrazione principale."
+  },
+  {
+   "id": "X64",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "aumento di solubilita' di CIP–KET a pH 6.8 rispetto a CIP / all'NSAID (Table 3)",
+   "oggetto": {
+    "forma": "F13"
+   },
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "CIP solubility, salt compared to CIP (pH 6.8)",
+     "forma": "F13",
+     "valore": 2.4,
+     "unita": "x"
+    },
+    {
+     "etichetta": "KET solubility, salt compared to the NSAID (pH 6.8)",
+     "forma": "F13",
+     "valore": 0.8,
+     "unita": "x"
+    }
+   ],
+   "citazione": "CIP–KET | 0.207 | 9.533 | 2.4x/0.8x | <0.2 | [58,59,60,61,62]",
+   "note": "Colonna «Solubility Enhancement Compared to CIP/NSAIDs (pH 6.8)», formato «CIP/NSAID»; l'unita' «x» e' scritta nella cella. Le solubilita' in mg/mL sono nelle molecole dell'estrazione principale."
+  },
+  {
+   "id": "X65",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "aumento di solubilita' di CIP–MEF a pH 6.8 rispetto a CIP / all'NSAID (Table 3)",
+   "oggetto": {
+    "forma": "F8"
+   },
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "CIP solubility, salt compared to CIP (pH 6.8)",
+     "forma": "F8",
+     "valore": 1.7,
+     "unita": "x"
+    },
+    {
+     "etichetta": "MEF solubility, salt compared to the NSAID (pH 6.8)",
+     "forma": "F8",
+     "valore": 2,
+     "unita": "x"
+    }
+   ],
+   "citazione": "CIP–MEF | 0.140 | 1.182 | 1.7x/2x | <0.05 | [63,64]",
+   "note": "Colonna «Solubility Enhancement Compared to CIP/NSAIDs (pH 6.8)», formato «CIP/NSAID»; l'unita' «x» e' scritta nella cella. Le solubilita' in mg/mL sono nelle molecole dell'estrazione principale."
+  },
+  {
+   "id": "X66",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "aumento di solubilita' di CIP–TLF a pH 6.8 rispetto a CIP / all'NSAID (Table 3)",
+   "oggetto": {
+    "forma": "F10"
+   },
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "CIP solubility, salt compared to CIP (pH 6.8)",
+     "forma": "F10",
+     "valore": 0.6,
+     "unita": "x"
+    },
+    {
+     "etichetta": "TLF solubility, salt compared to the NSAID (pH 6.8)",
+     "forma": "F10",
+     "valore": 0.74,
+     "unita": "x"
+    }
+   ],
+   "citazione": "CIP–TLF | 0.047 | 6.567 | 0.6x/0.74x | <0.05 | [63]",
+   "note": "Colonna «Solubility Enhancement Compared to CIP/NSAIDs (pH 6.8)», formato «CIP/NSAID»; l'unita' «x» e' scritta nella cella. Le solubilita' in mg/mL sono nelle molecole dell'estrazione principale."
+  },
+  {
+   "id": "X67",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "aumento di solubilita' di CIP–DIC a pH 6.8 rispetto a CIP / all'NSAID (Table 3)",
+   "oggetto": {
+    "forma": "F12"
+   },
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "CIP solubility, salt compared to CIP (pH 6.8)",
+     "forma": "F12",
+     "valore": 0.4,
+     "unita": "x"
+    },
+    {
+     "etichetta": "DIC solubility, salt compared to the NSAID (pH 6.8)",
+     "forma": "F12",
+     "valore": 20.8,
+     "unita": "x"
+    }
+   ],
+   "citazione": "CIP–DIC | 0.035 | 5.946 | 0.4x/20.8x | <0.003 | [60,61,65,66]",
+   "note": "Colonna «Solubility Enhancement Compared to CIP/NSAIDs (pH 6.8)», formato «CIP/NSAID»; l'unita' «x» e' scritta nella cella. Le solubilita' in mg/mL sono nelle molecole dell'estrazione principale."
+  },
+  {
+   "id": "X68",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "CIP–DKT: solubilita' di CIP fino a 5.5 volte maggiore a pH 6.8; CIP–DIC: NSAID fino a 20.8 volte",
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "CIP solubility in CIP–DKT vs CIP, pH 6.8",
+     "forma": "F14",
+     "valore": 5.5,
+     "unita": "times",
+     "limite": "sotto"
+    },
+    {
+     "etichetta": "DIC solubility in CIP–DIC vs reference API, pH 6.8",
+     "forma": "F12",
+     "valore": 20.8,
+     "unita": "times",
+     "limite": "sotto"
+    }
+   ],
+   "qualitativo": "CIP–TLF e CIP–DIC non mostrano aumento di solubilita' per CIP; nessuna relazione apparente fra le serie di solubilita' e le strutture degli NSAID",
+   "citazione": "The results for the CIP–DKT salt at pH 6.8 should be noted, as the CIP was up to 5.5 times more soluble. In contrast, the CIP–TLF and CIP–DIC salts did not show solubility enhancements for CIP, and there was no apparent relationship between the solubility sets and the corresponding NSAID structures. On the other hand, solubility enhancement was evident when looking at the solubility of the NSAIDs, with the CIP–DIC salt being up to 20.8 times more soluble than the reference API at pH 6.8.",
+   "note": "«up to» (fino a): il valore e' il massimo dichiarato, reso con limite «sotto» (massimo)."
+  },
+  {
+   "id": "X69",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' di CIP a pH 6.8 coerente con la letteratura",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "HPLC",
+   "valori": [],
+   "qualitativo": "solubilita' di CIP a pH 6.8 coerente con altri valori riportati nelle stesse condizioni (rif. 19)",
+   "citazione": "The solubility obtained for CIP at pH 6.8 was consistent with other values reported under the same conditions, thus confirming the validity of the method"
+  },
+  {
+   "id": "X70",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' degli NSAID isolati a pH 1.2 non ottenibile",
+   "tecnica": "HPLC",
+   "valori": [],
+   "qualitativo": "valori di solubilita' degli NSAID isolati a pH 1.2 non ottenibili per estrema insolubilita'",
+   "citazione": "Unfortunately, solubility values for the isolated NSAIDs could not be obtained at pH 1.2 due to extreme insolubility."
+  },
+  {
+   "id": "X71",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "pH finale delle soluzioni dopo gli esperimenti di solubilita'",
+   "valori": [],
+   "qualitativo": "nessun cambiamento significativo del pH finale delle soluzioni",
+   "citazione": "The final pH levels of the solutions after the solubility experiments were measured and revealed no significant changes (Table S6)."
+  },
+  {
+   "id": "X72",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' dei sali correlata a quella degli NSAID e inversa al punto di fusione",
+   "valori": [],
+   "qualitativo": "correlazione fra la solubilita' dei sali e quella degli NSAID; la solubilita' dei sali e' inversamente correlata al punto di fusione (cresce al diminuire del punto di fusione)",
+   "citazione": "There is a correlation between the solubility of the molecular salts and that of the corresponding NSAIDs. Moreover, the solubility of the salts was inversely related to their melting points; i.e., the solubility increased as the melting point decreased."
+  },
+  {
+   "id": "X73",
+   "categoria": "metodo",
+   "proprieta": "HPLC: filtrazione e fase mobile",
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "syringe filter pore size",
+     "valore": 0.45,
+     "unita": "µm"
+    }
+   ],
+   "citazione": "After that, the solution was filtered through 0.45 μm syringe filters and directly used for the chromatographic analysis to determine the CIP concentration under equilibrium conditions."
+  },
+  {
+   "id": "X74",
+   "categoria": "metodo",
+   "proprieta": "HPLC: fase mobile",
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "formic acid in phase A",
+     "valore": 0.1,
+     "unita": "%"
+    },
+    {
+     "etichetta": "phase A : phase B ratio",
+     "valore": null,
+     "testo": "80:20"
+    }
+   ],
+   "citazione": "The mobile phase consisted of phase A (MilliQ water with 0.1% formic acid) and phase B (acetonitrile) and was used in an isocratic mode with an 80:20 ratio."
+  },
+  {
+   "id": "X75",
+   "categoria": "altro",
+   "proprieta": "ceppi batterici usati e confronto di attivita' di CIP",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Kirby–Bauer",
+   "valori": [],
+   "qualitativo": "Staphylococcus aureus (ATCC 9144) ed Escherichia coli (CECT 101)",
+   "citazione": "The antimicrobial activity of the molecular salts reported in this work was evaluated and compared to that of CIP using microorganisms with medical relevance: Staphylococcus aureus (ATCC 9144) and Escherichia coli (CECT 101)."
+  },
+  {
+   "id": "X76",
+   "categoria": "altro",
+   "proprieta": "attivita' antimicrobica di CIP: Gram-negativi contro Gram-positivi",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Kirby–Bauer",
+   "valori": [],
+   "qualitativo": "CIP piu' attiva contro E. coli che contro S. aureus, ma efficace contro entrambi",
+   "citazione": "Figure 10 summarizes the results of this experiment, in which CIP, as expected, demonstrated noticeably higher antimicrobial activity against Gram-negative bacteria (E. coli) than against Gram-positive bacteria (S. aureus)."
+  },
+  {
+   "id": "X77",
+   "categoria": "altro",
+   "proprieta": "CIP da solo e CIP–DKT: quantita' di CIP per lo stesso effetto inibitorio",
+   "tecnica": "Kirby–Bauer",
+   "valori": [
+    {
+     "etichetta": "CIP alone required for the inhibition",
+     "valore": 2.5,
+     "unita": "µg"
+    },
+    {
+     "etichetta": "CIP in the CIP–DKT salt for the same inhibitory effect",
+     "forma": "F14",
+     "valore": 1.41,
+     "unita": "µg"
+    }
+   ],
+   "qualitativo": "i sali mostrano attivita' antibatterica simile a CIP da solo, con una quantita' di CIP proporzionalmente ridotta",
+   "citazione": "However, while CIP alone required 2.5 µg to exert such antimicrobial inhibition, the CIP concentration in the CIP–NSAIDs molecular salts was proportionally reduced. For instance, the CIP–DKT salt was capable of exhibiting the same inhibitory effect as CIP alone but using only 1.41 µg of CIP (Table S5)."
+  },
+  {
+   "id": "X78",
+   "categoria": "altro",
+   "proprieta": "CIP–DIC: contributo di CIP ridotto per la stechiometria 1:2",
+   "tecnica": "Kirby–Bauer",
+   "valori": [
+    {
+     "etichetta": "CIP contribution in CIP–DIC",
+     "forma": "F12",
+     "valore": 0.9,
+     "unita": "µg"
+    },
+    {
+     "etichetta": "times less CIP than the control",
+     "forma": "F12",
+     "valore": 3,
+     "circa": true
+    }
+   ],
+   "citazione": "In this context, the case of CIP–DIC should be noted: the CIP contribution was reduced to 0.90 µg due to the 1:2 stoichiometry of this phase, which contained approximately three times less CIP than the control."
+  },
+  {
+   "id": "X79",
+   "categoria": "altro",
+   "proprieta": "i sali di NSAID mantengono l'attivita' di CIP con meno CIP",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Kirby–Bauer",
+   "valori": [],
+   "qualitativo": "la formazione di sali con NSAID mantiene intatta l'attivita' antibatterica di CIP e riduce la quantita' di CIP necessaria per lo stesso effetto inibitorio grazie alla maggiore solubilita', che migliora anche la diffusione nella coltura",
+   "citazione": "These results confirmed that salt formation with NSAIDs not only keeps the antibacterial activity of CIP intact"
+  },
+  {
+   "id": "X80",
+   "categoria": "metodo",
+   "proprieta": "saggio antimicrobico: sospensione batterica e standard di torbidita'",
+   "tecnica": "Kirby–Bauer",
+   "valori": [
+    {
+     "etichetta": "colonies suspended, da",
+     "valore": 2,
+     "unita": "colonies"
+    },
+    {
+     "etichetta": "colonies suspended, a",
+     "valore": 3,
+     "unita": "colonies"
+    },
+    {
+     "etichetta": "NaCl solution",
+     "valore": 0.9,
+     "unita": "%"
+    },
+    {
+     "etichetta": "McFarland standard",
+     "valore": 0.5
+    },
+    {
+     "etichetta": "McFarland 0.5 density",
+     "valore": null,
+     "unita": "bacteria/mL",
+     "testo": "1.5 × 108",
+     "lettura_probabile": 150000000
+    }
+   ],
+   "citazione": "The strains were cultured in TSA agar and two to three colonies of each were suspended in NaCl 0.9% solution, which was adjusted by comparing it with a 0.5 McFarland standard (1.5 × 108 bacteria/mL), and then plated on Mueller–Hinton agar plates.",
+   "note": "«1.5 × 108» come nel testo letto: l'esponente e' rovinato dal PDF (verosimilmente 10 alla 8)."
+  },
+  {
+   "id": "X81",
+   "categoria": "metodo",
+   "proprieta": "saggio antimicrobico: dischi di carta, quantita' di sale e controllo",
+   "tecnica": "Kirby–Bauer",
+   "valori": [
+    {
+     "etichetta": "filter paper diameter",
+     "valore": 5,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "DMSO solution volume",
+     "valore": 2.5,
+     "unita": "µL"
+    },
+    {
+     "etichetta": "salt concentration",
+     "valore": 1,
+     "unita": "mg/mL"
+    },
+    {
+     "etichetta": "final solid amount",
+     "valore": 2.5,
+     "unita": "µg"
+    }
+   ],
+   "citazione": "Sterile filter papers with a diameter of 5 mm were respectively impregnated with 2.5 µL of a DMSO solution of each salt with a final concentration of 1 mg/mL, resulting in a final solid amount of 2.5 µg for each solid."
+  },
+  {
+   "id": "X82",
+   "categoria": "metodo",
+   "proprieta": "saggio antimicrobico: controllo con DMSO e incubazione",
+   "tecnica": "Kirby–Bauer",
+   "valori": [
+    {
+     "etichetta": "DMSO control volume",
+     "valore": 2.5,
+     "unita": "µL"
+    },
+    {
+     "etichetta": "incubation temperature",
+     "valore": 37,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "A sterile filter paper was impregnated with 2.5 µL of DMSO as a control. The plates were incubated overnight at 37 °C"
+  },
+  {
+   "id": "X83",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD: radiazione",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "Cu-Kα1 wavelength",
+     "valore": 1.5406,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "Bruker D8 Advance Vαrio con rivelatore LYNXEYE",
+   "citazione": "PXRD experiments were performed for the samples with a Bruker D8 Advance Vαrio diffractometer (Bruker-AXS, Karlsruhe, Germany) equipped with a LYNXEYE detector and Cu-Kα1 radiation (1.5406 Å)."
+  },
+  {
+   "id": "X84",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD: intervallo di scansione, passo e tempo di acquisizione",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ range, da",
+     "valore": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ range, a",
+     "valore": 40,
+     "unita": "°"
+    },
+    {
+     "etichetta": "step size",
+     "valore": 0.02,
+     "unita": "°"
+    },
+    {
+     "etichetta": "total acquisition time",
+     "valore": 30,
+     "unita": "min"
+    }
+   ],
+   "citazione": "Diffraction patterns were collected over a 2θ range of 5–40° using a continuous step size of 0.02° and a total acquisition time of 30 min."
+  },
+  {
+   "id": "X85",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: fattori dei parametri di spostamento isotropo degli idrogeni",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Uiso factor of H atoms, first value",
+     "valore": 1.2
+    },
+    {
+     "etichetta": "Uiso factor of H atoms, second value",
+     "valore": 1.5
+    }
+   ],
+   "citazione": "All hydrogen atoms were located in difference Fourier maps and included as fixed contributions riding on attached atoms with isotropic thermal displacement parameters 1.2 or 1.5 times those of the respective atom.",
+   "note": "Nel testo i due fattori sono alternativi («1.2 or 1.5 times»)."
+  },
+  {
+   "id": "X86",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: strategia di soluzione e raffinamento",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "strutture risolte per intrinsic phasing, che ha rivelato tutti gli atomi non idrogeno; raffinamento su F2 a matrici complete con parametri di spostamento anisotropi",
+   "citazione": "The structures were solved using intrinsic phasing [71], which revealed the position of all non-hydrogen atoms. These atoms were refined on F2 with a full-matrix least-squares procedure using anisotropic displacement parameters [72]."
+  },
+  {
+   "id": "X87",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: preparazione del cristallo e condizioni di raccolta",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "cristalli preparati in condizioni inerti e immersi in perfluoropolietere come olio protettivo",
+   "citazione": "Measured crystals were prepared under inert conditions and immersed in perfluoropolyether as the protecting oil for manipulation."
+  },
+  {
+   "id": "X88",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "sali di CIP nel CSD: carbossile di CIP protonato con legame H intramolecolare",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "nei sali di CIP del CSD il carbossile di CIP resta protonato e forma un legame H intramolecolare, e il protone passa all'azoto piperazinico",
+   "citazione": "In this dataset, the pKa of the CIP carboxylic group is less acidic than the H-donor group of the coformers/counterions (mainly carboxylic groups), thus allowing it to remain protonated and form an intramolecular H-bond, promoting proton transfer to the piperazinyl nitrogen and forming a molecular salt.",
+   "note": "Riferito al dataset CSD dei sali di CIP, non alle strutture di questo lavoro."
+  },
+  {
+   "id": "X89",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD dei prodotti di LAG: picchi diversi da quelli dei due API di partenza",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "picchi caratteristici diversi da quelli dei due API di partenza: formazione di nuove fasi",
+   "citazione": "The comparison showed characteristic peaks that differed from those of the two parent APIs (Figure S1), therefore indicating the formation of new phases."
+  },
+  {
+   "id": "X90",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD sperimentale contro simulato dalle strutture cristalline",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "buon accordo fra i diffrattogrammi sperimentali e quelli simulati dalle strutture, che conferma la purezza di fase dei prodotti di LAG",
+   "citazione": "Good agreement between the experimental and the simulated powder patterns was observed, as shown in Figure S1"
+  },
+  {
+   "id": "X91",
+   "categoria": "morfologia",
+   "proprieta": "CIP–SLD: cristalli di buone dimensioni e qualita' dal reattore idrotermale",
+   "oggetto": {
+    "forma": "F11"
+   },
+   "valori": [],
+   "qualitativo": "cristalli di buone dimensioni e qualita' trovati nella matrice della soluzione acquosa",
+   "citazione": "As a result, CIP–SLD crystals of good size and quality were found in the matrix of the aqueous solution and used for SCXRD experiments."
+  },
+  {
+   "id": "X92",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "sali di NSAID: maggiore stabilita' termodinamica di CIP in soluzione acquosa",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "la formazione di sali con gli NSAID scelti aumenta la stabilita' termodinamica di CIP in soluzione acquosa",
+   "citazione": "These observations suggest that salt formation with the selected NSAIDs increased the thermodynamic stability of CIP in aqueous solution."
+  },
+  {
+   "id": "X93",
+   "categoria": "metodo",
+   "proprieta": "invecchiamento accelerato: CIP incluso per verificare la formazione di idrati",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "CIP incluso nell'invecchiamento (40 °C, 75% RH) per valutare la formazione di forme idrate; il risultato per il solo CIP non e' dato separatamente",
+   "citazione": "CIP was also included in the experiments to assess the formation of hydrated forms."
+  },
+  {
+   "id": "X94",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "CIP: solubilita' aumentata nei sali a pH 6.8",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "HPLC",
+   "valori": [],
+   "qualitativo": "quasi tutte le fasi studiate mostrano aumento della solubilita' di CIP a pH 6.8",
+   "citazione": "At pH 6.8, almost all the studied crystal phases exhibited enhanced CIP solubility."
+  },
+  {
+   "id": "X95",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "CIP: solubilita' aumentata nei sali a pH 1.2",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "HPLC",
+   "valori": [],
+   "qualitativo": "aumento della solubilita' di CIP in tutti i sali molecolari nelle condizioni studiate (il testo non dice rispetto a quale valore di CIP a pH 1.2)",
+   "citazione": "Likewise, enhanced solubility was observed for CIP in all the molecular salts under the studied conditions."
+  },
+  {
+   "id": "X96",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "confronto qualitativo degli aumenti di solubilita' degli NSAID a pH 1.2 non possibile",
+   "tecnica": "HPLC",
+   "valori": [],
+   "qualitativo": "confronto qualitativo non fattibile perche' le solubilita' degli NSAID isolati a pH 1.2 non sono ottenibili",
+   "citazione": "Therefore, a qualitative comparison of the solubility enhancements of the NSAIDs at pH 1.2, as presented in Table 3 for pH 6.8, could not be undertaken."
+  },
+  {
+   "id": "X97",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "pH 6.8 piu' rilevante a fini farmaceutici (assorbimento nell'intestino tenue)",
+   "valori": [],
+   "qualitativo": "l'assorbimento degli NSAID avviene soprattutto nell'intestino tenue, quindi i risultati a pH 6.8 sono piu' rilevanti",
+   "citazione": "However, absorption of NSAIDs mainly takes place in the small intestine [6]; hence, the results at pH 6.8 are more relevant for pharmaceutical purposes.",
+   "note": "citato dal rif. 6"
+  },
+  {
+   "id": "X98",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' piu' alta per effetto della salificazione; energia reticolare",
+   "valori": [],
+   "qualitativo": "l'aumento di solubilita' potrebbe essere attribuibile all'energia reticolare dei sali",
+   "citazione": "This latter finding highlights that solubility enhancement might be ascribable to the crystal lattice energy of the reported salts."
+  },
+  {
+   "id": "X99",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "sintoni omomerici degli API ostacolati dai legami H assistiti dalla carica",
+   "valori": [],
+   "qualitativo": "l'alta solubilita' dei sali e' attribuita alla salificazione; i legami H assistiti dalla carica e l'assetto supramolecolare interrompono i forti omosintoni degli API, responsabili della bassa solubilita' acquosa dei farmaci di partenza",
+   "citazione": "The high solubility of the studied salts can be attributed to the salification effect. The presence of charge-assisted hydrogen bonds and the supramolecular arrangement in the crystal structure effectively disrupted the formation of strong API homosynthons, which was responsible for the low aqueous solubility observed in the model parent drugs."
+  },
+  {
+   "id": "X100",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "CIP–DKT e CIP–DIC: alta solubilita' e buona stabilita' (conclusioni)",
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "CIP–DKT solubility vs CIP",
+     "forma": "F14",
+     "valore": 5.5,
+     "unita": "times"
+    },
+    {
+     "etichetta": "CIP–DIC solubility vs DIC",
+     "forma": "F12",
+     "valore": 20.8,
+     "unita": "times"
+    }
+   ],
+   "qualitativo": "solubilita' particolarmente alta con buona stabilita' termodinamica in soluzione e in condizioni di invecchiamento",
+   "citazione": "However, the results for the CIP–DKT and CIP–DIC molecular salts were quite remarkable, showing particularly high solubility (5.5 times higher than CIP for CIP–DKT and 20.8 times higher than DIC for CIP–DIC) along with good thermodynamic stability in solution and under ageing conditions."
+  },
+  {
+   "id": "X101",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "CIP–SLD e CIP–MEF: poco promettenti per la conversione in acqua (conclusioni)",
+   "valori": [],
+   "qualitativo": "CIP–SLD e CIP–MEF (qui CIP–MEF·H2O, che si converte nell'anidro) risultano meno promettenti per la conversione in altri prodotti in soluzione acquosa",
+   "citazione": "When comparing all the novel NSAID–CIP solids, CIP–SLD and CIP–MEF turned out to be the less promising materials due their conversion into other products in aqueous solution.",
+   "note": "Il testo scrive «CIP–MEF» ma la conversione in acqua e' quella dell'idrato CIP–MEF·H2O (vedi il paragrafo sulla stabilita' termodinamica)."
+  },
+  {
+   "id": "X102",
+   "categoria": "termica",
+   "proprieta": "stabilita' termica dei sali migliorata rispetto agli API (conclusioni)",
+   "valori": [],
+   "qualitativo": "solubilita' e stabilita' termica migliorate rispetto agli API di partenza",
+   "citazione": "The novel NSAID–CIP solids showed not only improved solubility and thermal stability compared to the parent APIs"
+  },
+  {
+   "id": "X103",
+   "categoria": "metodo",
+   "proprieta": "saggio antimicrobico: metodo di Kirby–Bauer e ceppi",
+   "tecnica": "Kirby–Bauer",
+   "valori": [],
+   "qualitativo": "saggio di diffusione su agar di Kirby–Bauer con S. aureus (ATCC 9144) ed E. coli (CECT 101)",
+   "citazione": "The antimicrobial susceptibility of the different salts was assayed against Staphylococcus aureus (ATCC 9144) and Escherichia coli (CECT 101) using the Kirby–Bauer diffusion agar method [74]."
+  },
+  {
+   "id": "X104",
+   "categoria": "metodo",
+   "proprieta": "Table 3: colonne e pH delle solubilita' di CIP",
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "pH of the first solubility column",
+     "valore": 6.8
+    },
+    {
+     "etichetta": "pH of the second solubility column",
+     "valore": 1.2
+    }
+   ],
+   "citazione": "Compound | Experimental (HPLC) CIP SolubilitypH 6.8 (mg/mL) | Experimental (HPLC) CIP Solubility pH 1.2 (mg/mL) | Solubility Enhancement Compared to CIP/NSAIDs (pH 6.8) | Reported NSAID Solubility (mg/mL) | Ref.",
+   "note": "Intestazioni della Tabella 3: solubilita' sperimentale (HPLC) di CIP a pH 6.8 e a pH 1.2 in mg/mL; aumento di solubilita' rispetto a CIP e NSAID a pH 6.8; solubilita' riportata degli NSAID in mg/mL."
+  }
+ ]
+}

@@ -1,0 +1,3247 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1021/acs.cgd.3c01313",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "formula del moiety (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "(C9H12NO)(C14H13O3)"
+    },
+    {
+     "forma": "F2",
+     "testo": "(C9H12NO)(C14H13O3)"
+    },
+    {
+     "forma": "F3",
+     "testo": "(C9H12NO)(C14H13O3)"
+    },
+    {
+     "forma": "F4",
+     "testo": "(C9H12NO)(C14H13O3)(H2O)"
+    }
+   ],
+   "citazione": "Moiety formula (C9H12NO)(C14H13O3) (C9H12NO)(C14H13O3) (C9H12NO)(C14H13O3) (C9H12NO)(C14H13O3)(H2O)"
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "peso formula (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 379.44
+    },
+    {
+     "forma": "F2",
+     "valore": 379.44
+    },
+    {
+     "forma": "F3",
+     "valore": 379.44
+    },
+    {
+     "forma": "F4",
+     "valore": 397.45
+    }
+   ],
+   "citazione": "Formula weight 379.44 379.44 379.44 397.45"
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "parametri di cella a, b, β con incertezza (colonne SR-AI_S-Nap_A e RS-AI_S-Nap_A1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "a",
+     "forma": "F1",
+     "valore": 11.0775,
+     "incertezza": 9,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a",
+     "forma": "F2",
+     "valore": 11.0114,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b",
+     "forma": "F1",
+     "valore": 6.3903,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "β",
+     "forma": "F1",
+     "valore": 94.704,
+     "incertezza": 6,
+     "unita": "°"
+    },
+    {
+     "etichetta": "b",
+     "forma": "F2",
+     "valore": 6.4629,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "β",
+     "forma": "F2",
+     "valore": 100.809,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "condizioni": "100 K",
+   "citazione": "a = 11.0775(9) a = 11.0114(6) b = 6.3903(5), β = 94.704(6) b = 6.4629(3), β = 100.809(2)",
+   "note": "Valori di cella gia' nelle forme (cella): qui ripetuti con l'incertezza (ultima cifra) per il solo scopo di riportarla. Il PDF ha scomposto la Tabella 1: l'attribuzione alle colonne e' ricostruita con l'aritmetica dei volumi (cella_dedotta nella forma)."
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "parametri di cella a, b, β con incertezza (colonne RS-AI_S-Nap_A2 e RS-AI_S-Nap_W)",
+   "tecnica": "SCXRD (F4) / PXRD (F3)",
+   "valori": [
+    {
+     "etichetta": "a",
+     "forma": "F3",
+     "valore": 37.152,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a",
+     "forma": "F4",
+     "valore": 16.6585,
+     "incertezza": 12,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b",
+     "forma": "F3",
+     "valore": 5.9829,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b",
+     "forma": "F4",
+     "valore": 6.2504,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "β",
+     "forma": "F4",
+     "valore": 109.374,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "a = 37.152(1) a = 16.6585(12) b = 5.9829(1) b = 6.2504(4), β = 109.374(4)",
+   "note": "Valori di cella gia' nelle forme (cella): qui ripetuti con l'incertezza (ultima cifra) per il solo scopo di riportarla. Il PDF ha scomposto la Tabella 1: l'attribuzione alle colonne e' ricostruita con l'aritmetica dei volumi (cella_dedotta nella forma). A2 e' ortorombica (nessun beta); la cella di A2 viene da dati PXRD a 300 K, quella di W da SCXRD a 100 K."
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella c con incertezza (quattro colonne)",
+   "valori": [
+    {
+     "etichetta": "c",
+     "forma": "F1",
+     "valore": 13.761,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c",
+     "forma": "F2",
+     "valore": 14.0469,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c",
+     "forma": "F3",
+     "valore": 9.1733,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c",
+     "forma": "F4",
+     "valore": 21.1989,
+     "incertezza": 14,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "c = 13.761(1) c = 14.0469(7) c = 9.1733(2) c = 21.1989(14)",
+   "note": "Valori di cella gia' nelle forme (cella): qui ripetuti con l'incertezza (ultima cifra) per il solo scopo di riportarla. Il PDF ha scomposto la Tabella 1: l'attribuzione alle colonne e' ricostruita con l'aritmetica dei volumi (cella_dedotta nella forma)."
+  },
+  {
+   "id": "X6",
+   "categoria": "cristallografia",
+   "proprieta": "volume di cella V con incertezza (Tabella 1)",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 970.9,
+     "incertezza": 1,
+     "unita": "Å3"
+    },
+    {
+     "forma": "F2",
+     "valore": 981.92,
+     "incertezza": 9,
+     "unita": "Å3"
+    },
+    {
+     "forma": "F3",
+     "valore": 2039.01,
+     "incertezza": 1,
+     "unita": "Å3"
+    },
+    {
+     "forma": "F4",
+     "valore": 2082.3,
+     "incertezza": 2,
+     "unita": "Å3"
+    }
+   ],
+   "citazione": "V (Å3) 970.9(1) 981.92(9) 2039.01(1) 2082.3(2)",
+   "note": "Volume gia' nelle forme (cella); qui con l'incertezza (ultima cifra)."
+  },
+  {
+   "id": "X7",
+   "categoria": "cristallografia",
+   "proprieta": "densita' calcolata dcalc (Tabella 1)",
+   "tecnica": "SCXRD (F1, F2, F4) / PXRD (F3)",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 1.298,
+     "unita": "g/cm3"
+    },
+    {
+     "forma": "F2",
+     "valore": 1.283,
+     "unita": "g/cm3"
+    },
+    {
+     "forma": "F3",
+     "valore": 1.236,
+     "unita": "g/cm3"
+    },
+    {
+     "forma": "F4",
+     "valore": 1.268,
+     "unita": "g/cm3"
+    }
+   ],
+   "citazione": "Z, dcalc(g/cm3) 2, 1.298 2, 1.283 4, 1.236 4, 1.268",
+   "note": "La riga contiene anche Z (2, 2, 4, 4: gia' nelle forme)."
+  },
+  {
+   "id": "X8",
+   "categoria": "cristallografia",
+   "proprieta": "coefficiente di assorbimento µ (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 0.715,
+     "unita": "mm-1"
+    },
+    {
+     "forma": "F2",
+     "valore": 0.707,
+     "unita": "mm-1"
+    },
+    {
+     "forma": "F4",
+     "valore": 0.726,
+     "unita": "mm-1"
+    }
+   ],
+   "citazione": "µ (mm-1) 0.715 0.707 --- 0.726",
+   "note": "Per RS-AI_S-Nap_A2 (struttura da PXRD) la tabella scrive «---»."
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "F(000) (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 404
+    },
+    {
+     "forma": "F2",
+     "valore": 404
+    },
+    {
+     "forma": "F4",
+     "valore": 848
+    }
+   ],
+   "citazione": "F(000) 404 404 --- 848",
+   "note": "Per RS-AI_S-Nap_A2 la tabella scrive «---»."
+  },
+  {
+   "id": "X10",
+   "categoria": "cristallografia",
+   "proprieta": "riflessioni raccolte / indipendenti / Rint (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "collected",
+     "forma": "F1",
+     "valore": 11704
+    },
+    {
+     "etichetta": "unique",
+     "forma": "F1",
+     "valore": 3722
+    },
+    {
+     "etichetta": "Rint",
+     "forma": "F1",
+     "valore": 0.0943
+    },
+    {
+     "etichetta": "collected",
+     "forma": "F2",
+     "valore": 20362
+    },
+    {
+     "etichetta": "unique",
+     "forma": "F2",
+     "valore": 3821
+    },
+    {
+     "etichetta": "Rint",
+     "forma": "F2",
+     "valore": 0.0858
+    },
+    {
+     "etichetta": "collected",
+     "forma": "F4",
+     "valore": 23165
+    },
+    {
+     "etichetta": "unique",
+     "forma": "F4",
+     "valore": 7487
+    },
+    {
+     "etichetta": "Rint",
+     "forma": "F4",
+     "valore": 0.1003
+    }
+   ],
+   "citazione": "Reflections collected/unique/Rint 11704 / 3722 / 0.0943 20362 / 3821 / 0.0858 --- 23165 / 7487 / 0.1003",
+   "note": "Ordine delle colonne: F1, F2, (F3 «---»), F4. Per RS-AI_S-Nap_A2 (da PXRD) la tabella scrive «---»."
+  },
+  {
+   "id": "X11",
+   "categoria": "cristallografia",
+   "proprieta": "dati / parametri raffinati (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "data",
+     "forma": "F1",
+     "valore": 3722
+    },
+    {
+     "etichetta": "parameters",
+     "forma": "F1",
+     "valore": 328
+    },
+    {
+     "etichetta": "data",
+     "forma": "F2",
+     "valore": 3821
+    },
+    {
+     "etichetta": "parameters",
+     "forma": "F2",
+     "valore": 328
+    },
+    {
+     "etichetta": "data",
+     "forma": "F4",
+     "valore": 7487
+    },
+    {
+     "etichetta": "parameters",
+     "forma": "F4",
+     "valore": 560
+    }
+   ],
+   "citazione": "Data/parameters 3722 / 328 3821 /328 --- 7487 /560",
+   "note": "Per RS-AI_S-Nap_A2 la tabella scrive «---»."
+  },
+  {
+   "id": "X12",
+   "categoria": "cristallografia",
+   "proprieta": "indici R finali R1, wR2 [I>2σ(I)] (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "R1",
+     "forma": "F1",
+     "valore": 0.0612
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F1",
+     "valore": 0.1584
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F2",
+     "valore": 0.0481
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F2",
+     "valore": 0.1274
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F4",
+     "valore": 0.0806
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F4",
+     "valore": 0.2056
+    }
+   ],
+   "citazione": "Final R indices [I>2σ(I)] R1 = 0.0612, wR2 = 0.1584 R1 = 0.0481, wR2 = 0.1274 --- R1 = 0.0806, wR2 = 0.2056",
+   "note": "Per RS-AI_S-Nap_A2 la tabella scrive «---»."
+  },
+  {
+   "id": "X13",
+   "categoria": "cristallografia",
+   "proprieta": "indici R su tutti i dati R1, wR2 (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "R1",
+     "forma": "F1",
+     "valore": 0.08
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F1",
+     "valore": 0.1799
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F2",
+     "valore": 0.0506
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F2",
+     "valore": 0.1297
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F4",
+     "valore": 0.1087
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F4",
+     "valore": 0.2436
+    }
+   ],
+   "citazione": "R indices all data R1 = 0.0800, wR2 = 0.1799 R1 = 0.0506, wR2 = 0.1297 --- R1 = 0.1087, wR2 = 0.2436",
+   "note": "Per RS-AI_S-Nap_A2 la tabella scrive «---»."
+  },
+  {
+   "id": "X14",
+   "categoria": "cristallografia",
+   "proprieta": "Rwp (raffinamento di Rietveld) (Tabella 1)",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "forma": "F3",
+     "valore": 0.0675,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Rwp (%) --- --- 0.0675 ---",
+   "note": "Valore e unita' come scritti nella tabella (riga «Rwp (%)»): 0.0675 con unita' % e' molto piccolo per un Rwp, ma non si corregge."
+  },
+  {
+   "id": "X15",
+   "categoria": "cristallografia",
+   "proprieta": "GOF (Tabella 1)",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 1.059
+    },
+    {
+     "forma": "F2",
+     "valore": 1.162
+    },
+    {
+     "forma": "F3",
+     "valore": 1.89
+    },
+    {
+     "forma": "F4",
+     "valore": 1.006
+    }
+   ],
+   "citazione": "GOOFs 1.059 1.162 1.89 1.006",
+   "note": "Per RS-AI_S-Nap_A2 (PXRD, Rietveld) il valore e' 1.89."
+  },
+  {
+   "id": "X16",
+   "categoria": "cristallografia",
+   "proprieta": "diffrattometro e lunghezza d'onda (SCXRD)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "λ Cu-Kα",
+     "valore": 1.54178,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "T = 100 K",
+   "qualitativo": "Bruker Apex-II con rivelatore CCD; vale per F1, F2 e F4",
+   "citazione": "SCXRD data of SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_W were collected on a Bruker Apex-II diffractometer equipped with a CCD detector (T = 100 K, Cu−Kα radiation (λ = 1.54178 Å).",
+   "note": "La T di 100 K e' gia' in strutture delle forme."
+  },
+  {
+   "id": "X17",
+   "categoria": "cristallografia",
+   "proprieta": "trattamento degli atomi non idrogeno (SCXRD)",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "atomi non idrogeno raffinati anisotropicamente nelle tre strutture da cristallo singolo",
+   "citazione": "All the non-hydrogen atoms of the three structures, were refined with anisotropic displacement parameters"
+  },
+  {
+   "id": "X18",
+   "categoria": "cristallografia",
+   "proprieta": "metodo di raffinamento (SCXRD)",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "matrice completa ai minimi quadrati su F2 con tutti i dati",
+   "citazione": "refined by full-matrix least squares against F2 using all data"
+  },
+  {
+   "id": "X19",
+   "categoria": "cristallografia",
+   "proprieta": "atomi di idrogeno nei composti anidri F1 e F2",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "idrogeni trovati nelle mappe di Fourier differenza, coordinate raffinate liberamente, parametri termici legati agli atomi di appartenenza",
+   "citazione": "anhydrous compounds (SR-AI_S-Nap_A and RS-AI_S-Nap_A1) were found in the Fourier difference maps and their coordinates were freely refined while their thermal parameters were set in accordance with that of the atoms to which they are bonded.",
+   "note": "La frase comincia nella riga precedente («concerning the hydrogen atoms, those of the»), interrotta dal pie' di pagina."
+  },
+  {
+   "id": "X20",
+   "categoria": "cristallografia",
+   "proprieta": "atomi di idrogeno nell'idrato F4",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "idrogeni su C in posizione calcolata, gli altri trovati nelle mappe di Fourier differenza con coordinate raffinate liberamente",
+   "citazione": "In the hydrated compound RS-AI_S-Nap_W, the hydrogen atoms bonded to carbon atoms were put in calculated position, while all the other ones were found in the Fourier difference maps, their coordinates were freely refined while their thermal parameter was set in accordance with that of the atoms to which they are bonded."
+  },
+  {
+   "id": "X21",
+   "categoria": "cristallografia",
+   "proprieta": "vincoli dfix e dang nel raffinamento di F1 e F4 (N–H dell'amminoindanolo, O–H dell'acqua)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "T del valore X–H usato per i vincoli",
+     "valore": 100,
+     "unita": "K"
+    }
+   ],
+   "qualitativo": "restraints dfix e dang su distanze e angoli N–H del 1-amino-2-indanolo in F1 e F4 e O–H dell'acqua in F4",
+   "citazione": "During the refinement of SR-AI_S-Nap_A and RS-AI_S-Nap_W, dfix and dang instructions (parameters set in accordance to the X-H value at 100K) were used for the 1-Amino-2-indanol N-H distances and angles, in both salts, and also for the water O-H distances and angles in RS-AI_S-Nap_W."
+  },
+  {
+   "id": "X22",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD per la determinazione della struttura di RS-AI_S-Nap_A2: capillare, intervallo, passo, tempo di conteggio",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "capillare di vetro (diametro)",
+     "valore": 0.3,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "2θ da",
+     "valore": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ a",
+     "valore": 70,
+     "unita": "°"
+    },
+    {
+     "etichetta": "passo in 2θ",
+     "valore": 0.01,
+     "unita": "°"
+    },
+    {
+     "etichetta": "tempo di conteggio totale per passo",
+     "valore": 1536,
+     "unita": "s"
+    }
+   ],
+   "condizioni": "temperatura ambiente, capillare di vetro",
+   "citazione": "The structure determination of RS-AI_S-Nap_A2 was performed by using high-quality PXRD data recorded in a 0.3 mm glass capillary at room temperature (scanning range 2θ = 3–70°, 0.01° increments of 2θ, and a counting time of 1536 s total time/step)."
+  },
+  {
+   "id": "X23",
+   "categoria": "cristallografia",
+   "proprieta": "determinazione del gruppo spaziale e soluzione della struttura di RS-AI_S-Nap_A2",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "gruppo P212121 con Z = 4, struttura risolta con annealing simulato (EXPO2014)",
+   "citazione": "The space group was determined with EXPO201453 ( P212121 with Z=4), then simulated annealing (EXPO2014 suite) was used to solve the structure.",
+   "note": "«EXPO201453»: il PDF ha attaccato un rimando (53) al nome del programma, scritto «EXPO2014» poco dopo."
+  },
+  {
+   "id": "X24",
+   "categoria": "cristallografia",
+   "proprieta": "simulated annealing: numero di run e velocita' di raffreddamento",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "run per prova",
+     "valore": 3
+    },
+    {
+     "etichetta": "cooling rate (Tn/Tn−1)",
+     "valore": 0.95
+    }
+   ],
+   "citazione": "Each annealing trial works on three runs with a cooling rate (Tn/Tn−1) of 0.95.",
+   "note": "«three runs» e' scritto in lettere."
+  },
+  {
+   "id": "X25",
+   "categoria": "cristallografia",
+   "proprieta": "angoli di torsione liberi e geometria rigida nel raffinamento",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "angoli di torsione liberi di ruotare, distanze e angoli di legame fissi",
+   "citazione": "All the torsion angles were allowed to rotate freely during the refinement process while bond distances and angles were kept fixed."
+  },
+  {
+   "id": "X26",
+   "categoria": "computazionale",
+   "proprieta": "ottimizzazione a cella fissa del modello di RS-AI_S-Nap_A2 (HSE-3c)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "la migliore soluzione e' ottimizzata a cella fissa con il funzionale HSE-3c prima del Rietveld",
+   "calcolato": true,
+   "citazione": "The best solution was chosen as starting geometry for a fixed cell optimization using HSE-3c functional54 using Crystal17.55",
+   "note": "I numeri 54 e 55 sono rimandi bibliografici."
+  },
+  {
+   "id": "X27",
+   "categoria": "cristallografia",
+   "proprieta": "raffinamento di Rietveld di RS-AI_S-Nap_A2: fondo e profilo di picco",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "coefficienti della funzione di Chebyshev per il fondo",
+     "valore": 8
+    }
+   ],
+   "qualitativo": "fondo con funzione di Chebyshev traslata, profilo Pseudo-Voigt, atomi raffinati isotropicamente con parametro termico tipico dell'elemento",
+   "citazione": "The optimized model was used for Rietveld refinement, which was performed with the software TOPASv6.56 Background and peak shape were fitted using a shifted Chebyshev function with eight coefficients and a Pseudo-Voigt function, respectively. All atoms were isotropically refined with a typical thermal parameter depending on the element.",
+   "note": "«eight coefficients» e' scritto in lettere; 56 e' un rimando bibliografico."
+  },
+  {
+   "id": "X28",
+   "categoria": "cristallografia",
+   "proprieta": "idrogeni di RS-AI_S-Nap_A2 in posizioni calcolate",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "tutti gli atomi di idrogeno fissati in posizioni calcolate",
+   "citazione": "hydrogen atoms were fixed in calculated positions. Crystal data and refinement parameters are reported in Table 1.",
+   "note": "La frase comincia con «All the», interrotta dal pie' di pagina."
+  },
+  {
+   "id": "X29",
+   "categoria": "cristallografia",
+   "proprieta": "probabilita' degli ellissoidi nelle viste ORTEP (Figura 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "probabilita' degli ellissoidi",
+     "valore": 50,
+     "unita": "%"
+    }
+   ],
+   "qualitativo": "viste ORTEP per F1, F2 e F4; modello a palline e bastoncini per F3 (struttura da PXRD)",
+   "citazione": "AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_W ORTEP views with 50% ellipsoid probability are shown, while for RS-AI_S-Nap_A2 a",
+   "note": "Didascalia della Figura 1; il nome della prima forma comincia prima dell'interruzione di pagina («For SR-»)."
+  },
+  {
+   "id": "X30",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD di routine a temperatura ambiente: radiazione, tensione e corrente, intervallo, passo, tempo",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "λ Cu-Kα",
+     "valore": 1.54056,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "tensione",
+     "valore": 40,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "corrente",
+     "valore": 40,
+     "unita": "mA"
+    },
+    {
+     "etichetta": "2θ da",
+     "valore": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ a",
+     "valore": 40,
+     "unita": "°"
+    },
+    {
+     "etichetta": "passo in 2θ",
+     "valore": 0.03,
+     "unita": "°"
+    },
+    {
+     "etichetta": "tempo per passo",
+     "valore": 0.8,
+     "unita": "s"
+    }
+   ],
+   "condizioni": "temperatura ambiente; rivelatore Bruker LYNXEYE-XE",
+   "citazione": "All the room temperature PXRD measures were carried out by using a Bruker New D8 Da Vinci diffractometer (Cu-Kα radiation = 1.54056Å, 40 kV x 40 mA), equipped with a Bruker LYNXEYE-XE detector, scanning range 2θ = 3-40°, 0.03° increments of 2θ and counting time of 0.8 s/step."
+  },
+  {
+   "id": "X31",
+   "categoria": "termica",
+   "proprieta": "calibrazione del DSC",
+   "tecnica": "DSC",
+   "valori": [],
+   "qualitativo": "calibrazione di temperatura e di entalpia con indio come standard",
+   "citazione": "Temperature and enthalpy calibrations were done by using indium as standard."
+  },
+  {
+   "id": "X32",
+   "categoria": "termica",
+   "proprieta": "intervallo di temperatura del DSC",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 40,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "a",
+     "valore": 200,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Measurements were carried out in the 40-200°C temperature range and a linear heating rate of 10°C/min was used.",
+   "note": "La velocita' di 10 °C/min e' nelle condizioni degli eventi. I risultati dicono «collected in the r.t.-200°C range» per F1."
+  },
+  {
+   "id": "X33",
+   "categoria": "termica",
+   "proprieta": "ripetizioni e incertezze dei dati DSC",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "numero di misure mediate",
+     "valore": 2
+    },
+    {
+     "etichetta": "errore standard temperatura",
+     "valore": 0.1,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "errore standard entalpia",
+     "valore": 0.3,
+     "unita": "kJ/mol"
+    }
+   ],
+   "citazione": "The reported data were the average of two measurements, and standard errors were ±0.1°C for temperature and ±0.3 kJ/mol for enthalpy.",
+   "note": "«two measurements» e' scritto in lettere."
+  },
+  {
+   "id": "X34",
+   "categoria": "termica",
+   "proprieta": "picco estrapolato (extrapolated peak) della fusione di SR-AI_S-Nap_A",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 183.7,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "The anhydrous SR-AI_S-Nap_A compound is stable from r.t to melting, as provided by the DSC curve (collected in the r.t.-200°C range) which revealed just one endothermic event, related to the melting of the compound (peak = 183.8°C, extrapolated peak = 183.7°C, onset = 183.5°C, ΔH = 85.7 kJ/mol, Figure S6).",
+   "note": "Peak, onset e DeltaH sono nell'evento di fusione; qui l'extrapolated peak, che lo schema non ha."
+  },
+  {
+   "id": "X35",
+   "categoria": "termica",
+   "proprieta": "picco estrapolato del primo picco endotermico di RS-AI_S-Nap_A1 (fusione)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 164.1,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "a first endothermic peak (peak = 164.0°C, extrapolated peak = 164.1°C, onset = 163.9°C, ΔH = 37.9 kJ/mol)"
+  },
+  {
+   "id": "X36",
+   "categoria": "termica",
+   "proprieta": "picco estrapolato del picco esotermico di RS-AI_S-Nap_A1 (ricristallizzazione)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 166.7,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "an exothermic one (peak = 166.4°C, extrapolated peak = 166.7°C, onset = 166.4°C)"
+  },
+  {
+   "id": "X37",
+   "categoria": "termica",
+   "proprieta": "picco estrapolato del secondo picco endotermico di RS-AI_S-Nap_A1 (fusione della seconda fase)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 175.9,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "a second endothermic peak (peak = 175.9°C, extrapolated peak = 175.9°C, onset = 175.8°C)"
+  },
+  {
+   "id": "X38",
+   "categoria": "termica",
+   "proprieta": "picco estrapolato della fusione di RS-AI_S-Nap_A2",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 175.1,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "In Figure S8 the DSC curve of RS-AI_S-Nap_A2 is reported (peak = 175.1°C, extrapolated peak = 175.1°C, onset = 173.7°C, ΔH = 56.0 kJ/mol)"
+  },
+  {
+   "id": "X39",
+   "categoria": "termica",
+   "proprieta": "picco estrapolato della perdita d'acqua di RS-AI_S-Nap_W",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 130.1,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "the first one (peak = 129.6°C, extrapolated peak = 130.1°C, onset = 129.6°C, ΔH = 16.6 kJ/mol) which can be related to the loss of water"
+  },
+  {
+   "id": "X40",
+   "categoria": "termica",
+   "proprieta": "picco estrapolato e valore non etichettato della fusione dell'anidro formatosi da RS-AI_S-Nap_W",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "extrapolated peak",
+     "valore": 175.9,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "terzo valore senza etichetta",
+     "valore": 175.9,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "temperatura approssimata nel testo",
+     "valore": 175,
+     "unita": "°C",
+     "circa": true
+    }
+   ],
+   "citazione": "occurred at about 175°C (peak = 175.9°C, extrapolated peak = 175.9°C, 175.9°C, ΔH = 51.9 kJ/mol, Figure S9)",
+   "note": "Dopo «peak» e «extrapolated peak» c'e' un terzo «175.9°C» senza etichetta (probabilmente onset, ma non e' scritto); «at about 175°C» e' la scrittura approssimata della stessa fusione. La fusione e' quella dell'anidro (A2) formatosi per disidratazione."
+  },
+  {
+   "id": "X41",
+   "categoria": "termica",
+   "proprieta": "fusione di RS-AI_S-Nap_A2 e di RS-AI_S-Nap_A1 nella discussione",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "forma": "F2",
+     "valore": 164,
+     "unita": "°"
+    },
+    {
+     "forma": "F3",
+     "valore": 176,
+     "unita": "°"
+    }
+   ],
+   "citazione": "the melting points of the two polymorphs (164 and 176° for RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, respectively)",
+   "note": "L'unita' e' scritta solo «°» (quasi certamente °C); valori approssimati degli stessi picchi dei Risultati."
+  },
+  {
+   "id": "X42",
+   "categoria": "termica",
+   "proprieta": "fusione di SR-AI_S-Nap_A e di RS-AI_S-Nap_A1 nella discussione (temperatura ed entalpia)",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 184,
+     "unita": "°C",
+     "circa": true
+    },
+    {
+     "etichetta": "ΔH",
+     "forma": "F1",
+     "valore": 85.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "forma": "F2",
+     "valore": 164,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "ΔH",
+     "forma": "F2",
+     "valore": 37.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "citazione": "SR-AI_S-Nap_A appears by far the most stable anhydrous diastereomeric salt of the series (about 184°C and ΔH = 85.7 kJ/mol vs 164°C and ΔH = 37.9 kJ/mol for RS-AI_S-Nap_A1)",
+   "note": "Ripetizione, nella discussione, dei valori dei Risultati."
+  },
+  {
+   "id": "X43",
+   "categoria": "termica",
+   "proprieta": "fusione di RS-AI_S-Nap_A2 nella discussione (temperatura ed entalpia)",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "forma": "F3",
+     "valore": 176,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "ΔH",
+     "forma": "F3",
+     "valore": 51.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "citazione": "with RS-AI_S-Nap_A2 in the middle (melting temperature 176oC, melting enthalpy ΔH = 51.9 kJ/mol)",
+   "note": "«176oC»: la «o» e' il simbolo di grado perso dal PDF. Il DeltaH di 51.9 e' quello del secondo picco della DSC di W (Fig. S9), non quello della curva di A2 (56.0 kJ/mol)."
+  },
+  {
+   "id": "X44",
+   "categoria": "geometria",
+   "proprieta": "codici di simmetria della Tabella 2",
+   "valori": [],
+   "qualitativo": "codici di simmetria dei legami H in SR-AI_S-Nap_A (1, 2), RS-AI_S-Nap_A1 (3, 4) e RS-AI_S-Nap_A2 (1, 5)",
+   "citazione": "1=x, 1+y, z; 2=-x,0.5+y,1-z; 3=x, -1+y, z; 4=1-x, -0.5+y,1-z; 5=-x, -0.5+y, -0.5-z",
+   "note": "Nelle righe della tabella l'apice del codice e' attaccato all'etichetta dell'atomo: «O21» = O2 con codice 1, «O1I2» = O1I con codice 2, «O23» = O2 con codice 3, ecc. Attribuzione dei codici alle forme dedotta dalle etichette degli atomi nelle righe."
+  },
+  {
+   "id": "X45",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: N1–H1NA···O1 (Tabella 2, SR-AI_S-Nap_A)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.737,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.9,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 159,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1-H1NA…O1 2.737(5) 1.90(4)  159(4)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore."
+  },
+  {
+   "id": "X46",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: O1I–H1O···O2 (Tabella 2, SR-AI_S-Nap_A)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.641,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.75,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 167,
+     "incertezza": 7,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O1I-H1O…O2 2.641(5) 1.75(7) 167(7)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore."
+  },
+  {
+   "id": "X47",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: N1–H1NB···O2 (codice 1) (Tabella 2, SR-AI_S-Nap_A)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.737,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.87,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 166,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1-H1NB…O21 2.737(5) 1.87(3) 166(3)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore."
+  },
+  {
+   "id": "X48",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: N1–H1NC···O1I (codice 2) (Tabella 2, SR-AI_S-Nap_A)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.825,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.97,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 167,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1-H1NC…O1I2 2.825(6) 1.97(5) 167(4)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore."
+  },
+  {
+   "id": "X49",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: N1I–H1NA···O1 (Tabella 2, RS-AI_S-Nap_A1)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.729,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.87,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 154,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1I-H1NA…O1 2.729(4) 1.87(4)  154(4)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore."
+  },
+  {
+   "id": "X50",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: O1I–H1OI···O2 (Tabella 2, RS-AI_S-Nap_A1)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.657,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.72,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 172,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O1I-H1OI…O2 2.657(3) 1.72(4) 172(4)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore."
+  },
+  {
+   "id": "X51",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: N1I–H1NB···O2 (codice 3) (Tabella 2, RS-AI_S-Nap_A1)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.786,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.84,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 165,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1I-H1NB…O23 2.786(4) 1.84(5) 165(4)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore."
+  },
+  {
+   "id": "X52",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: N1I–H1NC···O1I (codice 4) (Tabella 2, RS-AI_S-Nap_A1)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.819,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.84,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 167,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1I-H1NC…O1I4 2.819(4) 1.84(5) 167(4)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore."
+  },
+  {
+   "id": "X53",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: N1I–H1NA···O1 (Tabella 2, RS-AI_S-Nap_A2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.537,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.439,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 168,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1I-H1NA…O1 2.537(3) 1.439(3) 168(4)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore. Struttura da PXRD."
+  },
+  {
+   "id": "X54",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: O1I–H1OI···O1 (codice 1) (Tabella 2, RS-AI_S-Nap_A2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.54,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.531,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 179,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O1I-H1OI…O11 2.540(3) 1.531(4) 179(4)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore. Struttura da PXRD."
+  },
+  {
+   "id": "X55",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: N1I–H1NB···O2 (codice 1) (Tabella 2, RS-AI_S-Nap_A2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.667,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.595,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 176,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1I-H1NB…O21 2.667(3) 1.595(4) 176(3)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore. Struttura da PXRD."
+  },
+  {
+   "id": "X56",
+   "categoria": "geometria",
+   "proprieta": "legame H D–H···A: N1I–H1NC···O1I (codice 5) (Tabella 2, RS-AI_S-Nap_A2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "X···Y",
+     "valore": 2.745,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H···Y",
+     "valore": 1.727,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 161,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1I-H1nc…O1I5 2.745(4) 1.727(3) 161(4)",
+   "note": "ultima cifra. Colonne della tabella: X···Y (Å), H···Y (Å), X–H···Y (°). Il codice di simmetria e' attaccato all'etichetta dell'atomo accettore. Etichetta «H1nc» come scritta nel PDF. Struttura da PXRD."
+  },
+  {
+   "id": "X57",
+   "categoria": "geometria",
+   "proprieta": "codici di simmetria della Tabella 3",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "codici di simmetria dei contatti in RS-AI_S-Nap_W",
+   "citazione": "1 = x,y-1,z; 2 = -x+2,y-1/2,-z+2; 3 = -x+2,y+1/2,-z+2; 4 = x,y+1,z; 5 = -x,y+1/2,-z+1",
+   "note": "Nelle righe della tabella il codice e' attaccato all'etichetta dell'atomo («O3B1» = O3B con codice 1, «O1A2» = O1A con codice 2, ecc.)."
+  },
+  {
+   "id": "X58",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: O1WA–H1W2···O2A (Tabella 3, acqua···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 2.04,
+     "incertezza": 8,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 150,
+     "incertezza": 6,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O1WA-H1W2…O2A 2.04(8) 150(6)o",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°). Il «o» dopo l'angolo e' il simbolo di grado perso dal PDF."
+  },
+  {
+   "id": "X59",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: O1WA–H1W1···O3B (codice 1) (Tabella 3, acqua···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 2.14,
+     "incertezza": 8,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 153,
+     "incertezza": 7,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O1WA-H1W1…O3B1 2.14(8) 153(7)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°)."
+  },
+  {
+   "id": "X60",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: O1WB–H1W4···O2B (Tabella 3, acqua···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 2.03,
+     "incertezza": 8,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 150,
+     "incertezza": 7,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O1WB-H1W4…O2B 2.03(8) 150(7)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°)."
+  },
+  {
+   "id": "X61",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: O1WB–H1W3···O3A (Tabella 3, acqua···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 1.99,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 166,
+     "incertezza": 7,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O1WB-H1W3…O3A 1.99(7) 166(7)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°)."
+  },
+  {
+   "id": "X62",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: N1IA–H1NA···O1A (codice 2) (Tabella 3, catione AI···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 1.82,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 160,
+     "incertezza": 5,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1IA-H1NA…O1A2 1.82(5) 160(5)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°)."
+  },
+  {
+   "id": "X63",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: N1IA–H1NB···O2A (codice 3) (Tabella 3, catione AI···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 1.93,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 175,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1IA-H1NB…O2A3 1.93(4) 175(3)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°)."
+  },
+  {
+   "id": "X64",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: N1IB–H1NE···O1B (Tabella 3, catione AI···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 1.8,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 164,
+     "incertezza": 5,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1IB-H1NE…O1B 1.80(6) 164(5)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°)."
+  },
+  {
+   "id": "X65",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: N1IB–H1NF···O2B (codice 4) (Tabella 3, catione AI···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 1.89,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 173,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1IB-H1NF…O2B4 1.89(4) 173(3)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°)."
+  },
+  {
+   "id": "X66",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: O1IA–H1OA···O2A (Tabella 3, catione AI···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 1.76,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 165,
+     "incertezza": 8,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O1IA-H1OA…O2A 1.76(1) 165(8)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°)."
+  },
+  {
+   "id": "X67",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: O1IB–H1IB···O2B (codice 5) (Tabella 3, catione AI···anione naprossenato, RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 1.78,
+     "incertezza": 9,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 161,
+     "incertezza": 8,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O1IB-H1IB…O2B5 1.78(9) 161(8)o",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°). Il «o» dopo l'angolo e' il simbolo di grado perso dal PDF."
+  },
+  {
+   "id": "X68",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: C6A–H6A···O1A (codice 1) (Tabella 3, anione···anione (C–H···O), RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 2.649,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 169.1,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "C6AH6A…O1A1 2.649(4) 169.1(4)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°). Etichetta degli atomi come scritta, senza il trattino fra C e H nel PDF."
+  },
+  {
+   "id": "X69",
+   "categoria": "geometria",
+   "proprieta": "contatto H···Y e angolo: C6B–H6B···O1B (codice 1) (Tabella 3, anione···anione (C–H···O), RS-AI_S-Nap_W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···Y",
+     "valore": 2.555,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "X–H···Y",
+     "valore": 171.4,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "C6BH6B…O1B1 2.555(4) 171.4(4)",
+   "note": "ultima cifra. Colonne della tabella: H···Y (Å), X–H···Y (°). Etichetta degli atomi come scritta, senza il trattino fra C e H nel PDF."
+  },
+  {
+   "id": "X70",
+   "categoria": "geometria",
+   "proprieta": "contatti C–H···π (centroide) che rinforzano la colonna: SR-AI_S-Nap_A e RS-AI_S-Nap_A1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C6I–H6I···centroide, distanza",
+     "forma": "F1",
+     "valore": 3.06,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C6I–H6I···centroide, angolo",
+     "forma": "F1",
+     "valore": 164,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C5I–H5I2···centroide, distanza",
+     "forma": "F2",
+     "valore": 3.06,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C5I–H5I2···centroide, angolo",
+     "forma": "F2",
+     "valore": 134,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "(C6I-H6I…centroid distance 3.06(6)Å, angle 164(3)° and C5I-H5I2…centroid distance 3.06(5)Å, angle 134(4)°, in SR-AI_S-Nap_A and RS-",
+   "note": "ultima cifra. Il nome della seconda forma (RS-AI_S-Nap_A1) e' dopo l'interruzione di pagina; attribuzione per ordine di «respectively»."
+  },
+  {
+   "id": "X71",
+   "categoria": "geometria",
+   "proprieta": "contatto C7I–H7I···centroide fra colonne (AI···AI) in RS-AI_S-Nap_A1: distanza",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C7I–H7I···centroide, distanza",
+     "forma": "F2",
+     "valore": 2.52,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "through AI…AI and naproxen…naproxen interactions in RS-AI_S-Nap_A1 (C7I-H7I…centroid distance 2.52(3)Å,",
+   "note": "ultima cifra. L'angolo corrispondente e' dopo l'interruzione di pagina (voce seguente)."
+  },
+  {
+   "id": "X72",
+   "categoria": "geometria",
+   "proprieta": "contatti fra colonne in RS-AI_S-Nap_A1 (angolo AI···AI, naproxen···naproxen) e in RS-AI_S-Nap_A2 (AI···naproxen, naproxen···naproxen)",
+   "tecnica": "SCXRD (F2) / PXRD (F3)",
+   "valori": [
+    {
+     "etichetta": "C7I–H7I···centroide (AI···AI), angolo",
+     "forma": "F2",
+     "valore": 156,
+     "incertezza": 4,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C7–H7···centroide (naproxen···naproxen), distanza",
+     "forma": "F2",
+     "valore": 2.81,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C7–H7···centroide (naproxen···naproxen), angolo",
+     "forma": "F2",
+     "valore": 129,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C5–H5I···centroide (AI···naproxen), distanza",
+     "forma": "F3",
+     "valore": 2.73,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C5–H5I···centroide (AI···naproxen), angolo",
+     "forma": "F3",
+     "valore": 130,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C14–H14A···centroide (naproxen···naproxen), distanza",
+     "forma": "F3",
+     "valore": 2.89,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C14–H14A···centroide (naproxen···naproxen), angolo",
+     "forma": "F3",
+     "valore": 118,
+     "incertezza": 6,
+     "unita": "°"
+    }
+   ],
+   "citazione": "angle 156(4)°; C7-H7…centroid distance, 2.81(2)Å, angle 129(3)°, respectively); AI…naproxen and naproxen...naproxen in RS-AI_S-Nap_A2 (C5-H5I…centroid distance 2.73(3)Å, angle 130(3)°, C14H14A...centroid distance 2.89(5) Å, angle 118(6)°);",
+   "note": "ultima cifra. Per A1 l'attribuzione ai tipi di contatto (AI···AI, naprossene···naprossene) segue l'ordine di «respectively»; per A2 l'ordine in cui la frase elenca i due tipi (AI···naprossene, naprossene···naprossene). Per A2 il testo scrive «C14H14A» senza trattino."
+  },
+  {
+   "id": "X73",
+   "categoria": "geometria",
+   "proprieta": "contatti C–H···centroide fra colonne in SR-AI_S-Nap_A (AI···AI, naproxen···naproxen, AI···naproxen)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C7I–H7I···centroide (AI···AI), distanza",
+     "forma": "F1",
+     "valore": 2.56,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C7I–H7I···centroide (AI···AI), angolo",
+     "forma": "F1",
+     "valore": 159,
+     "incertezza": 6,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C7–H7···centroide (naproxen···naproxen), distanza",
+     "forma": "F1",
+     "valore": 2.82,
+     "incertezza": 8,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C7–H7···centroide (naproxen···naproxen), angolo",
+     "forma": "F1",
+     "valore": 132,
+     "incertezza": 7,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C9I–H9I···centroide (AI···naproxen), distanza",
+     "forma": "F1",
+     "valore": 3.19,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C9I–H9I···centroide (AI···naproxen), angolo",
+     "forma": "F1",
+     "valore": 143,
+     "incertezza": 8,
+     "unita": "°"
+    }
+   ],
+   "citazione": "AI…AI, naproxen…naproxen and AI…naproxen ions in SR-AI_S-Nap_A (C7I-H7I…centroid distance 2.56(7)Å, angle 159(6)°; C7-H7…centroid distance 2.82(8)Å, angle 132(7)°; C9I-H9I…centroid distance 3.19(7)Å, angle 143(8)°, respectively).",
+   "note": "ultima cifra. Attribuzione ai tipi di contatto per ordine di «respectively»."
+  },
+  {
+   "id": "X74",
+   "categoria": "geometria",
+   "proprieta": "contatti inter-colonna metossi C–H···O in SR-AI_S-Nap_A e RS-AI_S-Nap_A1 e C9–H9B···O1 in RS-AI_S-Nap_A2",
+   "tecnica": "SCXRD (F1, F2) / PXRD (F3)",
+   "valori": [
+    {
+     "etichetta": "C14–H14A···O1, distanza",
+     "forma": "F1",
+     "valore": 2.45,
+     "incertezza": 8,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C14–H14A···O1, angolo",
+     "forma": "F1",
+     "valore": 136,
+     "incertezza": 7,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C14–H14C···O1, distanza",
+     "forma": "F2",
+     "valore": 2.78,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C14–H14C···O1, angolo",
+     "forma": "F2",
+     "valore": 140,
+     "incertezza": 6,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C9–H9B···O1, distanza",
+     "forma": "F3",
+     "valore": 2.49,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C9–H9B···O1, angolo",
+     "forma": "F3",
+     "valore": 133,
+     "incertezza": 6,
+     "unita": "°"
+    }
+   ],
+   "citazione": "a carboxylic oxygen atom in SR-AI_S-Nap_A and RS-AI_S-Nap_A1 (C14-H14A…O1 2.45(8)Å, angle 136(7)° and C14-H14C…O1 2.78(5)Å, angle 140(6) °; respectively); while in RS-AI_S-Nap_A2 the interaction involves the hydrogen atom provided by the methyl group bound to the asymmetric carbon atom (C9-H9B…O1 2.49(4)Å, angle 133(6) °).",
+   "note": "ultima cifra. Il testo scrive «in SR-AI_S-Nap_A and RS-AI_S-Nap_A1 (...; respectively)»: la prima coppia di valori e' di SR-AI_S-Nap_A e la seconda di RS-AI_S-Nap_A1 per ordine."
+  },
+  {
+   "id": "X75",
+   "categoria": "geometria",
+   "proprieta": "angolo di torsione τ C6–C1–C8–C10 dell'anione S-Nap",
+   "tecnica": "SCXRD (F1, F2) / PXRD (F3)",
+   "valori": [
+    {
+     "etichetta": "τ",
+     "forma": "F1",
+     "valore": -82.3,
+     "incertezza": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "τ",
+     "forma": "F2",
+     "valore": -80.3,
+     "incertezza": 4,
+     "unita": "°"
+    },
+    {
+     "etichetta": "τ",
+     "forma": "F3",
+     "valore": -24.9,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "AI_S-Nap_A2 it is eclipsed, being the values of the C6-C1-C8-C10 torsions angle τ (see Scheme 1 and Figure S10) -82.3(5), -80.3(4) and -24.9(4)°, respectively.",
+   "note": "ultima cifra. Attribuzione per ordine: la frase precedente nomina SR-AI_S-Nap_A, RS-AI_S-Nap_A1 e RS-AI_S-Nap_A2 (il nome della terza e' dopo l'interruzione di pagina)."
+  },
+  {
+   "id": "X76",
+   "categoria": "geometria",
+   "proprieta": "legami H e angoli nel sale con trans-1-amino-2-indanolo (OKIQAA), confrontati con quelli di SR-AI_S-Nap_A e RS-AI_S-Nap_A2",
+   "oggetto": {
+    "etichetta": "OKIQAA"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "N···O da",
+     "valore": 2.73,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "N···O a",
+     "valore": 2.81,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "N–H···O da",
+     "valore": 149,
+     "unita": "°"
+    },
+    {
+     "etichetta": "N–H···O a",
+     "valore": 165,
+     "unita": "°"
+    },
+    {
+     "etichetta": "O···O",
+     "valore": 2.87,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "O–H···O",
+     "valore": 145,
+     "unita": "°"
+    }
+   ],
+   "citazione": "in SR-AI_S-Nap_A and RS-AI_S-Nap_A2 (2.73-2.81 Å as for N…O and 149-165° as for NHO; 2.87 Å and 145° as for O…O and OHO).",
+   "note": "Struttura della letteratura (rif. 46): «H-Bond distances and angles are comparable with those found in SR-AI_S-Nap_A and RS-AI_S-Nap_A2». L'intervallo e' scritto con un trattino."
+  },
+  {
+   "id": "X77",
+   "categoria": "computazionale",
+   "proprieta": "contributi alle superfici di Hirshfeld: spike O···H (donatori ammonio e ossidrile dell'AI)",
+   "tecnica": "CrystalExplorer (impronte 2D)",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 18.9,
+     "unita": "%"
+    },
+    {
+     "forma": "F2",
+     "valore": 18.6,
+     "unita": "%"
+    },
+    {
+     "forma": "F3",
+     "valore": 18.5,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "(upper left, 18.9, 18.6 and 18.5% contribution to the SR-AI_S-Nap_A, RS-AI_S-",
+   "note": "Il nome della terza forma e' dopo l'interruzione di pagina («Nap_A1 and RS-AI_S-Nap_A2 HSs, respectively»); attribuzione per ordine."
+  },
+  {
+   "id": "X78",
+   "categoria": "computazionale",
+   "proprieta": "contributi alle superfici di Hirshfeld: spike O···H (OH come accettore)",
+   "tecnica": "CrystalExplorer (impronte 2D)",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 4.7,
+     "unita": "%"
+    },
+    {
+     "forma": "F2",
+     "valore": 4.2,
+     "unita": "%"
+    },
+    {
+     "forma": "F3",
+     "valore": 4.3,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "and the -OH group as acceptor (lower left, 4.7, 4.2 and 4.3% contribution to the SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-"
+  },
+  {
+   "id": "X79",
+   "categoria": "computazionale",
+   "proprieta": "contributo dei contatti C···H alla superficie di Hirshfeld del naprossenato in RS-AI_S-Nap_A2",
+   "tecnica": "CrystalExplorer (impronte 2D)",
+   "valori": [
+    {
+     "etichetta": "C···H in RS-AI_S-Nap_A2",
+     "forma": "F3",
+     "valore": 27.4,
+     "unita": "%"
+    },
+    {
+     "etichetta": "C···H in SR-AI_S-Nap_A e RS-AI_S-Nap_A1 (quasi identici)",
+     "valore": 20.0,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "O...H and C...H contributions to HSs are almost identical in SR-AI_S-Nap_A and RS-AI_S-Nap_A1, while in RS-AI_S-Nap_A2 the contribution of these latter interactions is definitely greater, 27.4 vs 20.0%.",
+   "note": "«these latter interactions» = C···H. Il 20.0% non e' attribuito a una forma sola: il testo dice che A e A1 sono «almost identical»."
+  },
+  {
+   "id": "X80",
+   "categoria": "computazionale",
+   "proprieta": "contributi alle superfici di Hirshfeld del naprossenato: spike in basso a sinistra (legami H con O del carbossilato e del metossile)",
+   "tecnica": "CrystalExplorer (impronte 2D)",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 17.8,
+     "unita": "%"
+    },
+    {
+     "forma": "F2",
+     "valore": 16.4,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "In all cases the sharp and pronounced spike at the lower left (17.8 and 16.4% contribution to the HSs in SR-",
+   "note": "Il nome della seconda forma e' dopo l'interruzione di pagina («AI_S-Nap_A and RS-AI_S-Nap_A1, respectively»); attribuzione per ordine."
+  },
+  {
+   "id": "X81",
+   "categoria": "computazionale",
+   "proprieta": "contributi alle superfici di Hirshfeld del naprossenato: spike in alto a sinistra (legami C–H···O)",
+   "tecnica": "CrystalExplorer (impronte 2D)",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 5.4,
+     "unita": "%"
+    },
+    {
+     "forma": "F2",
+     "valore": 4.9,
+     "unita": "%"
+    },
+    {
+     "forma": "F3",
+     "valore": 3.6,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "the less evident spike at the upper left of the plots highlights the CH…O bonds (5.4, 4.9 and 3.6% contribution to the HSs in SR-",
+   "note": "I nomi delle forme sono dopo l'interruzione di pagina («AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2 respectively»); attribuzione per ordine."
+  },
+  {
+   "id": "X82",
+   "categoria": "computazionale",
+   "proprieta": "macchie rosse della superficie dnorm del catione AI (ammonio e ossidrile)",
+   "tecnica": "CrystalExplorer (dnorm)",
+   "valori": [
+    {
+     "etichetta": "macchie rosse grandi per -NH3+",
+     "valore": 3
+    },
+    {
+     "etichetta": "macchie rosse per -OH",
+     "valore": 2
+    }
+   ],
+   "calcolato": true,
+   "citazione": "all cases the HSs well evidence the involvement of all the potential H-bond donors and acceptors (3 large red spots for -NH3+ plus 2 for -OH)",
+   "note": "Il testo dice «in all cases» riferendosi alle tre superfici della Figura 7 (anidri); per W dice solo che le HS sono coerenti con i donatori e accettori. La frase comincia con «As for the cations, in», interrotta dal pie' di pagina."
+  },
+  {
+   "id": "X83",
+   "categoria": "computazionale",
+   "proprieta": "macchie rosse della superficie dnorm dell'anione naprossenato",
+   "tecnica": "CrystalExplorer (dnorm)",
+   "valori": [
+    {
+     "etichetta": "macchie rosse grandi (legami H con i donatori del catione)",
+     "valore": 3
+    },
+    {
+     "etichetta": "macchia meno pronunciata (C–H···O con un naprossenato adiacente)",
+     "valore": 4
+    }
+   ],
+   "calcolato": true,
+   "citazione": "As expected, the HSs of the naproxen anion mapped with dnorm, show three large red spots related to the intermolecular H-bonds between the carboxylate oxygen atoms and the H-bond donors provided by the cation, a fourth definitely less pronounced spot reveals the CH…O interaction with an adjacent naproxen ion",
+   "note": "«three» e «fourth» sono scritti in lettere. La frase e' nel paragrafo sulle tre superfici della Figura 7 (anidri; «the three DSs»)."
+  },
+  {
+   "id": "X84",
+   "categoria": "computazionale",
+   "proprieta": "indice di impacchettamento di Kitaigorodskii (K.P.I.) a 300 K",
+   "valori": [
+    {
+     "etichetta": "K.P.I. a 300 K",
+     "forma": "F2",
+     "valore": 67.7
+    },
+    {
+     "etichetta": "K.P.I. a 300 K",
+     "forma": "F3",
+     "valore": 68.3
+    }
+   ],
+   "calcolato": true,
+   "citazione": "and also with their Kitaigoroskii packing indices (K.P.I.) (67.7 vs 68.3 at 300K, respectively)",
+   "note": "Valori senza unita' nella frase. Il testo non dice per quale struttura di A1 a 300 K sia calcolato (in Tabella 1 la sola struttura a 300 K e' quella di A2)."
+  },
+  {
+   "id": "X85",
+   "categoria": "computazionale",
+   "proprieta": "indice di impacchettamento di Kitaigorodskii (K.P.I.) a 100 K",
+   "valori": [
+    {
+     "etichetta": "K.P.I. a 100 K",
+     "forma": "F1",
+     "valore": 69.4,
+     "unita": "%"
+    },
+    {
+     "etichetta": "K.P.I. a 100 K",
+     "forma": "F2",
+     "valore": 69.2,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "the definitely equal values of the K.P.I. index (at 100K 69.4 and 69.2%, respectively)",
+   "note": "La frase prima nomina SR-AI_S-Nap_A e RS-AI_S-Nap_A1: l'ordine di «respectively» e' quello dei due nomi. Valore in %."
+  },
+  {
+   "id": "X86",
+   "categoria": "computazionale",
+   "proprieta": "energie coesive calcolate delle tre fasi anidre",
+   "valori": [],
+   "qualitativo": "le energie coesive calcolate dei tre sali anidri sono entro gli errori attesi (nessun valore nel testo)",
+   "calcolato": true,
+   "citazione": "the calculated cohesive energies of the three anhydrous DSs are within the expected errors",
+   "note": "Valori non riportati nel testo."
+  },
+  {
+   "id": "X87",
+   "categoria": "computazionale",
+   "proprieta": "superfici di Hirshfeld e impronte 2D per le interazioni intermolecolari",
+   "valori": [],
+   "qualitativo": "superfici di Hirshfeld e impronte 2D calcolate per i quattro sali diastereoisomerici",
+   "calcolato": true,
+   "citazione": "Crystal-Explorer1757 was used to compute the Hirshfeld surfaces (HS) and their associated 2D fingerprint plots in order to further investigate the intermolecular interactions which hold together the crystal of the four diastereomeric salts."
+  },
+  {
+   "id": "X88",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica degli anidri",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "1 anione naprossenato + 1 catione AI"
+    },
+    {
+     "forma": "F2",
+     "testo": "1 anione naprossenato + 1 catione AI"
+    },
+    {
+     "forma": "F3",
+     "testo": "1 anione naprossenato + 1 catione AI"
+    }
+   ],
+   "qualitativo": "un anione naprossenato e un catione 1-amino-2-indanolo (AI) per unita' asimmetrica",
+   "citazione": "The asymmetric unit of the anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2 contains one naproxen anion and one 1-Amino-2-indanol cation",
+   "note": "Z = 2 (F1, F2) e 4 (F3) nelle forme."
+  },
+  {
+   "id": "X89",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica dell'idrato",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "due ioni naprossenato e due ioni 1-amino-2-indanolo indipendenti e due molecole d'acqua",
+   "citazione": "The asymmetric unit of the hydrated salt RS-AI_S-Nap_W contains two independent naproxen and 1-Amino-2-indanol ions and two water molecules."
+  },
+  {
+   "id": "X90",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "ruolo del gruppo NH3+ e dell'ossidrile dell'AI nella catena H",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "colonna H con NH3+ donatore e OH accettore"
+    },
+    {
+     "forma": "F2",
+     "testo": "colonna H con NH3+ donatore e OH accettore"
+    },
+    {
+     "forma": "F3",
+     "testo": "colonna H con NH3+ donatore e OH accettore"
+    }
+   ],
+   "qualitativo": "NH3+ donatore verso due anioni naprossenato contigui legati da traslazione; ossidrile accettore verso cationi AI legati da asse 21",
+   "citazione": "(the NH3+ group acts as H-bond donor towards two contiguous naproxen anions related by translation (see Figure 3 left and Table 2) and 21-related aminoindanol cations which bridge contiguous AI cations (the hydroxyl group works in this case as H-bond acceptor)",
+   "note": "Il paragrafo parla dei tre anidri (F1, F2, F3): la frase precedente nomina «SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2»."
+  },
+  {
+   "id": "X91",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "donatori e accettori nella colonna",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "ossidrile donatore e accettore; carbossilato accettore biforcato"
+    },
+    {
+     "forma": "F2",
+     "testo": "ossidrile donatore e accettore; carbossilato accettore biforcato"
+    },
+    {
+     "forma": "F3",
+     "testo": "ossidrile donatore e accettore; carbossilato accettore biforcato"
+    }
+   ],
+   "qualitativo": "tutti i potenziali donatori e accettori partecipano; ossidrile donatore e accettore; ossigeni del carbossilato accettori biforcati",
+   "citazione": "All the potential hydrogen bond donors/acceptors play a role in constructing each column. The hydroxyl group works as donor and acceptor, while the carboxylate oxygen atoms act as bifurcated acceptor (towards two aminoindanol cations and, as for O1, towards CH donors provided by contiguous naproxen anions).",
+   "note": "Stesso paragrafo dei tre anidri."
+  },
+  {
+   "id": "X92",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "ruoli di anione e catione nella rete H",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "anione accettore da due cationi; catione donatore e accettore"
+    },
+    {
+     "forma": "F2",
+     "testo": "anione accettore da due cationi; catione donatore e accettore"
+    },
+    {
+     "forma": "F3",
+     "testo": "anione accettore da due cationi; catione donatore e accettore"
+    }
+   ],
+   "qualitativo": "ogni anione accetta H dal carbossilato da due cationi AI; il catione e' anche donatore (-NH3+) e accettore (-OH) verso due cationi legati da simmetria",
+   "citazione": "Finally, each naproxen anion acts as H-bond acceptor, via the carboxylate group, towards two aminoindanol cations and vice versa for the cation which additionally works as H-bond donor (-NH3+) and acceptor (-OH) towards two symmetry related cations.",
+   "note": "Stesso paragrafo dei tre anidri."
+  },
+  {
+   "id": "X93",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "stabilita' dei motivi H in RS-AI_S-Nap_A2 rispetto a A1 e A",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "in A2 entrambi i motivi ad anello, in base alle distanze D···A (Tabella 2), appaiono molto piu' stabili che in A1 e in SR-AI_S-Nap_A",
+   "citazione": "In RS-AI_S-Nap_A2, both the H-bond ring motifs ( and 𝑅22(9) 𝑅34 ), based on the related D...A bond distances (Table 2), appear definitely more stable with (11) respect to that found in the RS-AI_S-Nap_A1 polymorph as well as in the diastereomeric salt SR-AI_S-Nap_A.",
+   "note": "Frase con i simboli dei motivi (R2^2(9) e R3^4(11)) spostati dal PDF."
+  },
+  {
+   "id": "X94",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "disposizione syn/anti delle parti aromatiche rispetto all'anello R2^2(9)",
+   "valori": [
+    {
+     "forma": "F2",
+     "testo": "anti"
+    },
+    {
+     "forma": "F1",
+     "testo": "syn"
+    },
+    {
+     "forma": "F3",
+     "testo": "syn"
+    }
+   ],
+   "qualitativo": "le parti aromatiche dei partner carichi sono anti in A1 e syn in SR-AI_S-Nap_A e in A2",
+   "citazione": "As well highlighted in Figure 4 (right), with respect to the H-bonded ring, the aromatic 𝑅22(9) moieties of the charged partners are anti disposed in RS-AI_S-Nap_A1 and syn oriented in SR- AI_S-Nap_A and RS-AI_S-Nap_A2.",
+   "note": "Il simbolo R2^2(9) e' spostato nel testo letto."
+  },
+  {
+   "id": "X95",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "interazioni C–H···π che rinforzano la colonna",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "colonna rinforzata da CH···π"
+    },
+    {
+     "forma": "F2",
+     "testo": "colonna rinforzata da CH···π"
+    }
+   ],
+   "qualitativo": "in A1 e in SR-AI_S-Nap_A ogni colonna H e' rinforzata da interazioni CH···π fra AI e naprossenato affacciati",
+   "citazione": "Irrespective of the anti and syn orientation, in RS-AI_S-Nap_A1 and SR-AI_S-Nap_A each H-bonded column is further reinforced by CH…π interactions between facing AI and naproxen ions"
+  },
+  {
+   "id": "X96",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "impacchettamento a spina di pesce degli anelli aromatici",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "spina di pesce (faccia-bordo)"
+    },
+    {
+     "forma": "F2",
+     "testo": "spina di pesce (faccia-bordo)"
+    },
+    {
+     "forma": "F3",
+     "testo": "spina di pesce (faccia-bordo)"
+    }
+   ],
+   "qualitativo": "gruppi arilici impilati di AI e naprossene a spina di pesce (faccia-bordo)",
+   "citazione": "As a result of these CH…π interactions, the stacked aryl groups of AI and naproxen ions describe herringbone motifs (face-to-edge).",
+   "note": "«these CH…π interactions» sono quelle descritte per i tre anidri (A1 e SR-AI_S-Nap_A nella frase precedente, A2 nelle frasi seguenti)."
+  },
+  {
+   "id": "X97",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "strati alternati di naprossene e amminoindanolo",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "strati paralleli a ab"
+    },
+    {
+     "forma": "F2",
+     "testo": "strati paralleli a ab"
+    },
+    {
+     "forma": "F3",
+     "testo": "senza strati alternati"
+    }
+   ],
+   "qualitativo": "strati di naprossene e amminoindanolo alternati paralleli alla faccia ab in A e A1, non in A2",
+   "citazione": "As a final remark, at variance with RS-AI_S-Nap_A2, the SR-AI_S-Nap_A and RS-AI_S-Nap_A1 crystal structures are characterized by layers of naproxen and aminoindanol which alternate parallel to the ab crystal face (Figure 6)."
+  },
+  {
+   "id": "X98",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "differenze fra RS-AI_S-Nap_A1 e SR-AI_S-Nap_A",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "le due strutture differiscono per l'orientamento relativo dei gruppi arilici rispetto al motivo R2^2(9) (anti in A1, syn in A), con impacchettamento complessivo simile a strati",
+   "citazione": "In summary, the DSs crystal structures of RS-AI_S-Nap_A1 and SR-AI_S-Nap_A mainly differ for the relative orientation of the aryl moieties of the ionic pair with respect to the 𝑅22(9) motif, i.e. anti (RS-AI_S-Nap_A1) and syn (SR-AI_S-Nap_A), being the overall crystal packing quite similar (layered structure). In addition, intra- and inter-column H-bonds and interactions are comparable in terms of type, number and geometry except for the lack of inter-",
+   "note": "La frase continua dopo l'interruzione di pagina (voce seguente)."
+  },
+  {
+   "id": "X99",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "assenza dei contatti CH···π inter-colonna AI···naprossene in RS-AI_S-Nap_A1",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "in A1 manca l'interazione faccia-bordo AI···naprossene fra colonne perche' gli idrogeni candidati puntano verso il metossile",
+   "citazione": "column CH…π contacts between the aminoindanol and naproxen ions in RS-AI_S-Nap_A1: the face-to-edge interaction fails because the candidate hydrogen atoms point toward the methoxy group (as evidenced by the green circle in Figure 5).",
+   "note": "Frase cominciata prima dell'interruzione di pagina («inter-»)."
+  },
+  {
+   "id": "X100",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "rete H e disposizione dei partner ionici in RS-AI_S-Nap_A2 rispetto agli altri anidri",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "distanze D···A ridotte, disposizione colonnare piu' robusta, partner syn, CH···π AI···naprossene e naprossene···naprossene fra colonne",
+   "citazione": "However, the reduced D...A distances of the H-bond interactions (see Table 2) suggest a more robust columnar arrangement compared to both the RS-AI_S-Nap_A1 solid form and the diastereomeric salt SR-AI_S-Nap_A. In addition, at variance with RS-AI_S-Nap_A1, in the ionic pair, the two H-bonded partners show a syn arrangement (as found in SR-AI_S-Nap_A). As for the CH…π interactions, they contribute to stabilize the crystal packing of RS-AI_S-Nap_A2 via AI...naproxen and naproxen...naproxen intercolumns interactions."
+  },
+  {
+   "id": "X101",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "ponte dell'acqua fra gli anioni naprossenato in RS-AI_S-Nap_W",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "nastro di anioni naprossenato e molecole d'acqua lungo l'asse b",
+   "citazione": "As a result, a ribbon of naproxen anions and water molecules propagates along the b axis direction (Figure 8, left).",
+   "note": "La frase precedente (che l'acqua e' donatore verso un ossigeno del carbossilato e verso -OCH3) comincia prima dell'interruzione di pagina."
+  },
+  {
+   "id": "X102",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "ruolo dell'acqua: donatore verso carbossilato e metossile",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "le molecole d'acqua sono donatori di legame H verso un ossigeno del carbossilato e verso -OCH3",
+   "citazione": "H-bond donors towards one of the carboxylate oxygen atoms and -OCH3.",
+   "note": "Frase cominciata prima dell'interruzione di pagina («The independent naproxen anions are bridged through water molecules (see Table 3) which act as»)."
+  },
+  {
+   "id": "X103",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "acqua in vuoti isolati e strati carichi alternati in RS-AI_S-Nap_W",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "le molecole d'acqua sono alloggiate in vuoti isolati e non fanno altri legami H",
+   "citazione": "No additional H-bonds (as well evidenced by the corresponding HSs) involve the water molecules, which are lodged in isolated voids (Figure 8, right)."
+  },
+  {
+   "id": "X104",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "struttura a strati carichi in RS-AI_S-Nap_W",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "struttura a strati di nastri carichi negativamente (anioni e acqua) e cationi amminoindanolo",
+   "citazione": "Due to such interactions, a layered crystal structure built by negatively charged ribbons (made of naproxen anions and water molecules) and aminoindanol cations resulted (Figure 9 right)."
+  },
+  {
+   "id": "X105",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "legami H per anione e per catione in RS-AI_S-Nap_W; interazioni CH···OOC",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [
+    {
+     "etichetta": "cationi AI simmetria-correlati legati a ogni anione",
+     "valore": 3
+    },
+    {
+     "etichetta": "molecole d'acqua indipendenti legate a ogni anione",
+     "valore": 2
+    }
+   ],
+   "qualitativo": "ogni anione e' legato a tre cationi AI e a due molecole d'acqua indipendenti; interazioni CH···OOC deboli fra anioni identici lungo b",
+   "citazione": "In summary, each naproxen anion is strongly H-bound to three symmetry related AI cations and two independent water molecules (as also well evidenced by the deep red spots on the corresponding dnorm Hirshfeld surfaces); additional CH…OOC weak interactions bind identical naproxen anions along the b-axis direction (see Table 3).",
+   "note": "«three» e «two» in lettere."
+  },
+  {
+   "id": "X106",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "frammenti AI···AI e naprossene···naprossene fra colonne",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "lo stesso tipo di interazione CH···π tiene insieme colonne diverse tramite contatti AI···AI e naprossene···naprossene in A1",
+   "citazione": "The same kind of interaction holds together different columns (Figure 5) through AI…AI and naproxen…naproxen interactions in RS-AI_S-Nap_A1 (C7I-H7I…centroid distance 2.52(3)Å,",
+   "note": "Frase continua dopo l'interruzione di pagina; per A2 e per SR-AI_S-Nap_A elenca i contatti AI···naprossene e naprossene···naprossene (geometria in voci separate)."
+  },
+  {
+   "id": "X107",
+   "categoria": "altro",
+   "proprieta": "sondaggio CSD: frammento 1-amino-2-indanolo (catione di Scheme 2)",
+   "tecnica": "ricerca CSD",
+   "valori": [
+    {
+     "etichetta": "occorrenze nel CSD",
+     "valore": 22
+    },
+    {
+     "etichetta": "di cui da lavori di Kinbara",
+     "valore": 14
+    }
+   ],
+   "citazione": "The search for crystal structures containing the cationic fragment depicted in Scheme 2 results in 22 hits; 14 of them were reported in Kinbara papers",
+   "note": "I numeri 45, 46, 63 e 64 attaccati a «papers» sono rimandi bibliografici."
+  },
+  {
+   "id": "X108",
+   "categoria": "altro",
+   "proprieta": "sondaggio CSD: frammento del naprossene e strutture con frammento amminoindanolo",
+   "tecnica": "ricerca CSD",
+   "valori": [
+    {
+     "etichetta": "occorrenze nel CSD per il frammento del naprossene",
+     "valore": 115
+    },
+    {
+     "etichetta": "di cui con frammento amminoindanolo (ELITIC, YALWEO)",
+     "valore": 2
+    }
+   ],
+   "qualitativo": "ELITIC senza coordinate 3D",
+   "citazione": "115 Hits were found from the search concerning the naproxen fragment, 2 of them involved an aminoindanol fragment (ELITIC65, no 3D coordinates available, and YALWEO64 refcodes).",
+   "note": "ELITIC65 e YALWEO64: il 65 e il 64 sono rimandi bibliografici attaccati ai refcode."
+  },
+  {
+   "id": "X109",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "sali di SR-AI con acidi 2-arilalcanoici (Kinbara): rete colonnare",
+   "oggetto": {
+    "etichetta": "KAPVAY, KAPVEC, KAPWAZ, KAPYEF, KAPYIJ, KAPZOQ, KAQBAF"
+   },
+   "valori": [],
+   "qualitativo": "rete H colonnare tenuta da ammonio e ossidrile dell'AI e dal carbossilato dell'acido",
+   "citazione": "The crystal structures of both the less- and more-soluble DSs made of SR-AI and 2-arylalkanoic acids (KAPVAY, KAPVEC; KAPWAZ, KAPYEF, KAPYIJ, KAPZOQ and KAQBAF refcodes) evidence the formation of a columnar hydrogen-bond network hold together by the ammonium and hydroxyl groups provided by AI and the acid carboxylate.",
+   "note": "Strutture della letteratura (Kinbara); non sono forme di questo lavoro."
+  },
+  {
+   "id": "X110",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "sali di SR-AI con acidi 2-arilalcanoici: rinforzo CH···π",
+   "oggetto": {
+    "etichetta": "KAPVAY, KAPVEC, KAPWAZ, KAPYEF, KAPYIJ, KAPZOQ, KAQBAF"
+   },
+   "valori": [],
+   "qualitativo": "tutti gli impacchettamenti sono rinforzati da interazioni CH···π intra- e inter-colonna a spina di pesce",
+   "citazione": "Moreover, all the crystal packings are further reinforced by intra- and inter-column CH…π interactions which result in herringbone patterns.",
+   "note": "Letteratura (Kinbara)."
+  },
+  {
+   "id": "X111",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "confronto fra i sali di 2-fenilbutirrato con SR-AI (KAPWAZ meno solubile, KAPYEF piu' solubile)",
+   "oggetto": {
+    "etichetta": "KAPWAZ, KAPYEF"
+   },
+   "valori": [],
+   "qualitativo": "il sale meno solubile (R)-2-fenilbutirrato (KAPWAZ) e' stabilizzato da legami H dell'ossidrile e impacchettamento a spina di pesce piu' del corrispondente (S) piu' solubile (KAPYEF)",
+   "citazione": "involving the hydroxyl group and herringbone packings much more than the corresponding more soluble SR_AI-(S)-2-phenylbutyrate (KAPYEF refcode).",
+   "note": "Letteratura. Frase cominciata prima dell'interruzione di pagina («the less soluble DS SR_AI-(R)-2-phenylbutyrate (KAPWAZ refcode) appear stabilized by hydrogen bonds»)."
+  },
+  {
+   "id": "X112",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "KAPZOQ e KAQBAF: motivo ad anello come nei sali con naprossene",
+   "oggetto": {
+    "etichetta": "KAPZOQ, KAQBAF"
+   },
+   "valori": [],
+   "qualitativo": "solo KAPZOQ e KAQBAF (meno solubili, con gruppi alfa-alchilici grandi) hanno il motivo dei sali con naprossene",
+   "citazione": "As for SR-AI, only two of the DSs studied by Kinbara,45 i.e. KAPZOQ and KAQBAF, categorized as less-soluble and involving quite large α-alkyl groups on the 2-arylalkanoic acid, feature the motif as found in our DSs with naproxen.",
+   "note": "Letteratura (Kinbara, rif. 45). Nel testo letto il simbolo del motivo (R2^2(9)) non c'e' in questa frase: compare spostato dopo «(S)-2» nella frase successiva."
+  },
+  {
+   "id": "X113",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "KAQBAF: disposizione intra-colonna simile a SR-AI_S-Nap_A e RS-AI_S-Nap_A2",
+   "oggetto": {
+    "etichetta": "KAQBAF"
+   },
+   "valori": [],
+   "qualitativo": "disposizione 3D intra-colonna molto simile a quella di SR-AI_S-Nap_A e RS-AI_S-Nap_A2, con parti aromatiche syn e motivo ad anello R3^4(11)",
+   "citazione": "In particular the salt with (S)-2𝑅22(9) methoxy-2-phenyl-2-(trifluoromethyl)acetate (KAQBAF) shows a 3D intra-column arrangement very similar to SR-AI_S-Nap_A and RS-AI_S-Nap_A2: “syn” arranged aromatic moieties and",
+   "note": "Letteratura (Kinbara). Simboli dei motivi spostati dal PDF."
+  },
+  {
+   "id": "X114",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "OKIQAA: sale con trans-1-amino-2-indanolo, tetramero H-legato",
+   "oggetto": {
+    "etichetta": "OKIQAA"
+   },
+   "valori": [],
+   "qualitativo": "rete colonnare H lungo l'asse 21 nel sale meno solubile del naprossene con trans-1-amino-2-indanolo",
+   "citazione": "A columnar hydrogen-bond network, extending along the 21 screw axis (Figure 11, top left), also characterizes the crystal structure of the already mentioned less-soluble salt of (S)-(+)- Naproxen with trans-1-Amino-2-indanol with (S)-(+)-Naproxen (OKIQAA refcode).46",
+   "note": "Letteratura (rif. 46)."
+  },
+  {
+   "id": "X115",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "OKIQAA: tetramero R3^4(10) rinforzato da un motivo R1^2(7)",
+   "oggetto": {
+    "etichetta": "OKIQAA"
+   },
+   "valori": [],
+   "qualitativo": "tetramero H-legato con due AI (ammonio) e due S-Nap, motivo R3^4(10), rinforzato da un legame OH···carbossilato con motivo R1^2(7)",
+   "citazione": "In this case, a H-bonded tetramer involving two AI (through the ammonium group) and two S-Nap ions can be recognized which can be categorized as , which is further reinforced by a 𝑅34(10) hydrogen bond between the hydroxy group and a carboxylate oxygen atom originating an 𝑅12 motif (Figure 11, top right).",
+   "note": "Letteratura. I simboli dei motivi sono spostati nel testo letto."
+  },
+  {
+   "id": "X116",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "OKIQAA: interazioni CH···π e impacchettamento a strati",
+   "oggetto": {
+    "etichetta": "OKIQAA"
+   },
+   "valori": [],
+   "qualitativo": "interazioni CH···π intra- e inter-colonna; impacchettamento a strati simile a quello di SR-AI_S-Nap_A e RS-AI_S-Nap_A1",
+   "citazione": "Moreover, intra- and inter-column CH…π interactions are present. Despite the different intra-column arrangement of the ionic partner, the resulting crystal packing closely resemble the layered structure which characterizes the SR-AI_S-Nap_A and RS-AI_S-Nap_A1 species.",
+   "note": "Letteratura."
+  },
+  {
+   "id": "X117",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "i cationi AI formano motivi R2^2(9) con anioni naprossenato legati da asse 21",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "motivo R2^2(9) con naprossenati legati da asse 21"
+    },
+    {
+     "forma": "F2",
+     "testo": "motivo R2^2(9) con naprossenati legati da asse 21"
+    },
+    {
+     "forma": "F3",
+     "testo": "motivo R2^2(9) con naprossenati legati da asse 21"
+    }
+   ],
+   "qualitativo": "i cationi AI descrivono motivi R2^2(9) anche con gli anioni naprossenato legati da asse 21",
+   "citazione": "Obviously, these AI cations (Figure 2 left) in turn describe motifs with 𝑅22(9) 21-related naproxen anions.",
+   "note": "Il simbolo del motivo e' spostato nel testo letto (compare dopo «motifs with»). Paragrafo sui tre anidri."
+  },
+  {
+   "id": "X118",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "caratteristica comune dei tre anidri: disposizione colonnare delle coppie ioniche (discussione)",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "disposizione colonnare, motivi R2^2(9) e R3^4(11)"
+    },
+    {
+     "forma": "F2",
+     "testo": "disposizione colonnare, motivi R2^2(9) e R3^4(11)"
+    },
+    {
+     "forma": "F3",
+     "testo": "disposizione colonnare, motivi R2^2(9) e R3^4(11)"
+    }
+   ],
+   "qualitativo": "i tre anidri condividono una disposizione colonnare delle coppie ioniche tenute da legami H (motivi R2^2(9) e R3^4(11)), piu' stabile in A2",
+   "citazione": "From a crystal structure point of view, the three anhydrous DSs share as core characteristic a columnar arrangement of the ionic pairs held together by H-bonds ( and motifs) 𝑅22(9) 𝑅34(11) which appears definitely more stable in RS-AI_S-Nap_A2.",
+   "note": "Ripete in sintesi i fatti gia' estratti dai Risultati; il PDF ha spostato i simboli dei motivi."
+  },
+  {
+   "id": "X119",
+   "categoria": "sintesi",
+   "proprieta": "numero di procedure per le polveri microcristalline (MP) di SR-AI_S-Nap_A",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "procedure diverse",
+     "valore": 2
+    }
+   ],
+   "citazione": "MPs: 2 different procedures were used to obtain microcrystalline powder samples of this salt:",
+   "note": "Sono le due LAG (EtOH o acqua): eventi E1 ed E2 dell'estrazione principale."
+  },
+  {
+   "id": "X120",
+   "categoria": "sintesi",
+   "proprieta": "parametri variati nelle prove di cristallizzazione selettiva",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "composizione del solvente",
+     "testo": "EtOH/H2O 4/1 o 2/1"
+    },
+    {
+     "etichetta": "temperatura",
+     "testo": "r.t. o riflusso"
+    },
+    {
+     "etichetta": "tempo dell'esperimento",
+     "testo": "few minutes o 1 h"
+    }
+   ],
+   "citazione": "of the two enantiomers while solvent composition (EtOH/H2O: 4/1 or 2/1), temperature (r.t or reflux) and experiment time (few minutes or 1 h) were varied.",
+   "note": "Frase cominciata nella riga precedente («the API was added to an equimolar solution»). I tre valori sono come scritti."
+  },
+  {
+   "id": "X121",
+   "categoria": "sintesi",
+   "proprieta": "quantita' di reagenti per tutte le prove",
+   "valori": [
+    {
+     "etichetta": "(S)-(+)-naprossene",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "(S)-(+)-naprossene",
+     "valore": 230.3,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "cis-1-amino-2-indanolo",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "cis-1-amino-2-indanolo",
+     "valore": 142.1,
+     "unita": "mg"
+    }
+   ],
+   "citazione": "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+   "note": "Vale per le procedure SC, LAG, prove di stabilita' e di cristallizzazione selettiva (nelle prove selettive: «1 mmol of each cis-1-Amino-2-indanol»)."
+  },
+  {
+   "id": "X122",
+   "categoria": "sintesi",
+   "proprieta": "quantita' di reagenti per le prove di cristallizzazione selettiva",
+   "valori": [
+    {
+     "etichetta": "S-Nap",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "S-Nap",
+     "valore": 230.3,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "ciascun enantiomero di cis-1-amino-2-indanolo",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "ciascun enantiomero di cis-1-amino-2-indanolo",
+     "valore": 142.1,
+     "unita": "mg"
+    }
+   ],
+   "citazione": "Different procedures were employed for the selective crystallization tests (in all cases 1 mmol of S-Nap, 230.3 mg, and 1 mmol of each cis-1-Amino-2-indanol [SR-AI and RS-AI, 142.1 mg] were used):",
+   "note": "Soluzione equimolare dei due enantiomeri."
+  },
+  {
+   "id": "X123",
+   "categoria": "sintesi",
+   "proprieta": "volumi di solvente: SR-AI_S-Nap_A (SC), procedura 1",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "EtOH",
+     "valore": 8,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "H2O",
+     "valore": 2,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "(S)-(+)-Naproxen and (1S,2R)-(-)-cis-1-Amino-2-indanol were dissolved in EtOH (8 mL) at rt, and then H2O (2 mL) was added.",
+   "note": "Gia' nelle preparazioni come testo (solventi); qui in forma numerica."
+  },
+  {
+   "id": "X124",
+   "categoria": "sintesi",
+   "proprieta": "volume di solvente: SR-AI_S-Nap_A (SC), procedura 2",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "miscela EtOH/H2O",
+     "valore": 10,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "«80% mixture» come scritto",
+     "valore": 80,
+     "unita": "%"
+    }
+   ],
+   "citazione": "(S)-(+)-Naproxen and (1S,2R)-(-)-cis-1-Amino-2-indanol were dissolved in 10 mL of a 80% mixture of EtOH/H2O",
+   "note": "Gia' nelle preparazioni come testo. Il testo non dice quale componente sia l'80% ne' se e' v/v; i Risultati parlano di composizioni EtOH:H2O 4:1 o 2:1."
+  },
+  {
+   "id": "X125",
+   "categoria": "sintesi",
+   "proprieta": "volume di solvente: SR-AI_S-Nap_A (SC), procedura 3",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "EtOH/H2O 2:1",
+     "valore": 9,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "(S)-(+)-Naproxen and (1S,2R)-(-)-cis-1-Amino-2-indanol were suspended in 9 mL of a 2:1 EtOH/H2O solution",
+   "note": "Gia' nelle preparazioni come testo."
+  },
+  {
+   "id": "X126",
+   "categoria": "sintesi",
+   "proprieta": "volumi di solvente: RS-AI_S-Nap_A1 (SC), procedura 1",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "EtOH",
+     "valore": 8,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "H2O",
+     "valore": 2,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "S-(+)-Naproxen and (1R,2S)-(+)-cis-1-Amino-2-indanol were dissolved in EtOH (8 mL) at rt, and then H2O (2 mL) was added."
+  },
+  {
+   "id": "X127",
+   "categoria": "sintesi",
+   "proprieta": "volume di solvente: RS-AI_S-Nap_A1 (SC), procedura 2",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "miscela EtOH/H2O",
+     "valore": 10,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "«80% mixture» come scritto",
+     "valore": 80,
+     "unita": "%"
+    }
+   ],
+   "citazione": "S-(+)-Naproxen and (1R,2S)-(+)-cis-1-Amino-2-indanol were dissolved in 10 mL of a 80% mixture of EtOH/H2O",
+   "note": "Stessa scrittura «80% mixture of EtOH/H2O» della procedura 2 di F1; componente e base (v/v) non detti."
+  },
+  {
+   "id": "X128",
+   "categoria": "sintesi",
+   "proprieta": "volume di solvente: RS-AI_S-Nap_W (SC)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [
+    {
+     "etichetta": "EtOH/H2O 2:1",
+     "valore": 9,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "S-(+)-Naproxen and (1R,2S)-(+)-cis-1-Amino-2-indanol were suspended in 9 mL of a 2:1 EtOH/H2O solution"
+  },
+  {
+   "id": "X129",
+   "categoria": "sintesi",
+   "proprieta": "prova di cristallizzazione selettiva 1: volume, peso e resa",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "miscela EtOH/acqua",
+     "valore": 10,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "S-Nap was added to an equimolar solution of SR-AI and RS-AI in 10 mL of a 80% mixture of EtOH/water.",
+   "note": "Peso e resa nelle voci seguenti."
+  },
+  {
+   "id": "X130",
+   "categoria": "sintesi",
+   "proprieta": "prova di cristallizzazione selettiva 1: peso e resa di SR-AI_S-Nap_A",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "peso del campione",
+     "valore": 322.5,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "resa",
+     "valore": 85,
+     "unita": "%"
+    }
+   ],
+   "citazione": "(sample weight = 322.5 mg, yield = 85%);"
+  },
+  {
+   "id": "X131",
+   "categoria": "sintesi",
+   "proprieta": "prova di cristallizzazione selettiva 2: volumi di solvente",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "EtOH",
+     "valore": 8,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "acqua",
+     "valore": 2,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "S-Nap was added to an equimolar solution of SR-AI and RS-AI in 8 mL of EtOH. Then, under stirring at r.t., 2 mL of water were added."
+  },
+  {
+   "id": "X132",
+   "categoria": "sintesi",
+   "proprieta": "prova di cristallizzazione selettiva 2: peso e resa di SR-AI_S-Nap_A",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "peso del campione",
+     "valore": 337.7,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "resa",
+     "valore": 89,
+     "unita": "%"
+    }
+   ],
+   "citazione": "The sample was filtered and dried in open air overnight (sample weight = 337.7 mg, yield = 89%);"
+  },
+  {
+   "id": "X133",
+   "categoria": "sintesi",
+   "proprieta": "prova di cristallizzazione selettiva 3: volume di solvente",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "EtOH/H2O 2:1",
+     "valore": 9,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "S-Nap was added to an equimolar solution of SR-AI and RS-AI in 9 mL of a 2:1 EtOH/H2O solution"
+  },
+  {
+   "id": "X134",
+   "categoria": "sintesi",
+   "proprieta": "prova di cristallizzazione selettiva 3: peso e resa di SR-AI_S-Nap_A",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "peso del campione",
+     "valore": 265.6,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "resa",
+     "valore": 70,
+     "unita": "%"
+    }
+   ],
+   "citazione": "After a couple of days, the sample was filtered and dried in open air overnight (sample weight = 265.6 mg, yield = 70%);",
+   "note": "Prova di cristallizzazione selettiva 3."
+  },
+  {
+   "id": "X135",
+   "categoria": "sintesi",
+   "proprieta": "prova di idratazione 2: massa di campione",
+   "valori": [
+    {
+     "etichetta": "campione per ciascun anidro",
+     "valore": 20,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "durata della macinazione",
+     "valore": 5,
+     "unita": "min"
+    }
+   ],
+   "citazione": "a sample of each anhydrous salt (20 mg) was ground for five minute with a drop of water.",
+   "note": "Gia' nelle condizioni degli eventi E18, E21, E24."
+  },
+  {
+   "id": "X136",
+   "categoria": "sintesi",
+   "proprieta": "prova di idratazione 3: massa e volume",
+   "valori": [
+    {
+     "etichetta": "campione per ciascun sale",
+     "valore": 50,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "acqua",
+     "valore": 5,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "50 mg of each salt were put in a vial with 5 mL of water.",
+   "note": "Gia' nelle condizioni degli eventi come testo (rapporto_solido_solvente)."
+  },
+  {
+   "id": "X137",
+   "categoria": "composizione",
+   "proprieta": "purezza di (S)-(+)-naprossene",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "valori": [
+    {
+     "etichetta": "purezza",
+     "valore": 99,
+     "unita": "%"
+    }
+   ],
+   "citazione": "(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid ((S)-(+)-Naproxen, 99%) was purchased from Alfa Aesar.",
+   "note": "Fornitore Alfa Aesar."
+  },
+  {
+   "id": "X138",
+   "categoria": "composizione",
+   "proprieta": "purezza di (1S,2R)-(-)-cis-1-amino-2-indanolo",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [
+    {
+     "etichetta": "purezza",
+     "valore": 99,
+     "unita": "%"
+    }
+   ],
+   "citazione": "(1S,2R)-(-)-cis-1-Amino-2-indanol (99%) and (1R,2S)-(+)-cis-1-Amino-2-",
+   "note": "Fornitore abcr GmbH: la frase continua dopo l'interruzione di pagina."
+  },
+  {
+   "id": "X139",
+   "categoria": "composizione",
+   "proprieta": "purezza di (1R,2S)-(+)-cis-1-amino-2-indanolo",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "etichetta": "purezza",
+     "valore": 99,
+     "unita": "%"
+    }
+   ],
+   "citazione": "indanol (99%) were purchased from abcr GmbH.",
+   "note": "Seconda meta' della frase interrotta dal pie' di pagina; fornitore abcr GmbH."
+  },
+  {
+   "id": "X140",
+   "categoria": "composizione",
+   "proprieta": "solventi usati nelle cristallizzazioni: etanolo e acqua Milli-Q",
+   "valori": [
+    {
+     "etichetta": "etanolo",
+     "valore": 96,
+     "unita": "%"
+    },
+    {
+     "etichetta": "resistivita' dell'acqua Milli-Q a 25 °C",
+     "valore": 18.2,
+     "unita": "MΩcm"
+    }
+   ],
+   "citazione": "ultrapure water (Milli-Q, Millipore type 1, 18.2 MΩcm resistivity at 25°C) and/or ethanol (96%) purchased from Sigma-Aldrich.",
+   "note": "Acqua ultrapura Milli-Q (tipo 1) ed etanolo 96% (Sigma-Aldrich). La resistivita' e' riferita a 25 °C nel testo."
+  },
+  {
+   "id": "X141",
+   "categoria": "altro",
+   "proprieta": "nome chimico completo del sale SR-AI_S-Nap_A (intestazione della sintesi)",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "(1S,2R)-(-)-cis-1-Ammonio-2-indanol (2S)-2-(6-methoxynaphtalen-2-yl)propionate"
+    }
+   ],
+   "citazione": "Synthesis of (1S,2R)-(-)-cis-1-Ammonio-2-indanol (2S)-2-(6-methoxynaphtalen-2-yl)propionate (SR-AI_S-Nap_A)",
+   "note": "«naphtalen» come scritto nel testo."
+  },
+  {
+   "id": "X142",
+   "categoria": "altro",
+   "proprieta": "nome chimico completo del sale RS-AI_S-Nap_A1 (intestazione della sintesi)",
+   "valori": [
+    {
+     "forma": "F2",
+     "testo": "(1R,2S)-(+)-cis-1-Ammonio-2-indanol (2S)-2-(6-methoxynaphtalen-2-yl)propionate"
+    }
+   ],
+   "citazione": "Synthesis of (1R,2S)-(+)-cis-1-Ammonio-2-indanol (2S)-2-(6-methoxynaphtalen-2-yl)propionate (RS-AI_S-Nap_A1)"
+  },
+  {
+   "id": "X143",
+   "categoria": "altro",
+   "proprieta": "nome chimico completo dell'idrato RS-AI_S-Nap_W (intestazione della sintesi)",
+   "valori": [
+    {
+     "forma": "F4",
+     "testo": "(1R,2S)-(+)cis-1-Ammonio-2-indanol (2S)-2-(6-methoxynaphtalen-2-yl)propionate hydrate"
+    }
+   ],
+   "citazione": "Synthesis of (1R,2S)-(+)cis-1-Ammonio-2-indanol (2S)-2-(6-methoxynaphtalen-2-yl)propionate hydrate (RS-AI_S-Nap_W)",
+   "note": "«(+)cis» senza trattino come scritto nel testo."
+  },
+  {
+   "id": "X144",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di SR-AI_S-Nap_A (SC, procedura 1)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "cristalli aghiformi incolori",
+   "citazione": "After few minutes colorless needle-like crystals started to form;",
+   "note": "Vale anche per RS-AI_S-Nap_A1 (procedura 1: «colorless needle-like crystals started to form»)."
+  },
+  {
+   "id": "X145",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di SR-AI_S-Nap_A e RS-AI_S-Nap_A1 (SC, procedura 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "cristalli aghiformi incolori",
+   "citazione": "After cooling colorless needle-like crystals formed;",
+   "note": "Vale anche per RS-AI_S-Nap_A1 (procedura 2)."
+  },
+  {
+   "id": "X146",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di SR-AI_S-Nap_A (SC, procedura 3) e di RS-AI_S-Nap_W",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "aghi incolori",
+   "citazione": "On cooling the solution, the slowly formation of colorless needles was observed.",
+   "note": "Lo stesso per l'idrato RS-AI_S-Nap_W («the slowly formation of colorless needles was observed»)."
+  },
+  {
+   "id": "X147",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli ottenuti nelle prove di cristallizzazione selettiva",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "aghi incolori (prova selettiva 1); aghi incolori anche nelle prove 2 e 3",
+   "citazione": "As soon as the solution reached r.t. colorless needles formed."
+  }
+ ]
+}

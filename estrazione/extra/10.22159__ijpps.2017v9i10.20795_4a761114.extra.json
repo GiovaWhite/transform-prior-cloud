@@ -1,0 +1,1475 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.22159/ijpps.2017v9i10.20795",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "Rwp del raffinamento (Tabella 1)",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 14.37,
+     "unita": "%"
+    },
+    {
+     "forma": "F2",
+     "valore": 5.14,
+     "unita": "%"
+    },
+    {
+     "forma": "F3",
+     "valore": 17.77,
+     "unita": "%"
+    },
+    {
+     "forma": "F4",
+     "valore": 16.16,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Rwp (%) 14.37 5.14 17.77 16.16",
+   "note": "Ordine delle colonne: Form H, Form B, Form MS, Form S. Il resto della Tabella 1 (gruppi spaziali, sistemi, a, b, c, angoli, Z, volumi) e' nelle forme (cella), citato per intero."
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "origine della cella: indicizzazione di 20-35 picchi",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "picchi indicizzati, da",
+     "valore": 20
+    },
+    {
+     "etichetta": "picchi indicizzati, a",
+     "valore": 35
+    },
+    {
+     "etichetta": "2θ da",
+     "valore": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ a",
+     "valore": 30,
+     "unita": "°"
+    }
+   ],
+   "citazione": "It was followed by indexing using X-Cell on 20-35 peaks ranging from 2 °-30 ° 2θ.",
+   "note": "Intervalli scritti con un trattino («20-35 peaks», «2 °-30 ° 2θ»)."
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "algoritmo di simulated annealing: cicli e passi",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "cicli",
+     "valore": 10
+    },
+    {
+     "etichetta": "passi per ciclo",
+     "valore": 2000100
+    }
+   ],
+   "citazione": "that involved simulated annealing algorithm (10 cycles with 2000100 steps each).",
+   "note": "«2000100 steps each» come scritto nel PDF (forse 2 000 100, ma il separatore non c'e')."
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "passi della determinazione strutturale da PXRD",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "determinazione della struttura da PXRD con i moduli Dmol3, X-Cell, Pawley, Powder Solve e Rietveld",
+   "citazione": "The PXRD pattern was used to solve the crystal structure of polymorphs of nateglinide using the Reflex Plus module of BIOVIA Material Studio software. This process was carried out using Dmol3, X-Cell, Pawley Refinement, Powder Solve and Rietveld Refinement",
+   "note": "Il nome del modulo e' «Reflex Plus» nei metodi e «Reflux Plus» in abstract, risultati e discussione."
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "uso del Rwp del Pawley e rifinitura di Rietveld",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "la cella di X-Cell e' l'ingresso del raffinamento di Pawley; il Rwp stabilisce il rapporto fra diffrattogramma simulato e sperimentale",
+   "citazione": "The unit cell from X-Cell was used as input for Pawley refinement. The weighted rietveld parameter (Rwp) value obtained after the refinement was used to establish the relation between simulated and experimental powder patterns."
+  },
+  {
+   "id": "X6",
+   "categoria": "cristallografia",
+   "proprieta": "rifinitura di Rietveld finale",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "raffinamento di Rietveld per la soluzione finale",
+   "citazione": "Further, rietveld refinement of the structure was performed to obtain a final structure solution."
+  },
+  {
+   "id": "X7",
+   "categoria": "computazionale",
+   "proprieta": "ottimizzazione della geometria della molecola: DFT",
+   "valori": [],
+   "qualitativo": "ottimizzazione di geometria con GGA, funzionale PBE, DFT Dmol3, base DNP",
+   "calcolato": true,
+   "citazione": "modules [24]. Geometry optimization was done with the gradientcorrected generalized gradient approximation (GGA) and PBE functional in density functional theory (DFT) Dmol3 with double numeric plus polarization (DNP) basis set.",
+   "note": "Il riferimento [24] e' un rimando bibliografico; il modulo e' elencato nella frase precedente (interrotta dal titolo della sezione)."
+  },
+  {
+   "id": "X8",
+   "categoria": "cristallografia",
+   "proprieta": "affidabilita' delle strutture determinate",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "affidabilita' stimata dalla somiglianza fra diffrattogramma sperimentale e simulato",
+   "citazione": "The reliability of determined crystal structures was estimated by the similarity between their experimental and simulated PXRD patterns (comparison shown in fig. 2)."
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "qualita' dei diffrattogrammi",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "qualita' del diffrattogramma adeguata alla risoluzione della struttura",
+   "citazione": "The quality of diffraction pattern was adequately good for solving the crystal structure."
+  },
+  {
+   "id": "X10",
+   "categoria": "altro",
+   "proprieta": "deposito dei file cristallografici al CCDC",
+   "valori": [
+    {
+     "testo": "1401735-1401738"
+    }
+   ],
+   "qualitativo": "quattro file depositati; il testo non dice quale numero va a quale forma",
+   "citazione": "The crystallographic files are deposited to CCDC with reference number 1401735-1401738.",
+   "note": "I numeri sono anche nell'elenco ccdc dell'articolo (estrazione principale): qui con la citazione."
+  },
+  {
+   "id": "X11",
+   "categoria": "cristallografia",
+   "proprieta": "gruppi spaziali dall'indicizzazione dei diffrattogrammi",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "P-1"
+    },
+    {
+     "forma": "F2",
+     "testo": "C2"
+    },
+    {
+     "forma": "F3",
+     "testo": "P-4"
+    },
+    {
+     "forma": "F4",
+     "testo": "P-42C"
+    }
+   ],
+   "citazione": "Indexing of the powder diffraction pattern of experimentally prepared polymorphs (Form H, B, MS and S) revealed that the forms exists in P-1, C2, P-4 and P-42C, respectively, therefore, the possible",
+   "note": "Gruppi come scritti (P-42C nel testo; nella forma e' normalizzato in P-42c). I gruppi sono gia' nelle forme; qui la provenienza (indicizzazione) e la frase che i gruppi sono poi usati per la predizione («therefore, the possible crystal structures were explored in these space groups»)."
+  },
+  {
+   "id": "X12",
+   "categoria": "cristallografia",
+   "proprieta": "numero di molecole nella cella di Form H",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "molecole nella cella",
+     "forma": "F1",
+     "valore": 2
+    }
+   ],
+   "citazione": "Form H consists of two molecules in the unit cell (fig. 3).",
+   "note": "«two molecules» in lettere; Z = 2 e' gia' nella cella della forma."
+  },
+  {
+   "id": "X13",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "condizioni di acquisizione PXRD: tensione, corrente, intervallo 2θ, passo, tempo, massa",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "tensione",
+     "valore": 40,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "corrente",
+     "valore": 35,
+     "unita": "mA"
+    },
+    {
+     "etichetta": "2θ da",
+     "valore": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ a",
+     "valore": 50,
+     "unita": "°"
+    },
+    {
+     "etichetta": "passo (0.01 step size)",
+     "valore": 0.01
+    },
+    {
+     "etichetta": "tempo per passo",
+     "valore": 10,
+     "unita": "s"
+    },
+    {
+     "etichetta": "campione caricato",
+     "valore": 200,
+     "unita": "mg",
+     "circa": true
+    }
+   ],
+   "condizioni": "anodo di rame, fenditura di divergenza fissa",
+   "citazione": "The diffractograms were recorded under following conditions: voltage 40 kV, 35 mA and fixed divergence slit using the configuration; 2θ range: 2 ° to 50 °, 0.01 step size, 10 s dwell time. Approximately 200 mg of samples were loaded into the sample holder.",
+   "note": "Il passo e' scritto «0.01 step size» senza unita'. «Approximately 200 mg»: circa."
+  },
+  {
+   "id": "X14",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "radiazione e strumento",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "anodo di rame (XPERT-PRO, PANalytical)",
+   "citazione": "The powder diffraction patterns were observed on x-ray diffractometer (XPERT-PRO, PANalytical, Netherlands) using Cu tube anode."
+  },
+  {
+   "id": "X15",
+   "categoria": "termica",
+   "proprieta": "calibrazione del DSC con indio",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "mp dell'indio",
+     "valore": 156.6,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "ΔH dell'indio",
+     "valore": 28.45,
+     "unita": "Jg-1"
+    }
+   ],
+   "citazione": "The instrument was calibrated for temperature and heat flow accuracy using the melting of pure indium (mp 156.6 °C and ΔH of 28.45 Jg-1).",
+   "note": "Unita' come scritta: «Jg-1»."
+  },
+  {
+   "id": "X16",
+   "categoria": "termica",
+   "proprieta": "parametri numerici del DSC: massa, flusso di azoto, intervallo di temperatura",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "massa da",
+     "valore": 2,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "massa a",
+     "valore": 4,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "flusso di azoto",
+     "valore": 50,
+     "unita": "ml per minute"
+    },
+    {
+     "etichetta": "intervallo da",
+     "valore": 50,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "intervallo a",
+     "valore": 250,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "A mass between 2-4 mg was taken into the aluminium pan, covered with lid and sealed. DSC curves were obtained under a nitrogen purge of 50 ml per minute at a heating rate of 10 °C per minute with the temperature range from 50-250 °C.",
+   "note": "La velocita' di 10 °C per minute, il crogiolo sigillato e l'azoto sono gia' nelle condizioni degli eventi DSC (E1-E7); qui il flusso e l'intervallo come numeri."
+  },
+  {
+   "id": "X17",
+   "categoria": "termica",
+   "proprieta": "tempi di prelievo nello studio di stabilita'",
+   "tecnica": "DSC; PXRD",
+   "valori": [
+    {
+     "valore": 0,
+     "unita": "mo"
+    },
+    {
+     "valore": 3,
+     "unita": "mo"
+    },
+    {
+     "valore": 6,
+     "unita": "mo"
+    }
+   ],
+   "citazione": "Samples were withdrawn after 0, 3 and 6 mo and were analyzed with the assistance of DSC and PXRD.",
+   "note": "Condizioni della prova (40 °C/75% RH, 6 mesi) negli eventi E9-E12. «mo» come scritto (mesi)."
+  },
+  {
+   "id": "X18",
+   "categoria": "computazionale",
+   "proprieta": "predizione dei polimorfi: campo di forze, cariche, sommatoria",
+   "valori": [],
+   "qualitativo": "campo di forze COMPASS, cariche ESP da calcolo ab initio, sommatoria di Ewald per van der Waals ed elettrostatica",
+   "calcolato": true,
+   "citazione": "The molecule of nateglinide was geometrically optimized with COMPASS forcefield. The high-level ab initio calculation on these optimized molecules leads to the generation of electrostatic potential (ESP) charges. These were then used as input for polymorph prediction. The same forcefield with Ewald summation for the Van der Waals and electrostatic interactions was used for the calculation and minimization of energy."
+  },
+  {
+   "id": "X19",
+   "categoria": "computazionale",
+   "proprieta": "predizione dei polimorfi: gruppi spaziali esplorati",
+   "valori": [],
+   "qualitativo": "polimorfi cercati nei gruppi P-1, C2, P-4 e P-42C",
+   "calcolato": true,
+   "citazione": "All the possible polymorphs of nateglinide in space groups (P-1, C2, P-4, P-42C) were predicted using Polymorph Predictor module of BIOVIA Material studio software."
+  },
+  {
+   "id": "X20",
+   "categoria": "computazionale",
+   "proprieta": "predizione dei polimorfi: passi della procedura",
+   "valori": [
+    {
+     "etichetta": "passi",
+     "valore": 4
+    }
+   ],
+   "qualitativo": "impacchettamento (Monte Carlo), pre-clustering, ottimizzazione, clustering",
+   "calcolato": true,
+   "citazione": "The prediction of polymorphs took place in four steps i.e., packing (Monte Carlo simulation), pre-clustering, optimization, and clustering.",
+   "note": "«four steps» in lettere."
+  },
+  {
+   "id": "X21",
+   "categoria": "computazionale",
+   "proprieta": "numero di strutture ipotetiche generate",
+   "valori": [
+    {
+     "etichetta": "strutture ipotetiche distinte",
+     "valore": 2100,
+     "limite": "sopra"
+    },
+    {
+     "etichetta": "distanza massima dal minimo globale di energia",
+     "valore": 30,
+     "unita": "KJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The search produced more than 2100 distinct hypothetical crystal structures within 30 KJ/mol of global energy minimum.",
+   "note": "«more than 2100»: limite inferiore."
+  },
+  {
+   "id": "X22",
+   "categoria": "computazionale",
+   "proprieta": "paesaggio energetico: finestra mostrata in Fig. 7",
+   "valori": [
+    {
+     "etichetta": "finestra dal minimo globale",
+     "valore": 16,
+     "unita": "KJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Fig. 7: Crystal energy landscape within 16KJ/mol of global energy minimum."
+  },
+  {
+   "id": "X23",
+   "categoria": "computazionale",
+   "proprieta": "energie dei minimi locali delle strutture sperimentali",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": -55.28,
+     "unita": "KJ/mol"
+    },
+    {
+     "forma": "F2",
+     "valore": -52.69,
+     "unita": "KJ/mol"
+    },
+    {
+     "forma": "F3",
+     "valore": -52.28,
+     "unita": "KJ/mol"
+    },
+    {
+     "forma": "F4",
+     "unita": "KJ/mol",
+     "testo": "and55.40",
+     "lettura_probabile": -55.4
+    }
+   ],
+   "calcolato": true,
+   "citazione": "structures corresponding to forms H, B, MS and S were successfully found in the search at local minimum of-55.28,-52.69,-52.28 and55.40 KJ/mol, respectively.",
+   "note": "Segno meno dell'ultimo valore perso dal PDF («and55.40»): lettura probabile -55.4, non sostenuta dal testo. La frase e' interrotta dalla didascalia della Fig. 7, da un paragrafo sulla morfologia e dalla Tabella 2: comincia con «The» prima della Fig. 7 e prosegue con «structures corresponding to forms H, B, MS and S ...»."
+  },
+  {
+   "id": "X24",
+   "categoria": "computazionale",
+   "proprieta": "minimo globale dell'energia di reticolo",
+   "valori": [
+    {
+     "etichetta": "minimo globale",
+     "valore": -40.78,
+     "unita": "KJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The crystal energy landscape shows the presence of global minima at-40.78 KJ/mol.",
+   "note": "Incoerenza dell'articolo: i minimi locali delle strutture sperimentali (-55.28, -52.69, -52.28, 55.40 KJ/mol) sono piu' bassi di questo «global minima»."
+  },
+  {
+   "id": "X25",
+   "categoria": "computazionale",
+   "proprieta": "paesaggio energetico affollato; strutture sperimentali su minimi locali",
+   "valori": [],
+   "qualitativo": "paesaggio affollato; le strutture sperimentali stanno su minimi locali; ipotesi: inaccessibilita' cinetica dei polimorfi al minimo globale",
+   "calcolato": true,
+   "citazione": "group. The aforesaid landscape was cluttered, indicating the strong tendency to form polymorphs having different motifs, henceforth, packing problem (close packing). The experimental crystal structures lie on local minimum energy rather than global minimum. The reason for this may be attributed to the kinetic inaccessibility of the polymorphs that lie on global minima.",
+   "note": "La frase comincia con «The crystal energy landscape gives explicit account of the packing arrangement rather than the space» prima dell'interruzione di pagina."
+  },
+  {
+   "id": "X26",
+   "categoria": "computazionale",
+   "proprieta": "descrizione della simulazione morfologica",
+   "valori": [],
+   "qualitativo": "morfologia simulata con le regole di Donnay-Harker e campo di forze COMPASS",
+   "calcolato": true,
+   "citazione": "Morphology of the polymorphs was simulated using Donnay-Harker rules in the Morphology module of BIOVIA Material Studio, employing COMPASS forcefield."
+  },
+  {
+   "id": "X27",
+   "categoria": "computazionale",
+   "proprieta": "parametri della simulazione morfologica",
+   "valori": [
+    {
+     "etichetta": "massimo indice di Miller",
+     "valore": 3
+    },
+    {
+     "etichetta": "numero di facce in crescita",
+     "valore": 200
+    },
+    {
+     "etichetta": "minimo della spaziatura interplanare",
+     "valore": 1.3,
+     "unita": "A °"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The maximum value for the Miller indices and number of growing faces were set to 3 and 200, respectively and inter-planar spacing minima was set to 1.3 A °.",
+   "note": "Unita' come scritta: «A °» (probabilmente Å con l'accento perso)."
+  },
+  {
+   "id": "X28",
+   "categoria": "computazionale",
+   "proprieta": "ipotesi alla base dell'energia di attacco",
+   "valori": [],
+   "qualitativo": "velocita' di crescita di una faccia proporzionale alla sua energia di attacco",
+   "calcolato": true,
+   "citazione": "The growth morphology algorithm generates growth faces and their attachment energy (Eatt). This is based on the assumption that the crystal face growth rate is proportional to its attachment energy (AE)"
+  },
+  {
+   "id": "X29",
+   "categoria": "morfologia",
+   "proprieta": "morfologia di crescita prevista di Form S: rapporto d'aspetto e numero di facce MI (Tabella 2)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [
+    {
+     "etichetta": "aspect ratio",
+     "valore": 3.6
+    },
+    {
+     "etichetta": "MI facets",
+     "valore": 2
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Form S, Aspect ratio: 3.6, MI facets: 2",
+   "note": "Valori della Tabella 2 (morfologia simulata). Attribuzione delle facce ricostruita (la tabella e' scomposta dal PDF): Form S: le due facce {1 0 0} 98.46 e {1 0 1} 1.54 sommano a 100 e sono 2 come dichiarato; sono le prime righe di facce dopo le intestazioni di Form S e Form H."
+  },
+  {
+   "id": "X30",
+   "categoria": "morfologia",
+   "proprieta": "morfologia di crescita prevista di Form H: rapporto d'aspetto e numero di facce MI (Tabella 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "aspect ratio",
+     "valore": 2.8
+    },
+    {
+     "etichetta": "MI facets",
+     "valore": 7
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Form H, Aspect ratio: 2.8, MI facets: 7",
+   "note": "Valori della Tabella 2 (morfologia simulata). Attribuzione delle facce ricostruita (la tabella e' scomposta dal PDF): Form H: le 7 facce {0 1 0} 28.89, {1 0 0} 25.92, {0 0 1} 18.25, {1-1-1} 16.42, {1-1 0} 7.99, {1 0-1} 0.82, {0 1 1} 1.71 sommano a 100 e sono 7 come dichiarato; nel testo letto due stanno prima dell'intestazione di Form B e cinque dopo (il blocco di cinque, da solo, somma 45.19, non 100, quindi non e' la lista di B)."
+  },
+  {
+   "id": "X31",
+   "categoria": "morfologia",
+   "proprieta": "morfologia di crescita prevista di Form B: rapporto d'aspetto e numero di facce MI (Tabella 2)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "aspect ratio",
+     "valore": 1.8
+    },
+    {
+     "etichetta": "MI facets",
+     "valore": 5
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Form B, Aspect ratio: 1.8, MI facets: 5",
+   "note": "Valori della Tabella 2 (morfologia simulata). Attribuzione delle facce ricostruita (la tabella e' scomposta dal PDF): Form B: le 5 facce {0 0 1} 94.98, {2 2-1} 1.80, {2-2-1} 1.80, {0 2 0} 0.71, {0-2 0} 0.71 sommano a 100 e sono 5 come dichiarato; attribuzione per somma e numero di facce, non per vicinanza all'intestazione."
+  },
+  {
+   "id": "X32",
+   "categoria": "morfologia",
+   "proprieta": "morfologia di crescita prevista di Form MS: rapporto d'aspetto e numero di facce MI (Tabella 2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "aspect ratio",
+     "valore": 1.4
+    },
+    {
+     "etichetta": "MI facets",
+     "valore": 7
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Form MS, Aspect ratio: 1.4, MI facets: 7",
+   "note": "Valori della Tabella 2 (morfologia simulata). Attribuzione delle facce ricostruita (la tabella e' scomposta dal PDF): Form MS: le 7 facce {1 0 2} 9.07, {1 0-2} 9.07, {1 0 3} 20.83, {1 0-3} 20.83, {1 0 1} 12.80, {1 0-1} 12.80, {1 0 0} 14.59 sommano a 99.99 (arrotondamenti) e sono 7 come dichiarato; stanno dopo l'intestazione di Form MS."
+  },
+  {
+   "id": "X33",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0 0} della morfologia di crescita prevista di Form S: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 98.46,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -1.6,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0 0} 98.46 -1.60",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X34",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0 1} della morfologia di crescita prevista di Form S: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 1.54,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -5.03,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0 1} 1.54 -5.03",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X35",
+   "categoria": "morfologia",
+   "proprieta": "faccia {0 1 0} della morfologia di crescita prevista di Form H: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 28.89,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -2.62,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{0 1 0} 28.89 -2.62",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X36",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0 0} della morfologia di crescita prevista di Form H: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 25.92,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -6.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0 0} 25.92 -6.43",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X37",
+   "categoria": "morfologia",
+   "proprieta": "faccia {0 0 1} della morfologia di crescita prevista di Form H: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 18.25,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -7.27,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{0 0 1} 18.25 -7.27",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X38",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1-1-1} della morfologia di crescita prevista di Form H: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 16.42,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -7.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1-1-1} 16.42 -7.43",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X39",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1-1 0} della morfologia di crescita prevista di Form H: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 7.99,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -8.51,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1-1 0} 7.99 -8.51",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X40",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0-1} della morfologia di crescita prevista di Form H: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 0.82,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -9.04,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0-1} 0.82 -9.04",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X41",
+   "categoria": "morfologia",
+   "proprieta": "faccia {0 1 1} della morfologia di crescita prevista di Form H: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 1.71,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -12.23,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{0 1 1} 1.71 -12.23",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X42",
+   "categoria": "morfologia",
+   "proprieta": "faccia {0 0 1} della morfologia di crescita prevista di Form B: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 94.98,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -3.65,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{0 0 1} 94.98 -3.65",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X43",
+   "categoria": "morfologia",
+   "proprieta": "faccia {2 2-1} della morfologia di crescita prevista di Form B: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 1.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -4.71,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{2 2-1} 1.80 -4.71",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X44",
+   "categoria": "morfologia",
+   "proprieta": "faccia {2-2-1} della morfologia di crescita prevista di Form B: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 1.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -4.71,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{2-2-1} 1.80 -4.71",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X45",
+   "categoria": "morfologia",
+   "proprieta": "faccia {0 2 0} della morfologia di crescita prevista di Form B: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 0.71,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -5.27,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{0 2 0} 0.71 -5.27",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X46",
+   "categoria": "morfologia",
+   "proprieta": "faccia {0-2 0} della morfologia di crescita prevista di Form B: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 0.71,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -5.27,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{0-2 0} 0.71 -5.27",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X47",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0 2} della morfologia di crescita prevista di Form MS: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 9.07,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -16.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0 2} 9.07 -16.43",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X48",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0-2} della morfologia di crescita prevista di Form MS: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 9.07,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -16.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0-2} 9.07 -16.43",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X49",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0 3} della morfologia di crescita prevista di Form MS: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 20.83,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -16.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0 3} 20.83 -16.43",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X50",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0-3} della morfologia di crescita prevista di Form MS: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 20.83,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -16.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0-3} 20.83 -16.43",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X51",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0 1} della morfologia di crescita prevista di Form MS: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 12.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -16.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0 1} 12.80 -16.43",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X52",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0-1} della morfologia di crescita prevista di Form MS: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 12.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -16.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0-1} 12.80 -16.43",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X53",
+   "categoria": "morfologia",
+   "proprieta": "faccia {1 0 0} della morfologia di crescita prevista di Form MS: % di area totale ed energia di attacco (Tabella 2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Total % area",
+     "valore": 14.59,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Eatt",
+     "valore": -16.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "{1 0 0} 14.59 -16.43",
+   "note": "Colonne: Total % area, Eatt (KJ/mol). Prevista (calcolo). Attribuzione della faccia alla forma ricostruita: vedi la voce con il rapporto d'aspetto della stessa forma."
+  },
+  {
+   "id": "X54",
+   "categoria": "morfologia",
+   "proprieta": "scelta delle facce piu' importanti: le piu' lente a crescere",
+   "valori": [],
+   "qualitativo": "le facce con le energie di attacco piu' basse in modulo crescono piu' lentamente e sono le piu' importanti",
+   "calcolato": true,
+   "citazione": "The faces with the lowest attachment energies (in terms of magnitude) are the slowest growing and are of more importance"
+  },
+  {
+   "id": "X55",
+   "categoria": "morfologia",
+   "proprieta": "energia di attacco di Form MS e comparsa precoce",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Eatt",
+     "forma": "F3",
+     "valore": -16.43,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Table 2 clearly shows that the magnitude of attachment energy of form MS is-16.43 which is highest of all the forms, and is responsible for its early appearance.",
+   "note": "Ripete il valore della Tabella 2 (-16.43 per tutte le facce di MS); qui con l'interpretazione degli autori."
+  },
+  {
+   "id": "X56",
+   "categoria": "morfologia",
+   "proprieta": "ordine di probabilita' di comparsa delle forme nel paesaggio energetico",
+   "valori": [],
+   "qualitativo": "probabilita' di comparsa MS > B > H > S, spiegata con l'energia di attacco",
+   "calcolato": true,
+   "citazione": "The appearance probability of the observed forms in lattice energy landscape (Form MS˃ Form B˃ Form H˃ Form S) can be explained easily on the basis of attachment energy",
+   "note": "Il simbolo «˃» e' come nel testo letto."
+  },
+  {
+   "id": "X57",
+   "categoria": "morfologia",
+   "proprieta": "rapporto d'aspetto e velocita' di crescita",
+   "valori": [],
+   "qualitativo": "velocita' di crescita ed energia di attacco inversamente legate al rapporto d'aspetto; crescita lenta della faccia MI = rapporto d'aspetto alto = morfologia a piastra o ad ago",
+   "calcolato": true,
+   "citazione": "The growth rate and attachment energy are inversely related to aspect ratio. Slower the growth rate of M. I. facet, higher will be its aspect ratio implying platelike or needle morphology."
+  },
+  {
+   "id": "X58",
+   "categoria": "altro",
+   "proprieta": "ordine di stabilita' dichiarato",
+   "valori": [
+    {
+     "testo": "MS<B<H<S"
+    }
+   ],
+   "qualitativo": "ordine di stabilita' MS < B < H < S (abstract)",
+   "citazione": "The stability ranking of nateglinide polymorphs follows the order: Form MS<Form B<Form H<Form S.",
+   "note": "Stesso ordine nella discussione («Thus, stability ranking of nateglinide polymorphs follows the order (Form MS<Form B<Form H<Form S)»), ricavato dall'energia di attacco e dal rapporto d'aspetto; e' il piu_stabile delle relazioni dell'estrazione principale."
+  },
+  {
+   "id": "X59",
+   "categoria": "morfologia",
+   "proprieta": "rapporto d'aspetto e stabilita' delle forme",
+   "valori": [],
+   "qualitativo": "energia di attacco e rapporto d'aspetto sono legati alla stabilita'; un rapporto d'aspetto alto potrebbe spiegare la mancata esistenza dei polimorfi predetti",
+   "calcolato": true,
+   "citazione": "The attachment energy and the aspect ratio, in a way, are also related to the stability of the polymorphs. Thus, stability ranking of nateglinide polymorphs follows the order (Form MS<Form B<Form H<Form S). The high aspect ratio may also be the reason for the nonexistence of the predicted polymorphs."
+  },
+  {
+   "id": "X60",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form H: confronto con la struttura di Gang Li et al. [16]",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "sistema e gruppo di H concordano con quelli di Gang Li et al. [16]",
+   "citazione": "Form H was found to exist in triclinic crystal system, (P-1 space group), which is in concordance with the results reported by Gang et al. [16]. However,",
+   "note": "Citato dal rif. 16. La frase continua dopo l'interruzione di pagina («the cell parameters are not same»)."
+  },
+  {
+   "id": "X61",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form H: celle diverse da quelle della letteratura",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "i parametri di cella non coincidono con quelli di Gang Li et al.; ipotesi: differenza nell'algoritmo di indicizzazione; la letteratura non descrive gruppo spaziale e impacchettamento",
+   "citazione": "the cell parameters are not same. The reason for this may be attributed to the difference in the indexing algorithm. Moreover, they have not described the space group and the packing arrangement.",
+   "note": "Citato dal rif. 16."
+  },
+  {
+   "id": "X62",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form H: impacchettamento lungo c",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "dimero ammide-ammide con disposizione ondulata legata da H lungo l'asse c, molecole parallele fra loro",
+   "citazione": "It appears as a dimer (amide-amide dimer), showing hydrogen bonded wavy arrangement of molecules along c axis in the crystal lattice lying parallel to one another.",
+   "note": "Il motivo e' gia' fra i motivi_hb della forma."
+  },
+  {
+   "id": "X63",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form S: tetragonale, strati a I perpendicolari",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [
+    {
+     "etichetta": "strati a I perpendicolari",
+     "valore": 2
+    },
+    {
+     "etichetta": "molecole per strato",
+     "valore": 4
+    }
+   ],
+   "qualitativo": "due strati a forma di I che si intersecano perpendicolarmente, con quattro molecole ciascuno",
+   "citazione": "The crystal structure of Form S as determined in the present study is tetragonal (P-42C) and the packing arrangement (fig. 4) shows two I-shaped intersecting perpendicular layers consisting of four molecules in each layer.",
+   "note": "«four» in lettere; il sistema e il gruppo sono gia' nella forma."
+  },
+  {
+   "id": "X64",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form S: disposizione di quattro molecole sulle facce anteriore e posteriore",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [
+    {
+     "etichetta": "molecole sulla faccia anteriore",
+     "valore": 4
+    },
+    {
+     "etichetta": "molecole sulla faccia posteriore",
+     "valore": 4
+    }
+   ],
+   "qualitativo": "quattro molecole sulla faccia anteriore e quattro sulla posteriore, in alternanza",
+   "citazione": "They are arranged in such a manner that four molecules appear on anterior and four on posterior face alternatively.",
+   "note": "«four» in lettere."
+  },
+  {
+   "id": "X65",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form S: confronto con la letteratura",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "la struttura di S non e' in accordo con quella della letteratura [16]; il confronto non e' possibile perche' i dettagli della determinazione con Jade non sono forniti",
+   "citazione": "The crystal structure of Form S as determined in the preset study is not in agreement with the literature [16]. The comparative profile for both the structures cannot be analyzed, as the procedural details concerning the structural determination from PXRD pattern using Jade software are not provided",
+   "note": "Citato dal rif. 16. «preset study» come scritto (refuso per present)."
+  },
+  {
+   "id": "X66",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form B: sistema, gruppo e novita' della struttura",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "Form B monoclina, gruppo C2; la struttura di B e MS non era stata esplorata",
+   "citazione": "The structural aspects of From B and MS have not been explored till date. Form B exists in monoclinic crystal system with C2 space group (fig. 5).",
+   "note": "«From B» come scritto."
+  },
+  {
+   "id": "X67",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form B: disposizione delle molecole nella cella",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "anelli benzenici (testa) delle due molecole centrali affacciati, anello ciclico e catena idrocarburica (coda) opposti; due molecole agli angoli con la testa fuori dalla cella",
+   "citazione": "The packing arrangement is in such a fashion that the benzene ring (head) of two center molecules faces each other whereas the cyclic ring and hydrocarbon chain (tail) are opposite to each other. Other two molecules are present at the corners, with the head emerging out of the unit cell while the tail is approaching each other in the unit cell."
+  },
+  {
+   "id": "X68",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form MS: sistema e gruppo",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "Form MS tetragonale, gruppo P-4",
+   "citazione": "Form MS exists in tetragonal crystal system with P-4 space group (fig. 6)."
+  },
+  {
+   "id": "X69",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form MS: bilayer ondulato e strati a zigzag",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "bilayer ondulato con tutti i legami H racchiusi lungo a; strati antiparalleli a zigzag visti lungo c",
+   "citazione": "The molecules are oriented like a rippled bilayer in which all the hydrogen bonds are sandwiched (along a axis). When viewed from c axis, the molecules seem to form zigzag antiparallel layers."
+  },
+  {
+   "id": "X70",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "mezzo delle misure fisico-chimiche",
+   "valori": [
+    {
+     "etichetta": "pH",
+     "valore": 7.4
+    }
+   ],
+   "qualitativo": "solubilita', IDR e entalpia di soluzione in tampone fosfato",
+   "citazione": "The physico-chemical parameters of all the polymorphs were evaluated in phosphate buffer pH 7.4.",
+   "note": "I valori sono in molecole."
+  },
+  {
+   "id": "X71",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "metodo della solubilita' all'equilibrio",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "eccesso di farmaco",
+     "unita": "mg",
+     "testo": "approx.5",
+     "circa": true,
+     "lettura_probabile": 5
+    },
+    {
+     "etichetta": "tampone fosfato",
+     "valore": 3,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "pH",
+     "valore": 7.4
+    },
+    {
+     "etichetta": "temperatura",
+     "valore": 37,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "durata",
+     "valore": 24,
+     "unita": "h"
+    },
+    {
+     "etichetta": "agitazione",
+     "valore": 200,
+     "unita": "rpm"
+    },
+    {
+     "etichetta": "membrana",
+     "valore": 0.45,
+     "unita": "μm"
+    },
+    {
+     "etichetta": "lunghezza d'onda UV",
+     "valore": 200,
+     "unita": "nm"
+    }
+   ],
+   "citazione": "The solubility studies were done by shaking an excess amount of drug (approx.5 mg) in 3 ml phosphate buffer pH 7.4, in water bath shaker (MSW-275 Macroscientific works, Delhi) at 37 °C for 24 h at 200 rpm. The resulting slurry was filtered through a 0.45μm membrane filter. The absorbance was measured at 200 nm with Lambda 25 UV/VIS spectrometer to determine the concentration of nateglinide.",
+   "note": "I valori di solubilita' sono in molecole. «approx.5 mg»: il punto dopo «approx» attacca il 5, che il controllo non riconosce come numero; lettura 5 mg."
+  },
+  {
+   "id": "X72",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "metodo della velocita' di dissoluzione intrinseca (IDR)",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "pH",
+     "valore": 7.4
+    },
+    {
+     "etichetta": "temperatura",
+     "valore": 37,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "agitazione",
+     "valore": 100,
+     "unita": "rpm"
+    },
+    {
+     "etichetta": "durata",
+     "valore": 3,
+     "unita": "h"
+    },
+    {
+     "etichetta": "lunghezza d'onda UV",
+     "valore": 200,
+     "unita": "nm"
+    }
+   ],
+   "citazione": "Intrinsic dissolution studies were performed on dissolution test apparatus, DS 8000 (Lab India Analyticals) in phosphate buffer pH 7.4 at 37 °C with 100 rpm for 3 h. The concentration of nateglinide was determined by measuring absorbance at 200 nm with Lambda 25 UV/VIS spectrometer.",
+   "note": "I valori di IDR sono in molecole."
+  },
+  {
+   "id": "X73",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "metodo dell'entalpia di soluzione",
+   "tecnica": "ISC",
+   "valori": [
+    {
+     "etichetta": "pH",
+     "valore": 7.4
+    },
+    {
+     "etichetta": "temperatura",
+     "valore": 37,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Enthalpy of the solution was determined by isoperibol solution calorimetry (ISC) (Calorimetry Science Corporation, UTAH, USA) model 4300 in phosphate buffer at pH 7.4 at 37 °C.",
+   "note": "I valori di DeltaHsol sono in molecole."
+  },
+  {
+   "id": "X74",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "entalpia molare di soluzione e reticolo cristallino",
+   "valori": [],
+   "qualitativo": "DeltaHsol e' legata all'energia di reticolo e distingue i polimorfi",
+   "citazione": "The molar enthalpy of solution (ΔHsol) is an important parameter, which is closely related with the lattice energy and can be used to distinguish different polymorphs."
+  },
+  {
+   "id": "X75",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "interpretazione di DeltaHsol: forma S con il reticolo piu' forte",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "il modulo piu' alto di DeltaHsol di S indica il reticolo piu' forte",
+   "citazione": "The highest magnitude of ΔHsol of Form S is indicates that it is associated with the strongest lattice as compared to other forms."
+  },
+  {
+   "id": "X76",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "interpretazione di solubilita' e IDR bassi di Form MS (discussione)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "la discussione parla di solubilita' e IDR bassi di Form MS come segno di reticolo forte",
+   "citazione": "Low solubility and low IDR of Form MS implies its strong crystal lattice, which is in concordance with the enthalpy of solution and thermal analysis data.",
+   "note": "Incoerenza dell'articolo: i Risultati danno a MS solubilita' e IDR alti (89.7 mg/100 ml; 0.496 mg/min/cm2) e a S bassi (71.3; 0.263), con DeltaHsol di MS la piu' bassa (1.2 KJ/mol)."
+  },
+  {
+   "id": "X77",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "DeltaHsol endotermico, diverso da quello di Gang Li et al.",
+   "valori": [],
+   "qualitativo": "DeltaHsol endotermico, con valori diversi da quelli di Gang Li et al., che hanno usato l'equazione di Van't Hoff dai dati di solubilita'",
+   "citazione": "The ΔHsol of polymorphs showed endothermic behavior with values different from that reported by Gang Li et al. It is worth mentioning that these authors have used Van’t Hoff’s equation to calculate the heat of solution from solubility data",
+   "note": "Citato dal rif. 33. Nessun valore numerico di Gang Li nel testo."
+  },
+  {
+   "id": "X78",
+   "categoria": "altro",
+   "proprieta": "brevetto del 1995: forme B e H",
+   "valori": [
+    {
+     "etichetta": "anno del brevetto",
+     "valore": 1995
+    }
+   ],
+   "citazione": "The first patent appeared in 1995, explicating the methods for preparing two forms i.e., Form B and H",
+   "note": "Citato dal rif. 8."
+  },
+  {
+   "id": "X79",
+   "categoria": "altro",
+   "proprieta": "brevetto con 26 modificazioni (polimorfi e solvati)",
+   "valori": [
+    {
+     "etichetta": "modificazioni (polimorfi e solvati)",
+     "valore": 26
+    }
+   ],
+   "citazione": "Later, a patent unfolded 26 modifications (polymorphs and solvates) of nateglinide, using different solvents, anti-solvents and their mixtures, along with their characterization",
+   "note": "Citato dal rif. 9."
+  },
+  {
+   "id": "X80",
+   "categoria": "altro",
+   "proprieta": "Form S riportata da Gang Li et al.",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "Form S gia' riportata da Gang Li et al.",
+   "citazione": "Gang Li, et al. with the assistance of PXRD and scanning electronic microscopy (SEM), have reported the existence of new crystal form i.e. Form S",
+   "note": "Citato dal rif. 10."
+  },
+  {
+   "id": "X81",
+   "categoria": "altro",
+   "proprieta": "struttura di Form H e S tentata da Gang Li et al. con Jade",
+   "valori": [],
+   "qualitativo": "Gang Li et al. hanno tentato di risolvere le strutture di H e S da PXRD senza descrivere atomi e legami H",
+   "citazione": "Gang Li, et al. has attempted to solve the structure of two polymorphs (Form H and S) from PXRD pattern using Jade software",
+   "note": "Citato dal rif. 16."
+  },
+  {
+   "id": "X82",
+   "categoria": "altro",
+   "proprieta": "Bruni et al.: purezza di H nelle miscele binarie B/H con il DSC",
+   "valori": [],
+   "qualitativo": "metodo DSC per valutare la purezza di H in miscele binarie B/H",
+   "citazione": "These researchers have also proposed the method for evaluating the purity of H polymorph in the binary mixture of B and H using diffraction scanning calorimetry (DSC)",
+   "note": "Citato dai rif. 11-13. «diffraction scanning calorimetry» come scritto (probabile refuso per differential)."
+  }
+ ]
+}

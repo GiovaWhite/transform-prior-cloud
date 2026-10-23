@@ -1,0 +1,1702 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/pharmaceutics16050623",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Cardarine/GW501516. Stesso composto (C1) di 10.3390/pharmaceutics17020152, dove GW-1...GW-5 compaiono solo come riferimento (Table 2 e intervallo delle energie reticolari coincidono con quelli di questo articolo). Nessun CCDC ne' refcode nel testo. Eventi: DSC dei cinque polimorfi (fusioni, perdita di solvente residuo di GW-1 e di GW-5, picchi esotermici ad alta temperatura), stabilita' a 40 °C e 75% RH. Non sono eventi: solubilita', liofilizzazione (preparazione), energie. Incoerenze del testo: (1) l'acetonitrile (solvente di GW-1) non e' nell'elenco dei solventi dello screening; (2) il torsionale C9-C12-S2-C13 di GW-1 e' 72.3° nel testo (3.1.1, con «S1») e −164.5° nella Table 2 (72.4° e' il valore di GW-2 in tabella); (3) la solubilita' di GW-2 e' 105 µg/mL nei risultati ma «from 120 to 212 µg/mL for GW-2» nella frase sulla liofilizzazione (120 e' il valore di GW-3); (4) parametri di cella di GW-5: indicizzazione nel testo (V = 2203.46 Å3) e raffinamento nella Table 3 (V = 2200.82 Å3); (5) entalpie di Table 4 negative per eventi endotermici e identiche per eventi diversi (−40.81 per GW-1 a 142 °C e GW-2; −9.06 per GW-4 e per GW-5 a 115 °C); (6) il testo dice «thiadiazol» e «acetate» per il tiazolo e il carbossile del composto; (7) «hydroxyl···thiazole N-H···O» e «carbonyl···carbonyl O-H···O» nella sezione Hirshfeld. La struttura di GW-5 e' per gli autori «possibly incomplete» (solvente forse non localizzato).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "2-[2-methyl-4-[[4-methyl-2-[4-(trifluoromethyl)phenyl]-1,3-thiazol-5-yl]methylsulfanyl]phenoxy]acetic acid (cardarine, GW501516)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "GW-1",
+   "etichette_alternative": [
+    "starting polymorph"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 4.75852,
+    "b": 19.4117,
+    "c": 22.6359,
+    "alpha": 90.0,
+    "beta": 94.909,
+    "gamma": 90.0,
+    "V": 2083.23,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K"
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2)\nCrystal system | monoclinic | monoclinic | monoclinic | orthorhombic\nSpace group | P21/c | P21/n | C2/c | Pca21\na/Å | 4.75852(13) | 10.92669(10) | 33.1318(18) | 35.1542(3)\nb/Å | 19.4117(6) | 9.68349(11) | 4.5002(2) | 4.906\nc/Å | 22.6359(6) | 19.7719(2) | 29.4838(11) | 24.1208(3)\nα/° | 90 | 90 | 90 | 90\nβ/° | 94.909(3) | 98.2167(10) | 107.691(5) | 90\nγ/° | 90 | 90 | 90 | 90\nVolume/Å3 | 2083.23(11) | 2070.56(4) | 4188.1(4) | 4159.78(6)\nZ | 4 | 4 | 8 | 8\nZ’ | 1 | 1 | 1 | 2"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "O-H···N hydrogen bonds (hydroxyl to thiazole ring)",
+     "chi": "hydroxyl group and thiazole ring",
+     "citazione": "Strong O-H···N hydrogen bonds connect the hydroxyl group with the thiazole rings, which are completed by C-H···O interactions."
+    }
+   ],
+   "citazione": "The recrystallization process of GW501516 in acetonitrile yielded the formation of the starting polymorph which crystallized in the centrosymmetric monoclinic P21/c space group. Its asymmetric unit contains one molecule",
+   "note": "Polimorfo di partenza, maggioritario nel campione commerciale. Cella e T dalla Table 1 (colonna GW-1). Il DSC mostra un picco a 82 °C per «residual solvent left after recrystallization» (E1): la formula in Table 1 non ha solvente, ma il testo non dice «anidro»; per questo anidro presunto. Il testo (3.1.1) scrive «Oxygen atoms from acetate participate in these interactions» (acetato per il gruppo carbossilico). Nessun CCDC ne' refcode nel testo."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "GW-2",
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 10.92669,
+    "b": 9.68349,
+    "c": 19.7719,
+    "alpha": 90.0,
+    "beta": 98.2167,
+    "gamma": 90.0,
+    "V": 2070.56,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K"
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2)\nCrystal system | monoclinic | monoclinic | monoclinic | orthorhombic\nSpace group | P21/c | P21/n | C2/c | Pca21\na/Å | 4.75852(13) | 10.92669(10) | 33.1318(18) | 35.1542(3)\nb/Å | 19.4117(6) | 9.68349(11) | 4.5002(2) | 4.906\nc/Å | 22.6359(6) | 19.7719(2) | 29.4838(11) | 24.1208(3)\nα/° | 90 | 90 | 90 | 90\nβ/° | 94.909(3) | 98.2167(10) | 107.691(5) | 90\nγ/° | 90 | 90 | 90 | 90\nVolume/Å3 | 2083.23(11) | 2070.56(4) | 4188.1(4) | 4159.78(6)\nZ | 4 | 4 | 8 | 8\nZ’ | 1 | 1 | 1 | 2"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "unidirectional O-H···N hydrogen bonds (acetate group to thiadiazol ring)",
+     "chi": "acetate (carboxyl) group and thiazole ring (scritto «thiadiazol»)",
+     "citazione": "among which are strong unidirectional O-H···N hydrogen bonds between the acetate group and the thiadiazol ring (Figure 3b)."
+    }
+   ],
+   "citazione": "The slow evaporation of GW501516 in a mixture of pentane and acetone yielded the formation of a new polymorph which crystallizes in the monoclinic crystal system (centrosymmetric P21/n space group) with one molecule in the asymmetric unit",
+   "note": "Il testo dice «Both samples are solvent free» per GW-2 e GW-3 (DSC): anidro. Cella e T dalla Table 1. Nessun CCDC ne' refcode nel testo."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "GW-3",
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2/c",
+   "cella": {
+    "a": 33.1318,
+    "b": 4.5002,
+    "c": 29.4838,
+    "alpha": 90.0,
+    "beta": 107.691,
+    "gamma": 90.0,
+    "V": 4188.1,
+    "Z": 8,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K"
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2)\nCrystal system | monoclinic | monoclinic | monoclinic | orthorhombic\nSpace group | P21/c | P21/n | C2/c | Pca21\na/Å | 4.75852(13) | 10.92669(10) | 33.1318(18) | 35.1542(3)\nb/Å | 19.4117(6) | 9.68349(11) | 4.5002(2) | 4.906\nc/Å | 22.6359(6) | 19.7719(2) | 29.4838(11) | 24.1208(3)\nα/° | 90 | 90 | 90 | 90\nβ/° | 94.909(3) | 98.2167(10) | 107.691(5) | 90\nγ/° | 90 | 90 | 90 | 90\nVolume/Å3 | 2083.23(11) | 2070.56(4) | 4188.1(4) | 4159.78(6)\nZ | 4 | 4 | 8 | 8\nZ’ | 1 | 1 | 1 | 2"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "hydroxyl···thiazole O-H···N bonds",
+     "chi": "hydroxyl group and thiazole ring",
+     "citazione": "Strong hydroxyl···thiazole O-H···N bonds combined with C-H···O involving oxygen atoms of the acetate group and C-H···π contacts are involved in overall crystal stability (Figure 4b)."
+    }
+   ],
+   "citazione": "The polymorph grown by recrystallization in isopropyl alcohol was established to crystallize in the C2/c monoclinic space group with one molecule in the asymmetric unit",
+   "note": "«Both samples are solvent free» (GW-2 e GW-3). Cella e T dalla Table 1. Differenza maggiore con GW-1: la rotazione dell'eterociclo centrale («the major variation between GW-1 and GW-3 is the rotation of the central heterocycle»)."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "GW-4",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pca21",
+   "cella": {
+    "a": 35.1542,
+    "b": 4.906,
+    "c": 24.1208,
+    "alpha": 90.0,
+    "beta": 90.0,
+    "gamma": 90.0,
+    "V": 4159.78,
+    "Z": 8,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K"
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "citazione": "Temperature/K | 293(2) | 293(2) | 293(2) | 293(2)\nCrystal system | monoclinic | monoclinic | monoclinic | orthorhombic\nSpace group | P21/c | P21/n | C2/c | Pca21\na/Å | 4.75852(13) | 10.92669(10) | 33.1318(18) | 35.1542(3)\nb/Å | 19.4117(6) | 9.68349(11) | 4.5002(2) | 4.906\nc/Å | 22.6359(6) | 19.7719(2) | 29.4838(11) | 24.1208(3)\nα/° | 90 | 90 | 90 | 90\nβ/° | 94.909(3) | 98.2167(10) | 107.691(5) | 90\nγ/° | 90 | 90 | 90 | 90\nVolume/Å3 | 2083.23(11) | 2070.56(4) | 4188.1(4) | 4159.78(6)\nZ | 4 | 4 | 8 | 8\nZ’ | 1 | 1 | 1 | 2"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(8) homosynthon (carboxyl···carboxyl O-H···O)",
+     "chi": "carboxyl groups of the two molecules (A and B) of the dimer",
+     "citazione": "Mutual carboxyl···carboxyl O-H···O hydrogen bonds which form a R22(8) homosynthon are present in the dimer formation."
+    }
+   ],
+   "citazione": "The fourth analyzed and reported polymorph of GW501516, found in the starting sample, crystallizes in a non-centrosymmetric space group (namely Pca21 of the orthorhombic crystal system). In this case, the asymmetric unit is found as a dimer comprising two individual molecules (denoted with A and B suffixes).",
+   "note": "Polimorfo minoritario trovato come cristallo singolo nel campione commerciale e mai riprodotto per ricristallizzazione. Due molecole indipendenti (A e B) nell'unita' asimmetrica (Z' = 2). In Table 1: parametro di Flack 0.54(2) e b = 4.906 senza incertezza (come scritti). Cella e T dalla Table 1. Nessun CCDC ne' refcode nel testo."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "GW-5",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 4.9088,
+    "b": 21.269,
+    "c": 21.312,
+    "alpha": 94.476,
+    "beta": 96.387,
+    "gamma": 92.795,
+    "V": 2200.82,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "PXRD"
+   },
+   "strutture": [
+    {
+     "fonte": "PXRD",
+     "citazione": "Chemical formula | C21H18F3NO3S2\nFormula weight (g/mol) | 453.48\nCrystal system | triclinic\nSpace group | P-1\nZ | 4\nZ’ | 2\na (Å) | 4.9088(7)\nb (Å) | 21.269(3)\nc (Å) | 21.312(4)\nA (°) | 94.476(13)\nΒ (°) | 96.387(13)\nγ (°) | 92.795(12)\nV (Å3) | 2200.82\nRwp (%) | 0.0751\nRp (%) | 0.0547\nρcalc (g/cm3) | 1.369"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "hydroxyl···thiazole O3B-H3B···N1A interactions within the asymmetric unit",
+     "chi": "hydroxyl group of molecule B and thiazole N of molecule A",
+     "citazione": "Within the asymmetric unit, the molecules are tightly bonded via hydroxyl···thiazole O3B-H3B···N1A interactions."
+    }
+   ],
+   "citazione": "It was found that this polymorph crystallizes centrosymmetrically in the triclinic P-1 space group with two individual molecules in the asymmetric unit (denoted with A and B suffixes, Figure 7a)",
+   "note": "Struttura risolta da dati di polvere (indicizzazione, Monte Carlo e Rietveld): nessun cristallo singolo adatto. Cella dalla Table 3 (raffinamento finale), senza T e con V = 2200.82 senza incertezza. Le etichette della tabella sono «A (°)» e «Β (°)» per alfa e beta (maiuscole rovinate dal PDF). Il testo (3.1.5) da' invece i parametri dell'indicizzazione: a = 4.9283, b = 21.2441, c = 21.2749 Å, α = 94.41, β = 96.34, γ = 92.84°, V = 2203.46 Å3 (nell'extra). Struttura che gli autori dicono possibilmente incompleta («a possibly incomplete crystal structure solving of GW-5»): «structural voids» (192.8 Å3, 8.8% della cella) e impronte di Hirshfeld che potrebbero indicare solvente non localizzato; il DSC mostra un endotermo a 115 °C per «disordered solvent». Tipo anidro presunto."
+  },
+  {
+   "id": "F6",
+   "etichetta": "[campione di partenza: miscela GW-1 + GW-4]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F4"
+   ],
+   "citazione": "The starting sample consists of a mixture of two polymorphs, namely GW-1 (which is found in the majority) and the minor phase (GW-4) which was selected for single-crystal diffraction analysis, but which was not reproduced further for another analysis.",
+   "note": "Il campione commerciale e' una miscela di due polimorfi: GW-1 in maggioranza, GW-4 in minoranza; proporzioni non date."
+  },
+  {
+   "id": "F7",
+   "composto": "C1",
+   "etichetta": "[GW-1 liofilizzato]",
+   "tipo": "non_specificato",
+   "citazione": "For polymorphs GW-1 and GW-2, we tried to improve the solubility by means of a freeze-drying method (for the other polymorphs, we did not try because there was not enough sample material for this method). Polymorphs GW-1 and GW-2 were dissolved in a mixture of ethanol and water and the vials were left open for 24 h, during which a part of the solvent evaporated. Following this, they were exposed to a temperature of −55 °C for two days, after which they underwent lyophilization.",
+   "note": "Campione di GW-1 dopo dissoluzione in etanolo/acqua e liofilizzazione: la forma solida non e' caratterizzata (il testo non dice se resti GW-1)."
+  },
+  {
+   "id": "F8",
+   "composto": "C1",
+   "etichetta": "[GW-2 liofilizzato]",
+   "tipo": "non_specificato",
+   "citazione": "For polymorphs GW-1 and GW-2, we tried to improve the solubility by means of a freeze-drying method (for the other polymorphs, we did not try because there was not enough sample material for this method). Polymorphs GW-1 and GW-2 were dissolved in a mixture of ethanol and water and the vials were left open for 24 h, during which a part of the solvent evaporated. Following this, they were exposed to a temperature of −55 °C for two days, after which they underwent lyophilization.",
+   "note": "Campione di GW-2 dopo dissoluzione in etanolo/acqua e liofilizzazione: la forma solida non e' caratterizzata."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "fonte_dati": "propria",
+   "citazione": "The GW-1 polymorph (−231.0 kJ/mol) shows a slightly higher stability than GW-2 (−223.5 kJ/mol), a fact that is also reflected in the melting point of 142 °C for GW-1 compared with 137 °C for GW-2.",
+   "condizioni": "stabilita' relativa dall'energia reticolare calcolata (CrystalExplorer, B3LYP/6-31G(d,p), cluster di 35 Å) e confrontata con il punto di fusione",
+   "note": "GW-1 «slightly higher stability» di GW-2: energie reticolari −231.0 e −223.5 kJ/mol; punti di fusione 142 e 137 °C.",
+   "certezza": "media"
+  },
+  {
+   "forme": [
+    "F4",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "fonte_dati": "propria",
+   "citazione": "The GW-4 polymorph is characterized by the lowest lattice energy in absolute value (195.7 kJ/mol), which is in agreement with the lowest melting point which occurs at 131 °C.",
+   "condizioni": "stabilita' relativa dall'energia reticolare calcolata (CrystalExplorer, B3LYP/6-31G(d,p), cluster di 35 Å) e confrontata con il punto di fusione",
+   "note": "GW-4 ha la piu' bassa energia reticolare in valore assoluto fra i cinque polimorfi (195.7 kJ/mol) e il punto di fusione piu' basso (131 °C): la frase e' per tutti i cinque; coppia ricavata dal complemento. Il testo aggiunge che GW-4 non si riproduce perche' il composto tende a impacchettarsi in forme di energia reticolare piu' bassa (GW-1, GW-2, GW-3).",
+   "certezza": "media",
+   "attribuzione_dedotta": true
+  },
+  {
+   "forme": [
+    "F4",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F2",
+   "fonte_dati": "propria",
+   "citazione": "The GW-4 polymorph is characterized by the lowest lattice energy in absolute value (195.7 kJ/mol), which is in agreement with the lowest melting point which occurs at 131 °C.",
+   "condizioni": "stabilita' relativa dall'energia reticolare calcolata (CrystalExplorer, B3LYP/6-31G(d,p), cluster di 35 Å) e confrontata con il punto di fusione",
+   "note": "Vedi la coppia GW-4/GW-1.",
+   "certezza": "media",
+   "attribuzione_dedotta": true
+  },
+  {
+   "forme": [
+    "F4",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "fonte_dati": "propria",
+   "citazione": "The GW-4 polymorph is characterized by the lowest lattice energy in absolute value (195.7 kJ/mol), which is in agreement with the lowest melting point which occurs at 131 °C.",
+   "condizioni": "stabilita' relativa dall'energia reticolare calcolata (CrystalExplorer, B3LYP/6-31G(d,p), cluster di 35 Å) e confrontata con il punto di fusione",
+   "note": "Vedi la coppia GW-4/GW-1.",
+   "certezza": "media",
+   "attribuzione_dedotta": true
+  },
+  {
+   "forme": [
+    "F4",
+    "F5"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F5",
+   "fonte_dati": "propria",
+   "citazione": "The GW-4 polymorph is characterized by the lowest lattice energy in absolute value (195.7 kJ/mol), which is in agreement with the lowest melting point which occurs at 131 °C.",
+   "condizioni": "stabilita' relativa dall'energia reticolare calcolata (CrystalExplorer, B3LYP/6-31G(d,p), cluster di 35 Å) e confrontata con il punto di fusione",
+   "note": "Coppia GW-4/GW-5: dalla frase sul valore piu' basso fra i cinque (195.7 contro 210.1 kJ/mol).",
+   "certezza": "media",
+   "attribuzione_dedotta": true
+  },
+  {
+   "forme": [
+    "F5",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "fonte_dati": "propria",
+   "citazione": "Polymorph GW-5, whose melting appears in two steps (139 and 145 °C), is close in its melting point to GW-1, GW-2, and GW-3 and is characterized by a lattice energy of 210.1 kJ/mol in absolute value that indicates a slightly lower stability than these",
+   "condizioni": "stabilita' relativa dall'energia reticolare calcolata (CrystalExplorer, B3LYP/6-31G(d,p), cluster di 35 Å) e confrontata con il punto di fusione",
+   "note": "GW-5 «slightly lower stability than these» (GW-1, GW-2, GW-3), energia reticolare 210.1 kJ/mol in valore assoluto.",
+   "certezza": "media",
+   "attribuzione_dedotta": true
+  },
+  {
+   "forme": [
+    "F5",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F2",
+   "fonte_dati": "propria",
+   "citazione": "Polymorph GW-5, whose melting appears in two steps (139 and 145 °C), is close in its melting point to GW-1, GW-2, and GW-3 and is characterized by a lattice energy of 210.1 kJ/mol in absolute value that indicates a slightly lower stability than these",
+   "condizioni": "stabilita' relativa dall'energia reticolare calcolata (CrystalExplorer, B3LYP/6-31G(d,p), cluster di 35 Å) e confrontata con il punto di fusione",
+   "note": "Vedi la coppia GW-5/GW-1.",
+   "certezza": "media",
+   "attribuzione_dedotta": true
+  },
+  {
+   "forme": [
+    "F5",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "fonte_dati": "propria",
+   "citazione": "Polymorph GW-5, whose melting appears in two steps (139 and 145 °C), is close in its melting point to GW-1, GW-2, and GW-3 and is characterized by a lattice energy of 210.1 kJ/mol in absolute value that indicates a slightly lower stability than these",
+   "condizioni": "stabilita' relativa dall'energia reticolare calcolata (CrystalExplorer, B3LYP/6-31G(d,p), cluster di 35 Å) e confrontata con il punto di fusione",
+   "note": "Vedi la coppia GW-5/GW-1.",
+   "certezza": "media",
+   "attribuzione_dedotta": true
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "picco": 82,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": -13.6,
+     "unita": "kJ/mol",
+     "tipo": "desolvatazione"
+    }
+   },
+   "citazioni": [
+    "For GW-1, the sharp endothermic peak seen at 142 °C is aligned with the melting point of the polymorph while the peak at 82 °C is due to the evaporation of residual solvent left after recrystallization.",
+    "Polymorph | Temperature (°C) | Enthalpy (kJ/mol)\nGW-1 | 82 | −13.60",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Picco a 82 °C di GW-1 per «evaporation of residual solvent left after recrystallization»: solvente residuo, non stechiometrico (la formula in Table 1 non ha solvente); il prodotto non e' caratterizzato (a = ignota). Entalpia −13.60 kJ/mol dalla Table 4 (segno negativo come scritto per un picco endotermico, convenzione non spiegata). Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto). Unita' kJ/mol solo nell'intestazione della Table 4 (evento «quasi»)."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "picco": 142,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": -40.81,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "For GW-1, the sharp endothermic peak seen at 142 °C is aligned with the melting point of the polymorph",
+    "Polymorph | Temperature (°C) | Enthalpy (kJ/mol)\nGW-1 | 82 | −13.60\n142 | −40.81",
+    "GW-1 | −77.1 | −21.9 | −189.4 | 57.4 | −231.0 | 142",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "da_evento": "E1",
+   "note": "Fusione di GW-1: picco endotermico netto a 142 °C (Table 4: 142 °C, −40.81 kJ/mol; Table 5: punto di fusione 142). Segno dell'entalpia come scritto, convenzione non spiegata; lo stesso −40.81 e' scritto per GW-2 (137 °C). Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto). Unita' kJ/mol solo nell'intestazione della Table 4 (evento «quasi»)."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "picco": 137,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": -40.81,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "The second polymorph, GW-2, is characterized by a melting point which peaks at 137 °C and polymorph GW-3 shows a melting point of 139 °C. Both samples are solvent free.",
+    "Polymorph | Temperature (°C) | Enthalpy (kJ/mol)\nGW-1 | 82 | −13.60\n142 | −40.81\nGW-2 | 137 | −40.81",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Fusione di GW-2: picco a 137 °C, campione senza solvente («solvent free»). Entalpia −40.81 kJ/mol dalla Table 4, come scritta (stesso valore di GW-1). Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto). Unita' kJ/mol solo nell'intestazione della Table 4 (evento «quasi»)."
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 139,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": -45.34,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "The second polymorph, GW-2, is characterized by a melting point which peaks at 137 °C and polymorph GW-3 shows a melting point of 139 °C. Both samples are solvent free.",
+    "Polymorph | Temperature (°C) | Enthalpy (kJ/mol)\nGW-1 | 82 | −13.60\n142 | −40.81\nGW-2 | 137 | −40.81\nGW-3 | 139 | −45.34",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Fusione di GW-3 a 139 °C (il testo non dice che sia un picco), campione senza solvente. Entalpia −45.34 kJ/mol dalla Table 4. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto). Unita' kJ/mol solo nell'intestazione della Table 4 (evento «quasi»)."
+  },
+  {
+   "id": "E5",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 131,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": -9.06,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "Figure 8d presents the DSC curve of the starting material (it comprises a mixture of two polymorphs: in the major quantity, the phase GW-1, and the minor, GW-4). A sharp endotherm at 144 °C is related to the majority phase in the sample (GW-1) whose melting point was assigned in Figure 8a at 142 °C while GW-4, which could not be reproduced, shows a melting point at 131 °C.",
+    "Polymorph | Temperature (°C) | Enthalpy (kJ/mol)\nGW-1 | 82 | −13.60\n142 | −40.81\nGW-2 | 137 | −40.81\nGW-3 | 139 | −45.34\nGW-4 | 131 | −9.06",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato",
+    "tipo": "miscela"
+   },
+   "pretrattamento": "campione di partenza: miscela di GW-1 (maggioranza) e GW-4 (minoranza), non riprodotto separatamente",
+   "note": "Il punto di fusione di GW-4 (131 °C) e' letto sulla traccia DSC del campione di partenza (Figure 8d), perche' GW-4 «could not be reproduced»; la fusione e' attribuita a GW-4 dagli autori. Entalpia −9.06 kJ/mol dalla Table 4 (stesso valore del primo endotermo di GW-5, 115 °C). Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto). Unita' kJ/mol solo nell'intestazione della Table 4 (evento «quasi»)."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "picco": 144,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Figure 8d presents the DSC curve of the starting material (it comprises a mixture of two polymorphs: in the major quantity, the phase GW-1, and the minor, GW-4). A sharp endotherm at 144 °C is related to the majority phase in the sample (GW-1) whose melting point was assigned in Figure 8a at 142 °C while GW-4, which could not be reproduced, shows a melting point at 131 °C.",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato",
+    "tipo": "miscela"
+   },
+   "pretrattamento": "campione di partenza: miscela di GW-1 (maggioranza) e GW-4 (minoranza)",
+   "note": "Endotermo netto a 144 °C del campione di partenza (miscela), attribuito alla fase maggioritaria GW-1 («whose melting point was assigned in Figure 8a at 142 °C»). Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto)."
+  },
+  {
+   "id": "E7",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "picco": 115,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": -9.06,
+     "unita": "kJ/mol",
+     "tipo": "desolvatazione"
+    }
+   },
+   "citazioni": [
+    "The melting point of GW-5 occurs in two steps at a temperature of 139 and 145 °C; prior to its melting point, an endotherm can be seen at 115 °C related to the loss of disordered solvent possibly located inside structural voids.",
+    "Polymorph | Temperature (°C) | Enthalpy (kJ/mol)\nGW-1 | 82 | −13.60\n142 | −40.81\nGW-2 | 137 | −40.81\nGW-3 | 139 | −45.34\nGW-4 | 131 | −9.06\nGW-5 | 115 | −9.06",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Endotermo a 115 °C prima della fusione di GW-5, «related to the loss of disordered solvent possibly located inside structural voids»: attribuzione ipotetica («possibly»); solvente non stechiometrico e non localizzato per diffrazione; a = ignota. Entalpia −9.06 kJ/mol dalla Table 4 (come per la fusione di GW-4). Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto). Unita' kJ/mol solo nell'intestazione della Table 4 (evento «quasi»)."
+  },
+  {
+   "id": "E8",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "picchi": [
+      139,
+      145
+     ],
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpie": [
+     {
+      "tipo": "fusione",
+      "grandezza": {
+       "valore": -18.13,
+       "unita": "kJ/mol"
+      },
+      "nota": "primo passo, 139 °C (Table 4)"
+     },
+     {
+      "tipo": "fusione",
+      "grandezza": {
+       "valore": -4.53,
+       "unita": "kJ/mol"
+      },
+      "nota": "secondo passo, 145 °C (Table 4)"
+     }
+    ]
+   },
+   "citazioni": [
+    "The melting point of GW-5 occurs in two steps at a temperature of 139 and 145 °C; prior to its melting point, an endotherm can be seen at 115 °C",
+    "Polymorph | Temperature (°C) | Enthalpy (kJ/mol)\nGW-1 | 82 | −13.60\n142 | −40.81\nGW-2 | 137 | −40.81\nGW-3 | 139 | −45.34\nGW-4 | 131 | −9.06\nGW-5 | 115 | −9.06\n139 | −18.13\n145 | −4.53",
+    "GW-5 | −84.4 | −19.7 | −151.6 | 45.6 | −210.1 | 139 and 145",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "da_evento": "E7",
+   "note": "Fusione di GW-5 in due passi a 139 e 145 °C (Table 4: −18.13 e −4.53 kJ/mol; Table 5: «139 and 145»). Segno delle entalpie come scritto. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto). Unita' kJ/mol solo nell'intestazione della Table 4 (evento «quasi»)."
+  },
+  {
+   "id": "E9",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 270,
+     "max": 290,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 270,
+       "max": 290,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "degradation and oxidation",
+   "note": "GW-1: primo picco esotermico ad alta temperatura (270–290 °C), «degradation and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto)."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 360,
+     "max": 370,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 360,
+       "max": 370,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "decomposition and oxidation",
+   "note": "GW-1: secondo picco esotermico ad alta temperatura (360–370 °C), «decomposition and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto)."
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 270,
+     "max": 290,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 270,
+       "max": 290,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "degradation and oxidation",
+   "note": "GW-2: primo picco esotermico ad alta temperatura (270–290 °C), «degradation and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto)."
+  },
+  {
+   "id": "E12",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 360,
+     "max": 370,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 360,
+       "max": 370,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "decomposition and oxidation",
+   "note": "GW-2: secondo picco esotermico ad alta temperatura (360–370 °C), «decomposition and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto)."
+  },
+  {
+   "id": "E13",
+   "da": "F3",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 270,
+     "max": 290,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 270,
+       "max": 290,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "degradation and oxidation",
+   "note": "GW-3: primo picco esotermico ad alta temperatura (270–290 °C), «degradation and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto)."
+  },
+  {
+   "id": "E14",
+   "da": "F3",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 360,
+     "max": 370,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 360,
+       "max": 370,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "decomposition and oxidation",
+   "note": "GW-3: secondo picco esotermico ad alta temperatura (360–370 °C), «decomposition and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto)."
+  },
+  {
+   "id": "E15",
+   "da": "F4",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 270,
+     "max": 290,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 270,
+       "max": 290,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "degradation and oxidation",
+   "note": "GW-4: primo picco esotermico ad alta temperatura (270–290 °C), «degradation and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto). Per GW-4 la traccia e' quella del campione di partenza (miscela)."
+  },
+  {
+   "id": "E16",
+   "da": "F4",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 360,
+     "max": 370,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 360,
+       "max": 370,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "decomposition and oxidation",
+   "note": "GW-4: secondo picco esotermico ad alta temperatura (360–370 °C), «decomposition and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto). Per GW-4 la traccia e' quella del campione di partenza (miscela)."
+  },
+  {
+   "id": "E17",
+   "da": "F5",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 270,
+     "max": 290,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 270,
+       "max": 290,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "degradation and oxidation",
+   "note": "GW-5: primo picco esotermico ad alta temperatura (270–290 °C), «degradation and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto)."
+  },
+  {
+   "id": "E18",
+   "da": "F5",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 360,
+     "max": 370,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge (70 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 360,
+       "max": 370,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "All five polymorphs exhibit similar thermal behavior at high temperatures and present two exothermic peaks, the first of which is between 270 and 290 °C (associated with degradation and oxidation) and the second between 360 and 370 °C (associated with decomposition and oxidation).",
+    "The measurement of DSC traces was undertaken with a Shimadzu DTG-60H scanning calorimeter (Shimadzu, Kyoto, Japan). The samples were heated using a closed alumina crucible with a perforated lid with a heating rate of 10 °C/min up to 400 °C under dry nitrogen purge (70 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "passo": "decomposition and oxidation",
+   "note": "GW-5: secondo picco esotermico ad alta temperatura (360–370 °C), «decomposition and oxidation»; frase unica per le cinque forme (un evento per forma e per picco). Avviene sopra la fusione della stessa traccia. Crogiolo: «closed alumina crucible with a perforated lid» (numero di fori non detto)."
+  },
+  {
+   "id": "E19",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": null,
+     "max": 2,
+     "unita": "months",
+     "tipo": "conservazione",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Therefore, storage in the climatic room where the polymorphs are exposed to a certain humidity and temperature regime (relative humidity of 75% and temperature of 40 °C) is necessary to investigate the stability.",
+    "The samples were kept for up to two months in the climatic chamber and X-ray diffraction patterns were recorded at certain time intervals (24 h, one week, two weeks, one month, and two months). In Figure S4 (Supporting Information) the comparisons between the patterns are presented. No significant changes were recorded over time, suggesting that the samples are stable and do not undergo phase transitions."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_transizione_di_fase",
+   "copertura": "parte_non_detta",
+   "note": "Stabilita' di GW-1 a 40 °C e 75% RH fino a due mesi (PXRD a 24 h, una settimana, due settimane, un mese e due mesi): «No significant changes were recorded over time». La frase dice «the polymorphs» / «the samples» senza elencarli: sono stati presi i quattro polimorfi riprodotti in quantita' (GW-1, GW-2, GW-3, GW-5); GW-4 non era riproducibile e non e' detto che sia stato incluso. Certezza bassa."
+  },
+  {
+   "id": "E20",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": null,
+     "max": 2,
+     "unita": "months",
+     "tipo": "conservazione",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Therefore, storage in the climatic room where the polymorphs are exposed to a certain humidity and temperature regime (relative humidity of 75% and temperature of 40 °C) is necessary to investigate the stability.",
+    "The samples were kept for up to two months in the climatic chamber and X-ray diffraction patterns were recorded at certain time intervals (24 h, one week, two weeks, one month, and two months). In Figure S4 (Supporting Information) the comparisons between the patterns are presented. No significant changes were recorded over time, suggesting that the samples are stable and do not undergo phase transitions."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_transizione_di_fase",
+   "copertura": "parte_non_detta",
+   "note": "Stabilita' di GW-2 a 40 °C e 75% RH fino a due mesi (PXRD a 24 h, una settimana, due settimane, un mese e due mesi): «No significant changes were recorded over time». La frase dice «the polymorphs» / «the samples» senza elencarli: sono stati presi i quattro polimorfi riprodotti in quantita' (GW-1, GW-2, GW-3, GW-5); GW-4 non era riproducibile e non e' detto che sia stato incluso. Certezza bassa."
+  },
+  {
+   "id": "E21",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": null,
+     "max": 2,
+     "unita": "months",
+     "tipo": "conservazione",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Therefore, storage in the climatic room where the polymorphs are exposed to a certain humidity and temperature regime (relative humidity of 75% and temperature of 40 °C) is necessary to investigate the stability.",
+    "The samples were kept for up to two months in the climatic chamber and X-ray diffraction patterns were recorded at certain time intervals (24 h, one week, two weeks, one month, and two months). In Figure S4 (Supporting Information) the comparisons between the patterns are presented. No significant changes were recorded over time, suggesting that the samples are stable and do not undergo phase transitions."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_transizione_di_fase",
+   "copertura": "parte_non_detta",
+   "note": "Stabilita' di GW-3 a 40 °C e 75% RH fino a due mesi (PXRD a 24 h, una settimana, due settimane, un mese e due mesi): «No significant changes were recorded over time». La frase dice «the polymorphs» / «the samples» senza elencarli: sono stati presi i quattro polimorfi riprodotti in quantita' (GW-1, GW-2, GW-3, GW-5); GW-4 non era riproducibile e non e' detto che sia stato incluso. Certezza bassa."
+  },
+  {
+   "id": "E22",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": null,
+     "max": 2,
+     "unita": "months",
+     "tipo": "conservazione",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Therefore, storage in the climatic room where the polymorphs are exposed to a certain humidity and temperature regime (relative humidity of 75% and temperature of 40 °C) is necessary to investigate the stability.",
+    "The samples were kept for up to two months in the climatic chamber and X-ray diffraction patterns were recorded at certain time intervals (24 h, one week, two weeks, one month, and two months). In Figure S4 (Supporting Information) the comparisons between the patterns are presented. No significant changes were recorded over time, suggesting that the samples are stable and do not undergo phase transitions."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_transizione_di_fase",
+   "copertura": "parte_non_detta",
+   "note": "Stabilita' di GW-5 a 40 °C e 75% RH fino a due mesi (PXRD a 24 h, una settimana, due settimane, un mese e due mesi): «No significant changes were recorded over time». La frase dice «the polymorphs» / «the samples» senza elencarli: sono stati presi i quattro polimorfi riprodotti in quantita' (GW-1, GW-2, GW-3, GW-5); GW-4 non era riproducibile e non e' detto che sia stato incluso. Certezza bassa."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Crystalline white powder of GW501516 was received from Wuhan Shu Mai Technology Co. (Wuhan, China)",
+    "The starting sample consists of a mixture of two polymorphs, namely GW-1 (which is found in the majority) and the minor phase (GW-4) which was selected for single-crystal diffraction analysis, but which was not reproduced further for another analysis."
+   ],
+   "note": "Campione commerciale: polvere cristallina bianca, miscela di due polimorfi (GW-1 in maggioranza, GW-4 in minoranza)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 3,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": null,
+    "testo": "several weeks"
+   },
+   "rapporto_solido_solvente": "GW501516 (10 mg) ... solvents (1 mL)",
+   "citazioni": [
+    "To obtain new polymorphs, a screening was undertaken in a variety of solvents and solvent mixtures. GW501516 (10 mg) with a purity of 99% was dissolved in a wide range of solvents (1 mL) after which the solutions were heated to approximately 40 °C and were allowed to cool to 3 °C. The vials were covered with parafilm in which very small holes were made; the solvents were left to evaporate slowly for several weeks.",
+    "The recrystallization process of GW501516 in acetonitrile yielded the formation of the starting polymorph",
+    "(i)GW-1 (starting polymorph) from acetonitrile;"
+   ],
+   "note": "Protocollo di screening: 10 mg di GW501516 (purezza 99%) in 1 mL di solvente, soluzioni scaldate a circa 40 °C e lasciate raffreddare a 3 °C, in vial coperte da parafilm con piccoli fori, evaporazione lenta per «several weeks». Il testo non dice la temperatura a cui avviene l'evaporazione: nel campo si e' messa quella di arrivo del raffreddamento (3 °C). L'acetonitrile non e' nell'elenco dei solventi usati nello screening («The complete list of solvents used is the following ...»): incoerenza del testo."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "pentane",
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 3,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": null,
+    "testo": "several weeks"
+   },
+   "rapporto_solido_solvente": "GW501516 (10 mg) ... solvents (1 mL)",
+   "citazioni": [
+    "To obtain new polymorphs, a screening was undertaken in a variety of solvents and solvent mixtures. GW501516 (10 mg) with a purity of 99% was dissolved in a wide range of solvents (1 mL) after which the solutions were heated to approximately 40 °C and were allowed to cool to 3 °C. The vials were covered with parafilm in which very small holes were made; the solvents were left to evaporate slowly for several weeks.",
+    "(ii)GW-2 from mixture of pentane and acetone;",
+    "The slow evaporation of GW501516 in a mixture of pentane and acetone yielded the formation of a new polymorph",
+    "The solvent mixtures used for polymorph screening were 1:1 volumetric ratios of 2,2,2-trifluoroethanol with tetrahydrofuran, methanol with tetrahydrofouran, ethyl acetate with dimethylformamide, chloroform with isopropyl alcohol, ethyl acetate with acetone, diisopropyl ether with acetic acid, and pentane with acetone."
+   ],
+   "note": "Protocollo di screening: 10 mg di GW501516 (purezza 99%) in 1 mL di solvente, soluzioni scaldate a circa 40 °C e lasciate raffreddare a 3 °C, in vial coperte da parafilm con piccoli fori, evaporazione lenta per «several weeks». Il testo non dice la temperatura a cui avviene l'evaporazione: nel campo si e' messa quella di arrivo del raffreddamento (3 °C). Miscela pentano/acetone (rapporto 1:1 volumetrico fra quelli dello screening: «1:1 volumetric ratios of ... pentane with acetone»).",
+   "solventi_alternativi": false
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "isopropyl alcohol"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 3,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": null,
+    "testo": "several weeks"
+   },
+   "rapporto_solido_solvente": "GW501516 (10 mg) ... solvents (1 mL)",
+   "citazioni": [
+    "To obtain new polymorphs, a screening was undertaken in a variety of solvents and solvent mixtures. GW501516 (10 mg) with a purity of 99% was dissolved in a wide range of solvents (1 mL) after which the solutions were heated to approximately 40 °C and were allowed to cool to 3 °C. The vials were covered with parafilm in which very small holes were made; the solvents were left to evaporate slowly for several weeks.",
+    "(iii)GW-3 in isopropyl alcohol;",
+    "The polymorph grown by recrystallization in isopropyl alcohol was established to crystallize in the C2/c monoclinic space group"
+   ],
+   "note": "Protocollo di screening: 10 mg di GW501516 (purezza 99%) in 1 mL di solvente, soluzioni scaldate a circa 40 °C e lasciate raffreddare a 3 °C, in vial coperte da parafilm con piccoli fori, evaporazione lenta per «several weeks». Il testo non dice la temperatura a cui avviene l'evaporazione: nel campo si e' messa quella di arrivo del raffreddamento (3 °C)."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methyl isobutyl ketone"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 3,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": null,
+    "testo": "several weeks"
+   },
+   "rapporto_solido_solvente": "GW501516 (10 mg) ... solvents (1 mL)",
+   "citazioni": [
+    "To obtain new polymorphs, a screening was undertaken in a variety of solvents and solvent mixtures. GW501516 (10 mg) with a purity of 99% was dissolved in a wide range of solvents (1 mL) after which the solutions were heated to approximately 40 °C and were allowed to cool to 3 °C. The vials were covered with parafilm in which very small holes were made; the solvents were left to evaporate slowly for several weeks.",
+    "(iv)GW-5 in methyl isobutyl ketone;",
+    "(GW-5, recrystallized in methyl isobutyl ketone)"
+   ],
+   "note": "Protocollo di screening: 10 mg di GW501516 (purezza 99%) in 1 mL di solvente, soluzioni scaldate a circa 40 °C e lasciate raffreddare a 3 °C, in vial coperte da parafilm con piccoli fori, evaporazione lenta per «several weeks». Il testo non dice la temperatura a cui avviene l'evaporazione: nel campo si e' messa quella di arrivo del raffreddamento (3 °C). Cristalli non adatti per SCXRD: struttura da polvere."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "(v)GW-4 was found in the bulk of the starting sample as single crystals but was not further reproduced.",
+    "The starting sample consists of a mixture of two polymorphs, namely GW-1 (which is found in the majority) and the minor phase (GW-4) which was selected for single-crystal diffraction analysis, but which was not reproduced further for another analysis."
+   ],
+   "note": "GW-4 e' stato trovato come cristallo singolo nel campione di partenza (non da una cristallizzazione dello screening) e usato per la diffrazione."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "GW-4, found in the start probe, has always recrystallized centrosymmetrically upon dissolution and slow evaporation in various solvents. This is due to the lower overall lattice energy compared with the other polymorphs.",
+    "Furthermore, this is the reason why the polymorph GW-4 could not be reproduced by recrystallization, because the compound tends to pack into forms that have lower overall crystal lattice energy (such as GW-1, GW-2, or GW-3)."
+   ],
+   "note": "GW-4 non si riottiene per ricristallizzazione: «has always recrystallized centrosymmetrically upon dissolution and slow evaporation in various solvents»; gli autori lo attribuiscono alla minore energia reticolare di GW-4 rispetto agli altri polimorfi. Non e' un evento: le forme ottenute dipendono dal solvente (prep. di GW-1, GW-2, GW-3, GW-5)."
+  },
+  {
+   "forme": [
+    "F7",
+    "F8"
+   ],
+   "metodo": "liofilizzazione",
+   "solventi": [
+    "ethanol and water"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": -55,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "days",
+    "tipo": "processo"
+   },
+   "pretrattamento": "GW-1 e GW-2 sciolti in una miscela di etanolo e acqua, vial lasciate aperte 24 h per evaporare in parte il solvente",
+   "citazioni": [
+    "Polymorphs GW-1 and GW-2 were dissolved in a mixture of ethanol and water and the vials were left open for 24 h, during which a part of the solvent evaporated. Following this, they were exposed to a temperature of −55 °C for two days, after which they underwent lyophilization."
+   ],
+   "note": "Liofilizzazione per migliorare la solubilita' di GW-1 e GW-2 (non provata per gli altri polimorfi per mancanza di campione): dissoluzione in etanolo/acqua, 24 h a vial aperte, poi due giorni a −55 °C e liofilizzazione. Nel campo temperatura/tempo: il passaggio a −55 °C per due giorni; le 24 h di evaporazione sono nel pretrattamento. Le proporzioni della miscela etanolo/acqua non sono dette. La forma solida ottenuta non e' caratterizzata."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 75,
+      "unita": "µg/mL",
+      "circa": true
+     },
+     "metodo": "aggiunte successive di acqua a una quantita' nota di polimorfo a temperatura ambiente di 21 °C (due misure, media), verifica per UV-VIS; valori «preliminary» e «roughly»",
+     "calcolato": false,
+     "citazione": "roughly 75 µg/mL for GW-1"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F2",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 105,
+      "unita": "µg/mL",
+      "circa": true
+     },
+     "metodo": "aggiunte successive di acqua a una quantita' nota di polimorfo a temperatura ambiente di 21 °C (due misure, media), verifica per UV-VIS; valori «preliminary» e «roughly»",
+     "calcolato": false,
+     "citazione": "105 µg/mL for GW-2"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F3",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 120,
+      "unita": "µg/mL",
+      "circa": true
+     },
+     "metodo": "aggiunte successive di acqua a una quantita' nota di polimorfo a temperatura ambiente di 21 °C (due misure, media), verifica per UV-VIS; valori «preliminary» e «roughly»",
+     "calcolato": false,
+     "citazione": "120 µg/mL for GW-3"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F5",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 91,
+      "unita": "µg/mL",
+      "circa": true
+     },
+     "metodo": "aggiunte successive di acqua a una quantita' nota di polimorfo a temperatura ambiente di 21 °C (due misure, media), verifica per UV-VIS; valori «preliminary» e «roughly»",
+     "calcolato": false,
+     "citazione": "91 µg/mL for GW-5"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F7",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 187,
+      "unita": "µg/mL"
+     },
+     "metodo": "campione liofilizzato di GW-1; misura come sopra",
+     "calcolato": false,
+     "citazione": "Thus, the solubility increased from 75 to 187 µg/mL for GW-1"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F8",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 212,
+      "unita": "µg/mL"
+     },
+     "metodo": "campione liofilizzato di GW-2; misura come sopra",
+     "calcolato": false,
+     "citazione": "and from 120 to 212 µg/mL for GW-2."
+    },
+    {
+     "tipo": "solubilita",
+     "solvente": "water",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "slightly soluble"
+     },
+     "citazione": "and the fact that it is slightly soluble in water"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "high flexibility of the carbon-sulfur (C12)-(S2) bond at the methylsulfanyl group and, to a lesser extent, the C20-O1 bond between the acetate group and the phenoxy moiety",
+     "citazione": "the ease of crystallizing in new polymorphs is mainly due to the high flexibility of the carbon-sulfur (C12)-(S2) bond at the methylsulfanyl group and the C20-O1 bond between the acetate group and phenoxy moiety."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "two-plane shape at the methylsulfanyl group",
+     "citazione": "Its asymmetric unit contains one molecule which is built in a two-plane shape at the methylsulfanyl group (Figure 2a)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "twisted shape at the methylsulfanyl and acetate group",
+     "citazione": "with one molecule in the asymmetric unit, which adopts a twisted shape at the methylsulfanyl and acetate group (Figure 3a)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F3",
+     "testo": "roughly two-plane shape geometry connected by the C12-S2 bond; major variation with GW-1 is the rotation of the central heterocycle",
+     "citazione": "with one molecule in the asymmetric unit which adopts a roughly two-plane shape geometry connected by a C12-S2 bond at the methylsulfanyl group (Figure 4a)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F4",
+     "testo": "molecules A and B with two plane-like conformations linked by the C12-S2 bond; approximately related by mirroring, with the fluorine atoms rotated",
+     "citazione": "Both molecules depict two plane-like conformations linked by the C12-S2 bond (Figure 5a)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F5",
+     "testo": "two planes twisted towards each other in molecule A and almost perpendicular in molecule B; acetate fragment bent in B",
+     "citazione": "which are twisted towards each other for molecule A and almost perpendicular to molecule B. For B it can be noted that the acetate fragment is bent as well."
+    }
+   ]
+  }
+ ]
+}

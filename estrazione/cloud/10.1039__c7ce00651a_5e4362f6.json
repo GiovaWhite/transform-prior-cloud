@@ -1,0 +1,2823 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1039/c7ce00651a",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "1531947",
+  "1531948",
+  "1531949",
+  "1531950",
+  "1531951",
+  "1531952",
+  "1531953",
+  "1531954",
+  "1531955",
+  "1531956",
+  "1531957",
+  "1531958",
+  "1531959",
+  "1531960",
+  "1531961",
+  "1531962",
+  "1531963"
+ ],
+ "note": "Articolo su forme solide di lonidamina (LON): nove materiali multicomponente con coformeri farmaceutici (cocristalli, sali, strutture ibride). Gli eventi sono le sintesi per solvent drop grinding (4), le fusioni e le decomposizioni in DSC/HSM, la dissociazione in sospensione e la stabilita' accelerata. Non estratto come evento: lo screening per macinazione con 87 coformeri (esiti nel supplementare), le misure DVS (aumento di massa di LON-IMID.EtOAc 1.9 % e LON-HALO.3H2O 2.6 % attribuito a captazione d'acqua nei vuoti, senza controllo del solido dopo la DVS: sono in molecole come igroscopicita'; il testo dice che solo questi due campioni superano 1 %, senza dare valori per gli altri), le dissoluzioni da compressa (solo velocita' e solubilita' apparenti), le coppie polimorfe note da letteratura. Terzo polimorfo di LON «assumed as a new γ-phase» (brevetto di Xinmin et al.), senza dati: non e' una forma estratta. Il sale sodico e' citato come forma in commercio senza dati. Cocristalli con coformeri non farmaceutici (ESI sezione 6.2) e «LON-4,4BIPY co-crystals» (citato solo fra gli strumenti SCXRD) non sono estratti. pKa predetti con MarvinSketch: nessun valore nel testo. CCDC 1531947-1531963 (intervallo espanso in elenco nel campo ccdc) sono per tutte le strutture dell'articolo (17 numeri, anche per forme non estratte), senza attribuzione alle forme. Incoerenze dell'articolo: (1) LON-HALO e' «trihydrate»/«3H2O» ma due volte «2H2O»; (2) il testo dice che tutti i sali tranne LON-IMID.EtOAc fondono piu' in alto di LON, ma LON-HALO.3H2O ha Tonset 104.7 contro 204.6 °C (Tabella 1); (3) LON-PIPE e' «2:1» nella struttura, «1:1 salt» nella parte sperimentale, con «34.03 mg, 0.05 mmol»; (4) decomposizione di LON-HALO a 233 °C (Tabella 1) contro «around 275 °C» (testo); (5) la DSC separa perdita d'acqua (60-80 °C) e fusione (105-125 °C) di LON-HALO, l'HSM le dice simultanee fra 75 e 125 °C; (6) colonne della Tabella 1 e intestazioni della Tabella 2 sono rimescolate dal PDF: la colonna della solubilita' (mg/mL) e' attribuita con il rapporto «Ratio to API» (0.130/0.115 = 1.13...) e con il testo («highest solubility ... PIPE, followed by IMID and HALO»); «148-152» e' un numero isolato fuori dalla tabella. Il testo e' molto rimescolato (due colonne): le citazioni sono prese pezzo per pezzo.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "lonidamine (1-(2,4-dichlorobenzyl)-1H-indazole-3-carboxylic acid, LON)",
+   "smiles": null,
+   "nome_scritto": null
+  },
+  {
+   "id": "C2",
+   "nome": "benzamide (BENZ)",
+   "smiles": null,
+   "nome_scritto": null
+  },
+  {
+   "id": "C3",
+   "nome": "haloperidol (HALO)",
+   "smiles": null,
+   "nome_scritto": null
+  },
+  {
+   "id": "C4",
+   "nome": "imidazole (IMID)",
+   "smiles": null,
+   "nome_scritto": null
+  },
+  {
+   "id": "C5",
+   "nome": "isonicotinamide (ISO)",
+   "smiles": null,
+   "nome_scritto": null
+  },
+  {
+   "id": "C6",
+   "nome": "melamine (MEL)",
+   "smiles": null,
+   "nome_scritto": null
+  },
+  {
+   "id": "C7",
+   "nome": "nicotinamide (NICO)",
+   "smiles": null,
+   "nome_scritto": null
+  },
+  {
+   "id": "C8",
+   "nome": "piperazine (PIPE)",
+   "smiles": null,
+   "nome_scritto": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "α-LON",
+   "etichette_alternative": [
+    "α-form",
+    "form I (brevetto)"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "acid∙∙∙acid dimers connected through C-H∙∙∙O interactions into chains",
+     "chi": "carboxylic acid–carboxylic acid dimers; C-H∙∙∙O",
+     "citazione": "Both the polymorphs form acid∙∙∙acid dimers which are connected through C-H∙∙∙O interactions into chains (Figure 1)."
+    }
+   ],
+   "citazione": "The crystal structure of the latter is reported herein.",
+   "note": "Polimorfo α di LON: struttura riportata in questo lavoro («the latter» = α-form), misurata a 100 K (parte sperimentale: «All data was collected at 100K»). Cella, gruppo e CCDC sono nel supplementare (ESI sezione 7): nessun dato nel testo. «α- and β- correspond respectively to forms I and II in the patent». Tipo anidro presunto: l'articolo non scrive «anhydrous». CCDC: intervallo dell'articolo non attribuibile alle singole forme (campo ccdc dell'articolo)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "β-LON",
+   "etichette_alternative": [
+    "β-form",
+    "form II (brevetto)"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "acid∙∙∙acid dimers connected through C-H∙∙∙O interactions into chains",
+     "chi": "carboxylic acid–carboxylic acid dimers; C-H∙∙∙O",
+     "citazione": "Both the polymorphs form acid∙∙∙acid dimers which are connected through C-H∙∙∙O interactions into chains (Figure 1)."
+    }
+   ],
+   "citazione": "Three polymorphic forms of LON are known, two of which (α and β) were reported by Benetollo",
+   "note": "Polimorfo β di LON, noto dalla letteratura (struttura di Benetollo et al.): nessuna cella ne' CCDC nel testo. Cristalli di β-LON ottenuti da diversi solventi (preparazione). Terzo polimorfo noto, «assumed as a new γ-phase» (brevetto), senza dati: non e' una forma estratta (vedi nota dell'articolo)."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "LON (bulk material, α+β mixture)",
+   "etichette_alternative": [
+    "LON"
+   ],
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F2"
+   ],
+   "proporzioni": null,
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "It is noted that the bulk LON material used for all experiments in our study is a mixture of both α- and β- polymorphs, however with a greater proportion of β (see ESI, section 2).",
+   "note": "Il materiale di partenza di tutti gli esperimenti e' una miscela di α e β con piu' β (proporzioni nel supplementare, non nel testo: proporzioni null). E' la forma «LON» delle tabelle di punto di fusione e di solubilita', per il principio «misurato batte etichettato»; il testo non dice espressamente che il campione DSC della Tabella 1 sia questo bulk."
+  },
+  {
+   "id": "F4",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "LON-BENZ (1:1) co-crystal",
+   "etichette_alternative": [
+    "LON-BENZ",
+    "1:1 LON-BENZ co-crystal"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "acid∙∙∙amide dimer",
+     "chi": "carboxylic acid of LON and amide of BENZ",
+     "citazione": "The primary hydrogen bonding present in the 1:1 LON-BENZ co-crystal is an acid∙∙∙amide dimer"
+    },
+    {
+     "motivo": "4-membered supramolecular unit (bifurcated NH2 to indazole N and acid hydroxyl of a second LON), zig-zag chains",
+     "chi": "NH2 of BENZ with indazole N and acid OH of a second LON",
+     "citazione": "An additional hydrogen bond occurs from the NH2 in a bifurcated pattern interacting with both the indazole nitrogen atom (N-H∙∙∙N) and acid hydroxyl (N-H∙∙∙O) of a second LON molecule."
+    }
+   ],
+   "citazione": "The primary hydrogen bonding present in the 1:1 LON-BENZ co-crystal is an acid∙∙∙amide dimer",
+   "note": "Cocristallo 1:1. Cella, gruppo e CCDC nel supplementare (ESI sezione 7). Struttura misurata a 100 K."
+  },
+  {
+   "id": "F5",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "LON-NICO (1:1) co-crystal",
+   "etichette_alternative": [
+    "LON-NICO",
+    "1:1 LON-NICO co-crystal"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "acid∙∙∙amide dimer",
+     "chi": "carboxylic acid of LON and amide of NICO",
+     "citazione": "Nicotinamide also forms a 1:1 cocrystal with LON and features an acid∙∙∙amide dimer as the primary hydrogen bonding interaction"
+    },
+    {
+     "motivo": "tetrameric supramolecular units",
+     "chi": "amide of NICO and LON carbonyl in a second dimer pair",
+     "citazione": "This results in tetrameric supramolecular units (Figure 4)"
+    }
+   ],
+   "citazione": "Nicotinamide also forms a 1:1 cocrystal with LON",
+   "note": "Cocristallo 1:1. Struttura misurata a 100 K. Cella e CCDC nel supplementare."
+  },
+  {
+   "id": "F6",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "LON-ISO (1:1) co-crystal",
+   "etichette_alternative": [
+    "LON-ISO",
+    "1:1 LON-ISO co-crystal"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "tetrameric motif via acid∙∙∙pyridine and amide (NH)∙∙∙carbonyl hydrogen bonds",
+     "chi": "carboxylic acid of LON with pyridine N of ISO; amide NH of ISO with carbonyl",
+     "citazione": "The 1:1 LON-ISO co-crystal also features a tetrameric motif (Figure 5), however, this is formed through an acid∙∙∙pyridine (2.64 Å, 176°) and amide (NH)∙∙∙carbonyl (2.97 Å, 175°) hydrogen bonds."
+    }
+   ],
+   "citazione": "The 1:1 LON-ISO co-crystal also features a tetrameric motif (Figure 5)",
+   "note": "Cocristallo 1:1. Struttura misurata a 100 K. Cella e CCDC nel supplementare."
+  },
+  {
+   "id": "F7",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "LON-MEL (1:1) salt",
+   "etichette_alternative": [
+    "LON-MEL",
+    "1:1 LON-MEL salt"
+   ],
+   "tipo": "sale",
+   "protonazione": "proton transfer to melamine: protonated pyridine N",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "bifurcated hydrogen bond from the protonated pyridine N and adjacent amino group to the LON carboxylate O1; ladder network",
+     "chi": "protonated pyridine N and amino group of MEL with LON carboxylate",
+     "citazione": "The crystal structure of the salt features a bifurcated hydrogen bond from the protonated pyridine N and adjacent amino group to the LON carboxylate O1"
+    },
+    {
+     "motivo": "co-former∙∙∙co-former dimer via two N-H∙∙∙N hydrogen bonds",
+     "chi": "MEL–MEL",
+     "citazione": "The third amino group of MEL forms a coformer∙∙∙co-former dimer via two N-H∙∙∙N hydrogen bonds (2.91 Å, 175°)."
+    }
+   ],
+   "citazione": "Melamine forms a 1:1 molecular adduct with LON, however, proton transfer occurs generating a salt form rather than a co-crystal.",
+   "note": "Sale 1:1 (trasferimento del protone completo). Struttura misurata a 100 K. Cella e CCDC nel supplementare."
+  },
+  {
+   "id": "F8",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C8",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "LON-PIPE (2:1) salt",
+   "etichette_alternative": [
+    "LON-PIPE",
+    "2:1 LON-PIPE salt"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "charge assisted N+-H∙∙∙carboxylate hydrogen bonds; ladder network",
+     "chi": "protonated N of PIPE with LON carboxylate",
+     "citazione": "LON-PIPE forms a 2:1 salt containing charge assisted N+-H∙∙∙carboxylate hydrogen bonds"
+    }
+   ],
+   "citazione": "LON-PIPE forms a 2:1 salt containing charge assisted N+-H∙∙∙carboxylate hydrogen bonds",
+   "conflitto": "Nella parte sperimentale: «Large colourless plate crystals of the 1:1 salt formed after 5 days» per LON-PIPE; nella sezione di struttura: «LON-PIPE (2:1) salt». Si tiene 2:1 (la descrizione della struttura, con ogni LON legato a meta' molecola di PIPE, e' piu' circostanziata).",
+   "note": "Sale 2:1 (LON:PIPE). Struttura misurata a 100 K. Cella e CCDC nel supplementare."
+  },
+  {
+   "id": "F9",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "LON-HALO.3H2O (1:1 trihydrate salt)",
+   "etichette_alternative": [
+    "LON-HALO",
+    "LON-HALO trihydrate",
+    "LON-HALO (trihydrate)",
+    "LON-HALO.2H2O"
+   ],
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 3,
+    "riferito_a": "unita_formula"
+   },
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "tetrameric supramolecular unit of two LON (carboxylate end) connected via two water molecules, around an inversion centre",
+     "chi": "two LON carboxylates and two water molecules",
+     "citazione": "A tetrameric supramolecular unit, consisting of two LON molecules (carboxylate end) connected via two water molecules, forms around an inversion centre"
+    },
+    {
+     "motivo": "primary N+-H∙∙∙O- hydrogen bond",
+     "chi": "protonated N of HALO with LON carboxylate",
+     "citazione": "LON-HALO forms a 1:1 trihydrate salt containing a primary N+-H∙∙∙O- hydrogen bond (2.72 Å, 172°)."
+    }
+   ],
+   "citazione": "LON-HALO forms a 1:1 trihydrate salt containing a primary N+-H∙∙∙O- hydrogen bond (2.72 Å, 172°).",
+   "conflitto": "Il testo chiama la forma «trihydrate» / «LON-HALO.3H2O» (sezione di struttura, DSC, DVS) ma due volte «LON-HALO.2H2O» (HSM: «HSM investigations of LONHALO.2H2O»; vuoti: «44.63 Å3 LONHALO.2H2O»). Si tiene tre molecole d'acqua (la maggioranza delle occorrenze, e la sezione di struttura).",
+   "note": "Sale 1:1 idrato (tre molecole d'acqua per unita' formula, che per un sale 1:1 coincide con quelle per LON). Struttura misurata a 100 K. Cella e CCDC nel supplementare."
+  },
+  {
+   "id": "F10",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "LON-IMID.EtOAc (1:1:0.5 ethyl acetate salt solvate)",
+   "etichette_alternative": [
+    "LON-IMID.EtOAc",
+    "1:1:0.5 ethyl acetate salt",
+    "1:1 salt solvate",
+    "LON-IMID salt solvate"
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "ethyl acetate",
+    "stechiometria": 0.5,
+    "riferito_a": "unita_formula"
+   },
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "LON-IMID units via two bifurcated hydrogen bonds involving the IMID N-H; zig-zag chains with ABAB pattern of IMID molecules",
+     "chi": "IMID N-H with LON carboxylate O and indazole N",
+     "citazione": "LON-IMID units assemble via two bifurcated hydrogen bonds involving the IMID N-H."
+    }
+   ],
+   "citazione": "Three different structures were obtained with LON and IMID: a 1:1:0.5 ethyl acetate salt, a 1:1 salt and a 2:1 cocrystal salt (hybrid structure).",
+   "note": "Solvato salino con acetato di etile (1:1:0.5). L'unita' asimmetrica contiene 6 molecole di LON e di IMID e 3 di acetato di etile. E' l'unica delle tre forme LON-IMID analizzata in DSC («only the 1:1 salt solvate (LON-IMID.EtOAc) was analysed by DSC»): le proprieta' fisiche di «LON-IMID» sono riferite a questa. Struttura misurata a 100 K. Cella e CCDC nel supplementare."
+  },
+  {
+   "id": "F11",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "LON-IMID (1:1) salt",
+   "etichette_alternative": [
+    "1:1 LON-IMID salt",
+    "1:1 salt"
+   ],
+   "tipo": "sale",
+   "protonazione": "complete proton transfer between one LON-IMID pair, partial transfer between the second",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "dimer formed via a single hydrogen bond with a shared proton (O-H∙∙∙H-O)",
+     "chi": "LON–LON",
+     "citazione": "with a further two (1:1 and 2:1 LON-IMID) containing a dimer formed via a single hydrogen bond with a shared proton (O-H∙∙∙H-O)"
+    }
+   ],
+   "citazione": "The 1:1 LON-IMID salt contains two molecules of each entity in the asymmetric unit with complete proton transfer occurring between one pair and partial transfer between the second.",
+   "note": "Sale 1:1 con due molecole di ciascun componente nell'unita' asimmetrica. Strati ABBAABBA. Struttura misurata a 100 K. Cella e CCDC nel supplementare."
+  },
+  {
+   "id": "F12",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "LON-IMID (2:1) co-crystal salt",
+   "etichette_alternative": [
+    "2:1 LON-IMID",
+    "2:1 cocrystal salt",
+    "2:1 LON-IMID hybrid structure"
+   ],
+   "tipo": [
+    "cocristallo",
+    "sale"
+   ],
+   "protonazione": "both LON molecules possess a half occupied hydrogen atom whilst IMID is fully protonated",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "citazione": "All data was collected at 100K and suitable crystals selected"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "LON dimers via O-H∙∙∙O(carboxylate) hydrogen bonds connecting the 2:1 units along c in chains",
+     "chi": "LON–LON",
+     "citazione": "In a similar way to the 1:1 salt, LON dimers form via O-H∙∙∙O(carboxylate) hydrogen bonds (2.51 Å, 173°) connecting the 2:1 units along the c-axis in chains (Figure 8, right)."
+    }
+   ],
+   "citazione": "The final IMID salt has a 2:1 ratio and contains units of the same stoichiometry containing N-H∙∙∙O(carbonyl) hydrogen bonds (2.69 Å, 159° and 2.76 Å, 169°).",
+   "note": "Struttura ibrida cocristallo-sale («a 2:1 cocrystal salt (hybrid structure)»), rapporto 2:1 LON:IMID. Struttura misurata a 100 K. Cella e CCDC nel supplementare."
+  },
+  {
+   "id": "F13",
+   "composto": "C2",
+   "etichetta": "benzamide (co-former)",
+   "tipo": "non_specificato",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "LON was purchased from Junda Pharmaceuticals Ltd., China whilst all co-formers were purchased from Sigma Aldrich, Singapore, with HALO purchased from TCI chemicals, Singapore. All were used as received without any further purification.",
+   "note": "Coformero commerciale usato tal quale (fornitore Sigma Aldrich); forma cristallina non caratterizzata nel testo. Nella dissociazione in sospensione i picchi del coformero sono riferiti a «co-former reference peaks»."
+  },
+  {
+   "id": "F14",
+   "composto": "C7",
+   "etichetta": "nicotinamide (co-former)",
+   "tipo": "non_specificato",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "LON was purchased from Junda Pharmaceuticals Ltd., China whilst all co-formers were purchased from Sigma Aldrich, Singapore, with HALO purchased from TCI chemicals, Singapore. All were used as received without any further purification.",
+   "note": "Coformero commerciale usato tal quale (fornitore Sigma Aldrich); forma cristallina non caratterizzata nel testo. Nella dissociazione in sospensione i picchi del coformero sono riferiti a «co-former reference peaks»."
+  },
+  {
+   "id": "F15",
+   "composto": "C5",
+   "etichetta": "isonicotinamide (co-former)",
+   "tipo": "non_specificato",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "LON was purchased from Junda Pharmaceuticals Ltd., China whilst all co-formers were purchased from Sigma Aldrich, Singapore, with HALO purchased from TCI chemicals, Singapore. All were used as received without any further purification.",
+   "note": "Coformero commerciale usato tal quale (fornitore Sigma Aldrich); forma cristallina non caratterizzata nel testo. Nella dissociazione in sospensione i picchi del coformero sono riferiti a «co-former reference peaks»."
+  },
+  {
+   "id": "F16",
+   "composto": "C6",
+   "etichetta": "melamine (co-former)",
+   "tipo": "non_specificato",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "LON was purchased from Junda Pharmaceuticals Ltd., China whilst all co-formers were purchased from Sigma Aldrich, Singapore, with HALO purchased from TCI chemicals, Singapore. All were used as received without any further purification.",
+   "note": "Coformero commerciale usato tal quale (fornitore Sigma Aldrich); forma cristallina non caratterizzata nel testo. Nella dissociazione in sospensione i picchi del coformero sono riferiti a «co-former reference peaks»."
+  },
+  {
+   "id": "F17",
+   "composto": "C4",
+   "etichetta": "imidazole (co-former)",
+   "tipo": "non_specificato",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "LON was purchased from Junda Pharmaceuticals Ltd., China whilst all co-formers were purchased from Sigma Aldrich, Singapore, with HALO purchased from TCI chemicals, Singapore. All were used as received without any further purification.",
+   "note": "Coformero commerciale usato tal quale (fornitore Sigma Aldrich); forma cristallina non caratterizzata nel testo. Nella dissociazione in sospensione i picchi del coformero sono riferiti a «co-former reference peaks»."
+  },
+  {
+   "id": "F18",
+   "composto": "C1",
+   "etichetta": "LON + benzamide 1:1 ground mixture",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F3",
+    "F13"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar",
+   "note": "Miscela fisica di partenza della macinazione (LON bulk + benzamide) in rapporto stechiometrico 1:1: forma creata per esprimere la partenza dell'evento di macinazione."
+  },
+  {
+   "id": "F19",
+   "composto": "C1",
+   "etichetta": "LON + nicotinamide 1:1 ground mixture",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F3",
+    "F14"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar",
+   "note": "Miscela fisica di partenza della macinazione (LON bulk + nicotinamide) in rapporto stechiometrico 1:1: forma creata per esprimere la partenza dell'evento di macinazione."
+  },
+  {
+   "id": "F20",
+   "composto": "C1",
+   "etichetta": "LON + isonicotinamide 1:1 ground mixture",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F3",
+    "F15"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar",
+   "note": "Miscela fisica di partenza della macinazione (LON bulk + isonicotinamide) in rapporto stechiometrico 1:1: forma creata per esprimere la partenza dell'evento di macinazione."
+  },
+  {
+   "id": "F21",
+   "composto": "C1",
+   "etichetta": "LON + melamine 1:1 ground mixture",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F3",
+    "F16"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar",
+   "note": "Miscela fisica di partenza della macinazione (LON bulk + melamine) in rapporto stechiometrico 1:1: forma creata per esprimere la partenza dell'evento di macinazione."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F18",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MixerMill (models MM301 and MM200)",
+     "frequenza_Hz": 20,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "7 mm stainless steel ball",
+     "liquido": "methanol",
+     "testo": "10 mL stainless steel grinding jar; solvent drop grinding, 2 drops of methanol; 1:1 stoichiometric ratio of LON and co-former"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "2 drops"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Synthesis of the bulk for all materials was carried out using solvent drop grinding (as per screening method with larger quantities) for LON-NICO, LON-ISO, LON-BENZ and LON-MEL and using the relevant aforementioned solution techniques for LON-IMID, LON-HALO and LON-PIPE.",
+    "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar with 7 mm stainless steel ball and ground for 30 minutes at 20 Hz using a Retsch MixerMill (models MM301 and MM200).",
+    "Solvent drop grinding had 2 drops of methanol added to the jars prior to the start of grinding.",
+    "Samples generated through grinding were analysed using PXRD and compared to reference patterns (ESI, section 6).",
+    "PXRD was used to characterise the materials produced with reference to the starting materials to identify whether changes were present, and hence a new solid form produced."
+   ],
+   "certezza": "media",
+   "note": "Sintesi del bulk di LON-BENZ per solvent drop grinding «as per screening method with larger quantities»: le condizioni (30 min, 20 Hz, 2 gocce di metanolo, 1:1) sono quelle del metodo di screening. Il testo non dice, composto per composto, che il macinato sia stato identificato come la nuova fase per PXRD (il confronto con i pattern di riferimento e' in ESI sezione 6): l'evento e' dedotto dal fatto che il bulk cosi' sintetizzato e' usato per tutte le misure e identificato per PXRD nei test di stabilita'. Certezza media. La T della macinazione non e' riportata.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E2",
+   "da": "F19",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MixerMill (models MM301 and MM200)",
+     "frequenza_Hz": 20,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "7 mm stainless steel ball",
+     "liquido": "methanol",
+     "testo": "10 mL stainless steel grinding jar; solvent drop grinding, 2 drops of methanol; 1:1 stoichiometric ratio of LON and co-former"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "2 drops"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Synthesis of the bulk for all materials was carried out using solvent drop grinding (as per screening method with larger quantities) for LON-NICO, LON-ISO, LON-BENZ and LON-MEL and using the relevant aforementioned solution techniques for LON-IMID, LON-HALO and LON-PIPE.",
+    "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar with 7 mm stainless steel ball and ground for 30 minutes at 20 Hz using a Retsch MixerMill (models MM301 and MM200).",
+    "Solvent drop grinding had 2 drops of methanol added to the jars prior to the start of grinding.",
+    "Samples generated through grinding were analysed using PXRD and compared to reference patterns (ESI, section 6).",
+    "PXRD was used to characterise the materials produced with reference to the starting materials to identify whether changes were present, and hence a new solid form produced."
+   ],
+   "certezza": "media",
+   "note": "Sintesi del bulk di LON-NICO per solvent drop grinding «as per screening method with larger quantities»: le condizioni (30 min, 20 Hz, 2 gocce di metanolo, 1:1) sono quelle del metodo di screening. Il testo non dice, composto per composto, che il macinato sia stato identificato come la nuova fase per PXRD (il confronto con i pattern di riferimento e' in ESI sezione 6): l'evento e' dedotto dal fatto che il bulk cosi' sintetizzato e' usato per tutte le misure e identificato per PXRD nei test di stabilita'. Certezza media. La T della macinazione non e' riportata.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E3",
+   "da": "F20",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MixerMill (models MM301 and MM200)",
+     "frequenza_Hz": 20,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "7 mm stainless steel ball",
+     "liquido": "methanol",
+     "testo": "10 mL stainless steel grinding jar; solvent drop grinding, 2 drops of methanol; 1:1 stoichiometric ratio of LON and co-former"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "2 drops"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Synthesis of the bulk for all materials was carried out using solvent drop grinding (as per screening method with larger quantities) for LON-NICO, LON-ISO, LON-BENZ and LON-MEL and using the relevant aforementioned solution techniques for LON-IMID, LON-HALO and LON-PIPE.",
+    "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar with 7 mm stainless steel ball and ground for 30 minutes at 20 Hz using a Retsch MixerMill (models MM301 and MM200).",
+    "Solvent drop grinding had 2 drops of methanol added to the jars prior to the start of grinding.",
+    "Samples generated through grinding were analysed using PXRD and compared to reference patterns (ESI, section 6).",
+    "PXRD was used to characterise the materials produced with reference to the starting materials to identify whether changes were present, and hence a new solid form produced."
+   ],
+   "certezza": "media",
+   "note": "Sintesi del bulk di LON-ISO per solvent drop grinding «as per screening method with larger quantities»: le condizioni (30 min, 20 Hz, 2 gocce di metanolo, 1:1) sono quelle del metodo di screening. Il testo non dice, composto per composto, che il macinato sia stato identificato come la nuova fase per PXRD (il confronto con i pattern di riferimento e' in ESI sezione 6): l'evento e' dedotto dal fatto che il bulk cosi' sintetizzato e' usato per tutte le misure e identificato per PXRD nei test di stabilita'. Certezza media. La T della macinazione non e' riportata.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E4",
+   "da": "F21",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MixerMill (models MM301 and MM200)",
+     "frequenza_Hz": 20,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "7 mm stainless steel ball",
+     "liquido": "methanol",
+     "testo": "10 mL stainless steel grinding jar; solvent drop grinding, 2 drops of methanol; 1:1 stoichiometric ratio of LON and co-former"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "2 drops"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Synthesis of the bulk for all materials was carried out using solvent drop grinding (as per screening method with larger quantities) for LON-NICO, LON-ISO, LON-BENZ and LON-MEL and using the relevant aforementioned solution techniques for LON-IMID, LON-HALO and LON-PIPE.",
+    "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar with 7 mm stainless steel ball and ground for 30 minutes at 20 Hz using a Retsch MixerMill (models MM301 and MM200).",
+    "Solvent drop grinding had 2 drops of methanol added to the jars prior to the start of grinding.",
+    "Samples generated through grinding were analysed using PXRD and compared to reference patterns (ESI, section 6).",
+    "PXRD was used to characterise the materials produced with reference to the starting materials to identify whether changes were present, and hence a new solid form produced."
+   ],
+   "certezza": "media",
+   "note": "Sintesi del bulk di LON-MEL per solvent drop grinding «as per screening method with larger quantities»: le condizioni (30 min, 20 Hz, 2 gocce di metanolo, 1:1) sono quelle del metodo di screening. Il testo non dice, composto per composto, che il macinato sia stato identificato come la nuova fase per PXRD (il confronto con i pattern di riferimento e' in ESI sezione 6): l'evento e' dedotto dal fatto che il bulk cosi' sintetizzato e' usato per tutte le misure e identificato per PXRD nei test di stabilita'. Certezza media. La T della macinazione non e' riportata.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 204.6,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "citazioni": [
+    "DSC curves are shown in Figure 10 and the melting points of the new materials are compared with reference data in Table 1.",
+    "Sample Melting Point (Tonset)/°C",
+    "Co-former Melting Point /°C LON 204.6",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "certezza": "alta",
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "note": "LON-bulk: fusione. LON (bulk, miscela α+β): punto di fusione della Tabella 1. Il campione DSC di «LON» non e' dichiarato come il bulk, ma e' il materiale usato in tutto lo studio. Tonset dalla Tabella 1 (intestazione «Melting Point (Tonset)/°C»; l'unita' sta solo nell'intestazione, quindi il verificatore segna «quasi»). Velocita' e atmosfera dal metodo DSC generale; crogiolo: «crimp sealed with corresponding lid» (alluminio, 20 µL), campioni «dried (free from residual solvent)».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E6",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 163.3,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "citazioni": [
+    "DSC curves are shown in Figure 10 and the melting points of the new materials are compared with reference data in Table 1.",
+    "Sample Melting Point (Tonset)/°C",
+    "LON-BENZ 163.3 127-130",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1).",
+    "All co-crystals (LON-NICO, LON-ISO and LON-BENZ) showed a lower melting point (in accordance with the lower melting point of the co-formers)465,476 whilst all salts, except the LON-IMID salt solvate, showed a higher melting point compared to that of LON."
+   ],
+   "certezza": "alta",
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "note": "LON-BENZ: fusione. Cocristallo: punto di fusione piu' basso di LON, come dice il testo («All co-crystals (LON-NICO, LON-ISO and LON-BENZ) showed a lower melting point»). Tonset dalla Tabella 1 (intestazione «Melting Point (Tonset)/°C»; l'unita' sta solo nell'intestazione, quindi il verificatore segna «quasi»). Velocita' e atmosfera dal metodo DSC generale; crogiolo: «crimp sealed with corresponding lid» (alluminio, 20 µL), campioni «dried (free from residual solvent)».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E7",
+   "da": "F4",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "passo": "decomposition of the melt",
+   "da_evento": "E6",
+   "natura": "chimica",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 215,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "citazioni": [
+    "A broad endotherm following the melt (as seen in LON-HALO.3H2O around 275 °C, LON-BENZ around 215 °C and to some extent following the melt in LON-PIPE and LON-MEL) is most likely due to decomposition of the melt.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "certezza": "media",
+   "note": "LON-BENZ: «a broad endotherm following the melt ... around 215 °C ... is most likely due to decomposition of the melt»: attribuzione probabile, non certa (HSM la conferma solo per LON-HALO e LON-IMID.EtOAc). L'endotermo e' dopo la fusione (E6). Per LON-PIPE e LON-MEL il testo dice solo «to some extent following the melt», senza T: non sono eventi estratti.",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E8",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 155.0,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "citazioni": [
+    "DSC curves are shown in Figure 10 and the melting points of the new materials are compared with reference data in Table 1.",
+    "Sample Melting Point (Tonset)/°C",
+    "LON-NICO 155.0 128-130",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1).",
+    "All co-crystals (LON-NICO, LON-ISO and LON-BENZ) showed a lower melting point (in accordance with the lower melting point of the co-formers)465,476 whilst all salts, except the LON-IMID salt solvate, showed a higher melting point compared to that of LON."
+   ],
+   "certezza": "alta",
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "note": "LON-NICO: fusione. Cocristallo: punto di fusione piu' basso di LON. Tonset dalla Tabella 1 (intestazione «Melting Point (Tonset)/°C»; l'unita' sta solo nell'intestazione, quindi il verificatore segna «quasi»). Velocita' e atmosfera dal metodo DSC generale; crogiolo: «crimp sealed with corresponding lid» (alluminio, 20 µL), campioni «dried (free from residual solvent)».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E9",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 158.4,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "citazioni": [
+    "DSC curves are shown in Figure 10 and the melting points of the new materials are compared with reference data in Table 1.",
+    "Sample Melting Point (Tonset)/°C",
+    "LON-ISO 158.4 156",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1).",
+    "All co-crystals (LON-NICO, LON-ISO and LON-BENZ) showed a lower melting point (in accordance with the lower melting point of the co-formers)465,476 whilst all salts, except the LON-IMID salt solvate, showed a higher melting point compared to that of LON."
+   ],
+   "certezza": "alta",
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "note": "LON-ISO: fusione. Cocristallo: punto di fusione piu' basso di LON. Tonset dalla Tabella 1 (intestazione «Melting Point (Tonset)/°C»; l'unita' sta solo nell'intestazione, quindi il verificatore segna «quasi»). Velocita' e atmosfera dal metodo DSC generale; crogiolo: «crimp sealed with corresponding lid» (alluminio, 20 µL), campioni «dried (free from residual solvent)».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E10",
+   "da": "F7",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 276.7,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "citazioni": [
+    "DSC curves are shown in Figure 10 and the melting points of the new materials are compared with reference data in Table 1.",
+    "Sample Melting Point (Tonset)/°C",
+    "LON-MEL 276.7 345-350",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "certezza": "alta",
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "note": "LON-MEL: fusione. Sale con il punto di fusione piu' alto di tutte le forme («LON-MEL showed the highest melting point among all the solid forms reported herein»). Tonset dalla Tabella 1 (intestazione «Melting Point (Tonset)/°C»; l'unita' sta solo nell'intestazione, quindi il verificatore segna «quasi»). Velocita' e atmosfera dal metodo DSC generale; crogiolo: «crimp sealed with corresponding lid» (alluminio, 20 µL), campioni «dried (free from residual solvent)».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E11",
+   "da": "F8",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 242.1,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "citazioni": [
+    "DSC curves are shown in Figure 10 and the melting points of the new materials are compared with reference data in Table 1.",
+    "Sample Melting Point (Tonset)/°C",
+    "LON-PIPE 242.1 109-113",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "certezza": "alta",
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "note": "LON-PIPE: fusione. Sale: punto di fusione piu' alto di LON. Tonset dalla Tabella 1 (intestazione «Melting Point (Tonset)/°C»; l'unita' sta solo nell'intestazione, quindi il verificatore segna «quasi»). Velocita' e atmosfera dal metodo DSC generale; crogiolo: «crimp sealed with corresponding lid» (alluminio, 20 µL), campioni «dried (free from residual solvent)».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E12",
+   "da": "F9",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "passo": "water loss",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "min": 60,
+     "max": 80,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "citazioni": [
+    "The LON-HALO trihydrate shows a broad endotherm between 60-80 °C and jagged multiple endotherms between 105-125 °C.",
+    "Water loss from hydrate crystals can be a complex event, dependent upon the location of the water molecule in the crystal lattice and the number of hydrogen bonds that it forms with the parent molecules. These occurrences in the endotherm can be attributed to such water loss events.",
+    "#LON-HALO displays a number of events which can be described as water loss (60-80 °C), melting (105-125 °C) and decomposition 233 °C.",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen bonds formed by the water molecule with the parent molecules",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F9",
+     "citazione": "Water loss (and solvent loss, as in LONIMID.EtOAc) causes lattice breakdown due to hydrogen bonds being broken; the network is disrupted and results in the sample melting."
+    }
+   ],
+   "certezza": "media",
+   "conflitto": "Il testo della DSC dice che le «jagged multiple endotherms between 105-125 °C» «can be attributed to such water loss events», mentre la nota della Tabella 1 assegna 60-80 °C alla perdita d'acqua e 105-125 °C alla fusione; l'HSM dice che perdita d'acqua e fusione sono simultanee fra 75 e 125 °C (E14, E15). Si tiene la nota della Tabella 1 (piu' specifica).",
+   "note": "LON-HALO.3H2O: ampio endotermo fra 60 e 80 °C, assegnato dalla nota della Tabella 1 alla perdita d'acqua. Il prodotto non e' identificato (a ignota): l'articolo dice che la perdita d'acqua rompe il reticolo e porta alla fusione. Perdita di massa (TGA) non riportata. Crogiolo: «crimp sealed with corresponding lid»; il testo non commenta l'effetto sulla perdita d'acqua.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E13",
+   "da": "F9",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "passo": "melting",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 104.7,
+     "min": 105,
+     "max": 125,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "citazioni": [
+    "The LON-HALO trihydrate shows a broad endotherm between 60-80 °C and jagged multiple endotherms between 105-125 °C.",
+    "#LON-HALO displays a number of events which can be described as water loss (60-80 °C), melting (105-125 °C) and decomposition 233 °C.",
+    "Sample Melting Point (Tonset)/°C",
+    "LON-HALO (trihydrate) 104.7#",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "certezza": "media",
+   "conflitto": "Il testo scrive che tutti i sali tranne il solvato di IMID fondono piu' in alto di LON («all salts, except the LON-IMID salt solvate, showed a higher melting point compared to that of LON»), ma la Tabella 1 da' 104.7 °C per LON-HALO contro 204.6 °C per LON. Si riporta il valore della tabella.",
+   "note": "LON-HALO.3H2O: Tonset 104.7 °C (Tabella 1); la nota della Tabella 1 assegna 105-125 °C alla fusione («jagged multiple endotherms between 105-125 °C» nel testo). onset e min/max sono coerenti: onset dalla tabella, intervallo degli endotermi dal testo. L'unita' dell'onset sta solo nell'intestazione (quasi). Perdita d'acqua e fusione: vedi conflitto di E12.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E14",
+   "da": "F9",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "passo": "water loss",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 75,
+     "max": 125,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The behaviour in both samples was further investigated by hot-stage microscopy",
+    "showed that water loss and melting occur simultaneously in LON-HALO.3H2O over a broad temperature range (75-125 °C). In LON-IMID.EtOAc solvent loss and melting also occur concomitantly, but over a narrower range (81-88 °C).",
+    "Water loss (and solvent loss, as in LONIMID.EtOAc) causes lattice breakdown due to hydrogen bonds being broken; the network is disrupted and results in the sample melting."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen bonds formed by the water molecule with the parent molecules",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F9",
+     "citazione": "Water loss (and solvent loss, as in LONIMID.EtOAc) causes lattice breakdown due to hydrogen bonds being broken; the network is disrupted and results in the sample melting."
+    }
+   ],
+   "certezza": "media",
+   "conflitto": "Con la DSC (E12, E13) la perdita d'acqua sta a 60-80 °C e la fusione a 105-125 °C; l'HSM le dice simultanee fra 75 e 125 °C. Un evento per tecnica, ciascuno con il suo intervallo.",
+   "note": "HSM (ESI sezione 10): perdita d'acqua e fusione «occur simultaneously» in LON-HALO.3H2O su un intervallo largo (75-125 °C). Il testo dell'HSM dice «LONHALO.2H2O» altrove, ma qui «LON-HALO.3H2O». Il prodotto della perdita d'acqua non e' identificato.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E15",
+   "da": "F9",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "passo": "melting",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 75,
+     "max": 125,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The behaviour in both samples was further investigated by hot-stage microscopy",
+    "showed that water loss and melting occur simultaneously in LON-HALO.3H2O over a broad temperature range (75-125 °C). In LON-IMID.EtOAc solvent loss and melting also occur concomitantly, but over a narrower range (81-88 °C)."
+   ],
+   "certezza": "media",
+   "conflitto": "Vedi E14: DSC e HSM non coincidono sulla sequenza perdita d'acqua / fusione.",
+   "note": "HSM: fusione simultanea alla perdita d'acqua fra 75 e 125 °C.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E16",
+   "da": "F9",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "passo": "decomposition of the melt",
+   "natura": "chimica",
+   "da_evento": "E13",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 275,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "citazioni": [
+    "A broad endotherm following the melt (as seen in LON-HALO.3H2O around 275 °C, LON-BENZ around 215 °C and to some extent following the melt in LON-PIPE and LON-MEL) is most likely due to decomposition of the melt.",
+    "HSM investigations of LONHALO.2H2O and LON-IMID.EtOAc confirmed the nature of this event.",
+    "#LON-HALO displays a number of events which can be described as water loss (60-80 °C), melting (105-125 °C) and decomposition 233 °C.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "certezza": "media",
+   "conflitto": "La nota della Tabella 1 scrive «decomposition 233 °C» per LON-HALO; il testo «around 275 °C». Si tiene il testo (descrive l'endotermo largo dopo la fusione, «most likely due to decomposition of the melt»), il 233 °C e' registrato qui e nell'extra.",
+   "note": "LON-HALO.3H2O: ampio endotermo dopo la fusione, «most likely» decomposizione del fuso; l'HSM «confirmed the nature of this event» (qui scritto «LONHALO.2H2O»). Il testo e la nota non coincidono sulla T (275 contro 233 °C).",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E17",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "passo": "desolvation",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 81.1,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "citazioni": [
+    "##LON-IMID also displays a decomposition event from 240 °C, with the event at 81.1 °C consisting of desolvation and concomitant melting.",
+    "The LON-IMID.EtOAc salt solvate showed the lowest melting point of all materials, due to the low co-former melting point and concomitant desolvation and melting.",
+    "Sample Melting Point (Tonset)/°C",
+    "LON-IMID 81.1## 88-91",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen bonds formed by the solvent molecule with the parent molecules",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F10",
+     "citazione": "Water loss (and solvent loss, as in LONIMID.EtOAc) causes lattice breakdown due to hydrogen bonds being broken; the network is disrupted and results in the sample melting."
+    }
+   ],
+   "certezza": "alta",
+   "note": "LON-IMID.EtOAc: desolvatazione con fusione concomitante a Tonset 81.1 °C (nota ## della Tabella 1). Il prodotto della desolvatazione non e' identificato (a ignota). Un solo picco DSC con due processi: un evento per processo (E17 desolvatazione, E18 fusione).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E18",
+   "da": "F10",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "passo": "melting",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 81.1,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "pretrattamento": "dried samples (free from residual solvent)",
+   "citazioni": [
+    "##LON-IMID also displays a decomposition event from 240 °C, with the event at 81.1 °C consisting of desolvation and concomitant melting.",
+    "The LON-IMID.EtOAc salt solvate showed the lowest melting point of all materials, due to the low co-former melting point and concomitant desolvation and melting.",
+    "Sample Melting Point (Tonset)/°C",
+    "LON-IMID 81.1## 88-91",
+    "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "certezza": "alta",
+   "note": "LON-IMID.EtOAc: fusione concomitante alla desolvatazione a 81.1 °C: il punto di fusione piu' basso di tutti i materiali.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E19",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "passo": "solvent loss",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 81,
+     "max": 88,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The behaviour in both samples was further investigated by hot-stage microscopy",
+    "showed that water loss and melting occur simultaneously in LON-HALO.3H2O over a broad temperature range (75-125 °C). In LON-IMID.EtOAc solvent loss and melting also occur concomitantly, but over a narrower range (81-88 °C).",
+    "Water loss (and solvent loss, as in LONIMID.EtOAc) causes lattice breakdown due to hydrogen bonds being broken; the network is disrupted and results in the sample melting."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen bonds formed by the solvent molecule with the parent molecules",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F10",
+     "citazione": "Water loss (and solvent loss, as in LONIMID.EtOAc) causes lattice breakdown due to hydrogen bonds being broken; the network is disrupted and results in the sample melting."
+    }
+   ],
+   "certezza": "alta",
+   "note": "HSM: perdita del solvente e fusione concomitanti in un intervallo piu' stretto (81-88 °C) che per LON-HALO.3H2O. Prodotto non identificato.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E20",
+   "da": "F10",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "passo": "melting",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 81,
+     "max": 88,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The behaviour in both samples was further investigated by hot-stage microscopy",
+    "showed that water loss and melting occur simultaneously in LON-HALO.3H2O over a broad temperature range (75-125 °C). In LON-IMID.EtOAc solvent loss and melting also occur concomitantly, but over a narrower range (81-88 °C)."
+   ],
+   "certezza": "alta",
+   "note": "HSM: fusione simultanea alla perdita del solvente fra 81 e 88 °C.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E21",
+   "da": "F10",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "passo": "decomposition",
+   "natura": "chimica",
+   "da_evento": "E18",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas purge (base purge 300 mL/min, cell flow 25 mL/min)",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "onset": 240,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ]
+   },
+   "campione": {
+    "massa": "2-5 mg",
+    "crogiolo": "sigillato"
+   },
+   "citazioni": [
+    "##LON-IMID also displays a decomposition event from 240 °C, with the event at 81.1 °C consisting of desolvation and concomitant melting.",
+    "HSM investigations of LONHALO.2H2O and LON-IMID.EtOAc confirmed the nature of this event.",
+    "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1)."
+   ],
+   "certezza": "media",
+   "note": "LON-IMID.EtOAc: «a decomposition event from 240 °C» (nota ## della Tabella 1); l'HSM «confirmed the nature of this event» (frase sulla decomposizione del fuso, riferita nel testo a LON-HALO e LON-IMID.EtOAc). «from 240 °C» e' letto come inizio (onset).",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E22",
+   "da": "F5",
+   "a": "F2",
+   "esito": "parziale",
+   "esito_dettaglio": "dissociazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "1 % Tween 80® aqueous media",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F1",
+      "prevalenza": "minoritaria"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "prodotti_secondari": [
+    "F1",
+    "F14"
+   ],
+   "citazioni": [
+    "For slurry conditions, excess powders of the solids were stirred in 1 % Tween 80® aqueous media at room temperature for 24 h. After this period the solids were filtered, dried and analysed by PXRD (see ESI, section 9).",
+    "For slurry experiments, excess co-crystal or salt material in 1 % Tween80® aqueous solution, were left stirring at room temperature for 24 hours before filtering and the resulting powder analysed by PXRD.",
+    "It can be seen from PXRD analysis that the LON-NICO and LON-ISO co-crystals, as well as the IMID salt solvate, demonstrated poor stability. Dissociation into component parts was apparent and evidenced by the appearance of parent LON peaks (predominantly β-LON with a degree of both polymorphs identified in LON-NICO) and some co-former reference peaks in the PXRD analysis.",
+    "Both LON-NICO and LONISO show a degree of dissociation under slurry conditions (extended time period).",
+    "Due to the extended time period of the slurry experiment dissociation starts to occur for these materials with some conversion to parent API.",
+    "As shown in stability tests (ESI, section 9), the two co-crystals with ISO and NICO, and the LON-IMID.EtOAc",
+    "salt solvate are unstable under slurry conditions."
+   ],
+   "certezza": "media",
+   "note": "LON-NICO in sospensione (24 h, temperatura ambiente, Tween 80 all'1 %): dissociazione nelle parti componenti, evidenziata dalla comparsa dei picchi di LON («predominantly β-LON with a degree of both polymorphs identified in LON-NICO») e di alcuni picchi di riferimento del coformero. 'parziale': «a degree of dissociation», «some conversion to parent API». F14 = nicotinamide come coformero di riferimento (non e' detto che sia la forma commerciale).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E23",
+   "da": "F6",
+   "a": "F2",
+   "esito": "parziale",
+   "esito_dettaglio": "dissociazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "1 % Tween 80® aqueous media",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "prodotti_secondari": [
+    "F15"
+   ],
+   "citazioni": [
+    "For slurry conditions, excess powders of the solids were stirred in 1 % Tween 80® aqueous media at room temperature for 24 h. After this period the solids were filtered, dried and analysed by PXRD (see ESI, section 9).",
+    "For slurry experiments, excess co-crystal or salt material in 1 % Tween80® aqueous solution, were left stirring at room temperature for 24 hours before filtering and the resulting powder analysed by PXRD.",
+    "It can be seen from PXRD analysis that the LON-NICO and LON-ISO co-crystals, as well as the IMID salt solvate, demonstrated poor stability. Dissociation into component parts was apparent and evidenced by the appearance of parent LON peaks (predominantly β-LON with a degree of both polymorphs identified in LON-NICO) and some co-former reference peaks in the PXRD analysis.",
+    "Both LON-NICO and LONISO show a degree of dissociation under slurry conditions (extended time period).",
+    "Due to the extended time period of the slurry experiment dissociation starts to occur for these materials with some conversion to parent API.",
+    "As shown in stability tests (ESI, section 9), the two co-crystals with ISO and NICO, and the LON-IMID.EtOAc",
+    "salt solvate are unstable under slurry conditions."
+   ],
+   "certezza": "bassa",
+   "note": "LON-ISO in sospensione: dissociazione parziale con comparsa dei picchi di LON e del coformero. Il polimorfo di LON e' scritto fra parentesi come «predominantly β-LON» in generale, con entrambi i polimorfi identificati per LON-NICO: per LON-ISO si assume β (certezza bassa). Il testo non da' la frazione convertita.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E24",
+   "da": "F10",
+   "a": "F2",
+   "esito": "avvenuta",
+   "esito_dettaglio": "dissociazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "1 % Tween 80® aqueous media",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "prodotti_secondari": [
+    "F17"
+   ],
+   "citazioni": [
+    "For slurry conditions, excess powders of the solids were stirred in 1 % Tween 80® aqueous media at room temperature for 24 h. After this period the solids were filtered, dried and analysed by PXRD (see ESI, section 9).",
+    "For slurry experiments, excess co-crystal or salt material in 1 % Tween80® aqueous solution, were left stirring at room temperature for 24 hours before filtering and the resulting powder analysed by PXRD.",
+    "It can be seen from PXRD analysis that the LON-NICO and LON-ISO co-crystals, as well as the IMID salt solvate, demonstrated poor stability. Dissociation into component parts was apparent and evidenced by the appearance of parent LON peaks (predominantly β-LON with a degree of both polymorphs identified in LON-NICO) and some co-former reference peaks in the PXRD analysis.",
+    "As shown in stability tests (ESI, section 9), the two co-crystals with ISO and NICO, and the LON-IMID.EtOAc",
+    "salt solvate are unstable under slurry conditions.",
+    "As discussed, LON-IMID is unstable and readily dissociates, resulting in the increased dissolution rate observed."
+   ],
+   "certezza": "bassa",
+   "note": "LON-IMID.EtOAc in sospensione: instabile, dissocia nelle componenti con picchi di LON e del coformero (IMID). Come per E23 il polimorfo di LON non e' detto per questo campione (β predominante in generale). La frase sulla dissociazione rapida nella dissoluzione dice «LON-IMID» senza specificare la forma.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E25",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "1 % Tween 80® aqueous media",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "For slurry conditions, excess powders of the solids were stirred in 1 % Tween 80® aqueous media at room temperature for 24 h. After this period the solids were filtered, dried and analysed by PXRD (see ESI, section 9).",
+    "For slurry experiments, excess co-crystal or salt material in 1 % Tween80® aqueous solution, were left stirring at room temperature for 24 hours before filtering and the resulting powder analysed by PXRD.",
+    "For the stable samples, the concentration of filtered aliquots (obtained from slurry experiments) represents the true solubility of the sample as they remain intact in these conditions."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-BENZ: fra i «stable samples» dell'esperimento in sospensione («they remain intact in these conditions»). L'elenco non e' scritto: i materiali instabili sono ISO, NICO e IMID.EtOAc (E22-E24), gli altri quattro dei sette materiali con coformero farmaceutico (BENZ, HALO, MEL, PIPE) sono quindi i «stable samples» (deduzione per complemento: certezza media). I dati PXRD stanno in ESI sezione 9.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E26",
+   "da": "F9",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "1 % Tween 80® aqueous media",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "For slurry conditions, excess powders of the solids were stirred in 1 % Tween 80® aqueous media at room temperature for 24 h. After this period the solids were filtered, dried and analysed by PXRD (see ESI, section 9).",
+    "For slurry experiments, excess co-crystal or salt material in 1 % Tween80® aqueous solution, were left stirring at room temperature for 24 hours before filtering and the resulting powder analysed by PXRD.",
+    "For the stable samples, the concentration of filtered aliquots (obtained from slurry experiments) represents the true solubility of the sample as they remain intact in these conditions."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-HALO.3H2O: fra i «stable samples» dell'esperimento in sospensione («they remain intact in these conditions»). L'elenco non e' scritto: i materiali instabili sono ISO, NICO e IMID.EtOAc (E22-E24), gli altri quattro dei sette materiali con coformero farmaceutico (BENZ, HALO, MEL, PIPE) sono quindi i «stable samples» (deduzione per complemento: certezza media). I dati PXRD stanno in ESI sezione 9.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E27",
+   "da": "F7",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "1 % Tween 80® aqueous media",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "For slurry conditions, excess powders of the solids were stirred in 1 % Tween 80® aqueous media at room temperature for 24 h. After this period the solids were filtered, dried and analysed by PXRD (see ESI, section 9).",
+    "For slurry experiments, excess co-crystal or salt material in 1 % Tween80® aqueous solution, were left stirring at room temperature for 24 hours before filtering and the resulting powder analysed by PXRD.",
+    "For the stable samples, the concentration of filtered aliquots (obtained from slurry experiments) represents the true solubility of the sample as they remain intact in these conditions."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-MEL: fra i «stable samples» dell'esperimento in sospensione («they remain intact in these conditions»). L'elenco non e' scritto: i materiali instabili sono ISO, NICO e IMID.EtOAc (E22-E24), gli altri quattro dei sette materiali con coformero farmaceutico (BENZ, HALO, MEL, PIPE) sono quindi i «stable samples» (deduzione per complemento: certezza media). I dati PXRD stanno in ESI sezione 9.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E28",
+   "da": "F8",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "1 % Tween 80® aqueous media",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "For slurry conditions, excess powders of the solids were stirred in 1 % Tween 80® aqueous media at room temperature for 24 h. After this period the solids were filtered, dried and analysed by PXRD (see ESI, section 9).",
+    "For slurry experiments, excess co-crystal or salt material in 1 % Tween80® aqueous solution, were left stirring at room temperature for 24 hours before filtering and the resulting powder analysed by PXRD.",
+    "For the stable samples, the concentration of filtered aliquots (obtained from slurry experiments) represents the true solubility of the sample as they remain intact in these conditions."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-PIPE: fra i «stable samples» dell'esperimento in sospensione («they remain intact in these conditions»). L'elenco non e' scritto: i materiali instabili sono ISO, NICO e IMID.EtOAc (E22-E24), gli altri quattro dei sette materiali con coformero farmaceutico (BENZ, HALO, MEL, PIPE) sono quindi i «stable samples» (deduzione per complemento: certezza media). I dati PXRD stanno in ESI sezione 9.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E29",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 13,
+     "unita": "week",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 100 mg"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks. Samples of approximately 100 mg size were stored under the test conditions and tested periodically using PXRD to identify the sample’s identity.",
+    "Under accelerated storage conditions all samples appear stable with the exception of the imidazole salt solvate."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-BENZ: «all samples appear stable with the exception of the imidazole salt solvate» in conservazione accelerata. La frase non elenca le forme: i sette materiali con coformero farmaceutico (BENZ, HALO, IMID, ISO, MEL, NICO, PIPE) sono quelli provati, e l'eccezione e' il solvato di IMID (E35). Durata e condizioni dal metodo («Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks»; la sezione dei risultati scrive «40 °C / 75 % relative humidity»). Controllo periodico per PXRD.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E30",
+   "da": "F9",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 13,
+     "unita": "week",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 100 mg"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks. Samples of approximately 100 mg size were stored under the test conditions and tested periodically using PXRD to identify the sample’s identity.",
+    "Under accelerated storage conditions all samples appear stable with the exception of the imidazole salt solvate."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-HALO.3H2O: «all samples appear stable with the exception of the imidazole salt solvate» in conservazione accelerata. La frase non elenca le forme: i sette materiali con coformero farmaceutico (BENZ, HALO, IMID, ISO, MEL, NICO, PIPE) sono quelli provati, e l'eccezione e' il solvato di IMID (E35). Durata e condizioni dal metodo («Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks»; la sezione dei risultati scrive «40 °C / 75 % relative humidity»). Controllo periodico per PXRD.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E31",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 13,
+     "unita": "week",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 100 mg"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks. Samples of approximately 100 mg size were stored under the test conditions and tested periodically using PXRD to identify the sample’s identity.",
+    "Under accelerated storage conditions all samples appear stable with the exception of the imidazole salt solvate."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-ISO: «all samples appear stable with the exception of the imidazole salt solvate» in conservazione accelerata. La frase non elenca le forme: i sette materiali con coformero farmaceutico (BENZ, HALO, IMID, ISO, MEL, NICO, PIPE) sono quelli provati, e l'eccezione e' il solvato di IMID (E35). Durata e condizioni dal metodo («Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks»; la sezione dei risultati scrive «40 °C / 75 % relative humidity»). Controllo periodico per PXRD.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E32",
+   "da": "F7",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 13,
+     "unita": "week",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 100 mg"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks. Samples of approximately 100 mg size were stored under the test conditions and tested periodically using PXRD to identify the sample’s identity.",
+    "Under accelerated storage conditions all samples appear stable with the exception of the imidazole salt solvate."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-MEL: «all samples appear stable with the exception of the imidazole salt solvate» in conservazione accelerata. La frase non elenca le forme: i sette materiali con coformero farmaceutico (BENZ, HALO, IMID, ISO, MEL, NICO, PIPE) sono quelli provati, e l'eccezione e' il solvato di IMID (E35). Durata e condizioni dal metodo («Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks»; la sezione dei risultati scrive «40 °C / 75 % relative humidity»). Controllo periodico per PXRD.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E33",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 13,
+     "unita": "week",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 100 mg"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks. Samples of approximately 100 mg size were stored under the test conditions and tested periodically using PXRD to identify the sample’s identity.",
+    "Under accelerated storage conditions all samples appear stable with the exception of the imidazole salt solvate."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-NICO: «all samples appear stable with the exception of the imidazole salt solvate» in conservazione accelerata. La frase non elenca le forme: i sette materiali con coformero farmaceutico (BENZ, HALO, IMID, ISO, MEL, NICO, PIPE) sono quelli provati, e l'eccezione e' il solvato di IMID (E35). Durata e condizioni dal metodo («Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks»; la sezione dei risultati scrive «40 °C / 75 % relative humidity»). Controllo periodico per PXRD.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E34",
+   "da": "F8",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 13,
+     "unita": "week",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 100 mg"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks. Samples of approximately 100 mg size were stored under the test conditions and tested periodically using PXRD to identify the sample’s identity.",
+    "Under accelerated storage conditions all samples appear stable with the exception of the imidazole salt solvate."
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "LON-PIPE: «all samples appear stable with the exception of the imidazole salt solvate» in conservazione accelerata. La frase non elenca le forme: i sette materiali con coformero farmaceutico (BENZ, HALO, IMID, ISO, MEL, NICO, PIPE) sono quelli provati, e l'eccezione e' il solvato di IMID (E35). Durata e condizioni dal metodo («Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks»; la sezione dei risultati scrive «40 °C / 75 % relative humidity»). Controllo periodico per PXRD.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E35",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "esito_dettaglio": "dissociazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 13,
+     "unita": "week",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 100 mg"
+   },
+   "citazioni": [
+    "Stability of the pharmaceutically acceptable solids was tested under slurry and accelerated test conditions (40 °C / 75 % relative humidity).",
+    "Stability was tested under accelerated conditions (40 °C and 75 % RH) for 13 weeks. Samples of approximately 100 mg size were stored under the test conditions and tested periodically using PXRD to identify the sample’s identity.",
+    "Under accelerated storage conditions all samples appear stable with the exception of the imidazole salt solvate.",
+    "The poor stability of LON-IMID.EtOAc salt solvate could be attributed to the presence of ethyl acetate solvent molecules in the crystal lattice. Solvent molecules occupy the large voids with no hydrogen bonding, hence solvent removal occurs readily and leads to dissociation of the molecular salt into its individual components."
+   ],
+   "certezza": "media",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "ethyl acetate solvent molecules in the large voids (no hydrogen bonding)",
+     "ruolo": "altro",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F10",
+     "citazione": "Solvent molecules occupy the large voids with no hydrogen bonding, hence solvent removal occurs readily and leads to dissociation of the molecular salt into its individual components."
+    }
+   ],
+   "note": "LON-IMID.EtOAc e' l'unico materiale instabile in conservazione accelerata; la causa e' attribuita («could be attributed») alla presenza dell'acetato di etile nei vuoti: il solvente esce facilmente e il sale si dissocia nelle componenti. Il prodotto non e' identificato (a ignota); la durata dopo cui compare l'instabilita' non e' detta (13 settimane e' la durata dello studio). Il testo di DVS aggiunge che il solvato assorbe acqua.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F3",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "citazioni": [
+    "LON was purchased from Junda Pharmaceuticals Ltd., China whilst all co-formers were purchased from Sigma Aldrich, Singapore, with HALO purchased from TCI chemicals, Singapore. All were used as received without any further purification."
+   ],
+   "note": "LON da Junda Pharmaceuticals; i coformeri da Sigma Aldrich (HALO da TCI), usati tal quali. HALO e PIPE non hanno forme coformero dichiarate (nessun evento le coinvolge).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "ethyl acetate",
+    "acetonitrile"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 50,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "week"
+   },
+   "citazioni": [
+    "The crystal used for structure solution was obtained from an ethyl acetate-acetonitrile solvent mix, heated to 50 °C to dissolve commercial LON and then left at ambient conditions. Small colourless crystals were formed after a week."
+   ],
+   "note": "Cristallo di α-LON usato per la struttura: da una miscela acetato di etile-acetonitrile, scaldata a 50 °C per sciogliere LON commerciale e poi lasciata a condizioni ambiente; piccoli cristalli incolori dopo una settimana. Il metodo di cristallizzazione non e' nominato (non_specificato).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "citazioni": [
+    "Crystals of α-LON were obtained in a number of solution co-crystallisation trials in which a co-crystal was not successfully formed, and predominantly using ethyl acetate as the solvent.",
+    "Pure ethyl acetate also afforded such crystals."
+   ],
+   "note": "α-LON ottenuto in varie prove di cocristallizzazione da soluzione senza formazione del cocristallo, soprattutto da acetato di etile; l'acetato di etile puro da cristalli di α. Condizioni (T, tempo) non dette. «formation of the pure α-form is more challenging than the β-form using solvent based crystallisation methods».",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "methanol",
+    "tetrahydrofuran",
+    "dimethylsufoxide",
+    "dimethylformamide",
+    "formic acid",
+    "methanol-acetonitrile mix"
+   ],
+   "solventi_alternativi": true,
+   "citazioni": [
+    "Crystals of β-LON were obtained from methanol, tetrahydrofuran, dimethylsufoxide, dimethylformamide, formic acid and a methanol-acetonitrile mix."
+   ],
+   "note": "Cristalli di β-LON da solventi diversi (uno per prova; l'ultimo e' una miscela metanolo-acetonitrile). Il metodo non e' detto. «dimethylsufoxide» e' scritto cosi' nel testo.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "temperatura": {
+    "valore": 50,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "week"
+   },
+   "rapporto_soluzione": "0.5 mmol LON : 0.5 mmol ISO",
+   "citazioni": [
+    "LON-ISO co-crystal: LON (160.58 mg, 0.5 mmol) and ISO (61.06 mg, 0.5 mmol) were dissolved in ethyl acetate (4 mL) at 50 °C then left at ambient conditions for evaporation of solvent to occur. After a week, large colourless block crystals of the 1:1 co-crystal formed."
+   ],
+   "note": "Soluzione a 50 °C in acetato di etile (4 mL), poi evaporazione a condizioni ambiente; grandi cristalli a blocco incolori dopo una settimana.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile-ethanol (80:20 ratio)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 50,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "week"
+   },
+   "rapporto_soluzione": "0.5 mmol LON : 0.5 mmol NICO",
+   "citazioni": [
+    "LON-NICO co-crystal: LON (160.58 mg, 0.5 mmol) and NICO (61.06 mg, 0.5 mmol) were dissolved in an acetonitrile-ethanol solvent mix (80:20 ratio) at 50 °C then left for the solvent to evaporate under ambient conditions. Small colourless plates of the 1:1 co-crystal formed after 2 weeks."
+   ],
+   "note": "Miscela acetonitrile-etanolo 80:20 a 50 °C, evaporazione a condizioni ambiente; piccole lastre incolori dopo 2 settimane.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate",
+    "acetonitrile"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 50,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 4,
+    "unita": "day"
+   },
+   "rapporto_soluzione": "0.5 mmol LON : 0.5 mmol BENZ",
+   "citazioni": [
+    "LON-BENZ co-crystal: LON (160.58 mg, 0.5 mmol) and BENZ (60.57 mg, 0.5 mmol) were dissolved in a 50:50 solvent",
+    "mix of ethyl acetate and acetonitrile at 50 °C. The solution was left at ambient conditions for solvent evaporation which resulted in small colourless plate crystals forming of the 1:1 cocrystal after 4 days."
+   ],
+   "note": "Miscela 50:50 acetato di etile-acetonitrile a 50 °C; evaporazione a condizioni ambiente; piccole lastre incolori dopo 4 giorni. La frase e' spezzata da un'intestazione di pagina (due citazioni).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "DMSO"
+   ],
+   "temperatura": {
+    "valore": 50,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": null,
+    "testo": "2 weeks to a month"
+   },
+   "rapporto_soluzione": "0.5 mmol LON : 0.5 mmol MEL",
+   "citazioni": [
+    "LON-MEL salt: LON (160.58 mg, 0.5 mmol) and MEL (63.06 mg, 0.5 mmol) were dissolved in DMSO at 50 °C and left to evaporate at ambient conditions. Initially a gel formed however with extended time (2 weeks to a month) crystals of the 1:1 salt formed in the gel."
+   ],
+   "note": "In DMSO a 50 °C, evaporazione a condizioni ambiente; all'inizio si forma un gel, i cristalli del sale 1:1 compaiono nel gel dopo 2 settimane - un mese.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol-acetonitrile (50:50)"
+   ],
+   "solventi_alternativi": false,
+   "tempo": {
+    "valore": 5,
+    "unita": "day"
+   },
+   "rapporto_soluzione": "0.5 mmol LON : 0.05 mmol PIPE (come scritto)",
+   "citazioni": [
+    "LON-PIPE salt: LON (160.58 mg, 0.5 mmol) and PIPE (34.03 mg, 0.05 mmol) were dissolved in 50:50 solvent mix methanolacetonitrile and left to evaporate under ambient conditions. Large colourless plate crystals of the 1:1 salt formed after 5 days."
+   ],
+   "conflitto": "La parte sperimentale chiama il prodotto «1:1 salt», la sezione di struttura «2:1 salt» (forma F8: 2:1). Inoltre «PIPE (34.03 mg, 0.05 mmol)» ha la stessa massa dell'IMID (0.5 mmol) e un numero di mmol dieci volte piu' piccolo del LON: dato sospetto, riportato come scritto.",
+   "note": "Miscela metanolo-acetonitrile 50:50, evaporazione a condizioni ambiente; grandi lastre incolori dopo 5 giorni. La temperatura non e' detta.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "DMF"
+   ],
+   "temperatura": {
+    "valore": 50,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": null,
+    "min": 6,
+    "max": 8,
+    "unita": "week"
+   },
+   "rapporto_soluzione": "0.5 mmol LON : 0.5 mmol HALO",
+   "citazioni": [
+    "LON-HALO salt: LON (160.58 mg, 0.5 mmol) and HALO (187.95 mg, 0.5 mmol) were dissolved in DMF at 50 °C then left under ambient conditions for solvent evaporation to occur. Clusters of colourless plate crystals of the 1:1 salt formed after 6-8 weeks."
+   ],
+   "note": "In DMF a 50 °C, evaporazione a condizioni ambiente; ciuffi di cristalli a lastra incolori dopo 6-8 settimane. Il testo scrive «1:1 salt»; l'acqua dell'idrato non e' commentata.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F10"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "temperatura": {
+    "valore": 50,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": null,
+    "max": 1,
+    "unita": "day",
+    "limite": "sotto"
+   },
+   "rapporto_soluzione": "0.5 mmol LON : 0.5 mmol IMID",
+   "citazioni": [
+    "LON-IMID salts/co-crystal salts: LON (160.58 mg, 0.5 mmol) and IMID (34.03 mg, 0.5 mmol) were dissolved in ethyl acetate at 50 °C before being left under ambient conditions for solvent evaporation to occur. Colourless block crystals of the 1:1:0.5 salt solvate formed within one day."
+   ],
+   "note": "In acetato di etile a 50 °C, evaporazione a condizioni ambiente; cristalli a blocco incolori del sale solvato 1:1:0.5 entro un giorno.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F11",
+    "F12"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol-acetonitrile mix"
+   ],
+   "solventi_alternativi": false,
+   "rapporto_soluzione": "1:1 (LON:IMID)",
+   "citazioni": [
+    "Crystals of the 2:1 and 1:1 salts were afforded in the same way (from a 1:1 ratio) using a methanol-acetonitrile solvent mix and were observed in the same batch (2:1 ratio material characterised first, 1:1 after some time)."
+   ],
+   "note": "I sali 2:1 e 1:1 «in the same way (from a 1:1 ratio)» ma in miscela metanolo-acetonitrile, nello stesso lotto (prima il 2:1, poi l'1:1). La T di 50 °C e' quella del procedimento con acetato di etile e non e' attribuita qui (temperatura null).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F4",
+    "F5",
+    "F6",
+    "F7"
+   ],
+   "metodo": "macinazione",
+   "solventi": [
+    "methanol"
+   ],
+   "tempo": {
+    "valore": 30,
+    "unita": "min",
+    "tipo": "processo"
+   },
+   "da_evento": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "citazioni": [
+    "Synthesis of the bulk for all materials was carried out using solvent drop grinding (as per screening method with larger quantities) for LON-NICO, LON-ISO, LON-BENZ and LON-MEL and using the relevant aforementioned solution techniques for LON-IMID, LON-HALO and LON-PIPE.",
+    "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar with 7 mm stainless steel ball and ground for 30 minutes at 20 Hz using a Retsch MixerMill (models MM301 and MM200).",
+    "Solvent drop grinding had 2 drops of methanol added to the jars prior to the start of grinding."
+   ],
+   "note": "Bulk per le misure di proprieta' sintetizzato per solvent drop grinding «as per screening method with larger quantities»: metanolo, 30 min, 20 Hz dal metodo di screening. Eventi E1-E4.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F8",
+    "F9",
+    "F10"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [],
+   "citazioni": [
+    "Synthesis of the bulk for all materials was carried out using solvent drop grinding (as per screening method with larger quantities) for LON-NICO, LON-ISO, LON-BENZ and LON-MEL and using the relevant aforementioned solution techniques for LON-IMID, LON-HALO and LON-PIPE."
+   ],
+   "note": "Bulk di LON-PIPE, LON-HALO e LON-IMID con le «relevant aforementioned solution techniques» (evaporazione dalle soluzioni descritte sopra). Per «LON-IMID» si assume il solvato F10 (l'unico analizzato in DSC e DVS).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "forma": "F3",
+     "solvente": "1 % Tween 80® aqueous media",
+     "grandezza": {
+      "valore": 0.115,
+      "unita": "mg/mL"
+     },
+     "metodo": "slurry 24 h a temperatura ambiente in Tween 80 all'1 %, aliquote filtrate analizzate per HPLC",
+     "calcolato": false,
+     "citazione": "LON 27.7 0.115 1",
+     "note": null
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F4",
+     "solvente": "1 % Tween 80® aqueous media",
+     "grandezza": {
+      "valore": 0.13,
+      "unita": "mg/mL"
+     },
+     "metodo": "slurry 24 h a temperatura ambiente in Tween 80 all'1 %, aliquote filtrate analizzate per HPLC",
+     "calcolato": false,
+     "citazione": "LON-BENZ 32.5 0.130 1.13",
+     "note": null
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F9",
+     "solvente": "1 % Tween 80® aqueous media",
+     "grandezza": {
+      "valore": 0.175,
+      "unita": "mg/mL"
+     },
+     "metodo": "slurry 24 h a temperatura ambiente in Tween 80 all'1 %, aliquote filtrate analizzate per HPLC",
+     "calcolato": false,
+     "citazione": "LON-HALO 25.8 0.175 1.52",
+     "note": null
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F10",
+     "solvente": "1 % Tween 80® aqueous media",
+     "grandezza": {
+      "valore": 0.511,
+      "unita": "mg/mL"
+     },
+     "metodo": "apparent solubility, calcolata dalle parti lineari delle curve di dissoluzione (Cm = Cs·Jm/Js)",
+     "calcolato": true,
+     "citazione": "LON-IMID (solvate) 93.5 0.511 a 4.45",
+     "note": null
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F6",
+     "solvente": "1 % Tween 80® aqueous media",
+     "grandezza": {
+      "valore": 0.055,
+      "unita": "mg/mL"
+     },
+     "metodo": "apparent solubility, calcolata dalle parti lineari delle curve di dissoluzione (Cm = Cs·Jm/Js)",
+     "calcolato": true,
+     "citazione": "LON-ISO 9.7 0.055 a 0.48",
+     "note": null
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F7",
+     "solvente": "1 % Tween 80® aqueous media",
+     "grandezza": {
+      "valore": 0.041,
+      "unita": "mg/mL"
+     },
+     "metodo": "slurry 24 h a temperatura ambiente in Tween 80 all'1 %, aliquote filtrate analizzate per HPLC",
+     "calcolato": false,
+     "citazione": "LON-MEL 44.7 0.041 0.36",
+     "note": null
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F5",
+     "solvente": "1 % Tween 80® aqueous media",
+     "grandezza": {
+      "valore": 0.093,
+      "unita": "mg/mL"
+     },
+     "metodo": "apparent solubility, calcolata dalle parti lineari delle curve di dissoluzione (Cm = Cs·Jm/Js)",
+     "calcolato": true,
+     "citazione": "LON-NICO 19.7 0.093a 0.81",
+     "note": null
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F8",
+     "solvente": "1 % Tween 80® aqueous media",
+     "grandezza": {
+      "valore": 2.987,
+      "unita": "mg/mL"
+     },
+     "metodo": "slurry 24 h a temperatura ambiente in Tween 80 all'1 %, aliquote filtrate analizzate per HPLC",
+     "calcolato": false,
+     "citazione": "LON-PIPE 21.1 2.987 26.0",
+     "note": null
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "very low"
+     },
+     "solvente": null,
+     "citazione": "as both LON and its sodium salt exhibit very low solubility"
+    },
+    {
+     "tipo": "igroscopicita",
+     "forma": "F10",
+     "grandezza": {
+      "valore": 1.9,
+      "unita": "%"
+     },
+     "metodo": "DVS (0-90 % RH a 25 °C, parte sperimentale)",
+     "citazione": "Two samples show a mass change greater than 1 %, the LONIMD.EtOAc salt solvate 1.9 % and the LON-HALO.3H2O salt trihydrate 2.6 %."
+    },
+    {
+     "tipo": "igroscopicita",
+     "forma": "F9",
+     "grandezza": {
+      "valore": 2.6,
+      "unita": "%"
+     },
+     "metodo": "DVS (0-90 % RH a 25 °C, parte sperimentale)",
+     "citazione": "Two samples show a mass change greater than 1 %, the LONIMD.EtOAc salt solvate 1.9 % and the LON-HALO.3H2O salt trihydrate 2.6 %."
+    }
+   ]
+  },
+  {
+   "composto": "C6",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "solvente": "aqueous",
+     "grandezza": {
+      "valore": 3.24,
+      "unita": "mg/mL"
+     },
+     "citazione": "LON-MEL is the only salt material which produced a lower solubility, and could be due to the lower aqueous solubility of the co-former (3.24 mg mL-1)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1967 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.3c01313",
+ "pertinente": true,
+ "note": "Non sono eventi: l'analisi delle strutture (legami H, interazioni CH···π, superfici di Hirshfeld e impronte 2D, indice di impacchettamento K.P.I., energie coesive) e il sondaggio del CSD sui frammenti 1-amino-2-indanolo e naprossene (22 e 115 occorrenze; strutture della letteratura KAPVAY, KAPVEC, KAPWAZ, KAPYEF, KAPYIJ, KAPZOQ, KAQBAF, OKIQAA, ELITIC, YALWEO) stanno nell'extra: non sono forme di questo lavoro e non hanno eventi. La selettivita' (cristallizzazione preferenziale di SR-AI_S-Nap_A da una soluzione equimolare dei due enantiomeri) e' nelle preparazioni (nessun evento solido-solido). Nessun CCDC ne' refcode e' scritto per le quattro strutture (CIF nel supplementare); le celle in Tabella 1 sono scomposte dal PDF e sono attribuite con l'aritmetica dei volumi (cella_dedotta). Gli schemi 1-3 e le figure S1-S15 (PXRD, DSC) sono nel supplementare o in figura: Scheme 3 («Solid forms formation conditions and relationships») e' solo una figura. Per la prova di idratazione in desiccatore la temperatura non e' scritta (RH ca. 75% si'); nelle altre due prove e nelle preparazioni «r.t.»/«rt» resta senza numero: nessuna conversione. Incoerenza dell'articolo: «RS-AI_S-Nap_A2 was obtained only for dehydration of the hydrated phase RS-AI_S-Nap_W in oven at 140°C» (Risultati), ma A2 si forma anche da A1 a 165 °C e dopo la fusione di A1 in DSC; nelle conclusioni «All the salts were structurally characterized by SCXRD (SR-AI_S-Nap_A1, RS-AI_S-Nap_A1 and RS-AI_S-Nap_W)»: l'etichetta SR-AI_S-Nap_A1 non esiste altrove (la fase SR-AI e' sempre SR-AI_S-Nap_A), probabile refuso.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid ((S)-(+)-Naproxen, S-Nap)"
+  },
+  {
+   "id": "C2",
+   "nome": "(1S,2R)-(-)-cis-1-Amino-2-indanol (SR-AI)"
+  },
+  {
+   "id": "C3",
+   "nome": "(1R,2S)-(+)-cis-1-Amino-2-indanol (RS-AI)",
+   "analogo_di": "C2"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "SR-AI_S-Nap_A",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 11.0775,
+    "b": 6.3903,
+    "c": 13.761,
+    "beta": 94.704,
+    "V": 970.9,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "cella_dedotta": true,
+   "protonazione": "sale: catione 1-amino-2-indanolo (NH3+) e anione naprossenato",
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "SCXRD data of SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_W were collected on a Bruker Apex-II diffractometer equipped with a CCD detector (T = 100 K, Cu−Kα radiation (λ = 1.54178 Å)."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(9) ring (graph set)",
+     "chi": "coppia ionica: NH3+ e OH del catione 1-amino-2-indanolo con il carbossilato del naprossenato (legami NH…OOC e OH…OOC)",
+     "citazione": "This ionic 𝑅22(9) pair replicates along the b-axis held together by NH…OOC bonds"
+    },
+    {
+     "motivo": "R3^4(11) H-bond pattern (graph set)",
+     "chi": "cationi 1-amino-2-indanolo legati da asse 21 (OH accettore) e ponti NH3+ verso anioni naprossenato contigui",
+     "citazione": "resulting in an H-bond pattern 𝑅34(11) (Figure 3 left)."
+    },
+    {
+     "motivo": "H-bonded column along the b-axis",
+     "chi": "catione 1-amino-2-indanolo e anione naprossenato (gruppo ammonio e ossidrile dell'AI, carbossilato del naprossene)",
+     "citazione": "which in turn binds a 21 symmetry related S-Nap anion (Figure 3), originating a H-bonded column which extends along the b-axis direction."
+    }
+   ],
+   "citazione": "Crystal system, space group Monoclinic, P21 Monoclinic, P21 Orthorhombic, P212121 Monoclinic, P21",
+   "note": "Cella dalla Tabella 1, che il PDF ha scomposto in righe: a, b e beta compaiono in blocchi separati (A, A1 | A2, W) e c in una riga con le quattro colonne. Attribuzione ricostruita con l'aritmetica dei volumi (V = abc·sin(beta)): 970.84 Å3 con a = 11.0775, b = 6.3903, beta = 94.704, c = 13.761 (V scritto 970.9); le altre sette combinazioni dei valori delle colonne A e A1 danno 961.93-991.01 Å3, quindi la sola che torna per A e' questa (per A1 vale 981.92 solo con i suoi quattro valori). L'ordine dei blocchi rispetta quello delle colonne. Sale del diastereoisomero (1S,2R)-AI con (S)-naprossene. CCDC e refcode non sono scritti nel testo (i CIF sono nel supplementare). Z = 2, dcalc 1.298 g/cm3 (riga «Z, dcalc»)."
+  },
+  {
+   "id": "F2",
+   "etichetta": "RS-AI_S-Nap_A1",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 11.0114,
+    "b": 6.4629,
+    "c": 14.0469,
+    "beta": 100.809,
+    "V": 981.92,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "cella_dedotta": true,
+   "protonazione": "sale: catione 1-amino-2-indanolo (NH3+) e anione naprossenato",
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "SCXRD data of SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_W were collected on a Bruker Apex-II diffractometer equipped with a CCD detector (T = 100 K, Cu−Kα radiation (λ = 1.54178 Å)."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(9) ring (graph set)",
+     "chi": "coppia ionica: NH3+ e OH del catione 1-amino-2-indanolo con il carbossilato del naprossenato (legami NH…OOC e OH…OOC)",
+     "citazione": "This ionic 𝑅22(9) pair replicates along the b-axis held together by NH…OOC bonds"
+    },
+    {
+     "motivo": "R3^4(11) H-bond pattern (graph set)",
+     "chi": "cationi 1-amino-2-indanolo legati da asse 21 (OH accettore) e ponti NH3+ verso anioni naprossenato contigui",
+     "citazione": "resulting in an H-bond pattern 𝑅34(11) (Figure 3 left)."
+    },
+    {
+     "motivo": "H-bonded column along the b-axis",
+     "chi": "catione 1-amino-2-indanolo e anione naprossenato (gruppo ammonio e ossidrile dell'AI, carbossilato del naprossene)",
+     "citazione": "which in turn binds a 21 symmetry related S-Nap anion (Figure 3), originating a H-bonded column which extends along the b-axis direction."
+    }
+   ],
+   "citazione": "Crystal system, space group Monoclinic, P21 Monoclinic, P21 Orthorhombic, P212121 Monoclinic, P21",
+   "note": "Cella dalla Tabella 1, che il PDF ha scomposto in righe: a, b e beta compaiono in blocchi separati (A, A1 | A2, W) e c in una riga con le quattro colonne. Attribuzione ricostruita con l'aritmetica dei volumi (V = abc·sin(beta)): 981.92 Å3 con a = 11.0114, b = 6.4629, beta = 100.809, c = 14.0469 (V scritto 981.92). L'ordine dei blocchi rispetta quello delle colonne. Fase cinetica («the kinetically preferred diastereomeric salt»). Z = 2, dcalc 1.283 g/cm3. CCDC e refcode non scritti."
+  },
+  {
+   "id": "F3",
+   "etichetta": "RS-AI_S-Nap_A2",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 37.152,
+    "b": 5.9829,
+    "c": 9.1733,
+    "V": 2039.01,
+    "Z": 4,
+    "fonte": "PXRD",
+    "condizioni": "300 K"
+   },
+   "cella_dedotta": true,
+   "protonazione": "sale: catione 1-amino-2-indanolo (NH3+) e anione naprossenato",
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 300,
+      "unita": "K"
+     },
+     "fonte": "PXRD",
+     "citazione": "T (K) 100 100 300 100"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(9) ring (graph set)",
+     "chi": "coppia ionica: NH3+ e OH del catione 1-amino-2-indanolo con il carbossilato del naprossenato (legami NH…OOC e OH…OOC)",
+     "citazione": "This ionic 𝑅22(9) pair replicates along the b-axis held together by NH…OOC bonds"
+    },
+    {
+     "motivo": "R3^4(11) H-bond pattern (graph set)",
+     "chi": "cationi 1-amino-2-indanolo legati da asse 21 (OH accettore) e ponti NH3+ verso anioni naprossenato contigui",
+     "citazione": "resulting in an H-bond pattern 𝑅34(11) (Figure 3 left)."
+    },
+    {
+     "motivo": "H-bonded column along the b-axis",
+     "chi": "catione 1-amino-2-indanolo e anione naprossenato (gruppo ammonio e ossidrile dell'AI, carbossilato del naprossene)",
+     "citazione": "which in turn binds a 21 symmetry related S-Nap anion (Figure 3), originating a H-bonded column which extends along the b-axis direction."
+    }
+   ],
+   "citazione": "Crystal system, space group Monoclinic, P21 Monoclinic, P21 Orthorhombic, P212121 Monoclinic, P21",
+   "note": "Cella dalla Tabella 1, che il PDF ha scomposto in righe: a, b e beta compaiono in blocchi separati (A, A1 | A2, W) e c in una riga con le quattro colonne. Attribuzione ricostruita con l'aritmetica dei volumi (V = abc·sin(beta)): 2039.01 Å3 con a = 37.152, b = 5.9829, c = 9.1733 (ortorombica, V scritto 2039.01); con a = 16.6585 verrebbe 914 Å3. L'ordine dei blocchi rispetta quello delle colonne. Struttura risolta da dati PXRD (non da cristallo singolo): gruppo spaziale determinato con EXPO2014 (P212121, Z = 4), annealing simulato e raffinamento di Rietveld; T = 300 K dalla Tabella 1 (il testo dice «at room temperature»). Z = 4, dcalc 1.236 g/cm3. CCDC e refcode non scritti."
+  },
+  {
+   "id": "F4",
+   "etichetta": "RS-AI_S-Nap_W",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula",
+    "fonte_stechiometria": "cristallografica"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 16.6585,
+    "b": 6.2504,
+    "c": 21.1989,
+    "beta": 109.374,
+    "V": 2082.3,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "cella_dedotta": true,
+   "protonazione": "sale: catione 1-amino-2-indanolo (NH3+) e anione naprossenato",
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "SCXRD data of SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_W were collected on a Bruker Apex-II diffractometer equipped with a CCD detector (T = 100 K, Cu−Kα radiation (λ = 1.54178 Å)."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "ribbon of naproxen anions and water molecules along the b axis",
+     "chi": "anioni naprossenato legati da molecole d'acqua (donatori verso un ossigeno del carbossilato e verso -OCH3)",
+     "citazione": "As a result, a ribbon of naproxen anions and water molecules propagates along the b axis direction (Figure 8, left)."
+    },
+    {
+     "motivo": "AI cations bridging naproxen anions through NH…COO and OH…COO hydrogen bonds",
+     "chi": "cationi 1-amino-2-indanolo e anioni naprossenato (strati carichi alternati)",
+     "citazione": "Instead, AI cations bridge identical naproxen anions (related by translation along the b-axis direction) through NH…COO hydrogen bonds (see Table 3 and Figure 9 left), and 21 related anions via OH…COO hydrogen bonds (see Table 3)."
+    }
+   ],
+   "citazione": "Crystal system, space group Monoclinic, P21 Monoclinic, P21 Orthorhombic, P212121 Monoclinic, P21",
+   "note": "Cella dalla Tabella 1, che il PDF ha scomposto in righe: a, b e beta compaiono in blocchi separati (A, A1 | A2, W) e c in una riga con le quattro colonne. Attribuzione ricostruita con l'aritmetica dei volumi (V = abc·sin(beta)): 2082.29 Å3 con a = 16.6585, b = 6.2504, beta = 109.374, c = 21.1989 (V scritto 2082.3). L'ordine dei blocchi rispetta quello delle colonne. Formula del moiety (C9H12NO)(C14H13O3)(H2O): 1 H2O per unita' formula del sale (1 catione + 1 anione), Z = 4; l'unita' asimmetrica contiene due coppie ioniche indipendenti e due molecole d'acqua («two independent naproxen and 1-Amino-2-indanol ions and two water molecules»). Acqua in vuoti isolati. dcalc 1.268 g/cm3. CCDC e refcode non scritti."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "S-Nap",
+   "etichette_alternative": [
+    "(S)-(+)-Naproxen",
+    "S-(+)-Naproxen"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid ((S)-(+)-Naproxen, 99%) was purchased from Alfa Aesar.",
+   "note": "Acido libero (S)-naprossene commerciale (Alfa Aesar, 99%), solido di partenza di tutte le preparazioni; mai caratterizzato come forma cristallina in questo lavoro."
+  },
+  {
+   "id": "F6",
+   "composto": "C2",
+   "etichetta": "SR-AI",
+   "etichette_alternative": [
+    "(1S,2R)-(-)-cis-1-Amino-2-indanol"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "(1S,2R)-(-)-cis-1-Amino-2-indanol (99%) and (1R,2S)-(+)-cis-1-Amino-2-",
+   "note": "Enantiomero (1S,2R) commerciale (abcr GmbH, 99%), usato senza ulteriore purificazione; mai caratterizzato come forma cristallina in questo lavoro."
+  },
+  {
+   "id": "F7",
+   "composto": "C3",
+   "etichetta": "RS-AI",
+   "etichette_alternative": [
+    "(1R,2S)-(+)-cis-1-Amino-2-indanol"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "indanol (99%) were purchased from abcr GmbH. All the compounds were used without any further purification.",
+   "note": "Enantiomero (1R,2S) commerciale (abcr GmbH, 99%), usato senza ulteriore purificazione; mai caratterizzato come forma cristallina in questo lavoro."
+  },
+  {
+   "id": "F8",
+   "etichetta": "[S-Nap + SR-AI 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F5",
+    "F6"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+   "note": "Miscela di partenza della macinazione assistita da liquido (1 mmol di ciascuno); 1:1 e' il rapporto in mmol."
+  },
+  {
+   "id": "F9",
+   "etichetta": "[S-Nap + RS-AI 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F5",
+    "F7"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+   "note": "Miscela di partenza della macinazione assistita da liquido (1 mmol di ciascuno); 1:1 e' il rapporto in mmol."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F3",
+   "citazione": "3) the two anhydrous RS-AI/S-Nap solid forms are in monotropic relationship (the phase transition RS-AI_S-Nap_A1RS-AI_S-Nap_A2 is irreversible)",
+   "relazione_scritta": "monotropic relationship (the phase transition A1 -> A2 is irreversible)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "La relazione monotropa e' dichiarata («are in monotropic relationship»); la maggiore stabilita' di A2 e' una congettura degli autori («we can speculate that RS-AI_S-Nap_A1, the less stable polymorphs, forms under kinetic control while RS-AI_S-Nap_A2 is the thermodynamically stable solid form»), sostenuta da punti di fusione (164 e 176°) e K.P.I. (67.7 contro 68.3 a 300 K). Nessuna temperatura di transizione.",
+   "conflitto": null
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "piu_stabile_fra": [
+    "F2",
+    "F3"
+   ],
+   "citazione": "However, based on the melting temperature and enthalpy values, SR-AI_S-Nap_A appears by far the most stable anhydrous diastereomeric salt of the series (about 184°C and ΔH = 85.7 kJ/mol vs 164°C and ΔH = 37.9 kJ/mol for RS-AI_S-Nap_A1), with RS-AI_S-Nap_A2 in the middle (melting temperature 176oC, melting enthalpy ΔH = 51.9 kJ/mol).",
+   "relazione_scritta": "SR-AI_S-Nap_A appears by far the most stable anhydrous diastereomeric salt of the series",
+   "condizioni": "basata sulla temperatura e sull'entalpia di fusione (DSC), non su un confronto di solubilita' o sospensione",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Coppia di sali diastereoisomerici (SR-AI contro RS-AI con lo stesso naprossene): non sono polimorfi, quindi nessuna mono/enantiotropia. Il giudizio e' degli autori e si basa solo sulla fusione; il testo aggiunge che «SR-AI_S-Nap_A is the thermodynamically stable phase of the SR-AI/S-Nap salt» e che le energie coesive calcolate delle tre fasi anidre «are within the expected errors»."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F8",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM200 mixer mill",
+     "frequenza_Hz": 20,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "three zirconium oxide balls (zirconium oxide grinding jars)",
+     "liquido": "EtOH (2-3 drops)"
+    },
+    "solventi": [
+     {
+      "nome": "EtOH",
+      "proporzione": "2-3 drops"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "For the liquid assisted grinding (LAG) experiments a Retsch MM200 mixer mill, operating at a frequency of 20 Hz for 20 minutes, was used. In all the LAG experiments zirconium oxide grinding jars and three zirconium oxide balls were used.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "(S)-(+)-Naproxen and (1S,2R)-(-)-cis-1-Amino-2-indanol were introduced in the mixer mill and 2-3 drops of EtOH were added. At the end of a 20-minute grinding, the formation of the SR-AI_S-Nap_A salt was observed;",
+    "In fact, while all the LAG experiments resulted in the SR-AI_S-Nap_A phase (see Figures S1-S2)",
+    "Finally, the PXRD pattern of each microcrystalline sample (MP) was compared to the theoretical one of the corresponding single-crystal (SC) phase (SR-AI_S-Nap_A, RS-AI_S-Nap_A1, RS-AI_S-Nap_A2 and RS-AI_S-Nap_W) to confirm the content in terms of crystalline phase of the obtained powder"
+   ],
+   "certezza": "alta",
+   "note": "Macinato di S-Nap con SR-AI e 2-3 gocce di EtOH: il PXRD della polvere microcristallina (MP) e' confrontato con il teorico di F1 (Fig. S1-S2). Temperatura e atmosfera non scritte. La durata «20 minutes» e' del metodo generale della LAG.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E2",
+   "da": "F8",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM200 mixer mill",
+     "frequenza_Hz": 20,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "three zirconium oxide balls (zirconium oxide grinding jars)",
+     "liquido": "water (2-3 drops)"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": "2-3 drops"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "For the liquid assisted grinding (LAG) experiments a Retsch MM200 mixer mill, operating at a frequency of 20 Hz for 20 minutes, was used. In all the LAG experiments zirconium oxide grinding jars and three zirconium oxide balls were used.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "(S)-(+)-Naproxen and (1S,2R)-(-)-cis-1-Amino-2-indanol were introduced in the mixer mill and 2-3 drops of water were added. At the end of a 20-minute grinding, the formation of the SR-AI_S-Nap_A salt was observed.",
+    "In fact, while all the LAG experiments resulted in the SR-AI_S-Nap_A phase (see Figures S1-S2)",
+    "Finally, the PXRD pattern of each microcrystalline sample (MP) was compared to the theoretical one of the corresponding single-crystal (SC) phase (SR-AI_S-Nap_A, RS-AI_S-Nap_A1, RS-AI_S-Nap_A2 and RS-AI_S-Nap_W) to confirm the content in terms of crystalline phase of the obtained powder"
+   ],
+   "certezza": "alta",
+   "note": "Macinato di S-Nap con SR-AI e 2-3 gocce d'acqua: ancora F1 (l'articolo non riporta alcun idrato per SR-AI). Temperatura e atmosfera non scritte.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E3",
+   "da": "F9",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM200 mixer mill",
+     "frequenza_Hz": 20,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "three zirconium oxide balls (zirconium oxide grinding jars)",
+     "liquido": "EtOH (2-3 drops)"
+    },
+    "solventi": [
+     {
+      "nome": "EtOH",
+      "proporzione": "2-3 drops"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "For the liquid assisted grinding (LAG) experiments a Retsch MM200 mixer mill, operating at a frequency of 20 Hz for 20 minutes, was used. In all the LAG experiments zirconium oxide grinding jars and three zirconium oxide balls were used.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "S-(+)-Naproxen and (1R,2S)-(+)-cis-1-Amino-2-indanol were introduced in the mixer mill and 2-3 drops of EtOH were added. At the end of a 20-minute grinding, the formation of RS-AI_S-Nap_A1 salt was observed.",
+    "RS-AI_S-Nap_A1 was obtained when ethanol is used in the LAG procedure",
+    "Finally, the PXRD pattern of each microcrystalline sample (MP) was compared to the theoretical one of the corresponding single-crystal (SC) phase (SR-AI_S-Nap_A, RS-AI_S-Nap_A1, RS-AI_S-Nap_A2 and RS-AI_S-Nap_W) to confirm the content in terms of crystalline phase of the obtained powder"
+   ],
+   "certezza": "alta",
+   "note": "Con RS-AI e EtOH la LAG da' la fase anidra cinetica A1 (F2). Temperatura e atmosfera non scritte.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E4",
+   "da": "F9",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM200 mixer mill",
+     "frequenza_Hz": 20,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "three zirconium oxide balls (zirconium oxide grinding jars)",
+     "liquido": "H2O (2-3 drops)"
+    },
+    "solventi": [
+     {
+      "nome": "H2O",
+      "proporzione": "2-3 drops"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "For the liquid assisted grinding (LAG) experiments a Retsch MM200 mixer mill, operating at a frequency of 20 Hz for 20 minutes, was used. In all the LAG experiments zirconium oxide grinding jars and three zirconium oxide balls were used.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "S-(+)-Naproxen and (1R,2S)-(+)-cis-1-Amino-2-indanol were introduced in the mixer mill and 2-3 drops of H2O were added. After 20 minutes of grinding, the RS-AI_S-Nap_W salt was formed.",
+    "while the use of water led to the formation of RS-AI_S-Nap_W (see Figures S3-S4).",
+    "Finally, the PXRD pattern of each microcrystalline sample (MP) was compared to the theoretical one of the corresponding single-crystal (SC) phase (SR-AI_S-Nap_A, RS-AI_S-Nap_A1, RS-AI_S-Nap_A2 and RS-AI_S-Nap_W) to confirm the content in terms of crystalline phase of the obtained powder"
+   ],
+   "certezza": "alta",
+   "note": "Con RS-AI e acqua la LAG da' l'idrato W (F4); la quantita' d'acqua decide fra A1 e W («the presence and the amount of the water during the crystallization process plays a critical role»). Temperatura e atmosfera non scritte.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 165,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 0.5,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": null,
+   "citazioni": [
+    "Nap_A2) has been confirmed by the comparison of the PXRD pattern of a sample of RS-AI_S-Nap_A1 kept in oven at 165°C for half an hour with the theoretical one as obtained from the SCXRD data RS-AI_S-Nap_A1 (Figure 2).",
+    "Figure 2. Superimposition of the PXRD pattern of RS-AI_S-Nap at the beginning (black) and at the end (blue) of the oven experiment.",
+    "3) the two anhydrous RS-AI/S-Nap solid forms are in monotropic relationship (the phase transition RS-AI_S-Nap_A1RS-AI_S-Nap_A2 is irreversible)",
+    "For example, on increasing the temperature, both the irreversible transformations RS-AI_S-Nap_A1 -> RS-AI_S-Nap_A2 (the two polymorphs are",
+    "in a monotropic relationship) and the dehydration of RS-AI_S-Nap_W to RS-AI_S-Nap_A2 occurred.",
+    "The S-Nap anion adopts an almost identical conformation in SR-AI_S-Nap_A and RS-AI_S-Nap_A1, with the carboxylate group almost perpendicular to the aryl moiety, while in RS-"
+   ],
+   "certezza": "alta",
+   "reversibile": false,
+   "inverso_di": [
+    "E10"
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "R2^2(9) and R3^4(11) H-bond motifs (columnar arrangement of the ionic pairs)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F3",
+     "citazione": "An identical H-bonds network ( and motifs) hold together the two ionic partners 𝑅22(9) 𝑅34(11) in RS-AI_S-Nap_A2."
+    }
+   ],
+   "note": "Campione di A1 tenuto in stufa a 165 °C per «half an hour» (0.5 h, durata del trattamento). Il testo dice che la nuova fase anidra (A2) e' confermata dal PXRD; il confronto e' descritto con il «theoretical» di A1 ma la didascalia della Fig. 2 mostra il PXRD all'inizio e alla fine dell'esperimento. Transizione irreversibile e monotropa secondo gli autori. I gruppi: confronto delle strutture di A1 e A2 (carbossilato perpendicolare in A1, eclissato in A2; motivi R2^2(9) e R3^4(11) invariati); l'articolo non descrive il percorso. Incoerenza dell'articolo: i Risultati scrivono «RS-AI_S-Nap_A2 was obtained only for dehydration of the hydrated phase RS-AI_S-Nap_W in oven at 140°C», mentre qui A2 si ottiene anche da A1. [Coordinatore: rimossi i gruppi_coinvolti dedotti dal confronto fra le strutture; il testo non dice che partecipino alla trasformazione (linee guida: solo se il testo lo dice). I dati strutturali restano nell'extra: voci X75 e X105.]",
+   "conflitto": "«RS-AI_S-Nap_A2 was obtained only for dehydration of the hydrated phase RS-AI_S-Nap_W in oven at 140°C» (Risultati) contro A1 -> A2 a 165 °C per mezz'ora e dopo la fusione in DSC (stesso articolo). Si tiene il passo A1 -> A2 perche' descritto con le sue condizioni.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 163.9,
+     "picco": 164.0
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 37.9,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 164.0,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.7 to 3.5 mg"
+   },
+   "citazioni": [
+    "Differential Scanning Calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (samples’ mass ranged from 0.7 to 3.5 mg).",
+    "Measurements were carried out in the 40-200°C temperature range and a linear heating rate of 10°C/min was used. Experiments were performed in air.",
+    "Different was the behavior of the diastereomeric solid form RS-AI_S-Nap_A1. In fact, in the same temperature range, its DSC curve showed three thermal events (Figure S7):",
+    "a first endothermic peak (peak = 164.0°C, extrapolated peak = 164.1°C, onset = 163.9°C, ΔH = 37.9 kJ/mol) is immediately followed by an exothermic one (peak = 166.4°C, extrapolated peak = 166.7°C, onset = 166.4°C) and then by a second endothermic peak (peak = 175.9°C, extrapolated peak = 175.9°C, onset = 175.8°C).",
+    "These three events were tentatively attributed to the melting of RS-AI_S-Nap_A1 (first endothermic peak), the recrystallization of a second phase (exothermic peak), followed by its melting (second endothermic peak).",
+    "This observation is in keeping with the melting points of the two polymorphs (164 and 176° for RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, respectively)"
+   ],
+   "certezza": "media",
+   "note": "Primo picco endotermico, attribuito (tentativamente, «tentatively attributed») alla fusione di A1. Peak 164.0, extrapolated peak 164.1 (nell'extra), onset 163.9 °C; DeltaH 37.9 kJ/mol. Intervallo DSC 40-200 °C (metodi) / «r.t.-200°C» (risultati). Nella discussione la fusione di A1 e' «164°C» e quella di A2 «176°».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "picco",
+     "picco": 166.4,
+     "onset": 166.4
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 166.4,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.7 to 3.5 mg"
+   },
+   "citazioni": [
+    "Differential Scanning Calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (samples’ mass ranged from 0.7 to 3.5 mg).",
+    "Measurements were carried out in the 40-200°C temperature range and a linear heating rate of 10°C/min was used. Experiments were performed in air.",
+    "Different was the behavior of the diastereomeric solid form RS-AI_S-Nap_A1. In fact, in the same temperature range, its DSC curve showed three thermal events (Figure S7):",
+    "a first endothermic peak (peak = 164.0°C, extrapolated peak = 164.1°C, onset = 163.9°C, ΔH = 37.9 kJ/mol) is immediately followed by an exothermic one (peak = 166.4°C, extrapolated peak = 166.7°C, onset = 166.4°C) and then by a second endothermic peak (peak = 175.9°C, extrapolated peak = 175.9°C, onset = 175.8°C).",
+    "These three events were tentatively attributed to the melting of RS-AI_S-Nap_A1 (first endothermic peak), the recrystallization of a second phase (exothermic peak), followed by its melting (second endothermic peak).",
+    "RS-AI_S-Nap_A1 forms only in certain conditions and underwent an irreversible phase transition to RS-AI_S-Nap_A2 after melting"
+   ],
+   "certezza": "media",
+   "da_evento": "E6",
+   "passo": "recrystallization of a second phase",
+   "note": "Picco esotermico subito dopo la fusione di A1, attribuito alla ricristallizzazione di «a second phase» (tentativamente). La seconda fase e' A2 per l'astratto («underwent an irreversible phase transition to RS-AI_S-Nap_A2 after melting») e per la fusione finale a 175.9 °C, vicina a quella di A2; nella frase del DSC la fase non e' nominata (extrapolated peak 166.7 nell'extra). Peak e onset coincidono (166.4 °C).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 175.8,
+     "picco": 175.9
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 175.9,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.7 to 3.5 mg"
+   },
+   "citazioni": [
+    "Differential Scanning Calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (samples’ mass ranged from 0.7 to 3.5 mg).",
+    "Measurements were carried out in the 40-200°C temperature range and a linear heating rate of 10°C/min was used. Experiments were performed in air.",
+    "Different was the behavior of the diastereomeric solid form RS-AI_S-Nap_A1. In fact, in the same temperature range, its DSC curve showed three thermal events (Figure S7):",
+    "a first endothermic peak (peak = 164.0°C, extrapolated peak = 164.1°C, onset = 163.9°C, ΔH = 37.9 kJ/mol) is immediately followed by an exothermic one (peak = 166.4°C, extrapolated peak = 166.7°C, onset = 166.4°C) and then by a second endothermic peak (peak = 175.9°C, extrapolated peak = 175.9°C, onset = 175.8°C).",
+    "These three events were tentatively attributed to the melting of RS-AI_S-Nap_A1 (first endothermic peak), the recrystallization of a second phase (exothermic peak), followed by its melting (second endothermic peak)."
+   ],
+   "certezza": "media",
+   "da_evento": "E7",
+   "passo": "melting of the second phase",
+   "note": "Secondo picco endotermico, fusione della seconda fase formatasi dal fuso (A2 per inferenza dall'astratto e dalla fusione a 175.9 °C). Peak 175.9, extrapolated peak 175.9 (nell'extra), onset 175.8 °C; nessuna entalpia scritta per questo picco.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E9",
+   "da": "fuso",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Different was the behavior of the diastereomeric solid form RS-AI_S-Nap_A1. In fact, in the same temperature range, its DSC curve showed three thermal events (Figure S7):",
+    "On cooling no further thermal events were observed."
+   ],
+   "certezza": "media",
+   "da_evento": "E8",
+   "note": "Raffreddamento dopo la corsa DSC di A1 (fino a 200 °C, oltre la fusione a 175.9 °C): «On cooling no further thermal events were observed», cioe' nessuna cristallizzazione del fuso osservata in DSC. Il testo non dice che il campione a 200 °C e' fuso ne' la velocita' di raffreddamento; il fuso e' dedotto dai tre picchi attribuiti alla fusione di A1 e della seconda fase.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E10",
+   "da": "F3",
+   "a": "F2",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "3) the two anhydrous RS-AI/S-Nap solid forms are in monotropic relationship (the phase transition RS-AI_S-Nap_A1RS-AI_S-Nap_A2 is irreversible)",
+    "For example, on increasing the temperature, both the irreversible transformations RS-AI_S-Nap_A1 -> RS-AI_S-Nap_A2 (the two polymorphs are",
+    "in a monotropic relationship) and the dehydration of RS-AI_S-Nap_W to RS-AI_S-Nap_A2 occurred.",
+    "RS-AI_S-Nap_A1 forms only in certain conditions and underwent an irreversible phase transition to RS-AI_S-Nap_A2 after melting"
+   ],
+   "certezza": "media",
+   "inverso_di": [
+    "E5"
+   ],
+   "senza_condizioni": true,
+   "note": "Mancato ritorno A2 -> A1: gli autori dicono la transizione A1 -> A2 «irreversible» e le due fasi in relazione monotropa, ma non descrivono un esperimento di ritorno con condizioni sue (nessuna T, RH o trattamento). Evento per la sola irreversibilita' dichiarata, come prevedono le linee guida per il verso non avvenuto.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E11",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 183.5,
+     "picco": 183.8
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 85.7,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 183.8,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.7 to 3.5 mg"
+   },
+   "citazioni": [
+    "Differential Scanning Calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (samples’ mass ranged from 0.7 to 3.5 mg).",
+    "Measurements were carried out in the 40-200°C temperature range and a linear heating rate of 10°C/min was used. Experiments were performed in air.",
+    "The anhydrous SR-AI_S-Nap_A compound is stable from r.t to melting, as provided by the DSC curve (collected in the r.t.-200°C range) which revealed just one endothermic event, related to the melting of the compound (peak = 183.8°C, extrapolated peak = 183.7°C, onset = 183.5°C, ΔH = 85.7 kJ/mol, Figure S6)."
+   ],
+   "certezza": "alta",
+   "note": "Unico evento termico della DSC di F1: fusione. Peak 183.8, extrapolated peak 183.7 (nell'extra), onset 183.5 °C; DeltaH 85.7 kJ/mol. Nella discussione la fusione e' «about 184°C».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E12",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": -170,
+     "max": 184
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "Measurements were carried out in the 40-200°C temperature range and a linear heating rate of 10°C/min was used. Experiments were performed in air.",
+    "The anhydrous SR-AI_S-Nap_A compound is stable from r.t to melting, as provided by the DSC curve (collected in the r.t.-200°C range) which revealed just one endothermic event",
+    "Considering that the PXRD pattern collected at r.t. well superimposes with the theoretical one obtained by the SCXRD data collected at 100K, we can assume that the stability range for this phase is from -170°C to melting (184°C).",
+    "changing the temperature no phase transformations were observed"
+   ],
+   "certezza": "media",
+   "note": "Stabilita' di F1 da -170 °C (T della struttura a 100 K) fino alla fusione (184 °C): l'estremo basso e' un'assunzione degli autori («we can assume»), basata sul PXRD a r.t. sovrapponibile al teorico a 100 K; l'estremo alto e' la fusione in DSC. La DSC e' stata fatta solo da r.t. a 200 °C.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E13",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 173.7,
+     "picco": 175.1
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 56.0,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 175.1,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.7 to 3.5 mg"
+   },
+   "citazioni": [
+    "Differential Scanning Calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (samples’ mass ranged from 0.7 to 3.5 mg).",
+    "Measurements were carried out in the 40-200°C temperature range and a linear heating rate of 10°C/min was used. Experiments were performed in air.",
+    "In Figure S8 the DSC curve of RS-AI_S-Nap_A2 is reported (peak = 175.1°C, extrapolated peak = 175.1°C, onset = 173.7°C, ΔH = 56.0 kJ/mol)"
+   ],
+   "certezza": "media",
+   "note": "Fusione di A2 dalla sua curva DSC (Fig. S8): peak 175.1, extrapolated peak 175.1 (nell'extra), onset 173.7 °C, DeltaH 56.0 kJ/mol. Il testo non dice da quale esperimento viene il campione di A2. Nella discussione A2 fonde a «176oC» con DeltaH = 51.9 kJ/mol (il valore del secondo picco della DSC di W, evento successivo): il DeltaH di 56.0 qui e' quello della curva di A2.",
+   "conflitto": "Entalpia di fusione di A2: 56.0 kJ/mol dalla curva DSC di A2 (Fig. S8) contro 51.9 kJ/mol dal secondo picco della curva di W (Fig. S9), che la discussione usa per A2 («melting temperature 176oC, melting enthalpy ΔH = 51.9 kJ/mol»). Entrambi riportati, ciascuno nel suo evento.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E14",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 129.6,
+     "picco": 129.6
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 16.6,
+     "unita": "kJ/mol",
+     "tipo": "desolvatazione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 129.6,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.7 to 3.5 mg"
+   },
+   "citazioni": [
+    "Differential Scanning Calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (samples’ mass ranged from 0.7 to 3.5 mg).",
+    "Measurements were carried out in the 40-200°C temperature range and a linear heating rate of 10°C/min was used. Experiments were performed in air.",
+    "As for the hydrated salt (RS-AI_S-Nap_W), its DSC curve showed two endothermic events:",
+    "the first one (peak = 129.6°C, extrapolated peak = 130.1°C, onset = 129.6°C, ΔH = 16.6 kJ/mol) which can be related to the loss of water; while the second, due to the melting of the resulting anhydrous compound, occurred at about 175°C (peak = 175.9°C, extrapolated peak = 175.9°C, 175.9°C, ΔH = 51.9 kJ/mol, Figure S9), i.e. the same melting temperature of RS-AI_S-Nap-A2.",
+    "To confirm that dehydration the hydrated phase RS-AI_S-Nap_W gave RS-AI_S-Nap_A2"
+   ],
+   "certezza": "media",
+   "note": "Primo picco DSC di W: perdita d'acqua («can be related to the loss of water»), con peak 129.6, extrapolated peak 130.1 (nell'extra) e onset 129.6 °C; DeltaH 16.6 kJ/mol. Il prodotto e' «the resulting anhydrous compound»: l'articolo lo identifica come A2 con l'esperimento in stufa a 140 °C (evento successivo) e con la stessa fusione (175.9 °C), quindi a = F3 con certezza media. Nessuna TGA: perdita di massa non scritta. Crogiolo con coperchio forato. [Coordinatore: rimossi i gruppi_coinvolti dedotti dal confronto fra le strutture; il testo non dice che partecipino alla trasformazione (linee guida: solo se il testo lo dice). I dati strutturali restano nell'extra: voci X75 e X105.]",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E15",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "picco",
+     "picco": 175.9
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 51.9,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 175.9,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.7 to 3.5 mg"
+   },
+   "citazioni": [
+    "Differential Scanning Calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (samples’ mass ranged from 0.7 to 3.5 mg).",
+    "Measurements were carried out in the 40-200°C temperature range and a linear heating rate of 10°C/min was used. Experiments were performed in air.",
+    "As for the hydrated salt (RS-AI_S-Nap_W), its DSC curve showed two endothermic events:",
+    "the first one (peak = 129.6°C, extrapolated peak = 130.1°C, onset = 129.6°C, ΔH = 16.6 kJ/mol) which can be related to the loss of water; while the second, due to the melting of the resulting anhydrous compound, occurred at about 175°C (peak = 175.9°C, extrapolated peak = 175.9°C, 175.9°C, ΔH = 51.9 kJ/mol, Figure S9), i.e. the same melting temperature of RS-AI_S-Nap-A2."
+   ],
+   "certezza": "media",
+   "da_evento": "E14",
+   "passo": "melting of the anhydrous compound formed by dehydration",
+   "note": "Secondo picco della DSC di W: fusione dell'anidro formatosi (A2). Il testo dice «at about 175°C» e poi «peak = 175.9°C, extrapolated peak = 175.9°C, 175.9°C»: il terzo valore non ha etichetta (probabilmente onset, ma non e' scritto), quindi non e' assegnato. DeltaH 51.9 kJ/mol.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E16",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 140,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 20,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "The dehydration process of the RS-AI_S-Nap_W salt was investigated by keeping a microcrystalline sample of this salt in the oven for 20 minutes at 140°C. PXRD patterns were collected at the beginning and at the end of the experiment and compared.",
+    "To confirm that dehydration the hydrated phase RS-AI_S-Nap_W gave RS-AI_S-Nap_A2, a sample of RS-AI_S-Nap_W was put in an oven at 140°C (i.e. above its dehydration temperature as obtained by DSC analysis); the comparison of the PXRD patterns of RS-AI_S-Nap-A2 and that collected from the resulting solid form at the end of the experiment evidenced that actually they have the same crystalline phase (see Figure S5).",
+    "Finally, RS-AI_S-Nap_A2 was obtained only for dehydration of the hydrated phase RS-AI_S-Nap_W in oven at 140°C",
+    "in a monotropic relationship) and the dehydration of RS-AI_S-Nap_W to RS-AI_S-Nap_A2 occurred."
+   ],
+   "certezza": "alta",
+   "note": "Disidratazione di W in stufa a 140 °C per 20 min (durata del trattamento), «above its dehydration temperature as obtained by DSC analysis»: il PXRD finale coincide con quello di A2. Atmosfera e RH non scritte. I gruppi: l'acqua e' legata ai naprossenati in W; il naprossenato di W ha la stessa forma di A e A1 («almost identical and definitely superimposable»), mentre in A2 il carbossilato e' eclissato (confronto fra strutture, non descrizione del percorso). [Coordinatore: rimossi i gruppi_coinvolti dedotti dal confronto fra le strutture; il testo non dice che partecipino alla trasformazione (linee guida: solo se il testo lo dice). I dati strutturali restano nell'extra: voci X75 e X105.]",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E17",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "week",
+     "tipo": "processo"
+    },
+    "atmosfera": "desiccator, saturated NaCl solution",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The stability towards the water uptake of the three anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, as well as the dehydration propensity of the hydrated salt RS-AI_S-Nap_W were tested as follow:",
+    "the anhydrous salts (SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2) were kept in a desiccator at constant relative humidity (ca. 75% by using a saturated solution of NaCl) for a week;",
+    "In all cases the PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "Finally, all the anhydrous phases are stable towards re-hydration in the adopted experimental conditions.",
+    "5) all the anhydrous solid forms are stable (e.g. towards water uptake)"
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "Prova di idratazione 1 per SR-AI_S-Nap_A: desiccatore a ca. 75% RH (NaCl saturo) per una settimana. L'esito e' la frase riassuntiva «all the anhydrous phases are stable towards re-hydration»: un evento per forma, da qui generalizzazione. a = ignota: l'articolo non riporta alcun idrato per SR-AI. Temperatura non scritta.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E18",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "durata": {
+      "valore": 5,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "water (a drop)",
+     "testo": "ground for five minute with a drop of water"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "rt"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": "a drop"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "macinato",
+    "massa": "20 mg"
+   },
+   "citazioni": [
+    "The stability towards the water uptake of the three anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, as well as the dehydration propensity of the hydrated salt RS-AI_S-Nap_W were tested as follow:",
+    "a sample of each anhydrous salt (20 mg) was ground for five minute with a drop of water. The resulting powders were left standing at rt and ambient pressure for 1 hour;",
+    "In all cases the PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "Finally, all the anhydrous phases are stable towards re-hydration in the adopted experimental conditions.",
+    "5) all the anhydrous solid forms are stable (e.g. towards water uptake)"
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "Prova di idratazione 2 per SR-AI_S-Nap_A: 20 mg macinati 5 minuti con una goccia d'acqua e lasciati 1 ora a rt e pressione ambiente; il mulino non e' nominato per questa prova. Frase riassuntiva generale sui tre anidri.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E19",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ],
+    "rapporto_solido_solvente": "50 mg in 5 mL"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The stability towards the water uptake of the three anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, as well as the dehydration propensity of the hydrated salt RS-AI_S-Nap_W were tested as follow:",
+    "50 mg of each salt were put in a vial with 5 mL of water. The slurries were kept under stirring for 1 hour at r.t.",
+    "In all cases the PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "Finally, all the anhydrous phases are stable towards re-hydration in the adopted experimental conditions.",
+    "5) all the anhydrous solid forms are stable (e.g. towards water uptake)"
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "Prova di idratazione 3 per SR-AI_S-Nap_A: 50 mg in 5 mL d'acqua, sospensione agitata 1 ora a r.t. (agitazione senza rpm). Frase riassuntiva generale sui tre anidri.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E20",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "week",
+     "tipo": "processo"
+    },
+    "atmosfera": "desiccator, saturated NaCl solution",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The stability towards the water uptake of the three anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, as well as the dehydration propensity of the hydrated salt RS-AI_S-Nap_W were tested as follow:",
+    "the anhydrous salts (SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2) were kept in a desiccator at constant relative humidity (ca. 75% by using a saturated solution of NaCl) for a week;",
+    "In all cases the PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "Finally, all the anhydrous phases are stable towards re-hydration in the adopted experimental conditions.",
+    "5) all the anhydrous solid forms are stable (e.g. towards water uptake)"
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "Prova di idratazione 1 per RS-AI_S-Nap_A1: desiccatore a ca. 75% RH (NaCl saturo) per una settimana. L'esito e' la frase riassuntiva «all the anhydrous phases are stable towards re-hydration»: un evento per forma, da qui generalizzazione. a = ignota: nessun cambiamento rilevato; l'idrato W esiste per RS-AI ma l'articolo non dice che si sia formato. Temperatura non scritta.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E21",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "durata": {
+      "valore": 5,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "water (a drop)",
+     "testo": "ground for five minute with a drop of water"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "rt"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": "a drop"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "macinato",
+    "massa": "20 mg"
+   },
+   "citazioni": [
+    "The stability towards the water uptake of the three anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, as well as the dehydration propensity of the hydrated salt RS-AI_S-Nap_W were tested as follow:",
+    "a sample of each anhydrous salt (20 mg) was ground for five minute with a drop of water. The resulting powders were left standing at rt and ambient pressure for 1 hour;",
+    "In all cases the PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "Finally, all the anhydrous phases are stable towards re-hydration in the adopted experimental conditions.",
+    "5) all the anhydrous solid forms are stable (e.g. towards water uptake)"
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "Prova di idratazione 2 per RS-AI_S-Nap_A1: 20 mg macinati 5 minuti con una goccia d'acqua e lasciati 1 ora a rt e pressione ambiente; il mulino non e' nominato per questa prova. Frase riassuntiva generale sui tre anidri.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E22",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ],
+    "rapporto_solido_solvente": "50 mg in 5 mL"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The stability towards the water uptake of the three anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, as well as the dehydration propensity of the hydrated salt RS-AI_S-Nap_W were tested as follow:",
+    "50 mg of each salt were put in a vial with 5 mL of water. The slurries were kept under stirring for 1 hour at r.t.",
+    "In all cases the PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "Finally, all the anhydrous phases are stable towards re-hydration in the adopted experimental conditions.",
+    "5) all the anhydrous solid forms are stable (e.g. towards water uptake)"
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "Prova di idratazione 3 per RS-AI_S-Nap_A1: 50 mg in 5 mL d'acqua, sospensione agitata 1 ora a r.t. (agitazione senza rpm). Frase riassuntiva generale sui tre anidri.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E23",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "week",
+     "tipo": "processo"
+    },
+    "atmosfera": "desiccator, saturated NaCl solution",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The stability towards the water uptake of the three anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, as well as the dehydration propensity of the hydrated salt RS-AI_S-Nap_W were tested as follow:",
+    "the anhydrous salts (SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2) were kept in a desiccator at constant relative humidity (ca. 75% by using a saturated solution of NaCl) for a week;",
+    "In all cases the PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "Finally, all the anhydrous phases are stable towards re-hydration in the adopted experimental conditions.",
+    "5) all the anhydrous solid forms are stable (e.g. towards water uptake)"
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "Prova di idratazione 1 per RS-AI_S-Nap_A2: desiccatore a ca. 75% RH (NaCl saturo) per una settimana. L'esito e' la frase riassuntiva «all the anhydrous phases are stable towards re-hydration»: un evento per forma, da qui generalizzazione. a = ignota: nessun cambiamento rilevato; l'idrato W esiste per RS-AI ma l'articolo non dice che si sia formato. Temperatura non scritta.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E24",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "durata": {
+      "valore": 5,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "water (a drop)",
+     "testo": "ground for five minute with a drop of water"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "rt"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": "a drop"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "macinato",
+    "massa": "20 mg"
+   },
+   "citazioni": [
+    "The stability towards the water uptake of the three anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, as well as the dehydration propensity of the hydrated salt RS-AI_S-Nap_W were tested as follow:",
+    "a sample of each anhydrous salt (20 mg) was ground for five minute with a drop of water. The resulting powders were left standing at rt and ambient pressure for 1 hour;",
+    "In all cases the PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "Finally, all the anhydrous phases are stable towards re-hydration in the adopted experimental conditions.",
+    "5) all the anhydrous solid forms are stable (e.g. towards water uptake)"
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "Prova di idratazione 2 per RS-AI_S-Nap_A2: 20 mg macinati 5 minuti con una goccia d'acqua e lasciati 1 ora a rt e pressione ambiente; il mulino non e' nominato per questa prova. Frase riassuntiva generale sui tre anidri.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E25",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "r.t."
+    },
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ],
+    "rapporto_solido_solvente": "50 mg in 5 mL"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The stability towards the water uptake of the three anhydrous diastereomeric salts SR-AI_S-Nap_A, RS-AI_S-Nap_A1 and RS-AI_S-Nap_A2, as well as the dehydration propensity of the hydrated salt RS-AI_S-Nap_W were tested as follow:",
+    "50 mg of each salt were put in a vial with 5 mL of water. The slurries were kept under stirring for 1 hour at r.t.",
+    "In all cases the PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "Finally, all the anhydrous phases are stable towards re-hydration in the adopted experimental conditions.",
+    "5) all the anhydrous solid forms are stable (e.g. towards water uptake)"
+   ],
+   "certezza": "media",
+   "generalizzazione": true,
+   "note": "Prova di idratazione 3 per RS-AI_S-Nap_A2: 50 mg in 5 mL d'acqua, sospensione agitata 1 ora a r.t. (agitazione senza rpm). Frase riassuntiva generale sui tre anidri.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "commerciale",
+   "citazioni": [
+    "(2S)-2-(6-methoxynaphthalen-2-yl)propanoic acid ((S)-(+)-Naproxen, 99%) was purchased from Alfa Aesar.",
+    "All the compounds were used without any further purification."
+   ],
+   "note": "(S)-naprossene Alfa Aesar 99%, senza ulteriore purificazione.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F6",
+    "F7"
+   ],
+   "metodo": "commerciale",
+   "citazioni": [
+    "(1S,2R)-(-)-cis-1-Amino-2-indanol (99%) and (1R,2S)-(+)-cis-1-Amino-2-",
+    "indanol (99%) were purchased from abcr GmbH. All the compounds were used without any further purification."
+   ],
+   "note": "I due enantiomeri del cis-1-amino-2-indanolo, abcr GmbH 99%. Il PDF spezza la frase in fondo alla pagina: le due citazioni sono pezzi contigui separati.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "antisolvente",
+   "citazioni": [
+    "All single crystal samples (SCs) were obtained using ultrapure water (Milli-Q, Millipore type 1, 18.2 MΩcm resistivity at 25°C) and/or ethanol (96%) purchased from Sigma-Aldrich.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "(S)-(+)-Naproxen and (1S,2R)-(-)-cis-1-Amino-2-indanol were dissolved in EtOH (8 mL) at rt, and then H2O (2 mL) was added. After few minutes colorless needle-like crystals started to form;",
+    "Concerning the formation of the SR-AI/S-Nap salt, changes in the experimental conditions (temperature: 25 or 70°C; solvent composition: 4:1 or 2:1 EtOH:H2O; stirring at r.t. or at 70°C, for few minutes or 1 hour at reflux) did not influence the result and, in all cases, the SR-AI_S-Nap_A phase was obtained."
+   ],
+   "solventi": [
+    "EtOH (8 mL)",
+    "H2O (2 mL)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "rt"
+   },
+   "tempo": {
+    "valore": null,
+    "unita": null,
+    "tipo": "osservata",
+    "testo": "after few minutes"
+   },
+   "rapporto_soluzione": "1 mmol S-Nap : 1 mmol SR-AI",
+   "note": "Cristalli singoli (SC), procedura 1: soluzione etanolica (8 mL) e poi aggiunta di H2O (2 mL), aghi incolori dopo pochi minuti. Metodo «antisolvente» e' la lettura di chi estrae (l'articolo non usa la parola): l'acqua e' aggiunta alla soluzione etanolica e il solido compare in pochi minuti. Rapporto EtOH:H2O 4:1.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "citazioni": [
+    "All single crystal samples (SCs) were obtained using ultrapure water (Milli-Q, Millipore type 1, 18.2 MΩcm resistivity at 25°C) and/or ethanol (96%) purchased from Sigma-Aldrich.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "(S)-(+)-Naproxen and (1S,2R)-(-)-cis-1-Amino-2-indanol were dissolved in 10 mL of a 80% mixture of EtOH/H2O, then the solution was left under stirring for 1h at reflux. After cooling colorless needle-like crystals formed;",
+    "Concerning the formation of the SR-AI/S-Nap salt, changes in the experimental conditions (temperature: 25 or 70°C; solvent composition: 4:1 or 2:1 EtOH:H2O; stirring at r.t. or at 70°C, for few minutes or 1 hour at reflux) did not influence the result and, in all cases, the SR-AI_S-Nap_A phase was obtained."
+   ],
+   "solventi": [
+    "EtOH/H2O 80% (10 mL)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "non_specificato",
+    "testo": "reflux"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "1 mmol S-Nap : 1 mmol SR-AI",
+   "note": "Cristalli singoli (SC), procedura 2: 80% EtOH/H2O (10 mL), agitazione 1 h a riflusso, aghi incolori dopo raffreddamento. Temperatura di riflusso non scritta.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "citazioni": [
+    "All single crystal samples (SCs) were obtained using ultrapure water (Milli-Q, Millipore type 1, 18.2 MΩcm resistivity at 25°C) and/or ethanol (96%) purchased from Sigma-Aldrich.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "(S)-(+)-Naproxen and (1S,2R)-(-)-cis-1-Amino-2-indanol were suspended in 9 mL of a 2:1 EtOH/H2O solution and heated at 70 °C under stirring until the total dissolution of the solid. On cooling the solution, the slowly formation of colorless needles was observed.",
+    "Concerning the formation of the SR-AI/S-Nap salt, changes in the experimental conditions (temperature: 25 or 70°C; solvent composition: 4:1 or 2:1 EtOH:H2O; stirring at r.t. or at 70°C, for few minutes or 1 hour at reflux) did not influence the result and, in all cases, the SR-AI_S-Nap_A phase was obtained."
+   ],
+   "solventi": [
+    "EtOH/H2O 2:1 (9 mL)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 70,
+    "unita": "°C"
+   },
+   "rapporto_soluzione": "1 mmol S-Nap : 1 mmol SR-AI",
+   "note": "Cristalli singoli (SC), procedura 3: sospensione in 9 mL di EtOH/H2O 2:1 scaldata a 70 °C fino a dissoluzione, aghi incolori in raffreddamento lento.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "antisolvente",
+   "citazioni": [
+    "All single crystal samples (SCs) were obtained using ultrapure water (Milli-Q, Millipore type 1, 18.2 MΩcm resistivity at 25°C) and/or ethanol (96%) purchased from Sigma-Aldrich.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "S-(+)-Naproxen and (1R,2S)-(+)-cis-1-Amino-2-indanol were dissolved in EtOH (8 mL) at rt, and then H2O (2 mL) was added. After few minutes colorless needle-like crystals started to form.",
+    "On the contrary, in the case of the RS-AI/S-Nap salt, the change of solvent composition led to the formation of two different phases, i.e. the presence and the amount of the water during the crystallization process plays a critical role in the formation of the hydrated (RS-AI_S-Nap_W) or the anhydrous (RS-AI_S-Nap_A1) salt (see Experimental Section).",
+    "Changes in temperature (r.t. or 70°C) or in the general conditions of the experiment (stirring at r.t., or at 70°C, for few minutes of for 1 hour at reflux) did not influence the result."
+   ],
+   "solventi": [
+    "EtOH (8 mL)",
+    "H2O (2 mL)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "rt"
+   },
+   "tempo": {
+    "valore": null,
+    "unita": null,
+    "tipo": "osservata",
+    "testo": "after few minutes"
+   },
+   "rapporto_soluzione": "1 mmol S-Nap : 1 mmol RS-AI",
+   "note": "Cristalli singoli (SC), procedura 1 per RS-AI: stessa procedura di F1 (EtOH 8 mL e poi H2O 2 mL, EtOH:H2O 4:1) ma con RS-AI: si ottiene l'anidro A1. Metodo «antisolvente» e' la lettura di chi estrae.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "raffreddamento",
+   "citazioni": [
+    "All single crystal samples (SCs) were obtained using ultrapure water (Milli-Q, Millipore type 1, 18.2 MΩcm resistivity at 25°C) and/or ethanol (96%) purchased from Sigma-Aldrich.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "S-(+)-Naproxen and (1R,2S)-(+)-cis-1-Amino-2-indanol were dissolved in 10 mL of a 80% mixture of EtOH/H2O, then the solution was left under stirring for 1h at reflux. After cooling colorless needle-like crystals formed.",
+    "On the contrary, in the case of the RS-AI/S-Nap salt, the change of solvent composition led to the formation of two different phases, i.e. the presence and the amount of the water during the crystallization process plays a critical role in the formation of the hydrated (RS-AI_S-Nap_W) or the anhydrous (RS-AI_S-Nap_A1) salt (see Experimental Section).",
+    "Changes in temperature (r.t. or 70°C) or in the general conditions of the experiment (stirring at r.t., or at 70°C, for few minutes of for 1 hour at reflux) did not influence the result."
+   ],
+   "solventi": [
+    "EtOH/H2O 80% (10 mL)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "non_specificato",
+    "testo": "reflux"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "1 mmol S-Nap : 1 mmol RS-AI",
+   "note": "Cristalli singoli (SC), procedura 2 per RS-AI: 80% EtOH/H2O (10 mL), 1 h a riflusso: si ottiene A1.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "raffreddamento",
+   "citazioni": [
+    "All single crystal samples (SCs) were obtained using ultrapure water (Milli-Q, Millipore type 1, 18.2 MΩcm resistivity at 25°C) and/or ethanol (96%) purchased from Sigma-Aldrich.",
+    "In all the tests reported below, 1 mmol of (S)-(+)-Naproxen (230.3 mg) and 1 mmol of cis-1-Amino-2-indanol [(1S,2R) or (1R,2S), 142.1 mg] were used.",
+    "S-(+)-Naproxen and (1R,2S)-(+)-cis-1-Amino-2-indanol were suspended in 9 mL of a 2:1 EtOH/H2O solution and heated at 70 °C under stirring until the total dissolution of the solid. Cooling the solution, the slowly formation of colorless needles was observed.",
+    "On the contrary, in the case of the RS-AI/S-Nap salt, the change of solvent composition led to the formation of two different phases, i.e. the presence and the amount of the water during the crystallization process plays a critical role in the formation of the hydrated (RS-AI_S-Nap_W) or the anhydrous (RS-AI_S-Nap_A1) salt (see Experimental Section)."
+   ],
+   "solventi": [
+    "EtOH/H2O 2:1 (9 mL)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 70,
+    "unita": "°C"
+   },
+   "rapporto_soluzione": "1 mmol S-Nap : 1 mmol RS-AI",
+   "note": "Cristalli singoli (SC) dell'idrato W: 2:1 EtOH/H2O (piu' acqua che nelle procedure che danno A1), 70 °C, raffreddamento lento.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "citazioni": [
+    "Different procedures were employed for the selective crystallization tests (in all cases 1 mmol of S-Nap, 230.3 mg, and 1 mmol of each cis-1-Amino-2-indanol [SR-AI and RS-AI, 142.1 mg] were used):",
+    "S-Nap was added to an equimolar solution of SR-AI and RS-AI in 10 mL of a 80% mixture of EtOH/water. The solution was left under stirring for 1h at reflux. The reflux was then turned off and the solution was let to return to room temperature. As soon as the solution reached r.t. colorless needles formed.",
+    "In all the three cases, the PXRD pattern of the sample obtained by precipitation evidenced the formation of the SR-AI_S-Nap-A diastereomeric salt.",
+    "In order to assess whether S-(+)-Naproxen was able to discriminate between the AI enantiomers, selectivity experiments were performed in solution."
+   ],
+   "solventi": [
+    "EtOH/water 80% (10 mL)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "non_specificato",
+    "testo": "reflux"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "S-Nap 1 mmol : SR-AI 1 mmol : RS-AI 1 mmol (soluzione equimolare dei due enantiomeri)",
+   "note": "Prova di cristallizzazione selettiva 1: S-Nap aggiunto a una soluzione equimolare di SR-AI e RS-AI. Il PXRD identifica solo SR-AI_S-Nap_A; l'articolo non dice se RS-AI_S-Nap sia assente, solo che SR-AI_S-Nap_A e' quello che precipita per primo. Peso 322.5 mg, resa 85% nell'extra.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "antisolvente",
+   "citazioni": [
+    "Different procedures were employed for the selective crystallization tests (in all cases 1 mmol of S-Nap, 230.3 mg, and 1 mmol of each cis-1-Amino-2-indanol [SR-AI and RS-AI, 142.1 mg] were used):",
+    "S-Nap was added to an equimolar solution of SR-AI and RS-AI in 8 mL of EtOH. Then, under stirring at r.t., 2 mL of water were added. Within the first five minutes colorless needles precipitated.",
+    "In all the three cases, the PXRD pattern of the sample obtained by precipitation evidenced the formation of the SR-AI_S-Nap-A diastereomeric salt.",
+    "In order to assess whether S-(+)-Naproxen was able to discriminate between the AI enantiomers, selectivity experiments were performed in solution."
+   ],
+   "solventi": [
+    "EtOH (8 mL)",
+    "water (2 mL)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "r.t."
+   },
+   "tempo": {
+    "valore": null,
+    "max": 5,
+    "unita": "min",
+    "tipo": "osservata",
+    "limite": "sotto"
+   },
+   "rapporto_soluzione": "S-Nap 1 mmol : SR-AI 1 mmol : RS-AI 1 mmol (soluzione equimolare dei due enantiomeri)",
+   "note": "Prova di cristallizzazione selettiva 2: EtOH (8 mL) e poi 2 mL d'acqua sotto agitazione a r.t.; aghi «within the first five minutes». Metodo «antisolvente» e' la lettura di chi estrae. Peso 337.7 mg, resa 89% nell'extra.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "citazioni": [
+    "Different procedures were employed for the selective crystallization tests (in all cases 1 mmol of S-Nap, 230.3 mg, and 1 mmol of each cis-1-Amino-2-indanol [SR-AI and RS-AI, 142.1 mg] were used):",
+    "S-Nap was added to an equimolar solution of SR-AI and RS-AI in 9 mL of a 2:1 EtOH/H2O solution and heated at 70 °C under stirring until the total dissolution of the solid. The solution was let to cool to room temperature, and the slow formation of colorless needles was observed.",
+    "In all the three cases, the PXRD pattern of the sample obtained by precipitation evidenced the formation of the SR-AI_S-Nap-A diastereomeric salt.",
+    "In order to assess whether S-(+)-Naproxen was able to discriminate between the AI enantiomers, selectivity experiments were performed in solution."
+   ],
+   "solventi": [
+    "EtOH/H2O 2:1 (9 mL)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 70,
+    "unita": "°C"
+   },
+   "rapporto_soluzione": "S-Nap 1 mmol : SR-AI 1 mmol : RS-AI 1 mmol (soluzione equimolare dei due enantiomeri)",
+   "note": "Prova di cristallizzazione selettiva 3: 2:1 EtOH/H2O, 70 °C fino a dissoluzione, poi raffreddamento a temperatura ambiente; filtrato dopo un paio di giorni. Peso 265.6 mg, resa 70% nell'extra.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "da_evento",
+   "citazioni": [
+    "In fact, while all the LAG experiments resulted in the SR-AI_S-Nap_A phase (see Figures S1-S2)"
+   ],
+   "da_evento": [
+    "E1",
+    "E2"
+   ],
+   "note": "Polvere microcristallina (MP) per macinazione assistita da liquido (EtOH o acqua), caratterizzata dal PXRD: e' un evento da miscela, vedi E1 e E2.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "citazioni": [
+    "RS-AI_S-Nap_A1 was obtained when ethanol is used in the LAG procedure"
+   ],
+   "da_evento": [
+    "E3"
+   ],
+   "note": "Polvere microcristallina (MP) per LAG con EtOH: evento E3.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "da_evento",
+   "citazioni": [
+    "while the use of water led to the formation of RS-AI_S-Nap_W (see Figures S3-S4)."
+   ],
+   "da_evento": [
+    "E4"
+   ],
+   "note": "Polvere microcristallina (MP) per LAG con acqua: evento E4.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "citazioni": [
+    "Finally, RS-AI_S-Nap_A2 was obtained only for dehydration of the hydrated phase RS-AI_S-Nap_W in oven at 140°C",
+    "Nap_A2) has been confirmed by the comparison of the PXRD pattern of a sample of RS-AI_S-Nap_A1 kept in oven at 165°C for half an hour with the theoretical one as obtained from the SCXRD data RS-AI_S-Nap_A1 (Figure 2)."
+   ],
+   "da_evento": [
+    "E5",
+    "E16"
+   ],
+   "note": "L'articolo ottiene A2 per via solido-solido, scaldando A1 a 165 °C (E5) o disidratando W a 140 °C (E16), e non descrive preparazioni di A2 da soluzione. Il testo dice che A2 si ottiene «only» dalla disidratazione di W, ma descrive anche il passo da A1.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "stereocentro in alfa; enantiomero (S)",
+     "citazione": "Nap, Ibu and Ket are 2-arylpropionic acid derivatives containing a stereocenter in the α-position"
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "carbossilato quasi perpendicolare al gruppo arilico (torsione τ C6-C1-C8-C10)",
+     "citazione": "The S-Nap anion adopts an almost identical conformation in SR-AI_S-Nap_A and RS-AI_S-Nap_A1, with the carboxylate group almost perpendicular to the aryl moiety, while in RS-"
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "carbossilato quasi perpendicolare al gruppo arilico (torsione τ C6-C1-C8-C10)",
+     "citazione": "The S-Nap anion adopts an almost identical conformation in SR-AI_S-Nap_A and RS-AI_S-Nap_A1, with the carboxylate group almost perpendicular to the aryl moiety, while in RS-"
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F3",
+     "testo": "carbossilato eclissato (torsione τ C6-C1-C8-C10)",
+     "citazione": "AI_S-Nap_A2 it is eclipsed, being the values of the C6-C1-C8-C10 torsions angle τ (see Scheme 1 and Figure S10) -82.3(5), -80.3(4) and -24.9(4)°, respectively."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F4",
+     "testo": "forma del naprossene quasi identica a quella di A e A1",
+     "citazione": "The overall shape of the naproxen, as well as that of the 1-Amino-2-indanol ions, is almost identical and definitely superimposable with that observed in the anhydrous SR-AI_S-Nap_A and RS-AI_S-Nap_A1 (Figure S10)."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "enantiomero puro (1S,2R), cis",
+     "citazione": "Specifically, we focus on the solid forms of (S)-(+)-Naproxen with (1S,2R)-(-)-cis-1-Amino-2-indanol (SR-AI) and (1R,2S)-cis-(+)-1-Amino-2-indanol (RS-AI)."
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "enantiomero puro (1R,2S), cis",
+     "citazione": "Specifically, we focus on the solid forms of (S)-(+)-Naproxen with (1S,2R)-(-)-cis-1-Amino-2-indanol (SR-AI) and (1R,2S)-cis-(+)-1-Amino-2-indanol (RS-AI)."
+    }
+   ]
+  }
+ ]
+}

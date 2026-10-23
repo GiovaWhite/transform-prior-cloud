@@ -1,0 +1,2762 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.5c00860",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2427610",
+  "2427611",
+  "2427612",
+  "2427613",
+  "2427614",
+  "2435404",
+  "2435405",
+  "2435406",
+  "2435407",
+  "2435408",
+  "2435409",
+  "2435410",
+  "2435411",
+  "2435412",
+  "2435413",
+  "2435414"
+ ],
+ "note": "Articolo sulla cocristallizzazione di teobromina (TBR) e teofillina (TPH) con acido piromellitico (PMLA) per sospensione lenta, macinazione e microonde. Gli eventi sono le prove di macinazione (neat e assistita da solvente) e di sospensione a microonde, l'analisi termica (STA) dei cinque sistemi e la desolvatazione/transizione del solvato col metanolo (VT-SXRD, TGA, DSC). Non estratto come evento: lo screening in soluzione (preparazioni), le dilatazioni termiche anisotrope del solvato col metanolo fra 300 e 415 K (nessun cambio di forma: sono in extra), i dati biologici e di solubilita' (le solubilita' sono in molecole; zone di inibizione nell'extra), le perdite di massa non assegnate dell'idrato (circa 12 % a 210-250 °C, circa 38 % fino a 335 °C) e del solvato (circa 7.5 % fino a 236 °C), il terzo picco DSC del cocristallo TBR·PMLA ('decomposition of the theobromine molecules', senza T). La frase delle conclusioni su TPH che 'can convert into a hydrated form' e' generale, senza condizioni: non e' un evento. CCDC 2427610-2427614 (cinque strutture a 134 K) e 2435404-2435414 (VT-SXRD) sono intervalli senza ordine dichiarato: restano nel campo ccdc dell'articolo, espansi in elenco. Incoerenze dell'articolo: (1) intervallo della VT-SXRD «from 300 to 425 K» nei metodi contro «300–415 K» nell'abstract e nei risultati; (2) nel polimorfo II i COOH···Nimidazole sono scritti «O2–H2···O4» invece di «O2–H2···N4»; (3) «the endo-carbonyl oxygen atom of the bromine» (refuso per theobromine); (4) la STA e' descritta con «a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1»; (5) nella Tabella 1 la solubilita' dell'alcaloide puro e' data una volta per i tre sistemi di TPH (45.7).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "theobromine (TBR)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "theophylline (TPH)",
+   "smiles": null
+  },
+  {
+   "id": "C3",
+   "nome": "pyromellitic acid (benzene-1,2,4,5-tetracarboxylic acid, PMLA)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "TBR·PMLA 2:1",
+   "etichette_alternative": [
+    "TBR·PMLA 2:1 cocrystal"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "protonazione": "no proton transfer between coformers",
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 134,
+      "unita": "K"
+     },
+     "citazione": "Reflections intensity data for single crystals of the described PMLA multicomponent systems were collected at 134 K using an Oxford Diffraction SuperNova diffractometer"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "COOH···Nimidazole heterosynthon (O2–H2···N4)",
+     "chi": "carboxylic acid of PMLA and imidazole N of TBR",
+     "citazione": "The absence of proton transfer between coformers and cocrystal formation is confirmed by the presence of COOH···Nimidazole heterosynthons (O2–H2···N4 hydrogen bonds, Table S9)."
+    },
+    {
+     "motivo": "amide–amide homosynthon R2^2(8)",
+     "chi": "TBR–TBR through exo-carbonyl oxygen and pyrimidine N–H (N1–H1···O5ii)",
+     "citazione": "Consistent with previous studies, TBR molecules in the presence of a benzoic acid derivative as a coformer preferentially form an amide–amide homosynthon R 2 2(8) through the CO­(exo-carbonyl)···H–N­(pyrimidine) hydrogen bond involving the exo-carbonyl oxygen atom (N1–H1···O5ii hydrogen bonds), which are observed in the described structure."
+    },
+    {
+     "motivo": "O–H(carboxyl)···O=C(endo-carbonyl) interactions (O4–H4···O6i)",
+     "chi": "carboxyl groups of PMLA and the second carbonyl group of TBR",
+     "citazione": "Simultaneously, the second carbonyl group of the TBR molecule forms noncovalent O–H­(carboxyl)···OC­(endo-carbonyl) interactions with carboxyl groups of PMLA (O4–H4···O6i hydrogen bonds)."
+    }
+   ],
+   "citazione": "Theobromine and pyromellitic acid formed a cocrystal in a 2:1 stoichiometric ratio (Figure S15), which crystallized in the triclinic P1̅ space group.",
+   "note": "Cocristallo 2:1 senza trasferimento di protone. Il testo scrive «P1̅» (barra sopra l'1): P-1. Cella e CCDC nel supplementare/Table S8; i CCDC 2427610-2427614 coprono i cinque sistemi senza ordine dichiarato (ccdc dell'articolo). Strati paralleli al piano (113̅). Struttura misurata a 134 K."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "TPH·PMLA 2:1 I",
+   "etichette_alternative": [
+    "TPH·PMLA 2:1 form I",
+    "polymorph I"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 134,
+      "unita": "K"
+     },
+     "citazione": "Reflections intensity data for single crystals of the described PMLA multicomponent systems were collected at 134 K using an Oxford Diffraction SuperNova diffractometer"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "COOH···Nimidazole interactions (O2–H2···N4 and O6–H6···N4A)",
+     "chi": "two opposite carboxyl groups of PMLA and imidazole N of TPH",
+     "citazione": "Two opposite carboxyl groups of PMLA are noncovalently bonded to the imidazole nitrogen atoms of TPH molecules through COOH···Nimidazole interactions (O2–H2···N4 and O6–H6···N4A hydrogen bonds, Figures a, S16, and Table S10)."
+    },
+    {
+     "motivo": "centrosymmetric homosynthons R2^2(10) (N3–H3B···O9iv, N3A-H3A···O9Aii)",
+     "chi": "TPH–TPH through exo-carbonyl oxygen atoms",
+     "citazione": "Alkaloid molecules form two independent centrosymmetric homosynthons, R 2 2(10) involving exo-carbonyl oxygen atoms via N–H···O hydrogen bonds (one of them through N3–H3B···O9iv and the other through N3A-H3A···O9Aii interactions, Table S10)."
+    },
+    {
+     "motivo": "cyclic centrosymmetric R2^2(14) homosynthons (O8–H8···O5)",
+     "chi": "carboxylic groups of PMLA–PMLA",
+     "citazione": "The carboxylic groups of PMLA molecules are hydrogen-bonded via O8–H8···O5 interactions to form cyclic centrosymmetric R 2 2(14) homosynthons (Figure a)."
+    },
+    {
+     "motivo": "O4–H4···O10 hydrogen bond",
+     "chi": "carboxyl group of PMLA and endo-carbonyl oxygen of TPH",
+     "citazione": "Additionally, an O4–H4···O10 hydrogen bond between one of the carboxyl groups of PMLA and the endo-carbonyl oxygen atom of one of the TPH molecules is also observed."
+    }
+   ],
+   "citazione": "This structural analysis confirms that both TPH·PMLA 2:1 polymorphs, which crystallize in a triclinic P1̅ space group, are examples of synthon polymorphism.",
+   "note": "Polimorfo I del cocristallo 2:1: strati paralleli al piano (131̅). Il testo scrive «P1̅» per entrambi i polimorfi (P-1). Cella e CCDC nel supplementare. Struttura misurata a 134 K."
+  },
+  {
+   "id": "F3",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "TPH·PMLA 2:1 II",
+   "etichette_alternative": [
+    "TPH·PMLA 2:1 form II",
+    "polymorph II"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 134,
+      "unita": "K"
+     },
+     "citazione": "Reflections intensity data for single crystals of the described PMLA multicomponent systems were collected at 134 K using an Oxford Diffraction SuperNova diffractometer"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "COOH···Nimidazole heterosynthons (O2–H2···O4 come scritto)",
+     "chi": "two opposite carboxyl groups of PMLA and imidazole N of TPH",
+     "citazione": "Similar to form I, two opposite carboxyl groups of PMLA in polymorph II form COOH···Nimidazole heterosynthons with the imidazole nitrogen atoms of theophylline molecules (O2–H2···O4 interactions, Figure S17)."
+    },
+    {
+     "motivo": "R2^2(9) heterosynthons (O4–H4···O5ii and N3–H3···O3i)",
+     "chi": "remaining carboxyl groups of PMLA and TPH molecules",
+     "citazione": "The remaining carboxyl groups form R2 2(9) heterosynthons with TPH molecules through the O4–H4···O5ii and N3–H3···O3i hydrogen bonds (Table S11)."
+    },
+    {
+     "motivo": "no supramolecular homosynthons; molecular chains along [011]",
+     "chi": "TPH and PMLA",
+     "citazione": "In contrast to polymorph I, no supramolecular homosynthons in TPH·PMLA 2:1 II are observed."
+    }
+   ],
+   "citazione": "This structural analysis confirms that both TPH·PMLA 2:1 polymorphs, which crystallize in a triclinic P1̅ space group, are examples of synthon polymorphism.",
+   "note": "Polimorfo II del cocristallo 2:1: catene molecolari lungo [011]. Il testo scrive per i COOH···Nimidazole «O2–H2···O4 interactions» (negli altri sistemi «O2–H2···N4»): possibile refuso, riportato come scritto nel motivo. «P1̅» = P-1. Cella e CCDC nel supplementare. Struttura misurata a 134 K."
+  },
+  {
+   "id": "F4",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "TPH·PMLA·MeOH 2:1:2",
+   "etichette_alternative": [
+    "TPH·PMLA·MeOH 2:1:2 cocrystal solvate",
+    "TPH·PMLA·MeOH"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": {
+    "V": 2982.5,
+    "beta": 107.679,
+    "condizioni": "300 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 134,
+      "unita": "K"
+     },
+     "citazione": "Reflections intensity data for single crystals of the described PMLA multicomponent systems were collected at 134 K using an Oxford Diffraction SuperNova diffractometer"
+    },
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": null,
+      "min": 300,
+      "max": 415,
+      "unita": "K",
+      "tipo": "intervallo"
+     },
+     "citazione": "A variable-temperature single-crystal X-ray diffraction experiment for a single crystal of TPH·PMLA·MeOH 2:1:2 was performed in the 300–415 K temperature range."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "COOH···Nimidazole (O2–H2···N4) and TPH–acid heterosynthons (O4–H4···O5 and N3–H3···O3)",
+     "chi": "PMLA carboxyl groups and TPH, analogous to polymorph II of TPH·PMLA 2:1",
+     "citazione": "The hydrogen bond analysis in the TPH·PMLA·MeOH 2:1:2 (Figure S18) indicates the formation of analogous hydrogen bond motifs between theophylline and pyromellitic acid molecules as in polymorph II of TPH·PMLA 2:1 (Figures b and a). The formation of COOH···Nimidazole (O2–H2···N4 hydrogen bond) and TPH–acid (O4–H4···O5 and N3–H3···O3 hydrogen bonds) heterosynthons is also observed (Figure a and Table S12)."
+    }
+   ],
+   "citazione": "As the temperature rises from 300 to 350 K, a gradual increase in volume is noted from 2982.5(2) Å3 to 3001.0(2) Å3, and a PTE in this range is characterized by the volumetric thermal expansion coefficient of 131.76 MK–1.",
+   "note": "Cocristallo-solvato col metanolo in canali lungo [001]; la molecola di solvente non e' modellabile («could not be modeled satisfactorily») e il suo contributo e' eliminato con il solvent mask. Cella (solo V e β, a 300 K) dalle frasi della VT-SXRD: V = 2982.5(2) Å3 («from 2982.5(2) Å3 to 3001.0(2) Å3») e β = 107.679(4)° («from 107.679(4)° at 300 K»); gli altri parametri sono in figura/supplementare. Ospite per unita' formula (2:1:2 = 2 TPH, 1 PMLA, 2 MeOH). Strutture: a 134 K e fra 300 e 415 K (11 CCDC 2435404-2435414 per la VT, senza ordine: ccdc dell'articolo). Il sistema cristallino e il gruppo non sono nel testo."
+  },
+  {
+   "id": "F5",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "TPH·PMLA·H2O 1:1:2",
+   "etichette_alternative": [
+    "TPH·PMLA·H2O 1:1:2 cocrystal hydrate",
+    "TPH·PMLA·H2O 1:1:2 cocrystal dihydrate"
+   ],
+   "tipo": [
+    "cocristallo",
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pca21",
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 134,
+      "unita": "K"
+     },
+     "citazione": "Reflections intensity data for single crystals of the described PMLA multicomponent systems were collected at 134 K using an Oxford Diffraction SuperNova diffractometer"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "COOH···Nimidazole heterosynthon (O2–H2···N4); TPH-ACID heterosynthon R2^2(9) (O8–H8···O9iii and N3–H3A···O7i); O4–H4···O10ii",
+     "chi": "PMLA carboxyl groups with TPH (imidazole N, exo- and endo-carbonyl O)",
+     "citazione": "The formation of COOH···Nimidazole heterosynthon (O2–H2···N4 hydrogen bond), TPH-ACID heterosynthon R 2 2(9) involving the exo-carbonyl oxygen atom of theophylline (O8–H8···O9iii and N3–H3A···O7i hydrogen bonds), and the O4–H4···O10ii interaction between the endo-carbonyl oxygen atom of TPH as an acceptor to one of the carboxyl groups of PMLA acid are observed (Table S13)."
+    },
+    {
+     "motivo": "two-dimensional rhombic-grid network (side length 13.4317(2) Å); water molecules make a three-dimensional network",
+     "chi": "TPH and PMLA; water molecules",
+     "citazione": "Due to these interactions, the molecules are arranged into a two-dimensional rhombic-grid network, the side length of which is 13.4317(2) Å (Figure ). Through a complex network of hydrogen bonds involving water molecules (Table S13), a three-dimensional crystal structure is formed (Figure S21)."
+    }
+   ],
+   "citazione": "Screening experiments also showed TPH·PMLA·H2O 1:1:2 cocrystal dihydrate formation, which crystallizes in the orthorhombic Pca21 space group (Figure S20).",
+   "note": "Cocristallo idrato (diidrato): due molecole d'acqua per unita' formula TPH·PMLA. Il testo scrive «Pca21» (21 e' il pedice 2_1). Cella e CCDC nel supplementare. Struttura misurata a 134 K."
+  },
+  {
+   "id": "F6",
+   "composto": "C1",
+   "etichetta": "theobromine (TBR, as received)",
+   "etichette_alternative": [
+    "TBR"
+   ],
+   "tipo": "non_specificato",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Theobromine was obtained from Sigma-Aldrich. Theophylline (TPH) and pyromellitic acid (benzene-1,2,4,5-tetracarboxylic acid, PMLA) were purchased from TriMen Chemicals.",
+   "note": "Reagente commerciale (Sigma-Aldrich) usato senza purificazione; forma cristallina non caratterizzata nel testo. Solubilita' in acqua in Tabella 1."
+  },
+  {
+   "id": "F7",
+   "composto": "C2",
+   "etichetta": "theophylline (TPH, as received)",
+   "etichette_alternative": [
+    "TPH"
+   ],
+   "tipo": "non_specificato",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Theobromine was obtained from Sigma-Aldrich. Theophylline (TPH) and pyromellitic acid (benzene-1,2,4,5-tetracarboxylic acid, PMLA) were purchased from TriMen Chemicals.",
+   "note": "Reagente commerciale (TriMen Chemicals) usato senza purificazione; forma cristallina non caratterizzata nel testo."
+  },
+  {
+   "id": "F8",
+   "composto": "C3",
+   "etichetta": "pyromellitic acid (PMLA, as received)",
+   "etichette_alternative": [
+    "PMLA"
+   ],
+   "tipo": "non_specificato",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Theobromine was obtained from Sigma-Aldrich. Theophylline (TPH) and pyromellitic acid (benzene-1,2,4,5-tetracarboxylic acid, PMLA) were purchased from TriMen Chemicals.",
+   "note": "Reagente commerciale (TriMen Chemicals) usato senza purificazione; forma cristallina non caratterizzata nel testo."
+  },
+  {
+   "id": "F9",
+   "composto": "C1",
+   "etichetta": "TBR + PMLA 2:1 mixture",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F6",
+    "F8"
+   ],
+   "proporzioni": "2:1",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "citazione": "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h.",
+   "note": "Miscela di partenza (rapporto stechiometrico 2:1) delle macinazioni e delle sospensioni a microonde di TBR."
+  },
+  {
+   "id": "F10",
+   "composto": "C2",
+   "etichetta": "TPH + PMLA 2:1 mixture",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F7",
+    "F8"
+   ],
+   "proporzioni": "2:1",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "citazione": "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h.",
+   "note": "Miscela di partenza (rapporto stechiometrico 2:1) delle macinazioni e delle sospensioni a microonde di TPH."
+  },
+  {
+   "id": "F11",
+   "composto": "C2",
+   "etichetta": "TPH + PMLA 1:1 mixture",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F7",
+    "F8"
+   ],
+   "proporzioni": "1:1",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "citazione": "Neat or water-assisted grindings of TPH and PMLA in a 1:1 stoichiometric ratio were carried out for 1 to 2 h.",
+   "note": "Miscela di partenza (rapporto stechiometrico 1:1) delle macinazioni (neat o assistite da acqua) e delle sospensioni a microonde di TPH."
+  },
+  {
+   "id": "F12",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "TPH·PMLA·MeOH 2:1:1",
+   "etichette_alternative": [
+    "TPH·PMLA·MeOH cocrystal solvate 2:1:1"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "stato_di": "F4",
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "A change in the stoichiometry of the TPH·PMLA·MeOH cocrystal solvate from 2:1:2 to 2:1:1 is observed when the single crystal was heated to 390 K (Figure ).",
+   "note": "Stato parzialmente desolvato del solvato 2:1:2 ottenuto scaldando il cristallo singolo a 390 K («A change in the stoichiometry ... from 2:1:2 to 2:1:1»); stessa fase (stato_di F4). A 415 K la struttura mostra «two methanol molecules per unit cell» (un ulteriore stato, non una forma estratta)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F2",
+   "relazione_scritta": "polymorph II, formed first, is a kinetic product, while polymorph I is a thermodynamic product as the final product of the mechanochemical reaction",
+   "condizioni": "grinding of TPH with PMLA in a 2:1 stoichiometric ratio (ethyl acetate or acetonitrile)",
+   "certezza": "media",
+   "citazione": "This proves that the grinding of TPH with PMLA in a 2:1 stoichiometric ratio is a stepwise process, and polymorph II, formed first, is a kinetic product, while polymorph I is a thermodynamic product as the final product of the mechanochemical reaction.",
+   "fonte_dati": "propria",
+   "note": "«Thermodynamic product» letto come forma finale (piu' stabile) nelle condizioni di macinazione; non e' dichiarata mono- ne' enantiotropia."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F9",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione_secca",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "max": 30,
+      "unita": "min",
+      "tipo": "processo",
+      "limite": "sotto"
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": null,
+     "testo": "3 mL stainless steel jars; neat grinding"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Neat grinding of TBR with PMLA in a 2:1 stoichiometric ratio resulted in the formation of the TBR·PMLA 2:1 cocrystals within 30 min.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide–amide homosynthons involving the endo-carbonyl oxygen atom (and π···π interactions between alkaloid molecules)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F6",
+     "citazione": "The use of this coformer disrupts the stable amide–amide homosynthons involving the endo-carbonyl oxygen atom of the bromine and π···π interactions between alkaloid molecules."
+    }
+   ],
+   "certezza": "alta",
+   "note": "Macinazione neat (senza solvente) di TBR e PMLA 2:1: TBR·PMLA 2:1 «within 30 min»; il tempo e' il massimo entro cui si forma, non il tempo di macinazione fissato. Metodi: «for 0.5 to 2 h». Identificazione per PXRD (Fig. 2).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E2",
+   "da": "F9",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "unita": "min",
+      "tipo": "processo",
+      "valore": 30
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "methanol, acetonitrile or ethyl acetate (small volume; one solvent per run)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     },
+     {
+      "nome": "acetonitrile",
+      "proporzione": null
+     },
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Regardless of the solvent used for liquid-assisted grinding, the TBR·PMLA 2:1 cocrystal is also formed with the conversion of the substrates depending on the reaction time (Figure ). Grinding assisted by methanol, acetonitrile, and ethyl acetate were carried out for 30 min.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide–amide homosynthons involving the endo-carbonyl oxygen atom (and π···π interactions between alkaloid molecules)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F6",
+     "citazione": "The use of this coformer disrupts the stable amide–amide homosynthons involving the endo-carbonyl oxygen atom of the bromine and π···π interactions between alkaloid molecules."
+    }
+   ],
+   "certezza": "media",
+   "note": "Macinazione assistita da metanolo, acetonitrile o acetato di etile per 30 min: il TBR·PMLA 2:1 si forma («Regardless of the solvent used ... the cocrystal is also formed with the conversion of the substrates depending on the reaction time»); la conversione completa a 30 min per questi tre solventi e' implicita nel contrasto con acqua e cloroformio, per i quali «no full conversion» a 30 min. Volume del liquido nel supplementare (Tabelle S2-S4).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E3",
+   "da": "F9",
+   "a": "F1",
+   "esito": "parziale",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "unita": "min",
+      "tipo": "processo",
+      "valore": 30
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "water or chloroform (small volume; one solvent per run)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     },
+     {
+      "nome": "chloroform",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In turn, after 30 min of the water- or chloroform-assisted grinding, no full conversion of the substrates was observed, which required a doubling of the grinding time.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "certezza": "alta",
+   "note": "Dopo 30 min di macinazione con acqua o cloroformio «no full conversion of the substrates was observed».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E4",
+   "da": "F9",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": null,
+      "tipo": "processo",
+      "testo": "doubling of the grinding time (30 min)"
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "water or chloroform (small volume; one solvent per run)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     },
+     {
+      "nome": "chloroform",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In turn, after 30 min of the water- or chloroform-assisted grinding, no full conversion of the substrates was observed, which required a doubling of the grinding time.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide–amide homosynthons involving the endo-carbonyl oxygen atom (and π···π interactions between alkaloid molecules)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F6",
+     "citazione": "The use of this coformer disrupts the stable amide–amide homosynthons involving the endo-carbonyl oxygen atom of the bromine and π···π interactions between alkaloid molecules."
+    }
+   ],
+   "certezza": "media",
+   "note": "Con acqua o cloroformio la conversione completa «required a doubling of the grinding time»: il raddoppio dei 30 min non e' scritto come numero (il tempo e' in `testo`, valore null). Che la conversione sia completa a tempo doppio e' implicito in «required».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E5",
+   "da": "F10",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione_secca",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "unita": "min",
+      "tipo": "processo",
+      "valore": 30
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": null,
+     "testo": "3 mL stainless steel jars; neat grinding"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Neat or chloroform-assisted grinding for 30 min resulted in the formation of TPH·PMLA 2:1 form I (Figure a).",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "certezza": "alta",
+   "note": "Macinazione neat di TPH e PMLA 2:1 per 30 min: forma I (Fig. 4a).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E6",
+   "da": "F10",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "unita": "min",
+      "tipo": "processo",
+      "valore": 30
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "chloroform (small volume)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "chloroform",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Neat or chloroform-assisted grinding for 30 min resulted in the formation of TPH·PMLA 2:1 form I (Figure a).",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "certezza": "alta",
+   "note": "Macinazione assistita da cloroformio per 30 min: forma I (Fig. 4a). La stessa frase dice «Neat or chloroform-assisted grinding».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E7",
+   "da": "F10",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "unita": "min",
+      "tipo": "processo",
+      "valore": 60
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "methanol or acetonitrile (small volume; one solvent per run)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     },
+     {
+      "nome": "acetonitrile",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Grinding in the presence of methanol or acetonitrile required a reaction time of 60 min to obtain this form.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "certezza": "alta",
+   "note": "Con metanolo o acetonitrile servono 60 min per ottenere la forma I («required a reaction time of 60 min»).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E8",
+   "da": "F10",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "unita": "h",
+      "tipo": "processo",
+      "valore": 2
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "ethyl acetate (small volume)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Milling with ethyl acetate required 2 h to obtain polymorph I.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "certezza": "alta",
+   "note": "Con acetato di etile servono 2 h per ottenere la forma I («Milling with ethyl acetate required 2 h»).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E9",
+   "da": "F10",
+   "a": "F4",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": null,
+      "tipo": "processo",
+      "testo": "not stated for this sentence"
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "methanol (small volume)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The TPH·PMLA·MeOH 2:1:2 phase was not observed as a product of methanol-assisted grinding.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "certezza": "alta",
+   "note": "Negativo: il solvato TPH·PMLA·MeOH 2:1:2 «was not observed as a product of methanol-assisted grinding» (con metanolo si ottiene la forma I dopo 60 min, E7). Il tempo non e' detto in questa frase. La conclusione conferma: «TPH·PMLA·MeOH 2:1:2 phase was identified only during cocrystallization from the solution».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E10",
+   "da": "F10",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": null,
+      "tipo": "processo",
+      "testo": "shorter time"
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "ethyl acetate or acetonitrile (small volume; one solvent per run)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     },
+     {
+      "nome": "acetonitrile",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Powder diffraction patterns for solids obtained from grinding with ethyl acetate or acetonitrile indicated that polymorph II of TPH·PMLA 2:1 forms during grinding conducted in a shorter time, while its extension leads to polymorph I formation (Figures S5 and S6). This proves that the grinding of TPH with PMLA in a 2:1 stoichiometric ratio is a stepwise process, and polymorph II, formed first, is a kinetic product, while polymorph I is a thermodynamic product as the final product of the mechanochemical reaction.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h."
+   ],
+   "certezza": "media",
+   "note": "Con acetato di etile o acetonitrile la forma II «forms during grinding conducted in a shorter time» (prodotto cinetico); i tempi non sono dati nel testo (Fig. S5 e S6). Gli autori leggono la macinazione come processo a gradini («stepwise process»).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E11",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "solventi_alternativi": true,
+   "da_evento": "E10",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": null,
+      "tipo": "processo",
+      "testo": "extension of the grinding time"
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "ethyl acetate or acetonitrile (small volume; one solvent per run)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     },
+     {
+      "nome": "acetonitrile",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Powder diffraction patterns for solids obtained from grinding with ethyl acetate or acetonitrile indicated that polymorph II of TPH·PMLA 2:1 forms during grinding conducted in a shorter time, while its extension leads to polymorph I formation (Figures S5 and S6). This proves that the grinding of TPH with PMLA in a 2:1 stoichiometric ratio is a stepwise process, and polymorph II, formed first, is a kinetic product, while polymorph I is a thermodynamic product as the final product of the mechanochemical reaction.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Grindings of TBR or TPH with PMLA in a 2:1 stoichiometric ratio were performed without (neat grinding) or with the addition of a small volume of solvent (methanol, acetonitrile, ethyl acetate, chloroform) for 0.5 to 2 h.",
+    "Grinding in the presence of methanol or acetonitrile required a reaction time of 60 min to obtain this form.",
+    "Milling with ethyl acetate required 2 h to obtain polymorph I."
+   ],
+   "certezza": "media",
+   "note": "«its extension leads to polymorph I formation»: continuando la macinazione la forma II, formata per prima, diventa forma I («polymorph II, formed first, is a kinetic product, while polymorph I is a thermodynamic product as the final product of the mechanochemical reaction»). Con acetonitrile la forma I si ha dopo 60 min, con acetato di etile dopo 2 h (E7, E8). Evento seguente a E10 nella stessa corsa.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E12",
+   "da": "F11",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "unita": "h",
+      "tipo": "processo",
+      "valore": 2
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "water (small volume)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The formation of the TPH·PMLA·H2O 1:1:2 cocrystal hydrate was confirmed by powder X-ray diffraction analysis of the solid obtained through water-assisted grinding of TPH and PMLA in a 1:1 stoichiometric ratio (Figure b) conducted for 2 h.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Neat or water-assisted grindings of TPH and PMLA in a 1:1 stoichiometric ratio were carried out for 1 to 2 h."
+   ],
+   "certezza": "alta",
+   "note": "Macinazione assistita da acqua di TPH e PMLA 1:1 per 2 h: idrato TPH·PMLA·H2O 1:1:2 (Fig. 4b). Il volume dell'acqua e' nel supplementare.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E13",
+   "da": "F11",
+   "a": "F3",
+   "esito": "parziale",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "unita": "h",
+      "tipo": "processo",
+      "valore": 1
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": "water (small volume)",
+     "testo": "3 mL stainless steel jars"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Milling under the same conditions for 1 h yielded TPH·PMLA 2:1 form II, but not in the pure form.",
+    "The formation of the TPH·PMLA·H2O 1:1:2 cocrystal hydrate was confirmed by powder X-ray diffraction analysis of the solid obtained through water-assisted grinding of TPH and PMLA in a 1:1 stoichiometric ratio (Figure b) conducted for 2 h.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz.",
+    "Neat or water-assisted grindings of TPH and PMLA in a 1:1 stoichiometric ratio were carried out for 1 to 2 h."
+   ],
+   "certezza": "media",
+   "note": "Con le stesse condizioni per 1 h si ottiene la forma II del 2:1 «but not in the pure form»: le altre fasi presenti non sono dette. Esito `parziale` perche' il prodotto non e' puro.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E14",
+   "da": "F11",
+   "a": "amorfo",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione_secca",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsch MM300 oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "min": 1,
+      "max": 2,
+      "unita": "h",
+      "tipo": "processo"
+     },
+     "sfere": "one 6 mm stainless steel ball",
+     "liquido": null,
+     "testo": "3 mL stainless steel jars; neat grinding"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Neat grinding of TPH and PMLA in a 1:1 stoichiometric ratio, regardless of reaction time, leads to amorphous phase formation.",
+    "Neat or water-assisted grindings of TPH and PMLA in a 1:1 stoichiometric ratio were carried out for 1 to 2 h.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz."
+   ],
+   "certezza": "media",
+   "note": "Macinazione neat di TPH e PMLA 1:1 «regardless of reaction time» porta a una fase amorfa. Il tempo (1-2 h) e' quello dei metodi per le macinazioni 1:1 («carried out for 1 to 2 h»).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E15",
+   "da": "F9",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "condizioni": {
+    "temperatura": {
+     "valore": 125,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The use of water enabled the formation of the TBR·PMLA 2:1 cocrystal during a microwave reaction conducted at 125 °C for 10 min (Figure S7).",
+    "Water proved to be the most effective solvent for microwave-assisted cocrystallization of TBR and PMLA, with almost complete conversion of the substrates at 125 °C in 10 min.",
+    "Microwave cocrystallizations involving theobromine were performed using different solvents for 5 to 10 min at temperatures ranging from 100 to 175 °C (Table S5).",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide–amide homosynthons involving the endo-carbonyl oxygen atom (and π···π interactions between alkaloid molecules)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F6",
+     "citazione": "The use of this coformer disrupts the stable amide–amide homosynthons involving the endo-carbonyl oxygen atom of the bromine and π···π interactions between alkaloid molecules."
+    }
+   ],
+   "certezza": "alta",
+   "note": "Sospensione di TBR e PMLA 2:1 in 200 μL di acqua in reattore a microonde, 125 °C per 10 min: TBR·PMLA 2:1 (Fig. S7); le conclusioni parlano di «almost complete conversion of the substrates». La potenza non e' un numero (regolata automaticamente dal software). T e tempo sono quelli dopo il raggiungimento della T impostata.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E16",
+   "da": "F9",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 125,
+     "unita": "°C",
+     "tipo": "isoterma",
+     "limite": "sopra"
+    },
+    "tempo": null,
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The use of water enabled the formation of the TBR·PMLA 2:1 cocrystal during a microwave reaction conducted at 125 °C for 10 min (Figure S7).",
+    "Increasing the temperature did not negatively affect the formation of the cocrystal.",
+    "Microwave cocrystallizations involving theobromine were performed using different solvents for 5 to 10 min at temperatures ranging from 100 to 175 °C (Table S5).",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide–amide homosynthons involving the endo-carbonyl oxygen atom (and π···π interactions between alkaloid molecules)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F6",
+     "citazione": "The use of this coformer disrupts the stable amide–amide homosynthons involving the endo-carbonyl oxygen atom of the bromine and π···π interactions between alkaloid molecules."
+    }
+   ],
+   "certezza": "media",
+   "note": "«Increasing the temperature did not negatively affect the formation of the cocrystal»: oltre 125 °C con acqua il cocristallo si forma ancora. Il tempo non e' ripetuto per questa frase (per TBR il tempo e' «5 to 10 min»); l'estremo superiore e' nell'intervallo generale per TBR (100-175 °C) ma non e' attribuito all'acqua.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E17",
+   "da": "F9",
+   "a": "F1",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "valori": [
+      100,
+      125,
+      150
+     ],
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": null,
+     "min": 5,
+     "max": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "At 100, 125, and 150 °C, the substrates did not fully convert to the 2:1 TBR·PMLA cocrystal, and raising the temperature to 175 °C resulted in the inhibition of the cocrystallization process (Figure S8).",
+    "The least beneficial was the use of methanol for this process. At 100, 125, and 150 °C, the substrates did not fully convert to the 2:1 TBR·PMLA cocrystal, and raising the temperature to 175 °C resulted in the inhibition of the cocrystallization process (Figure S8).",
+    "Microwave cocrystallizations involving theobromine were performed using different solvents for 5 to 10 min at temperatures ranging from 100 to 175 °C (Table S5).",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "certezza": "alta",
+   "note": "Con metanolo, a 100, 125 e 150 °C, i reagenti «did not fully convert»; metanolo e' il solvente «least beneficial». Tempo non specificato per questa frase: intervallo generale dei TBR (5-10 min).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E18",
+   "da": "F9",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "condizioni": {
+    "temperatura": {
+     "valore": 175,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": null,
+     "min": 5,
+     "max": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "At 100, 125, and 150 °C, the substrates did not fully convert to the 2:1 TBR·PMLA cocrystal, and raising the temperature to 175 °C resulted in the inhibition of the cocrystallization process (Figure S8).",
+    "Microwave cocrystallizations involving theobromine were performed using different solvents for 5 to 10 min at temperatures ranging from 100 to 175 °C (Table S5).",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "certezza": "media",
+   "note": "Con metanolo a 175 °C «resulted in the inhibition of the cocrystallization process» (Fig. S8): il cocristallo non si forma (o non si forma piu', il testo non dice se inizialmente presente). Tempo: intervallo generale dei TBR.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E19",
+   "da": "F9",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "temperatura": {
+     "valore": 150,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "acetonitrile",
+      "proporzione": null
+     },
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Practically full conversion of the substrates to the TBR·PMLA 2:1 cocrystal was observed during the process conducted in acetonitrile or ethyl acetate at 150 °C for 10 min (Figure ). Lower temperatures did not lead to full conversion of the substrates.",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide–amide homosynthons involving the endo-carbonyl oxygen atom (and π···π interactions between alkaloid molecules)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F6",
+     "citazione": "The use of this coformer disrupts the stable amide–amide homosynthons involving the endo-carbonyl oxygen atom of the bromine and π···π interactions between alkaloid molecules."
+    }
+   ],
+   "certezza": "alta",
+   "note": "Con acetonitrile o acetato di etile a 150 °C per 10 min: «Practically full conversion of the substrates» al cocristallo (Fig. 3).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E20",
+   "da": "F9",
+   "a": "F1",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 150,
+     "unita": "°C",
+     "tipo": "isoterma",
+     "limite": "sotto"
+    },
+    "tempo": null,
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "acetonitrile",
+      "proporzione": null
+     },
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Practically full conversion of the substrates to the TBR·PMLA 2:1 cocrystal was observed during the process conducted in acetonitrile or ethyl acetate at 150 °C for 10 min (Figure ). Lower temperatures did not lead to full conversion of the substrates.",
+    "Microwave cocrystallizations involving theobromine were performed using different solvents for 5 to 10 min at temperatures ranging from 100 to 175 °C (Table S5).",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "certezza": "media",
+   "note": "«Lower temperatures did not lead to full conversion of the substrates» (con acetonitrile o acetato di etile, sotto 150 °C). Il tempo non e' ripetuto in questa frase.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E21",
+   "da": "F10",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "condizioni": {
+    "temperatura": {
+     "valore": 75,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Microwave-assisted cocrystallization for the TPH-PMLA 2:1 system carried out for 5 min using various solvents at different temperatures (Table S6) also allowed for the controlled formation of a specific polymorphic form. This is particularly visible when water is used as the liquid medium (Figure a). At 75 °C, polymorph II is formed, while at higher temperatures, polymorph I is formed.",
+    "The use of microwave radiation shortened the cocrystallization process using TPH and PMLA to 5 min, enabling the successful formation of both polymorphs of the TPH·PMLA 2:1 cocrystal and TPH·PMLA·H2O 1:1:2.",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "certezza": "alta",
+   "note": "TPH e PMLA 2:1 in acqua a microonde per 5 min: a 75 °C si forma il polimorfo II (Fig. 5a).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E22",
+   "da": "F10",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 75,
+     "unita": "°C",
+     "tipo": "isoterma",
+     "limite": "sopra"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Microwave-assisted cocrystallization for the TPH-PMLA 2:1 system carried out for 5 min using various solvents at different temperatures (Table S6) also allowed for the controlled formation of a specific polymorphic form. This is particularly visible when water is used as the liquid medium (Figure a). At 75 °C, polymorph II is formed, while at higher temperatures, polymorph I is formed.",
+    "The use of microwave radiation shortened the cocrystallization process using TPH and PMLA to 5 min, enabling the successful formation of both polymorphs of the TPH·PMLA 2:1 cocrystal and TPH·PMLA·H2O 1:1:2.",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "certezza": "alta",
+   "note": "Sopra 75 °C (in acqua, 5 min) si forma il polimorfo I; l'estremo superiore non e' detto.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E23",
+   "da": "F10",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato",
+     "testo": "regardless of the process temperature"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     },
+     {
+      "nome": "acetonitrile",
+      "proporzione": null
+     },
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In the presence of methanol, acetonitrile, or ethyl acetate (Figures S9–S11), regardless of the process temperature, polymorph II is selectively formed.",
+    "Microwave-assisted cocrystallization for the TPH-PMLA 2:1 system carried out for 5 min using various solvents at different temperatures (Table S6) also allowed for the controlled formation of a specific polymorphic form. This is particularly visible when water is used as the liquid medium (Figure a). At 75 °C, polymorph II is formed, while at higher temperatures, polymorph I is formed.",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "certezza": "alta",
+   "note": "Con metanolo, acetonitrile o acetato di etile, «regardless of the process temperature», si forma selettivamente il polimorfo II (Fig. S9-S11). Le temperature sono nelle Tabelle S6 (supplementare).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E24",
+   "da": "F10",
+   "a": "F4",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "During the microwave-assisted slurry cocrystallization experiments performed in methanol, no TPH·PMLA·MeOH 2:1:2 phase was observed (Figure S9).",
+    "Microwave-assisted cocrystallization for the TPH-PMLA 2:1 system carried out for 5 min using various solvents at different temperatures (Table S6) also allowed for the controlled formation of a specific polymorphic form. This is particularly visible when water is used as the liquid medium (Figure a). At 75 °C, polymorph II is formed, while at higher temperatures, polymorph I is formed.",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7.",
+    "On the other hand, the TPH·PMLA·MeOH 2:1:2 phase was identified only during cocrystallization from the solution."
+   ],
+   "certezza": "alta",
+   "note": "Negativo: in metanolo «no TPH·PMLA·MeOH 2:1:2 phase was observed» (Fig. S9). In metanolo si forma il polimorfo II (E23).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E25",
+   "da": "F11",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato",
+     "testo": "regardless of the temperature process"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The TPH·PMLA·H2O 1:1:2 phase is formed during microwave-assisted cocrystallization in a 1:1 stoichiometric ratio of substrates (Table S7) in water as the liquid medium, regardless of the temperature process (Figure b).",
+    "The use of microwave radiation shortened the cocrystallization process using TPH and PMLA to 5 min, enabling the successful formation of both polymorphs of the TPH·PMLA 2:1 cocrystal and TPH·PMLA·H2O 1:1:2.",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "certezza": "media",
+   "note": "TPH e PMLA 1:1 in acqua a microonde: si forma l'idrato TPH·PMLA·H2O 1:1:2 a qualunque temperatura (Fig. 5b). I 5 min sono dalle conclusioni (la frase del 1:1 non dice il tempo).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E26",
+   "da": "F11",
+   "a": "F3",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "microonde",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato",
+     "testo": "regardless of the process temperature"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "agitazione": {
+     "valore": 600,
+     "unita": "rpm"
+    },
+    "potenza": {
+     "valore": null,
+     "unita": null,
+     "testo": "microwave power automatically adjusted to the sample by the apparatus software"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     },
+     {
+      "nome": "acetonitrile",
+      "proporzione": null
+     },
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     }
+    ],
+    "rapporto_solido_solvente": "200 μL of the selected solvent"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "For the TPH-PMLA 1:1 system, when using solvents other than water (methanol, acetonitrile, ethyl acetate), regardless of the process temperature, the TPH·PMLA 2:1 II phase is formed (Figures S12–S14), but not in the pure form (the reflections originating from unreacted substrates are observed).",
+    "The use of microwave radiation shortened the cocrystallization process using TPH and PMLA to 5 min, enabling the successful formation of both polymorphs of the TPH·PMLA 2:1 cocrystal and TPH·PMLA·H2O 1:1:2.",
+    "Microwave-assisted cocrystallizations were carried out using an Anton Paar Monowave 200 microwave reactor. Stoichiometric amounts of theobromine or theophylline and pyromellitic acid, a magnetic stirrer, and 200 μL of the selected solvent (water, methanol, acetonitrile, ethyl acetate) were introduced into a 10 mL borosilicate glass vial. The vial was tightly closed and placed in a microwave reactor.",
+    "After reaching the set temperature, the reaction was conducted for 5 or 10 min while stirring the suspension continuously at 600 rpm. The apparatus software automatically adjusted its microwave power to the sample during the experiment.",
+    "The obtained solids were characterized by powder X-ray diffraction. Details on the microwave-assisted cocrystallization conditions are shown in Tables S5–S7."
+   ],
+   "certezza": "media",
+   "note": "TPH e PMLA 1:1 con solventi diversi dall'acqua: si forma la forma II del 2:1 «but not in the pure form» (riflessioni dei reagenti non reagiti; Fig. S12-S14). I 5 min sono dalle conclusioni.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E27",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "max": 203,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "Theobromine cocrystal, TBR·PMLA 2:1, is stable up to 203 °C. Beyond this temperature, it undergoes two decomposition steps.",
+    "TG (black), DTG (blue), and DSC (red) curves of TBR·PMLA 2:1.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "alta",
+   "note": "TBR·PMLA 2:1 «is stable up to 203 °C». STA (TG e DSC simultanee) da temperatura ambiente a 500 °C, 10 °C/min (il metodo scrive anche «(20 °C min–1)» accanto alla corrente di azoto: probabile refuso).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E28",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "natura": "chimica",
+   "passo": "first decomposition step: partial loss of pyromellitic acid",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "min": 203,
+     "max": 249,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ],
+    "meccanismo": [
+     "perdita_componente"
+    ],
+    "perdita_massa": {
+     "valore": 9.2,
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "Theobromine cocrystal, TBR·PMLA 2:1, is stable up to 203 °C. Beyond this temperature, it undergoes two decomposition steps.",
+    "The first DSC peak, observed in the 203–249 °C temperature range (9.2%), can be attributed to the partial loss of pyromellitic acid.",
+    "TG (black), DTG (blue), and DSC (red) curves of TBR·PMLA 2:1.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "media",
+   "note": "Primo picco DSC fra 203 e 249 °C (9.2 %), attribuito alla perdita parziale dell'acido piromellitico. Il 9.2 % e' nella parentesi accanto all'intervallo e si legge come perdita di massa (il testo non scrive «mass loss» per questo valore). I prodotti non sono identificati: il testo parla di «two decomposition steps».",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E29",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "natura": "chimica",
+   "da_evento": "E28",
+   "passo": "second DSC peak: decomposition of theobromine and the residual part of PMLA",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": 311,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "Theobromine cocrystal, TBR·PMLA 2:1, is stable up to 203 °C. Beyond this temperature, it undergoes two decomposition steps.",
+    "The second at 311 °C corresponds to the decomposition of theobromine and the residual part of PMLA.",
+    "TG (black), DTG (blue), and DSC (red) curves of TBR·PMLA 2:1.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "media",
+   "note": "Secondo picco DSC a 311 °C: decomposizione di TBR e della parte residua di PMLA. Il terzo picco («represents the decomposition of the theobromine molecules») non ha T nel testo: non estratto. Residuo carbonizzato di circa il 2 % sopra 500 °C (extra).",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E30",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "max": 205,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "Both TPH·PMLA 2:1 I and TPH·PMLA 2:1 II are stable up to 205 °C (Figure A,B, respectively).",
+    "Thermal studies indicated the stability of TPH·PMLA 2:1 cocrystals up to 205 °C.",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "alta",
+   "note": "TPH·PMLA 2:1 I «stable up to 205 °C» (Fig. 11A).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E31",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "max": 205,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "Both TPH·PMLA 2:1 I and TPH·PMLA 2:1 II are stable up to 205 °C (Figure A,B, respectively).",
+    "Thermal studies indicated the stability of TPH·PMLA 2:1 cocrystals up to 205 °C.",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "alta",
+   "note": "TPH·PMLA 2:1 II «stable up to 205 °C» (Fig. 11B).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E32",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "min": 205,
+     "max": 230,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "The corresponding DSC curves show a double endothermic band for the I form and a single endothermic band for the II form in the temperature range from 205 to 230 °C. This suggests more complex phase transitions in this cocrystal.",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "bassa",
+   "note": "Forma I: «a double endothermic band» fra 205 e 230 °C; gli autori dicono che «suggests more complex phase transitions in this cocrystal» senza dire quali: prodotto non identificato (a ignota), certezza bassa. Il picco e' una banda doppia: temperature dei due massimi non date.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E33",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "min": 205,
+     "max": 230,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "The corresponding DSC curves show a double endothermic band for the I form and a single endothermic band for the II form in the temperature range from 205 to 230 °C. This suggests more complex phase transitions in this cocrystal.",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "bassa",
+   "note": "Forma II: «a single endothermic band» fra 205 e 230 °C; stessa lettura di E32 («more complex phase transitions»), prodotto non identificato.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E34",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "natura": "chimica",
+   "da_evento": "E32",
+   "passo": "rapid and uniform weight loss: decomposition of theophylline then of pyromellitic acid",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "fine": 362,
+     "unita": "°C",
+     "tipo": "fine"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ],
+    "perdita_massa": {
+     "valore": null,
+     "min": 56,
+     "max": 57,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "Above this temperature, up to 362 °C (for TPH·PMLA 2:1 I) and 330 °C (for TPH·PMLA 2:1 II), rapid and uniform weight loss is observed. The total weight loss amounts to 56–57%. However, an additional endothermic peak is observed for the II form of that loss. The results indicate that the decomposition of theophylline molecules comes first, followed by the gradual decomposition of pyromellitic acid.",
+    "The corresponding DSC curves show a double endothermic band for the I form and a single endothermic band for the II form in the temperature range from 205 to 230 °C. This suggests more complex phase transitions in this cocrystal.",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "media",
+   "note": "Forma I: perdita di massa rapida e uniforme fino a 362 °C, 56-57 % in totale; «decomposition of theophylline molecules comes first, followed by the gradual decomposition of pyromellitic acid». L'inizio non e' chiaro («Above this temperature» dopo la banda 205-230 °C): solo la fine e' data (fine 362 °C).",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E35",
+   "da": "F3",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "natura": "chimica",
+   "da_evento": "E33",
+   "passo": "rapid and uniform weight loss: decomposition of theophylline then of pyromellitic acid",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "fine": 330,
+     "unita": "°C",
+     "tipo": "fine"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ],
+    "perdita_massa": {
+     "valore": null,
+     "min": 56,
+     "max": 57,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "Above this temperature, up to 362 °C (for TPH·PMLA 2:1 I) and 330 °C (for TPH·PMLA 2:1 II), rapid and uniform weight loss is observed. The total weight loss amounts to 56–57%. However, an additional endothermic peak is observed for the II form of that loss. The results indicate that the decomposition of theophylline molecules comes first, followed by the gradual decomposition of pyromellitic acid.",
+    "The corresponding DSC curves show a double endothermic band for the I form and a single endothermic band for the II form in the temperature range from 205 to 230 °C. This suggests more complex phase transitions in this cocrystal.",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "media",
+   "note": "Forma II: come E34 fino a 330 °C; il testo aggiunge «an additional endothermic peak is observed for the II form of that loss» senza T. 56-57 % e' il totale scritto per entrambe le forme.",
+   "fonte_dati": "propria"
+  },
+  {
+   "id": "E36",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "min": 100,
+     "max": 200,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 7.8,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "Nonisothermal TG of TPH·PMLA·H2O 1:1:2 revealed a weight loss of 7.8% in the 100–200 °C temperature range, equivalent to the stoichiometric water content in this hydrate (Figure C).",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "alta",
+   "note": "Idrato TPH·PMLA·H2O 1:1:2: perdita di massa del 7.8 % fra 100 e 200 °C, «equivalent to the stoichiometric water content in this hydrate». Prodotto non identificato. Le perdite successive (circa 12 % fra 210 e 250 °C, circa 38 % fino a 335 °C; residuo 23 % a 500 °C) non sono assegnate a processi nel testo: nell'extra.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E37",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "max": 45,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "Below 45 °C, the 2:1:2 TPH·PMLA·MeOH remains stable (Figure D).",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "alta",
+   "note": "TPH·PMLA·MeOH 2:1:2 «remains stable» sotto 45 °C (Fig. 11D).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E38",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": [],
+    "temperatura": {
+     "valore": null,
+     "min": 45,
+     "max": 172,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 8.2,
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "campione": {
+    "massa": "approximately 10 mg"
+   },
+   "citazioni": [
+    "The first weight loss is observed in the 45–172 °C temperature range (8.2%), which is caused by the release of methanol molecules.",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "Additionally, at the final stage of X-ray experiment, the crystal was heated to 420 K and a powder X-ray diffraction experiment was conducted (Figure ). The reflection positions for the obtained powder pattern coincide with the reflection positions of the TPH·PMLA 2:1 II cocrystal, which means that the desolvation process leads to the phase transition from the TPH·PMLA·MeOH 2:1:2 cocrystal solvate into the TPH·PMLA 2:1 II cocrystal.",
+    "The thermal properties of the samples were analyzed using a PerkinElmer STA 6000 Simultaneous Thermal Analyzer. A sample, approximately 10 mg, was heated from room temperature to 500 °C, under a nitrogen purge (20 °C min–1) at a rate of 10 °C min–1."
+   ],
+   "certezza": "media",
+   "note": "Prima perdita di massa fra 45 e 172 °C (8.2 %), «caused by the release of methanol molecules». La TGA non identifica il prodotto: si assume la forma II del 2:1 perche' l'esperimento VT-SXRD identifica come tale il prodotto della desolvatazione a 420 K (E40) (certezza media). Una seconda perdita di circa il 7.5 % fino a 236 °C non e' assegnata (extra).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E39",
+   "da": "F4",
+   "a": "F12",
+   "esito": "avvenuta",
+   "esito_dettaglio": "solo_contenuto_ospite",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 390,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "0.32 × 0.38 × 0.43 mm3"
+   },
+   "citazioni": [
+    "A variable-temperature single-crystal X-ray diffraction experiment for a single crystal of TPH·PMLA·MeOH 2:1:2 was performed in the 300–415 K temperature range.",
+    "The main objective was to investigate the solvent release process from the channels formed among components of this cocrystal solvate and how desolvation would affect the behavior of the single crystal.",
+    "An increase in the temperature causes the release of methanol molecules from the crystal lattice (Figure ), which is confirmed by both STA and X-ray structural analysis.",
+    "A change in the stoichiometry of the TPH·PMLA·MeOH cocrystal solvate from 2:1:2 to 2:1:1 is observed when the single crystal was heated to 390 K (Figure ).",
+    "Reflection intensities were collected from 300 to 425 K, with 10 K intervals within the 340–410 K temperature range."
+   ],
+   "certezza": "alta",
+   "note": "VT-SXRD di un cristallo singolo di TPH·PMLA·MeOH 2:1:2: il rilascio del metanolo e' graduale e a 390 K la stechiometria passa da 2:1:2 a 2:1:1 (forma F12, stessa fase del solvato: `stato_di` F4). Intervalli di 10 K fra 340 e 410 K (metodi: «from 300 to 425 K»; abstract e risultati: 300-415 K). Il cristallo e' tenuto in flusso di azoto.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E40",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "da_evento": "E39",
+   "condizioni": {
+    "temperatura": {
+     "valore": 420,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "PXRD"
+    ],
+    "integrita": "polverizzato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "single crystal heated stepwise from 300 K in the VT-SXRD experiment (390 K: 2:1:1; 415 K: significant decrease in indexation and initial powdering)",
+   "citazioni": [
+    "Heating the single crystal to 415 K causes a significant decrease in indexation and initial powdering of the crystal. At this stage, after performing data reduction for reflections with I/σ­(I) > 8, the structure refinement process showed the presence of two methanol molecules per unit cell.",
+    "Additionally, at the final stage of X-ray experiment, the crystal was heated to 420 K and a powder X-ray diffraction experiment was conducted (Figure ). The reflection positions for the obtained powder pattern coincide with the reflection positions of the TPH·PMLA 2:1 II cocrystal, which means that the desolvation process leads to the phase transition from the TPH·PMLA·MeOH 2:1:2 cocrystal solvate into the TPH·PMLA 2:1 II cocrystal.",
+    "Comparison of theoretical powder patterns of the TPH·PMLA·MeOH 2:1:2 (black) and TPH·PMLA 2:1 II (green) forms with the diffraction pattern obtained for the pulverized crystal at 420 K (red).",
+    "Additionally, a variable-temperature SXRD experiment, performed for the TPH·PMLA·MeOH 2:1:2 single crystal in the 300–415 K range, revealed negative volumetric thermal expansion of this cocrystal solvate and a gradual solvent release, ultimately leading to a phase transition into the TPH·PMLA 2:1 II cocrystal.",
+    "Moreover, a phase transition to the TPH·PMLA 2:1 II form occurred, preceded by the gradual release of solvent molecules from TPH·PMLA·MeOH phase."
+   ],
+   "certezza": "alta",
+   "note": "Alla fine dell'esperimento VT il cristallo (gia' in polvere iniziale a 415 K) scaldato a 420 K da' un diffrattogramma di polvere i cui picchi «coincide with the reflection positions of the TPH·PMLA 2:1 II cocrystal»: «the desolvation process leads to the phase transition» dal solvato al cocristallo 2:1 II. L'abstract la chiama «phase transition into the TPH·PMLA 2:1 II cocrystal».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E41",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "fine": 430,
+     "unita": "K",
+     "tipo": "fine"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The DSC experiment indicates the complete loss of methanol at 430 K (Figure d).",
+    "TG (black), DTG (blue), and DSC (red) curves of (A) TPH·PMLA 2:1 I, (B) TPH·PMLA 2:1 II, (C) TPH·PMLA·H2O 1:1:2, and (D) TPH·PMLA·MeOH 2:1:2.",
+    "Additionally, at the final stage of X-ray experiment, the crystal was heated to 420 K and a powder X-ray diffraction experiment was conducted (Figure ). The reflection positions for the obtained powder pattern coincide with the reflection positions of the TPH·PMLA 2:1 II cocrystal, which means that the desolvation process leads to the phase transition from the TPH·PMLA·MeOH 2:1:2 cocrystal solvate into the TPH·PMLA 2:1 II cocrystal."
+   ],
+   "certezza": "media",
+   "note": "«The DSC experiment indicates the complete loss of methanol at 430 K» (Fig. 11d): perdita completa del metanolo; il prodotto non e' identificato dalla DSC e si assume la forma II del 2:1 per l'identificazione a 420 K (E40). Velocita' di riscaldamento e crogiolo non dette per questa frase.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F6",
+    "F7",
+    "F8"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "citazioni": [
+    "Theobromine was obtained from Sigma-Aldrich. Theophylline (TPH) and pyromellitic acid (benzene-1,2,4,5-tetracarboxylic acid, PMLA) were purchased from TriMen Chemicals.",
+    "These reagents were used without prior purification (Figure )."
+   ],
+   "note": "TBR da Sigma-Aldrich; TPH e PMLA da TriMen Chemicals; senza purificazione.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol/water mixture"
+   ],
+   "solventi_alternativi": false,
+   "rapporto_soluzione": "TBR:PMLA 2:1",
+   "citazioni": [
+    "Theobromine (TBR) and pyromellitic acid (PMLA) were dissolved in a methanol/water mixture at a 2:1 stoichiometric ratio by heating and stirring. The prepared solution was left for slow evaporation to obtain 2:1 TBR·PMLA single crystals."
+   ],
+   "note": "Soluzione a caldo con agitazione («by heating and stirring»), poi evaporazione lenta: cristalli singoli del cocristallo 2:1. Dettagli delle condizioni di cristallizzazione nel supplementare (Tabella S1).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol-nitromethane mixture"
+   ],
+   "solventi_alternativi": false,
+   "rapporto_soluzione": "TPH:PMLA 2:1",
+   "citazioni": [
+    "Theophylline (TPH) and pyromellitic acid (PMLA) in a 2:1 stoichiometric ratio were dissolved by heating in a methanol-nitromethane mixture. After slow evaporation of this solution, single crystals of the TPH·PMLA 2:1 I cocrystal were obtained.",
+    "Cocrystallization of theophylline with pyromellitic acid in a stoichiometric ratio of 2:1 from a methanol/nitromethane mixture yielded polymorph I of TPH·PMLA 2:1."
+   ],
+   "note": "Soluzione a caldo in metanolo-nitrometano, evaporazione lenta: cristalli singoli della forma I del 2:1.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol-chloroform mixture"
+   ],
+   "solventi_alternativi": false,
+   "rapporto_soluzione": "TPH:PMLA 2:1",
+   "citazioni": [
+    "Polymorph TPH·PMLA 2:1 II was similarly obtained using a methanol-chloroform mixture.",
+    "Substituting nitromethane with chloroform resulted in polymorph II formation."
+   ],
+   "note": "«Similarly» a F2: in metanolo-cloroformio al posto di metanolo-nitrometano (stesso rapporto 2:1, riscaldamento e evaporazione lenta).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol-nitromethane mixture"
+   ],
+   "solventi_alternativi": false,
+   "rapporto_soluzione": "TPH:PMLA 4:1",
+   "citazioni": [
+    "Single crystals in the form of large blocks of the TPH·PMLA·MeOH 2:1:2 cocrystal solvate were identified for the first time from the cocrystallization of TPH with PMLA in a 4:1 stoichiometric ratio, conducted in a methanol-nitromethane solvent mixture."
+   ],
+   "note": "Grandi blocchi cristallini del solvato col metanolo ottenuti la prima volta da TPH e PMLA 4:1 in metanolo-nitrometano.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "semina",
+   "solventi": [
+    "methanol-nitromethane mixture"
+   ],
+   "solventi_alternativi": false,
+   "rapporto_soluzione": "TPH:PMLA 2:1",
+   "citazioni": [
+    "These crystals were used to nucleate the cocrystallization of TPH with PMLA in a 2:1 stoichiometric ratio in the same solvent mixture, yielding a pure cocrystal solvate."
+   ],
+   "note": "I cristalli della preparazione precedente (4:1) servono da semi per la cocristallizzazione 2:1 nello stesso solvente: solvato puro. Il testo dice anche che la riproducibilita' e' difficile («difficulties with the repeatability of obtaining TPH·PMLA·MeOH 2:1:2 solvate»).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile/water mixture"
+   ],
+   "solventi_alternativi": false,
+   "rapporto_soluzione": "TPH:PMLA 1:1",
+   "citazioni": [
+    "The TPH·PMLA·H2O 1:1:2 cocrystal hydrate was obtained by cocrystallization of TPH and PMLA in a 1:1 stoichiometric ratio in an acetonitrile/water mixture, followed by slow evaporation of the solution.",
+    "The TPH·PMLA·H2O 1:1:2 cocrystal hydrate was successfully obtained through cocrystallization of TPH and PMLA in a 1:1 stoichiometric ratio from an acetonitrile–water system (Figure S2 and Table S1)."
+   ],
+   "note": "Idrato da TPH e PMLA 1:1 in acetonitrile/acqua, evaporazione lenta.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1",
+    "F2",
+    "F3",
+    "F5"
+   ],
+   "metodo": "macinazione",
+   "solventi": [],
+   "da_evento": [
+    "E1",
+    "E2",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E12"
+   ],
+   "citazioni": [
+    "Grindings were performed in the absence or with a small volume of solvent for 30 min to 2 h. In this way, TBR·PMLA 2:1 cocrystals, both TPH·PMLA 2:1 I and II cocrystal polymorphs and the TPH·PMLA·H2O 1:1:2 cocrystal hydrate were successfully synthesized.",
+    "Mechanochemical reactions were carried out using Retsch MM300 oscillatory ball mill in 3 mL stainless steel jars with one 6 mm stainless steel ball placed inside the jar at the constant frequency of 25 Hz."
+   ],
+   "note": "Sintesi meccanochimiche delle cinque fasi (esclusa quella del solvato) negli eventi indicati; condizioni di ogni prova nelle Tabelle S2-S4 e negli eventi.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1",
+    "F2",
+    "F3",
+    "F5"
+   ],
+   "metodo": "sospensione",
+   "solventi": [],
+   "da_evento": [
+    "E15",
+    "E16",
+    "E19",
+    "E21",
+    "E22",
+    "E23",
+    "E25"
+   ],
+   "citazioni": [
+    "The use of microwave radiation shortened the cocrystallization process using TPH and PMLA to 5 min, enabling the successful formation of both polymorphs of the TPH·PMLA 2:1 cocrystal and TPH·PMLA·H2O 1:1:2.",
+    "Water proved to be the most effective solvent for microwave-assisted cocrystallization of TBR and PMLA, with almost complete conversion of the substrates at 125 °C in 10 min."
+   ],
+   "note": "Sospensioni assistite da microonde (slurry) nei reattori da 10 mL; il metodo e' la sospensione riscaldata a microonde, la sottovia dell'evento e' `microonde`.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "forma": "F6",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 1.83,
+      "unita": "10-3 mmol mL-1"
+     },
+     "metodo": "UV-vis (Beer–Lambert) sulle soluzioni acquose sature; cinque ripetizioni a temperatura ambiente (circa 25 °C), media con doppia deviazione standard; colonna «alkaloid solubility in water» della Tabella 1 (riga TBR·PMLA 2:1)",
+     "citazione": "TBR·PMLA 2:1 | 1.83 | 8.17 ± 0.42 (×4.46)"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 8.17,
+      "unita": "10-3 mmol mL-1"
+     },
+     "metodo": "UV-vis (Beer–Lambert) sulle soluzioni acquose sature; cinque ripetizioni a temperatura ambiente (circa 25 °C), media con doppia deviazione standard; incertezza ± 0.42; rapporto ×4.46 rispetto all'alcaloide puro",
+     "citazione": "TBR·PMLA 2:1 | 1.83 | 8.17 ± 0.42 (×4.46)"
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "forma": "F7",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 45.7,
+      "unita": "10-3 mmol mL-1"
+     },
+     "metodo": "UV-vis (Beer–Lambert) sulle soluzioni acquose sature; cinque ripetizioni a temperatura ambiente (circa 25 °C), media con doppia deviazione standard; colonna «alkaloid solubility in water» della Tabella 1 (riga TPH·PMLA 2:1 I; nelle righe successive la cella e' vuota)",
+     "citazione": "TPH·PMLA 2:1 I | 45.7 | 14.37 ± 1.04 (×0.31)"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F2",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 14.37,
+      "unita": "10-3 mmol mL-1"
+     },
+     "metodo": "UV-vis (Beer–Lambert) sulle soluzioni acquose sature; cinque ripetizioni a temperatura ambiente (circa 25 °C), media con doppia deviazione standard; incertezza ± 1.04; rapporto ×0.31 rispetto a TPH",
+     "citazione": "TPH·PMLA 2:1 I | 45.7 | 14.37 ± 1.04 (×0.31)"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F3",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 13.69,
+      "unita": "10-3 mmol mL-1"
+     },
+     "metodo": "UV-vis (Beer–Lambert) sulle soluzioni acquose sature; cinque ripetizioni a temperatura ambiente (circa 25 °C), media con doppia deviazione standard; incertezza ± 1.79; rapporto ×0.30 rispetto a TPH",
+     "citazione": "TPH·PMLA 2:1 II | 13.69 ± 1.79 (×0.30)"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F5",
+     "solvente": "water",
+     "grandezza": {
+      "valore": 4.83,
+      "unita": "10-3 mmol mL-1"
+     },
+     "metodo": "UV-vis (Beer–Lambert) sulle soluzioni acquose sature; cinque ripetizioni a temperatura ambiente (circa 25 °C), media con doppia deviazione standard; incertezza ± 0.26; rapporto ×0.11 rispetto a TPH",
+     "citazione": "TPH·PMLA·H2O 1:1:2 | 4.83 ± 0.26 (×0.11)"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "theophylline can convert into a hydrated form (stated in the conclusions)",
+     "citazione": "Conversely, theophylline, which is used in treating respiratory diseases, exhibits good solubility in water but can convert into a hydrated form, negatively impacting the development of a consistent processing method for this API."
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "forma": "F8",
+     "solvente": "water",
+     "temperatura": {
+      "valore": 25,
+      "unita": "°C"
+     },
+     "grandezza": {
+      "valore": 43.2,
+      "unita": "10-3 mmol mL-1"
+     },
+     "metodo": "scritto nel testo come valore della solubilita' di PMLA (fonte non indicata)",
+     "citazione": "(solubility of PMLA in water equals 43.2·10–3 mmol·mL–1 at 25 °C)"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "forma": "F4",
+     "testo": "minor variations in the conformation of PMLA carboxyl groups",
+     "citazione": "Minor variations in the conformation of PMLA carboxyl groups are observed (Figure S19)."
+    }
+   ]
+  }
+ ]
+}

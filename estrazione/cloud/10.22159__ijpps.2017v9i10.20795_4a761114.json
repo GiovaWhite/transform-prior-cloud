@@ -1,0 +1,1258 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.22159/ijpps.2017v9i10.20795",
+ "pertinente": true,
+ "note": "Il lavoro determina le strutture di quattro polimorfi (H, B, MS, S) da PXRD (indicizzazione, Pawley, simulated annealing, Rietveld) e le confronta con CSP e morfologia: le celle (Tabella 1, senza temperatura), i parametri e gli Rwp, la predizione dei polimorfi (oltre 2100 strutture ipotetiche, paesaggio di energia, minimi locali), la morfologia (Tabella 2, rapporti d'aspetto, facce e energie di attacco) e l'ordine MS<B<H<S sono nell'extra. Gli eventi solido-solido sono: fusioni in DSC (E1-E7), il passaggio B -> S attraverso il fuso (E5 in DSC, E8 con riscaldamento a 150 °C), la conversione MS -> B a 40 °C/75% RH in 6 mesi (E9), le stabilita' di H, B e S (E10-E12) e due eventi citati sulla forma X (E13, E14). CCDC: «The crystallographic files are deposited to CCDC with reference number 1401735-1401738» (quattro numeri per quattro forme, ma il testo non dice quale numero va a quale forma: restano a livello di articolo). Incoerenze dell'articolo: (1) «global minima at-40.78 KJ/mol» contro i minimi locali delle strutture sperimentali a -55.28, -52.69, -52.28 e 55.40 KJ/mol (segno perso nell'ultimo), che sono piu' bassi del «global minima» dichiarato; (2) nella discussione il DSC con due endotermi e un esotermo e' attribuito a «Form S», mentre i Risultati lo dicono del prodotto ricristallizzato da acetato di etile:eptano (la cui prima fusione e' di Form B); (3) «Reflux Plus module» (abstract, risultati, discussione) contro «Reflex Plus module» (metodi); (4) i punti di fusione di Form S: 174.79 °C (nel DSC del ricristallizzato) contro 172.36 °C (S pura); (5) i Risultati danno a Form MS la solubilita' e l'IDR piu' alti (89.7 mg/100 ml; 0.496 mg/min/cm2) e a Form S i piu' bassi (71.3; 0.263), ma la discussione scrive «Low solubility and low IDR of Form MS implies its strong crystal lattice». Cio' che non e' un evento: la predizione in silico (CSP), la morfologia simulata, i calcoli dell'entalpia di soluzione. Il testo dice che la Form H e la Form S di questo lavoro non coincidono con quelle strutturate da Gang Li et al. [16] (celle diverse per H; S «not in agreement»).",
+ "ccdc": [
+  "1401735",
+  "1401736",
+  "1401737",
+  "1401738"
+ ],
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "nateglinide"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Form H",
+   "etichette_alternative": [
+    "marketed form",
+    "commercial sample"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 12.27,
+    "b": 11.44,
+    "c": 8.84,
+    "alpha": 66.46,
+    "beta": 104.33,
+    "gamma": 116.42,
+    "V": 1014.93,
+    "Z": 2,
+    "fonte": "PXRD"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "amide-amide dimer (homomeric synthon N1H1···O3)",
+     "chi": "NH e CO del gruppo ammidico di molecole diverse",
+     "citazione": "Homomeric synthon between-NH and-CO of an amide group (N1H1… O3) of different molecules is formed. It appears as a dimer (amide-amide dimer), showing hydrogen bonded wavy arrangement of molecules along c axis in the crystal lattice lying parallel to one another."
+    }
+   ],
+   "citazione": "Table 1: Crystallographic parameters of nateglinide polymorphs Polymorph Form H Form B Form MS Form S Space group(s) P-1 C2 P-4 P-42C Crystal Lattice Triclinic Monoclinic Tetragonal Tetragonal a (Å) 12.27 16.13 13.47 23.70 b (Å) 11.44 27.54 13.47 23.70 c (Å) 8.84 18.24 41.93 12.45 α (deg) 66.46 90 90 90 β (deg) 104.33 108.99 90 90 γ (deg) 116.42 90 90 90 Z 2 4 4 8 Cell Volume (Å3 1014.93 ) 7659.06 7610.04 6992.19 Rwp (%) 14.37 5.14 17.77 16.16",
+   "note": "Cella dalla Tabella 1 (colonne H, B, MS, S; la citazione e' l'intera tabella, che il PDF dà in una riga): da indicizzazione e raffinamento di dati PXRD, senza temperatura (la T non e' scritta). Il volume di H e' il primo dopo l'etichetta: la riga «Cell Volume (Å3 1014.93 ) 7659.06 7610.04 6992.19» ha l'intestazione spezzata dal PDF; i quattro valori seguono l'ordine delle colonne e tornano con i parametri di cella (abc·sqrt(1 - cos²α - cos²β - cos²γ + 2cosα·cosβ·cosγ) = circa 1016 Å3 con i parametri a 2 decimali contro 1014.93 scritto). Nessuna voce del CSD: la forma e' la commerciale («marketed form»), la sua struttura e' risolta qui da PXRD. Mai detta «anhydrous» ma senza solvente nella formula ne' perdita di massa: tipo anidro presunto. Gli autori dicono che la cella differisce da quella di Gang Li et al. [16] (stesso sistema e gruppo), «The reason for this may be attributed to the difference in the indexing algorithm»."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "Form B",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2",
+   "cella": {
+    "a": 16.13,
+    "b": 27.54,
+    "c": 18.24,
+    "alpha": 90,
+    "beta": 108.99,
+    "gamma": 90,
+    "V": 7659.06,
+    "Z": 4,
+    "fonte": "PXRD"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "homosynthon O3···H8–C8",
+     "chi": "CO del gruppo ammidico e CH metinico (legato al gruppo carbossilico) di molecole diverse",
+     "citazione": "One homosynthon (O3 …H8-C8) is formed between–CO of amide group and methine–CH (attached to carboxylic group) of different molecules."
+    },
+    {
+     "motivo": "homosynthon O1···H11–C11",
+     "chi": "CO del gruppo carbossilico e CH dell'anello cicloesilico",
+     "citazione": "The other homosynthon formed (O1… H11-C11), shows the hydrogen bonding between CO of carboxylic group and–CH of cyclohexyl ring."
+    }
+   ],
+   "citazione": "Table 1: Crystallographic parameters of nateglinide polymorphs Polymorph Form H Form B Form MS Form S Space group(s) P-1 C2 P-4 P-42C Crystal Lattice Triclinic Monoclinic Tetragonal Tetragonal a (Å) 12.27 16.13 13.47 23.70 b (Å) 11.44 27.54 13.47 23.70 c (Å) 8.84 18.24 41.93 12.45 α (deg) 66.46 90 90 90 β (deg) 104.33 108.99 90 90 γ (deg) 116.42 90 90 90 Z 2 4 4 8 Cell Volume (Å3 1014.93 ) 7659.06 7610.04 6992.19 Rwp (%) 14.37 5.14 17.77 16.16",
+   "note": "Cella dalla Tabella 1 (colonne H, B, MS, S; la citazione e' l'intera tabella, che il PDF dà in una riga): da indicizzazione e raffinamento di dati PXRD, senza temperatura (la T non e' scritta). Il volume di B e' il secondo: la riga «Cell Volume (Å3 1014.93 ) 7659.06 7610.04 6992.19» ha l'intestazione spezzata dal PDF; i quattro valori seguono l'ordine delle colonne e tornano con i parametri di cella (abc·sinβ = circa 7660.6 Å3 contro 7659.06 scritto). Forma gia' nota dalla letteratura per la posizione dell'endotermo («has already been reported in the literature»); qui la struttura e' risolta da PXRD («The structural aspects of From B and MS have not been explored till date»). Tipo anidro presunto."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Form MS",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "tetragonale",
+   "gruppo_spaziale": "P-4",
+   "cella": {
+    "a": 13.47,
+    "b": 13.47,
+    "c": 41.93,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 7610.04,
+    "Z": 4,
+    "fonte": "PXRD"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "bifurcated amide carbonyl: C17–H17···O3 and C7–H7A···O3",
+     "chi": "ossigeno carbonilico ammidico con CH metinico (legato al cicloesile) e CH metilenico (legato al benzene)",
+     "citazione": "Carbonyl oxygen of amide group bifurcates to form hydrogen bond with methine–CH (attached to cyclohexyl ring) and methylene– CH (attached to benzene ring) to generate C17-H17 …O3 and C7H7A…O3."
+    },
+    {
+     "motivo": "homosynthon C13–H13A···O1",
+     "chi": "CO del gruppo ammidico e CH dell'anello cicloesilico",
+     "citazione": "Another homosynthon (C13-H13A… O1) is formed by the involvement of–CO of amide group and–CH of cyclohexyl ring."
+    }
+   ],
+   "citazione": "Table 1: Crystallographic parameters of nateglinide polymorphs Polymorph Form H Form B Form MS Form S Space group(s) P-1 C2 P-4 P-42C Crystal Lattice Triclinic Monoclinic Tetragonal Tetragonal a (Å) 12.27 16.13 13.47 23.70 b (Å) 11.44 27.54 13.47 23.70 c (Å) 8.84 18.24 41.93 12.45 α (deg) 66.46 90 90 90 β (deg) 104.33 108.99 90 90 γ (deg) 116.42 90 90 90 Z 2 4 4 8 Cell Volume (Å3 1014.93 ) 7659.06 7610.04 6992.19 Rwp (%) 14.37 5.14 17.77 16.16",
+   "note": "Cella dalla Tabella 1 (colonne H, B, MS, S; la citazione e' l'intera tabella, che il PDF dà in una riga): da indicizzazione e raffinamento di dati PXRD, senza temperatura (la T non e' scritta). Il volume di MS e' il terzo: la riga «Cell Volume (Å3 1014.93 ) 7659.06 7610.04 6992.19» ha l'intestazione spezzata dal PDF; i quattro valori seguono l'ordine delle colonne e tornano con i parametri di cella (a²·c = circa 7607.6 Å3 contro 7610.04 scritto). Forma nuova di questo lavoro («A new polymorphically pure form (Form MS)»). Tipo anidro presunto."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "Form S",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "tetragonale",
+   "gruppo_spaziale": "P-42c",
+   "gruppo_spaziale_scritto": "P-42C",
+   "cella": {
+    "a": 23.7,
+    "b": 23.7,
+    "c": 12.45,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 6992.19,
+    "Z": 8,
+    "fonte": "PXRD"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "homomeric synthon C5–H5···O1",
+     "chi": "CH dell'anello benzenico e CO del gruppo carbossilico di due molecole",
+     "citazione": "Homomeric synthon (C5-H5 O1) between two molecules involving-CH of the benzene ring and CO of carboxylic group is formed."
+    }
+   ],
+   "citazione": "Table 1: Crystallographic parameters of nateglinide polymorphs Polymorph Form H Form B Form MS Form S Space group(s) P-1 C2 P-4 P-42C Crystal Lattice Triclinic Monoclinic Tetragonal Tetragonal a (Å) 12.27 16.13 13.47 23.70 b (Å) 11.44 27.54 13.47 23.70 c (Å) 8.84 18.24 41.93 12.45 α (deg) 66.46 90 90 90 β (deg) 104.33 108.99 90 90 γ (deg) 116.42 90 90 90 Z 2 4 4 8 Cell Volume (Å3 1014.93 ) 7659.06 7610.04 6992.19 Rwp (%) 14.37 5.14 17.77 16.16",
+   "note": "Cella dalla Tabella 1 (colonne H, B, MS, S; la citazione e' l'intera tabella, che il PDF dà in una riga): da indicizzazione e raffinamento di dati PXRD, senza temperatura (la T non e' scritta). Il volume di S e' l'ultimo: la riga «Cell Volume (Å3 1014.93 ) 7659.06 7610.04 6992.19» ha l'intestazione spezzata dal PDF; i quattro valori seguono l'ordine delle colonne e tornano con i parametri di cella (a²·c = circa 6993.1 Å3 contro 6992.19 scritto). Gruppo spaziale scritto «P-42C» (anche nell'abstract e nei metodi): normalizzato in P-42c solo per la maiuscola del simbolo di glide, nessun altro cambiamento. Gli autori dicono che la struttura di S non e' in accordo con quella della letteratura [16]. Tipo anidro presunto."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "Form X",
+   "tipo": "anidro",
+   "citazione": "Subsequently, publications by Bruni, et al. reported a new but unstable anhydrous polymorphic modification melting at 102 °C",
+   "note": "Forma di un altro lavoro (Bruni et al., rif. 11-13): «a new but unstable anhydrous polymorphic modification melting at 102 °C (form X), which gradually transformed to form H». Nessun dato di struttura nell'articolo."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F3",
+    "F2"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F2",
+   "citazione": "Thermal analysis shows that the Form MS have lowest melting point along with the lowest heat of fusion followed by form B, H and S (highest melting point and heat of fusion). So, according to Burger’s rule all the forms are monotropically related.",
+   "relazione_scritta": "all the forms are monotropically related (Burger's rule)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Dichiarazione collettiva «all the forms are monotropically related» secondo la regola del calore di fusione di Burger: MS ha il punto di fusione e il calore di fusione piu' bassi, poi B, H e S (i piu' alti). Una coppia per ciascuna delle sei coppie. La stabilita' (MS<B<H<S) e' l'ordine dichiarato nell'abstract e nella discussione («Thus, stability ranking of nateglinide polymorphs follows the order (Form MS<Form B<Form H<Form S)»), ricavato dall'energia di attacco e dal rapporto d'aspetto; punti di fusione e calori di fusione dei DSC sono in E1-E7. Nessuna temperatura di transizione."
+  },
+  {
+   "forme": [
+    "F3",
+    "F1"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F1",
+   "citazione": "Thermal analysis shows that the Form MS have lowest melting point along with the lowest heat of fusion followed by form B, H and S (highest melting point and heat of fusion). So, according to Burger’s rule all the forms are monotropically related.",
+   "relazione_scritta": "all the forms are monotropically related (Burger's rule)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Dichiarazione collettiva «all the forms are monotropically related» secondo la regola del calore di fusione di Burger: MS ha il punto di fusione e il calore di fusione piu' bassi, poi B, H e S (i piu' alti). Una coppia per ciascuna delle sei coppie. La stabilita' (MS<B<H<S) e' l'ordine dichiarato nell'abstract e nella discussione («Thus, stability ranking of nateglinide polymorphs follows the order (Form MS<Form B<Form H<Form S)»), ricavato dall'energia di attacco e dal rapporto d'aspetto; punti di fusione e calori di fusione dei DSC sono in E1-E7. Nessuna temperatura di transizione."
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F4",
+   "citazione": "Thermal analysis shows that the Form MS have lowest melting point along with the lowest heat of fusion followed by form B, H and S (highest melting point and heat of fusion). So, according to Burger’s rule all the forms are monotropically related.",
+   "relazione_scritta": "all the forms are monotropically related (Burger's rule)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Dichiarazione collettiva «all the forms are monotropically related» secondo la regola del calore di fusione di Burger: MS ha il punto di fusione e il calore di fusione piu' bassi, poi B, H e S (i piu' alti). Una coppia per ciascuna delle sei coppie. La stabilita' (MS<B<H<S) e' l'ordine dichiarato nell'abstract e nella discussione («Thus, stability ranking of nateglinide polymorphs follows the order (Form MS<Form B<Form H<Form S)»), ricavato dall'energia di attacco e dal rapporto d'aspetto; punti di fusione e calori di fusione dei DSC sono in E1-E7. Nessuna temperatura di transizione."
+  },
+  {
+   "forme": [
+    "F2",
+    "F1"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F1",
+   "citazione": "Thermal analysis shows that the Form MS have lowest melting point along with the lowest heat of fusion followed by form B, H and S (highest melting point and heat of fusion). So, according to Burger’s rule all the forms are monotropically related.",
+   "relazione_scritta": "all the forms are monotropically related (Burger's rule)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Dichiarazione collettiva «all the forms are monotropically related» secondo la regola del calore di fusione di Burger: MS ha il punto di fusione e il calore di fusione piu' bassi, poi B, H e S (i piu' alti). Una coppia per ciascuna delle sei coppie. La stabilita' (MS<B<H<S) e' l'ordine dichiarato nell'abstract e nella discussione («Thus, stability ranking of nateglinide polymorphs follows the order (Form MS<Form B<Form H<Form S)»), ricavato dall'energia di attacco e dal rapporto d'aspetto; punti di fusione e calori di fusione dei DSC sono in E1-E7. Nessuna temperatura di transizione."
+  },
+  {
+   "forme": [
+    "F2",
+    "F4"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F4",
+   "citazione": "Thermal analysis shows that the Form MS have lowest melting point along with the lowest heat of fusion followed by form B, H and S (highest melting point and heat of fusion). So, according to Burger’s rule all the forms are monotropically related.",
+   "relazione_scritta": "all the forms are monotropically related (Burger's rule)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Dichiarazione collettiva «all the forms are monotropically related» secondo la regola del calore di fusione di Burger: MS ha il punto di fusione e il calore di fusione piu' bassi, poi B, H e S (i piu' alti). Una coppia per ciascuna delle sei coppie. La stabilita' (MS<B<H<S) e' l'ordine dichiarato nell'abstract e nella discussione («Thus, stability ranking of nateglinide polymorphs follows the order (Form MS<Form B<Form H<Form S)»), ricavato dall'energia di attacco e dal rapporto d'aspetto; punti di fusione e calori di fusione dei DSC sono in E1-E7. Nessuna temperatura di transizione."
+  },
+  {
+   "forme": [
+    "F1",
+    "F4"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F4",
+   "citazione": "Thermal analysis shows that the Form MS have lowest melting point along with the lowest heat of fusion followed by form B, H and S (highest melting point and heat of fusion). So, according to Burger’s rule all the forms are monotropically related.",
+   "relazione_scritta": "all the forms are monotropically related (Burger's rule)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Dichiarazione collettiva «all the forms are monotropically related» secondo la regola del calore di fusione di Burger: MS ha il punto di fusione e il calore di fusione piu' bassi, poi B, H e S (i piu' alti). Una coppia per ciascuna delle sei coppie. La stabilita' (MS<B<H<S) e' l'ordine dichiarato nell'abstract e nella discussione («Thus, stability ranking of nateglinide polymorphs follows the order (Form MS<Form B<Form H<Form S)»), ricavato dall'energia di attacco e dal rapporto d'aspetto; punti di fusione e calori di fusione dei DSC sono in E1-E7. Nessuna temperatura di transizione."
+  },
+  {
+   "forme": [
+    "F2",
+    "F1"
+   ],
+   "relazione": "monotropa",
+   "citazione": "The monotropic relationship between Form B and H and stability co-relation between these two had been established by Upadhyay, et al., using configurational free energy phase diagrams [14].",
+   "fonte_dati": "citata",
+   "riferimento": "Upadhyay et al. [14]",
+   "certezza": "media",
+   "note": "Relazione B/H riportata da un altro lavoro (diagrammi di energia libera configurazionale). Il testo non dice quale delle due sia la piu' stabile."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 140.98,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen purge, 50 ml per minute",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 53.88,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 140.98,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "sigillato",
+    "massa": "between 2-4 mg"
+   },
+   "citazioni": [
+    "DSC thermograms were obtained on Q20, TA Instruments-Waters LLC, USA.",
+    "A mass between 2-4 mg was taken into the aluminium pan, covered with lid and sealed. DSC curves were obtained under a nitrogen purge of 50 ml per minute at a heating rate of 10 °C per minute with the temperature range from 50-250 °C.",
+    "DSC pattern of a form produced from recrystallization of commercial sample (form H, melting endotherm at 140.98 °C, enthalpy of fusion: 53.88 J/g) from ethyl acetate, dioxane: heptane (1:1), dioxane:"
+   ],
+   "certezza": "alta",
+   "note": "Fusione del campione commerciale (Form H): «melting endotherm at 140.98 °C, enthalpy of fusion: 53.88 J/g». Il testo non dice se 140.98 sia picco o inizio (tipo non_specificato). Crogiolo di alluminio con coperchio sigillato, 2-4 mg, 10 °C per minute, azoto 50 ml per minute, 50-250 °C (metodi DSC generali). La frase descrive il campione commerciale fra parentesi; non dice esplicitamente che il DSC di H sia stato misurato qui, ma e' nei Risultati accanto alle altre curve DSC.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "picco",
+     "picco": 129.25
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen purge, 50 ml per minute",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 23.75,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 129.25,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "sigillato",
+    "massa": "between 2-4 mg"
+   },
+   "citazioni": [
+    "DSC thermograms were obtained on Q20, TA Instruments-Waters LLC, USA.",
+    "A mass between 2-4 mg was taken into the aluminium pan, covered with lid and sealed. DSC curves were obtained under a nitrogen purge of 50 ml per minute at a heating rate of 10 °C per minute with the temperature range from 50-250 °C.",
+    "DSC pattern of a form produced from recrystallization of commercial sample (form H, melting endotherm at 140.98 °C, enthalpy of fusion: 53.88 J/g) from ethyl acetate, dioxane: heptane (1:1), dioxane:",
+    "hexane (1:1), dioxane: cyclohexane (1:1), showed the appearance of single sharp melting endothermic peak at 129.25 °C (enthalpy of fusion: 23.75 J/g) as shown in fig. 1(a)). The position of the melting endotherm suggested it to be Form B, which has already been reported in the literature."
+   ],
+   "certezza": "alta",
+   "note": "Fusione di Form B: un solo picco endotermico netto a 129.25 °C, DeltaH di fusione 23.75 J/g. Il campione e' la forma prodotta da H per ricristallizzazione da acetato di etile, diossano:eptano (1:1), diossano:esano (1:1), diossano:cicloesano (1:1): una sola frase per quattro preparazioni, un solo evento. L'identificazione come B e' dalla posizione dell'endotermo («suggested it to be Form B»); i PXRD delle forme preparate (Fig. 2) servono poi a risolverne le strutture.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 105.12,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen purge, 50 ml per minute",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 4.34,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 105.12,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "sigillato",
+    "massa": "between 2-4 mg"
+   },
+   "citazioni": [
+    "DSC thermograms were obtained on Q20, TA Instruments-Waters LLC, USA.",
+    "A mass between 2-4 mg was taken into the aluminium pan, covered with lid and sealed. DSC curves were obtained under a nitrogen purge of 50 ml per minute at a heating rate of 10 °C per minute with the temperature range from 50-250 °C.",
+    "A new polymorphically pure form (Form MS) has been isolated by recrystallization from ethanol: hexane (1:3). Its DSC thermogram",
+    "showed sharp endotherm at 105.12 °C (enthalpy of fusion: 4.34 J/g) (fig. 1(a)).",
+    "The presence of endotherm at 105.12 °C indicates the formation of new polymorph, i.e. Form MS.",
+    "Thermal analysis shows that the Form MS have lowest melting point along with the lowest heat of fusion followed by form B, H and S (highest melting point and heat of fusion). So, according to Burger’s rule all the forms are monotropically related."
+   ],
+   "certezza": "alta",
+   "note": "Fusione di Form MS, la forma nuova: endotermo netto a 105.12 °C, «enthalpy of fusion: 4.34 J/g» (la piu' bassa fra le forme). Il testo non dice se 105.12 sia picco o inizio.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 129.57,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen purge, 50 ml per minute",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 129.57,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "sigillato",
+    "massa": "between 2-4 mg"
+   },
+   "citazioni": [
+    "DSC thermograms were obtained on Q20, TA Instruments-Waters LLC, USA.",
+    "A mass between 2-4 mg was taken into the aluminium pan, covered with lid and sealed. DSC curves were obtained under a nitrogen purge of 50 ml per minute at a heating rate of 10 °C per minute with the temperature range from 50-250 °C.",
+    "Recrystallization of Form H from ethyl acetate: heptane (1:1), showed interesting DSC pattern comprising of two endotherms at 129.57 °C and 174.79 °C, separated by an exotherm at 147.32 °C, (fig. 1(b)).",
+    "DSC pattern of Form S demonstrates the presence of two endothermic and one exothermic peak. This suggested the conversion of one solid form to another through the molten state. The first endotherm indicates melting of Form B followed by its liquid-solid transition to a stable form, which melts at 174.79 °C and was similar to the earlier reported Form S."
+   ],
+   "certezza": "media",
+   "passo": "melting of Form B",
+   "conflitto": "Discussione: «DSC pattern of Form S demonstrates the presence of two endothermic and one exothermic peak» (il DSC e' attribuito a Form S); Risultati: quel DSC con due endotermi (129.57 e 174.79 °C) e un esotermo (147.32 °C) e' del prodotto della ricristallizzazione di H da acetato di etile:eptano (1:1), e la discussione stessa dice che il primo endotermo e' la fusione di Form B. Si tiene la lettura B -> fuso -> forma stabile (S).",
+   "pretrattamento": "ricristallizzato da Form H con acetato di etile:eptano (1:1)",
+   "note": "Primo endotermo della ricristallizzazione di H da acetato di etile:eptano (1:1): «The first endotherm indicates melting of Form B». La forma di partenza e' B solo per quella frase della discussione (il campione e' il prodotto di ricristallizzazione, non descritto altrove). Nella frase della discussione il DSC e' attribuito a «Form S» («DSC pattern of Form S demonstrates the presence of two endothermic and one exothermic peak») ma sembra descrivere lo stesso DSC (due endotermi e un esotermo).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 147.32,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen purge, 50 ml per minute",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 147.32,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "sigillato",
+    "massa": "between 2-4 mg"
+   },
+   "citazioni": [
+    "DSC thermograms were obtained on Q20, TA Instruments-Waters LLC, USA.",
+    "A mass between 2-4 mg was taken into the aluminium pan, covered with lid and sealed. DSC curves were obtained under a nitrogen purge of 50 ml per minute at a heating rate of 10 °C per minute with the temperature range from 50-250 °C.",
+    "Recrystallization of Form H from ethyl acetate: heptane (1:1), showed interesting DSC pattern comprising of two endotherms at 129.57 °C and 174.79 °C, separated by an exotherm at 147.32 °C, (fig. 1(b)).",
+    "DSC pattern of Form S demonstrates the presence of two endothermic and one exothermic peak. This suggested the conversion of one solid form to another through the molten state. The first endotherm indicates melting of Form B followed by its liquid-solid transition to a stable form, which melts at 174.79 °C and was similar to the earlier reported Form S."
+   ],
+   "certezza": "media",
+   "da_evento": "E4",
+   "passo": "liquid-solid transition to a stable form",
+   "conflitto": "Discussione: «DSC pattern of Form S demonstrates the presence of two endothermic and one exothermic peak» (il DSC e' attribuito a Form S); Risultati: quel DSC con due endotermi (129.57 e 174.79 °C) e un esotermo (147.32 °C) e' del prodotto della ricristallizzazione di H da acetato di etile:eptano (1:1), e la discussione stessa dice che il primo endotermo e' la fusione di Form B. Si tiene la lettura B -> fuso -> forma stabile (S).",
+   "pretrattamento": "ricristallizzato da Form H con acetato di etile:eptano (1:1)",
+   "note": "Esotermo a 147.32 °C fra i due endotermi: «its liquid-solid transition to a stable form, which melts at 174.79 °C and was similar to the earlier reported Form S». La forma stabile e' S per somiglianza con la forma S gia' riportata (e per lo stesso campione ottenuto dopo riscaldamento a 150 °C, evento E8); certezza media.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E6",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 174.79,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen purge, 50 ml per minute",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 174.79,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "sigillato",
+    "massa": "between 2-4 mg"
+   },
+   "citazioni": [
+    "DSC thermograms were obtained on Q20, TA Instruments-Waters LLC, USA.",
+    "A mass between 2-4 mg was taken into the aluminium pan, covered with lid and sealed. DSC curves were obtained under a nitrogen purge of 50 ml per minute at a heating rate of 10 °C per minute with the temperature range from 50-250 °C.",
+    "Recrystallization of Form H from ethyl acetate: heptane (1:1), showed interesting DSC pattern comprising of two endotherms at 129.57 °C and 174.79 °C, separated by an exotherm at 147.32 °C, (fig. 1(b)).",
+    "DSC pattern of Form S demonstrates the presence of two endothermic and one exothermic peak. This suggested the conversion of one solid form to another through the molten state. The first endotherm indicates melting of Form B followed by its liquid-solid transition to a stable form, which melts at 174.79 °C and was similar to the earlier reported Form S."
+   ],
+   "certezza": "media",
+   "da_evento": "E5",
+   "passo": "melting of the stable form",
+   "conflitto": "Discussione: «DSC pattern of Form S demonstrates the presence of two endothermic and one exothermic peak» (il DSC e' attribuito a Form S); Risultati: quel DSC con due endotermi (129.57 e 174.79 °C) e un esotermo (147.32 °C) e' del prodotto della ricristallizzazione di H da acetato di etile:eptano (1:1), e la discussione stessa dice che il primo endotermo e' la fusione di Form B. Si tiene la lettura B -> fuso -> forma stabile (S).",
+   "note": "Secondo endotermo a 174.79 °C: fusione della forma stabile formatasi dal fuso, «similar to the earlier reported Form S». La fusione della forma S pura e' a 172.36 °C (evento E7).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E7",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 172.36,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C per minute"
+    },
+    "atmosfera": "nitrogen purge, 50 ml per minute",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 103.5,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 172.36,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "crogiolo": "sigillato",
+    "massa": "between 2-4 mg"
+   },
+   "citazioni": [
+    "DSC thermograms were obtained on Q20, TA Instruments-Waters LLC, USA.",
+    "A mass between 2-4 mg was taken into the aluminium pan, covered with lid and sealed. DSC curves were obtained under a nitrogen purge of 50 ml per minute at a heating rate of 10 °C per minute with the temperature range from 50-250 °C.",
+    "The thermogram of pure Form S, obtained after heating up to 150 °C, showed a single sharp melting endotherm at 172.36 °C (enthalpy of fusion: 103.50 J/g) (fig. 1(b))."
+   ],
+   "certezza": "alta",
+   "da_evento": "E8",
+   "pretrattamento": "ottenuto per riscaldamento a 150 °C (30 min, azoto) del prodotto ricristallizzato",
+   "note": "Fusione di Form S pura («single sharp melting endotherm at 172.36 °C», DeltaH 103.50 J/g, scritto «103.50»): 172.36 contro 174.79 °C della forma stabile formatasi nel DSC dal fuso (E6).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E8",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 150,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 30,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Firstly, Form H was added to heptane (anti-solvent) followed by addition of ethyl acetate (solvent) in ratio 1:1, to solubilize it completely and kept for slow evaporation for 30 d.",
+    "Then the recrystallized product was heated up to 150 °C for 30 min under nitrogen and dried in a desiccator.",
+    "The thermogram of pure Form S, obtained after heating up to 150 °C, showed a single sharp melting endotherm at 172.36 °C (enthalpy of fusion: 103.50 J/g) (fig. 1(b)).",
+    "DSC pattern of Form S demonstrates the presence of two endothermic and one exothermic peak. This suggested the conversion of one solid form to another through the molten state. The first endotherm indicates melting of Form B followed by its liquid-solid transition to a stable form, which melts at 174.79 °C and was similar to the earlier reported Form S."
+   ],
+   "certezza": "media",
+   "pretrattamento": "prodotto di ricristallizzazione di Form H da eptano/acetato di etile 1:1 (evaporazione lenta, 30 d)",
+   "note": "Seconda fase della preparazione di S: il prodotto ricristallizzato e' scaldato a 150 °C per 30 min sotto azoto e dà S pura (DSC: fusione a 172.36 °C). La forma di partenza e' B perche' il DSC dello stesso ricristallizzato mostra la fusione di B seguita da quella della forma stabile: «conversion of one solid form to another through the molten state» (dal fuso). Il ricristallizzato e' identificato come B solo dal primo endotermo del suo DSC (discussione) e il testo non descrive il suo PXRD prima del riscaldamento: certezza media. «Heated up to 150 °C for 30 min»: 150 °C e' superiore alla fusione di B (129.57 °C) e inferiore a quella di S (172.36 °C).",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E9",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 6,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To monitor the stability of polymorphs of nateglinide accelerated stability were performed at 40 °C/75% RH for 6 mo. Samples were withdrawn after 0, 3 and 6 mo and were analyzed with the assistance of DSC and PXRD.",
+    "As the thermograms and diffraction patterns of aged samples were similar to that of initial samples, therefore, these samples are found to be stable even after 6 mo.",
+    "On the other hand, Form MS showed timemediated conversion to Form B after 6 mo. DSC and PXRD pattern of Form MS after 6 mo were found to be similar to that of the Form B, thereby, confirming its conversion to Form B."
+   ],
+   "certezza": "alta",
+   "note": "Prova di stabilita' accelerata a 40 °C/75% RH per 6 mesi: Form MS «showed timemediated conversion to Form B after 6 mo» (DSC e PXRD uguali a quelli di B). Il testo scrive «6 mo» (abbreviazione di mesi): l'unita' `month` e' la lettura di chi estrae e per questo il verificatore da' «quasi». Non dice quale sia il risultato del campione a 3 mesi per MS. Non e' un idrato: il prodotto B e' anidro (presunto); l'umidita' e la temperatura della camera non sono separate come leve.",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 6,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To monitor the stability of polymorphs of nateglinide accelerated stability were performed at 40 °C/75% RH for 6 mo. Samples were withdrawn after 0, 3 and 6 mo and were analyzed with the assistance of DSC and PXRD.",
+    "During the stability studies, a consistency in DSC and PXRD pattern of the form H, B and S were observed. The DSC and PXRD pattern of all these aged polymorphic forms were found to be same as that of initial samples.",
+    "As the thermograms and diffraction patterns of aged samples were similar to that of initial samples, therefore, these samples are found to be stable even after 6 mo."
+   ],
+   "certezza": "alta",
+   "note": "Prova di stabilita' accelerata (40 °C/75% RH, 6 mesi, controlli a 0, 3 e 6 mesi): Form H invariata in DSC e PXRD. Il testo scrive «6 mo» (abbreviazione di mesi): l'unita' `month` e' la lettura di chi estrae e per questo il verificatore da' «quasi».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 6,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To monitor the stability of polymorphs of nateglinide accelerated stability were performed at 40 °C/75% RH for 6 mo. Samples were withdrawn after 0, 3 and 6 mo and were analyzed with the assistance of DSC and PXRD.",
+    "During the stability studies, a consistency in DSC and PXRD pattern of the form H, B and S were observed. The DSC and PXRD pattern of all these aged polymorphic forms were found to be same as that of initial samples.",
+    "As the thermograms and diffraction patterns of aged samples were similar to that of initial samples, therefore, these samples are found to be stable even after 6 mo."
+   ],
+   "certezza": "alta",
+   "note": "Prova di stabilita' accelerata (40 °C/75% RH, 6 mesi, controlli a 0, 3 e 6 mesi): Form B invariata in DSC e PXRD. Il testo scrive «6 mo» (abbreviazione di mesi): l'unita' `month` e' la lettura di chi estrae e per questo il verificatore da' «quasi».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E12",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 6,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To monitor the stability of polymorphs of nateglinide accelerated stability were performed at 40 °C/75% RH for 6 mo. Samples were withdrawn after 0, 3 and 6 mo and were analyzed with the assistance of DSC and PXRD.",
+    "During the stability studies, a consistency in DSC and PXRD pattern of the form H, B and S were observed. The DSC and PXRD pattern of all these aged polymorphic forms were found to be same as that of initial samples.",
+    "As the thermograms and diffraction patterns of aged samples were similar to that of initial samples, therefore, these samples are found to be stable even after 6 mo."
+   ],
+   "certezza": "alta",
+   "note": "Prova di stabilita' accelerata (40 °C/75% RH, 6 mesi, controlli a 0, 3 e 6 mesi): Form S invariata in DSC e PXRD. Il testo scrive «6 mo» (abbreviazione di mesi): l'unita' `month` e' la lettura di chi estrae e per questo il verificatore da' «quasi».",
+   "fonte_dati": "propria",
+   "natura": "fisica"
+  },
+  {
+   "id": "E13",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 102,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Subsequently, publications by Bruni, et al. reported a new but unstable anhydrous polymorphic modification melting at 102 °C"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "Bruni et al. [11-13]",
+   "note": "Forma X di un altro lavoro: «melting at 102 °C», nessun dettaglio (tecnica, velocita', picco o inizio). Citato nell'introduzione.",
+   "natura": "fisica"
+  },
+  {
+   "id": "E14",
+   "da": "F5",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": null,
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "cinetica": "gradual"
+   },
+   "citazioni": [
+    "Subsequently, publications by Bruni, et al. reported a new but unstable anhydrous polymorphic modification melting at 102 °C",
+    "(form X), which gradually transformed to form H."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "Bruni et al. [11-13]",
+   "note": "Trasformazione X -> H «gradually transformed» riportata da un altro lavoro, senza alcuna condizione (T, umidita', tempo): via null come previsto per un evento citato senza condizioni.",
+   "natura": "fisica"
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "citazioni": [
+    "Nateglinide was obtained as a gift sample from Glenmark Pharmaceuticals Ltd. (Baddi, India).",
+    "Form B was obtained by dissolving Form H (marketed form) in hot ethyl acetate and was subjected to slow evaporation."
+   ],
+   "note": "Form H e' la forma commerciale («marketed form»): il nateglinide e' un campione dono della Glenmark Pharmaceuticals.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "citazioni": [
+    "Different polymorphic forms of nateglinide were precipitated out by slow evaporation of solvent-anti-solvent mixture.",
+    "Form B was obtained by dissolving Form H (marketed form) in hot ethyl acetate and was subjected to slow evaporation."
+   ],
+   "solventi": [
+    "ethyl acetate (hot)"
+   ],
+   "pretrattamento": "Form H disciolta in acetato di etile caldo",
+   "note": "Form B da Form H: dissoluzione in acetato di etile caldo ed evaporazione lenta. Temperatura del solvente caldo non scritta.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "antisolvente",
+   "citazioni": [
+    "Different polymorphic forms of nateglinide were precipitated out by slow evaporation of solvent-anti-solvent mixture.",
+    "Apart from this, the same polymorph, Form B was also generated on dissolving Form H in dioxane (solvent), followed by adding anti-solvent i.e. hexane, heptane and cyclohexane in 1:1 ratio, respectively."
+   ],
+   "solventi": [
+    "dioxane: hexane (1:1)"
+   ],
+   "solventi_alternativi": false,
+   "pretrattamento": "Form H disciolta in diossano",
+   "note": "Form B da Form H: dissoluzione in diossano (solvente) e aggiunta di antisolvente (esano, eptano e cicloesano, uno per prova, «respectively») nel rapporto 1:1; qui la prova con hexane. I Risultati confermano le prove «dioxane: heptane (1:1), dioxane: hexane (1:1), dioxane: cyclohexane (1:1)». Il testo dice che le forme precipitano per lenta evaporazione della miscela solvente-antisolvente.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "antisolvente",
+   "citazioni": [
+    "Different polymorphic forms of nateglinide were precipitated out by slow evaporation of solvent-anti-solvent mixture.",
+    "Apart from this, the same polymorph, Form B was also generated on dissolving Form H in dioxane (solvent), followed by adding anti-solvent i.e. hexane, heptane and cyclohexane in 1:1 ratio, respectively."
+   ],
+   "solventi": [
+    "dioxane: heptane (1:1)"
+   ],
+   "solventi_alternativi": false,
+   "pretrattamento": "Form H disciolta in diossano",
+   "note": "Form B da Form H: dissoluzione in diossano (solvente) e aggiunta di antisolvente (esano, eptano e cicloesano, uno per prova, «respectively») nel rapporto 1:1; qui la prova con heptane. I Risultati confermano le prove «dioxane: heptane (1:1), dioxane: hexane (1:1), dioxane: cyclohexane (1:1)». Il testo dice che le forme precipitano per lenta evaporazione della miscela solvente-antisolvente.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "antisolvente",
+   "citazioni": [
+    "Different polymorphic forms of nateglinide were precipitated out by slow evaporation of solvent-anti-solvent mixture.",
+    "Apart from this, the same polymorph, Form B was also generated on dissolving Form H in dioxane (solvent), followed by adding anti-solvent i.e. hexane, heptane and cyclohexane in 1:1 ratio, respectively."
+   ],
+   "solventi": [
+    "dioxane: cyclohexane (1:1)"
+   ],
+   "solventi_alternativi": false,
+   "pretrattamento": "Form H disciolta in diossano",
+   "note": "Form B da Form H: dissoluzione in diossano (solvente) e aggiunta di antisolvente (esano, eptano e cicloesano, uno per prova, «respectively») nel rapporto 1:1; qui la prova con cyclohexane. I Risultati confermano le prove «dioxane: heptane (1:1), dioxane: hexane (1:1), dioxane: cyclohexane (1:1)». Il testo dice che le forme precipitano per lenta evaporazione della miscela solvente-antisolvente.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "citazioni": [
+    "Different polymorphic forms of nateglinide were precipitated out by slow evaporation of solvent-anti-solvent mixture.",
+    "Slow evaporation of Form H from ethanol (solvent): hexane (anti-solvent) (1:3) produced Form MS.",
+    "A new polymorphically pure form (Form MS) has been isolated by recrystallization from ethanol: hexane (1:3)."
+   ],
+   "solventi": [
+    "ethanol: hexane (1:3)"
+   ],
+   "solventi_alternativi": false,
+   "pretrattamento": "Form H",
+   "note": "Form MS da Form H: evaporazione lenta da etanolo (solvente):esano (antisolvente) 1:3. Il rapporto 1:3 e' come scritto; il testo non dice se v/v.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "citazioni": [
+    "Firstly, Form H was added to heptane (anti-solvent) followed by addition of ethyl acetate (solvent) in ratio 1:1, to solubilize it completely and kept for slow evaporation for 30 d.",
+    "Recrystallization of Form H from ethyl acetate: heptane (1:1), showed interesting DSC pattern comprising of two endotherms at 129.57 °C and 174.79 °C, separated by an exotherm at 147.32 °C, (fig. 1(b)).",
+    "DSC pattern of Form S demonstrates the presence of two endothermic and one exothermic peak. This suggested the conversion of one solid form to another through the molten state. The first endotherm indicates melting of Form B followed by its liquid-solid transition to a stable form, which melts at 174.79 °C and was similar to the earlier reported Form S."
+   ],
+   "solventi": [
+    "heptane: ethyl acetate (1:1)"
+   ],
+   "solventi_alternativi": false,
+   "tempo": {
+    "valore": 30,
+    "unita": "day",
+    "tipo": "processo"
+   },
+   "pretrattamento": "Form H aggiunta a eptano (antisolvente) e poi acetato di etile (solvente), fino a dissoluzione completa",
+   "note": "Prima fase della preparazione di S: il prodotto ricristallizzato non e' caratterizzato nei metodi; dal DSC (E4) risulta contenere Form B (primo endotermo = fusione di B). Attribuito a F2 con questa riserva.",
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "da_evento",
+   "citazioni": [
+    "Then the recrystallized product was heated up to 150 °C for 30 min under nitrogen and dried in a desiccator.",
+    "The thermogram of pure Form S, obtained after heating up to 150 °C, showed a single sharp melting endotherm at 172.36 °C (enthalpy of fusion: 103.50 J/g) (fig. 1(b))."
+   ],
+   "da_evento": [
+    "E8"
+   ],
+   "note": "Form S pura per riscaldamento a 150 °C per 30 min sotto azoto del prodotto ricristallizzato (E8).",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi": []
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "poorly water-soluble"
+     },
+     "solvente": "water",
+     "citazione": "a poorly watersoluble oral hypoglycemic agent"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 89.7,
+      "unita": "mg/100 ml"
+     },
+     "forma": "F3",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "metodo": "solubilita' all'equilibrio: eccesso di farmaco (circa 5 mg) in 3 ml di tampone fosfato pH 7.4, bagno con agitazione a 37 °C per 24 h a 200 rpm, filtrazione 0.45 μm, UV a 200 nm (metodi)",
+     "citazione": "Equilibrium solubility and IDR of all the polymorphs were determined in phosphate buffer pH 7.4. The studies suggested that Form MS (89.7 mg/100 ml; 0.496 mg/min/cm2) and Form B (87.1 mg/100 ml; 0.479 mg/min/cm2) have high solubility and IDR whereas Form S (71.3 mg/100 ml; 0.263 mg/min/cm2) has low solubility and IDR, respectively, as compared to the drug (Form H, 86.5 mg/100 ml; 0.317 mg/min/cm2"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 87.1,
+      "unita": "mg/100 ml"
+     },
+     "forma": "F2",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "metodo": "solubilita' all'equilibrio: eccesso di farmaco (circa 5 mg) in 3 ml di tampone fosfato pH 7.4, bagno con agitazione a 37 °C per 24 h a 200 rpm, filtrazione 0.45 μm, UV a 200 nm (metodi)",
+     "citazione": "Equilibrium solubility and IDR of all the polymorphs were determined in phosphate buffer pH 7.4. The studies suggested that Form MS (89.7 mg/100 ml; 0.496 mg/min/cm2) and Form B (87.1 mg/100 ml; 0.479 mg/min/cm2) have high solubility and IDR whereas Form S (71.3 mg/100 ml; 0.263 mg/min/cm2) has low solubility and IDR, respectively, as compared to the drug (Form H, 86.5 mg/100 ml; 0.317 mg/min/cm2"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 86.5,
+      "unita": "mg/100 ml"
+     },
+     "forma": "F1",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "metodo": "solubilita' all'equilibrio: eccesso di farmaco (circa 5 mg) in 3 ml di tampone fosfato pH 7.4, bagno con agitazione a 37 °C per 24 h a 200 rpm, filtrazione 0.45 μm, UV a 200 nm (metodi)",
+     "citazione": "Equilibrium solubility and IDR of all the polymorphs were determined in phosphate buffer pH 7.4. The studies suggested that Form MS (89.7 mg/100 ml; 0.496 mg/min/cm2) and Form B (87.1 mg/100 ml; 0.479 mg/min/cm2) have high solubility and IDR whereas Form S (71.3 mg/100 ml; 0.263 mg/min/cm2) has low solubility and IDR, respectively, as compared to the drug (Form H, 86.5 mg/100 ml; 0.317 mg/min/cm2"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 71.3,
+      "unita": "mg/100 ml"
+     },
+     "forma": "F4",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "metodo": "solubilita' all'equilibrio: eccesso di farmaco (circa 5 mg) in 3 ml di tampone fosfato pH 7.4, bagno con agitazione a 37 °C per 24 h a 200 rpm, filtrazione 0.45 μm, UV a 200 nm (metodi)",
+     "citazione": "Equilibrium solubility and IDR of all the polymorphs were determined in phosphate buffer pH 7.4. The studies suggested that Form MS (89.7 mg/100 ml; 0.496 mg/min/cm2) and Form B (87.1 mg/100 ml; 0.479 mg/min/cm2) have high solubility and IDR whereas Form S (71.3 mg/100 ml; 0.263 mg/min/cm2) has low solubility and IDR, respectively, as compared to the drug (Form H, 86.5 mg/100 ml; 0.317 mg/min/cm2"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.496,
+      "unita": "mg/min/cm2"
+     },
+     "forma": "F3",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "metodo": "IDR: velocita' di dissoluzione intrinseca, apparecchio DS 8000, tampone fosfato pH 7.4 a 37 °C, 100 rpm per 3 h, UV a 200 nm (metodi)",
+     "citazione": "Equilibrium solubility and IDR of all the polymorphs were determined in phosphate buffer pH 7.4. The studies suggested that Form MS (89.7 mg/100 ml; 0.496 mg/min/cm2) and Form B (87.1 mg/100 ml; 0.479 mg/min/cm2) have high solubility and IDR whereas Form S (71.3 mg/100 ml; 0.263 mg/min/cm2) has low solubility and IDR, respectively, as compared to the drug (Form H, 86.5 mg/100 ml; 0.317 mg/min/cm2"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.479,
+      "unita": "mg/min/cm2"
+     },
+     "forma": "F2",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "metodo": "IDR: velocita' di dissoluzione intrinseca, apparecchio DS 8000, tampone fosfato pH 7.4 a 37 °C, 100 rpm per 3 h, UV a 200 nm (metodi)",
+     "citazione": "Equilibrium solubility and IDR of all the polymorphs were determined in phosphate buffer pH 7.4. The studies suggested that Form MS (89.7 mg/100 ml; 0.496 mg/min/cm2) and Form B (87.1 mg/100 ml; 0.479 mg/min/cm2) have high solubility and IDR whereas Form S (71.3 mg/100 ml; 0.263 mg/min/cm2) has low solubility and IDR, respectively, as compared to the drug (Form H, 86.5 mg/100 ml; 0.317 mg/min/cm2"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.317,
+      "unita": "mg/min/cm2"
+     },
+     "forma": "F1",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "metodo": "IDR: velocita' di dissoluzione intrinseca, apparecchio DS 8000, tampone fosfato pH 7.4 a 37 °C, 100 rpm per 3 h, UV a 200 nm (metodi)",
+     "citazione": "Equilibrium solubility and IDR of all the polymorphs were determined in phosphate buffer pH 7.4. The studies suggested that Form MS (89.7 mg/100 ml; 0.496 mg/min/cm2) and Form B (87.1 mg/100 ml; 0.479 mg/min/cm2) have high solubility and IDR whereas Form S (71.3 mg/100 ml; 0.263 mg/min/cm2) has low solubility and IDR, respectively, as compared to the drug (Form H, 86.5 mg/100 ml; 0.317 mg/min/cm2"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.263,
+      "unita": "mg/min/cm2"
+     },
+     "forma": "F4",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "metodo": "IDR: velocita' di dissoluzione intrinseca, apparecchio DS 8000, tampone fosfato pH 7.4 a 37 °C, 100 rpm per 3 h, UV a 200 nm (metodi)",
+     "citazione": "Equilibrium solubility and IDR of all the polymorphs were determined in phosphate buffer pH 7.4. The studies suggested that Form MS (89.7 mg/100 ml; 0.496 mg/min/cm2) and Form B (87.1 mg/100 ml; 0.479 mg/min/cm2) have high solubility and IDR whereas Form S (71.3 mg/100 ml; 0.263 mg/min/cm2) has low solubility and IDR, respectively, as compared to the drug (Form H, 86.5 mg/100 ml; 0.317 mg/min/cm2"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 1.2,
+      "unita": "kJ/mol"
+     },
+     "forma": "F3",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "temperatura": {
+      "valore": 37,
+      "unita": "°C"
+     },
+     "metodo": "entalpia molare di soluzione (DeltaHsol), endotermica, calorimetria isoperibolica di soluzione (ISC) modello 4300",
+     "citazione": "of polymorphs was determined in phosphate buffer pH 7.4 at 37 °C. All the polymorphs showed endothermic behaviour in phosphate buffer and the molar enthalpy of solution have been found to be of order: MS form (1.2 KJ/mol)<Form B (1.9 KJ/mol)<Form H (2.2 KJ/mol)<Form S (4.7 KJ/mol)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 1.9,
+      "unita": "kJ/mol"
+     },
+     "forma": "F2",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "temperatura": {
+      "valore": 37,
+      "unita": "°C"
+     },
+     "metodo": "entalpia molare di soluzione (DeltaHsol), endotermica, calorimetria isoperibolica di soluzione (ISC) modello 4300",
+     "citazione": "of polymorphs was determined in phosphate buffer pH 7.4 at 37 °C. All the polymorphs showed endothermic behaviour in phosphate buffer and the molar enthalpy of solution have been found to be of order: MS form (1.2 KJ/mol)<Form B (1.9 KJ/mol)<Form H (2.2 KJ/mol)<Form S (4.7 KJ/mol)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 2.2,
+      "unita": "kJ/mol"
+     },
+     "forma": "F1",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "temperatura": {
+      "valore": 37,
+      "unita": "°C"
+     },
+     "metodo": "entalpia molare di soluzione (DeltaHsol), endotermica, calorimetria isoperibolica di soluzione (ISC) modello 4300",
+     "citazione": "of polymorphs was determined in phosphate buffer pH 7.4 at 37 °C. All the polymorphs showed endothermic behaviour in phosphate buffer and the molar enthalpy of solution have been found to be of order: MS form (1.2 KJ/mol)<Form B (1.9 KJ/mol)<Form H (2.2 KJ/mol)<Form S (4.7 KJ/mol)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 4.7,
+      "unita": "kJ/mol"
+     },
+     "forma": "F4",
+     "solvente": "phosphate buffer",
+     "pH": {
+      "valore": 7.4,
+      "unita": null
+     },
+     "temperatura": {
+      "valore": 37,
+      "unita": "°C"
+     },
+     "metodo": "entalpia molare di soluzione (DeltaHsol), endotermica, calorimetria isoperibolica di soluzione (ISC) modello 4300",
+     "citazione": "of polymorphs was determined in phosphate buffer pH 7.4 at 37 °C. All the polymorphs showed endothermic behaviour in phosphate buffer and the molar enthalpy of solution have been found to be of order: MS form (1.2 KJ/mol)<Form B (1.9 KJ/mol)<Form H (2.2 KJ/mol)<Form S (4.7 KJ/mol)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "due forti donatori di legame H (NH e OH) e due forti accettori (C=O)",
+     "citazione": "The presence of two strong hydrogen bond donors (NH and OH) and two strong acceptors (C=O) are responsible for the existence of a variety of intermolecular hydrogen bonding pattern leading to different polymorphic modifications [7]."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "molecola a forma di L in Form B",
+     "citazione": "Nateglinide molecule is present in in L-shaped conformation forming two homomeric synthons."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "conformazioni importanti da calcoli ab initio e semiempirici di Jain et al. [17]; polimorfismo forse dalla dimerizzazione",
+     "citazione": "Besides this, Jain, et al. has performed ab initio calculations and semi-empirical calculation on this molecule, reporting few important conformations and concluded that polymorphism in nateglinide might have originated from the dimerization of the molecule [17]."
+    }
+   ]
+  }
+ ]
+}

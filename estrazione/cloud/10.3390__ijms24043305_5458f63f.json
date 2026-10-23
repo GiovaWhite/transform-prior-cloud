@@ -1,0 +1,3442 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/ijms24043305",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2232207-2232213"
+ ],
+ "note": "Sei NSAID (mefenamico, tolfenamico, ketoprofene, dexketoprofene, diclofenac, sulindac) con ciprofloxacina (CIP): sette fasi nuove (sei sali + il sale monoidrato CIP–MEF·H2O). Gli eventi sono: LAG miscela -> sale (7), disidratazione del monoidrato (stufa e TGA), sospensioni in acqua (24 h, 25 °C), prove di solubilita' a pH 1.2/6.8, invecchiamento accelerato a 40 °C e 75% RH per 2 mesi, fusioni (DSC) e stabilita' alla TGA. Cella, Z, CCDC per forma e la maggior parte dei dati di struttura stanno nel supplementare (Table S1, S2): non sono nel testo; i sette numeri CCDC 2232207-2232213 (le strutture descritte nel testo sono sette) non sono attribuiti alle forme. Ordine dei sali nel testo: CIP–MEF, CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–DIC, CIP–KET, CIP–DKT, ma il testo non attribuisce i CCDC per ordine. Difetti del testo: (1) «Unlike the other structures described in this section, there was formation of tetrameric units or stacked CIP columns» per CIP–SLD e' evidentemente privo di una negazione (la frase precedente dice «with the exception of CIP–SLD»): non usata per estrarre motivi. (2) «5 mol of DICNa (1.590 g)» e «0.5 mmol (16.56 mg)»: moli e masse non tornano (vedi preparazioni). (3) Table 2 intitolata «Ranking positions» ma le righe non seguono l'ordine dei valori di H_ex (vedi extra). (4) CIP–MEF·H2O: 1 H2O dalla struttura contro 0.43 H2O dalla TGA. Non sono eventi: l'attivita' antimicrobica e la solubilita' (misure su sali gia' esistenti).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "ciprofloxacin (CIP)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "mefenamic acid (MEF)",
+   "smiles": null
+  },
+  {
+   "id": "C3",
+   "nome": "tolfenamic acid (TLF)",
+   "smiles": null
+  },
+  {
+   "id": "C4",
+   "nome": "ketoprofen (KET)",
+   "smiles": null
+  },
+  {
+   "id": "C5",
+   "nome": "dexketoprofen (DKT)",
+   "smiles": null,
+   "analogo_di": "C4"
+  },
+  {
+   "id": "C6",
+   "nome": "diclofenac (DIC)",
+   "smiles": null
+  },
+  {
+   "id": "C7",
+   "nome": "sulindac (SLD)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "CIP",
+   "tipo": "non_specificato",
+   "composto": "C1",
+   "citazione": "All the APIs used in this work were obtained from a commercial TCI-Europe source and used as received.",
+   "note": "Reagente commerciale (TCI-Europe), forma cristallina non specificata."
+  },
+  {
+   "id": "F2",
+   "etichetta": "MEF",
+   "tipo": "non_specificato",
+   "composto": "C2",
+   "citazione": "All the APIs used in this work were obtained from a commercial TCI-Europe source and used as received.",
+   "note": "Reagente commerciale (TCI-Europe), forma cristallina non specificata."
+  },
+  {
+   "id": "F3",
+   "etichetta": "TLF",
+   "tipo": "non_specificato",
+   "composto": "C3",
+   "citazione": "All the APIs used in this work were obtained from a commercial TCI-Europe source and used as received.",
+   "note": "Reagente commerciale (TCI-Europe), forma cristallina non specificata."
+  },
+  {
+   "id": "F4",
+   "etichetta": "KET",
+   "tipo": "non_specificato",
+   "composto": "C4",
+   "citazione": "All the APIs used in this work were obtained from a commercial TCI-Europe source and used as received.",
+   "note": "Reagente commerciale (TCI-Europe), forma cristallina non specificata."
+  },
+  {
+   "id": "F5",
+   "etichetta": "DKT",
+   "tipo": "non_specificato",
+   "composto": "C5",
+   "citazione": "All the APIs used in this work were obtained from a commercial TCI-Europe source and used as received.",
+   "note": "Reagente commerciale (TCI-Europe), forma cristallina non specificata."
+  },
+  {
+   "id": "F6",
+   "etichetta": "DIC",
+   "tipo": "non_specificato",
+   "composto": "C6",
+   "etichette_alternative": [
+    "diclofenac acid",
+    "diclofenac acid form"
+   ],
+   "citazione": "Synthesis of diclofenac acid form: the diclofenac acid (DIC) form was obtained through the hydrolysis of sodium diclofenac (DICNa)",
+   "note": "Forma acida del diclofenac, ottenuta da DICNa (vedi preparazione); polvere policristallina la cui purezza e' controllata per PXRD. Il testo non da' ne' la struttura cristallina ne' il polimorfo del DIC."
+  },
+  {
+   "id": "F7",
+   "etichetta": "SLD",
+   "tipo": "non_specificato",
+   "composto": "C7",
+   "citazione": "All the APIs used in this work were obtained from a commercial TCI-Europe source and used as received.",
+   "note": "Reagente commerciale (TCI-Europe), forma cristallina non specificata."
+  },
+  {
+   "id": "F8",
+   "etichetta": "CIP–MEF",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichette_alternative": [
+    "anhydrous CIP–MEF salt",
+    "anhydrated form"
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "protonazione": "CIP protonato sull'anello piperazinico (cation), mefenamato (anion): trasferimento di protone dal gruppo acido dell'NSAID alla piperazina di CIP",
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+⋯−OOC synthon",
+     "chi": "protonated piperazine N of CIP and deprotonated carboxylate O of the NSAID",
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+    },
+    {
+     "motivo": "R4^4(12) (supramolecular tetrameric unit across inversion centers)",
+     "chi": "CIP and NSAID ions",
+     "citazione": "Thus, the formation of supramolecular tetrameric units across inversion centers, described with the graph set motif R44(12) [46,47] (Figures S6–S8), was observed as a general feature in all the salts, with the exception of CIP–SLD."
+    },
+    {
+     "motivo": "centrosymmetric tetrameric unit from two charge-assisted N+–H⋯O− hydrogen bonds",
+     "chi": "CIP and MEF ions",
+     "citazione": "Two charge-assisted N+–H⋯O− hydrogen bonds connected the CIP and MEF ions to form a centrosymmetric tetrameric unit (Figure S6)."
+    }
+   ],
+   "citazione": "CIP–MEF crystallized as a molecular salt in the triclinic system spacegroup P-1.",
+   "note": "Unita' asimmetrica: un catione CIP e un anione mefenamato. Cella, Z e CCDC non sono nel testo (Table S1, nel supplementare); i sette CCDC 2232207-2232213 non sono attribuiti alle forme."
+  },
+  {
+   "id": "F9",
+   "etichetta": "CIP–MEF·H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichette_alternative": [
+    "CIP–MEFH2O",
+    "monohydrated form of CIP–MEF",
+    "salt hydrate"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula",
+    "fonte_stechiometria": "cristallografica"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "protonazione": "CIP protonato sull'anello piperazinico (cation), mefenamato (anion)",
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+⋯−OOC synthon",
+     "chi": "protonated piperazine N of CIP and deprotonated carboxylate O of the NSAID",
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+    },
+    {
+     "motivo": "R4^4(12) (supramolecular tetrameric unit across inversion centers)",
+     "chi": "CIP and NSAID ions",
+     "citazione": "Thus, the formation of supramolecular tetrameric units across inversion centers, described with the graph set motif R44(12) [46,47] (Figures S6–S8), was observed as a general feature in all the salts, with the exception of CIP–SLD."
+    }
+   ],
+   "citazione": "CIP–MEF·H2O also crystallized in the triclinic system spacegroup P-1. The asymmetric unit of this crystal phase contained one CIP cation, a mefenamate anion, and one water molecule, resulting in a salt hydrate closely related to the anhydrous molecular salt previously described.",
+   "note": "Una molecola d'acqua per catione CIP e anione mefenamato nell'unita' asimmetrica (stechiometria cristallografica 1 per unita' formula). Dalla TGA gli autori deducono invece il rilascio di 0.43 molecole di H2O (vedi E9): stechiometria da TGA diversa da quella cristallografica; l'articolo non commenta la differenza. Canali infiniti lungo l'asse a che ospitano l'acqua, il 7.7% del volume di cella (dettagli nell'estrazione extra)."
+  },
+  {
+   "id": "F10",
+   "etichetta": "CIP–TLF",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "protonazione": "CIP protonato sull'anello piperazinico (cation), tolfenamato (anion)",
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+⋯−OOC synthon",
+     "chi": "protonated piperazine N of CIP and deprotonated carboxylate O of the NSAID",
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+    },
+    {
+     "motivo": "R4^4(12) (supramolecular tetrameric unit across inversion centers)",
+     "chi": "CIP and NSAID ions",
+     "citazione": "Thus, the formation of supramolecular tetrameric units across inversion centers, described with the graph set motif R44(12) [46,47] (Figures S6–S8), was observed as a general feature in all the salts, with the exception of CIP–SLD."
+    }
+   ],
+   "citazione": "CIP–TLF molecular salt crystallized in the triclinic system spacegroup P-1.",
+   "note": "Unita' asimmetrica: un catione CIP e un anione tolfenamato. Cella, Z e CCDC non sono nel testo."
+  },
+  {
+   "id": "F11",
+   "etichetta": "CIP–SLD",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "protonazione": "CIP protonato sull'anello piperazinico (cation), anione sulindac",
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+⋯−OOC synthon",
+     "chi": "protonated piperazine N of CIP and deprotonated carboxylate O of the NSAID",
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+    },
+    {
+     "motivo": "ribbon-like structure generated by H-bonds, CIP and SLD ions at both ends of the ribbon",
+     "chi": "CIP and SLD ions",
+     "citazione": "The association between CIP and SLD was maintained by H-bonds that generated a ribbon-like structure, with CIP and SLD ions placed at both ends of the ribbon structure (Figure 6a)."
+    }
+   ],
+   "citazione": "The CIP–SLD molecular salt crystallized in the monoclinic system spacegroup P21/n.",
+   "note": "Unita' asimmetrica: un catione CIP e un anione sulindac. Unica struttura senza le unita' tetrameriche R4^4(12) («with the exception of CIP–SLD»). Cristalli singoli ottenuti solo per sintesi idrotermale (la ricristallizzazione per evaporazione ha dato i componenti di partenza). Cella, Z e CCDC non sono nel testo."
+  },
+  {
+   "id": "F12",
+   "etichetta": "CIP–DIC",
+   "tipo": [
+    "sale",
+    "cocristallo"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 2
+    }
+   ],
+   "etichette_alternative": [
+    "CIP–DIC cocrystal salt",
+    "conjugate acid/base molecular ionic cocrystal"
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "protonazione": "catione CIP, anione diclofenac e una molecola neutra di acido diclofenac nell'unita' asimmetrica",
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+⋯−OOC synthon",
+     "chi": "protonated piperazine N of CIP and deprotonated carboxylate O of the NSAID",
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+    },
+    {
+     "motivo": "R4^4(12) (supramolecular tetrameric unit across inversion centers)",
+     "chi": "CIP and NSAID ions",
+     "citazione": "Thus, the formation of supramolecular tetrameric units across inversion centers, described with the graph set motif R44(12) [46,47] (Figures S6–S8), was observed as a general feature in all the salts, with the exception of CIP–SLD."
+    },
+    {
+     "motivo": "tetrameric structure with neutral DIC molecules H-bonded between DIC acid and DIC anion",
+     "chi": "DIC acid (neutral) and DIC anion",
+     "citazione": "A tetrameric structure was observed, with additional neutral DIC molecules associated through H-bonding interactions between the DIC acid and DIC anion (Figure S7)."
+    }
+   ],
+   "citazione": "CIP–DIC crystallized in the triclinic system spacegroup P-1 and comprised one CIP cation, a diclofenac anion, and a diclofenac acid neutral molecule in the asymmetric unit.",
+   "note": "Stechiometria 1:2 (CIP:DIC) dichiarata nella sezione antimicrobica («the 1:2 stoichiometry of this phase») e coerente con l'unita' asimmetrica (un CIP, un DIC anione, un DIC neutro). Gli autori la classificano come «conjugate acid/base molecular ionic cocrystal»: sale e cocristallo. Cella, Z e CCDC non sono nel testo."
+  },
+  {
+   "id": "F13",
+   "etichetta": "CIP–KET",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "protonazione": "CIP protonato sull'anello piperazinico (cation), anione ketoprofen",
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+⋯−OOC synthon",
+     "chi": "protonated piperazine N of CIP and deprotonated carboxylate O of the NSAID",
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+    },
+    {
+     "motivo": "R4^4(12) (supramolecular tetrameric unit across inversion centers)",
+     "chi": "CIP and NSAID ions",
+     "citazione": "Thus, the formation of supramolecular tetrameric units across inversion centers, described with the graph set motif R44(12) [46,47] (Figures S6–S8), was observed as a general feature in all the salts, with the exception of CIP–SLD."
+    }
+   ],
+   "citazione": "The asymmetric unit of CIP–KET contained one CIP cation and a ketoprofen anion.",
+   "note": "Il testo non dice sistema cristallino ne' gruppo spaziale di CIP–KET (stanno nella Table S1, supplementare): null. Cella, Z e CCDC non sono nel testo."
+  },
+  {
+   "id": "F14",
+   "etichetta": "CIP–DKT",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P1",
+   "protonazione": "CIP protonato sull'anello piperazinico (cation), anione dexketoprofen",
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+⋯−OOC synthon",
+     "chi": "protonated piperazine N of CIP and deprotonated carboxylate O of the NSAID",
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+    },
+    {
+     "motivo": "R4^4(12) (supramolecular tetrameric unit across inversion centers)",
+     "chi": "CIP and NSAID ions",
+     "citazione": "Thus, the formation of supramolecular tetrameric units across inversion centers, described with the graph set motif R44(12) [46,47] (Figures S6–S8), was observed as a general feature in all the salts, with the exception of CIP–SLD."
+    },
+    {
+     "motivo": "centrosymmetric tetrameric units from charge-assisted N+–H⋯O− hydrogen bonds",
+     "chi": "CIP and DKT ions",
+     "citazione": "Charge-assisted N+–H⋯O− hydrogen bonds connected the CIP and DKT ions to form centrosymmetric tetrameric units."
+    }
+   ],
+   "citazione": "CIP–DKT crystallized in the triclinic system spacegroup P1. The asymmetric unit comprised two crystallographically independent pairs of CIP cations and DKT anions.",
+   "note": "Gruppo spaziale «P1» tenuto come scritto: il DKT e' «the S(+) enantiomer of KET» (molecola chirale, enantiopura) e l'unita' asimmetrica comprende «two crystallographically independent pairs of CIP cations and DKT anions», per cui P1 e' compatibile e non si ricostruisce P-1. Tensione nel testo, riportata come scritta: per i sali in generale si parla di unita' tetrameriche «across inversion centers» e per CIP–DKT di «centrosymmetric tetrameric units», in un gruppo P1. Cella, Z e CCDC non sono nel testo."
+  },
+  {
+   "id": "F15",
+   "etichetta": "[miscela CIP + MEF 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F2"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+   "note": "Miscela fisica dei due reagenti commerciali macinata (LAG) con metanolo; rapporto stechiometrico 1:1 come scritto (CIP:MEF)."
+  },
+  {
+   "id": "F16",
+   "etichetta": "[miscela CIP + TLF 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F3"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+   "note": "Miscela fisica dei due reagenti commerciali macinata (LAG) con metanolo; rapporto stechiometrico 1:1 come scritto (CIP:TLF)."
+  },
+  {
+   "id": "F17",
+   "etichetta": "[miscela CIP + SLD 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F7"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+   "note": "Miscela fisica dei due reagenti commerciali macinata (LAG) con metanolo; rapporto stechiometrico 1:1 come scritto (CIP:SLD)."
+  },
+  {
+   "id": "F18",
+   "etichetta": "[miscela CIP + KET 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F4"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+   "note": "Miscela fisica dei due reagenti commerciali macinata (LAG) con metanolo; rapporto stechiometrico 1:1 come scritto (CIP:KET)."
+  },
+  {
+   "id": "F19",
+   "etichetta": "[miscela CIP + DKT 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F5"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+   "note": "Miscela fisica dei due reagenti commerciali macinata (LAG) con metanolo; rapporto stechiometrico 1:1 come scritto (CIP:DKT)."
+  },
+  {
+   "id": "F20",
+   "etichetta": "[miscela CIP + DIC 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F6"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+   "note": "Miscela fisica dei due reagenti commerciali macinata (LAG) con metanolo; rapporto stechiometrico 1:1 come scritto (CIP:DIC)."
+  },
+  {
+   "id": "F21",
+   "etichetta": "[miscela CIP + DIC 1:2]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F6"
+   ],
+   "proporzioni": "1:2",
+   "citazione": "LAG of CIP with DIC was repeated with a 1:2 stoichiometric mixture",
+   "note": "Miscela fisica dei due reagenti commerciali macinata (LAG) con metanolo; rapporto stechiometrico 1:2 come scritto (CIP:DIC)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F9",
+    "F8"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F8",
+   "condizioni": "in water (slurry, 25 °C, 24 h)",
+   "relazione_scritta": "transitions to thermodynamically more stable species in water",
+   "citazione": "It was observed that CIP–SLD and CIP–MEF·H2O demonstrated transitions to thermodynamically more stable species in water. For instance, CIP–SLD turned into an unknown phase, while CIP–MEF·H2O transformed into CIP–MEF.",
+   "fonte_dati": "propria",
+   "note": "Fra idrato e anidro la stabilita' dipende dall'attivita' dell'acqua: non e' mono/enantiotropia. Per CIP–SLD la specie piu' stabile in acqua e' una fase sconosciuta, quindi nessuna relazione di coppia."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F15",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "two stainless-steel balls, 7 mm diameter",
+     "liquido": "methanol, 50 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless-steel jar"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "50 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Mechanochemical synthesis was conducted via liquid-assisted grinding (LAG) in a Retsh MM2000 ball mill operating at 25 Hz frequency, using stainless-steel jars along with stainless-steel balls with diameters of 7 mm.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min.",
+    "Further crystal-structure determination proved that the product first obtained from the LAG of an equimolar mixture of CIP and MEF corresponded to a monohydrated form of CIP–MEF.",
+    "Simulated powder patterns were obtained for all the crystal phases from the corresponding crystal structures and compared with the experimental PXRD patterns. Good agreement between the experimental and the simulated powder patterns was observed, as shown in Figure S1, which confirmed the phase purity of the bulk product obtained from LAG.",
+    "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+    "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of the NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F9"
+    },
+    {
+     "gruppo": "piperazine ring of CIP",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F9"
+    },
+    {
+     "gruppo": "R2NH2+⋯−OOC synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule.",
+     "forma": "F9"
+    }
+   ],
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "LAG di CIP e MEF 1:1 con 50 µL di metanolo, 30 min: il prodotto «first obtained» e' il sale monoidrato (struttura determinata), poi disidratato in stufa (E8). Temperatura non detta. Masse nei metodi: CIP 0.2 mmol (66.27 mg), MEF 0.2 mmol (48.26 mg) per il sale anidro; per il monoidrato l'elenco dei metodi dice solo «the corresponding NSAID»."
+  },
+  {
+   "id": "E2",
+   "da": "F16",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "two stainless-steel balls, 7 mm diameter",
+     "liquido": "methanol, 50 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless-steel jar"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "50 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Mechanochemical synthesis was conducted via liquid-assisted grinding (LAG) in a Retsh MM2000 ball mill operating at 25 Hz frequency, using stainless-steel jars along with stainless-steel balls with diameters of 7 mm.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min.",
+    "Simulated powder patterns were obtained for all the crystal phases from the corresponding crystal structures and compared with the experimental PXRD patterns. Good agreement between the experimental and the simulated powder patterns was observed, as shown in Figure S1, which confirmed the phase purity of the bulk product obtained from LAG.",
+    "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+    "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of the NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F10"
+    },
+    {
+     "gruppo": "piperazine ring of CIP",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F10"
+    },
+    {
+     "gruppo": "R2NH2+⋯−OOC synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule.",
+     "forma": "F10"
+    }
+   ],
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "LAG di CIP e TLF 1:1 con 50 µL di metanolo, 30 min: nuova fase nel PXRD (confronto con i componenti). Il prodotto e' il sale indicato nell'elenco dei metodi («Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts»). Temperatura non detta. Le masse dei coformeri sono date solo per CIP (0.2 mmol, 66.27 mg); quella dell'NSAID non e' scritta per questo sale."
+  },
+  {
+   "id": "E3",
+   "da": "F17",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "two stainless-steel balls, 7 mm diameter",
+     "liquido": "methanol, 50 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless-steel jar"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "50 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Mechanochemical synthesis was conducted via liquid-assisted grinding (LAG) in a Retsh MM2000 ball mill operating at 25 Hz frequency, using stainless-steel jars along with stainless-steel balls with diameters of 7 mm.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min.",
+    "Simulated powder patterns were obtained for all the crystal phases from the corresponding crystal structures and compared with the experimental PXRD patterns. Good agreement between the experimental and the simulated powder patterns was observed, as shown in Figure S1, which confirmed the phase purity of the bulk product obtained from LAG.",
+    "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+    "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of the NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F11"
+    },
+    {
+     "gruppo": "piperazine ring of CIP",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F11"
+    },
+    {
+     "gruppo": "R2NH2+⋯−OOC synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule.",
+     "forma": "F11"
+    }
+   ],
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "LAG di CIP e SLD 1:1 con 50 µL di metanolo, 30 min: nuova fase nel PXRD (confronto con i componenti). Il prodotto e' il sale indicato nell'elenco dei metodi («Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts»). Temperatura non detta. Le masse dei coformeri sono date solo per CIP (0.2 mmol, 66.27 mg); quella dell'NSAID non e' scritta per questo sale. La ricristallizzazione di CIP–SLD per evaporazione dava i componenti di partenza (vedi preparazioni); i cristalli per SCXRD sono idrotermali."
+  },
+  {
+   "id": "E4",
+   "da": "F18",
+   "a": "F13",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "two stainless-steel balls, 7 mm diameter",
+     "liquido": "methanol, 50 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless-steel jar"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "50 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Mechanochemical synthesis was conducted via liquid-assisted grinding (LAG) in a Retsh MM2000 ball mill operating at 25 Hz frequency, using stainless-steel jars along with stainless-steel balls with diameters of 7 mm.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min.",
+    "Simulated powder patterns were obtained for all the crystal phases from the corresponding crystal structures and compared with the experimental PXRD patterns. Good agreement between the experimental and the simulated powder patterns was observed, as shown in Figure S1, which confirmed the phase purity of the bulk product obtained from LAG.",
+    "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+    "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of the NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F13"
+    },
+    {
+     "gruppo": "piperazine ring of CIP",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F13"
+    },
+    {
+     "gruppo": "R2NH2+⋯−OOC synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule.",
+     "forma": "F13"
+    }
+   ],
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "LAG di CIP e KET 1:1 con 50 µL di metanolo, 30 min: nuova fase nel PXRD (confronto con i componenti). Il prodotto e' il sale indicato nell'elenco dei metodi («Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts»). Temperatura non detta. Le masse dei coformeri sono date solo per CIP (0.2 mmol, 66.27 mg); quella dell'NSAID non e' scritta per questo sale."
+  },
+  {
+   "id": "E5",
+   "da": "F19",
+   "a": "F14",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "two stainless-steel balls, 7 mm diameter",
+     "liquido": "methanol, 50 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless-steel jar"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "50 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Mechanochemical synthesis was conducted via liquid-assisted grinding (LAG) in a Retsh MM2000 ball mill operating at 25 Hz frequency, using stainless-steel jars along with stainless-steel balls with diameters of 7 mm.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min.",
+    "Simulated powder patterns were obtained for all the crystal phases from the corresponding crystal structures and compared with the experimental PXRD patterns. Good agreement between the experimental and the simulated powder patterns was observed, as shown in Figure S1, which confirmed the phase purity of the bulk product obtained from LAG.",
+    "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+    "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of the NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F14"
+    },
+    {
+     "gruppo": "piperazine ring of CIP",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F14"
+    },
+    {
+     "gruppo": "R2NH2+⋯−OOC synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule.",
+     "forma": "F14"
+    }
+   ],
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "LAG di CIP e DKT 1:1 con 50 µL di metanolo, 30 min: nuova fase nel PXRD (confronto con i componenti). Il prodotto e' il sale indicato nell'elenco dei metodi («Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts»). Temperatura non detta. Le masse dei coformeri sono date solo per CIP (0.2 mmol, 66.27 mg); quella dell'NSAID non e' scritta per questo sale."
+  },
+  {
+   "id": "E6",
+   "da": "F20",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "two stainless-steel balls, 7 mm diameter",
+     "liquido": "methanol, 50 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless-steel jar"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "50 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Mechanochemical synthesis was conducted via liquid-assisted grinding (LAG) in a Retsh MM2000 ball mill operating at 25 Hz frequency, using stainless-steel jars along with stainless-steel balls with diameters of 7 mm.",
+    "It should be noted that the product of the 1:1 mixture of CIP and DIC resulted in the formation of a new phase with excess CIP, suggesting the formation of a new compound with different stoichiometry from the one initially proposed."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "prodotti_secondari": [
+    "F1"
+   ],
+   "campione": {
+    "tipo": "miscela"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of the NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F12"
+    },
+    {
+     "gruppo": "piperazine ring of CIP",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F12"
+    },
+    {
+     "gruppo": "R2NH2+⋯−OOC synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule.",
+     "forma": "F12"
+    }
+   ],
+   "note": "Con la miscela 1:1 il PXRD mostra una nuova fase con CIP in eccesso: CIP (F1) e' il reagente non convertito, messo in prodotti_secondari. Gli autori scrivono «suggesting the formation of a new compound with different stoichiometry from the one initially proposed» e ripetono la LAG con 1:2 (E7), che da' una fase pura: che la fase nuova del 1:1 sia la stessa CIP–DIC dell'1:2 e' implicito nella ripetizione ma non e' scritto con queste parole (certezza media). Il metanolo (50 µL) e i 30 min sono quelli del metodo generale di LAG; per la miscela 1:1 con DIC la parte sperimentale non ha un paragrafo proprio (c'e' solo quello 1:2)."
+  },
+  {
+   "id": "E7",
+   "da": "F21",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Retsh MM2000 ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 30,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "two stainless-steel balls, 7 mm diameter",
+     "liquido": "methanol, 50 µL",
+     "eta_uL_mg": null,
+     "testo": "stainless-steel jar"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "50 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "LAG of CIP with DIC was repeated with a 1:2 stoichiometric mixture, resulting in a pure phase with no additional peak compared to the parent components.",
+    "Synthesis of CIP–DIC cocrystal salt: a mixture of CIP (0.2 mmol, 66.27 mg) and DIC (0.4 mmol, 118.46 mg) was placed in a stainless-steel jar along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:2 stoichiometric ratio). The mixture was then milled for 30 min.",
+    "Mechanochemical synthesis was conducted via liquid-assisted grinding (LAG) in a Retsh MM2000 ball mill operating at 25 Hz frequency, using stainless-steel jars along with stainless-steel balls with diameters of 7 mm.",
+    "Simulated powder patterns were obtained for all the crystal phases from the corresponding crystal structures and compared with the experimental PXRD patterns. Good agreement between the experimental and the simulated powder patterns was observed, as shown in Figure S1, which confirmed the phase purity of the bulk product obtained from LAG.",
+    "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela",
+    "massa": "CIP (0.2 mmol, 66.27 mg) and DIC (0.4 mmol, 118.46 mg)"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "acid groups of the NSAIDs",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F12"
+    },
+    {
+     "gruppo": "piperazine ring of CIP",
+     "ruolo": "protonazione",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "SCXRD data confirmed the proton transfer from the acid groups of the NSAIDs to the piperazine ring of CIP.",
+     "forma": "F12"
+    },
+    {
+     "gruppo": "R2NH2+⋯−OOC synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "All the structures showed the expected R2NH2+⋯−OOC synthon, with the protonated piperazine nitrogen forming a single or a bifurcated H-bond with the deprotonated carboxylate oxygen of the NSAID molecule.",
+     "forma": "F12"
+    },
+    {
+     "gruppo": "DIC acid (neutral) and DIC anion",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F12",
+     "citazione": "A tetrameric structure was observed, with additional neutral DIC molecules associated through H-bonding interactions between the DIC acid and DIC anion (Figure S7)."
+    }
+   ],
+   "note": "LAG ripetuta con miscela 1:2 CIP:DIC: fase pura, senza picchi in piu' rispetto ai componenti di partenza."
+  },
+  {
+   "id": "E8",
+   "da": "F9",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 120,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "days",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "After heating this material in an oven at 120 °C for 2 days, a totally different PXRD pattern was observed, suggesting the dehydration of the hydrated salt. This was confirmed by subsequent structure determination using a suitable single crystal of the anhydrated form grown from a saturated acetone solution (Figure S2).",
+    "After 30 min of milling, the product was collected and heated at 120 °C for 2 days."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E1",
+   "note": "Disidratazione in stufa del monoidrato ottenuto dal LAG (E1): diffrattogramma «totally different». L'anidro CIP–MEF e' identificato dalla struttura di un cristallo singolo cresciuto da soluzione satura in acetone del prodotto di disidratazione (preparazione di F8), non direttamente sulla polvere della stufa. Riscaldamento «in an oven»: atmosfera e umidita' non dette."
+  },
+  {
+   "id": "E9",
+   "da": "F9",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 100,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 1.3272,
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "citazioni": [
+    "Furthermore, these results were consistent with the thermogravimetric analysis (TGA) of the salt hydrate, which revealed an initial mass loss below 100 °C (1.3272%) corresponding to the dehydration process, implying the release of 0.43 H2O molecules (Figure S10).",
+    "This latter finding was in good agreement with the crystal structure of CIP–MEF·H2O, which showed a channel hydrate from which H2O molecules could easily evacuate upon heating without altering crystallinity, resulting in the anhydrous salt.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "TGA del sale idrato: «initial mass loss below 100 °C (1.3272%) corresponding to the dehydration process, implying the release of 0.43 H2O molecules». Il prodotto non e' caratterizzato nella TGA: l'anidro CIP–MEF e' quello che gli autori indicano come risultato del riscaldamento («resulting in the anhydrous salt», E8). Perdita di 0.43 H2O per unita' contro 1 H2O della struttura (F9): valore TGA riportato come scritto, nessun commento degli autori. Il crogiolo e' «aluminum crucibles of 40 µL volume», chiuso o forato non detto."
+  },
+  {
+   "id": "E10",
+   "da": "F9",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "deionized water"
+     }
+    ],
+    "rapporto_solido_solvente": "Excess powder samples of each phase were added to 1 mL of water"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "For this purpose, excess amounts of the obtained molecular salts were stirred in deionized water at 25 °C and dissolved until saturation. Figure S9 shows the PXRD patterns for the resulting solid excess, filtered and air-dried, after dissolution (24 h of the slurry experiment).",
+    "Thermodynamic stability in aqueous solution was evaluated through slurry experiments.",
+    "Excess powder samples of each phase were added to 1 mL of water and stirred for 24 h in sealed vials.",
+    "It was observed that CIP–SLD and CIP–MEF·H2O demonstrated transitions to thermodynamically more stable species in water. For instance, CIP–SLD turned into an unknown phase, while CIP–MEF·H2O transformed into CIP–MEF.",
+    "CIP–MEF·H2O was converted into the anhydrous CIP–MEF salt in aqueous solution."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Sospensione in acqua a 25 °C: il solido in eccesso dopo 24 h e' CIP–MEF. Gli autori lo leggono come transizione verso una specie «thermodynamically more stable species in water» (relazione). 24 h = momento in cui si guarda il solido (tempo di tipo attesa)."
+  },
+  {
+   "id": "E11",
+   "da": "F11",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "deionized water"
+     }
+    ],
+    "rapporto_solido_solvente": "Excess powder samples of each phase were added to 1 mL of water"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "For this purpose, excess amounts of the obtained molecular salts were stirred in deionized water at 25 °C and dissolved until saturation. Figure S9 shows the PXRD patterns for the resulting solid excess, filtered and air-dried, after dissolution (24 h of the slurry experiment).",
+    "Thermodynamic stability in aqueous solution was evaluated through slurry experiments.",
+    "Excess powder samples of each phase were added to 1 mL of water and stirred for 24 h in sealed vials.",
+    "It was observed that CIP–SLD and CIP–MEF·H2O demonstrated transitions to thermodynamically more stable species in water. For instance, CIP–SLD turned into an unknown phase, while CIP–MEF·H2O transformed into CIP–MEF.",
+    "CIP–SLD transformed into an unknown phase"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "CIP–SLD in sospensione acquosa a 25 °C diventa «an unknown phase»: prodotto non identificato (a = ignota)."
+  },
+  {
+   "id": "E12",
+   "da": "F8",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "deionized water"
+     }
+    ],
+    "rapporto_solido_solvente": "Excess powder samples of each phase were added to 1 mL of water"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "For this purpose, excess amounts of the obtained molecular salts were stirred in deionized water at 25 °C and dissolved until saturation. Figure S9 shows the PXRD patterns for the resulting solid excess, filtered and air-dried, after dissolution (24 h of the slurry experiment).",
+    "Thermodynamic stability in aqueous solution was evaluated through slurry experiments.",
+    "Excess powder samples of each phase were added to 1 mL of water and stirred for 24 h in sealed vials.",
+    "Interestingly, the remaining salts (CIP–MEF, CIP–TLF, CIP–DIC, CIP–KET, and CIP–DKT) remained unaltered under the experimental conditions."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "CIP–MEF resta invariato in sospensione acquosa: una frase che elenca i cinque sali, un evento per sale (certezza media)."
+  },
+  {
+   "id": "E13",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "deionized water"
+     }
+    ],
+    "rapporto_solido_solvente": "Excess powder samples of each phase were added to 1 mL of water"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "For this purpose, excess amounts of the obtained molecular salts were stirred in deionized water at 25 °C and dissolved until saturation. Figure S9 shows the PXRD patterns for the resulting solid excess, filtered and air-dried, after dissolution (24 h of the slurry experiment).",
+    "Thermodynamic stability in aqueous solution was evaluated through slurry experiments.",
+    "Excess powder samples of each phase were added to 1 mL of water and stirred for 24 h in sealed vials.",
+    "Interestingly, the remaining salts (CIP–MEF, CIP–TLF, CIP–DIC, CIP–KET, and CIP–DKT) remained unaltered under the experimental conditions."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "CIP–TLF resta invariato in sospensione acquosa: una frase che elenca i cinque sali, un evento per sale (certezza media)."
+  },
+  {
+   "id": "E14",
+   "da": "F12",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "deionized water"
+     }
+    ],
+    "rapporto_solido_solvente": "Excess powder samples of each phase were added to 1 mL of water"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "For this purpose, excess amounts of the obtained molecular salts were stirred in deionized water at 25 °C and dissolved until saturation. Figure S9 shows the PXRD patterns for the resulting solid excess, filtered and air-dried, after dissolution (24 h of the slurry experiment).",
+    "Thermodynamic stability in aqueous solution was evaluated through slurry experiments.",
+    "Excess powder samples of each phase were added to 1 mL of water and stirred for 24 h in sealed vials.",
+    "Interestingly, the remaining salts (CIP–MEF, CIP–TLF, CIP–DIC, CIP–KET, and CIP–DKT) remained unaltered under the experimental conditions."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "CIP–DIC resta invariato in sospensione acquosa: una frase che elenca i cinque sali, un evento per sale (certezza media)."
+  },
+  {
+   "id": "E15",
+   "da": "F13",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "deionized water"
+     }
+    ],
+    "rapporto_solido_solvente": "Excess powder samples of each phase were added to 1 mL of water"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "For this purpose, excess amounts of the obtained molecular salts were stirred in deionized water at 25 °C and dissolved until saturation. Figure S9 shows the PXRD patterns for the resulting solid excess, filtered and air-dried, after dissolution (24 h of the slurry experiment).",
+    "Thermodynamic stability in aqueous solution was evaluated through slurry experiments.",
+    "Excess powder samples of each phase were added to 1 mL of water and stirred for 24 h in sealed vials.",
+    "Interestingly, the remaining salts (CIP–MEF, CIP–TLF, CIP–DIC, CIP–KET, and CIP–DKT) remained unaltered under the experimental conditions."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "CIP–KET resta invariato in sospensione acquosa: una frase che elenca i cinque sali, un evento per sale (certezza media)."
+  },
+  {
+   "id": "E16",
+   "da": "F14",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "deionized water"
+     }
+    ],
+    "rapporto_solido_solvente": "Excess powder samples of each phase were added to 1 mL of water"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "For this purpose, excess amounts of the obtained molecular salts were stirred in deionized water at 25 °C and dissolved until saturation. Figure S9 shows the PXRD patterns for the resulting solid excess, filtered and air-dried, after dissolution (24 h of the slurry experiment).",
+    "Thermodynamic stability in aqueous solution was evaluated through slurry experiments.",
+    "Excess powder samples of each phase were added to 1 mL of water and stirred for 24 h in sealed vials.",
+    "Interestingly, the remaining salts (CIP–MEF, CIP–TLF, CIP–DIC, CIP–KET, and CIP–DKT) remained unaltered under the experimental conditions."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "CIP–DKT resta invariato in sospensione acquosa: una frase che elenca i cinque sali, un evento per sale (certezza media)."
+  },
+  {
+   "id": "E17",
+   "da": "F8",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": null,
+     "valori": [
+      1.2,
+      6.8
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "hydrochloric buffer"
+     },
+     {
+      "nome": "PBS buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Unfortunately, the CIP–SLD and CIP–MEF·H2O phases were unsuitable for solubility studies since, as already mentioned, CIP–SLD transformed into an unknown phase and CIP–MEF·H2O was converted into the anhydrous CIP–MEF salt in aqueous solution. Therefore, only the solubilities of the remaining molecular salts were determined using HPLC analysis, with the results being presented in Table 3.",
+    "Solubility studies were carried out only at physiological pH values and those pharmaceutically relevant for oral administration; i.e., pH 1.2 and 6.8 for gastric and intestinal environments, respectively.",
+    "None of the investigated molecular salts underwent a solution-mediated transformation during the study.",
+    "The congruent solubility of the salts was confirmed by analyzing the solid phase recovered after the experiment with PXRD.",
+    "Nonetheless, the fact that all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2 qualitatively confirmed the solubility enhancement of the NSAIDs when formulated as multicomponent pharmaceutical solids.",
+    "A saturated solution of each molecular salt was prepared by adding the solid excess of each phase to water solutions at pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer) and stirring for 24 h at 25 °C in a water bath until thermodynamic equilibrium was reached."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "solventi_alternativi": true,
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Esperimento di solubilita' di CIP–MEF a pH 1.2 (tampone cloridrico) e pH 6.8 (tampone PBS), 24 h a 25 °C: «None of the investigated molecular salts underwent a solution-mediated transformation» e il solido recuperato e' controllato per PXRD. Sali studiati = quelli «remaining» dopo l'esclusione di CIP–SLD e CIP–MEF·H2O. Due valori di pH provati in parallelo (un evento con valori [1.2, 6.8]): nei metodi «pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer)». A pH 1.2 l'integrita' dei sali e' detta esplicitamente («all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2»)."
+  },
+  {
+   "id": "E18",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": null,
+     "valori": [
+      1.2,
+      6.8
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "hydrochloric buffer"
+     },
+     {
+      "nome": "PBS buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Unfortunately, the CIP–SLD and CIP–MEF·H2O phases were unsuitable for solubility studies since, as already mentioned, CIP–SLD transformed into an unknown phase and CIP–MEF·H2O was converted into the anhydrous CIP–MEF salt in aqueous solution. Therefore, only the solubilities of the remaining molecular salts were determined using HPLC analysis, with the results being presented in Table 3.",
+    "Solubility studies were carried out only at physiological pH values and those pharmaceutically relevant for oral administration; i.e., pH 1.2 and 6.8 for gastric and intestinal environments, respectively.",
+    "None of the investigated molecular salts underwent a solution-mediated transformation during the study.",
+    "The congruent solubility of the salts was confirmed by analyzing the solid phase recovered after the experiment with PXRD.",
+    "Nonetheless, the fact that all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2 qualitatively confirmed the solubility enhancement of the NSAIDs when formulated as multicomponent pharmaceutical solids.",
+    "A saturated solution of each molecular salt was prepared by adding the solid excess of each phase to water solutions at pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer) and stirring for 24 h at 25 °C in a water bath until thermodynamic equilibrium was reached."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "solventi_alternativi": true,
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Esperimento di solubilita' di CIP–TLF a pH 1.2 (tampone cloridrico) e pH 6.8 (tampone PBS), 24 h a 25 °C: «None of the investigated molecular salts underwent a solution-mediated transformation» e il solido recuperato e' controllato per PXRD. Sali studiati = quelli «remaining» dopo l'esclusione di CIP–SLD e CIP–MEF·H2O. Due valori di pH provati in parallelo (un evento con valori [1.2, 6.8]): nei metodi «pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer)». A pH 1.2 l'integrita' dei sali e' detta esplicitamente («all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2»)."
+  },
+  {
+   "id": "E19",
+   "da": "F12",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": null,
+     "valori": [
+      1.2,
+      6.8
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "hydrochloric buffer"
+     },
+     {
+      "nome": "PBS buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Unfortunately, the CIP–SLD and CIP–MEF·H2O phases were unsuitable for solubility studies since, as already mentioned, CIP–SLD transformed into an unknown phase and CIP–MEF·H2O was converted into the anhydrous CIP–MEF salt in aqueous solution. Therefore, only the solubilities of the remaining molecular salts were determined using HPLC analysis, with the results being presented in Table 3.",
+    "Solubility studies were carried out only at physiological pH values and those pharmaceutically relevant for oral administration; i.e., pH 1.2 and 6.8 for gastric and intestinal environments, respectively.",
+    "None of the investigated molecular salts underwent a solution-mediated transformation during the study.",
+    "The congruent solubility of the salts was confirmed by analyzing the solid phase recovered after the experiment with PXRD.",
+    "Nonetheless, the fact that all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2 qualitatively confirmed the solubility enhancement of the NSAIDs when formulated as multicomponent pharmaceutical solids.",
+    "A saturated solution of each molecular salt was prepared by adding the solid excess of each phase to water solutions at pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer) and stirring for 24 h at 25 °C in a water bath until thermodynamic equilibrium was reached."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "solventi_alternativi": true,
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Esperimento di solubilita' di CIP–DIC a pH 1.2 (tampone cloridrico) e pH 6.8 (tampone PBS), 24 h a 25 °C: «None of the investigated molecular salts underwent a solution-mediated transformation» e il solido recuperato e' controllato per PXRD. Sali studiati = quelli «remaining» dopo l'esclusione di CIP–SLD e CIP–MEF·H2O. Due valori di pH provati in parallelo (un evento con valori [1.2, 6.8]): nei metodi «pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer)». A pH 1.2 l'integrita' dei sali e' detta esplicitamente («all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2»)."
+  },
+  {
+   "id": "E20",
+   "da": "F13",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": null,
+     "valori": [
+      1.2,
+      6.8
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "hydrochloric buffer"
+     },
+     {
+      "nome": "PBS buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Unfortunately, the CIP–SLD and CIP–MEF·H2O phases were unsuitable for solubility studies since, as already mentioned, CIP–SLD transformed into an unknown phase and CIP–MEF·H2O was converted into the anhydrous CIP–MEF salt in aqueous solution. Therefore, only the solubilities of the remaining molecular salts were determined using HPLC analysis, with the results being presented in Table 3.",
+    "Solubility studies were carried out only at physiological pH values and those pharmaceutically relevant for oral administration; i.e., pH 1.2 and 6.8 for gastric and intestinal environments, respectively.",
+    "None of the investigated molecular salts underwent a solution-mediated transformation during the study.",
+    "The congruent solubility of the salts was confirmed by analyzing the solid phase recovered after the experiment with PXRD.",
+    "Nonetheless, the fact that all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2 qualitatively confirmed the solubility enhancement of the NSAIDs when formulated as multicomponent pharmaceutical solids.",
+    "A saturated solution of each molecular salt was prepared by adding the solid excess of each phase to water solutions at pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer) and stirring for 24 h at 25 °C in a water bath until thermodynamic equilibrium was reached."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "solventi_alternativi": true,
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Esperimento di solubilita' di CIP–KET a pH 1.2 (tampone cloridrico) e pH 6.8 (tampone PBS), 24 h a 25 °C: «None of the investigated molecular salts underwent a solution-mediated transformation» e il solido recuperato e' controllato per PXRD. Sali studiati = quelli «remaining» dopo l'esclusione di CIP–SLD e CIP–MEF·H2O. Due valori di pH provati in parallelo (un evento con valori [1.2, 6.8]): nei metodi «pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer)». A pH 1.2 l'integrita' dei sali e' detta esplicitamente («all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2»)."
+  },
+  {
+   "id": "E21",
+   "da": "F14",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "pH": {
+     "valore": null,
+     "valori": [
+      1.2,
+      6.8
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "hydrochloric buffer"
+     },
+     {
+      "nome": "PBS buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Unfortunately, the CIP–SLD and CIP–MEF·H2O phases were unsuitable for solubility studies since, as already mentioned, CIP–SLD transformed into an unknown phase and CIP–MEF·H2O was converted into the anhydrous CIP–MEF salt in aqueous solution. Therefore, only the solubilities of the remaining molecular salts were determined using HPLC analysis, with the results being presented in Table 3.",
+    "Solubility studies were carried out only at physiological pH values and those pharmaceutically relevant for oral administration; i.e., pH 1.2 and 6.8 for gastric and intestinal environments, respectively.",
+    "None of the investigated molecular salts underwent a solution-mediated transformation during the study.",
+    "The congruent solubility of the salts was confirmed by analyzing the solid phase recovered after the experiment with PXRD.",
+    "Nonetheless, the fact that all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2 qualitatively confirmed the solubility enhancement of the NSAIDs when formulated as multicomponent pharmaceutical solids.",
+    "A saturated solution of each molecular salt was prepared by adding the solid excess of each phase to water solutions at pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer) and stirring for 24 h at 25 °C in a water bath until thermodynamic equilibrium was reached."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "solventi_alternativi": true,
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Esperimento di solubilita' di CIP–DKT a pH 1.2 (tampone cloridrico) e pH 6.8 (tampone PBS), 24 h a 25 °C: «None of the investigated molecular salts underwent a solution-mediated transformation» e il solido recuperato e' controllato per PXRD. Sali studiati = quelli «remaining» dopo l'esclusione di CIP–SLD e CIP–MEF·H2O. Due valori di pH provati in parallelo (un evento con valori [1.2, 6.8]): nei metodi «pH 1.2 (hydrochloric buffer) and pH 6.8 (PBS buffer)». A pH 1.2 l'integrita' dei sali e' detta esplicitamente («all novel CIP–NSAID molecular salts maintained their integrity at pH 1.2»)."
+  },
+  {
+   "id": "E22",
+   "da": "F8",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "months",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Experiments under accelerated ageing conditions were performed at 40 °C and 75% relative humidity (RH) for 2 months in order to evaluate possible transformations of the reported molecular salts into other solid phases—i.e., hydrates and polymorphs—upon exposure to the employed RH and temperature.",
+    "Under these conditions, no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids under ageing conditions.",
+    "Likewise, thermodynamic stability was evaluated under accelerated ageing conditions: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity in a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). The integrity of the solid forms under the above accelerated ageing conditions was periodically monitored using PXRD for two months."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "massa": "200 mg"
+   },
+   "note": "Invecchiamento accelerato di CIP–MEF a 40 °C e 75% RH per 2 mesi, PXRD periodico: «no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids». La frase non elenca i sali: vale per «the novel NSAID–CIP solids» / «the reported molecular salts» (qui lette come le sette fasi cristalline nuove: sei sali e il monoidrato); il risultato per il solo CIP, incluso nell'esperimento, non e' dato separatamente e non e' estratto."
+  },
+  {
+   "id": "E23",
+   "da": "F9",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "months",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Experiments under accelerated ageing conditions were performed at 40 °C and 75% relative humidity (RH) for 2 months in order to evaluate possible transformations of the reported molecular salts into other solid phases—i.e., hydrates and polymorphs—upon exposure to the employed RH and temperature.",
+    "Under these conditions, no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids under ageing conditions.",
+    "Likewise, thermodynamic stability was evaluated under accelerated ageing conditions: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity in a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). The integrity of the solid forms under the above accelerated ageing conditions was periodically monitored using PXRD for two months."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "massa": "200 mg"
+   },
+   "note": "Invecchiamento accelerato di CIP–MEF·H2O a 40 °C e 75% RH per 2 mesi, PXRD periodico: «no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids». La frase non elenca i sali: vale per «the novel NSAID–CIP solids» / «the reported molecular salts» (qui lette come le sette fasi cristalline nuove: sei sali e il monoidrato); il risultato per il solo CIP, incluso nell'esperimento, non e' dato separatamente e non e' estratto."
+  },
+  {
+   "id": "E24",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "months",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Experiments under accelerated ageing conditions were performed at 40 °C and 75% relative humidity (RH) for 2 months in order to evaluate possible transformations of the reported molecular salts into other solid phases—i.e., hydrates and polymorphs—upon exposure to the employed RH and temperature.",
+    "Under these conditions, no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids under ageing conditions.",
+    "Likewise, thermodynamic stability was evaluated under accelerated ageing conditions: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity in a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). The integrity of the solid forms under the above accelerated ageing conditions was periodically monitored using PXRD for two months."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "massa": "200 mg"
+   },
+   "note": "Invecchiamento accelerato di CIP–TLF a 40 °C e 75% RH per 2 mesi, PXRD periodico: «no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids». La frase non elenca i sali: vale per «the novel NSAID–CIP solids» / «the reported molecular salts» (qui lette come le sette fasi cristalline nuove: sei sali e il monoidrato); il risultato per il solo CIP, incluso nell'esperimento, non e' dato separatamente e non e' estratto."
+  },
+  {
+   "id": "E25",
+   "da": "F11",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "months",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Experiments under accelerated ageing conditions were performed at 40 °C and 75% relative humidity (RH) for 2 months in order to evaluate possible transformations of the reported molecular salts into other solid phases—i.e., hydrates and polymorphs—upon exposure to the employed RH and temperature.",
+    "Under these conditions, no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids under ageing conditions.",
+    "Likewise, thermodynamic stability was evaluated under accelerated ageing conditions: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity in a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). The integrity of the solid forms under the above accelerated ageing conditions was periodically monitored using PXRD for two months."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "massa": "200 mg"
+   },
+   "note": "Invecchiamento accelerato di CIP–SLD a 40 °C e 75% RH per 2 mesi, PXRD periodico: «no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids». La frase non elenca i sali: vale per «the novel NSAID–CIP solids» / «the reported molecular salts» (qui lette come le sette fasi cristalline nuove: sei sali e il monoidrato); il risultato per il solo CIP, incluso nell'esperimento, non e' dato separatamente e non e' estratto."
+  },
+  {
+   "id": "E26",
+   "da": "F12",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "months",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Experiments under accelerated ageing conditions were performed at 40 °C and 75% relative humidity (RH) for 2 months in order to evaluate possible transformations of the reported molecular salts into other solid phases—i.e., hydrates and polymorphs—upon exposure to the employed RH and temperature.",
+    "Under these conditions, no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids under ageing conditions.",
+    "Likewise, thermodynamic stability was evaluated under accelerated ageing conditions: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity in a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). The integrity of the solid forms under the above accelerated ageing conditions was periodically monitored using PXRD for two months."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "massa": "200 mg"
+   },
+   "note": "Invecchiamento accelerato di CIP–DIC a 40 °C e 75% RH per 2 mesi, PXRD periodico: «no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids». La frase non elenca i sali: vale per «the novel NSAID–CIP solids» / «the reported molecular salts» (qui lette come le sette fasi cristalline nuove: sei sali e il monoidrato); il risultato per il solo CIP, incluso nell'esperimento, non e' dato separatamente e non e' estratto."
+  },
+  {
+   "id": "E27",
+   "da": "F13",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "months",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Experiments under accelerated ageing conditions were performed at 40 °C and 75% relative humidity (RH) for 2 months in order to evaluate possible transformations of the reported molecular salts into other solid phases—i.e., hydrates and polymorphs—upon exposure to the employed RH and temperature.",
+    "Under these conditions, no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids under ageing conditions.",
+    "Likewise, thermodynamic stability was evaluated under accelerated ageing conditions: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity in a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). The integrity of the solid forms under the above accelerated ageing conditions was periodically monitored using PXRD for two months."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "massa": "200 mg"
+   },
+   "note": "Invecchiamento accelerato di CIP–KET a 40 °C e 75% RH per 2 mesi, PXRD periodico: «no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids». La frase non elenca i sali: vale per «the novel NSAID–CIP solids» / «the reported molecular salts» (qui lette come le sette fasi cristalline nuove: sei sali e il monoidrato); il risultato per il solo CIP, incluso nell'esperimento, non e' dato separatamente e non e' estratto."
+  },
+  {
+   "id": "E28",
+   "da": "F14",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "months",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Experiments under accelerated ageing conditions were performed at 40 °C and 75% relative humidity (RH) for 2 months in order to evaluate possible transformations of the reported molecular salts into other solid phases—i.e., hydrates and polymorphs—upon exposure to the employed RH and temperature.",
+    "Under these conditions, no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids under ageing conditions.",
+    "Likewise, thermodynamic stability was evaluated under accelerated ageing conditions: 200 mg of solid was placed in watch glasses and left at 40 °C in 75% relative humidity in a Memmert HPP110 climate chamber (Memmert, Schwabach, Germany). The integrity of the solid forms under the above accelerated ageing conditions was periodically monitored using PXRD for two months."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "massa": "200 mg"
+   },
+   "note": "Invecchiamento accelerato di CIP–DKT a 40 °C e 75% RH per 2 mesi, PXRD periodico: «no changes were observed, thus confirming the integrity of the novel NSAID–CIP solids». La frase non elenca i sali: vale per «the novel NSAID–CIP solids» / «the reported molecular salts» (qui lette come le sette fasi cristalline nuove: sei sali e il monoidrato); il risultato per il solo CIP, incluso nell'esperimento, non e' dato separatamente e non e' estratto."
+  },
+  {
+   "id": "E29",
+   "da": "F8",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 246,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Each DSC trace shows one single endothermic event ascribable to the melting point of the sample",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione di CIP–MEF dalla DSC: «one single endothermic event ascribable to the melting point of the sample». Il tipo di temperatura (inizio o picco) non e' detto. Non sono descritte altre transizioni prima della fusione. Crogiolo di alluminio da 40 µL, chiuso o forato non detto."
+  },
+  {
+   "id": "E30",
+   "da": "F10",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 230,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Each DSC trace shows one single endothermic event ascribable to the melting point of the sample",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione di CIP–TLF dalla DSC: «one single endothermic event ascribable to the melting point of the sample». Il tipo di temperatura (inizio o picco) non e' detto. Non sono descritte altre transizioni prima della fusione. Crogiolo di alluminio da 40 µL, chiuso o forato non detto."
+  },
+  {
+   "id": "E31",
+   "da": "F11",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 226,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Each DSC trace shows one single endothermic event ascribable to the melting point of the sample",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione di CIP–SLD dalla DSC: «one single endothermic event ascribable to the melting point of the sample». Il tipo di temperatura (inizio o picco) non e' detto. Non sono descritte altre transizioni prima della fusione. Crogiolo di alluminio da 40 µL, chiuso o forato non detto."
+  },
+  {
+   "id": "E32",
+   "da": "F12",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 214,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Each DSC trace shows one single endothermic event ascribable to the melting point of the sample",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione di CIP–DIC dalla DSC: «one single endothermic event ascribable to the melting point of the sample». Il tipo di temperatura (inizio o picco) non e' detto. Non sono descritte altre transizioni prima della fusione. Crogiolo di alluminio da 40 µL, chiuso o forato non detto."
+  },
+  {
+   "id": "E33",
+   "da": "F13",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 191,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Each DSC trace shows one single endothermic event ascribable to the melting point of the sample",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione di CIP–KET dalla DSC: «one single endothermic event ascribable to the melting point of the sample». Il tipo di temperatura (inizio o picco) non e' detto. Non sono descritte altre transizioni prima della fusione. Crogiolo di alluminio da 40 µL, chiuso o forato non detto."
+  },
+  {
+   "id": "E34",
+   "da": "F14",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 184,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Each DSC trace shows one single endothermic event ascribable to the melting point of the sample",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione di CIP–DKT dalla DSC: «one single endothermic event ascribable to the melting point of the sample». Il tipo di temperatura (inizio o picco) non e' detto. Non sono descritte altre transizioni prima della fusione. Crogiolo di alluminio da 40 µL, chiuso o forato non detto."
+  },
+  {
+   "id": "E35",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 256,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The melting points of the components decreased in the order: CIP > MEF > TLF > SLD > DIC > KET > DKT (CIP: 256 °C, MEF: 230 °C, TLF: 207 °C, SLD: 183 °C, DIC: 156–158 °C, KET: 94 °C and DKT: 75 °C)."
+   ],
+   "certezza": "media",
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del componente CIP nell'elenco «The melting points of the components decreased in the order». Il testo non dice se i valori siano misurati qui o presi dalla letteratura; nella didascalia della Figure 9 il punto di fusione di CIP e' attribuito al rif. [51] («the melting point of the CIP drug [51]»). Tecnica e velocita' non dette: fonte_dati lasciata null."
+  },
+  {
+   "id": "E36",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 230,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The melting points of the components decreased in the order: CIP > MEF > TLF > SLD > DIC > KET > DKT (CIP: 256 °C, MEF: 230 °C, TLF: 207 °C, SLD: 183 °C, DIC: 156–158 °C, KET: 94 °C and DKT: 75 °C)."
+   ],
+   "certezza": "media",
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del componente MEF nell'elenco «The melting points of the components decreased in the order». Il testo non dice se i valori siano misurati qui o presi dalla letteratura; nella didascalia della Figure 9 il punto di fusione di CIP e' attribuito al rif. [51] («the melting point of the CIP drug [51]»). Tecnica e velocita' non dette: fonte_dati lasciata null."
+  },
+  {
+   "id": "E37",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 207,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The melting points of the components decreased in the order: CIP > MEF > TLF > SLD > DIC > KET > DKT (CIP: 256 °C, MEF: 230 °C, TLF: 207 °C, SLD: 183 °C, DIC: 156–158 °C, KET: 94 °C and DKT: 75 °C)."
+   ],
+   "certezza": "media",
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del componente TLF nell'elenco «The melting points of the components decreased in the order». Il testo non dice se i valori siano misurati qui o presi dalla letteratura; nella didascalia della Figure 9 il punto di fusione di CIP e' attribuito al rif. [51] («the melting point of the CIP drug [51]»). Tecnica e velocita' non dette: fonte_dati lasciata null."
+  },
+  {
+   "id": "E38",
+   "da": "F7",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 183,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The melting points of the components decreased in the order: CIP > MEF > TLF > SLD > DIC > KET > DKT (CIP: 256 °C, MEF: 230 °C, TLF: 207 °C, SLD: 183 °C, DIC: 156–158 °C, KET: 94 °C and DKT: 75 °C)."
+   ],
+   "certezza": "media",
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del componente SLD nell'elenco «The melting points of the components decreased in the order». Il testo non dice se i valori siano misurati qui o presi dalla letteratura; nella didascalia della Figure 9 il punto di fusione di CIP e' attribuito al rif. [51] («the melting point of the CIP drug [51]»). Tecnica e velocita' non dette: fonte_dati lasciata null."
+  },
+  {
+   "id": "E39",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 156,
+     "max": 158,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The melting points of the components decreased in the order: CIP > MEF > TLF > SLD > DIC > KET > DKT (CIP: 256 °C, MEF: 230 °C, TLF: 207 °C, SLD: 183 °C, DIC: 156–158 °C, KET: 94 °C and DKT: 75 °C)."
+   ],
+   "certezza": "media",
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del componente DIC nell'elenco «The melting points of the components decreased in the order». Il testo non dice se i valori siano misurati qui o presi dalla letteratura; nella didascalia della Figure 9 il punto di fusione di CIP e' attribuito al rif. [51] («the melting point of the CIP drug [51]»). Tecnica e velocita' non dette: fonte_dati lasciata null."
+  },
+  {
+   "id": "E40",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 94,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The melting points of the components decreased in the order: CIP > MEF > TLF > SLD > DIC > KET > DKT (CIP: 256 °C, MEF: 230 °C, TLF: 207 °C, SLD: 183 °C, DIC: 156–158 °C, KET: 94 °C and DKT: 75 °C)."
+   ],
+   "certezza": "media",
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del componente KET nell'elenco «The melting points of the components decreased in the order». Il testo non dice se i valori siano misurati qui o presi dalla letteratura; nella didascalia della Figure 9 il punto di fusione di CIP e' attribuito al rif. [51] («the melting point of the CIP drug [51]»). Tecnica e velocita' non dette: fonte_dati lasciata null."
+  },
+  {
+   "id": "E41",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 75,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The melting points of the components decreased in the order: CIP > MEF > TLF > SLD > DIC > KET > DKT (CIP: 256 °C, MEF: 230 °C, TLF: 207 °C, SLD: 183 °C, DIC: 156–158 °C, KET: 94 °C and DKT: 75 °C)."
+   ],
+   "certezza": "media",
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del componente DKT nell'elenco «The melting points of the components decreased in the order». Il testo non dice se i valori siano misurati qui o presi dalla letteratura; nella didascalia della Figure 9 il punto di fusione di CIP e' attribuito al rif. [51] («the melting point of the CIP drug [51]»). Tecnica e velocita' non dette: fonte_dati lasciata null."
+  },
+  {
+   "id": "E42",
+   "da": "F8",
+   "a": "decomposizione",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 246,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "In addition, thermogravimetric analyses (TGAs) confirmed the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition) during the period (Figure S8).",
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "esito_dettaglio": "nessuna_perdita_di_massa",
+   "note": "La TGA conferma «the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition)»: per CIP–MEF nessuna perdita di massa sotto il punto di fusione (246 °C, E29). La frase riguarda «the molecular salts» per i quali il testo da' un punto di fusione (sei); il monoidrato non ha un punto di fusione nel testo e non e' incluso (la sua TGA mostra una perdita sotto 100 °C, E9). Limite superiore = punto di fusione del sale, dato in un'altra frase."
+  },
+  {
+   "id": "E43",
+   "da": "F10",
+   "a": "decomposizione",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 230,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "In addition, thermogravimetric analyses (TGAs) confirmed the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition) during the period (Figure S8).",
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "esito_dettaglio": "nessuna_perdita_di_massa",
+   "note": "La TGA conferma «the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition)»: per CIP–TLF nessuna perdita di massa sotto il punto di fusione (230 °C, E30). La frase riguarda «the molecular salts» per i quali il testo da' un punto di fusione (sei); il monoidrato non ha un punto di fusione nel testo e non e' incluso (la sua TGA mostra una perdita sotto 100 °C, E9). Limite superiore = punto di fusione del sale, dato in un'altra frase."
+  },
+  {
+   "id": "E44",
+   "da": "F11",
+   "a": "decomposizione",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 226,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "In addition, thermogravimetric analyses (TGAs) confirmed the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition) during the period (Figure S8).",
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "esito_dettaglio": "nessuna_perdita_di_massa",
+   "note": "La TGA conferma «the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition)»: per CIP–SLD nessuna perdita di massa sotto il punto di fusione (226 °C, E31). La frase riguarda «the molecular salts» per i quali il testo da' un punto di fusione (sei); il monoidrato non ha un punto di fusione nel testo e non e' incluso (la sua TGA mostra una perdita sotto 100 °C, E9). Limite superiore = punto di fusione del sale, dato in un'altra frase."
+  },
+  {
+   "id": "E45",
+   "da": "F12",
+   "a": "decomposizione",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 214,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "In addition, thermogravimetric analyses (TGAs) confirmed the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition) during the period (Figure S8).",
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "esito_dettaglio": "nessuna_perdita_di_massa",
+   "note": "La TGA conferma «the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition)»: per CIP–DIC nessuna perdita di massa sotto il punto di fusione (214 °C, E32). La frase riguarda «the molecular salts» per i quali il testo da' un punto di fusione (sei); il monoidrato non ha un punto di fusione nel testo e non e' incluso (la sua TGA mostra una perdita sotto 100 °C, E9). Limite superiore = punto di fusione del sale, dato in un'altra frase."
+  },
+  {
+   "id": "E46",
+   "da": "F13",
+   "a": "decomposizione",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 191,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "In addition, thermogravimetric analyses (TGAs) confirmed the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition) during the period (Figure S8).",
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "esito_dettaglio": "nessuna_perdita_di_massa",
+   "note": "La TGA conferma «the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition)»: per CIP–KET nessuna perdita di massa sotto il punto di fusione (191 °C, E33). La frase riguarda «the molecular salts» per i quali il testo da' un punto di fusione (sei); il monoidrato non ha un punto di fusione nel testo e non e' incluso (la sua TGA mostra una perdita sotto 100 °C, E9). Limite superiore = punto di fusione del sale, dato in un'altra frase."
+  },
+  {
+   "id": "E47",
+   "da": "F14",
+   "a": "decomposizione",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 184,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen atmosphere with 50 mL/min flow rate",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "In addition, thermogravimetric analyses (TGAs) confirmed the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition) during the period (Figure S8).",
+    "The corresponding phases followed the same order, with melting points of 246 °C for CIP–MEF, 230 °C for CIP–TLF, 226 °C for CIP–SLD, 214 °C for CIP–DIC, 191 °C for CIP–KET, and, finally, 184 °C for CIP–DKT.",
+    "Experimental conditions: aluminum crucibles of 40 µL volume, dry nitrogen atmosphere with 50 mL/min flow rate, heating rate of 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "esito_dettaglio": "nessuna_perdita_di_massa",
+   "note": "La TGA conferma «the integrity of the molecular salts below the melting point from the absence of weight loss (decomposition)»: per CIP–DKT nessuna perdita di massa sotto il punto di fusione (184 °C, E34). La frase riguarda «the molecular salts» per i quali il testo da' un punto di fusione (sei); il monoidrato non ha un punto di fusione nel testo e non e' incluso (la sua TGA mostra una perdita sotto 100 °C, E9). Limite superiore = punto di fusione del sale, dato in un'altra frase."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F7"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "All the APIs used in this work were obtained from a commercial TCI-Europe source and used as received."
+   ],
+   "fonte_dati": "propria",
+   "note": "Tutti gli API da TCI-Europe, usati come ricevuti. Il diclofenac e' trattato a parte (F6, dal sale sodico DICNa)."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "ultrapure water"
+   ],
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": 40,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "citazioni": [
+    "Synthesis of diclofenac acid form: the diclofenac acid (DIC) form was obtained through the hydrolysis of sodium diclofenac (DICNa), dissolving 5 mol of DICNa (1.590 g) in 30 mL of ultrapure water (Milli-Q, Millipore, Burlington, MA, USA) at 40 °C.",
+    "HCl was added dropwise at 1 M to the solution until no more diclofenac precipitated. The polycrystalline powder was filtrated and washed with cold deionized water and then allowed to dry at 35 °C for 24 h.",
+    "Powder X-ray diffraction (PXRD) was used to confirm the purity of DIC."
+   ],
+   "fonte_dati": "propria",
+   "note": "Acido diclofenac per idrolisi (acidificazione con HCl 1 M a goccia) del sale sodico DICNa sciolto in acqua a 40 °C; la polvere policristallina e' filtrata, lavata con acqua deionizzata fredda e seccata a 35 °C per 24 h. Il testo scrive «5 mol of DICNa (1.590 g)» in 30 mL: quantita' riportata come scritta. Come temperatura si e' messa quella della soluzione (40 °C), non quella di essiccamento (35 °C, 24 h)."
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min."
+   ],
+   "fonte_dati": "propria",
+   "note": "Polvere ottenuta per LAG dalla miscela CIP + NSAID 1:1 (vedi evento)."
+  },
+  {
+   "forme": [
+    "F10"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E2",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min."
+   ],
+   "fonte_dati": "propria",
+   "note": "Polvere ottenuta per LAG dalla miscela CIP + NSAID 1:1 (vedi evento)."
+  },
+  {
+   "forme": [
+    "F11"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E3",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min."
+   ],
+   "fonte_dati": "propria",
+   "note": "Polvere ottenuta per LAG dalla miscela CIP + NSAID 1:1 (vedi evento)."
+  },
+  {
+   "forme": [
+    "F13"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E4",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min."
+   ],
+   "fonte_dati": "propria",
+   "note": "Polvere ottenuta per LAG dalla miscela CIP + NSAID 1:1 (vedi evento)."
+  },
+  {
+   "forme": [
+    "F14"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E5",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "In this work, a 1:1 stoichiometric mixture of CIP and the corresponding NSAID, along with 50 µL of methanol as liquid additive, was placed in a stainless-steel jar with two stainless-steel balls with 7 mm diameters. After 30 min of LAG, the products were characterized using powder X-ray diffraction (PXRD) and the patterns were compared to those of the parent components in order to determine whether a new material, hereafter referred to as a new phase, had been formed.",
+    "Synthesis of CIP–MEF·H2O, CIP–TLF, CIP–SLD, CIP–KET, and CIP–DKT salts: mixtures of CIP (0.2 mmol, 66.27 mg) and the corresponding NSAID were placed in stainless-steel jars along with two steel balls with diameters of 7 mm and 50 µL of methanol (1:1 stoichiometric ratio). The mixtures were then milled for 30 min."
+   ],
+   "fonte_dati": "propria",
+   "note": "Polvere ottenuta per LAG dalla miscela CIP + NSAID 1:1 (vedi evento)."
+  },
+  {
+   "forme": [
+    "F12"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E7",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "LAG of CIP with DIC was repeated with a 1:2 stoichiometric mixture, resulting in a pure phase with no additional peak compared to the parent components."
+   ],
+   "fonte_dati": "propria",
+   "note": "Fase pura da LAG 1:2 (E7); con 1:1 (E6) la fase si forma con CIP in eccesso."
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E8",
+   "esito": "ottenuta",
+   "citazioni": [
+    "After heating this material in an oven at 120 °C for 2 days, a totally different PXRD pattern was observed, suggesting the dehydration of the hydrated salt. This was confirmed by subsequent structure determination using a suitable single crystal of the anhydrated form grown from a saturated acetone solution (Figure S2)."
+   ],
+   "fonte_dati": "propria",
+   "note": "L'anidro e' il prodotto della disidratazione del monoidrato in stufa (E8)."
+  },
+  {
+   "forme": [
+    "F9",
+    "F10"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile",
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "days",
+    "tipo": "processo"
+   },
+   "rapporto_solido_solvente": "0.5 mmol (16.56 mg) and 0.5 mmol of MEF and TLF, respectively (12.06 and 13.08 mg), in a 1:1 (v/v) mix of acetonitrile/methanol",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Single crystals of CIP–MEFH2O and CIP–TLF were obtained by dissolving 0.5 mmol (16.56 mg) and 0.5 mmol of MEF and TLF, respectively (12.06 and 13.08 mg), in a 1:1 (v/v) mix of acetonitrile/methanol. Crystals suitable for single-crystal X-ray diffraction (SCXRD) appeared after 2 days of slow solvent evaporation at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli singoli per SCXRD di CIP–MEF·H2O e CIP–TLF per evaporazione lenta a temperatura ambiente di una soluzione in acetonitrile/metanolo 1:1 (v/v); comparsi dopo 2 giorni. Il testo non nomina il composto della prima quantita' («0.5 mmol (16.56 mg)»). Le masse non tornano con le moli secondo i rapporti dell'articolo stesso: per CIP e MEF i metodi di macinazione danno 66.27 mg per 0.2 mmol e 48.26 mg per 0.2 mmol, quindi 0.5 mmol sarebbero circa dieci volte piu' dei mg scritti; quantita' riportate come scritte."
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "days",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Single crystals of CIP–MEF were obtained from a saturated solution of the product of the dehydration of CIP–MEF·H2O in acetone. Crystals suitable for SCXRD appeared after 2 days of slow solvent evaporation at room temperature.",
+    "This was confirmed by subsequent structure determination using a suitable single crystal of the anhydrated form grown from a saturated acetone solution (Figure S2)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli singoli di CIP–MEF anidro da soluzione satura in acetone del prodotto di disidratazione (E8), dopo 2 giorni di evaporazione lenta a temperatura ambiente."
+  },
+  {
+   "forme": [
+    "F12",
+    "F13"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "day",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Single crystals of CIP–KET and CIP–DIC were obtained from a saturated solution of the product of the LAG in methanol. Crystals suitable for SCXRD appeared after 1 day of slow solvent evaporation at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli singoli di CIP–KET e CIP–DIC da soluzione satura in metanolo del prodotto di LAG; evaporazione lenta a temperatura ambiente, 1 giorno."
+  },
+  {
+   "forme": [
+    "F11"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "distilled water"
+   ],
+   "temperatura": {
+    "valore": 110,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "rapporto_solido_solvente": "CIP (0.1 mmol, 33.10 mg) and SLD (0.1 mmol, 35.64 mg) (1:1 stoichiometric ratio) ... 3 mL of distilled water",
+   "citazioni": [
+    "Single crystals of CIP–SLD were obtained through hydrothermal synthesis. A mixture of CIP (0.1 mmol, 33.10 mg) and SLD (0.1 mmol, 35.64 mg) (1:1 stoichiometric ratio), was placed in a hydrothermal reactor with 3 mL of distilled water. The reactor was tightly sealed and heated at 110 °C for 24 h. The reactor was then cooled down to room temperature before opening. Crystals of CIP–SLD suitable for single-crystal X-ray diffraction were directly obtained from the hydrothermal reactor."
+   ],
+   "fonte_dati": "propria",
+   "note": "Sintesi idrotermale: CIP + SLD 1:1 in 3 mL di acqua distillata nel reattore sigillato, riscaldato a 110 °C per 24 h e raffreddato a temperatura ambiente. Cristalli singoli di CIP–SLD direttamente nel reattore, dopo che l'evaporazione da soluzioni aveva dato i componenti di partenza."
+  },
+  {
+   "forme": [
+    "F11"
+   ],
+   "metodo": "evaporazione",
+   "esito": "non_ottenuta",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Single crystals were grown via solvent evaporation at room temperature from saturated solutions.",
+    "Unfortunately, recrystallization of CIP–SLD resulted in the crystallization of the parent components. Different conditions and solvents were used in order to grow a CIP–SLD phase without success."
+   ],
+   "fonte_dati": "propria",
+   "note": "Ricristallizzazione di CIP–SLD per evaporazione del solvente da soluzioni sature: si ottengono i componenti di partenza (CIP e SLD), non il sale; «Different conditions and solvents were used ... without success». Solventi e condizioni non detti. Si puo' leggere anche come dissociazione del sale per ricristallizzazione dal solvente; non si e' estratto un evento perche' il solvente e il processo non sono descritti."
+  },
+  {
+   "forme": [
+    "F14"
+   ],
+   "metodo": "evaporazione",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Single crystals were grown via solvent evaporation at room temperature from saturated solutions."
+   ],
+   "fonte_dati": "propria",
+   "note": "Per CIP–DKT non c'e' un paragrafo dedicato nei metodi: vale la frase generale sui cristalli singoli di tutti i materiali policristallini ottenuti. Solvente non detto."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 8.74,
+      "unita": null
+     },
+     "gruppo": "−NH",
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [27]",
+     "citazione": "Ciprofloxacin | 8.74 (−NH) | [27] | 8.77 | --"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 8.77,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna «Calculated pKa Values *» della Table 1; la nota * non e' riportata nel testo)",
+     "citazione": "Ciprofloxacin | 8.74 (−NH) | [27] | 8.77 | --"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F14",
+     "solvente": "aqueous buffer pH 6.8 (PBS buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 0.465,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 6.8 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–DKT | 0.465 | 9.980 | 5.5x/- | Not reported | "
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F14",
+     "solvente": "aqueous buffer pH 1.2 (hydrochloric buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 9.98,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 1.2 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–DKT | 0.465 | 9.980 | 5.5x/- | Not reported | "
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F13",
+     "solvente": "aqueous buffer pH 6.8 (PBS buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 0.207,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 6.8 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–KET | 0.207 | 9.533 | 2.4x/0.8x | <0.2 | [58,59,60,61,62]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F13",
+     "solvente": "aqueous buffer pH 1.2 (hydrochloric buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 9.533,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 1.2 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–KET | 0.207 | 9.533 | 2.4x/0.8x | <0.2 | [58,59,60,61,62]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F8",
+     "solvente": "aqueous buffer pH 6.8 (PBS buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 0.14,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 6.8 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–MEF | 0.140 | 1.182 | 1.7x/2x | <0.05 | [63,64]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F8",
+     "solvente": "aqueous buffer pH 1.2 (hydrochloric buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 1.182,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 1.2 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–MEF | 0.140 | 1.182 | 1.7x/2x | <0.05 | [63,64]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F10",
+     "solvente": "aqueous buffer pH 6.8 (PBS buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 0.047,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 6.8 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–TLF | 0.047 | 6.567 | 0.6x/0.74x | <0.05 | [63]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F10",
+     "solvente": "aqueous buffer pH 1.2 (hydrochloric buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 6.567,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 1.2 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–TLF | 0.047 | 6.567 | 0.6x/0.74x | <0.05 | [63]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F12",
+     "solvente": "aqueous buffer pH 6.8 (PBS buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 0.035,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 6.8 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–DIC | 0.035 | 5.946 | 0.4x/20.8x | <0.003 | [60,61,65,66]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F12",
+     "solvente": "aqueous buffer pH 1.2 (hydrochloric buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 5.946,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 1.2 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP–DIC | 0.035 | 5.946 | 0.4x/20.8x | <0.003 | [60,61,65,66]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "solvente": "aqueous buffer pH 6.8 (PBS buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 0.084,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 6.8 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP | 0.084 | 14.671 |  | 0.08 | [67]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "solvente": "aqueous buffer pH 1.2 (hydrochloric buffer), 25 °C, 24 h (concentrazione di CIP in soluzione satura, HPLC)",
+     "grandezza": {
+      "valore": 14.671,
+      "unita": "mg/mL"
+     },
+     "metodo": "HPLC, soluzione satura (colonna pH 1.2 della Table 3)",
+     "calcolato": false,
+     "citazione": "CIP | 0.084 | 14.671 |  | 0.08 | [67]"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "grandezza": {
+      "valore": 0.08,
+      "unita": "mg/mL"
+     },
+     "solvente": null,
+     "metodo": "solubilita' riportata di CIP, rif. [67]; condizioni di misura non dette nella tabella",
+     "calcolato": false,
+     "citazione": "CIP | 0.084 | 14.671 |  | 0.08 | [67]"
+    },
+    {
+     "tipo": "solubilita",
+     "solvente": "water",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "strongly pH-dependent"
+     },
+     "citazione": "Although it is well-known that the aqueous solubility of CIP is strongly pH-dependent"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "BCS class IV (low solubility and low permeability)"
+     },
+     "metodo": "classificazione riportata (rif. [1])",
+     "citazione": "CIP is classified as a class IV drug in the Biopharmaceutical Classification System, exhibiting low solubility and low permeability [1]."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "zwitterione",
+     "testo": "zwitterionic nature of CIP, to which recent studies attribute the low solubility",
+     "citazione": "Recent studies attribute the low solubility of CIP to its zwitterionic nature (Scheme 1) and the influence of strong intermolecular H-bonding interactions within the crystal lattice in the solid state [16,17]."
+    },
+    {
+     "tipo": "zwitterione",
+     "testo": "due to its zwitterionic nature the solubility of CIP increased significantly at pH 1.2",
+     "citazione": "As expected, due to its zwitterionic nature, the solubility of CIP increased significantly at pH 1.2 [68]."
+    },
+    {
+     "tipo": "altro",
+     "testo": "amphoteric: basic piperazinyl nitrogen and carboxylic acid groups",
+     "citazione": "The high number of observed molecular salts agrees with the amphoteric nature of CIP, which has basic piperazinyl nitrogen and carboxylic acid groups."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F10",
+     "testo": "CIP conformation: the same in CIP–TLF and in the salt hydrate with MEF, different from anhydrous CIP–MEF",
+     "citazione": "Both this salt and the salt hydrate with MEF exhibited the same CIP conformation, unlike the related anhydrous CIP–MEF salt."
+    }
+   ]
+  },
+  {
+   "composto": "C5",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.88,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [28,29,30]",
+     "citazione": "Dexketoprofen | 3.88; 4.55; 5.02 | [28,29,30] | 3.88 | 4.86"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.55,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [28,29,30]",
+     "citazione": "Dexketoprofen | 3.88; 4.55; 5.02 | [28,29,30] | 3.88 | 4.86"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 5.02,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [28,29,30]",
+     "citazione": "Dexketoprofen | 3.88; 4.55; 5.02 | [28,29,30] | 3.88 | 4.86"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.88,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna «Calculated pKa Values *» della Table 1; la nota * non e' riportata nel testo)",
+     "citazione": "Dexketoprofen | 3.88; 4.55; 5.02 | [28,29,30] | 3.88 | 4.86"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "S(+) enantiomer of KET",
+     "citazione": "DKT is the S(+) enantiomer of KET"
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.93,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [31]",
+     "citazione": "Mefenamic acid | 3.93; 4.64 | [31] | 3.89 | 4.81"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.64,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [31]",
+     "citazione": "Mefenamic acid | 3.93; 4.64 | [31] | 3.89 | 4.81"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.89,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna «Calculated pKa Values *» della Table 1; la nota * non e' riportata nel testo)",
+     "citazione": "Mefenamic acid | 3.93; 4.64 | [31] | 3.89 | 4.81"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": "mg/mL",
+      "limite": "sotto",
+      "max": 0.05
+     },
+     "solvente": null,
+     "metodo": "solubilita' riportata dell'NSAID, rif. [63,64]; condizioni di misura non dette nella tabella",
+     "calcolato": false,
+     "citazione": "CIP–MEF | 0.140 | 1.182 | 1.7x/2x | <0.05 | [63,64]"
+    }
+   ],
+   "descrizioni": null
+  },
+  {
+   "composto": "C3",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.3,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [32,33]",
+     "citazione": "Tolfenamic acid | 4.3; 5.11 | [32,33] | 3.88 | 4.44"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 5.11,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [32,33]",
+     "citazione": "Tolfenamic acid | 4.3; 5.11 | [32,33] | 3.88 | 4.44"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.88,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna «Calculated pKa Values *» della Table 1; la nota * non e' riportata nel testo)",
+     "citazione": "Tolfenamic acid | 4.3; 5.11 | [32,33] | 3.88 | 4.44"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": "mg/mL",
+      "limite": "sotto",
+      "max": 0.05
+     },
+     "solvente": null,
+     "metodo": "solubilita' riportata dell'NSAID, rif. [63]; condizioni di misura non dette nella tabella",
+     "calcolato": false,
+     "citazione": "CIP–TLF | 0.047 | 6.567 | 0.6x/0.74x | <0.05 | [63]"
+    }
+   ],
+   "descrizioni": null
+  },
+  {
+   "composto": "C4",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.8,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [31,33,34,35]",
+     "citazione": "Ketoprofen | 3.8; 3.7; 4; 4.30 | [31,33,34,35] | 3.88 | 4.94"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.7,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [31,33,34,35]",
+     "citazione": "Ketoprofen | 3.8; 3.7; 4; 4.30 | [31,33,34,35] | 3.88 | 4.94"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [31,33,34,35]",
+     "citazione": "Ketoprofen | 3.8; 3.7; 4; 4.30 | [31,33,34,35] | 3.88 | 4.94"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.3,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [31,33,34,35]",
+     "citazione": "Ketoprofen | 3.8; 3.7; 4; 4.30 | [31,33,34,35] | 3.88 | 4.94"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.88,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna «Calculated pKa Values *» della Table 1; la nota * non e' riportata nel testo)",
+     "citazione": "Ketoprofen | 3.8; 3.7; 4; 4.30 | [31,33,34,35] | 3.88 | 4.94"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": "mg/mL",
+      "limite": "sotto",
+      "max": 0.2
+     },
+     "solvente": null,
+     "metodo": "solubilita' riportata dell'NSAID, rif. [58,59,60,61,62]; condizioni di misura non dette nella tabella",
+     "calcolato": false,
+     "citazione": "CIP–KET | 0.207 | 9.533 | 2.4x/0.8x | <0.2 | [58,59,60,61,62]"
+    }
+   ],
+   "descrizioni": null
+  },
+  {
+   "composto": "C6",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.15,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [33,36]",
+     "citazione": "Diclofenac | 4.15; 4.2 | [33,36] | 4.00 | 4.59"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.2,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [33,36]",
+     "citazione": "Diclofenac | 4.15; 4.2 | [33,36] | 4.00 | 4.59"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.0,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna «Calculated pKa Values *» della Table 1; la nota * non e' riportata nel testo)",
+     "citazione": "Diclofenac | 4.15; 4.2 | [33,36] | 4.00 | 4.59"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": "mg/mL",
+      "limite": "sotto",
+      "max": 0.003
+     },
+     "solvente": null,
+     "metodo": "solubilita' riportata dell'NSAID, rif. [60,61,65,66]; condizioni di misura non dette nella tabella",
+     "calcolato": false,
+     "citazione": "CIP–DIC | 0.035 | 5.946 | 0.4x/20.8x | <0.003 | [60,61,65,66]"
+    }
+   ],
+   "descrizioni": null
+  },
+  {
+   "composto": "C7",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.7,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": false,
+     "metodo": "valore riportato in letteratura, rif. [30,37]",
+     "citazione": "Sulindac | 4.7 | [30,37] | 4.09 | 4.04"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 4.09,
+      "unita": null
+     },
+     "gruppo": null,
+     "calcolato": true,
+     "metodo": "valore calcolato (colonna «Calculated pKa Values *» della Table 1; la nota * non e' riportata nel testo)",
+     "citazione": "Sulindac | 4.7 | [30,37] | 4.09 | 4.04"
+    }
+   ],
+   "descrizioni": null
+  }
+ ]
+}

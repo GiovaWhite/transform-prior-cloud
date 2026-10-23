@@ -1,0 +1,3246 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1039/c7ce00651a",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "altro",
+   "proprieta": "numero di nuovi cristalli multicomponente con coformeri farmaceutici",
+   "citazione": "CSD statistics combined with known hydrogen bonding preferences allowed suitable co-former selection which resulted in nine new multicomponent crystals with pharmaceutically acceptable co-formers.",
+   "valori": [
+    {
+     "etichetta": "new multicomponent crystals",
+     "valore": 9
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "co-crystals, salts and some hybrid (co-crystal salt) structures",
+   "note": "Conteggio scritto in lettere («nine»)."
+  },
+  {
+   "id": "X2",
+   "categoria": "altro",
+   "proprieta": "soluzioni solide ottenute dallo screening: numero e coformeri",
+   "citazione": "Solid form screening with LON resulted in a total of nine different solids with seven pharmaceutically acceptable co-formers (Figure 2): benzamide (BENZ), haloperidol (HALO), imidazole (IMID), isonicotinamide (ISO), melamine (MEL), nicotinamide (NICO), and piperazine (PIPE).",
+   "valori": [
+    {
+     "etichetta": "different solids",
+     "valore": 9
+    },
+    {
+     "etichetta": "pharmaceutically acceptable co-formers",
+     "valore": 7
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "coformeri: benzamide, haloperidol, imidazole, isonicotinamide, melamine, nicotinamide, piperazine",
+   "note": "Numeri scritti in lettere («nine», «seven»)."
+  },
+  {
+   "id": "X3",
+   "categoria": "metodo",
+   "proprieta": "numero di composti dello screening per macinazione",
+   "citazione": "A total of 87 structurally diverse compounds (see ESI, section 5) were chosen for experimental screening by solidstate grinding (both solvent assisted and dry grinding).",
+   "valori": [
+    {
+     "etichetta": "co-formers screened by grinding",
+     "valore": 87
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "PXRD",
+   "note": "Il testo scrive «solidstate» (a-capo del PDF)."
+  },
+  {
+   "id": "X4",
+   "categoria": "altro",
+   "proprieta": "conteggio dei materiali multicomponente riportati (conclusioni)",
+   "citazione": "Nine new pharmaceutically acceptable multicomponent materials have been produced with LON.",
+   "valori": [
+    {
+     "etichetta": "new multicomponent materials",
+     "valore": 9
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "note": "Conteggio in lettere."
+  },
+  {
+   "id": "X5",
+   "categoria": "altro",
+   "proprieta": "polimorfi noti di LON e forme del brevetto",
+   "citazione": "Three polymorphic forms of LON are known, two of which (α and β) were reported by Benetollo et al310 with an in-depth structural analysis and structure-activity relationship of the β-form. More recently, a patent by Xinmin et al321 described three forms which can be identified as the two from Benetollo’s work with a third, new form. Through powder X-ray diffraction (PXRD) and differential scanning calorimetry (DSC) data, the work in these two reports can be correlated: α- and β- correspond respectively to forms I and II in the patent, with the third form being assumed as a new γphase",
+   "valori": [
+    {
+     "etichetta": "known polymorphic forms of LON",
+     "valore": 3
+    },
+    {
+     "etichetta": "forms described in the patent",
+     "valore": 3
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "α- and β- (Benetollo et al.) correspond to forms I and II of the patent; the third form is assumed as a new γ-phase",
+   "note": "Dato citato da altri lavori (Benetollo et al.; brevetto di Xinmin et al.), correlato dagli autori con PXRD e DSC; numeri in lettere."
+  },
+  {
+   "id": "X6",
+   "categoria": "altro",
+   "proprieta": "CSD: propensita' di interazione del gruppo carbossilico con ammidi, ammine primarie, azoto aromatico e ossidrili",
+   "citazione": "In structures which contain these functionalities, the intermolecular interactions between carboxylic acid and the respective functional groups occur at a propensity of 77.2 %, 67.2 %, 63.8 % and 35.3 % (any OH).",
+   "valori": [
+    {
+     "etichetta": "carboxylic acid···amide",
+     "valore": 77.2,
+     "unita": "%"
+    },
+    {
+     "etichetta": "carboxylic acid···primary amine (-NH2)",
+     "valore": 67.2,
+     "unita": "%"
+    },
+    {
+     "etichetta": "carboxylic acid···aromatic nitrogen",
+     "valore": 63.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "carboxylic acid···hydroxyl (any OH)",
+     "valore": 35.3,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "CSD (Mercury, Conquest)",
+   "note": "Statistica sul CSD fatta dagli autori; attribuzione dei quattro valori per ordine all'elenco della frase precedente («those to amides, primary amines (-NH2), aromatic nitrogen atoms (for example pyridines) and hydroxyls»), confermata dalla gerarchia «amides > primary amines (-NH2) > aromatic nitrogen atoms > hydroxyls». Nessuna categoria dedicata ai dati di ricerca nel database: usata «altro»."
+  },
+  {
+   "id": "X7",
+   "categoria": "altro",
+   "proprieta": "CSD: propensita' degli ossidrili (alcolici, aromatici e alifatici) con il carbossile",
+   "citazione": "Hydroxyl groups can be further divided: alcoholic OH groups are highly favoured (66 %) with general aromatic and aliphatic OH groups displaying propensities around 50%.",
+   "valori": [
+    {
+     "etichetta": "alcoholic OH",
+     "valore": 66,
+     "unita": "%"
+    },
+    {
+     "etichetta": "aromatic and aliphatic OH",
+     "valore": 50,
+     "unita": "%",
+     "circa": true
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "CSD (Mercury, Conquest)"
+  },
+  {
+   "id": "X8",
+   "categoria": "altro",
+   "proprieta": "CSD: dimeri carbossilici e acido-ammide",
+   "citazione": "Dimer interactions are also highly favoured, with 87.3 % of structures containing two carboxylic acid groups forming a dimer, and a 46.5 % frequency in the acid∙∙∙amide equivalent.",
+   "valori": [
+    {
+     "etichetta": "structures with two carboxylic acid groups forming a dimer",
+     "valore": 87.3,
+     "unita": "%"
+    },
+    {
+     "etichetta": "frequency in the acid···amide equivalent",
+     "valore": 46.5,
+     "unita": "%"
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "CSD (Mercury, Conquest)"
+  },
+  {
+   "id": "X9",
+   "categoria": "altro",
+   "proprieta": "CSD: gruppo indazolo e interazioni favorite",
+   "citazione": "The other functional group present in LON is the indazole, which, according to CSD statistics, can interact favourably with C-H groups, hydroxyls, primary amines, amides and T3NH1 (one hydrogen atom, total three bonded atoms to N) groups.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "CSD",
+   "qualitativo": "indazole interacts favourably with C-H groups, hydroxyls, primary amines, amides and T3NH1 groups, in fewer structures and with lower propensities than the carboxylic acid"
+  },
+  {
+   "id": "X10",
+   "categoria": "geometria",
+   "proprieta": "LON-BENZ, dimero acido-ammide: O-H···O (D···A e angolo D-H···A)",
+   "citazione": "The primary hydrogen bonding present in the 1:1 LON-BENZ co-crystal is an acid∙∙∙amide dimer (D∙∙∙A distances 2.55 Å and 2.88 Å, D–H∙∙∙A angles 172° and 169° for O-H∙∙∙O and N-H∙∙∙O respectively).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.55,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D–H···A angle",
+     "valore": 172,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "LON-BENZ"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine («for O-H∙∙∙O and N-H∙∙∙O respectively»)."
+  },
+  {
+   "id": "X11",
+   "categoria": "geometria",
+   "proprieta": "LON-BENZ, dimero acido-ammide: N-H···O (D···A e angolo D-H···A)",
+   "citazione": "The primary hydrogen bonding present in the 1:1 LON-BENZ co-crystal is an acid∙∙∙amide dimer (D∙∙∙A distances 2.55 Å and 2.88 Å, D–H∙∙∙A angles 172° and 169° for O-H∙∙∙O and N-H∙∙∙O respectively).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.88,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D–H···A angle",
+     "valore": 169,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "LON-BENZ"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine («for O-H∙∙∙O and N-H∙∙∙O respectively»)."
+  },
+  {
+   "id": "X12",
+   "categoria": "geometria",
+   "proprieta": "LON-NICO, dimero acido-ammide: O-H···O (D···A e angolo)",
+   "citazione": "features an acid∙∙∙amide dimer as the primary hydrogen bonding interaction (2.53 Å and 2.96 Å, 169° and 168° for O-H∙∙∙O and N-H∙∙∙O respectively).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.53,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D–H···A angle",
+     "valore": 169,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "LON-NICO"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine («for O-H∙∙∙O and N-H∙∙∙O respectively»)."
+  },
+  {
+   "id": "X13",
+   "categoria": "geometria",
+   "proprieta": "LON-NICO, dimero acido-ammide: N-H···O (D···A e angolo)",
+   "citazione": "features an acid∙∙∙amide dimer as the primary hydrogen bonding interaction (2.53 Å and 2.96 Å, 169° and 168° for O-H∙∙∙O and N-H∙∙∙O respectively).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.96,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D–H···A angle",
+     "valore": 168,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "LON-NICO"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine («for O-H∙∙∙O and N-H∙∙∙O respectively»)."
+  },
+  {
+   "id": "X14",
+   "categoria": "geometria",
+   "proprieta": "LON-NICO, legame N-H···O dall'ammide di NICO al carbonile di LON del secondo dimero",
+   "citazione": "A further hydrogen bond (N-H∙∙∙O, 2.85 Å, 119°) forms from the amide in NICO to the LON carbonyl in a second dimer pair.",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.85,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 119,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "LON-NICO"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X15",
+   "categoria": "geometria",
+   "proprieta": "LON-NICO: angolo fra i piani delle unita' tetrameriche",
+   "citazione": "This results in tetrameric supramolecular units (Figure 4) which occur in two planes arranged almost perpendicular to one another (88°), and stack into layers in these two orientations.",
+   "valori": [
+    {
+     "etichetta": "angle between the two planes of the tetramers",
+     "valore": 88,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "LON-NICO"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "tetrameric supramolecular units in two planes arranged almost perpendicular to one another, stacking into layers in these two orientations"
+  },
+  {
+   "id": "X16",
+   "categoria": "geometria",
+   "proprieta": "LON-ISO, legame acido···piridina",
+   "citazione": "The 1:1 LON-ISO co-crystal also features a tetrameric motif (Figure 5), however, this is formed through an acid∙∙∙pyridine (2.64 Å, 176°) and amide (NH)∙∙∙carbonyl (2.97 Å, 175°) hydrogen bonds.",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.64,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D–H···A angle",
+     "valore": 176,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "LON-ISO"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X17",
+   "categoria": "geometria",
+   "proprieta": "LON-ISO, legame ammide (NH)···carbonile",
+   "citazione": "The 1:1 LON-ISO co-crystal also features a tetrameric motif (Figure 5), however, this is formed through an acid∙∙∙pyridine (2.64 Å, 176°) and amide (NH)∙∙∙carbonyl (2.97 Å, 175°) hydrogen bonds.",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.97,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D–H···A angle",
+     "valore": 175,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "LON-ISO"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X18",
+   "categoria": "geometria",
+   "proprieta": "LON-MEL, legame a forcella N+-H e ammino···O1 del carbossilato: primo",
+   "citazione": "The crystal structure of the salt features a bifurcated hydrogen bond from the protonated pyridine N and adjacent amino group to the LON carboxylate O1 (2.65 Å and 3.01 Å, 157° and 138° respectively).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.65,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 157,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "LON-MEL"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine («respectively»): la coppia 2.65 Å, 157° e' il primo dei due rami (N piridinico protonato)."
+  },
+  {
+   "id": "X19",
+   "categoria": "geometria",
+   "proprieta": "LON-MEL, legame a forcella N+-H e ammino···O1 del carbossilato: secondo",
+   "citazione": "The crystal structure of the salt features a bifurcated hydrogen bond from the protonated pyridine N and adjacent amino group to the LON carboxylate O1 (2.65 Å and 3.01 Å, 157° and 138° respectively).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 3.01,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 138,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "LON-MEL"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine («respectively»): la coppia 3.01 Å, 138° e' il secondo ramo (gruppo amminico adiacente)."
+  },
+  {
+   "id": "X20",
+   "categoria": "geometria",
+   "proprieta": "LON-MEL, legame N-H···O verso O2 del carbossilato di un secondo LON",
+   "citazione": "A second hydrogen bond occurs from the same amino group via the other proton to a second LON, forming an N-H∙∙∙O hydrogen bond to O2 of the carboxylate (2.99 Å, 173°)",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.99,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 173,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "LON-MEL"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X21",
+   "categoria": "geometria",
+   "proprieta": "LON-MEL, legame N+-H···N verso l'indazolo di LON",
+   "citazione": "The other amino group adjacent to the ring N+-H forms an N+-H∙∙∙N hydrogen bond (3.01 Å, 171°) to the indazole of LON.",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 3.01,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 171,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "LON-MEL"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X22",
+   "categoria": "geometria",
+   "proprieta": "LON-MEL, dimero coformero···coformero via due legami N-H···N",
+   "citazione": "The third amino group of MEL forms a coformer∙∙∙co-former dimer via two N-H∙∙∙N hydrogen bonds (2.91 Å, 175°).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.91,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 175,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "LON-MEL"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X23",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-MEL: rete a scala e impilamento",
+   "citazione": "These interactions create a ladder network containing central MEL pairs and peripheral LON molecules (Figure 6) with face-to-face π-π stacking between ladders, all of which are parallel.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "LON-MEL"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "ladder network with central MEL pairs and peripheral LON molecules, face-to-face π-π stacking between ladders, all parallel"
+  },
+  {
+   "id": "X24",
+   "categoria": "geometria",
+   "proprieta": "LON-PIPE, legame N+-H···carbossilato n. 1 (D···A e angolo)",
+   "citazione": "LON-PIPE forms a 2:1 salt containing charge assisted N+-H∙∙∙carboxylate hydrogen bonds (2.69 Å, 2.64 Å, 2.69 Å and 2.76 Å, 164°, 159°, 172° and 163°)",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.69,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 164,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "tecnica": "SCXRD",
+   "note": "Quattro distanze e quattro angoli in ordine nella frase (2.69, 2.64, 2.69 e 2.76 Å; 164, 159, 172 e 163°): accoppiati per ordine. La frase continua oltre il rimando di pagina («from each LON molecule to the symmetry independent half molecules of PIPE»)."
+  },
+  {
+   "id": "X25",
+   "categoria": "geometria",
+   "proprieta": "LON-PIPE, legame N+-H···carbossilato n. 2 (D···A e angolo)",
+   "citazione": "LON-PIPE forms a 2:1 salt containing charge assisted N+-H∙∙∙carboxylate hydrogen bonds (2.69 Å, 2.64 Å, 2.69 Å and 2.76 Å, 164°, 159°, 172° and 163°)",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.64,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 159,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "tecnica": "SCXRD",
+   "note": "Quattro distanze e quattro angoli in ordine nella frase (2.69, 2.64, 2.69 e 2.76 Å; 164, 159, 172 e 163°): accoppiati per ordine. La frase continua oltre il rimando di pagina («from each LON molecule to the symmetry independent half molecules of PIPE»)."
+  },
+  {
+   "id": "X26",
+   "categoria": "geometria",
+   "proprieta": "LON-PIPE, legame N+-H···carbossilato n. 3 (D···A e angolo)",
+   "citazione": "LON-PIPE forms a 2:1 salt containing charge assisted N+-H∙∙∙carboxylate hydrogen bonds (2.69 Å, 2.64 Å, 2.69 Å and 2.76 Å, 164°, 159°, 172° and 163°)",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.69,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 172,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "tecnica": "SCXRD",
+   "note": "Quattro distanze e quattro angoli in ordine nella frase (2.69, 2.64, 2.69 e 2.76 Å; 164, 159, 172 e 163°): accoppiati per ordine. La frase continua oltre il rimando di pagina («from each LON molecule to the symmetry independent half molecules of PIPE»)."
+  },
+  {
+   "id": "X27",
+   "categoria": "geometria",
+   "proprieta": "LON-PIPE, legame N+-H···carbossilato n. 4 (D···A e angolo)",
+   "citazione": "LON-PIPE forms a 2:1 salt containing charge assisted N+-H∙∙∙carboxylate hydrogen bonds (2.69 Å, 2.64 Å, 2.69 Å and 2.76 Å, 164°, 159°, 172° and 163°)",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.76,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 163,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "tecnica": "SCXRD",
+   "note": "Quattro distanze e quattro angoli in ordine nella frase (2.69, 2.64, 2.69 e 2.76 Å; 164, 159, 172 e 163°): accoppiati per ordine. La frase continua oltre il rimando di pagina («from each LON molecule to the symmetry independent half molecules of PIPE»)."
+  },
+  {
+   "id": "X28",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-PIPE: ogni LON legato a mezze molecole di PIPE simmetricamente indipendenti; rete a scala",
+   "citazione": "each LON molecule to the symmetry independent half molecules of PIPE. These produce a ladder network, in the adirection, and also contain central PIPE molecules with a peripheral LON backbone (similar to LON-MEL, Figure 6).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "ladder network in the a-direction with central PIPE molecules and a peripheral LON backbone"
+  },
+  {
+   "id": "X29",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-PIPE: impilamento ABAB delle molecole di PIPE e ruolo dei due tipi",
+   "citazione": "The PIPE molecules form an ABAB type layered stacking arrangement (Figure 7) with alternating orientations. ‘A’ piperazine molecules form a single N+-H∙∙∙carboxylate and a similar, bifurcated, hydrogen bond at either end of the piperazine molecule. The bifurcated hydrogen bond occurs to both atoms of a single carboxylate on one LON moiety. ‘B’ piperazine molecules also form a single N+-H∙∙∙carboxylate and a bifurcated N-H hydrogen bond at either end of the molecule, however the latter occurs to one carboxylate oxygen and one indazole ring nitrogen.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "'A' piperazine: single N+-H···carboxylate and a bifurcated hydrogen bond to both atoms of one carboxylate; 'B' piperazine: single N+-H···carboxylate and a bifurcated N-H bond to one carboxylate oxygen and one indazole ring nitrogen; alternating orientations (ABAB)"
+  },
+  {
+   "id": "X30",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-IMID.EtOAc: contenuto dell'unita' asimmetrica",
+   "citazione": "The 1:1 salt solvate contains 6 molecules of both LON and IMID in the asymmetric unit, and three ethyl acetate molecules.",
+   "valori": [
+    {
+     "etichetta": "LON molecules in the asymmetric unit",
+     "valore": 6
+    },
+    {
+     "etichetta": "IMID molecules in the asymmetric unit",
+     "valore": 6
+    },
+    {
+     "etichetta": "ethyl acetate molecules in the asymmetric unit",
+     "valore": 3
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   },
+   "tecnica": "SCXRD",
+   "note": "«three» e' scritto in lettere."
+  },
+  {
+   "id": "X31",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID.EtOAc, due interazioni N-H···O(carbossilato) del primo legame a forcella (esempio)",
+   "citazione": "One consists of two N-H∙∙∙O(carboxylate) interactions (eg 2.63 Å, 167° and 3.43 Å, 125°)",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.63,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 167,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   },
+   "tecnica": "SCXRD",
+   "note": "Il testo da' due interazioni N-H···O(carbossilato) con «eg 2.63 Å, 167° and 3.43 Å, 125°»: le due coppie sono le due interazioni."
+  },
+  {
+   "id": "X32",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID.EtOAc, seconda interazione N-H···O(carbossilato) del primo legame a forcella",
+   "citazione": "One consists of two N-H∙∙∙O(carboxylate) interactions (eg 2.63 Å, 167° and 3.43 Å, 125°)",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 3.43,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 125,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X33",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID.EtOAc, legame N+-H···O(carbossilato)",
+   "citazione": "the other comprising charge assisted hydrogen bonds of the nature N+-H∙∙∙O(carboxylate) and one N+-H∙∙∙N(indazole) (2.69 Å, 153° and 3.08 Å, 125° respectively).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.69,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 153,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine («respectively»)."
+  },
+  {
+   "id": "X34",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID.EtOAc, legame N+-H···N(indazolo)",
+   "citazione": "the other comprising charge assisted hydrogen bonds of the nature N+-H∙∙∙O(carboxylate) and one N+-H∙∙∙N(indazole) (2.69 Å, 153° and 3.08 Å, 125° respectively).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 3.08,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 125,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine («respectively»)."
+  },
+  {
+   "id": "X35",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-IMID.EtOAc: catene a zig-zag con schema ABAB e anelli clorurati",
+   "citazione": "These hydrogen bonded units extend in zig-zag chains which contain an ABAB type pattern of IMID molecules (Figure 8, left). All LON chlorosubstituted rings are situated above the chain and display alternating orientations complementary to the ABAB motif. The chains form parallel stacked sheets extending into layers. The packing results in voids along the b-axis in which the solvent molecules are located.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "zig-zag chains with an ABAB pattern of IMID molecules; chloro-substituted rings above the chain with alternating orientations; parallel stacked sheets into layers; voids along the b-axis hosting the solvent"
+  },
+  {
+   "id": "X36",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-IMID: numero di strutture e loro tipo",
+   "citazione": "Three different structures were obtained with LON and IMID: a 1:1:0.5 ethyl acetate salt, a 1:1 salt and a 2:1 cocrystal salt (hybrid structure).",
+   "valori": [
+    {
+     "etichetta": "structures obtained with LON and IMID",
+     "valore": 3
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "note": "«Three» in lettere."
+  },
+  {
+   "id": "X37",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-IMID 1:1 salt: contenuto dell'unita' asimmetrica e trasferimento del protone",
+   "citazione": "The 1:1 LON-IMID salt contains two molecules of each entity in the asymmetric unit with complete proton transfer occurring between one pair and partial transfer between the second.",
+   "valori": [
+    {
+     "etichetta": "molecules of each entity in the asymmetric unit",
+     "valore": 2
+    }
+   ],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "note": "«two» in lettere."
+  },
+  {
+   "id": "X38",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-IMID 1:1 salt: catena simile a quella del solvato, strati ABBAABBA",
+   "citazione": "A similar chain motif to that observed in the 1:1:0.5 salt solvate was also observed in the 1:1 salt (Figure 8, middle). The layers, however, are arranged in an ABBAABBA pattern, considered in terms of the co-former molecules.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "chain motif similar to the 1:1:0.5 salt solvate (Figure 8, middle); layers arranged in an ABBAABBA pattern considered in terms of the co-former molecules"
+  },
+  {
+   "id": "X39",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 1:1 salt, strato A: N+-H···O verso l'ossidrile di LON",
+   "citazione": "The 'A' layer consists of a protonated IMID which interacts with a selfassembled dimer of partially protonated LON units (bifurcated N+-H∙∙∙O to hydroxyl (2.67 Å, 170°) and carbonyl oxygen atoms (2.79 Å, 141°)",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.67,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 170,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine: «bifurcated N+-H∙∙∙O to hydroxyl (2.67 Å, 170°) and carbonyl oxygen atoms (2.79 Å, 141°)». Lo strato A contiene IMID protonato e un dimero autoassemblato di unita' LON parzialmente protonate."
+  },
+  {
+   "id": "X40",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 1:1 salt, strato A: N+-H···O verso il carbonile di LON",
+   "citazione": "The 'A' layer consists of a protonated IMID which interacts with a selfassembled dimer of partially protonated LON units (bifurcated N+-H∙∙∙O to hydroxyl (2.67 Å, 170°) and carbonyl oxygen atoms (2.79 Å, 141°)",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.79,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 141,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine (vedi sopra)."
+  },
+  {
+   "id": "X41",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 1:1 salt, strato A: N-H···O- verso il primo ossigeno del carbossilato (LON deprotonato)",
+   "citazione": "and an N-H∙∙∙O-(carboxylate) hydrogen bond to both oxygen atoms of a third, deprotonated, LON (N-H∙∙∙O-, 2.56 Å, 166° and 3.40 Å, 125°).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.56,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 166,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine: «(N-H∙∙∙O-, 2.56 Å, 166° and 3.40 Å, 125°)»."
+  },
+  {
+   "id": "X42",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 1:1 salt, strato A: N-H···O- verso il secondo ossigeno del carbossilato (LON deprotonato)",
+   "citazione": "and an N-H∙∙∙O-(carboxylate) hydrogen bond to both oxygen atoms of a third, deprotonated, LON (N-H∙∙∙O-, 2.56 Å, 166° and 3.40 Å, 125°).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 3.4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 125,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine (vedi sopra). Il testo scrive 3.40 Å."
+  },
+  {
+   "id": "X43",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-IMID 1:1 salt, strato B: IMID parzialmente protonato (occupanza 0.5) e dimero di IMID",
+   "citazione": "protonated (occupancy 0.5, shared with a second ‘B’ IMID) and forms an IMID dimer via N+-H∙∙∙N hydrogen bonds over an inversion centre.",
+   "valori": [
+    {
+     "etichetta": "occupancy",
+     "valore": 0.5
+    }
+   ],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "'B' IMID molecule partially protonated and forming an IMID dimer over an inversion centre",
+   "note": "La frase e' la continuazione di «The 'B' IMID molecule is partially» (altra pagina del PDF, ordine invertito nel testo letto)."
+  },
+  {
+   "id": "X44",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 1:1 salt, strato B: N-H···O-(carbossilato) del dimero di IMID verso LON deprotonato",
+   "citazione": "This forms a bifurcated hydrogen bond to the deprotonated LON mentioned above via N-H∙∙∙O-(carboxylate) (2.76 Å, 160°) and N-H∙∙∙N(indazole) (3.12 Å, 122°).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.76,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 160,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine: «via N-H∙∙∙O-(carboxylate) (2.76 Å, 160°) and N-H∙∙∙N(indazole) (3.12 Å, 122°)»."
+  },
+  {
+   "id": "X45",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 1:1 salt, strato B: N-H···N(indazolo) verso LON deprotonato",
+   "citazione": "This forms a bifurcated hydrogen bond to the deprotonated LON mentioned above via N-H∙∙∙O-(carboxylate) (2.76 Å, 160°) and N-H∙∙∙N(indazole) (3.12 Å, 122°).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 3.12,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 122,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "note": "Attribuzione per ordine (vedi sopra)."
+  },
+  {
+   "id": "X46",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-IMID 1:1 salt: impilamento delle catene in strati",
+   "citazione": "Adjacent chains stack into layers containing face-to-face orientated LON chloro-substituted rings.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "LON-IMID 1:1 salt"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "adjacent chains stack into layers containing face-to-face orientated LON chloro-substituted rings"
+  },
+  {
+   "id": "X47",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 2:1: legami N-H···O(carbonile) fra IMID e LON, primo",
+   "citazione": "The final IMID salt has a 2:1 ratio and contains units of the same stoichiometry containing N-H∙∙∙O(carbonyl) hydrogen bonds (2.69 Å, 159° and 2.76 Å, 169°).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.69,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 159,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F12",
+    "etichetta": "LON-IMID 2:1 co-crystal salt"
+   },
+   "tecnica": "SCXRD",
+   "note": "Le due coppie (2.69 Å, 159° e 2.76 Å, 169°) sono i due legami N-H···O(carbonile)."
+  },
+  {
+   "id": "X48",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 2:1: legami N-H···O(carbonile) fra IMID e LON, secondo",
+   "citazione": "The final IMID salt has a 2:1 ratio and contains units of the same stoichiometry containing N-H∙∙∙O(carbonyl) hydrogen bonds (2.69 Å, 159° and 2.76 Å, 169°).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.76,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 169,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F12",
+    "etichetta": "LON-IMID 2:1 co-crystal salt"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X49",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 2:1: dimero di LON via O-H···O(carbossilato)",
+   "citazione": "LON dimers form via O-H∙∙∙O(carboxylate) hydrogen bonds (2.51 Å, 173°) connecting the 2:1 units along the c-axis in chains (Figure 8, right).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.51,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 173,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F12",
+    "etichetta": "LON-IMID 2:1 co-crystal salt"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X50",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-IMID 2:1: catene lungo c, strati paralleli e reticolo 3D",
+   "citazione": "The chains stack to form parallel layers generating the 3D lattice.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F12",
+    "etichetta": "LON-IMID 2:1 co-crystal salt"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "chains along the c-axis stack to form parallel layers generating the 3D lattice"
+  },
+  {
+   "id": "X51",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-IMID 2:1: occupanza dell'idrogeno e protonazione",
+   "citazione": "Both LON molecules possess a half occupied hydrogen atom whilst IMID is fully protonated, thus making a charge-balanced unit.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F12",
+    "etichetta": "LON-IMID 2:1 co-crystal salt"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "both LON molecules possess a half occupied hydrogen atom; IMID fully protonated; charge-balanced unit"
+  },
+  {
+   "id": "X52",
+   "categoria": "geometria",
+   "proprieta": "LON-IMID 2:1: vuoti accessibili al solvente",
+   "citazione": "There are solvent accessible voids present (110 Å3) which could contain / uptake solvent or water molecules however residual density analysis indicates no electron density present.",
+   "valori": [
+    {
+     "etichetta": "solvent accessible void volume",
+     "valore": 110,
+     "unita": "Å3"
+    }
+   ],
+   "oggetto": {
+    "forma": "F12",
+    "etichetta": "LON-IMID 2:1 co-crystal salt"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "residual density analysis indicates no electron density in the voids"
+  },
+  {
+   "id": "X53",
+   "categoria": "geometria",
+   "proprieta": "LON-HALO.3H2O, legame primario N+-H···O- (D···A e angolo)",
+   "citazione": "LON-HALO forms a 1:1 trihydrate salt containing a primary N+-H∙∙∙O- hydrogen bond (2.72 Å, 172°).",
+   "valori": [
+    {
+     "etichetta": "D···A",
+     "valore": 2.72,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angle",
+     "valore": 172,
+     "unita": "°"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "LON-HALO.3H2O"
+   },
+   "tecnica": "SCXRD"
+  },
+  {
+   "id": "X54",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-HALO.3H2O: legami dell'acqua e tetrameri di acqua",
+   "citazione": "Additional hydrogen bonds involving the water molecules extend the network via the same carboxylate oxygen partaking in the charge assisted LON-HALO hydrogen bond (OH∙∙∙O(carboxylate)), as well as through O-H∙∙∙O hydrogen bonds between water molecules. A tetrameric supramolecular unit, consisting of two LON molecules (carboxylate end) connected via two water molecules, forms around an inversion centre and is surrounded by two HALO molecules (Figure 9). These HALO molecules are situated one each above and below the tetramer plane and form N+-H∙∙∙O- hydrogen bonds.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "LON-HALO.3H2O"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "water molecules extend the network via OH···O(carboxylate) and O-H···O hydrogen bonds between water molecules; HALO molecules above and below the tetramer plane form N+-H···O- hydrogen bonds"
+  },
+  {
+   "id": "X55",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-HALO.3H2O: due tetrameri uniti da un legame acqua···carbossilato",
+   "citazione": "Main hydrogen bonds present in the 1:1 LON-HALO trihydrate salt, consisting of two tetramers: one containing two LON molecules and two water molecules and the second a self-assembling tetramer of four water molecules. These are linked via a water∙∙∙carboxylate hydrogen bond, and extend into a lattice through various tetramer∙∙∙HALO hydrogen bonds.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "LON-HALO.3H2O"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "two tetramers: two LON and two water molecules, and a self-assembling tetramer of four water molecules, linked via a water···carboxylate hydrogen bond and extended into a lattice by tetramer···HALO hydrogen bonds",
+   "note": "Didascalia della Fig. 9."
+  },
+  {
+   "id": "X56",
+   "categoria": "geometria",
+   "proprieta": "vuoti nei cristalli di LON-IMID.EtOAc e LON-HALO capaci di ospitare una molecola d'acqua",
+   "citazione": "Further analysis of the crystal structures indicates the presence of voids (56.48 Å3 LON-IMID.EtOAc and 44.63 Å3 LONHALO.2H2O), each capable of accommodating a water molecule, which explains the observed water uptake.",
+   "valori": [
+    {
+     "etichetta": "void volume, LON-IMID.EtOAc",
+     "forma": "F10",
+     "valore": 56.48,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "void volume, LON-HALO",
+     "forma": "F9",
+     "valore": 44.63,
+     "unita": "Å3"
+    }
+   ],
+   "tecnica": "SCXRD",
+   "qualitativo": "each void capable of accommodating a water molecule; explains the observed water uptake",
+   "note": "Il testo scrive «LONHALO.2H2O» per la forma di HALO (due occorrenze di «2H2O» contro «3H2O» altrove)."
+  },
+  {
+   "id": "X57",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-BENZ: unita' a 4 membri e catene a zig-zag",
+   "citazione": "This results in a 4-membered supramolecular unit, similar to that seen in α-LON. These assemble into zig-zag chains with a head-to-head arrangement of adjacent chains (Figure 3).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "LON-BENZ"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "4-membered supramolecular unit similar to that seen in α-LON; zig-zag chains with head-to-head arrangement of adjacent chains"
+  },
+  {
+   "id": "X58",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-ISO: tetrameri non planari, orientazioni e impilamento",
+   "citazione": "As seen for LONNICO, the tetrameric motif is not planar, as the co-former molecules sit slightly above and below the plane of the carboxylic acids with a tilted orientation. N-H∙∙∙O hydrogen bonds and C-H∙∙∙O interactions connect the tetramers, which occur with two general orientations, and stack in chains of the tetrameric units down the b-axis.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "LON-ISO"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "tetrameric motif not planar (co-former molecules slightly above and below the plane of the carboxylic acids, tilted); N-H···O hydrogen bonds and C-H···O interactions connect the tetramers, which occur with two general orientations and stack in chains down the b-axis"
+  },
+  {
+   "id": "X59",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "α- e β-LON: dimeri acido-acido e catene C-H···O",
+   "citazione": "Both the polymorphs form acid∙∙∙acid dimers which are connected through C-H∙∙∙O interactions into chains (Figure 1).",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "α-LON e β-LON"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "acid···acid dimers connected through C-H···O interactions into chains in both polymorphs"
+  },
+  {
+   "id": "X60",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "formazione del bulk di LON: miscela di α e β",
+   "citazione": "It is noted that the bulk LON material used for all experiments in our study is a mixture of both α- and β- polymorphs, however with a greater proportion of β (see ESI, section 2).",
+   "valori": [],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "LON (bulk material)"
+   },
+   "qualitativo": "mixture of α and β with a greater proportion of β"
+  },
+  {
+   "id": "X61",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "motivi strutturali comuni (conclusioni)",
+   "citazione": "A number of structural similarities can be seen across the set, such as the existence of tetrameric (LON-ISO and LON-NICO), ladder (LON-MEL and LON-PIPE) and ladder-related-chain (LON-IMID) motifs.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "tetrameric motifs (LON-ISO and LON-NICO), ladder motifs (LON-MEL and LON-PIPE), ladder-related-chain motifs (LON-IMID)"
+  },
+  {
+   "id": "X62",
+   "categoria": "altro",
+   "proprieta": "conteggio dei contatti di legame H nelle strutture (conclusioni)",
+   "citazione": "Two structures featured acid-amide dimers, with a further two (1:1 and 2:1 LON-IMID) containing a dimer formed via a single hydrogen bond with a shared proton (O-H∙∙∙H-O). Three structures (LONMEL, LON-ISO and LON-PIPE) display NH2∙∙∙OLON interactions, five structures contain N-H∙∙∙OLON interactions with one displaying a hydrogen bond from the carboxylic acid to a pyridyl N.",
+   "valori": [
+    {
+     "etichetta": "structures with acid-amide dimers",
+     "valore": 2
+    },
+    {
+     "etichetta": "structures with a dimer via a single hydrogen bond with a shared proton (1:1 and 2:1 LON-IMID)",
+     "valore": 2
+    },
+    {
+     "etichetta": "structures with NH2···OLON interactions (LON-MEL, LON-ISO and LON-PIPE)",
+     "valore": 3
+    },
+    {
+     "etichetta": "structures with N-H···OLON interactions",
+     "valore": 5
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "note": "Conteggi in lettere nel testo («Two», «a further two», «Three», «five»). Una struttura mostra un legame H dall'acido a un N piridilico."
+  },
+  {
+   "id": "X63",
+   "categoria": "altro",
+   "proprieta": "regola dei tre: soglie di DeltaPKa per sale e cocristallo",
+   "citazione": "The rule of three387,398 has been well established as a tool to predict cocrystal or salt formation: If ΔpKa (pKa (protonated base) − pKa (acid)) of the acid and base is greater than 3 proton transfer will occur and a salt results, while if < 0 no proton transfer will take place and a co-crystal will be produced. The intermediate range between 0 and 3 is harder to categorise,4039-421 making systems with ΔpKa values in this range difficult to predict.",
+   "valori": [
+    {
+     "etichetta": "DeltaPKa above which a salt forms",
+     "valore": 3,
+     "limite": "sopra"
+    },
+    {
+     "etichetta": "DeltaPKa below which a co-crystal forms",
+     "valore": 0,
+     "limite": "sotto"
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "between 0 and 3 salt or co-crystal formation is harder to predict",
+   "calcolato": true,
+   "note": "Regola della letteratura citata dagli autori (rif. non decifrabili: numeri attaccati alle parole nel testo letto), applicata nel lavoro; DeltaPKa = pKa (protonated base) - pKa (acid)."
+  },
+  {
+   "id": "X64",
+   "categoria": "computazionale",
+   "proprieta": "pKa predetti con MarvinSketch (plugin Physiochemical Properties Calculator)",
+   "citazione": "For all the systems reported herein, pKa values were predicted using the physiochemical properties calculator plugin432 as implemented in MarvinSketch443 and the prediction methodology is described in ESI, section 8.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "MarvinSketch",
+   "qualitativo": "pKa values predicted for all the systems; prediction methodology in ESI section 8",
+   "calcolato": true,
+   "note": "Valori nel supplementare (ESI sezione 8): nel testo non ci sono."
+  },
+  {
+   "id": "X65",
+   "categoria": "computazionale",
+   "proprieta": "regola dei tre: esito dei tre casi nel lavoro",
+   "citazione": "The rule of three works in just over half of the solids reported in this study, however some discrepancies are present, especially for those with ΔpKa values between 0 and 3. There were also combinations which produced multiple experimental structures which are also hard to predict.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "the rule works in just over half of the solids; discrepancies for ΔpKa between 0 and 3; combinations with multiple experimental structures are hard to predict",
+   "calcolato": true
+  },
+  {
+   "id": "X66",
+   "categoria": "computazionale",
+   "proprieta": "intervallo di DeltaPKa delle strutture con trasferimento parziale del protone",
+   "citazione": "As expected, all structures exhibiting a degree of partial proton transfer lie within the 0-3 range.",
+   "valori": [
+    {
+     "etichetta": "lower bound of ΔpKa",
+     "valore": 0
+    },
+    {
+     "etichetta": "upper bound of ΔpKa",
+     "valore": 3
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "calcolato": true,
+   "note": "Intervallo «0-3» riportato in due elementi (da/a)."
+  },
+  {
+   "id": "X67",
+   "categoria": "computazionale",
+   "proprieta": "soglie permissive di DeltaPKa per cui tutte le previsioni sono corrette",
+   "citazione": "If the cut off values are set more leniently, e.g. the generally accepted ΔpKa differences of above 2 or 3 for salt formation and less than 0 or 1 for co-crystal production, all predictions reported herein can be considered correct.",
+   "valori": [
+    {
+     "etichetta": "ΔpKa for salt formation (above)",
+     "valore": 2,
+     "limite": "sopra"
+    },
+    {
+     "etichetta": "ΔpKa for salt formation (above), alternative",
+     "valore": 3,
+     "limite": "sopra"
+    },
+    {
+     "etichetta": "ΔpKa for co-crystal production (less than)",
+     "valore": 0,
+     "limite": "sotto"
+    },
+    {
+     "etichetta": "ΔpKa for co-crystal production (less than), alternative",
+     "valore": 1,
+     "limite": "sotto"
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "calcolato": true,
+   "note": "«above 2 or 3 for salt formation and less than 0 or 1 for co-crystal production»: due soglie alternative per ciascun caso."
+  },
+  {
+   "id": "X68",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "pKa in soluzione e stato solido",
+   "citazione": "solution pKa values are not wholly reliable when applied to the solid state.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "solution pKa values are not wholly reliable in the solid state",
+   "note": "Citato (Park et al.)."
+  },
+  {
+   "id": "X69",
+   "categoria": "altro",
+   "proprieta": "nome sistematico di LON",
+   "citazione": "Lonidamine (1-(2,4-dichlorobenzyl)-1H-indazole-3-carboxylic acid, LON, Figure 1)",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "lonidamine = 1-(2,4-dichlorobenzyl)-1H-indazole-3-carboxylic acid",
+   "note": "Il nome e' anche in composti dell'estrazione principale."
+  },
+  {
+   "id": "X70",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON: la funzione carbossilica genera le interazioni forti",
+   "citazione": "Visual inspection and structural analysis of LON polymorphs indicates that the potential for strong intermolecular interactions arises predominantly from the carboxylic acid group.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "the potential for strong intermolecular interactions arises predominantly from the carboxylic acid group"
+  },
+  {
+   "id": "X71",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-NICO e LON-ISO: piu' legami H da LON dei polimorfi di LON e legami coformero···coformero",
+   "citazione": "Both LON-NICO and LON-ISO have more hydrogen bond interactions from LON than either of the LON polymorphs, as well as additional coformer·∙∙co-former hydrogen bonds. The increased number, as well as some shorter bonding distances, makes the hydrogen bonding network more difficult to disrupt.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "LON-NICO e LON-ISO"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "more hydrogen bond interactions from LON than either LON polymorph, plus additional co-former···co-former hydrogen bonds; increased number and some shorter distances make the network more difficult to disrupt; dissolution proceeds at a slower rate"
+  },
+  {
+   "id": "X72",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "LON-BENZ: rete di interazioni simile ad α- e β-LON con meno legami H",
+   "citazione": "LON-BENZ displays a similar interaction network to α- and β-LON, with fewer hydrogen bonds and the main dimer interaction having slightly longer bonding interactions. This enables the increased dissolution rate and solubility.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "LON-BENZ"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "similar interaction network to α- and β-LON, fewer hydrogen bonds, main dimer interaction with slightly longer bonding interactions; enables the increased dissolution rate and solubility"
+  },
+  {
+   "id": "X73",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "carbossile di LON e indazolo: interazioni osservate (conclusioni)",
+   "citazione": "As expected, the carboxylic acid group of LON forms the primary interactions in all crystal structures, which are varied in their nature.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "the carboxylic acid group of LON forms the primary interactions in all crystal structures, varied in nature"
+  },
+  {
+   "id": "X74",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "indazolo: tipi di gruppi con cui interagisce (conclusioni)",
+   "citazione": "The indazole group partakes in interactions with two general types of functionalities: C-H containing (the most prevalent being aromatic C-H) and N-H containing (the most prevalent functional group being NH2) groups in approximately equal numbers.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "indazole interacts with C-H containing (most prevalent aromatic C-H) and N-H containing (most prevalent NH2) groups in approximately equal numbers"
+  },
+  {
+   "id": "X75",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "LON-PIPE: velocita' di dissoluzione iniziale simile a LON nonostante la solubilita' piu' alta",
+   "citazione": "LON-PIPE displays a similar initial dissolution rate to LON, however due to the increased solubility it might be expected that the dissolution rate would also be increased. The initial dissolution rate is dependent on kinetics and may be impeded due to the larger relative proportion of poorly soluble LON present (2:1 ratio). Over extended time periods, towards the end of the dissolution and in the equilibrium solubility determination, thermodynamics will have a greater influence. This is displayed in the LON-PIPE dissolution curve, in which the dissolution rate is increasing at the fastest rate of all samples at the end of the experiment. This would suggest a high solubility, but with a kinetic barrier.",
+   "valori": [
+    {
+     "etichetta": "LON:PIPE ratio",
+     "testo": "2:1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "tecnica": "HPLC",
+   "qualitativo": "similar initial dissolution rate to LON despite the higher solubility; may be impeded by the larger relative proportion of poorly soluble LON (2:1 ratio); dissolution rate increasing fastest at the end of the experiment; high solubility with a kinetic barrier",
+   "note": "Rapporto 2:1 riportato in `testo`."
+  },
+  {
+   "id": "X76",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "velocita' di dissoluzione iniziale: miglioramento nei sali con melamina e imidazolo e nel cocristallo con benzammide",
+   "citazione": "an improvement is seen in the salts with melamine and imidazole and the co-crystal with benzamide. As discussed, LON-IMID is unstable and readily dissociates, resulting in the increased dissolution rate observed.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "HPLC",
+   "qualitativo": "improved initial dissolution in LON-MEL, LON-IMID and LON-BENZ (Figure 12); the increased rate of LON-IMID is attributed to dissociation"
+  },
+  {
+   "id": "X77",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' di LON-PIPE e LON-HALO migliorata ma non la velocita' di dissoluzione",
+   "citazione": "Two of the other salts (LON-PIPE and LON-HALO) showed an improvement in their solubility however, this was not reflected in the dissolution rate.",
+   "valori": [
+    {
+     "etichetta": "salts with improved solubility but not dissolution rate",
+     "valore": 2
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "HPLC",
+   "note": "«Two» in lettere."
+  },
+  {
+   "id": "X78",
+   "categoria": "cristallografia",
+   "proprieta": "affinamento anisotropo degli atomi non idrogeno",
+   "citazione": "Non-hydrogen atoms were refined with anisotropic displacement parameters.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "non-hydrogen atoms refined with anisotropic displacement parameters"
+  },
+  {
+   "id": "X79",
+   "categoria": "termica",
+   "proprieta": "perdita d'acqua dagli idrati: complessita' e posizione dell'acqua",
+   "citazione": "Water loss from hydrate crystals can be a complex event, dependent upon the location of the water molecule in the crystal lattice and the number of hydrogen bonds that it forms with the parent molecules.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "LON-HALO.3H2O"
+   },
+   "tecnica": "DSC",
+   "qualitativo": "water loss depends on the location of the water molecule in the lattice and on the number of hydrogen bonds it forms with the parent molecules"
+  },
+  {
+   "id": "X80",
+   "categoria": "termica",
+   "proprieta": "decomposizione di LON-HALO.3H2O secondo la nota della Tabella 1 (233 °C)",
+   "citazione": "#LON-HALO displays a number of events which can be described as water loss (60-80 °C), melting (105-125 °C) and decomposition 233 °C.",
+   "valori": [
+    {
+     "etichetta": "decomposition",
+     "valore": 233,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "LON-HALO.3H2O"
+   },
+   "tecnica": "DSC",
+   "note": "Il testo dice invece «around 275 °C» (evento E16 dell'estrazione principale): la nota della Tabella 1 e' registrata qui."
+  },
+  {
+   "id": "X81",
+   "categoria": "termica",
+   "proprieta": "punto di fusione di riferimento del coformero BENZ (Tabella 1)",
+   "citazione": "LON-BENZ 163.3 127-130",
+   "valori": [
+    {
+     "etichetta": "co-former melting point, from",
+     "valore": 127,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "co-former melting point, to",
+     "valore": 130,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "DSC",
+   "note": "Colonna «Co-former Melting Point /°C» della Tabella 1; l'unita' sta nell'intestazione. Gli autori lo usano per spiegare i punti di fusione piu' bassi dei cocristalli («in accordance with the lower melting point of the co-formers»). Nella riga la Tonset del materiale e' nell'evento dell'estrazione principale."
+  },
+  {
+   "id": "X82",
+   "categoria": "termica",
+   "proprieta": "punto di fusione di riferimento del coformero IMID (Tabella 1)",
+   "citazione": "LON-IMID 81.1## 88-91",
+   "valori": [
+    {
+     "etichetta": "co-former melting point, from",
+     "valore": 88,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "co-former melting point, to",
+     "valore": 91,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "composto": "C4"
+   },
+   "tecnica": "DSC",
+   "note": "Colonna «Co-former Melting Point /°C» della Tabella 1; l'unita' sta nell'intestazione. Gli autori lo usano per spiegare i punti di fusione piu' bassi dei cocristalli («in accordance with the lower melting point of the co-formers»). Nella riga la Tonset del materiale e' nell'evento dell'estrazione principale."
+  },
+  {
+   "id": "X83",
+   "categoria": "termica",
+   "proprieta": "punto di fusione di riferimento del coformero NICO (Tabella 1)",
+   "citazione": "LON-NICO 155.0 128-130",
+   "valori": [
+    {
+     "etichetta": "co-former melting point, from",
+     "valore": 128,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "co-former melting point, to",
+     "valore": 130,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "composto": "C7"
+   },
+   "tecnica": "DSC",
+   "note": "Colonna «Co-former Melting Point /°C» della Tabella 1; l'unita' sta nell'intestazione. Gli autori lo usano per spiegare i punti di fusione piu' bassi dei cocristalli («in accordance with the lower melting point of the co-formers»). Nella riga la Tonset del materiale e' nell'evento dell'estrazione principale."
+  },
+  {
+   "id": "X84",
+   "categoria": "termica",
+   "proprieta": "punto di fusione di riferimento del coformero MEL (Tabella 1)",
+   "citazione": "LON-MEL 276.7 345-350",
+   "valori": [
+    {
+     "etichetta": "co-former melting point, from",
+     "valore": 345,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "co-former melting point, to",
+     "valore": 350,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "composto": "C6"
+   },
+   "tecnica": "DSC",
+   "note": "Colonna «Co-former Melting Point /°C» della Tabella 1; l'unita' sta nell'intestazione. Gli autori lo usano per spiegare i punti di fusione piu' bassi dei cocristalli («in accordance with the lower melting point of the co-formers»). Nella riga la Tonset del materiale e' nell'evento dell'estrazione principale."
+  },
+  {
+   "id": "X85",
+   "categoria": "termica",
+   "proprieta": "punto di fusione di riferimento del coformero ISO (Tabella 1)",
+   "citazione": "LON-ISO 158.4 156",
+   "valori": [
+    {
+     "etichetta": "co-former melting point",
+     "valore": 156,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "composto": "C5"
+   },
+   "tecnica": "DSC",
+   "note": "Colonna «Co-former Melting Point /°C» della Tabella 1; l'unita' sta nell'intestazione. Gli autori lo usano per spiegare i punti di fusione piu' bassi dei cocristalli («in accordance with the lower melting point of the co-formers»). Nella riga la Tonset del materiale e' nell'evento dell'estrazione principale."
+  },
+  {
+   "id": "X86",
+   "categoria": "termica",
+   "proprieta": "punto di fusione di riferimento del coformero PIPE (Tabella 1)",
+   "citazione": "LON-PIPE 242.1 109-113",
+   "valori": [
+    {
+     "etichetta": "co-former melting point, from",
+     "valore": 109,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "co-former melting point, to",
+     "valore": 113,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "composto": "C8"
+   },
+   "tecnica": "DSC",
+   "note": "Colonna «Co-former Melting Point /°C» della Tabella 1; l'unita' sta nell'intestazione. Gli autori lo usano per spiegare i punti di fusione piu' bassi dei cocristalli («in accordance with the lower melting point of the co-formers»). Nella riga la Tonset del materiale e' nell'evento dell'estrazione principale."
+  },
+  {
+   "id": "X87",
+   "categoria": "termica",
+   "proprieta": "numero isolato «148-152» nell'area della Tabella 1 (probabile punto di fusione di un coformero)",
+   "citazione": "148-152",
+   "valori": [
+    {
+     "etichetta": "isolated range, from",
+     "valore": 148,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "isolated range, to",
+     "valore": 152,
+     "unita": "°C"
+    }
+   ],
+   "oggetto": {
+    "etichetta": "Table 1, numero isolato"
+   },
+   "tecnica": "DSC",
+   "note": "Numero staccato dalla Tabella 1 dall'impaginazione del PDF. La riga di LON-HALO (trihydrate) non ha il punto di fusione del coformero, quindi e' probabile che sia quello di HALO, ma il testo non lo dice: non attribuito. La Tabella 2 e la Tabella 1 sono rimescolate nel testo letto."
+  },
+  {
+   "id": "X88",
+   "categoria": "termica",
+   "proprieta": "DSC: solo il solvato 1:1 di LON-IMID analizzato",
+   "citazione": "Of the three solid forms of LONIMID, only the 1:1 salt solvate (LON-IMID.EtOAc) was analysed by DSC.",
+   "valori": [
+    {
+     "etichetta": "solid forms of LON-IMID",
+     "valore": 3
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   },
+   "tecnica": "DSC",
+   "note": "«three» in lettere."
+  },
+  {
+   "id": "X89",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "LON (bulk material): dissoluzione in 30 minuti e rapporto di solubilita' con l'API (Tabella 2)",
+   "citazione": "Sample % Dissolution in 30 mins Ratio to API LON 27.7 0.115 1",
+   "valori": [
+    {
+     "etichetta": "% dissolution in 30 mins",
+     "forma": "F3",
+     "valore": 27.7,
+     "unita": "%"
+    },
+    {
+     "etichetta": "ratio to API",
+     "forma": "F3",
+     "valore": 1
+    }
+   ],
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "LON (bulk material)"
+   },
+   "tecnica": "HPLC",
+   "condizioni": "compressa (25 mg API in 250 mg di amido di mais), 1 % Tween 80 in acqua, 37 °C, 75 rpm",
+   "note": "Righe della Tabella 2 rimescolate nel testo letto (l'intestazione «Solubility /mgmL-1» e' staccata dal resto): colonne attribuite per ordine di riga: dissoluzione %, solubilita' (mg/mL, in molecole dell'estrazione principale), rapporto con l'API; l'ordine e' coerente col rapporto (solubilita' della riga / 0.115 per LON) e col testo («The highest solubility is observed for PIPE, followed by IMID and HALO»)."
+  },
+  {
+   "id": "X90",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "LON-BENZ: dissoluzione in 30 minuti e rapporto di solubilita' con l'API (Tabella 2)",
+   "citazione": "LON-BENZ 32.5 0.130 1.13",
+   "valori": [
+    {
+     "etichetta": "% dissolution in 30 mins",
+     "forma": "F4",
+     "valore": 32.5,
+     "unita": "%"
+    },
+    {
+     "etichetta": "ratio to API",
+     "forma": "F4",
+     "valore": 1.13
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "LON-BENZ"
+   },
+   "tecnica": "HPLC",
+   "condizioni": "compressa (25 mg API in 250 mg di amido di mais), 1 % Tween 80 in acqua, 37 °C, 75 rpm",
+   "note": "Righe della Tabella 2 rimescolate nel testo letto (l'intestazione «Solubility /mgmL-1» e' staccata dal resto): colonne attribuite per ordine di riga: dissoluzione %, solubilita' (mg/mL, in molecole dell'estrazione principale), rapporto con l'API; l'ordine e' coerente col rapporto (solubilita' della riga / 0.115 per LON) e col testo («The highest solubility is observed for PIPE, followed by IMID and HALO»)."
+  },
+  {
+   "id": "X91",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "LON-HALO.3H2O: dissoluzione in 30 minuti e rapporto di solubilita' con l'API (Tabella 2)",
+   "citazione": "LON-HALO 25.8 0.175 1.52",
+   "valori": [
+    {
+     "etichetta": "% dissolution in 30 mins",
+     "forma": "F9",
+     "valore": 25.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "ratio to API",
+     "forma": "F9",
+     "valore": 1.52
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "LON-HALO.3H2O"
+   },
+   "tecnica": "HPLC",
+   "condizioni": "compressa (25 mg API in 250 mg di amido di mais), 1 % Tween 80 in acqua, 37 °C, 75 rpm",
+   "note": "Righe della Tabella 2 rimescolate nel testo letto (l'intestazione «Solubility /mgmL-1» e' staccata dal resto): colonne attribuite per ordine di riga: dissoluzione %, solubilita' (mg/mL, in molecole dell'estrazione principale), rapporto con l'API; l'ordine e' coerente col rapporto (solubilita' della riga / 0.115 per LON) e col testo («The highest solubility is observed for PIPE, followed by IMID and HALO»)."
+  },
+  {
+   "id": "X92",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "LON-IMID.EtOAc: dissoluzione in 30 minuti e rapporto di solubilita' con l'API (Tabella 2)",
+   "citazione": "LON-IMID (solvate) 93.5 0.511 a 4.45",
+   "valori": [
+    {
+     "etichetta": "% dissolution in 30 mins",
+     "forma": "F10",
+     "valore": 93.5,
+     "unita": "%"
+    },
+    {
+     "etichetta": "ratio to API",
+     "forma": "F10",
+     "valore": 4.45
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   },
+   "tecnica": "HPLC",
+   "condizioni": "compressa (25 mg API in 250 mg di amido di mais), 1 % Tween 80 in acqua, 37 °C, 75 rpm",
+   "note": "Righe della Tabella 2 rimescolate nel testo letto (l'intestazione «Solubility /mgmL-1» e' staccata dal resto): colonne attribuite per ordine di riga: dissoluzione %, solubilita' (mg/mL, in molecole dell'estrazione principale), rapporto con l'API; l'ordine e' coerente col rapporto (solubilita' della riga / 0.115 per LON) e col testo («The highest solubility is observed for PIPE, followed by IMID and HALO»). «a» = apparent solubility (nota della tabella)."
+  },
+  {
+   "id": "X93",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "LON-ISO: dissoluzione in 30 minuti e rapporto di solubilita' con l'API (Tabella 2)",
+   "citazione": "LON-ISO 9.7 0.055 a 0.48",
+   "valori": [
+    {
+     "etichetta": "% dissolution in 30 mins",
+     "forma": "F6",
+     "valore": 9.7,
+     "unita": "%"
+    },
+    {
+     "etichetta": "ratio to API",
+     "forma": "F6",
+     "valore": 0.48
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "LON-ISO"
+   },
+   "tecnica": "HPLC",
+   "condizioni": "compressa (25 mg API in 250 mg di amido di mais), 1 % Tween 80 in acqua, 37 °C, 75 rpm",
+   "note": "Righe della Tabella 2 rimescolate nel testo letto (l'intestazione «Solubility /mgmL-1» e' staccata dal resto): colonne attribuite per ordine di riga: dissoluzione %, solubilita' (mg/mL, in molecole dell'estrazione principale), rapporto con l'API; l'ordine e' coerente col rapporto (solubilita' della riga / 0.115 per LON) e col testo («The highest solubility is observed for PIPE, followed by IMID and HALO»). «a» = apparent solubility (nota della tabella)."
+  },
+  {
+   "id": "X94",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "LON-MEL: dissoluzione in 30 minuti e rapporto di solubilita' con l'API (Tabella 2)",
+   "citazione": "LON-MEL 44.7 0.041 0.36",
+   "valori": [
+    {
+     "etichetta": "% dissolution in 30 mins",
+     "forma": "F7",
+     "valore": 44.7,
+     "unita": "%"
+    },
+    {
+     "etichetta": "ratio to API",
+     "forma": "F7",
+     "valore": 0.36
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "LON-MEL"
+   },
+   "tecnica": "HPLC",
+   "condizioni": "compressa (25 mg API in 250 mg di amido di mais), 1 % Tween 80 in acqua, 37 °C, 75 rpm",
+   "note": "Righe della Tabella 2 rimescolate nel testo letto (l'intestazione «Solubility /mgmL-1» e' staccata dal resto): colonne attribuite per ordine di riga: dissoluzione %, solubilita' (mg/mL, in molecole dell'estrazione principale), rapporto con l'API; l'ordine e' coerente col rapporto (solubilita' della riga / 0.115 per LON) e col testo («The highest solubility is observed for PIPE, followed by IMID and HALO»)."
+  },
+  {
+   "id": "X95",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "LON-NICO: dissoluzione in 30 minuti e rapporto di solubilita' con l'API (Tabella 2)",
+   "citazione": "LON-NICO 19.7 0.093a 0.81",
+   "valori": [
+    {
+     "etichetta": "% dissolution in 30 mins",
+     "forma": "F5",
+     "valore": 19.7,
+     "unita": "%"
+    },
+    {
+     "etichetta": "ratio to API",
+     "forma": "F5",
+     "valore": 0.81
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "LON-NICO"
+   },
+   "tecnica": "HPLC",
+   "condizioni": "compressa (25 mg API in 250 mg di amido di mais), 1 % Tween 80 in acqua, 37 °C, 75 rpm",
+   "note": "Righe della Tabella 2 rimescolate nel testo letto (l'intestazione «Solubility /mgmL-1» e' staccata dal resto): colonne attribuite per ordine di riga: dissoluzione %, solubilita' (mg/mL, in molecole dell'estrazione principale), rapporto con l'API; l'ordine e' coerente col rapporto (solubilita' della riga / 0.115 per LON) e col testo («The highest solubility is observed for PIPE, followed by IMID and HALO»). «a» = apparent solubility (nota della tabella)."
+  },
+  {
+   "id": "X96",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "LON-PIPE: dissoluzione in 30 minuti e rapporto di solubilita' con l'API (Tabella 2)",
+   "citazione": "LON-PIPE 21.1 2.987 26.0",
+   "valori": [
+    {
+     "etichetta": "% dissolution in 30 mins",
+     "forma": "F8",
+     "valore": 21.1,
+     "unita": "%"
+    },
+    {
+     "etichetta": "ratio to API",
+     "forma": "F8",
+     "valore": 26.0
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "tecnica": "HPLC",
+   "condizioni": "compressa (25 mg API in 250 mg di amido di mais), 1 % Tween 80 in acqua, 37 °C, 75 rpm",
+   "note": "Righe della Tabella 2 rimescolate nel testo letto (l'intestazione «Solubility /mgmL-1» e' staccata dal resto): colonne attribuite per ordine di riga: dissoluzione %, solubilita' (mg/mL, in molecole dell'estrazione principale), rapporto con l'API; l'ordine e' coerente col rapporto (solubilita' della riga / 0.115 per LON) e col testo («The highest solubility is observed for PIPE, followed by IMID and HALO»)."
+  },
+  {
+   "id": "X97",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "soglia di variazione di massa in DVS (due campioni oltre 1 %)",
+   "citazione": "Two samples show a mass change greater than 1 %, the LONIMD.EtOAc salt solvate 1.9 % and the LON-HALO.3H2O salt trihydrate 2.6 %.",
+   "valori": [
+    {
+     "etichetta": "mass change threshold",
+     "valore": 1,
+     "unita": "%",
+     "limite": "sopra"
+    }
+   ],
+   "tecnica": "DVS",
+   "qualitativo": "the water uptake is beyond surface adsorption; other samples below the 1 % threshold (implicit)",
+   "note": "I valori 1.9 e 2.6 % sono in molecole (igroscopicita'). Il testo scrive «LONIMD.EtOAc». «mass change greater than 1 %» vale solo per i due campioni citati; per gli altri il testo non da' valori."
+  },
+  {
+   "id": "X98",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "miglioramento della velocita' iniziale di dissoluzione e della solubilita' (conclusioni)",
+   "citazione": "Initial dissolution rates were improved in three materials (LON-IMID, LON-MEL and LON-BENZ) with one also showing an improved solubility (LON-BENZ).",
+   "valori": [
+    {
+     "etichetta": "materials with improved initial dissolution rate",
+     "valore": 3
+    },
+    {
+     "etichetta": "materials with improved solubility",
+     "valore": 1
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "HPLC",
+   "qualitativo": "LON-IMID, LON-MEL and LON-BENZ improved initial dissolution rate; LON-BENZ improved solubility",
+   "note": "Conteggi in lettere («three», «one»)."
+  },
+  {
+   "id": "X99",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "stabilita' uguale o migliore di LON nei materiali con coformero farmaceutico",
+   "citazione": "an equivalent or improved stability compared to LON was recognized in three of the salt materials and one co-crystal.",
+   "valori": [
+    {
+     "etichetta": "salt materials with equivalent or improved stability",
+     "valore": 3
+    },
+    {
+     "etichetta": "co-crystals with equivalent or improved stability",
+     "valore": 1
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "PXRD",
+   "note": "«three of the salt materials and one co-crystal», in lettere."
+  },
+  {
+   "id": "X100",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' dei cocristalli rispetto a LON",
+   "citazione": "Two of the three cocrystals result in lower solubility, whilst one (LON-BENZ) shows a slightly increased solubility when compared to the parent material.",
+   "valori": [
+    {
+     "etichetta": "co-crystals with lower solubility",
+     "valore": 2
+    },
+    {
+     "etichetta": "co-crystals out of three",
+     "valore": 3
+    },
+    {
+     "etichetta": "co-crystals with slightly increased solubility",
+     "valore": 1
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "HPLC",
+   "qualitativo": "LON-BENZ shows slightly increased solubility compared with the parent material; LON-MEL the only salt with lower solubility",
+   "note": "Conteggi in lettere. I valori di solubilita' sono in molecole."
+  },
+  {
+   "id": "X101",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "ordine delle solubilita' dei sali",
+   "citazione": "The highest solubility is observed for PIPE, followed by IMID and HALO (all salts).",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "HPLC",
+   "qualitativo": "solubility order among salts: PIPE > IMID > HALO"
+  },
+  {
+   "id": "X102",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda della diffrazione su polveri (Cu-Kα)",
+   "citazione": "data were collected using a Bruker D8 Advance powder X-ray diffractometer with Cu-Kα radiation (λ = 1.54060 Ǻ), with 35 kV and 40 mA voltage and current applied.",
+   "valori": [
+    {
+     "etichetta": "λ (Cu-Kα)",
+     "valore": 1.5406,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "voltage",
+     "valore": 35,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "current",
+     "valore": 40,
+     "unita": "mA"
+    }
+   ],
+   "tecnica": "PXRD",
+   "note": "Il testo scrive «λ = 1.54060 Ǻ»."
+  },
+  {
+   "id": "X103",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intervallo e velocita' di scansione PXRD",
+   "citazione": "The sample was scanned from 2θ = 5° to 50° with continuous scan, and a scan rate of 5° min-1.",
+   "valori": [
+    {
+     "etichetta": "2θ from",
+     "valore": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ to",
+     "valore": 50,
+     "unita": "°"
+    },
+    {
+     "etichetta": "scan rate",
+     "valore": 5,
+     "unita": "°/min"
+    }
+   ],
+   "tecnica": "PXRD"
+  },
+  {
+   "id": "X104",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: lunghezza d'onda e strumento per LON-NICO, LON-BENZ e 1:1 LON-IMID (Rigaku)",
+   "citazione": "Data for LON-NICO, LONBENZ, LON-4,4BIPY co-crystals and 1:1 LON-IMID salt were collected on a Rigaku FRE+ equipped with VHF Varimax confocal mirrors, an AFC10 goniometer and an HG Saturn724+ detector using Mo-Kα radiation (λ = 0.71075 Ǻ).",
+   "valori": [
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F5",
+     "valore": 0.71075,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F4",
+     "valore": 0.71075,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F11",
+     "valore": 0.71075,
+     "unita": "Å"
+    }
+   ],
+   "tecnica": "SCXRD",
+   "note": "Anche i co-cristalli LON-4,4BIPY (coformero non farmaceutico, non estratti) sono in questo gruppo. Il testo scrive «λ = 0.71075 Ǻ»."
+  },
+  {
+   "id": "X105",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: lunghezza d'onda e strumento per gli altri campioni (Agilent Supernova)",
+   "citazione": "Data for the remaining samples were collected on an Agilent Technologies Dual Source Supernova, four-circle diffractometer fitted with CCD detector and graphite monochromator using Mo-Kα radiation (λ = 0.71073 Ǻ).",
+   "valori": [
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F1",
+     "valore": 0.71073,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F6",
+     "valore": 0.71073,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F7",
+     "valore": 0.71073,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F8",
+     "valore": 0.71073,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F9",
+     "valore": 0.71073,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F10",
+     "valore": 0.71073,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "λ (Mo-Kα)",
+     "forma": "F12",
+     "valore": 0.71073,
+     "unita": "Å"
+    }
+   ],
+   "tecnica": "SCXRD",
+   "note": "«the remaining samples» e' per esclusione dal gruppo Rigaku (F4, F5, F11 e i co-cristalli LON-4,4BIPY): le sette forme sono attribuite per complemento. Il testo scrive «λ = 0.71073 Ǻ»."
+  },
+  {
+   "id": "X106",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: temperatura di raccolta (tutti i dati)",
+   "citazione": "All data was collected at 100K and suitable crystals selected and mounted using paratone or fomblin oil on a MiTeGen Micromesh holder.",
+   "valori": [
+    {
+     "etichetta": "temperature",
+     "valore": 100,
+     "unita": "K"
+    }
+   ],
+   "tecnica": "SCXRD",
+   "note": "La T e' anche nelle strutture delle forme; qui il montaggio dei cristalli."
+  },
+  {
+   "id": "X107",
+   "categoria": "cristallografia",
+   "proprieta": "raffinamento: idrogeni di N e O e protoni a posizione standard",
+   "citazione": "Hydrogen atoms for heteroatoms (N and O) were located from the difference Fourier map, except for one proton in the 2:1 imidazole structure which was set at standard position riding on the parent atom, and all were freely refined.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F12",
+    "etichetta": "LON-IMID 2:1 co-crystal salt"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "N and O hydrogens located from the difference Fourier map and freely refined, except one proton in the 2:1 imidazole structure set at standard position riding on the parent atom"
+  },
+  {
+   "id": "X108",
+   "categoria": "cristallografia",
+   "proprieta": "raffinamento: idrogeni rimanenti in posizioni idealizzate",
+   "citazione": "The remaining protons, including those of water molecules in hydrate structures and partially occupied hydrogens in, for example 1:1 imidazole salt were fixed in idealised positions with their displacement parameters riding on the values of their parent atoms.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "remaining protons, including water protons in hydrate structures and partially occupied hydrogens (e.g. 1:1 imidazole salt), fixed in idealised positions with riding displacement parameters"
+  },
+  {
+   "id": "X109",
+   "categoria": "cristallografia",
+   "proprieta": "raffinamento: vincoli e restrizioni per le strutture LON-IMID",
+   "citazione": "Various restraints and constraints were used in the structures of LON-IMID 1:1:0.5 ethyl acetate salt solvate and LON-IMID 1:1 salt to give the optimum structure refinement.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "LON-IMID 1:1:0.5 e 1:1"
+   },
+   "tecnica": "SCXRD",
+   "qualitativo": "various restraints and constraints used in LON-IMID 1:1:0.5 ethyl acetate salt solvate and LON-IMID 1:1 salt to give the optimum structure refinement"
+  },
+  {
+   "id": "X110",
+   "categoria": "cristallografia",
+   "proprieta": "PLATON: lunghezze di legame H normalizzate per neutroni",
+   "citazione": "PLATON,554 with neutron normalised hydrogen bond lengths (for O-H, N-H and C-H at 0.983 Ǻ, 1.009 Ǻ and 1.008 Ǻ",
+   "valori": [
+    {
+     "etichetta": "O-H",
+     "valore": 0.983,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "N-H",
+     "valore": 1.009,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C-H",
+     "valore": 1.008,
+     "unita": "Å"
+    }
+   ],
+   "tecnica": "PLATON",
+   "note": "La frase e' interrotta da un'intestazione di pagina nel testo letto e continua «respectively), was used for the calculation of bond lengths, bond angles and torsion angles». I valori sono quelli di normalizzazione delle lunghezze di legame H (non misure)."
+  },
+  {
+   "id": "X111",
+   "categoria": "metodo",
+   "proprieta": "DSC: intervallo di scansione, flusso di gas",
+   "citazione": "The heating range was set as 25 °C to 200-300 °C (sample dependent), with a heating rate of 10 °C min-1 and nitrogen gas used for purging (base purge 300 mL min-1, cell flow 25 mL min-1).",
+   "valori": [
+    {
+     "etichetta": "heating range start",
+     "valore": 25,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "heating range end, from",
+     "valore": 200,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "heating range end, to",
+     "valore": 300,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "base purge",
+     "valore": 300,
+     "unita": "mL/min"
+    },
+    {
+     "etichetta": "cell flow",
+     "valore": 25,
+     "unita": "mL/min"
+    }
+   ],
+   "tecnica": "DSC",
+   "note": "Velocita' di riscaldamento (10 °C/min) e atmosfera nelle condizioni degli eventi; «200-300 °C (sample dependent)» e' un intervallo (due elementi)."
+  },
+  {
+   "id": "X112",
+   "categoria": "metodo",
+   "proprieta": "DSC: volume del crogiolo",
+   "citazione": "Dried samples (free from residual solvent), of mass 2-5 mg, were placed in an aluminium pan (internal volume 20 µL) and crimp sealed with corresponding lid in a Tzero sample press.",
+   "valori": [
+    {
+     "etichetta": "internal volume of the pan",
+     "valore": 20,
+     "unita": "µL"
+    },
+    {
+     "etichetta": "sample mass, from",
+     "valore": 2,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "sample mass, to",
+     "valore": 5,
+     "unita": "mg"
+    }
+   ],
+   "tecnica": "DSC",
+   "note": "Massa e crogiolo sono anche nelle condizioni degli eventi DSC."
+  },
+  {
+   "id": "X113",
+   "categoria": "metodo",
+   "proprieta": "DVS: riscaldamento preliminare e velocita' di variazione della pressione parziale",
+   "citazione": "A preheating stage, raising the temperature to 40 °C and holding isothermally for 5 hours, was followed by increasing the partial pressure at 0.2 % per minute from 0-90 % RH and back to 0% in a similar manner via desorption.",
+   "valori": [
+    {
+     "etichetta": "preheating temperature",
+     "valore": 40,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "preheating time",
+     "valore": 5,
+     "unita": "hours"
+    },
+    {
+     "etichetta": "partial pressure ramp",
+     "valore": 0.2,
+     "unita": "% per minute"
+    },
+    {
+     "etichetta": "RH range, from",
+     "valore": 0,
+     "unita": "% RH"
+    },
+    {
+     "etichetta": "RH range, to",
+     "valore": 90,
+     "unita": "% RH"
+    }
+   ],
+   "tecnica": "DVS"
+  },
+  {
+   "id": "X114",
+   "categoria": "metodo",
+   "proprieta": "DVS: criterio di equilibrio e temperatura",
+   "citazione": "The system was considered to be in equilibrium if the rate change of mass was less than 0.002 % min-1 at one specific partial vapour pressure. The temperature was maintained at a constant 25 °C throughout the experiment.",
+   "valori": [
+    {
+     "etichetta": "equilibrium mass-change rate (less than)",
+     "valore": 0.002,
+     "unita": "% min-1",
+     "limite": "sotto"
+    },
+    {
+     "etichetta": "temperature during the experiment",
+     "valore": 25,
+     "unita": "°C"
+    }
+   ],
+   "tecnica": "DVS"
+  },
+  {
+   "id": "X115",
+   "categoria": "metodo",
+   "proprieta": "dissoluzione: apparecchio e velocita' di rotazione",
+   "citazione": "Dissolution was tested using an Agilent 708-DS dissolution sampling apparatus with rotation speed of 75 rpm",
+   "valori": [
+    {
+     "etichetta": "rotation speed",
+     "valore": 75,
+     "unita": "rpm"
+    }
+   ],
+   "tecnica": "dissoluzione",
+   "note": "La frase continua dopo un'intestazione di pagina con «at 37 °C» (voce seguente)."
+  },
+  {
+   "id": "X116",
+   "categoria": "metodo",
+   "proprieta": "dissoluzione: temperatura, mezzo, compressa e pressatura",
+   "citazione": "at 37 °C. 1 % Tween 80® in water dissolution medium (900 mL) was used with samples prepared containing 25 mg API in a 250 mg corn starch tablet, pressed for 1 minute at 2 KN using an FT-IR press.",
+   "valori": [
+    {
+     "etichetta": "temperature",
+     "valore": 37,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "medium volume",
+     "valore": 900,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "API in the tablet",
+     "valore": 25,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "corn starch in the tablet",
+     "valore": 250,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "pressing time",
+     "valore": 1,
+     "unita": "minute"
+    },
+    {
+     "etichetta": "pressing force",
+     "valore": 2,
+     "unita": "KN"
+    }
+   ],
+   "tecnica": "dissoluzione",
+   "note": "Il mezzo e' l'1 % di Tween 80 in acqua. «at 37 °C» chiude la frase della voce precedente («rotation speed of 75 rpm»), staccata da un'intestazione di pagina."
+  },
+  {
+   "id": "X117",
+   "categoria": "metodo",
+   "proprieta": "dissoluzione: campionamento",
+   "citazione": "Sampling was conducted by withdrawing 2 mL of sample from the vessel with immediate replacement with fresh dissolution medium to maintain the dissolution volume. 1 mL of the withdrawn sample was discarded as waste, the remainder filtered through a 45 µm syringe tip filter and the sample taken for analysis by HPLC. This was conducted at 5 minute intervals for the first 30 minutes followed by 15 minutes for 30 minutes, a 120 minute sample taken and then hourly sampling until the end of the experiment.",
+   "valori": [
+    {
+     "etichetta": "sample volume withdrawn",
+     "valore": 2,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "sample volume discarded",
+     "valore": 1,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "filter pore size",
+     "valore": 45,
+     "unita": "µm"
+    },
+    {
+     "etichetta": "sampling interval, first period",
+     "valore": 5,
+     "unita": "minute"
+    },
+    {
+     "etichetta": "duration of first period",
+     "valore": 30,
+     "unita": "minutes"
+    },
+    {
+     "etichetta": "sampling interval, second period",
+     "valore": 15,
+     "unita": "minutes"
+    },
+    {
+     "etichetta": "duration of second period",
+     "valore": 30,
+     "unita": "minutes"
+    },
+    {
+     "etichetta": "late sample",
+     "valore": 120,
+     "unita": "minute"
+    }
+   ],
+   "tecnica": "dissoluzione",
+   "note": "Il testo scrive «45 µm syringe tip filter» (come nel passo HPLC: «45 µm cellulose filter membrane»); riportato come scritto. «at 5 minute intervals for the first 30 minutes followed by 15 minutes for 30 minutes, a 120 minute sample taken and then hourly sampling»: lo schema dei tempi e' quello che il testo scrive, la frase «followed by 15 minutes for 30 minutes» e' ambigua."
+  },
+  {
+   "id": "X118",
+   "categoria": "metodo",
+   "proprieta": "dissoluzione: durata dell'esperimento (didascalia Fig. 12)",
+   "citazione": "Dissolution rate profile for LON and the new salts and co-crystals over 240 minute experiment in 1% Tween 80® aqueous media.",
+   "valori": [
+    {
+     "etichetta": "experiment duration",
+     "valore": 240,
+     "unita": "minute"
+    }
+   ],
+   "tecnica": "dissoluzione"
+  },
+  {
+   "id": "X119",
+   "categoria": "metodo",
+   "proprieta": "equazione della solubilita' apparente",
+   "citazione": "Apparent solubility of the unstable materials, LONISO, LON-NICO and LON-IMID was calculated according to the literature,47,48 using the following apparent solubility equation:",
+   "valori": [],
+   "tecnica": "dissoluzione",
+   "qualitativo": "apparent solubility Cm = Cs (Jm/Js), where Cs is the solubility of the thermodynamic form and Jm, Js the dissolution rates of the co-crystal/salt and of the thermodynamic form; linear portions of the dissolution curves used for the rates",
+   "note": "La formula e' rovinata nel PDF; la definizione dei simboli e' nel testo («Cm ... apparent solubility of the unstable form, Cs ... solubility of the thermodynamic form, Jm and Js ... dissolution rates»)."
+  },
+  {
+   "id": "X120",
+   "categoria": "metodo",
+   "proprieta": "HPLC: colonna, fase mobile, flusso e rivelazione",
+   "citazione": "The LC column was an Agilent Zorbax Eclipse XDB-C18 4.6 x 250 mm, 5µm run at 37 °C. The mobile phase consisted of 25 mM NaH2PO4.H2O (pH 3) and MeOH (30:70 v/v) which was filtered through a 45 µm cellulose filter membrane under vacuum and then sonicated. The mobile phase was pumped isocratically at a flow rate of 1 mLmin-1, 20 minute run time. An injection volume of 20 µL was used and detection for all analytes completed at 275 nm.",
+   "valori": [
+    {
+     "etichetta": "column length x diameter",
+     "unita": "mm",
+     "testo": "4.6 x 250"
+    },
+    {
+     "etichetta": "particle size",
+     "valore": 5,
+     "unita": "µm"
+    },
+    {
+     "etichetta": "column temperature",
+     "valore": 37,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "buffer concentration",
+     "valore": 25,
+     "unita": "mM"
+    },
+    {
+     "etichetta": "pH",
+     "valore": 3
+    },
+    {
+     "etichetta": "mobile phase ratio",
+     "testo": "30:70 v/v"
+    },
+    {
+     "etichetta": "filter",
+     "valore": 45,
+     "unita": "µm"
+    },
+    {
+     "etichetta": "flow rate",
+     "valore": 1,
+     "unita": "mL min-1"
+    },
+    {
+     "etichetta": "run time",
+     "valore": 20,
+     "unita": "minute"
+    },
+    {
+     "etichetta": "injection volume",
+     "valore": 20,
+     "unita": "µL"
+    },
+    {
+     "etichetta": "detection wavelength",
+     "valore": 275,
+     "unita": "nm"
+    }
+   ],
+   "tecnica": "HPLC",
+   "note": "Rapporto 30:70 v/v in `testo`. «filtered through a 45 µm cellulose filter membrane»: valore riportato come scritto. "
+  },
+  {
+   "id": "X121",
+   "categoria": "sintesi",
+   "proprieta": "HPLC: tempo di ritenzione di LON",
+   "citazione": "Retention times were: LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min.",
+   "valori": [
+    {
+     "etichetta": "retention time of LON",
+     "valore": 11.85,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "HPLC",
+   "note": "Attribuzione dal testo «LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min»."
+  },
+  {
+   "id": "X122",
+   "categoria": "sintesi",
+   "proprieta": "HPLC: tempo di ritenzione di BENZ",
+   "citazione": "Retention times were: LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min.",
+   "valori": [
+    {
+     "etichetta": "retention time of BENZ",
+     "valore": 2.55,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "HPLC",
+   "note": "Attribuzione dal testo «LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min»."
+  },
+  {
+   "id": "X123",
+   "categoria": "sintesi",
+   "proprieta": "HPLC: tempo di ritenzione di HALO",
+   "citazione": "Retention times were: LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min.",
+   "valori": [
+    {
+     "etichetta": "retention time of HALO",
+     "valore": 3.14,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "HPLC",
+   "note": "Attribuzione dal testo «LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min»."
+  },
+  {
+   "id": "X124",
+   "categoria": "sintesi",
+   "proprieta": "HPLC: tempo di ritenzione di IMID",
+   "citazione": "Retention times were: LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min.",
+   "valori": [
+    {
+     "etichetta": "retention time of IMID",
+     "valore": 2.25,
+     "unita": "min"
+    },
+    {
+     "etichetta": "retention time of IMID",
+     "valore": 2.55,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C4"
+   },
+   "tecnica": "HPLC",
+   "note": "Attribuzione dal testo «LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min». Piu' tempi di ritenzione per lo stesso composto: il testo non dice a che cosa corrispondano."
+  },
+  {
+   "id": "X125",
+   "categoria": "sintesi",
+   "proprieta": "HPLC: tempo di ritenzione di ISO",
+   "citazione": "Retention times were: LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min.",
+   "valori": [
+    {
+     "etichetta": "retention time of ISO",
+     "valore": 2.5,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C5"
+   },
+   "tecnica": "HPLC",
+   "note": "Attribuzione dal testo «LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min»."
+  },
+  {
+   "id": "X126",
+   "categoria": "sintesi",
+   "proprieta": "HPLC: tempo di ritenzione di MEL",
+   "citazione": "Retention times were: LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min.",
+   "valori": [
+    {
+     "etichetta": "retention time of MEL",
+     "valore": 2.3,
+     "unita": "min"
+    },
+    {
+     "etichetta": "retention time of MEL",
+     "valore": 2.5,
+     "unita": "min"
+    },
+    {
+     "etichetta": "retention time of MEL",
+     "valore": 3.2,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C6"
+   },
+   "tecnica": "HPLC",
+   "note": "Attribuzione dal testo «LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min». Piu' tempi di ritenzione per lo stesso composto: il testo non dice a che cosa corrispondano."
+  },
+  {
+   "id": "X127",
+   "categoria": "sintesi",
+   "proprieta": "HPLC: tempo di ritenzione di NICO",
+   "citazione": "Retention times were: LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min.",
+   "valori": [
+    {
+     "etichetta": "retention time of NICO",
+     "valore": 2.5,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C7"
+   },
+   "tecnica": "HPLC",
+   "note": "Attribuzione dal testo «LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min»."
+  },
+  {
+   "id": "X128",
+   "categoria": "sintesi",
+   "proprieta": "HPLC: tempo di ritenzione di PIPE",
+   "citazione": "Retention times were: LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min.",
+   "valori": [
+    {
+     "etichetta": "retention time of PIPE",
+     "valore": 3.36,
+     "unita": "min"
+    }
+   ],
+   "oggetto": {
+    "composto": "C8"
+   },
+   "tecnica": "HPLC",
+   "note": "Attribuzione dal testo «LON 11.85 min, BENZ 2.55 min, HALO 3.14 min, IMID 2.25 min and 2.55 min, ISO 2.5 min, MEL 2.3 min, 2.5 min and 3.2 min, NICO 2.5 min and PIPE 3.36 min»."
+  },
+  {
+   "id": "X129",
+   "categoria": "sintesi",
+   "proprieta": "macinazione: volume della giara, sfera, tempo e frequenza",
+   "citazione": "1:1 Stoichiometric ratios of LON and co-former were added to a 10 mL stainless steel grinding jar with 7 mm stainless steel ball and ground for 30 minutes at 20 Hz using a Retsch MixerMill (models MM301 and MM200).",
+   "valori": [
+    {
+     "etichetta": "grinding jar volume",
+     "valore": 10,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "ball diameter",
+     "valore": 7,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "grinding time",
+     "valore": 30,
+     "unita": "minutes"
+    },
+    {
+     "etichetta": "frequency",
+     "valore": 20,
+     "unita": "Hz"
+    }
+   ],
+   "tecnica": "macinazione",
+   "note": "Tempo e frequenza sono anche nelle condizioni degli eventi E1-E4; qui il volume della giara e il diametro della sfera."
+  },
+  {
+   "id": "X130",
+   "categoria": "sintesi",
+   "proprieta": "macinazione assistita: gocce di metanolo",
+   "citazione": "Solvent drop grinding had 2 drops of methanol added to the jars prior to the start of grinding.",
+   "valori": [
+    {
+     "etichetta": "methanol drops",
+     "valore": 2
+    }
+   ],
+   "tecnica": "macinazione"
+  },
+  {
+   "id": "X131",
+   "categoria": "sintesi",
+   "proprieta": "LON commerciale: provenienza",
+   "citazione": "LON was purchased from Junda Pharmaceuticals Ltd., China whilst all co-formers were purchased from Sigma Aldrich, Singapore, with HALO purchased from TCI chemicals, Singapore.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "LON from Junda Pharmaceuticals Ltd., China; co-formers from Sigma Aldrich, Singapore; HALO from TCI chemicals, Singapore",
+   "note": "Nessun numero: scheda di provenienza."
+  },
+  {
+   "id": "X132",
+   "categoria": "sintesi",
+   "proprieta": "α-LON: cristallo per la struttura",
+   "citazione": "The crystal used for structure solution was obtained from an ethyl acetate-acetonitrile solvent mix, heated to 50 °C to dissolve commercial LON and then left at ambient conditions. Small colourless crystals were formed after a week.",
+   "valori": [
+    {
+     "etichetta": "dissolution temperature",
+     "valore": 50,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "crystallisation time",
+     "valore": 1,
+     "unita": "week"
+    }
+   ],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "α-LON"
+   }
+  },
+  {
+   "id": "X133",
+   "categoria": "morfologia",
+   "proprieta": "α-LON: abito e colore dei cristalli",
+   "citazione": "The crystal used for structure solution was obtained from an ethyl acetate-acetonitrile solvent mix, heated to 50 °C to dissolve commercial LON and then left at ambient conditions. Small colourless crystals were formed after a week.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "α-LON"
+   },
+   "qualitativo": "Small colourless crystals",
+   "note": "Stessa frase della sintesi. Il testo scrive l'abito: Small colourless crystals."
+  },
+  {
+   "id": "X134",
+   "categoria": "sintesi",
+   "proprieta": "LON-ISO: quantita' dei reagenti e solvente",
+   "citazione": "LON-ISO co-crystal: LON (160.58 mg, 0.5 mmol) and ISO (61.06 mg, 0.5 mmol) were dissolved in ethyl acetate (4 mL) at 50 °C then left at ambient conditions for evaporation of solvent to occur. After a week, large colourless block crystals of the 1:1 co-crystal formed.",
+   "valori": [
+    {
+     "etichetta": "LON mass",
+     "valore": 160.58,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "LON amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "ISO mass",
+     "valore": 61.06,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "ISO amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "ethyl acetate volume",
+     "valore": 4,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "temperature",
+     "valore": 50,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "crystal formation time",
+     "valore": 1,
+     "unita": "week"
+    }
+   ],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "LON-ISO"
+   },
+   "note": "Quantita' dalla parte sperimentale; masse e rapporto sono anche citati nella preparazione, qui i valori numerici."
+  },
+  {
+   "id": "X135",
+   "categoria": "morfologia",
+   "proprieta": "LON-ISO: abito e colore dei cristalli",
+   "citazione": "LON-ISO co-crystal: LON (160.58 mg, 0.5 mmol) and ISO (61.06 mg, 0.5 mmol) were dissolved in ethyl acetate (4 mL) at 50 °C then left at ambient conditions for evaporation of solvent to occur. After a week, large colourless block crystals of the 1:1 co-crystal formed.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "LON-ISO"
+   },
+   "qualitativo": "large colourless block crystals",
+   "note": "Stessa frase della sintesi. Il testo scrive l'abito: large colourless block crystals."
+  },
+  {
+   "id": "X136",
+   "categoria": "sintesi",
+   "proprieta": "LON-NICO: quantita' dei reagenti e solvente",
+   "citazione": "LON-NICO co-crystal: LON (160.58 mg, 0.5 mmol) and NICO (61.06 mg, 0.5 mmol) were dissolved in an acetonitrile-ethanol solvent mix (80:20 ratio) at 50 °C then left for the solvent to evaporate under ambient conditions. Small colourless plates of the 1:1 co-crystal formed after 2 weeks.",
+   "valori": [
+    {
+     "etichetta": "LON mass",
+     "valore": 160.58,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "LON amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "NICO mass",
+     "valore": 61.06,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "NICO amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "acetonitrile-ethanol ratio",
+     "testo": "80:20"
+    },
+    {
+     "etichetta": "temperature",
+     "valore": 50,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "crystal formation time",
+     "valore": 2,
+     "unita": "weeks"
+    }
+   ],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "LON-NICO"
+   }
+  },
+  {
+   "id": "X137",
+   "categoria": "morfologia",
+   "proprieta": "LON-NICO: abito e colore dei cristalli",
+   "citazione": "LON-NICO co-crystal: LON (160.58 mg, 0.5 mmol) and NICO (61.06 mg, 0.5 mmol) were dissolved in an acetonitrile-ethanol solvent mix (80:20 ratio) at 50 °C then left for the solvent to evaporate under ambient conditions. Small colourless plates of the 1:1 co-crystal formed after 2 weeks.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "LON-NICO"
+   },
+   "qualitativo": "small colourless plates",
+   "note": "Stessa frase della sintesi. Il testo scrive l'abito: small colourless plates."
+  },
+  {
+   "id": "X138",
+   "categoria": "sintesi",
+   "proprieta": "LON-BENZ: quantita' dei reagenti e solvente",
+   "citazione": "LON-BENZ co-crystal: LON (160.58 mg, 0.5 mmol) and BENZ (60.57 mg, 0.5 mmol) were dissolved in a 50:50 solvent",
+   "valori": [
+    {
+     "etichetta": "LON mass",
+     "valore": 160.58,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "LON amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "BENZ mass",
+     "valore": 60.57,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "BENZ amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "ethyl acetate-acetonitrile ratio",
+     "testo": "50:50"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "LON-BENZ"
+   }
+  },
+  {
+   "id": "X139",
+   "categoria": "sintesi",
+   "proprieta": "LON-BENZ: temperatura, tempo e abito dei cristalli",
+   "citazione": "mix of ethyl acetate and acetonitrile at 50 °C. The solution was left at ambient conditions for solvent evaporation which resulted in small colourless plate crystals forming of the 1:1 cocrystal after 4 days.",
+   "valori": [
+    {
+     "etichetta": "temperature",
+     "valore": 50,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "crystal formation time",
+     "valore": 4,
+     "unita": "days"
+    }
+   ],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "LON-BENZ"
+   }
+  },
+  {
+   "id": "X140",
+   "categoria": "morfologia",
+   "proprieta": "LON-BENZ: abito e colore dei cristalli",
+   "citazione": "mix of ethyl acetate and acetonitrile at 50 °C. The solution was left at ambient conditions for solvent evaporation which resulted in small colourless plate crystals forming of the 1:1 cocrystal after 4 days.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "LON-BENZ"
+   },
+   "qualitativo": "small colourless plate crystals",
+   "note": "Stessa frase della sintesi. Il testo scrive l'abito: small colourless plate crystals."
+  },
+  {
+   "id": "X141",
+   "categoria": "sintesi",
+   "proprieta": "LON-MEL: quantita' dei reagenti e solvente",
+   "citazione": "LON-MEL salt: LON (160.58 mg, 0.5 mmol) and MEL (63.06 mg, 0.5 mmol) were dissolved in DMSO at 50 °C and left to evaporate at ambient conditions. Initially a gel formed however with extended time (2 weeks to a month) crystals of the 1:1 salt formed in the gel.",
+   "valori": [
+    {
+     "etichetta": "LON mass",
+     "valore": 160.58,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "LON amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "MEL mass",
+     "valore": 63.06,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "MEL amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "temperature",
+     "valore": 50,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "crystal formation time, from",
+     "valore": 2,
+     "unita": "weeks"
+    },
+    {
+     "etichetta": "crystal formation time, to",
+     "valore": 1,
+     "unita": "month"
+    }
+   ],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "LON-MEL"
+   }
+  },
+  {
+   "id": "X142",
+   "categoria": "morfologia",
+   "proprieta": "LON-MEL: abito e colore dei cristalli",
+   "citazione": "LON-MEL salt: LON (160.58 mg, 0.5 mmol) and MEL (63.06 mg, 0.5 mmol) were dissolved in DMSO at 50 °C and left to evaporate at ambient conditions. Initially a gel formed however with extended time (2 weeks to a month) crystals of the 1:1 salt formed in the gel.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "LON-MEL"
+   },
+   "qualitativo": "gel initially; crystals formed in the gel",
+   "note": "Stessa frase della sintesi. Il testo scrive l'abito: gel initially; crystals formed in the gel."
+  },
+  {
+   "id": "X143",
+   "categoria": "sintesi",
+   "proprieta": "LON-PIPE: quantita' dei reagenti e solvente",
+   "citazione": "LON-PIPE salt: LON (160.58 mg, 0.5 mmol) and PIPE (34.03 mg, 0.05 mmol) were dissolved in 50:50 solvent mix methanolacetonitrile and left to evaporate under ambient conditions. Large colourless plate crystals of the 1:1 salt formed after 5 days.",
+   "valori": [
+    {
+     "etichetta": "LON mass",
+     "valore": 160.58,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "LON amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "PIPE mass",
+     "valore": 34.03,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "PIPE amount",
+     "valore": 0.05,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "methanol-acetonitrile ratio",
+     "testo": "50:50"
+    },
+    {
+     "etichetta": "crystal formation time",
+     "valore": 5,
+     "unita": "days"
+    }
+   ],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "note": "«34.03 mg, 0.05 mmol» come scritto: la massa e' quella scritta per IMID con 0.5 mmol; il numero di mmol per PIPE e' dieci volte piu' piccolo di quello di LON (0.5): dato sospetto dell'articolo, riportato come scritto."
+  },
+  {
+   "id": "X144",
+   "categoria": "morfologia",
+   "proprieta": "LON-PIPE: abito e colore dei cristalli",
+   "citazione": "LON-PIPE salt: LON (160.58 mg, 0.5 mmol) and PIPE (34.03 mg, 0.05 mmol) were dissolved in 50:50 solvent mix methanolacetonitrile and left to evaporate under ambient conditions. Large colourless plate crystals of the 1:1 salt formed after 5 days.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "LON-PIPE"
+   },
+   "qualitativo": "large colourless plate crystals",
+   "note": "Stessa frase della sintesi. Il testo scrive l'abito: large colourless plate crystals."
+  },
+  {
+   "id": "X145",
+   "categoria": "sintesi",
+   "proprieta": "LON-HALO: quantita' dei reagenti e solvente",
+   "citazione": "LON-HALO salt: LON (160.58 mg, 0.5 mmol) and HALO (187.95 mg, 0.5 mmol) were dissolved in DMF at 50 °C then left under ambient conditions for solvent evaporation to occur. Clusters of colourless plate crystals of the 1:1 salt formed after 6-8 weeks.",
+   "valori": [
+    {
+     "etichetta": "LON mass",
+     "valore": 160.58,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "LON amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "HALO mass",
+     "valore": 187.95,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "HALO amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "temperature",
+     "valore": 50,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "crystal formation time, from",
+     "valore": 6,
+     "unita": "weeks"
+    },
+    {
+     "etichetta": "crystal formation time, to",
+     "valore": 8,
+     "unita": "weeks"
+    }
+   ],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "LON-HALO.3H2O"
+   }
+  },
+  {
+   "id": "X146",
+   "categoria": "morfologia",
+   "proprieta": "LON-HALO.3H2O: abito e colore dei cristalli",
+   "citazione": "LON-HALO salt: LON (160.58 mg, 0.5 mmol) and HALO (187.95 mg, 0.5 mmol) were dissolved in DMF at 50 °C then left under ambient conditions for solvent evaporation to occur. Clusters of colourless plate crystals of the 1:1 salt formed after 6-8 weeks.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F9",
+    "etichetta": "LON-HALO.3H2O"
+   },
+   "qualitativo": "clusters of colourless plate crystals",
+   "note": "Stessa frase della sintesi. Il testo scrive l'abito: clusters of colourless plate crystals."
+  },
+  {
+   "id": "X147",
+   "categoria": "sintesi",
+   "proprieta": "LON-IMID.EtOAc: quantita' dei reagenti e solvente",
+   "citazione": "LON-IMID salts/co-crystal salts: LON (160.58 mg, 0.5 mmol) and IMID (34.03 mg, 0.5 mmol) were dissolved in ethyl acetate at 50 °C before being left under ambient conditions for solvent evaporation to occur. Colourless block crystals of the 1:1:0.5 salt solvate formed within one day.",
+   "valori": [
+    {
+     "etichetta": "LON mass",
+     "valore": 160.58,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "LON amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "IMID mass",
+     "valore": 34.03,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "IMID amount",
+     "valore": 0.5,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "temperature",
+     "valore": 50,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "crystal formation time (less than)",
+     "valore": 1,
+     "unita": "day",
+     "limite": "sotto"
+    }
+   ],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   }
+  },
+  {
+   "id": "X148",
+   "categoria": "morfologia",
+   "proprieta": "LON-IMID.EtOAc: abito e colore dei cristalli",
+   "citazione": "LON-IMID salts/co-crystal salts: LON (160.58 mg, 0.5 mmol) and IMID (34.03 mg, 0.5 mmol) were dissolved in ethyl acetate at 50 °C before being left under ambient conditions for solvent evaporation to occur. Colourless block crystals of the 1:1:0.5 salt solvate formed within one day.",
+   "valori": [],
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "LON-IMID.EtOAc"
+   },
+   "qualitativo": "colourless block crystals",
+   "note": "Stessa frase della sintesi. Il testo scrive l'abito: colourless block crystals."
+  },
+  {
+   "id": "X149",
+   "categoria": "sintesi",
+   "proprieta": "LON-IMID 2:1 e 1:1: stesso procedimento in metanolo-acetonitrile, stesso lotto",
+   "citazione": "Crystals of the 2:1 and 1:1 salts were afforded in the same way (from a 1:1 ratio) using a methanol-acetonitrile solvent mix and were observed in the same batch (2:1 ratio material characterised first, 1:1 after some time).",
+   "valori": [
+    {
+     "etichetta": "starting LON:IMID ratio",
+     "testo": "1:1"
+    }
+   ],
+   "oggetto": {
+    "forma": "F12",
+    "etichetta": "LON-IMID 2:1 co-crystal salt"
+   },
+   "qualitativo": "2:1 and 1:1 salts obtained in the same batch (2:1 characterised first, 1:1 after some time)",
+   "note": "Vale anche per la forma F11 (1:1)."
+  },
+  {
+   "id": "X150",
+   "categoria": "sintesi",
+   "proprieta": "bulk per le misure di proprieta': sintesi per solvent drop grinding o per soluzione",
+   "citazione": "Synthesis of the bulk for all materials was carried out using solvent drop grinding (as per screening method with larger quantities) for LON-NICO, LON-ISO, LON-BENZ and LON-MEL and using the relevant aforementioned solution techniques for LON-IMID, LON-HALO and LON-PIPE.",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "bulk for LON-NICO, LON-ISO, LON-BENZ, LON-MEL by solvent drop grinding (larger quantities); LON-IMID, LON-HALO, LON-PIPE by the solution techniques",
+   "note": "Nessun numero."
+  },
+  {
+   "id": "X151",
+   "categoria": "altro",
+   "proprieta": "tutte le forme ottenute con coformeri non farmaceutici",
+   "citazione": "A number of multicomponent solids were also formed with nonpharmaceutically acceptable co-formers (see ESI, Section 6.2).",
+   "valori": [],
+   "oggetto": {
+    "composto": "C1"
+   },
+   "qualitativo": "multicomponent solids with non-pharmaceutically acceptable co-formers (ESI section 6.2), not described in the text"
+  }
+ ]
+}

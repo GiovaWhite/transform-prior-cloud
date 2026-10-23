@@ -1,0 +1,3052 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.3390/pharmaceutics17020152",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "formula empirica (Table 1)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "empirical formula",
+     "forma": "F2",
+     "valore": null,
+     "testo": "C21H18F3NO3S2"
+    },
+    {
+     "etichetta": "empirical formula",
+     "forma": "F3",
+     "valore": null,
+     "testo": "C26H22F3N2O3S2"
+    },
+    {
+     "etichetta": "empirical formula",
+     "forma": "F5",
+     "valore": null,
+     "testo": "C22H22F3NO4S2"
+    },
+    {
+     "etichetta": "empirical formula",
+     "forma": "F4",
+     "valore": null,
+     "testo": "C24H25F3N2O4S2"
+    },
+    {
+     "etichetta": "empirical formula",
+     "forma": "F6",
+     "valore": null,
+     "testo": "C21H18F3NO4S2"
+    },
+    {
+     "etichetta": "empirical formula",
+     "forma": "F7",
+     "valore": null,
+     "testo": "C21H18F3NO5S2"
+    }
+   ],
+   "citazione": "Empirical formula | C21H18F3NO3S2 | C26H22F3N2O3S2 | C22H22F3NO4S2 | C24H25F3N2O4S2 | C21H18F3NO4S2 | C21H18F3NO5S2",
+   "note": "Per GW-Bipy la formula C26H22F3N2O3S2 e' una cardarine e mezza bipiridina; per GW-SO il peso formula (938.97) e' doppio rispetto alla formula C21H18F3NO4S2 (vedi l'estrazione principale)."
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "peso formula (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "formula weight",
+     "forma": "F2",
+     "valore": 453.48
+    },
+    {
+     "etichetta": "formula weight",
+     "forma": "F3",
+     "valore": 531.57
+    },
+    {
+     "etichetta": "formula weight",
+     "forma": "F5",
+     "valore": 485.52
+    },
+    {
+     "etichetta": "formula weight",
+     "forma": "F4",
+     "valore": 526.58
+    },
+    {
+     "etichetta": "formula weight",
+     "forma": "F6",
+     "valore": 938.97
+    },
+    {
+     "etichetta": "formula weight",
+     "forma": "F7",
+     "valore": 485.48
+    }
+   ],
+   "citazione": "Formula weight | 453.48 | 531.57 | 485.52 | 526.58 | 938.97 | 485.48"
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella a/Å con incertezza (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "a",
+     "forma": "F2",
+     "valore": 4.8413,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a",
+     "forma": "F3",
+     "valore": 4.8765,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a",
+     "forma": "F5",
+     "valore": 4.6702,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a",
+     "forma": "F4",
+     "valore": 6.6428,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a",
+     "forma": "F6",
+     "valore": 11.7781,
+     "incertezza": 9,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a",
+     "forma": "F7",
+     "valore": 4.6735,
+     "incertezza": 4,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "a/Å | 4.8413(6) | 4.8765(5) | 4.6702(2) | 6.6428(2) | 11.7781(9) | 4.6735(4)",
+   "note": "Valori di cella gia' nelle forme dell'estrazione principale senza incertezza; qui con l'incertezza della tabella (cifra fra parentesi sull'ultima cifra; dove non c'e' parentesi l'incertezza e' omessa)."
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella b/Å con incertezza (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "b",
+     "forma": "F2",
+     "valore": 10.7961,
+     "incertezza": 15,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b",
+     "forma": "F3",
+     "valore": 15.418,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b",
+     "forma": "F5",
+     "valore": 10.9176,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b",
+     "forma": "F4",
+     "valore": 11.6468,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b",
+     "forma": "F6",
+     "valore": 12.8498,
+     "incertezza": 14,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b",
+     "forma": "F7",
+     "valore": 27.738,
+     "incertezza": 2,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "b/Å | 10.7961(15) | 15.418(2) | 10.9176(4) | 11.6468(3) | 12.8498(14) | 27.738(2)",
+   "note": "Valori di cella gia' nelle forme dell'estrazione principale senza incertezza; qui con l'incertezza della tabella (cifra fra parentesi sull'ultima cifra; dove non c'e' parentesi l'incertezza e' omessa)."
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella c/Å con incertezza (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "c",
+     "forma": "F2",
+     "valore": 40.778,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c",
+     "forma": "F3",
+     "valore": 16.734,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c",
+     "forma": "F5",
+     "valore": 44.4184,
+     "incertezza": 18,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c",
+     "forma": "F4",
+     "valore": 16.5294,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c",
+     "forma": "F6",
+     "valore": 15.1481,
+     "incertezza": 19,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c",
+     "forma": "F7",
+     "valore": 16.3811,
+     "incertezza": 14,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "c/Å | 40.778(6) | 16.734(2) | 44.4184(18) | 16.5294(4) | 15.1481(19) | 16.3811(14)",
+   "note": "Valori di cella gia' nelle forme dell'estrazione principale senza incertezza; qui con l'incertezza della tabella (cifra fra parentesi sull'ultima cifra; dove non c'e' parentesi l'incertezza e' omessa)."
+  },
+  {
+   "id": "X6",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella α/° con incertezza (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "alpha",
+     "forma": "F2",
+     "valore": 90.0,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha",
+     "forma": "F3",
+     "valore": 90.787,
+     "incertezza": 10,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha",
+     "forma": "F5",
+     "valore": 90.0,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha",
+     "forma": "F4",
+     "valore": 91.443,
+     "incertezza": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha",
+     "forma": "F6",
+     "valore": 108.143,
+     "incertezza": 10,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha",
+     "forma": "F7",
+     "valore": 90.0,
+     "unita": "°"
+    }
+   ],
+   "citazione": "α/° | 90 | 90.787(10) | 90 | 91.443(2) | 108.143(10) | 90",
+   "note": "Valori di cella gia' nelle forme dell'estrazione principale senza incertezza; qui con l'incertezza della tabella (cifra fra parentesi sull'ultima cifra; dove non c'e' parentesi l'incertezza e' omessa)."
+  },
+  {
+   "id": "X7",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella β/° con incertezza (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "beta",
+     "forma": "F2",
+     "valore": 92.1,
+     "incertezza": 11,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta",
+     "forma": "F3",
+     "valore": 93.949,
+     "incertezza": 10,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta",
+     "forma": "F5",
+     "valore": 91.048,
+     "incertezza": 4,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta",
+     "forma": "F4",
+     "valore": 96.521,
+     "incertezza": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta",
+     "forma": "F6",
+     "valore": 101.939,
+     "incertezza": 9,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta",
+     "forma": "F7",
+     "valore": 91.101,
+     "incertezza": 7,
+     "unita": "°"
+    }
+   ],
+   "citazione": "β/° | 92.100(11) | 93.949(10) | 91.048(4) | 96.521(2) | 101.939(9) | 91.101(7)",
+   "note": "Valori di cella gia' nelle forme dell'estrazione principale senza incertezza; qui con l'incertezza della tabella (cifra fra parentesi sull'ultima cifra; dove non c'e' parentesi l'incertezza e' omessa)."
+  },
+  {
+   "id": "X8",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella γ/° con incertezza (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "gamma",
+     "forma": "F2",
+     "valore": 90.0,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma",
+     "forma": "F3",
+     "valore": 95.89,
+     "incertezza": 10,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma",
+     "forma": "F5",
+     "valore": 90.0,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma",
+     "forma": "F4",
+     "valore": 98.027,
+     "incertezza": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma",
+     "forma": "F6",
+     "valore": 90.002,
+     "incertezza": 8,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma",
+     "forma": "F7",
+     "valore": 90.0,
+     "unita": "°"
+    }
+   ],
+   "citazione": "γ/° | 90 | 95.890(10) | 90 | 98.027(2) | 90.002(8) | 90",
+   "note": "Valori di cella gia' nelle forme dell'estrazione principale senza incertezza; qui con l'incertezza della tabella (cifra fra parentesi sull'ultima cifra; dove non c'e' parentesi l'incertezza e' omessa)."
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella Volume/Å3 con incertezza (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "V",
+     "forma": "F2",
+     "valore": 2129.9,
+     "incertezza": 5,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V",
+     "forma": "F3",
+     "valore": 1248.3,
+     "incertezza": 3,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V",
+     "forma": "F5",
+     "valore": 2264.4,
+     "incertezza": 16,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V",
+     "forma": "F4",
+     "valore": 1257.02,
+     "incertezza": 6,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V",
+     "forma": "F6",
+     "valore": 2126.4,
+     "incertezza": 4,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V",
+     "forma": "F7",
+     "valore": 2123.2,
+     "incertezza": 3,
+     "unita": "Å3"
+    }
+   ],
+   "citazione": "Volume/Å3 | 2129.9(5) | 1248.3(3) | 2264.40(16) | 1257.02(6) | 2126.4(4) | 2123.2(3)",
+   "note": "Valori di cella gia' nelle forme dell'estrazione principale senza incertezza; qui con l'incertezza della tabella (cifra fra parentesi sull'ultima cifra; dove non c'e' parentesi l'incertezza e' omessa)."
+  },
+  {
+   "id": "X10",
+   "categoria": "cristallografia",
+   "proprieta": "densita' calcolata ρcalc (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "ρcalc",
+     "forma": "F2",
+     "valore": 1.414,
+     "unita": "g/cm3"
+    },
+    {
+     "etichetta": "ρcalc",
+     "forma": "F3",
+     "valore": 1.414,
+     "unita": "g/cm3"
+    },
+    {
+     "etichetta": "ρcalc",
+     "forma": "F5",
+     "valore": 1.424,
+     "unita": "g/cm3"
+    },
+    {
+     "etichetta": "ρcalc",
+     "forma": "F4",
+     "valore": 1.391,
+     "unita": "g/cm3"
+    },
+    {
+     "etichetta": "ρcalc",
+     "forma": "F6",
+     "valore": 1.467,
+     "unita": "g/cm3"
+    },
+    {
+     "etichetta": "ρcalc",
+     "forma": "F7",
+     "valore": 1.519,
+     "unita": "g/cm3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "ρcalc g/cm3 | 1.414 | 1.414 | 1.424 | 1.391 | 1.467 | 1.519"
+  },
+  {
+   "id": "X11",
+   "categoria": "cristallografia",
+   "proprieta": "coefficiente di assorbimento μ (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "μ",
+     "forma": "F2",
+     "valore": 2.708,
+     "unita": "mm−1"
+    },
+    {
+     "etichetta": "μ",
+     "forma": "F3",
+     "valore": 2.41,
+     "unita": "mm−1"
+    },
+    {
+     "etichetta": "μ",
+     "forma": "F5",
+     "valore": 2.617,
+     "unita": "mm−1"
+    },
+    {
+     "etichetta": "μ",
+     "forma": "F4",
+     "valore": 2.414,
+     "unita": "mm−1"
+    },
+    {
+     "etichetta": "μ",
+     "forma": "F6",
+     "valore": 0.305,
+     "unita": "mm−1"
+    },
+    {
+     "etichetta": "μ",
+     "forma": "F7",
+     "valore": 2.831,
+     "unita": "mm−1"
+    }
+   ],
+   "citazione": "μ/mm−1 | 2.708 | 2.410 | 2.617 | 2.414 | 0.305 | 2.831",
+   "note": "GW-SO misurata con MoKα (μ = 0.305), le altre con CuKα."
+  },
+  {
+   "id": "X12",
+   "categoria": "cristallografia",
+   "proprieta": "F(000) (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "F(000)",
+     "forma": "F2",
+     "valore": 936.0
+    },
+    {
+     "etichetta": "F(000)",
+     "forma": "F3",
+     "valore": 550.0
+    },
+    {
+     "etichetta": "F(000)",
+     "forma": "F5",
+     "valore": 1008.0
+    },
+    {
+     "etichetta": "F(000)",
+     "forma": "F4",
+     "valore": 548.0
+    },
+    {
+     "etichetta": "F(000)",
+     "forma": "F6",
+     "valore": 968.0
+    },
+    {
+     "etichetta": "F(000)",
+     "forma": "F7",
+     "valore": 1000.0
+    }
+   ],
+   "citazione": "F(000) | 936.0 | 550.0 | 1008.0 | 548.0 | 968.0 | 1000.0"
+  },
+  {
+   "id": "X13",
+   "categoria": "cristallografia",
+   "proprieta": "radiazione e lunghezza d'onda (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "radiation wavelength λ",
+     "forma": "F2",
+     "valore": 1.54184,
+     "testo": "Cu Kα (λ = 1.54184)"
+    },
+    {
+     "etichetta": "radiation wavelength λ",
+     "forma": "F3",
+     "valore": 1.54184,
+     "testo": "CuKα (λ = 1.54184)"
+    },
+    {
+     "etichetta": "radiation wavelength λ",
+     "forma": "F5",
+     "valore": 1.54184,
+     "testo": "CuKα (λ = 1.54184)"
+    },
+    {
+     "etichetta": "radiation wavelength λ",
+     "forma": "F4",
+     "valore": 1.54184,
+     "testo": "CuKα (λ = 1.54184)"
+    },
+    {
+     "etichetta": "radiation wavelength λ",
+     "forma": "F6",
+     "valore": 0.71073,
+     "testo": "MoKα (λ = 0.71073)"
+    },
+    {
+     "etichetta": "radiation wavelength λ",
+     "forma": "F7",
+     "valore": 1.54184,
+     "testo": "CuKα (λ = 1.54184)"
+    }
+   ],
+   "citazione": "Radiation | Cu Kα (λ = 1.54184) | CuKα (λ = 1.54184) | CuKα (λ = 1.54184) | CuKα (λ = 1.54184) | MoKα (λ = 0.71073) | CuKα (λ = 1.54184)",
+   "note": "L'unita' della lunghezza d'onda non e' scritta nella cella; GW-SO con MoKα, le altre cinque con CuKα."
+  },
+  {
+   "id": "X14",
+   "categoria": "cristallografia",
+   "proprieta": "intervallo 2Θ (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "2Θ range, da",
+     "forma": "F2",
+     "valore": 6.506,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, a",
+     "forma": "F2",
+     "valore": 143.838,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, da",
+     "forma": "F3",
+     "valore": 7.748,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, a",
+     "forma": "F3",
+     "valore": 142.094,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, da",
+     "forma": "F5",
+     "valore": 7.964,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, a",
+     "forma": "F5",
+     "valore": 141.562,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, da",
+     "forma": "F4",
+     "valore": 7.672,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, a",
+     "forma": "F4",
+     "valore": 141.262,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, da",
+     "forma": "F6",
+     "valore": 5.698,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, a",
+     "forma": "F6",
+     "valore": 58.392,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, da",
+     "forma": "F7",
+     "valore": 6.268,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2Θ range, a",
+     "forma": "F7",
+     "valore": 155.142,
+     "unita": "°"
+    }
+   ],
+   "citazione": "2Θ range/° | 6.506 to 143.838 | 7.748 to 142.094 | 7.964 to 141.562 | 7.672 to 141.262 | 5.698 to 58.392 | 6.268 to 155.142"
+  },
+  {
+   "id": "X15",
+   "categoria": "cristallografia",
+   "proprieta": "intervalli degli indici h, k, l (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "index ranges",
+     "forma": "F2",
+     "valore": null,
+     "testo": "−3 ≤ h ≤ 5, −13 ≤ k ≤ 12, −49 ≤ l ≤ 49"
+    },
+    {
+     "etichetta": "index ranges",
+     "forma": "F3",
+     "valore": null,
+     "testo": "−5 ≤ h ≤ 4, −18 ≤ k ≤ 18, −20 ≤ l ≤ 18"
+    },
+    {
+     "etichetta": "index ranges",
+     "forma": "F5",
+     "valore": null,
+     "testo": "−5 ≤ h ≤ 5, −13 ≤ k ≤ 12, −36 ≤ l ≤ 54"
+    },
+    {
+     "etichetta": "index ranges",
+     "forma": "F4",
+     "valore": null,
+     "testo": "−7 ≤ h ≤ 7, −14 ≤ k ≤ 14, −20 ≤ l ≤ 20"
+    },
+    {
+     "etichetta": "index ranges",
+     "forma": "F6",
+     "valore": null,
+     "testo": "−15 ≤ h ≤ 15, −16 ≤ k ≤ 16, 0 ≤ l ≤ 20"
+    },
+    {
+     "etichetta": "index ranges",
+     "forma": "F7",
+     "valore": null,
+     "testo": "−5 ≤ h ≤ 4, −33 ≤ k ≤ 33, −19 ≤ l ≤ 19"
+    }
+   ],
+   "citazione": "Index ranges | −3 ≤ h ≤ 5, −13 ≤ k ≤ 12, −49 ≤ l ≤ 49 | −5 ≤ h ≤ 4, −18 ≤ k ≤ 18, −20 ≤ l ≤ 18 | −5 ≤ h ≤ 5, −13 ≤ k ≤ 12, −36 ≤ l ≤ 54 | −7 ≤ h ≤ 7, −14 ≤ k ≤ 14, −20 ≤ l ≤ 20 | −15 ≤ h ≤ 15, −16 ≤ k ≤ 16, 0 ≤ l ≤ 20 | −5 ≤ h ≤ 4, −33 ≤ k ≤ 33, −19 ≤ l ≤ 19"
+  },
+  {
+   "id": "X16",
+   "categoria": "cristallografia",
+   "proprieta": "riflessioni raccolte (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "reflections collected",
+     "forma": "F2",
+     "valore": null,
+     "testo": "12,724"
+    },
+    {
+     "etichetta": "reflections collected",
+     "forma": "F3",
+     "valore": 8016.0
+    },
+    {
+     "etichetta": "reflections collected",
+     "forma": "F5",
+     "valore": null,
+     "testo": "13,932"
+    },
+    {
+     "etichetta": "reflections collected",
+     "forma": "F4",
+     "valore": null,
+     "testo": "24,502"
+    },
+    {
+     "etichetta": "reflections collected",
+     "forma": "F6",
+     "valore": 9745.0
+    },
+    {
+     "etichetta": "reflections collected",
+     "forma": "F7",
+     "valore": null,
+     "testo": "29,479"
+    }
+   ],
+   "citazione": "Reflections collected | 12,724 | 8016 | 13,932 | 24,502 | 9745 | 29,479",
+   "note": "Dove il testo usa la virgola delle migliaia (12,724; 13,932; 24,502; 29,479) il numero e' in testo, non in valore."
+  },
+  {
+   "id": "X17",
+   "categoria": "cristallografia",
+   "proprieta": "riflessioni indipendenti, Rint e Rsigma (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "independent reflections",
+     "forma": "F2",
+     "valore": 4059.0
+    },
+    {
+     "etichetta": "Rint",
+     "forma": "F2",
+     "valore": 0.1228
+    },
+    {
+     "etichetta": "Rsigma",
+     "forma": "F2",
+     "valore": 0.1257
+    },
+    {
+     "etichetta": "independent reflections",
+     "forma": "F3",
+     "valore": 4663.0
+    },
+    {
+     "etichetta": "Rint",
+     "forma": "F3",
+     "valore": 0.0324
+    },
+    {
+     "etichetta": "Rsigma",
+     "forma": "F3",
+     "valore": 0.0496
+    },
+    {
+     "etichetta": "independent reflections",
+     "forma": "F5",
+     "valore": 4318.0
+    },
+    {
+     "etichetta": "Rint",
+     "forma": "F5",
+     "valore": 0.0498
+    },
+    {
+     "etichetta": "Rsigma",
+     "forma": "F5",
+     "valore": 0.042
+    },
+    {
+     "etichetta": "independent reflections",
+     "forma": "F4",
+     "valore": 4746.0
+    },
+    {
+     "etichetta": "Rint",
+     "forma": "F4",
+     "valore": 0.0327
+    },
+    {
+     "etichetta": "Rsigma",
+     "forma": "F4",
+     "valore": 0.0174
+    },
+    {
+     "etichetta": "independent reflections",
+     "forma": "F6",
+     "valore": 9745.0
+    },
+    {
+     "etichetta": "Rint",
+     "forma": "F6",
+     "valore": 0.0942
+    },
+    {
+     "etichetta": "Rsigma",
+     "forma": "F6",
+     "valore": 0.1406
+    },
+    {
+     "etichetta": "independent reflections",
+     "forma": "F7",
+     "valore": 4062.0
+    },
+    {
+     "etichetta": "Rint",
+     "forma": "F7",
+     "valore": 0.1141
+    },
+    {
+     "etichetta": "Rsigma",
+     "forma": "F7",
+     "valore": 0.0818
+    }
+   ],
+   "citazione": "Independent reflections | 4059 [Rint = 0.1228, Rsigma = 0.1257] | 4663 [Rint = 0.0324, Rsigma = 0.0496] | 4318 [Rint = 0.0498, Rsigma = 0.0420] | 4746 [Rint = 0.0327, Rsigma = 0.0174] | 9745 [Rint = 0.0942, Rsigma = 0.1406] | 4062 [Rint = 0.1141, Rsigma = 0.0818]"
+  },
+  {
+   "id": "X18",
+   "categoria": "cristallografia",
+   "proprieta": "dati / vincoli / parametri (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "data/restraints/parameters",
+     "forma": "F2",
+     "valore": null,
+     "testo": "4059/0/275"
+    },
+    {
+     "etichetta": "data/restraints/parameters",
+     "forma": "F3",
+     "valore": null,
+     "testo": "4663/1/331"
+    },
+    {
+     "etichetta": "data/restraints/parameters",
+     "forma": "F5",
+     "valore": null,
+     "testo": "4318/0/294"
+    },
+    {
+     "etichetta": "data/restraints/parameters",
+     "forma": "F4",
+     "valore": null,
+     "testo": "4746/0/349"
+    },
+    {
+     "etichetta": "data/restraints/parameters",
+     "forma": "F6",
+     "valore": null,
+     "testo": "9745/0/566"
+    },
+    {
+     "etichetta": "data/restraints/parameters",
+     "forma": "F7",
+     "valore": null,
+     "testo": "4062/0/292"
+    }
+   ],
+   "citazione": "Data/restraints/parameters | 4059/0/275 | 4663/1/331 | 4318/0/294 | 4746/0/349 | 9745/0/566 | 4062/0/292",
+   "note": "Rapporto «dati/vincoli/parametri» come scritto (tre numeri separati da barre) in testo."
+  },
+  {
+   "id": "X19",
+   "categoria": "cristallografia",
+   "proprieta": "goodness-of-fit su F2 (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GOF on F2",
+     "forma": "F2",
+     "valore": 1.025
+    },
+    {
+     "etichetta": "GOF on F2",
+     "forma": "F3",
+     "valore": 1.027
+    },
+    {
+     "etichetta": "GOF on F2",
+     "forma": "F5",
+     "valore": 1.095
+    },
+    {
+     "etichetta": "GOF on F2",
+     "forma": "F4",
+     "valore": 1.047
+    },
+    {
+     "etichetta": "GOF on F2",
+     "forma": "F6",
+     "valore": 1.044
+    },
+    {
+     "etichetta": "GOF on F2",
+     "forma": "F7",
+     "valore": 1.068
+    }
+   ],
+   "citazione": "Goodness-of-fit on F2 | 1.025 | 1.027 | 1.095 | 1.047 | 1.044 | 1.068"
+  },
+  {
+   "id": "X20",
+   "categoria": "cristallografia",
+   "proprieta": "R indici finali [I ≥ 2σ(I)] (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "R1",
+     "forma": "F2",
+     "valore": 0.1407
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F2",
+     "valore": 0.3113
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F3",
+     "valore": 0.054
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F3",
+     "valore": 0.133
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F5",
+     "valore": 0.0646
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F5",
+     "valore": 0.1957
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F4",
+     "valore": 0.0442
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F4",
+     "valore": 0.1568
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F6",
+     "valore": 0.1173
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F6",
+     "valore": 0.2813
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F7",
+     "valore": 0.0774
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F7",
+     "valore": 0.2032
+    }
+   ],
+   "citazione": "Final R indexes [I ≥ 2σ (I)] | R1 = 0.1407, wR2 = 0.3113 | R1 = 0.0540, wR2 = 0.1330 | R1 = 0.0646, wR2 = 0.1957 | R1 = 0.0442, wR2 = 0.1568 | R1 = 0.1173, wR2 = 0.2813 | R1 = 0.0774, wR2 = 0.2032"
+  },
+  {
+   "id": "X21",
+   "categoria": "cristallografia",
+   "proprieta": "R indici finali [tutti i dati] (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "R1",
+     "forma": "F2",
+     "valore": 0.2255
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F2",
+     "valore": 0.3653
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F3",
+     "valore": 0.0756
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F3",
+     "valore": 0.1596
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F5",
+     "valore": 0.0751
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F5",
+     "valore": 0.2059
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F4",
+     "valore": 0.0468
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F4",
+     "valore": 0.1618
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F6",
+     "valore": 0.2136
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F6",
+     "valore": 0.3545
+    },
+    {
+     "etichetta": "R1",
+     "forma": "F7",
+     "valore": 0.1128
+    },
+    {
+     "etichetta": "wR2",
+     "forma": "F7",
+     "valore": 0.2332
+    }
+   ],
+   "citazione": "Final R indexes [all data] | R1 = 0.2255, wR2 = 0.3653 | R1 = 0.0756, wR2 = 0.1596 | R1 = 0.0751, wR2 = 0.2059 | R1 = 0.0468, wR2 = 0.1618 | R1 = 0.2136, wR2 = 0.3545 | R1 = 0.1128, wR2 = 0.2332"
+  },
+  {
+   "id": "X22",
+   "categoria": "cristallografia",
+   "proprieta": "massimo picco e buca di densita' elettronica residua (Table 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "largest difference peak",
+     "forma": "F2",
+     "valore": 0.46,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference hole",
+     "forma": "F2",
+     "valore": -0.56,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference peak",
+     "forma": "F3",
+     "valore": 0.23,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference hole",
+     "forma": "F3",
+     "valore": -0.32,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference peak",
+     "forma": "F5",
+     "valore": 0.27,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference hole",
+     "forma": "F5",
+     "valore": -0.39,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference peak",
+     "forma": "F4",
+     "valore": 0.18,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference hole",
+     "forma": "F4",
+     "valore": -0.38,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference peak",
+     "forma": "F6",
+     "valore": 1.16,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference hole",
+     "forma": "F6",
+     "valore": -0.41,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference peak",
+     "forma": "F7",
+     "valore": 0.43,
+     "unita": "e Å−3"
+    },
+    {
+     "etichetta": "largest difference hole",
+     "forma": "F7",
+     "valore": -0.67,
+     "unita": "e Å−3"
+    }
+   ],
+   "citazione": "Largest diff. peak/hole/e Å−3 | 0.46/−0.56 | 0.23/−0.32 | 0.27/−0.39 | 0.18/−0.38 | 1.16/−0.41 | 0.43/−0.67"
+  },
+  {
+   "id": "X23",
+   "categoria": "termica",
+   "proprieta": "punto di fusione del polimorfo GW-1 (Table 2)",
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "GW-1"
+   },
+   "valori": [
+    {
+     "etichetta": "melting point",
+     "valore": 142,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "GW-1 | 142",
+   "note": "Polimorfo gia' riportato (rif. 11), confrontato nella Table 2 («compared with the previous reported polymorphs GW1 to GW-5»): citato dal rif. 11; non e' una forma dell'estrazione principale di questo articolo. L'unita' (°C) sta nell'intestazione della tabella."
+  },
+  {
+   "id": "X24",
+   "categoria": "termica",
+   "proprieta": "punto di fusione del polimorfo GW-2 (Table 2)",
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "GW-2"
+   },
+   "valori": [
+    {
+     "etichetta": "melting point",
+     "valore": 137,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "GW-2 | 137",
+   "note": "Polimorfo gia' riportato (rif. 11), confrontato nella Table 2 («compared with the previous reported polymorphs GW1 to GW-5»): citato dal rif. 11; non e' una forma dell'estrazione principale di questo articolo. L'unita' (°C) sta nell'intestazione della tabella."
+  },
+  {
+   "id": "X25",
+   "categoria": "termica",
+   "proprieta": "punto di fusione del polimorfo GW-3 (Table 2)",
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "GW-3"
+   },
+   "valori": [
+    {
+     "etichetta": "melting point",
+     "valore": 139,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "GW-3 | 139",
+   "note": "Polimorfo gia' riportato (rif. 11), confrontato nella Table 2 («compared with the previous reported polymorphs GW1 to GW-5»): citato dal rif. 11; non e' una forma dell'estrazione principale di questo articolo. L'unita' (°C) sta nell'intestazione della tabella."
+  },
+  {
+   "id": "X26",
+   "categoria": "termica",
+   "proprieta": "punto di fusione del polimorfo GW-4 (Table 2)",
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "GW-4"
+   },
+   "valori": [
+    {
+     "etichetta": "melting point",
+     "valore": 131,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "GW-4 | 131",
+   "note": "Polimorfo gia' riportato (rif. 11), confrontato nella Table 2 («compared with the previous reported polymorphs GW1 to GW-5»): citato dal rif. 11; non e' una forma dell'estrazione principale di questo articolo. L'unita' (°C) sta nell'intestazione della tabella."
+  },
+  {
+   "id": "X27",
+   "categoria": "termica",
+   "proprieta": "punto di fusione del polimorfo GW-5 (Table 2)",
+   "oggetto": {
+    "composto": "C1",
+    "etichetta": "GW-5"
+   },
+   "valori": [
+    {
+     "etichetta": "melting point",
+     "valore": 139,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "melting point",
+     "valore": 145,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "GW-5 | 139 and 145",
+   "note": "Polimorfo gia' riportato (rif. 11), confrontato nella Table 2 («compared with the previous reported polymorphs GW1 to GW-5»): citato dal rif. 11; non e' una forma dell'estrazione principale di questo articolo. L'unita' (°C) sta nell'intestazione della tabella."
+  },
+  {
+   "id": "X28",
+   "categoria": "computazionale",
+   "proprieta": "energie reticolari di GW-6 e termini (Table 3)",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "Eele",
+     "forma": "F2",
+     "valore": -77.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Epol",
+     "forma": "F2",
+     "valore": -18.2,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Edisp",
+     "forma": "F2",
+     "valore": -188.5,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Erep",
+     "forma": "F2",
+     "valore": 51.1,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Elatt",
+     "forma": "F2",
+     "valore": -233.3,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "GW-6 | −77.7 | −18.2 | −188.5 | 51.1 | −233.3",
+   "note": "Intestazioni: Eele, Epol, Edisp, Erep (elettrostatica, polarizzazione, dispersione, repulsione) ed Elatt (energia reticolare totale), tutte in kJ/mol."
+  },
+  {
+   "id": "X29",
+   "categoria": "computazionale",
+   "proprieta": "energie reticolari di GW-Bipy e termini (Table 3)",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "Eele",
+     "forma": "F3",
+     "valore": -37.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Epol",
+     "forma": "F3",
+     "valore": -10.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Edisp",
+     "forma": "F3",
+     "valore": -139.9,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Erep",
+     "forma": "F3",
+     "valore": 36.3,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Elatt",
+     "forma": "F3",
+     "valore": -151.4,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "GW-Bipy | −37.7 | −10.7 | −139.9 | 36.3 | −151.4",
+   "note": "Intestazioni: Eele, Epol, Edisp, Erep (elettrostatica, polarizzazione, dispersione, repulsione) ed Elatt (energia reticolare totale), tutte in kJ/mol."
+  },
+  {
+   "id": "X30",
+   "categoria": "computazionale",
+   "proprieta": "energie reticolari di GW-MeOH e termini (Table 3)",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "Eele",
+     "forma": "F5",
+     "valore": -47.4,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Epol",
+     "forma": "F5",
+     "valore": -10.1,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Edisp",
+     "forma": "F5",
+     "valore": -141.0,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Erep",
+     "forma": "F5",
+     "valore": 45.8,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Elatt",
+     "forma": "F5",
+     "valore": -152.7,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "GW-MeOH | −47.4 | −10.1 | −141.0 | 45.8 | −152.7",
+   "note": "Intestazioni: Eele, Epol, Edisp, Erep (elettrostatica, polarizzazione, dispersione, repulsione) ed Elatt (energia reticolare totale), tutte in kJ/mol."
+  },
+  {
+   "id": "X31",
+   "categoria": "computazionale",
+   "proprieta": "energie reticolari di GW-DMF e termini (Table 3)",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "Eele",
+     "forma": "F4",
+     "valore": -50.9,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Epol",
+     "forma": "F4",
+     "valore": -12.5,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Edisp",
+     "forma": "F4",
+     "valore": -146.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Erep",
+     "forma": "F4",
+     "valore": 40.2,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Elatt",
+     "forma": "F4",
+     "valore": -169.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "GW-DMF | −50.9 | −12.5 | −146.7 | 40.2 | −169.9",
+   "note": "Intestazioni: Eele, Epol, Edisp, Erep (elettrostatica, polarizzazione, dispersione, repulsione) ed Elatt (energia reticolare totale), tutte in kJ/mol."
+  },
+  {
+   "id": "X32",
+   "categoria": "computazionale",
+   "proprieta": "energie reticolari di GW-SO e termini (Table 3)",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "Eele",
+     "forma": "F6",
+     "valore": -107.6,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Epol",
+     "forma": "F6",
+     "valore": -20.3,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Edisp",
+     "forma": "F6",
+     "valore": -180.5,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Erep",
+     "forma": "F6",
+     "valore": 97.8,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Elatt",
+     "forma": "F6",
+     "valore": -210.6,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "GW-SO | −107.6 | −20.3 | −180.5 | 97.8 | −210.6",
+   "note": "Intestazioni: Eele, Epol, Edisp, Erep (elettrostatica, polarizzazione, dispersione, repulsione) ed Elatt (energia reticolare totale), tutte in kJ/mol."
+  },
+  {
+   "id": "X33",
+   "categoria": "computazionale",
+   "proprieta": "energie reticolari di GW-SO2 e termini (Table 3)",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "Eele",
+     "forma": "F7",
+     "valore": -107.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Epol",
+     "forma": "F7",
+     "valore": -14.2,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Edisp",
+     "forma": "F7",
+     "valore": -204.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Erep",
+     "forma": "F7",
+     "valore": 66.4,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Elatt",
+     "forma": "F7",
+     "valore": -260.2,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "GW-SO2 | −107.7 | −14.2 | −204.7 | 66.4 | −260.2",
+   "note": "Intestazioni: Eele, Epol, Edisp, Erep (elettrostatica, polarizzazione, dispersione, repulsione) ed Elatt (energia reticolare totale), tutte in kJ/mol."
+  },
+  {
+   "id": "X34",
+   "categoria": "cristallografia",
+   "proprieta": "formule delle forme nuove (abstract)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "polymorph",
+     "forma": "F2",
+     "valore": null,
+     "testo": "C21H18F3NO3S2"
+    },
+    {
+     "etichetta": "cocrystal with 4,4′-bipyridine",
+     "forma": "F3",
+     "valore": null,
+     "testo": "C21H18F3NO3S2·0.5C10H8N2"
+    },
+    {
+     "etichetta": "methanol solvate",
+     "forma": "F5",
+     "valore": null,
+     "testo": "C21H18F3NO3S2·CH3OH"
+    },
+    {
+     "etichetta": "dimethylformamide solvate",
+     "forma": "F4",
+     "valore": null,
+     "testo": "C21H18F3NO3S2·C3H7NO"
+    },
+    {
+     "etichetta": "mono-oxidized cardarine",
+     "forma": "F6",
+     "valore": null,
+     "testo": "C21H18F3NO4S2"
+    },
+    {
+     "etichetta": "dioxidized cardarine",
+     "forma": "F7",
+     "valore": null,
+     "testo": "C21H18F3NO5S2"
+    }
+   ],
+   "qualitativo": "quattro forme solide nuove e due derivati di cardarine; formule come scritte",
+   "citazione": "A total of four new solid forms were obtained: a new polymorph of cardarine (C21H18F3NO3S2), the cardarine: 4,4′-bipyridine cocrystal (C21H18F3NO3S2·0.5C10H8N2), the cardarine methanol solvate (C21H18F3NO3S2·CH3OH), and the cardarine dimethylformamide solvate (C21H18F3NO3S2·C3H7NO). Moreover, two derivatives of cardarine were obtained, in the form of the mono-oxidized cardarine structure (C21H18F3NO4S2) and the dioxidized cardarine structure (C21H18F3NO5S2)."
+  },
+  {
+   "id": "X35",
+   "categoria": "altro",
+   "proprieta": "numero di polimorfi di cardarine nel CSD",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "polymorphs of cardarine in the CSD",
+     "valore": 5
+    }
+   ],
+   "citazione": "even though the literature provides an extensive study of cardarine polymorphism [11], the CSD database so far reports only five polymorphs of cardarine [12].",
+   "note": "citato dal rif. 12 (e rif. 11)"
+  },
+  {
+   "id": "X36",
+   "categoria": "altro",
+   "proprieta": "forme cristalline studiate per SCXRD",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "solid forms investigated by SCXRD",
+     "valore": 6
+    }
+   ],
+   "citazione": "The crystallographic and other refinement-related data of the six solid forms investigated by single crystal X-ray diffraction are given in Table 1."
+  },
+  {
+   "id": "X37",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: diffrattometro e tensione/corrente delle microsorgenti",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "tube voltage",
+     "valore": 50,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "tube current",
+     "valore": 0.8,
+     "unita": "mA"
+    }
+   ],
+   "qualitativo": "SuperNova con microsorgenti doppie (Mo e Cu) e rivelatore Eos CCD; cristalli montati su un anello di nylon con olio inerte",
+   "citazione": "The single crystals were attached on a fine nylon loop coated by inert oil and mounted on the goniometer of a SuperNova diffractometer equipped with dual X-ray micro-sources (Mo and Cu), which operates at 50 kV and 0.8 mA and Eos CCD detector."
+  },
+  {
+   "id": "X38",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: metodo di soluzione per forma",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "GW-6 e GW-Bipy risolte per Direct Methods; GW-MeOH, GW-DMF, GW-SO e GW-SO2 per Intrinsic Phasing; raffinamento ai minimi quadrati",
+   "citazione": "The crystal structures of GW-6 and GW-Bipy were solved by Direct Methods with the SHELXS solution program [22], while GW-MeOH, GW-DMF, GW-SO, and GW-SO2 were solved using Intrinsic Phasing with SHELXT [23]."
+  },
+  {
+   "id": "X39",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: fattori Uiso e distanze C–H degli idrogeni legati a carbonio",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Uiso(H) factor, ternary CH and secondary CH2 groups",
+     "valore": 1.2
+    },
+    {
+     "etichetta": "Uiso(H) factor, methyl CH3 groups",
+     "valore": 1.5
+    },
+    {
+     "etichetta": "C-H, ternary CH",
+     "valore": 0.93,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C-H, secondary CH2",
+     "valore": 0.97,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C-H, methyl CH3",
+     "valore": 0.96,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "Hydrogen atoms bounded to carbons were located, treated, and refined as riding, considering the isotropic displacement parameter Uiso(H) = 1.2Ueq(C) for ternary CH groups [C-H = 0.93 Å], secondary CH2 groups [C-H = 0.97 Å], and 1.5Ueq(C) considered for all methyl CH3 groups [C-H = 0.96 Å]."
+  },
+  {
+   "id": "X40",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD: idrogeni legati a ossigeno",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "O-H bond length",
+     "valore": 0.82,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "Hydrogen atoms bound to oxygen atoms were located by Fourier maps and by a riding procedure and refined with bond length distances of O-H = 0.82 Å."
+  },
+  {
+   "id": "X41",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD: radiazione CuKα1",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "CuKα1 wavelength",
+     "valore": 1.54056,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "tube voltage",
+     "valore": 40,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "tube current",
+     "valore": 40,
+     "unita": "mA"
+    }
+   ],
+   "qualitativo": "monocromatore Ge (111) sul fascio incidente per ottenere solo la radiazione CuKα1; rivelatore LYNXEYE",
+   "citazione": "Powder X-ray diffraction data were acquired using a Bruker D8 Advance diffractometer equipped with a Cu tube CuKa1 (λ = 1.54056 Å), which operates at 40 KV and 40 mA, a Ge (111) monochromator in the incident beam to obtain only CuKa1 radiation, and a LYNXEYE detector.",
+   "note": "Nel testo letto «40 KV»."
+  },
+  {
+   "id": "X42",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD: velocita' di acquisizione",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "scan rate",
+     "valore": 0.02,
+     "unita": "°/s"
+    }
+   ],
+   "citazione": "Data acquisition was completed at a scan rate of 0.02°/s."
+  },
+  {
+   "id": "X43",
+   "categoria": "metodo",
+   "proprieta": "DTA/TGA: temperatura finale e flusso di azoto",
+   "tecnica": "DTA/TGA",
+   "valori": [
+    {
+     "etichetta": "final temperature",
+     "valore": 500,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "nitrogen flow",
+     "valore": 70,
+     "unita": "mL/min"
+    }
+   ],
+   "citazione": "The samples were placed in an open alumina pan and heated from room temperature to 500 °C at a rate of 10 °C per minute, under a nitrogen gas flow of 70 mL/min.",
+   "note": "La velocita' di riscaldamento (10 °C per minute) e il crogiolo sono nelle condizioni degli eventi. Riferimento: polvere di allumina."
+  },
+  {
+   "id": "X44",
+   "categoria": "metodo",
+   "proprieta": "FT-IR: scansioni, risoluzione e intervallo spettrale",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "scans",
+     "valore": 256
+    },
+    {
+     "etichetta": "resolution",
+     "valore": 4,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "spectral range, da",
+     "valore": 4000,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "spectral range, a",
+     "valore": 400,
+     "unita": "cm−1"
+    }
+   ],
+   "qualitativo": "spettrometro Jasco 6200; campioni in pasticche di KBr",
+   "citazione": "with 256 scans and 4 cm−1 resolution, in the spectral range 4000–400 cm−1."
+  },
+  {
+   "id": "X45",
+   "categoria": "computazionale",
+   "proprieta": "CrystalExplorer: fattori di scala del modello B3LYP",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "kele",
+     "valore": 1.057
+    },
+    {
+     "etichetta": "kpol",
+     "valore": 0.74
+    },
+    {
+     "etichetta": "kdisp",
+     "valore": 0.871
+    },
+    {
+     "etichetta": "krep",
+     "valore": 0.618
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The following scale factors were considered based on the B3LYP energy model, namely kele = 1.057, kpol = 0.740, kdisp = 0.871, and krep = 0.618."
+  },
+  {
+   "id": "X46",
+   "categoria": "computazionale",
+   "proprieta": "CrystalExplorer: livello di teoria",
+   "tecnica": "CrystalExplorer",
+   "valori": [],
+   "qualitativo": "B3LYP/6-31H(d,p) come scritto",
+   "calcolato": true,
+   "citazione": "The energy terms were calculated using the [B3LYP/6-31H(d,p)] level of theory.",
+   "note": "L'articolo gemello (10.3390/pharmaceutics16050623) scrive B3LYP/6-31G(d,p) per lo stesso calcolo."
+  },
+  {
+   "id": "X47",
+   "categoria": "computazionale",
+   "proprieta": "CrystalExplorer: raggio del cluster per le energie reticolari",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "cluster radius",
+     "valore": 37,
+     "unita": "Å"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The values of crystal lattice energies were evaluated using the CrystalExplorer program [26] considering the contributions over a cluster with a radius of 37 Å around the asymmetric units."
+  },
+  {
+   "id": "X48",
+   "categoria": "computazionale",
+   "proprieta": "CrystalExplorer: distanze normalizzate C–H e O–H",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "normalized C-H",
+     "valore": 1.083,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "normalized O-H",
+     "valore": 0.983,
+     "unita": "Å"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The normalized bond lengths were used as follows: CH, CH2, and CH3 groups (C-H = 1.083 Å) and O-H distances equal to 0.983 Å [28]."
+  },
+  {
+   "id": "X49",
+   "categoria": "metodo",
+   "proprieta": "camera climatica: accuratezza di RH e temperatura",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "accuracy of relative humidity",
+     "valore": 1,
+     "unita": "% RH"
+    },
+    {
+     "etichetta": "accuracy of temperature",
+     "valore": 0.1,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "which allows the precise control of both relative humidity (having an accuracy of ±1% RH) and temperature (having an accuracy of ±0.1 °C).",
+   "note": "Camera Memmert HCP105."
+  },
+  {
+   "id": "X50",
+   "categoria": "metodo",
+   "proprieta": "UV: mezzo, campione e agitazione",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "pH of the dissolution medium",
+     "valore": 6
+    },
+    {
+     "etichetta": "quantity of each sample",
+     "valore": 3,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "stock solutions prepared",
+     "valore": 5
+    },
+    {
+     "etichetta": "stirring",
+     "valore": 100,
+     "unita": "rpm"
+    },
+    {
+     "etichetta": "temperature",
+     "valore": 37,
+     "incertezza": 1,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "The dissolution medium of the samples to be analyzed was deionized water (pH = 6). From a quantity of 3 mg of each sample to be investigated, five stock solutions were prepared in water with the excess sample, which was left stirring (100 rpm) at 37 °C ± 1 °C.",
+   "note": "L'incertezza di 37 °C (± 1 °C) e' quella scritta. Le cinque soluzioni madre sono «five stock solutions ... prepared in water with the excess sample»."
+  },
+  {
+   "id": "X51",
+   "categoria": "metodo",
+   "proprieta": "UV: tempo, filtrazione e intervallo spettrale",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "stirring time before filtration",
+     "valore": 48,
+     "unita": "h"
+    },
+    {
+     "etichetta": "syringe filter pore size",
+     "valore": 0.45,
+     "unita": "µm"
+    },
+    {
+     "etichetta": "wavelength range, da",
+     "valore": 200,
+     "unita": "nm"
+    },
+    {
+     "etichetta": "wavelength range, a",
+     "valore": 500,
+     "unita": "nm"
+    },
+    {
+     "etichetta": "quartz cuvette path length",
+     "valore": 1,
+     "unita": "cm"
+    },
+    {
+     "etichetta": "cuvette volume",
+     "valore": 500,
+     "unita": "µL",
+     "circa": true
+    }
+   ],
+   "citazione": "After 48 h, the solutions were filtered through a 0.45 μm syringe filter. The concentration of the substance from each analyzed stock solution was calculated against the total volume of water added to obtain the supersaturated solutions. UV analysis of liquid samples was performed in the wavelength range of 200–500 nm, and the sample support was quartz cuvettes (path length 1 cm, V~500 μL).",
+   "note": "Il volume della cuvetta e' scritto «V~500 μL»."
+  },
+  {
+   "id": "X52",
+   "categoria": "geometria",
+   "proprieta": "GW-6: contatto π···π C21···C16",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C21···C16 contact",
+     "valore": 3.4,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "The cohesion is also completed by stacking π···π contacts (C21···C16 contact, 3.4 Å) between the carboxyl group and the phenyl ring"
+  },
+  {
+   "id": "X53",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GW-6: forma attorcigliata e interazioni C–H···F",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "molecola attorcigliata al metilsulfanile; impilamento π···π fra il gruppo carbossilico e l'anello fenilico e C14-H14···F2 fra lo stesso anello fenilico e il trifluorometile (omosintone R2^2(8) fra i carbossili nell'estrazione principale)",
+   "citazione": "The molecule adopts a twisted shape at the methylsulfanyl moiety. The cohesion is also completed by stacking π···π contacts (C21···C16 contact, 3.4 Å) between the carboxyl group and the phenyl ring and C14-H14···F2 interactions of the same phenyl ring with the trifluoromethyl group. The crystal packing diagram observed along the b-axis is depicted in Figure 1b."
+  },
+  {
+   "id": "X54",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GW-Bipy: altre interazioni intermolecolari di stabilita'",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "C17-H17···O3 fra anello fenilico e carbossile; C26-H26···S2 fra anello fenilico e metilsulfanile",
+   "citazione": "Other intermolecular interactions with distances shorter than the sum of van der Waals radii involved in stability are the C17-H17···O3 interaction between the phenyl ring and carboxyl group and C26-H26···S2 between the phenyl ring and methylsulfanyl moiety."
+  },
+  {
+   "id": "X55",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GW-DMF: strati collegati dal solvente",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "strati molecolari collegati dalla molecola di solvente, legata al carbonile C=O di cardarine tramite C23-H···O2",
+   "citazione": "The molecular layers of molecules are connected by the solvent molecule, which is linked as well to the C=O carbonyl group of cardarine via the C23-H···O2 bond."
+  },
+  {
+   "id": "X56",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GW-MeOH: impilamento lungo a via C–H···π",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "molecole impilate lungo l'asse a tramite C20-H20A···C17 e C20-H20B···O3",
+   "citazione": "Along the direction of the a-axis, the molecules are stacked via C-H···π contact (C20-H20A···C17 and C20-H20B···O3) interactions (Figure 4b)."
+  },
+  {
+   "id": "X57",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GW-SO: ossidazione di S1 a sulfossido",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "valence of S1",
+     "valore": 4
+    }
+   ],
+   "qualitativo": "il tioetere (C-S-C) e' ossidato a sulfossido (C-SO-C): un atomo di ossigeno si aggiunge allo zolfo; «common oxidation process in the pharmaceutical chemistry»",
+   "citazione": "which gained an oxygen atom at the S1 sulfur of the methylsulfanyl group; in this way, the valence of S1 is 4 and becomes a sulfoxide group."
+  },
+  {
+   "id": "X58",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GW-SO: interazioni fra le catene di molecole A e B",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "fra le catene: C-H···π (C12A-H12C···C3B) e C-H···F (C11A-H11E···F1A e C12B-H12A···F2B)",
+   "citazione": "Between these molecular chains, C-H···π (C12A-H12C···C3B) and C-H···F interactions (C11A-H11E···F1A and C12B-H12A···F2B) take place."
+  },
+  {
+   "id": "X59",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GW-SO2: ossidazione di S2 a solfone",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "valence of S2",
+     "valore": 6
+    }
+   ],
+   "qualitativo": "il tioetere (C-S-C) e' ossidato a gruppo solfonico (C-SO2-C): due atomi di ossigeno si aggiungono allo zolfo S2",
+   "citazione": "thus gaining two oxygen atoms and the valence of sulfur becomes 6."
+  },
+  {
+   "id": "X60",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GW-SO2: legame O3-H3··N1 carbossile-tiazolo",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "unico cristallo in cui l'anello tiazolico e' coinvolto in un legame H (O3-H3··N1); gli autori scrivono «ob-axis» e «ao-axis» (assi con la lettera rovinata dal PDF)",
+   "citazione": "Unlike in the cases of the other crystals where the thiazole ring was not involved in hydrogen bonding, in dioxidized GW-SO2, the carboxyl group is bridged to the nitrogen of the thiazole ring by O3-H3··N1 bonds, which are extended in the direction of the ob-axis."
+  },
+  {
+   "id": "X61",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "forme nuove: centrosimmetriche e monocline o triclinee (conclusioni del paragrafo 3.1)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "crystals",
+     "valore": 6
+    }
+   ],
+   "qualitativo": "tutti e sei i cristalli sono centrosimmetrici e monoclini o triclini",
+   "citazione": "(ii)All six crystals are centrosymmetric and either monoclinic or triclinic;"
+  },
+  {
+   "id": "X62",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "forme nuove: legami H O-H···O e O-H···N, C-H···O, C-H···π, C-H···F (conclusioni)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "autoassemblaggi guidati da forti legami O-H···O e O-H···N che coinvolgono il carbossile COOH e l'anello tiazolico, piu' interazioni di van der Waals come C-H···O, C-H···π e C-H···F",
+   "citazione": "(iii)Supramolecular self-assemblies are driven by strong O-H···O and O-H···N hydrogen bonds involving the carboxyl COOH group and the thiazole ring and other van der Waals interactions such as C-H···O, C-H···π, and C-H···F;"
+  },
+  {
+   "id": "X63",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "sintoni per forma: R2^2(8), R2^2(7), R4^4(12) (conclusioni)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "il polimorfo ha sintoni R2^2(8), il solvato GW-DMF due sintoni R2^2(7), il solvato GW-MeOH un sintone R4^4(12)",
+   "citazione": "(iv)The polymorph exhibits self-assembly synthons of the R22(8) type, the GW-DMF solvate has two R22(7) synthons, and the GW-MeOH solvate forms an R44(12) type synthon.",
+   "note": "I motivi sono gia' nelle forme (motivi_hb); qui la frase riassuntiva delle conclusioni."
+  },
+  {
+   "id": "X64",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "sistema cristallino per forma (conclusioni)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "GW-6, GW-MeOH e GW-SO2 centrosimmetrici e monoclini; GW-bipy, GW-DMF e GW-SO centrosimmetrici e triclini",
+   "citazione": "The GW-6, the GW-MeOH, and the GW-SO2 forms are centrosymmetric and monoclinic crystals while the GW-bipy, the GW-DMF solvate. and the GW-SO are centrosymmetric triclinic crystals.",
+   "note": "Coerente con la Table 1 (sistema e gruppo spaziale sono nelle forme)."
+  },
+  {
+   "id": "X65",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "stabilita' dei cristalli: legami O-H···N e O-H···O e dispersione C-H···π (conclusioni)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "stabilita' dei cristalli mantenuta soprattutto da forti legami O-H···N fra carbossile e tiazolo e legami O-H···O reciproci fra carbossili, che contribuiscono all'energia elettrostatica; la dispersione (contatti C-H···π) e' il fattore chiave di coesione",
+   "citazione": "The stability of the crystals is primarily maintained by strong O-H···N hydrogen bonds between the carboxyl and thiazole rings, as well as reciprocal O-H···O hydrogen bonds between carboxyl groups, which make a significant contribution to the electrostatic interaction energy. Another key factor in crystal cohesion is the dispersion interactions, with C-H···π contacts playing the most prominent role in this aspect."
+  },
+  {
+   "id": "X66",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "flessibilita' al metilsulfanile e alta resa di forme nuove",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "alta flessibilita' molecolare al gruppo metilsulfanile (legame C12-S2), coinvolgimento del gruppo OH in nuovi legami H e inclusione di molecole ospiti",
+   "citazione": "Cardarine shows a high yield in being prepared in the form of new crystalline forms and derivatives mostly due to the high molecular flexibility exhibited at the methylsulfanyl group (carbon-sulfur C12-S2 bond) due to the involvement of the OH group in the formation of new hydrogen bonds and the embedding of guest molecules;"
+  },
+  {
+   "id": "X67",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD: confronto fra diffrattogrammi simulati e sperimentali",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "buon accordo in tutti i confronti, salvo alcune intensita' piu' basse nei dati sperimentali, attribuite all'orientazione preferenziale dei cristalliti",
+   "citazione": "The X-ray diffraction analysis was conducted with the purpose of checking the structural homogeneity, the purity of the prepared samples, and the proof that the analyzed single crystals are representative of the entire bulk of powder samples. The comparisons of simulated diffraction patterns (which were generated based on the CIF files) and the experimental patterns are illustrated in Figure S1 (Supporting Information). A good match in all paired comparisons can be noticed, with the exception of some diffraction intensities, which are lower in the experimental ones and which account for the preferred orientation of crystallites."
+  },
+  {
+   "id": "X68",
+   "categoria": "termica",
+   "proprieta": "GW-MeOH: perdita di massa teorica e differenza con la sperimentale",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "theoretical solvent content",
+     "forma": "F5",
+     "valore": 6.59,
+     "unita": "%"
+    },
+    {
+     "etichetta": "difference between theoretical and experimental mass loss",
+     "forma": "F5",
+     "valore": 1.5,
+     "unita": "%",
+     "circa": true
+    }
+   ],
+   "calcolato": true,
+   "citazione": "which is quite close to the theoretical solvent content of 6.59%. The slight difference of roughly 1.5% could possibly be due to the fact that not all cardarine molecules within the sample have an associated guest methanol molecule embedded within the lattice",
+   "note": "La perdita sperimentale (5%) e' nell'evento E4. «roughly 1.5%» e' la differenza dichiarata dagli autori."
+  },
+  {
+   "id": "X69",
+   "categoria": "termica",
+   "proprieta": "GW-DMF: perdita di massa teorica di DMF",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "theoretical mass of DMF",
+     "forma": "F4",
+     "valore": 13.8,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "which accounts for the mass of lost solvent molecules, being exactly the same as the theoretical mass assigned to DMF molecules, which accounts for 13.8% of the total mass.",
+   "note": "Le perdite sperimentali (8.2% e 5.6%) sono nell'evento E7."
+  },
+  {
+   "id": "X70",
+   "categoria": "termica",
+   "proprieta": "GW-Bipy: perdita di bipiridina attribuita fra circa 130 e 280 °C",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "mass loss due to 4,4′-bipyridine, da",
+     "valore": 130,
+     "unita": "°C",
+     "circa": true
+    },
+    {
+     "etichetta": "mass loss due to 4,4′-bipyridine, a",
+     "valore": 280,
+     "unita": "°C",
+     "circa": true
+    }
+   ],
+   "citazione": "and in the case of the cocrystal, the mass loss due to 4,4′-bipyridine occurs approximately between 130 and 280 °C.",
+   "note": "Nell'evento E10 la stessa perdita e' «from 140 to 275 °C»: due scritture diverse nel testo per l'intervallo della perdita di bipiridina del cocristallo."
+  },
+  {
+   "id": "X71",
+   "categoria": "termica",
+   "proprieta": "bipiridina pura: evaporazione dell'acqua superficiale a ~75 °C",
+   "oggetto": {
+    "forma": "F8"
+   },
+   "tecnica": "DTA/TGA",
+   "valori": [
+    {
+     "etichetta": "endothermic peak",
+     "forma": "F8",
+     "valore": 75,
+     "unita": "°C",
+     "circa": true
+    },
+    {
+     "etichetta": "mass loss",
+     "forma": "F8",
+     "valore": 8.3,
+     "unita": "%"
+    }
+   ],
+   "citazione": "The endothermic peak observed in the DTA curve of bipyridine at ~75 °C is attributed to the evaporation of water absorbed on the surface and is accompanied by a mass loss of 8.3%.",
+   "note": "Acqua adsorbita in superficie, non cambia la forma: non e' un evento dell'estrazione principale (fusione e degradazione sono E11, E12)."
+  },
+  {
+   "id": "X72",
+   "categoria": "termica",
+   "proprieta": "bipiridina pura: perdita di massa fra 111 e 200 °C",
+   "oggetto": {
+    "forma": "F8"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "mass loss range, da",
+     "forma": "F8",
+     "valore": 111,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "mass loss range, a",
+     "forma": "F8",
+     "valore": 200,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Thus, in the case of pure bipyridine, the mass loss occurs in the temperature range of 111–200 °C"
+  },
+  {
+   "id": "X73",
+   "categoria": "termica",
+   "proprieta": "bipiridina: comportamento termico simile a quello riportato",
+   "oggetto": {
+    "forma": "F8"
+   },
+   "tecnica": "DTA/TGA",
+   "valori": [],
+   "qualitativo": "comportamento termico simile a quello riportato in studi precedenti (rif. 30)",
+   "citazione": "Previous studies have also reported similar thermal behavior for 4,4′-bipyridine [30].",
+   "note": "citato dal rif. 30"
+  },
+  {
+   "id": "X74",
+   "categoria": "termica",
+   "proprieta": "fusione del cocristallo fra quella della bipiridina e quella della cardarine di partenza",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "DTA",
+   "valori": [],
+   "qualitativo": "la fusione del cocristallo avviene a temperatura piu' alta della bipiridina e piu' bassa della cardarine di partenza, conseguenza della formazione del cocristallo",
+   "citazione": "it can be observed that in the cocrystal (Figure 7c), the event associated with melting occurs at a higher value than in bipyridine (Figure 7d) and lower than in the starting cardarine.",
+   "note": "Riferimenti a figure sbagliati nel testo («Figure 7c» e «Figure 7d» per cocristallo e bipiridina). Nessun valore numerico per la cardarine di partenza nel testo."
+  },
+  {
+   "id": "X75",
+   "categoria": "termica",
+   "proprieta": "inclusione di molecole ospiti e punti di fusione (Table 2)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "DTA",
+   "valori": [],
+   "qualitativo": "le molecole ospiti (GW-MeOH, GW-DMF, GW-Bipy) abbassano di poco i punti di fusione nel complesso; il polimorfo GW-6 e' paragonabile agli altri",
+   "citazione": "while the inclusion of guest molecules (GW-MeOH, GW-DMF, and GW-Bipy) led to a slight decrease in the melting points values overall."
+  },
+  {
+   "id": "X76",
+   "categoria": "termica",
+   "proprieta": "degradazione e ossidazione: comportamento simile delle forme nuove",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "DTA/TGA",
+   "valori": [],
+   "qualitativo": "tutte le forme nuove mostrano comportamento simile di degradazione e ossidazione (temperature negli eventi)",
+   "citazione": "it can be observed that all new solid forms exhibit similar behavior in terms of degradation and oxidation"
+  },
+  {
+   "id": "X77",
+   "categoria": "computazionale",
+   "proprieta": "energia reticolare di GW-6 e dei cinque polimorfi precedenti (rif. 11)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "lattice energy of GW-6",
+     "forma": "F2",
+     "valore": -233.3,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "lattice energy of previously reported polymorphs, da",
+     "valore": -195.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "lattice energy of previously reported polymorphs, a",
+     "valore": -236.8,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "With reference to the newly reported polymorph, a total lattice energy of −233.3 kJ/mol is displayed, which is comparable with the other five cardarine polymorphs already reported, which are found between −195.7 kJ/mol and −236.8 kJ/mol [11], which suggests a similar overall stability.",
+   "note": "L'intervallo dei cinque polimorfi precedenti e' citato dal rif. 11; i valori sono scritti con il segno meno."
+  },
+  {
+   "id": "X78",
+   "categoria": "computazionale",
+   "proprieta": "GW-Bipy: energia reticolare e stabilita' rispetto al polimorfo",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "overall lattice energy",
+     "forma": "F3",
+     "valore": -151.4,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The 2:1 cocrystal with bipyridine shows an overall energy of −151.4 kJ/mol, which is lower compared to the polymorph and indicates a lower stability."
+  },
+  {
+   "id": "X79",
+   "categoria": "computazionale",
+   "proprieta": "solvati: energie reticolari e stabilita'",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "lattice energy",
+     "forma": "F5",
+     "valore": -152.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "lattice energy",
+     "forma": "F4",
+     "valore": -169.9,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Furthermore, it can be noted that the inclusion of solvent molecules within the lattice lowers the crystal stability, with the computed lattice energies being −152.7 kJ/mol for the methanol solvate (GW-MeOH) and with the dimethylformamide solvate (GW-DMF) being slightly more stable with an energy of –169.9 kJ/mol."
+  },
+  {
+   "id": "X80",
+   "categoria": "computazionale",
+   "proprieta": "derivati ossidati: energie reticolari e stabilita' termodinamica",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "lattice energy",
+     "forma": "F7",
+     "valore": -260.2,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "lattice energy",
+     "forma": "F6",
+     "valore": -211.1,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The evaluation of the lattice energies can explain the crystallization of cardarine under the two oxidized forms, thus achieving, from a thermodynamic point of view, new configurations with lower energies compared with the multi-component, especially in the doubly oxidized case (−260.2 kJ/mol in GW-SO2), while the oxidized (GW-SO) has a lattice energy of −211.1 kJ/mol only once.",
+   "note": "Per GW-SO il testo scrive −211.1 kJ/mol e la Table 3 −210.6 (vedi la voce della Table 3): conflitto fra testo e tabella, valori riportati come scritti. «only once» come nel testo."
+  },
+  {
+   "id": "X81",
+   "categoria": "computazionale",
+   "proprieta": "quota dell'attrazione elettrostatica sull'energia reticolare",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "electrostatic term share of lattice energy",
+     "forma": "F2",
+     "valore": 33,
+     "unita": "%",
+     "circa": true
+    },
+    {
+     "etichetta": "electrostatic term share of lattice energy",
+     "forma": "F6",
+     "valore": 50,
+     "unita": "%",
+     "circa": true
+    },
+    {
+     "etichetta": "electrostatic term share of lattice energy",
+     "forma": "F7",
+     "valore": 41,
+     "unita": "%",
+     "circa": true
+    }
+   ],
+   "qualitativo": "nei cristalli a un componente il termine elettrostatico e' il piu' importante fra i termini di attrazione; il termine dominante in tutte le strutture e' di gran lunga la dispersione",
+   "calcolato": true,
+   "citazione": "representing approximately 33% of the total lattice energy in GW-6, 50% in GW-SO, and 41% in GW-SO2."
+  },
+  {
+   "id": "X82",
+   "categoria": "computazionale",
+   "proprieta": "GW-SO e GW-SO2: stabilita' rispetto alle altre forme multicomponente",
+   "tecnica": "CrystalExplorer",
+   "valori": [],
+   "qualitativo": "i due derivati ossidati non sono stati riprodotti; la conclusione (piu' stabili delle altre forme multicomponente) si basa solo sulle energie reticolari",
+   "calcolato": true,
+   "citazione": "Since we were not able to further reproduce the two oxidized cardarine forms (GW-SO and GW-SO2 derivatives) and to evaluate other properties, besides their crystal structures, the conclusion can only be made based on the evaluation of lattice energies."
+  },
+  {
+   "id": "X83",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione a coppie di GW-6 (legami carbossile···carbossile)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "Etot",
+     "forma": "F2",
+     "valore": -126.2,
+     "unita": "kJ"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "(i)The polymorph is the only structure that displays mutual carboxyl···carboxyl O-H···O hydrogen bonds and is characterized by a higher magnitude of binding energy compared to other crystals mainly due to its electrostatic nature (Etot = −126.2 kJ);",
+   "note": "Unita' «kJ» come scritta nel testo (senza «/mol»)."
+  },
+  {
+   "id": "X84",
+   "categoria": "computazionale",
+   "proprieta": "energie di interazione ospite-ospite nelle unita' asimmetriche",
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "Etot",
+     "forma": "F5",
+     "valore": -85.4,
+     "unita": "kJ"
+    },
+    {
+     "etichetta": "Eele",
+     "forma": "F5",
+     "valore": -65.9,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Etot",
+     "forma": "F4",
+     "valore": -110.4,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Eele",
+     "forma": "F4",
+     "valore": -88.3,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Etot",
+     "forma": "F3",
+     "valore": -82.2,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Eele",
+     "forma": "F3",
+     "valore": -57.0,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "(ii)The interactions between host–guest molecules within the asymmetric units are significant and dominated by the electrostatic terms GW-MeOH (Etot = −85.4 kJ and Eele = −65.9 kJ/mol), GW-DMF (Etot = −110.4 kJ/mol and Eele = −88.3 kJ/mol), and GW-Bipy (Etot = −82.2 kJ/mol and Eele −57.0 kJ/mol);",
+   "note": "Per GW-MeOH l'Etot e' scritta con «kJ» senza «/mol»."
+  },
+  {
+   "id": "X85",
+   "categoria": "computazionale",
+   "proprieta": "GW-SO2: energia di interazione del legame idrossile···tiazolo",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "etichetta": "Etot",
+     "forma": "F7",
+     "valore": -79.7,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "Eele",
+     "forma": "F7",
+     "valore": -51.6,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "(iii)The GW-SO2 crystal, which is the only displaying hydroxyl···thiazole hydrogen bond, is characterized by a rather high interaction energy (Etot = −79.7 kJ/mol), which is dominated by the electrostatic component as well (Eele = −51.6 kJ/mol);"
+  },
+  {
+   "id": "X86",
+   "categoria": "computazionale",
+   "proprieta": "energia di polarizzazione e dispersione nelle coppie intermolecolari",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "CrystalExplorer",
+   "valori": [],
+   "qualitativo": "la polarizzazione ha il ruolo meno rappresentativo; la dispersione, che include gli impilamenti C-H···π, contribuisce molto alla stabilita'",
+   "calcolato": true,
+   "citazione": "(iv)In all of the molecular interaction pairs, the polarization energy has the least representative role in cohesion, which indicates that the molecules are not polarized;(v)A high contribution to the overall stability is given by dispersion energy, which includes the stacking C-H···π interactions."
+  },
+  {
+   "id": "X87",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(O-H) del carbossile nelle forme multicomponente (FT-IR)",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν(O-H)",
+     "forma": "F5",
+     "valore": 3431,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "ν(O-H)",
+     "forma": "F4",
+     "valore": 3487,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "ν(O-H)",
+     "forma": "F3",
+     "valore": 3440,
+     "unita": "cm−1"
+    }
+   ],
+   "qualitativo": "banda larga",
+   "citazione": "The spectrum of the multi-component adducts shows a broad absorption band with a peak at 3431 cm−1 in GW-MeOH, at 3487 cm−1 in GW-DMF, and at 3440 cm−1 in the 2:1 GW-Bipy cocrystal due to the stretching vibration of the υ(O-H) bond of carboxyl group present in cardarine molecules."
+  },
+  {
+   "id": "X88",
+   "categoria": "spettroscopia",
+   "proprieta": "GW-6: banda ν(O-H) del carbossile non visibile",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "FT-IR",
+   "valori": [],
+   "qualitativo": "la banda ν(O-H) del carbossile non e' visibile in GW-6",
+   "citazione": "It is interesting to note that the same band is not visible in the GW-6."
+  },
+  {
+   "id": "X89",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C-H) di anello benzenico e metili",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν(C-H), da",
+     "valore": 3100,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "ν(C-H), a",
+     "valore": 2800,
+     "unita": "cm−1"
+    }
+   ],
+   "citazione": "The absorption bands in the 3100–2800 cm−1 spectral range are due to the stretching vibration of the υ(C-H) bonds in the benzene ring and in the CH3 groups as well."
+  },
+  {
+   "id": "X90",
+   "categoria": "spettroscopia",
+   "proprieta": "bande ν(S-H) e interpretazione (H del COOH migrato su S2)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν(S-H), da",
+     "valore": 2600,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "ν(S-H), a",
+     "valore": 2500,
+     "unita": "cm−1"
+    }
+   ],
+   "qualitativo": "il gruppo S-H non c'e' nella composizione di cardarine e non e' stato localizzato per SCXRD; gli autori ritengono probabile che l'H del COOH migri sullo zolfo S2, legato in modo disordinato, e lo usano per spiegare l'assenza dell'O-H nel polimorfo",
+   "citazione": "The bands that appear between 2600 and 2500 cm−1 correspond to the stretching vibration of the υ(S-H) bond. Even though the S-H group is not present in the molecular composition of cardarine and has not been located by single crystal X-ray diffraction, it is likely that the hydrogen from the carboxyl group COOH migrates to the sulfur S2 and this hydrogen atom is attached to the sulfur in a disordered manner. This explained the lack of the specific O-H stretching in the spectra of the GW-polymorph.",
+   "note": "L'interpretazione e' degli autori («it is likely»); l'assegnazione ad S-H e' contraria a quanto mostra la struttura (nessun S-H localizzato)."
+  },
+  {
+   "id": "X91",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C=O) del carbonile per forma",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν(C=O)",
+     "forma": "F2",
+     "valore": 1751,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "ν(C=O)",
+     "forma": "F3",
+     "valore": 1780,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "ν(C=O)",
+     "forma": "F5",
+     "valore": 1751,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "ν(C=O)",
+     "forma": "F4",
+     "valore": 1754,
+     "unita": "cm−1"
+    }
+   ],
+   "citazione": "The bands at 1751 cm−1 for GW-polymorph, 1780 cm−1 for GW-Bipy, 1751 cm−1 for GW-MeOH, and 1754 cm−1 for GW-DMF are manifested due to the presence of the carbonyl C=O group."
+  },
+  {
+   "id": "X92",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C=C) degli anelli fenilici",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν(C=C), da",
+     "valore": 1600,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "ν(C=C), a",
+     "valore": 1650,
+     "unita": "cm−1"
+    }
+   ],
+   "citazione": "Furthermore, at lower wavenumbers (between 1600 and 1650 cm−1), the bands can be explained by the presence of C=C bonds within the six-membered phenyl rings."
+  },
+  {
+   "id": "X93",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C=N) dell'anello tiazolico",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν(C=N), da",
+     "valore": 1550,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "ν(C=N), a",
+     "valore": 1400,
+     "unita": "cm−1"
+    }
+   ],
+   "qualitativo": "banda a bassa intensita'",
+   "citazione": "Between 1550 and 1400 cm−1 in all structures, a low-intensity band associated with the vibration of the stretching C=N group from the thiazole ring can be observed in all spectra."
+  },
+  {
+   "id": "X94",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C-F)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν(C-F), da",
+     "valore": 1380
+    },
+    {
+     "etichetta": "ν(C-F), a",
+     "valore": 1000
+    }
+   ],
+   "citazione": "The bands observed between 1380 and 1000 are due to the vibration of the stretching (C-F) group [32].",
+   "note": "L'unita' (cm−1) non e' scritta nella frase."
+  },
+  {
+   "id": "X95",
+   "categoria": "spettroscopia",
+   "proprieta": "cocristallo: nuova vibrazione a 2462 cm−1",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "new vibration, pyridine ring of 4,4′-bipyridine",
+     "forma": "F3",
+     "valore": 2462,
+     "unita": "cm−1"
+    }
+   ],
+   "citazione": "In the spectrum of the cocrystal, in addition to the characteristic vibrations from cardarine commented above, a new vibration at 2462 cm−1 is observed due to the vibration of the pyridine ring from 4,4′-bipyridine linked by hydrogen bonding to the cardarine molecule."
+  },
+  {
+   "id": "X96",
+   "categoria": "spettroscopia",
+   "proprieta": "cocristallo: ν(O-H) della bipiridina a 3450 cm−1 e picco largo a 2462 cm−1",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "O-H stretching from bipyridines in the cocrystal",
+     "forma": "F3",
+     "valore": 3450,
+     "unita": "cm−1"
+    },
+    {
+     "etichetta": "wide peak, S-H stretching",
+     "forma": "F3",
+     "valore": 2462,
+     "unita": "cm−1"
+    }
+   ],
+   "citazione": "it was observed that the vibration of the O-H stretching bond from bipyridines appears in the cocrystal at a higher value at 3450 cm−1. The wide peak from 2462 cm−1 is associated with the stretching (S-H) vibration.",
+   "note": "Il testo attribuisce a 2462 cm−1 prima la vibrazione dell'anello piridinico della bipiridina e poi lo stretching S-H; riportate come scritte. La «O-H della bipiridina» e' come nel testo (la bipiridina non ha O-H)."
+  },
+  {
+   "id": "X97",
+   "categoria": "spettroscopia",
+   "proprieta": "UV: massimo di assorbanza a circa 317 nm",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "absorbance maximum",
+     "valore": 317,
+     "unita": "nm",
+     "circa": true
+    }
+   ],
+   "citazione": "From the superposed of the UV curves, it can be observed that the starting form of cardarine, the new polymorph, cocrystal, and its solvates show an absorbance maximum at a wavelength of approximately 317 nm."
+  },
+  {
+   "id": "X98",
+   "categoria": "spettroscopia",
+   "proprieta": "UV: cocristallo con due massimi",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "absorption maximum due to 4,4′-bipyridine",
+     "forma": "F3",
+     "valore": 235.5,
+     "unita": "nm"
+    },
+    {
+     "etichetta": "absorption maximum due to cardarine",
+     "forma": "F3",
+     "valore": 317,
+     "unita": "nm"
+    }
+   ],
+   "citazione": "The UV curve recorded for the cocrystal shows two absorption maxima: the first maximum at 235.5 nm, which is due to the presence of 4,4′-bipyridine, and the second maximum at 317 nm, which is associated with the cardarine signal."
+  },
+  {
+   "id": "X99",
+   "categoria": "spettroscopia",
+   "proprieta": "UV: assorbanza massima per campione",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "absorbance AGW",
+     "forma": "F1",
+     "valore": 0.81
+    },
+    {
+     "etichetta": "absorbance AGW-polymprph",
+     "forma": "F2",
+     "valore": 0.95
+    },
+    {
+     "etichetta": "absorbance AGW-bipy",
+     "forma": "F3",
+     "valore": 1.05
+    },
+    {
+     "etichetta": "absorbance AGW-MeOH",
+     "forma": "F5",
+     "valore": 1.1
+    },
+    {
+     "etichetta": "absorbance AGW-DMF",
+     "forma": "F4",
+     "valore": 0.96
+    }
+   ],
+   "citazione": "AGW = 0.81, CGW = 0.070 mg/mL; AGW-polymprph = 0.95, CGW-6 = 0.06 mg/mL; AGW-bipy = 1.05, CGW-bipy = 0.072 mg/mL; AGW-MeOH = 1.10, CGW-MeOH = 0.075 mg/mL; AGW-DMF = 0.96, CGW-DMF = 0.079 mg/mL",
+   "note": "Le concentrazioni (C, mg/mL) sono nelle molecole dell'estrazione principale. Nel testo «AGW-polymprph» (refuso) e la prima non e' una forma ma il campione di partenza «GW»."
+  },
+  {
+   "id": "X100",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "differenza fra stock e curva di calibrazione: sostanza non sciolta nel filtro",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "difference between stock and calibration curve",
+     "valore": 0.005,
+     "unita": "mg/mL",
+     "circa": true
+    }
+   ],
+   "citazione": "The difference between the experimental value calculated for the stock solution of the samples and the value obtained using the calibration curve is about 0.005 mg/mL, which represents the mass of the undissolved substance that remained in the syringe filter."
+  },
+  {
+   "id": "X101",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita': polimorfo leggermente piu' bassa di solvati e cocristallo",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "UV",
+   "valori": [],
+   "qualitativo": "la solubilita' del nuovo polimorfo e' leggermente inferiore a quella di solvati e cocristallo",
+   "citazione": "From the results of the UV tests, it can be observed that by preparing a new cardarine polymorph, its solubility is slightly lower compared to solvates or the cocrystal."
+  },
+  {
+   "id": "X102",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "assorbanza piu' alta per cocristallo e solvato di metanolo e aumento di solubilita' del cocristallo",
+   "tecnica": "UV",
+   "valori": [],
+   "qualitativo": "l'assorbanza piu' alta e' del cocristallo, poi del solvato di metanolo",
+   "citazione": "Regarding the absorbance, the highest value recorded is in the spectrum of the cocrystal, followed by the methanol solvate."
+  },
+  {
+   "id": "X103",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "cocristallo: conformazione di cardarine cambiata dai legami H e solubilita'",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "UV",
+   "valori": [],
+   "qualitativo": "dopo la combinazione con la 4,4′-bipiridina la conformazione di cardarine cambia per i legami H, con aumento di solubilita'",
+   "citazione": "These results indicate that after combining with 4,4’-bipyridine molecules, the conformation of cardarine is changed by making hydrogen bonds, leading to an increase in solubility."
+  },
+  {
+   "id": "X104",
+   "categoria": "metodo",
+   "proprieta": "UV: curve di calibrazione e diluizioni",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "final volume of the diluted solutions",
+     "valore": 1,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "Quantitative calibration and analyses: to plot calibration curves, stock solutions of each compound were diluted with water in various concentrations so that the final volume was 1 mL.",
+   "note": "Valori di concentrazione nella Table S3 (supplementare)."
+  },
+  {
+   "id": "X105",
+   "categoria": "metodo",
+   "proprieta": "UV: tre diluizioni e lunghezza d'onda di analisi quantitativa",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "dilutions of the stock solution",
+     "valore": 3
+    },
+    {
+     "etichetta": "wavelength of the quantitative analysis",
+     "valore": 317,
+     "unita": "nm"
+    }
+   ],
+   "citazione": "Based on the calibration curves obtained for each investigated compound, the concentrations at three dilutions of the stock solution of each compound were calculated. The quantitative analysis was carried out for the same wavelength ʎ = 317 nm."
+  },
+  {
+   "id": "X106",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "UV: volume della soluzione analizzata",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "volume of each stock solution analyzed",
+     "valore": 500,
+     "unita": "µL",
+     "circa": true
+    },
+    {
+     "etichetta": "wavelength range, da",
+     "valore": 200,
+     "unita": "nm"
+    },
+    {
+     "etichetta": "wavelength range, a",
+     "valore": 500,
+     "unita": "nm"
+    }
+   ],
+   "citazione": "A volume of approximately 500 µL of each stock solution was placed in quartz and analyzed in the wavelength range of 200–500 nm (Figure S3, Supplementary Information)."
+  },
+  {
+   "id": "X107",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "cocristallo e solvati: lieve miglioramento di solubilita' (conclusioni)",
+   "tecnica": "UV",
+   "valori": [],
+   "qualitativo": "lieve miglioramento di solubilita' per cocristallo e due solvati rispetto alla forma di partenza; il nuovo polimorfo e' leggermente piu' basso",
+   "citazione": "while the evaluation of their solubility showed a slight improvement for the cocrystal and both solvates compared to the starting form while the solubility of the new polymorph is slightly lower."
+  },
+  {
+   "id": "X108",
+   "categoria": "altro",
+   "proprieta": "riepilogo delle forme nuove nell'introduzione",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "new solid crystalline forms",
+     "valore": 4
+    },
+    {
+     "etichetta": "new polymorph",
+     "valore": 1
+    },
+    {
+     "etichetta": "4,4′-bipyridine cocrystal",
+     "valore": 1
+    },
+    {
+     "etichetta": "cocrystal stoichiometric ratio",
+     "valore": null,
+     "testo": "2:1"
+    },
+    {
+     "etichetta": "methanol solvate",
+     "valore": 1
+    },
+    {
+     "etichetta": "dimethylformamide solvate",
+     "valore": 1
+    },
+    {
+     "etichetta": "new cardarine derivatives",
+     "valore": 2
+    }
+   ],
+   "citazione": "The recrystallization of cardarine in various solvents was achieved, generating four new solid crystalline forms, which consist of a new polymorph, one 4,4′-bipyridine cocrystal (found in a 2:1 stoichiometric ratio), one methanol solvate, one dimethylformamide solvate, and two new cardarine derivatives, respectively."
+  },
+  {
+   "id": "X109",
+   "categoria": "metodo",
+   "proprieta": "SCXRD: probabilita' degli ellissoidi di spostamento nelle figure delle strutture",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "probability of displacement ellipsoids",
+     "valore": 50,
+     "unita": "%"
+    }
+   ],
+   "citazione": "showing the atomic numbering and 50% probability displacement ellipsoids",
+   "note": "Frase uguale nelle didascalie delle Figure 1-6 (nella Figure 5 «shows the atomic numbering»)."
+  }
+ ]
+}
