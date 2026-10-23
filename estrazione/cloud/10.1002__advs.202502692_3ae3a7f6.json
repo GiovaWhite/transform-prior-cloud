@@ -1,0 +1,1451 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1002/advs.202502692",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2410432–2410440",
+  "2413835"
+ ],
+ "note": "Serie di cocristalli 5-fluorocitosina / acido grasso 5FC-C2n (n = 5-9, cioe' C10, C12, C14, C16, C18), con tre forme (I monoclina; II e III triclina). CCDC 2410432-2410440 e 2413835 (dieci strutture): il testo non li attribuisce alle singole forme, quindi stanno qui. Gruppi spaziali, celle e stechiometria dei cocristalli non sono nel testo (Tabelle S2 e S3, supplementare): le stechiometrie dei cocristalli sono lasciate null (le preparazioni usano quantita' equimolari). Non sono eventi: il 30% circa dei cristalli di 5FC-C14 piu' corti di 100 µm non si muove ma si espande (II-III senza moto); le cricche dei cristalli che si spaccano seguono [010]; il disordine delle catene alchiliche che cresce con T («noticeable disorder occuring near transition temperature»); la dipendenza dalla taglia (i piccoli saltano o ruotano, i grandi esplodono). Le risposte termomeccaniche sono «largely unaffected by varying heating rates (Figure S14)». T t, I-III e' ricavata da punto di fusione ed entalpia di fusione («As determined using melting point and enthalpy of fusion») e resta quasi costante in C14, C16 e C18 (Table S1): valori solo nel supplementare. Il testo dice che il punto di fusione aumenta e la solubilita' diminuisce con la lunghezza della catena (Figure S32 e S33): niente numeri nel testo. Incoerenza minore: la sez. 2.3 dice «A total of 50 individual 5FC-C14 crystals» e la didascalia della Fig. 2 «A total of 50 crystals in each size range».",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "5-fluorocytosine (5FC)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "n-caproic acid (C6)",
+   "smiles": null
+  },
+  {
+   "id": "C3",
+   "nome": "n-caprylic acid (C8)",
+   "smiles": null
+  },
+  {
+   "id": "C4",
+   "nome": "n-decanoic acid (C10)",
+   "smiles": null
+  },
+  {
+   "id": "C5",
+   "nome": "lauric acid (C12)",
+   "smiles": null
+  },
+  {
+   "id": "C6",
+   "nome": "myristic acid (C14)",
+   "smiles": null
+  },
+  {
+   "id": "C7",
+   "nome": "palmitic acid (C16)",
+   "smiles": null
+  },
+  {
+   "id": "C8",
+   "nome": "stearic acid (C18)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "5FC form I",
+   "etichette_alternative": [
+    "5-fluorocytosine (5FC), form I"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "5-Fluorocytosine (5FC) (purity: 98%, form I)",
+   "note": "Reagente commerciale (Aladdin), forma I."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C5",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C12 form I",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "citazione": "5FC‐C12 form I can be prepared through a slurry method in an ice water bath",
+   "note": "Form I: monoclina, cristalli a lunghe lastre; bilayer alchilici ondulati, nastri aromatici inclinati rispetto agli strati alchilici (nei Risultati, sez. 2.4). Preparata per sospensione in bagno di acqua e ghiaccio; nessun altro dato nel testo."
+  },
+  {
+   "id": "F3",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C6",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C14 form I",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "citazione": "Heating 5FC‐C14 form I initiated the phase transition at several points within the crystal, progressing slowly without a defined direction",
+   "note": "Form I: monoclina, cristalli a lunghe lastre; bilayer alchilici ondulati, nastri aromatici inclinati rispetto agli strati alchilici (nei Risultati, sez. 2.4).",
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(8) dimers forming 1D ribbons (scritto «R22(8)»)",
+     "chi": "5FC molecules, N─H···N and N─H···O hydrogen bonds",
+     "citazione": "The 5FC molecules are linked into 1D ribbons by R22(8) dimers"
+    },
+    {
+     "motivo": "COO─H···O bonds",
+     "chi": "fatty acid carboxyl and 5FC aromatic ribbons",
+     "citazione": "The fatty acid molecules interact with these aromatic ribbons via COO─H···O bonds"
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C7",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C16 form I",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "citazione": "Specifically, monoclinic form I crystallized as long plates and was observed in the 5FC‐C14, 5FC‐C16, and 5FC‐C18 systems",
+   "note": "Form I: monoclina, cristalli a lunghe lastre; bilayer alchilici ondulati, nastri aromatici inclinati rispetto agli strati alchilici (nei Risultati, sez. 2.4)."
+  },
+  {
+   "id": "F5",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C8",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C18 form I",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "citazione": "Specifically, monoclinic form I crystallized as long plates and was observed in the 5FC‐C14, 5FC‐C16, and 5FC‐C18 systems",
+   "note": "Form I: monoclina, cristalli a lunghe lastre; bilayer alchilici ondulati, nastri aromatici inclinati rispetto agli strati alchilici (nei Risultati, sez. 2.4)."
+  },
+  {
+   "id": "F6",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C4",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C10 form II",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form II: triclina, bilayer quasi piani con catene alchiliche molto interdigitate; distanze interstrato alternate (3.22 e 3.16 Å in 5FC-C14). Fase di bassa T della transizione II-III. Form II isomorfa al variare della catena (il parametro c cresce con la lunghezza)."
+  },
+  {
+   "id": "F7",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C4",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C10 form III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form III: triclina, distanza interstrato uniforme (3.02 Å in 5FC-C14). Fase di alta T della transizione II-III e prodotto della transizione I-III."
+  },
+  {
+   "id": "F8",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C5",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C12 form II",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form II: triclina, bilayer quasi piani con catene alchiliche molto interdigitate; distanze interstrato alternate (3.22 e 3.16 Å in 5FC-C14). Fase di bassa T della transizione II-III. Form II isomorfa al variare della catena (il parametro c cresce con la lunghezza)."
+  },
+  {
+   "id": "F9",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C5",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C12 form III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form III: triclina, distanza interstrato uniforme (3.02 Å in 5FC-C14). Fase di alta T della transizione II-III e prodotto della transizione I-III."
+  },
+  {
+   "id": "F10",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C6",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C14 form II",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form II: triclina, bilayer quasi piani con catene alchiliche molto interdigitate; distanze interstrato alternate (3.22 e 3.16 Å in 5FC-C14). Fase di bassa T della transizione II-III. Form II isomorfa al variare della catena (il parametro c cresce con la lunghezza).",
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(8) dimers forming 1D ribbons (scritto «R22(8)»)",
+     "chi": "5FC molecules, N─H···N and N─H···O hydrogen bonds",
+     "citazione": "The 5FC molecules are linked into 1D ribbons by R22(8) dimers"
+    },
+    {
+     "motivo": "COO─H···O bonds",
+     "chi": "fatty acid carboxyl and 5FC aromatic ribbons",
+     "citazione": "The fatty acid molecules interact with these aromatic ribbons via COO─H···O bonds"
+    }
+   ],
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 160,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "A perspective view of the layer packing mode of 5FC‐C14 form II at 160 K and form III at 323 K."
+    }
+   ]
+  },
+  {
+   "id": "F11",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C6",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C14 form III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form III: triclina, distanza interstrato uniforme (3.02 Å in 5FC-C14). Fase di alta T della transizione II-III e prodotto della transizione I-III.",
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(8) dimers forming 1D ribbons (scritto «R22(8)»)",
+     "chi": "5FC molecules, N─H···N and N─H···O hydrogen bonds",
+     "citazione": "The 5FC molecules are linked into 1D ribbons by R22(8) dimers"
+    },
+    {
+     "motivo": "COO─H···O bonds",
+     "chi": "fatty acid carboxyl and 5FC aromatic ribbons",
+     "citazione": "The fatty acid molecules interact with these aromatic ribbons via COO─H···O bonds"
+    }
+   ],
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 323,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "A perspective view of the layer packing mode of 5FC‐C14 form II at 160 K and form III at 323 K."
+    }
+   ]
+  },
+  {
+   "id": "F12",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C7",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C16 form II",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form II: triclina, bilayer quasi piani con catene alchiliche molto interdigitate; distanze interstrato alternate (3.22 e 3.16 Å in 5FC-C14). Fase di bassa T della transizione II-III. Form II isomorfa al variare della catena (il parametro c cresce con la lunghezza)."
+  },
+  {
+   "id": "F13",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C7",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C16 form III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form III: triclina, distanza interstrato uniforme (3.02 Å in 5FC-C14). Fase di alta T della transizione II-III e prodotto della transizione I-III."
+  },
+  {
+   "id": "F14",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C8",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C18 form II",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form II: triclina, bilayer quasi piani con catene alchiliche molto interdigitate; distanze interstrato alternate (3.22 e 3.16 Å in 5FC-C14). Fase di bassa T della transizione II-III. Form II isomorfa al variare della catena (il parametro c cresce con la lunghezza)."
+  },
+  {
+   "id": "F15",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C8",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C18 form III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "citazione": "Triclinic form II or form III, as described in further detail below, which crystallized as parallelograms, was observed across all 5FC‐C2n systems",
+   "note": "Form III: triclina, distanza interstrato uniforme (3.02 Å in 5FC-C14). Fase di alta T della transizione II-III e prodotto della transizione I-III."
+  },
+  {
+   "id": "F16",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C4",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C10 form II/III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "forme_possibili": [
+    "F6",
+    "F7"
+   ],
+   "citazione": "Powders of form II/III were prepared using a slurry method.",
+   "note": "Etichetta collettiva: il testo dice «form II/III» per le polveri e i monocristalli preparati, senza dire quale delle due forme si ottenga a temperatura ambiente."
+  },
+  {
+   "id": "F17",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C5",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C12 form II/III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "forme_possibili": [
+    "F8",
+    "F9"
+   ],
+   "citazione": "Powders of form II/III were prepared using a slurry method.",
+   "note": "Etichetta collettiva: il testo dice «form II/III» per le polveri e i monocristalli preparati, senza dire quale delle due forme si ottenga a temperatura ambiente."
+  },
+  {
+   "id": "F18",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C6",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C14 form II/III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "forme_possibili": [
+    "F10",
+    "F11"
+   ],
+   "citazione": "Powders of form II/III were prepared using a slurry method.",
+   "note": "Etichetta collettiva: il testo dice «form II/III» per le polveri e i monocristalli preparati, senza dire quale delle due forme si ottenga a temperatura ambiente."
+  },
+  {
+   "id": "F19",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C7",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C16 form II/III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "forme_possibili": [
+    "F12",
+    "F13"
+   ],
+   "citazione": "Powders of form II/III were prepared using a slurry method.",
+   "note": "Etichetta collettiva: il testo dice «form II/III» per le polveri e i monocristalli preparati, senza dire quale delle due forme si ottenga a temperatura ambiente."
+  },
+  {
+   "id": "F20",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C8",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C18 form II/III",
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "forme_possibili": [
+    "F14",
+    "F15"
+   ],
+   "citazione": "Powders of form II/III were prepared using a slurry method.",
+   "note": "Etichetta collettiva: il testo dice «form II/III» per le polveri e i monocristalli preparati, senza dire quale delle due forme si ottenga a temperatura ambiente."
+  },
+  {
+   "id": "F21",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C2",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C6",
+   "tipo": "non_specificato",
+   "citazione": "Single crystals of 5FC‐C6/C8 were prepared by slow evaporation from a 5FC and fatty acid (Mole ratio, 1:100) solution in acetonitrile‐water (5/1, v/v) mixed solvent at room temperature.",
+   "note": "Solo preparato: nessun dato di struttura o di trasformazione nel testo. Il tipo (cocristallo) non e' scritto per questa sigla."
+  },
+  {
+   "id": "F22",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": null
+    },
+    {
+     "composto": "C3",
+     "stechiometria": null
+    }
+   ],
+   "etichetta": "5FC-C8",
+   "tipo": "non_specificato",
+   "citazione": "Single crystals of 5FC‐C6/C8 were prepared by slow evaporation from a 5FC and fatty acid (Mole ratio, 1:100) solution in acetonitrile‐water (5/1, v/v) mixed solvent at room temperature.",
+   "note": "Solo preparato: nessun dato di struttura o di trasformazione nel testo. Il tipo (cocristallo) non e' scritto per questa sigla."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F10",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 323,
+     "unita": "K",
+     "tipo": "osservata",
+     "min": 260
+    },
+    "velocita": {
+     "valore": null,
+     "unita": "K/min",
+     "valori": [
+      10,
+      20
+     ]
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "SCXRD",
+     "DSC"
+    ],
+    "meccanismo": [
+     "cooperativa",
+     "SCSC",
+     "termosaliente"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "salta",
+    "cinetica": "extremely rapid"
+   },
+   "citazioni": [
+    "In contrast, the II‐III phase transition followed a cooperative mechanism. 5FC‐C14 form II underwent a rapid, single‐crystal‐to‐single‐crystal transition characterized by swift changes in birefringence (Figure 1C; Figure S11 and Movies S1 and S2, Supporting Information). The morphology and birefringence of the crystal were fully restored upon cooling, confirming the reversibility of this transformation.",
+    "A total of 50 individual 5FC‐C14 crystals were analyzed using a hot stage microscope at a heating rate of 20 K min−1.",
+    "Thermal profiles of phase transitions in 5FC‐C2n cocrystals, monitored by DSC with a 10 K min−1 heating/cooling rate.",
+    "Moreover, single‐crystal DSC revealed a “sawtooth” transition peak profile, indicative of thermosalient effects (Figure 1G; Figure S6, Supporting Information).",
+    "Upon heating from 160 to 260 K, α decreases slightly to 68.3° (Figure S21, Supporting Information).",
+    "A perspective view of the layer packing mode of 5FC‐C14 form II at 160 K and form III at 323 K.",
+    "However, during the transition from form II to form III, the molecular layers undergo a dramatic reorientation toward the (001) plane, with α decreasing significantly to 47.3° (Figure 4A).",
+    "This reorientation induces notable anisotropic volume changes in the crystal: a significant expansion (+64.4%) along the layer stacking directions and a contraction perpendicular to the (001) plane (−16.9%) (Figure 4A).",
+    "These observations revealed a range of behaviors, including expanding, rotating, jumping, splitting, and combinations thereof (Figure 2D–H).",
+    "Analysis of size‐dependent behavior (Figure 2A) showed that smaller crystals typically rotated or jumped while maintaining their crystal integrity, whereas larger crystals were more likely to exhibit explosive behavior.",
+    "The results indicate that the phase transition occurs extremely rapidly, and the thermomechanical responses were largely unaffected by varying heating rates (Figure S14, Supporting Information).",
+    "Importantly, at temperatures near T t, II‐III, crystal movement was observed during both heating and cooling cycles (Figures S12 and S13, Supporting Information), as detailed in the following section.",
+    "In contrast, form II underwent a first‐order endothermic transition (II to III) before melt (Figure S5, Supporting Information)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "reversibile": true,
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "molecular layers",
+     "ruolo": "altro",
+     "con": null,
+     "cambia": "ruota",
+     "forma": null,
+     "citazione": "However, during the transition from form II to form III, the molecular layers undergo a dramatic reorientation toward the (001) plane, with α decreasing significantly to 47.3° (Figure 4A)."
+    },
+    {
+     "gruppo": "R22(8) dimers (5FC ribbons)",
+     "ruolo": "sintone",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "The 5FC molecules are linked into 1D ribbons by R22(8) dimers"
+    },
+    {
+     "gruppo": "COO─H···O bonds",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "The fatty acid molecules interact with these aromatic ribbons via COO─H···O bonds"
+    },
+    {
+     "gruppo": "alkyl chains of the fatty acid (conformation)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "However, structural analysis shows that, despite these increased motions, only minor conformational changes occur during the phase transition, as evidenced by the molecular overlap in forms II and III (Figure S30, Supporting Information)."
+    },
+    {
+     "gruppo": "hydrophobic interaction (chain−chain interactions between alkyl chains)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": null,
+     "citazione": "Based on these findings, we conclude that the dependence of the thermosalient transition temperature on alkyl chain length is primarily governed by the hydrophobic interaction within the crystal structure"
+    }
+   ],
+   "note": "Transizione II -> III di 5FC-C14, studiata su cristalli singoli: microscopia a piastra calda (20 K/min, 50 cristalli), DSC su cristallo singolo (10 K/min, profilo «a dente di sega») e SCXRD (form II a 160 K; riscaldando da 160 a 260 K l'angolo α scende appena da 68.8° a 68.3°; form III a 323 K con α = 47.3°). Temperatura: l'articolo non da' la T t di C14 nel testo (Fig. 1F); la forma III e' vista a 323 K e l'ultima struttura ancora di form II e' a 260 K (lettura del testo, Fig. S21): valore 323, min 260 (osservata). Velocita': 10 K/min per il DSC, 20 K/min per la HSM. Espansione +64.4% lungo la direzione di impilamento degli strati e contrazione -16.9% perpendicolare al piano (001); espansioni del parallelogramma 15.4% e 9.5% lungo i bordi. Cristalli piu' piccoli: ruotano o saltano restando interi; i grandi esplodono e si spaccano (cricche lungo [010]). Reversibile: morfologia e birifrangenza ripristinate al raffreddamento, moto osservato in riscaldamento e raffreddamento; nessuna condizione di ritorno data, un solo evento. 'First-order' dalla frase sul DSC della form II (Fig. S5)."
+  },
+  {
+   "id": "E2",
+   "da": "F6",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "temperatura": {
+     "valore": 250,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ],
+    "meccanismo": [
+     "cooperativa",
+     "termosaliente"
+    ]
+   },
+   "citazioni": [
+    "In contrast, form II underwent a first‐order endothermic transition (II to III) before melt (Figure S5, Supporting Information). The II‐III phase transition was reversible during heating and cooling cycles (Figure 1E).",
+    "Thermal profiles of phase transitions in 5FC‐C2n cocrystals, monitored by DSC with a 10 K min−1 heating/cooling rate. E) DSC curves of powder samples of 5FC‐C2n cocrystal form II. All cocrystals exhibit a reversible transition.",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "Interestingly, the transition temperature (T t, II‐III) was highly sensitive to alkyl chain length, with T t, II‐III spanning ≈100 K (250 to 350 K) as chain length increased from C10 to C18 (Figure 1F).",
+    "Similar to 5FC‐C14 cocrystals, other cocrystals also exhibit intense thermosalient effects (Figure S16 and Movies S11–S14, Supporting Information), which is consistent with the DSC characterization.",
+    "Crystal structure analysis revealed that form II, across varying alkyl chain lengths, is isomorphous, with the lattice parameter c systematically increasing as the alkyl chain length increases (Figure 3C). This suggests a consistent cooperative transition mechanism across the 5FC‐C2n systems."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "reversibile": true,
+   "note": "Estremo C10 della serie: l'articolo scrive «spanning ≈100 K (250 to 350 K) as chain length increased from C10 to C18» e la T t cresce con la catena; 250 K e' attribuito a C10 per l'ordine. Valore puntuale nella Fig. 1F. Per 5FC-C10 anche «Similar expansion (+54.1% along the layer stacking directions) and uniaxial contraction (−24.1% perpendicular to the (001) plane) were also observed ... during its II-III phase transition». Polvere di form II, DSC 10 K/min (didascalia della Fig. 1): transizione endotermica del primo ordine, reversibile in riscaldamento e raffreddamento; nessuna condizione di ritorno data, un solo evento.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrophobic interaction (chain−chain interactions between alkyl chains)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": null,
+     "citazione": "Based on these findings, we conclude that the dependence of the thermosalient transition temperature on alkyl chain length is primarily governed by the hydrophobic interaction within the crystal structure"
+    }
+   ]
+  },
+  {
+   "id": "E3",
+   "da": "F8",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ],
+    "meccanismo": [
+     "cooperativa",
+     "termosaliente"
+    ]
+   },
+   "citazioni": [
+    "In contrast, form II underwent a first‐order endothermic transition (II to III) before melt (Figure S5, Supporting Information). The II‐III phase transition was reversible during heating and cooling cycles (Figure 1E).",
+    "Thermal profiles of phase transitions in 5FC‐C2n cocrystals, monitored by DSC with a 10 K min−1 heating/cooling rate. E) DSC curves of powder samples of 5FC‐C2n cocrystal form II. All cocrystals exhibit a reversible transition.",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "Similar to 5FC‐C14 cocrystals, other cocrystals also exhibit intense thermosalient effects (Figure S16 and Movies S11–S14, Supporting Information), which is consistent with the DSC characterization.",
+    "Crystal structure analysis revealed that form II, across varying alkyl chain lengths, is isomorphous, with the lattice parameter c systematically increasing as the alkyl chain length increases (Figure 3C). This suggests a consistent cooperative transition mechanism across the 5FC‐C2n systems."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "reversibile": true,
+   "note": "C12: il testo non da' la T t (Fig. 1F); intervallo della serie 250-350 K non attribuito alla singola forma. Polvere di form II, DSC 10 K/min (didascalia della Fig. 1): transizione endotermica del primo ordine, reversibile in riscaldamento e raffreddamento; nessuna condizione di ritorno data, un solo evento."
+  },
+  {
+   "id": "E4",
+   "da": "F10",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In contrast, form II underwent a first‐order endothermic transition (II to III) before melt (Figure S5, Supporting Information). The II‐III phase transition was reversible during heating and cooling cycles (Figure 1E).",
+    "Thermal profiles of phase transitions in 5FC‐C2n cocrystals, monitored by DSC with a 10 K min−1 heating/cooling rate. E) DSC curves of powder samples of 5FC‐C2n cocrystal form II. All cocrystals exhibit a reversible transition.",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "reversibile": true,
+   "note": "C14 su polvere: la T t non e' nel testo (Fig. 1F). Il comportamento a cristallo singolo (HSM, SCXRD, DSC) e' in E1. Polvere di form II, DSC 10 K/min (didascalia della Fig. 1): transizione endotermica del primo ordine, reversibile in riscaldamento e raffreddamento; nessuna condizione di ritorno data, un solo evento."
+  },
+  {
+   "id": "E5",
+   "da": "F12",
+   "a": "F13",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ],
+    "meccanismo": [
+     "cooperativa",
+     "termosaliente"
+    ]
+   },
+   "citazioni": [
+    "In contrast, form II underwent a first‐order endothermic transition (II to III) before melt (Figure S5, Supporting Information). The II‐III phase transition was reversible during heating and cooling cycles (Figure 1E).",
+    "Thermal profiles of phase transitions in 5FC‐C2n cocrystals, monitored by DSC with a 10 K min−1 heating/cooling rate. E) DSC curves of powder samples of 5FC‐C2n cocrystal form II. All cocrystals exhibit a reversible transition.",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "Similar to 5FC‐C14 cocrystals, other cocrystals also exhibit intense thermosalient effects (Figure S16 and Movies S11–S14, Supporting Information), which is consistent with the DSC characterization.",
+    "Crystal structure analysis revealed that form II, across varying alkyl chain lengths, is isomorphous, with the lattice parameter c systematically increasing as the alkyl chain length increases (Figure 3C). This suggests a consistent cooperative transition mechanism across the 5FC‐C2n systems."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "reversibile": true,
+   "note": "C16: il testo non da' la T t (Fig. 1F); intervallo della serie 250-350 K non attribuito alla singola forma. Polvere di form II, DSC 10 K/min (didascalia della Fig. 1): transizione endotermica del primo ordine, reversibile in riscaldamento e raffreddamento; nessuna condizione di ritorno data, un solo evento."
+  },
+  {
+   "id": "E6",
+   "da": "F14",
+   "a": "F15",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "temperatura": {
+     "valore": 350,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ],
+    "meccanismo": [
+     "cooperativa",
+     "termosaliente"
+    ]
+   },
+   "citazioni": [
+    "In contrast, form II underwent a first‐order endothermic transition (II to III) before melt (Figure S5, Supporting Information). The II‐III phase transition was reversible during heating and cooling cycles (Figure 1E).",
+    "Thermal profiles of phase transitions in 5FC‐C2n cocrystals, monitored by DSC with a 10 K min−1 heating/cooling rate. E) DSC curves of powder samples of 5FC‐C2n cocrystal form II. All cocrystals exhibit a reversible transition.",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "Interestingly, the transition temperature (T t, II‐III) was highly sensitive to alkyl chain length, with T t, II‐III spanning ≈100 K (250 to 350 K) as chain length increased from C10 to C18 (Figure 1F).",
+    "Similar to 5FC‐C14 cocrystals, other cocrystals also exhibit intense thermosalient effects (Figure S16 and Movies S11–S14, Supporting Information), which is consistent with the DSC characterization.",
+    "Crystal structure analysis revealed that form II, across varying alkyl chain lengths, is isomorphous, with the lattice parameter c systematically increasing as the alkyl chain length increases (Figure 3C). This suggests a consistent cooperative transition mechanism across the 5FC‐C2n systems."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "reversibile": true,
+   "note": "Estremo C18 della serie: l'articolo scrive «spanning ≈100 K (250 to 350 K) as chain length increased from C10 to C18» e la T t cresce con la catena; 350 K e' attribuito a C18 per l'ordine. Valore puntuale nella Fig. 1F. Polvere di form II, DSC 10 K/min (didascalia della Fig. 1): transizione endotermica del primo ordine, reversibile in riscaldamento e raffreddamento; nessuna condizione di ritorno data, un solo evento.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrophobic interaction (chain−chain interactions between alkyl chains)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": null,
+     "citazione": "Based on these findings, we conclude that the dependence of the thermosalient transition temperature on alkyl chain length is primarily governed by the hydrophobic interaction within the crystal structure"
+    }
+   ]
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 370,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": "min",
+     "tipo": "trasformazione",
+     "min": 15,
+     "limite": "sopra"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita",
+     "ricostruttiva"
+    ]
+   },
+   "citazioni": [
+    "Heating 5FC‐C14 form I initiated the phase transition at several points within the crystal, progressing slowly without a defined direction (Figure 1B; Figures S9 and S10, Supporting Information). Complete transition into form III polycrystals required over 15 min at 370 K.",
+    "Nucleation‐growth phase transition from form I to form III at 370 K.",
+    "For the I‐III transition, a nucleation‐growth mechanism was evident.",
+    "In contrast, the transformation of monoclinic form I to triclinic form III involves significant reconstruction of the crystal structure and proceeds via a nucleation‐to‐growth mechanism."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Microscopia a piastra calda su 5FC-C14 form I (lunghe lastre): la trasformazione parte in piu' punti del cristallo, lenta e senza direzione definita; il prodotto e' form III policristallina. La velocita' di riscaldamento della HSM (20 K/min) e' nei metodi in generale, non per questa prova. Nessuna proprieta' termosaliente in I-III («without thermosalient effects»)."
+  },
+  {
+   "id": "E8",
+   "da": "F4",
+   "a": "F13",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita",
+     "ricostruttiva"
+    ]
+   },
+   "citazioni": [
+    "This nucleation‐growth behavior was consistent across 5FC‐C16 and 5FC‐C18 systems (Figure S10, Supporting Information).",
+    "For the I‐III transition, a nucleation‐growth mechanism was evident.",
+    "In contrast, the transformation of monoclinic form I to triclinic form III involves significant reconstruction of the crystal structure and proceeds via a nucleation‐to‐growth mechanism."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Comportamento di nucleazione e crescita dichiarato «consistent» con quello di 5FC-C14 per 5FC-C16: temperatura e tempo non sono nel testo (Fig. S10). Il tipo di campione e' quello della HSM di C14."
+  },
+  {
+   "id": "E9",
+   "da": "F5",
+   "a": "F15",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita",
+     "ricostruttiva"
+    ]
+   },
+   "citazioni": [
+    "This nucleation‐growth behavior was consistent across 5FC‐C16 and 5FC‐C18 systems (Figure S10, Supporting Information).",
+    "For the I‐III transition, a nucleation‐growth mechanism was evident.",
+    "In contrast, the transformation of monoclinic form I to triclinic form III involves significant reconstruction of the crystal structure and proceeds via a nucleation‐to‐growth mechanism."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Comportamento di nucleazione e crescita dichiarato «consistent» con quello di 5FC-C14 per 5FC-C18: temperatura e tempo non sono nel testo (Fig. S10). Il tipo di campione e' quello della HSM di C14."
+  },
+  {
+   "id": "E10",
+   "da": "F3",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": null,
+     "unita": "K/min",
+     "max": 20,
+     "limite": "sotto"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Form I melted directly upon heating at 20 K min−1, while the transition from form I to form III occurred at slower heating rates (Figure S4, Supporting Information).",
+    "As determined using melting point and enthalpy of fusion, the transition temperatures (T t, I‐III) remained nearly constant across the 5FC‐C14, 5FC‐C16, and 5FC‐C18 systems (Table S1, Supporting Information).",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "The DSC analysis revealed distinct thermal behaviors for the polymorphic forms."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "solo_supplementare": true,
+   "note": "5FC-C14 form I -> form III al DSC con velocita' di riscaldamento minori di 20 K/min (le velocita' provate nei metodi sono 1, 5, 10 e 20 K/min; quale precisamente non e' detto). Il valore di T t, I-III sta nella Table S1 (supplementare), ricavato da punto di fusione ed entalpia di fusione, quasi costante in C14, C16 e C18. La polvere di form I e' ottenuta macinando i monocristalli."
+  },
+  {
+   "id": "E11",
+   "da": "F4",
+   "a": "F13",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": null,
+     "unita": "K/min",
+     "max": 20,
+     "limite": "sotto"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Form I melted directly upon heating at 20 K min−1, while the transition from form I to form III occurred at slower heating rates (Figure S4, Supporting Information).",
+    "As determined using melting point and enthalpy of fusion, the transition temperatures (T t, I‐III) remained nearly constant across the 5FC‐C14, 5FC‐C16, and 5FC‐C18 systems (Table S1, Supporting Information).",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "The DSC analysis revealed distinct thermal behaviors for the polymorphic forms."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "solo_supplementare": true,
+   "note": "5FC-C16 form I -> form III al DSC con velocita' di riscaldamento minori di 20 K/min (le velocita' provate nei metodi sono 1, 5, 10 e 20 K/min; quale precisamente non e' detto). Il valore di T t, I-III sta nella Table S1 (supplementare), ricavato da punto di fusione ed entalpia di fusione, quasi costante in C14, C16 e C18. La polvere di form I e' ottenuta macinando i monocristalli."
+  },
+  {
+   "id": "E12",
+   "da": "F5",
+   "a": "F15",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": null,
+     "unita": "K/min",
+     "max": 20,
+     "limite": "sotto"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Form I melted directly upon heating at 20 K min−1, while the transition from form I to form III occurred at slower heating rates (Figure S4, Supporting Information).",
+    "As determined using melting point and enthalpy of fusion, the transition temperatures (T t, I‐III) remained nearly constant across the 5FC‐C14, 5FC‐C16, and 5FC‐C18 systems (Table S1, Supporting Information).",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "The DSC analysis revealed distinct thermal behaviors for the polymorphic forms."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "solo_supplementare": true,
+   "note": "5FC-C18 form I -> form III al DSC con velocita' di riscaldamento minori di 20 K/min (le velocita' provate nei metodi sono 1, 5, 10 e 20 K/min; quale precisamente non e' detto). Il valore di T t, I-III sta nella Table S1 (supplementare), ricavato da punto di fusione ed entalpia di fusione, quasi costante in C14, C16 e C18. La polvere di form I e' ottenuta macinando i monocristalli."
+  },
+  {
+   "id": "E13",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 20,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Form I melted directly upon heating at 20 K min−1, while the transition from form I to form III occurred at slower heating rates (Figure S4, Supporting Information).",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "The DSC analysis revealed distinct thermal behaviors for the polymorphic forms."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "solo_supplementare": true,
+   "note": "La frase dice «Form I melted directly upon heating at 20 K min−1» per la forma I in generale (Fig. S4): estratta per 5FC-C14, una delle tre forme I della serie principale, con certezza bassa. Il punto di fusione non e' nel testo (Figure S32 e S33 nel supplementare). La concorrenza fra I -> III (velocita' minori) e fusione (20 K/min) e' la leva velocita' di riscaldamento."
+  },
+  {
+   "id": "E14",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 20,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Form I melted directly upon heating at 20 K min−1, while the transition from form I to form III occurred at slower heating rates (Figure S4, Supporting Information).",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "The DSC analysis revealed distinct thermal behaviors for the polymorphic forms."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "solo_supplementare": true,
+   "note": "La frase dice «Form I melted directly upon heating at 20 K min−1» per la forma I in generale (Fig. S4): estratta per 5FC-C16, una delle tre forme I della serie principale, con certezza bassa. Il punto di fusione non e' nel testo (Figure S32 e S33 nel supplementare). La concorrenza fra I -> III (velocita' minori) e fusione (20 K/min) e' la leva velocita' di riscaldamento."
+  },
+  {
+   "id": "E15",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 20,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen, 50 mL/min purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Form I melted directly upon heating at 20 K min−1, while the transition from form I to form III occurred at slower heating rates (Figure S4, Supporting Information).",
+    "DSC measurements were conducted with a TA Instrument Q2000 unit under 50 mL min−1 nitrogen gas purge. Accurately weighed samples (5–10 mg) were placed in sealed aluminum pans and heated from 200 K to the desired temperature at heating/cooling rate of 1, 5, 10, and 20 K min−1.",
+    "The DSC analysis revealed distinct thermal behaviors for the polymorphic forms."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "5–10 mg",
+    "crogiolo": "sigillato"
+   },
+   "solo_supplementare": true,
+   "note": "La frase dice «Form I melted directly upon heating at 20 K min−1» per la forma I in generale (Fig. S4): estratta per 5FC-C18, una delle tre forme I della serie principale, con certezza bassa. Il punto di fusione non e' nel testo (Figure S32 e S33 nel supplementare). La concorrenza fra I -> III (velocita' minori) e fusione (20 K/min) e' la leva velocita' di riscaldamento."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "5‐Fluorocytosine (5FC) (purity: 98%, form I), n‐caproic acid (C6) (purity: 99%), n‐caprylic acid (C8) (purity: 99%), n‐decanoic acid (C10) (purity: 99%), lauric acid (C12) (purity: 98%), myristic acid (C14) (purity: 99%), and palmitic acid (C16) (purity: 97%) were purchased from Aladdin Reagent Co., Ltd. (Shanghai, China)."
+   ]
+  },
+  {
+   "forme": [
+    "F3",
+    "F4",
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile-methanol (1/3, v/v)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "5FC : fatty acid equimolar (6.4545 g 5FC, 0.05 mol, in 1 L)",
+   "pretrattamento": "soluzione riscaldata a 320 K fino a completa dissoluzione",
+   "citazioni": [
+    "Cocrystal form I was prepared by the slow solvent evaporation method. A solution of 6.4545 g 5FC (0.05 mol) and an equimolar amount of fatty acids (C14, C16, and C18) was added to 1 L acetonitrile‐methanol (1/3, v/v) mixed solvent and heated to 320 K until the components were completely dissolved. Single crystals were obtained by allowing the solvent to evaporate slowly at room temperature. Powder samples were prepared by grinding the single crystals."
+   ],
+   "note": "Form I di C14, C16 e C18. Le polveri si ottengono macinando i monocristalli."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "sospensione",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "non_specificato",
+    "testo": "ice water bath"
+   },
+   "citazioni": [
+    "5FC‐C12 form I can be prepared through a slurry method in an ice water bath, 5FC‐C10 form I have not been prepared yet."
+   ],
+   "note": "Solventi e rapporti non detti."
+  },
+  {
+   "forme": [],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "fonte_dati": "propria",
+   "componenti_cercati": [
+    "5-fluorocytosine (5FC)",
+    "n-decanoic acid (C10)"
+   ],
+   "citazioni": [
+    "5FC‐C12 form I can be prepared through a slurry method in an ice water bath, 5FC‐C10 form I have not been prepared yet."
+   ],
+   "note": "«5FC-C10 form I have not been prepared yet»: la forma I di 5FC-C10 non e' stata ottenuta (il testo non dice con quali tentativi)."
+  },
+  {
+   "forme": [
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20"
+   ],
+   "metodo": "sospensione",
+   "solventi": [
+    "acetonitrile"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 350,
+    "unita": "K"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "5FC : fatty acid equimolar (1.2909 g 5FC, 0.01 mol, in 50 mL acetonitrile)",
+   "citazioni": [
+    "Powders of form II/III were prepared using a slurry method. To a round‐bottom flask, 1.2909 g 5FC (0.01 mol) and an equimolar amount of fatty acids (C10, C12, C14, C16, and C18) were added to 50 mL acetonitrile, and the slurry was stirred at 350 K for 1 h. After cooling to room temperature, the products were filtered and dried in a vacuum oven for 12 h. Starting with a 3.5 g input of the compositions (5FC + C14), ≈3 g of the cocrystal product was obtained, yielding an actual production rate of ≈85%."
+   ],
+   "note": "Sospensione di 5FC e acido grasso in acetonitrile; la polvere e' «form II/III» (etichetta collettiva). Seccata in forno a vuoto per 12 h. Resa ≈85% per 5FC + C14."
+  },
+  {
+   "forme": [
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile-water (5/1, v/v)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 340,
+    "unita": "K"
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "5FC : fatty acid equimolar",
+   "citazioni": [
+    "Single crystals of 5FC‐C10/C12/C14/C16/C18 form II/III were obtained by slow evaporation from a 5FC and fatty acid (equimolar ratio) solution in acetonitrile‐water (5/1, v/v) mixed solvent at 340 K."
+   ],
+   "note": "Monocristalli di form II/III (etichetta collettiva)."
+  },
+  {
+   "forme": [
+    "F21",
+    "F22"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile-water (5/1, v/v)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "5FC : fatty acid 1:100 (mole ratio)",
+   "citazioni": [
+    "Single crystals of 5FC‐C6/C8 were prepared by slow evaporation from a 5FC and fatty acid (Mole ratio, 1:100) solution in acetonitrile‐water (5/1, v/v) mixed solvent at room temperature."
+   ],
+   "note": "Rapporto molare 1:100 5FC:acido; nessun dato strutturale nel testo."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C4",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "fully extended conformation of the fatty acid molecules in the 5FC-C2n cocrystals, forming sandwich-like alkyl bilayers",
+     "citazione": "The fatty acid molecules interact with these aromatic ribbons via COO─H···O bonds and adopt a fully extended conformation, forming sandwich‐like alkyl bilayers (Figure S17, Supporting Information)."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "only minor conformational changes between forms II and III, despite increased thermal motion of the chains at elevated temperature",
+     "citazione": "However, structural analysis shows that, despite these increased motions, only minor conformational changes occur during the phase transition, as evidenced by the molecular overlap in forms II and III (Figure S30, Supporting Information)."
+    }
+   ]
+  },
+  {
+   "composto": "C5",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "fully extended conformation of the fatty acid molecules in the 5FC-C2n cocrystals, forming sandwich-like alkyl bilayers",
+     "citazione": "The fatty acid molecules interact with these aromatic ribbons via COO─H···O bonds and adopt a fully extended conformation, forming sandwich‐like alkyl bilayers (Figure S17, Supporting Information)."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "only minor conformational changes between forms II and III, despite increased thermal motion of the chains at elevated temperature",
+     "citazione": "However, structural analysis shows that, despite these increased motions, only minor conformational changes occur during the phase transition, as evidenced by the molecular overlap in forms II and III (Figure S30, Supporting Information)."
+    }
+   ]
+  },
+  {
+   "composto": "C6",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "fully extended conformation of the fatty acid molecules in the 5FC-C2n cocrystals, forming sandwich-like alkyl bilayers",
+     "citazione": "The fatty acid molecules interact with these aromatic ribbons via COO─H···O bonds and adopt a fully extended conformation, forming sandwich‐like alkyl bilayers (Figure S17, Supporting Information)."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "only minor conformational changes between forms II and III, despite increased thermal motion of the chains at elevated temperature",
+     "citazione": "However, structural analysis shows that, despite these increased motions, only minor conformational changes occur during the phase transition, as evidenced by the molecular overlap in forms II and III (Figure S30, Supporting Information)."
+    }
+   ]
+  },
+  {
+   "composto": "C7",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "fully extended conformation of the fatty acid molecules in the 5FC-C2n cocrystals, forming sandwich-like alkyl bilayers",
+     "citazione": "The fatty acid molecules interact with these aromatic ribbons via COO─H···O bonds and adopt a fully extended conformation, forming sandwich‐like alkyl bilayers (Figure S17, Supporting Information)."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "only minor conformational changes between forms II and III, despite increased thermal motion of the chains at elevated temperature",
+     "citazione": "However, structural analysis shows that, despite these increased motions, only minor conformational changes occur during the phase transition, as evidenced by the molecular overlap in forms II and III (Figure S30, Supporting Information)."
+    }
+   ]
+  },
+  {
+   "composto": "C8",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "fully extended conformation of the fatty acid molecules in the 5FC-C2n cocrystals, forming sandwich-like alkyl bilayers",
+     "citazione": "The fatty acid molecules interact with these aromatic ribbons via COO─H···O bonds and adopt a fully extended conformation, forming sandwich‐like alkyl bilayers (Figure S17, Supporting Information)."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "only minor conformational changes between forms II and III, despite increased thermal motion of the chains at elevated temperature",
+     "citazione": "However, structural analysis shows that, despite these increased motions, only minor conformational changes occur during the phase transition, as evidenced by the molecular overlap in forms II and III (Figure S30, Supporting Information)."
+    }
+   ]
+  }
+ ]
+}
