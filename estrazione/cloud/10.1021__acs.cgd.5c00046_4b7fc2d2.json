@@ -1,0 +1,1197 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.5c00046",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2360690",
+  "2360689"
+ ],
+ "note": "Polimorfismo di ditBuC6-BTBT (semiconduttore organico BTBT con catene alchiliche terminate da tert-butile): Forme I, Ia, II (ambiente) e III (sopra 100 °C secondo l'abstract). Form Ia = cristalli piatti dalle ricristallizzazioni; Form II = aghi, stabile a temperatura ambiente. Le CCDC 2360690 (Form Ia) e 2360689 (Form II) sono attribuite nel testo. Non estratti come eventi: la TGA (stabilita' chimica fino a circa 400 °C), la mobilita' degli OFET, i calcoli di energie di interazione e integrali di trasferimento (calcolati), l'antisolvente e la macinazione a secco di Form I (risultati solo in Tabella S2, supplementare), i risultati delle singole sospensioni (E15 e' un evento a certezza bassa ricavato dalla frase di sintesi), il comportamento in DSC di Form I a 5 °C/min (solo fusione, nessun picco di transizione: gli autori lo attribuiscono a una transizione molto allargata). Incoerenze dell'articolo: (1) abstract: Form III «above 100 °C»; DSC di Form II a 5 °C/min: picco a 97 °C; VTXRD: transizione da 80 a 138 °C; conclusioni: Form III «stable at temperatures exceeding 138 °C»; (2) «Form III is only obtained by solid–solid phase transition of Form I or Form II at a temperature higher than 138 °C» contro la cristallizzazione dal fuso con gradiente termico, dove il film cristallizza «predominantly Form III»; (3) il raffreddamento di Form III da' prima Form I (bulk) ma Form Ia nei film; (4) metodi: Crystal16 con DMA, DMF, ETH, TOL, risultati: aghi di Form II da DEC e DMX; (5) «there was no such transformation in the thin films» contro i film da DEC e DMA in cui Form Ia + Form II «completely transformed into Form II in time». Le temperature di DSC e HSM sono come scritte; i valori nei supplementari (Figure S11-S17) non sono nel testo.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "2,7-bis(7,7-dimethyloctyl)benzo[b]benzo[4,5]thieno[2,3-d]thiophene (ditBuC6-BTBT)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Form I",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2",
+   "cella": {
+    "a": 14.317,
+    "b": 18.119,
+    "c": 6.224,
+    "alpha": 90,
+    "beta": 107.904,
+    "gamma": 90,
+    "V": 1536.4,
+    "Z": 2,
+    "Z_primo": 0.5,
+    "fonte": "PXRD",
+    "condizioni": "293(2) K (Table 1)"
+   },
+   "citazione": "We then indexed Form I from the PXRD pattern using TOPAS, which resulted in a monoclinic crystal system with a probably C2 space group with half a molecule in an asymmetric unit. The Pawley refinement led to a low R wp of 2.97",
+   "note": "Polvere cristallina di partenza, ottenuta solo dalla prima cristallizzazione della sintesi; cella da indicizzazione e Pawley del PXRD (sincrotrone), non da cristallo singolo. Il testo scrive «a monoclinic crystal system with a probably C2 space group with half a molecule in an asymmetric unit»: il gruppo C2 e' probabile. Struttura non risolta. Forma metastabile, «disappearing polymorph»; quasi indistinguibile da Form Ia per PXRD (stessi picchi principali, forte orientazione preferenziale)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "Form Ia",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "Cc",
+   "cella": {
+    "a": 11.849,
+    "b": 11.839,
+    "c": 42.823,
+    "alpha": 90,
+    "beta": 90.752,
+    "gamma": 90,
+    "V": 6006.7,
+    "Z": 8,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K (Table 1)"
+   },
+   "ccdc": "2360690",
+   "citazione": "Form Ia was solved in the monoclinic space group Cc with two full molecules in the asymmetric unit. This polymorph packs with 8 molecules in the unit cell (Z′ = 2), comprising two antiparallel layers. Both the molecules in the asymmetric unit are superimposable with a root-mean-square deviation (RMSD, defined as the square root of the mean squared error) of 0.063. The layers that are parallel to the plane (0 0 1) present a quite smooth surface. Inside the layers, the molecules are arranged in a herringbone packing motif with an angle of 59.89° (Figure a) and a tilt angle of 40° with respect to the (0 0 1) plane (Figure b). Previously, it was observed that the core-tilt angle decreases with chain substitutions. For example, bare BTBT has almost an upright core with a tilt angle of 87° and the symmetrical substitution of BTBT core with the long alkyl chains like C6-diol (83.99°), C7 (87.66°), C8 (87.87°), C12 (87.90°), etc. does not significantly modify the tilt angle; in contrast, the introduction of bulky groups as side chains- like diiPr (67°), ditBu (50°) or diTMS (41°), significantly decreases the tilt angle which diminishes orbital overlap between neighboring molecules and the charge transport properties. Since, in our case, we have the combination of alkyl-C6 and bulky-tBu chains, the tilt angle is expected to be decreased. Form II crystals were less tricky to isolate as compared to Form Ia; however, the crystals were extremely flexible and thin needle-shaped, which led to difficulty in crystal mounting and data collection. Some good quality and collectible crystals were found in the recrystallization experiment from DMA solvent, and the data collection was performed at room temperature. Form II was found to crystallize in a triclinic system (P1̅), with one full molecule and two half-molecules placed on the inversion center in the asymmetric unit (Z′ = 2).",
+   "note": "Cristalli piatti a lamina (flat-plate-like); due molecole indipendenti nell'unita' asimmetrica, impilamento a spina di pesce con angolo 59.89° e inclinazione del nucleo di 40° rispetto a (0 0 1). Dati SCXRD di qualita' scarsa, atomi isotropi. Forma cinetica (metastabile), «disappearing polymorph»."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Form II",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "a": 5.903,
+    "b": 19.606,
+    "c": 27.75,
+    "alpha": 105.525,
+    "beta": 94.938,
+    "gamma": 98.078,
+    "V": 3037.7,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "293(2) K (Table 1)"
+   },
+   "ccdc": "2360689",
+   "citazione": "Form II was found to crystallize in a triclinic system (P1̅), with one full molecule and two half-molecules placed on the inversion center in the asymmetric unit (Z′ = 2).",
+   "note": "Aghi sottili e flessibili; un'intera molecola e due semi-molecole su centro di inversione nell'unita' asimmetrica (tre molecole indipendenti con inclinazioni 54, 56 e 42°). Forma termodinamicamente stabile a temperatura ambiente secondo gli autori."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "Form III",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "a": 8.034,
+    "b": 14.297,
+    "c": 20.621,
+    "alpha": 103.248,
+    "beta": 77.402,
+    "gamma": 87.129,
+    "V": 2237.4,
+    "Z": 3,
+    "Z_primo": 1.5,
+    "fonte": "PXRD",
+    "condizioni": "411(2) K (Table 1)"
+   },
+   "citazione": "The powder XRD pattern obtained at high temperature from the PSI synchrotron shows sharp diffraction peaks (in agreement with a crystalline nature), was indexed using TOPAS, and was found to have a triclinic crystal structure and a volume that corresponds to the presence of three molecules in a cell. We were able to get a low R wp of 1.84 with Pawley refinement using these unit cell parameters (Figure S22).",
+   "note": "Fase ad alta temperatura (stabile sopra 138 °C secondo le conclusioni), cella da indicizzazione e Pawley (Rwp 1.84) del PXRD da sincrotrone; il testo dice «triclinic» e il gruppo P-1 e' nella Tabella 1. Struttura non risolta (molti gradi di liberta' e/o disordine). Il picco forte a 2.80° (lambda = 0.9999613 Å) corrisponde a 20.39 Å (strati con inclinazione del nucleo minore)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F4"
+   ],
+   "relazione": "enantiotropa",
+   "citazione": "Form III is enantiotropically related to Forms I, Ia, and II, and it is stable at temperatures exceeding 138 °C.",
+   "condizioni": "Form III stabile sopra 138 °C (conclusioni)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Form III e' dichiarata enantiotropicamente legata a Form I, Ia e II e stabile sopra 138 °C; nessuna temperatura di transizione per coppia. Le transizioni osservate partono da 60-110 °C a seconda della tecnica e della velocita'."
+  },
+  {
+   "forme": [
+    "F2",
+    "F4"
+   ],
+   "relazione": "enantiotropa",
+   "citazione": "Form III is enantiotropically related to Forms I, Ia, and II, and it is stable at temperatures exceeding 138 °C.",
+   "condizioni": "Form III stabile sopra 138 °C (conclusioni)",
+   "fonte_dati": "propria",
+   "certezza": "media"
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "relazione": "enantiotropa",
+   "citazione": "Form III is enantiotropically related to Forms I, Ia, and II, and it is stable at temperatures exceeding 138 °C.",
+   "condizioni": "Form III stabile sopra 138 °C (conclusioni)",
+   "fonte_dati": "propria",
+   "certezza": "media"
+  },
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "condizioni": "temperatura ambiente",
+   "citazione": "The stability assessment of both forms by slurry experiments suggests that Form II is the thermodynamically stable polymorph at room temperature.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Form Ia e' una forma cinetica («Form Ia is a kinetic form that is evident from the slurry and solubility assessments»)."
+  },
+  {
+   "forme": [
+    "F1",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "condizioni": "temperatura ambiente",
+   "citazione": "We however noticed that both the metastable forms, Forms I and Ia, became dramatically unstable over time and converted to stable Form II due to an unintentional seeding effect.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Form I e Form Ia sono dette «metastable» e convertite nella Form II stabile per semina involontaria."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "picco": 97,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (flow rate 80 mL min–1)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 97,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "DSC of Form II at 5 °C min–1 shows an endothermic peak at 97 °C, indicating a solid–solid phase transition to a high-temperature polymorph Form III and then melting at around 145 °C (Figure S11).",
+    "The DSC analysis for all of the samples was performed on a Mettler-Toledo DSC1 instrument. Approximately 2–4 mg of samples were crimped in hermetic aluminum crucibles (40 μL) and scanned from room temperature to 200 °C at a heating rate of 2, 5, and 10 °C min–1 under a dry N2 atmosphere (flow rate 80 mL min–1)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "DSC 5 °C/min (crogiolo di alluminio ermetico, 2-4 mg, 20 °C fino a 200 °C): picco endotermico a 97 °C = transizione solido-solido a Form III. Le velocita' provate in generale erano 2, 5 e 10 °C/min; il testo riporta questo valore per 5 °C/min.",
+   "campione": {
+    "massa": "Approximately 2–4 mg",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E2",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 145,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (flow rate 80 mL min–1)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "DSC of Form II at 5 °C min–1 shows an endothermic peak at 97 °C, indicating a solid–solid phase transition to a high-temperature polymorph Form III and then melting at around 145 °C (Figure S11).",
+    "The DSC analysis for all of the samples was performed on a Mettler-Toledo DSC1 instrument. Approximately 2–4 mg of samples were crimped in hermetic aluminum crucibles (40 μL) and scanned from room temperature to 200 °C at a heating rate of 2, 5, and 10 °C min–1 under a dry N2 atmosphere (flow rate 80 mL min–1)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione a circa 145 °C dopo la transizione II -> III nella stessa corsa DSC (5 °C/min): la forma che fonde e' quindi Form III (ricavata dal contesto, il testo scrive solo «and then melting at around 145 °C»).",
+   "da_dedotto": true,
+   "campione": {
+    "massa": "Approximately 2–4 mg",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 145,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (flow rate 80 mL min–1)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "DSC curves on the starting material (Form I) at 5 °C min–1 showed only the melting onset at 145 °C.",
+    "It is noteworthy that the melting temperatures observed in the two DSC curves were identical, indicating that Form I is likely to undergo a phase transformation into Form III too.",
+    "One possible explanation for the fact that no transition peak was observed in DSC of Form I could be that the transition is extended in a very wide range of temperatures so that the peak almost appeared flat.",
+    "The DSC analysis for all of the samples was performed on a Mettler-Toledo DSC1 instrument. Approximately 2–4 mg of samples were crimped in hermetic aluminum crucibles (40 μL) and scanned from room temperature to 200 °C at a heating rate of 2, 5, and 10 °C min–1 under a dry N2 atmosphere (flow rate 80 mL min–1)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "DSC di Form I (materiale di partenza) a 5 °C/min: solo l'inizio della fusione a 145 °C, nessun picco di transizione; la temperatura di fusione e' identica a quella di Form II. Gli autori ne deducono che Form I si trasforma in Form III prima di fondere (la transizione e' cosi' distribuita su un largo intervallo da dare un picco quasi piatto).",
+   "lettura_alternativa": "Form I si trasforma in Form III prima di fondere e il fuso e' quello di Form III («Form I is likely to undergo a phase transformation into Form III too»; VTXRD).",
+   "campione": {
+    "massa": "Approximately 2–4 mg",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 80,
+     "fine": 138,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "In the VTXRD measurement of Form I ditBuC6-BTBT, we observed a phase transition onset from 80 °C, which occurred until 138 °C and the high-temperature phase is ascribable to Form III (Figures and S17).",
+    "This conversion observed in VTXRD explains the similar melting temperatures observed in DSCs, as both Form I and Form II undergo the transition to Form III.",
+    "PXRD in capillary transmission mode at the MS-X04SA beamline from 24 to 148 °C for the starting material (Form I) of ditBuC6-BTBT. The beam energy of 12.4 keV (1.0 Å) was used for data collection. The MS powder diffractometer is operated in Debye–Scherrer geometry and equipped with a solid-state silicon microstrip detector called MYTHEN (Microstrip sYstem for TimerEsolved experimeNts). Starting from room temperature, the XRD pattern was collected at various intervals until the complete conversion of Form I to Form III (138 °C)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "VTXRD da sincrotrone (PSI, capillare, Debye-Scherrer) su Form I da 24 a 148 °C: la transizione comincia a 80 °C e finisce a 138 °C (conversione completa a Form III). La velocita' di riscaldamento non e' data: spettri raccolti «at various intervals».",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare"
+   }
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 60,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 300,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Indeed, by the DSC at an ultrafast rate (300 °C min–1), we could capture the transition Form I → Form III, which started at 60 °C followed by the melting (Figure S12).",
+    "The ultrafast DSC measurement was recorded using a PerkinElmer Diamond differential scanning calorimeter. Both samples of Forms I and II were placed in open Al-pans. All measurements were conducted in the 20–220 °C temperature range at a scan rate of 300 °C min–1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "DSC ultrarapida (300 °C/min, 20-220 °C, pan aperti di alluminio): la transizione I -> III comincia a 60 °C, seguita dalla fusione. La stessa transizione si vede in VTXRD (80-138 °C) e non come picco in DSC a 5 °C/min.",
+   "campione": {
+    "crogiolo": "aperto"
+   }
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 110,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 300,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "We also carried out the DSC measurement at 300 °C min–1 for Form II, and the same transition of Form II → Form III was observed starting at 110 °C followed by melting (Figure S13).",
+    "The ultrafast DSC measurement was recorded using a PerkinElmer Diamond differential scanning calorimeter. Both samples of Forms I and II were placed in open Al-pans. All measurements were conducted in the 20–220 °C temperature range at a scan rate of 300 °C min–1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "DSC ultrarapida (300 °C/min, pan aperti di alluminio): stessa transizione II -> III, a partire da 110 °C, seguita dalla fusione (a 5 °C/min il picco e' a 97 °C).",
+   "campione": {
+    "crogiolo": "aperto"
+   }
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "intervallo",
+     "testo": "a very long temperature range"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "cinetica": "la transizione attraversa il cristallo da un'estremita' all'altra («appears to swipe across the crystal from one end to another»); intervallo di temperatura molto lungo"
+   },
+   "citazioni": [
+    "The HSM shows a transition in crystals of Form Ia→Form III that occurs in a very long temperature range, where the phase transition appears to swipe across the crystal from one end to another, which is visible from the POM images (Figures S14 and S15).",
+    "Crystals placed on a glass slide and covered with a coverslip were transferred to a heating chamber (hot stage) on an OLYMPUS BX41 stereomicroscope equipped with a LINKAM LTS350 stage for temperature control and VISICAM analyzer. The heating chamber was capped with a sealable lid during heating and cooling cycles, and the rate was kept constant at 10 °C min–1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "HSM (cristalli su vetrino con coprioggetto, camera chiusa con coperchio sigillabile, 10 °C/min): nessuna temperatura numerica nel testo (Fig. S14-S15, supplementare).",
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "cinetica": "gli aghi di Form II si muovono o cambiano orientazione della faccia da un'estremita' dell'ago («tail-wagging»)"
+   },
+   "citazioni": [
+    "In the phase transition from Form II→Form III, the needle-like crystals of Form II appear like “tail-wagging” as the crystal merely moves or changes the face orientation from one end of the needle (Figure S16).",
+    "Crystals placed on a glass slide and covered with a coverslip were transferred to a heating chamber (hot stage) on an OLYMPUS BX41 stereomicroscope equipped with a LINKAM LTS350 stage for temperature control and VISICAM analyzer. The heating chamber was capped with a sealable lid during heating and cooling cycles, and the rate was kept constant at 10 °C min–1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "HSM a 10 °C/min: i cristalli aghiformi di Form II «appear like tail-wagging»; nessuna temperatura nel testo (Fig. S16). Stessa trasformazione del DSC (97 °C a 5 °C/min).",
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E9",
+   "da": "F4",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Upon cooling from the high-temperature Form III, it initially transforms into Form I, which gradually converts into Form II over the course of a few days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Raffreddando Form III si forma prima Form I, che si converte gradualmente in Form II in qualche giorno (E10). Temperatura e velocita' di raffreddamento non dette; la frase non dice con quale tecnica."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "a few days"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Upon cooling from the high-temperature Form III, it initially transforms into Form I, which gradually converts into Form II over the course of a few days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Form I (ottenuta raffreddando Form III) si converte gradualmente in Form II «over the course of a few days»; temperatura non detta.",
+   "da_evento": "E9"
+  },
+  {
+   "id": "E11",
+   "da": "F4",
+   "a": "F2",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "RT"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "month",
+     "tipo": "conservazione"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "cinetica": "molto lenta: un piccolo picco di Form Ia in quasi tutti i campioni, monitorato per un mese"
+   },
+   "citazioni": [
+    "The XRD data of all of the films indicate that when the crystallization occurred, predominantly Form III was observed. However, due to the instability of Form III at room temperature, it starts to transform to Form Ia immediately as the sample is cooled at room temperature. This is evident from the small peak of Form Ia that is present in almost all the samples. This transformation and decreasing stability of Form III were monitored for a month, which illustrated that the kinetics of transformation was very slow.",
+    "We cannot be sure that we observed Form Ia instead of Form I because the strongest peaks of both polymorphs I and Ia are located at the same 2θ values, and the XRD of the films is highly preferentially oriented. Since we always obtained Form Ia during our recrystallizations, we assumed that Form Ia was also obtained in the films.",
+    "In some of the samples, where the low pulling rate was applied, we could also observe a very small peak of Form II (Figure S28)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Film cristallizzati dal fuso con gradiente termico (preparazione dal fuso): predominante Form III, che comincia a trasformarsi in Form Ia appena il campione e' raffreddato a temperatura ambiente (piccolo picco di Form Ia in quasi tutti i campioni; cinetica molto lenta, un mese di controllo). In alcuni campioni con bassa velocita' di tiro si vede anche un picco molto piccolo di Form II. Gli autori non possono escludere Form I invece di Form Ia (stessi picchi principali) e assumono Form Ia. Diverso dal massimo raffreddamento di bulk (E9), dove si forma prima Form I.",
+   "lettura_alternativa": "Il prodotto potrebbe essere Form I invece di Form Ia (stessi picchi principali, forte orientazione preferenziale); gli autori assumono Form Ia.",
+   "campione": {
+    "tipo": "film"
+   }
+  },
+  {
+   "id": "E12",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "semina",
+   "condizioni": {
+    "semina": true,
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "a matter of days"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The presence of seeds of Form II in the surroundings led to unintentional seeding, which triggered the conversion of Form Ia→Form II in a matter of days. Upon conversion, the morphology also changed from sheets to needles.",
+    "Based on the polymorph screening performed, it appears that Form Ia often exhibits flat-sheet-like crystals. Form Ia is a kinetic form that is evident from the slurry and solubility assessments."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dopo la scoperta di Form II, semi di Form II presenti nell'ambiente («unintentional seeding») convertono Form Ia in Form II in pochi giorni; la morfologia passa da lamine a aghi. Dopo circa un anno di screening anche le ricristallizzazioni che prima davano Form Ia danno solo Form II.",
+   "campione": {
+    "semina_involontaria": true
+   }
+  },
+  {
+   "id": "E13",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "N,N-dimethylacetamide"
+     },
+     {
+      "nome": "N,N-dimethylformamide"
+     },
+     {
+      "nome": "isopropyl acetate"
+     }
+    ],
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "after some days (days varied for each different solvent)"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In some solvents like DMA, DMF, IPA, etc., a mixture of Form Ia and Form II was obtained as concomitant polymorphs, but after some days (days varied for each different solvent), the mixture eventually converted to Form II.",
+    "In our case, we found that the conversion of kinetic form to thermodynamic form was occurring only during the recrystallization or in the presence of residual solvent, while there was no such transformation in the thin films or the vacuum-dried crystals."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Miscela di Form Ia e Form II come polimorfi concomitanti da DMA, DMF, IPA «etc.»; dopo qualche giorno (varia con il solvente) la miscela converte a Form II: da = Form Ia (componente della miscela). Gli autori dicono che la conversione avviene solo durante la ricristallizzazione o in presenza di solvente residuo. L'elenco dei solventi e' aperto («etc.»); le temperature di evaporazione dei metodi sono 50 °C per DMA e DMF e RT per IPA.",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "solventi_alternativi": true
+  },
+  {
+   "id": "E14",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "in time"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The polymorphic tendency of ditbuC6-BTBT in thin films was the same as that in bulk. As observed in bulk, Form Ia was observed in CHF and TOL, while in DEC and DMA, the mixture of Form Ia and Form II was observed, which completely transformed into Form II in time."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Film sottili (spin-coating o drop-casting) da DEC e DMA (solventi di deposizione, non condizioni della trasformazione): miscela di Form Ia e Form II che «completely transformed into Form II in time». Il tempo non e' dato. In contrasto con «there was no such transformation in the thin films» (E17, E18), forse perche' questi film partono da una miscela con Form II.",
+   "conflitto": "«there was no such transformation in the thin films or the vacuum-dried crystals» e «The thin-film XRD of Form Ia was found to be stable for more than a year» contro «in DEC and DMA, the mixture of Form Ia and Form II ... completely transformed into Form II in time». Si riportano entrambe.",
+   "campione": {
+    "tipo": "film"
+   }
+  },
+  {
+   "id": "E15",
+   "da": "ignota",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "RT"
+    },
+    "solventi": [
+     {
+      "nome": "2-methoxyethanol"
+     },
+     {
+      "nome": "acetonitrile"
+     },
+     {
+      "nome": "N,N-dimethylacetamide"
+     },
+     {
+      "nome": "N,N-dimethylformamide"
+     },
+     {
+      "nome": "dimethyl sulfoxide"
+     },
+     {
+      "nome": "ethanol"
+     },
+     {
+      "nome": "water"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The stability assessment of both forms by slurry experiments suggests that Form II is the thermodynamically stable polymorph at room temperature.",
+    "Prolonged slurry maturation experiments at RT were performed by stirring Form I in 2-methoxyethanol (2MX), acetonitrile (ACN), DMA, DMF, DMS, ETH, and H2O. Slurry with solvent mixtures was also performed.",
+    "Based on the polymorph screening performed, it appears that Form Ia often exhibits flat-sheet-like crystals. Form Ia is a kinetic form that is evident from the slurry and solubility assessments."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il testo non descrive il risultato di ogni sospensione: dice che le sospensioni di stabilita' di entrambe le forme indicano Form II come stabile a temperatura ambiente e che Form Ia e' cinetica «from the slurry and solubility assessments». Nei metodi le sospensioni sono di Form I in 2-metossietanolo, ACN, DMA, DMF, DMSO, ETH e H2O (anche miscele). L'evento e' la conversione verso Form II implicita nella conclusione; i dettagli sono nella Tabella S2.",
+   "da_possibili": [
+    "F1",
+    "F2"
+   ],
+   "solo_supplementare": true,
+   "solventi_alternativi": true,
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E16",
+   "da": "F2",
+   "a": "F3",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "RT"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "several months"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Yet, during the first recrystallization experiments, where we observed only Form Ia, the crystals were found to be stable at RT and could be kept for several months."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nelle prime ricristallizzazioni, quando si osservava solo Form Ia (prima della scoperta di Form II), i cristalli erano stabili a temperatura ambiente per diversi mesi. Il prodotto atteso (Form II) e' quello nominato subito dopo nel testo.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E17",
+   "da": "F2",
+   "a": "F3",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "tempo": {
+     "min": 1,
+     "unita": "year",
+     "tipo": "conservazione",
+     "limite": "sopra"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The thin-film XRD of Form Ia was found to be stable for more than a year.",
+    "In our case, we found that the conversion of kinetic form to thermodynamic form was occurring only during the recrystallization or in the presence of residual solvent, while there was no such transformation in the thin films or the vacuum-dried crystals."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "XRD del film sottile di Form Ia: stabile per piu' di un anno. Regola «solo durante la ricristallizzazione o in presenza di solvente residuo»: nessuna trasformazione nei film sottili. Temperatura non detta.",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "film"
+   }
+  },
+  {
+   "id": "E18",
+   "da": "F2",
+   "a": "F3",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In our case, we found that the conversion of kinetic form to thermodynamic form was occurring only during the recrystallization or in the presence of residual solvent, while there was no such transformation in the thin films or the vacuum-dried crystals."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Regola «solo ...»: la conversione del cinetico nel termodinamico avviene solo durante la ricristallizzazione o con solvente residuo; non avviene nei cristalli essiccati sotto vuoto. Tempo e temperatura non detti.",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "senza_condizioni": true,
+   "pretrattamento": "cristalli essiccati sotto vuoto (vacuum-dried)"
+  },
+  {
+   "id": "E19",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 100,
+     "unita": "K",
+     "tipo": "intervallo",
+     "testo": "from RT down to 100 K"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "We also carried out a VTXRD experiment on the starting material (Form I) starting from RT down to 100 K. From the VTXRDRT → LT, we did not observe any thermotropic phase change or thermal contraction that could have been the reason for the mismatch of the XRD peaks"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "VTXRD di Form I da temperatura ambiente a 100 K: nessun cambiamento di fase termotropico ne' contrazione termica che spieghi il disaccordo dei picchi (quindi Form I e Form Ia sono due polimorfi molto simili). Il prodotto atteso non e' nominato.",
+   "esito_dettaglio": "nessuna_irreversibile",
+   "campione": {
+    "tipo": "polvere"
+   }
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The starting material is a crystalline powder and was referred to as Form I.",
+    "The pristine Form I was obtained only from the first crystallization performed during the synthesis of the molecule."
+   ],
+   "fonte_dati": "propria",
+   "note": "Polvere cristallina di partenza, ottenuta solo dalla prima cristallizzazione fatta durante la sintesi della molecola; il metodo non e' descritto."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "anisole",
+    "chloroform",
+    "dichloromethane",
+    "isopropyl ether",
+    "p-xylene",
+    "tetrahydrofuran",
+    "toluene"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Solvents like ANI, CHF, DCM, IPE, PXY, THF, and TOL yielded Form Ia with a flat-plate-like morphology.",
+    "Recrystallization of ditBuC6-BTBT was carried out by solvent evaporation at RT in chloroform (CHF), dichloromethane (DCM), anisole (ANI), 1,2-dimethoxyethane (DMX), isopropyl acetate (IPA), isopropyl ether (IPE), methyl ethyl ketone (MEK), p-xylene (PXY), tetrahydrofuran (THF), and toluene (TOL); at 50 °C in diethyl carbonate (DEC), N,N-dimethylacetamide (DMA), N,N-dimethylformamide (DMF), and 1-methyl-2-pyrrolidone (MPY); and at 75 °C in 2-propanol (2PR), benzyl alcohol (ABZ), and ethanol (ETH) (Table S2)."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "RT"
+   },
+   "note": "Evaporazione del solvente a temperatura ambiente; Form Ia in cristalli piatti a lamina (flat-plate-like). Questi sette solventi sono nell'elenco a temperatura ambiente dei metodi. Dopo la scoperta di Form II questi esperimenti non danno piu' Form Ia ma Form II (disappearing polymorph)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "chloroform"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Crystals of Form Ia and Form II of ditBuC6-BTBT for single-crystal X-ray diffraction were obtained from CHF (1 mg mL–1) by solution evaporation and DMA solutions (1 mg mL–1) by temperature gradient crystallization in Crystal16, respectively."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "RT"
+   },
+   "rapporto_solido_solvente": "1 mg mL–1",
+   "note": "Cristalli di Form Ia per SCXRD da cloroformio (1 mg/mL) per evaporazione. Il testo dice «solution evaporation»; la temperatura ambiente e' quella dell'elenco dei metodi per il cloroformio."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "diethyl carbonate",
+    "1,2-dimethoxyethane"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Thin hair-like long needle crystals of Form II resulted from controlled recrystallization in Crystal 16 (a multireactor crystallizer by Technobis) by the temperature gradient in DEC and DMX solvents."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": true,
+   "note": "Aghi lunghi e sottili («hair-like») di Form II da ricristallizzazione controllata con gradiente di temperatura in Crystal16.",
+   "conflitto": "I metodi dicono che Crystal16 e' stato usato con DMA, DMF, ETH e TOL (5 mg/mL, 0.125 °C/min da 70 °C a RT), non con DEC e DMX come nei risultati."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "N,N-dimethylacetamide"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Crystals of Form Ia and Form II of ditBuC6-BTBT for single-crystal X-ray diffraction were obtained from CHF (1 mg mL–1) by solution evaporation and DMA solutions (1 mg mL–1) by temperature gradient crystallization in Crystal16, respectively.",
+    "Some good quality and collectible crystals were found in the recrystallization experiment from DMA solvent, and the data collection was performed at room temperature.",
+    "Controlled recrystallization by a temperature gradient has been performed using the platform Crystal16 by Technobis, cooling a clear solution (5 mg mL–1) in DMA, DMF, ETH, and TOL at a constant rate of 0.125 °C/min from 70 °C to RT."
+   ],
+   "fonte_dati": "propria",
+   "rapporto_solido_solvente": "1 mg mL–1",
+   "velocita": {
+    "valore": 0.125,
+    "unita": "°C/min"
+   },
+   "note": "Cristalli di Form II per SCXRD da DMA (1 mg/mL) per cristallizzazione con gradiente di temperatura in Crystal16. La velocita' di raffreddamento 0.125 °C/min da 70 °C a RT e' quella dichiarata per DMA nei metodi generali (soluzione limpida a 5 mg/mL); per i cristalli di SCXRD la concentrazione e' 1 mg/mL."
+  },
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "N,N-dimethylacetamide",
+    "N,N-dimethylformamide",
+    "isopropyl acetate"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "In some solvents like DMA, DMF, IPA, etc., a mixture of Form Ia and Form II was obtained as concomitant polymorphs, but after some days (days varied for each different solvent), the mixture eventually converted to Form II.",
+    "Recrystallization of ditBuC6-BTBT was carried out by solvent evaporation at RT in chloroform (CHF), dichloromethane (DCM), anisole (ANI), 1,2-dimethoxyethane (DMX), isopropyl acetate (IPA), isopropyl ether (IPE), methyl ethyl ketone (MEK), p-xylene (PXY), tetrahydrofuran (THF), and toluene (TOL); at 50 °C in diethyl carbonate (DEC), N,N-dimethylacetamide (DMA), N,N-dimethylformamide (DMF), and 1-methyl-2-pyrrolidone (MPY); and at 75 °C in 2-propanol (2PR), benzyl alcohol (ABZ), and ethanol (ETH) (Table S2)."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": true,
+   "note": "Polimorfi concomitanti Form Ia + Form II da DMA, DMF, IPA «etc.»; la miscela converte poi a Form II in qualche giorno. Nei metodi DMA e DMF sono evaporati a 50 °C e IPA a RT."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "With directional crystallization, we produced films from the melt by tailoring the conditions responsible for nucleation and growth, such as the temperature of hot and cold stages, the pulling rate of the substrate, and the cooling rate.",
+    "During our thermal gradient experiments for ditBuC6-BTBT, the hot stage was set at temperature T h = 170 and 180 °C, while the cold stage temperature T c was varied from 70 to 140 °C.",
+    "We explored different conditions by varying the cold stage temperature (T c = 70–140 °C), hot stage temperature (T h = 170–180°C), the pulling rate of the sample stage (5–50 μm s–1), and the cooling rate at the growth front (Table S3).",
+    "The XRD data of all of the films indicate that when the crystallization occurred, predominantly Form III was observed. However, due to the instability of Form III at room temperature, it starts to transform to Form Ia immediately as the sample is cooled at room temperature. This is evident from the small peak of Form Ia that is present in almost all the samples. This transformation and decreasing stability of Form III were monitored for a month, which illustrated that the kinetics of transformation was very slow."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "min": 70,
+    "max": 140,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "note": "Cristallizzazione direzionale da fuso con gradiente termico (Linkam GS350): stadio caldo T h = 170 e 180 °C, stadio freddo T c da 70 a 140 °C (temperatura riportata qui), velocita' di tiro 5-50 μm s–1, gap 2 mm; cristalli aghiformi allineati. Predominante Form III all'XRD dei film; per l'instabilita' di Form III a temperatura ambiente compare subito Form Ia. In alcuni campioni con bassa velocita' di tiro anche Form II (molto poco)."
+  },
+  {
+   "forme": [
+    "F4",
+    "F2"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "chlorobenzene"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Both pristine and blend films were deposited by the BAMS technique in ambient conditions at 105 °C and a coating speed of 10 and 1 mm s–1.",
+    "From the structural characterization by PXRD of the thin films of all of the samples, we always observed the mixture of Form III and Form Ia, with Form III in dominance (Figure S30)."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 105,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "note": "Film sottili per solution shearing (BAMS): soluzione 2 wt% di ditBuC6-BTBT in clorobenzene, anche con polistirene (4:1), in condizioni ambientali a 105 °C, velocita' di rivestimento 10 e 1 mm s–1: sempre miscela di Form III e Form Ia con Form III dominante."
+  },
+  {
+   "forme": [
+    "F2",
+    "F3",
+    "F4"
+   ],
+   "metodo": "sublimazione",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "During the semiconductor deposition, the substrates were held at temperatures (T sub) of 25, 40, 70, 100, and 130 °C.",
+    "The PXRD data reveals that we obtain a mixture of polymorphs. For instance, at 25, 40, and 70̊ °C, Forms Ia, II, and III are present, with the presence of Form Ia being dominant.",
+    "Since the PXRD pattern was measured at RT and after some days, we are not sure whether the data report the situation immediately after deposition, or whether the thin film is subject to phase transitions occurring between deposition and PXRD recording."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valori": [
+     25,
+     40,
+     70
+    ],
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "note": "Film sottili per evaporazione termica sotto vuoto (substrato a 25, 40 e 70 °C): miscela di Form Ia, II e III con Form Ia dominante. L'XRD e' stato misurato a RT e dopo qualche giorno: gli autori non sanno se il dato riflette la situazione subito dopo la deposizione o transizioni di fase successive."
+  },
+  {
+   "forme": [
+    "F4",
+    "F2"
+   ],
+   "metodo": "sublimazione",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "During the semiconductor deposition, the substrates were held at temperatures (T sub) of 25, 40, 70, 100, and 130 °C.",
+    "As expected, deposition at 100 °C promotes Form III (same as films produced by solution shearing at 105 °C), which is obtained almost pure, while traces of Form Ia could indicate the beginning of the transition into the stable phase at RT.",
+    "Since the PXRD pattern was measured at RT and after some days, we are not sure whether the data report the situation immediately after deposition, or whether the thin film is subject to phase transitions occurring between deposition and PXRD recording."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 100,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "note": "Evaporazione termica sotto vuoto con substrato a 100 °C: quasi pura Form III (come nei film di solution shearing a 105 °C), con tracce di Form Ia che potrebbero indicare l'inizio della transizione alla fase stabile a RT."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "chloroform",
+    "toluene"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Films of ditBuC6-BTBT were prepared by solution processing on silicon substrates by varying several parameters like solvents (CHF, TOL, DEC, DMA, and CLB), processing technique (spin-coating, drop-casting, and shear coating (see later)), temperature (pre- and post- thermal treatment up to 110 °C), and concentration (1, 3, and 22.6 mg mL–1 (2% w/w)).",
+    "The polymorphic tendency of ditbuC6-BTBT in thin films was the same as that in bulk. As observed in bulk, Form Ia was observed in CHF and TOL, while in DEC and DMA, the mixture of Form Ia and Form II was observed, which completely transformed into Form II in time."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": true,
+   "note": "Film sottili su silicio per spin-coating o drop-casting: Form Ia osservata da CHF e TOL, come nel bulk. Concentrazioni 1, 3 e 22.6 mg mL–1; temperatura di trattamento pre- e post-deposizione fino a 110 °C."
+  },
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "diethyl carbonate",
+    "N,N-dimethylacetamide"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The polymorphic tendency of ditbuC6-BTBT in thin films was the same as that in bulk. As observed in bulk, Form Ia was observed in CHF and TOL, while in DEC and DMA, the mixture of Form Ia and Form II was observed, which completely transformed into Form II in time.",
+    "No other polymorph was obtained from spin-coating or drop-casting experiments."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": true,
+   "note": "Film sottili da spin-coating o drop-casting da DEC e DMA: miscela di Form Ia e Form II che si trasforma completamente in Form II nel tempo. Nessun altro polimorfo da spin-coating o drop-casting."
+  },
+  {
+   "forme": null,
+   "metodo": "altro",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "Nevertheless, in all the experiments, we only observed the concomitant bulk phases, and no thin-film phase or nonequilibrium phase was observed.",
+    "However, in the latest fast recrystallizations at low temperature to obtain Form Ia, we always observed concomitant polymorphs with an increasing amount of Form II."
+   ],
+   "fonte_dati": "propria",
+   "componenti_cercati": [
+    "fasi di film sottile o di non equilibrio"
+   ],
+   "note": "Le tecniche di non equilibrio (gradiente termico, solution shearing) e le deposizioni sul film non hanno dato nessuna fase di film sottile o di non equilibrio nuova: solo le fasi di bulk, sempre concomitanti. Le ricristallizzazioni veloci a bassa temperatura per ottenere Form Ia danno sempre concomitanti con quantita' crescente di Form II."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "forma": "F2",
+     "grandezza": {
+      "valore": 5.81,
+      "unita": "eV"
+     },
+     "calcolato": false,
+     "metodo": "energia di ionizzazione (IE) da photoelectron yield spectroscopy (PYS) in aria, su cristalli isolati",
+     "citazione": "The IE values of isolated crystals of Form Ia (5.81 eV) and Form II (5.51 eV) significantly differ by 0.3 eV"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F3",
+     "grandezza": {
+      "valore": 5.51,
+      "unita": "eV"
+     },
+     "calcolato": false,
+     "metodo": "energia di ionizzazione (IE) da photoelectron yield spectroscopy (PYS) in aria, su cristalli isolati",
+     "citazione": "The IE values of isolated crystals of Form Ia (5.81 eV) and Form II (5.51 eV) significantly differ by 0.3 eV"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "two molecules in the asymmetric unit of Form Ia are superimposable (RMSD 0.063)",
+     "citazione": "Both the molecules in the asymmetric unit are superimposable with a root-mean-square deviation (RMSD, defined as the square root of the mean squared error) of 0.063."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F3",
+     "testo": "three independent molecules of Form II with tilt angles 54, 56 and 42°, not highly superimposable (RMSD 1.026, 0.742, 1.013)",
+     "citazione": "Unlike Form Ia, molecules in the asymmetric unit of Form II are not highly superimposable (RMSDRed‑Blue = 1.026, RMSDRed‑Green = 0.742, and RMSDGreen‑Blue = 1.013) and the molecular layers are rough and not distinctly separated"
+    },
+    {
+     "tipo": "flessibilita",
+     "forma": "F3",
+     "testo": "core of the fully independent molecule slightly bent, possibly related to the alkyl chain",
+     "citazione": "The core of the fully independent molecule which does not lie on the inversion center is slightly bent, which could be related to the influence of the alkyl chain."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "rigid molecular packing in Forms I, Ia and II, limited conformational disorder of the alkyl chains",
+     "citazione": "Forms I, Ia, and II exhibit rigid molecular packing, indicating limited conformational disorder of the alkyl chains, consistent with the behavior typically observed in low-temperature stable crystalline polymorphs of alkylated BTBT derivatives."
+    }
+   ]
+  }
+ ]
+}
