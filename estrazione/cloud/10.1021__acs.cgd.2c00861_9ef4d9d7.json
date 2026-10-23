@@ -1,0 +1,1673 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.2c00861",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Tre polimorfi conformazionali di un cocristallo ionico (ICC) di hesperetin (HES) con il suo sale di tetraetilammonio, HESTEA = (TEA+HES–)HES, C40H47NO12: HESTEA-α, -β, -γ (Table 1: tutti monoclini, Z 4, T 135 K). Dettagli sperimentali (quantita' degli slurry, velocita' del DSC, tempi e temperature degli slurry competitivi) stanno solo nelle Supporting Information e non si estraggono. Sorgenti di confronto citate senza evento: «HES hydrate (FOYTOC)» con anelli quasi paralleli (3.69°) e sette voci HES del CSD (Table S3), usate solo per le torsioni. HESTEA-α e' presentato come «disappearing polymorph» (non riottenibile dopo l'isolamento di β e γ): preparazione non ottenuta. Densita' a 135 K (Table 1): α 1.328 < γ 1.336 < β 1.343 g·cm–3, usate dagli autori come indizio che α e' la meno stabile. Nelle prove di DSC la forma di arrivo del primo evento di α e' solo «a new phase» vista in vt-PXRD (pattern diverso dai tre polimorfi); la sua fusione a ca. 193 °C e' attribuita da noi a quella fase (il testo dice solo «followed by a larger endotherm ... which we attribute to melting»).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "hesperetin (HES)"
+  },
+  {
+   "id": "C2",
+   "nome": "tetraethylammonium (TEA+)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "HES",
+   "etichette_alternative": [
+    "pure HES"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": "P21/c",
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "chain of HES molecules via O–H···O=C H-bonds",
+     "chi": "HES molecules (OH donor, C=O acceptor)",
+     "citazione": "which reveals a chain of HES molecules connected through O–H···O=C H-bonds [2.6911(68) Å]."
+    }
+   ],
+   "citazione": "HES crystallized in the space group P21/c with one molecule in the asymmetric unit.",
+   "note": "Hesperetin puro, struttura di un lavoro citato (rif. 73): Figure S1 nel supplementare. Il testo non dice «anhydrous»; nessun solvente in formula (una molecola nell'unita' asimmetrica): anidro presunto. Nel testo e' confrontato con l'«HES hydrate (FOYTOC)», che qui non e' estratto (nessun evento)."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "HESTEA-α",
+   "etichette_alternative": [
+    "(TEA+HES–)HES, α",
+    "α"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 14.1323,
+    "b": 17.944,
+    "c": 14.5214,
+    "alpha": 90,
+    "beta": 95.486,
+    "gamma": 90,
+    "V": 3665.6,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "135 K"
+   },
+   "ccdc": "2189972",
+   "refcode": null,
+   "protonazione": "un anione HES– (fenolato) e una molecola neutra HES per catione TEA+",
+   "motivi_hb": [
+    {
+     "motivo": "C32(7) H-bonded motif",
+     "chi": "one phenolate and three phenolic groups from two HES– anions and two HES molecules (PhOH···PhO– and PhOH···PhOH)",
+     "citazione": "which results in a C32(7) H-bonded motif comprising one phenolate and three phenolic groups from two HES– anions and two HES molecules, as illustrated in Figure 1a."
+    },
+    {
+     "motivo": "phenol···phenolate (PhOH···PhO–) supramolecular heterosynthon",
+     "chi": "phenolate of HES– and phenolic groups of HES / HES–",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "motivo": "H-bonded sheets",
+     "chi": "HES molecules (helical chains along b) and HES– anions (zigzag chains along a)",
+     "citazione": "In these sheets, HES molecules form helical chains around 2-fold screw axes through PhOH···PhOH H-bonds that propagate along the b-axis while HES– anions form zigzag chains through PhOH···PhO– H-bonds that propagate along the a-axis (Figure 1b)."
+    }
+   ],
+   "citazione": "HESTEA-α crystallized in the space group P21/n with an asymmetric unit comprising one TEA+ cation, one HES– anion, and one HES molecule.",
+   "note": "Cella, Z, Z′, T e CCDC dalla colonna HESTEA-α di Table 1. Densita' 1.328 g·cm–3 a 135 K. «Disappearing polymorph»: non e' stato possibile rifarlo."
+  },
+  {
+   "id": "F3",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "HESTEA-β",
+   "etichette_alternative": [
+    "(TEA+HES–)HES, β",
+    "β"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 14.7566,
+    "b": 14.9419,
+    "c": 16.5652,
+    "alpha": 90,
+    "beta": 95.328,
+    "gamma": 90,
+    "V": 3636.7,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "135 K"
+   },
+   "ccdc": "2189975",
+   "refcode": null,
+   "protonazione": "un anione HES– (fenolato) e una molecola neutra HES per catione TEA+",
+   "motivi_hb": [
+    {
+     "motivo": "C32(7) H-bonded motif",
+     "chi": "two PhOH···PhO– and one PhOH···PhOH H-bonds between one phenolate and three phenolic groups",
+     "citazione": "Like HESTEA-α, C32(7) H-bonded motifs are formed and comprise two PhOH···PhO– and one PhOH···PhOH H-bonds between one phenolate and three phenolic groups."
+    },
+    {
+     "motivo": "phenol···phenolate (PhOH···PhO–) supramolecular heterosynthon",
+     "chi": "phenolate of HES– and phenolic groups of HES / HES–",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "motivo": "H-bonded sheets that interdigitate",
+     "chi": "H-bonded sheets forming cavities that contain TEA+ cations",
+     "citazione": "When viewed down the c-axis, adjacent H-bonded sheets interdigitate with each other through weak H-bonds and form cavities containing TEA+ cations that are engaged in C–H···O and columbic forces (Figure 2c)."
+    }
+   ],
+   "citazione": "HESTEA-β crystallized in the space group P21/c with an asymmetric unit containing one TEA+ cation, one HES– anion and one HES molecule.",
+   "note": "Cella, Z, Z′, T e CCDC dalla colonna HESTEA-β di Table 1. Densita' 1.343 g·cm–3."
+  },
+  {
+   "id": "F4",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "HESTEA-γ",
+   "etichette_alternative": [
+    "(TEA+HES–)HES, γ",
+    "γ"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2/c",
+   "cella": {
+    "a": 22.7154,
+    "b": 8.6532,
+    "c": 18.5287,
+    "alpha": 90,
+    "beta": 90.987,
+    "gamma": 90,
+    "V": 3641.5,
+    "Z": 4,
+    "Z_primo": 0.5,
+    "fonte": "SCXRD",
+    "condizioni": "135 K"
+   },
+   "ccdc": "2189977",
+   "refcode": null,
+   "protonazione": "legame H apparentemente simmetrico fra due HES: il protone sta su o vicino all'asse binario cristallografico ([PhO···H···PhO–]); i cationi TEA+ sono disordinati attorno a un centro di inversione",
+   "motivi_hb": [
+    {
+     "motivo": "C32(7) motif with symmetric or close-to-symmetric [PhO···H···PhO–] anion",
+     "chi": "[PhO···H···PhO–] anions and two phenolic groups of neighboring HES moieties",
+     "citazione": "As illustrated in Figure 3a, [PhO···H···PhO–] anions form H-bonds with two phenolic groups on the methoxy-substituted phenolic rings from two neighboring HES moieties [O2···O6, 2.663(2) Å], which forms a C32(7) motif (Figure 3a)."
+    },
+    {
+     "motivo": "phenol···phenolate (PhOH···PhO–) supramolecular heterosynthon",
+     "chi": "phenolate of HES– and phenolic groups of HES",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "motivo": "bilayer of H-bonded tapes along the c-axis",
+     "chi": "C32(7) motifs with antiparallel face-to-face HES moieties",
+     "citazione": "In the H-bonded motifs, HES moieties align in an antiparallel face-to-face arrangement (4.363 Å between two benzopyrone rings), thereby forming a bilayer of tapes along the c-axis (Figure 3b)."
+    }
+   ],
+   "citazione": "HESTEA-γ crystallized in the space group C2/c with an asymmetric unit comprising 0.5 of the chemical formula since TEA+ cations are disordered around an inversion center and an apparently symmetric H-bond between HES moieties enables the proton to sit at or close to a crystallographic 2-fold axis.",
+   "note": "Cella, Z, Z′ 0.5, T e CCDC dalla colonna HESTEA-γ di Table 1. Densita' 1.336 g·cm–3. Gli autori non asseriscono la simmetria del legame H («cannot be asserted using SCXRD»)."
+  },
+  {
+   "id": "F5",
+   "composto": null,
+   "etichetta": "[nuova fase di HESTEA-α sopra 180 °C]",
+   "tipo": "non_specificato",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "vt-PXRD data (Figure 5) also reveals a phase change by 180 °C to a new crystal form with a different PXRD to that of any of the three polymorphs characterized by SCXRD.",
+   "note": "Fase vista in vt-PXRD dopo il riscaldamento di HESTEA-α: «a new crystal form with a different PXRD to that of any of the three polymorphs characterized by SCXRD». Non caratterizzata oltre (composizione non detta)."
+  },
+  {
+   "id": "F6",
+   "etichetta": "[miscela 1:1 di HESTEA-α e HESTEA-β]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F2",
+    "F3"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH."
+  },
+  {
+   "id": "F7",
+   "etichetta": "[miscela 1:1 di HESTEA-β e HESTEA-γ]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F3",
+    "F4"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH."
+  },
+  {
+   "id": "F8",
+   "etichetta": "[miscela 1:1 di HESTEA-α e HESTEA-γ]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F2",
+    "F4"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "condizioni": "slurry (H2O, MeOH, EtOH) e slurry competitivi 1:1 (Table 2: α + β → β in tutti e tre i solventi)",
+   "citazione": "These slurry experiments suggest that HESTEA-α is less stable than β and γ.",
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "note": "«suggest»: dichiarazione prudente degli autori; indizio aggiuntivo: densita' di α piu' bassa (1.328 contro 1.343 g·cm–3 a 135 K)."
+  },
+  {
+   "forme": [
+    "F2",
+    "F4"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F4",
+   "condizioni": "slurry (H2O, MeOH, EtOH) e slurry competitivi 1:1 (Table 2: α + γ → γ in tutti e tre i solventi)",
+   "citazione": "These slurry experiments suggest that HESTEA-α is less stable than β and γ.",
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "note": "«suggest»: dichiarazione prudente degli autori; indizio aggiuntivo: densita' di α piu' bassa (1.328 contro 1.336 g·cm–3 a 135 K)."
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": null,
+   "condizioni": "dipende dal solvente: β favorita in EtOH, γ favorita in MeOH, miscela in H2O (anche dopo 2 settimane)",
+   "citazione": "Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH).",
+   "certezza": "alta",
+   "fonte_dati": "propria"
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F2",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 182,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 182,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "The DSC curve (Figure S3b) of HESTEA-α displayed two endothermal events, the first being consistent with transformation to a new phase at ca. 182 °C followed by a larger endotherm at ca. 193 °C, which we attribute to melting.",
+    "vt-PXRD data (Figure 5) also reveals a phase change by 180 °C to a new crystal form with a different PXRD to that of any of the three polymorphs characterized by SCXRD."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Transizione di HESTEA-α a una fase nuova: DSC «ca. 182 °C» (primo di due endotermi, «consistent with transformation to a new phase»); il vt-PXRD (Figura 5) vede il cambio di fase «by 180 °C». Un solo evento per le due tecniche (stessa transizione, temperature coerenti); la T del vt-PXRD e' nel testo. Velocita' di riscaldamento non detta nel testo (supplementare)."
+  },
+  {
+   "id": "E2",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 193,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 193,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "da_evento": "E1",
+   "da_dedotto": true,
+   "citazioni": [
+    "The DSC curve (Figure S3b) of HESTEA-α displayed two endothermal events, the first being consistent with transformation to a new phase at ca. 182 °C followed by a larger endotherm at ca. 193 °C, which we attribute to melting."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«a larger endotherm at ca. 193 °C, which we attribute to melting», dopo il cambio di fase a ca. 182 °C: la fase che fonde e' dedotta essere la nuova fase (F5), il testo non lo scrive; da_dedotto."
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 192,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 192,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "In contrast, heating of HESTEA-β and HESTEA-γ resulted in sharp melting endotherms at ca. 192 and 184 °C, respectively, with vt-PXRD indicating that the β and γ polymorphs retained their structures until melting (Figure S4)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«sharp melting endotherms at ca. 192 and 184 °C, respectively»: 192 °C e' HESTEA-β."
+  },
+  {
+   "id": "E4",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 184,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 184,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "In contrast, heating of HESTEA-β and HESTEA-γ resulted in sharp melting endotherms at ca. 192 and 184 °C, respectively, with vt-PXRD indicating that the β and γ polymorphs retained their structures until melting (Figure S4)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«sharp melting endotherms at ca. 192 and 184 °C, respectively»: 184 °C e' HESTEA-γ."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "max": 192,
+     "circa": true,
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "In contrast, heating of HESTEA-β and HESTEA-γ resulted in sharp melting endotherms at ca. 192 and 184 °C, respectively, with vt-PXRD indicating that the β and γ polymorphs retained their structures until melting (Figure S4)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: HESTEA-β «retained [its] structure until melting» (vt-PXRD, Figura S4). Il limite e' la T di fusione in DSC (ca. 192 °C), scritta nella stessa frase."
+  },
+  {
+   "id": "E6",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "max": 184,
+     "circa": true,
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "In contrast, heating of HESTEA-β and HESTEA-γ resulted in sharp melting endotherms at ca. 192 and 184 °C, respectively, with vt-PXRD indicating that the β and γ polymorphs retained their structures until melting (Figure S4)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: HESTEA-γ «retained [its] structure until melting» (vt-PXRD, Figura S4). Il limite e' la T di fusione in DSC (ca. 184 °C), scritta nella stessa frase."
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 232,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 232,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "All three HESTEA polymorphs exhibit lower melting points than pure HES, which exhibited a single sharp melting endotherm at 232 °C."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Hesperetin puro: «a single sharp melting endotherm at 232 °C»."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 260,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "TGA data revealed that HESTEA-α, -β, and -γ each decomposed at ca. 240 °C, slightly lower than pure HES, which decomposed at ca. 260 °C (Figure S3a)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Hesperetin puro «decomposed at ca. 260 °C» (TGA, Figura S3a); avviene dopo la fusione a 232 °C (E7)."
+  },
+  {
+   "id": "E9",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 240,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "TGA data revealed that HESTEA-α, -β, and -γ each decomposed at ca. 240 °C, slightly lower than pure HES, which decomposed at ca. 260 °C (Figure S3a)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "«HESTEA-α, -β, and -γ each decomposed at ca. 240 °C» (TGA, Figura S3a): frase unica per le tre forme, un evento per forma (HESTEA-α). La decomposizione avviene dopo la fusione."
+  },
+  {
+   "id": "E10",
+   "da": "F3",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 240,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "TGA data revealed that HESTEA-α, -β, and -γ each decomposed at ca. 240 °C, slightly lower than pure HES, which decomposed at ca. 260 °C (Figure S3a)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "«HESTEA-α, -β, and -γ each decomposed at ca. 240 °C» (TGA, Figura S3a): frase unica per le tre forme, un evento per forma (HESTEA-β). La decomposizione avviene dopo la fusione."
+  },
+  {
+   "id": "E11",
+   "da": "F4",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 240,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The thermal properties of the three HESTEA polymorphs were investigated by means of thermogravimetric analysis (TGA), differential scanning calorimetry (DSC), and variable temperature powder X-ray diffraction (vt-PXRD).",
+    "TGA data revealed that HESTEA-α, -β, and -γ each decomposed at ca. 240 °C, slightly lower than pure HES, which decomposed at ca. 260 °C (Figure S3a)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "«HESTEA-α, -β, and -γ each decomposed at ca. 240 °C» (TGA, Figura S3a): frase unica per le tre forme, un evento per forma (HESTEA-γ). La decomposizione avviene dopo la fusione."
+  },
+  {
+   "id": "E12",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 14,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "When subjected to accelerated stability-testing conditions (40 °C, 75% RH)76 for 14 days, all three polymorphs retained stability (Figure S5).",
+    "All three polymorphs were found to be stable upon exposure to humidity under accelerated stability conditions for 2 weeks."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«all three polymorphs retained stability» in condizioni di stabilita' accelerata (Figura S5): frase unica per le tre forme, un evento per forma (HESTEA-α). Tecnica di analisi non detta nel testo (Figura S5)."
+  },
+  {
+   "id": "E13",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 14,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "When subjected to accelerated stability-testing conditions (40 °C, 75% RH)76 for 14 days, all three polymorphs retained stability (Figure S5).",
+    "All three polymorphs were found to be stable upon exposure to humidity under accelerated stability conditions for 2 weeks."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«all three polymorphs retained stability» in condizioni di stabilita' accelerata (Figura S5): frase unica per le tre forme, un evento per forma (HESTEA-β). Tecnica di analisi non detta nel testo (Figura S5)."
+  },
+  {
+   "id": "E14",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 14,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "When subjected to accelerated stability-testing conditions (40 °C, 75% RH)76 for 14 days, all three polymorphs retained stability (Figure S5).",
+    "All three polymorphs were found to be stable upon exposure to humidity under accelerated stability conditions for 2 weeks."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«all three polymorphs retained stability» in condizioni di stabilita' accelerata (Figura S5): frase unica per le tre forme, un evento per forma (HESTEA-γ). Tecnica di analisi non detta nel testo (Figura S5)."
+  },
+  {
+   "id": "E15",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "H2O"
+     }
+    ],
+    "rapporto_solido_solvente": "1.5 mL of H2O",
+    "composizione_iniziale": [
+     {
+      "forma": "F2",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     },
+     {
+      "forma": "F3",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH.",
+    "solvent | α + β | β + γ | α + γ",
+    "H2O | β | γ + β | γ",
+    "These competitive slurry experiments revealed that HESTEA-α transformed into one of the other polymorphs in all three solvents.",
+    "Under competitive slurry conditions, HESTEA-α was observed to transform to the β or γ forms. Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH). A mixture of the β and γ forms was found to be present following H2O slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Slurry competitivo 1:1 α + β in H2O: resta β (Table 2). Temperatura e durata non dette nel testo (supplementare). Tecnica di analisi non detta nel testo.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phenol···phenolate supramolecular heterosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "phenol···phenol supramolecular homosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "HES moieties (conformational variability)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Conformational variability in HES moieties and different relative orientations of the H-bonded motifs resulted in distinct crystal packing patterns"
+    }
+   ]
+  },
+  {
+   "id": "E16",
+   "da": "F7",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "H2O"
+     }
+    ],
+    "rapporto_solido_solvente": "1.5 mL of H2O",
+    "composizione_iniziale": [
+     {
+      "forma": "F3",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     },
+     {
+      "forma": "F4",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     }
+    ],
+    "tempo": {
+     "valore": 2,
+     "unita": "week",
+     "tipo": "attesa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "composizione_prodotto": [
+     {
+      "forma": "F4"
+     },
+     {
+      "forma": "F3"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH.",
+    "solvent | α + β | β + γ | α + γ",
+    "H2O | β | γ + β | γ",
+    "In the case of H2O, even after 2 weeks the resulting powder remained a mixture.",
+    "Under competitive slurry conditions, HESTEA-α was observed to transform to the β or γ forms. Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH). A mixture of the β and γ forms was found to be present following H2O slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Slurry competitivo 1:1 β + γ in H2O: la tabella da' «γ + β» e il testo dice che «even after 2 weeks the resulting powder remained a mixture»: nessuna forma prevale. a ignota; composizione del prodotto in osservazioni (ordine «γ + β» come in tabella, senza prevalenze dichiarate).",
+   "esito_dettaglio": "miscela_persistente"
+  },
+  {
+   "id": "E17",
+   "da": "F8",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "H2O"
+     }
+    ],
+    "rapporto_solido_solvente": "1.5 mL of H2O",
+    "composizione_iniziale": [
+     {
+      "forma": "F2",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     },
+     {
+      "forma": "F4",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH.",
+    "solvent | α + β | β + γ | α + γ",
+    "H2O | β | γ + β | γ",
+    "These competitive slurry experiments revealed that HESTEA-α transformed into one of the other polymorphs in all three solvents.",
+    "Under competitive slurry conditions, HESTEA-α was observed to transform to the β or γ forms. Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH). A mixture of the β and γ forms was found to be present following H2O slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Slurry competitivo 1:1 α + γ in H2O: resta γ (Table 2).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phenol···phenolate supramolecular heterosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "phenol···phenol supramolecular homosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "HES moieties (conformational variability)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Conformational variability in HES moieties and different relative orientations of the H-bonded motifs resulted in distinct crystal packing patterns"
+    }
+   ]
+  },
+  {
+   "id": "E18",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "MeOH"
+     }
+    ],
+    "rapporto_solido_solvente": "1.5 mL of MeOH",
+    "composizione_iniziale": [
+     {
+      "forma": "F2",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     },
+     {
+      "forma": "F3",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH.",
+    "solvent | α + β | β + γ | α + γ",
+    "MeOH | β | γ | γ",
+    "These competitive slurry experiments revealed that HESTEA-α transformed into one of the other polymorphs in all three solvents.",
+    "Under competitive slurry conditions, HESTEA-α was observed to transform to the β or γ forms. Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH). A mixture of the β and γ forms was found to be present following H2O slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Slurry competitivo 1:1 α + β in MeOH: resta β (Table 2).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phenol···phenolate supramolecular heterosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "phenol···phenol supramolecular homosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "HES moieties (conformational variability)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Conformational variability in HES moieties and different relative orientations of the H-bonded motifs resulted in distinct crystal packing patterns"
+    }
+   ]
+  },
+  {
+   "id": "E19",
+   "da": "F7",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "MeOH"
+     }
+    ],
+    "rapporto_solido_solvente": "1.5 mL of MeOH",
+    "composizione_iniziale": [
+     {
+      "forma": "F3",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     },
+     {
+      "forma": "F4",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH.",
+    "solvent | α + β | β + γ | α + γ",
+    "MeOH | β | γ | γ",
+    "HESTEA-β was found to be stable in EtOH, whereas HESTEA-γ was isolated from MeOH, which correlates with the results of slurry synthesis.",
+    "Under competitive slurry conditions, HESTEA-α was observed to transform to the β or γ forms. Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH). A mixture of the β and γ forms was found to be present following H2O slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Slurry competitivo 1:1 β + γ in MeOH: resta γ (Table 2); «HESTEA-γ was isolated from MeOH, which correlates with the results of slurry synthesis».",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phenol···phenolate supramolecular heterosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "phenol···phenol supramolecular homosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "HES moieties (conformational variability)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Conformational variability in HES moieties and different relative orientations of the H-bonded motifs resulted in distinct crystal packing patterns"
+    }
+   ]
+  },
+  {
+   "id": "E20",
+   "da": "F8",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "MeOH"
+     }
+    ],
+    "rapporto_solido_solvente": "1.5 mL of MeOH",
+    "composizione_iniziale": [
+     {
+      "forma": "F2",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     },
+     {
+      "forma": "F4",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH.",
+    "solvent | α + β | β + γ | α + γ",
+    "MeOH | β | γ | γ",
+    "These competitive slurry experiments revealed that HESTEA-α transformed into one of the other polymorphs in all three solvents.",
+    "Under competitive slurry conditions, HESTEA-α was observed to transform to the β or γ forms. Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH). A mixture of the β and γ forms was found to be present following H2O slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Slurry competitivo 1:1 α + γ in MeOH: resta γ (Table 2).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phenol···phenolate supramolecular heterosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "phenol···phenol supramolecular homosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "HES moieties (conformational variability)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Conformational variability in HES moieties and different relative orientations of the H-bonded motifs resulted in distinct crystal packing patterns"
+    }
+   ]
+  },
+  {
+   "id": "E21",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "EtOH"
+     }
+    ],
+    "rapporto_solido_solvente": "1.5 mL of EtOH",
+    "composizione_iniziale": [
+     {
+      "forma": "F2",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     },
+     {
+      "forma": "F3",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH.",
+    "solvent | α + β | β + γ | α + γ",
+    "EtOH | β | β | γ",
+    "These competitive slurry experiments revealed that HESTEA-α transformed into one of the other polymorphs in all three solvents.",
+    "Under competitive slurry conditions, HESTEA-α was observed to transform to the β or γ forms. Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH). A mixture of the β and γ forms was found to be present following H2O slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Slurry competitivo 1:1 α + β in EtOH: resta β (Table 2).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phenol···phenolate supramolecular heterosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "phenol···phenol supramolecular homosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "HES moieties (conformational variability)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Conformational variability in HES moieties and different relative orientations of the H-bonded motifs resulted in distinct crystal packing patterns"
+    }
+   ]
+  },
+  {
+   "id": "E22",
+   "da": "F7",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "EtOH"
+     }
+    ],
+    "rapporto_solido_solvente": "1.5 mL of EtOH",
+    "composizione_iniziale": [
+     {
+      "forma": "F3",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     },
+     {
+      "forma": "F4",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH.",
+    "solvent | α + β | β + γ | α + γ",
+    "EtOH | β | β | γ",
+    "HESTEA-β was found to be stable in EtOH, whereas HESTEA-γ was isolated from MeOH, which correlates with the results of slurry synthesis.",
+    "Under competitive slurry conditions, HESTEA-α was observed to transform to the β or γ forms. Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH). A mixture of the β and γ forms was found to be present following H2O slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Slurry competitivo 1:1 β + γ in EtOH: resta β (Table 2); «HESTEA-β was found to be stable in EtOH».",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phenol···phenolate supramolecular heterosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "phenol···phenol supramolecular homosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "HES moieties (conformational variability)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Conformational variability in HES moieties and different relative orientations of the H-bonded motifs resulted in distinct crystal packing patterns"
+    }
+   ]
+  },
+  {
+   "id": "E23",
+   "da": "F8",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "EtOH"
+     }
+    ],
+    "rapporto_solido_solvente": "1.5 mL of EtOH",
+    "composizione_iniziale": [
+     {
+      "forma": "F2",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     },
+     {
+      "forma": "F4",
+      "frazione": {
+       "valore": null,
+       "unita": null,
+       "testo": "1:1"
+      },
+      "tipo": "nominale"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "citazioni": [
+    "Table 2 and Figure S6 detail the relative stability of HESTEA polymorphs as determined by competitive slurrying of 1:1 mixtures of the α and β polymorphs, α and γ polymorphs, or β and γ polymorphs conducted in 1.5 mL of H2O, MeOH, or EtOH.",
+    "solvent | α + β | β + γ | α + γ",
+    "EtOH | β | β | γ",
+    "These competitive slurry experiments revealed that HESTEA-α transformed into one of the other polymorphs in all three solvents.",
+    "Under competitive slurry conditions, HESTEA-α was observed to transform to the β or γ forms. Solvent selection impacted the relationship between HESTEA-β (favored in EtOH) and HESTEA-γ (favored in MeOH). A mixture of the β and γ forms was found to be present following H2O slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Slurry competitivo 1:1 α + γ in EtOH: resta γ (Table 2).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phenol···phenolate supramolecular heterosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "phenol···phenol supramolecular homosynthons",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Each polymorph was found to be sustained by phenol···phenolate supramolecular heterosynthons that self-assemble with phenol···phenol supramolecular homosynthons into C32(7) H-bonded motifs."
+    },
+    {
+     "gruppo": "HES moieties (conformational variability)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Conformational variability in HES moieties and different relative orientations of the H-bonded motifs resulted in distinct crystal packing patterns"
+    }
+   ]
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "sospensione",
+   "solventi": [
+    "MeOH",
+    "EtOH",
+    "H2O"
+   ],
+   "solventi_alternativi": true,
+   "tempo": {
+    "valore": 24,
+    "unita": "h"
+   },
+   "rapporto_solido_solvente": "150 mg (0.50 mmol) of HES and 186.6 μL (0.25 mmol) of 1.34 M TEAOH in MeOH, in 1 mL of solvent",
+   "esito": "ottenuta",
+   "citazioni": [
+    "HESTEA was prepared by slurrying 150 mg (0.50 mmol) of HES and 186.6 μL (0.25 mmol) of 1.34 M tetraethylammonium hydroxide (TEAOH) in MeOH in 1 mL of MeOH, EtOH, or H2O for 24 h.",
+    "HESTEA-α was initially obtained in bulk by slurrying as described above."
+   ],
+   "fonte_dati": "propria",
+   "note": "Polvere in massa di HESTEA-α («shown to be HESTEA-α as determined by powder X-ray diffraction»). Il testo non dice in quale dei tre solventi (MeOH, EtOH, H2O) si sia ottenuta la polvere di α. HES in sospensione con TEAOH in MeOH."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "sospensione",
+   "solventi": [
+    "MeOH",
+    "EtOH",
+    "H2O"
+   ],
+   "solventi_alternativi": true,
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "However, after HESTEA-β and HESTEA-γ were isolated, HESTEA-α could not isolate using the same synthetic conditions.",
+    "HESTEA-α might be classified as a disappearing polymorph77,78 since we have been unable to make it again despite repeated attempts (see experimental section of Supporting Information for details)."
+   ],
+   "fonte_dati": "propria",
+   "note": "HESTEA-α non piu' ottenibile dopo l'isolamento di β e γ (stesse condizioni di sintesi della sospensione): «disappearing polymorph»."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "sospensione",
+   "solventi": [
+    "EtOH"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "citazioni": [
+    "Rather, HESTEA-β was thereafter obtained via slurrying in EtOH, and HESTEA-γ through slurrying in MeOH or H2O (see Supporting Information for details)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Sospensione di HES con TEAOH, dopo l'isolamento di β e γ; quantita' nel supplementare."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "sospensione",
+   "solventi": [
+    "MeOH",
+    "H2O"
+   ],
+   "solventi_alternativi": true,
+   "esito": "ottenuta",
+   "citazioni": [
+    "Rather, HESTEA-β was thereafter obtained via slurrying in EtOH, and HESTEA-γ through slurrying in MeOH or H2O (see Supporting Information for details)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Sospensione di HES con TEAOH, dopo l'isolamento di β e γ; quantita' nel supplementare."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "MeOH"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Recrystallization of the resulting bulk powder (shown to be HESTEA-α as determined by powder X-ray diffraction, PXRD) from MeOH via slow evaporation at room temperature afforded single crystals of HESTEA-α, as confirmed by single-crystal X-ray diffraction (SCXRD, see Supporting Information for experimental details)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Monocristalli per SCXRD, dalla polvere di α."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "diffusione",
+   "solventi": [
+    "EtOH",
+    "n-hexane"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "rapporto_solido_solvente": "1 mL of an EtOH solution of HESTEA powder layered below 2.3 mL of n-hexane",
+   "citazioni": [
+    "Liquid diffusion involving 1 mL of an EtOH solution of HESTEA powder layered below 2.3 mL of n-hexane yielded single crystals of HESTEA-β."
+   ],
+   "fonte_dati": "propria",
+   "note": "Diffusione liquida (stratificazione) di n-esano su soluzione etanolica della polvere di HESTEA."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "EtOH",
+    "MeOH"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "RT"
+   },
+   "esito": "ottenuta",
+   "rapporto_solido_solvente": "0.75 mL of an EtOH solution of 15 mg (0.050 mmol) of HES and 83.3 μL (0.025 mmol) of TEAOH in MeOH diluted to 0.3 M",
+   "citazioni": [
+    "HESTEA-γ was isolated by slow evaporation of 0.75 mL of an EtOH solution of 15 mg (0.050 mmol) of HES and 83.3 μL (0.025 mmol) of TEAOH in MeOH diluted to 0.3 M at RT."
+   ],
+   "fonte_dati": "propria",
+   "note": "Evaporazione lenta a RT di una soluzione etanolica di HES e TEAOH (in MeOH). «RT» non e' definita con un numero."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "solvente": null,
+     "grandezza": {
+      "valore": 1.35,
+      "unita": "mg·L–1"
+     },
+     "metodo": "valore riportato in letteratura (rif. 70); mezzo e temperatura non detti",
+     "calcolato": false,
+     "citazione": "but offers relatively low solubility of 1.35 mg·L–170 and low bioavailability."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "benzopyrone rings of HES moieties show a high degree of torsional variability; torsion angles cannot be readily determined because of disorder of the chiral carbons",
+     "citazione": "As seen by aligning the methoxy phenolic moieties, the benzopyrone rings exhibit a high degree of torsional variability, but disorder of the chiral carbons means that torsion angles cannot be readily determined."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "dihedral angle between benzopyrone ring and methoxy phenolic ring: 3.69° in HES hydrate (FOYTOC), 4.69° to 89.06° in HES cocrystals",
+     "citazione": "In HES cocrystals, HES moieties exhibit dihedral angles that range from 4.69° to 89.06°."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "HES molecule perpendicular to HES– anion, dihedral angle between benzopyrone ring planes 88.94° (HESTEA-α)",
+     "citazione": "HES molecules in HESTEA-α and HESTEA-β are arranged perpendicular in relation to the corresponding HES– anions, with dihedral angles (measured between benzopyrone ring planes from HES and HES–) of 88.94° and 76.92°, respectively."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F3",
+     "testo": "HES molecule perpendicular to HES– anion, dihedral angle between benzopyrone ring planes 76.92° (HESTEA-β)",
+     "citazione": "HES molecules in HESTEA-α and HESTEA-β are arranged perpendicular in relation to the corresponding HES– anions, with dihedral angles (measured between benzopyrone ring planes from HES and HES–) of 88.94° and 76.92°, respectively."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F4",
+     "testo": "HES moieties closer to planarity, dihedral angle between two benzopyrone rings 30.09° (HESTEA-γ)",
+     "citazione": "In HESTEA-γ the HES moieties are closer to planarity with a dihedral angle between two benzopyrone rings of 30.09°."
+    },
+    {
+     "tipo": "altro",
+     "testo": "flavonoid with multiple phenolic groups (medium strength H-bond donors)",
+     "citazione": "HES belongs to the group of natural products known as flavonoids and contains multiple phenolic groups. Phenols are classified as medium strength H-bond donors38"
+    }
+   ]
+  }
+ ]
+}
