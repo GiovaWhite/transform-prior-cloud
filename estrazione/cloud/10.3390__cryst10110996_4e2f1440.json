@@ -1107,6 +1107,48 @@
    "campione": {
     "tipo": "miscela"
    }
+  },
+  {
+   "id": "E21",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "max": 150,
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge, 60 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "TGA data were collected using a thermogravimetry analyzer (Model Q500, TA Instruments, New Castle, DE, USA). Powder samples (approximately 3 mg) were heated in open aluminum pans from room temperature to 300 °C at 10 °C/min under 60 mL/min dry nitrogen purge.",
+    "The TGA profile of Lor-Oxa CAB (Figure 5a) showed negligible weight loss below 150 °C, suggesting acceptable thermal stability."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 3 mg",
+    "crogiolo": "aperto"
+   },
+   "note": "Lato 'sotto soglia' di E3 (la perdita di massa significativa comincia a >= 150 °C): sotto 150 °C la TGA mostra perdita di massa trascurabile ('negligible'), cioe' nessun cambiamento della forma. Il prodotto non e' caratterizzato (a ignota)."
   }
  ],
  "preparazioni": [
