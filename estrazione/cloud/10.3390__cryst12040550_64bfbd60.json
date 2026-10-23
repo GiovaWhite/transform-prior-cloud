@@ -1,0 +1,975 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/cryst12040550",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2088906",
+  "2088907"
+ ],
+ "note": "Tre polimorfi anidri di baloxavir marboxil (Form I, II, III). Form III: struttura non risolta ('structure solution of Form III was not successful thus far'), ottenuta solo per precipitazione sotto agitazione. Il disordine posizionale della catena metilmetil carbonato in Form I (occupazioni 0.606(5):0.394(5)) non e' un evento. Il campione di Form I del DSC mostra un primo evento endotermico a 230.4 °C attribuito a un cambio di fase (forma di arrivo non identificata, E1) seguito dalla fusione del solido ottenuto (E2). Nessuna relazione mono/enantiotropa dichiarata: l'articolo dice solo che Form III si converte nella Form I «less soluble» in sospensione, senza usare «more stable» (relazioni vuote). L'articolo scrive «BMX» in alcuni punti e «BXM» in altri (stesso composto); in Table 1 la colonna T riporta 296 e 170 K senza dire a quale forma: attribuzione per ordine delle colonne (Form I, Form II). Table S1 (screening di cristallizzazione) e le Figure S10-S11 stanno nel supplementare.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "baloxavir marboxil (BXM)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Form I",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 7.1159,
+    "b": 20.1967,
+    "c": 9.4878,
+    "beta": 109.033,
+    "V": 1289.02,
+    "Z": 2,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "296 K"
+   },
+   "ccdc": "2088906",
+   "ccdc_dedotto": true,
+   "refcode": null,
+   "citazione": "Form I is monoclinic, space group P21, with unit cell parameters a = 7.1159 (3) Å, b = 20.1967 (8) Å, c = 9.4878 (4) Å, β = 109.033 (1)°, V = 1289.02 (9) Å3, and Z = 2",
+   "motivi_hb": [
+    {
+     "motivo": "one-dimensional chain via C(sp3)-H . . . O and C(sp2)-H . . . F interactions, parallel to the c-axis",
+     "chi": "BXM molecules (C-H...O and C-H...F, nonclassic hydrogen bonds)",
+     "citazione": "In the crystal structure of Form I, BXM molecules are linked via C(sp3)-H . . . O and C(sp2)-H . . . F interactions, which develop into a one-dimensional chain and run parallel to the c-axis, as shown in Figure 3a and Table S2."
+    }
+   ],
+   "note": "Table 1: «Temperature (K) 296 170» e «CCDC No. 2088906 2088907» nell'ordine delle colonne Form I, Form II (attribuzione per ordine, ccdc_dedotto). L'unita' asimmetrica ha una molecola di BXM («the asymmetric unit of I consisted of one BMX molecule»), da cui Z_primo 1. Catena metilmetil carbonato disordinata su due posizioni (0.606(5):0.394(5))."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "Form II",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 7.1002,
+    "b": 39.31,
+    "c": 9.7808,
+    "beta": 110.966,
+    "V": 2549.2,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "170 K"
+   },
+   "ccdc": "2088907",
+   "ccdc_dedotto": true,
+   "refcode": null,
+   "citazione": "Form II is monoclinic, space group P21, with unit cell parameters a = 7.1002 (14) Å, b = 39.310 (7) Å, c = 9.7808 (18) Å, β = 110.966 (5)°, V = 2549.2 (8) Å3, and Z = 4",
+   "motivi_hb": [
+    {
+     "motivo": "C(sp2)-H . . . F hydrogen bond (major interaction), 1D chain parallel to the c-axis",
+     "chi": "BXM molecules",
+     "citazione": "The major intermolecular interaction between molecules in Form II is a C(sp2)-H . . . F hydrogen bond, as shown in Figure 3b and Table S3."
+    },
+    {
+     "motivo": "neighboring chains packed head-to-head via C(sp)-H . . . π interactions between aromatic rings, hydrogen-bonded bilayered structure",
+     "chi": "adjacent chains of BXM molecules",
+     "citazione": "In Form II, the neighboring chains are packed head-to-head via C(sp)-H . . . π interactions between aromatic rings, forming a hydrogen-bonded bilayered structure (Figure 3d)."
+    }
+   ],
+   "note": "Table 1: T 170 K e CCDC 2088907 per ordine delle colonne. L'unita' asimmetrica contiene due molecole («Form II contained two molecules», molecola A e B), da cui Z_primo 2."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Form III",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Despite all our efforts, the structure solution of Form III was not successful thus far because of the small size and poor quality of the crystals.",
+   "note": "Struttura non risolta. Anidra per la TGA: «The TGA curve exhibits no weight loss until decomposition, which proves all three polymorphs are in anhydrate form»."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 230.4,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen flow of 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 230.4,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "4–7 mg"
+   },
+   "citazioni": [
+    "the DSC curve of Form I exhibited two thermal events: a small endothermic event at 230.4 ◦C followed by a sharply deﬁned melting event at 238.7 ◦C.",
+    "The ﬁrst endothermic peak was associated with a phase change since there was no mass loss in this temperature range.",
+    "Approximately 4–7 mg powder samples were placed in an aluminum pan, and the heating was carried out at a rate of 10 ◦C/min under a nitrogen ﬂow of 50 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Transizione solido-solido di Form I vista in DSC come evento endotermico «small» a 230.4 °C, attribuita a un cambio di fase perche' la TGA non mostra perdita di massa. La forma di arrivo non e' identificata (a: ignota). Il testo non dice se 230.4 °C sia onset o picco."
+  },
+  {
+   "id": "E2",
+   "da": "ignota",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 238.7,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen flow of 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 238.7,
+       "unita": "°C"
+      },
+      "segno": null
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "4–7 mg"
+   },
+   "da_evento": "E1",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "reversibile": false,
+   "citazioni": [
+    "the DSC curve of Form I exhibited two thermal events: a small endothermic event at 230.4 ◦C followed by a sharply deﬁned melting event at 238.7 ◦C.",
+    "The second one resulted from the melting of the obtained solid in the phase transition process.",
+    "The DSC thermal analysis shows that three polymorphs exhibit an explosive type of degradation at melting, which is accompanied by a large release of heat. The melting was irreversible and resulted in a dark-brown tar.",
+    "Approximately 4–7 mg powder samples were placed in an aluminum pan, and the heating was carried out at a rate of 10 ◦C/min under a nitrogen ﬂow of 50 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione del solido ottenuto dal cambio di fase di E1 («the melting of the obtained solid in the phase transition process»), non della Form I tal quale: da e' la fase non identificata di E1. Fusione con degradazione «explosive type», irreversibile, residuo «dark-brown tar». Il segno dell'evento a 238.7 °C non e' scritto (il testo dice «endothermic» solo per il primo evento): segno null."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "max": 235.5,
+     "tipo": "intervallo",
+     "limite": "sotto",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen flow of 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "4–7 mg"
+   },
+   "citazioni": [
+    "DSC curve of Form II and III shows stability up to approximately 235.5 ◦C and 238.7 ◦C, respectively.",
+    "Approximately 4–7 mg powder samples were placed in an aluminum pan, and the heating was carried out at a rate of 10 ◦C/min under a nitrogen ﬂow of 50 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: la curva DSC di Form II «shows stability up to approximately 235.5 °C»."
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "max": 238.7,
+     "tipo": "intervallo",
+     "limite": "sotto",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen flow of 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "4–7 mg"
+   },
+   "citazioni": [
+    "DSC curve of Form II and III shows stability up to approximately 235.5 ◦C and 238.7 ◦C, respectively.",
+    "Approximately 4–7 mg powder samples were placed in an aluminum pan, and the heating was carried out at a rate of 10 ◦C/min under a nitrogen ﬂow of 50 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: la curva DSC di Form III «shows stability up to approximately ... 238.7 °C» («respectively»)."
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen flow of 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "4–7 mg"
+   },
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "reversibile": false,
+   "citazioni": [
+    "The DSC thermal analysis shows that three polymorphs exhibit an explosive type of degradation at melting, which is accompanied by a large release of heat. The melting was irreversible and resulted in a dark-brown tar.",
+    "DSC curve of Form II and III shows stability up to approximately 235.5 ◦C and 238.7 ◦C, respectively.",
+    "Approximately 4–7 mg powder samples were placed in an aluminum pan, and the heating was carried out at a rate of 10 ◦C/min under a nitrogen ﬂow of 50 mL/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Frase riassuntiva per le tre forme («three polymorphs exhibit an explosive type of degradation at melting»): la T di fusione di Form II non e' scritta (solo la stabilita' fino a circa 235.5 °C, E3), quindi temperatura null e certezza bassa."
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen flow of 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "4–7 mg"
+   },
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "reversibile": false,
+   "citazioni": [
+    "The DSC thermal analysis shows that three polymorphs exhibit an explosive type of degradation at melting, which is accompanied by a large release of heat. The melting was irreversible and resulted in a dark-brown tar.",
+    "DSC curve of Form II and III shows stability up to approximately 235.5 ◦C and 238.7 ◦C, respectively.",
+    "Approximately 4–7 mg powder samples were placed in an aluminum pan, and the heating was carried out at a rate of 10 ◦C/min under a nitrogen ﬂow of 50 mL/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Come E5: la T di fusione di Form III non e' scritta (solo la stabilita' fino a circa 238.7 °C, E4)."
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pH": {
+     "valore": 1.2,
+     "unita": null
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "rapporto_solido_solvente": "1.0 g in 900 mL pH 1.2 simulated gastric fluids",
+    "solventi": [
+     {
+      "nome": "pH 1.2 simulated gastric fluids"
+     }
+    ],
+    "tempo": {
+     "valore": 40,
+     "unita": "min",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_soluzione"
+    ],
+    "frazione_convertita": {
+     "valore": null,
+     "unita": null,
+     "testo": "almost converted"
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "1.0 g"
+   },
+   "citazioni": [
+    "The powder dissolution behaviors of the BXM polymorphs determined in pH 1.2 simulated gastric ﬂuids at 37 ◦C are demonstrated in Figure 6.",
+    "The powder dissolution experiments were carried out in a Tianda Tianfa Technology RC806D dissolution tester with a paddle rotation speed of 100 rpm at 37 ◦C. Precisely weighted samples (1.0 g) were added into the dissolution vessels with 900 mL pH 1.2 simulated gastric ﬂuids.",
+    "With increasing time, BXM concentration in solution decreases, and after 40 min, the concentration is close to that of Form I, indicating that the precipitation process (Form I) is happening, and Form III converts into less soluble Form I under suspension condition.",
+    "After the dissolution study, the remaining solid phase was characterized by PXRD analysis (Figure S10). It was conﬁrmed that Form III almost converted to Form I as expected, while Form I and II retained their respective crystal forms, and there is no change even if suspended in water for seven days."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Conversione di Form III in Form I durante la prova di dissoluzione in polvere (pH 1.2, 37 °C): a 40 min la concentrazione si avvicina a quella di Form I (precipitazione di Form I), e il PXRD finale del solido residuo conferma che «Form III almost converted to Form I». Il tempo di 40 min e' ricavato dalla curva di concentrazione (non da un PXRD a quel tempo): tipo osservata senza min. «almost»: conversione quasi completa, non completa; esito avvenuta."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pH": {
+     "valore": 1.2,
+     "unita": null
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "rapporto_solido_solvente": "1.0 g in 900 mL pH 1.2 simulated gastric fluids",
+    "solventi": [
+     {
+      "nome": "pH 1.2 simulated gastric fluids"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "1.0 g"
+   },
+   "citazioni": [
+    "The powder dissolution behaviors of the BXM polymorphs determined in pH 1.2 simulated gastric ﬂuids at 37 ◦C are demonstrated in Figure 6.",
+    "The powder dissolution experiments were carried out in a Tianda Tianfa Technology RC806D dissolution tester with a paddle rotation speed of 100 rpm at 37 ◦C. Precisely weighted samples (1.0 g) were added into the dissolution vessels with 900 mL pH 1.2 simulated gastric ﬂuids.",
+    "After the dissolution study, the remaining solid phase was characterized by PXRD analysis (Figure S10). It was conﬁrmed that Form III almost converted to Form I as expected, while Form I and II retained their respective crystal forms, and there is no change even if suspended in water for seven days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Prova di dissoluzione in polvere (E7) su tre forme in parallelo: solo la Form III cambia; Form I «retained» la sua forma cristallina (PXRD dei solidi non sciolti, Figura S10). Tempo di contatto fino al PXRD non detto."
+  },
+  {
+   "id": "E9",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pH": {
+     "valore": 1.2,
+     "unita": null
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "rapporto_solido_solvente": "1.0 g in 900 mL pH 1.2 simulated gastric fluids",
+    "solventi": [
+     {
+      "nome": "pH 1.2 simulated gastric fluids"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "1.0 g"
+   },
+   "citazioni": [
+    "The powder dissolution behaviors of the BXM polymorphs determined in pH 1.2 simulated gastric ﬂuids at 37 ◦C are demonstrated in Figure 6.",
+    "The powder dissolution experiments were carried out in a Tianda Tianfa Technology RC806D dissolution tester with a paddle rotation speed of 100 rpm at 37 ◦C. Precisely weighted samples (1.0 g) were added into the dissolution vessels with 900 mL pH 1.2 simulated gastric ﬂuids.",
+    "After the dissolution study, the remaining solid phase was characterized by PXRD analysis (Figure S10). It was conﬁrmed that Form III almost converted to Form I as expected, while Form I and II retained their respective crystal forms, and there is no change even if suspended in water for seven days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Prova di dissoluzione in polvere (E7) su tre forme in parallelo: solo la Form III cambia; Form II «retained» la sua forma cristallina (PXRD dei solidi non sciolti, Figura S10). Tempo di contatto fino al PXRD non detto."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "tempo": {
+     "valore": 7,
+     "unita": "day",
+     "tipo": "attesa",
+     "testo": "seven days"
+    },
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "After the dissolution study, the remaining solid phase was characterized by PXRD analysis (Figure S10). It was conﬁrmed that Form III almost converted to Form I as expected, while Form I and II retained their respective crystal forms, and there is no change even if suspended in water for seven days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«there is no change even if suspended in water for seven days»: nella frase il soggetto grammaticale e' «Form I and II», quindi la prova vale per Form I. Temperatura e tecnica di questa prova non dette (la tecnica PXRD e' quella della frase precedente)."
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "tempo": {
+     "valore": 7,
+     "unita": "day",
+     "tipo": "attesa",
+     "testo": "seven days"
+    },
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "After the dissolution study, the remaining solid phase was characterized by PXRD analysis (Figure S10). It was conﬁrmed that Form III almost converted to Form I as expected, while Form I and II retained their respective crystal forms, and there is no change even if suspended in water for seven days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«there is no change even if suspended in water for seven days»: nella frase il soggetto grammaticale e' «Form I and II», quindi la prova vale per Form II. Temperatura e tecnica di questa prova non dette (la tecnica PXRD e' quella della frase precedente)."
+  },
+  {
+   "id": "E12",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 60,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 12,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "All three polymorphs have been shown to be as stable on the shelf for 12 months under the conditions of 25 ± 2 ◦C and 60% RH ± 5% RH (relative humidity) (Figure S11).",
+    "Three crystal forms were stored at 25 ± 2 ◦C and 60% RH ± 5% RH and then analyzed after 12 months of storage."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Form I stabile in conservazione per 12 mesi (PXRD, Figura S11). Le tolleranze «± 2 °C» e «± 5% RH» sono nella citazione. Frase unica per le tre forme: un evento per forma."
+  },
+  {
+   "id": "E13",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 60,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 12,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "All three polymorphs have been shown to be as stable on the shelf for 12 months under the conditions of 25 ± 2 ◦C and 60% RH ± 5% RH (relative humidity) (Figure S11).",
+    "Three crystal forms were stored at 25 ± 2 ◦C and 60% RH ± 5% RH and then analyzed after 12 months of storage."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Form II stabile in conservazione per 12 mesi (PXRD, Figura S11). Le tolleranze «± 2 °C» e «± 5% RH» sono nella citazione. Frase unica per le tre forme: un evento per forma."
+  },
+  {
+   "id": "E14",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 60,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 12,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "citazioni": [
+    "All three polymorphs have been shown to be as stable on the shelf for 12 months under the conditions of 25 ± 2 ◦C and 60% RH ± 5% RH (relative humidity) (Figure S11).",
+    "Three crystal forms were stored at 25 ± 2 ◦C and 60% RH ± 5% RH and then analyzed after 12 months of storage."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Form III stabile in conservazione per 12 mesi (PXRD, Figura S11). Le tolleranze «± 2 °C» e «± 5% RH» sono nella citazione. Frase unica per le tre forme: un evento per forma."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "rapporto_solido_solvente": "500 mg in 35 mL of methanol",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Form I was prepared by recrystallization of BXM in methanol. In particular, 500 mg of BXM was dissolved in 35 mL of methanol, the solution was ﬁltered, and slow cooling of the solution yielded Form I."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 25,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "week",
+    "circa": true
+   },
+   "rapporto_solido_solvente": "20 mg in 10 mL methanol",
+   "esito": "ottenuta",
+   "citazioni": [
+    "For crystal structure determination, good quality crystals of Form I were produced by dissolving 20 mg of BXM in 10 mL methanol. Slow evaporation at 25 ◦C produced block crystals after approximately 1 week."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli per la diffrazione (SCXRD)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "antisolvente",
+   "solventi": [
+    "acetonitrile",
+    "n-heptane"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 0,
+    "unita": "°C"
+   },
+   "rapporto_solido_solvente": "500 mg in 10 mL of acetonitrile; 15 mL of n-heptane",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Form II was prepared from acetonitrile solution of BXM by adding n-heptane as an antisolvent. In particular, 500 mg of BXM was dissolved in 10 mL of acetonitrile, and the resultant clear solution cooled to 0 ◦C; 15 mL of n-heptane was dropped over 10 min. The prepared mixture became cloudy and then ﬁltered."
+   ],
+   "fonte_dati": "propria",
+   "note": "n-heptane aggiunto goccia a goccia in 10 min alla soluzione in acetonitrile raffreddata a 0 °C."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile",
+    "n-heptane"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 25,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 10,
+    "unita": "day",
+    "circa": true
+   },
+   "rapporto_solido_solvente": "20 mg in a mixture of 3 mL acetonitrile and 7 mL n-heptane",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Crystals of Form II for crystal structure determination were produced by dissolving 20 mg of BXM in a mixture of 3 mL acetonitrile",
+    "and 7 mL n-heptane. Slow evaporation at 25 ◦C produced rod-like crystals after about 10 days."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli per la diffrazione (SCXRD). Il testo e' interrotto dall'intestazione di pagina fra «acetonitrile» e «and 7 mL n-heptane»."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 0,
+    "unita": "°C"
+   },
+   "rapporto_solido_solvente": "500 mg in 50 mL of ethyl acetate",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Form III was prepared by recrystallization of BXM in ethyl acetate. In particular, 500 mg of BXM was dissolved in 50 mL of ethyl acetate. The prepared solution was then stirred and quickly cooled to 0 ◦C. The obtained cloudy solution was ﬁltered."
+   ],
+   "fonte_dati": "propria",
+   "note": "Raffreddamento rapido sotto agitazione; «it was obtained only by stir precipitation»."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": false,
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "Unfortunately, slow crystallization in ethyl acetate does not result in Form III but in Form I."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristallizzazione lenta (modo non precisato) in acetato di etile: non da' Form III ma Form I."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "citazioni": [
+    "Unfortunately, slow crystallization in ethyl acetate does not result in Form III but in Form I."
+   ],
+   "fonte_dati": "propria",
+   "note": "Form I ottenuta per cristallizzazione lenta in acetato di etile (modo non precisato)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Baloxavir marboxil (purity > 99.5%, Form I) was supplied by Zhejiang Jingxin Pharmaceutical Co., Ltd. (Shaoxing, China) and was used without further puriﬁcation."
+   ],
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "solvente": null,
+     "grandezza": {
+      "valore": 21.2,
+      "unita": "µg/mL"
+     },
+     "metodo": "solubilita' di equilibrio; mezzo e temperatura non detti in questa frase (la sezione descrive la dissoluzione in pH 1.2 simulated gastric fluids a 37 °C)",
+     "calcolato": false,
+     "citazione": "The equilibrium solubility of Form I and II was 21.2 ± 0.2 and 29.4 ± 0.4 µg/mL, respectively."
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F2",
+     "solvente": null,
+     "grandezza": {
+      "valore": 29.4,
+      "unita": "µg/mL"
+     },
+     "metodo": "solubilita' di equilibrio; mezzo e temperatura non detti in questa frase",
+     "calcolato": false,
+     "citazione": "The equilibrium solubility of Form I and II was 21.2 ± 0.2 and 29.4 ± 0.4 µg/mL, respectively."
+    },
+    {
+     "tipo": "altro",
+     "forma": "F2",
+     "solvente": "pH 1.2 simulated gastric fluids",
+     "grandezza": {
+      "valore": 1.4,
+      "unita": "times (Smax rispetto a Form I)"
+     },
+     "metodo": "Smax dal profilo di dissoluzione in polvere a 37 °C (Figura 6)",
+     "calcolato": false,
+     "citazione": "The Smax values of II and III are 1.4 and 1.3 times as high as that of Form I."
+    },
+    {
+     "tipo": "altro",
+     "forma": "F3",
+     "solvente": "pH 1.2 simulated gastric fluids",
+     "grandezza": {
+      "valore": 1.3,
+      "unita": "times (Smax rispetto a Form I)"
+     },
+     "metodo": "Smax dal profilo di dissoluzione in polvere a 37 °C (Figura 6)",
+     "calcolato": false,
+     "citazione": "The Smax values of II and III are 1.4 and 1.3 times as high as that of Form I."
+    },
+    {
+     "tipo": "solubilita",
+     "solvente": "aqueous medium",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "insoluble in its crystalline form"
+     },
+     "metodo": "affermazione generale dell'introduzione (rif. [14])",
+     "calcolato": false,
+     "citazione": "However, BXM is insoluble in an aqueous medium in its crystalline form, and its poor solubility has limited its oral bioavailability [14]."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "homochiral: S-configuration at C10 and R-configuration at C15 (polarimetric data)",
+     "citazione": "Homochirality of the BMX molecules in both polymorphic forms had been determined from polarimetric data, all molecules having the S-conﬁguration at C10 and the R-conﬁguration at C15."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "the only difference between the conformations in Form I and II is the rotation of the methymethyl carbonate chain",
+     "citazione": "Overlaying the molecular conformations found in Form II with that of I shows that the only difference is the rotation of the methymethyl carbonate chain, while the other bonds overlay nicely (Figure 2d)."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "the formation of different solid forms is not due to changes in molecular conformation",
+     "citazione": "This result indicates that the formation of different solid forms is not due to changes in molecular conformation."
+    },
+    {
+     "tipo": "altro",
+     "testo": "no typical O-H or N-H donor, 10 hydrogen bond acceptors; packing governed by nonclassic hydrogen bonds",
+     "citazione": "Since the absence of a typical O-H or N-H donor but with 10 hydrogen bond acceptors in the BXM molecule, the formation of crystal packing arrangement for BXM is governed by a network of nonclassic hydrogen bonds."
+    }
+   ]
+  }
+ ]
+}
