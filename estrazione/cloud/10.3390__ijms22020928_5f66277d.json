@@ -1,0 +1,479 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/ijms22020928",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Due cocristalli di puerarin (PUE) con L-prolina (PRO): I = [PUE][PRO] (senza solvente) e II = [PUE]2[PRO]·EtOH·(H2O)2. Gli unici eventi sono le TGA-DSC (nessuna trasformazione solido-solido tra le due fasi, nessuna prova di dissoluzione con controllo del solido residuo): la solubilita' e la dissoluzione (Figura 7, Tabelle S2-S3) non danno eventi. Il PUE puro (pristine) e' solo il confronto per la solubilita', senza struttura ne' evento: non e' estratto come forma. Table 1 non da' la temperatura delle misure SCXRD. Incoerenze dell'articolo: i Risultati dicono che I e II hanno una solubilita' «nearly doubled» rispetto al PUE, le Conclusioni parlano di «marginal enhancement»; il titolo della sezione 2.3 dice «TAF, I and II» (TAF non compare altrove: residuo di un altro testo). Perdita di massa di II: 5.8% sperimentale contro 7.8% calcolato per 2 H2O + 1 EtOH; gli autori attribuiscono la differenza a una perdita parziale di solvato (soprattutto EtOH) «during sample preparation» («might»): ipotesi, non estratta come evento. Il segnale endotermico a 224 °C di I e' dato senza attribuzione (fusione o altro non detto).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "puerarin (PUE)"
+  },
+  {
+   "id": "C2",
+   "nome": "L-proline (PRO)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "I",
+   "etichette_alternative": [
+    "[PUE][PRO]",
+    "PUE-PRO co-crystal solvent-free form"
+   ],
+   "tipo": "cocristallo",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 10.2463,
+    "b": 7.8656,
+    "c": 15.452,
+    "alpha": 90,
+    "beta": 97.783,
+    "gamma": 90,
+    "V": 1233.86,
+    "Z": 2,
+    "fonte": "SCXRD"
+   },
+   "ccdc": "2041676",
+   "refcode": null,
+   "protonazione": "PRO zwitterionica: il protone del -COOH migra sul -NH (carbossilato deprotonato, ammina protonata)",
+   "motivi_hb": [
+    {
+     "motivo": "layered structure of PUE in the ab plane with 1D channels along b hosting PRO (rich hydrogen-bonding)",
+     "chi": "PUE molecules (layers) and PRO molecules (in channels)",
+     "citazione": "Compound I is rich hydrogen-bonding interactions (Supplementary Table S1), and as a result, the PUE molecules are arranged to give a layered structure within the crystallographic ab plane (Figure 2b), and these layers are further stacked along the c direction in such a way that one-dimensional channels along the b direction is generated to accommodate PRO molecules."
+    }
+   ],
+   "citazione": "Phase I crystallizes in the monoclinic space group P21 (Table 1) with its asymmetric unit featuring one PUE and one PRO molecules (Figure 2a).",
+   "note": "Cella, Z e gruppo dalla colonna I di Table 1 (a/Å 10.2463 (4), b 7.8656 (3), c 15.4520 (6), β 97.7830 (10)°, V 1233.86 (8) Å3, Z = 2); CCDC 2041676 (I) dalla sezione 3.3. Temperatura delle misure non detta. Formula C21H20O9·C5H9NO2."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "II",
+   "etichette_alternative": [
+    "[PUE]2[PRO]∙EtOH∙(H2O)2",
+    "solvated form"
+   ],
+   "tipo": [
+    "cocristallo",
+    "solvato",
+    "idrato"
+   ],
+   "ospite": [
+    {
+     "specie": "ethanol (EtOH)",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 2,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P1",
+   "cella": {
+    "a": 6.3123,
+    "b": 12.1389,
+    "c": 15.7274,
+    "alpha": 81.733,
+    "beta": 89.733,
+    "gamma": 87.487,
+    "V": 1191.43,
+    "Z": 1,
+    "fonte": "SCXRD"
+   },
+   "ccdc": "2041677",
+   "refcode": null,
+   "protonazione": "PRO zwitterionica come in I",
+   "motivi_hb": [
+    {
+     "motivo": "two PUE molecules head-to-tail arranged by hydrogen bonding",
+     "chi": "PUE-PUE",
+     "citazione": "The two PUE molecules are in a head-to-tail arrangement as supported by hydrogen-bonding."
+    },
+    {
+     "motivo": "EtOH associated with PRO via a single hydrogen bond",
+     "chi": "EtOH-PRO",
+     "citazione": "It is notable that EtOH is associated with PRO via a single hydrogen bond and can be readily extruded from the network without disturbing the overall structural integrity of II."
+    }
+   ],
+   "citazione": "Crystal structure analysis revealed that the solvated form of II belongs to the triclinic P1 space group (Table 1), and its asymmetric unit consists of two PUE, one PRO, one EtOH, and two aqua molecules (Figure 3a).",
+   "note": "Cella, Z e gruppo dalla colonna II di Table 1; CCDC 2041677 (II) dalla sezione 3.3. Stechiometria degli ospiti per unita' formula come scritta nella formula (EtOH 1, H2O 2 per [PUE]2[PRO]). Temperatura delle misure non detta. Strati di PUE nel piano ab con PRO, EtOH e H2O «sandwiched» fra gli strati (struttura a sandwich)."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_perdita_ospite",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "max": 224,
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen stream of 50 cm3 min−1",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The thermogravimetric analysis coupled with differential scanning calorimetry (TGA-DSC) reveals that I exhibit no obvious solvate loss until 224 °C (endothermic), followed by dramatic decomposition (Supplementary Figure S3a).",
+    "This strongly suggests that I crystallizes as a solvate-free form.",
+    "The TGA-DSC investigation was performed on a TA DSC Q100 differential filtering calorimeter (TA Instruments, New Castle, DE, USA) at the heating rate of 10 °C min−1 under a nitrogen stream of 50 cm3 min−1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: la TGA-DSC di I non mostra «obvious solvate loss until 224 °C»; gli autori ne concludono che I e' priva di solvato. Altri eventi termici di I prima di 224 °C non sono menzionati."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "min": 224,
+     "tipo": "intervallo",
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen stream of 50 cm3 min−1",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 224,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The thermogravimetric analysis coupled with differential scanning calorimetry (TGA-DSC) reveals that I exhibit no obvious solvate loss until 224 °C (endothermic), followed by dramatic decomposition (Supplementary Figure S3a).",
+    "The TGA-DSC investigation was performed on a TA DSC Q100 differential filtering calorimeter (TA Instruments, New Castle, DE, USA) at the heating rate of 10 °C min−1 under a nitrogen stream of 50 cm3 min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Dopo un evento endotermico a 224 °C (natura non attribuita dal testo) segue «dramatic decomposition» (Figura S3a). La T di inizio della decomposizione non e' data: scritto solo che segue i 224 °C."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "max": 150,
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen stream of 50 cm3 min−1",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ],
+    "perdita_massa": {
+     "valore": 5.8,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "EtOH associated with PRO via a single hydrogen bond",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "forma": "F2",
+     "citazione": "It is notable that EtOH is associated with PRO via a single hydrogen bond and can be readily extruded from the network without disturbing the overall structural integrity of II."
+    }
+   ],
+   "citazioni": [
+    "Meanwhile, the TGA-DSC curves of II show smooth and continuous solvate loss before 150 °C (Supplementary Figure S3b).",
+    "The total weight loss of 5.8% before 211 °C corresponds to the loss of two aqua and one EtOH molecules (calculated 7.8%), and the slight deviation might due to part of the solvate loss (mainly EtOH) during sample preparation.",
+    "It is notable that EtOH is associated with PRO via a single hydrogen bond and can be readily extruded from the network without disturbing the overall structural integrity of II.",
+    "The TGA-DSC investigation was performed on a TA DSC Q100 differential filtering calorimeter (TA Instruments, New Castle, DE, USA) at the heating rate of 10 °C min−1 under a nitrogen stream of 50 cm3 min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Perdita «smooth and continuous» del solvato prima di 150 °C; perdita totale 5.8% prima di 211 °C contro 7.8% calcolato per due H2O e una EtOH (la differenza e' attribuita, con «might», a una perdita parziale durante la preparazione del campione). Prodotto non caratterizzato (a: ignota). L'EtOH puo' essere estrusa «without disturbing the overall structural integrity of II» (commento strutturale degli autori, non una prova su un solido desolvatato)."
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 211,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen stream of 50 cm3 min−1",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Meanwhile, the TGA-DSC curves of II show smooth and continuous solvate loss before 150 °C (Supplementary Figure S3b).",
+    "This is followed by a plateau until 211 °C, at which point the PUE and PRO pair start to decompose.",
+    "The TGA-DSC investigation was performed on a TA DSC Q100 differential filtering calorimeter (TA Instruments, New Castle, DE, USA) at the heating rate of 10 °C min−1 under a nitrogen stream of 50 cm3 min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Dopo la perdita del solvato (E3) e un plateau fino a 211 °C, «the PUE and PRO pair start to decompose». La specie che decompone e' II gia' desolvatata; da e' la forma caricata (II). «start to decompose» letto come inizio (onset)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "EtOH/H2O (9:1, v/v)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 50,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h"
+   },
+   "rapporto_solido_solvente": "PUE (0.832 g, 2.0 mmol) and PRO (0.230 g, 2.0 mmol) in 0.6 mL of EtOH (90%)",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Both I and II were prepared as single crystals from equivalent molar of PUE and PRO in EtOH/H2O (9:1, v/v) under different precipitation temperatures.",
+    "The co-crystal was synthesized via the recrystallization method [50]. PUE (0.832 g, 2.0 mmol) and PRO (0.230 g, 2.0 mmol) were dissolved in 0.6 mL of EtOH (90%) and the solution was stirred at 90 °C for 30 min and then cooled to 50°C. The plate-shaped colorless crystals of I were formed after 24 h."
+   ],
+   "fonte_dati": "propria",
+   "note": "Dissoluzione a 90 °C per 30 min, poi raffreddamento a 50 °C: cristalli a lastra incolori di I dopo 24 h. «EtOH (90%)» nei metodi, «EtOH/H2O (9:1, v/v)» nei risultati."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "EtOH/H2O (9:1, v/v)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "day"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Both I and II were prepared as single crystals from equivalent molar of PUE and PRO in EtOH/H2O (9:1, v/v) under different precipitation temperatures.",
+    "The same amount of PUE and PRO were stirred at 50°C followed by cooling to room temperature yielded colorless fine needle crystals of II after two days."
+   ],
+   "fonte_dati": "propria",
+   "note": "Stessa quantita' di PUE e PRO di I, agitate a 50 °C e poi raffreddate a temperatura ambiente: aghi fini incolori di II dopo due giorni. Il solvente e' dedotto da «Both I and II were prepared ... in EtOH/H2O (9:1, v/v)»."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "solvente": "water (pH 7.0), gastrointestinal tract at pH 1.2, phosphate buffer at pH 6.8",
+     "pH": {
+      "valore": null,
+      "unita": null,
+      "valori": [
+       1.2,
+       6.8,
+       7.0
+      ]
+     },
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "nearly doubled increase compared to pristine PUE"
+     },
+     "metodo": "solubilita' e dissoluzione in tre mezzi (Figura 7, Tabelle S2-S3 nel supplementare); i valori numerici non sono nel testo",
+     "calcolato": false,
+     "citazione": "As compared to those of the pristine PUE, the solubility and dissolution rates of I and II in water (pH 7.0), gastrointestinal tract at pH 1.2, and phosphate buffer at pH 6.8 indicated a nearly doubled increase."
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F2",
+     "solvente": "water (pH 7.0), gastrointestinal tract at pH 1.2, phosphate buffer at pH 6.8",
+     "pH": {
+      "valore": null,
+      "unita": null,
+      "valori": [
+       1.2,
+       6.8,
+       7.0
+      ]
+     },
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "nearly doubled increase compared to pristine PUE"
+     },
+     "metodo": "solubilita' e dissoluzione in tre mezzi (Figura 7, Tabelle S2-S3 nel supplementare); i valori numerici non sono nel testo",
+     "calcolato": false,
+     "citazione": "As compared to those of the pristine PUE, the solubility and dissolution rates of I and II in water (pH 7.0), gastrointestinal tract at pH 1.2, and phosphate buffer at pH 6.8 indicated a nearly doubled increase."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "dissolution rate order II > I > PUE"
+     },
+     "metodo": "velocita' di dissoluzione nei tre mezzi",
+     "calcolato": false,
+     "citazione": "Thus, the increase of dissolution can be observed in the order II > I > PUE, and the solubility and dissolution of PUE were successfully improved via co-crystallization with PRO."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "BCS class IV (low solubility and limited intestinal permeability)"
+     },
+     "metodo": "classificazione riportata (rif. 28)",
+     "calcolato": false,
+     "citazione": "According to the biopharmaceutics classification system (BCS), PUE can be categorized as IV class due to its low solubility and limited intestinal permeability [28]."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 7,
+      "unita": "%",
+      "circa": true,
+      "testo": "oral bioavailability only about 7%"
+     },
+     "metodo": "biodisponibilita' orale riportata (rif. 32-35)",
+     "calcolato": false,
+     "citazione": "Specifically for PUE, the oral bioavailability is only about 7% [32,33,34,35], and the dominant drug uptake at present is through intravenous injection."
+    }
+   ],
+   "descrizioni": []
+  },
+  {
+   "composto": "C2",
+   "proprieta": [],
+   "descrizioni": [
+    {
+     "tipo": "zwitterione",
+     "forma": "F1",
+     "testo": "carboxylate deprotonated and proton migrated to the –NH– (quaternary amine–carboxylate zwitterionic pair) in I",
+     "citazione": "Notably, the FT-IR spectra for both I and II feature no peak at around 1700 cm−1, indicating that the carboxylate remains deprotonated and the proton migrates to the –NH– to give a quaternary amine–carboxylate zwitterionic pair [41], as typically found in proline-based compounds [42,43]."
+    },
+    {
+     "tipo": "zwitterione",
+     "forma": "F1",
+     "testo": "in I the two C–O distances of PRO are nearly identical (1.249(3) Å and 1.255(3) Å): conjugated, uncoordinated carboxylate; the proton on the –COOH migrates to the –NH to give a zwitterion",
+     "citazione": "In the PRO moiety of I, the two C–O distances are nearly identical (1.249(3) Å and 1.255(3) Å), indicating that the carboxylate is in a conjugated and uncoordinated fashion, and the proton on the –COOH migrates to the –NH to give a zwitterion, corroborating that observed in the FT-IR spectrum."
+    },
+    {
+     "tipo": "zwitterione",
+     "forma": "F2",
+     "testo": "the PRO moiety remains in its zwitterionic form in II, similar to I",
+     "citazione": "In II, the PRO moiety also remains in its zwitterionic form similar to that identified in I."
+    },
+    {
+     "tipo": "chiralita",
+     "testo": "L-proline (L enantiomer)",
+     "citazione": "Puerarin (PUE) and L-Proline (PRO) were respectively purchased from J&K Scientific Ltd (Beijing, China) and Aladdin (Shanghai, China)."
+    }
+   ]
+  }
+ ]
+}
