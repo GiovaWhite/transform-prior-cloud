@@ -1,0 +1,876 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/cryst10080667",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "1,2-bis[(1-methyl-1H-imidazole-2-yl)thio]ethane",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "hydrochloric acid",
+   "nome_scritto": "dihydrochloride",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "2a",
+   "etichette_alternative": [
+    "anhydrous 2a"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "ccdc": "2013658",
+   "cella": {
+    "a": 4.7035,
+    "b": 12.3772,
+    "c": 10.3316,
+    "alpha": 90,
+    "beta": 92.772,
+    "gamma": 90,
+    "V": 600.76,
+    "Z": 2,
+    "Z_primo": 0.5,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "citazione": "Anhydrous 2a crystallizes in the monoclinic P21/c space group.",
+   "note": "CCDC 2013658 attribuito a 2a nel testo e in Tabella 2. Dati raccolti a 150 K. Z' = 1/2: 'the ethane moiety lied at the centre of symmetry, and thus only half of the molecule was in the asymmetric unit'. Nessun legame idrogeno: 'There are no hydrogen bounds in the structure of 2a, only van der Waals forces connect the molecules'. Punto di fusione (DSC, onset) 89 °C (lit: 88–90 °C, rif. 5)."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "2b",
+   "etichette_alternative": [
+    "dihydrochloride tetrahydrate"
+   ],
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 4,
+    "riferito_a": "unita_formula"
+   },
+   "protonazione": "both imidazole groups protonated (N2)",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "ccdc": "2013659",
+   "cella": {
+    "a": 11.1667,
+    "b": 7.7629,
+    "c": 11.897,
+    "alpha": 90,
+    "beta": 109.637,
+    "gamma": 90,
+    "V": 971.32,
+    "Z": 2,
+    "Z_primo": 0.5,
+    "fonte": "SCXRD",
+    "condizioni": "292 K"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "N2–H···Cl and water···Cl hydrogen bonds, 3D network",
+     "chi": "protonated imidazole N2, chloride anions and two water molecules",
+     "citazione": "Each chloride anion was a hydrogen bond acceptor from the protonated imidazole nitrogen atom N2 and two water molecules"
+    }
+   ],
+   "citazione": "primarily isolated in the form of dihydrochloride tetrahydrate [C10H16N4S2]Cl2·4(H2O) (2b), which crystallized in the monoclinic P21/c space group",
+   "note": "Sale dicloridrato (il controione e' scritto 'dihydrochloride'/'chloride': acido cloridrico, 2 per molecola) con 4 acque per unita' formula. Cristalli a lamelle incolori. T 292 K, che il testo chiama temperatura ambiente ('collected at room temperature'). CCDC 2013659. La perdita di massa TGA di 3.8% e il cloruro al 18% sono presentati come prova del tetraidrato, ma 3.8% non e' la perdita attesa per quattro acque: il testo non lo commenta e non dice l'intervallo di T della TGA."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "2c",
+   "etichette_alternative": [
+    "dihydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "trigonale",
+   "gruppo_spaziale": "R-3",
+   "ccdc": "2013660",
+   "cella": {
+    "a": 19.3142,
+    "b": 19.3142,
+    "c": 10.3283,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 180,
+    "V": 3336.75,
+    "Z": 9,
+    "Z_primo": 0.5,
+    "fonte": "SCXRD",
+    "condizioni": "292 K"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R66(12) water hexamer (chair)",
+     "chi": "six water molecules hydrogen bonded to each other",
+     "citazione": "Six water molecules were mutually interconnected by hydrogen bonds, forming a hexagon in the chair conformation"
+    },
+    {
+     "motivo": "water acceptor from N2 and C4, 3D network",
+     "chi": "water – imidazole N2 and C4",
+     "citazione": "The water molecule was an acceptor of a hydrogen bond from N2 and a weak one from C4, thus forming a 3D network"
+    }
+   ],
+   "citazione": "Neutralization of 2b, followed by crystallization from the acetone/water mixture, produced dihydrate C10H14N4S2·2(H2O) (2c), which crystallized in the trigonal R-3 space group.",
+   "note": "CCDC 2013660. Tabella 2 scrive gamma = 180°: il volume riportato (3336.75 Å3) torna con gamma = 120° (a²·c·sin γ = 3336.67), quindi 180 e' un refuso della tabella; il valore e' riportato come scritto. Gruppo scritto 'R–3' in tabella e 'R -3' nel testo, 'R-3' nell'abstract. T 292 K ('room temperature'). Sei molecole d'acqua legate fra loro e agli N di sei molecole di 2a (abstract)."
+  },
+  {
+   "id": "F4",
+   "etichetta": "[miscela di 2c e 2a]",
+   "tipo": "miscela",
+   "ospite": null,
+   "forme_componenti": [
+    "F3",
+    "F1"
+   ],
+   "citazione": "the obtained product was a mixture of the dihydrate 2c and the anhydrous form 2a",
+   "note": "Miscela di diidrato e anidro ottenuta sia per disidratazione parziale sotto pressione ridotta (30 min) sia per ricristallizzazione del fuso scaldato a 95 °C: gli autori le dicono identiche."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "F4",
+   "esito": "parziale",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 55,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 200,
+     "unita": "mbar",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 30,
+     "unita": "min",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ],
+    "integrita": "opaco"
+   },
+   "citazioni": [
+    "The dihydrate 2c was heated below the melting point, at around 55 °C and at reduced pressure of 200 mbar to a constant mass.",
+    "A significant rate of the dehydration process was detected after 30 min by the formation of opaque crystals.",
+    "DSC measurement of the selected samples showed, after 30 min, endothermic events belonging to the melting of 2c and 2a, indicating the coexistence of both forms in the sample (Figure 6, iii)",
+    "(iii) product after heating 2c at 55 °C/200 mbar for 30 min"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dopo 30 min la DSC mostra gli endotermi di fusione di 2c e di 2a: coesistono le due forme (disidratazione in corso). Cristalli opachi. Stesso esperimento di E2 campionato a 30 min."
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 55,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 200,
+     "unita": "mbar",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 60,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD",
+     "microscopia"
+    ],
+    "cinetica": "velocita' significativa dopo 30 min (cristalli opachi), completata dopo 60 min; il solido non fonde ('without the appearance of a liquid or melt phase')"
+   },
+   "citazioni": [
+    "The dihydrate 2c was heated below the melting point, at around 55 °C and at reduced pressure of 200 mbar to a constant mass.",
+    "The process was completed after 60 min.",
+    "and finally, after 60 min, only a single endothermic event at 90 °C, belonging to the melting of the anhydrous form 2a (Figure 6, iv).",
+    "Finally, the XRPD powder pattern of the dried sample was different from the powder pattern of dihydrate 2c and identical to the calculated powder pattern of anhydrous 2a prepared by crystallization (Figure 7), confirming that 2a is also the final product of dihydrate 2c dehydration.",
+    "Dehydration of 2c in vacuo favours rapid water removal below the melting point, without the appearance of a liquid or melt phase.",
+    "Removal of water molecules from 2c under these conditions resulted in the solid-solid rearrangement of the molecules in the crystal lattice, leading to anhydrous 2a.",
+    "Dihydrate 2c (100 mg) was dried under reduced pressure of 200 mbar at 55 °C for 60 min and anhydrous form 2a (71 mg, 81%) was obtained."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "massa": "100 mg"
+   },
+   "note": "Essiccamento sotto vuoto a 55 °C, sotto il punto di fusione di 2c (65 °C): riarrangiamento solido-solido del reticolo, struttura cristallina diversa e diffrattogramma di polvere diverso (tipo (a) della classificazione citata). Il prodotto ha un solo endotermo a 90 °C (fusione di 2a) e un XRPD identico a quello calcolato per 2a ottenuta per cristallizzazione. 'Unfortunately, no sign of recrystallization was detected'. Resa 71 mg (81%) di 2a dal metodo B. Il riscaldamento e' condotto 'to a constant mass'."
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 40,
+     "max": 110,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 11.31,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "The TGA thermogram of 2c showed a single thermal event in the range 40–110 °C with a mass loss of 11.31%, corresponding to the loss of two water molecules.",
+    "TGA (i) and DSC (ii) analysis of dihydrate 2c in perforated crucibles under a heating rate of 10 °C/min and N2 purge.",
+    "Finally, we can conclude that the dehydration at both conditions, i.e., under reduced and atmospheric pressure, proceeds to the anhydrous form 2a",
+    "No intermediate monohydrate or hemihydrate phases were detected."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "esito_dettaglio": "senza_intermedio",
+   "conflitto": "L'abstract scrive 'DSC and TGA showed that 2c melts at 65 °C and loses water up to 120 °C'; i risultati scrivono un solo evento TGA fra 40 e 110 °C. Si tiene l'intervallo dei risultati. Per il crogiolo della TGA la parte sperimentale scrive 'pre-tared alumina crucible', la didascalia della Fig. 8 'perforated crucibles': si tiene la didascalia, piu' specifica.",
+   "note": "Perdita di 11.31% = due molecole d'acqua. Il prodotto non e' caratterizzato dalla TGA: e' identificato con 2a dalla conclusione 'the dehydration at both conditions ... proceeds to the anhydrous form 2a' e da E7. Nessun monoidrato o emiidrato intermedio ('No intermediate monohydrate or hemihydrate phases were detected'). Lo stesso evento TGA coincide con la fusione di 2c (E4)."
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 65,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "This was in agreement with the DSC thermogram showing only a sharp endothermic event with an onset at 65 °C, corresponding to the melting of 2c.",
+    "Additional exothermic processes of recrystallization and endothermic of melting were not detected (Figure 8).",
+    "TGA (i) and DSC (ii) analysis of dihydrate 2c in perforated crucibles under a heating rate of 10 °C/min and N2 purge.",
+    "mp. (DSC, onset): 65 °C"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Fusione di 2c con onset 65 °C (anche nella sintesi: 'mp. (DSC, onset): 65 °C'); nello stesso intervallo la TGA registra la perdita d'acqua (E3)."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 40,
+     "fine": 65,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The changes upon dehydration of 2c were monitored by the combination of hot stage microscopy (HSM) with DSC at a heating/cooling rate of 10 °C/min (Figure 9).",
+    "Melting started at 40 °C until completed at around 65 °C (step i).",
+    "Selected DSC thermograms and HSM micrographs of dihydrate 2c, recorded using a heating/cooling rate of 10 °C/min with perforated DSC crucibles"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Microscopia a piastra calda abbinata alla DSC (Fig. 9, passo i): la fusione comincia a 40 °C e termina a circa 65 °C. La DSC da sola da' onset 65 °C (E4): temperature diverse, un evento per tecnica."
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "amorfo",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato",
+     "testo": "immediately after the melting point"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "tempo": {
+     "testo": "prolonged standing",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The changes upon dehydration of 2c were monitored by the combination of hot stage microscopy (HSM) with DSC at a heating/cooling rate of 10 °C/min (Figure 9).",
+    "Immediately after the melting point, the melt of 2c was cooled to room temperature, resulting in a glassy product, and no further crystallisation was observed",
+    "after prolonged standing."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Fuso raffreddato subito dopo la fusione: prodotto vetroso che non cristallizza nemmeno dopo 'prolonged standing'. 10 °C/min e' il 'heating/cooling rate' della HSM-DSC."
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The changes upon dehydration of 2c were monitored by the combination of hot stage microscopy (HSM) with DSC at a heating/cooling rate of 10 °C/min (Figure 9).",
+    "However, if 2c was heated to 80 °C and immersed in oil during the HSM experiment, followed by cooling, recrystallization of the dihydrate 2c was observed due to the conditions that inhibited efficient water removal."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "mezzo": "oil"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Con il campione immerso in olio (sistema chiuso, niente allontanamento dell'acqua) 2c scaldata a 80 °C e raffreddata ricristallizza come diidrato 2c: la disidratazione a 2a non avviene. Il testo non dice se 2c fonda a 80 °C; l'esito osservato e' la 'recrystallization of the dihydrate 2c'."
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 95,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The changes upon dehydration of 2c were monitored by the combination of hot stage microscopy (HSM) with DSC at a heating/cooling rate of 10 °C/min (Figure 9).",
+    "However, if the sample was heated over melting, up to 95 °C, in an open pan followed by cooling to room temperature, spontaneous crystallisation occurred, and according to XRPD, the obtained product was a mixture of the dihydrate 2c and the anhydrous form 2a.",
+    "When a sample of melted 2c was only heated to 95 °C, concomitant crystallization of 2a and 2c was observed, and this was identical to the partial dehydration of 2c after 30 min under reduced pressure."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Fuso scaldato solo fino a 95 °C in crogiolo aperto: cristallizzazione concomitante di 2a e 2c, identica secondo gli autori alla disidratazione parziale di E1."
+  },
+  {
+   "id": "E9",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 120,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "tempo": {
+     "testo": "prolonged standing",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "DSC",
+     "PXRD"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita",
+     "via_fuso"
+    ]
+   },
+   "citazioni": [
+    "The changes upon dehydration of 2c were monitored by the combination of hot stage microscopy (HSM) with DSC at a heating/cooling rate of 10 °C/min (Figure 9).",
+    "In contrast, when the melt of 2c was heated to 120 °C and cooled to room temperature, according to the XRPD slow nucleation and growth process of the anhydrous form 2a occurred after prolonged standing indicating complete dehydration (step ii).",
+    "On the contrary, crystallization of 2a from the melt of dihydrate 2c under atmospheric pressure only occurred when all the residual water was removed from the sample (at 120 °C).",
+    "However, no additional exothermic and endothermic events or changes in XRPD, which could indicate the formation of potential intermediary monohydrate or hemihydrate phases, were observed.",
+    "Finally, we can conclude that the dehydration at both conditions, i.e., under reduced and atmospheric pressure, proceeds to the anhydrous form 2a",
+    "Selected DSC thermograms and HSM micrographs of dihydrate 2c, recorded using a heating/cooling rate of 10 °C/min with perforated DSC crucibles"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "esito_dettaglio": "senza_intermedio",
+   "note": "Disidratazione a pressione atmosferica attraverso il fuso: l'acqua residua esce a 120 °C e 2a cristallizza lentamente dal fuso raffreddato. Nessun evento DSC o cambio XRPD che indichi un monoidrato o un emiidrato intermedio."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 89,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "mp. (DSC, onset): 89 °C (lit: 88–90 °C, [5])",
+    "Thermal analysis was performed using a Mettler DSC 1 instrument (Mettler Toledo, Greifensee, Swizerland) in aluminium pans with a pierced lid at a heating rate of 10 °C/min under the inert nitrogen atmosphere with a flow rate of 55 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Punto di fusione di 2a ottenuta per cristallizzazione, onset 89 °C; letteratura 88–90 °C (rif. 5), non estratta come dato a parte."
+  },
+  {
+   "id": "E11",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 89,
+     "fine": 90,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In the re-run the sample melting started at 89 °C until completed at around 90 °C (step iii), i.e., at the melting point of the anhydrous form 2a.",
+    "Selected DSC thermograms and HSM micrographs of dihydrate 2c, recorded using a heating/cooling rate of 10 °C/min with perforated DSC crucibles"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "da_evento": "E9",
+   "note": "Fusione di 2a ricristallizzata dal fuso di 2c scaldato a 120 °C (E9), HSM-DSC (Fig. 9, passo iii)."
+  },
+  {
+   "id": "E12",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 35,
+     "max": 70,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 3.8,
+     "unita": "%"
+    }
+   },
+   "citazioni": [
+    "However, DSC showed an endothermic loss of volatile solvents between 35 and 70 °C.",
+    "In addition, mass loss by TGA of 3.8% and chloride content of 18%, determined by ionic chromatography, indicated that",
+    "Thermal analysis was performed using a Mettler DSC 1 instrument (Mettler Toledo, Greifensee, Swizerland) in aluminium pans with a pierced lid at a heating rate of 10 °C/min under the inert nitrogen atmosphere with a flow rate of 55 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Endotermo di perdita di solventi volatili fra 35 e 70 °C nella DSC di 2b. La perdita TGA di 3.8% non ha un intervallo di T nel testo e non e' coerente con quattro acque (circa 18% dalla formula di Tabella 2): il testo non lo commenta. Il prodotto non e' caratterizzato (a = ignota). La velocita' di 10 °C/min e' quella generale dell'analisi termica."
+  },
+  {
+   "id": "E13",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 208,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Melting point (DSC, onset): 208 °C",
+    "Thermal analysis was performed using a Mettler DSC 1 instrument (Mettler Toledo, Greifensee, Swizerland) in aluminium pans with a pierced lid at a heating rate of 10 °C/min under the inert nitrogen atmosphere with a flow rate of 55 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Punto di fusione (onset) del dicloridrato tetraidrato 2b, riportato nelle due preparazioni (metodo A e B)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "1,2-dichloroethane"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 15,
+    "unita": "day"
+   },
+   "atmosfera": "dark; humidity non-controlled environment",
+   "rapporto_solido_solvente": "100 mg of methimazole in 10 mL",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Methimazole (100 mg, 0.87 mmol) was dissolved in 10 mL of 1,2-dichloroethane.",
+    "The solution was left without stirring for 15 days in the dark at room temperature in a humidity non-controlled environment."
+   ],
+   "fonte_dati": "propria",
+   "note": "2b precipita dalla soluzione di metimazolo in 1,2-dicloroetano per S-alchilazione spontanea ('spontaneous S-bis alkylation'): cristallizzazione dal mezzo di reazione. Resa 31%."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "1,2-dichloroethane"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 15,
+    "unita": "day"
+   },
+   "atmosfera": "daylight; humidity non-controlled environment",
+   "rapporto_solido_solvente": "100 mg of methimazole in 10 mL",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Methimazole (100 mg, 0.87 mmol) was dissolved in 10 mL of 1,2-dichloroethane.",
+    "The solution was left without stirring for 15 days in daylight and room temperature in a humidity non-controlled environment."
+   ],
+   "fonte_dati": "propria",
+   "note": "Come il metodo A ma alla luce del giorno: stesso prodotto 2b (resa 30%, stesso XRPD). In diclorometano il metimazolo non cambia (TLC)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "dichloromethane"
+   ],
+   "atmosfera": "dry; low humidity conditions",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Recrystallization of dry crude 2a from dry dichloromethane under low humidity conditions gave pure anhydrous 2a.",
+    "After several attempts, we obtained good quality, single crystals by crystallisation from dry dichloromethane at dry conditions (see experimental section)"
+   ],
+   "fonte_dati": "propria",
+   "note": "Da 2b neutralizzato (Na2CO3 1M a pH 7.0), estratto con diclorometano ed evaporato a secco: 2a grezzo; ricristallizzato da diclorometano secco con umidita' bassa. La stessa procedura da' i cristalli singoli."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E2",
+   "solventi": [],
+   "temperatura": {
+    "valore": 55,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "pressione": {
+    "valore": 200,
+    "unita": "mbar",
+    "tipo": "applicata"
+   },
+   "tempo": {
+    "valore": 60,
+    "unita": "min",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Dihydrate 2c (100 mg) was dried under reduced pressure of 200 mbar at 55 °C for 60 min and anhydrous form 2a (71 mg, 81%) was obtained."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "acetone/water (1:1)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Crude 2a obtained by neutralization of dihydrochloride tetrahydrate 2b (160 mg) was dissolved in an acetone/water mixture (1:1). After prolonged standing of the solution without stirring at room temperature, crystals of the pure dihydrate form 2c (133 mg, 73%) were obtained."
+   ],
+   "fonte_dati": "propria",
+   "note": "Da 2a grezzo (da 2b neutralizzato). Il testo scrive 'prolonged standing' senza dire se l'evaporazione sia permessa. Resa 73% (78% nei risultati)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "acetone/water (1:1)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Pure anhydrous form 2a (300 mg) was dissolved in an acetone/water mixture (1:1). After prolonged standing of the solution without stirring at room temperature, pure crystals of the dihydrate form 2c (238 mg, 70%) were obtained.",
+    "The same product was obtained by the crystallization of pure 2a from the acetone/water (1/1) mixture."
+   ],
+   "fonte_dati": "propria",
+   "note": "Da 2a pura anidra: la cristallizzazione da acetone/acqua riporta al diidrato."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "rotation of the imidazole group about the S–C1 bond; torsion C5–S–C1–N1 = −173.8(2)° (2a), −113.4(2)° (2b), 151.8(2)° (2c)",
+     "citazione": "about the S-C1 bond resulting in different C5-S-C1-N1 torsion angles"
+    },
+    {
+     "tipo": "altro",
+     "testo": "imidazole groups protonated in 2b (dication)",
+     "citazione": "The imidazole groups were protonated in 2b."
+    }
+   ]
+  }
+ ],
+ "note": "Il metimazolo (1-methyl-1,3-dihydro-1H-imidazole-2-thione) e' solo il reagente: la S-alchilazione spontanea con 1,2-dicloroetano e' una reazione in soluzione (TLC, 15 giorni) e non un cambio di forma; in diclorometano non si osserva nessun cambiamento del metimazolo (TLC). Tre numeri CCDC (2013658, 2013659, 2013660) attribuiti alle tre forme in Tabella 2 e nel testo. Classificazione citata per la disidratazione degli idrati: l'articolo colloca 2c nel tipo (a) 'crystal structure changes (different powder pattern) after dehydration'. Il confronto con altri sistemi (lisinopril diidrato, ondansetron cloridrato diidrato, azitromicina) e' solo di discussione: nessun dato. HSM: campione su vetrino, 100x, 10 °C/min; XRPD a temperatura ambiente. Fig. 9: i passi i, ii e iii sono riscaldamento fino a 120 °C, raffreddamento e riscaldamento di 2a ricristallizzata."
+}
