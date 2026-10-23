@@ -1,0 +1,964 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1248/cpb.51.807",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "5-[4-(6-hydroxy-2,5,7,8-tetramethylchroman-2-ylmethoxy)benzyl]-2,4-dioxothiazolidine (troglitazone)",
+   "nome_scritto": "(6)-5-[4-(6-hydroxy-2,5,7,8-tetramethylchroman-2-ylmethoxy)benzyl]-2,4-dioxothiazolidine",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "troglitazone H-pair (2R-5S/2S-5R diastereomer pair)",
+   "analogo_di": "C1",
+   "smiles": null
+  },
+  {
+   "id": "C3",
+   "nome": "troglitazone L-pair (2R-5R/2S-5S diastereomer pair)",
+   "analogo_di": "C1",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C2",
+   "etichetta": "H0-form",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 16.3582,
+    "b": 11.6077,
+    "c": 11.5399,
+    "beta": 93.873,
+    "V": 2186.2,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "T_scritta": "250 °C",
+    "T_probabile": "-50 °C"
+   },
+   "citazione": "On the other hand, only an anhydrate crystal of the 2R-5S/2S-5R pair was crystallized from various solutions (H0-form).",
+   "note": "Anidro della coppia H (2R-5S/2S-5R). La temperatura di misura e' scritta '250 °C' (Tabella 2): il PDF ha reso il segno meno come cifra '2' (i codici di simmetria della Tabella 3 usano '2' per '−' e '1' per '+', e '23.5' compare corretto), quindi la lettura probabile e' −50 °C. La struttura era gia' nota a 23.5 °C (rif. 18) ed e' stata rideterminata qui. Le cristallizzazioni da solventi diversi danno sempre la stessa forma, senza solvente."
+  },
+  {
+   "id": "F2",
+   "composto": "C3",
+   "etichetta": "L1-form",
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1–",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 9.565,
+    "b": 14.708,
+    "c": 16.511,
+    "alpha": 98.75,
+    "beta": 85.26,
+    "gamma": 92.82,
+    "V": 2286,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "T_scritta": "2105",
+    "T_probabile": "-105 °C"
+   },
+   "citazione": "The monohydrate crystals were obtained from aqueous acetone solution (L1-form).",
+   "note": "Monoidrato della coppia L (2R-5R/2S-5S): 1 molecola d'acqua per troglitazone (analisi elementare: acqua trovata 3.5%, calcolata 3.9%; la piccola differenza e' attribuita a una lieve perdita d'acqua nell'essiccamento). Struttura gia' riportata (rif. 19), dati in Tabella 4 con T scritta '2105': per lo stesso meccanismo del PDF la lettura probabile e' −105 °C. Gruppo scritto 'P1–' con sistema triclino, Z = 4 e due molecole nell'unita' asimmetrica ('two L-pair troglitazone molecules in an asymmetric unit of the P1– cell'): con Z = 4 le due molecole indipendenti implicano le due posizioni generali di P-1; il simbolo e' stato quindi ricostruito come P-1 (la barra e' andata persa)."
+  },
+  {
+   "id": "F3",
+   "composto": "C3",
+   "etichetta": "L1/2-form (methanol)",
+   "etichette_alternative": [
+    "methanolate",
+    "1/2 MeOH solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 0.5,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1–",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 9.7,
+    "b": 14.63,
+    "c": 16.51,
+    "alpha": 98.15,
+    "beta": 85.6,
+    "gamma": 92.0,
+    "V": 2313,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "23.5 °C"
+   },
+   "citazione": "The ratio of solvent and troglitazone was 1 : 2 (L1/2-form).",
+   "note": "Etichetta dell'articolo 'L1/2-form' per quattro solvati diversi (metanolo, etanolo, acetonitrile, diclorometano): una forma per solvente. Tutte e quattro sono dette isomorfe fra loro e con L1 ('all the L-pair crystals are isomorphous'). Cella da Tabella 4 (MoKa, 23.5 °C). Gruppo ricostruito come per L1-form."
+  },
+  {
+   "id": "F4",
+   "composto": "C3",
+   "etichetta": "L1/2-form (ethanol)",
+   "etichette_alternative": [
+    "ethanolate",
+    "1/2 EtOH solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "ethanol",
+    "stechiometria": 0.5,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1–",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 9.931,
+    "b": 14.645,
+    "c": 16.6,
+    "alpha": 97.06,
+    "beta": 86.72,
+    "gamma": 91.2,
+    "V": 2391,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "23.5 °C"
+   },
+   "citazione": "The ratio of solvent and troglitazone was 1 : 2 (L1/2-form).",
+   "note": "Etichetta dell'articolo 'L1/2-form' per quattro solvati diversi (metanolo, etanolo, acetonitrile, diclorometano): una forma per solvente. Tutte e quattro sono dette isomorfe fra loro e con L1 ('all the L-pair crystals are isomorphous'). Cella da Tabella 4 (MoKa, 23.5 °C). Gruppo ricostruito come per L1-form."
+  },
+  {
+   "id": "F5",
+   "composto": "C3",
+   "etichetta": "L1/2-form (acetonitrile)",
+   "etichette_alternative": [
+    "acetonitrilate",
+    "1/2 MeCN solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 0.5,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1–",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 9.706,
+    "b": 14.826,
+    "c": 16.565,
+    "alpha": 97.17,
+    "beta": 87.0,
+    "gamma": 92.78,
+    "V": 2359.6,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "23.5 °C"
+   },
+   "citazione": "The ratio of solvent and troglitazone was 1 : 2 (L1/2-form).",
+   "note": "Etichetta dell'articolo 'L1/2-form' per quattro solvati diversi (metanolo, etanolo, acetonitrile, diclorometano): una forma per solvente. Tutte e quattro sono dette isomorfe fra loro e con L1 ('all the L-pair crystals are isomorphous'). Cella da Tabella 4 (CuKa, 23.5 °C); e' il solvato mostrato in Fig. 10. Gruppo ricostruito come per L1-form."
+  },
+  {
+   "id": "F6",
+   "composto": "C3",
+   "etichetta": "L1/2-form (dichloromethane)",
+   "etichette_alternative": [
+    "dichloromethanoate",
+    "1/2 CH2Cl2 solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dichloromethane",
+    "stechiometria": 0.5,
+    "riferito_a": "molecola"
+   },
+   "citazione": "The ratio of solvent and troglitazone was 1 : 2 (L1/2-form).",
+   "note": "Etichetta dell'articolo 'L1/2-form' per quattro solvati diversi (metanolo, etanolo, acetonitrile, diclorometano): una forma per solvente. Tutte e quattro sono dette isomorfe fra loro e con L1 ('all the L-pair crystals are isomorphous'). Nessun dato di cella: decomposto troppo in fretta per la raccolta dei dati (vedi E8)."
+  },
+  {
+   "id": "F7",
+   "etichetta": "MA2-form",
+   "tipo": [
+    "soluzione_solida",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 64
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 36
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 17.338,
+    "b": 11.7667,
+    "c": 11.5835,
+    "beta": 94.028,
+    "V": 2357.3,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "T_scritta": "250 °C",
+    "T_probabile": "-50 °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "molecular chain connected through water molecules",
+     "chi": "troglitazone - water",
+     "citazione": "Two water molecules of the MA2-form occur between the molecules and form hydrogen bonds with both sides of the molecules. The molecules are connected as a straight chain."
+    }
+   ],
+   "citazione": "The dihydrous mixed crystal (MA2-form) was obtained from a mixture of the two diastereomer pairs of 2R-5R/2S-5S and 2R-5S/2S-5R in equal amounts by the slow evaporation of aqueous acetone solution.",
+   "note": "Cristallo misto disordinato di coppia H e coppia L con rapporto 64 : 36 dalle occupanze degli atomi dell'anello tiazolidinico e del benzile ('the MA0- and MA2-forms have the H- and L-pairs in the ratios of 67 : 33 and 64 : 36, respectively'): la stechiometria e' quel rapporto percentuale, non una stechiometria intera. Diidrato: formula C24H27O5NS·2H2O, 2 acque per molecola (2 molecole d'acqua fra le molecole, catena lineare). Struttura gia' riportata a 23.5 °C (rif. 14), rideterminata qui alla T scritta '250 °C' (lettura probabile −50 °C, vedi H0-form). Simile a H0-form dalla struttura. Cristalli: lamelle incolori."
+  },
+  {
+   "id": "F8",
+   "etichetta": "MA0-form",
+   "etichette_alternative": [
+    "dehydrated form",
+    "dehydrate form"
+   ],
+   "tipo": "soluzione_solida",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 67
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 33
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 16.236,
+    "b": 11.5989,
+    "c": 11.7672,
+    "beta": 93.481,
+    "V": 2211.9,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "T_scritta": "250 °C",
+    "T_probabile": "-50 °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "N3–H3…O30 and O30–H30…O6 hydrogen bonds",
+     "chi": "neighbouring troglitazone molecules along the a axis",
+     "citazione": "come into proximity and are connected with the two hydrogen bonds of N3–H3…O30 and O30–H30…O6"
+    }
+   ],
+   "citazione": "When the MA2 crystal was kept under low humidity, it was converted into the dehydrated form (MA0-form) with retention of the single crystal form.",
+   "note": "Disidratato del cristallo misto, rapporto H:L 67 : 33 (stesso significato di MA2). La struttura e' isomorfa a H0-form ('The structure of the MA0-form is isomorphous to the H0-form'); l'asse a si contrae di 1.10 Å rispetto a MA2. I cristalli sono opachi (Tabella 2: 'Plate, opaque') e conservano la forma del cristallo singolo. Nonostante il diffrattogramma quasi identico a H0, la curva DSC del disidratato e' diversa da quella di H0 ('The DSC curve of the dehydrated form was different from that of the H0-form')."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F7",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "desorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "umidita": {
+     "valore": null,
+     "max": 30,
+     "unita": "%RH",
+     "limite": "sotto"
+    },
+    "tempo": {
+     "testo": "several days",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "DSC",
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ],
+    "integrita": "opaco"
+   },
+   "citazioni": [
+    "The MA0-form crystals were prepared by storing the MA2-form crystals below 30% RH at room temperature for several days.",
+    "Therefore the volatilization of the MA2-form was investigated under low humidity conditions (30% RH) at room temperature using powder X-ray diffraction and thermal analysis.",
+    "The characteristic diffraction peaks of the MA2-form decreased and new diffraction peaks appeared.",
+    "When the MA2 crystal was kept under low humidity, it was converted into the dehydrated form (MA0-form) with retention of the single crystal form.",
+    "The two water molecules in the MA2-form crystal completely disappeared.",
+    "When the MA2-crystal was kept below 40% RH at room temperature, the solvent water molecules were removed from the crystal and the dehydrated crystal, the MA0-form, was produced.",
+    "Two water molecules of the MA2-form occur between the molecules and form hydrogen bonds with both sides of the molecules.",
+    "When the two water molecules are removed from the MA2 crystal",
+    "come into proximity and are connected with the two hydrogen bonds of N3–H3…O30 and O30–H30…O6"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "conflitto": "Le conclusioni scrivono 'below 40% RH at room temperature'; la parte sperimentale scrive 'below 30% RH' e i risultati '30% RH'. Si tiene 30%.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "two water molecules",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F7",
+     "citazione": "When the two water molecules are removed from the MA2 crystal"
+    },
+    {
+     "gruppo": "N3–H3…O30 and O30–H30…O6 hydrogen bonds",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F8",
+     "citazione": "come into proximity and are connected with the two hydrogen bonds of N3–H3…O30 and O30–H30…O6"
+    }
+   ],
+   "note": "Disidratazione di MA2 a bassa umidita' conservando il cristallo singolo; monitorata con PXRD e DSC (Figg. 5 e 6), struttura di MA0 risolta su cristallo singolo. Durata 'several days' (nessun numero). Le due acque escono, le molecole lungo l'asse a si avvicinano (contrazione di 1.10 Å) e formano i due legami N3–H3…O30 e O30–H30…O6; il reticolo si mantiene perche' MA0 adotta il sistema di legami H di H0."
+  },
+  {
+   "id": "E2",
+   "da": "F8",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 80,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "meccanismo": [
+     "SCSC"
+    ],
+    "cinetica": "lenta ('slowly')"
+   },
+   "citazioni": [
+    "Then the produced MA0-form was converted into the MA2-form at high relative humidity of 80% at 25 °C.",
+    "The transition between the MA2-form and MA0-form was reversible.",
+    "The MA0-form slowly converted back to the",
+    "MA2-form under 80% RH at room temperature.",
+    "It must be emphasized that the dehydrated mixed crystal was easily converted into its dihydrate crystal and vice versa while retaining the single crystal form under conditions of humidity.",
+    "The two solvent water molecules are inserted between troglitazone molecules and connect the molecules with hydrogen bonds to form the same molecular chain as that before hydration."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "two solvent water molecules",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F7",
+     "citazione": "The two solvent water molecules are inserted between troglitazone molecules and connect the molecules with hydrogen bonds to form the same molecular chain as that before hydration."
+    }
+   ],
+   "note": "Il ritorno ha condizioni sue (80% RH a 25 °C): evento inverso di E1. Le conclusioni scrivono 'room temperature' dove i risultati scrivono 25 °C (nessun conflitto reale). Il testo dice 'slowly' (conclusioni) e anche 'easily' (frase finale) per la conversione. Il metodo di osservazione non e' detto per questo passo (la conversione con conservazione del cristallo singolo e' nell'abstract)."
+  },
+  {
+   "id": "E3",
+   "da": "F7",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 40,
+     "max": 100,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valori": [
+      5,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "DTA"
+    ],
+    "perdita_massa": {
+     "valore": 2,
+     "unita": "mol/mol",
+     "tipo": "totale"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 40,
+       "max": 100,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "Approximately 3 mg of each sample in an open pan was heated from 0 to 230 °C at 5 or 10 °C/min under nitrogen gas (flow rate 100 ml/min).",
+    "The MA2-form showed a broad endothermic peak in the range of 40—100 °C due to dehydration of two water molecules as determined from TGDTA measurements.",
+    "The DSC curve suggests that the MA2-form was transformed to the dehydrate form by dehydration."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "approximately 3 mg"
+   },
+   "note": "Disidratazione termica di MA2: endotermo largo a 40-100 °C per due molecole d'acqua (TG-DTA). La velocita' di riscaldamento e' '5 or 10 °C/min' per tutte le curve DSC: un evento con i due valori. Il prodotto e' detto 'the dehydrate form' / 'the produced dehydrate form': lo si identifica con MA0, che i risultati chiamano cosi' ('the dehydrate form is crystalline, which is called the MA0-form'); il testo non dice se il prodotto termico sia la stessa fase ottenuta a bassa umidita'."
+  },
+  {
+   "id": "E4",
+   "da": "F8",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picchi": [
+      175,
+      185
+     ],
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valori": [
+      5,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 175,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     },
+     {
+      "grandezza": {
+       "valore": 185,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "Approximately 3 mg of each sample in an open pan was heated from 0 to 230 °C at 5 or 10 °C/min under nitrogen gas (flow rate 100 ml/min).",
+    "The two endothermic peaks at 175 and 185 °C were assumed to be due to the melting of the pro-duced dehydrate form."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "approximately 3 mg"
+   },
+   "da_evento": "E3",
+   "pretrattamento": "MA2 disidratata nello stesso scan DSC",
+   "note": "Due endotermi a 175 e 185 °C che gli autori 'assumono' dovuti alla fusione del disidratato prodotto nello scan; il disidratato e' identificato con MA0 come in E3."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 190,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valori": [
+      5,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 190,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "Approximately 3 mg of each sample in an open pan was heated from 0 to 230 °C at 5 or 10 °C/min under nitrogen gas (flow rate 100 ml/min).",
+    "The H0-form showed only one endothermic peak at 190 °C due to melting"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "approximately 3 mg"
+   },
+   "note": "Un solo endotermo di fusione; la coppia H ha il punto di fusione piu' alto di quella L (introduzione)."
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 120,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valori": [
+      5,
+      10
+     ],
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 120,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "Approximately 3 mg of each sample in an open pan was heated from 0 to 230 °C at 5 or 10 °C/min under nitrogen gas (flow rate 100 ml/min).",
+    "and the L1-form had one endothermic peak at 120 °C, indicating melting. The endothermic peak of dehydration cannot be observed.",
+    "The L1-form showed only one endothermic peak in the DSC measurement due to melting of the crystal."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "approximately 3 mg"
+   },
+   "note": "Il monoidrato L1 mostra un solo endotermo, di fusione, e nessun endotermo di disidratazione distinto."
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita": {
+     "valore": null,
+     "unita": null,
+     "testo": "high humidity"
+    },
+    "umidita_ignota": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Although the H0-form had a similar X-ray pattern, it showed no transformation under high humidity."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Negativo in contrasto con MA0 (E2): H0 ha un diffrattogramma simile a MA0 ma sotto alta umidita' non si trasforma. La frase non dà la RH; la frase precedente parla di 'high relative humidity of 80% at 25 °C' per MA0 → MA2, ma non dice che la prova su H0 abbia le stesse condizioni."
+  },
+  {
+   "id": "E8",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "durante_misura",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "cinetica": "troppo rapida per raccogliere i dati ('too quickly decomposed')"
+   },
+   "citazioni": [
+    "The L1/2-form including dichloromethane was too quickly decomposed due to desolvation to obtain the intensity data.",
+    "The intensity data of the L1/2-forms were recorded at room temperature."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Il solvato di diclorometano si decompone per desolvatazione sul diffrattometro, a temperatura ambiente, prima di poter raccogliere i dati. Cosa rimanga dopo non e' detto. Cristallo singolo implicito dalla raccolta di intensita' a quattro cerchi."
+  },
+  {
+   "id": "E9",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "durante_misura",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "cinetica": "graduale ('gradually decomposed'); diminuisce il numero di riflessioni osservate"
+   },
+   "citazioni": [
+    "The L1/2-forms of methanol and ethanol were gradually decomposed during data collection and the number of reflections observed decreased.",
+    "The intensity data of the L1/2-forms were recorded at room temperature."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Frase unica per i solvati di metanolo e di etanolo (un evento per forma, vedi E10). Il testo dice 'decomposed', senza ripetere 'due to desolvation' come per il diclorometano nella frase precedente."
+  },
+  {
+   "id": "E10",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "durante_misura",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "cinetica": "graduale ('gradually decomposed'); diminuisce il numero di riflessioni osservate"
+   },
+   "citazioni": [
+    "The L1/2-forms of methanol and ethanol were gradually decomposed during data collection and the number of reflections observed decreased.",
+    "The intensity data of the L1/2-forms were recorded at room temperature."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Vedi E9."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "aqueous acetone"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "The H0-form crystals were obtained from an aqueous acetone",
+    "solution by slow evaporation at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "note": "La frase e' spezzata nel testo letto da un'intestazione di pagina: due citazioni."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "methanol",
+    "ethanol",
+    "acetonitrile",
+    "dichloromethane",
+    "acetone",
+    "aqueous acetone"
+   ],
+   "solventi_alternativi": true,
+   "esito": "ottenuta",
+   "citazioni": [
+    "The H-pair was also crystallized from various solutions of methanol, ethanol, acetonitrile, dichloromethane, acetone, and aqueous acetone. However, the crystals thus obtained had the same powder X-ray diffraction pattern."
+   ],
+   "fonte_dati": "propria",
+   "note": "La coppia H dà sempre la stessa forma senza solvente (analisi elementare), qualunque sia il solvente."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "aqueous acetone"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "umidita": {
+    "valore": 60,
+    "unita": "%RH"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "The L1-form crystals were recrystallized from an aqueous acetone solution by slow evaporation at room temperature and were stored under relative humidity (RH) of 60% at 25 °C."
+   ],
+   "fonte_dati": "propria",
+   "pretrattamento": "dopo la cristallizzazione, conservati al 60% RH e 25 °C",
+   "note": "La conservazione al 60% RH a 25 °C e' dopo la cristallizzazione; la T di 25 °C non e' quella della cristallizzazione (temperatura ambiente)."
+  },
+  {
+   "forme": [
+    "F3",
+    "F4",
+    "F5",
+    "F6"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol",
+    "ethanol",
+    "acetonitrile",
+    "dichloromethane"
+   ],
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "The L1/2-form crystals were obtained from an anhydrous solution, methanol, ethanol, acetonitrile, or dichloromethane, by slow evaporation at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "note": "Un solvato per solvente: metanolo, etanolo, acetonitrile, diclorometano. 'Anhydrous solution': soluzione anidra."
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "aqueous acetone"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "rapporto_soluzione": "equal amounts of the two diastereomer pairs",
+   "esito": "ottenuta",
+   "citazioni": [
+    "The MA2-form crystals were obtained from an aqueous acetone solution of the mixture of the H- and Lpair compounds by slow evaporation at room temperature.",
+    "The dihydrous mixed crystal (MA2-form) was obtained from a mixture of the two diastereomer pairs of 2R-5R/2S-5S and 2R-5S/2S-5R in equal amounts by the slow evaporation of aqueous acetone solution."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "umidita": {
+    "valore": null,
+    "max": 30,
+    "unita": "%RH",
+    "limite": "sotto"
+   },
+   "tempo": {
+    "testo": "several days"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "The MA0-form crystals were prepared by storing the MA2-form crystals below 30% RH at room temperature for several days."
+   ],
+   "fonte_dati": "propria",
+   "note": "MA0 si ottiene dalla disidratazione di MA2 (E1)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "two asymmetric carbons (chroman C-2 and thiazolidine C-5); bulk drug substance is a mixture of equal amounts of four stereoisomers 2R-5S, 2S-5R, 2R-5R, 2S-5S",
+     "citazione": "Troglitazone has two asymmetric carbons located at the C-2 position of the chroman ring and the C-5 position of the thiazolidine ring."
+    },
+    {
+     "tipo": "chiralita",
+     "testo": "The bulk drug substance consists of four stereoisomers with equal composition (two diastereomer pairs, H-pair and L-pair)",
+     "citazione": "The bulk drug substance therefore consists of four stereoisomers, 2R-5S, 2S-5R, 2R-5R, and 2S-5S with equal composition."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "H-pair molecules have approximately the same conformation in the three forms (H0, MA2, MA0)",
+     "citazione": "The H-pair molecules had approximately the same conformation among the three forms"
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "torsion O15–C16–C17–O18: anti in the L-forms (L1, L1/2), syn in the mixed crystals (MA2, MA0)",
+     "citazione": "The L-pair molecule has a different conformation around the C16–C17 bond between the L-forms and the MA-forms"
+    }
+   ]
+  }
+ ],
+ "note": "Il PDF (Chem. Pharm. Bull.) ha rovinato i simboli: nelle tabelle il segno meno e' una cifra '2' e il piu' una cifra '1' (codici di simmetria della Tabella 3: '211x, 1y, 11z' = −1+x, y, 1+z), '3' sta per '×' (dimensioni '0.2530.3530.05'), '5' per '=' ('2q55.1' = 2θ = 5.1°). Da qui le temperature '250' e '2105' della Tabella 2 e della Tabella 4 lette come −50 °C e −105 °C (T_probabile, non sostenuto dal testo). Il nome del composto ha un '(6)' al posto di '(±)'. Il campione di partenza, la sostanza farmaceutica, e' una miscela di due coppie di diastereoisomeri (H: 2R-5S/2S-5R, punto di fusione piu' alto; L: 2R-5R/2S-5S); la cristallizzazione per raffreddamento ne dà una miscela con proprieta' termiche costanti (rif. 13). Le strutture di MA2 e H0 erano gia' note a 23.5 °C (rif. 14 e 18) e sono state rideterminate; quella di L1 e' del rif. 19. Nessun refcode ne' numero CCDC nel testo. Gli XRPD di L1 e dei quattro L1/2 sono simili ('all the L-pair crystals are isomorphous'); i tre picchi principali di MA2 (2θ = 5.1, 18.0, 21.4°) sono poco diversi da quelli di H0 (5.4, 17.6, 19.7°) e molto diversi da L1 (8.6, 10.8, 19.6°). Analisi elementare e contenuto d'acqua (Karl Fischer) in Tabella 1 danno la stechiometria dei solvati. Gli XRPD di H0 da vari solventi sono identici. Nel cristallo misto la molecola e' disordinata (parti H e L): nessuna trasformazione di forma."
+}
