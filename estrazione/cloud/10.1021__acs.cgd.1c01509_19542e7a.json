@@ -1,0 +1,5038 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.1c01509",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2128064–2128092"
+ ],
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "ciprofloxacin (cip)"
+  },
+  {
+   "id": "C2",
+   "nome": "norfloxacin (nor)"
+  },
+  {
+   "id": "C3",
+   "nome": "enrofloxacin (enro)"
+  },
+  {
+   "id": "C4",
+   "nome": "glutaric acid (glu)"
+  },
+  {
+   "id": "C5",
+   "nome": "adipic acid (adi)"
+  },
+  {
+   "id": "C6",
+   "nome": "pimelic acid (pim)"
+  },
+  {
+   "id": "C7",
+   "nome": "suberic acid (sub)"
+  },
+  {
+   "id": "C8",
+   "nome": "azeliac acid (az)"
+  },
+  {
+   "id": "C9",
+   "nome": "sebacic acid (seb)"
+  }
+ ],
+ "forme": [
+  {
+   "composto": "C1",
+   "etichetta": "cip",
+   "etichette_alternative": [
+    "ciprofloxacin"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Ciprofloxacin, norfloxacin, enrofloxacin, suberic acid, azeliac acid, and sebacic acid were obtained from Tokyo Chemical Industry (TCI, Europe).",
+   "note": "Fluorochinolone neutro (reagente commerciale o fase che cristallizza dal fuso); polimorfo non detto.",
+   "id": "F1"
+  },
+  {
+   "composto": "C2",
+   "etichetta": "nor",
+   "etichette_alternative": [
+    "norfloxacin"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Ciprofloxacin, norfloxacin, enrofloxacin, suberic acid, azeliac acid, and sebacic acid were obtained from Tokyo Chemical Industry (TCI, Europe).",
+   "note": "Fluorochinolone neutro (reagente commerciale o fase che cristallizza dal fuso); polimorfo non detto.",
+   "id": "F2"
+  },
+  {
+   "composto": "C3",
+   "etichetta": "enro",
+   "etichette_alternative": [
+    "enrofloxacin"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Ciprofloxacin, norfloxacin, enrofloxacin, suberic acid, azeliac acid, and sebacic acid were obtained from Tokyo Chemical Industry (TCI, Europe).",
+   "note": "Fluorochinolone neutro (reagente commerciale o fase che cristallizza dal fuso); polimorfo non detto.",
+   "id": "F3"
+  },
+  {
+   "composto": "C4",
+   "etichetta": "glu",
+   "etichette_alternative": [
+    "glutaric acid"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Glutaric acid, adipic acid, and pimelic acid were obtained from Sigma-Aldrich.",
+   "note": "Coformero commerciale; polimorfo non detto.",
+   "id": "F4"
+  },
+  {
+   "composto": "C5",
+   "etichetta": "adi",
+   "etichette_alternative": [
+    "adipic acid"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Glutaric acid, adipic acid, and pimelic acid were obtained from Sigma-Aldrich.",
+   "note": "Coformero commerciale; polimorfo non detto.",
+   "id": "F5"
+  },
+  {
+   "composto": "C6",
+   "etichetta": "pim",
+   "etichette_alternative": [
+    "pimelic acid"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Glutaric acid, adipic acid, and pimelic acid were obtained from Sigma-Aldrich.",
+   "note": "Coformero commerciale; polimorfo non detto.",
+   "id": "F6"
+  },
+  {
+   "composto": "C7",
+   "etichetta": "sub",
+   "etichette_alternative": [
+    "suberic acid"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Ciprofloxacin, norfloxacin, enrofloxacin, suberic acid, azeliac acid, and sebacic acid were obtained from Tokyo Chemical Industry (TCI, Europe).",
+   "note": "Coformero commerciale; polimorfo non detto.",
+   "id": "F7"
+  },
+  {
+   "composto": "C8",
+   "etichetta": "az",
+   "etichette_alternative": [
+    "azeliac acid"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Ciprofloxacin, norfloxacin, enrofloxacin, suberic acid, azeliac acid, and sebacic acid were obtained from Tokyo Chemical Industry (TCI, Europe).",
+   "note": "Coformero commerciale; polimorfo non detto.",
+   "id": "F8"
+  },
+  {
+   "composto": "C9",
+   "etichetta": "seb",
+   "etichette_alternative": [
+    "sebacic acid"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Ciprofloxacin, norfloxacin, enrofloxacin, suberic acid, azeliac acid, and sebacic acid were obtained from Tokyo Chemical Industry (TCI, Europe).",
+   "note": "Coformero commerciale; polimorfo non detto.",
+   "id": "F9"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(cip+)(glu–)",
+   "tipo": "sale",
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "salts of composition A+B– containing the monodeprotonated acid anions [(cip+)(glu–)",
+   "note": "Bulk preparato (confronto XRPD, solubilita', DSC). Due glu– indipendenti nell'unita' asimmetrica.",
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R22(16) ring (glu– anions, COOH...–OOC)",
+     "chi": "glu– anions",
+     "citazione": "In (cip+)(glu–) (Figure 3a), (cip+)(az–)·CH3CN (Figure 3b), (enro+)(az–) (Figure 3c), (enro+)(pim–)·H2O (Figure 3d), and (enro+)(glu–)·0.33CH3CN·0.67H2O (Figure S2), the glu–, az– and pim– anions build up R22(16), R22(24) and R22(20) rings."
+    },
+    {
+     "motivo": "R42(8) rings",
+     "chi": "protonated amino groups of two cip+ cations and deprotonated carboxyl groups of two anions (il testo scrive «pim–» per questo sale)",
+     "citazione": "In (cip+)(glu–), H bonding between the protonated amino groups of two cip+ cations and the deprotonated carboxyl groups of two pim– anions generates R42(8) rings"
+    }
+   ],
+   "id": "F10"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(enro+)(glu–)·0.33CH3CN·0.67H2O",
+   "tipo": [
+    "sale",
+    "idrato",
+    "solvato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(enro+)(glu–)·0.33CH3CN·0.67H2O",
+   "note": "Tre glu– indipendenti nell'unita' asimmetrica.",
+   "ospite": [
+    {
+     "specie": "acetonitrile",
+     "stechiometria": 0.33,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 0.67,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R22(16) ring (glu– anions, COOH...–OOC)",
+     "chi": "glu– anions",
+     "citazione": "In (cip+)(glu–) (Figure 3a), (cip+)(az–)·CH3CN (Figure 3b), (enro+)(az–) (Figure 3c), (enro+)(pim–)·H2O (Figure 3d), and (enro+)(glu–)·0.33CH3CN·0.67H2O (Figure S2), the glu–, az– and pim– anions build up R22(16), R22(24) and R22(20) rings."
+    },
+    {
+     "motivo": "discrete enro...acid dimer...enro entities",
+     "chi": "two enro+ cations and the COO– groups of the cyclic glu– dimer",
+     "citazione": "By contrast, two enro+ cations interact with the COO– groups of the cyclic az– or glu– dimers in (enro+)(az–) and (enro+)(glu–)·0.33H3CN·0.67H2O resulting in discrete enro...acid dimer...enro entities in these two salts."
+    }
+   ],
+   "id": "F11"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(cip+)(pim–)",
+   "tipo": "sale",
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(cip+)(pim–)",
+   "note": "Bulk preparato.",
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R2NH2+ interacts with both COO– and COOH of the carboxylate chain",
+     "chi": "R2NH2+ group and carboxylate chain of pim–",
+     "citazione": "As in (nor+)(pim–)·CH3OH, the R2NH2+ group in (cip+)(pim–) interacts with both the COO– and the COOH groups of the carboxylate chain (Figure S3)."
+    },
+    {
+     "motivo": "chains of monocarboxylate anions",
+     "chi": "pim– monoanions",
+     "citazione": "while in (cip+)(pim–), chains of monocarboxylate anions are present"
+    }
+   ],
+   "id": "F12"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)(pim–)",
+   "tipo": "sale",
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(nor+)(pim–)",
+   "note": "Bulk preparato. Due nor+ e due pim– indipendenti nell'unita' asimmetrica.",
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R23(8) and R44(12) rings",
+     "chi": "charge-assisted NH+...–OOC and NH+...O=C(OH) H bonds",
+     "citazione": "Charge-assisted NH+...–OOC and NH+...O=C(OH) H bonds create R23(8) and R44(12) rings (Figure 4a)."
+    }
+   ],
+   "id": "F13"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)(pim–)·CH3OH",
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(nor+)(pim–)·CH3OH",
+   "note": "Solvato di metanolo: non farmaceuticamente accettabile, escluso dagli studi in bulk.",
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "bifurcated H bond NH2+...–OOC",
+     "chi": "protonated amino group of A and deprotonated carboxyl group of C",
+     "citazione": "The protonated amino group of A forms a bifurcated H bond with the deprotonated carboxyl group of C, while the protonated amino group of B interacts with the COOH group of D."
+    }
+   ],
+   "id": "F14"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(enro+)(pim–)·H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "The hydrate (enro+)(pim–)·H2O contains an R88(20) motif.",
+   "note": "Non preparato in bulk.",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R22(20) ring (pim– anions, COOH...–OOC)",
+     "chi": "pim– anions",
+     "citazione": "In (cip+)(glu–) (Figure 3a), (cip+)(az–)·CH3CN (Figure 3b), (enro+)(az–) (Figure 3c), (enro+)(pim–)·H2O (Figure 3d), and (enro+)(glu–)·0.33CH3CN·0.67H2O (Figure S2), the glu–, az– and pim– anions build up R22(16), R22(24) and R22(20) rings."
+    },
+    {
+     "motivo": "R88(20) motif",
+     "chi": "four water molecules, two pim-OH groups and two pim-COO– groups in a 20-membered ring",
+     "citazione": "The hydrate (enro+)(pim–)·H2O contains an R88(20) motif."
+    }
+   ],
+   "id": "F15"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(enro+)(pim–)·3H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(enro+)(pim–)·3H2O",
+   "note": "Bulk preparato. Unico sale 1:1 senza ne' dimeri ciclici ne' catene di monoanioni.",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 3,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R42(8) and R88(20) rings",
+     "chi": "water molecules of crystallization and COOH and COO– groups of pim– and enro+",
+     "citazione": "Water molecules of crystallization and the COOH and COO– groups of pim– and enro+ form R42(8) and R88(20) rings."
+    }
+   ],
+   "id": "F16"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)(sub–)",
+   "tipo": "sale",
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(nor+)(sub–)",
+   "note": "Bulk preparato (anidro, da cristallizzazione in soluzione).",
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "fused R44(28) rings",
+     "chi": "nor+ and sub– chains connected through NH2+...–OOC H bonds",
+     "citazione": "The nor+ and sub– chains are connected through NH2+...–OOC H bonds so that the structure can be described as fused R44(28) rings (Figure 4c)."
+    },
+    {
+     "motivo": "1D arrangement of cations via NH2+...O=C(OH)",
+     "chi": "nor+ cations",
+     "citazione": "In the anhydrous 1:1 salt of nor and sub, the cations form a 1D arrangement via NH2+...O=C(OH) H bonds."
+    }
+   ],
+   "id": "F17"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)(sub–)·3H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(nor+)(sub–)·3H2O",
+   "note": "Bulk preparato (triidrato).",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 3,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R44(8) motif (eight-membered rings of H-bonded water)",
+     "chi": "water molecules",
+     "citazione": "In the corresponding trihydrate (nor+)(sub–)·3H2O, eight-membered rings of H-bonded water molecules are present (R44(8) motif; Figure 4d)."
+    },
+    {
+     "motivo": "R54(19) motif",
+     "chi": "water, water and the sub-COO– group",
+     "citazione": "Another water of the ring forms a H bond with another water, which, in turn, H-bonds to the sub-COO– group creating an R54(19) motif."
+    }
+   ],
+   "id": "F18"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(enro+)(sub–)·H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(enro+)(sub–)·H2O",
+   "note": "Bulk preparato. Il cristallo singolo indicizzato mostra crescita ad ago lungo l'asse a. Il xerogel del gel enro/sub/H2O ha lo stesso pattern XRPD.",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "infinite H-bonded chains of carboxylate monoanions",
+     "chi": "sub– monoanions",
+     "citazione": "In the single-crystal structure of (enro+)(sub–)·H2O, the carboxylate monoanions are linked into infinite H-bonded chains."
+    },
+    {
+     "motivo": "amino group donates a H bond to the COO– group only",
+     "chi": "amino group of enro+ and COO– group",
+     "citazione": "In (enro+)(seb–) and (enro+)(sub–)·H2O, the amino group donates a H bond to the COO– group only; in the former, this H bond is bifurcated (Figures S4 and S5)."
+    },
+    {
+     "motivo": "R3NH+...–OOC H bonding, stacking of enro+ along a",
+     "chi": "enro+ cations connected to the carboxylate chain and stacked along a",
+     "citazione": "The enro+ cations are connected to the carboxylate chain via R3NH+...–OOC H bonding and are stacked along the a direction with 61.2% of the atoms in the van der Waals contact"
+    }
+   ],
+   "id": "F19"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C8",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(enro+)(az–)",
+   "tipo": "sale",
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(enro+)(az–)",
+   "note": "Bulk preparato. Ha il punto di fusione piu' basso dei sali studiati e la solubilita' piu' alta (15.6 volte).",
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R22(24) ring (az– anions, COOH...–OOC)",
+     "chi": "az– anions",
+     "citazione": "In (cip+)(glu–) (Figure 3a), (cip+)(az–)·CH3CN (Figure 3b), (enro+)(az–) (Figure 3c), (enro+)(pim–)·H2O (Figure 3d), and (enro+)(glu–)·0.33CH3CN·0.67H2O (Figure S2), the glu–, az– and pim– anions build up R22(16), R22(24) and R22(20) rings."
+    },
+    {
+     "motivo": "discrete enro...acid dimer...enro entities",
+     "chi": "two enro+ cations and the COO– groups of the cyclic az– dimer",
+     "citazione": "By contrast, two enro+ cations interact with the COO– groups of the cyclic az– or glu– dimers in (enro+)(az–) and (enro+)(glu–)·0.33H3CN·0.67H2O resulting in discrete enro...acid dimer...enro entities in these two salts."
+    }
+   ],
+   "id": "F20"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C8",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(cip+)(az–)·CH3CN",
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(cip+)(az–)·CH3CN",
+   "note": "Solvato di acetonitrile: escluso dagli studi in bulk. COOH in conformazione anti.",
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R22(24) ring (az– anions, COOH...–OOC)",
+     "chi": "az– anions",
+     "citazione": "In (cip+)(glu–) (Figure 3a), (cip+)(az–)·CH3CN (Figure 3b), (enro+)(az–) (Figure 3c), (enro+)(pim–)·H2O (Figure 3d), and (enro+)(glu–)·0.33CH3CN·0.67H2O (Figure S2), the glu–, az– and pim– anions build up R22(16), R22(24) and R22(20) rings."
+    },
+    {
+     "motivo": "R66(16) rings",
+     "chi": "two amino groups, two COO– groups and two COOH groups",
+     "citazione": "while R66(16) rings of two amino groups, two COO– groups, and two COOH groups are present in (cip+)(az–)·CH3CN"
+    }
+   ],
+   "id": "F21"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C9",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(enro+)(seb–)",
+   "tipo": "sale",
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico monodeprotonato (monoanione)",
+   "citazione": "(enro+)(seb–)",
+   "note": "Non preparato in bulk.",
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "amino group donates a bifurcated H bond to the COO– group",
+     "chi": "amino group of enro+ and COO– group",
+     "citazione": "In (enro+)(seb–) and (enro+)(sub–)·H2O, the amino group donates a H bond to the COO– group only; in the former, this H bond is bifurcated (Figures S4 and S5)."
+    }
+   ],
+   "id": "F22"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)2(glu2–)·H2O·CH3OH",
+   "tipo": [
+    "sale",
+    "idrato",
+    "solvato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(nor+)2(glu2–)·H2O·CH3OH",
+   "note": "Glu2– disordinato (si mostra una sola componente). Escluso dagli studi in bulk (solvato non accettabile).",
+   "ospite": [
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "methanol",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R44(12) rings extending as R44(12)...glu2–...R44(12)...glu repeats in one dimension",
+     "chi": "two amino groups and two carboxylate groups",
+     "citazione": "(Nor+)2(glu2–)·H2O·CH3OH R44(12) rings of two amino groups and two carboxylate groups extend as R44(12)...glu2–...R44(12)...glu repeats in one dimension."
+    }
+   ],
+   "id": "F23"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)2(glu2–)·H2O·0.75CH3CN",
+   "tipo": [
+    "sale",
+    "idrato",
+    "solvato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(nor+)2(glu2–)·H2O·0.75CH3CN",
+   "note": "Quattro nor+ indipendenti. Escluso dagli studi in bulk (solvato non accettabile).",
+   "ospite": [
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "acetonitrile",
+     "stechiometria": 0.75,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "three of four carboxylate oxygens H-bonded to three nor+ cations",
+     "chi": "carboxylate oxygens and nor+",
+     "citazione": "three of the four carboxylate oxygens participate in H bonding with three nor+ cations (Figure 7b)"
+    }
+   ],
+   "id": "F24"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)2(adi2–)·2H2O form I",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(nor+)2(adi2–)·2H2O form I",
+   "note": "Ottenuto da acqua. Bulk preparato. Punto di fusione piu' alto di nor e adi (unica eccezione).",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R44(12) rings and R22(4) “triangles”",
+     "chi": "water molecules and COO– groups of adi2–",
+     "citazione": "The H-bonding interactions between water molecules and COO– groups of adi2– generate R44(12) rings and R22(4) “triangles” in form I."
+    }
+   ],
+   "id": "F25"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)2(adi2–)·2H2O form II",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(nor+)2(adi2–)·2H2O form II",
+   "note": "Ottenuto da metanolo/acetonitrile (1:1). Non preparato in bulk.",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R42(8) motif",
+     "chi": "two carboxylate oxygens and two amino groups",
+     "citazione": "The main structural motif in (nor+)2(adi2–)·2H2O form II is the R42(8) motif of two carboxylate oxygens and two amino groups."
+    }
+   ],
+   "id": "F26"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(cip+)2(pim2–)·H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(cip+)2(pim2–)·H2O",
+   "note": "Non preparato in bulk. Rete 2D con ossigeni carbossilato accettori biforcati.",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "H-bonded cip+...pim2–...cip+ entities",
+     "chi": "cip+ and pim2–",
+     "citazione": "the structure of (cip+)2(pim2–)·H2O is built up by H-bonded cip+...pim2–...cip+ entities (Figure 6a)"
+    }
+   ],
+   "id": "F27"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)2(pim2–)·C2H5OH",
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(nor+)2(pim2–)·C2H5OH",
+   "note": "Pim– disordinato. Non preparato in bulk.",
+   "ospite": {
+    "specie": "ethanol",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R43(10) rings in a 1D supramolecular structure",
+     "chi": "two nor+ cations and two pim2– dianions",
+     "citazione": "R2NH2+...–OOC H bonding between two nor+ cations and two pim2– dianions gives 10-membered rings that are linked into an infinite 1D supramolecular structure (R43(10); Figure 6b)."
+    }
+   ],
+   "id": "F28"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(enro+)2(pim2–)·1.5H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(enro+)2(pim2–)·1.5H2O",
+   "note": "Sesquiidrato. Bulk preparato. Meno solubile del sale 1:1 corrispondente.",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1.5,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "both carboxylate groups form R3NH+...–OOC H bonds with the fluoroquinolone cation",
+     "chi": "carboxylate groups of pim2– and enro+",
+     "citazione": "with both carboxylate groups of the acid dianions forming R3NH+...–OOC H bonds with the fluoroquinolone cation"
+    }
+   ],
+   "id": "F29"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(cip+)2(sub2–)·4H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(cip+)2(sub2–)·4H2O",
+   "note": "Tetraidrato; bulk preparato. Nel testo e in Fig. 6 la formula e' scritta «(cip+)2(sub2–)·H2O».",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 4,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R64(12) and R33(15) motifs",
+     "chi": "two protonated amino groups, two carboxylate oxygens and two water molecules; two COO– groups and four water molecules",
+     "citazione": "The structure of (cip+)2(sub2–)·H2O contains R64(12) and R33(15) motifs"
+    }
+   ],
+   "id": "F30"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)2(sub2–)·CH3OH",
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(nor+)2(sub2–)·CH3OH",
+   "note": "Quattro nor+ e quattro mezzi sub2– indipendenti. Escluso dagli studi in bulk (solvato non accettabile).",
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R44(12) rings",
+     "chi": "protonated amino groups of nor+ and carboxylate groups of sub2–",
+     "citazione": "Hydrogen bonding between the protonated amino groups of nor+ A and B and the carboxylate groups of sub2– A and B gives rise to R44(12) rings (Figure 6d)."
+    }
+   ],
+   "id": "F31"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C9",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)2(seb2–)·4CH3OH",
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); acido dicarbossilico dideprotonato (dianione)",
+   "citazione": "(nor+)2(seb2–)·4CH3OH",
+   "note": "Solvato di metanolo; escluso dagli studi in bulk.",
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 4,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "both carboxylate groups form R3NH+...–OOC H bonds with the fluoroquinolone cation",
+     "chi": "carboxylate groups of seb2– and nor+",
+     "citazione": "with both carboxylate groups of the acid dianions forming R3NH+...–OOC H bonds with the fluoroquinolone cation"
+    }
+   ],
+   "id": "F32"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C8",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "(nor+)2(az2–)·az·4H2O",
+   "tipo": [
+    "sale",
+    "cocristallo",
+    "idrato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); un dianione e una molecola di acido neutro per formula",
+   "citazione": "(nor+)2(az2–)·az·4H2O",
+   "note": "Cocristallo ionico molecolare (acido/base coniugati): due nor+ indipendenti, un az2–, un az neutro. Ottenuto da metanolo. Non preparato in bulk.",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 4,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R76(26) motif",
+     "chi": "three water molecules, COOH of az, carbonyl oxygen of another az, amino group of nor+ B and az2–",
+     "citazione": "Three water molecules, the COOH group of az, a carbonyl oxygen of another az, the amino group of nor+ B, and az2– are arranged in an R76(26) motif."
+    },
+    {
+     "motivo": "bifurcated H bond COO––COOH",
+     "chi": "COO– group of az2– and COOH group of az",
+     "citazione": "The other COO– group of az2– participates in a bifurcated H-bonding interaction with the COOH group of az."
+    },
+    {
+     "motivo": "R2NH2+...O=C(OH)R / R3NH+...O=C(OH)R and R2NH...O=C(OH)R synthons",
+     "chi": "protonated or neutral amino groups and carbonyl O of the neutral acid",
+     "citazione": "In the A2+B2–B and A+B–A ionic cocrystals, the R2NH2+...O=C(OH)R/R3NH+...O=C(OH)R and R2NH...O=C(OH)R synthons are also observed."
+    }
+   ],
+   "id": "F33"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "(enro+)2(adi2–)·adi·2CH3CN",
+   "tipo": [
+    "sale",
+    "cocristallo",
+    "solvato"
+   ],
+   "protonazione": "fluorochinolone protonata sul piperazinio (catione); un dianione e una molecola di acido neutro per formula",
+   "citazione": "(enro+)2(adi2–)·adi·2CH3CN",
+   "note": "Cocristallo ionico molecolare ottenuto da acetonitrile. Nella sezione sui cocristalli ionici la formula e' scritta «(enro+)2(adi2–)·adi·CH3CN» (un solo acetonitrile): le due scritture non coincidono. Escluso dagli studi in bulk (solvato non accettabile).",
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R3NH+...–O(CO)...HOOC motif",
+     "chi": "enro+, adi2– carboxylate and neutral adi COOH",
+     "citazione": "(Enro+)2(adi2–)·adi·CH3CN has the R3NH+...–O(CO)...HOOC motif."
+    },
+    {
+     "motivo": "R2NH2+...O=C(OH)R / R3NH+...O=C(OH)R and R2NH...O=C(OH)R synthons",
+     "chi": "protonated or neutral amino groups and carbonyl O of the neutral acid",
+     "citazione": "In the A2+B2–B and A+B–A ionic cocrystals, the R2NH2+...O=C(OH)R/R3NH+...O=C(OH)R and R2NH...O=C(OH)R synthons are also observed."
+    }
+   ],
+   "id": "F34"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C9",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)(seb–)·nor·H2O",
+   "tipo": [
+    "sale",
+    "cocristallo",
+    "idrato"
+   ],
+   "protonazione": "un fluorochinolone protonato (catione), un monoanione dell'acido e una molecola di fluorochinolone neutra per formula",
+   "citazione": "(nor+)(seb–)·nor·H2O",
+   "note": "Cocristallo ionico A+B–A: un nor+, un seb– e una nor neutra; COOH di seb– in conformazione anti. Non preparato in bulk.",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2NH2+...–OOC or R3NH+...–OOC synthon",
+     "chi": "protonated piperazine N and deprotonated carboxylate O of the acid",
+     "citazione": "All structures show the expected R2NH2+...–OOC or R3NH+...–OOC synthon with the protonated piperazine nitrogen forming a single or a bifurcated H bond with the deprotonated carboxylate oxygen of the organic acid (Figure 2)."
+    },
+    {
+     "motivo": "R44(12) synthon",
+     "chi": "two protonated amino groups and two COO– groups",
+     "citazione": "Two protonated amino groups and two COO– groups form the frequently found R44(12) synthon."
+    },
+    {
+     "motivo": "bifurcated H bond of the neutral nor amino proton with both oxygens of COOH of seb–",
+     "chi": "amino proton of neutral nor and COOH group of seb–",
+     "citazione": "The amino proton of the neutral nor molecule interacts with both oxygens of the COOH group of seb– in a bifurcated H bond."
+    },
+    {
+     "motivo": "R2NH2+...O=C(OH)R / R3NH+...O=C(OH)R and R2NH...O=C(OH)R synthons",
+     "chi": "protonated or neutral amino groups and carbonyl O of the neutral acid",
+     "citazione": "In the A2+B2–B and A+B–A ionic cocrystals, the R2NH2+...O=C(OH)R/R3NH+...O=C(OH)R and R2NH...O=C(OH)R synthons are also observed."
+    }
+   ],
+   "id": "F35"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C9",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)2(seb2–)·3H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 3,
+    "riferito_a": "unita_formula"
+   },
+   "citazione": "The water of crystallization of (nor+)2(seb2–)·3H2O is lost at 70.3 °C.",
+   "note": "Triidrato del sale 2:1 con l'acido sebacico, usato in bulk (XRPD, DSC, TGA, solubilita'). Fra le strutture a cristallo singolo l'elenco riporta solo (nor+)2(seb2–)·4CH3OH: nessuna struttura del triidrato nel testo.",
+   "id": "F36"
+  },
+  {
+   "composto": "C3",
+   "etichetta": "enro.CH3CN",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 1
+   },
+   "citazione": "Our cocrystallization screen also yielded two new solvates of enro, namely, enro.CH3CN and enro.H2O (Figure S1).",
+   "note": "Stechiometria 1 dalla formula scritta. Nuovo solvato di enrofloxacina ottenuto nello screening.",
+   "id": "F37"
+  },
+  {
+   "composto": "C3",
+   "etichetta": "enro.H2O",
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1
+   },
+   "citazione": "Our cocrystallization screen also yielded two new solvates of enro, namely, enro.CH3CN and enro.H2O (Figure S1).",
+   "note": "Stechiometria 1 dalla formula scritta. Nuovo solvato di enrofloxacina ottenuto nello screening.",
+   "id": "F38"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C9",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(nor+)2(seb2–) anhydrous form",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "suggesting that the anhydrous form undergoes several solid-state transformations before melting at 208.6 °C.",
+   "note": "Forma anidra del triidrato (nor+)2(seb2–)·3H2O dopo la perdita d'acqua a 70.3 °C; non caratterizzata oltre il DSC.",
+   "id": "F39"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "[(nor+)(sub–) disidratato dal triidrato]",
+   "etichette_alternative": [
+    "dehydrated form"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "that can be assigned to dehydration, structural rearrangement of the dehydrated form, and melting.",
+   "note": "Forma disidratata del triidrato (nor+)(sub–)·3H2O (DSC, 82.8 °C). Non caratterizzata oltre il DSC.",
+   "id": "F40"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "[(nor+)(sub–) dopo il riarrangiamento della forma disidratata]",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "that can be assigned to dehydration, structural rearrangement of the dehydrated form, and melting.",
+   "note": "Fase prodotta dal «structural rearrangement of the dehydrated form» (136.3 °C); poi fonde a 204.1 °C. Non caratterizzata oltre il DSC.",
+   "id": "F41"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "[(nor+)(sub–) dopo riscaldamento del triidrato a 140 °C per 15 min]",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "When the trihydrate is heated to 140 °C for 15 min before the DSC analysis, the only thermal event in the thermogram is melting at 211.9 °C.",
+   "note": "Fase del campione di triidrato riscaldato prima del DSC: fonde a 211.9 °C. L'articolo non dice se coincide con la fase del riarrangiamento (che fonde a 204.1 °C), e la dice diversa dal comportamento del sale anidro da soluzione («This is different from the thermal behavior of the anhydrous (nor+)(sub–) salt»).",
+   "id": "F42"
+  },
+  {
+   "etichetta": "cip/az (miscela 2:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F8"
+   ],
+   "proporzioni": "2:1",
+   "citazione": "The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total).",
+   "note": "Miscela fisica fluorochinolone : acido 2:1 (rapporto molare) per la macinazione.",
+   "id": "F43"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C8",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "cip/az 1:1 salt (milled)",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+   "note": "Sale 1:1 visto per XRPD nel macinato 2:1 (con fluorochinolone libero); struttura non attribuita a quelle a cristallo singolo.",
+   "id": "F44"
+  },
+  {
+   "etichetta": "cip/adi (miscela 2:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F5"
+   ],
+   "proporzioni": "2:1",
+   "citazione": "The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total).",
+   "note": "Miscela fisica fluorochinolone : acido 2:1 (rapporto molare) per la macinazione.",
+   "id": "F45"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "cip/adi 1:1 salt (milled)",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+   "note": "Sale 1:1 visto per XRPD nel macinato 2:1 (con fluorochinolone libero); struttura non attribuita a quelle a cristallo singolo.",
+   "id": "F46"
+  },
+  {
+   "etichetta": "cip/pim (miscela 2:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F6"
+   ],
+   "proporzioni": "2:1",
+   "citazione": "The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total).",
+   "note": "Miscela fisica fluorochinolone : acido 2:1 (rapporto molare) per la macinazione.",
+   "id": "F47"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "cip/pim 1:1 salt (milled)",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+   "note": "Sale 1:1 visto per XRPD nel macinato 2:1 (con fluorochinolone libero); struttura non attribuita a quelle a cristallo singolo.",
+   "id": "F48"
+  },
+  {
+   "etichetta": "cip/glu (miscela 2:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F4"
+   ],
+   "proporzioni": "2:1",
+   "citazione": "The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total).",
+   "note": "Miscela fisica fluorochinolone : acido 2:1 (rapporto molare) per la macinazione.",
+   "id": "F49"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "cip/glu 1:1 salt (milled)",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+   "note": "Sale 1:1 visto per XRPD nel macinato 2:1 (con fluorochinolone libero); struttura non attribuita a quelle a cristallo singolo.",
+   "id": "F50"
+  },
+  {
+   "etichetta": "enro/az (miscela 2:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F3",
+    "F8"
+   ],
+   "proporzioni": "2:1",
+   "citazione": "The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total).",
+   "note": "Miscela fisica fluorochinolone : acido 2:1 (rapporto molare) per la macinazione.",
+   "id": "F51"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C8",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "enro/az 1:1 salt (milled)",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+   "note": "Sale 1:1 visto per XRPD nel macinato 2:1 (con fluorochinolone libero); struttura non attribuita a quelle a cristallo singolo.",
+   "id": "F52"
+  },
+  {
+   "etichetta": "enro/glu (miscela 2:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F3",
+    "F4"
+   ],
+   "proporzioni": "2:1",
+   "citazione": "The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total).",
+   "note": "Miscela fisica fluorochinolone : acido 2:1 (rapporto molare) per la macinazione.",
+   "id": "F53"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "enro/glu 1:1 salt (milled)",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+   "note": "Sale 1:1 visto per XRPD nel macinato 2:1 (con fluorochinolone libero); struttura non attribuita a quelle a cristallo singolo.",
+   "id": "F54"
+  },
+  {
+   "etichetta": "nor/az (miscela 1:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F2",
+    "F8"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total).",
+   "note": "Miscela fisica fluorochinolone : acido 1:1 (rapporto molare) per la macinazione.",
+   "id": "F55"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C8",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "nor/az 1:1 salt (milled)",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+   "note": "Campione macinato 1:1 usato per i gel («The milled sample nor/az (1:1)...»); struttura non attribuita a quelle a cristallo singolo.",
+   "id": "F56"
+  },
+  {
+   "etichetta": "cip/sub (miscela 1:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F7"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total).",
+   "note": "Miscela fisica fluorochinolone : acido 1:1 (rapporto molare) per la macinazione.",
+   "id": "F57"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "cip/sub 1:1 salt (milled)",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+   "note": "Campione macinato 1:1 usato per i gel («The milled sample nor/az (1:1)...»); struttura non attribuita a quelle a cristallo singolo.",
+   "id": "F58"
+  },
+  {
+   "etichetta": "enro/sub (miscela 1:1)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F3",
+    "F7"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total).",
+   "note": "Miscela fisica fluorochinolone : acido 1:1 (rapporto molare) per la macinazione.",
+   "id": "F59"
+  },
+  {
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "enro/sub 1:1 salt (milled)",
+   "tipo": "sale",
+   "ospite": null,
+   "citazione": "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+   "note": "Campione macinato 1:1 usato per i gel («The milled sample nor/az (1:1)...»); struttura non attribuita a quelle a cristallo singolo.",
+   "id": "F60"
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F43",
+   "a": "F44",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "Room-temperature milling"
+    },
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), 25 mL stainless steel jar",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": "min",
+      "tipo": "processo",
+      "max": 60
+     },
+     "sfere": "one 15 mm diameter stainless steel ball",
+     "liquido": "methanol, 25 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "25 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+    "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding. Room-temperature milling experiments were performed using an oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) with a 25 mL stainless steel milling jar containing one 15 mm diameter stainless steel ball. The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total). Twenty-five microliters of methanol was added to the milling jar, and the samples were milled at 25 Hz for up to 60 min with a cool-down period of 15 min after 30 min of milling. The milled powder samples were analyzed immediately by X-ray powder diffraction."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "prodotti_secondari": [
+    "F1"
+   ],
+   "note": "Miscela cip:az 2:1 macinata con 25 µL di metanolo: i picchi sono quelli del sale 1:1 e del fluorochinolone libero (cip). Frase valida per sei miscele elencate; il sale e' confermato per XRPD (Figg. S31-S48). Raffreddamento di 15 min dopo 30 min di macinazione; durata massima 60 min."
+  },
+  {
+   "id": "E2",
+   "da": "F45",
+   "a": "F46",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "Room-temperature milling"
+    },
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), 25 mL stainless steel jar",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": "min",
+      "tipo": "processo",
+      "max": 60
+     },
+     "sfere": "one 15 mm diameter stainless steel ball",
+     "liquido": "methanol, 25 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "25 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+    "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding. Room-temperature milling experiments were performed using an oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) with a 25 mL stainless steel milling jar containing one 15 mm diameter stainless steel ball. The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total). Twenty-five microliters of methanol was added to the milling jar, and the samples were milled at 25 Hz for up to 60 min with a cool-down period of 15 min after 30 min of milling. The milled powder samples were analyzed immediately by X-ray powder diffraction."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "prodotti_secondari": [
+    "F1"
+   ],
+   "note": "Miscela cip:adi 2:1 macinata con 25 µL di metanolo: i picchi sono quelli del sale 1:1 e del fluorochinolone libero (cip). Frase valida per sei miscele elencate; il sale e' confermato per XRPD (Figg. S31-S48). Raffreddamento di 15 min dopo 30 min di macinazione; durata massima 60 min."
+  },
+  {
+   "id": "E3",
+   "da": "F47",
+   "a": "F48",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "Room-temperature milling"
+    },
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), 25 mL stainless steel jar",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": "min",
+      "tipo": "processo",
+      "max": 60
+     },
+     "sfere": "one 15 mm diameter stainless steel ball",
+     "liquido": "methanol, 25 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "25 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+    "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding. Room-temperature milling experiments were performed using an oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) with a 25 mL stainless steel milling jar containing one 15 mm diameter stainless steel ball. The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total). Twenty-five microliters of methanol was added to the milling jar, and the samples were milled at 25 Hz for up to 60 min with a cool-down period of 15 min after 30 min of milling. The milled powder samples were analyzed immediately by X-ray powder diffraction."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "prodotti_secondari": [
+    "F1"
+   ],
+   "note": "Miscela cip:pim 2:1 macinata con 25 µL di metanolo: i picchi sono quelli del sale 1:1 e del fluorochinolone libero (cip). Frase valida per sei miscele elencate; il sale e' confermato per XRPD (Figg. S31-S48). Raffreddamento di 15 min dopo 30 min di macinazione; durata massima 60 min."
+  },
+  {
+   "id": "E4",
+   "da": "F49",
+   "a": "F50",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "Room-temperature milling"
+    },
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), 25 mL stainless steel jar",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": "min",
+      "tipo": "processo",
+      "max": 60
+     },
+     "sfere": "one 15 mm diameter stainless steel ball",
+     "liquido": "methanol, 25 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "25 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+    "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding. Room-temperature milling experiments were performed using an oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) with a 25 mL stainless steel milling jar containing one 15 mm diameter stainless steel ball. The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total). Twenty-five microliters of methanol was added to the milling jar, and the samples were milled at 25 Hz for up to 60 min with a cool-down period of 15 min after 30 min of milling. The milled powder samples were analyzed immediately by X-ray powder diffraction."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "prodotti_secondari": [
+    "F1"
+   ],
+   "note": "Miscela cip:glu 2:1 macinata con 25 µL di metanolo: i picchi sono quelli del sale 1:1 e del fluorochinolone libero (cip). Frase valida per sei miscele elencate; il sale e' confermato per XRPD (Figg. S31-S48). Raffreddamento di 15 min dopo 30 min di macinazione; durata massima 60 min."
+  },
+  {
+   "id": "E5",
+   "da": "F51",
+   "a": "F52",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "Room-temperature milling"
+    },
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), 25 mL stainless steel jar",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": "min",
+      "tipo": "processo",
+      "max": 60
+     },
+     "sfere": "one 15 mm diameter stainless steel ball",
+     "liquido": "methanol, 25 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "25 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+    "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding. Room-temperature milling experiments were performed using an oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) with a 25 mL stainless steel milling jar containing one 15 mm diameter stainless steel ball. The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total). Twenty-five microliters of methanol was added to the milling jar, and the samples were milled at 25 Hz for up to 60 min with a cool-down period of 15 min after 30 min of milling. The milled powder samples were analyzed immediately by X-ray powder diffraction."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "prodotti_secondari": [
+    "F3"
+   ],
+   "note": "Miscela enro:az 2:1 macinata con 25 µL di metanolo: i picchi sono quelli del sale 1:1 e del fluorochinolone libero (enro). Frase valida per sei miscele elencate; il sale e' confermato per XRPD (Figg. S31-S48). Raffreddamento di 15 min dopo 30 min di macinazione; durata massima 60 min."
+  },
+  {
+   "id": "E6",
+   "da": "F53",
+   "a": "F54",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "Room-temperature milling"
+    },
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), 25 mL stainless steel jar",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": "min",
+      "tipo": "processo",
+      "max": 60
+     },
+     "sfere": "one 15 mm diameter stainless steel ball",
+     "liquido": "methanol, 25 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "25 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+    "In the case of cip/az, cip/adi, cip/pim, cip/glu, enro/az, and enro/glu, the patterns of the 2:1 mixtures showed the peaks of the 1:1 salt and free fluoroquinolone.",
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding. Room-temperature milling experiments were performed using an oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) with a 25 mL stainless steel milling jar containing one 15 mm diameter stainless steel ball. The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total). Twenty-five microliters of methanol was added to the milling jar, and the samples were milled at 25 Hz for up to 60 min with a cool-down period of 15 min after 30 min of milling. The milled powder samples were analyzed immediately by X-ray powder diffraction."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "prodotti_secondari": [
+    "F3"
+   ],
+   "note": "Miscela enro:glu 2:1 macinata con 25 µL di metanolo: i picchi sono quelli del sale 1:1 e del fluorochinolone libero (enro). Frase valida per sei miscele elencate; il sale e' confermato per XRPD (Figg. S31-S48). Raffreddamento di 15 min dopo 30 min di macinazione; durata massima 60 min."
+  },
+  {
+   "id": "E7",
+   "da": "F55",
+   "a": "F56",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "Room-temperature milling"
+    },
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), 25 mL stainless steel jar",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": "min",
+      "tipo": "processo",
+      "max": 60
+     },
+     "sfere": "one 15 mm diameter stainless steel ball",
+     "liquido": "methanol, 25 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "25 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding. Room-temperature milling experiments were performed using an oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) with a 25 mL stainless steel milling jar containing one 15 mm diameter stainless steel ball. The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total). Twenty-five microliters of methanol was added to the milling jar, and the samples were milled at 25 Hz for up to 60 min with a cool-down period of 15 min after 30 min of milling. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "Powder samples of the compounds for gelation experiments were prepared by ball-milling, as described above."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "Campione macinato nor/az 1:1 usato per le prove di gelificazione; la formazione del sale e' «confirmed by X-ray powder diffraction» per le miscele 1:1 e 2:1 nel loro insieme. Il testo non scrive per questa miscela il pattern del prodotto."
+  },
+  {
+   "id": "E8",
+   "da": "F57",
+   "a": "F58",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "Room-temperature milling"
+    },
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), 25 mL stainless steel jar",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": "min",
+      "tipo": "processo",
+      "max": 60
+     },
+     "sfere": "one 15 mm diameter stainless steel ball",
+     "liquido": "methanol, 25 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "25 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding. Room-temperature milling experiments were performed using an oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) with a 25 mL stainless steel milling jar containing one 15 mm diameter stainless steel ball. The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total). Twenty-five microliters of methanol was added to the milling jar, and the samples were milled at 25 Hz for up to 60 min with a cool-down period of 15 min after 30 min of milling. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "Powder samples of the compounds for gelation experiments were prepared by ball-milling, as described above."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "Campione macinato cip/sub 1:1 usato per le prove di gelificazione; la formazione del sale e' «confirmed by X-ray powder diffraction» per le miscele 1:1 e 2:1 nel loro insieme. Il testo non scrive per questa miscela il pattern del prodotto."
+  },
+  {
+   "id": "E9",
+   "da": "F59",
+   "a": "F60",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "Room-temperature milling"
+    },
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), 25 mL stainless steel jar",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": null,
+      "unita": "min",
+      "tipo": "processo",
+      "max": 60
+     },
+     "sfere": "one 15 mm diameter stainless steel ball",
+     "liquido": "methanol, 25 µL",
+     "eta_uL_mg": null
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "25 µL"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48).",
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding. Room-temperature milling experiments were performed using an oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) with a 25 mL stainless steel milling jar containing one 15 mm diameter stainless steel ball. The fluoroquinolone and respective coformer were physically mixed in a 1:1 or 2:1 molar ratio (0.25 g sample total). Twenty-five microliters of methanol was added to the milling jar, and the samples were milled at 25 Hz for up to 60 min with a cool-down period of 15 min after 30 min of milling. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "Powder samples of the compounds for gelation experiments were prepared by ball-milling, as described above."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "Campione macinato enro/sub 1:1 usato per le prove di gelificazione; la formazione del sale e' «confirmed by X-ray powder diffraction» per le miscele 1:1 e 2:1 nel loro insieme. Il testo non scrive per questa miscela il pattern del prodotto."
+  },
+  {
+   "id": "E10",
+   "da": "F29",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(enro+)2(pim2–)·1.5H2O: dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E11",
+   "da": "F16",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(enro+)(pim–)·3H2O: dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E12",
+   "da": "F19",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(enro+)(sub–)·H2O: dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E13",
+   "da": "F20",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(enro+)(az–): dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E14",
+   "da": "F25",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(nor+)2(adi2–)·2H2O form I: dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E15",
+   "da": "F13",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(nor+)(pim–): dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E16",
+   "da": "F18",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(nor+)(sub–)·3H2O: dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E17",
+   "da": "F17",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(nor+)(sub–): dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E18",
+   "da": "F36",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(nor+)2(seb2–)·3H2O: dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E19",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(cip+)(glu–): dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E20",
+   "da": "F30",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(cip+)2(sub2–)·4H2O: dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E21",
+   "da": "F12",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "rapporto_solido_solvente": "100 mg in 3 mL",
+    "solventi": [
+     {
+      "nome": "0.1 M phosphate buffer"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate whether the salts undergo phase transformations in solution, the solid phases were recovered after the solubility measurement and analyzed by XRPD (Figures S9–S18). In all cases, changes in the XRPD pattern were observed. Additional peaks or new patterns appeared, indicating that the salts transform in the dissolution medium. However, it was not possible to unambiguously identify possible dissociation or transformation products.",
+    "The powder sample (100 mg) was placed in 3 mL of 0.1 M phosphate buffer (pH 6.8, 37 °C) and stirred at 300 rpm with an 8 mm magnetic stir bar for 48 h.",
+    "All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "gently ground",
+   "frequenza": "sempre",
+   "note": "(cip+)(pim–): dopo la misura di solubilita' il solido recuperato ha un pattern XRPD cambiato («Additional peaks or new patterns appeared»). Il prodotto non e' identificato (dissociazione o trasformazione non distinte); non si sa se la trasformazione sia completa. Una frase vale per tutti e 12 i sali in bulk («In all cases»)."
+  },
+  {
+   "id": "E22",
+   "da": "F12",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 20,
+     "max": 195.0
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The DSC plots of the anhydrates (cip+)(pim–) and (cip+)(glu–) show only one endotherm due to melting at 195.0 and 229.2 °C, respectively.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "note": "«show only one endotherm due to melting»: nessuna altra transizione termica fra 20 °C e la fusione (intervallo 20-300 °C della corsa)."
+  },
+  {
+   "id": "E23",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 20,
+     "max": 229.2
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The DSC plots of the anhydrates (cip+)(pim–) and (cip+)(glu–) show only one endotherm due to melting at 195.0 and 229.2 °C, respectively.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "note": "«show only one endotherm due to melting»: nessuna altra transizione termica fra 20 °C e la fusione (intervallo 20-300 °C della corsa)."
+  },
+  {
+   "id": "E24",
+   "da": "F12",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 195.0,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 195.0,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC plots of the anhydrates (cip+)(pim–) and (cip+)(glu–) show only one endotherm due to melting at 195.0 and 229.2 °C, respectively.",
+    "In both cases, the melting point lies between those of cip (255–257 °C) and the coformer (pim: 103–105 °C; glu: 97.8 °C).",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Fusione di (cip+)(pim–) (anidro). Il punto di fusione sta fra quelli di cip (255–257 °C) e del coformero (pim: 103–105 °C; glu: 97.8 °C)."
+  },
+  {
+   "id": "E25",
+   "da": "F10",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 229.2,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 229.2,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC plots of the anhydrates (cip+)(pim–) and (cip+)(glu–) show only one endotherm due to melting at 195.0 and 229.2 °C, respectively.",
+    "In both cases, the melting point lies between those of cip (255–257 °C) and the coformer (pim: 103–105 °C; glu: 97.8 °C).",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Fusione di (cip+)(glu–) (anidro). Il punto di fusione sta fra quelli di cip (255–257 °C) e del coformero (pim: 103–105 °C; glu: 97.8 °C)."
+  },
+  {
+   "id": "E26",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 255,
+     "max": 257
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In both cases, the melting point lies between those of cip (255–257 °C) and the coformer (pim: 103–105 °C; glu: 97.8 °C).",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "incerta",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Punto di fusione di cip citato come riferimento («cip (255–257 °C)»): l'articolo non dice se rimisurato o preso dalla letteratura, ne' con quale tecnica. Forma non detta."
+  },
+  {
+   "id": "E27",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 103,
+     "max": 105
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In both cases, the melting point lies between those of cip (255–257 °C) and the coformer (pim: 103–105 °C; glu: 97.8 °C).",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "incerta",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Punto di fusione dell'acido pimelico citato come riferimento («pim: 103–105 °C»): l'articolo non dice se rimisurato o preso dalla letteratura. Forma non detta."
+  },
+  {
+   "id": "E28",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 97.8,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In both cases, the melting point lies between those of cip (255–257 °C) and the coformer (pim: 103–105 °C; glu: 97.8 °C).",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "incerta",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Punto di fusione dell'acido glutarico citato come riferimento («glu: 97.8 °C»): l'articolo non dice se rimisurato o preso dalla letteratura. Forma non detta."
+  },
+  {
+   "id": "E29",
+   "da": "F13",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 181.4,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 181.4,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "(Nor+)(pim–) gives a melting endotherm at 201.9 °C. Another endotherm at 181.4 °C indicates that a solid-state transformation takes place prior to melting. Melting of the salt is followed by melting and decomposition of nor at 227.9 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Endotermo a 181.4 °C che «indicates that a solid-state transformation takes place prior to melting»: trasformazione allo stato solido dedotta dal DSC, prodotto non identificato."
+  },
+  {
+   "id": "E30",
+   "da": "F13",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 201.9,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 201.9,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "(Nor+)(pim–) gives a melting endotherm at 201.9 °C. Another endotherm at 181.4 °C indicates that a solid-state transformation takes place prior to melting. Melting of the salt is followed by melting and decomposition of nor at 227.9 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E29",
+   "note": "Fusione del sale a 201.9 °C. Poiche' una trasformazione allo stato solido precede la fusione (181.4 °C), la fase che fonde potrebbe non essere quella di partenza: l'articolo attribuisce la fusione a (nor+)(pim–)."
+  },
+  {
+   "id": "E31",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 227.9,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "(Nor+)(pim–) gives a melting endotherm at 201.9 °C. Another endotherm at 181.4 °C indicates that a solid-state transformation takes place prior to melting. Melting of the salt is followed by melting and decomposition of nor at 227.9 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_dedotto": true,
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "note": "Fusione e decomposizione di nor a 227.9 °C dopo la fusione del sale. Il testo non dice che nor cristallizzi dal fuso del sale (per nor/sub e enro/az lo dice): la forma di partenza e' dedotta."
+  },
+  {
+   "id": "E32",
+   "da": "F30",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "picco",
+     "picchi": [
+      70.3,
+      87.3
+     ]
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 7.5,
+     "unita": "%",
+     "tipo": "totale"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "°C",
+       "picchi": [
+        70.3,
+        87.3
+       ]
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The TGA plots of (cip+)2(sub2–)·4H2O, (nor+)2(adi2–)·2H2O form I, (enro+)2(pim2–)·1.5H2O, (nor+)2(seb2–)·3H2O, and (enro+)(sub–)·H2O are in agreement with the compositions as tetra-, di-, sesqui-, tri-, and monohydrates.",
+    "The loss of the water in (cip+)2(sub2–)·4H2O occurs as two endothermic events at 70.3 and 87.3 °C. The total weight loss in the TGA plot agrees with the calculated percentage of water (exp. 7.5%, calcd 7.9%).",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Perdita dei 4 H2O in due eventi endotermici (70.3 e 87.3 °C); perdita totale in TGA 7.5% (calcolata 7.9%). L'articolo non identifica la fase disidratata (a = ignota)."
+  },
+  {
+   "id": "E33",
+   "da": "F30",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 232.8,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 232.8,
+       "unita": "°C",
+       "tipo": "picco"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The melting endotherms of (cip+)2(sub2–)·4H2O and (nor+)2(adi2–)·2H2O form I give peaks at 232.8 and 230.2 °C, respectively.",
+    "The loss of the water in (cip+)2(sub2–)·4H2O occurs as two endothermic events at 70.3 and 87.3 °C. The total weight loss in the TGA plot agrees with the calculated percentage of water (exp. 7.5%, calcd 7.9%).",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E32",
+   "note": "L'articolo attribuisce la fusione all'idrato per nome, ma nella stessa corsa l'acqua e' gia' persa a 70.3 e 87.3 °C: la fase che fonde e' la disidratata."
+  },
+  {
+   "id": "E34",
+   "da": "F25",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 86.9,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 4.1,
+     "unita": "%",
+     "tipo": "totale"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 86.9,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The TGA plots of (cip+)2(sub2–)·4H2O, (nor+)2(adi2–)·2H2O form I, (enro+)2(pim2–)·1.5H2O, (nor+)2(seb2–)·3H2O, and (enro+)(sub–)·H2O are in agreement with the compositions as tetra-, di-, sesqui-, tri-, and monohydrates.",
+    "The endotherm at 86.9 °C in the DSC plot of (nor+)2(adi2–)·2H2O form I is accompanied by a 4.1% weight loss in the TGA corresponding to two water molecules of crystallization (calcd 4.4%).",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Perdita delle 2 molecole d'acqua (4.1% in TGA, calcolata 4.4%). Fase disidratata non identificata."
+  },
+  {
+   "id": "E35",
+   "da": "F25",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 230.2,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 230.2,
+       "unita": "°C",
+       "tipo": "picco"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The melting endotherms of (cip+)2(sub2–)·4H2O and (nor+)2(adi2–)·2H2O form I give peaks at 232.8 and 230.2 °C, respectively.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E34",
+   "note": "L'articolo attribuisce la fusione all'idrato per nome, ma nella stessa corsa l'acqua e' gia' persa a 86.9 °C. Punto di fusione piu' alto di quello di nor e adi (unica eccezione fra i sali)."
+  },
+  {
+   "id": "E36",
+   "da": "F29",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 119.1,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 3.3,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "The TGA plots of (cip+)2(sub2–)·4H2O, (nor+)2(adi2–)·2H2O form I, (enro+)2(pim2–)·1.5H2O, (nor+)2(seb2–)·3H2O, and (enro+)(sub–)·H2O are in agreement with the compositions as tetra-, di-, sesqui-, tri-, and monohydrates.",
+    "(Enro+)2(pim2–)·1.5H2O is dehydrated at 119.1 °C (observed weight loss: 3.3%, calcd 3.0%). Two broad endotherms at 202.8 and 255.9 °C in the DSC plot of (enro+)2(pim2–)·1.5H2O are due to melting and decomposition.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Disidratazione a 119.1 °C, perdita osservata 3.3% (calcolata 3.0%). Fase disidratata non identificata."
+  },
+  {
+   "id": "E37",
+   "da": "F29",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 202.8,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 202.8,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "(Enro+)2(pim2–)·1.5H2O is dehydrated at 119.1 °C (observed weight loss: 3.3%, calcd 3.0%). Two broad endotherms at 202.8 and 255.9 °C in the DSC plot of (enro+)2(pim2–)·1.5H2O are due to melting and decomposition.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E36",
+   "note": "Due endotermi larghi a 202.8 e 255.9 °C «due to melting and decomposition»: fusione e decomposizione assegnate per ordine. Fonde la fase disidratata (acqua persa a 119.1 °C)."
+  },
+  {
+   "id": "E38",
+   "da": "fuso",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 255.9,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 255.9,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "(Enro+)2(pim2–)·1.5H2O is dehydrated at 119.1 °C (observed weight loss: 3.3%, calcd 3.0%). Two broad endotherms at 202.8 and 255.9 °C in the DSC plot of (enro+)2(pim2–)·1.5H2O are due to melting and decomposition.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E37",
+   "note": "Decomposizione assegnata per ordine al secondo endotermo (255.9 °C), dopo la fusione."
+  },
+  {
+   "id": "E39",
+   "da": "F19",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 98.4,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 4.2,
+     "unita": "%",
+     "tipo": "totale"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 98.4,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The TGA plots of (cip+)2(sub2–)·4H2O, (nor+)2(adi2–)·2H2O form I, (enro+)2(pim2–)·1.5H2O, (nor+)2(seb2–)·3H2O, and (enro+)(sub–)·H2O are in agreement with the compositions as tetra-, di-, sesqui-, tri-, and monohydrates.",
+    "The dehydration endotherm of (enro+)(sub–)·H2O is observed at 98.4 °C. The shoulder around 79 °C and the deviation of the experimental weight loss from the calculated value 4.2% (exp.) vs 3.3% (calcd) indicate the presence of traces of surface water that could not be removed despite prolonged drying of the sample. The endothermic events at 183.4 and 266 °C are attributed to melting and decomposition.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Disidratazione a 98.4 °C; spalla attorno a 79 °C e perdita sperimentale 4.2% contro 3.3% calcolato attribuite a tracce di acqua di superficie. Il testo scrive «the calculated value 4.2% (exp.) vs 3.3% (calcd)». Fase disidratata non identificata."
+  },
+  {
+   "id": "E40",
+   "da": "F19",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 183.4,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 183.4,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The dehydration endotherm of (enro+)(sub–)·H2O is observed at 98.4 °C. The shoulder around 79 °C and the deviation of the experimental weight loss from the calculated value 4.2% (exp.) vs 3.3% (calcd) indicate the presence of traces of surface water that could not be removed despite prolonged drying of the sample. The endothermic events at 183.4 and 266 °C are attributed to melting and decomposition.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E39",
+   "note": "Fusione e decomposizione (183.4 e 266 °C) assegnate per ordine. Fonde la fase disidratata."
+  },
+  {
+   "id": "E41",
+   "da": "fuso",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 266,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 266,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The dehydration endotherm of (enro+)(sub–)·H2O is observed at 98.4 °C. The shoulder around 79 °C and the deviation of the experimental weight loss from the calculated value 4.2% (exp.) vs 3.3% (calcd) indicate the presence of traces of surface water that could not be removed despite prolonged drying of the sample. The endothermic events at 183.4 and 266 °C are attributed to melting and decomposition.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E40",
+   "note": "Decomposizione assegnata per ordine al secondo evento endotermico (266 °C)."
+  },
+  {
+   "id": "E42",
+   "da": "F36",
+   "a": "F39",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 70.3,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The TGA plots of (cip+)2(sub2–)·4H2O, (nor+)2(adi2–)·2H2O form I, (enro+)2(pim2–)·1.5H2O, (nor+)2(seb2–)·3H2O, and (enro+)(sub–)·H2O are in agreement with the compositions as tetra-, di-, sesqui-, tri-, and monohydrates.",
+    "The water of crystallization of (nor+)2(seb2–)·3H2O is lost at 70.3 °C. A broad endotherm with shoulders covers the 90–175 °C range, suggesting that the anhydrous form undergoes several solid-state transformations before melting at 208.6 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Acqua di cristallizzazione persa a 70.3 °C: forma anidra (nominata nel testo)."
+  },
+  {
+   "id": "E43",
+   "da": "F39",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 90,
+     "max": 175
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The water of crystallization of (nor+)2(seb2–)·3H2O is lost at 70.3 °C. A broad endotherm with shoulders covers the 90–175 °C range, suggesting that the anhydrous form undergoes several solid-state transformations before melting at 208.6 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Un endotermo largo con spalle fra 90 e 175 °C, «suggesting» piu' trasformazioni allo stato solido della forma anidra prima della fusione: dedotto dal profilo DSC."
+  },
+  {
+   "id": "E44",
+   "da": "F39",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 208.6,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The water of crystallization of (nor+)2(seb2–)·3H2O is lost at 70.3 °C. A broad endotherm with shoulders covers the 90–175 °C range, suggesting that the anhydrous form undergoes several solid-state transformations before melting at 208.6 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E42",
+   "da_dedotto": true,
+   "note": "Fusione a 208.6 °C dopo le trasformazioni a 90-175 °C: il testo non dice quale fase fonde; la partenza e' la forma anidra (dedotta)."
+  },
+  {
+   "id": "E45",
+   "da": "F16",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 93.8,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 3.1,
+     "unita": "%",
+     "tipo": "passo"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 93.8,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC plot of (enro+)(pim–)·3H2O shows three endothermic events at 93.8, 111.8, and 127.5 °C. However, only the endotherm at 93.8 °C is associated with a loss of one water molecule of crystallization in the TGA plot (exp. 3.1%; calcd 3.1%). The endotherms at 183.9 and 255.2 °C are due to melting and decomposition.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Solo l'endotermo a 93.8 °C e' associato alla perdita di UNA molecola d'acqua (3.1% in TGA, calcolata 3.1%) su tre. Gli endotermi a 111.8 e 127.5 °C non sono assegnati. Il campione in bulk e' puro all'XRPD e gli autori scrivono: «We do not have an explanation for the discrepancy between the TGA and XRPD data»."
+  },
+  {
+   "id": "E46",
+   "da": "F16",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 183.9,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 183.9,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC plot of (enro+)(pim–)·3H2O shows three endothermic events at 93.8, 111.8, and 127.5 °C. However, only the endotherm at 93.8 °C is associated with a loss of one water molecule of crystallization in the TGA plot (exp. 3.1%; calcd 3.1%). The endotherms at 183.9 and 255.2 °C are due to melting and decomposition.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E45",
+   "note": "Fusione e decomposizione (183.9 e 255.2 °C) assegnate per ordine. Poiche' una sola delle tre molecole d'acqua e' persa in TGA, la fase che fonde non e' identificata."
+  },
+  {
+   "id": "E47",
+   "da": "fuso",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 255.2,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 255.2,
+       "unita": "°C",
+       "tipo": "non_specificato"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC plot of (enro+)(pim–)·3H2O shows three endothermic events at 93.8, 111.8, and 127.5 °C. However, only the endotherm at 93.8 °C is associated with a loss of one water molecule of crystallization in the TGA plot (exp. 3.1%; calcd 3.1%). The endotherms at 183.9 and 255.2 °C are due to melting and decomposition.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E46",
+   "note": "Decomposizione assegnata per ordine al secondo endotermo (255.2 °C)."
+  },
+  {
+   "id": "E48",
+   "da": "F18",
+   "a": "F40",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 82.8,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In the DSC plot of (nor+)(sub–)·3H2O, three endothermic events occur at 82.8, 136.3, and 204.1 °C that can be assigned to dehydration, structural rearrangement of the dehydrated form, and melting.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Primo dei tre endotermi (82.8, 136.3, 204.1 °C) assegnati per ordine a disidratazione, riarrangiamento strutturale della forma disidratata e fusione."
+  },
+  {
+   "id": "E49",
+   "da": "F40",
+   "a": "F41",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 136.3,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In the DSC plot of (nor+)(sub–)·3H2O, three endothermic events occur at 82.8, 136.3, and 204.1 °C that can be assigned to dehydration, structural rearrangement of the dehydrated form, and melting.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E48",
+   "note": "«structural rearrangement of the dehydrated form» (secondo endotermo, assegnato per ordine)."
+  },
+  {
+   "id": "E50",
+   "da": "F41",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 204.1,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In the DSC plot of (nor+)(sub–)·3H2O, three endothermic events occur at 82.8, 136.3, and 204.1 °C that can be assigned to dehydration, structural rearrangement of the dehydrated form, and melting.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E49",
+   "note": "Terzo endotermo, fusione (assegnato per ordine). Il campione pre-riscaldato fonde a 211.9 °C: due valori per la fusione della fase ottenuta dal triidrato."
+  },
+  {
+   "id": "E51",
+   "da": "F18",
+   "a": "F42",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 140,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "tempo": {
+     "valore": 15,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "When the trihydrate is heated to 140 °C for 15 min before the DSC analysis, the only thermal event in the thermogram is melting at 211.9 °C. This is different from the thermal behavior of the anhydrous (nor+)(sub–) salt prepared by solution crystallization that melts at 183.1 °C followed by crystallization of nor at 200.2 °C followed by melting of nor at 228.8 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Triidrato riscaldato a 140 °C per 15 min prima del DSC: poi l'unico evento termico e' la fusione a 211.9 °C, cioe' disidratazione e riarrangiamento sono avvenuti (non c'e' piu' alcun endotermo a 82.8 e 136.3 °C). Il testo non descrive il prodotto (a = fase descritta solo dalla sua fusione); trattamento termico fatto prima del DSC."
+  },
+  {
+   "id": "E52",
+   "da": "F42",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 20,
+     "max": 211.9
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "When the trihydrate is heated to 140 °C for 15 min before the DSC analysis, the only thermal event in the thermogram is melting at 211.9 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E51",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "pretrattamento": "triidrato riscaldato a 140 °C per 15 min",
+   "note": "«the only thermal event in the thermogram is melting»: nessun endotermo di disidratazione o riarrangiamento nel DSC del campione pre-riscaldato (intervallo 20-300 °C della corsa)."
+  },
+  {
+   "id": "E53",
+   "da": "F42",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 211.9,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "When the trihydrate is heated to 140 °C for 15 min before the DSC analysis, the only thermal event in the thermogram is melting at 211.9 °C. This is different from the thermal behavior of the anhydrous (nor+)(sub–) salt prepared by solution crystallization that melts at 183.1 °C followed by crystallization of nor at 200.2 °C followed by melting of nor at 228.8 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E51",
+   "pretrattamento": "triidrato riscaldato a 140 °C per 15 min",
+   "note": "Fusione a 211.9 °C del campione pre-riscaldato, diversa dal sale anidro da soluzione (183.1 °C)."
+  },
+  {
+   "id": "E54",
+   "da": "F17",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 183.1,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "When the trihydrate is heated to 140 °C for 15 min before the DSC analysis, the only thermal event in the thermogram is melting at 211.9 °C. This is different from the thermal behavior of the anhydrous (nor+)(sub–) salt prepared by solution crystallization that melts at 183.1 °C followed by crystallization of nor at 200.2 °C followed by melting of nor at 228.8 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Sale anidro preparato per cristallizzazione da soluzione: fonde a 183.1 °C."
+  },
+  {
+   "id": "E55",
+   "da": "fuso",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 200.2,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "When the trihydrate is heated to 140 °C for 15 min before the DSC analysis, the only thermal event in the thermogram is melting at 211.9 °C. This is different from the thermal behavior of the anhydrous (nor+)(sub–) salt prepared by solution crystallization that melts at 183.1 °C followed by crystallization of nor at 200.2 °C followed by melting of nor at 228.8 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E54",
+   "note": "Dopo la fusione del sale, cristallizza nor a 200.2 °C (stessa corsa)."
+  },
+  {
+   "id": "E56",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 228.8,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "When the trihydrate is heated to 140 °C for 15 min before the DSC analysis, the only thermal event in the thermogram is melting at 211.9 °C. This is different from the thermal behavior of the anhydrous (nor+)(sub–) salt prepared by solution crystallization that melts at 183.1 °C followed by crystallization of nor at 200.2 °C followed by melting of nor at 228.8 °C.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E55",
+   "note": "Fusione di nor a 228.8 °C, dopo la cristallizzazione dal fuso del sale."
+  },
+  {
+   "id": "E57",
+   "da": "F20",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 144.7,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The DSC plot of (enro+)(az–) shows endotherms at 144.7, 173.4, and 263.5 °C due to melting of the salt, crystallization of enro, and melting of enro.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Primo endotermo (144.7 °C): fusione del sale. Il sale ha il punto di fusione piu' basso di quelli studiati."
+  },
+  {
+   "id": "E58",
+   "da": "fuso",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 173.4,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The DSC plot of (enro+)(az–) shows endotherms at 144.7, 173.4, and 263.5 °C due to melting of the salt, crystallization of enro, and melting of enro.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E57",
+   "note": "Secondo evento (173.4 °C): cristallizzazione di enro dal fuso. Il testo lo elenca fra gli «endotherms» (una cristallizzazione e' esotermica): incoerenza dell'articolo. Assegnazione per ordine."
+  },
+  {
+   "id": "E59",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 263.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purged in ambient mode",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The DSC plot of (enro+)(az–) shows endotherms at 144.7, 173.4, and 263.5 °C due to melting of the salt, crystallization of enro, and melting of enro.",
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were carried out with an STA625 thermal analyzer (RheometricScientific, Piscataway, New Jersey), calibrated using an indium standard. The temperature range was 20–300 °C, and the heating rate was 10 °C/min. Open aluminum crucibles were used, and nitrogen was purged in ambient mode."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "da_evento": "E58",
+   "note": "Terzo endotermo (263.5 °C): fusione di enro."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Ciprofloxacin, norfloxacin, enrofloxacin, suberic acid, azeliac acid, and sebacic acid were obtained from Tokyo Chemical Industry (TCI, Europe). Glutaric acid, adipic acid, and pimelic acid were obtained from Sigma-Aldrich."
+   ]
+  },
+  {
+   "forme": [
+    "F10",
+    "F11",
+    "F12",
+    "F13",
+    "F14",
+    "F15",
+    "F16",
+    "F17",
+    "F18",
+    "F19",
+    "F20",
+    "F21",
+    "F22",
+    "F23",
+    "F24",
+    "F27",
+    "F28",
+    "F29",
+    "F30",
+    "F31",
+    "F32",
+    "F35"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "water",
+    "methanol",
+    "ethanol",
+    "acetonitrile",
+    "acetonitrile/methanol",
+    "acetone",
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "fluoroquinolone 0.1 mmol + 1 molar equivalent of the dicarboxylic acid, in the minimum amount of solvent",
+   "solo_supplementare": true,
+   "citazioni": [
+    "Cip, nor, or enro (0.1 mmol) and a molar equivalent of the respective carboxylic acid coformer were dissolved in the minimum amount of solvent (water, methanol, ethanol, acetonitrile, acetonitrile/methanol, acetone, and ethyl acetate). The solutions were left in open vials to slowly evaporate at room temperature. Details of the crystallization experiments are provided in the Supporting Information (Tables S1–S3).",
+    "Several of the salts crystallized as different stoichiomorphs, solvates, or polymorphs depending on the solvent."
+   ],
+   "note": "Una prova per solvente; quale solvente dia quale sale sta nelle Tabelle S1-S3 (supplementare). Escluse le forme con solvente detto nel testo (sotto) e il triidrato (nor+)2(seb2–)·3H2O, ottenuto in bulk."
+  },
+  {
+   "forme": [
+    "F25"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Two polymorphs of (nor+)2(adi2–)·2H2O were obtained from water and methanol/acetonitrile (1:1), respectively, denoted form I and form II (Figure 7c,d).",
+    "The solutions were left in open vials to slowly evaporate at room temperature."
+   ]
+  },
+  {
+   "forme": [
+    "F26"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol/acetonitrile (1:1)"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Two polymorphs of (nor+)2(adi2–)·2H2O were obtained from water and methanol/acetonitrile (1:1), respectively, denoted form I and form II (Figure 7c,d).",
+    "The solutions were left in open vials to slowly evaporate at room temperature."
+   ]
+  },
+  {
+   "forme": [
+    "F34"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Cocrystallizing enro with adi from acetonitrile and nor with az from methanol gave two new stoichiomorphs of enro/adi and nor/az that can be classified as conjugate acid/base molecular ionic cocrystals.34",
+    "The solutions were left in open vials to slowly evaporate at room temperature."
+   ]
+  },
+  {
+   "forme": [
+    "F33"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Cocrystallizing enro with adi from acetonitrile and nor with az from methanol gave two new stoichiomorphs of enro/adi and nor/az that can be classified as conjugate acid/base molecular ionic cocrystals.34",
+    "The solutions were left in open vials to slowly evaporate at room temperature."
+   ]
+  },
+  {
+   "forme": [
+    "F37",
+    "F38"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Our cocrystallization screen also yielded two new solvates of enro, namely, enro.CH3CN and enro.H2O (Figure S1).",
+    "The solutions were left in open vials to slowly evaporate at room temperature."
+   ],
+   "note": "Ottenuti nello screening di cocristallizzazione di enro con gli acidi; il solvente di ciascuno non e' detto (dettagli nel supplementare)."
+  },
+  {
+   "forme": [],
+   "metodo": "evaporazione",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "fonte_dati": "propria",
+   "componenti_cercati": [
+    "ciprofloxacin (cip)",
+    "sebacic acid (seb)"
+   ],
+   "citazioni": [
+    "Crystals suitable for single-crystal X-ray analysis were obtained in all cases except from solutions containing cip and seb."
+   ],
+   "note": "Nessun cristallo adatto alla diffrazione da cip + seb: gli unici sali con seb strutturati sono quelli di nor e enro."
+  },
+  {
+   "forme": [
+    "F29",
+    "F16",
+    "F19",
+    "F20",
+    "F25",
+    "F13",
+    "F18",
+    "F17",
+    "F36",
+    "F10",
+    "F30",
+    "F12"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Bulk samples were grown by crystallization from solution. All samples used in the solubility studies were gently ground to avoid any bias from large particles."
+   ],
+   "note": "Campioni in bulk dei 12 sali delle prove di solubilita'; la composizione e' confermata confrontando l'XRPD con i pattern simulati dei cristalli singoli (Figg. S9–S18), salvo il triidrato (nor+)2(seb2–)·3H2O, per cui il testo non da' una struttura. I sali non preparati in bulk: (cip+)2(pim2–)·H2O, (nor+)2(adi2–)·2H2O form II, (enro+)(pim–)·H2O, (enro+)(seb–), (nor+)2(pim2–)·C2H5OH, (nor+)2(az2–)·az·4H2O, (nor+)(seb–)·nor·H2O."
+  },
+  {
+   "forme": [
+    "F44",
+    "F46",
+    "F48",
+    "F50",
+    "F52",
+    "F54",
+    "F56",
+    "F58",
+    "F60"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E1",
+    "E2",
+    "E3",
+    "E4",
+    "E5",
+    "E6",
+    "E7",
+    "E8",
+    "E9"
+   ],
+   "solventi": [
+    "methanol"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Bulk samples of the salts for the gelation experiments were prepared by liquid-assisted grinding.",
+    "Mixtures in the ratio of 1:1 and 2:1 of the respective fluoroquinolone and carboxylic acid were ball-milled, and salt formation was confirmed by X-ray powder diffraction (Figures S31–S48)."
+   ],
+   "note": "Sali macinati degli eventi di LAG."
+  },
+  {
+   "forme": [
+    "F19"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "rapporto_soluzione": "10% w/v: 100 mg of the milled enro/sub salt in 1 mL of solvent",
+   "pretrattamento": "campione macinato 1:1 sciolto scaldando fino a 10 °C dal punto di ebollizione del solvente",
+   "citazioni": [
+    "To prepare a 10% w/v gel, 100 mg of the powdered sample was dissolved in 1 mL of the respective solvent in a standard 15 × 160 mm test tube. Samples were heated to within 10 °C of the respective solvent’s boiling point under stirring until dissolved. Samples were then allowed to cool slowly to room temperature.",
+    "The XRPD pattern of the enro/sub/H2O xerogel is a good match with that of the (enro+)(sub–)·H2O single crystal (Figure S52)."
+   ],
+   "note": "Gel di enro/sub in acqua (poi essiccato: xerogel): il pattern XRPD combacia con (enro+)(sub–)·H2O. Il campione e' sciolto del tutto, quindi e' una cristallizzazione da soluzione (preparazione), non un evento. I xerogel di enro/sub e nor/az in glicole propilenico non combaciano con i pattern simulati dei sali con struttura («do not match»): fase non identificata, nessuna forma estratta."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.099,
+      "unita": "mg/mL"
+     },
+     "forma": "F1",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1)",
+     "citazione": "cip | 0.099 ± 0.001 |"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.724,
+      "unita": "mg/mL"
+     },
+     "forma": "F10",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 7.33 volte",
+     "citazione": "(cip+)(glu–) | 0.724 ± 0.005 | 7.33"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.949,
+      "unita": "mg/mL"
+     },
+     "forma": "F12",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 9.62 volte",
+     "citazione": "(cip+)(pim–) | 0.949 ± 0.006 | 9.62"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.317,
+      "unita": "mg/mL"
+     },
+     "forma": "F30",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 3.04 volte",
+     "citazione": "(cip+)2(sub2–)·4H2O | 0.317 ± 0.004 | 3.04"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 6,
+      "unita": null,
+      "circa": true
+     },
+     "gruppo": "carboxyl group of the fluoroquinolone cations",
+     "calcolato": false,
+     "metodo": "valore dato per i fluorochinoloni in generale (cip, nor, enro)",
+     "citazione": "The carboxyl groups of the fluoroquinolone cations are less acidic than the dicarboxylic acids used (pKa ∼ 6 vs 3.7–4.7)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "contains a basic piperazinyl nitrogen and a carboxylic acid group",
+     "citazione": "Nor, cip, and enro contain a basic piperazinyl nitrogen and a carboxylic acid group (Figure 1)."
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "the carboxyl group of the fluoroquinolone cation stays protonated and forms a strong intramolecular H bond to the neighboring carbonyl oxygen (S11(6) motif)",
+     "citazione": "They are therefore protonated and form a strong intramolecular H bond to the neighboring carbonyl oxygen (S11(6) motif)."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.466,
+      "unita": "mg/mL"
+     },
+     "forma": "F2",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1)",
+     "citazione": "nor | 0.466 ± 0.003 |"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 1.147,
+      "unita": "mg/mL"
+     },
+     "forma": "F25",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 2.46 volte",
+     "citazione": "(nor+)2(adi2–)·2H2O form I | 1.147 ± 0.003 | 2.46"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 1.373,
+      "unita": "mg/mL"
+     },
+     "forma": "F13",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 2.95 volte",
+     "citazione": "(nor+)(pim–) | 1.373 ± 0.004 | 2.95"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 1.294,
+      "unita": "mg/mL"
+     },
+     "forma": "F18",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 2.78 volte",
+     "citazione": "(nor+)(sub–)·3H2O | 1.294 ± 0.004 | 2.78"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 1.24,
+      "unita": "mg/mL"
+     },
+     "forma": "F17",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 2.66 volte",
+     "citazione": "(nor+)(sub–) | 1.240 ± 0.006 | 2.66"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 1.125,
+      "unita": "mg/mL"
+     },
+     "forma": "F36",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 2.42 volte",
+     "citazione": "(nor+)2(seb2–)·3H2O | 1.125 ± 0.006 | 2.42"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 6,
+      "unita": null,
+      "circa": true
+     },
+     "gruppo": "carboxyl group of the fluoroquinolone cations",
+     "calcolato": false,
+     "metodo": "valore dato per i fluorochinoloni in generale (cip, nor, enro)",
+     "citazione": "The carboxyl groups of the fluoroquinolone cations are less acidic than the dicarboxylic acids used (pKa ∼ 6 vs 3.7–4.7)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "contains a basic piperazinyl nitrogen and a carboxylic acid group",
+     "citazione": "Nor, cip, and enro contain a basic piperazinyl nitrogen and a carboxylic acid group (Figure 1)."
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "the carboxyl group of the fluoroquinolone cation stays protonated and forms a strong intramolecular H bond to the neighboring carbonyl oxygen (S11(6) motif)",
+     "citazione": "They are therefore protonated and form a strong intramolecular H bond to the neighboring carbonyl oxygen (S11(6) motif)."
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.289,
+      "unita": "mg/mL"
+     },
+     "forma": "F3",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1)",
+     "citazione": "enro | 0.289 ± 0.003 |"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.668,
+      "unita": "mg/mL"
+     },
+     "forma": "F29",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 2.31 volte",
+     "citazione": "(enro+)2(pim2–)·1.5H2O | 0.668 ± 0.003 | 2.31"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 1.079,
+      "unita": "mg/mL"
+     },
+     "forma": "F16",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 3.73 volte",
+     "citazione": "(enro+)(pim–)·3H2O | 1.079 ± 0.001 | 3.73"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 3.386,
+      "unita": "mg/mL"
+     },
+     "forma": "F19",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 11.69 volte",
+     "citazione": "(enro+)(sub–)·H2O | 3.386 ± 0.004 | 11.69"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 4.503,
+      "unita": "mg/mL"
+     },
+     "forma": "F20",
+     "solvente": "0.1 M phosphate buffer, pH 6.8, 37 °C (apparent solubility of the fluoroquinolone, 48 h, UV/vis at 270 nm)",
+     "calcolato": false,
+     "metodo": "shake-flask; 100 mg in 3 mL, 300 rpm, 48 h; UV/vis (Table 1); aumento di solubilita' rispetto al fluorochinolone: 15.55 volte",
+     "citazione": "(enro+)(az–) | 4.503 ± 0.002 | 15.55"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 6,
+      "unita": null,
+      "circa": true
+     },
+     "gruppo": "carboxyl group of the fluoroquinolone cations",
+     "calcolato": false,
+     "metodo": "valore dato per i fluorochinoloni in generale (cip, nor, enro)",
+     "citazione": "The carboxyl groups of the fluoroquinolone cations are less acidic than the dicarboxylic acids used (pKa ∼ 6 vs 3.7–4.7)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "contains a basic piperazinyl nitrogen and a carboxylic acid group",
+     "citazione": "Nor, cip, and enro contain a basic piperazinyl nitrogen and a carboxylic acid group (Figure 1)."
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "the carboxyl group of the fluoroquinolone cation stays protonated and forms a strong intramolecular H bond to the neighboring carbonyl oxygen (S11(6) motif)",
+     "citazione": "They are therefore protonated and form a strong intramolecular H bond to the neighboring carbonyl oxygen (S11(6) motif)."
+    }
+   ]
+  },
+  {
+   "composto": "C4",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8 in the series)",
+     "citazione": "In this work, we have studied the crystal packing of molecular salts of nor, cip, and enro and α,ω-dicarboxylic acids HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8; Figure 1)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F10",
+     "testo": "COOH group in the syn conformation (τ = 5.8 and −10.4° for the two crystallographically independent glu– in the asymmetric unit)",
+     "citazione": "The COOH group is in the syn conformation in (cip+)(glu–) (τ = 5.8 and −10.4° for the two crystallographically independent glu– in the asymmetric unit)"
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F11",
+     "testo": "COOH group in the syn conformation (τ = 11.0, −2.4 and −7.3° for the three crystallographically independent glu–)",
+     "citazione": "and (enro+)(glu–)·0.33CH3CN·0.67H2O (τ = 11.0, −2.4 and −7.3° for the three crystallographically independent glu– in the asymmetric unit)"
+    }
+   ]
+  },
+  {
+   "composto": "C5",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8 in the series)",
+     "citazione": "In this work, we have studied the crystal packing of molecular salts of nor, cip, and enro and α,ω-dicarboxylic acids HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8; Figure 1)."
+    }
+   ]
+  },
+  {
+   "composto": "C6",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8 in the series)",
+     "citazione": "In this work, we have studied the crystal packing of molecular salts of nor, cip, and enro and α,ω-dicarboxylic acids HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8; Figure 1)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F15",
+     "testo": "COOH group in the syn conformation (τ = −14.2°)",
+     "citazione": "(enro+)(pim–)·H2O (τ = −14.2°)"
+    }
+   ]
+  },
+  {
+   "composto": "C7",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8 in the series)",
+     "citazione": "In this work, we have studied the crystal packing of molecular salts of nor, cip, and enro and α,ω-dicarboxylic acids HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8; Figure 1)."
+    }
+   ]
+  },
+  {
+   "composto": "C8",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8 in the series)",
+     "citazione": "In this work, we have studied the crystal packing of molecular salts of nor, cip, and enro and α,ω-dicarboxylic acids HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8; Figure 1)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F20",
+     "testo": "COOH group in the syn conformation (τ = 1.3°)",
+     "citazione": "(enro+)(az–) (τ = 1.3°)"
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F21",
+     "testo": "COOH group in the anti-conformation (τ = −178.3°)",
+     "citazione": "in the anti-conformation in (cip+)(az–)·CH3CN (τ = −178.3°)"
+    }
+   ]
+  },
+  {
+   "composto": "C9",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8 in the series)",
+     "citazione": "In this work, we have studied the crystal packing of molecular salts of nor, cip, and enro and α,ω-dicarboxylic acids HOOC-(CH2)n-COOH with long, flexible spacer chains (n = 3–8; Figure 1)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F35",
+     "testo": "COOH group of seb– in the anti-conformation (τ = 176.3°)",
+     "citazione": "The carboxyl group of seb– is in the anti-conformation (τ = 176.3°)"
+    }
+   ]
+  }
+ ],
+ "note": "Sali e cocristalli ionici molecolari di cip, nor, enro con acidi α,ω-dicarbossilici (glu, adi, pim, sub, az, seb). Strutture: 26 sali elencati nei Risultati (13 A+B–, 10 A2+B2–, 2 A2+B2–B, 1 A+B–A) piu' 2 solvati di enro; l'abstract e le conclusioni parlano di «27 new» strutture e i CCDC sono 2128064-2128092 (29 numeri), non attribuiti alle singole forme. Le forme sono create per tutti i sali strutturati anche quando non hanno eventi. Incoerenze dell'articolo: «(cip+)(glu–)... two pim– anions» (sembra un refuso); (enro+)2(adi2–)·adi·2CH3CN contro ·adi·CH3CN; (cip+)2(sub2–)·4H2O e «·H2O» in testo e Fig. 6; «(enro+)(glu–)·0.33H3CN·0.67H2O»; il triidrato (nor+)2(seb2–)·3H2O del bulk non compare fra le strutture (c'e' solo ·4CH3OH); «crystallization of enro» elencata fra gli endotermi; (nor+)(sub–)·3H2O fonde a 204.1 °C nella corsa diretta e a 211.9 °C dopo il trattamento a 140 °C. Non sono eventi: la gelificazione (26 delle 216 combinazioni sale/solvente danno gel; Tgel di 10% wt fra 40 e 60 °C; gel termoreversibili; enro/sub/H2O e nor/az/glicole propilenico invariati per 2 settimane con Tgel in calo di <3 °C, enro/sub e cip/sub in glicole propilenico con calo di 9 °C), perche' il gel non e' una forma cristallina; la reologia; il SEM (aghi di >10 µm); il confronto con i pattern simulati dei xerogel. Gli intervalli di pKa degli acidi (3.7–4.7) non sono attribuiti ai singoli acidi. Le miscele macinate esistono per 27 campioni (216/8), non per 28: non e' detto quale manchi, quindi sono estratti solo i macinati con esito descritto."
+}
