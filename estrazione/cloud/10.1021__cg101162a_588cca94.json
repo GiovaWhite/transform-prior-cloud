@@ -1,0 +1,1926 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/cg101162a",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "2,4-dihydroxybenzoic acid (β-resorcylic acid, βRA)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "pyridine",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "form I",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/a",
+   "cella": {
+    "a": 23.1978,
+    "b": 5.5469,
+    "c": 5.198,
+    "beta": 92.215,
+    "V": 668.36,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "PXRD",
+    "condizioni": "298 K"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) dimers",
+     "chi": "inversion related dimers of the acid",
+     "citazione": "The two polymorphs form inversion related R22(8) dimers"
+    }
+   ],
+   "citazione": "Form I crystallizes in the monoclinic space group P21/a (Z′ = 1) and form II° in P21/n (Z′ = 1), both adopting a conformation similar to conf_p1 (Figure 1).",
+   "note": "Struttura risolta dai dati PXRD di polvere a temperatura ambiente (Rietveld, corpo rigido); cella da Tabella 1 (298(2) K). Il protone del p-OH e' forse disordinato (banda IR larga, superficie di Hirshfeld): vedi nota dell'articolo. Nessun refcode ne' CCDC nel testo."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "form II°",
+   "etichette_alternative": [
+    "II°",
+    "IIo",
+    "form IIo"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "strutture": [
+    {
+     "refcode": "ZZZEEU01",
+     "temperatura": {
+      "valore": 90,
+      "unita": "K"
+     },
+     "fonte": "non_detta",
+     "citazione": "ZZZEEU01 to ZZZEEU04:(7)P21/n, Z′ = 1, measured at 90, 100, 110, and 150 K"
+    },
+    {
+     "refcode": "ZZZEEU02",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "non_detta",
+     "citazione": "ZZZEEU01 to ZZZEEU04:(7)P21/n, Z′ = 1, measured at 90, 100, 110, and 150 K"
+    },
+    {
+     "refcode": "ZZZEEU03",
+     "temperatura": {
+      "valore": 110,
+      "unita": "K"
+     },
+     "fonte": "non_detta",
+     "citazione": "ZZZEEU01 to ZZZEEU04:(7)P21/n, Z′ = 1, measured at 90, 100, 110, and 150 K"
+    },
+    {
+     "refcode": "ZZZEEU04",
+     "temperatura": {
+      "valore": 150,
+      "unita": "K"
+     },
+     "fonte": "non_detta",
+     "citazione": "ZZZEEU01 to ZZZEEU04:(7)P21/n, Z′ = 1, measured at 90, 100, 110, and 150 K"
+    }
+   ],
+   "refcode_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) dimers",
+     "chi": "inversion related dimers of the acid",
+     "citazione": "The two polymorphs form inversion related R22(8) dimers"
+    },
+    {
+     "motivo": "puckered hydrogen-bonded sheets",
+     "chi": "O4−H···O3 interaction with n glide symmetry",
+     "citazione": "In form II°, the O4−H···O3 interaction exhibits n glide symmetry (Figure 10b), leading to puckered hydrogen-bonded sheets (Figure 10a)"
+    }
+   ],
+   "citazione": "Form I crystallizes in the monoclinic space group P21/a (Z′ = 1) and form II° in P21/n (Z′ = 1), both adopting a conformation similar to conf_p1 (Figure 1).",
+   "note": "Polimorfo stabile a temperatura ambiente, commerciale (Fluka). I quattro refcode ZZZEEU01-04 sono dati come intervallo e le quattro temperature come elenco: l'attribuzione di ciascuna T al suo refcode e' PER ORDINE (refcode_dedotto), il testo non la scrive voce per voce. Il testo dice anche che l'intervallo di temperatura e' stato esteso di recente fino a 20 K (rif. 10), senza refcode."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "HH",
+   "etichette_alternative": [
+    "hemihydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 0.5,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "a": 7.027,
+    "b": 9.5449,
+    "c": 11.1763,
+    "alpha": 96.684,
+    "beta": 104.319,
+    "gamma": 98.903,
+    "V": 708.15,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "173 K"
+   },
+   "strutture": [
+    {
+     "refcode": "QIVTUK",
+     "fonte": "non_detta",
+     "citazione": "and a hemihydrate (QIVTUK:(8)P1̅, Z′ = 1)"
+    },
+    {
+     "refcode": null,
+     "temperatura": {
+      "valore": 173,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "temperature/K | 298(2) | 173(2) | 173(2) | 173(2)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) dimers",
+     "chi": "symmetrically equivalent, inversion related βRA molecules (homodimers)",
+     "citazione": "The structure comprises columns of R22(8) dimers, formed by symmetrically equivalent, inversion related βRA molecules (homodimers)."
+    },
+    {
+     "motivo": "water molecule bridge",
+     "chi": "O4′−H···Owater and Owater−H···O4",
+     "citazione": "indirectly via a water molecule bridge, that forms two hydrogen bonds (O4′−H···Owater and Owater−H···O4), leading to sheets"
+    }
+   ],
+   "citazione": "HH crystallizes in the triclinic space group P1̅ with two molecules of βRA (similar to conf_p1 and conf_p2) and one water molecule in the asymmetric unit, in agreement with the stoichiometry determined by TGA.",
+   "note": "Emiidrato gia' noto (QIVTUK, rif. 8), riprodotto qui; struttura rideterminata a 173 K (Tabella 1, formula C7H6O4·0.5(H2O), Z = 2). Il testo non dice se QIVTUK sia la stessa misura della Tabella 1: due voci in strutture. Il refcode QIVTUK e' scritto attaccato a un rimando ('QIVTUK:(8)')."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "MH",
+   "etichette_alternative": [
+    "monohydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "citazione": "The second hydrate (monohydrate, MH) crystallizes as needles and was found to be very unstable at ambient conditions.",
+   "note": "Stechiometria 1 dal nome 'monohydrate'; la TGA misura ca. 9.5% di perdita, pari a 0.9 mol di acqua per molecola di acido (teorico 10.47%), spiegato dagli autori con una perdita d'acqua durante la preparazione. Nessun dato cristallografico."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "SAA",
+   "etichette_alternative": [
+    "acetic acid monosolvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetic acid",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "citazione": "the acetic acid monosolvate (SAA) by fast crystallization",
+   "note": "Stechiometria 1 dal nome 'monosolvate'. Nessun dato cristallografico."
+  },
+  {
+   "id": "F6",
+   "composto": "C1",
+   "etichetta": "SDMF-II",
+   "etichette_alternative": [
+    "dimethyl formamide 0.75-solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "N,N-dimethyl formamide (DMF)",
+    "stechiometria": 0.75,
+    "riferito_a": "molecola"
+   },
+   "citazione": "The dioxane hemisolvate (SDX), dimethyl formamide 0.75-solvate (SDMF-II)",
+   "note": "Nessun dato cristallografico."
+  },
+  {
+   "id": "F7",
+   "composto": "C1",
+   "etichetta": "SDMF-I",
+   "etichette_alternative": [
+    "dimethyl formamide hemisolvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "N,N-dimethyl formamide (DMF)",
+    "stechiometria": 0.5,
+    "riferito_a": "molecola"
+   },
+   "citazione": "Finally, the dimethyl formamide hemisolvate (SDMF-I) was obtained as an intermediate desolvation product of the SDMF-II solvate.",
+   "note": "Nessun dato cristallografico."
+  },
+  {
+   "id": "F8",
+   "composto": "C1",
+   "etichetta": "SDMSO",
+   "etichette_alternative": [
+    "dimethyl sulfoxide hemisolvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethyl sulfoxide (DMSO)",
+    "stechiometria": 0.5,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 6.39832,
+    "b": 11.7099,
+    "c": 23.2362,
+    "V": 1740.94,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "173 K"
+   },
+   "strutture": [
+    {
+     "refcode": null,
+     "temperatura": {
+      "valore": 173,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "temperature/K | 298(2) | 173(2) | 173(2) | 173(2)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) heterodimers",
+     "chi": "two symmetry inequivalent acid molecules",
+     "citazione": "The two symmetry inequivalent molecules adopt a conformation similar to conf_p1 and form R22(8) heterodimers."
+    },
+    {
+     "motivo": "heterodimer - DMSO bands",
+     "chi": "heterodimers interlinked via the DMSO",
+     "citazione": "Each heterodimer is interlinked via the DMSO to adjacent heterodimers, forming corrugated bands."
+    }
+   ],
+   "citazione": "Two acid molecules and one DMSO molecule are present in the asymmetric unit of SDMSO, which crystallizes in the orthorhombic space group P212121.",
+   "note": "Stechiometria 0.5 dalla formula di Tabella 1, C7H6O4·0.5(C2H6OS); gli autori scrivono che la TGA non permette di determinarla con certezza e che 'suggests that SDMSO is a hemisolvate'. Nessun refcode ne' CCDC nel testo."
+  },
+  {
+   "id": "F9",
+   "composto": "C1",
+   "etichetta": "SDX",
+   "etichette_alternative": [
+    "dioxane hemisolvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "1,4-dioxane",
+    "stechiometria": 0.5,
+    "riferito_a": "molecola"
+   },
+   "citazione": "The dioxane hemisolvate (SDX), dimethyl formamide 0.75-solvate (SDMF-II)",
+   "note": "Nessun dato cristallografico."
+  },
+  {
+   "id": "F10",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "pyridinium salt",
+   "tipo": "sale",
+   "ospite": null,
+   "protonazione": "pyridinium cation / βRA carboxylate",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 11.7363,
+    "b": 8.5691,
+    "c": 11.831,
+    "beta": 115.973,
+    "V": 1069.67,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "173 K"
+   },
+   "strutture": [
+    {
+     "refcode": null,
+     "temperatura": {
+      "valore": 173,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "temperature/K | 298(2) | 173(2) | 173(2) | 173(2)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "ionic N+−H···O hydrogen bond",
+     "chi": "pyridinium cation - βRA carboxylate",
+     "citazione": "The pyridinium cation interacts with βRA carboxylate via an ionic N+−H···O hydrogen bond"
+    }
+   ],
+   "citazione": "The pyridinium cation interacts with βRA carboxylate via an ionic N+−H···O hydrogen bond (Supporting Information, Figure S5).",
+   "note": "Stechiometria 1:1 dalla formula empirica di Tabella 1 (C7H5O4·C5H6N). Z' = 1 dal titolo della sezione 'Pyridinium Salt (P21/n, Z′ = 1)'."
+  },
+  {
+   "id": "F11",
+   "etichetta": "[miscela di forma I e forma II°]",
+   "tipo": "miscela",
+   "ospite": null,
+   "forme_componenti": [
+    "F1",
+    "F2"
+   ],
+   "citazione": "a desorption cycle of HH to a polymorphic mixture of forms I and IIo",
+   "note": "Prodotto della disidratazione di HH a bassa RH (Fig. 7); proporzioni non date."
+  },
+  {
+   "id": "F12",
+   "composto": "C1",
+   "etichetta": "triclinic anhydrate (ZZZEEU)",
+   "etichette_alternative": [
+    "ZZZEEU"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "refcode": "ZZZEEU",
+   "voce_contestata": "the volume of ZZZEEU corresponds to a monohydrate rather than an anhydrous form",
+   "citazione": "two anhydrates (ZZZEEU:(6)P1̅, Z′ = 2 and ZZZEEU01 to ZZZEEU04:(7)P21/n, Z′ = 1, measured at 90, 100, 110, and 150 K)",
+   "note": "Forma NON osservata in questo lavoro: voce del CSD con le sole dimensioni di cella; gli autori scrivono che il volume corrisponde a un monoidrato e non a un anidro, ma non al nuovo monoidrato (MH), e nelle conclusioni 'We found no evidence for a triclinic polymorph (ZZZEEU)'. Nessun evento la riguarda."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "enantiotropa",
+   "temperatura_transizione": [
+    {
+     "grandezza": {
+      "valore": 159.8,
+      "unita": "°C",
+      "tipo": "non_specificato"
+     },
+     "metodo": "DSC",
+     "natura": "sperimentale",
+     "citazione": "The weak endotherm in the DSC curve (Figure 4) at an experimental transition temperature (Ttrs,exp) of 159.8 ± 0.5 °C corresponds to the solid−solid transformation II° → I"
+    },
+    {
+     "grandezza": {
+      "min": 150,
+      "max": 170,
+      "unita": "°C",
+      "tipo": "intervallo"
+     },
+     "metodo": "HTM e DSC",
+     "natura": "sperimentale",
+     "citazione": "the transition temperature of the polymorphic transition II° → I (150−170 °C)"
+    }
+   ],
+   "piu_stabile": "F2",
+   "stabile_a_temperatura_ambiente": "F2",
+   "condizioni": "a temperatura ambiente (RT); confermata a 20 °C con esperimenti di trasformazione mediata dal solvente",
+   "relazione_scritta": "the two polymorphs are enantiotropically related (heat of transition rule)",
+   "citazione": "From the fact that the transition is endothermic, it can be concluded that the two polymorphs are enantiotropically related (heat of transition rule42,43).",
+   "fonte_dati": "propria",
+   "note": "Enantiotropia dalla regola del calore di transizione (transizione endotermica). Il testo aggiunge: 'Form II° is thus the thermodynamically stable polymorph at room temperature (RT) and form I represents the high temperature form' e 'The fact that form II° is thermodynamically stable at 20 °C was also confirmed with solvent-mediated transformation experiments'."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 159.8,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "DSC",
+     "TGA"
+    ],
+    "entalpia": {
+     "valore": 2.1,
+     "unita": "kJ/mol",
+     "tipo": "transizione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 159.8,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "HTM and DSC experiments revealed that form II° transforms to form I upon heating at temperatures above 150 °C.",
+    "The weak endotherm in the DSC curve (Figure 4) at an experimental transition temperature (Ttrs,exp) of 159.8 ± 0.5 °C corresponds to the solid−solid transformation II° → I with a transition enthalpy of ΔtrsH = 2.1 ± 0.1 kJ mol−1.",
+    "TGA experiments and further thermomicroscopic investigations (silicon oil embedding) showed that no desolvation process is involved in this process, confirming that the reaction is a single component (polymorphic) transition.",
+    "of form I (heating rate: 10 K min−1)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": [
+    "E2",
+    "E3"
+   ],
+   "note": "Ttrs,exp = 159.8 ± 0.5 °C (DSC, endotermo debole). Altre scritture dello stesso passaggio nel testo: 'above 150 °C' (HTM e DSC) e l'intervallo 150−170 °C della T di transizione (parte sperimentale). Osservazione ottica: scurimento degli aghi della forma II° per sfaldatura e formazione di piccoli aggregati di forma I (Fig. 4). TGA e HTM in olio di silicone escludono una desolvatazione: transizione polimorfica di un solo componente. La decomposizione, lenta, comincia a ca. 160 °C (E5)."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "macinazione": {
+     "testo": "grinding"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "A reversible transformation I → II° was only observed if the sample was mechanically treated (e.g., grinding at room temperature)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": [
+    "E1"
+   ],
+   "note": "Il ritorno I → II° ha condizioni sue (trattamento meccanico): evento a parte, inverso di E1. Il testo non dice con quale tecnica sia stato riconosciuto ne' per quanto si macina. La Fig. 3 indica come trattamento meccanico 'for example, grinding'."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F2",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "ambient conditions"
+    },
+    "tempo": {
+     "valore": 18,
+     "unita": "month",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Form II° is thus the thermodynamically stable polymorph at room temperature (RT) and form I represents the high temperature form, which nevertheless shows a high kinetic stability at RT.",
+    "No transformation occurred under storage at ambient conditions within 18 months."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "inverso_di": [
+    "E1"
+   ],
+   "note": "Mancato ritorno I → II° a temperatura ambiente: relazione enantiotropa (termodinamica) e stabilita' cinetica della forma I non si contraddicono. La frase dice 'no transformation' senza nominare la forma: dal contesto (alta stabilita' cinetica della forma I) e' la I. Umidita' della conservazione non detta."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 231,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 231,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "This implies that the melting point of form II° is lower than that of form I, which melts at 231 °C with decomposition (second endotherm in DSC curve of Figure 4, overlapping with a broader endotherm, indicating the decomposition process).",
+    "of form I (heating rate: 10 K min−1)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "note": "Fusione con decomposizione ('melts at 231 °C with decomposition'); secondo endotermo della curva DSC di Fig. 4, sovrapposto a uno piu' largo di decomposizione."
+  },
+  {
+   "id": "E5",
+   "da": "ignota",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 160,
+     "unita": "°C",
+     "tipo": "onset",
+     "circa": true
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "However, decomposition, although slow compared to the polymorphic transformation, starts at ca. 160 °C."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "La frase sta nella parte sperimentale, dove si dice di riscaldare 'any βRA form' per ottenere la forma I: non dice quale forma decomponga, da qui da = ignota."
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 70,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 5,
+     "circa": true,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "pseudomorfosi"
+    ],
+    "integrita": "opaco"
+   },
+   "citazioni": [
+    "Single crystals of HH turn opaque when heated above 70 °C, while the original shape of the crystals is more or less maintained (pseudomorphosis).",
+    "In silicon oil preparations, the release of bubbles accompanies the darkening of the crystals and confirms the desolvation process (see Figure S1, Supporting Information).",
+    "Photomicrographs (dry preparation) showing the dehydration process of βRA HH to form I in a HTM experiment (heating rate ca. 5 K min−1).",
+    "The dehydration of HH involves a structural collapse, as despite the water interactions the O4−H···O4′ hydrogen bonds also break due to the conformational change, which is around 180° in the torsion angle for the p-OH proton in every second molecule."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "O4−H···O4′ hydrogen bonds",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F3",
+     "citazione": "the O4−H···O4′ hydrogen bonds also break due to the conformational change"
+    },
+    {
+     "gruppo": "p-OH proton",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "which is around 180° in the torsion angle for the p-OH proton in every second molecule"
+    },
+    {
+     "gruppo": "water interactions",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "as despite the water interactions the O4−H···O4′ hydrogen bonds also break"
+    }
+   ],
+   "note": "Esperimento di microscopia a piastra calda su cristalli singoli (preparato a secco; in olio di silicone il rilascio di bolle conferma la desolvatazione). Il prodotto, forma I, e' dato dalla didascalia della Fig. 5. La disidratazione di HH comporta un collasso strutturale (struttura cristallina di HH)."
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 60,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 5.55,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "It is interesting that all hemisolvates (incl. HH) exhibit a desolvation temperature above 60 °C in the DSC/TGA experiments and revert to the metastable form I.",
+    "The mass loss of 5.55% (TGA, Figure 6) is consistent with the theoretical water content of a hemihydrate (5.52%).",
+    "pin-holed DSC capsules and a heating rate of 10 K min−1 was used for all thermograms",
+    "The dehydration of HH involves a structural collapse, as despite the water interactions the O4−H···O4′ hydrogen bonds also break due to the conformational change, which is around 180° in the torsion angle for the p-OH proton in every second molecule."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "O4−H···O4′ hydrogen bonds",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F3",
+     "citazione": "the O4−H···O4′ hydrogen bonds also break due to the conformational change"
+    },
+    {
+     "gruppo": "p-OH proton",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "which is around 180° in the torsion angle for the p-OH proton in every second molecule"
+    },
+    {
+     "gruppo": "water interactions",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "as despite the water interactions the O4−H···O4′ hydrogen bonds also break"
+    }
+   ],
+   "note": "Il limite 'above 60 °C' e' dichiarato per tutti gli emisolvati, HH compreso, nelle esperienze DSC/TGA (non c'e' una T puntuale per HH). Il crogiolo forato e' quello delle capsule DSC della Fig. 6; la TGA usa un crogiolo di platino."
+  },
+  {
+   "id": "E8",
+   "da": "F4",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 60,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 9.5,
+     "circa": true,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "TGA shows (Figure 6) that the dehydration of MH occurs below 60 °C resulting in form II°.",
+    "The measured mass loss (Figure 6) of ca. 9.5% corresponds to 0.9 mol water per acid molecule, which is slightly lower than expected for a monohydrate (theory: 10.47%) due to some loss of water during the preparation of the unstable MH.",
+    "pin-holed DSC capsules and a heating rate of 10 K min−1 was used for all thermograms"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Perdita misurata ca. 9.5% = 0.9 mol di acqua per acido, sotto il teorico per un monoidrato (10.47%) per perdita d'acqua durante la preparazione di MH, instabile. Anche la discussione: 'The monosolvates (SAA and MH) desolvate below 60 °C to the thermodynamically most stable form II°'."
+  },
+  {
+   "id": "E9",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "A transformation of MH to HH can only be observed in a water slurry."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "'Can only be observed' in sospensione acquosa: nessuna T ne' tempo. Il testo non dice con quale tecnica sia stata seguita."
+  },
+  {
+   "id": "E10",
+   "da": "F5",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 40,
+     "max": 60,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "Upon heating (Figure 6), desolvation of SAA occurs in one step between about 40 and 60 °C resulting in needle-shaped form II° crystals.",
+    "The monosolvates (SAA and MH) desolvate below 60 °C to the thermodynamically most stable form II°.",
+    "pin-holed DSC capsules and a heating rate of 10 K min−1 was used for all thermograms"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Un solo passo di desolvatazione. La Fig. 6 riporta curve DSC e TGA; il testo non dice quale delle due dia l'intervallo."
+  },
+  {
+   "id": "E11",
+   "da": "F6",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 50,
+     "max": 70,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ],
+    "perdita_massa": {
+     "valore": 0.25,
+     "circa": true,
+     "unita": "mol/mol",
+     "tipo": "passo"
+    }
+   },
+   "citazioni": [
+    "SDMF-II shows two desolvation steps under heating.",
+    "The first desolvation process (Figure 6, mass loss ca. 0.25 mol DMF/mol acid) occurs between ca. 50 and 70 °C and corresponds to the transformation of the 0.75-solvate (SDMF-II) to the hemisolvate (SDMF-I), which then desolvates at ca. 90 °C to form I.",
+    "pin-holed DSC capsules and a heating rate of 10 K min−1 was used for all thermograms"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Primo dei due passi di desolvatazione di SDMF-II: perdita ca. 0.25 mol DMF/mol di acido (da 0.75 a 0.5)."
+  },
+  {
+   "id": "E12",
+   "da": "F7",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 90,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "SDMF-II shows two desolvation steps under heating.",
+    "The first desolvation process (Figure 6, mass loss ca. 0.25 mol DMF/mol acid) occurs between ca. 50 and 70 °C and corresponds to the transformation of the 0.75-solvate (SDMF-II) to the hemisolvate (SDMF-I), which then desolvates at ca. 90 °C to form I.",
+    "pin-holed DSC capsules and a heating rate of 10 K min−1 was used for all thermograms"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Secondo passo di desolvatazione di SDMF-II: l'emisolvato SDMF-I desolvata a ca. 90 °C e da' la forma I."
+  },
+  {
+   "id": "E13",
+   "da": "F8",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 90,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "SDMSO shows a peritectic melting/decomposition at ∼90 °C.",
+    "pin-holed DSC capsules and a heating rate of 10 K min−1 was used for all thermograms"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "peritettica",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "passo": "peritectic melting/decomposition",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Fusione peritettica/decomposizione. La TGA non permette di fissare il contenuto di solvente perche' desolvatazione e decomposizione si sovrappongono; la decomposizione rapida comincia a ca. 150 °C. Il passo successivo (cristallizzazione della forma I dal fuso) e' E14."
+  },
+  {
+   "id": "E14",
+   "da": "F8",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "isoterma",
+     "testo": "further holding the temperature"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Upon further holding the temperature, long plates (form I) slowly crystallize from the melt (observed in HTM, not visible in shown DSC curve).",
+    "The solvate and the desolvation product, form I, both contain similar 1D stacks of acids",
+    "This implies that on losing the solvent a rearrangement of the acid stacks with respect to adjacent stacks is necessary.",
+    "On the other hand, no major change of the conformation is required for the transformation.",
+    "Strong hydrogen bonds are only present within the alternating heterodimer - DMSO bands (Figure 12) and not in between the layers or stacking of the bands, which implies that the solvent could escape easily compared with HH"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E13",
+   "passo": "crystallization of form I",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "1D stacks of acids",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F8",
+     "citazione": "The solvate and the desolvation product, form I, both contain similar 1D stacks of acids"
+    },
+    {
+     "gruppo": "acid stacks (with respect to adjacent stacks)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "cambia_partner",
+     "forma": "F8",
+     "citazione": "on losing the solvent a rearrangement of the acid stacks with respect to adjacent stacks is necessary"
+    },
+    {
+     "gruppo": "conformation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": "F8",
+     "citazione": "no major change of the conformation is required for the transformation"
+    },
+    {
+     "gruppo": "heterodimer - DMSO bands",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F8",
+     "citazione": "Strong hydrogen bonds are only present within the alternating heterodimer - DMSO bands"
+    }
+   ],
+   "note": "SDMSO → fuso (E13) → forma I, osservato in HTM e non nella curva DSC. Gli autori discutono il cambiamento strutturale SDMSO → forma I come 'desolvation product' (sezione DMSO Solvate): i gruppi sono presi da li'. Il testo non da' T ne' tempo del mantenimento."
+  },
+  {
+   "id": "E15",
+   "da": "F9",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "SDX shows an inhomogeneous melting process consisting of the following events: peritectic melting/decomposition, evaporation of the solvent (DSC: endotherm at ca. 85 °C), and the crystallization of form I (exotherm above 110 °C).",
+    "pin-holed DSC capsules and a heating rate of 10 K min−1 was used for all thermograms"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "peritettica",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "passo": "peritectic melting/decomposition",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Primo dei tre processi dentro lo stesso picco DSC 'inhomogeneous melting' di SDX (poi E16 evaporazione, E17 cristallizzazione della forma I). Il testo non da' una T per la fusione peritettica. L'ordine dei processi e' quello dell'elenco della frase."
+  },
+  {
+   "id": "E16",
+   "da": "F9",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 85,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 85,
+       "circa": true,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "SDX shows an inhomogeneous melting process consisting of the following events: peritectic melting/decomposition, evaporation of the solvent (DSC: endotherm at ca. 85 °C), and the crystallization of form I (exotherm above 110 °C).",
+    "pin-holed DSC capsules and a heating rate of 10 K min−1 was used for all thermograms"
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "passo": "evaporation of the solvent",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Evaporazione del solvente (endotermo a ca. 85 °C) dentro il processo di fusione di SDX. Il testo non dice che cosa rimanga (fuso o solido) dopo l'evaporazione: a = ignota."
+  },
+  {
+   "id": "E17",
+   "da": "F9",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 110,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 110,
+       "unita": "°C",
+       "limite": "sopra"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "SDX shows an inhomogeneous melting process consisting of the following events: peritectic melting/decomposition, evaporation of the solvent (DSC: endotherm at ca. 85 °C), and the crystallization of form I (exotherm above 110 °C).",
+    "pin-holed DSC capsules and a heating rate of 10 K min−1 was used for all thermograms"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E15",
+   "passo": "crystallization of form I",
+   "campione": {
+    "crogiolo": "forato"
+   },
+   "note": "Cristallizzazione della forma I (esotermo sopra 110 °C) nello stesso processo di fusione disomogenea di SDX."
+  },
+  {
+   "id": "E18",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": null,
+     "max": 90,
+     "unita": "%RH",
+     "limite": "sotto"
+    },
+    "tempo": {
+     "valore": null,
+     "max": 48,
+     "unita": "h",
+     "tipo": "trasformazione",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DVS"
+    ]
+   },
+   "citazioni": [
+    "Forms I, II°, and HH were subjected to a gravimetric moisture sorption study at 25 °C (Figure 7).",
+    "The anhydrous phases absorb water and transform only to HH even at the highest RH value (90%).",
+    "The moisture sorption cycle of form I was completed within 48 h, whereas only ca. 25% of form II° transformed to HH within the same time period."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Ciclo di sorbimento a gradini del 10% fra 10 e 90% RH, cominciato al 40% RH (parte sperimentale): la RH a cui comincia la trasformazione non e' detta, 90% e' la RH piu' alta. Il prodotto e' solo HH, mai MH. Ciclo completato entro 48 h."
+  },
+  {
+   "id": "E19",
+   "da": "F2",
+   "a": "F3",
+   "esito": "parziale",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": null,
+     "max": 90,
+     "unita": "%RH",
+     "limite": "sotto"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DVS"
+    ],
+    "frazione_convertita": {
+     "valore": 25,
+     "circa": true,
+     "unita": "%"
+    }
+   },
+   "citazioni": [
+    "Forms I, II°, and HH were subjected to a gravimetric moisture sorption study at 25 °C (Figure 7).",
+    "The anhydrous phases absorb water and transform only to HH even at the highest RH value (90%).",
+    "The moisture sorption cycle of form I was completed within 48 h, whereas only ca. 25% of form II° transformed to HH within the same time period."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Solo ca. 25% della forma II° si trasforma in HH nello stesso periodo (48 h) in cui la forma I completa il ciclo. Stesso ciclo di sorbimento di E18."
+  },
+  {
+   "id": "E20",
+   "da": "F3",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "desorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": null,
+     "max": 5,
+     "unita": "%RH",
+     "limite": "sotto"
+    },
+    "tempo": {
+     "valore": 5,
+     "circa": true,
+     "unita": "day",
+     "tipo": "trasformazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DVS"
+    ],
+    "cinetica": "dopo un giorno il 95% dell'acqua era gia' rilasciata; forte isteresi fra sorbimento e desorbimento ('stoichiometric' hydrate)"
+   },
+   "citazioni": [
+    "Forms I, II°, and HH were subjected to a gravimetric moisture sorption study at 25 °C (Figure 7).",
+    "HH dehydrates only under rather dry conditions (5% RH and below) demonstrating its high stability. Under these conditions, HH transforms to a mixture of the two anhydrous forms. The complete dehydration process took ca. five days, although after one day 95% of the water was already released.",
+    "Moisture sorption isotherm of βRA performed at 25 °C showing a moisture sorption cycle of anhydrous βRA to HH and a desorption cycle of HH to a polymorphic mixture of forms I and IIo.",
+    "HH, in which water plays a structural role, is a very stable phase, as dehydration occurs only at temperatures higher than 60 °C or under the driest conditions (below 10% RH, 25 °C).",
+    "The dehydration of HH involves a structural collapse, as despite the water interactions the O4−H···O4′ hydrogen bonds also break due to the conformational change, which is around 180° in the torsion angle for the p-OH proton in every second molecule."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "O4−H···O4′ hydrogen bonds",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F3",
+     "citazione": "the O4−H···O4′ hydrogen bonds also break due to the conformational change"
+    },
+    {
+     "gruppo": "p-OH proton",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "which is around 180° in the torsion angle for the p-OH proton in every second molecule"
+    },
+    {
+     "gruppo": "water interactions",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "as despite the water interactions the O4−H···O4′ hydrogen bonds also break"
+    }
+   ],
+   "conflitto": "La discussione scrive che la disidratazione avviene 'under the driest conditions (below 10% RH, 25 °C)'; i risultati (sezione 3.1.3, con la Fig. 7) scrivono '5% RH and below'. Si tiene 5% RH dei risultati.",
+   "note": "Il prodotto e' una miscela delle forme I e II° (Fig. 7), proporzioni non date. Anche PXRD a T e umidita' controllate (Supporting Information) conferma il processo di disidratazione."
+  },
+  {
+   "id": "E21",
+   "da": "F2",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "1,4-dioxane",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The dioxane hemisolvate (SDX), dimethyl formamide 0.75-solvate (SDMF-II), and the dimethylsulfoxide hemisolvate (SDMSO) were prepared from II° by solvent-mediated transformation experiments in the respective solvent"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Frase unica per tre solvati (SDX, SDMF-II, SDMSO), uno per solvente ('in the respective solvent'): un evento per forma. T e durata non dette."
+  },
+  {
+   "id": "E22",
+   "da": "F2",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "N,N-dimethyl formamide",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The dioxane hemisolvate (SDX), dimethyl formamide 0.75-solvate (SDMF-II), and the dimethylsulfoxide hemisolvate (SDMSO) were prepared from II° by solvent-mediated transformation experiments in the respective solvent"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Vedi E21."
+  },
+  {
+   "id": "E23",
+   "da": "F2",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "dimethyl sulfoxide",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The dioxane hemisolvate (SDX), dimethyl formamide 0.75-solvate (SDMF-II), and the dimethylsulfoxide hemisolvate (SDMSO) were prepared from II° by solvent-mediated transformation experiments in the respective solvent"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Vedi E21."
+  },
+  {
+   "id": "E24",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "altro",
+   "sottovia": "esposizione_ambiente",
+   "condizioni": {
+    "altro": "crystals removed from the aqueous mother liquor",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The HH forms transparent blocklike crystals (Figure 5), which are stable when removed from the aqueous mother liquor."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Negativo: HH resta stabile fuori dall'acqua madre, al contrario di MH e dei cinque solvati (E25-E30). Durata e condizioni di conservazione non dette."
+  },
+  {
+   "id": "E25",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "esposizione_ambiente",
+   "condizioni": {
+    "tempo": {
+     "testo": "within hours",
+     "tipo": "trasformazione"
+    },
+    "altro": "crystals removed from the mother liquor",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "integrita": "opaco"
+   },
+   "citazioni": [
+    "All five solvates form transparent, thin, needle- or plate-like crystals losing their transparency within hours when removed from the mother liquor.",
+    "MH and all five solvates survive only for a short time after harvesting from the mother liquor."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "SAA: il testo non dice in che cosa si trasformi; la perdita di trasparenza non e' attribuita esplicitamente a desolvatazione. Frase unica per le cinque forme, un evento per forma."
+  },
+  {
+   "id": "E26",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "esposizione_ambiente",
+   "condizioni": {
+    "tempo": {
+     "testo": "within hours",
+     "tipo": "trasformazione"
+    },
+    "altro": "crystals removed from the mother liquor",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "integrita": "opaco"
+   },
+   "citazioni": [
+    "All five solvates form transparent, thin, needle- or plate-like crystals losing their transparency within hours when removed from the mother liquor.",
+    "MH and all five solvates survive only for a short time after harvesting from the mother liquor."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "SDMF-II: il testo non dice in che cosa si trasformi; la perdita di trasparenza non e' attribuita esplicitamente a desolvatazione. Frase unica per le cinque forme, un evento per forma."
+  },
+  {
+   "id": "E27",
+   "da": "F7",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "esposizione_ambiente",
+   "condizioni": {
+    "tempo": {
+     "testo": "within hours",
+     "tipo": "trasformazione"
+    },
+    "altro": "crystals removed from the mother liquor",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "integrita": "opaco"
+   },
+   "citazioni": [
+    "All five solvates form transparent, thin, needle- or plate-like crystals losing their transparency within hours when removed from the mother liquor.",
+    "MH and all five solvates survive only for a short time after harvesting from the mother liquor."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "SDMF-I: il testo non dice in che cosa si trasformi; la perdita di trasparenza non e' attribuita esplicitamente a desolvatazione. Frase unica per le cinque forme, un evento per forma."
+  },
+  {
+   "id": "E28",
+   "da": "F8",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "esposizione_ambiente",
+   "condizioni": {
+    "tempo": {
+     "testo": "within hours",
+     "tipo": "trasformazione"
+    },
+    "altro": "crystals removed from the mother liquor",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "integrita": "opaco"
+   },
+   "citazioni": [
+    "All five solvates form transparent, thin, needle- or plate-like crystals losing their transparency within hours when removed from the mother liquor.",
+    "MH and all five solvates survive only for a short time after harvesting from the mother liquor."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "SDMSO: il testo non dice in che cosa si trasformi; la perdita di trasparenza non e' attribuita esplicitamente a desolvatazione. Frase unica per le cinque forme, un evento per forma."
+  },
+  {
+   "id": "E29",
+   "da": "F9",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "esposizione_ambiente",
+   "condizioni": {
+    "tempo": {
+     "testo": "within hours",
+     "tipo": "trasformazione"
+    },
+    "altro": "crystals removed from the mother liquor",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "integrita": "opaco"
+   },
+   "citazioni": [
+    "All five solvates form transparent, thin, needle- or plate-like crystals losing their transparency within hours when removed from the mother liquor.",
+    "MH and all five solvates survive only for a short time after harvesting from the mother liquor."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "SDX: il testo non dice in che cosa si trasformi; la perdita di trasparenza non e' attribuita esplicitamente a desolvatazione. Frase unica per le cinque forme, un evento per forma."
+  },
+  {
+   "id": "E30",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "esposizione_ambiente",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "ambient conditions"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The second hydrate (monohydrate, MH) crystallizes as needles and was found to be very unstable at ambient conditions.",
+    "MH and all five solvates survive only for a short time after harvesting from the mother liquor."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "MH 'very unstable at ambient conditions': il testo non dice in che cosa si trasformi ne' in quanto tempo (parla di 'some loss of water during the preparation of the unstable MH')."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "βRA was purchased from Fluka (form II°)."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "n-butanol",
+    "n-propanol",
+    "i-propanol",
+    "acetonitrile",
+    "ethyl methyl ketone",
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": true,
+   "esito": "ottenuta",
+   "citazioni": [
+    "Form II° was either prepared by slow crystallization from numerous solvents, including n-butanol, n-propanol, i-propanol, acetonitrile, ethyl methyl ketone, ethyl acetate, or by solvent-mediated transformation of any βRA form, using water-free solvents that did not form a solvate."
+   ],
+   "fonte_dati": "propria",
+   "note": "'slow crystallization' senza dire se per evaporazione o raffreddamento; l'elenco e' 'including': non esaustivo."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "sospensione",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Form II° was either prepared by slow crystallization from numerous solvents, including n-butanol, n-propanol, i-propanol, acetonitrile, ethyl methyl ketone, ethyl acetate, or by solvent-mediated transformation of any βRA form, using water-free solvents that did not form a solvate."
+   ],
+   "fonte_dati": "propria",
+   "note": "Trasformazione mediata dal solvente di 'any βRA form' (forma di partenza qualunque, quindi preparazione e non evento) in solventi privi d'acqua che non formano solvato, non nominati."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Form I could be obtained from solvent crystallization, but it predominantly grew concomitantly with form II°."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cresce soprattutto insieme alla forma II° (cristallizzazione concomitante)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E1"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The easiest way to produce form I was heating any βRA form above the transition temperature of the polymorphic transition II° → I (150−170 °C)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Il modo piu' semplice: scaldare 'any βRA form' sopra la T di transizione II° → I (150−170 °C). Qui si collega l'evento II° → I (E1); per le altre forme di partenza vedi i singoli eventi."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "sublimazione",
+   "solventi": [],
+   "temperatura": {
+    "min": 150,
+    "max": 170,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "The easiest way to produce form I was heating any βRA form above the transition temperature of the polymorphic transition II° → I (150−170 °C).",
+    "Other methods included sublimation experiments in the same temperature range"
+   ],
+   "fonte_dati": "propria",
+   "note": "Intervallo 150−170 °C richiamato da 'in the same temperature range'."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E6",
+    "E7",
+    "E12",
+    "E14",
+    "E17"
+   ],
+   "solventi": [],
+   "temperatura": {
+    "min": 60,
+    "limite": "sopra",
+    "unita": "°C"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "the desolvation of the hemihydrate (HH), dimethyl formamide hemisolvate (SDMF-I), dimethyl sulfoxide hemisolvate (SDMSO), or dioxane hemisolvate (SDX) at temperatures above 60 °C"
+   ],
+   "fonte_dati": "propria",
+   "note": "Desolvatazione di HH, SDMF-I, SDMSO e SDX; gli eventi E6/E7 (HH), E12 (SDMF-I), E14 (SDMSO, via fuso) ed E17 (SDX, via fuso) danno i dettagli."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "water"
+   ],
+   "temperatura": {
+    "valore": 0,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "velocita": {
+    "testo": "fast"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "The two hydrates could be prepared by crystallization from a hot, saturated water solution, with the resulting solid form depending on the cooling rate.",
+    "Fast crystallization to the final temperature of 0 °C (in ice) led to the monohydrate (MH)",
+    "The MH samples obtained in this way were often contaminated with HH."
+   ],
+   "fonte_dati": "propria",
+   "note": "Da soluzione acquosa satura calda; 0 °C e' la temperatura finale (in ghiaccio). MH spesso contaminato da HH."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "water"
+   ],
+   "velocita": {
+    "testo": "slow"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "The two hydrates could be prepared by crystallization from a hot, saturated water solution, with the resulting solid form depending on the cooling rate.",
+    "whereas slow cooling (test tube wrapped in aluminum foil) produced the hemihydrate (HH)"
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F9",
+    "F6",
+    "F8"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E21",
+    "E22",
+    "E23"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The dioxane hemisolvate (SDX), dimethyl formamide 0.75-solvate (SDMF-II), and the dimethylsulfoxide hemisolvate (SDMSO) were prepared from II° by solvent-mediated transformation experiments in the respective solvent"
+   ],
+   "fonte_dati": "propria",
+   "note": "SDX, SDMF-II e SDMSO da II° per trasformazione mediata dal solvente, ciascuno nel proprio solvente."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "acetic acid"
+   ],
+   "temperatura": {
+    "valore": 8,
+    "circa": true,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "velocita": {
+    "testo": "fast"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "the acetic acid monosolvate (SAA) by fast crystallization (cooling a hot saturated solution in acetic acid to ca. 8 °C)"
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E11"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Finally, the dimethyl formamide hemisolvate (SDMF-I) was obtained as an intermediate desolvation product of the SDMF-II solvate."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F10"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "pyridine"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Every crystallization or solvent-assisted grinding experiment with pyridine resulted in the formation of the pyridinium salt."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristallizzazione 'with pyridine': non dice se la piridina sia il solvente. Il sale e' descritto nel rif. 22."
+  },
+  {
+   "forme": [
+    "F10"
+   ],
+   "metodo": "macinazione",
+   "solventi": [
+    "pyridine"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Every crystallization or solvent-assisted grinding experiment with pyridine resulted in the formation of the pyridinium salt."
+   ],
+   "fonte_dati": "propria",
+   "note": "Macinazione assistita da solvente con piridina; il solido di partenza non e' detto (βRA, presumibilmente la forma II° commerciale), quindi preparazione e non evento."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "molecular flexibility and ability to form different hydrogen bonding motifs; torsion angles θ1-θ4 considered (C6−C1−C7−O2, C3−C2−O3−H, C5−C4−O4−H, C1−C7−O1−H)",
+     "citazione": "a small organic molecule exhibiting molecular flexibility and the ability to form different hydrogen bonding motifs"
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "two lowest-energy conformations, conf_p1 and conf_p2, differing in the position of the p-OH proton (computed)",
+     "citazione": "The crystal energy landscape showed that only the two most stable conformations, differing in the position of the p-OH proton, could generate crystal structures within the likely energy range of polymorphism."
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "intramolecular H-bond between the o-OH proton and the C=O oxygen",
+     "citazione": "the intramolecular H-bond, involving the o-OH proton and C=O oxygen"
+    }
+   ]
+  }
+ ],
+ "note": "Disordine del protone del p-OH nella forma I (banda IR larga a 3432 cm-1 contro 3373 cm-1 della II°, superficie di Hirshfeld, calcoli): gli autori non lo escludono, statico o dinamico; non e' un cambio di forma. Previsione di strutture cristalline (CSP, solo calcolo): le forme I e II° sono i polimorfi piu' probabili; non e' un evento. Il testo cita idrati di stechiometria da 0.5 a 3 mol di acqua per acido da lavori precedenti, ma solo l'emiidrato e' stato determinato (nessun evento). Il testo cita un lavoro (rif. 12) che non ottenne nuovi polimorfi per cristallizzazione dal fuso e sublimazione; gli autori ottengono la forma I per sublimazione. Gli autori non trovano prove di un polimorfo triclino (ZZZEEU) ne' di un idrato con rapporto acqua/acido maggiore di 1:1. Nessun numero CCDC ne' refcode delle strutture di questo lavoro nel testo (i CIF sono nel supplementare). Le curve DSC/TGA della Fig. 6 hanno capsule DSC forate e 10 K/min per tutti i termogrammi; la TGA nella parte sperimentale dice 10-20 K/min con crogiolo di platino. La Fig. 3 (percorsi di trasformazione) non e' leggibile nel testo."
+}
