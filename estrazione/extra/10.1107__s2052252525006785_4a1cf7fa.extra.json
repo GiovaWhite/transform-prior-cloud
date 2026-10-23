@@ -1,0 +1,2390 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1107/s2052252525006785",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "SCXRD wavelength (SuperNova diffractometer, Cu Kα)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 1.542,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "The venetoclax solvate analysis was performed at either 95 K or 120 K using a SuperNova diffractometer with a sealed microfocus tube, mirror-collimated Cu Kα radiation (λ = 1.542 Å) and a CCD detector.",
+   "note": "le temperature (95 K o 120 K) sono nella cella delle forme"
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "restraints on hydrogen atom geometry and Uiso(H)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C—H min",
+     "valore": 0.93,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C—H max",
+     "valore": 0.98,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "N—H min",
+     "valore": 0.86,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "N—H max",
+     "valore": 0.89,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "N—H (singolo)",
+     "valore": 0.86,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "O—H",
+     "valore": 0.82,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "Uiso(H) min, × Ueq",
+     "valore": 1.2
+    },
+    {
+     "etichetta": "Uiso(H) max, × Ueq",
+     "valore": 1.5
+    }
+   ],
+   "citazione": "The hydrogen atoms were initially refined with soft restraints on the bond lengths and angles to regularize their geometry (C—H in the range 0.93–0.98, N—H in the range 0.86–0.89, N—H to 0.86 and O—H = 0.82 Å) and Uiso(H) (in the range 1.2–1.5 × Ueq of the parent atom)"
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "disorder of the API in the IPAC solvate (C(6) ring)",
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "VEN IPAC"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "occupancy 1",
+     "valore": 0.7
+    },
+    {
+     "etichetta": "occupancy 2",
+     "valore": 0.3
+    }
+   ],
+   "citazione": "In one case (IPAC solvate), it was the API molecule that was disordered [disorder in the C(6) ring with occupancies 0.7:0.3]."
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "disorder of the solvent positions in the other structures",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "disorder in the solvent positions/conformations in all the other structures",
+   "citazione": "In all of the other structures, there was a disorder in the solvent positions/conformations."
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "disorder of the solvent in the MEK solvate (2:1)",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "VEN MEK"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "occupancy 1",
+     "valore": 0.928
+    },
+    {
+     "etichetta": "occupancy 2",
+     "valore": 0.072
+    }
+   ],
+   "citazione": "The MEK solvate is a 2:1 solvate and both positions of the solvent were disordered. One was explicitly described with occupancies 0.928:0.072.",
+   "note": "l'altra posizione del solvente e' descritta con ellissoidi termici piu' grandi"
+  },
+  {
+   "id": "X6",
+   "categoria": "cristallografia",
+   "proprieta": "disorder of the solvent in the MEK solvate: second position",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "VEN MEK"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "second solvent position described with larger thermal ellipsoids",
+   "citazione": "For the other, this was not possible, and the solvent molecule was described with larger thermal ellipsoids."
+  },
+  {
+   "id": "X7",
+   "categoria": "cristallografia",
+   "proprieta": "disorder of the solvent in the dioxane solvate (4:1)",
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "VEN DIO"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "occupancy 1",
+     "valore": 0.566
+    },
+    {
+     "etichetta": "occupancy 2",
+     "valore": 0.434
+    }
+   ],
+   "citazione": "Dioxane solvate is a 4:1 solvate with one of the solvent positions disordered. The occupancies were 0.566:0.434."
+  },
+  {
+   "id": "X8",
+   "categoria": "cristallografia",
+   "proprieta": "disorder of the solvent in the mTHF solvate (2:1)",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "VEN mTHF"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "occupancy 1",
+     "valore": 0.591
+    },
+    {
+     "etichetta": "occupancy 2",
+     "valore": 0.409
+    }
+   ],
+   "citazione": "The mTHF solvate is a 2:1 solvate, with disorder at one of the solvent sites. Two main positions were successfully modelled with occupancies 0.591:0.409, but it is likely that more overlapped positions were present with very low occupancy.",
+   "note": "ADP della molecola vincolate a essere simili per ottenere un raffinamento stabile"
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "disorder of the solvent in the EA solvate and PLATON SQUEEZE",
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "VEN EA"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "heavily disordered solvent, impossible to model: PLATON SQUEEZE used",
+   "citazione": "The EA solvate is a channel solvate with a heavily disordered solvent, probably in many positions within the channel. All attempts to explicitly model the solvent molecules failed."
+  },
+  {
+   "id": "X10",
+   "categoria": "cristallografia",
+   "proprieta": "twinning of the acetone solvate",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "twinned structure",
+   "citazione": "The structure of the acetone solvate was twinned (Cooper et al., 2002 ▸)."
+  },
+  {
+   "id": "X11",
+   "categoria": "cristallografia",
+   "proprieta": "residual electron density near the chlorine atom",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "residual electron density near Cl in all the structures",
+   "citazione": "All of the structures have some residual electron density in the vicinity of the chlorine atom, which is a common occurrence for halogen atoms."
+  },
+  {
+   "id": "X12",
+   "categoria": "cristallografia",
+   "proprieta": "electrons found by PLATON SQUEEZE in the voids of the EA solvate",
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "VEN EA"
+   },
+   "tecnica": "SCXRD, PLATON SQUEEZE",
+   "valori": [
+    {
+     "etichetta": "electrons in the voids",
+     "valore": 202
+    },
+    {
+     "etichetta": "electrons per ethyl acetate molecule",
+     "valore": 48
+    }
+   ],
+   "citazione": "In contrast, the PLATON SQUEEZE procedure identified 202 electrons in the solvent-accessible voids of the unit cell, which would correspond to approximately four molecules of ethyl acetate (48 electrons each) and thus a 1:1 VEN:EA ratio (Z = 4).",
+   "note": "da qui il rapporto 1:1; la stechiometria 0.4-0.5 da TGA/NMR e le altre versioni sono nel conflitto della forma"
+  },
+  {
+   "id": "X13",
+   "categoria": "composizione",
+   "proprieta": "ethyl acetate content of the EA solvate from solution 1H NMR",
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "VEN EA"
+   },
+   "tecnica": "1H NMR (solution)",
+   "valori": [
+    {
+     "etichetta": "1H NMR",
+     "valore": 0.5,
+     "unita": "eq",
+     "circa": true
+    },
+    {
+     "etichetta": "range VEN:EA da",
+     "valore": 0.4
+    },
+    {
+     "etichetta": "range VEN:EA a",
+     "valore": 0.5
+    }
+   ],
+   "citazione": "Solution 1H NMR measurements suggested a slightly higher value, around 0.5 equivalents. These results consistently place the VEN:EA ratio in the range of 1:0.4–0.5.",
+   "note": "il 4.1% della TGA (circa 0.4 equivalenti) e' nell'evento E10"
+  },
+  {
+   "id": "X14",
+   "categoria": "composizione",
+   "proprieta": "acetonitrile traces in VEN B (1H NMR)",
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "VEN B"
+   },
+   "tecnica": "1H NMR (solution)",
+   "valori": [
+    {
+     "etichetta": "VEN B",
+     "forma": "F10",
+     "valore": 0.09,
+     "unita": "mol eq."
+    }
+   ],
+   "qualitativo": "VEN A fully solvent-free",
+   "citazione": "1H NMR confirmed that VEN A was fully solvent-free but that VEN B contained traces of acetonitrile (0.09 mol eq.)."
+  },
+  {
+   "id": "X15",
+   "categoria": "composizione",
+   "proprieta": "fraction of solvent released by VEN AE on drying",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE"
+   },
+   "tecnica": "1H NMR, TGA",
+   "valori": [
+    {
+     "valore": 10,
+     "unita": "%",
+     "circa": true
+    }
+   ],
+   "condizioni": "20 mbar, 60 °C, 48 h",
+   "citazione": "with VEN AE releasing only ∼10% of its solvent"
+  },
+  {
+   "id": "X16",
+   "categoria": "composizione",
+   "proprieta": "drying sufficiency criterion (API:solvent ratio)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "API:solvent, solvent part",
+     "valore": 0.1,
+     "limite": "sopra"
+    }
+   ],
+   "citazione": "If the drying proved insufficient (stoichiometric ratio of API:solvent ≥ 1:0.1), the procedure was repeated.",
+   "note": "soglia oltre la quale la desolvatazione e' ripetuta"
+  },
+  {
+   "id": "X17",
+   "categoria": "sintesi",
+   "proprieta": "mass of venetoclax dissolved per solvent (solvate screening)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "valore": 400,
+     "unita": "mg"
+    }
+   ],
+   "condizioni": "temperatura ambiente",
+   "citazione": "400 mg of venetoclax was dissolved in the appropriate amount of each solvent (Table 1 ▸) to form a clear solution at room temperature."
+  },
+  {
+   "id": "X18",
+   "categoria": "metodo",
+   "proprieta": "solubility estimation: aliquot volume and stirring time",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "aliquot",
+     "valore": 5,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "stirring between additions",
+     "valore": 30,
+     "unita": "s"
+    }
+   ],
+   "citazione": "(estimated by the addition of 5 ml aliquots until dissolution, the suspension was stirred for 30 s between each addition)"
+  },
+  {
+   "id": "X19",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "polarity index p′ and boiling point of the solvent Acetone",
+   "valori": [
+    {
+     "etichetta": "polarity index p′",
+     "valore": 5.1
+    },
+    {
+     "etichetta": "boiling point",
+     "valore": 56.05,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Acetone | AE | 5 | 5.1 | 56.05",
+   "note": "proprieta' del solvente (Tabella 1); la solubilita' stimata del venetoclax e' in `molecole`"
+  },
+  {
+   "id": "X20",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "polarity index p′ and boiling point of the solvent Acetonitrile",
+   "valori": [
+    {
+     "etichetta": "polarity index p′",
+     "valore": 5.8
+    },
+    {
+     "etichetta": "boiling point",
+     "valore": 81.6,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Acetonitrile | AN | 2 | 5.8 | 81.6",
+   "note": "proprieta' del solvente (Tabella 1); la solubilita' stimata del venetoclax e' in `molecole`"
+  },
+  {
+   "id": "X21",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "polarity index p′ and boiling point of the solvent 1,4-Dioxane",
+   "valori": [
+    {
+     "etichetta": "polarity index p′",
+     "valore": 4.8
+    },
+    {
+     "etichetta": "boiling point",
+     "valore": 101.1,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "1,4-Dioxane | DIO | 5.6 | 4.8 | 101.1",
+   "note": "proprieta' del solvente (Tabella 1); la solubilita' stimata del venetoclax e' in `molecole`"
+  },
+  {
+   "id": "X22",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "polarity index p′ and boiling point of the solvent Ethyl acetate",
+   "valori": [
+    {
+     "etichetta": "polarity index p′",
+     "valore": 4.4
+    },
+    {
+     "etichetta": "boiling point",
+     "valore": 77.1,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Ethyl acetate | EA | 3.3 | 4.4 | 77.1",
+   "note": "proprieta' del solvente (Tabella 1); la solubilita' stimata del venetoclax e' in `molecole`"
+  },
+  {
+   "id": "X23",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "polarity index p′ and boiling point of the solvent Isopropyl acetate",
+   "valori": [
+    {
+     "etichetta": "polarity index p′",
+     "valore": 3.9
+    },
+    {
+     "etichetta": "boiling point",
+     "valore": 88.0,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Isopropyl acetate | IPAC | 2.7 | 3.9 | 88.0",
+   "note": "proprieta' del solvente (Tabella 1); la solubilita' stimata del venetoclax e' in `molecole`"
+  },
+  {
+   "id": "X24",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "polarity index p′ and boiling point of the solvent Methyl ethyl ketone",
+   "valori": [
+    {
+     "etichetta": "polarity index p′",
+     "valore": 4.7
+    },
+    {
+     "etichetta": "boiling point",
+     "valore": 79.6,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Methyl ethyl ketone | MEK | 3 | 4.7 | 79.6",
+   "note": "proprieta' del solvente (Tabella 1); la solubilita' stimata del venetoclax e' in `molecole`"
+  },
+  {
+   "id": "X25",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "polarity index p′ and boiling point of the solvent 2-methyl tetrahydrofuran",
+   "valori": [
+    {
+     "etichetta": "polarity index p′",
+     "valore": 4.0
+    },
+    {
+     "etichetta": "boiling point",
+     "valore": 80.2,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "2-methyl tetrahydrofuran | mTHF | 5.5 | 4.0 | 80.2",
+   "note": "proprieta' del solvente (Tabella 1); la solubilita' stimata del venetoclax e' in `molecole`"
+  },
+  {
+   "id": "X26",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "absolute bioavailability of venetoclax",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "valore": 5.4,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Absolute bioavailability estimation is only 5.4% of the administered dose",
+   "note": "citato da Alaarg et al., 2022"
+  },
+  {
+   "id": "X27",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "XRPD acquisition: radiation, range, generator, step, time step",
+   "tecnica": "XRPD",
+   "valori": [
+    {
+     "etichetta": "λ Cu Kα",
+     "valore": 1.542,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "2θ da",
+     "valore": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ a",
+     "valore": 40,
+     "unita": "°"
+    },
+    {
+     "valore": 45,
+     "unita": "kV"
+    },
+    {
+     "valore": 40,
+     "unita": "mA"
+    },
+    {
+     "etichetta": "step 2θ",
+     "valore": 0.016,
+     "unita": "°"
+    },
+    {
+     "etichetta": "time step",
+     "valore": 0.3,
+     "unita": "s"
+    }
+   ],
+   "citazione": "X-ray beam Cu Kα (λ = 1.542 Å), 5–40° 2θ measured range, 45 kV excitation voltage, 40 mA anodic current, 0.016° 2θ step size, 0.3 s time step.",
+   "note": "diffrattometro X'PERT PRO MPD PANalytical"
+  },
+  {
+   "id": "X28",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "XRPD sample geometry: area/thickness ratio",
+   "tecnica": "XRPD",
+   "valori": [
+    {
+     "etichetta": "area",
+     "valore": 10,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "thickness",
+     "valore": 0.5,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "Measurement was carried out on a flat sample with an area/thickness ratio equal to 10/0.5 mm."
+  },
+  {
+   "id": "X29",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "XRPD primary beam optics: Soller slits and fixed slit",
+   "tecnica": "XRPD",
+   "valori": [
+    {
+     "etichetta": "Soller slits",
+     "valore": 2.5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "fixed slit width",
+     "valore": 0.6,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "The 2.5° Soller slits with a fixed slit width of 0.6 mm and automatic anti-scatter slits were used to correct the primary beam."
+  },
+  {
+   "id": "X30",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "XRPD irradiated area of the sample",
+   "tecnica": "XRPD",
+   "valori": [
+    {
+     "valore": 10,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "The irradiated area of the sample was 10 mm."
+  },
+  {
+   "id": "X31",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "XRPD secondary optics",
+   "tecnica": "XRPD",
+   "valori": [
+    {
+     "etichetta": "Soller slits",
+     "valore": 2.5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "anti-scattering slits",
+     "valore": 5.0,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "The secondary optics consisted of 2.5° Soller slits and 5.0 mm anti-scattering slits to correct the secondary beam."
+  },
+  {
+   "id": "X32",
+   "categoria": "metodo",
+   "proprieta": "solution 1H NMR repetition delay",
+   "tecnica": "1H NMR (solution)",
+   "valori": [
+    {
+     "valore": 10,
+     "unita": "s"
+    }
+   ],
+   "citazione": "Samples were dissolved in d6-DMSO and 1H NMR spectra were measured by a Bruker Avance Neo 500 NMR spectrometer equipped with a Prodigy probe and a repetition delay of 10 s."
+  },
+  {
+   "id": "X33",
+   "categoria": "metodo",
+   "proprieta": "solid-state NMR probe and spinning rate",
+   "tecnica": "ssNMR 13C and 15N CP-MAS",
+   "valori": [
+    {
+     "etichetta": "probe",
+     "valore": 4,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "spinning",
+     "valore": 13,
+     "unita": "kHz"
+    }
+   ],
+   "citazione": "13C and 15N CP-MAS solid-state NMR spectra were obtained using a Bruker Avance III 400 WB spectrometer equipped with a 4 mm probe and with 13 kHz spinning."
+  },
+  {
+   "id": "X34",
+   "categoria": "metodo",
+   "proprieta": "DSC nitrogen flow",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "nitrogen flow",
+     "valore": 50,
+     "unita": "ml min-1"
+    }
+   ],
+   "citazione": "The samples were weighed in an aluminium pan (10 mg). The pan was covered and the measurement was carried out under a nitrogen gas flow of 50 ml min−1.",
+   "note": "la massa (10 mg) e il crogiolo coperto sono negli eventi E8 e E9"
+  },
+  {
+   "id": "X35",
+   "categoria": "metodo",
+   "proprieta": "DSC temperature range and heating rate",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "T iniziale",
+     "valore": 0,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "T finale",
+     "valore": 300,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "The range of investigated temperatures was 0 to 300°C with a heating rate of 10°C min−1.",
+   "note": "la velocita' (10 °C/min) e' negli eventi E8 e E9"
+  },
+  {
+   "id": "X36",
+   "categoria": "metodo",
+   "proprieta": "FTIR range and resolution (Nicolet IS50, ZnSe single-bounce ATR)",
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "etichetta": "range da",
+     "valore": 400,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "range a",
+     "valore": 4000,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "resolution",
+     "valore": 4,
+     "unita": "cm-1"
+    }
+   ],
+   "citazione": "The measurement range was 400–4000 cm−1 and the resolution was 4 cm−1."
+  },
+  {
+   "id": "X37",
+   "categoria": "metodo",
+   "proprieta": "FTIR spectra normalization",
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "etichetta": "smallest value",
+     "valore": 0,
+     "unita": "%"
+    },
+    {
+     "etichetta": "largest value",
+     "valore": 100,
+     "unita": "%"
+    }
+   ],
+   "citazione": "All spectra shown are normalized and given as percentages, 0% is defined as the smallest value and 100% as the largest value in the dataset."
+  },
+  {
+   "id": "X38",
+   "categoria": "metodo",
+   "proprieta": "IDR disc preparation: diameter and mass",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "IDR (Sirius inForm)",
+   "valori": [
+    {
+     "etichetta": "diameter",
+     "valore": 6,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "mass",
+     "valore": 50,
+     "unita": "mg",
+     "circa": true
+    }
+   ],
+   "citazione": "The 6 mm-diameter IDR discs were prepared by direct compression of approximately 50 mg of venetoclax.",
+   "note": "la dissoluzione dei dischi di VEN A e VEN B e' negli eventi E11 e E12"
+  },
+  {
+   "id": "X39",
+   "categoria": "metodo",
+   "proprieta": "IDR disc compression: load and times",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "IDR (Sirius inForm)",
+   "valori": [
+    {
+     "etichetta": "load",
+     "valore": 100,
+     "unita": "kg"
+    },
+    {
+     "etichetta": "relaxation",
+     "valore": 1,
+     "unita": "min"
+    },
+    {
+     "etichetta": "second compression",
+     "valore": 1,
+     "unita": "min",
+     "testo": "another minute"
+    }
+   ],
+   "citazione": "The material was compressed at a constant load of 100 kg, relaxed for 1 min and compressed again at the same pressure for another minute."
+  },
+  {
+   "id": "X40",
+   "categoria": "metodo",
+   "proprieta": "IDR medium: volume, SDS content",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "IDR (Sirius inForm)",
+   "valori": [
+    {
+     "etichetta": "buffer volume",
+     "valore": 50,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "sodium dodecyl sulfate",
+     "valore": 0.1,
+     "unita": "%"
+    }
+   ],
+   "citazione": "IDR measurements were performed in 50 ml of phosphate buffer solution (pH 6.8) with the addition of 0.1% sodium dodecyl sulfate at a stirring speed of 100 rpm.",
+   "note": "pH 6.8 e 100 rpm sono negli eventi E11 e E12"
+  },
+  {
+   "id": "X41",
+   "categoria": "metodo",
+   "proprieta": "IDR detection: UV spectra interval, optical path, wavelength window",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "IDR (UV)",
+   "valori": [
+    {
+     "etichetta": "interval",
+     "valore": 30,
+     "unita": "s"
+    },
+    {
+     "etichetta": "optical path length (as written)",
+     "valore": 20,
+     "unita": "mm2"
+    },
+    {
+     "etichetta": "lambda da",
+     "valore": 300,
+     "unita": "nm"
+    },
+    {
+     "etichetta": "lambda a",
+     "valore": 500,
+     "unita": "nm"
+    }
+   ],
+   "citazione": "UV spectra were recorded every 30 s using a probe with an optical path length equal to 20 mm2. The absorbance between wavelengths of 300–500 nm was used to evaluate the amount of API released at each time point.",
+   "note": "il testo scrive «optical path length equal to 20 mm2» (unita' impossibile per una lunghezza): riportato com'e'"
+  },
+  {
+   "id": "X42",
+   "categoria": "metodo",
+   "proprieta": "IDR evaluation: linear fit window and excluded points",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "IDR (UV)",
+   "valori": [
+    {
+     "etichetta": "linear fit window",
+     "valore": 10,
+     "unita": "min"
+    },
+    {
+     "etichetta": "points excluded",
+     "valore": 3,
+     "testo": "first three points"
+    }
+   ],
+   "citazione": "The IDR was obtained from the linear fit of first 10 min of the measurement. The first three points were excluded because they usually represent the dissolution of the free powder captured on the disc surface during the preparation."
+  },
+  {
+   "id": "X43",
+   "categoria": "computazionale",
+   "proprieta": "CSD-Particle / VisualHabit: force field, charges, limiting radius",
+   "tecnica": "VisualHabit (attachment energy method)",
+   "valori": [
+    {
+     "etichetta": "limiting radius",
+     "valore": 30,
+     "unita": "Å"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The calculations employed the Dreiding II force field with Gasteiger charges and a limiting radius of 30 Å."
+  },
+  {
+   "id": "X44",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond propensity model: CSD release and distance tolerance",
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [
+    {
+     "etichetta": "CSD release",
+     "valore": 2024
+    },
+    {
+     "etichetta": "tolerance on heavy-atom distances",
+     "valore": 0.25,
+     "unita": "Å"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The HBP statistical model was then generated from the CSD (release 2024), using default donor–acceptor definitions and a 0.25 Å tolerance on heavy-atom distances."
+  },
+  {
+   "id": "X45",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond propensity model: area under the ROC curve",
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [
+    {
+     "etichetta": "AUC",
+     "valore": 0.8495
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Model performance during training was assessed by receiver–operator characteristic analysis, yielding an area under the curve of 0.8495, indicating good discrimination between observed and non-observed hydrogen-bond patterns."
+  },
+  {
+   "id": "X46",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond propensity analysis: structures included",
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [],
+   "qualitativo": "all solvent molecules deleted and disorder modelled out (major positions only) before the HBP calculation",
+   "calcolato": true,
+   "citazione": "Hydrogen-bond propensity calculations (Rohlíček et al., 2016 ▸; Rohlíček & Skořepová, 2020 ▸): all seven venetoclax solvate crystal structures (VEN AN2, VEN MEK, VEN mTHF, VEN EA, VEN IPAC, VEN DIO and VEN AE), together with the previously published acetonitrile solvate (VEN AN1), were prepared for hydrogen-bond propensity (HBP) analysis in Mercury’s CSD-Materials module."
+  },
+  {
+   "id": "X47",
+   "categoria": "computazionale",
+   "proprieta": "synthon energy threshold for the interaction energy with the solvent",
+   "tecnica": "VisualHabit",
+   "valori": [
+    {
+     "etichetta": "threshold",
+     "valore": -1,
+     "unita": "kJ mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Table 5 ▸ shows the obtained lattice energy as well as the energy of the interaction between venetoclax and solvent molecules (the sum of synthon energies with values above −1 kJ mol−1; for MEK divided by 2, since it is a disolvate).",
+   "note": "per MEK l'energia e' divisa per 2 (disolvato)"
+  },
+  {
+   "id": "X48",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN AN2: solvent in discrete cavities",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "acetonitrile bonded with only weak interactions, in discrete cavities",
+   "citazione": "The molecules of AN are bonded with only weak interactions and occupy discrete cavities in the structure. The solvent takes up 7.8% of the volume of the crystal."
+  },
+  {
+   "id": "X49",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN AN2 compared with VEN AN1",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "SCXRD, XRPD calcolato",
+   "valori": [],
+   "qualitativo": "similar symmetry and cell parameters to VEN AN1, different calculated XRPD pattern, different conformation and packing",
+   "citazione": "While it is similar to VEN AN1 (Havlůjová et al., 2025 ▸), described previously, in both symmetry and unit-cell parameters, it exhibits a distinct calculated XRPD pattern. Additionally, the conformation of venetoclax and its molecular packing in the polymorphs are different."
+  },
+  {
+   "id": "X50",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN MEK, VEN mTHF, VEN EA: isomorphous channel solvates",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "VEN MEK, VEN mTHF and VEN EA isomorphous",
+   "citazione": "Three of the novel solvates, VEN MEK, VEN mTHF and VEN EA, are isomorphous (similarities in VEN conformation and packing will be discussed further in the text)."
+  },
+  {
+   "id": "X51",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "channels of VEN MEK, VEN mTHF and VEN EA",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "solvent in channels along b in all three structures",
+   "citazione": "Solvent molecules occupy channels running along the b direction in all structures. The solvent occupies between 21.5 and 25.3% of the volume of the crystal in these structures."
+  },
+  {
+   "id": "X52",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN EA: solvent not modelled, same ratio assumed from theoretical volumes",
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "VEN EA"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "same API:solvent ratio as MEK and mTHF assumed",
+   "citazione": "For VEN EA, the solvent cannot be modelled explicitly, but we can assume the same ratio based on the theoretical volumes of the molecules."
+  },
+  {
+   "id": "X53",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN EA: low-stability solvate with high desolvation propensity",
+   "oggetto": {
+    "forma": "F5",
+    "etichetta": "VEN EA"
+   },
+   "valori": [],
+   "qualitativo": "low-stability solvate, high desolvation propensity",
+   "citazione": "These findings confirm that VEN EA is a low-stability solvate with a high desolvation propensity."
+  },
+  {
+   "id": "X54",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN IPAC: channels along a",
+   "oggetto": {
+    "forma": "F6",
+    "etichetta": "VEN IPAC"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "channels along a",
+   "citazione": "In the structure, solvent molecules occupy channels running along the a direction. The solvent takes up 17.1% of the volume of the crystal."
+  },
+  {
+   "id": "X55",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN DIO: 2D channels",
+   "oggetto": {
+    "forma": "F7",
+    "etichetta": "VEN DIO"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "2D channels along the ab plane",
+   "citazione": "Solvent molecules occupy 2D channels running along the ab plane. The solvent takes up 35.5% of the volume of the crystal."
+  },
+  {
+   "id": "X56",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN AE: cavity solvate",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "cavity solvate",
+   "citazione": "VEN AE is a cavity solvate and the solvent takes up 8.1%."
+  },
+  {
+   "id": "X57",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN H2O and VEN AN1: cavity solvates",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "both previously published structures are cavity solvates",
+   "citazione": "Both structures are cavity solvates, and the solvent takes up 4.5 and 7.9%, for the hydrate and VEN AN1, respectively.",
+   "note": "4.5% idrato (VEN H2O), 7.9% VEN AN1"
+  },
+  {
+   "id": "X58",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "number of channel and cavity solvates among the seven",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "two cavity solvates (AN2, AE) and five channel solvates, three isomorphous",
+   "citazione": "Among these, two are cavity solvates while the remaining five are channel solvates, with three being isomorphous."
+  },
+  {
+   "id": "X59",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "solvent held only by van der Waals contacts in every solvate",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "solvent never in hydrogen bonds with venetoclax",
+   "citazione": "this poses no risk to our analysis since, in every solvate, the solvent is held only by van der Waals contacts and never participates in any hydrogen bond."
+  },
+  {
+   "id": "X60",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "solvent molecules held only by weak interactions (water excepted)",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "only the water of the hydrate is hydrogen-bonded",
+   "citazione": "With the exception of water in the hydrate, all solvent molecules are held only by weak interactions."
+  },
+  {
+   "id": "X61",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN H2O: two molecules in the asymmetric unit",
+   "oggetto": {
+    "forma": "F11",
+    "etichetta": "VEN H2O"
+   },
+   "valori": [],
+   "qualitativo": "two VEN molecules in the asymmetric unit",
+   "citazione": "The structure of the hydrate contains two molecules of VEN in the asymmetric unit, therefore, two marks for each type of interaction are present in the table."
+  },
+  {
+   "id": "X62",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "starting material, crystallinity and SCXRD as primary method",
+   "valori": [],
+   "qualitativo": "amorphous starting material; crystals visible in all partially evaporated samples",
+   "citazione": "As the starting material was amorphous and all the partially evaporated samples contained visible crystals, single-crystal X-ray diffraction was our primary characterization method."
+  },
+  {
+   "id": "X63",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "all samples were solvated",
+   "valori": [],
+   "qualitativo": "no unsolvated crystals obtained from solution",
+   "citazione": "However, none of the measured samples contained only venetoclax, instead, we observed respective solvent molecules incorporated into each crystal lattice."
+  },
+  {
+   "id": "X64",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "intramolecular hydrogen bonds (1) and (3) in all structures; 3-centric extension",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "bifurcated 3-centric interactions in all structures except the hydrate",
+   "citazione": "These hydrogen bonds often form more complex, bifurcated 3-centric interactions by also involving an acceptor from a neighbouring molecule, observed in all structures except the hydrate."
+  },
+  {
+   "id": "X65",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "amine H-N1: intramolecular (1) or 3-centric (2) hydrogen bond",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "(1) H–N1···O11; (2) O11···H–N1···O15",
+   "citazione": "In the case of the amine H-N1, there are two options. It can either form an intramolecular hydrogen bonding with O11, marked as (1) in Fig. 4 ▸; or O15 can also contribute to this interaction, resulting in a 3-centric hydrogen bond, marked (2) in Fig. 4 ▸."
+  },
+  {
+   "id": "X66",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "amide H-N3: intramolecular (3) and 3-centric (4), (5) hydrogen bonds",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "(3) H–N3···O16; (4) with O10; (5) with O13",
+   "citazione": "An intramolecular hydrogen bond with ether O16, (3) in Fig. 4 ▸, forms in all structures; however, it is often combined with bonding either to tetrahydropyran O10 or to sulphoxyle O13, resulting in 3-centric hydrogen bonds (4) and (5) in Fig. 4 ▸."
+  },
+  {
+   "id": "X67",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "frequency of the 7-azaindole homosynthon (6)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "valore": 70,
+     "unita": "%"
+    }
+   ],
+   "qualitativo": "homosynthon (6) present in 70% of cases",
+   "citazione": "The N4⋯H—N5 intermolecular homosynthon of 7-azaindole, (6) in Fig. 4 ▸, is also notable, as it is present in 70% of cases."
+  },
+  {
+   "id": "X68",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "most common hydrogen bonds: (2), (5), (6)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "(2), (5) and (6) are the most common interactions",
+   "citazione": "The most commonly occurring molecular interactions, numbers (2), (5) and (6), will be analysed in more detail."
+  },
+  {
+   "id": "X69",
+   "categoria": "computazionale",
+   "proprieta": "Interaction energy (kJ mol-1)",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "VisualHabit (Mercury), Dreiding synthon energies",
+   "valori": [
+    {
+     "etichetta": "synthon (2)",
+     "valore": -38.561,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "synthon (5)",
+     "valore": -40.541,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "synthon (6)",
+     "valore": -30.069,
+     "unita": "kJ mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Interaction energy (kJ mol−1) | −38.561 | −40.541 | −30.069",
+   "note": "Tabella 3: energie dei tre sintoni di legame H piu' comuni nella struttura di VEN AN2; colonne (2), (5), (6)"
+  },
+  {
+   "id": "X70",
+   "categoria": "computazionale",
+   "proprieta": "Hydrogen-bond energy (kJ mol-1)",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "VisualHabit (Mercury), Dreiding synthon energies",
+   "valori": [
+    {
+     "etichetta": "synthon (2)",
+     "valore": -7.19,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "synthon (5)",
+     "valore": -8.165,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "synthon (6)",
+     "valore": -25.391,
+     "unita": "kJ mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Hydrogen-bond energy (kJ mol−1) | −7.19 | −8.165 | −25.391",
+   "note": "Tabella 3: energie dei tre sintoni di legame H piu' comuni nella struttura di VEN AN2; colonne (2), (5), (6)"
+  },
+  {
+   "id": "X71",
+   "categoria": "computazionale",
+   "proprieta": "van der Waals energy (kJ mol-1)",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "VisualHabit (Mercury), Dreiding synthon energies",
+   "valori": [
+    {
+     "etichetta": "synthon (2)",
+     "valore": -29.337,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "synthon (5)",
+     "valore": -32.51,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "synthon (6)",
+     "valore": -3.577,
+     "unita": "kJ mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "van der Waals energy (kJ mol−1) | −29.337 | −32.51 | −3.577",
+   "note": "Tabella 3: energie dei tre sintoni di legame H piu' comuni nella struttura di VEN AN2; colonne (2), (5), (6)"
+  },
+  {
+   "id": "X72",
+   "categoria": "computazionale",
+   "proprieta": "Electrostatic energy (kJ mol-1)",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "VisualHabit (Mercury), Dreiding synthon energies",
+   "valori": [
+    {
+     "etichetta": "synthon (2)",
+     "valore": -2.035,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "synthon (5)",
+     "valore": 0.133,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "synthon (6)",
+     "valore": -1.101,
+     "unita": "kJ mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Electrostatic energy (kJ mol−1) | −2.035 | 0.133 | −1.101",
+   "note": "Tabella 3: energie dei tre sintoni di legame H piu' comuni nella struttura di VEN AN2; colonne (2), (5), (6)"
+  },
+  {
+   "id": "X73",
+   "categoria": "computazionale",
+   "proprieta": "strongest hydrogen-bond interaction and strongest VEN–VEN interactions in VEN AN2",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "VisualHabit (Mercury)",
+   "valori": [],
+   "qualitativo": "(6) has the highest hydrogen-bond energy; dimers (2) and (5) are the two strongest VEN–VEN interactions",
+   "calcolato": true,
+   "citazione": "The N4⋯H—N5 7-azaindole homosynthon, marked (6) in Table 3 ▸, is the strongest hydrogen-bond interaction present in the structure (highest hydrogen-bond energy component). However, the dimers based on the 3-centric hydrogen bonds marked (2) and (5) in Table 3 ▸ represent the two strongest VEN–VEN interactions in the whole structure."
+  },
+  {
+   "id": "X74",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "aromatic interactions in the strongest VEN–VEN dimers of VEN AN2",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "valori": [],
+   "qualitativo": "parallel offset π–π stacking of nitrobenzenes; herringbone offset π–π stacking between 7-azaindole and nitrobenzene",
+   "citazione": "The aromatic interactions contributing to this arrangement include parallel offset π–π stacking of nitrobenzenes in one instance and aromatic interactions between 7-azaindole and nitrobenzene in another instance, characterized by herringbone offset π–π stacking."
+  },
+  {
+   "id": "X75",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond propensity of (1) H—N1⋯O11",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [
+    {
+     "valore": 0.93
+    }
+   ],
+   "calcolato": true,
+   "citazione": "H—N1⋯O11 [(1)] carries the highest propensity, 0.93, reflecting its ubiquity and strong geometric preference for forming a five-membered ring."
+  },
+  {
+   "id": "X76",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond propensity of (3) H—N3⋯O16",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [
+    {
+     "valore": 0.88
+    }
+   ],
+   "calcolato": true,
+   "citazione": "H—N3⋯O16 [(3)] likewise scores very high, 0.88, consistent with its universal presence in all ten structures."
+  },
+  {
+   "id": "X77",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond propensity of (2) O11⋯H—N1⋯O15",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [
+    {
+     "valore": 0.24
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The amine bifurcation O11⋯H—N1⋯O15 [(2)] is very unlikely (0.24), in line with CSD statistics that disfavour secondary acceptor involvement in this synthon."
+  },
+  {
+   "id": "X78",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond propensity of (4) O16⋯H—N3⋯O10 and (5) O16⋯H—N3⋯O13",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [
+    {
+     "etichetta": "(4)",
+     "valore": 0.13
+    },
+    {
+     "etichetta": "(5)",
+     "valore": 0.35
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The 3-centred amide options are both low to moderate: O16⋯H—N3⋯O10 [(4)] 0.13, O16⋯H—N3⋯O13 [(5)] 0.35, indicating only a minority of known structures employ these extended motifs."
+  },
+  {
+   "id": "X79",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond propensity of (6) 7-aza homosynthon N4⋯H—N5",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [
+    {
+     "valore": 0.52
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The 7-aza homosynthon N4⋯H—N5 [(6)] scores 0.52, marking it as a reasonably common and favourable intermolecular network."
+  },
+  {
+   "id": "X80",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond propensity of (7) O13⋯H—N5",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE",
+    "composto": "C1"
+   },
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [
+    {
+     "valore": 0.68
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The alternative synthon O13⋯H—N5 [(7)] is even more probable (0.68), yet curiously observed only in VEN AE.",
+   "note": "osservato solo in VEN AE"
+  },
+  {
+   "id": "X81",
+   "categoria": "computazionale",
+   "proprieta": "best predicted hydrogen-bond network: mean HBP and mean HBC",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Mercury CSD-Materials, HBP landscape",
+   "valori": [
+    {
+     "etichetta": "HBP",
+     "valore": 0.518
+    },
+    {
+     "etichetta": "HBC",
+     "valore": 0.878
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The highest-scoring network (HBP = 0.518, HBC = 0.878) involves a single intermolecular N4⋯H—N5 homosynthon (6)."
+  },
+  {
+   "id": "X82",
+   "categoria": "computazionale",
+   "proprieta": "HBP landscape: hydrogen-bond pairs of the experimental solvates",
+   "tecnica": "Mercury CSD-Materials, HBP landscape",
+   "valori": [],
+   "qualitativo": "six solvates with three intermolecular hydrogen-bond pairs, two of them 3-centred; VEN IPAC with two pairs, one 3-centred",
+   "calcolato": true,
+   "citazione": "Among the seven experimental solvates, six (green shapes) each present three intermolecular hydrogen-bond pairs, two of which are 3-centred bifurcated interactions and, accordingly, plot at more moderate HBP/HBC values."
+  },
+  {
+   "id": "X83",
+   "categoria": "computazionale",
+   "proprieta": "six of the seven solvates use low-propensity bifurcated hydrogen-bond motifs",
+   "tecnica": "Mercury CSD-Materials, HBP",
+   "valori": [],
+   "qualitativo": "six of the seven solvates use low-propensity bifurcated H-bond motifs, probably because the conformational distortion needed also enhances aromatic π–π stacking",
+   "calcolato": true,
+   "citazione": "Interestingly, six of the seven solvates employ low-propensity bifurcated hydrogen-bond motifs – despite their unfavourable CSD scores – most likely because the slight conformational distortion needed to form them also enhances aromatic π–π stacking."
+  },
+  {
+   "id": "X84",
+   "categoria": "computazionale",
+   "proprieta": "number of hydrogen-bonding patterns found",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "hydrogen-bonding patterns",
+     "valore": 7
+    }
+   ],
+   "citazione": "Seven types of hydrogen-bonding patterns were identified among the solvate structures."
+  },
+  {
+   "id": "X85",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "XRPD patterns calculated from the structures: isomorphous group similar",
+   "tecnica": "XRPD calcolato",
+   "valori": [],
+   "qualitativo": "calculated patterns of MEK, EA and mTHF very similar; the others differ significantly",
+   "citazione": "The patterns observed for the isomorphous group containing VEN MEK, VEN EA and VEN mTHF are very similar to each other while the rest differ significantly."
+  },
+  {
+   "id": "X86",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "conformational flexibility: overlay of all structures",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "CrystalCMP",
+   "valori": [],
+   "qualitativo": "intramolecular hydrogen bonds anchor some torsion angles",
+   "citazione": "The intramolecular hydrogen bonds discussed above affect the molecular conformation of venetoclax, basically anchoring some of the torsion angles."
+  },
+  {
+   "id": "X87",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "most different conformations (PSab similarity score): hydrate and VEN EA",
+   "tecnica": "CrystalCMP",
+   "valori": [],
+   "qualitativo": "least-similar conformations: VEN hydrate and VEN EA",
+   "citazione": "It is an overlay of two least-similar conformations based on the PSab similarity score (based on RMSD), in VEN hydrate and VEN EA."
+  },
+  {
+   "id": "X88",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "molecular packing: VEN EA, VEN MEK, VEN mTHF isostructural; AN1 and AE similar to a lesser degree",
+   "tecnica": "CrystalCMP",
+   "valori": [],
+   "qualitativo": "MEK, mTHF, EA isostructural; AN1 and AE similar to a lesser degree; the others distinct",
+   "citazione": "As can be seen in Fig. S1, VEN EA, VEN MEK and VEN mTHF are isostructural with respect to the venetoclax scaffold, and VEN AN1 and VEN AE are similar, but to a lesser degree (Figs. S4–S5). All of the other structures of venetoclax have a distinct packing of the VEN molecules."
+  },
+  {
+   "id": "X89",
+   "categoria": "cristallografia",
+   "proprieta": "volume of the crystal occupied by the solvent (Vsolv)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "VEN H2O",
+     "forma": "F11",
+     "valore": 4.5,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN AN1",
+     "forma": "F12",
+     "valore": 7.9,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": 7.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": 22.9,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN mTHF",
+     "forma": "F4",
+     "valore": 25.3,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN EA",
+     "forma": "F5",
+     "valore": 21.5,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN IPAC",
+     "forma": "F6",
+     "valore": 17.1,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN DIO",
+     "forma": "F7",
+     "valore": 35.5,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": 8.1,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Vsolv (%) | 4.5 | 7.9 | 7.8 | 22.9 | 25.3 | 21.5 | 17.1 | 35.5 | 8.1",
+   "note": "Tabella 2; colonne VEN H2O, VEN AN1, VEN AN2, VEN MEK, VEN mTHF, VEN EA, VEN IPAC, VEN DIO, VEN AE"
+  },
+  {
+   "id": "X90",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "Miller index of the first strong XRPD peak (before and after drying)",
+   "tecnica": "XRPD",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "testo": "(001)"
+    },
+    {
+     "etichetta": "VEN AE (after drying)",
+     "testo": "(001)"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "testo": "(002)"
+    },
+    {
+     "etichetta": "VEN A",
+     "testo": "NA"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "testo": "(001)"
+    },
+    {
+     "etichetta": "VEN B",
+     "testo": "NA"
+    }
+   ],
+   "citazione": "First strong peak | (001) | (001) | (002) | NA | (001) | NA",
+   "note": "Tabella 4; NA per VEN A e VEN B (indice non attribuito)"
+  },
+  {
+   "id": "X91",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "interplanar distance of the first strong peak at room temperature",
+   "tecnica": "XRPD",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": 6.071,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "VEN AE (after drying)",
+     "forma": "F8",
+     "valore": 5.767,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": 6.067,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "VEN A",
+     "forma": "F9",
+     "valore": 6.052,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": 5.818,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "VEN B",
+     "forma": "F10",
+     "valore": 5.752,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "temperatura ambiente",
+   "citazione": "Interplanar distance at room temperature (Å) | 6.071 | 5.767 | 6.067 | 6.052 | 5.818 | 5.752",
+   "note": "Tabella 4; Fig. 8"
+  },
+  {
+   "id": "X92",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "shrinkage of the interplanar distance on drying",
+   "tecnica": "XRPD",
+   "valori": [
+    {
+     "etichetta": "VEN AE -> VEN AE (after drying)",
+     "valore": 5.01,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN MEK -> VEN A",
+     "valore": 0.25,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN AN2 -> VEN B",
+     "valore": 1.13,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Difference (%) | 5.01 | 0.25 | 1.13",
+   "note": "Tabella 4: 3 valori sotto 6 colonne; l'attribuzione alle coppie solvato -> forma dopo essiccamento e' quella del testo (AE ~5%, gli altri due piccoli)"
+  },
+  {
+   "id": "X93",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "interplanar distance shrinkage of VEN AE; small difference of the other two cases",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE"
+   },
+   "tecnica": "XRPD",
+   "valori": [
+    {
+     "etichetta": "VEN AE shrinkage along (001)",
+     "valore": 5,
+     "unita": "%"
+    }
+   ],
+   "citazione": "VEN AE, which partially desolvates upon drying, but does not transform, experiences the largest shrinkage of 5% in the (001) direction. The other two cases exhibit a very small difference, meaning that the VEN molecules probably rearrange/change conformation in such a way that it does not significantly affect the interplanar spacing in the (001) direction."
+  },
+  {
+   "id": "X94",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "desolvated forms keep the molecular arrangement of the parent solvates",
+   "tecnica": "XRPD",
+   "valori": [],
+   "qualitativo": "some structural changes on desolvation; overall arrangement likely similar to the parent solvates",
+   "citazione": "Comparison of XRPD patterns shows some structural changes upon desolvation, but the overall molecular arrangement likely remains similar to the parent solvates, as indicated by the visual similarity of the diffractograms."
+  },
+  {
+   "id": "X95",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "crystal structure of VEN A and VEN B not solvable from powder data",
+   "tecnica": "XRPD",
+   "valori": [],
+   "qualitativo": "crystallinity too imperfect for structure solution from powder data; probably triclinic",
+   "citazione": "Unfortunately, their crystallinity is too imperfect for a structure solution from powder data. Most of the described structures of venetoclax have triclinic symmetry, so there is a strong possibility that VEN A and B do too."
+  },
+  {
+   "id": "X96",
+   "categoria": "computazionale",
+   "proprieta": "lattice energy (attachment energy model, Dreiding)",
+   "tecnica": "VisualHabit (Mercury)",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": -197.89,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": -147,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": -189.959,
+     "unita": "kJ mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Lattice energy (kJ mol−1) | −197.89 | −147 | −189.959",
+   "note": "Tabella 5; colonne VEN AE, VEN MEK, VEN AN2"
+  },
+  {
+   "id": "X97",
+   "categoria": "computazionale",
+   "proprieta": "interaction energy between venetoclax and the solvent molecules",
+   "tecnica": "VisualHabit (Mercury)",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": -35.066,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": -30.768,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": -29.191,
+     "unita": "kJ mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "VEN, solvent interaction energy (kJ mol−1) | −35.066 | −30.768 | −29.191",
+   "note": "Tabella 5; colonne VEN AE, VEN MEK, VEN AN2"
+  },
+  {
+   "id": "X98",
+   "categoria": "computazionale",
+   "proprieta": "ranking of lattice energy and VEN–solvent interaction energy among AE, MEK, AN2",
+   "tecnica": "VisualHabit (Mercury)",
+   "valori": [],
+   "qualitativo": "VEN AE highest lattice energy and highest VEN–solvent interaction energy",
+   "calcolato": true,
+   "citazione": "The acetone solvate, VEN AE, has the highest lattice energy and the highest interaction energy between venetoclax and solvent molecules, corresponding to its high stability and resistance to desolvation."
+  },
+  {
+   "id": "X99",
+   "categoria": "computazionale",
+   "proprieta": "VEN MEK lowest lattice energy; VEN AN2 medium",
+   "tecnica": "VisualHabit (Mercury)",
+   "valori": [],
+   "qualitativo": "MEK lowest lattice energy; AN2 medium, slightly lower than AE; MEK and AN2 interaction energies comparable",
+   "calcolato": true,
+   "citazione": "The methyl ethyl ketone solvate, VEN MEK, which transforms to VEN A upon desolvation and is a channel solvate, has the lowest lattice energy. The acetonitrile solvate polymorph 2, VEN AN2, which transforms to VEN B upon desolvation and is a discrete cavity solvate, has a medium lattice energy slightly lower than VEN AE. The interaction energies for MEK and AN are comparable."
+  },
+  {
+   "id": "X100",
+   "categoria": "computazionale",
+   "proprieta": "percentage facet area of the largest crystal face (all equivalent faces)",
+   "tecnica": "CSD-Particle (Mercury), Analyse Surface",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": 28.854,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": 32,
+     "unita": "%"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": 30.948,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Percentage facet area (all equiv. faces) | 28.854 | 32 | 30.948",
+   "note": "Tabella 6; colonne VEN AE, VEN MEK, VEN AN2"
+  },
+  {
+   "id": "X101",
+   "categoria": "computazionale",
+   "proprieta": "attachment energy of the largest crystal face",
+   "tecnica": "CSD-Particle (Mercury), Analyse Surface",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": -73.936,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": -36.057,
+     "unita": "kJ mol-1"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": -66.08,
+     "unita": "kJ mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Attachment energy (kJ mol−1) | −73.936 | −36.057 | −66.08",
+   "note": "Tabella 6; colonne VEN AE, VEN MEK, VEN AN2"
+  },
+  {
+   "id": "X102",
+   "categoria": "computazionale",
+   "proprieta": "rugosity of the largest crystal face",
+   "tecnica": "CSD-Particle (Mercury), Analyse Surface",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": 1.632
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": 1.533
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": 2.36
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Rugosity | 1.632 | 1.533 | 2.36",
+   "note": "Tabella 6; colonne VEN AE, VEN MEK, VEN AN2"
+  },
+  {
+   "id": "X103",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond acceptors on the largest crystal face (count Å-2)",
+   "tecnica": "CSD-Particle (Mercury), Analyse Surface",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": 0.033,
+     "unita": "Å-2"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": 0.029,
+     "unita": "Å-2"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": 0.054,
+     "unita": "Å-2"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Hydrogen-bond acceptors (count Å−2) | 0.033 | 0.029 | 0.054",
+   "note": "Tabella 6; colonne VEN AE, VEN MEK, VEN AN2"
+  },
+  {
+   "id": "X104",
+   "categoria": "computazionale",
+   "proprieta": "hydrogen-bond donors on the largest crystal face (count Å-2)",
+   "tecnica": "CSD-Particle (Mercury), Analyse Surface",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": 0.009,
+     "unita": "Å-2"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": 0.005,
+     "unita": "Å-2"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": 0.013,
+     "unita": "Å-2"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Hydrogen-bond donors (count Å−2) | 0.009 | 0.005 | 0.013",
+   "note": "Tabella 6; colonne VEN AE, VEN MEK, VEN AN2"
+  },
+  {
+   "id": "X105",
+   "categoria": "computazionale",
+   "proprieta": "unsatisfied hydrogen-bond donors on the largest crystal face (count Å-2)",
+   "tecnica": "CSD-Particle (Mercury), Analyse Surface",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": 0.005,
+     "unita": "Å-2"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": 0.005,
+     "unita": "Å-2"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": 0.007,
+     "unita": "Å-2"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Hydrogen-bond donors unsatisfied (count Å−2) | 0.005 | 0.005 | 0.007",
+   "note": "Tabella 6; colonne VEN AE, VEN MEK, VEN AN2"
+  },
+  {
+   "id": "X106",
+   "categoria": "computazionale",
+   "proprieta": "aromatic bonds on the largest crystal face (count Å-2)",
+   "tecnica": "CSD-Particle (Mercury), Analyse Surface",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "valore": 0.056,
+     "unita": "Å-2"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "valore": 0.034,
+     "unita": "Å-2"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "valore": 0.094,
+     "unita": "Å-2"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Aromatic bonds (count Å−2) | 0.056 | 0.034 | 0.094",
+   "note": "Tabella 6; colonne VEN AE, VEN MEK, VEN AN2"
+  },
+  {
+   "id": "X107",
+   "categoria": "computazionale",
+   "proprieta": "Miller indices of the largest crystal face",
+   "tecnica": "CSD-Particle (Mercury)",
+   "valori": [
+    {
+     "etichetta": "VEN AE",
+     "forma": "F8",
+     "testo": "(100)"
+    },
+    {
+     "etichetta": "VEN MEK",
+     "forma": "F3",
+     "testo": "(101)"
+    },
+    {
+     "etichetta": "VEN AN2",
+     "forma": "F2",
+     "testo": "(001)"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Miller indices | (100) | (101) | (001)",
+   "note": "Tabella 6"
+  },
+  {
+   "id": "X108",
+   "categoria": "morfologia",
+   "proprieta": "calculated crystal habit of VEN AE",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE"
+   },
+   "tecnica": "VisualHabit",
+   "valori": [],
+   "qualitativo": "elongated prism; stable, strong interactions on the largest face (100)",
+   "calcolato": true,
+   "citazione": "The calculated crystal habit of VEN AE is an elongated prism."
+  },
+  {
+   "id": "X109",
+   "categoria": "morfologia",
+   "proprieta": "calculated crystal habit of VEN MEK",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "VEN MEK"
+   },
+   "tecnica": "VisualHabit",
+   "valori": [],
+   "qualitativo": "thick needle, solvent channels along the longest dimension",
+   "calcolato": true,
+   "citazione": "The calculated crystal habit of VEN MEK is a thick needle with solvent channels running along the longest dimension of the crystal."
+  },
+  {
+   "id": "X110",
+   "categoria": "morfologia",
+   "proprieta": "calculated crystal habit of VEN AN2",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "VisualHabit",
+   "valori": [],
+   "qualitativo": "block-like prism",
+   "calcolato": true,
+   "citazione": "The calculated crystal habit of VEN AN2 is a block-like prism."
+  },
+  {
+   "id": "X111",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN AE: surface with each solvent molecule enclosed in a venetoclax cage",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE"
+   },
+   "tecnica": "Solvate Analyser, CSD-Particle",
+   "valori": [],
+   "qualitativo": "each solvent molecule enclosed in a venetoclax cage; well ordered surface",
+   "calcolato": true,
+   "citazione": "The view of the surface molecules provides further evidence of the stability of this solvate, as we can see that each solvent molecule is enclosed within a venetoclax cage, creating a stable, well ordered surface with relatively low rugosity (1.632) and a high attachment energy (−73.936 kJ mol−1)."
+  },
+  {
+   "id": "X112",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN MEK: solvent channels end on the (011) face",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "VEN MEK"
+   },
+   "tecnica": "Solvate Analyser",
+   "valori": [],
+   "qualitativo": "channels end on the (011) face; channels along the largest face (101)",
+   "calcolato": true,
+   "citazione": "The Solvate Analyser images show these channels and the alignment along the (011) face where the channels end."
+  },
+  {
+   "id": "X113",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN AN2: largest face (001) with significant aromatic interactions",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "CSD-Particle",
+   "valori": [],
+   "qualitativo": "significant aromatic interactions on (001)",
+   "calcolato": true,
+   "citazione": "The largest crystal face (001) displayed significant aromatic interactions."
+  },
+  {
+   "id": "X114",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "VEN AE: stability attributed to strong interactions on the largest face (100)",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE"
+   },
+   "tecnica": "CSD-Particle",
+   "valori": [],
+   "qualitativo": "stability attributed to strong intermolecular interactions on (100)",
+   "calcolato": true,
+   "citazione": "This solvate remained stable without desolvation upon drying and this stability can be attributed to the strong intermolecular interactions within the crystal lattice, particularly on the largest crystal face (100)."
+  },
+  {
+   "id": "X115",
+   "categoria": "spettroscopia",
+   "proprieta": "FTIR region of vibrations of hydrogen bonded to other atoms",
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "etichetta": "region da",
+     "valore": 3500,
+     "unita": "cm-1",
+     "circa": true
+    },
+    {
+     "etichetta": "region a",
+     "valore": 3000,
+     "unita": "cm-1"
+    }
+   ],
+   "citazione": "Fig. 12 ▸(d) highlights regions which are mostly related to the bond of hydrogen and other atoms, i.e.ca 3500–3000 cm−1, as hydrogen-bond interactions are connected with the hydrogen atom bond vibration frequency change."
+  },
+  {
+   "id": "X116",
+   "categoria": "spettroscopia",
+   "proprieta": "FTIR: N3-H stretching band (signal 5) in VEN B and VEN AN2; region of the interaction with O13 and O16",
+   "oggetto": {
+    "forma": "F10",
+    "etichetta": "VEN B"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "etichetta": "region of band shifts",
+     "valore": 1350,
+     "unita": "cm-1",
+     "circa": true
+    }
+   ],
+   "qualitativo": "strong signal (5) = ν(N3–H) in VEN B and VEN AN2",
+   "citazione": "In VEN B and VEN AN2, we see a strong signal (5) corresponding to the N—H stretching vibration of N3—H. This band position is strongly influenced by the interaction with O13 and O16, which might be confirmed by vibration band positions and shifts in the region around 1350 cm−1."
+  },
+  {
+   "id": "X117",
+   "categoria": "spettroscopia",
+   "proprieta": "FTIR: azaindole N-H stretching region",
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "valore": 3350,
+     "unita": "cm-1",
+     "circa": true
+    }
+   ],
+   "qualitativo": "same in all forms except VEN AE",
+   "citazione": "The azaindole N—H stretching vibrations in the region around 3350 cm−1 are the same in all forms except VEN AE."
+  },
+  {
+   "id": "X118",
+   "categoria": "spettroscopia",
+   "proprieta": "FTIR: no hydrogen-bond interactions of O13 in VEN MEK",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "VEN MEK"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [],
+   "qualitativo": "no hydrogen-bond interactions of O13",
+   "citazione": "No hydrogen-bond interactions of O13 were found in VEN MEK."
+  },
+  {
+   "id": "X119",
+   "categoria": "spettroscopia",
+   "proprieta": "13C ssNMR: crystallinity of VEN A and VEN MEK",
+   "tecnica": "ssNMR 13C",
+   "valori": [],
+   "qualitativo": "VEN A and VEN MEK: weaker spectra, much broader peaks (poor crystallinity)",
+   "citazione": "In 13C ssNMR, it is very evident that VEN A and VEN MEK have poor crystallinity compared with the other forms (the spectra are weaker and have much broader peaks)."
+  },
+  {
+   "id": "X120",
+   "categoria": "spettroscopia",
+   "proprieta": "13C ssNMR: carbons adjacent to O10 in the tetrahydropyran ring",
+   "tecnica": "ssNMR 13C",
+   "valori": [],
+   "qualitativo": "two close/overlapping peaks in the solid state (equivalent in solution)",
+   "citazione": "We have focused on the two carbon atoms adjacent to O10 in the tetrahydropyran ring. In solution NMR, these would be equivalent, but due to the anisotropy of the solid state, they appear here as two close/overlapping peaks."
+  },
+  {
+   "id": "X121",
+   "categoria": "spettroscopia",
+   "proprieta": "13C ssNMR: chemical shift when O10 accepts hydrogen bond (4)",
+   "tecnica": "ssNMR 13C",
+   "valori": [],
+   "qualitativo": "peaks of the carbons next to O10 shifted to higher ppm if hydrogen bond (4) is present (VEN MEK, VEN AE; not VEN AN2)",
+   "citazione": "If hydrogen bond (4) is present, the peaks are shifted to higher p.p.m."
+  },
+  {
+   "id": "X122",
+   "categoria": "spettroscopia",
+   "proprieta": "15N ssNMR: N3 and N5 hydrogen-bond donors",
+   "tecnica": "ssNMR 15N",
+   "valori": [],
+   "qualitativo": "same grouping of spectra as for 13C",
+   "citazione": "The same trends, but on different hydrogen bonds, can be observed in 15N ssNMR. Here, we focused on two nitrogen atoms, N3 and N5, both of which are hydrogen-bond donors."
+  },
+  {
+   "id": "X123",
+   "categoria": "spettroscopia",
+   "proprieta": "15N ssNMR: N5-H donor in (6) in VEN MEK and VEN AN2, in (7) in VEN AE; lower shift for VEN AE",
+   "tecnica": "ssNMR 15N",
+   "valori": [],
+   "qualitativo": "only VEN AE has a lower N5 chemical shift",
+   "citazione": "N5-H is a donor in hydrogen bond (6) in VEN MEK and VEN AN2, and in hydrogen bond (7) in VEN AE. This is consistent with the chemical shifts, with only VEN AE having a lower one."
+  },
+  {
+   "id": "X124",
+   "categoria": "spettroscopia",
+   "proprieta": "spectral similarity of the desolvated forms with the parent solvates",
+   "tecnica": "FTIR, 13C and 15N ssNMR",
+   "valori": [],
+   "qualitativo": "VEN A ~ VEN MEK; VEN B ~ VEN AN2; the pairs differ from each other and from VEN AE",
+   "citazione": "VEN A spectra are similar to VEN MEK spectra and VEN B spectra are similar to VEN AN2 spectra. The pairs are distinctly different from each other and also from the VEN AE solvate."
+  },
+  {
+   "id": "X125",
+   "categoria": "computazionale",
+   "proprieta": "VEN AE: interpretation of the hydrogen-bond and aromatic counts of the largest face",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE"
+   },
+   "tecnica": "CSD-Particle (Mercury)",
+   "valori": [],
+   "qualitativo": "balanced hydrogen-bonding network; moderate aromatic bond count, stable π–π stacking",
+   "calcolato": true,
+   "citazione": "The hydrogen-bond acceptor count (0.033) and donor count (0.009) suggest a balanced hydrogen-bonding network, with a moderate aromatic bond count (0.056) reflecting stable π–π stacking interactions.",
+   "note": "i valori numerici sono nella Tabella 6"
+  },
+  {
+   "id": "X126",
+   "categoria": "computazionale",
+   "proprieta": "VEN AE: solvent fraction of the crystal space and stability",
+   "oggetto": {
+    "forma": "F8",
+    "etichetta": "VEN AE"
+   },
+   "tecnica": "Solvate Analyser",
+   "valori": [],
+   "qualitativo": "low solvent fraction contributes to the stability",
+   "calcolato": true,
+   "citazione": "The solvent occupies 8.1% of the crystal space, which is relatively low and contributes to the stability of the solvate.",
+   "note": "8.1% e' anche Vsolv in Tabella 2"
+  },
+  {
+   "id": "X127",
+   "categoria": "computazionale",
+   "proprieta": "VEN MEK: solvent channels along the largest face (101) facilitate desolvation",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "VEN MEK"
+   },
+   "tecnica": "Solvate Analyser",
+   "valori": [],
+   "qualitativo": "solvent channels along the (101) face, likely facilitating solvent removal",
+   "calcolato": true,
+   "citazione": "Analysis of the largest crystal face (101) revealed solvent channels running along this face, which likely facilitate the removal of solvent molecules, leading to desolvation for VEN A."
+  },
+  {
+   "id": "X128",
+   "categoria": "computazionale",
+   "proprieta": "VEN MEK: lower attachment energy than VEN AE, less stable structure",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "VEN MEK"
+   },
+   "tecnica": "CSD-Particle (Mercury)",
+   "valori": [],
+   "qualitativo": "lower attachment energy than VEN AE: less stable structure",
+   "calcolato": true,
+   "citazione": "The surface properties in Table 6 ▸ indicate a lower attachment energy (−36.057 kJ mol−1) compared with VEN AE, suggesting a less stable structure.",
+   "note": "valore nella Tabella 6"
+  },
+  {
+   "id": "X129",
+   "categoria": "computazionale",
+   "proprieta": "VEN MEK: hydrogen-bond and aromatic counts lower than VEN AE",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "VEN MEK"
+   },
+   "tecnica": "CSD-Particle (Mercury)",
+   "valori": [],
+   "qualitativo": "less extensive hydrogen-bonding network; weaker π–π stacking",
+   "calcolato": true,
+   "citazione": "The hydrogen-bond acceptor count (0.029) and donor count (0.005) are lower, indicating a less extensive hydrogen-bonding network. The lower aromatic bond count (0.034) points to weaker π–π stacking interactions, contributing to the less stable nature of VEN MEK.",
+   "note": "valori nella Tabella 6"
+  },
+  {
+   "id": "X130",
+   "categoria": "computazionale",
+   "proprieta": "VEN MEK: solvent fraction of the crystal space and tendency to desolvate",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "VEN MEK"
+   },
+   "tecnica": "Solvate Analyser",
+   "valori": [],
+   "qualitativo": "high solvent fraction supports the tendency of channel solvates to desolvate easily",
+   "calcolato": true,
+   "citazione": "The solvent occupies 22.9% of the crystal space, which is relatively high and supports the channel-type solvates’ tendency to desolvate easily.",
+   "note": "22.9% e' anche Vsolv in Tabella 2"
+  },
+  {
+   "id": "X131",
+   "categoria": "computazionale",
+   "proprieta": "VEN AN2: moderate attachment energy and highest rugosity",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "CSD-Particle (Mercury)",
+   "valori": [],
+   "qualitativo": "moderate attachment energy, highest rugosity among the three solvates: complex surface topology",
+   "calcolato": true,
+   "citazione": "The surface properties from Table 6 ▸ indicate a moderate attachment energy (−66.08 kJ mol−1) and the highest rugosity (2.36) among the three solvates, reflecting a complex surface topology.",
+   "note": "valori nella Tabella 6"
+  },
+  {
+   "id": "X132",
+   "categoria": "computazionale",
+   "proprieta": "VEN AN2: hydrogen-bond and aromatic counts higher than VEN AE and VEN MEK",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "CSD-Particle (Mercury)",
+   "valori": [],
+   "qualitativo": "highly interactive hydrogen-bonding network; strong π–π stacking",
+   "calcolato": true,
+   "citazione": "The hydrogen-bond acceptor count (0.054) and donor count (0.013) suggest a highly interactive hydrogen-bonding network. The higher aromatic bond count (0.094) indicates strong π–π stacking interactions, enhancing the stability of the acetonitrile solvates’ surface.",
+   "note": "valori nella Tabella 6"
+  },
+  {
+   "id": "X133",
+   "categoria": "computazionale",
+   "proprieta": "VEN AN2: solvent fraction of the crystal space and cavity-type stability",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "VEN AN2"
+   },
+   "tecnica": "Solvate Analyser",
+   "valori": [],
+   "qualitativo": "low solvent fraction supports the stability of cavity-type solvates",
+   "calcolato": true,
+   "citazione": "The solvent occupies only 7.8% of the crystal space, which is relatively low and supports the cavity-type solvates’ stability.",
+   "note": "7.8% e' anche Vsolv in Tabella 2"
+  },
+  {
+   "id": "X134",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "groups engaged in 3-centric bonds: N3-H sulphonamide and N5 indole NH",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "N3-H sulphonamide NH: (4) with O16 and O10, or (5) with O16 and O13",
+   "citazione": "N3-H is a sulphonamide NH involved in either hydrogen bond (4) or hydrogen bond (5), both of which are 3-centric hydrogen bonds, with one of the acceptors being O16 and the other either O10 or O13."
+  },
+  {
+   "id": "X135",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "groups engaged in (6) or (7): N5 indole NH",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "N5 indole NH: (6) azaindole homosynthon or (7) with sulfonyl O13",
+   "citazione": "N5 is indole NH involved in either hydrogen bond (6) or hydrogen bond (7)."
+  }
+ ]
+}

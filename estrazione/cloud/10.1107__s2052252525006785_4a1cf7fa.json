@@ -1,0 +1,1401 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2052252525006785",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2381780",
+  "2381781",
+  "2381782",
+  "2381783",
+  "2381784",
+  "2381785",
+  "2381786"
+ ],
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "venetoclax",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "amorphous venetoclax",
+   "tipo": "amorfo",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Venetoclax was provided by Zentiva k.s. as an amorphous material.",
+   "note": "Materiale di partenza della cristallizzazione (screening dei solvati)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "VEN AN2",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 12.4625,
+    "b": 13.1131,
+    "c": 15.365,
+    "alpha": 93.2334,
+    "beta": 96.3237,
+    "gamma": 113.9359,
+    "V": 2266.9,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "95 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "VEN AN2 is a new polymorphic structure of venetoclax acetonitrile solvate.",
+   "etichette_alternative": [
+    "polymorph 2 of acetonitrile solvate"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "N4···H–N5 homosynthon of 7-azaindole (6)",
+     "chi": "two venetoclax molecules (7-azaindole N4 and N5-H)",
+     "citazione": "This again confirms crystal structure results that VEN MEK and VEN AN2 do exhibit the azaindole homosynthon hydrogen bond (6), in contrast to VEN AE."
+    },
+    {
+     "motivo": "3-centric hydrogen bond (5): N3-H with O16 and O13",
+     "chi": "sulphonamide N3-H, ether O16 and sulphoxyle O13",
+     "citazione": "FTIR spectra confirm results from the crystal structure analysis, i.e. in VEN AN2 there are hydrogen-bond interactions (5), and in VEN AE there are hydrogen-bond interactions (7)."
+    }
+   ],
+   "note": "Solvato di acetonitrile, cavity solvate ('occupy discrete cavities'; il solvente occupa il 7.8% del volume del cristallo), una molecola di API e una di solvente nell'unita' asimmetrica; T 95 K. Polimorfo del solvato VEN AN1 (pubblicato prima). Gruppo: Tabella 2 scrive «Triclinic, P1»; la barra del -1 e' andata persa nel PDF (P21/n e' scritto bene). Ricostruito P-1 con un ragionamento sui volumi, non scritto dagli autori: per le strutture P21/n il volume per molecola di API e' circa 1289-1350 Å3 (VEN EA: «(Z = 4)» con V = 5155.79 Å3; VEN MEK e VEN mTHF: una molecola di API per unita' asimmetrica e quattro posizioni generali nel gruppo). Qui V = 2266.9 Å3 con una molecola di API per unita' asimmetrica: con P-1 (Z = 2) sarebbero 1133 Å3 per molecola di API (con il suo solvente), con P1 (Z = 1) 2267 Å3, circa il doppio.",
+   "gruppo_spaziale_scritto": "P1",
+   "gruppo_spaziale_dedotto": true
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "VEN MEK",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "methyl ethyl ketone",
+    "stechiometria": 2,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 14.2655,
+    "b": 12.2567,
+    "c": 30.0079,
+    "alpha": 90,
+    "beta": 92.751,
+    "gamma": 90,
+    "V": 5240.77,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "95 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "For VEN MEK, VEN mTHF, one molecule of API and two molecules of the solvent are present in the asymmetric unit.",
+   "etichette_alternative": [
+    "methyl ethyl ketone solvate"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "N4···H–N5 homosynthon of 7-azaindole (6)",
+     "chi": "two venetoclax molecules (7-azaindole N4 and N5-H)",
+     "citazione": "This again confirms crystal structure results that VEN MEK and VEN AN2 do exhibit the azaindole homosynthon hydrogen bond (6), in contrast to VEN AE."
+    },
+    {
+     "motivo": "3-centric hydrogen bond (4): N3-H with O16 and O10 of the tetrahydropyran",
+     "chi": "sulphonamide N3-H, ether O16, tetrahydropyran O10",
+     "citazione": "O10 accepts a hydrogen bond (4) in VEN MEK and VEN AE, but not in VEN AN2."
+    }
+   ],
+   "note": "Disolvato (API:solvente 1:2; «The MEK solvate is a 2:1 solvate»), channel solvate: i canali del solvente corrono lungo b e il solvente occupa il 22.9% del volume. Isomorfo con VEN mTHF e VEN EA. T 95 K. Entrambe le posizioni del solvente sono disordinate (una con occupanze 0.928:0.072)."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "VEN mTHF",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "2-methyl tetrahydrofuran",
+    "stechiometria": 2,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 14.6928,
+    "b": 12.3178,
+    "c": 29.881,
+    "alpha": 90,
+    "beta": 93.2176,
+    "gamma": 90,
+    "V": 5399.43,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "120 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "For VEN MEK, VEN mTHF, one molecule of API and two molecules of the solvent are present in the asymmetric unit.",
+   "etichette_alternative": [
+    "2-methyl tetrahydrofuran solvate"
+   ],
+   "note": "Disolvato (API:solvente 1:2), channel solvate isomorfo con VEN MEK e VEN EA; canali lungo b; il solvente occupa il 25.3% del volume. T 120 K. Un sito del solvente e' disordinato (occupanze 0.591:0.409), probabilmente con altre posizioni a bassa occupanza non modellabili."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "VEN EA",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "ethyl acetate",
+    "stechiometria_min": 0.4,
+    "stechiometria_max": 0.5,
+    "riferito_a": "molecola",
+    "fonte_stechiometria": "altro",
+    "circa": true
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 13.7621,
+    "b": 12.5121,
+    "c": 29.9705,
+    "alpha": 90,
+    "beta": 92.5017,
+    "gamma": 90,
+    "V": 5155.79,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "120 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "For VEN EA, the solvent cannot be modelled explicitly, but we can assume the same ratio based on the theoretical volumes of the molecules.",
+   "etichette_alternative": [
+    "ethyl acetate solvate"
+   ],
+   "conflitto": "Stechiometria dell'acetato di etile in tre versioni: Tabella 2 «API:solvent ratio NA» e il testo 'assume the same ratio [1:2] based on the theoretical volumes'; PLATON SQUEEZE: «202 electrons ... approximately four molecules of ethyl acetate (48 electrons each) and thus a 1:1 VEN:EA ratio (Z = 4)» (cristallo singolo flash-cooled dalle acque madri, completamente solvatato); TGA (4.1%, circa 0.4 equivalenti) e 1H NMR (circa 0.5) sul materiale in polvere: «the VEN:EA ratio in the range of 1:0.4–0.5». Si tiene l'intervallo 0.4–0.5 della polvere (e' il campione usato per la desolvatazione e per TGA/NMR); le altre due versioni sono qui.",
+   "note": "Channel solvate isomorfo con VEN MEK e VEN mTHF, canali lungo b, solvente 21.5% del volume, fortemente disordinato (non modellabile, SQUEEZE); T 120 K. Solvato a bassa stabilita': «a high tendency toward partial desolvation during even minimal handling». Z = 4 e' scritto nel testo («(Z = 4)»)."
+  },
+  {
+   "id": "F6",
+   "composto": "C1",
+   "etichetta": "VEN IPAC",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "isopropyl acetate",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 13.5842,
+    "b": 13.607,
+    "c": 14.3796,
+    "alpha": 105.5089,
+    "beta": 109.2253,
+    "gamma": 92.2405,
+    "V": 2394.59,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "95 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "In the VEN IPAC solvate, there is one molecule of API and one molecule of solvent in the asymmetric unit.",
+   "etichette_alternative": [
+    "isopropyl acetate solvate"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "two intermolecular hydrogen-bond pairs, one of them 3-centred",
+     "chi": "venetoclax molecules",
+     "citazione": "The isopropyl acetate solvate (VEN IPAC, purple parallelogram) is unique: it has only two intermolecular hydrogen-bond pairs (one 3-centred synthon) and no second bifurcation"
+    }
+   ],
+   "note": "Channel solvate, canali lungo a, solvente 17.1% del volume. T 95 K. L'API e' disordinato nell'anello C(6) (occupanze 0.7:0.3). Gruppo: Tabella 2 scrive «Triclinic, P1»; la barra del -1 e' andata persa nel PDF (P21/n e' scritto bene). Ricostruito P-1 con un ragionamento sui volumi, non scritto dagli autori: per le strutture P21/n il volume per molecola di API e' circa 1289-1350 Å3 (VEN EA: «(Z = 4)» con V = 5155.79 Å3; VEN MEK e VEN mTHF: una molecola di API per unita' asimmetrica e quattro posizioni generali nel gruppo). Qui V = 2394.59 Å3 con una molecola di API per unita' asimmetrica: con P-1 (Z = 2) sarebbero 1197 Å3 per molecola di API (con il suo solvente), con P1 (Z = 1) 2395 Å3, circa il doppio.",
+   "gruppo_spaziale_scritto": "P1",
+   "gruppo_spaziale_dedotto": true
+  },
+  {
+   "id": "F7",
+   "composto": "C1",
+   "etichetta": "VEN DIO",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "1,4-dioxane",
+    "stechiometria": 4,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 10.6785,
+    "b": 13.5301,
+    "c": 21.9604,
+    "alpha": 82.66,
+    "beta": 88.791,
+    "gamma": 80.515,
+    "V": 3103.8,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "95 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "In the VEN DIO solvate there is one molecule of API and four molecules of the solvent in the asymmetric unit.",
+   "etichette_alternative": [
+    "dioxane solvate"
+   ],
+   "note": "«Dioxane solvate is a 4:1 solvate», channel solvate con canali 2D nel piano ab, solvente 35.5% del volume. T 95 K. Un sito del solvente e' disordinato (occupanze 0.566:0.434). Gruppo: Tabella 2 scrive «Triclinic, P1»; la barra del -1 e' andata persa nel PDF (P21/n e' scritto bene). Ricostruito P-1 con un ragionamento sui volumi, non scritto dagli autori: per le strutture P21/n il volume per molecola di API e' circa 1289-1350 Å3 (VEN EA: «(Z = 4)» con V = 5155.79 Å3; VEN MEK e VEN mTHF: una molecola di API per unita' asimmetrica e quattro posizioni generali nel gruppo). Qui V = 3103.8 Å3 con una molecola di API per unita' asimmetrica: con P-1 (Z = 2) sarebbero 1552 Å3 per molecola di API (con il suo solvente), con P1 (Z = 1) 3104 Å3, circa il doppio.",
+   "gruppo_spaziale_scritto": "P1",
+   "gruppo_spaziale_dedotto": true
+  },
+  {
+   "id": "F8",
+   "composto": "C1",
+   "etichetta": "VEN AE",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetone",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 12.025,
+    "b": 13.6215,
+    "c": 15.7475,
+    "alpha": 93.425,
+    "beta": 110.937,
+    "gamma": 102.318,
+    "V": 2327.4,
+    "fonte": "SCXRD",
+    "condizioni": "95 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "VEN AE solvate has a 1:1 ratio of API to the solvent.",
+   "etichette_alternative": [
+    "acetone solvate"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "dimeric N5–H⋯O_sulfonyl synthon (7); no 7-azaindole homosynthon (6)",
+     "chi": "indole N5-H and sulfonyl O13 of two venetoclax molecules",
+     "citazione": "HBP analysis shows that VEN AE is the only solvate not exhibiting the 7-azaindole homosynthon [(6), HBP = 0.52], instead adopting a higher-propensity dimeric N5–H⋯O_sulfonyl synthon [(7), HBP = 0.68]."
+    },
+    {
+     "motivo": "3-centric hydrogen bond (4): N3-H with O16 and O10",
+     "chi": "sulphonamide N3-H, ether O16, tetrahydropyran O10",
+     "citazione": "O10 accepts a hydrogen bond (4) in VEN MEK and VEN AE, but not in VEN AN2."
+    }
+   ],
+   "note": "Cavity solvate (il solvente occupa l'8.1% del volume), cristallo geminato (twinned). T 95 K. Eccezionalmente stabile: non desolvata, vedi E6. Gruppo: Tabella 2 scrive «Triclinic, P1»; la barra del -1 e' andata persa nel PDF (P21/n e' scritto bene). Ricostruito P-1 con un ragionamento sui volumi, non scritto dagli autori: per le strutture P21/n il volume per molecola di API e' circa 1289-1350 Å3 (VEN EA: «(Z = 4)» con V = 5155.79 Å3; VEN MEK e VEN mTHF: una molecola di API per unita' asimmetrica e quattro posizioni generali nel gruppo). Qui V = 2327.4 Å3 con una molecola di API per unita' asimmetrica: con P-1 (Z = 2) sarebbero 1164 Å3 per molecola di API (con il suo solvente), con P1 (Z = 1) 2327 Å3, circa il doppio. Il testo non dice quante molecole di API stiano nell'unita' asimmetrica: si assume una (rapporto 1:1).",
+   "gruppo_spaziale_scritto": "P1",
+   "gruppo_spaziale_dedotto": true
+  },
+  {
+   "id": "F9",
+   "composto": "C1",
+   "etichetta": "VEN A",
+   "etichette_alternative": [
+    "venetoclax form A"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "(ii) Transformation to solvent-free venetoclax form A (VEN A).",
+   "note": "Polimorfo senza solvente ottenuto per desolvatazione. «1H NMR confirmed that VEN A was fully solvent-free». Struttura non nota: «their crystallinity is too imperfect for a structure solution from powder data»; gli autori pensano sia triclina («there is a strong possibility that VEN A and B do too») ma non lo affermano."
+  },
+  {
+   "id": "F10",
+   "composto": "C1",
+   "etichetta": "VEN B",
+   "etichette_alternative": [
+    "venetoclax form B"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "(iii) Transformation to solvent-free venetoclax form B (VEN B).",
+   "note": "Polimorfo senza solvente ottenuto per desolvatazione di VEN AN2. «1H NMR confirmed that ... VEN B contained traces of acetonitrile (0.09 mol eq.)». Struttura non nota (stesse parole di VEN A)."
+  },
+  {
+   "id": "F11",
+   "composto": "C1",
+   "etichetta": "VEN H2O",
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 12.6058,
+    "b": 13.6947,
+    "c": 26.049,
+    "alpha": 83.779,
+    "beta": 87.6244,
+    "gamma": 81.3877,
+    "V": 4418.55,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "The two previously published structures of venetoclax, monohydrate (VEN H2O)",
+   "etichette_alternative": [
+    "venetoclax monohydrate",
+    "VEN-H2O"
+   ],
+   "note": "Struttura pubblicata in precedenza (Perdih et al., 2021), ripresa in Tabella 2; cavity solvate, acqua 4.5% del volume, T 150 K. «The structure of the hydrate contains two molecules of VEN in the asymmetric unit». Gruppo: Tabella 2 scrive «Triclinic, P1»; la barra del -1 e' andata persa nel PDF (P21/n e' scritto bene). Ricostruito P-1 con un ragionamento sui volumi, non scritto dagli autori: per le strutture P21/n il volume per molecola di API e' circa 1289-1350 Å3 (VEN EA: «(Z = 4)» con V = 5155.79 Å3; VEN MEK e VEN mTHF: una molecola di API per unita' asimmetrica e quattro posizioni generali nel gruppo). Qui V = 4418.55 Å3 con 2 molecole di API per unita' asimmetrica: con P-1 (Z = 4) sarebbero 1105 Å3 per molecola di API (con il suo solvente), con P1 (Z = 2) 2209 Å3, circa il doppio.",
+   "gruppo_spaziale_scritto": "P1",
+   "gruppo_spaziale_dedotto": true
+  },
+  {
+   "id": "F12",
+   "composto": "C1",
+   "etichetta": "VEN AN1",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 12.2261,
+    "b": 14.0822,
+    "c": 15.115,
+    "alpha": 67.388,
+    "beta": 72.278,
+    "gamma": 74.731,
+    "V": 2256.41,
+    "fonte": "SCXRD",
+    "condizioni": "95 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "The two previously published structures of venetoclax, monohydrate (VEN H2O) (Perdih et al., 2021 ▸) and acetonitrile solvate (VEN AN1) (Havlůjová et al., 2025 ▸) both have a 1:1 ratio of API to solvent.",
+   "etichette_alternative": [
+    "acetonitrile solvate (first polymorph)"
+   ],
+   "note": "Struttura pubblicata in precedenza (Havlůjová et al., 2025), ripresa in Tabella 2; cavity solvate, solvente 7.9% del volume, T 95 K. Simile a VEN AN2 per simmetria e parametri di cella ma con diffrattogramma calcolato, conformazione e impacchettamento diversi. Gruppo: Tabella 2 scrive «Triclinic, P1»; la barra del -1 e' andata persa nel PDF (P21/n e' scritto bene). Ricostruito P-1 con un ragionamento sui volumi, non scritto dagli autori: per le strutture P21/n il volume per molecola di API e' circa 1289-1350 Å3 (VEN EA: «(Z = 4)» con V = 5155.79 Å3; VEN MEK e VEN mTHF: una molecola di API per unita' asimmetrica e quattro posizioni generali nel gruppo). Qui V = 2256.41 Å3 con una molecola di API per unita' asimmetrica: con P-1 (Z = 2) sarebbero 1128 Å3 per molecola di API (con il suo solvente), con P1 (Z = 1) 2256 Å3, circa il doppio. Il testo non dice quante molecole di API stiano nell'unita' asimmetrica: si assume una.",
+   "gruppo_spaziale_scritto": "P1",
+   "gruppo_spaziale_dedotto": true
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F10",
+    "F9"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F10",
+   "condizioni": "based on the melting points",
+   "citazione": "Upon desolvation, this solvate transforms into VEN B, which is more thermodynamically stable than VEN A based on the melting points.",
+   "fonte_dati": "propria",
+   "note": "Punti di fusione 169.5 °C (VEN B) e 145.6 °C (VEN A). Gli autori non parlano di monotropia o enantiotropia e non hanno una temperatura di transizione."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F5",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 20,
+     "unita": "mbar",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "NMR",
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "All samples were gently homogenized with a mortar and pestle and placed in a thin layer on Petri dishes of appropriate sizes.",
+    "Based on preliminary experiments, the samples were then dried at 60°C under reduced pressure (20 mBar) for 24 h.",
+    "All samples were dried under fairly harsh conditions (20 mBar, 60°C, up to 2 days).",
+    "If the drying proved insufficient (stoichiometric ratio of API:solvent ≥ 1:0.1), the procedure was repeated.",
+    "Three different outcomes were observed:",
+    "(ii) Transformation to solvent-free venetoclax form A (VEN A). This is the case of VEN EA, MEK, mTHF, IPAC.",
+    "The samples were analysed by XRPD, solution 1H NMR and thermal methods."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Desolvatazione a 60 °C e 20 mbar: 24 h nel protocollo dei metodi, ripetuta se l'essiccamento era insufficiente (rapporto API:solvente >= 1:0.1); i risultati dicono 'up to 2 days'. Il tempo del singolo campione non e' detto: si riporta il protocollo (24 h). Condizioni piu' blande: «only partial desolvation» (non estratte, senza condizioni). Prodotto VEN A, struttura non risolta (cristallinita' troppo imperfetta per la polvere).",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "omogeneizzato in mortaio, in strato sottile su capsule di Petri"
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 20,
+     "unita": "mbar",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "NMR",
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "All samples were gently homogenized with a mortar and pestle and placed in a thin layer on Petri dishes of appropriate sizes.",
+    "Based on preliminary experiments, the samples were then dried at 60°C under reduced pressure (20 mBar) for 24 h.",
+    "All samples were dried under fairly harsh conditions (20 mBar, 60°C, up to 2 days).",
+    "If the drying proved insufficient (stoichiometric ratio of API:solvent ≥ 1:0.1), the procedure was repeated.",
+    "Three different outcomes were observed:",
+    "(ii) Transformation to solvent-free venetoclax form A (VEN A). This is the case of VEN EA, MEK, mTHF, IPAC.",
+    "The samples were analysed by XRPD, solution 1H NMR and thermal methods.",
+    "Spectral techniques have proven that there are the same hydrogen bonds in VEN A as in VEN MEK, and there are the same hydrogen bonds in VEN B as in VEN AN2.",
+    "The channel-type nature of VEN MEK means that the necessary changes in the conformation and orientation of venetoclax molecules during desolvation could be more minor, facilitating easier desolvation to VEN A."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Desolvatazione a 60 °C e 20 mbar: 24 h nel protocollo dei metodi, ripetuta se l'essiccamento era insufficiente (rapporto API:solvente >= 1:0.1); i risultati dicono 'up to 2 days'. Il tempo del singolo campione non e' detto: si riporta il protocollo (24 h). Condizioni piu' blande: «only partial desolvation» (non estratte, senza condizioni). Prodotto VEN A, struttura non risolta (cristallinita' troppo imperfetta per la polvere). MEK: solvato di canale, disolvato; i gruppi coinvolti (O10, N3-H, N5-H) sono dedotti dagli autori da FTIR e ssNMR (13C, 15N): 'likely', 'we can deduce'. Gli stessi legami H nel desolvato (A) e nel solvato madre.",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "omogeneizzato in mortaio, in strato sottile su capsule di Petri",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "O10 (tetrahydropyran oxygen) accepting hydrogen bond (4)",
+     "ruolo": "accettore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F9",
+     "citazione": "Based on this information, we can say that it is likely that in VEN A, O10 participates in hydrogen bond (4), and in VEN B it does not."
+    },
+    {
+     "gruppo": "N3-H sulphonamide NH, 3-centric hydrogen bond (4)",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F9",
+     "citazione": "Based on this information, we can deduce that in VEN A, N3 participates in hydrogen bond (4), while in VEN B, it is hydrogen bond (5)."
+    },
+    {
+     "gruppo": "N5-H indole NH, azaindole homosynthon hydrogen bond (6)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F9",
+     "citazione": "Based on this information, we can deduce that, in both VEN A and VEN B, N5 participates in hydrogen bond (6)."
+    }
+   ]
+  },
+  {
+   "id": "E3",
+   "da": "F4",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 20,
+     "unita": "mbar",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "NMR",
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "All samples were gently homogenized with a mortar and pestle and placed in a thin layer on Petri dishes of appropriate sizes.",
+    "Based on preliminary experiments, the samples were then dried at 60°C under reduced pressure (20 mBar) for 24 h.",
+    "All samples were dried under fairly harsh conditions (20 mBar, 60°C, up to 2 days).",
+    "If the drying proved insufficient (stoichiometric ratio of API:solvent ≥ 1:0.1), the procedure was repeated.",
+    "Three different outcomes were observed:",
+    "(ii) Transformation to solvent-free venetoclax form A (VEN A). This is the case of VEN EA, MEK, mTHF, IPAC.",
+    "The samples were analysed by XRPD, solution 1H NMR and thermal methods."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Desolvatazione a 60 °C e 20 mbar: 24 h nel protocollo dei metodi, ripetuta se l'essiccamento era insufficiente (rapporto API:solvente >= 1:0.1); i risultati dicono 'up to 2 days'. Il tempo del singolo campione non e' detto: si riporta il protocollo (24 h). Condizioni piu' blande: «only partial desolvation» (non estratte, senza condizioni). Prodotto VEN A, struttura non risolta (cristallinita' troppo imperfetta per la polvere).",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "omogeneizzato in mortaio, in strato sottile su capsule di Petri"
+  },
+  {
+   "id": "E4",
+   "da": "F6",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 20,
+     "unita": "mbar",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "NMR",
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "All samples were gently homogenized with a mortar and pestle and placed in a thin layer on Petri dishes of appropriate sizes.",
+    "Based on preliminary experiments, the samples were then dried at 60°C under reduced pressure (20 mBar) for 24 h.",
+    "All samples were dried under fairly harsh conditions (20 mBar, 60°C, up to 2 days).",
+    "If the drying proved insufficient (stoichiometric ratio of API:solvent ≥ 1:0.1), the procedure was repeated.",
+    "Three different outcomes were observed:",
+    "(ii) Transformation to solvent-free venetoclax form A (VEN A). This is the case of VEN EA, MEK, mTHF, IPAC.",
+    "The samples were analysed by XRPD, solution 1H NMR and thermal methods."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Desolvatazione a 60 °C e 20 mbar: 24 h nel protocollo dei metodi, ripetuta se l'essiccamento era insufficiente (rapporto API:solvente >= 1:0.1); i risultati dicono 'up to 2 days'. Il tempo del singolo campione non e' detto: si riporta il protocollo (24 h). Condizioni piu' blande: «only partial desolvation» (non estratte, senza condizioni). Prodotto VEN A, struttura non risolta (cristallinita' troppo imperfetta per la polvere).",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "omogeneizzato in mortaio, in strato sottile su capsule di Petri"
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 20,
+     "unita": "mbar",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "NMR",
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "All samples were gently homogenized with a mortar and pestle and placed in a thin layer on Petri dishes of appropriate sizes.",
+    "Based on preliminary experiments, the samples were then dried at 60°C under reduced pressure (20 mBar) for 24 h.",
+    "All samples were dried under fairly harsh conditions (20 mBar, 60°C, up to 2 days).",
+    "If the drying proved insufficient (stoichiometric ratio of API:solvent ≥ 1:0.1), the procedure was repeated.",
+    "Three different outcomes were observed:",
+    "(iii) Transformation to solvent-free venetoclax form B (VEN B). This applies to VEN AN2.",
+    "The samples were analysed by XRPD, solution 1H NMR and thermal methods.",
+    "Spectral techniques have proven that there are the same hydrogen bonds in VEN A as in VEN MEK, and there are the same hydrogen bonds in VEN B as in VEN AN2.",
+    "From the calculation results and the cavity-type character of the solvate, we can infer that a significant reordering of venetoclax molecules can be expected during desolvation, requiring larger conformational and orientational changes."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Desolvatazione a 60 °C e 20 mbar: 24 h nel protocollo dei metodi, ripetuta se l'essiccamento era insufficiente (rapporto API:solvente >= 1:0.1); i risultati dicono 'up to 2 days'. Il tempo del singolo campione non e' detto: si riporta il protocollo (24 h). Condizioni piu' blande: «only partial desolvation» (non estratte, senza condizioni). Prodotto VEN B (con tracce di acetonitrile, 0.09 mol eq.), struttura non risolta (cristallinita' troppo imperfetta per la polvere). AN2 e' un cavity solvate: gli autori deducono (non misurano) un riordino significativo delle molecole; i gruppi coinvolti sono dedotti da FTIR e ssNMR. La distanza interplanare del primo picco XRPD forte cambia dell'1.13% (Tabella 4: 5.818 -> 5.752 Å).",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "omogeneizzato in mortaio, in strato sottile su capsule di Petri",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N3-H sulphonamide NH, 3-centric hydrogen bond (5)",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F10",
+     "citazione": "Based on this information, we can deduce that in VEN A, N3 participates in hydrogen bond (4), while in VEN B, it is hydrogen bond (5)."
+    },
+    {
+     "gruppo": "N5-H indole NH, azaindole homosynthon hydrogen bond (6)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F10",
+     "citazione": "Based on this information, we can deduce that, in both VEN A and VEN B, N5 participates in hydrogen bond (6)."
+    }
+   ]
+  },
+  {
+   "id": "E6",
+   "da": "F8",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 20,
+     "unita": "mbar",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "NMR",
+     "TGA",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "All samples were gently homogenized with a mortar and pestle and placed in a thin layer on Petri dishes of appropriate sizes.",
+    "All samples were dried under fairly harsh conditions (20 mBar, 60°C, up to 2 days).",
+    "Three different outcomes were observed:",
+    "(i) No transformation: the acetone (VEN AE) and dioxane (VEN DIO) solvates remained essentially intact under even our harshest drying conditions (20 mbar, 60°C, 48 h), with VEN AE releasing only ∼10% of its solvent and VEN DIO undergoing only partial desolvation.",
+    "The exceptional robustness of VEN AE likely stems from its cavity-type topology, which physically hinders solvent escape, coupled with its unique HBP profile",
+    "VEN AE, which partially desolvates upon drying, but does not transform, experiences the largest shrinkage of 5% in the (001) direction."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "L'acetone libera solo circa il 10% del solvente e il solvato non si trasforma: la distanza interplanare (001) del primo picco XRPD forte si riduce del 5.01% dopo l'essiccamento (Tabella 4: 6.071 -> 5.767 Å; «largest shrinkage of 5% in the (001) direction»). Gli autori spiegano la stabilita' con la topologia a cavita' e con il sintone N5-H···O sulfonile (7), che 'blocca' la conformazione. Le forme A e B non si formano (a_possibili).",
+   "esito_dettaglio": "solo_contenuto_ospite",
+   "a_possibili": [
+    "F9",
+    "F10"
+   ],
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "omogeneizzato in mortaio, in strato sottile su capsule di Petri",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "dimeric N5–H⋯O_sulfonyl synthon (7)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F8",
+     "citazione": "this strongly preferred hydrogen-bond motif effectively ‘locks in’ the venetoclax conformation and prevents the molecular reorganization required for complete desolvation."
+    }
+   ]
+  },
+  {
+   "id": "E7",
+   "da": "F7",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 20,
+     "unita": "mbar",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "NMR",
+     "TGA",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "All samples were gently homogenized with a mortar and pestle and placed in a thin layer on Petri dishes of appropriate sizes.",
+    "All samples were dried under fairly harsh conditions (20 mBar, 60°C, up to 2 days).",
+    "Three different outcomes were observed:",
+    "(i) No transformation: the acetone (VEN AE) and dioxane (VEN DIO) solvates remained essentially intact under even our harshest drying conditions (20 mbar, 60°C, 48 h), with VEN AE releasing only ∼10% of its solvent and VEN DIO undergoing only partial desolvation."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il solvato di diossano resta sostanzialmente intatto: «undergoing only partial desolvation»; il testo non da' la quantita' di diossano persa. Le forme A e B non si formano (a_possibili).",
+   "esito_dettaglio": "solo_contenuto_ospite",
+   "a_possibili": [
+    "F9",
+    "F10"
+   ],
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "omogeneizzato in mortaio, in strato sottile su capsule di Petri",
+   "conflitto": "Le conclusioni dicono «In general, the channel solvates desolvated to venetoclax form A, while the two cavity solvates either did not desolvate at all (acetone solvate) or transformed to venetoclax form B», ma VEN DIO e' un channel solvate (canali 2D) e nei risultati resta sostanzialmente intatto («undergoing only partial desolvation»). Si tiene la descrizione puntuale dei risultati (regola 2)."
+  },
+  {
+   "id": "E8",
+   "da": "F9",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 145.6,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The melting points of the forms VEN A and B are 145.6 and 169.5°C, respectively. The DSC/TGA plots can be found in Fig. S6.",
+    "The desolvation study identified two venetoclax forms: A (melting point 145.6°C) and B (169.5°C).",
+    "The samples were weighed in an aluminium pan (10 mg). The pan was covered and the measurement was carried out under a nitrogen gas flow of 50 ml min−1.",
+    "The range of investigated temperatures was 0 to 300°C with a heating rate of 10°C min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione riportato senza dire se onset o picco; la tecnica e' la DSC dei metodi (DSC/TGA in Fig. S6). Crogiolo in alluminio 10 mg, «The pan was covered»: `coperchio: true`; se fosse chiuso, sigillato o forato non e' detto, quindi `crogiolo` resta vuoto. ",
+   "campione": {
+    "massa": "10 mg",
+    "coperchio": true
+   }
+  },
+  {
+   "id": "E9",
+   "da": "F10",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 169.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen gas flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The melting points of the forms VEN A and B are 145.6 and 169.5°C, respectively. The DSC/TGA plots can be found in Fig. S6.",
+    "The desolvation study identified two venetoclax forms: A (melting point 145.6°C) and B (169.5°C).",
+    "The samples were weighed in an aluminium pan (10 mg). The pan was covered and the measurement was carried out under a nitrogen gas flow of 50 ml min−1.",
+    "The range of investigated temperatures was 0 to 300°C with a heating rate of 10°C min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione riportato senza dire se onset o picco; la tecnica e' la DSC dei metodi (DSC/TGA in Fig. S6). Crogiolo in alluminio 10 mg, «The pan was covered»: `coperchio: true`; se fosse chiuso, sigillato o forato non e' detto, quindi `crogiolo` resta vuoto. VEN B ha il punto di fusione piu' alto (169.5 °C contro 145.6 °C di VEN A) e gli autori la ritengono termodinamicamente piu' stabile («more thermodynamically stable than VEN A based on the melting points»).",
+   "campione": {
+    "massa": "10 mg",
+    "coperchio": true
+   }
+  },
+  {
+   "id": "E10",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 20,
+     "max": 200,
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 4.1,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "Thermogravimetric analysis (TGA), differential scanning calorimetry (DSC) and solution 1H NMR were used (see Fig. S10 and Table S3 of the supporting information). TGA indicated a mass loss of 4.1%, corresponding to approximately 0.4 molar equivalents of ethyl acetate.",
+    "The samples were weighed in an aluminium pan (10 mg).",
+    "The range of investigated temperatures was from room temperature (approximately 20°C) to 200°C with a heating rate of 10°C min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "TGA del solvato di acetato di etile in polvere: perdita di massa del 4.1%, circa 0.4 equivalenti molari (1H NMR: circa 0.5). Il prodotto non e' caratterizzato (a = ignota). L'intervallo di T e' quello generale della TGA (da temperatura ambiente, circa 20 °C, a 200 °C); il testo non dice a che T avviene la perdita. Il campione era filtrato e 'gently dried under nitrogen'. Dati in Fig. S10 e Tabella S3 (supplementari).",
+   "campione": {
+    "massa": "10 mg"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E11",
+   "da": "F9",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "dissoluzione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "phosphate buffer solution",
+      "proporzione": null
+     }
+    ],
+    "additivi": [
+     "0.1% sodium dodecyl sulfate"
+    ],
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "altro": "disc compressed at a constant load of 100 kg, relaxed for 1 min and compressed again at the same pressure for another minute"
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The 6 mm-diameter IDR discs were prepared by direct compression of approximately 50 mg of venetoclax.",
+    "IDR measurements were performed in 50 ml of phosphate buffer solution (pH 6.8) with the addition of 0.1% sodium dodecyl sulfate at a stirring speed of 100 rpm.",
+    "On comparison of post-dissolution discs to the starting material, no phase transitions were observed.",
+    "The IDR values of VEN A and B are comparable (11.7 and 12.1 µg min−1 cm−2)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dissoluzione intrinseca di un disco compresso (6 mm, circa 50 mg) in 50 ml di tampone fosfato pH 6.8 con 0.1% di dodecilsolfato di sodio, 100 rpm: «no phase transitions were observed» confrontando i dischi dopo la dissoluzione con il materiale di partenza. Frase unica per VEN A e VEN B. La tecnica del confronto non e' detta. Temperatura della misura non detta. I valori IDR sono in `molecole`.",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "compressa",
+    "dimensione": "6 mm-diameter disc",
+    "massa": "approximately 50 mg"
+   }
+  },
+  {
+   "id": "E12",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "dissoluzione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "phosphate buffer solution",
+      "proporzione": null
+     }
+    ],
+    "additivi": [
+     "0.1% sodium dodecyl sulfate"
+    ],
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "altro": "disc compressed at a constant load of 100 kg, relaxed for 1 min and compressed again at the same pressure for another minute"
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "The 6 mm-diameter IDR discs were prepared by direct compression of approximately 50 mg of venetoclax.",
+    "IDR measurements were performed in 50 ml of phosphate buffer solution (pH 6.8) with the addition of 0.1% sodium dodecyl sulfate at a stirring speed of 100 rpm.",
+    "On comparison of post-dissolution discs to the starting material, no phase transitions were observed.",
+    "The IDR values of VEN A and B are comparable (11.7 and 12.1 µg min−1 cm−2)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dissoluzione intrinseca di un disco compresso (6 mm, circa 50 mg) in 50 ml di tampone fosfato pH 6.8 con 0.1% di dodecilsolfato di sodio, 100 rpm: «no phase transitions were observed» confrontando i dischi dopo la dissoluzione con il materiale di partenza. Frase unica per VEN A e VEN B. La tecnica del confronto non e' detta. Temperatura della misura non detta. I valori IDR sono in `molecole`.",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "compressa",
+    "dimensione": "6 mm-diameter disc",
+    "massa": "approximately 50 mg"
+   }
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Venetoclax was provided by Zentiva k.s. as an amorphous material."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile",
+    "methyl ethyl ketone",
+    "2-methyl tetrahydrofuran",
+    "ethyl acetate",
+    "isopropyl acetate",
+    "1,4-dioxane",
+    "acetone"
+   ],
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "rapporto_solido_solvente": "400 mg of venetoclax in the appropriate amount of each solvent (Table 1)",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Seven different solvents, acetone, acetonitrile, 1,4-dioxane, ethyl acetate, isopropyl acetate, methyl ethyl ketone and 2-methyl tetrahydrofuran, were selected based on their polarity",
+    "400 mg of venetoclax was dissolved in the appropriate amount of each solvent (Table 1 ▸) to form a clear solution at room temperature. All solutions were left open in the fume hood until visible precipitation occurred.",
+    "They were VEN AN2 (polymorph 2 of acetonitrile solvate), VEN MEK (methyl ethyl ketone solvate), VEN mTHF (2-methyl tetrahydrofuran solvate), VEN EA (ethyl acetate solvate), VEN IPAC (isopropyl acetate solvate), VEN DIO (dioxane solvate) and VEN AE (acetone solvate)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Una prova per solvente (solventi alternativi): il solvato e' quello del solvente, vedi `ospite` delle forme. Partenza: venetoclax amorfo. La quantita' di solvente e' 'the appropriate amount' (Tabella 1: solubilita' stimata)."
+  },
+  {
+   "forme": [
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile",
+    "methyl ethyl ketone",
+    "2-methyl tetrahydrofuran",
+    "ethyl acetate",
+    "isopropyl acetate",
+    "1,4-dioxane",
+    "acetone"
+   ],
+   "solventi_alternativi": true,
+   "atmosfera": "ambient conditions",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Single crystals were grown by slow evaporation of the solvent under ambient conditions."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli singoli per SCXRD. Tutti i tentativi di ricristallizzazione hanno dato solvati: «all recrystallization attempts to create single crystals lead to solvate structures»."
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E1",
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "solventi": [],
+   "temperatura": {
+    "valore": 60,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "pressione": {
+    "valore": 20,
+    "unita": "mbar",
+    "tipo": "applicata"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Based on preliminary experiments, the samples were then dried at 60°C under reduced pressure (20 mBar) for 24 h.",
+    "(ii) Transformation to solvent-free venetoclax form A (VEN A). This is the case of VEN EA, MEK, mTHF, IPAC."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F10"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E5"
+   ],
+   "solventi": [],
+   "temperatura": {
+    "valore": 60,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "pressione": {
+    "valore": 20,
+    "unita": "mbar",
+    "tipo": "applicata"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Based on preliminary experiments, the samples were then dried at 60°C under reduced pressure (20 mBar) for 24 h.",
+    "(iii) Transformation to solvent-free venetoclax form B (VEN B). This applies to VEN AN2."
+   ],
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 5,
+      "unita": "mg/ml"
+     },
+     "solvente": "acetone",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "room temperature"
+     },
+     "metodo": "estimated by the addition of 5 ml aliquots until dissolution, the suspension was stirred for 30 s between each addition",
+     "citazione": "Acetone | AE | 5 | 5.1 | 56.05"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 2,
+      "unita": "mg/ml"
+     },
+     "solvente": "acetonitrile",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "room temperature"
+     },
+     "metodo": "estimated by the addition of 5 ml aliquots until dissolution, the suspension was stirred for 30 s between each addition",
+     "citazione": "Acetonitrile | AN | 2 | 5.8 | 81.6"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 5.6,
+      "unita": "mg/ml"
+     },
+     "solvente": "1,4-dioxane",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "room temperature"
+     },
+     "metodo": "estimated by the addition of 5 ml aliquots until dissolution, the suspension was stirred for 30 s between each addition",
+     "citazione": "1,4-Dioxane | DIO | 5.6 | 4.8 | 101.1"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 3.3,
+      "unita": "mg/ml"
+     },
+     "solvente": "ethyl acetate",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "room temperature"
+     },
+     "metodo": "estimated by the addition of 5 ml aliquots until dissolution, the suspension was stirred for 30 s between each addition",
+     "citazione": "Ethyl acetate | EA | 3.3 | 4.4 | 77.1"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 2.7,
+      "unita": "mg/ml"
+     },
+     "solvente": "isopropyl acetate",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "room temperature"
+     },
+     "metodo": "estimated by the addition of 5 ml aliquots until dissolution, the suspension was stirred for 30 s between each addition",
+     "citazione": "Isopropyl acetate | IPAC | 2.7 | 3.9 | 88.0"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 3,
+      "unita": "mg/ml"
+     },
+     "solvente": "methyl ethyl ketone",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "room temperature"
+     },
+     "metodo": "estimated by the addition of 5 ml aliquots until dissolution, the suspension was stirred for 30 s between each addition",
+     "citazione": "Methyl ethyl ketone | MEK | 3 | 4.7 | 79.6"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 5.5,
+      "unita": "mg/ml"
+     },
+     "solvente": "2-methyl tetrahydrofuran",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "room temperature"
+     },
+     "metodo": "estimated by the addition of 5 ml aliquots until dissolution, the suspension was stirred for 30 s between each addition",
+     "citazione": "2-methyl tetrahydrofuran | mTHF | 5.5 | 4.0 | 80.2"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": "ng/ml",
+      "max": 4,
+      "limite": "sotto"
+     },
+     "metodo": "citato da Emami Riedmaier et al., 2018 (classe IV del BCS); solvente non detto",
+     "citazione": "indicating low solubility (<4 ng ml−1) and low permeability"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 11.7,
+      "unita": "µg min-1 cm-2"
+     },
+     "forma": "F9",
+     "solvente": "phosphate buffer solution (pH 6.8) with the addition of 0.1% sodium dodecyl sulfate",
+     "metodo": "intrinsic dissolution rate (IDR), disco compresso, Sirius inForm; velocita' di dissoluzione intrinseca",
+     "citazione": "The IDR values of VEN A and B are comparable (11.7 and 12.1 µg min−1 cm−2)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 12.1,
+      "unita": "µg min-1 cm-2"
+     },
+     "forma": "F10",
+     "solvente": "phosphate buffer solution (pH 6.8) with the addition of 0.1% sodium dodecyl sulfate",
+     "metodo": "intrinsic dissolution rate (IDR), disco compresso, Sirius inForm; velocita' di dissoluzione intrinseca",
+     "citazione": "The IDR values of VEN A and B are comparable (11.7 and 12.1 µg min−1 cm−2)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "two intramolecular hydrogen bonds, (1) H–N1···O11 and (3) H–N3···O16, present in all the venetoclax structures",
+     "citazione": "We can see that two intramolecular bonds marked as (1) and (3) are present in all the structures of venetoclax."
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "H–N1···O11 (1) forms a five-membered ring",
+     "citazione": "H—N1⋯O11 [(1)] carries the highest propensity, 0.93, reflecting its ubiquity and strong geometric preference for forming a five-membered ring."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "very conformationally flexible: the torsion angles not anchored by the intramolecular H bonds give a variety of conformations",
+     "citazione": "we can see that VEN is still very conformationally flexible and the torsion angles unaffected by molecular bonding lead to a variety of conformations."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "torsions with the largest differences: A sulfonyl amide region, B ether O16 region, C piperazine region, D torsion between the piperazine and cyclohexene rings",
+     "citazione": "Four torsions are highlighted, where there are the most significant differences: A – sulfonyl amide region, B – ether O16 region, C – piperazine region and D – torsion between the piperazine and cyclohexene rings."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "almost identical conformation in VEN MEK, VEN mTHF and VEN EA (isostructural); the other structures differ from each other",
+     "citazione": "Three structures that have an almost identical conformation of VEN can be identified (VEN MEK, VEN mTHF, VEN EA; middle in Fig. 6 ▸), not surprisingly, these three have been confirmed as isostructural."
+    }
+   ]
+  }
+ ],
+ "note": "Sette solvati di venetoclax (VEN AN2, MEK, mTHF, EA, IPAC, DIO, AE) con struttura SCXRD, piu' due strutture gia' pubblicate (VEN H2O, VEN AN1) riprese in Tabella 2, e due forme senza solvente (VEN A, VEN B) ottenute per desolvatazione (sotto vuoto a 60 °C): le strutture di VEN A e VEN B non sono note. CCDC 2381780-2381786 sono dati come elenco di sette numeri senza dire a quale struttura vada ciascuno (l'ordine non e' dichiarato): restano a livello di articolo e non si attribuiscono per ordine. Nelle strutture triclinie il PDF scrive «P1»: ricostruito P-1 con ragionamento sui volumi (vedi note delle forme, `gruppo_spaziale_dedotto`). Il materiale di partenza e' venetoclax amorfo (Zentiva). Le condizioni di essiccamento piu' blande («Gentler conditions were also tested, but they resulted in only partial desolvation») sono senza dettagli e non sono estratte. La differenza fra cristallo singolo e polvere dell'acetato di etile (SQUEEZE 1:1 contro TGA/NMR 0.4-0.5) e' spiegata dagli autori con la manipolazione del campione («flash-cooled directly from the mother liquor» contro «filtered and gently dried under nitrogen»): interpretazione, non un evento osservato. Velocita' di dissoluzione intrinseca: l'abstract dice che la forma B ha una IDR piu' rapida di A («a faster intrinsic dissolution rate»), i risultati che i valori sono confrontabili («comparable (11.7 and 12.1 µg min−1 cm−2)»), le conclusioni «slightly faster»: si riportano i due valori in `molecole`. Calcoli (energia reticolare, energie di attacco, rugosita', propensione ai legami H, CSD-Particle, Solvate Analyser) e spettri FTIR/ssNMR: nell'extra. Il disegno dei legami H (1)-(7) e la tabella dei legami presenti in ogni struttura sono in Fig. 2 e Fig. 4 (figure): nel testo si leggono solo alcune strutture."
+}

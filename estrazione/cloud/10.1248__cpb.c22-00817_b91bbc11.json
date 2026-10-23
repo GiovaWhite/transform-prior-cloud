@@ -1,0 +1,968 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1248/cpb.c22-00817",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "NEt-3IB (agonista di RXR) in due forme cristalline: monoidrato (forma I, da EtOH al 70 %) e anidro (forma II, da EtOH anidro) piu' l'anidro II′ ottenuto per essiccamento di I. La sigla NEt-3IB non e' mai sciolta nel testo (solo la struttura in Fig. 1A): `sigla_non_sciolta`. Nessun CCDC e nessuna temperatura di misura SCXRD nel testo: i dati cristallografici completi sono nel supplementare. Incoerenze: (1) b della forma I e' 9.0003(2) Å in Tabella 2 e 9.003(2) Å nel testo (il volume torna con 9.003); (2) la composizione elementare del campione non asciugato e' C 68.34, H 7.46, N 7.56 in Tabella 1 e C 68.34, H 7.90, N 7.47 in Tabella 3; (3) il punto di fusione e' circa 192 °C per DTA e 195–196 °C al fusionometro. Non sono eventi: la solubilita' in acqua delle tre forme (e' una proprieta', sta nelle molecole), la dissoluzione del cristallo, l'ordinamento delle molecole d'acqua. Le prove con SCXRD delle forme I e II sono strutture di cristalli cresciuti, non trasformazioni.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "NEt-3IB",
+   "sigla_non_sciolta": true,
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "form I",
+   "etichette_alternative": [
+    "monohydrate form I",
+    "monohydrate"
+   ],
+   "tipo": [
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1¯ (#2)",
+   "gruppo_spaziale_numero": 2,
+   "cella": {
+    "a": 8.521,
+    "b": 9.003,
+    "c": 14.884,
+    "alpha": 102.508,
+    "beta": 100.112,
+    "gamma": 106.564,
+    "V": 1033.5,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": null
+   },
+   "ccdc": null,
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "carboxylic acids hydrogen-bonded via H2O molecules",
+     "chi": "carboxylic acid–water–carboxylic acid (intermolecular O–O distance 5.085(4) Å)",
+     "citazione": "in the case of the form I, the carboxylic acids form hydrogen bonds via H2O molecules, and the intermolecular oxygen-oxygen distance is 5.085(4)"
+    },
+    {
+     "motivo": "pyridine N···O(H2O) hydrogen bond, N···O 2.844(4) Å",
+     "chi": "pyridine nitrogen and water oxygen",
+     "citazione": "the nitrogen atom on the pyridine of 1 is located 2.844(4) Å from the oxygen atom of H2O (Fig. 6B), which is consistent with hydrogen bond formation"
+    }
+   ],
+   "citazione": "The triclinic crystal of space group P1¯ contained two molecules of H2O together with two molecules of 1 per unit cell. We deﬁned this crystal as the form I.",
+   "conflitto": "Il parametro b e' 9.0003(2) Å nella Tabella 2 e 9.003(2) Å nel testo di confronto («form I; 9.003(2) Å»). Si tiene 9.003: con a, b, c, α, β, γ della Tabella 2 il volume viene 1033.5 Å3 (quello scritto) con b = 9.003 e 1033.2 con b = 9.0003.",
+   "note": "Monoidrato (due molecole di H2O e due di 1 per cella, Z = 2), da ricristallizzazione da EtOH al 70 %. Gruppo spaziale scritto «P1¯ (#2)» (P-1, numero 2 scritto). Temperatura della misura SCXRD non detta (radiazione Mo Kα). Formula C21H28N2O3·H2O, peso formula 374.48. Si disidrata «by efflorescence»; la disidratazione rende opachi (cloudy) i cristalli, per cui non si e' potuta misurare la struttura di II′. Nessun CCDC nel testo (dati cristallografici nel supplementare)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "form II",
+   "etichette_alternative": [
+    "anhydrate form II",
+    "anhydrate"
+   ],
+   "tipo": [
+    "anidro"
+   ],
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1¯ (#2)",
+   "gruppo_spaziale_numero": 2,
+   "cella": {
+    "a": 8.5195,
+    "b": 10.3418,
+    "c": 12.7631,
+    "alpha": 102.168,
+    "beta": 74.987,
+    "gamma": 110.08,
+    "V": 1010.86,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": null
+   },
+   "ccdc": null,
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "carboxylic acid O···O distance 2.586(2) Å between the two molecules of the unit cell (not named as a dimer in the text)",
+     "chi": "carboxylic acids of the two molecules in the unit cell",
+     "citazione": "In the form II, the oxygen-oxygen distance of the carboxylic acids of the two molecules in the unit cell is 2.586(2)"
+    }
+   ],
+   "citazione": "Like the crystal form I (Fig. 3), the crystal of the anhydrate was triclinic with space group P1¯, and the unit cell contained two molecules of 1, with no H2O. We deﬁned this crystal as the form II.",
+   "note": "Anidro da ricristallizzazione da EtOH anidro; la cella ha due molecole di 1 e nessuna H2O. Formula C21H28N2O3, peso formula 356.46. Gli stessi parametri di cella valgono per il campione ricristallizzato da EtOH al 70 % e poi essiccato («the lattice parameters of the form II obtained from anhydrous EtOH is the same as that of the sample recrystallized from 70% EtOH and dried»). Temperatura della misura SCXRD non detta (Mo Kα). Rimane anidro in aria per lungo tempo (E14). Nessun CCDC nel testo."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "form II′",
+   "etichette_alternative": [
+    "form II'",
+    "anhydrate obtained by drying form I"
+   ],
+   "tipo": [
+    "anidro"
+   ],
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "The crystal form I, obtained as a stable form by our established synthesis, was easily dehydrated simply by drying to afford the form II', which was similar to the crystal form II obtained by recrystallization from anhydrous EtOH.",
+   "note": "Anidro ottenuto per essiccamento della forma I (sotto pressione ridotta): PXRD simile a quella della forma II e stessi parametri di cella, ma si reidrata in aria a forma I mentre la forma II no. Gli autori ipotizzano che II′ non sia completamente deidratata e che l'acqua residua faccia da innesco: «the anhydrate obtained by drying form I (defined as form II′) may not be completely dehydrated; we think the remaining hydrated water serves as a trigger for further hydration and transition to form I». Non ha una struttura propria: il cristallo di I diventa opaco con la disidratazione."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F3",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "condizioni": "in air (storage at ambient humidity)",
+   "citazione": "Storage of the form II′ in air regenerated the form I.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Il testo non scrive «piu' stabile»: la forma I e' quella che si rigenera in aria dall'anidro essiccato e che l'abstract chiama «a stable form» (per la sintesi stabilita). Nessuna temperatura ne' RH detta."
+  },
+  {
+   "forme": [
+    "F2",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "condizioni": "in water (solubility test, 37 °C)",
+   "citazione": "(form II) and subsequently the monohydrate (form I) with lower water solubility is precipitated.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "In acqua il monoidrato (meno solubile) precipita dalla soluzione che si e' formata dall'anidro: ipotesi degli autori («it appears», «the residue was thought to be the monohydrate»). Nello stato solido in aria la forma II non si idrata (E14)."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pressione": {
+     "valore": 25,
+     "unita": "hPa",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "processo",
+     "testo": "overnight"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "TGA",
+     "analisi_chimica"
+    ],
+    "integrita": "opaco"
+   },
+   "citazioni": [
+    "In this process, the final product 1 was obtained by recrystallization from 70% EtOH, then dried under reduced pressure overnight.",
+    "In the case of the sample recrystallized from 70% EtOH, after calculation of the recrystallization yield, a part was dried overnight at 25 hPa and 40 °C.",
+    "The crystal form I, obtained as a stable form by our established synthesis, was easily dehydrated simply by drying to afford the form II′",
+    "All samples showed the same diffraction pattern, except for the sample recrystallized from 70% EtOH without drying (Fig. 4).",
+    "However, since dehydration made the crystals cloudy, we used a crystal obtained from anhydrous EtOH instead.",
+    "although 1 is dehydrated by efflorescence, the lattice parameters of the form II obtained from anhydrous EtOH is the same as that of the sample recrystallized from 70% EtOH and dried"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": [
+    "E2",
+    "E3"
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "carboxylic acids",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "in the case of the form I, the carboxylic acids form hydrogen bonds via H2O molecules, and the intermolecular oxygen-oxygen distance is 5.085(4)"
+    },
+    {
+     "gruppo": "pyridine N",
+     "ruolo": "accettore",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "the nitrogen atom on the pyridine of 1 is located 2.844(4) Å from the oxygen atom of H2O (Fig. 6B), which is consistent with hydrogen bond formation"
+    }
+   ],
+   "note": "Disidratazione della forma I (monoidrato da EtOH al 70 %) a 25 hPa e 40 °C overnight: la composizione elementare diventa quella dell'anidro (Tabella 1), la TG non mostra piu' perdita, la PXRD cambia (forma II′). I cristalli diventano opachi (cloudy) per la disidratazione. Il testo la chiama «efflorescence». Gli stessi cristalli, conservati in aria, si reidratano (E2): «they can be reversibly interconverted»."
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita_ignota": true,
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "days (Fig. 1B)"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "gravimetria"
+    ]
+   },
+   "citazioni": [
+    "Storage of the form II′ in air regenerated the form I.",
+    "However, when the sample was stored in air, an increase in weight was observed, and this weight increase of the product was reversed by drying under reduced pressure (Fig. 1B).",
+    "Dried NEt3IB (1, 3.56 g, 1.0 mmol) was accurately weighed into a glass bottle, sealed with ﬁlter paper, and stored in a desiccator.",
+    "the anhydrate obtained by drying form I (defined as form II′) may not be completely dehydrated; we think the remaining hydrated water serves as a trigger for further hydration and transition to form I"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": [
+    "E1",
+    "E3"
+   ],
+   "campione": {
+    "massa": "3.56 g"
+   },
+   "note": "Rigenerazione della forma I per conservazione in aria dell'anidro essiccato (II′): aumento di peso nel tempo (Fig. 1B). Umidita' relativa non scritta nel testo (registrata con un data logger, valori non riportati) e durata non scritta (la figura arriva ad almeno 47 giorni: le asciugature sono ai giorni 33 e 47). Il campione e' in un flacone chiuso con carta da filtro in un essiccatore. 3.56 g non corrisponde a 1.0 mmol con il peso formula 356.46 scritto altrove (corrisponderebbe a 10 mmol): refuso dell'articolo. La parola «regenerated» e la reidratazione sono dedotte dall'aumento di peso e dalla composizione; il testo non dice con che tecnica si identifica la forma I in questa prova."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "reduced pressure"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "gravimetria"
+    ]
+   },
+   "citazioni": [
+    "However, when the sample was stored in air, an increase in weight was observed, and this weight increase of the product was reversed by drying under reduced pressure (Fig. 1B).",
+    "effect of subsequent drying under reduced pressure at day 33 and 47"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "da_evento": "E2",
+   "pretrattamento": "stored in air after drying under reduced pressure (E2)",
+   "note": "Seconda e terza asciugatura (giorni 33 e 47 della Fig. 1B) del campione che aveva preso peso in aria: l'aumento di peso e' reversibile con l'asciugatura sotto pressione ridotta. Temperatura e durata dell'asciugatura non scritte. Il testo non dice se il prodotto e' II′ per analisi, lo deduce dal ritorno del peso."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "F3",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "normal pressure"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "processo",
+     "testo": "overnight"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "TGA",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "The precipitated solid was collected by filtration and dried at normal pressure and room temperature overnight.",
+    "In elemental analysis, a composition consistent with the monohydrate was obtained only for the product recrystallized from 70% EtOH and not dried.",
+    "Similarly, TG-DTA showed a weight decrease at less than 100 °C only for the product recrystallized from 70% EtOH and undried",
+    "Thus, only crystals obtained from 70% EtOH without drying were considered to be in the monohydrate form I."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Il campione da EtOH al 70 % «without drying» (cioe' non asciugato sotto pressione ridotta) e' stato comunque filtrato e lasciato asciugare a pressione normale e temperatura ambiente overnight: resta monoidrato (composizione elementare, TG e PXRD). Il testo non lo dice come prova di stabilita', e' la lettura della sezione sperimentale e dei risultati; per questo certezza media."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 30,
+     "max": 83,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 4.9,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "4.9% was observed between 30 and 83 °C only for the undried sample, which suggested hydration of 1. Assuming all 1 is a monohydrated, dehydration causes a weight decrease of about 4.8%.",
+    "Measurements were performed from 30 to 300 °C at heating rate of 5 °C/min under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "TG del campione non asciugato (monoidrato): 4.9 % di perdita fra 30 e 83 °C contro circa 4.8 % attesi per un monoidrato. Il prodotto della TG non e' caratterizzato: a = ignota."
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 30,
+     "max": 83,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "4.9% was observed between 30 and 83 °C only for the undried sample, which suggested hydration of 1.",
+    "Measurements were performed from 30 to 300 °C at heating rate of 5 °C/min under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Il campione asciugato (dried sample, forma II′) non mostra perdita di peso nell'intervallo in cui il non asciugato perde 4.9 %. Il testo dice «only for the undried sample»: l'intervallo 30–83 °C e' quello citato per il campione non asciugato; la TG corre fino a 300 °C."
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 192,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA"
+    ]
+   },
+   "citazioni": [
+    "Differential thermal analysis (DTA) confirmed that both samples melted at around 192 °C, in agreement with previous findings.",
+    "Measurements were performed from 30 to 300 °C at heating rate of 5 °C/min under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione del campione asciugato (anidro II′) a circa 192 °C per DTA. Il punto di fusione al fusionometro e' circa 196 °C (E9–E13): metodi diversi, temperature diverse."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 192,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DTA"
+    ],
+    "desolvatazione_possibile": true
+   },
+   "citazioni": [
+    "Differential thermal analysis (DTA) confirmed that both samples melted at around 192 °C, in agreement with previous findings.",
+    "Measurements were performed from 30 to 300 °C at heating rate of 5 °C/min under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione del campione non asciugato (monoidrato) a circa 192 °C per DTA: il campione perde prima l'acqua fra 30 e 83 °C (E5), quindi quello che fonde e' presumibilmente l'anidro; il testo dice solo che «both samples melted at around 192 °C»."
+  },
+  {
+   "id": "E9",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 195.8,
+     "max": 196.5,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Sample Yield M.p. (°C) 70% EtOH without drying 103% as anhydrate (98% as monohydrate) 70% EtOH with drying — 195.8–196.5",
+    "The melting points of all the products showed no significant difference.",
+    "The melting point of each sample was measured using a hot stage melting point measuring device (Yanagimoto Seisakusho, Japan). The measurement was performed three times for each sample, and the melting point range was recorded."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Campione da EtOH al 70 % e asciugato (anidro II′). Tecnica: fusionometro a piastra riscaldata (hot stage); tre misure per campione, riportato l'intervallo. Il valore e' una riga di tabella senza unita' accanto al numero (unita' nell'intestazione «M.p. (°C)»): il verificatore puo' segnalarlo come «quasi». Velocita' di riscaldamento non detta."
+  },
+  {
+   "id": "E10",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 195.7,
+     "max": 196.3,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Sample Yield M.p. (°C) 70% EtOH without drying 103% as anhydrate (98% as monohydrate) 70% EtOH with drying — 195.8–196.5 70.74 7.55 7.84 EtOH 79% 195.7–196.3",
+    "The melting points of all the products showed no significant difference.",
+    "The melting point of each sample was measured using a hot stage melting point measuring device (Yanagimoto Seisakusho, Japan). The measurement was performed three times for each sample, and the melting point range was recorded."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Campione da EtOH anidro (forma II). Tecnica: fusionometro a piastra riscaldata (hot stage); tre misure per campione, riportato l'intervallo. Il valore e' una riga di tabella senza unita' accanto al numero (unita' nell'intestazione «M.p. (°C)»): il verificatore puo' segnalarlo come «quasi». Velocita' di riscaldamento non detta."
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 195.7,
+     "max": 196.5,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Sample Yield M.p. (°C) 70% EtOH without drying 103% as anhydrate (98% as monohydrate) 70% EtOH with drying — 195.8–196.5 70.74 7.55 7.84 EtOH 79% 195.7–196.3 70.71 7.78 7.86 MeOH 77% 195.7–196.5",
+    "The melting points of all the products showed no significant difference.",
+    "The melting point of each sample was measured using a hot stage melting point measuring device (Yanagimoto Seisakusho, Japan). The measurement was performed three times for each sample, and the melting point range was recorded."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Campione da MeOH: stesso diffrattogramma dei campioni asciugati (forma II per lettura). Tecnica: fusionometro a piastra riscaldata (hot stage); tre misure per campione, riportato l'intervallo. Il valore e' una riga di tabella senza unita' accanto al numero (unita' nell'intestazione «M.p. (°C)»): il verificatore puo' segnalarlo come «quasi». Velocita' di riscaldamento non detta."
+  },
+  {
+   "id": "E12",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 195.9,
+     "max": 196.6,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Sample Yield M.p. (°C) 70% EtOH without drying 103% as anhydrate (98% as monohydrate) 70% EtOH with drying — 195.8–196.5 70.74 7.55 7.84 EtOH 79% 195.7–196.3 70.71 7.78 7.86 MeOH 77% 195.7–196.5 70.79 7.89 7.82 iPrOH 73% 195.9–196.6",
+    "The melting points of all the products showed no significant difference.",
+    "The melting point of each sample was measured using a hot stage melting point measuring device (Yanagimoto Seisakusho, Japan). The measurement was performed three times for each sample, and the melting point range was recorded."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Campione da iPrOH: stesso diffrattogramma dei campioni asciugati (forma II per lettura). Tecnica: fusionometro a piastra riscaldata (hot stage); tre misure per campione, riportato l'intervallo. Il valore e' una riga di tabella senza unita' accanto al numero (unita' nell'intestazione «M.p. (°C)»): il verificatore puo' segnalarlo come «quasi». Velocita' di riscaldamento non detta."
+  },
+  {
+   "id": "E13",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 194.9,
+     "max": 196.2,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Elemental analysis (%) C H N 194.9–196.2",
+    "The melting points of all the products showed no significant difference.",
+    "The melting point of each sample was measured using a hot stage melting point measuring device (Yanagimoto Seisakusho, Japan). The measurement was performed three times for each sample, and the melting point range was recorded."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "attribuzione_ricostruita": true,
+   "note": "Campione da EtOH al 70 % non asciugato (monoidrato). L'intervallo e' nella riga continuata dopo il cambio di pagina della tabella: l'attribuzione alla riga «70% EtOH without drying» e' per posizione (e la composizione elementare 68.34 coincide con il campione non asciugato di Tabella 1). Tecnica: fusionometro a piastra riscaldata (hot stage); tre misure per campione, riportato l'intervallo. Il valore e' una riga di tabella senza unita' accanto al numero (unita' nell'intestazione «M.p. (°C)»): il verificatore puo' segnalarlo come «quasi». Velocita' di riscaldamento non detta."
+  },
+  {
+   "id": "E14",
+   "da": "F2",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita_ignota": true,
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "a long period"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "On the other hand, interestingly, even when form II was stored in air for a long period, the crystal form remained unchanged (Supplementary Fig. S4 and Supplementary Table S1).",
+    "Considering that form II does not become hydrated even during long-term storage"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "dettagli_nel_supplementare": true,
+   "note": "La forma II (da EtOH anidro) non si idrata in aria nemmeno dopo lungo tempo, a differenza di II′. Durata, T e RH nel supplementare (Fig. S4, Tabella S1)."
+  },
+  {
+   "id": "E15",
+   "da": "F2",
+   "a": "F1",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pH": {
+     "valore": null,
+     "unita": null,
+     "valori": [
+      1.2,
+      6.8,
+      7.4
+     ]
+    },
+    "tempo": {
+     "valore": null,
+     "unita": "h",
+     "tipo": "attesa",
+     "valori": [
+      2,
+      4,
+      24
+     ]
+    },
+    "rapporto_solido_solvente": "about 35.6 mg of sample in about 10 mL of PBS",
+    "solventi": [
+     {
+      "nome": "phosphate-buffered saline (PBS)",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F1"
+     },
+     {
+      "forma": "F2"
+     }
+    ]
+   },
+   "citazioni": [
+    "The samples (Form I, II’ and II, about 35.6 mg) were accurately weighed and placed in 15-mL centrifuge tubes. Phosphate-buffered saline (PBS) (about 10 mL, adjusted to pH 1.2, 6.8, and 7.4 with 6M HCl) were added to each tube. The suspensions were vortexed for 30 s, sonicated for 3 min, and shaken in a 37 °C electric water bath. Aliquots of 3 mL were taken after 2, 4 and 24 h and filtered using a syringe filter.",
+    "Examination of the residue by PXRD after water solubility tests of forms II and II′ indicated that the spectrum of form II corresponded to that of a mixture of I and II, and the spectrum of form II′ was similar to that of form I (Supplementary Figure S6).",
+    "it appears that the dissolution process occurs as the anhydrate",
+    "(form II) and subsequently the monohydrate (form I) with lower water solubility is precipitated. Thus, the residue was thought to be the monohydrate (form I)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "dettagli_nel_supplementare": true,
+   "campione": {
+    "tipo": "polvere",
+    "massa": "about 35.6 mg"
+   },
+   "note": "Residuo della prova di solubilita' della forma II: il diffrattogramma e' quello di una miscela di I e II (Fig. S6): il monoidrato precipita dalla soluzione mentre il solido di partenza non si e' ancora convertito del tutto. Il testo non lega il residuo a un pH o a un tempo precisi (prove a pH 1.2, 6.8 e 7.4; prelievi a 2, 4 e 24 h): le condizioni sono quelle di tutta la prova di solubilita'. Agitazione: «shaken in a 37 °C electric water bath», frequenza non scritta."
+  },
+  {
+   "id": "E16",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pH": {
+     "valore": null,
+     "unita": null,
+     "valori": [
+      1.2,
+      6.8,
+      7.4
+     ]
+    },
+    "tempo": {
+     "valore": null,
+     "unita": "h",
+     "tipo": "attesa",
+     "valori": [
+      2,
+      4,
+      24
+     ]
+    },
+    "rapporto_solido_solvente": "about 35.6 mg of sample in about 10 mL of PBS",
+    "solventi": [
+     {
+      "nome": "phosphate-buffered saline (PBS)",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "The samples (Form I, II’ and II, about 35.6 mg) were accurately weighed and placed in 15-mL centrifuge tubes. Phosphate-buffered saline (PBS) (about 10 mL, adjusted to pH 1.2, 6.8, and 7.4 with 6M HCl) were added to each tube. The suspensions were vortexed for 30 s, sonicated for 3 min, and shaken in a 37 °C electric water bath. Aliquots of 3 mL were taken after 2, 4 and 24 h and filtered using a syringe filter.",
+    "Examination of the residue by PXRD after water solubility tests of forms II and II′ indicated that the spectrum of form II corresponded to that of a mixture of I and II, and the spectrum of form II′ was similar to that of form I (Supplementary Figure S6).",
+    "it appears that the dissolution process occurs as the anhydrate",
+    "(form II) and subsequently the monohydrate (form I) with lower water solubility is precipitated. Thus, the residue was thought to be the monohydrate (form I)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "dettagli_nel_supplementare": true,
+   "campione": {
+    "tipo": "polvere",
+    "massa": "about 35.6 mg"
+   },
+   "note": "Residuo della prova di solubilita' della forma II′: il diffrattogramma e' «similar to that of form I» (Fig. S6). Stesse condizioni e stessa riserva sul pH e sul tempo di E15."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "70% EtOH"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "NEt-3IB (1) was dried overnight at 25 hPa and 40 °C. Then, 1.0 g of 1 was added to a 3-necked 100-mL flask equipped with a stirring bar, a Dimroth condenser and a thermometer under an Ar atmosphere. Solvents were added to the flask and heated to prepare saturated solutions. These solutions were cooled to 30 °C with stirring (400 rpm). The precipitated solid was collected by filtration and dried at normal pressure and room temperature overnight.",
+    "The 70% EtOH-recrystallized sample was obtained in quantitative yield"
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 30,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "agitazione": {
+    "valore": 400,
+    "unita": "rpm"
+   },
+   "atmosfera": "Ar",
+   "rapporto_solido_solvente": "1.0 g of 1 (volume of solvent not given)",
+   "pretrattamento": "1 dried overnight at 25 hPa and 40 °C before recrystallization",
+   "note": "Soluzione satura a caldo raffreddata a 30 °C; il solido filtrato e asciugato a pressione normale e T ambiente overnight resta monoidrato (E4). Resa quantitativa (103 % come anidro, 98 % come monoidrato, Tabella 3)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "anhydrous EtOH"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "NEt-3IB (1) was dried overnight at 25 hPa and 40 °C. Then, 1.0 g of 1 was added to a 3-necked 100-mL flask equipped with a stirring bar, a Dimroth condenser and a thermometer under an Ar atmosphere. Solvents were added to the flask and heated to prepare saturated solutions. These solutions were cooled to 30 °C with stirring (400 rpm). The precipitated solid was collected by filtration and dried at normal pressure and room temperature overnight.",
+    "Therefore, we investigated recrystallization using anhydrous EtOH, MeOH or isopropanol (iPrOH) as a solvent."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 30,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "agitazione": {
+    "valore": 400,
+    "unita": "rpm"
+   },
+   "atmosfera": "Ar",
+   "rapporto_solido_solvente": "1.0 g of 1 (volume of solvent not given)",
+   "pretrattamento": "1 dried overnight at 25 hPa and 40 °C before recrystallization",
+   "note": "Forma II da EtOH anidro (anche il cristallo singolo per la struttura): resa 79 % (Tabella 3; il testo dice «around 75%» per gli alcoli anidri); concentrazione di 1 nel filtrato 65 mM, contro 1.8 mM da EtOH al 70 %."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "MeOH",
+    "iPrOH"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "NEt-3IB (1) was dried overnight at 25 hPa and 40 °C. Then, 1.0 g of 1 was added to a 3-necked 100-mL flask equipped with a stirring bar, a Dimroth condenser and a thermometer under an Ar atmosphere. Solvents were added to the flask and heated to prepare saturated solutions. These solutions were cooled to 30 °C with stirring (400 rpm). The precipitated solid was collected by filtration and dried at normal pressure and room temperature overnight.",
+    "Therefore, we investigated recrystallization using anhydrous EtOH, MeOH or isopropanol (iPrOH) as a solvent.",
+    "All samples showed the same diffraction pattern, except for the sample recrystallized from 70% EtOH without drying (Fig. 4)."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": 30,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "agitazione": {
+    "valore": 400,
+    "unita": "rpm"
+   },
+   "atmosfera": "Ar",
+   "rapporto_solido_solvente": "1.0 g of 1 (volume of solvent not given)",
+   "pretrattamento": "1 dried overnight at 25 hPa and 40 °C before recrystallization",
+   "note": "Da MeOH e da iPrOH si ottengono solidi con lo stesso diffrattogramma dei campioni asciugati (gli autori non li chiamano forma II): forma II per lettura. Rese 77 % e 73 % (Tabella 3)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The crystal form I, obtained as a stable form by our established synthesis, was easily dehydrated simply by drying to afford the form II′"
+   ],
+   "fonte_dati": "propria",
+   "da_evento": "E1",
+   "note": "Forma II′ per essiccamento sotto pressione ridotta della forma I (E1)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "forma": "F2",
+     "grandezza": {
+      "valore": null,
+      "max": 1.37,
+      "unita": "µg/mL",
+      "limite": "sotto"
+     },
+     "solvente": "water",
+     "citazione": "The form II showed higher solubility than the form I, up to 1.37 µg/mL (Fig. 7).",
+     "metodo": "solubilita' per assorbimento UV (AUC 250–350 nm) dopo 2, 4 e 24 h a 37 °C in PBS a pH 1.2, 6.8 e 7.4 (Fig. 7); il valore 1.37 µg/mL non e' legato a un pH o a un tempo precisi"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F1",
+     "grandezza": null,
+     "solvente": "water",
+     "citazione": "Since form I shows significantly lower solubility even in the 2-h water solubility test",
+     "metodo": "monoidrato meno solubile della forma II e II′ (Fig. 7); valori nel grafico"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "molecular conformations of 1 are similar in forms I and II",
+     "citazione": "The molecular structures of 1 in the crystal forms I and II obtained by single crystal X-ray diffraction appear to be essentially the same (Fig. 6A)."
+    },
+    {
+     "tipo": "altro",
+     "testo": "pyridine nitrogen probably protonated in the acidic medium, raising the water solubility",
+     "citazione": "The water solubility of 1 was higher in the more acidic environment, probably due to pyridine protonation"
+    }
+   ]
+  }
+ ]
+}

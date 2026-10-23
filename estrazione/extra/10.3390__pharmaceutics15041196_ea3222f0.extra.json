@@ -1,0 +1,2271 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.3390/pharmaceutics15041196",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "composizione",
+   "proprieta": "purezza e massa molecolare di MET·HCl commerciale",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "MET·HCl"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 99,
+     "unita": "%",
+     "limite": "sopra",
+     "etichetta": "purezza"
+    },
+    {
+     "valore": 166,
+     "etichetta": "MW"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "MET·HCl (purity > 99%, MW = 166)",
+   "note": null
+  },
+  {
+   "id": "X2",
+   "categoria": "composizione",
+   "proprieta": "purezza e massa molecolare di RHE commerciale",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 99,
+     "unita": "%",
+     "limite": "sopra",
+     "etichetta": "purezza"
+    },
+    {
+     "valore": 284,
+     "etichetta": "MW"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "RHE (purity > 99%, MW = 284)",
+   "note": null
+  },
+  {
+   "id": "X3",
+   "categoria": "altro",
+   "proprieta": "regola del ΔpKa per la formazione del sale",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET e RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 3,
+     "etichetta": "ΔpKa",
+     "limite": "sopra"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "ΔpKa maggiore di 3: previsione di formazione del sale",
+   "calcolato": null,
+   "citazione": "The ΔpKa of MET (pKa = 12.4) and RHE (pKa = 3.2) were greater than 3, allowing the prediction of the potential for multicomponent salt formation between MET and RHE",
+   "note": "ΔpKa derivata dagli autori dai due pKa (12.4 e 3.2, nelle molecole); regola citata dal rif. 60"
+  },
+  {
+   "id": "X4",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "classe BCS di RHE",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "RHE"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "classe BCS II: permeabilita' elevata, solubilita' insoddisfacente",
+   "calcolato": null,
+   "citazione": "According to the Biopharmaceutics Classification System (BCS) classification, RHE belongs to the BCS II class of drugs, with superior permeability and unsatisfactory solubility [57].",
+   "note": "citato dal rif. 57"
+  },
+  {
+   "id": "X5",
+   "categoria": "sintesi",
+   "proprieta": "MET base: quantita' di MET·HCl e di NaOH nella neutralizzazione",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "MET"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 3.31,
+     "unita": "g",
+     "etichetta": "metformin (come scritto)"
+    },
+    {
+     "valore": 20,
+     "unita": "mmol",
+     "etichetta": "metformin"
+    },
+    {
+     "valore": 0.8,
+     "unita": "g",
+     "etichetta": "NaOH"
+    },
+    {
+     "valore": 20,
+     "unita": "mmol",
+     "etichetta": "NaOH"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "First, 3.31 g (20 mmol) of metformin was accurately weighed and dissolved in an appropriate amount of isopropanol, to which 0.80 g (20 mmol) of sodium hydroxide was added.",
+   "note": "il testo scrive «metformin» ma la massa corrisponde al cloridrato (MW = 166)"
+  },
+  {
+   "id": "X6",
+   "categoria": "sintesi",
+   "proprieta": "MET–RHE: quantita' dei reagenti e volume di etanolo per la macinazione",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 0.2,
+     "unita": "mmol",
+     "etichetta": "MET"
+    },
+    {
+     "valore": 25.8,
+     "unita": "mg",
+     "etichetta": "MET"
+    },
+    {
+     "valore": 0.2,
+     "unita": "mmol",
+     "etichetta": "RHE"
+    },
+    {
+     "valore": 56.8,
+     "unita": "mg",
+     "etichetta": "RHE"
+    },
+    {
+     "valore": 2,
+     "unita": "mL",
+     "etichetta": "ethanol"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "0.2 mmol of MET (25.8 mg) and 0.2 mmol of RHE (56.8 mg) were accurately weighed into a mortar, 2 mL of ethanol was added",
+   "note": null
+  },
+  {
+   "id": "X7",
+   "categoria": "sintesi",
+   "proprieta": "MET–RHE: tempo di essiccamento della polvere macinata",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 25,
+     "unita": "°C",
+     "etichetta": "temperatura"
+    },
+    {
+     "valore": 4,
+     "unita": "h",
+     "etichetta": "durata"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The solid was dried at 25 °C for 4 h to obtain an auratus powder sample.",
+   "note": "la polvere macinata e' di colore «auratus»"
+  },
+  {
+   "id": "X8",
+   "categoria": "sintesi",
+   "proprieta": "MET–RHE: volume di metanolo per la cristallizzazione",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 6,
+     "unita": "mL",
+     "etichetta": "methanol"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The obtained sample was dissolved in 6 mL of methanol, and then filtered.",
+   "note": null
+  },
+  {
+   "id": "X9",
+   "categoria": "sintesi",
+   "proprieta": "MET–RHE–H2O: quantita' dei reagenti e volume del solvente",
+   "oggetto": {
+    "forma": "F5",
+    "composto": null,
+    "etichetta": "MET–RHE–H2O"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 0.5,
+     "unita": "mmol",
+     "etichetta": "MET"
+    },
+    {
+     "valore": 64.5,
+     "unita": "mg",
+     "etichetta": "MET"
+    },
+    {
+     "valore": 0.5,
+     "unita": "mmol",
+     "etichetta": "RHE"
+    },
+    {
+     "valore": 142.0,
+     "unita": "mg",
+     "etichetta": "RHE"
+    },
+    {
+     "valore": 5,
+     "unita": "mL",
+     "etichetta": "acetone/water 1:1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "0.5 mmol of MET (64.5 mg) and 0.5 mmol of RHE (142.0 mg) were accurately weighed into a vial, 5 mL of acetone/water (v/v, 1:1) mixed solvent was added",
+   "note": null
+  },
+  {
+   "id": "X10",
+   "categoria": "sintesi",
+   "proprieta": "MET–RHE–H2O: essiccamento del solido dopo il rotavapor",
+   "oggetto": {
+    "forma": "F5",
+    "composto": null,
+    "etichetta": "MET–RHE–H2O"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 50,
+     "unita": "°C",
+     "etichetta": "temperatura"
+    },
+    {
+     "valore": 2,
+     "unita": "h",
+     "etichetta": "durata"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The solvent was quickly removed using a rotary evaporator, and the resulting solid was dried at 50 °C for 2 h.",
+   "note": null
+  },
+  {
+   "id": "X11",
+   "categoria": "sintesi",
+   "proprieta": "MET–RHE–ethanol–H2O: quantita' dei reagenti e volume del solvente per la macinazione",
+   "oggetto": {
+    "forma": "F6",
+    "composto": null,
+    "etichetta": "MET–RHE–ethanol–H2O"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 0.1,
+     "unita": "mmol",
+     "etichetta": "MET"
+    },
+    {
+     "valore": 12.9,
+     "unita": "mg",
+     "etichetta": "MET"
+    },
+    {
+     "valore": 0.1,
+     "unita": "mmol",
+     "etichetta": "RHE"
+    },
+    {
+     "valore": 28.4,
+     "unita": "mg",
+     "etichetta": "RHE"
+    },
+    {
+     "valore": 3,
+     "unita": "mL",
+     "etichetta": "ethanol/water 1:1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "0.1 mmol of MET (12.9 mg) and 0.1 mmol of RHE (28.4 mg) were accurately weighed into a mortar, and 3 mL of ethanol/water (v/v, 1:1) mixed solvent was added",
+   "note": null
+  },
+  {
+   "id": "X12",
+   "categoria": "sintesi",
+   "proprieta": "MET–RHE–ethanol–H2O: volume di etanolo per la cristallizzazione",
+   "oggetto": {
+    "forma": "F6",
+    "composto": null,
+    "etichetta": "MET–RHE–ethanol–H2O"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 8,
+     "unita": "mL",
+     "etichetta": "ethanol"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The resulting sample was dissolved in 8 mL of ethanol and filtered.",
+   "note": null
+  },
+  {
+   "id": "X13",
+   "categoria": "sintesi",
+   "proprieta": "MET–RHE–acetonitrile: quantita' dei reagenti e volume del solvente",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 0.5,
+     "unita": "mmol",
+     "etichetta": "MET"
+    },
+    {
+     "valore": 64.5,
+     "unita": "mg",
+     "etichetta": "MET"
+    },
+    {
+     "valore": 0.5,
+     "unita": "mmol",
+     "etichetta": "RHE"
+    },
+    {
+     "valore": 142.0,
+     "unita": "mg",
+     "etichetta": "RHE"
+    },
+    {
+     "valore": 12,
+     "unita": "mL",
+     "etichetta": "methanol/acetonitrile 3:1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "0.5 mmol of MET (64.5 mg) and 0.5 mmol of RHE (142.0 mg) were accurately weighted into a vial, and added to 12 mL of methanol/acetonitrile (v/v, 3:1) mixed solvent",
+   "note": null
+  },
+  {
+   "id": "X14",
+   "categoria": "morfologia",
+   "proprieta": "MET–RHE: aspetto dei cristalli",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "faint yellow massive crystals were obtained after 6 days",
+   "calcolato": null,
+   "citazione": "faint yellow massive crystals were obtained after 6 days",
+   "note": null
+  },
+  {
+   "id": "X15",
+   "categoria": "morfologia",
+   "proprieta": "MET–RHE–ethanol–H2O: aspetto dei cristalli",
+   "oggetto": {
+    "forma": "F6",
+    "composto": null,
+    "etichetta": "MET–RHE–ethanol–H2O"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "cristalli gialli a blocco adatti alla SXRD",
+   "calcolato": null,
+   "citazione": "After 5 days, yellow massive crystals suitable for single-crystal X-ray diffraction were obtained.",
+   "note": null
+  },
+  {
+   "id": "X16",
+   "categoria": "morfologia",
+   "proprieta": "MET–RHE–acetonitrile: aspetto dei cristalli",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "tangerine block-like crystals were obtained after 7 days",
+   "calcolato": null,
+   "citazione": "tangerine block-like crystals were obtained after 7 days",
+   "note": null
+  },
+  {
+   "id": "X17",
+   "categoria": "morfologia",
+   "proprieta": "MET–RHE: aspetto della polvere macinata",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "polvere «auratus»",
+   "calcolato": null,
+   "citazione": "to obtain an auratus powder sample",
+   "note": null
+  },
+  {
+   "id": "X18",
+   "categoria": "morfologia",
+   "proprieta": "MET–RHE–ethanol–H2O: aspetto della polvere macinata",
+   "oggetto": {
+    "forma": "F6",
+    "composto": null,
+    "etichetta": "MET–RHE–ethanol–H2O"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "polvere marrone",
+   "calcolato": null,
+   "citazione": "A brown powder was finally obtained.",
+   "note": null
+  },
+  {
+   "id": "X19",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD caratteristici di MET (2θ)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "MET"
+   },
+   "tecnica": "PXRD (Cu Kα)",
+   "valori": [
+    {
+     "valore": 12.48,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 15.6,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 16.1,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 16.32,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 17.6,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 18.1,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 19.6,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 21.5,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 22.53,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 22.96,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 23.8,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 25.24,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 25.66,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 27.0,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 27.58,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 29.66,
+     "unita": "° 2θ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "12.48°, 15.60°, 16.10°, 16.32°, 17.60°, 18.10°, 19.60°, 21.50°, 22.53°, 22.96°, 23.80°, 25.24°, 25.66°, 27.00°, 27.58° and 29.66° for MET",
+   "note": null
+  },
+  {
+   "id": "X20",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD caratteristici di RHE (2θ)",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "RHE"
+   },
+   "tecnica": "PXRD (Cu Kα)",
+   "valori": [
+    {
+     "valore": 9.78,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 10.74,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 17.5,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 18.04,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 19.14,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 21.76,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 27.42,
+     "unita": "° 2θ"
+    },
+    {
+     "valore": 31.5,
+     "unita": "° 2θ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "9.78°, 10.74°, 17.50°, 18.04°, 19.14°, 21.76°, 27.42° and 31.50° for RHE",
+   "note": null
+  },
+  {
+   "id": "X21",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "miscela fisica MET:RHE 1:1 e confronto con i sali",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "physical mixture of MET and RHE"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "testo": "1:1",
+     "etichetta": "rapporto molare MET:RHE"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "il pattern dei quattro sali e' molto diverso da quello della semplice miscela fisica: picchi vecchi scomparsi e picchi nuovi",
+   "calcolato": null,
+   "citazione": "physical mixture (molar ratio of MET to RHE = 1:1)",
+   "note": null
+  },
+  {
+   "id": "X22",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "radiazione e condizioni dello strumento PXRD",
+   "oggetto": null,
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 40,
+     "unita": "kV"
+    },
+    {
+     "valore": 150,
+     "unita": "mA"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "equipped with a Cu–Kα radiation source set at 40 kV and 150 mA",
+   "note": null
+  },
+  {
+   "id": "X23",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intervallo di scansione e velocita' PXRD",
+   "oggetto": null,
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 3,
+     "unita": "° 2θ",
+     "etichetta": "min"
+    },
+    {
+     "valore": 80,
+     "unita": "° 2θ",
+     "etichetta": "max"
+    },
+    {
+     "valore": 8,
+     "unita": "°/min",
+     "etichetta": "velocita'"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "the diffraction data were collected in the 2θ range of 3–80° with a scan rate of 8°/min",
+   "note": null
+  },
+  {
+   "id": "X24",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda dell'SXRD",
+   "oggetto": null,
+   "tecnica": "SCXRD (Rigaku MicroMax-002+)",
+   "valori": [
+    {
+     "valore": 1.54178,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "with Cu–Kα radiation (λ = 1.54178 Å)",
+   "note": null
+  },
+  {
+   "id": "X25",
+   "categoria": "cristallografia",
+   "proprieta": "formula bruta",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "testo": "C19H19N5O6",
+     "forma": "F4"
+    },
+    {
+     "testo": "C21H27N5O8",
+     "forma": "F6"
+    },
+    {
+     "testo": "C40H41N11O12",
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Empirical formula | C19H19N5O6 | C21H27N5O8 | C40H41N11O12",
+   "note": null
+  },
+  {
+   "id": "X26",
+   "categoria": "cristallografia",
+   "proprieta": "massa formula",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 413.39,
+     "forma": "F4"
+    },
+    {
+     "valore": 477.47,
+     "forma": "F6"
+    },
+    {
+     "valore": 867.84,
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Formula weight | 413.39 | 477.47 | 867.84",
+   "note": null
+  },
+  {
+   "id": "X27",
+   "categoria": "cristallografia",
+   "proprieta": "dimensioni del cristallo",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.15,
+     "unita": "mm",
+     "forma": "F4"
+    },
+    {
+     "valore": 0.22,
+     "unita": "mm",
+     "forma": "F4"
+    },
+    {
+     "valore": 0.27,
+     "unita": "mm",
+     "forma": "F4"
+    },
+    {
+     "valore": 0.35,
+     "unita": "mm",
+     "forma": "F6"
+    },
+    {
+     "valore": 0.3,
+     "unita": "mm",
+     "forma": "F6"
+    },
+    {
+     "valore": 0.13,
+     "unita": "mm",
+     "forma": "F6"
+    },
+    {
+     "valore": 0.25,
+     "unita": "mm",
+     "forma": "F7"
+    },
+    {
+     "valore": 0.23,
+     "unita": "mm",
+     "forma": "F7"
+    },
+    {
+     "valore": 0.21,
+     "unita": "mm",
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Crystal size/mm | 0.15 × 0.22 × 0.27 | 0.35 × 0.30 × 0.13 | 0.25 × 0.23 × 0.21",
+   "note": null
+  },
+  {
+   "id": "X28",
+   "categoria": "morfologia",
+   "proprieta": "descrizione del cristallo (Tabella 1)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "testo": "block",
+     "forma": "F4"
+    },
+    {
+     "testo": "block",
+     "forma": "F6"
+    },
+    {
+     "testo": "block",
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Description | block | block | block",
+   "note": null
+  },
+  {
+   "id": "X29",
+   "categoria": "cristallografia",
+   "proprieta": "asse di cella a con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 5.492,
+     "unita": "Å",
+     "forma": "F4",
+     "etichetta": "a",
+     "incertezza": 1
+    },
+    {
+     "valore": 7.295,
+     "unita": "Å",
+     "forma": "F6",
+     "etichetta": "a",
+     "incertezza": 1
+    },
+    {
+     "valore": 14.151,
+     "unita": "Å",
+     "forma": "F7",
+     "etichetta": "a",
+     "incertezza": 1
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "a (Å) | 5.492 (1) | 7.295 (1) | 14.151 (1)",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X30",
+   "categoria": "cristallografia",
+   "proprieta": "asse di cella b con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 9.856,
+     "unita": "Å",
+     "forma": "F4",
+     "etichetta": "b",
+     "incertezza": 1
+    },
+    {
+     "valore": 7.619,
+     "unita": "Å",
+     "forma": "F6",
+     "etichetta": "b",
+     "incertezza": 1
+    },
+    {
+     "valore": 13.658,
+     "unita": "Å",
+     "forma": "F7",
+     "etichetta": "b",
+     "incertezza": 1
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "b (Å) | 9.856 (1) | 7.619 (1) | 13.658 (1)",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X31",
+   "categoria": "cristallografia",
+   "proprieta": "asse di cella c con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 17.707,
+     "unita": "Å",
+     "forma": "F4",
+     "etichetta": "c",
+     "incertezza": 1
+    },
+    {
+     "valore": 19.721,
+     "unita": "Å",
+     "forma": "F6",
+     "etichetta": "c",
+     "incertezza": 3
+    },
+    {
+     "valore": 21.051,
+     "unita": "Å",
+     "forma": "F7",
+     "etichetta": "c",
+     "incertezza": 2
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "c (Å) | 17.707 (1) | 19.721 (3) | 21.051 (2)",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X32",
+   "categoria": "cristallografia",
+   "proprieta": "angolo α con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 98.989,
+     "unita": "°",
+     "forma": "F4",
+     "etichetta": "α",
+     "incertezza": 3
+    },
+    {
+     "valore": 86.327,
+     "unita": "°",
+     "forma": "F6",
+     "etichetta": "α",
+     "incertezza": 8
+    },
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F7",
+     "etichetta": "α"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "α (°) | 98.989 (3) | 86.327 (8) | 90",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X33",
+   "categoria": "cristallografia",
+   "proprieta": "angolo β con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 90.299,
+     "unita": "°",
+     "forma": "F4",
+     "etichetta": "β",
+     "incertezza": 3
+    },
+    {
+     "valore": 87.895,
+     "unita": "°",
+     "forma": "F6",
+     "etichetta": "β",
+     "incertezza": 7
+    },
+    {
+     "valore": 98.372,
+     "unita": "°",
+     "forma": "F7",
+     "etichetta": "β",
+     "incertezza": 1
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "β (°) | 90.299 (3) | 87.895 (7) | 98.372 (1)",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X34",
+   "categoria": "cristallografia",
+   "proprieta": "angolo γ con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 96.771,
+     "unita": "°",
+     "forma": "F4",
+     "etichetta": "γ",
+     "incertezza": 4
+    },
+    {
+     "valore": 87.742,
+     "unita": "°",
+     "forma": "F6",
+     "etichetta": "γ",
+     "incertezza": 6
+    },
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F7",
+     "etichetta": "γ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "γ (°) | 96.771 (4) | 87.742 (6) | 90",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X35",
+   "categoria": "cristallografia",
+   "proprieta": "volume di cella con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 939.9,
+     "unita": "Å3",
+     "forma": "F4",
+     "etichetta": "V",
+     "incertezza": 1
+    },
+    {
+     "valore": 1092.4,
+     "unita": "Å3",
+     "forma": "F6",
+     "etichetta": "V",
+     "incertezza": 2
+    },
+    {
+     "valore": 4025.6,
+     "unita": "Å3",
+     "forma": "F7",
+     "etichetta": "V",
+     "incertezza": 2
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Volume (Å3) | 939.9 (1) | 1092.4 (2) | 4025.6 (2)",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X36",
+   "categoria": "cristallografia",
+   "proprieta": "F(000)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 432,
+     "forma": "F4"
+    },
+    {
+     "valore": 504,
+     "forma": "F6"
+    },
+    {
+     "valore": 1816,
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "F(000) | 432 | 504 | 1816",
+   "note": null
+  },
+  {
+   "id": "X37",
+   "categoria": "cristallografia",
+   "proprieta": "densita' calcolata",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 1.461,
+     "unita": "g·cm−3",
+     "forma": "F4"
+    },
+    {
+     "valore": 1.452,
+     "unita": "g·cm−3",
+     "forma": "F6"
+    },
+    {
+     "valore": 1.432,
+     "unita": "g·cm−3",
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Density (g·cm−3) | 1.461 | 1.452 | 1.432",
+   "note": null
+  },
+  {
+   "id": "X38",
+   "categoria": "cristallografia",
+   "proprieta": "riflessioni con I > 2σ(I)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2759,
+     "forma": "F4"
+    },
+    {
+     "valore": 3648,
+     "forma": "F6"
+    },
+    {
+     "valore": 5645,
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Reflections with I > 2σ (I) | 2759 | 3648 | 5645",
+   "note": null
+  },
+  {
+   "id": "X39",
+   "categoria": "cristallografia",
+   "proprieta": "indici R [I > 2σ(I)]",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.0926,
+     "forma": "F4",
+     "etichetta": "R1"
+    },
+    {
+     "valore": 0.2759,
+     "forma": "F4",
+     "etichetta": "wR2"
+    },
+    {
+     "valore": 0.0468,
+     "forma": "F6",
+     "etichetta": "R1"
+    },
+    {
+     "valore": 0.1091,
+     "forma": "F6",
+     "etichetta": "wR2"
+    },
+    {
+     "valore": 0.0592,
+     "forma": "F7",
+     "etichetta": "R1"
+    },
+    {
+     "valore": 0.1673,
+     "forma": "F7",
+     "etichetta": "wR2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Rindexs (I > 2σI) | R1 = 0.0926 wR2 = 0.2759 | R1 = 0.0468 wR2 = 0.1091 | R1 = 0.0592 wR2 = 0.1673",
+   "note": null
+  },
+  {
+   "id": "X40",
+   "categoria": "cristallografia",
+   "proprieta": "S (goodness of fit)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE, MET–RHE–ethanol–H2O, MET–RHE–acetonitrile"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 1.045,
+     "forma": "F4"
+    },
+    {
+     "valore": 0.985,
+     "forma": "F6"
+    },
+    {
+     "valore": 1.037,
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "S | 1.045 | 0.985 | 1.037",
+   "note": null
+  },
+  {
+   "id": "X41",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "MET–RHE: unita' asimmetrica",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "un catione MET e un anione RHE nell'unita' asimmetrica; trasferimento di protone fra MET e RHE",
+   "calcolato": null,
+   "citazione": "an asymmetric unit consists of one MET cation and one RHE anion",
+   "note": null
+  },
+  {
+   "id": "X42",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "MET–RHE: impacchettamento dai piani alla struttura tridimensionale",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "piani impilati strato su strato con legami N2–H2A···O2 e N2–H2B···O2, impilamento π···π e altre interazioni deboli",
+   "calcolato": null,
+   "citazione": "On the basis of the abovementioned planar structure, the planes are stacked layer by layer via N2–H2A···O2 and N2–H2B···O2 hydrogen bonds, the π···π stacking, and other weak interactions, forming a three-dimensional structure, as shown in Figure 4D.",
+   "note": null
+  },
+  {
+   "id": "X43",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "MET–RHE: struttura a sandwich",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "cationi MET idrofili fra anioni RHE idrofobici: struttura a sandwich, che isola MET dall'acqua",
+   "calcolato": null,
+   "citazione": "in the MET–RHE crystal structure, the hydrophilic MET cations are sandwiched between hydrophobic RHE anions, forming a sandwich structure, as shown in Figure 10.",
+   "note": null
+  },
+  {
+   "id": "X44",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "MET–RHE–ethanol–H2O: impacchettamento tridimensionale",
+   "oggetto": {
+    "forma": "F6",
+    "composto": null,
+    "etichetta": "MET–RHE–ethanol–H2O"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "piani impilati con legami N4–H4A···O7 e N4–H4B···O7, impilamento π···π e interazioni deboli",
+   "calcolato": null,
+   "citazione": "On the basis of the above planar structure, the planes are stacked layer by layer through N4–H4A···O7 and N4–H4B···O7 hydrogen bonds, π···π stacking, and other weak interactions to finally form a three-dimensional structure, as shown in Figure 5D.",
+   "note": null
+  },
+  {
+   "id": "X45",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "MET–RHE–acetonitrile: catene, strati e struttura tridimensionale",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "catene collegate da O3A–H3A···O1B e O3B–H3B···O1A; strati collegati da N2A–H2AA···O5B e N2B–H2BB···O6B, impilamento π···π; struttura diversa da MET–RHE e da MET–RHE–ethanol–H2O, non un semplice sandwich",
+   "calcolato": null,
+   "citazione": "The chains are further linked by O3A–H3A···O1B and O3B–H3B····O1A hydrogen bonds and extend infinitely along the a-axis (Figure 6D). Finally, the layers are connected by N2A–H2AA···O5B and N2B–H2BB···O6B hydrogen bonds, π···π stacking, and other weak interactions to form a three-dimensional structure, as shown in Figure 6E, which is not a simple sandwich layer array.",
+   "note": null
+  },
+  {
+   "id": "X46",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "MET–RHE–acetonitrile: assenza di legami idrogeno classici dell'acetonitrile nella discussione energetica",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "nessuna interazione di legame idrogeno classica dell'acetonitrile con le altre molecole",
+   "calcolato": null,
+   "citazione": "The acetonitrile molecule in MET–RHE–acetonitrile has no classical hydrogen bond interaction with other molecules",
+   "note": "in 3.3 l'acetonitrile e' invece legato alla MET con N–H···N1Y: contraddizione dell'articolo"
+  },
+  {
+   "id": "X47",
+   "categoria": "computazionale",
+   "proprieta": "livelli di teoria dei calcoli di interazione",
+   "oggetto": null,
+   "tecnica": "DFT (Gaussian 16)",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "H ottimizzati a B3LYP-D3/6-311+G (d, p) con le coordinate X degli atomi pesanti fisse; energie single-point a M06-2X/def2-TZVP; energie di interazione corrette con counterpoise",
+   "calcolato": true,
+   "citazione": "The geometries of all the hydrogen atoms were optimized at the B3LYP-D3/6-311+G (d, p) level, and the original X-ray coordinates of all the heavy atoms were maintained. Then, the single-point energies were calculated at the M06-2X/def2-TZVP level [64].",
+   "note": null
+  },
+  {
+   "id": "X48",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione (Interaction Style 1) di MET–RHE",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": "DFT (M06-2X/def2-TZVP, counterpoise)",
+   "valori": [
+    {
+     "valore": -76.54,
+     "unita": "kcal/mol",
+     "forma": "F4"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE 1 | −76.54",
+   "note": "la tabella non dice a quale motivo di legame H corrisponda ogni stile (1, 2, 3); il testo parla di «different H-bond motif»"
+  },
+  {
+   "id": "X49",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione (Interaction Style 2) di MET–RHE",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": "DFT (M06-2X/def2-TZVP, counterpoise)",
+   "valori": [
+    {
+     "valore": -83.27,
+     "unita": "kcal/mol",
+     "forma": "F4"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE 2 | −83.27",
+   "note": "la tabella non dice a quale motivo di legame H corrisponda ogni stile (1, 2, 3); il testo parla di «different H-bond motif»"
+  },
+  {
+   "id": "X50",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione (Interaction Style 3) di MET–RHE",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": "DFT (M06-2X/def2-TZVP, counterpoise)",
+   "valori": [
+    {
+     "valore": -90.19,
+     "unita": "kcal/mol",
+     "forma": "F4"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE 3 | −90.19",
+   "note": "la tabella non dice a quale motivo di legame H corrisponda ogni stile (1, 2, 3); il testo parla di «different H-bond motif»"
+  },
+  {
+   "id": "X51",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione (Interaction Style 1) di MET–RHE–ethanol–H2O",
+   "oggetto": {
+    "forma": "F6",
+    "composto": null,
+    "etichetta": "MET–RHE–ethanol–H2O"
+   },
+   "tecnica": "DFT (M06-2X/def2-TZVP, counterpoise)",
+   "valori": [
+    {
+     "valore": -79.34,
+     "unita": "kcal/mol",
+     "forma": "F6"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE–ethanol–H2O 1 | −79.34",
+   "note": "la tabella non dice a quale motivo di legame H corrisponda ogni stile (1, 2, 3); il testo parla di «different H-bond motif»"
+  },
+  {
+   "id": "X52",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione (Interaction Style 2) di MET–RHE–ethanol–H2O",
+   "oggetto": {
+    "forma": "F6",
+    "composto": null,
+    "etichetta": "MET–RHE–ethanol–H2O"
+   },
+   "tecnica": "DFT (M06-2X/def2-TZVP, counterpoise)",
+   "valori": [
+    {
+     "valore": -79.68,
+     "unita": "kcal/mol",
+     "forma": "F6"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE–ethanol–H2O 2 | −79.68",
+   "note": "la tabella non dice a quale motivo di legame H corrisponda ogni stile (1, 2, 3); il testo parla di «different H-bond motif»"
+  },
+  {
+   "id": "X53",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione (Interaction Style 1) di MET–RHE–acetonitrile",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": "DFT (M06-2X/def2-TZVP, counterpoise)",
+   "valori": [
+    {
+     "valore": -96.79,
+     "unita": "kcal/mol",
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE–acetonitrile 1 | −96.79",
+   "note": "la tabella non dice a quale motivo di legame H corrisponda ogni stile (1, 2, 3); il testo parla di «different H-bond motif»"
+  },
+  {
+   "id": "X54",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione (Interaction Style 2) di MET–RHE–acetonitrile",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": "DFT (M06-2X/def2-TZVP, counterpoise)",
+   "valori": [
+    {
+     "valore": -77.85,
+     "unita": "kcal/mol",
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE–acetonitrile 2 | −77.85",
+   "note": "la tabella non dice a quale motivo di legame H corrisponda ogni stile (1, 2, 3); il testo parla di «different H-bond motif»"
+  },
+  {
+   "id": "X55",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione (Interaction Style 3) di MET–RHE–acetonitrile",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": "DFT (M06-2X/def2-TZVP, counterpoise)",
+   "valori": [
+    {
+     "valore": -73.52,
+     "unita": "kcal/mol",
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE–acetonitrile 3 | −73.52",
+   "note": "la tabella non dice a quale motivo di legame H corrisponda ogni stile (1, 2, 3); il testo parla di «different H-bond motif»"
+  },
+  {
+   "id": "X56",
+   "categoria": "computazionale",
+   "proprieta": "energia di interazione del motivo R22(8): il piu' forte",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": "DFT",
+   "valori": [
+    {
+     "valore": -96.79,
+     "unita": "kcal/mol",
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "energia di interazione piu' forte, collegata a un'energia reticolare maggiore",
+   "calcolato": true,
+   "citazione": "Among these motifs, the R22(8) H-bond motif was found only in MET–RHE–acetonitrile salt, and its interaction energy was strongest (−96.79 kcal/mol), which led to its higher lattice energy.",
+   "note": "il testo attribuisce qui R22(8) solo al sale con acetonitrile; in 3.3 e nella Fig. 5B e' attribuito a MET–RHE–ethanol–H2O, mentre per l'acetonitrile la Fig. 6B scrive R44(20): incoerenza dell'articolo"
+  },
+  {
+   "id": "X57",
+   "categoria": "termica",
+   "proprieta": "temperatura di desolvatazione di MET–RHE–acetonitrile contro MET–RHE–ethanol–H2O",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": "DSC",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "picco di desolvatazione piu' alto (120 °C contro 66 °C, in E4–E6) attribuito dagli autori a un'energia reticolare maggiore (ipotesi)",
+   "calcolato": null,
+   "citazione": "but its desolvation peak temperature in the DSC curve is higher than that of MET–RHE–ethanol–H2O, which is speculated to be caused by its higher lattice energy",
+   "note": null
+  },
+  {
+   "id": "X58",
+   "categoria": "computazionale",
+   "proprieta": "raggio per il calcolo dell'energia reticolare con CrystalExplorer",
+   "oggetto": null,
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "valore": 20,
+     "unita": "Å",
+     "etichetta": "raggio"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "metodo non adatto ai sali: solo confronto qualitativo",
+   "calcolato": true,
+   "citazione": "The parameter of radius of 20 Å was selected to calculate the lattice energy with the default setting.",
+   "note": null
+  },
+  {
+   "id": "X59",
+   "categoria": "computazionale",
+   "proprieta": "energia reticolare di MET–RHE–ethanol–H2O e MET–RHE–acetonitrile",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET–RHE–ethanol–H2O e MET–RHE–acetonitrile"
+   },
+   "tecnica": "CrystalExplorer",
+   "valori": [
+    {
+     "valore": -101.02,
+     "unita": "kcal/mol",
+     "forma": "F6"
+    },
+    {
+     "valore": -530.04,
+     "unita": "kcal/mol",
+     "forma": "F7"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "The lattice energy was −101.02 and −530.04 kcal/mol for MET–RHE–ethanol–H2O and MET–RHE–acetonitrile, respectively.",
+   "note": "gli autori avvertono che il metodo «is not suitable for salt systems», solo confronto qualitativo"
+  },
+  {
+   "id": "X60",
+   "categoria": "computazionale",
+   "proprieta": "planarita' molecolare del dimero di RHE in MET–RHE (MPP, SDP, energia di interazione, distanza di legame H)",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": "Multiwfn",
+   "valori": [
+    {
+     "valore": 0.1642,
+     "forma": "F4",
+     "etichetta": "MPP"
+    },
+    {
+     "valore": 1.1686,
+     "forma": "F4",
+     "etichetta": "SDP"
+    },
+    {
+     "valore": -4.68,
+     "unita": "kcal/mol",
+     "forma": "F4",
+     "etichetta": "interaction energy"
+    },
+    {
+     "valore": 2.96,
+     "unita": "Å",
+     "forma": "F4",
+     "etichetta": "H-bond distance"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE | 0.1642 | 1.1686 | −4.68 | 2.96",
+   "note": "unita' dall'intestazione della Tabella 3 (kcal/mol; Å); MPP e SDP senza unita' nella tabella"
+  },
+  {
+   "id": "X61",
+   "categoria": "computazionale",
+   "proprieta": "planarita' molecolare del dimero di RHE in MET–RHE–ethanol–H2O (MPP, SDP, energia di interazione, distanza di legame H)",
+   "oggetto": {
+    "forma": "F6",
+    "composto": null,
+    "etichetta": "MET–RHE–ethanol–H2O"
+   },
+   "tecnica": "Multiwfn",
+   "valori": [
+    {
+     "valore": 0.1938,
+     "forma": "F6",
+     "etichetta": "MPP"
+    },
+    {
+     "valore": 1.1437,
+     "forma": "F6",
+     "etichetta": "SDP"
+    },
+    {
+     "valore": -4.43,
+     "unita": "kcal/mol",
+     "forma": "F6",
+     "etichetta": "interaction energy"
+    },
+    {
+     "valore": 2.88,
+     "unita": "Å",
+     "forma": "F6",
+     "etichetta": "H-bond distance"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE–ethanol–H2O | 0.1938 | 1.1437 | −4.43 | 2.88",
+   "note": "unita' dall'intestazione della Tabella 3 (kcal/mol; Å); MPP e SDP senza unita' nella tabella"
+  },
+  {
+   "id": "X62",
+   "categoria": "computazionale",
+   "proprieta": "planarita' molecolare del dimero di RHE in MET–RHE–acetonitrile (MPP, SDP, energia di interazione, distanza di legame H)",
+   "oggetto": {
+    "forma": "F7",
+    "composto": null,
+    "etichetta": "MET–RHE–acetonitrile"
+   },
+   "tecnica": "Multiwfn",
+   "valori": [
+    {
+     "valore": 0.125,
+     "forma": "F7",
+     "etichetta": "MPP"
+    },
+    {
+     "valore": 0.6812,
+     "forma": "F7",
+     "etichetta": "SDP"
+    },
+    {
+     "valore": -5.23,
+     "unita": "kcal/mol",
+     "forma": "F7",
+     "etichetta": "interaction energy"
+    },
+    {
+     "valore": 2.85,
+     "unita": "Å",
+     "forma": "F7",
+     "etichetta": "H-bond distance"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "MET–RHE–acetonitrile | 0.1250 | 0.6812 | −5.23 | 2.85",
+   "note": "unita' dall'intestazione della Tabella 3 (kcal/mol; Å); MPP e SDP senza unita' nella tabella"
+  },
+  {
+   "id": "X63",
+   "categoria": "computazionale",
+   "proprieta": "ordine di MPP e forza dell'interazione",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "dimeri di RHE nei tre sali"
+   },
+   "tecnica": "Multiwfn",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "l'ordine dei valori MPP segue le energie di interazione; non segue la lunghezza del legame H, quindi la planarita' conta piu' della lunghezza del legame",
+   "calcolato": true,
+   "citazione": "The results show that the order of MPP values was consistent with the interaction energies of the corresponding H-bond motifs, that is, the MET–RHE– acetonitrile dimer with the best planarity has the strongest interaction, and the MET–RHE– ethanol–H2O interaction has the lowest interaction energy.",
+   "note": null
+  },
+  {
+   "id": "X64",
+   "categoria": "metodo",
+   "proprieta": "setacciatura dei campioni prima di dissoluzione e solubilita'",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "RHE e MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "mesh"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "the samples were processed with a 100-mesh sieve in advance",
+   "note": null
+  },
+  {
+   "id": "X65",
+   "categoria": "metodo",
+   "proprieta": "prova di dissoluzione in polvere: quantita' e volume",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "RHE e MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 30.0,
+     "unita": "mg",
+     "etichetta": "RHE (o MET–RHE equivalente)"
+    },
+    {
+     "valore": 450,
+     "unita": "mL",
+     "etichetta": "volume di tampone"
+    },
+    {
+     "valore": 7,
+     "etichetta": "pH"
+    }
+   ],
+   "condizioni": "tampone di Britton–Robinson a pH 7",
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "precisely weighed RHE (30.0 mg) and MET–RHE (equivalent to 30.0 mg RHE) were added to a dissolution vessel containing 450 mL of buffer medium (pH = 7)",
+   "note": null
+  },
+  {
+   "id": "X66",
+   "categoria": "metodo",
+   "proprieta": "prova di dissoluzione in polvere: agitazione e temperatura",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "RHE e MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "rpm",
+     "etichetta": "agitazione"
+    },
+    {
+     "valore": 37,
+     "unita": "°C",
+     "etichetta": "temperatura"
+    },
+    {
+     "valore": 1,
+     "unita": "mL",
+     "etichetta": "volume prelevato"
+    },
+    {
+     "valore": 0,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 5,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 15,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 30,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 50,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 75,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 105,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 150,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 210,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 270,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    },
+    {
+     "valore": 390,
+     "unita": "min",
+     "etichetta": "tempo di prelievo"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Samples were stirred at 100 rpm at 37 °C, and 1 mL of sample was obtained at 0, 5, 15, 30, 50, 75, 105, 150, 210, 270 and 390 min",
+   "note": null
+  },
+  {
+   "id": "X67",
+   "categoria": "metodo",
+   "proprieta": "filtrazione dei campioni di dissoluzione",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "RHE e MET–RHE"
+   },
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "valore": 0.22,
+     "unita": "µm",
+     "etichetta": "filtro PTFE"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "after filtration through 0.22 µm PTFE filter",
+   "note": null
+  },
+  {
+   "id": "X68",
+   "categoria": "metodo",
+   "proprieta": "HPLC: colonna",
+   "oggetto": null,
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "valore": 250,
+     "unita": "mm",
+     "etichetta": "lunghezza"
+    },
+    {
+     "valore": 4.6,
+     "unita": "mm",
+     "etichetta": "diametro"
+    },
+    {
+     "valore": 5,
+     "unita": "μm",
+     "etichetta": "particelle"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Welch Ultimate AQ-C18 (250 mm × 4.6 mm, 5 μm)",
+   "note": null
+  },
+  {
+   "id": "X69",
+   "categoria": "metodo",
+   "proprieta": "HPLC: fase mobile",
+   "oggetto": null,
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "valore": 0.2,
+     "unita": "%",
+     "etichetta": "acido formico"
+    },
+    {
+     "testo": "85:15 v/v",
+     "etichetta": "metanolo : acido formico 0.2 %"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "mobile phase, methanol–0.2% formic acid (85:15, v/v)",
+   "note": null
+  },
+  {
+   "id": "X70",
+   "categoria": "metodo",
+   "proprieta": "HPLC: rivelazione, flusso, temperatura e iniezione",
+   "oggetto": null,
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "valore": 254,
+     "unita": "nm",
+     "etichetta": "lunghezza d'onda di rivelazione"
+    },
+    {
+     "valore": 1.0,
+     "unita": "mL/min",
+     "etichetta": "flusso"
+    },
+    {
+     "valore": 30,
+     "unita": "°C",
+     "etichetta": "temperatura della colonna"
+    },
+    {
+     "valore": 10,
+     "unita": "μL",
+     "etichetta": "volume iniettato"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "detection wavelength, 254 nm; flow rate, 1.0 mL/min; column temperature, 30 °C; injection volume, 10 μL",
+   "note": null
+  },
+  {
+   "id": "X71",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "velocita' di dissoluzione di MET–RHE e RHE (pendenza dei primi 5 min)",
+   "oggetto": {
+    "forma": null,
+    "composto": "C2",
+    "etichetta": "componente RHE"
+   },
+   "tecnica": "dissoluzione in polvere + HPLC",
+   "valori": [
+    {
+     "valore": 7.09,
+     "unita": "µg/mL·min",
+     "forma": "F4"
+    },
+    {
+     "valore": 0.48,
+     "unita": "µg/mL·min",
+     "forma": "F2"
+    },
+    {
+     "valore": 5,
+     "unita": "min",
+     "etichetta": "intervallo della pendenza"
+    }
+   ],
+   "condizioni": "tampone pH 7, 37 °C, 100 rpm",
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "the dissolution rate of MET–RHE (7.09 µg/mL⋅min−1) is much higher than that of RHE (0.48 µg/mL⋅min−1) based on the comparison of the slope of the first 5 min of the dissolution experiment",
+   "note": null
+  },
+  {
+   "id": "X72",
+   "categoria": "altro",
+   "proprieta": "dose di MET·HCl nel gruppo trattato",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "MET·HCl"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "mg/kg"
+    },
+    {
+     "valore": 0.6,
+     "unita": "mmol/kg"
+    },
+    {
+     "valore": 165.6,
+     "unita": "g/mol",
+     "etichetta": "M"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "MET·HCl group (100 mg/kg, 0.6 mmol/kg, M = 165.6 g/mol)",
+   "note": "prova ipoglicemica nei topi (non e' un esperimento sul solido)"
+  },
+  {
+   "id": "X73",
+   "categoria": "altro",
+   "proprieta": "dose di MET–RHE nel gruppo trattato",
+   "oggetto": {
+    "forma": "F4",
+    "composto": null,
+    "etichetta": "MET–RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 249.6,
+     "unita": "mg/kg"
+    },
+    {
+     "valore": 0.6,
+     "unita": "mmol/kg"
+    },
+    {
+     "valore": 413.4,
+     "unita": "g/mol",
+     "etichetta": "M"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "MET–RHE group (249.6 mg/kg, 0.6 mmol/kg, M = 413.4 g/mol)",
+   "note": "prova ipoglicemica nei topi"
+  },
+  {
+   "id": "X74",
+   "categoria": "altro",
+   "proprieta": "dose della miscela fisica di MET·HCl e RHE nel gruppo trattato",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "physical mixture of MET·HCl and RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 271.6,
+     "unita": "mg/kg"
+    },
+    {
+     "valore": 0.6,
+     "unita": "mmol/kg",
+     "etichetta": "MET·HCl"
+    },
+    {
+     "valore": 0.6,
+     "unita": "mmol/kg",
+     "etichetta": "RHE"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "physical mixture of MET and RHE group (271.6 mg/kg, 0.6 mmol/kg MET·HCl + 0.6 mmol/kg RHE)",
+   "note": "prova ipoglicemica nei topi"
+  },
+  {
+   "id": "X75",
+   "categoria": "altro",
+   "proprieta": "dose di RHE nel gruppo trattato",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 171.6,
+     "unita": "mg/kg"
+    },
+    {
+     "valore": 0.6,
+     "unita": "mmol/kg"
+    },
+    {
+     "valore": 284.2,
+     "unita": "g/mol",
+     "etichetta": "M"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "RHE group (171.6 mg/kg, 0.6 mmol/kg, M = 284.2 g/mol)",
+   "note": "prova ipoglicemica nei topi"
+  },
+  {
+   "id": "X76",
+   "categoria": "altro",
+   "proprieta": "dosaggio convertito a 0.6 mmol/kg per tutti i composti",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MET·HCl, MET–RHE, miscela fisica, RHE"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 0.6,
+     "unita": "mmol/kg"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "All drug dosages were converted to 0.6 mmol/kg.",
+   "note": "prova ipoglicemica nei topi"
+  }
+ ]
+}

@@ -1,0 +1,1969 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/pharmaceutics15041196",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Sali di metformina e rhein (MET–RHE). Eventi: la desolvatazione dei tre solvati a MET–RHE (in forno, E1–E3, e per picco DSC, E4–E6), la fusione/decomposizione e la TGA di MET–RHE (E7–E9), le fusioni dei materiali di partenza (E10, E11), la stabilita' a 60 °C, 90 % RH e luce (E12–E25), la DVS (E26–E29) e la prova di solubilita' con PXRD del solido residuo (E30–E31). Non sono eventi: la formazione dei sali per macinazione in mortaio con solvente (il macinato non e' caratterizzato: preparazioni), le curve di dissoluzione e l'attivita' ipoglicemica in topi; la distruzione del sale nell'ambiente acido gastrico («the strong acid environment will destroy the structure of the multicomponent salt») e' solo una spiegazione ipotetica dei risultati in vivo, senza analisi del solido. Incoerenze dell'articolo: (1) il motivo R22(8) e' attribuito a MET–RHE–ethanol–H2O in 3.3 (Fig. 5B) e solo a MET–RHE–acetonitrile in 3.4.1; (2) il TGA e le perdite di massa dei solvati stanno nella Tabella S1 (supplementare), il testo dice solo che sono vicine a quelle teoriche; (3) le temperature di desolvatazione (170, 110, 140 °C) sono elencate nell'ordine dei solvati senza «respectively». La forma «physical mixture» (MET e RHE 1:1) e' solo confrontata per PXRD, non e' parte di eventi. MET–RHE–H2O non ha struttura cristallina; il testo chiama le quattro forme «polymorphism of salts» pur trattandosi di solvati e di un sale non solvatato.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "metformin",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "rhein",
+   "smiles": null
+  },
+  {
+   "id": "C3",
+   "nome": "hydrochloric acid",
+   "nome_scritto": "hydrochloride",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "MET",
+   "etichette_alternative": [
+    "metformin",
+    "MET base"
+   ],
+   "tipo": "non_specificato",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Metformin hydrochloride was dehydrochlorinated by acid–base neutralization method, and the final metformin sample was obtained.",
+   "note": "Metformina libera (base), preparata dagli autori da MET·HCl; cristallina per PXRD (16 picchi caratteristici, nell'extra) e DSC. Nessuna struttura. Molto igroscopica."
+  },
+  {
+   "id": "F2",
+   "composto": "C2",
+   "etichetta": "RHE",
+   "etichette_alternative": [
+    "rhein"
+   ],
+   "tipo": "non_specificato",
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "MET·HCl (purity > 99%, MW = 166) and RHE (purity > 99%, MW = 284) were purchased from Nine-Dinn Chemistry Co., Ltd. (Shanghai, China) and Hubei Wande Chemical Co., Ltd. (Tianmen, China), respectively.",
+   "note": "Reagente commerciale (purezza > 99 %); cristallino per PXRD (8 picchi caratteristici, nell'extra) e DSC. Forma non caratterizzata oltre la PXRD. Il testo parla di una «stable dimer structure» di RHE."
+  },
+  {
+   "id": "F3",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "MET·HCl",
+   "etichette_alternative": [
+    "metformin hydrochloride"
+   ],
+   "tipo": [
+    "sale"
+   ],
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "MET·HCl (purity > 99%, MW = 166) and RHE (purity > 99%, MW = 284) were purchased from Nine-Dinn Chemistry Co., Ltd. (Shanghai, China) and Hubei Wande Chemical Co., Ltd. (Tianmen, China), respectively.",
+   "note": "Forma commerciale di MET; cloridrato (1:1 non scritto esplicitamente, ma «metformin hydrochloride»). Forma cristallina non caratterizzata oltre la PXRD."
+  },
+  {
+   "id": "F4",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "MET–RHE",
+   "etichette_alternative": [
+    "MET–RHE (1:1)"
+   ],
+   "tipo": [
+    "sale"
+   ],
+   "ospite": null,
+   "protonazione": "proton transfer between MET and RHE: MET cation and RHE anion",
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 5.492,
+    "b": 9.856,
+    "c": 17.707,
+    "alpha": 98.989,
+    "beta": 90.299,
+    "gamma": 96.771,
+    "V": 939.9,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "293 K"
+   },
+   "ccdc": "2241616",
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "R44(12) tetrameric ring (graph set; the text reads «R4412»)",
+     "chi": "two adjacent asymmetric units, N4–H4A···O2",
+     "citazione": "From the a-axis perspective, two adjacent asymmetric units form a centrosymmetric tetrameric ring through N4–H4A···O2 hydrogen bonding, described as R4412 in graph set notation (Figure 4B)."
+    },
+    {
+     "motivo": "R44(12) tetrameric ring motif (Fig. 4B caption)",
+     "chi": "MET–RHE tetrameric ring",
+     "citazione": "The tetrameric ring motif R44(12)."
+    },
+    {
+     "motivo": "MET–RHE hydrogen bonds N5–H5A···O1 and N4–H4B···O1; intramolecular O5–H5···O4 and O3–H3···O4 in RHE",
+     "chi": "MET cation and RHE anion",
+     "citazione": "MET is connected to RHE by N5–H5A···O1 and N4–H4B···O1 hydrogen bonds, in addition to the presence of O5–H5···O4 and O3–H3···O4 intramolecular hydrogen bonds in RHE."
+    },
+    {
+     "motivo": "chain along b via N3–H3B···N5 between adjacent MET; planar layer via O3–H3···O5 between adjacent RHE",
+     "chi": "adjacent MET cations; adjacent RHE anions",
+     "citazione": "The abovementioned centrosymmetric tetrameric rings are connected by N3–H3B···N5 hydrogen bonds between adjacent METs to form a chain-like structure extending indefinitely along the b-axis. The chains are connected to each other by O3–H3···O5 hydrogen bonds between adjacent RHEs"
+    }
+   ],
+   "citazione": "Single-crystal X-ray diffraction reveals MET–RHE crystallized in the triclinic P-1 space group.",
+   "note": "Sale anidro 1:1 senza solvente («does not contain solvent»: DSC senza picchi a bassa T, TGA senza perdita di massa). Cella di Tabella 1, T 293 K dal metodo SCXRD («at the temperature of 293 K»). CCDC 2241616 attribuito nel testo. Struttura a sandwich: i cationi MET idrofili fra gli anioni RHE idrofobici. Forma prodotta da tutti e tre i solvati per desolvatazione."
+  },
+  {
+   "id": "F5",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "MET–RHE–H2O",
+   "etichette_alternative": [
+    "MET–RHE–H2O (1:1:1)"
+   ],
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Finally, the salts of MET–RHE (1:1), MET–RHE–H2O (1:1:1), MET–RHE–ethanol–H2O (1:1:1:1), and MET–RHE–acetonitrile (2:2:1) were obtained, indicating the polymorphism of salts formed by MET and RHE.",
+   "note": "Idrato del sale; nessuna struttura cristallina: i tre sali con SXRD sono MET–RHE, MET–RHE–ethanol–H2O e MET–RHE–acetonitrile («Three multicomponent pharmaceutical salts were obtained, including MET–RHE, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile»). Stechiometria 1:1:1 dal titolo dell'abstract."
+  },
+  {
+   "id": "F6",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "MET–RHE–ethanol–H2O",
+   "etichette_alternative": [
+    "MET–RHE–ethanol–H2O (1:1:1:1)"
+   ],
+   "tipo": [
+    "sale",
+    "solvato",
+    "idrato"
+   ],
+   "ospite": [
+    {
+     "specie": "ethanol",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "protonazione": "MET cation and RHE anion",
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 7.295,
+    "b": 7.619,
+    "c": 19.721,
+    "alpha": 86.327,
+    "beta": 87.895,
+    "gamma": 87.742,
+    "V": 1092.4,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "293 K"
+   },
+   "ccdc": "2241591",
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) dimeric ring",
+     "chi": "two asymmetric units, N5–H5B···N3",
+     "citazione": "the two asymmetric units of MET–RHE–ethanol–H2O form a centrosymmetric dimer via N5–H5B···N3 hydrogen bonds, depicted in the atlas notation as R22(8) (Figure 5B)"
+    },
+    {
+     "motivo": "R22(8) dimeric ring motif (Fig. 5B caption)",
+     "chi": "MET–RHE–ethanol–H2O dimer",
+     "citazione": "The dimeric ring motif R22(8)."
+    },
+    {
+     "motivo": "MET cation, RHE anion and ethanol linked by N4–H4A···O7, N5–H5A···O1 and O7–H7A···O2; water linked to RHE by O8–H8A···O6",
+     "chi": "MET, RHE, ethanol, water",
+     "citazione": "It is clearly seen that MET cation, RHE anion, and ethanol molecules through N4–H4A···O7, N5–H5A···O1, and O7–H7A···O2 hydrogen bonding. RHE molecules are linked to water molecules through O8–H8A···O6 hydrogen bonds while forming intramolecular hydrogen bonds through O3–H3···O4 and O5–H5···O6 hydrogen bonds."
+    },
+    {
+     "motivo": "dimers linked by N2–H2A···O8 and N2–H2B···O1 into a chain along a; RHE dimer by O5–H5···O3",
+     "chi": "dimers, RHE–RHE",
+     "citazione": "The dimers are linked by N2–H2A···O8 and N2–H2B···O1 hydrogen bonds, resulting in a chain-like structure that extends infinitely along the a-axis. The chains are linked with each other by the dimeric structure formed by O5–H5···O3 hydrogen bonds between RHEs"
+    }
+   ],
+   "citazione": "An asymmetric unit of MET–RHE–ethanol–H2O contains one MET cation, one RHE anion, one ethanol molecule, and one water molecule (Figure 5A).",
+   "note": "Cella di Tabella 1; T 293 K dal metodo SCXRD. CCDC 2241591 attribuito nel testo. Stechiometria 1:1:1:1 dal titolo. Il testo a 3.4.1 dice che il motivo R22(8) si trova «only in MET–RHE–acetonitrile salt», mentre a 3.3 e nella Fig. 5B lo attribuisce a MET–RHE–ethanol–H2O: si tiene 3.3 (descrizione puntuale con la figura)."
+  },
+  {
+   "id": "F7",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "MET–RHE–acetonitrile",
+   "etichette_alternative": [
+    "MET–RHE–acetonitrile (2:2:1)"
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "protonazione": "two MET cations and two RHE anions",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 14.151,
+    "b": 13.658,
+    "c": 21.051,
+    "alpha": 90,
+    "beta": 98.372,
+    "gamma": 90,
+    "V": 4025.6,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "293 K"
+   },
+   "ccdc": "2241615",
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "R44(20) tetrameric ring",
+     "chi": "two MET cations and two RHE anions, N–H···O",
+     "citazione": "In the structure of MET–RHE–acetonitrile, two MET cations and two RHE anions are linked by N2B–H2BA···O6B, N1B–H1BB···O5B, N1B–H1BA···O6A, N1A–H1AB···O6A, N2A–H2AB···O5A, and bN1A–H1AA····O5B hydrogen bonds to form a tetrameric ring (Figure 6B)."
+    },
+    {
+     "motivo": "R44(20) tetrameric ring motif (Fig. 6B caption)",
+     "chi": "MET–RHE–acetonitrile tetrameric ring",
+     "citazione": "The tetrameric ring motif R44(20)."
+    },
+    {
+     "motivo": "acetonitrile bonded to MET (N–H···N1Y); no classical hydrogen bond to other molecules in the energy discussion",
+     "chi": "MET and acetonitrile",
+     "citazione": "The tetrameric rings are connected by N4B–H4BA····O5A, N4B–H4BB····N1Y, and N4A–H4AB···N1Y hydrogen bonds to form a chain-like structure extending infinitely along the c-axis (Figure 6C)."
+    }
+   ],
+   "citazione": "An asymmetric unit of MET–RHE–acetonitrile contains two MET cations, two RHE anions, and one acetonitrile molecule.",
+   "note": "Cella di Tabella 1 (formula C40H41N11O12, Z = 4: unita' formula 2 MET + 2 RHE + 1 acetonitrile); T 293 K dal metodo SCXRD. CCDC 2241615 attribuito nel testo. Il motivo R44(20) e' dalla didascalia della Fig. 6B («The tetrameric ring motif R44(20)»). A 3.4.1 il testo dice che R22(8) e' solo in questo sale, in contrasto con 3.3 (vedi MET–RHE–ethanol–H2O). Etichette degli atomi di acetonitrile incoerenti nel testo (N1Y–H4AB···N4A contro N4A–H4AB···N1Y)."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 170,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 1.5,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "altro": "samples placed in an oven at the corresponding temperature",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "According to the DSC curve of MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile (Figure 3), temperatures of 170 °C, 110 °C and 140 °C were selected as the desolvation temperatures.",
+    "Specifically, a high-temperature desolvation method was used, wherein the samples were placed in the oven at the corresponding temperature for 1.5 h.",
+    "Then, the samples were taken for solvent removal verification by DSC, and the DSC results (Figure 7A) proved that the solvent in the multicomponent salts was completely removed.",
+    "On this basis, PXRD characterization of the desolvated samples showed that all of the above multicomponent salts were converted to MET–RHE salts by high-temperature desolvation without transforming into new crystalline forms (Figure 7B).",
+    "In order to investigate the transformation process from the solvates to MET–RHE salt, the MET–RHE solvates were desolvated at a temperature of at least 20 °C above the corresponding solvent peak temperature in DSC curves."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Desolvatazione di MET–RHE–H2O in forno a 170 °C per 1.5 h; DSC conferma la rimozione completa del solvente e la PXRD mostra solo MET–RHE, senza nuove forme cristalline. La temperatura e' attribuita per ordine di elencazione («MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile ... 170 °C, 110 °C and 140 °C»); e' compatibile con la regola «at least 20 °C above the corresponding solvent peak temperature» (picchi DSC 126, 66, 120 °C). Atmosfera del forno non detta."
+  },
+  {
+   "id": "E2",
+   "da": "F6",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 110,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 1.5,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "altro": "samples placed in an oven at the corresponding temperature",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "According to the DSC curve of MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile (Figure 3), temperatures of 170 °C, 110 °C and 140 °C were selected as the desolvation temperatures.",
+    "Specifically, a high-temperature desolvation method was used, wherein the samples were placed in the oven at the corresponding temperature for 1.5 h.",
+    "Then, the samples were taken for solvent removal verification by DSC, and the DSC results (Figure 7A) proved that the solvent in the multicomponent salts was completely removed.",
+    "On this basis, PXRD characterization of the desolvated samples showed that all of the above multicomponent salts were converted to MET–RHE salts by high-temperature desolvation without transforming into new crystalline forms (Figure 7B).",
+    "In order to investigate the transformation process from the solvates to MET–RHE salt, the MET–RHE solvates were desolvated at a temperature of at least 20 °C above the corresponding solvent peak temperature in DSC curves."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Desolvatazione di MET–RHE–ethanol–H2O in forno a 110 °C per 1.5 h; DSC conferma la rimozione completa del solvente e la PXRD mostra solo MET–RHE, senza nuove forme cristalline. La temperatura e' attribuita per ordine di elencazione («MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile ... 170 °C, 110 °C and 140 °C»); e' compatibile con la regola «at least 20 °C above the corresponding solvent peak temperature» (picchi DSC 126, 66, 120 °C). Atmosfera del forno non detta."
+  },
+  {
+   "id": "E3",
+   "da": "F7",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 140,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 1.5,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "altro": "samples placed in an oven at the corresponding temperature",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "According to the DSC curve of MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile (Figure 3), temperatures of 170 °C, 110 °C and 140 °C were selected as the desolvation temperatures.",
+    "Specifically, a high-temperature desolvation method was used, wherein the samples were placed in the oven at the corresponding temperature for 1.5 h.",
+    "Then, the samples were taken for solvent removal verification by DSC, and the DSC results (Figure 7A) proved that the solvent in the multicomponent salts was completely removed.",
+    "On this basis, PXRD characterization of the desolvated samples showed that all of the above multicomponent salts were converted to MET–RHE salts by high-temperature desolvation without transforming into new crystalline forms (Figure 7B).",
+    "In order to investigate the transformation process from the solvates to MET–RHE salt, the MET–RHE solvates were desolvated at a temperature of at least 20 °C above the corresponding solvent peak temperature in DSC curves."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Desolvatazione di MET–RHE–acetonitrile in forno a 140 °C per 1.5 h; DSC conferma la rimozione completa del solvente e la PXRD mostra solo MET–RHE, senza nuove forme cristalline. La temperatura e' attribuita per ordine di elencazione («MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile ... 170 °C, 110 °C and 140 °C»); e' compatibile con la regola «at least 20 °C above the corresponding solvent peak temperature» (picchi DSC 126, 66, 120 °C). Atmosfera del forno non detta."
+  },
+  {
+   "id": "E4",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 126,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "Notably, unlike MET–RHE, MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile also have endothermic peaks at about 126, 66, and 120 °C, respectively, and the endothermic peaks of MET–RHE–H2O and MET–RHE–acetonitrile are close to that MET (121 °C).",
+    "Therefore, the endothermic peaks at low temperatures of MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile correspond to the presence of solvents in their structures.",
+    "The specific method is to accurately weigh the sample into an alumina crucible, start heating from 30 °C, and complete the whole experiment at a heating rate of 10 °C min−1 with a flow of 50 mL/min of N2.",
+    "The solvent weight loss temperatures of the TG curves of MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile correspond to the solvent endothermic peaks of their DSC curves"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "dettagli_nel_supplementare": true,
+   "note": "Picco endotermico di desolvatazione di MET–RHE–H2O («about 126 °C»), attribuito per ordine di elencazione («at about 126, 66, and 120 °C, respectively»). La DSC non identifica il prodotto: e' MET–RHE per la prova in forno a piu' alta temperatura (E1–E3), per questo a = MET–RHE con certezza media. Le perdite di massa TGA, vicine a quelle teoriche, sono nella Tabella S1 (supplementare). Crogiolo di allumina, coperchio non detto."
+  },
+  {
+   "id": "E5",
+   "da": "F6",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 66,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "Notably, unlike MET–RHE, MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile also have endothermic peaks at about 126, 66, and 120 °C, respectively, and the endothermic peaks of MET–RHE–H2O and MET–RHE–acetonitrile are close to that MET (121 °C).",
+    "Therefore, the endothermic peaks at low temperatures of MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile correspond to the presence of solvents in their structures.",
+    "The specific method is to accurately weigh the sample into an alumina crucible, start heating from 30 °C, and complete the whole experiment at a heating rate of 10 °C min−1 with a flow of 50 mL/min of N2.",
+    "The solvent weight loss temperatures of the TG curves of MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile correspond to the solvent endothermic peaks of their DSC curves"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "dettagli_nel_supplementare": true,
+   "note": "Picco endotermico di desolvatazione di MET–RHE–ethanol–H2O («about 66 °C»), attribuito per ordine di elencazione («at about 126, 66, and 120 °C, respectively»). La DSC non identifica il prodotto: e' MET–RHE per la prova in forno a piu' alta temperatura (E1–E3), per questo a = MET–RHE con certezza media. Le perdite di massa TGA, vicine a quelle teoriche, sono nella Tabella S1 (supplementare). Crogiolo di allumina, coperchio non detto."
+  },
+  {
+   "id": "E6",
+   "da": "F7",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 120,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "Notably, unlike MET–RHE, MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile also have endothermic peaks at about 126, 66, and 120 °C, respectively, and the endothermic peaks of MET–RHE–H2O and MET–RHE–acetonitrile are close to that MET (121 °C).",
+    "Therefore, the endothermic peaks at low temperatures of MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile correspond to the presence of solvents in their structures.",
+    "The specific method is to accurately weigh the sample into an alumina crucible, start heating from 30 °C, and complete the whole experiment at a heating rate of 10 °C min−1 with a flow of 50 mL/min of N2.",
+    "The solvent weight loss temperatures of the TG curves of MET–RHE–H2O, MET–RHE–ethanol–H2O, and MET–RHE–acetonitrile correspond to the solvent endothermic peaks of their DSC curves"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "dettagli_nel_supplementare": true,
+   "note": "Picco endotermico di desolvatazione di MET–RHE–acetonitrile («about 120 °C»), attribuito per ordine di elencazione («at about 126, 66, and 120 °C, respectively»). La DSC non identifica il prodotto: e' MET–RHE per la prova in forno a piu' alta temperatura (E1–E3), per questo a = MET–RHE con certezza media. Le perdite di massa TGA, vicine a quelle teoriche, sono nella Tabella S1 (supplementare). Crogiolo di allumina, coperchio non detto."
+  },
+  {
+   "id": "E7",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 232,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "By contrast, a sharp endothermic peak of MET–RHE appeared at approximately 232 °C, followed by the thermal decomposition at approximately 239°, which is obviously different from the melting point of MET and RHE, and no obvious endothermic peak was observed at low temperature, indicating that MET–RHE is a new phase different from MET and RHE and does not contain solvent.",
+    "The specific method is to accurately weigh the sample into an alumina crucible, start heating from 30 °C, and complete the whole experiment at a heating rate of 10 °C min−1 with a flow of 50 mL/min of N2."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "note": "Picco endotermico netto a circa 232 °C seguito da decomposizione termica a circa 239 °C. Il testo lo confronta con «the melting point of MET and RHE» e parla altrove di «the melting point of MET–RHE», senza scrivere «melting» accanto al 232: fusione per lettura delle parole degli autori, per questo certezza media. Fusione e decomposizione sono vicine (7 °C): E8 e' il secondo passo."
+  },
+  {
+   "id": "E8",
+   "da": "F4",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 239,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "By contrast, a sharp endothermic peak of MET–RHE appeared at approximately 232 °C, followed by the thermal decomposition at approximately 239°, which is obviously different from the melting point of MET and RHE, and no obvious endothermic peak was observed at low temperature, indicating that MET–RHE is a new phase different from MET and RHE and does not contain solvent.",
+    "The specific method is to accurately weigh the sample into an alumina crucible, start heating from 30 °C, and complete the whole experiment at a heating rate of 10 °C min−1 with a flow of 50 mL/min of N2."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "«Thermal decomposition at approximately 239°»: il PDF omette la C dell'unita' (gradi Celsius per contesto). Non e' detto come si sia riconosciuta la decomposizione."
+  },
+  {
+   "id": "E9",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 30,
+     "max": 232,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "No mass loss was observed in the test temperature range below the melting point of MET–RHE, indicating that no solvent molecules were present in the lattice of MET–RHE.",
+    "An appropriate amount of sample was weighed in a crucible using 40 µL alumina and warmed to 500 °C at 10 °C/min starting at 30 °C under a N2 flow of 50 mL/min.",
+    "By contrast, a sharp endothermic peak of MET–RHE appeared at approximately 232 °C"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Negativo: nessuna perdita di massa in TGA sotto il punto di fusione di MET–RHE (circa 232 °C per DSC): nessun solvente nel reticolo. Il limite superiore 232 °C viene dal punto di fusione DSC, non dalla TGA. Crogiolo di allumina da 40 µL."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 121,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 121,
+       "circa": true,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     },
+     {
+      "grandezza": {
+       "valore": 161,
+       "circa": true,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "MET has an endothermic peak around 121 °C and a resolving exothermic peak around 161 °C, while RHE only has an endothermic peak at 327 °C.",
+    "which is obviously different from the melting point of MET and RHE",
+    "The specific method is to accurately weigh the sample into an alumina crucible, start heating from 30 °C, and complete the whole experiment at a heating rate of 10 °C min−1 with a flow of 50 mL/min of N2."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Picco endotermico di MET a circa 121 °C, letto come fusione perche' gli autori parlano di «the melting point of MET and RHE» (non scrivono «melting» accanto al numero). Il «resolving exothermic peak around 161 °C» che segue non e' interpretato dal testo (e' in `picchi_dsc` con segno eso)."
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "picco": 327,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2 flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "MET has an endothermic peak around 121 °C and a resolving exothermic peak around 161 °C, while RHE only has an endothermic peak at 327 °C.",
+    "which is obviously different from the melting point of MET and RHE",
+    "The specific method is to accurately weigh the sample into an alumina crucible, start heating from 30 °C, and complete the whole experiment at a heating rate of 10 °C min−1 with a flow of 50 mL/min of N2."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Unico picco endotermico di RHE a 327 °C («RHE only has an endothermic peak at 327 °C»), letto come fusione per «the melting point of MET and RHE»."
+  },
+  {
+   "id": "E12",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "During the stability investigation experiments, the stability results of MET were not satisfactory, as evidenced by the significant changes in the PXRD patterns of MET samples after 10 days in a high-temperature and illuminated environment (Figure 8A)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "note": "MET a 60 °C per 10 giorni: «significant changes in the PXRD patterns» senza dire a che forma. Controlli PXRD ai giorni 0, 5 e 10."
+  },
+  {
+   "id": "E13",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "day",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "In addition, MET adsorbed water from the environment in a solution state in only 5 days under high humidity because of its hygroscopicity."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "note": "MET a 25 °C e 90 ± 5 % RH: «adsorbed water from the environment in a solution state in only 5 days» (il testo lo attribuisce all'igroscopicita'; probabile deliquescenza, e' un'interpretazione); il campione non e' piu' un solido ben definito: a = ignota. Controlli PXRD ai giorni 0, 5 e 10. Umidita' scritta «90 ± 5%» (tolleranza ±5 non registrata nel campo)."
+  },
+  {
+   "id": "E14",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "dose": {
+      "valore": 4500,
+      "unita": "lx"
+     }
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "During the stability investigation experiments, the stability results of MET were not satisfactory, as evidenced by the significant changes in the PXRD patterns of MET samples after 10 days in a high-temperature and illuminated environment (Figure 8A)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "note": "MET in ambiente illuminato per 10 giorni: «significant changes in the PXRD patterns» senza dire a che forma. Il testo mette insieme temperatura e luce («in a high-temperature and illuminated environment»): i due eventi (E12, E14) condividono la frase. Controlli PXRD ai giorni 0, 5 e 10. Luce: «illuminated (4500 lx ± 500 lx)»; l'illuminamento e' registrato in `luce.dose` (unita' lx) perche' lo schema non ha un campo per l'illuminamento."
+  },
+  {
+   "id": "E15",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "In compared with MET, the stability of MET·HCl was significantly improved (Figure 8B), and it could remain stable in a high-temperature, high-humidity, and illuminated environment within 5 days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "MET·HCl a 60 °C entro 5 giorni: stabile. La frase vale per le tre condizioni insieme («high-temperature, high-humidity, and illuminated environment within 5 days»). Controlli PXRD ai giorni 0, 5 e 10."
+  },
+  {
+   "id": "E16",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "However, the characteristic peaks at 2θ of 49.48° in the PXRD changed under the high-temperature and illuminated environment for 10 days, indicating that MET·HCl could not remain stable for a long time in the high-temperature and illuminated environment."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "note": "MET·HCl a 60 °C per 10 giorni: cambiano i picchi caratteristici a 2θ = 49.48° («the characteristic peaks at 2θ of 49.48° in the PXRD changed»), non il resto del diffrattogramma. Natura del cambiamento non detta: `parziale` con certezza bassa. Controlli PXRD ai giorni 0, 5 e 10."
+  },
+  {
+   "id": "E17",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "In compared with MET, the stability of MET·HCl was significantly improved (Figure 8B), and it could remain stable in a high-temperature, high-humidity, and illuminated environment within 5 days.",
+    "Especially, almost no change was observed in the PXRD pattern under high humidity within 10 days, indicating that MET·HCl can basically maintain stability under high humidity."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "MET·HCl a 25 °C e 90 ± 5 % RH: stabile entro 5 giorni e «almost no change» entro 10 giorni. Controlli PXRD ai giorni 0, 5 e 10. Umidita' scritta «90 ± 5%» (tolleranza ±5 non registrata nel campo)."
+  },
+  {
+   "id": "E18",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "dose": {
+      "valore": 4500,
+      "unita": "lx"
+     }
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "In compared with MET, the stability of MET·HCl was significantly improved (Figure 8B), and it could remain stable in a high-temperature, high-humidity, and illuminated environment within 5 days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "MET·HCl in ambiente illuminato entro 5 giorni: stabile. Controlli PXRD ai giorni 0, 5 e 10. Luce: «illuminated (4500 lx ± 500 lx)»; l'illuminamento e' registrato in `luce.dose` (unita' lx) perche' lo schema non ha un campo per l'illuminamento."
+  },
+  {
+   "id": "E19",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "parziale",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "dose": {
+      "valore": 4500,
+      "unita": "lx"
+     }
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "However, the characteristic peaks at 2θ of 49.48° in the PXRD changed under the high-temperature and illuminated environment for 10 days, indicating that MET·HCl could not remain stable for a long time in the high-temperature and illuminated environment."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "note": "MET·HCl in ambiente illuminato per 10 giorni: cambiano i picchi a 2θ = 49.48° (stessa frase di E16, che mette insieme temperatura e luce). Controlli PXRD ai giorni 0, 5 e 10. Luce: «illuminated (4500 lx ± 500 lx)»; l'illuminamento e' registrato in `luce.dose` (unita' lx) perche' lo schema non ha un campo per l'illuminamento."
+  },
+  {
+   "id": "E20",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "Considering the good stability of RHE, its PXRD patterns of RHE did not change significantly under a high-temperature, high-humidity, and illuminated environment for 10 days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "RHE a 60 °C per 10 giorni: nessun cambio significativo («good stability of RHE»). Controlli PXRD ai giorni 0, 5 e 10."
+  },
+  {
+   "id": "E21",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "Considering the good stability of RHE, its PXRD patterns of RHE did not change significantly under a high-temperature, high-humidity, and illuminated environment for 10 days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "RHE a 25 °C e 90 ± 5 % RH per 10 giorni: nessun cambio significativo. Controlli PXRD ai giorni 0, 5 e 10. Umidita' scritta «90 ± 5%» (tolleranza ±5 non registrata nel campo)."
+  },
+  {
+   "id": "E22",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "dose": {
+      "valore": 4500,
+      "unita": "lx"
+     }
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "Considering the good stability of RHE, its PXRD patterns of RHE did not change significantly under a high-temperature, high-humidity, and illuminated environment for 10 days."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "RHE in ambiente illuminato per 10 giorni: nessun cambio significativo. Controlli PXRD ai giorni 0, 5 e 10. Luce: «illuminated (4500 lx ± 500 lx)»; l'illuminamento e' registrato in `luce.dose` (unita' lx) perche' lo schema non ha un campo per l'illuminamento."
+  },
+  {
+   "id": "E23",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "Similarly, the PXRD patterns of MET–RHE did not change significantly within 10 days in the high-temperature, high-humidity, and illuminated environment, confirming that the stability of MET was also improved significantly by forming salt with RHE, and the effect was even better than that of MET·HCl."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "MET–RHE a 60 °C entro 10 giorni: nessun cambio significativo; la stabilita' di MET migliora formando il sale. Controlli PXRD ai giorni 0, 5 e 10."
+  },
+  {
+   "id": "E24",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "Similarly, the PXRD patterns of MET–RHE did not change significantly within 10 days in the high-temperature, high-humidity, and illuminated environment, confirming that the stability of MET was also improved significantly by forming salt with RHE, and the effect was even better than that of MET·HCl."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "MET–RHE a 25 °C e 90 ± 5 % RH entro 10 giorni: nessun cambio significativo. Controlli PXRD ai giorni 0, 5 e 10. Umidita' scritta «90 ± 5%» (tolleranza ±5 non registrata nel campo)."
+  },
+  {
+   "id": "E25",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "dose": {
+      "valore": 4500,
+      "unita": "lx"
+     }
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To investigate the stability of MET and MET–RHE, powder samples were placed in high-temperature (60 °C), high-humidity (25 °C, 90 ± 5%), and illuminated (4500 lx ± 500 lx) environment for 10 days. The stability of samples was evaluated via PXRD analysis.",
+    "The stability of MET (A), MET·HCl (B), RHE (C), and MET–RHE (D) was evaluated in high-temperature, high-humidity, and illuminated environments by weighing 50 mg samples for PXRD characterization on days 0, 5 and 10, respectively (Figure 8).",
+    "Similarly, the PXRD patterns of MET–RHE did not change significantly within 10 days in the high-temperature, high-humidity, and illuminated environment, confirming that the stability of MET was also improved significantly by forming salt with RHE, and the effect was even better than that of MET·HCl."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "50 mg"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "MET–RHE in ambiente illuminato entro 10 giorni: nessun cambio significativo. Controlli PXRD ai giorni 0, 5 e 10. Luce: «illuminated (4500 lx ± 500 lx)»; l'illuminamento e' registrato in `luce.dose` (unita' lx) perche' lo schema non ha un campo per l'illuminamento."
+  },
+  {
+   "id": "E26",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": null,
+     "min": 20,
+     "max": 95,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": null,
+     "max": 120,
+     "unita": "min",
+     "limite": "sotto",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DVS",
+     "PXRD"
+    ],
+    "variazione_massa": {
+     "valore": 49.41,
+     "unita": "%"
+    }
+   },
+   "citazioni": [
+    "The hygroscopicity of MET and MET–RHE was studied by dynamic vapor sorption experiment (DVS Adventure, Surface Measurement Systems, London, United Kingdom.). The samples were studied at 25 °C in the humidity range of 20–95% relative humidity (RH). Each humidity step was performed when a change in weight of less than 0.02% occurred within 10 min, with a maximum retention time of 120 min.",
+    "The DVS results of the above four samples are shown in Figure 9 and Table S5.",
+    "When the relative humidity reached 95%, the weight increase of MET sample reached 49.41%. Considering the extremely high hygroscopicity of MET, the MET samples did not reach equilibrium at 95% RH, even though the equilibration time was adjusted upward to 120 min.",
+    "The PXRD patterns of MET–RHE, RHE, and MET·HCl samples (Figure S2) showed little change before and after the DVS experiment, while the PXRD patterns of the MET sample obviously changed. This finding was obtained possibly because the MET still had a 9.66% weight gain after the end of the desorption cycle."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "dettagli_nel_supplementare": true,
+   "note": "MET in DVS: aumento di massa di 49.41 % a 95 % RH, senza equilibrio nemmeno con 120 min per gradino; dopo il ciclo di desorbimento resta un aumento di 9.66 %. Dopo la DVS la PXRD «obviously changed»: la forma finale non e' identificata (a = ignota). Il tempo e' il tempo massimo di permanenza per gradino di RH (max 120 min), con criterio di variazione di massa < 0.02 % in 10 min."
+  },
+  {
+   "id": "E27",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": null,
+     "min": 20,
+     "max": 95,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": null,
+     "max": 120,
+     "unita": "min",
+     "limite": "sotto",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DVS",
+     "PXRD"
+    ],
+    "variazione_massa": {
+     "valore": 2.66,
+     "unita": "%"
+    }
+   },
+   "citazioni": [
+    "The hygroscopicity of MET and MET–RHE was studied by dynamic vapor sorption experiment (DVS Adventure, Surface Measurement Systems, London, United Kingdom.). The samples were studied at 25 °C in the humidity range of 20–95% relative humidity (RH). Each humidity step was performed when a change in weight of less than 0.02% occurred within 10 min, with a maximum retention time of 120 min.",
+    "The DVS results of the above four samples are shown in Figure 9 and Table S5.",
+    "Satisfactory results were obtained when the MET–RHE sample gained only 2.66% in weight under up to 95% relative humidity, which is slightly higher than the MET·HCl and RHE sample but significantly lower than the MET sample based on the graph.",
+    "The PXRD patterns of MET–RHE, RHE, and MET·HCl samples (Figure S2) showed little change before and after the DVS experiment"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "dettagli_nel_supplementare": true,
+   "note": "MET–RHE in DVS: +2.66 % in massa fino a 95 % RH, PXRD quasi invariata. Dati di tutti i campioni nella Tabella S5 (supplementare)."
+  },
+  {
+   "id": "E28",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": null,
+     "min": 20,
+     "max": 95,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": null,
+     "max": 120,
+     "unita": "min",
+     "limite": "sotto",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DVS",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The hygroscopicity of MET and MET–RHE was studied by dynamic vapor sorption experiment (DVS Adventure, Surface Measurement Systems, London, United Kingdom.). The samples were studied at 25 °C in the humidity range of 20–95% relative humidity (RH). Each humidity step was performed when a change in weight of less than 0.02% occurred within 10 min, with a maximum retention time of 120 min.",
+    "The DVS results of the above four samples are shown in Figure 9 and Table S5.",
+    "The PXRD patterns of MET–RHE, RHE, and MET·HCl samples (Figure S2) showed little change before and after the DVS experiment"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "dettagli_nel_supplementare": true,
+   "note": "RHE in DVS: aumento di massa «slightly» minore di quello di MET–RHE (valore nella Tabella S5, supplementare); PXRD quasi invariata."
+  },
+  {
+   "id": "E29",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": null,
+     "min": 20,
+     "max": 95,
+     "unita": "%RH"
+    },
+    "tempo": {
+     "valore": null,
+     "max": 120,
+     "unita": "min",
+     "limite": "sotto",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DVS",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The hygroscopicity of MET and MET–RHE was studied by dynamic vapor sorption experiment (DVS Adventure, Surface Measurement Systems, London, United Kingdom.). The samples were studied at 25 °C in the humidity range of 20–95% relative humidity (RH). Each humidity step was performed when a change in weight of less than 0.02% occurred within 10 min, with a maximum retention time of 120 min.",
+    "The DVS results of the above four samples are shown in Figure 9 and Table S5.",
+    "The PXRD patterns of MET–RHE, RHE, and MET·HCl samples (Figure S2) showed little change before and after the DVS experiment"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "dettagli_nel_supplementare": true,
+   "note": "MET·HCl in DVS: aumento di massa «slightly» minore di quello di MET–RHE (valore nella Tabella S5, supplementare); PXRD quasi invariata."
+  },
+  {
+   "id": "E30",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 200,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 7
+    },
+    "rapporto_solido_solvente": "Approximately 100 mg of sample in 10 mL of buffer medium",
+    "solventi": [
+     {
+      "nome": "Britton–Robinson buffer",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "The solubility of MET–RHE and RHE was studied using the saturation shake-flask method [67]. Approximately 100 mg of sample and a rotor were added to a tube containing 10 mL of buffer medium (pH = 7) and then capped and stirred at 37 °C for 48 h at 200 rpm.",
+    "The remaining solid was dried and characterized by PXRD.",
+    "and the Britton–Robinson buffer at pH = 7 was used as medium during the experiment [67,68]",
+    "As a supplement, the characteristic peaks of the PXRD patterns (Figure S3) of MET–RHE and RHE before and after the solubility test were almost unchanged, confirming that no other new phases such as hydrate were generated during the solubility test."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "MET–RHE in tampone di Britton–Robinson a pH 7, 37 °C, 48 h, 200 rpm: la PXRD del solido residuo non cambia («no other new phases such as hydrate were generated»). Il solido residuo era essiccato prima della PXRD. Solubilita' all'equilibrio 8.35 mg/mL (vedi molecole)."
+  },
+  {
+   "id": "E31",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 200,
+     "unita": "rpm"
+    },
+    "pH": {
+     "valore": 7
+    },
+    "rapporto_solido_solvente": "Approximately 100 mg of sample in 10 mL of buffer medium",
+    "solventi": [
+     {
+      "nome": "Britton–Robinson buffer",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "The solubility of MET–RHE and RHE was studied using the saturation shake-flask method [67]. Approximately 100 mg of sample and a rotor were added to a tube containing 10 mL of buffer medium (pH = 7) and then capped and stirred at 37 °C for 48 h at 200 rpm.",
+    "The remaining solid was dried and characterized by PXRD.",
+    "and the Britton–Robinson buffer at pH = 7 was used as medium during the experiment [67,68]",
+    "As a supplement, the characteristic peaks of the PXRD patterns (Figure S3) of MET–RHE and RHE before and after the solubility test were almost unchanged, confirming that no other new phases such as hydrate were generated during the solubility test."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "RHE negli stessi mezzo e condizioni di E30: PXRD invariata. Solubilita' 0.09 mg/mL (vedi molecole)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "isopropanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Metformin hydrochloride was dehydrochlorinated by acid–base neutralization method, and the final metformin sample was obtained. First, 3.31 g (20 mmol) of metformin was accurately weighed and dissolved in an appropriate amount of isopropanol, to which 0.80 g (20 mmol) of sodium hydroxide was added. The mixture was stirred at 300 rpm at room temperature overnight. The solution was filtrated, and the product was spun dry to obtain the metformin sample for the experiment at 60 °C and −0.01 MPa."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": null,
+    "unita": null,
+    "testo": "overnight"
+   },
+   "agitazione": {
+    "valore": 300,
+    "unita": "rpm"
+   },
+   "atmosfera": "product spun dry at 60 °C and −0.01 MPa",
+   "additivi": [
+    "sodium hydroxide"
+   ],
+   "note": "Neutralizzazione acido-base di MET·HCl con NaOH in isopropanolo. Il testo scrive «3.31 g (20 mmol) of metformin» ma la massa corrisponde al cloridrato (MW = 166 scritto altrove). I 60 °C e i −0.01 MPa sono dell'essiccamento finale (in `atmosfera`), non della reazione."
+  },
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "MET·HCl (purity > 99%, MW = 166) and RHE (purity > 99%, MW = 284) were purchased from Nine-Dinn Chemistry Co., Ltd. (Shanghai, China) and Hubei Wande Chemical Co., Ltd. (Tianmen, China), respectively."
+   ],
+   "fonte_dati": "propria",
+   "note": "RHE e MET·HCl acquistati; i reagenti «of analytical grade»."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "macinazione",
+   "solventi": [
+    "ethanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "For MET–RHE (1:1), 0.2 mmol of MET (25.8 mg) and 0.2 mmol of RHE (56.8 mg) were accurately weighed into a mortar, 2 mL of ethanol was added, and the solid was manually grounded at 25 °C for 1 h. The solid was dried at 25 °C for 4 h to obtain an auratus powder sample."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 25,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "h"
+   },
+   "rapporto_soluzione": "0.2 mmol MET : 0.2 mmol RHE",
+   "note": "Macinazione manuale in mortaio con etanolo (LAG), poi essiccamento a 25 °C per 4 h. La polvere («auratus powder») non e' caratterizzata nel testo: e' il materiale che si ridiscioglie per cristallizzare MET–RHE; per questo preparazione e non evento. Massa dei reagenti e volumi nell'extra."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The obtained sample was dissolved in 6 mL of methanol, and then filtered. The filtrate was air-dried at 25 °C, and faint yellow massive crystals were obtained after 6 days."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 25,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 6,
+    "unita": "day"
+   },
+   "pretrattamento": "powder obtained by manual grinding with ethanol (previous preparation)",
+   "note": "Cristalli giallo pallido a blocco di MET–RHE dalla polvere macinata sciolta in metanolo (evaporazione all'aria). Cristalli per SXRD."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone/water (v/v, 1:1)"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "For MET–RHE–H2O (1:1:1), 0.5 mmol of MET (64.5 mg) and 0.5 mmol of RHE (142.0 mg) were accurately weighed into a vial, 5 mL of acetone/water (v/v, 1:1) mixed solvent was added, and the mixture was stirred at 25 °C at 300 rpm for 3 h. The solvent was quickly removed using a rotary evaporator, and the resulting solid was dried at 50 °C for 2 h."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 25,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 3,
+    "unita": "h"
+   },
+   "agitazione": {
+    "valore": 300,
+    "unita": "rpm"
+   },
+   "rapporto_soluzione": "0.5 mmol MET : 0.5 mmol RHE",
+   "atmosfera": "solvent removed quickly by rotary evaporator; solid then dried at 50 °C for 2 h",
+   "note": "Agitazione 3 h a 25 °C poi evaporazione rapida del solvente al rotavapor e essiccamento a 50 °C per 2 h. Il testo non dice se le polveri si sciolgano o restino in sospensione; metodo `evaporazione` per la rimozione rapida del solvente."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "macinazione",
+   "solventi": [
+    "ethanol/water (v/v, 1:1)"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "For MET–RHE–ethanol–H2O (1:1:1:1), 0.1 mmol of MET (12.9 mg) and 0.1 mmol of RHE (28.4 mg) were accurately weighed into a mortar, and 3 mL of ethanol/water (v/v, 1:1) mixed solvent was added and ground manually at 25 °C for 2 h. A brown powder was finally obtained."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 25,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "h"
+   },
+   "rapporto_soluzione": "0.1 mmol MET : 0.1 mmol RHE",
+   "note": "Macinazione manuale con etanolo/acqua; la polvere marrone non e' caratterizzata nel testo (e' il materiale ridisciolto per i cristalli)."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The resulting sample was dissolved in 8 mL of ethanol and filtered. The filtrate was air-dried at 25 °C. After 5 days, yellow massive crystals suitable for single-crystal X-ray diffraction were obtained."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 25,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 5,
+    "unita": "day"
+   },
+   "pretrattamento": "brown powder obtained by manual grinding with ethanol/water (previous preparation)",
+   "note": "Cristalli gialli a blocco adatti alla SXRD."
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol/acetonitrile (v/v, 3:1)"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "For MET–RHE–acetonitrile (2:2:1), 0.5 mmol of MET (64.5 mg) and 0.5 mmol of RHE (142.0 mg) were accurately weighted into a vial, and added to 12 mL of methanol/acetonitrile (v/v, 3:1) mixed solvent. The mixture was stirred at 25 °C at 300 rpm speed for 48 h, and then filtered. The filtrate was air-dried at 25 °C, and tangerine block-like crystals were obtained after 7 days."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 25,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 7,
+    "unita": "day"
+   },
+   "agitazione": {
+    "valore": 300,
+    "unita": "rpm"
+   },
+   "rapporto_soluzione": "0.5 mmol MET : 0.5 mmol RHE",
+   "pretrattamento": "mixture stirred at 25 °C and 300 rpm for 48 h, then filtered",
+   "note": "Il tempo strutturato (7 giorni) e' l'evaporazione del filtrato; l'agitazione di 48 h a 300 rpm precede la filtrazione. Cristalli arancioni a blocco."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "da_evento",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "On this basis, PXRD characterization of the desolvated samples showed that all of the above multicomponent salts were converted to MET–RHE salts by high-temperature desolvation without transforming into new crystalline forms (Figure 7B)."
+   ],
+   "fonte_dati": "propria",
+   "da_evento": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "note": "MET–RHE per desolvatazione dei tre solvati in forno (E1–E3)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 12.4,
+      "unita": null
+     },
+     "citazione": "Metformin (MET, pKa = 12.4 [11], Figure 1A)",
+     "metodo": "citato dal rif. 11"
+    },
+    {
+     "tipo": "igroscopicita",
+     "forma": "F1",
+     "grandezza": {
+      "valore": 49.41,
+      "unita": "% in massa"
+     },
+     "umidita": {
+      "valore": 95,
+      "unita": "%RH"
+     },
+     "citazione": "When the relative humidity reached 95%, the weight increase of MET sample reached 49.41%.",
+     "metodo": "DVS a 25 °C (sez. 2.10); il campione non raggiunge l'equilibrio a 95 % RH"
+    },
+    {
+     "tipo": "igroscopicita",
+     "forma": "F4",
+     "grandezza": {
+      "valore": 2.66,
+      "unita": "% in massa"
+     },
+     "umidita": {
+      "valore": 95,
+      "unita": "%RH"
+     },
+     "citazione": "Satisfactory results were obtained when the MET–RHE sample gained only 2.66% in weight under up to 95% relative humidity",
+     "metodo": "DVS a 25 °C (sez. 2.10)"
+    }
+   ],
+   "descrizioni": []
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.2,
+      "unita": null
+     },
+     "citazione": "Rhein (RHE, pKa = 3.2, Figure 1B)"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F2",
+     "grandezza": {
+      "valore": 0.09,
+      "unita": "mg/mL"
+     },
+     "solvente": "Britton–Robinson buffer, pH 7",
+     "citazione": "the equilibrium solubility of MET–RHE (8.35 mg/mL) was improved by nearly 93 times compared with RHE (0.09 mg/mL)",
+     "metodo": "saturation shake-flask, 37 °C, 48 h, 200 rpm (sez. 2.11)"
+    },
+    {
+     "tipo": "solubilita",
+     "forma": "F4",
+     "grandezza": {
+      "valore": 8.35,
+      "unita": "mg/mL"
+     },
+     "solvente": "Britton–Robinson buffer, pH 7",
+     "citazione": "the equilibrium solubility of MET–RHE (8.35 mg/mL) was improved by nearly 93 times compared with RHE (0.09 mg/mL)",
+     "metodo": "saturation shake-flask, 37 °C, 48 h, 200 rpm (sez. 2.11); solubilita' della componente RHE nel sale"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "legame_h_intramolecolare",
+     "forma": "F4",
+     "testo": "O5–H5···O4 and O3–H3···O4 intramolecular hydrogen bonds in RHE",
+     "citazione": "in addition to the presence of O5–H5···O4 and O3–H3···O4 intramolecular hydrogen bonds in RHE"
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "forma": "F6",
+     "testo": "O3–H3···O4 and O5–H5···O6 intramolecular hydrogen bonds",
+     "citazione": "while forming intramolecular hydrogen bonds through O3–H3···O4 and O5–H5···O6 hydrogen bonds"
+    },
+    {
+     "tipo": "altro",
+     "testo": "RHE dimer structures exist in all the salts, with slight differences in planarity; the insolubility of RHE may be related to its stable dimer structure",
+     "citazione": "The RHE dimer structures existed in all these salts, but, interestingly, slight differences in the planarity of the dimers were observed"
+    }
+   ]
+  }
+ ]
+}

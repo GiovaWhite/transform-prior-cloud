@@ -1,0 +1,1318 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2053229621013164",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2128419",
+  "2128420",
+  "2128421",
+  "2128422",
+  "2128423"
+ ],
+ "note": "Psilocibina: le strutture di Polymorph A e B sono risolte qui da dati di polvere e usate per la QPA di Rietveld su 24 campioni di psilocibina prodotti fra il 1963 e il 2021 (Tabella 8). Le quantita' di fase dei campioni (Tabella 8) sono analisi di composizione, non trasformazioni: stanno nell'extra; qui sono eventi solo i trattamenti con condizioni (essiccamento dell'idrato, riscaldamento dell'anidro, incubazione di Hydrate A a 40/45/55 °C), l'essiccamento di Sample 5 (E18), le deduzioni degli autori sulla conservazione (E11–E13) e i dati citati (brevetto Londesbrough et al. 2019; Kuhnert-Brandstatter & Heindl 1976). CCDC: cinque numeri (2128419–2128423) e sei blocchi dati nel supplementare («Form_A, Form_B, Form_B_VASP, OKOKAD_VASP_loT.cif, global, Form_A_VASP»): il testo non attribuisce i numeri ai blocchi, quindi restano a livello di articolo; Form_B_VASP, Form_A_VASP e OKOKAD_VASP_loT sono strutture ottimizzate con DFT (calcolate). Incoerenze dell'articolo: (1) numerazione dei campioni del brevetto: la sezione sperimentale chiama Sample 10 il Polymorph B e Sample 11 l'Hydrate A, la Tabella 2, la Tabella 8 e la discussione il contrario; (2) «the age of Sample 2» nella discussione va letto Sample 3 (il basso contenuto d'acqua dichiarato e' quello del flacone di Sample 3); (2b) la sintesi dei campioni 1–7 elenca Sample 2 fra gli idrati («Hydrate A (Samples 1, 2, and 6)») ma la Tabella 8 da' per Sample 2 soprattutto Polymorph A; (3) 295 K contro 302 K per la cella da polvere dell'idrato; (4) Sample 18: Tabella 3 (40 °C, 4 giorni) contro discussione (<45 °C 24 h + 50–60 °C 24 h). Non sono eventi: i confronti con il brevetto sulla natura di «isostructural variant» (e' un'interpretazione degli autori) e il calcolo VASP che da' Polymorph B 11.8 kJ/mol piu' bassa in energia di A («so the structures must be considered similar in energy»: nessuna relazione mono/enantiotropa dichiarata). Il meccanismo della disidratazione dell'idrato e' dichiarato sconosciuto.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "psilocybin (3-[2-(dimethylamino)ethyl]-1H-indol-4-yl dihydrogen phosphate)",
+   "nome_scritto": "Psilocybin {systematic name: 3-[2-(di­methyl­amino)­eth­yl]-1H-indol-4-yl di­hydro­gen phosphate}",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Hydrate A",
+   "etichette_alternative": [
+    "psilocybin trihydrate",
+    "trihydrate",
+    "OKOKAD"
+   ],
+   "tipo": [
+    "idrato"
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 3,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pbca",
+   "cella": {
+    "a": 14.3906,
+    "b": 8.26729,
+    "c": 27.1581,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 3231.04,
+    "Z": 8,
+    "fonte": "SCXRD",
+    "condizioni": "152 K"
+   },
+   "refcode": "OKOKAD",
+   "ccdc": null,
+   "motivi_hb": [
+    {
+     "motivo": "P—O—H···O hydrogen bond to another phosphate O, rings with graph set (8)",
+     "chi": "phosphate P—O—H and phosphate O",
+     "citazione": "In each of the three structures, the P—O—H group forms a strong intermolecular O—H⋯O hydrogen bond to another phosphate O atom. These hydrogen bonds form rings with graph sets (8)"
+    },
+    {
+     "motivo": "N—H donors to water molecules; water–phosphate and water–water hydrogen bonds",
+     "chi": "N—H groups, water, phosphate",
+     "citazione": "In OKOKAD, both of the N—H groups act as donors to water molecules. In OKOKAD, there are both water–phosphate and water–water hydrogen bonds."
+    }
+   ],
+   "citazione": "The hydrate crystallizes in the orthorhombic space group Pbca as a trihydrate.",
+   "note": "Trihidrato di psilocibina gia' risolto da diffrazione di cristallo singolo (Arlin et al., 2019); refcode CSD OKOKAD scritto nel testo («Cambridge Structural Database (CSD; Groom et al., 2016) refcode OKOKAD»). La cella e' quella della Tabella 1, colonna Hydrate A (152 K, cristallo singolo 0.3 × 0.05 × 0.02 mm). Una cella da polvere a 302 K e le celle DFT-D sono nella Tabella 4 (vedi l'extra). Il testo dice «the fixed 152 K single-crystal and 295 K powder cells» mentre la Tabella 4 e il testo sulla dilatazione dicono 302 K: 295 contro 302 K non e' risolto dall'articolo. Nessun CCDC attribuito a questa forma (i 5 numeri dell'articolo sono in `ccdc` dell'articolo)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "Polymorph A",
+   "etichette_alternative": [
+    "Form A",
+    "anhydrate Polymorph A",
+    "Polymorph A′ (etichetta del brevetto Londesbrough et al., 2019)"
+   ],
+   "tipo": [
+    "anidro"
+   ],
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pbca",
+   "cella": {
+    "a": 17.4979,
+    "b": 16.0914,
+    "c": 9.34815,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 2632.11,
+    "Z": 8,
+    "fonte": "PXRD",
+    "condizioni": "295 K"
+   },
+   "refcode": null,
+   "ccdc": null,
+   "motivi_hb": [
+    {
+     "motivo": "P—O—H···O hydrogen bond to another phosphate O, rings with graph set (8)",
+     "chi": "phosphate P—O—H and phosphate O",
+     "citazione": "In each of the three structures, the P—O—H group forms a strong intermolecular O—H⋯O hydrogen bond to another phosphate O atom. These hydrogen bonds form rings with graph sets (8)"
+    },
+    {
+     "motivo": "N—H···O hydrogen bonds from protonated N and ring N—H to phosphate O",
+     "chi": "protonated N atoms, ring N—H, phosphate O",
+     "citazione": "In Forms A and B, both the protonated N atoms and the ring N—H group form intermolecular N—H⋯O hydrogen bonds to phosphate O atoms"
+    }
+   ],
+   "citazione": "The suggested space group was Pbca, which was confirmed by successful solution and refinement of the structure.",
+   "note": "Anidro risolto qui da dati di polvere (indicizzazione su pattern di laboratorio, raffinamento Rietveld su dati di sincrotrone a 295 K e ottimizzazione DFT). Cella della Tabella 1 (colonna Polymorph A, radiazione di sincrotrone). La cella da indicizzazione (a = 17.40109, b = 16.00553, c = 9.33183 Å, V = 2599.04 Å3, Z = 8) e' nell'extra. Z' non e' scritto per questa forma. Etichette: l'articolo usa «Polymorph A» (anche «Form A»); nel brevetto di Londesbrough et al. (2019) il materiale coerente con questa forma si chiama «Polymorph A′», mentre il «Polymorph A» del brevetto e' per gli autori una miscela di A e B (vedi E9). Nessun CCDC attribuito."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Polymorph B",
+   "etichette_alternative": [
+    "Form B"
+   ],
+   "tipo": [
+    "anidro"
+   ],
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/a",
+   "cella": {
+    "a": 10.3986,
+    "b": 15.4823,
+    "c": 17.2085,
+    "alpha": 90,
+    "beta": 95.6,
+    "gamma": 90,
+    "V": 2757.3,
+    "Z": 8,
+    "Z_primo": 2,
+    "fonte": "PXRD",
+    "condizioni": "300 K"
+   },
+   "refcode": null,
+   "ccdc": null,
+   "motivi_hb": [
+    {
+     "motivo": "P—O—H···O hydrogen bond to another phosphate O, rings with graph set (8)",
+     "chi": "phosphate P—O—H and phosphate O",
+     "citazione": "In each of the three structures, the P—O—H group forms a strong intermolecular O—H⋯O hydrogen bond to another phosphate O atom. These hydrogen bonds form rings with graph sets (8)"
+    },
+    {
+     "motivo": "N—H···O hydrogen bonds from protonated N and ring N—H to phosphate O; one side-chain N+—H···O intramolecular",
+     "chi": "protonated N atoms, ring N—H, phosphate O",
+     "citazione": "In Forms A and B, both the protonated N atoms and the ring N—H group form intermolecular N—H⋯O hydrogen bonds to phosphate O atoms, but in Form B, one of the side chain N+—H⋯O hydrogen bonds is intramolecular."
+    }
+   ],
+   "citazione": "EXPO2014 suggested the space group P21/a, which was confirmed by successful solution and refinement of the structure.",
+   "note": "Anidro risolto qui da dati di polvere di laboratorio (Cu Kα, 300 K, Tabella 1) con due molecole indipendenti («the two independent psilocybin molecules in Form B»: Z' = 2 con Z = 8). Gruppo P21/a scritto cosi' nel testo e in Tabella 1 (impostazione non standard di P21/c: l'articolo non scrive il numero del gruppo). La cella da indicizzazione (a = 10.3584, b = 15.4098, c = 17.1496 Å, β = 95.248°, V = 2725.96 Å3, Z = 8) e' nell'extra. Nessun CCDC attribuito."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "methanol monosolvate",
+   "etichette_alternative": [
+    "methanol solvate"
+   ],
+   "tipo": [
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "refcode": null,
+   "ccdc": null,
+   "citazione": "The crystal structure for the ethanol solvate was reported by Baker et al. (1973 ▸), followed by that for the methanol monosolvate by Weber & Petcher (1974 ▸).",
+   "note": "Forma della letteratura (Weber & Petcher, 1974; Kuhnert-Brandstatter & Heindl, 1976): nessun dato cristallografico nel testo."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "ethanol monosolvate",
+   "etichette_alternative": [
+    "ethanol solvate"
+   ],
+   "tipo": [
+    "solvato"
+   ],
+   "ospite": {
+    "specie": "ethanol",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": null,
+   "gruppo_spaziale": null,
+   "cella": null,
+   "refcode": null,
+   "ccdc": null,
+   "citazione": "The crystal structure for the ethanol solvate was reported by Baker et al. (1973 ▸), followed by that for the methanol monosolvate by Weber & Petcher (1974 ▸).",
+   "note": "Forma della letteratura (Baker et al., 1973): citata fra le forme note, non e' parte di nessun evento."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "attivita_critica": {
+    "valore": 0.3,
+    "circa": true,
+    "unita": null
+   },
+   "citazione": "These observations were consistent with our unpublished data, indicating that interconversion between Polymorph A and Hydrate A occurred at a water activity (A w) value of approximately 0.3.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Dato non pubblicato degli autori («our unpublished data»): attivita' dell'acqua di interconversione fra Polymorph A e Hydrate A circa 0.3. Nessuna temperatura detta."
+  },
+  {
+   "forme": [
+    "F2",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "condizioni": "solid material exposed to water (hydrate favoured when the bulk is not stored under controlled low-humidity conditions)",
+   "citazione": "They also noted that the anhydrate was hygroscopic and that the preferred form is the hydrate.",
+   "fonte_dati": "citata",
+   "riferimento": "Kuhnert-Brandstätter & Heindl, 1976",
+   "certezza": "bassa",
+   "note": "L'«anhydrate» di K-B&H e' qui letto come Polymorph A (gli autori correlano le caratterizzazioni con Hydrate A e Polymorph A). Nessuna temperatura ne' attivita' dell'acqua."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 35,
+     "max": 60,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "tempo": {
+     "valore": null,
+     "min": 24,
+     "unita": "h",
+     "limite": "sopra",
+     "tipo": "processo"
+    },
+    "atmosfera": "vacuum",
+    "solventi": [],
+    "altro": "essiccamento in due passi sotto vuoto: 35–45 °C per almeno 24 h, poi 50–60 °C per almeno 24 h"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "integrita": "fratturato"
+   },
+   "citazioni": [
+    "Hydrate A was converted to Polymorph A by drying the solid at 35–45 °C under vacuum for at least 24 h and subsequently at 50–60 °C under vacuum for at least 24 h.",
+    "The process was carried out on a 1.2 kg scale",
+    "Sample 19 provided the reference diffractogram for Polymorph A and was aliquoted from a 1.2 kg scale crystallization.",
+    "QPA of Sample 19 indicated that it consisted of Polymorph A exclusively, with Hydrate A and Polymorph B undetectable.",
+    "the concomitant collapse of the hydrate on drying to Polymorph A was found to induce fracturing of the solid, resulting in crystals of Polymorph A that were too small to evaluate the structure via single-crystal X-ray diffraction"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "massa": "1.2 kg scale"
+   },
+   "note": "Processo di produzione del Polymorph A di riferimento (lotto di Sample 19, scala 1.2 kg, Kargbo et al. 2020). Il programma ha due passi: la temperatura e' l'intervallo complessivo 35–60 °C (35–45 °C, poi 50–60 °C), il tempo «at least 24 h» vale per ciascun passo (la durata totale non e' scritta). Il prodotto dopo il primo passo non e' dichiarato: il risultato finale e' Polymorph A (Sample 19: Polymorph A al 100 % nella QPA di Tabella 8). Il collasso dell'idrato fa fratturare il solido; il meccanismo di disidratazione e' dichiarato sconosciuto («so the dehydration mechanism to form Polymorph A is currently unknown»)."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 60,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "atmosfera": "vacuum",
+    "solventi": [],
+    "altro": "prima sotto vuoto a meno di 45 °C per 24 h, poi 50–60 °C per altre 24 h per eliminare tracce d'acqua"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In contrast to Samples 23 and 24, which contained both Polymorph A and Polymorph B, large-scale Sample 18 was produced by first dehydrating Hydrate A under vacuum at a temperature less than 45 °C for 24 h followed by holding at 50–60 °C for an additional 24 h to remove any traces of water; these conditions resulted in single-phase Polymorph A.",
+    "both Samples 18 and 22 were initially dehydrated at 40 °C or below and provided Polymorph A exclusively"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "conflitto": "La Tabella 3 e il testo delle sezioni sperimentali danno per Sample 18 (800326600) un essiccamento a 40 °C per 4 giorni («Except for Sample 17, which was dried at 38 °C, all others were maintained at a nominal temperature of 40 °C during drying for 1–4 d»), mentre la discussione descrive due passi (meno di 45 °C per 24 h, poi 50–60 °C per altre 24 h). Si tiene la descrizione della discussione, che e' l'unica a dire che Hydrate A viene disidratato e con quali passi; la regola «sperimentale e risultati battono la discussione» darebbe 40 °C per 4 giorni.",
+   "note": "Lotto su larga scala. «Meno di 45 °C» per il primo passo: il limite inferiore non e' scritto, per questo la temperatura e' registrata solo come massimo (60 °C) e i due passi sono in `altro`. Il tempo di 24 h vale per ciascun passo. In un altro punto la discussione scrive che Samples 18 e 22 furono disidratati «at 40 °C or below» all'inizio. Sample 18 e' anche fra i Samples 12–18 di Tabella 3 (E3; QPA: Polymorph A 99.8 (10) %, Hydrate A 0.2 (1) %)."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "isoterma",
+     "valori": [
+      40,
+      38
+     ]
+    },
+    "tempo": {
+     "valore": null,
+     "min": 1,
+     "max": 4,
+     "unita": "day",
+     "tipo": "processo"
+    },
+    "atmosfera": "in vacuo",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F1",
+      "prevalenza": "tracce"
+     }
+    ]
+   },
+   "citazioni": [
+    "Samples 12–18 were obtained from chemistry process development lots and are differentiated by the ratios of acetone and water used in the recrystallization and also the time spent drying in vacuo (Table 3 ▸) following isolation of the solid. Except for Sample 17, which was dried at 38 °C, all others were maintained at a nominal temperature of 40 °C during drying for 1–4 d. QPA on these samples indicated that they were all representative of Polymorph A with an insignificant trace of Hydrate A in several samples.",
+    "Consistent with the findings reported in Kuhnert-Brandstätter & Heindl (1976 ▸), psilocybin crystallized from organic solvents containing water were found to provide Hydrate A."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_dedotto": true,
+   "note": "Sette lotti di sviluppo di processo (Usona): 40 °C «nominal» per tutti tranne Sample 17 a 38 °C (`valori: [40, 38]`), 1–4 giorni sotto vuoto, tempi per campione in Tabella 3 (2, 2, 2, 3, 1, 2, 4 giorni per i Samples 12–18: nell'extra). Tutti danno Polymorph A (QPA 99.1–100 %) con una traccia insignificante di Hydrate A in vari campioni. L'idrato di partenza e' dedotto: il solido isolato dalla ricristallizzazione da acqua o da acetone acquoso e' Hydrate A («psilocybin crystallized from organic solvents containing water were found to provide Hydrate A»), ma il diffrattogramma prima dell'essiccamento non e' riportato. Per Sample 18 la discussione da' un'altra storia (E2)."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 25,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "atmosfera": "open vial at atmospheric pressure, without vacuum",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente"
+     }
+    ]
+   },
+   "citazioni": [
+    "Psilocybin Hydrate A was incubated at different temperatures for 25 h in an open vial at atmospheric pressure without vacuum and PXRD data were subsequently collected on each sample",
+    "Sample 22, which was incubated at 40 °C, provided Polymorph A exclusively.",
+    "Sample 22 was held at 40 °C for 25 h, Sample 23 was held at 45 °C for 25 h, and Sample 24 was held at 55 °C for 25 h.",
+    "Sample 22 (Hydrate A, heated 25 h at 40 °C)",
+    "Samples 23 and 24 were initially dehydrated at higher temperatures without vacuum and were marked by increasing amounts of Polymorph B; in contrast, both Samples 18 and 22 were initially dehydrated at 40 °C or below and provided Polymorph A exclusively."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "note": "Sample 22 (PL005E-004-40C). Contenitore: «open vial», non un crogiolo DSC; `crogiolo: aperto` indica solo che l'acqua puo' uscire. Umidita' non detta. Tabella 8: Polymorph A 100 %, nessun Hydrate A ne' Polymorph B. Fa parte di una serie con E5 e E6 per «better inform large-scale API drying campaigns»."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 45,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 25,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "atmosfera": "open vial at atmospheric pressure, without vacuum",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 8,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "citazioni": [
+    "Psilocybin Hydrate A was incubated at different temperatures for 25 h in an open vial at atmospheric pressure without vacuum and PXRD data were subsequently collected on each sample",
+    "Sample 23 was incubated at 45 °C and was found to have converted to a mixture of Polymorph A with 8% Polymorph B present.",
+    "Sample 22 was held at 40 °C for 25 h, Sample 23 was held at 45 °C for 25 h, and Sample 24 was held at 55 °C for 25 h.",
+    "Sample 23 (Hydrate A, heated 25 h at 45 °C)",
+    "Samples 23 and 24 were initially dehydrated at higher temperatures without vacuum and were marked by increasing amounts of Polymorph B; in contrast, both Samples 18 and 22 were initially dehydrated at 40 °C or below and provided Polymorph A exclusively.",
+    "These observations indicated that the interconversion to Polymorph B may also occur through an alternate process during the initial collapse of the hydrate at temperatures as low as 45 °C, and that slower dehydration of Hydrate A (e.g. without vacuum or on a large scale with a less exposed surface area crystal bed) at temperatures >45 °C may also result in the formation of Polymorph B.",
+    "In summary, new observations indicate that rapid dehydration of psilocybin Hydrate A at lower temperatures and reduced pressure tended to form single-phase Polymorph A, whereas slower dehydration at higher temperatures formed both Polymorph A and Polymorph B."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "prodotti_secondari": [
+    "F3"
+   ],
+   "note": "Sample 23 (PL005E-004-45C). Prodotto: Polymorph A con 8 % di Polymorph B (Tabella 8: 91.7 (7) % A e 8.3 (4) % B, nessun Hydrate A). Gli autori ne deducono che Polymorph B puo' formarsi anche per un percorso alternativo durante il collasso iniziale dell'idrato a temperature gia' di 45 °C («as low as 45 °C»): e' un'ipotesi («may also occur»). Contenitore «open vial», non un crogiolo DSC."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 55,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 25,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "atmosfera": "open vial at atmospheric pressure, without vacuum",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 77,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 23,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "citazioni": [
+    "Psilocybin Hydrate A was incubated at different temperatures for 25 h in an open vial at atmospheric pressure without vacuum and PXRD data were subsequently collected on each sample",
+    "Finally, Sample 24, held at 55 °C, followed a similar trend and provided a mixture of 77% Polymorph A and 23% Polymorph B.",
+    "Sample 22 was held at 40 °C for 25 h, Sample 23 was held at 45 °C for 25 h, and Sample 24 was held at 55 °C for 25 h.",
+    "Sample 24 (Hydrate A, heated 25 h at 55 °C)",
+    "Samples 23 and 24 were initially dehydrated at higher temperatures without vacuum and were marked by increasing amounts of Polymorph B; in contrast, both Samples 18 and 22 were initially dehydrated at 40 °C or below and provided Polymorph A exclusively.",
+    "where dehydration at a temperature greater than 45 °C provided mixtures of Polymorph A with up to 23% Polymorph B",
+    "Experiments described in §4.1 also provided new evidence to suggest a mechanism by which Polymorph B was formed directly from Hydrate A at atmospheric pressure at temperatures in the range 45–55 °C",
+    "In summary, new observations indicate that rapid dehydration of psilocybin Hydrate A at lower temperatures and reduced pressure tended to form single-phase Polymorph A, whereas slower dehydration at higher temperatures formed both Polymorph A and Polymorph B."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "prodotti_secondari": [
+    "F3"
+   ],
+   "note": "Sample 24 (PL005E-004-55C). Tabella 8: 77.4 (8) % A e 22.6 (5) % B. L'introduzione parla di una formazione di Polymorph B «directly from Hydrate A at atmospheric pressure at temperatures in the range 45–55 °C» (E5 e E6). Contenitore «open vial», non un crogiolo DSC."
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 160,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "atmosfera": "steady stream of nitrogen",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Thermal cycling of a sample of Polymorph A to 160 °C for 1 h under a steady stream of nitrogen provided the PXRD pattern for Polymorph B.",
+    "an anhydrate formed by briefly heating Polymorph A at 160 °C",
+    "Sample 21 provided the reference pattern for Polymorph B",
+    "While single-phase Polymorph B (Samples 11 and 21) reference patterns were produced by thermal cycling of Polymorph A to 160–175 °C for a short amount of time",
+    "none of which were heated to 170 °C, i.e. the conditions found to provide the single-phase Polymorph B reference patterns (Samples 11 and 21)"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "conflitto": "La discussione riassume le condizioni dei pattern di riferimento di Polymorph B (Samples 11 e 21) come «160–175 °C for a short amount of time» e «170 °C»; la sezione 2.1 scrive 160 °C per 1 h. Si tiene la sezione sperimentale (160 °C, 1 h), che descrive il riscaldamento fatto dagli autori; 170 °C e 160–175 °C comprendono anche il campione del brevetto (173 °C, E8).",
+   "note": "Preparazione del Polymorph B di riferimento (Sample 21, CG-0019E-038-03). «Thermal cycling ... to 160 °C» e' trattato come isoterma a 160 °C per 1 h: velocita' di riscaldamento e raffreddamento non scritte. L'articolo dice anche «briefly heating» e, per i campioni di riferimento, «thermal cycling of Polymorph A to 160–175 °C for a short amount of time». Il riscaldamento prolungato di Polymorph A non da' cristalli adatti alla diffrazione («prolonged heating of Polymorph A to provide Polymorph B did not provide suitable single crystals»)."
+  },
+  {
+   "id": "E8",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 173,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Finally, Sample 10, Polymorph B, was prepared by heating psilocybin Polymorph A to 173 °C for 5 min.",
+    "The patent application also provided a PXRD pattern for the second anhydrous form, Polymorph B (consistent with Polymorph B herein), which was produced by heating Polymorph A to 160 °C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Londesbrough et al., 2019 (brevetto Compass Pathways)",
+   "conflitto": "La sezione sperimentale scrive 173 °C per 5 min; l'introduzione scrive che il brevetto produce Polymorph B «by heating Polymorph A to 160 °C». Si tiene la sezione sperimentale (piu' specifica). Inoltre la sezione sperimentale chiama questo campione «Sample 10, Polymorph B», mentre la Tabella 2, la Tabella 8 e la discussione chiamano Sample 11 il Polymorph B e Sample 10 l'Hydrate A.",
+   "note": "Campione del brevetto (Fig. 7(c) del brevetto): le condizioni sono quelle descritte nel brevetto e riferite dagli autori."
+  },
+  {
+   "id": "E9",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 50,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 30,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "atmosfera": "vacuum",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 81,
+       "unita": "%",
+       "circa": true
+      }
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 19,
+       "unita": "%",
+       "circa": true
+      }
+     }
+    ]
+   },
+   "citazioni": [
+    "The heated aqueous solution was cooled and seeded with Hydrate A crystals and the resulting solid was isolated by vacuum filtration to provide Hydrate A, which was dried under vacuum at 50 °C for 30 h.",
+    "the isolated Hydrate A crystals (94 g scale) were washed with water and then dried at 50 °C for 30 h to provide the diffractogram for Sample 8 (Fig. 22 ▸) consisting of Polymorph A with approximately 19% Polymorph B present",
+    "Rietveld refinement demonstrated that the claimed material was composed of approximately 81% Polymorph A and 19% Polymorph B"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Londesbrough et al., 2019 (brevetto Compass Pathways)",
+   "prodotti_secondari": [
+    "F3"
+   ],
+   "campione": {
+    "massa": "94 g scale"
+   },
+   "note": "Sample 8 = il «Polymorph A» del brevetto, che per gli autori e' una miscela di Polymorph A e Polymorph B (rapporto circa 81:19 da QPA di Rietveld, Tabella 8: 80.9 (6) % e 19.1 (7) %). Il processo e' del brevetto (scala 94 g); la composizione del prodotto e' l'analisi di fase degli autori sul diffrattogramma digitalizzato del brevetto. Gli autori attribuiscono la presenza di Polymorph B a una disidratazione lenta su larga scala («the collapse of Hydrate A may have occurred more slowly than expected in Sample 8»). La numerazione dei campioni 8/10/11 nella sezione sperimentale non coincide con la Tabella 2 (vedi E8)."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 50,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 16,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "atmosfera": "vacuum",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "tracce"
+     }
+    ]
+   },
+   "citazioni": [
+    "Preparation of Sample 9, Polymorph A′ (as denoted in the patent), was analogous to that of Sample 8, except that the crystallization was conducted using 1.0 g of crude psilocybin with 12.8 ml of water, and the collected solid was dried under vacuum at 50 °C for 16 h.",
+    "The Rietveld plot for Sample 9 (Polymorph A′ in the patent application) (Fig. 23 ▸) also indicates the presence of a trace amount of Polymorph B"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Londesbrough et al., 2019 (brevetto Compass Pathways)",
+   "prodotti_secondari": [
+    "F3"
+   ],
+   "da_dedotto": true,
+   "note": "Sample 9 = il «Polymorph A′» del brevetto (piccola scala, 1.0 g di psilocibina grezza in 12.8 ml d'acqua). Il solido essiccato e' Hydrate A solo per analogia con Sample 8 («analogous to that of Sample 8»): `da_dedotto`. Tabella 8: 99.7 (8) % Polymorph A e 0.3 (3) % Polymorph B."
+  },
+  {
+   "id": "E11",
+   "da": "ignota",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "over the last six decades"
+    },
+    "umidita_ignota": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Taken together, evidence of the hygroscopicity of the anhydrate along with prior literature descriptions imply that Sample 1 originally existed as the anhydrous Polymorph A and/or Polymorph B, with interconversion to Hydrate A predicted if, over the last six decades, the bulk material was not stored under controlled low-humidity conditions.",
+    "Originally manufactured by Sandoz in December 1963, Sample 1 was the oldest psilocybin analyzed.",
+    "PXRD data were collected in 2020, and the 2021 QPA experiment indicated that only Hydrate A was detectable from the pattern (Fig. 19 ▸)."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservato": false,
+   "da_possibili": [
+    "F2",
+    "F3"
+   ],
+   "note": "Sample 1 (RTI-1823-17-15, lotto Sandoz 944369 del dicembre 1963): oggi e' solo Hydrate A (QPA: 100 %). Che all'origine fosse anidro (Polymorph A e/o B) e che sia diventato idrato per assorbimento d'acqua e' una deduzione degli autori («predicted if ... was not stored under controlled low-humidity conditions»), non un'osservazione: `osservato: false`. Le condizioni di conservazione non sono note (umidita' ignota)."
+  },
+  {
+   "id": "E12",
+   "da": "ignota",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "over time"
+    },
+    "umidita_ignota": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Consistent with the observations for Sample 1, the age of Sample 2, unknown storage conditions, and specified low water content, indicated that it was initially composed of the anhydrous polymorph(s) which interconverted over time to Hydrate A due to water ingress.",
+    "Similarly, Sample 3 was manufactured at least as early as 1976 and analyzed by PXRD in 2020.",
+    "The sample vial stated that the material contained about 0.8% moisture (Fig. S2 in the supporting information), whereas the trihydrate form contains 15% water by mass."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservato": false,
+   "da_possibili": [
+    "F2",
+    "F3"
+   ],
+   "note": "Sample 3 (USP 0274-F, in uso almeno dal 1976, analizzato nel 2020): oggi Hydrate A («the dominant phase present»; Tabella 8: 100 %). Il testo scrive «the age of Sample 2» ma il ragionamento (condizioni di conservazione ignote, basso contenuto d'acqua dichiarato sul flacone) e' quello di Sample 3, che e' appena descritto: si legge Sample 3. La forma di partenza e' una deduzione degli autori (`osservato: false`)."
+  },
+  {
+   "id": "E13",
+   "da": "F2",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita_ignota": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Sample 4 was retrieved from the Johns Hopkins University School of Medicine Clinical Pharmacy, where it had been stored under humidity-controlled conditions.",
+    "QPA on PXRD patterns for this sample indicated that it consisted of anhydrate Polymorph A with possibly a trace amount of Hydrate A."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_dedotto": true,
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Sample 4 (10415-25, disponibile dal 2009): conservato in condizioni di umidita' controllata (RH non detta) e ancora Polymorph A, con «possibly a trace amount of Hydrate A» (Tabella 8: 0.3 (1) % e 0.2 (1) % di Hydrate A nelle due geometrie). La partenza e' Polymorph A per deduzione: il materiale era descritto come anidro dopo l'essiccamento sotto vuoto a 60 °C. Durata della conservazione non scritta."
+  },
+  {
+   "id": "E14",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 219,
+     "max": 220,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "After drying under high vacuum at 60 °C, the anhydrous material had a melting point of 219–220 °C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "batch record del campione 10415-25 (Johns Hopkins University School of Medicine clinical pharmacy)",
+   "da_dedotto": true,
+   "note": "Dato del registro di lotto riportato dagli autori: tecnica e velocita' non dette. Il «anhydrous material» e' Polymorph A per deduzione (QPA di Sample 4: Polymorph A 99.7 (6) % e 99.8 (19) % nelle due geometrie). Nessun commento sulla decomposizione."
+  },
+  {
+   "id": "E15",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": null,
+   "sottovia": null,
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Kuhnert-Brandstätter & Heindl (1976 ▸), using IR spectroscopy and differential scanning calorimetry (DSC), showed that both dehydration of a psilocybin hydrate and desolvation of the methanol solvate gave rise to the same anhydrous form rather than two different polymorphs.",
+    "Although powder X-ray diffraction (PXRD) was not used, the characterizations in Kuhnert-Brandstätter & Heindl were well correlated with the properties of both Hydrate A and anhydrous Polymorph A, which are described below."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Kuhnert-Brandstätter & Heindl, 1976",
+   "senza_condizioni": true,
+   "da_dedotto": true,
+   "note": "Disidratazione di un idrato di psilocibina (Kuhnert-Brandstatter & Heindl, 1976) senza condizioni nel testo. Le forme sono quelle dell'articolo per correlazione («well correlated with the properties of both Hydrate A and anhydrous Polymorph A»): K-B&H non usarono la PXRD. Gli autori aggiungono che le condizioni erano analoghe alle loro («aqueous crystallization to give the hydrate followed by vacuum drying to the anhydrous form»)."
+  },
+  {
+   "id": "E16",
+   "da": "F4",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": null,
+   "sottovia": null,
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Kuhnert-Brandstätter & Heindl (1976 ▸), using IR spectroscopy and differential scanning calorimetry (DSC), showed that both dehydration of a psilocybin hydrate and desolvation of the methanol solvate gave rise to the same anhydrous form rather than two different polymorphs.",
+    "Although powder X-ray diffraction (PXRD) was not used, the characterizations in Kuhnert-Brandstätter & Heindl were well correlated with the properties of both Hydrate A and anhydrous Polymorph A, which are described below."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Kuhnert-Brandstätter & Heindl, 1976",
+   "senza_condizioni": true,
+   "note": "Desolvatazione del solvato di metanolo che da' «the same anhydrous form» dell'idrato (E15), senza condizioni. L'identificazione della forma anidra con Polymorph A e' per correlazione degli autori, non per PXRD di K-B&H."
+  },
+  {
+   "id": "E17",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita_ignota": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "They also noted that the anhydrate was hygroscopic and that the preferred form is the hydrate.",
+    "These observations support the conclusion, originally presented in Kuhnert-Brandstätter & Heindl (1976 ▸), that the hydrate is the crystalline form of psilocybin that would unpreventably arise from solid material exposed to water."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Kuhnert-Brandstätter & Heindl, 1976",
+   "da_dedotto": true,
+   "senza_condizioni": true,
+   "note": "Affermazione generale di K-B&H ripresa dagli autori: l'anidro e' igroscopico e l'idrato e' la forma che si forma inevitabilmente dal solido esposto all'acqua. Nessuna RH ne' tempo. La partenza e' l'anidro di K-B&H, qui letto come Polymorph A."
+  },
+  {
+   "id": "E18",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "atmosfera": "vacuum oven",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 12,
+       "unita": "%",
+       "circa": true
+      }
+     },
+     {
+      "forma": "F1",
+      "prevalenza": "minoritaria"
+     }
+    ]
+   },
+   "citazioni": [
+    "Batch Ψ-67-2, synthesized in April 2013 (Table 2 ▸, entry 5), was dried in a vacuum oven for 1 h at 40 °C.",
+    "samples containing both Polymorph A and Polymorph B (i.e. 5, 8, and 23–24) were initially converted from Hydrate A at lower temperatures",
+    "Like Sample 2, the Rietveld plot for Sample 5 (Fig. 21 ▸) indicated significantly detectible amounts of all three forms, with Polymorph A being the dominant form (Table 8 ▸) and approximately 12% Polymorph B present."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "prodotti_secondari": [
+    "F3",
+    "F1"
+   ],
+   "note": "Sample 5 (Ψ-67-2, Usona/Wisconsin): essiccamento di 1 h a 40 °C in forno a vuoto dopo ricristallizzazione da acqua bollente (preparazione di F1 sotto). Il prodotto contiene tutte e tre le fasi (Tabella 8: Polymorph A 80.9 (22) %, Polymorph B 12.5 (10) %, Hydrate A 6.5 (1) %); l'idrato che resta e' fase residua, per questo e' anche fra i prodotti secondari. La partenza Hydrate A e' dichiarata dagli autori nel riassunto sui campioni misti («initially converted from Hydrate A at lower temperatures»); il diffrattogramma dell'idrato prima dell'essiccamento non e' riportato. Qui il tempo di essiccamento e' di 1 h, molto meno degli altri lotti."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "water"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Bulk psilocybin was manufactured according to Kargbo et al. (2020 ▸). Briefly, Hydrate A was isolated from crystallization in water and provided the representative diffractogram consistent with the predicted pattern for the solved crystal structure in Arlin et al. (2019 ▸) (Fig. 1 ▸)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Processo di Kargbo et al. (2020)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "30% aqueous acetone"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Alternatively, Hydrate A was prepared by recrystallization of psilocybin from 30% aqueous acetone (100 ml g−1) as described in Sherwood et al. (2020 ▸)."
+   ],
+   "fonte_dati": "propria",
+   "rapporto_solido_solvente": "100 ml g−1",
+   "note": "Processo di Sherwood et al. (2020)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "water"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Samples 8 and 11 (Polymorph A and Hydrate A as denoted in the patent) were produced by recrystallizing crude psilocybin (94 g) from water (9.6 ml per gram of psilocybin). The heated aqueous solution was cooled and seeded with Hydrate A crystals and the resulting solid was isolated by vacuum filtration to provide Hydrate A"
+   ],
+   "fonte_dati": "citata",
+   "rapporto_solido_solvente": "9.6 ml per gram of psilocybin",
+   "note": "Idrato del brevetto, seminato con cristalli di Hydrate A; poi essiccato (E9). Numerazione dei campioni 8/10/11 incoerente fra sezione sperimentale e Tabella 2 (vedi E8). Riferimento: Londesbrough et al., 2019 (brevetto Compass Pathways)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "water",
+    "organic solvents with a low water content"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "In addition, the authors described the preparation of the hydrated form by crystallization from water or from organic solvents with a low water content, which resulted in thin needle-shaped crystals."
+   ],
+   "fonte_dati": "citata",
+   "solventi_alternativi": true,
+   "note": "Cristalli aghiformi sottili. Gli autori aggiungono che «trace amounts of water favored the formation of the hydrate». Riferimento: Kuhnert-Brandstätter & Heindl, 1976."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "anhydrous methanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The authors observed that only by using anhydrous methanol was the methanol solvate formed as unique crystals with a plate morphology and that trace amounts of water favored the formation of the hydrate."
+   ],
+   "fonte_dati": "citata",
+   "note": "Solvato di metanolo solo da metanolo anidro, cristalli a piastra; tracce d'acqua favoriscono l'idrato. Riferimento: Kuhnert-Brandstätter & Heindl, 1976."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Hydrate A was converted to Polymorph A by drying the solid at 35–45 °C under vacuum for at least 24 h and subsequently at 50–60 °C under vacuum for at least 24 h."
+   ],
+   "fonte_dati": "propria",
+   "da_evento": "E1",
+   "note": "Polymorph A per disidratazione dell'idrato (E1)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Thermal cycling of a sample of Polymorph A to 160 °C for 1 h under a steady stream of nitrogen provided the PXRD pattern for Polymorph B."
+   ],
+   "fonte_dati": "propria",
+   "da_evento": "E7",
+   "note": "Polymorph B per riscaldamento di Polymorph A (E7)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Finally, Sample 10, Polymorph B, was prepared by heating psilocybin Polymorph A to 173 °C for 5 min."
+   ],
+   "fonte_dati": "citata",
+   "da_evento": "E8",
+   "note": "Polymorph B del brevetto (E8). Riferimento: Londesbrough et al., 2019 (brevetto Compass Pathways)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "water"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "According to the batch record, this material was produced by recrystallization from boiling H2O (10 ml H2O per gram of psilocybin). After drying under high vacuum at 60 °C, the anhydrous material had a melting point of 219–220 °C."
+   ],
+   "fonte_dati": "citata",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "non_specificato",
+    "testo": "boiling H2O"
+   },
+   "rapporto_solido_solvente": "10 ml H2O per gram of psilocybin",
+   "atmosfera": "dried under high vacuum at 60 °C",
+   "note": "Sample 4 (10415-25), sintetizzato da D. Nichols (Purdue). Il «anhydrous material» e' Polymorph A per la QPA (99.7 %). Il numero 60 °C e' la temperatura di essiccamento sotto vuoto spinto, scritta in `atmosfera`. Riferimento: batch record del campione 10415-25."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "water"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Crude psilocybin from these syntheses was recrystallized by dissolving the material in boiling H2O (10 ml H2O per gram of psilocybin), then allowing the solution to stand for 12 h at 4 °C. The resulting crystals were harvested by suction filtration, washed with ice-cold water, then dried under high vacuum."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 12,
+    "unita": "h"
+   },
+   "rapporto_solido_solvente": "10 ml H2O per gram of psilocybin",
+   "note": "Sample 5 (Ψ-67-2): cristalli da acqua bollente lasciata riposare 12 h a 4 °C, lavati con acqua ghiacciata e poi essiccati sotto vuoto spinto. Per Sample 5 l'idrato e' la partenza dell'essiccamento E18 (stesso procedimento di Samples 6 e 7)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "water"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Crude psilocybin from these syntheses was recrystallized by dissolving the material in boiling H2O (10 ml H2O per gram of psilocybin), then allowing the solution to stand for 12 h at 4 °C. The resulting crystals were harvested by suction filtration, washed with ice-cold water, then dried under high vacuum.",
+    "Batches Ψ-81-1 and Ψ-97-1 (Table 2 ▸, entries 6 and 7) were both synthesized in July 2013 and were dried in a vacuum oven at 50 °C for 7 and 5 h, respectively."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 12,
+    "unita": "h"
+   },
+   "rapporto_solido_solvente": "10 ml H2O per gram of psilocybin",
+   "atmosfera": "then dried in a vacuum oven at 50 °C for 7 h",
+   "note": "Sample 6 (Ψ-81-1): dopo essiccamento di 7 h a 50 °C in forno a vuoto, la QPA da' Hydrate A al 100 % («Sample 6 was composed entirely of Hydrate A»). L'articolo non dice se l'essiccamento fosse incompleto o se il campione si sia reidratato in conservazione (sintetizzato nel luglio 2013; la data della PXRD non e' detta): per questo e' una preparazione, non un evento negativo."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "water"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Crude psilocybin from these syntheses was recrystallized by dissolving the material in boiling H2O (10 ml H2O per gram of psilocybin), then allowing the solution to stand for 12 h at 4 °C. The resulting crystals were harvested by suction filtration, washed with ice-cold water, then dried under high vacuum.",
+    "Batches Ψ-81-1 and Ψ-97-1 (Table 2 ▸, entries 6 and 7) were both synthesized in July 2013 and were dried in a vacuum oven at 50 °C for 7 and 5 h, respectively."
+   ],
+   "fonte_dati": "propria",
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 12,
+    "unita": "h"
+   },
+   "rapporto_solido_solvente": "10 ml H2O per gram of psilocybin",
+   "atmosfera": "then dried in a vacuum oven at 50 °C for 5 h",
+   "note": "Sample 7 (Ψ-97-1): essiccamento di 5 h a 50 °C in forno a vuoto, QPA: Polymorph A 99.8 (17) % con una traccia insignificante di Hydrate A."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "water",
+    "water:acetone 40:60",
+    "water:acetone 48:52"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Samples were recrystallized from aqueous acetone or pure water as reported in Sherwood et al. (2020 ▸) and dried to a constant weight at different temperatures and times under the conditions listed in Table 3 ▸.",
+    "Samples 13–18 provided examples to indicate that recrystallization of psilocybin from a mixture of acetone and water followed by drying in vacuo could provide Polymorph A, whereas all other samples tested were crystallized from water directly.",
+    "Consistent with the findings reported in Kuhnert-Brandstätter & Heindl (1976 ▸), psilocybin crystallized from organic solvents containing water were found to provide Hydrate A."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": true,
+   "note": "Samples 12–18 (Usona): Sample 12 da sola acqua (100:0), 13 e 15–18 da water:acetone 40:60, 14 da 48:52 (Tabella 3, nell'extra). L'idrato e' il solido isolato prima dell'essiccamento (E3); non c'e' un diffrattogramma dell'idrato per questi lotti."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Samples 13–18 provided examples to indicate that recrystallization of psilocybin from a mixture of acetone and water followed by drying in vacuo could provide Polymorph A, whereas all other samples tested were crystallized from water directly."
+   ],
+   "fonte_dati": "propria",
+   "da_evento": "E3",
+   "note": "Polymorph A per essiccamento sotto vuoto dell'idrato (E3)."
+  },
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "Additionally, no solvent-based processes were identified that provided single-phase Polymorph A or Polymorph B directly, and so they were only able to be isolated from drying and heating Hydrate A."
+   ],
+   "fonte_dati": "propria",
+   "note": "Negativo: nessun processo da solvente ha dato Polymorph A o Polymorph B in fase singola; si ottengono solo per essiccamento (A) o riscaldamento (B) di Hydrate A. Solventi e condizioni provati non sono elencati."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "igroscopicita",
+     "forma": null,
+     "metodo": "citato da Kuhnert-Brandstätter & Heindl (1976): osservazione qualitativa sull'anidro",
+     "citazione": "They also noted that the anhydrate was hygroscopic and that the preferred form is the hydrate."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "zwitterione",
+     "testo": "zwitterionic tryptamine natural product",
+     "citazione": "is a zwitterionic tryptamine natural product found in numerous species of fungi known for their psychoactive properties"
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "lowest-energy conformation (MMFF) has an intramolecular N+—H···OP hydrogen bond",
+     "citazione": "A molecular mechanics (MMFF) conformational analysis indicated that the lowest-energy conformation has an intramolecular N+—H⋯OP hydrogen bond"
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "in Polymorph B one of the side-chain N+—H···O hydrogen bonds is intramolecular",
+     "forma": "F3",
+     "citazione": "but in Form B, one of the side chain N+—H⋯O hydrogen bonds is intramolecular"
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "solid-state conformations differ among Polymorph A, the two independent molecules of Polymorph B and the hydrate; intermolecular interactions determine them",
+     "citazione": "The conformations of the psilocybin molecules in these structures differ."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "intermolecular interactions are important in determining the solid-state conformations",
+     "citazione": "Intermolecular interactions are thus important in determining the solid-state conformations."
+    }
+   ]
+  }
+ ]
+}

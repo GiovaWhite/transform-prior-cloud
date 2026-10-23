@@ -1,0 +1,925 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/cryst13081241",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "fluralaner",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Form I",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 9.0555,
+    "b": 39.923,
+    "c": 12.6015,
+    "alpha": 90,
+    "beta": 90.376,
+    "gamma": 90,
+    "V": 4555.6,
+    "Z": 8,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "113(2) K"
+   },
+   "ccdc": "2253035",
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "amide N–H···O dimer 'hand in hand' (N2-H2···O2) between R and S molecules",
+     "chi": "N2-H2 of the amide of the R-configuration molecule and O2 of the amide of the S-configuration molecule",
+     "citazione": "The dimer (Figure 4a) is linked ‘hand in hand’ by hydrogen bonding interactions between the N2-H2 of the amide bond in the R-conﬁguration molecule and the O2 of the amide bond in the S-conﬁguration molecule (2.796(5) Å)."
+    },
+    {
+     "motivo": "chain of dimers along the a-axis (N2-H2···O2, C17-H17B···O3, N3-H3···O3)",
+     "chi": "adjacent dimers",
+     "citazione": "Along the a-axis, adjacent dimers are linked into a chain by intermolecular interactions N2-H2· · · O2 (2.786(5) Å), C17-H17B· · · O3 and N3-H3· · · O3 (Figure 4b)."
+    }
+   ],
+   "citazione": "There are eight molecules in the unit cell of Form I, and four molecules in the unit cells of Form II and Form III.",
+   "note": "Tabella 1, colonna Form I: «Crystal system Monoclinic», «Space group P21/c», a 9.0555(3), b 39.9230(9), c 12.6015(4) Å, alpha 90, beta 90.376(3), gamma 90, «Cell volume (Å3) 4555.6(2)», «Temperature (K) 113(2)», «CCDC 2,253,035». Z' = 2: «Two molecules with different chirality can be found in the asymmetric unit of Form I» (una R e una S: cristallo racemico). Anidra: «The TGA curves for three forms show no significant weight loss before decomposition temperature». Cristalli singoli per SCXRD con Mo-Kα, per evaporazione lenta di metanolo."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "Form II",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 9.5129,
+    "b": 15.13,
+    "c": 17.615,
+    "alpha": 72.469,
+    "beta": 83.305,
+    "gamma": 89.077,
+    "V": 2400.61,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "295(9) K"
+   },
+   "ccdc": "2253036",
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "dimer 'boat' (N3-H3···O2) between R(1) and R(2) molecules",
+     "chi": "O2 of the R(1) molecule and N3-H3 of the R(2) molecule",
+     "citazione": "In Form II, the dimer (Figure 5a) is like a small ‘boat’, which was formed by intermolecular hydrogen bonding between O2 in the R (1)"
+    },
+    {
+     "motivo": "chain of dimers along the a-axis (same N3-H3···O2 interaction)",
+     "chi": "adjacent dimers",
+     "citazione": "Along the a-axis, adjacent dimers were linked to each other into a chain by the same intermolecular interactions as described above."
+    }
+   ],
+   "citazione": "Two molecules were found in the asymmetric unit of Form II, but this dimer was composed of two molecules with the same chirality with different conformations.",
+   "note": "Tabella 1, colonna Form II: «Crystal system Triclinic», «Space group P1», a 9.5129(3), b 15.1300(3), c 17.6150(5) Å, alpha 72.469(2), beta 83.305(2), gamma 89.077(2), «Cell volume (Å3) 2400.61(12)», «Temperature (K) 295(9)», «CCDC 2,253,036». Il gruppo e' scritto «P1» (triclino). Ricostruito P-1 (probabile barra persa nel PDF): il testo dice «four molecules in the unit cells of Form II» e «Two molecules were found in the asymmetric unit of Form II», quindi due posizioni equivalenti, che P1 (una sola) non da'; inoltre le catene R e S sono in disposizione alternata (cristallo racemico). SCXRD di Form II con Cu-Kα (lambda 1.54184 Å) su altro diffrattometro. Z' = 2 (R(1) e R(2), conformazioni diverse)."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Form III",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pca21",
+   "cella": {
+    "a": 12.6058,
+    "b": 20.0622,
+    "c": 9.0538,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 2289.7,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "113(2) K"
+   },
+   "ccdc": "2253037",
+   "refcode": null,
+   "motivi_hb": [
+    {
+     "motivo": "chain of alternating S and R molecules along the c-axis (N2-H2···O2)",
+     "chi": "adjacent S-configuration and R-configuration molecules",
+     "citazione": "Along the c-axis (Figure 6b), adjacent Sconﬁguration and R-conﬁguration molecules are connected by N2-H2· · · O2 (2.798(5) Å) hydrogen bonds and arranged alternately to extend into a chain."
+    }
+   ],
+   "citazione": "Only one independent molecule can be found in the asymmetric unit of Form III.",
+   "note": "Tabella 1, colonna Form III: «Crystal system Orthorhombic», «Space group Pca21», a 12.6058(7), b 20.0622(15), c 9.0538(5) Å, alpha/beta/gamma 90, «Cell volume (Å3) 2289.7(2)», «Temperature (K) 113(2)», «CCDC 2,253,037». Z = 4: «four molecules in the unit cells of Form II and Form III». Anidra come le altre (TGA). Struttura simile a Form I («The arrangement of the molecules in Form III is similar to that of Form I»)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F2",
+   "piu_stabile_fra": [
+    "F1",
+    "F3"
+   ],
+   "condizioni": "under environmental conditions",
+   "citazione": "The order of stability of the three forms under environmental conditions is Form II > Form I > Form III.",
+   "fonte_dati": "propria",
+   "note": "Ordine dedotto da esperimenti di trasformazione mediata dal solvente (E7-E9) e da energie reticolari calcolate (Form II 74.95, Form I 73.55, Form III 70.80 kcal/mol): «Form II is the stable form, while Form I and Form III are metastable forms». L'articolo non parla di monotropia o enantiotropia e non da' temperatura di transizione."
+  },
+  {
+   "forme": [
+    "F1",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "condizioni": "under environmental conditions",
+   "citazione": "The order of stability of the three forms under environmental conditions is Form II > Form I > Form III.",
+   "fonte_dati": "propria",
+   "note": "Anche dall'impacchettamento: «the stacking pattern suggests that Form I may be more stable than Form III»; Form III si trasforma in Form I scaldando (E3, E5, E6) e in metanolo (E8)."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 175.27,
+     "picco": 177.61
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "As shown in Figure 10, at a heating rate of 10 ◦C/min, only one distinct endothermic peak was observed in the DSC curves for both Form I and Form II.",
+    "Form I began to melt at 175.27 ◦C, with a melting peak of 177.61 ◦C",
+    "Samples weighing 5–10 mg were placed into a standard aluminum pan and heated from 30 to 200 ◦C at a rate of 10 ◦C/min under nitrogen purge at flow rate of 50 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Un solo picco endotermico (fusione). Onset 175.27 °C, picco 177.61 °C. Le entalpie degli eventi termici sono nella Tabella S6 (supplementare). Crogiolo: «standard aluminum pan», senza dire se chiuso o forato: non si e' scelto.",
+   "campione": {
+    "massa": "5–10 mg"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 171.38,
+     "picco": 174.74
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "As shown in Figure 10, at a heating rate of 10 ◦C/min, only one distinct endothermic peak was observed in the DSC curves for both Form I and Form II.",
+    "Form II began to melt at 171.38 ◦C, with a melting peak of 174.74 ◦C",
+    "Samples weighing 5–10 mg were placed into a standard aluminum pan and heated from 30 to 200 ◦C at a rate of 10 ◦C/min under nitrogen purge at flow rate of 50 mL/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Un solo picco endotermico (fusione). Onset 171.38 °C, picco 174.74 °C. Entalpie nella Tabella S6 (supplementare).",
+   "campione": {
+    "massa": "5–10 mg"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "picco",
+     "picco": 169.22
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Two incompletely separated endothermic peaks were observed in the DSC curve of Form III with peak temperatures of 169.22 ◦C and 176.31 ◦C.",
+    "It was suggested that, compared with the enthalpy of the melting process, the transformation enthalpy of Form III is much smaller, indicating that the phase transformation barrier is lower and the transformation is more likely to occur.",
+    "However, at 171 ◦C, the typical peak of Form I appeared (Figure S7), indicating the transformation of Form III to Form I during heating, and the second endothermic peak is corresponding to the melting of Form I.",
+    "Samples weighing 5–10 mg were placed into a standard aluminum pan and heated from 30 to 200 ◦C at a rate of 10 ◦C/min under nitrogen purge at flow rate of 50 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Primo picco endotermico della DSC di Form III (169.22 °C), attribuito alla trasformazione III -> I per via dei dati PXRD/HSM (E5, E6) e perche' il secondo picco e' la fusione di Form I; gli autori non assegnano esplicitamente il primo picco ne' i tre processi della sequenza endo-eso-endo a 3 °C/min. Il 10 °C/min e' la velocita' del metodo DSC (per Form I e II e' detta nel testo). L'entalpia di trasformazione e' nella Tabella S6 (supplementare), 'molto minore' di quella di fusione.",
+   "passo": "transformation of Form III to Form I",
+   "campione": {
+    "massa": "5–10 mg"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "picco",
+     "picco": 176.31
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Two incompletely separated endothermic peaks were observed in the DSC curve of Form III with peak temperatures of 169.22 ◦C and 176.31 ◦C.",
+    "However, at 171 ◦C, the typical peak of Form I appeared (Figure S7), indicating the transformation of Form III to Form I during heating, and the second endothermic peak is corresponding to the melting of Form I.",
+    "Samples weighing 5–10 mg were placed into a standard aluminum pan and heated from 30 to 200 ◦C at a rate of 10 ◦C/min under nitrogen purge at flow rate of 50 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Secondo picco della DSC di Form III (176.31 °C): fusione della Form I appena formata da III (E3). Non e' il picco di fusione di Form I pura (E1: onset 175.27, picco 177.61).",
+   "da_evento": "E3",
+   "passo": "melting of Form I",
+   "campione": {
+    "massa": "5–10 mg"
+   }
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 171,
+     "unita": "°C",
+     "tipo": "osservata",
+     "min": 165
+    },
+    "velocita": {
+     "valore": 3,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "DSC was conducted combined with PXRD and HSM to investigate the polymorph transformation of Form III during heating.",
+    "Slower heating rates were applied to better separate endothermic peaks and facilitate PXRD analysis at different temperatures.",
+    "At a heating rate of 3 ◦C/min, a clear endothermic–exothermic–endothermic process can be observed.",
+    "The PXRD result at 165 ◦C was consistent with Form III (Figure S7), indicating that the crystal did not undergo a phase transformation before this temperature.",
+    "However, at 171 ◦C, the typical peak of Form I appeared (Figure S7), indicating the transformation of Form III to Form I during heating, and the second endothermic peak is corresponding to the melting of Form I.",
+    "Figure S7: PXRD of Form III at different temperatures (165 ◦C and 171 ◦C);"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Misura a gradini: a 165 °C Form III, a 171 °C compare il picco tipico di Form I (Figura S7). La velocita' di 3 °C/min e' quella della DSC accoppiata; il testo non dice la velocita' esatta con cui si e' scaldato per il PXRD, ma dice che le velocita' lente servono 'to facilitate PXRD analysis at different temperatures'.",
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 176,
+     "unita": "°C",
+     "tipo": "osservata",
+     "min": 170
+    },
+    "velocita": {
+     "valore": 0.5,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The detailed process of the transformation was also observed through the HSM (Figure S8).",
+    "It was found that the morphology of the crystals did not change significantly until they were heated to 170 ◦C at a rate of 0.5 ◦C/min.",
+    "At 172 ◦C, the crystals began to partially melt. However, at 173 ◦C, the crystals no longer melted and showed a tendency to grow. After 176 ◦C, the crystals totally transformed into Form I, followed by the melting of Form I."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "HSM (Figura S8): fino a 170 °C la morfologia non cambia in modo significativo; a 172 °C i cristalli cominciano a fondere in parte; a 173 °C non fondono piu' e tendono a crescere; dopo 176 °C sono trasformati del tutto in Form I, che poi fonde. Si tiene 176 °C come T in cui la trasformazione e' completa e 170 °C come ultima T senza cambiamento; la sequenza 'fonde in parte / poi cresce' e' scritta dagli autori come osservazione, senza dire che il meccanismo sia via fuso. Le temperature sono quelle dell'HSM, diverse da DSC e PXRD (un evento per tecnica).",
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 30,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_soluzione"
+    ]
+   },
+   "citazioni": [
+    "Solvent-mediated phase transformation experiments for Form I and Form III of ﬂuralaner were carried out in methanol, with the powders of Form I and Form III being added to 10 mL vials containing 1 mL of methanol solvent and the suspensions stirred at 300 rpm for 72 h at 30 ◦C.",
+    "Samples were taken for ﬁltration at different times and the resulting powders were characterized by PXRD.",
+    "The results show that both Form I and Form III transformed into Form II after suspension in methanol at 30 ◦C for 72 h.",
+    "Interestingly, Form I transformed directly to Form II, whereas Form III ﬁrst transformed rapidly to Form I and then continued to Form II."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Form I -> Form II direttamente. I tempi intermedi di campionamento sono nelle Figure S9 e S10 (supplementari): qui 72 h e' la durata dell'esperimento al cui termine il prodotto e' Form II. Meccanismo via_soluzione: 'solvent-mediated phase transformation' e' il nome dell'esperimento. Quantita' di polvere non detta (solo 1 mL di metanolo in vials da 10 mL).",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 30,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "rapidly"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_soluzione"
+    ]
+   },
+   "citazioni": [
+    "Solvent-mediated phase transformation experiments for Form I and Form III of ﬂuralaner were carried out in methanol, with the powders of Form I and Form III being added to 10 mL vials containing 1 mL of methanol solvent and the suspensions stirred at 300 rpm for 72 h at 30 ◦C.",
+    "Samples were taken for ﬁltration at different times and the resulting powders were characterized by PXRD.",
+    "Interestingly, Form I transformed directly to Form II, whereas Form III ﬁrst transformed rapidly to Form I and then continued to Form II."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Primo passo della catena III -> I -> II in metanolo a 30 °C: 'ﬁrst transformed rapidly to Form I'. Le condizioni sono le stesse dell'esperimento (le uniche date), ma il tempo del solo primo passo non e' dato ('rapidly'); i 72 h valgono per il percorso complessivo (E9).",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E9",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 30,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "agitazione": {
+     "valore": 300,
+     "unita": "rpm"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_soluzione"
+    ]
+   },
+   "citazioni": [
+    "Solvent-mediated phase transformation experiments for Form I and Form III of ﬂuralaner were carried out in methanol, with the powders of Form I and Form III being added to 10 mL vials containing 1 mL of methanol solvent and the suspensions stirred at 300 rpm for 72 h at 30 ◦C.",
+    "Samples were taken for ﬁltration at different times and the resulting powders were characterized by PXRD.",
+    "The results show that both Form I and Form III transformed into Form II after suspension in methanol at 30 ◦C for 72 h.",
+    "Interestingly, Form I transformed directly to Form II, whereas Form III ﬁrst transformed rapidly to Form I and then continued to Form II."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Secondo passo della catena che parte da Form III: la Form I formata in metanolo (E8) 'continued to Form II'. Il tempo (72 h) e' quello complessivo dell'esperimento partito da Form III.",
+   "da_evento": "E8",
+   "pretrattamento": "Form I ottenuta in metanolo da Form III (E8)",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 290,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The TGA curves for three forms show no signiﬁcant weight loss before decomposition temperature (approximately 290 ◦C), indicating that Form I, Form II, and Form III are anhydrous.",
+    "Samples weighing 5–10 mg were placed into a standard alumina crucible and heated from 30 to 400 ◦C at a rate of 10 ◦C/min under nitrogen purge at flow rate of 20 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Frase unica per le tre forme: 'no significant weight loss before decomposition temperature (approximately 290 °C)': nessuna perdita di massa significativa prima della decomposizione (le forme sono anidre). Il valore e' lo stesso per tutte e tre. Crogiolo: «standard alumina crucible» (aperto/chiuso non detto).",
+   "campione": {
+    "massa": "5–10 mg"
+   }
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 290,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The TGA curves for three forms show no signiﬁcant weight loss before decomposition temperature (approximately 290 ◦C), indicating that Form I, Form II, and Form III are anhydrous.",
+    "Samples weighing 5–10 mg were placed into a standard alumina crucible and heated from 30 to 400 ◦C at a rate of 10 ◦C/min under nitrogen purge at flow rate of 20 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Frase unica per le tre forme: 'no significant weight loss before decomposition temperature (approximately 290 °C)': nessuna perdita di massa significativa prima della decomposizione (le forme sono anidre). Il valore e' lo stesso per tutte e tre. Crogiolo: «standard alumina crucible» (aperto/chiuso non detto).",
+   "campione": {
+    "massa": "5–10 mg"
+   }
+  },
+  {
+   "id": "E12",
+   "da": "F3",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 290,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The TGA curves for three forms show no signiﬁcant weight loss before decomposition temperature (approximately 290 ◦C), indicating that Form I, Form II, and Form III are anhydrous.",
+    "Samples weighing 5–10 mg were placed into a standard alumina crucible and heated from 30 to 400 ◦C at a rate of 10 ◦C/min under nitrogen purge at flow rate of 20 mL/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Frase unica per le tre forme: 'no significant weight loss before decomposition temperature (approximately 290 °C)': nessuna perdita di massa significativa prima della decomposizione (le forme sono anidre). Il valore e' lo stesso per tutte e tre. Crogiolo: «standard alumina crucible» (aperto/chiuso non detto).",
+   "campione": {
+    "massa": "5–10 mg"
+   }
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Fluralaner (Form I) with purity higher than 99% was provided by Tianjin Ringpu Bio-technology Co., Ltd. (Tianjin, China)."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "isopropanol"
+   ],
+   "temperatura": {
+    "valore": 20,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "velocita": {
+    "testo": "quickly quenched"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_solido_solvente": "120 mg in 2 mL",
+   "esito": "ottenuta",
+   "citazioni": [
+    "A total of 120 mg of ﬂuralaner was added to 2 mL of isopropanol and dissolved completely at 60 ◦C. Then, the solution was quickly quenched from 60 ◦C to 20 ◦C and left for one day to obtain Form I."
+   ],
+   "fonte_dati": "propria",
+   "note": "Disciolta a 60 °C, raffreddata di colpo a 20 °C (temperatura finale in `temperatura`) e lasciata un giorno."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "temperatura": {
+    "valore": 23,
+    "unita": "°C",
+    "tipo": "ambiente",
+    "testo": "23 ± 2 °C"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_solido_solvente": "2 mL of a saturated methanol solution",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Single crystals of Form I were prepared by slowly evaporating 2 mL of a saturated methanol solution at room temperature (23 ± 2 ◦C) for 2 days."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli singoli per SCXRD. «room temperature (23 ± 2 °C)»: definizione data dal testo."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "temperatura": {
+    "valore": 25,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": 3,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_solido_solvente": "0.2 g in 1 mL",
+   "esito": "ottenuta",
+   "citazioni": [
+    "At 25 ◦C, 0.2 g of ﬂuralaner was dissolved in 1 mL of ethyl acetate and the solution was then ﬁltered through a 0.22 µm nylon ﬁlter into a 10 mL beaker.",
+    "The beaker was then sealed with cling ﬁlm, and a small hole was punctured on the cling ﬁlm with a syringe needle for evaporation. After 3 days, Form II was obtained from the solution."
+   ],
+   "fonte_dati": "propria",
+   "note": "25 °C e' la temperatura a cui si scioglie; la temperatura dell'evaporazione non e' ripetuta. Becher da 10 mL sigillato con pellicola forata."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol/isopropyl ether (1:1 v/v)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 23,
+    "unita": "°C",
+    "tipo": "ambiente",
+    "testo": "23 ± 2 °C"
+   },
+   "rapporto_solido_solvente": "4 mL of a saturated solution",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Single crystals of Form II were prepared by slowly evaporating 4 mL of a saturated ethanol/isopropyl ether (1:1 v/v) solution at room temperature (23 ± 2 ◦C)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli singoli per SCXRD."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "isopropanol",
+    "n-hexane"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 50,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "pressione": {
+    "valore": 0.1,
+    "unita": "MPa",
+    "tipo": "applicata"
+   },
+   "rapporto_solido_solvente": "60 mg in 1 mL of isopropanol and 1 mL of n-hexane",
+   "esito": "ottenuta",
+   "citazioni": [
+    "At 50 ◦C, 60 mg of ﬂuralaner API was dissolved in a solvent mixture of 1 mL of isopropanol and 1 mL of n-hexane, and then the solution was ﬁltered through a 0.22 µm nylon ﬁlter into a 10 mL beaker.",
+    "The beaker was placed in a vacuum drying oven at 50 ◦C with pressure of 0.1 MPa, and after rapid evaporation of the solvent, Form III was obtained."
+   ],
+   "fonte_dati": "propria",
+   "note": "Evaporazione rapida in stufa a vuoto a 50 °C; il testo scrive 'pressure of 0.1 MPa' (valore riportato com'e')."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "isopropanol/n-hexane (1:5 v/v)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 20,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "velocita": {
+    "testo": "quenching rapidly"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_solido_solvente": "60 mg in 12 mL",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Single crystals of Form III were obtained by adding 60 mg of ﬂuralaner to 12 mL of isopropanol /n-hexane (1:5 v/v) and quenching rapidly from 50 ◦C to 20 ◦C and leaving for one day."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli singoli per SCXRD. Da 50 °C a 20 °C (temperatura finale in `temperatura`)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "isopropanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Though Form I and Form III are similar in crystal structure, interestingly, Form I was obtained in most pure solvents (e.g., isopropanol) by rapidly cooling crystallization, whereas Form III was obtained stably in mixed solvents (e.g., isopropanol/n-hexane) without transforming to Form I.",
+    "The experimental supersaturation in both isopropanol and isopropanol/n-hexane solvents was consistent.",
+    "The supersaturation in the cooling crystallization experiments was controlled within the range of 1.0–4.0 (where supersaturation s = C/Cs−1, C is the actual concentration of the solution, and Cs is the saturation concentration of the solution), but no different polymorphs were observed with changes in supersaturation."
+   ],
+   "fonte_dati": "propria",
+   "note": "Selettivita' dalla composizione del solvente: Form I nella maggior parte dei solventi puri (esempio isopropanolo), l'elenco e' nella Tabella S7 (supplementare). La sovrasaturazione (s = C/Cs-1, tenuta fra 1.0 e 4.0; «was consistent» nei due sistemi isopropanolo e isopropanolo/n-esano) non cambia il polimorfo. Raffreddamento rapido, senza velocita' numerica."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "isopropanol",
+    "n-hexane"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "citazioni": [
+    "Though Form I and Form III are similar in crystal structure, interestingly, Form I was obtained in most pure solvents (e.g., isopropanol) by rapidly cooling crystallization, whereas Form III was obtained stably in mixed solvents (e.g., isopropanol/n-hexane) without transforming to Form I.",
+    "It is worth noting that the absence of transformation from Form III to Form I refer to immediate precipitation of the solution without stirring, and the samples were sent for PXRD immediately after precipitation."
+   ],
+   "fonte_dati": "propria",
+   "note": "Form III nei solventi misti (esempio isopropanolo/n-esano, dove l'aggiunta di n-esano e' la leva), elenco nella Tabella S7. Cautela degli autori: l'assenza di trasformazione III -> I vale per la precipitazione immediata senza agitazione, con PXRD subito dopo la precipitazione."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "one chiral center (marked with * in the structure); crystals contain both R- and S-configuration molecules",
+     "citazione": "Figure 1. Chemical structure of ﬂuralaner. (\"*\" represents chiral center)."
+    },
+    {
+     "tipo": "chiralita",
+     "forma": "F1",
+     "testo": "two molecules with different chirality (R and S) in the asymmetric unit of Form I",
+     "citazione": "Two molecules with different chirality can be found in the asymmetric unit of Form I."
+    },
+    {
+     "tipo": "chiralita",
+     "forma": "F2",
+     "testo": "the two molecules of the asymmetric unit have the same chirality (R(1), R(2)); their mirror images are S(1), S(2)",
+     "citazione": "Two molecules were found in the asymmetric unit of Form II, but this dimer was composed of two molecules with the same chirality with different conformations."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "conformations of Form I and Form III similar; conformation of Form II differs significantly",
+     "citazione": "The molecular conformations of Form II differ signiﬁcantly from that of Form I and Form III."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "the main torsion angles that differ between conformers are given in Table S4 (values only in the supplementary material)",
+     "citazione": "The main torsion angles with differences in various conformers are shown in Table S4."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "diversity of conformations in solution (MD simulation, RDF of C22-C20 and O2-C19)",
+     "citazione": "suggest a diversity of conformations in solution"
+    }
+   ]
+  }
+ ],
+ "note": "Articolo su tre polimorfi del fluralaner (Form I, II, III, tutti anidri; CCDC 2253035-2253037 attribuiti per colonna di Tabella 1). Eventi: fusioni in DSC, trasformazione III -> I scaldando (DSC, PXRD a gradini, HSM), catena III -> I -> II e I -> II in metanolo a 30 °C, decomposizione a circa 290 °C. Non sono eventi: i calcoli di energia reticolare e di energia conformazionale (DFT, Materials Studio), gli spettri FTIR in soluzione e le simulazioni MD (energia libera di solvatazione, RDF) sui sistemi isopropanolo e isopropanolo/n-esano; sono dati dell'extra. La selettivita' di nucleazione (Form I in isopropanolo, Form III in isopropanolo/n-esano) e' in preparazioni. Molti dati stanno solo nel supplementare: Tabella S1 (picchi PXRD), S2 (legami H), S3-S4 (torsioni), S5 (MD), S6 (entalpie DSC), S7 (esiti della cristallizzazione per raffreddamento), Figure S1-S10."
+}

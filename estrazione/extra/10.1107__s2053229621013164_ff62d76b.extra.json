@@ -1,0 +1,6756 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1107/s2053229621013164",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "altro",
+   "proprieta": "CAS registry number della psilocibina",
+   "oggetto": {
+    "forma": null,
+    "composto": "C1",
+    "etichetta": "psilocybin"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "520-52-5",
+     "etichetta": "CASRN"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Psilocybin (see Scheme 1; CASRN 520-52-5)",
+   "note": null
+  },
+  {
+   "id": "X2",
+   "categoria": "altro",
+   "proprieta": "numero di forme solide distinte riconosciute dalla letteratura antica",
+   "oggetto": {
+    "forma": null,
+    "composto": "C1",
+    "etichetta": "psilocybin"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 4,
+     "unita": "forme",
+     "limite": "sopra"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "metanolo monosolvato, etanolo monosolvato, idrato e anidro corrispondente (Baker 1973; Weber & Petcher 1974; Kuhnert-Brandstatter & Heindl 1976)",
+   "calcolato": null,
+   "citazione": "early literature reports on crystallization and solid-state analysis provided evidence for the existence of at least four distinct solid forms: a methanol monosolvate, an ethanol monosolvate, a hydrate, and the corresponding dehydrated/desolvated anhydrate",
+   "note": "citato dalla letteratura"
+  },
+  {
+   "id": "X3",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "riflessione a 17.5° 2θ del brevetto che distingue Polymorph A da Polymorph A′",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Polymorph A / Polymorph A′ (etichette del brevetto Londesbrough et al., 2019)"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 17.5,
+     "unita": "° 2θ",
+     "incertezza": 0.1,
+     "circa": true
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "‘[a] peak at about 17.5 ± 0.1° 2θ distinguishes psilocybin Polymorph A from Polymorph A′.’",
+   "note": "citato dal brevetto di Londesbrough et al. (2019); per gli autori la riflessione e' di Polymorph B (miscela), vedi la voce successiva"
+  },
+  {
+   "id": "X4",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "riflessione prominente a 17.5° 2θ di Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 17.5,
+     "unita": "° 2θ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "the observation of a prominent reflection at 17.5° 2θ in the diffractogram for anhydrate Polymorph B",
+   "note": null
+  },
+  {
+   "id": "X5",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "riflessione a 17.5° 2θ attribuita a Polymorph B nel campione 8",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 8 (Polymorph A del brevetto)"
+   },
+   "tecnica": "PXRD (Rietveld)",
+   "valori": [
+    {
+     "valore": 17.5,
+     "unita": "° 2θ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "clearly indicates that the perturbation at 17.5° 2θ, which the authors identified as the distinguishing feature of the material, was a reflection contributed by Polymorph B",
+   "note": null
+  },
+  {
+   "id": "X6",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "riflessione a 10.1° 2θ di Polymorph A: intensita' diversa in trasmissione e in riflessione",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 10.1,
+     "unita": "° 2θ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "intensita' minima in trasmissione (Sample 4a), forte in riflessione",
+   "calcolato": null,
+   "citazione": "The transmission Sample 4a, which was less impacted by preferred orientation, displayed minimal intensity of the 10.1° 2θ peak, whereas the reflection geometry sample provided a strong peak at 10.1° 2θ. Therefore, the variability in observed intensity of the 10.1° 2θ reflection would be correlated with PXRD sample preparation conditions.",
+   "note": null
+  },
+  {
+   "id": "X7",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "indici della riflessione a 10.1° 2θ di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "testo": "[200]",
+     "etichetta": "hkl"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "la riflessione e' sensibile all'orientazione preferenziale",
+   "calcolato": null,
+   "citazione": "We note from the solved structure for Polymorph A that this reflection corresponds to indices [200], and its intensity would be particularly sensitive to preferred orientation effects, as illustrated by comparison of the PXRD patterns for Samples 4a and 4b analysed by both reflection and transmission geometry [Fig. 20 ▸(a)].",
+   "note": null
+  },
+  {
+   "id": "X8",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picco 021 con l'errore piu' grande nella differenza del raffinamento di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD (Rietveld, sincrotrone)",
+   "valori": [
+    {
+     "valore": 4.3,
+     "unita": "° 2θ",
+     "etichetta": "picco 021"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The largest errors in the difference plot (Fig. 3 ▸) are in the shape of the strong 021 peak at 4.30° and in the background.",
+   "note": null
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "cella da indicizzazione del pattern di laboratorio di Polymorph A (CG-0026-001-01.asc)",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD (indicizzazione con JADE Pro)",
+   "valori": [
+    {
+     "valore": 17.40109,
+     "unita": "Å",
+     "etichetta": "a"
+    },
+    {
+     "valore": 16.00553,
+     "unita": "Å",
+     "etichetta": "b"
+    },
+    {
+     "valore": 9.33183,
+     "unita": "Å",
+     "etichetta": "c"
+    },
+    {
+     "valore": 2599.04,
+     "unita": "Å3",
+     "etichetta": "V"
+    },
+    {
+     "valore": 8,
+     "etichetta": "Z"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "on a primitive orthorhombic unit cell having a = 17.40109, b = 16.00553, c = 9.33183 Å, V = 2599.04 Å3, and Z = 8",
+   "note": "cella di indicizzazione, diversa dalla cella raffinata di Tabella 1 (in forme); nessuna temperatura detta. Pattern dello stesso lotto di Sample 19"
+  },
+  {
+   "id": "X10",
+   "categoria": "cristallografia",
+   "proprieta": "cella da indicizzazione del pattern di Polymorph B (Form H_CG-0019E-038-03 + 24hrs.xrdml, Sample 21)",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "PXRD (indicizzazione con DICVOL14)",
+   "valori": [
+    {
+     "valore": 10.3584,
+     "unita": "Å",
+     "etichetta": "a"
+    },
+    {
+     "valore": 15.4098,
+     "unita": "Å",
+     "etichetta": "b"
+    },
+    {
+     "valore": 17.1496,
+     "unita": "Å",
+     "etichetta": "c"
+    },
+    {
+     "valore": 95.248,
+     "unita": "°",
+     "etichetta": "β"
+    },
+    {
+     "valore": 2725.96,
+     "unita": "Å3",
+     "etichetta": "V"
+    },
+    {
+     "valore": 8,
+     "etichetta": "Z"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "on a primitive monoclinic cell having a = 10.3584, b = 15.4098, c = 17.1496 Å, β = 95.248°, V = 2725.96 Å3, and Z = 8",
+   "note": "cella di indicizzazione, diversa dalla cella raffinata di Tabella 1 (in forme); nessuna temperatura detta"
+  },
+  {
+   "id": "X11",
+   "categoria": "altro",
+   "proprieta": "ricerca di cella ridotta nel CSD per Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 90,
+     "unita": "hit",
+     "etichetta": "hit con la cella ridotta"
+    },
+    {
+     "testo": "no hits",
+     "etichetta": "hit limitando la chimica a C, H, N, O, P"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "A reduced cell search in the CSD yielded 90 hits, but limiting the chemistry to C, H, N, O, and P atoms resulted in no hits.",
+   "note": null
+  },
+  {
+   "id": "X12",
+   "categoria": "altro",
+   "proprieta": "ricerca di cella ridotta nel CSD per Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 30,
+     "unita": "hit",
+     "etichetta": "hit con la cella ridotta"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "nessuna struttura di derivati della psilocibina",
+   "calcolato": null,
+   "citazione": "A reduced cell search in the CSD yielded 30 hits, but no structures for psilocybin derivatives.",
+   "note": null
+  },
+  {
+   "id": "X13",
+   "categoria": "metodo",
+   "proprieta": "numero di campioni di Polymorph A misurati con radiazione di sincrotrone",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 4,
+     "unita": "campioni"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "To facilitate refinement of the Polymorph A structure, four samples of psilocybin were examined using synchrotron radiation.",
+   "note": null
+  },
+  {
+   "id": "X14",
+   "categoria": "metodo",
+   "proprieta": "pretrattamento dei campioni di Polymorph A prima del sincrotrone",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 30,
+     "unita": "°C",
+     "etichetta": "T minima"
+    },
+    {
+     "valore": 40,
+     "unita": "°C",
+     "etichetta": "T massima"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "were held in a vacuum oven at 30–40 °C immediately prior to preparation for analysis",
+   "note": "forno a vuoto subito prima della preparazione del campione; nessuna durata detta"
+  },
+  {
+   "id": "X15",
+   "categoria": "metodo",
+   "proprieta": "capillari e rotazione per la misura al sincrotrone",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 1.5,
+     "unita": "mm",
+     "etichetta": "diametro dei capillari di Kapton"
+    },
+    {
+     "valore": 50,
+     "unita": "Hz",
+     "etichetta": "velocita' di rotazione",
+     "circa": true
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The white powders were packed into 1.5 mm diameter Kapton capillaries and rotated during the measurements at ∼50 Hz.",
+   "note": null
+  },
+  {
+   "id": "X16",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda del sincrotrone 11-BM",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD (sincrotrone, 11-BM, APS)",
+   "valori": [
+    {
+     "valore": 0.458162,
+     "unita": "Å",
+     "incertezza": 2
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "using a wavelength of 0.458162 (2) Å",
+   "note": "incertezza = ultima cifra; stesso valore della riga Wavelength di Tabella 1"
+  },
+  {
+   "id": "X17",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intervallo di scansione al sincrotrone",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD (sincrotrone)",
+   "valori": [
+    {
+     "valore": 0.5,
+     "unita": "° 2θ",
+     "etichetta": "min"
+    },
+    {
+     "valore": 50,
+     "unita": "° 2θ",
+     "etichetta": "max"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "in the range 0.5–50° 2θ",
+   "note": null
+  },
+  {
+   "id": "X18",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "passo di scansione al sincrotrone",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD (sincrotrone)",
+   "valori": [
+    {
+     "valore": 0.001,
+     "unita": "°"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "with a step size of 0.001°",
+   "note": null
+  },
+  {
+   "id": "X19",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "tempo di conteggio al sincrotrone",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD (sincrotrone)",
+   "valori": [
+    {
+     "valore": 0.1,
+     "unita": "s per passo"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "a counting time of 0.1 s per step",
+   "note": null
+  },
+  {
+   "id": "X20",
+   "categoria": "metodo",
+   "proprieta": "analizzatori a cristallo di silicio del 11-BM",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD (sincrotrone)",
+   "valori": [
+    {
+     "valore": 12,
+     "unita": "analizzatori"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The high-resolution powder diffraction data were collected using 12 silicon crystal analyzers that allow for high angular resolution, high precision, and accurate peak positions.",
+   "note": null
+  },
+  {
+   "id": "X21",
+   "categoria": "metodo",
+   "proprieta": "standard di calibrazione del sincrotrone",
+   "oggetto": null,
+   "tecnica": "PXRD (sincrotrone)",
+   "valori": [
+    {
+     "testo": "2:1",
+     "etichetta": "rapporto Al2O3:Si in peso"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "A silicon (NIST SRM 640c) and alumina (SRM 676a) standard (ratio Al2O3:Si = 2:1 by weight) was used to calibrate the instrument and refine the monochromatic wavelength used in the experiment.",
+   "note": null
+  },
+  {
+   "id": "X22",
+   "categoria": "composizione",
+   "proprieta": "trihydrate in due dei quattro campioni di Polymorph A del sincrotrone",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "PXRD (sincrotrone)",
+   "valori": [
+    {
+     "valore": 0.7,
+     "unita": "wt%",
+     "forma": "F1",
+     "circa": true
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "due campioni puri di fase",
+   "calcolato": null,
+   "citazione": "Two of the samples contained about 0.7 wt% of the trihydrate, and two were phase pure.",
+   "note": "sul totale dei quattro campioni: Two of the samples contained ..., and two were phase pure"
+  },
+  {
+   "id": "X23",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "i quattro raffinamenti di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 4,
+     "unita": "strutture"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "essenzialmente identiche",
+   "calcolato": null,
+   "citazione": "All four refined Polymorph A structures were essentially identical, so only one will be discussed here.",
+   "note": null
+  },
+  {
+   "id": "X24",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "porzione del pattern inclusa nel raffinamento di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld (GSAS-II)",
+   "valori": [
+    {
+     "valore": 2.0,
+     "unita": "° 2θ",
+     "etichetta": "min"
+    },
+    {
+     "valore": 30.0,
+     "unita": "° 2θ",
+     "etichetta": "max"
+    },
+    {
+     "valore": 0.885,
+     "unita": "Å",
+     "etichetta": "d min"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Only the 2.0–30.0° portion of the pattern was included in the refinement (d min = 0.885 Å).",
+   "note": null
+  },
+  {
+   "id": "X25",
+   "categoria": "cristallografia",
+   "proprieta": "contributo dei vincoli al χ2 finale (Polymorph A)",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld (GSAS-II)",
+   "valori": [
+    {
+     "valore": 1.3,
+     "unita": "%"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The restraints contributed 1.3% to the final χ2.",
+   "note": null
+  },
+  {
+   "id": "X26",
+   "categoria": "cristallografia",
+   "proprieta": "Uiso degli H rispetto agli atomi pesanti (Polymorph A)",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld (GSAS-II)",
+   "valori": [
+    {
+     "valore": 1.3,
+     "unita": "volte",
+     "etichetta": "fattore su Uiso"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "the U iso values for the H atoms were fixed at 1.3 times the U iso values of the heavy atoms to which they are attached",
+   "note": null
+  },
+  {
+   "id": "X27",
+   "categoria": "cristallografia",
+   "proprieta": "fondo del pattern di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld (GSAS-II)",
+   "valori": [
+    {
+     "valore": 9,
+     "unita": "termini"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The background was modeled using a 9-term shifted Chebyshev polynomial.",
+   "note": null
+  },
+  {
+   "id": "X28",
+   "categoria": "cristallografia",
+   "proprieta": "orientazione preferenziale di Polymorph A (armoniche sferiche e indice di tessitura)",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld (GSAS-II)",
+   "valori": [
+    {
+     "valore": 4,
+     "unita": "ordine",
+     "etichetta": "ordine delle armoniche sferiche"
+    },
+    {
+     "valore": 1.133,
+     "etichetta": "texture index",
+     "incertezza": 1
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "A 4th-order spherical harmonic model was used to model the preferred orientation; the texture index was 1.133 (1).",
+   "note": "incertezza = ultima cifra"
+  },
+  {
+   "id": "X29",
+   "categoria": "cristallografia",
+   "proprieta": "dimensioni del raffinamento di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld (GSAS-II)",
+   "valori": [
+    {
+     "valore": 85,
+     "etichetta": "variabili"
+    },
+    {
+     "valore": 28045,
+     "etichetta": "osservazioni"
+    },
+    {
+     "valore": 49,
+     "etichetta": "vincoli"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The final refinement of 85 variables using 28045 observations and 49 restraints",
+   "note": null
+  },
+  {
+   "id": "X30",
+   "categoria": "cristallografia",
+   "proprieta": "Rwp del raffinamento di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld (GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.074,
+     "etichetta": "Rwp"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "yielded the residuals R wp = 0.0740",
+   "note": null
+  },
+  {
+   "id": "X31",
+   "categoria": "cristallografia",
+   "proprieta": "GOF del raffinamento di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld (GSAS-II)",
+   "valori": [
+    {
+     "valore": 1.36,
+     "etichetta": "GOF"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "and GOF = 1.36",
+   "note": null
+  },
+  {
+   "id": "X32",
+   "categoria": "cristallografia",
+   "proprieta": "massimo e minimo della mappa differenza di Fourier (Polymorph A)",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld (GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.36,
+     "unita": "e Å−3",
+     "incertezza": 9,
+     "etichetta": "picco piu' alto"
+    },
+    {
+     "valore": -0.44,
+     "unita": "e Å−3",
+     "incertezza": 9,
+     "etichetta": "buca piu' profonda"
+    },
+    {
+     "valore": 1.17,
+     "unita": "Å",
+     "etichetta": "distanza del picco da C10"
+    },
+    {
+     "valore": 1.38,
+     "unita": "Å",
+     "etichetta": "distanza della buca da H27"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The largest peak (1.17 Å from atom C10 in the center of the aromatic six-membered ring) and hole (1.38 Å from H27) in the difference Fourier map were 0.36 (9) and −0.44 (9) e Å−3, respectively.",
+   "note": "incertezza = ultima cifra"
+  },
+  {
+   "id": "X33",
+   "categoria": "computazionale",
+   "proprieta": "prove di risoluzione di Polymorph B con residui migliori",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "Monte Carlo simulated annealing (EXPO2014)",
+   "valori": [
+    {
+     "valore": 2,
+     "unita": "prove",
+     "etichetta": "prove con residui migliori"
+    },
+    {
+     "valore": 10,
+     "unita": "prove",
+     "etichetta": "prove totali"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "Two of the ten trials yielded residuals much better than the others and having suitable hydrogen-bonding patterns.",
+   "note": null
+  },
+  {
+   "id": "X34",
+   "categoria": "cristallografia",
+   "proprieta": "dimensioni del raffinamento di Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "Rietveld (dati di laboratorio)",
+   "valori": [
+    {
+     "valore": 130,
+     "etichetta": "variabili"
+    },
+    {
+     "valore": 2868,
+     "etichetta": "osservazioni"
+    },
+    {
+     "valore": 98,
+     "etichetta": "vincoli"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The final refinement of 130 variables using 2868 observations and 98 restraints",
+   "note": null
+  },
+  {
+   "id": "X35",
+   "categoria": "cristallografia",
+   "proprieta": "Rwp del raffinamento di Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "Rietveld (dati di laboratorio)",
+   "valori": [
+    {
+     "valore": 0.0749,
+     "etichetta": "Rwp"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "yielded the residuals R wp = 0.0749",
+   "note": null
+  },
+  {
+   "id": "X36",
+   "categoria": "cristallografia",
+   "proprieta": "GOF del raffinamento di Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "Rietveld (dati di laboratorio)",
+   "valori": [
+    {
+     "valore": 1.23,
+     "etichetta": "GOF"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "and GOF = 1.23",
+   "note": null
+  },
+  {
+   "id": "X37",
+   "categoria": "cristallografia",
+   "proprieta": "massimo e minimo della mappa differenza di Fourier (Polymorph B)",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "Rietveld (dati di laboratorio)",
+   "valori": [
+    {
+     "valore": 0.14,
+     "unita": "e Å−3",
+     "incertezza": 4,
+     "etichetta": "picco piu' alto"
+    },
+    {
+     "valore": -0.17,
+     "unita": "e Å−3",
+     "incertezza": 4,
+     "etichetta": "buca piu' profonda"
+    },
+    {
+     "valore": 1.63,
+     "unita": "Å",
+     "etichetta": "distanza del picco da O2"
+    },
+    {
+     "valore": 1.54,
+     "unita": "Å",
+     "etichetta": "distanza della buca da C67"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The largest peak (1.63 Å from O2) and hole (1.54 Å from C67) in the difference Fourier map were 0.14 (4) and −0.17 (4) e Å−3, respectively.",
+   "note": "incertezza = ultima cifra"
+  },
+  {
+   "id": "X38",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "differenza fra osservato e calcolato di Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "il grafico della differenza e' piuttosto piatto",
+   "calcolato": null,
+   "citazione": "The difference plot (Fig. 4 ▸) is quite flat.",
+   "note": null
+  },
+  {
+   "id": "X39",
+   "categoria": "computazionale",
+   "proprieta": "taglio di energia a onde piane (VASP)",
+   "oggetto": null,
+   "tecnica": "DFT (VASP, GGA-PBE)",
+   "valori": [
+    {
+     "valore": 400.0,
+     "unita": "eV"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "a plane wave cutoff energy of 400.0 eV",
+   "note": null
+  },
+  {
+   "id": "X40",
+   "categoria": "computazionale",
+   "proprieta": "spaziatura dei punti k (VASP)",
+   "oggetto": null,
+   "tecnica": "DFT (VASP, GGA-PBE)",
+   "valori": [
+    {
+     "valore": 0.5,
+     "unita": "Å−1"
+    },
+    {
+     "testo": "1 × 1 × 2",
+     "etichetta": "mesh"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "a k-point spacing of 0.5 Å−1, leading to a 1 × 1 × 2 mesh",
+   "note": null
+  },
+  {
+   "id": "X41",
+   "categoria": "computazionale",
+   "proprieta": "tempo del calcolo VASP",
+   "oggetto": null,
+   "tecnica": "DFT (VASP)",
+   "valori": [
+    {
+     "valore": 40,
+     "unita": "h",
+     "circa": true
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "and took ∼40 h",
+   "note": null
+  },
+  {
+   "id": "X42",
+   "categoria": "computazionale",
+   "proprieta": "punti k e tempo del calcolo CRYSTAL17",
+   "oggetto": null,
+   "tecnica": "DFT (CRYSTAL17, B3LYP)",
+   "valori": [
+    {
+     "valore": 8,
+     "unita": "punti k"
+    },
+    {
+     "valore": 2.6,
+     "unita": "h",
+     "circa": true
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "The calculations were run on a 3.5 GHz PC using 8 k-points and the B3LYP functional, and took ∼2.6 h.",
+   "note": null
+  },
+  {
+   "id": "X43",
+   "categoria": "computazionale",
+   "proprieta": "celle usate per il calcolo DFT del triidrato",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT",
+   "valori": [
+    {
+     "valore": 152,
+     "unita": "K",
+     "etichetta": "cella da cristallo singolo"
+    },
+    {
+     "valore": 295,
+     "unita": "K",
+     "etichetta": "cella da polvere"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "Calculations were carried out using the fixed 152 K single-crystal and 295 K powder cells.",
+   "note": "la Tabella 4 e il testo sulla dilatazione dicono 302 K per la cella da polvere, qui 295 K: incoerenza dell'articolo"
+  },
+  {
+   "id": "X44",
+   "categoria": "computazionale",
+   "proprieta": "rmsd cartesiano fra struttura raffinata (Rietveld) e ottimizzata (DFT) di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Rietveld contro VASP",
+   "valori": [
+    {
+     "valore": 0.053,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "The r.m.s. Cartesian displacement of the non-H atoms in the Rietveld-refined and DFT-optimized structures of Form A is 0.053 Å (Fig. 5 ▸).",
+   "note": null
+  },
+  {
+   "id": "X45",
+   "categoria": "computazionale",
+   "proprieta": "rmsd cartesiano fra struttura raffinata e ottimizzata delle due molecole indipendenti di Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "Rietveld contro VASP",
+   "valori": [
+    {
+     "valore": 0.16,
+     "unita": "Å",
+     "etichetta": "molecola 1"
+    },
+    {
+     "valore": 0.121,
+     "unita": "Å",
+     "etichetta": "molecola 2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "The comparable quantities for the two independent psilocybin molecules in Form B are 0.160 (Fig. 6 ▸) and 0.121 Å (Fig. 7 ▸).",
+   "note": null
+  },
+  {
+   "id": "X46",
+   "categoria": "computazionale",
+   "proprieta": "rmsd cartesiano fra struttura sperimentale e ottimizzata del triidrato OKOKAD",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "cristallo singolo contro VASP",
+   "valori": [
+    {
+     "valore": 0.48,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "fuori dall'intervallo normale per strutture di cristallo singolo corrette; le differenze maggiori nella parte dimetilammonio",
+   "calcolato": true,
+   "citazione": "The r.m.s. displacement for the trihydrate OKOKAD structure is 0.480 Å (Fig. 8 ▸), which is outside the normal range for correct single-crystal structures",
+   "note": null
+  },
+  {
+   "id": "X47",
+   "categoria": "computazionale",
+   "proprieta": "energia relativa VASP di Polymorph B rispetto a Polymorph A",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Polymorph B contro Polymorph A"
+   },
+   "tecnica": "DFT (VASP)",
+   "valori": [
+    {
+     "valore": 11.8,
+     "unita": "kJ mol−1",
+     "etichetta": "B piu' bassa di A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "le due strutture sono da considerare simili in energia",
+   "calcolato": true,
+   "citazione": "The VASP calculations indicated that Form B is 11.8 kJ mol−1 lower in energy than Form A. This energy difference is close to the expected accuracy of such calculations, so the structures must be considered similar in energy.",
+   "note": "nessuna relazione mono/enantiotropa dichiarata"
+  },
+  {
+   "id": "X48",
+   "categoria": "computazionale",
+   "proprieta": "energie relative delle molecole isolate nelle conformazioni dei cristalli",
+   "oggetto": null,
+   "tecnica": "DFT/B3LYP/6-31G*/acqua",
+   "valori": [
+    {
+     "valore": 34.9,
+     "unita": "kJ mol−1",
+     "forma": "F3",
+     "etichetta": "molecola 2 di Polymorph B"
+    },
+    {
+     "valore": 12.3,
+     "unita": "kJ mol−1",
+     "forma": "F2",
+     "etichetta": "Polymorph A"
+    },
+    {
+     "valore": 36.3,
+     "unita": "kJ mol−1",
+     "forma": "F1",
+     "etichetta": "OKOKAD"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "la molecola 1 di Polymorph B ha l'energia piu' bassa (riferimento zero)",
+   "calcolato": true,
+   "citazione": "Quantum chemical geometry optimizations of the isolated psilocybin molecules in these structures (DFT/B3LYP/6-31G*/water) using Spartan’18 (Wavefunction, 2020 ▸) indicated that molecule 1 in Polymorph B has the lowest energy. Molecule 2 in Polymorph B is 34.9 kJ mol−1 higher in energy, Polymorph A is 12.3 kJ mol−1 higher, and OKOKAD is 36.3 kJ mol−1 higher.",
+   "note": "energie rispetto alla molecola 1 di Polymorph B"
+  },
+  {
+   "id": "X49",
+   "categoria": "computazionale",
+   "proprieta": "analisi conformazionale MMFF: contributi all'energia del cristallo",
+   "oggetto": null,
+   "tecnica": "campo di forza (Forcite)",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "deformazione intramolecolare dominata dagli angoli; energia intermolecolare dominata dalle attrazioni elettrostatiche (legami H inclusi)",
+   "calcolato": true,
+   "citazione": "Analysis of the contributions to the total crystal energy using the Forcite module of Materials Studio (Dassault Systèmes, 2021 ▸) suggests that angle distortion terms dominate the intramolecular deformation energy. The intermolecular energy is dominated by electrostatic attractions, which in this force-field-based analysis include hydrogen bonds.",
+   "note": null
+  },
+  {
+   "id": "X50",
+   "categoria": "computazionale",
+   "proprieta": "cella del triidrato privato dell'acqua e ottimizzato (Forcite)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "OKOKAD senza le tre molecole d'acqua, ottimizzato con la cella"
+   },
+   "tecnica": "campo di forza (Forcite)",
+   "valori": [
+    {
+     "valore": 14.264988,
+     "unita": "Å",
+     "etichetta": "a"
+    },
+    {
+     "valore": 8.265617,
+     "unita": "Å",
+     "etichetta": "b"
+    },
+    {
+     "valore": 27.012137,
+     "unita": "Å",
+     "etichetta": "c"
+    },
+    {
+     "valore": 3184.97,
+     "unita": "Å3",
+     "etichetta": "V"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "The unit-cell parameters changed to a = 14.264988, b = 8.265617, c = 27.012137 Å, and V = 3184.97 Å3.",
+   "note": "struttura ipotetica, non e' una forma dell'estrazione principale"
+  },
+  {
+   "id": "X51",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "simmetria e vuoti del triidrato senza acqua",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "OKOKAD senza le tre molecole d'acqua, ottimizzato con la cella"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "gruppo Pbca conservato dopo la rimozione dell'acqua",
+   "calcolato": true,
+   "citazione": "A symmetry search indicated retention of the space group Pbca.",
+   "note": null
+  },
+  {
+   "id": "X52",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "vuoti nella struttura senza acqua e meccanismo di disidratazione",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "OKOKAD senza le tre molecole d'acqua"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "la struttura senza acqua conserva dei vuoti; il meccanismo di disidratazione verso Polymorph A e' sconosciuto",
+   "calcolato": null,
+   "citazione": "The structure retains voids (Fig. 15 ▸), so the dehydration mechanism to form Polymorph A is currently unknown.",
+   "note": null
+  },
+  {
+   "id": "X53",
+   "categoria": "computazionale",
+   "proprieta": "raggio della sonda per i vuoti della struttura senza acqua",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "OKOKAD senza acqua"
+   },
+   "tecnica": "Fig. 15",
+   "valori": [
+    {
+     "valore": 1.2,
+     "unita": "Å",
+     "etichetta": "raggio della sonda"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "The crystal structure of psilocybin Hydrate A with the water molecules removed. The probe radius is 1.2 Å.",
+   "note": null
+  },
+  {
+   "id": "X54",
+   "categoria": "geometria",
+   "proprieta": "rmsd cartesiano fra Polymorph A e le due molecole di Polymorph B",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Polymorph A contro Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 0.827,
+     "unita": "Å",
+     "etichetta": "Polymorph A contro molecola 1 di Polymorph B"
+    },
+    {
+     "valore": 1.335,
+     "unita": "Å",
+     "etichetta": "Polymorph A contro molecola 2 di Polymorph B"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The r.m.s. Cartesian displacement of Polymorph A is 0.827 and 1.335 Å for molecules 1 and 2 in Polymorph B (Figs. 16 ▸ and 17 ▸).",
+   "note": null
+  },
+  {
+   "id": "X55",
+   "categoria": "geometria",
+   "proprieta": "rmsd cartesiano fra Polymorph A e OKOKAD",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Polymorph A contro OKOKAD"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 1.356,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Polymorph A differs from OKOKAD by 1.356 Å (Fig. 18 ▸)",
+   "note": null
+  },
+  {
+   "id": "X56",
+   "categoria": "geometria",
+   "proprieta": "Z-score di Mogul sulla struttura raffinata di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "Mogul Geometry Check",
+   "valori": [
+    {
+     "valore": 3,
+     "etichetta": "Z-score minimo"
+    },
+    {
+     "valore": 4,
+     "etichetta": "Z-score massimo"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "pochi legami insoliti e un angolo di torsione insolito diverso nella catena laterale",
+   "calcolato": null,
+   "citazione": "A similar analysis of the Rietveld-refined structure indicated a few unusual bond distances (Z-scores 3–4) and a different unusual torsion angle in the side chain.",
+   "note": null
+  },
+  {
+   "id": "X57",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "strati di impacchettamento in Polymorph A e Polymorph B",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Polymorph A e Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "strati alternati di frammenti idrocarburici e di legami idrogeno, paralleli ai piani bc in Polymorph A e ai piani ab in Polymorph B",
+   "calcolato": null,
+   "citazione": "The crystal structures of Form A and Form B are characterized by alternating layers of hydrocarbon fragments and hydrogen bonds: parallel to the bc planes in Form A and the ab planes for Form B, reflecting the different choices of unit cells.",
+   "note": null
+  },
+  {
+   "id": "X58",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "strati nel triidrato OKOKAD",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "strati piu' ondulati con tasche che ospitano l'acqua",
+   "calcolato": null,
+   "citazione": "In the trihydrate OKOKAD, the layers are more corrugated and there are pockets in which the water molecules reside.",
+   "note": null
+  },
+  {
+   "id": "X59",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "dilatazione termica del triidrato fra 152 e 302 K",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD e PXRD",
+   "valori": [
+    {
+     "valore": 152,
+     "unita": "K",
+     "etichetta": "T minima"
+    },
+    {
+     "valore": 302,
+     "unita": "K",
+     "etichetta": "T massima"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "dilatazione anisotropa, ridotta lungo l'asse c (perpendicolare agli strati ondulati)",
+   "calcolato": null,
+   "citazione": "The thermal expansion of OKOKAD between 152 and 302 K is anisotropic (Table 4 ▸). The expansion is reduced along the c axis, which is perpendicular to the corrugated layers.",
+   "note": null
+  },
+  {
+   "id": "X60",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "conformazione molecolare del triidrato a due temperature",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "strutture molecolari essenzialmente identiche a 152 e 302 K",
+   "calcolato": null,
+   "citazione": "The molecular structures at the two temperatures are essentially identical, so the expansion involves intermolecular interactions.",
+   "note": null
+  },
+  {
+   "id": "X61",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "controllo di Mogul sulla struttura sperimentale del triidrato",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "Mogul Geometry Check",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "tutti i legami, gli angoli e le torsioni nei limiti normali",
+   "calcolato": null,
+   "citazione": "All of the bond distances, angles, and torsion angles in the experimental single-crystal structure fall within the normal ranges, as indicated by a Mogul Geometry Check (Sykes et al., 2011 ▸; Bruno et al., 2004 ▸).",
+   "note": null
+  },
+  {
+   "id": "X62",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "torsioni insolite nella struttura OKOKAD ottimizzata con VASP",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (VASP) + Mogul",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "torsioni O1—P1—O4—C1 e O3—P1—O4—C1 e C9—C10—N2—C11 segnalate come insolite; le posizioni delle acque O5 e O7 differiscono in modo significativo",
+   "calcolato": true,
+   "citazione": "In the VASP-optimized structure, the O1—P1—O4—C1 and O3—P1—O4—C1 torsion angles are flagged as unusual; these are part of a broad distribution of similar torsion angles and are not of concern. The C9—C10—N2—C11 torsion angle is also flagged as unusual; this lies on the tail of the trans portion of a bimodal trans/gauche distribution. The positions of water molecules O5 and O7 differ significantly, however.",
+   "note": null
+  },
+  {
+   "id": "X63",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "torsione insolita nella struttura di Polymorph A ottimizzata con VASP",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (VASP) + Mogul",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "solo la torsione C16—C17—N17—C18 e' segnalata come insolita",
+   "calcolato": true,
+   "citazione": "Only the C16—C17—N17—C18 torsion angle is flagged as unusual; it lies on the tail of one of the peaks of a bimodal distribution of similar torsion angles.",
+   "note": null
+  },
+  {
+   "id": "X64",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "torsioni insolite nella struttura di Polymorph B ottimizzata con VASP",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (VASP) + Mogul",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "torsioni C20—C21—C24—N8, C54—C56—C57—C40 e C56—C57—C60—N44 segnalate; la terza e' davvero insolita",
+   "calcolato": true,
+   "citazione": "A Mogul analysis of the VASP-optimized Form B structure indicated the unusual torsion angles C20—C21—C24—N8, C54—C56—C57—C40, and C56—C57—C60—N44 in the side chains. The first two lie on tails of distributions, while the third is truly unusual.",
+   "note": null
+  },
+  {
+   "id": "X65",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "controllo di Mogul sulla struttura raffinata con Rietveld di Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "Mogul Geometry Check",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "poche anomalie, fra cui torsioni delle catene laterali (legami e angoli erano vincolati)",
+   "calcolato": null,
+   "citazione": "Mogul analysis of the Rietveld-refined structure of Form B reveals (perhaps surprisingly) few unusual features, but they include torsion angles in the side chains. (All of the bond distances and angles were restrained.)",
+   "note": null
+  },
+  {
+   "id": "X66",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti intermolecolari corti nel triidrato sperimentale",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "Mogul Geometry Check",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "nessuna anomalia intramolecolare ma contatti intermolecolari corti",
+   "calcolato": null,
+   "citazione": "Mogul analysis of the experimental OKOKAD structure reveals no unusual intramolecular features, but there are short intermolecular contacts.",
+   "note": null
+  },
+  {
+   "id": "X67",
+   "categoria": "morfologia",
+   "proprieta": "morfologia prevista BFDH",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Polymorph A, Polymorph B e OKOKAD"
+   },
+   "tecnica": "BFDH",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "Polymorph A massiccio (blocky); Polymorph B e OKOKAD a piastra con {001} come facce principali",
+   "calcolato": true,
+   "citazione": "The Bravais–Friedel–Donnay–Harker (Bravais, 1866 ▸; Friedel, 1907 ▸; Donnay & Harker, 1937 ▸) morphology suggests that we might expect blocky morphology for Polymorph A, and platy morphology with {001} as the major faces for Polymorph B and OKOKAD.",
+   "note": null
+  },
+  {
+   "id": "X68",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "orientazione preferenziale nei campioni di polvere",
+   "oggetto": null,
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "forte orientazione preferenziale nella maggior parte dei campioni, modellata con armoniche sferiche",
+   "calcolato": null,
+   "citazione": "Most of the powder samples of this material exhibited strong preferred orientation, which was modeled using spherical harmonics.",
+   "note": null
+  },
+  {
+   "id": "X69",
+   "categoria": "geometria",
+   "proprieta": "contributo dei legami C—H···O all'energia reticolare",
+   "oggetto": null,
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "molti legami C—H···O contribuiscono alle energie reticolari",
+   "calcolato": null,
+   "citazione": "Many C—H⋯O hydrogen bonds also contribute to the lattice energies.",
+   "note": null
+  },
+  {
+   "id": "X70",
+   "categoria": "metodo",
+   "proprieta": "armoniche sferiche per i pattern di riflessione e trasmissione di Sample 4",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 4 (10415-25)"
+   },
+   "tecnica": "Rietveld QPA",
+   "valori": [
+    {
+     "valore": 8,
+     "unita": "ordine",
+     "etichetta": "riflessione"
+    },
+    {
+     "valore": 4,
+     "unita": "ordine",
+     "etichetta": "trasmissione"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Modeling the preferred orientation using 8th- and 4th-order spherical harmonics for the reflection and transmission patterns, respectively, provided comparable results for QPA on the two patterns",
+   "note": null
+  },
+  {
+   "id": "X71",
+   "categoria": "metodo",
+   "proprieta": "indice di tessitura di Sample 4 nelle due geometrie",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 4 (10415-25)"
+   },
+   "tecnica": "Rietveld QPA",
+   "valori": [
+    {
+     "valore": 8.25,
+     "etichetta": "texture index, riflessione"
+    },
+    {
+     "valore": 1.25,
+     "etichetta": "texture index, trasmissione"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "la geometria in trasmissione da' dati di qualita' migliore",
+   "calcolato": null,
+   "citazione": "texture index calculated for the two patterns: 8.25 for the reflection pattern and 1.25 for the transmission pattern",
+   "note": null
+  },
+  {
+   "id": "X72",
+   "categoria": "morfologia",
+   "proprieta": "polvere di Polymorph A: morfologia ad ago e orientazione",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "cristalli aghiformi: forte effetto di orientazione preferenziale fra capillare impaccato e geometria in riflessione",
+   "calcolato": null,
+   "citazione": "Given the needle-like morphology of Polymorph A, preferred orientation effects had a significant influence on the appearance of the two patterns when the samples were prepared by packed capillary versus reflection geometries (Fig. 20 ▸).",
+   "note": null
+  },
+  {
+   "id": "X73",
+   "categoria": "morfologia",
+   "proprieta": "orientazione degli aghi di Polymorph A nel campione in riflessione",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "figura polare",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "aghi <001> paralleli al piano del campione",
+   "calcolato": null,
+   "citazione": "The pole figure for the reflection sample is consistent with the expected <001> needles lying parallel to the specimen plane.",
+   "note": null
+  },
+  {
+   "id": "X74",
+   "categoria": "composizione",
+   "proprieta": "contenuto d'acqua dichiarato sul flacone di Sample 3",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 3 (USP 0274-F)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 0.8,
+     "unita": "%",
+     "circa": true,
+     "etichetta": "umidita' dichiarata dal contenitore"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The container states that the material ‘contains about 0.8% moisture.’",
+   "note": "dato del contenitore, non misurato dagli autori"
+  },
+  {
+   "id": "X75",
+   "categoria": "composizione",
+   "proprieta": "contenuto d'acqua del triidrato rispetto a quello dichiarato per Sample 3",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 15,
+     "unita": "% in massa",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "whereas the trihydrate form contains 15% water by mass",
+   "note": "contenuto d'acqua del triidrato scritto dall'articolo (senza dire come e' ottenuto); confrontato con lo 0.8% del flacone di Sample 3"
+  },
+  {
+   "id": "X76",
+   "categoria": "composizione",
+   "proprieta": "quantita' di Hydrate A in tracce nei campioni",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "PXRD (Rietveld QPA)",
+   "valori": [
+    {
+     "valore": 5,
+     "unita": "%",
+     "forma": "F1",
+     "circa": true,
+     "limite": "sotto"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "tracce variabili, fino a circa il 5 %, in diversi campioni",
+   "calcolato": null,
+   "citazione": "Hydrate A also appears in varying trace amounts, up to about 5%, in several samples across Table 8 ▸.",
+   "note": null
+  },
+  {
+   "id": "X77",
+   "categoria": "metodo",
+   "proprieta": "larghezza a meta' altezza per la conversione dell'elenco di picchi di Folen",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 2 (Folen)"
+   },
+   "tecnica": "Rietveld QPA",
+   "valori": [
+    {
+     "valore": 0.3,
+     "unita": "°",
+     "etichetta": "FWHM"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The Folen peak list was converted (using FWHM = 0.3°, to account for potential variation in peak positions) into a pseudo-raw data file using Endeavour (Crystal Impact, 2021 ▸).",
+   "note": null
+  },
+  {
+   "id": "X78",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda PXRD, Sample 1 (RTI-1823-17-15)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 1 (RTI-1823-17-15)"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 1.54056,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "monochromatic incident radiation of wavelength 1.54056 Å scanned in the range 2–50° 2θ, with a 17.5 min data collection time",
+   "note": null
+  },
+  {
+   "id": "X79",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intervallo di scansione PXRD, Sample 1 (RTI-1823-17-15)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 1 (RTI-1823-17-15)"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 2,
+     "unita": "° 2θ",
+     "etichetta": "min"
+    },
+    {
+     "valore": 50,
+     "unita": "° 2θ",
+     "etichetta": "max"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "scanned in the range 2–50° 2θ, with a 17.5 min data collection time",
+   "note": null
+  },
+  {
+   "id": "X80",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "tempo di raccolta PXRD, Sample 1 (RTI-1823-17-15)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 1 (RTI-1823-17-15)"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 17.5,
+     "unita": "min"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "with a 17.5 min data collection time",
+   "note": null
+  },
+  {
+   "id": "X81",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda dei dati PXRD pubblicati da Folen (1975)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 2 (Folen)"
+   },
+   "tecnica": "PXRD (dati di Folen, 1975)",
+   "valori": [
+    {
+     "valore": 1.54056,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "monochromatic incident radiation of wavelength 1.54056 Å and were acquired by manual analysis of the strip chart recording",
+   "note": "citato da Folen (1975): elenco di spaziature d e intensita' relative"
+  },
+  {
+   "id": "X82",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda PXRD di Sample 4 (Rigaku Smart-Lab)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 4 (10415-25)"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 1.54056,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "monochromatic incident radiation of wavelength 1.54056 Å.",
+   "note": null
+  },
+  {
+   "id": "X83",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intervallo di scansione PXRD di Sample 4 in trasmissione",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 4a (10415-25, trasmissione)"
+   },
+   "tecnica": "PXRD (trasmissione)",
+   "valori": [
+    {
+     "valore": 3,
+     "unita": "° 2θ",
+     "etichetta": "min"
+    },
+    {
+     "valore": 40,
+     "unita": "° 2θ",
+     "etichetta": "max"
+    },
+    {
+     "valore": 20,
+     "unita": "min",
+     "etichetta": "tempo di raccolta"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Transmission geometry samples were scanned in the range 3–40° 2θ with a 20 min data collection time.",
+   "note": null
+  },
+  {
+   "id": "X84",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intervallo di scansione PXRD di Sample 4 in riflessione",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 4b (10415-25, riflessione)"
+   },
+   "tecnica": "PXRD (riflessione)",
+   "valori": [
+    {
+     "valore": 2,
+     "unita": "° 2θ",
+     "etichetta": "min"
+    },
+    {
+     "valore": 40,
+     "unita": "° 2θ",
+     "etichetta": "max"
+    },
+    {
+     "valore": 6,
+     "unita": "min",
+     "etichetta": "tempo di raccolta"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Reflection geometry samples were scanned in the range 2–40° 2θ with a 6 min data collection time.",
+   "note": null
+  },
+  {
+   "id": "X85",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda PXRD dei Samples 12–18 (Bruker D8 Advance Eco)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Samples 12–18"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 1.54056,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "monochromatic incident radiation of wavelength 1.54056 Å scanned in the range 2–45° 2θ with a 3.9 min data collection time",
+   "note": null
+  },
+  {
+   "id": "X86",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intervallo di scansione e tempo PXRD dei Samples 12–18",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Samples 12–18"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 2,
+     "unita": "° 2θ",
+     "etichetta": "min"
+    },
+    {
+     "valore": 45,
+     "unita": "° 2θ",
+     "etichetta": "max"
+    },
+    {
+     "valore": 3.9,
+     "unita": "min",
+     "etichetta": "tempo di raccolta"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "scanned in the range 2–45° 2θ with a 3.9 min data collection time",
+   "note": null
+  },
+  {
+   "id": "X87",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda PXRD dei Samples 19–21 (PANalytical X’Pert Pro)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Samples 19–21"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 1.54056,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "monochromatic incident radiation of wavelength 1.54056 Å scanned in the range 3–40° 2θ with an 11 min data collection time",
+   "note": null
+  },
+  {
+   "id": "X88",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intervallo di scansione e tempo PXRD dei Samples 19–21",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Samples 19–21"
+   },
+   "tecnica": "PXRD (trasmissione)",
+   "valori": [
+    {
+     "valore": 3,
+     "unita": "° 2θ",
+     "etichetta": "min"
+    },
+    {
+     "valore": 40,
+     "unita": "° 2θ",
+     "etichetta": "max"
+    },
+    {
+     "valore": 11,
+     "unita": "min",
+     "etichetta": "tempo di raccolta"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "campioni in trasmissione fra pellicole di polietilene a bassa densita'",
+   "calcolato": null,
+   "citazione": "scanned in the range 3–40° 2θ with an 11 min data collection time",
+   "note": null
+  },
+  {
+   "id": "X89",
+   "categoria": "cristallografia",
+   "proprieta": "formula chimica",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Hydrate A, Polymorph A, Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "C12H17N2O4P·3H2O",
+     "forma": "F1"
+    },
+    {
+     "testo": "C12H17N2O4P",
+     "forma": "F2"
+    },
+    {
+     "testo": "C12H17N2O4P",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Chemical formula | C12H17N2O4P·3H2O | C12H17N2O4P | C12H17N2O4P",
+   "note": null
+  },
+  {
+   "id": "X90",
+   "categoria": "cristallografia",
+   "proprieta": "Mr",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Hydrate A, Polymorph A, Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 338.3,
+     "forma": "F1"
+    },
+    {
+     "valore": 284.11,
+     "forma": "F2"
+    },
+    {
+     "valore": 284.11,
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "M r | 338.30 | 284.11 | 284.11",
+   "note": null
+  },
+  {
+   "id": "X91",
+   "categoria": "cristallografia",
+   "proprieta": "tipo di radiazione",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Hydrate A, Polymorph A, Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "Cu Kα",
+     "forma": "F1"
+    },
+    {
+     "testo": "Synchrotron",
+     "forma": "F2"
+    },
+    {
+     "testo": "Cu Kα",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Radiation type | Cu Kα | Synchrotron | Cu Kα",
+   "note": null
+  },
+  {
+   "id": "X92",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Hydrate A, Polymorph A, Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 1.5405929,
+     "unita": "Å",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.54443,
+     "unita": "Å",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.458162,
+     "unita": "Å",
+     "forma": "F2"
+    },
+    {
+     "valore": 1.5405929,
+     "unita": "Å",
+     "forma": "F3"
+    },
+    {
+     "valore": 1.54443,
+     "unita": "Å",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Wavelength (Å) | 1.5405929/1.544430 | 0.458162 | 1.5405929/1.544430",
+   "note": "per Hydrate A e Polymorph B la tabella scrive due lunghezze d'onda separate da «/» (senza dire a cosa corrispondano)"
+  },
+  {
+   "id": "X93",
+   "categoria": "cristallografia",
+   "proprieta": "coefficiente di assorbimento μ",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Hydrate A, Polymorph A, Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 1.84,
+     "unita": "mm−1",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.016,
+     "unita": "mm−1",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.853,
+     "unita": "mm−1",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "μ (mm−1) | 1.84 | 0.016 | 0.853",
+   "note": null
+  },
+  {
+   "id": "X94",
+   "categoria": "cristallografia",
+   "proprieta": "dimensioni del cristallo",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Hydrate A, Polymorph A, Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 0.3,
+     "unita": "mm",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.05,
+     "unita": "mm",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.02,
+     "unita": "mm",
+     "forma": "F1"
+    },
+    {
+     "testo": "Powder",
+     "forma": "F2"
+    },
+    {
+     "testo": "Powder",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Crystal size (mm) | 0.3 × 0.05 × 0.02 | Powder | Powder",
+   "note": null
+  },
+  {
+   "id": "X95",
+   "categoria": "cristallografia",
+   "proprieta": "Tmin, Tmax (correzione di assorbimento multi-scan)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.725,
+     "forma": "F1",
+     "etichetta": "Tmin"
+    },
+    {
+     "valore": 1.0,
+     "forma": "F1",
+     "etichetta": "Tmax"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "T min, T max | 0.725, 1.000 |  |",
+   "note": null
+  },
+  {
+   "id": "X96",
+   "categoria": "cristallografia",
+   "proprieta": "riflessioni misurate, indipendenti e osservate [I ≥ 2σ(I)]",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 15245,
+     "forma": "F1",
+     "etichetta": "misurate"
+    },
+    {
+     "valore": 3239,
+     "forma": "F1",
+     "etichetta": "indipendenti"
+    },
+    {
+     "valore": 2898,
+     "forma": "F1",
+     "etichetta": "osservate"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "No. of measured, independent and observed [I ≥ 2σ(I)] reflections | 15245, 3239, 2898 |  |",
+   "note": null
+  },
+  {
+   "id": "X97",
+   "categoria": "cristallografia",
+   "proprieta": "Rint",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.032,
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "R int | 0.032 |  |",
+   "note": null
+  },
+  {
+   "id": "X98",
+   "categoria": "cristallografia",
+   "proprieta": "(sin θ/λ)max",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.624,
+     "unita": "Å−1",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "(sin θ/λ)max (Å−1) | 0.624 |  |",
+   "note": null
+  },
+  {
+   "id": "X99",
+   "categoria": "cristallografia",
+   "proprieta": "R[F2 > 2σ(F2)], wR(F2), S",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.032,
+     "forma": "F1",
+     "etichetta": "R[F2 > 2σ(F2)]"
+    },
+    {
+     "valore": 0.086,
+     "forma": "F1",
+     "etichetta": "wR(F2)"
+    },
+    {
+     "valore": 1.04,
+     "forma": "F1",
+     "etichetta": "S"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "R[F 2 > 2σ(F 2)], wR(F 2), S | 0.032, 0.086, 1.04 |  |",
+   "note": null
+  },
+  {
+   "id": "X100",
+   "categoria": "cristallografia",
+   "proprieta": "numero di riflessioni nel raffinamento",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 3239,
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "No. of reflections | 3239 |  |",
+   "note": null
+  },
+  {
+   "id": "X101",
+   "categoria": "cristallografia",
+   "proprieta": "numero di parametri",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 228,
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "No. of parameters | 228 |  |",
+   "note": null
+  },
+  {
+   "id": "X102",
+   "categoria": "cristallografia",
+   "proprieta": "trattamento degli atomi H",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "H trattati con un misto di raffinamento indipendente e vincolato",
+   "calcolato": null,
+   "citazione": "H-atom treatment | H atoms treated by a mixture of independent and constrained refinement |  |",
+   "note": null
+  },
+  {
+   "id": "X103",
+   "categoria": "cristallografia",
+   "proprieta": "Δρmax, Δρmin",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.31,
+     "unita": "e Å−3",
+     "forma": "F1",
+     "etichetta": "Δρmax"
+    },
+    {
+     "valore": -0.42,
+     "unita": "e Å−3",
+     "forma": "F1",
+     "etichetta": "Δρmin"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Δρmax, Δρmin (e Å−3) | 0.31, −0.42 |  |",
+   "note": null
+  },
+  {
+   "id": "X104",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 1 (RTI-1823-17-15)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 1 (RTI-1823-17-15)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 1963,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "1 | RTI-1823-17-15 | CM2 | 1963",
+   "note": "codice di origine come scritto: «CM2» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X105",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 2 (Folen)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 2 (Folen)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 1975,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "2 | Folen | LS3 | 1975",
+   "note": "codice di origine come scritto: «LS3» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X106",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 3 (USP 0274-F)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 3 (USP 0274-F)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 1976,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "3 | USP 0274-F | CM | 1976",
+   "note": "codice di origine come scritto: «CM» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X107",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 4 (10415-25)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 4 (10415-25)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2009,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "4 | 10415-25 | CT4 | 2009",
+   "note": "codice di origine come scritto: «CT4» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X108",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 5 (Ψ-67-2)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 5 (Ψ-67-2)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2013,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "5 | Ψ-67-2 | PD5 | 2013",
+   "note": "codice di origine come scritto: «PD5» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X109",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 6 (Ψ-81-1)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 6 (Ψ-81-1)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2013,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "6 | Ψ-81-1 | CT | 2013",
+   "note": "codice di origine come scritto: «CT» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X110",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 7 (Ψ-97-1)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 7 (Ψ-97-1)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2014,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "7 | Ψ-97-1 | CT | 2014",
+   "note": "codice di origine come scritto: «CT» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X111",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 8 (Polymorph A 1 (Compass Pathways))",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 8 (Polymorph A 1 (Compass Pathways))"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2017,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "8 | Polymorph A 1 (Compass Pathways) | PL 6 | 2017",
+   "note": "codice di origine come scritto: «PL 6» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X112",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 9 (Polymorph A′ (Compass Pathways))",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 9 (Polymorph A′ (Compass Pathways))"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2017,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "9 | Polymorph A′ (Compass Pathways) | PL | 2017",
+   "note": "codice di origine come scritto: «PL» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X113",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 10 (Hydrate A (Compass Pathways))",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 10 (Hydrate A (Compass Pathways))"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2017,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "10 | Hydrate A (Compass Pathways) | PL | 2017",
+   "note": "codice di origine come scritto: «PL» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X114",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 11 (Polymorph B (Compass Pathways))",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 11 (Polymorph B (Compass Pathways))"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2017,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "11 | Polymorph B (Compass Pathways) | PL | 2017",
+   "note": "codice di origine come scritto: «PL» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X115",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 12 (SPS5107/20/1)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 12 (SPS5107/20/1)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "12 | SPS5107/20/1 | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X116",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 13 (17/44/136G)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 13 (17/44/136G)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "13 | 17/44/136G | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X117",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 14 (17/44/132E)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 14 (17/44/132E)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "14 | 17/44/132E | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X118",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 15 (17/44/116Z)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 15 (17/44/116Z)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "15 | 17/44/116Z | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X119",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 16 (17/44/123L)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 16 (17/44/123L)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "16 | 17/44/123L | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X120",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 17 (800325750)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 17 (800325750)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "17 | 800325750 | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X121",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 18 (800326600)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 18 (800326600)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "18 | 800326600 | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X122",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 19 (ARN-19-002654 (Polymorph A ref.))",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 19 (ARN-19-002654 (Polymorph A ref.))"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "19 | ARN-19-002654 (Polymorph A ref.) | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X123",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 20 (CG002E-004-01 (Hydrate A ref.))",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 20 (CG002E-004-01 (Hydrate A ref.))"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "20 | CG002E-004-01 (Hydrate A ref.) | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X124",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 21 (CG-0019E-038-03 (Polymorph B ref.))",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 21 (CG-0019E-038-03 (Polymorph B ref.))"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2019,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "21 | CG-0019E-038-03 (Polymorph B ref.) | PD | 2019",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X125",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 22 (PL005E-004-40C)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 22 (PL005E-004-40C)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2021,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "22 | PL005E-004-40C | PD | 2021",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X126",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 23 (PL005E-004-45C)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 23 (PL005E-004-45C)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2021,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "23 | PL005E-004-45C | PD | 2021",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X127",
+   "categoria": "altro",
+   "proprieta": "origine e data di disponibilita' del campione 24 (PL005E-004-55C)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 24 (PL005E-004-55C)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2021,
+     "etichetta": "Date of availability"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "24 | PL005E-004-55C | PD | 2021",
+   "note": "codice di origine come scritto: «PD» (la tabella non lo scioglie; le cinque classi nominate nel testo sono: commercial, literature, clinical trial, patent, process development)"
+  },
+  {
+   "id": "X128",
+   "categoria": "sintesi",
+   "proprieta": "condizioni di cristallizzazione ed essiccamento sotto vuoto, Sample 12",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 12"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "100:0",
+     "etichetta": "water:acetone"
+    },
+    {
+     "valore": 40,
+     "unita": "°C",
+     "etichetta": "drying temperature"
+    },
+    {
+     "valore": 2,
+     "unita": "day",
+     "etichetta": "drying time under vacuum"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "12 | 100:0 | 40 | 2",
+   "note": "unita' dall'intestazione della Tabella 3 (water:acetone; °C; days)"
+  },
+  {
+   "id": "X129",
+   "categoria": "sintesi",
+   "proprieta": "condizioni di cristallizzazione ed essiccamento sotto vuoto, Sample 13",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 13"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "40:60",
+     "etichetta": "water:acetone"
+    },
+    {
+     "valore": 40,
+     "unita": "°C",
+     "etichetta": "drying temperature"
+    },
+    {
+     "valore": 2,
+     "unita": "day",
+     "etichetta": "drying time under vacuum"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "13 | 40:60 | 40 | 2",
+   "note": "unita' dall'intestazione della Tabella 3 (water:acetone; °C; days)"
+  },
+  {
+   "id": "X130",
+   "categoria": "sintesi",
+   "proprieta": "condizioni di cristallizzazione ed essiccamento sotto vuoto, Sample 14",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 14"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "48:52",
+     "etichetta": "water:acetone"
+    },
+    {
+     "valore": 40,
+     "unita": "°C",
+     "etichetta": "drying temperature"
+    },
+    {
+     "valore": 2,
+     "unita": "day",
+     "etichetta": "drying time under vacuum"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "14 | 48:52 | 40 | 2",
+   "note": "unita' dall'intestazione della Tabella 3 (water:acetone; °C; days)"
+  },
+  {
+   "id": "X131",
+   "categoria": "sintesi",
+   "proprieta": "condizioni di cristallizzazione ed essiccamento sotto vuoto, Sample 15",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 15"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "40:60",
+     "etichetta": "water:acetone"
+    },
+    {
+     "valore": 40,
+     "unita": "°C",
+     "etichetta": "drying temperature"
+    },
+    {
+     "valore": 3,
+     "unita": "day",
+     "etichetta": "drying time under vacuum"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "15 | 40:60 | 40 | 3",
+   "note": "unita' dall'intestazione della Tabella 3 (water:acetone; °C; days)"
+  },
+  {
+   "id": "X132",
+   "categoria": "sintesi",
+   "proprieta": "condizioni di cristallizzazione ed essiccamento sotto vuoto, Sample 16",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 16"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "40:60",
+     "etichetta": "water:acetone"
+    },
+    {
+     "valore": 40,
+     "unita": "°C",
+     "etichetta": "drying temperature"
+    },
+    {
+     "valore": 1,
+     "unita": "day",
+     "etichetta": "drying time under vacuum"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "16 | 40:60 | 40 | 1",
+   "note": "unita' dall'intestazione della Tabella 3 (water:acetone; °C; days)"
+  },
+  {
+   "id": "X133",
+   "categoria": "sintesi",
+   "proprieta": "condizioni di cristallizzazione ed essiccamento sotto vuoto, Sample 17",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 17"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "40:60",
+     "etichetta": "water:acetone"
+    },
+    {
+     "valore": 38,
+     "unita": "°C",
+     "etichetta": "drying temperature"
+    },
+    {
+     "valore": 2,
+     "unita": "day",
+     "etichetta": "drying time under vacuum"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "17 | 40:60 | 38 | 2",
+   "note": "unita' dall'intestazione della Tabella 3 (water:acetone; °C; days)"
+  },
+  {
+   "id": "X134",
+   "categoria": "sintesi",
+   "proprieta": "condizioni di cristallizzazione ed essiccamento sotto vuoto, Sample 18",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 18"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "40:60",
+     "etichetta": "water:acetone"
+    },
+    {
+     "valore": 40,
+     "unita": "°C",
+     "etichetta": "drying temperature"
+    },
+    {
+     "valore": 4,
+     "unita": "day",
+     "etichetta": "drying time under vacuum"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "18 | 40:60 | 40 | 4",
+   "note": "unita' dall'intestazione della Tabella 3 (water:acetone; °C; days)"
+  },
+  {
+   "id": "X135",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella a del triidrato a 152 K (cristallo singolo) e a 302 K (polvere)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD (152 K) e PXRD (302 K)",
+   "valori": [
+    {
+     "valore": 14.39061,
+     "unita": "Å",
+     "incertezza": 16,
+     "etichetta": "152 K, cristallo singolo",
+     "forma": "F1"
+    },
+    {
+     "valore": 14.5051,
+     "unita": "Å",
+     "incertezza": 6,
+     "etichetta": "302 K, polvere",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.0079,
+     "etichetta": "rapporto 302 K / 152 K"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "a (Å) | 14.39061 (16) | 14.5051 (6)/1.0079 | 14.394189/1.00025",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; la cella a 302 K da polvere non e' la cella di forme (152 K)"
+  },
+  {
+   "id": "X136",
+   "categoria": "computazionale",
+   "proprieta": "parametro di cella a del triidrato ottimizzato con DFT-D a 152 K",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT-D3 (VASP)",
+   "valori": [
+    {
+     "valore": 14.394189,
+     "unita": "Å",
+     "etichetta": "DFT-D 152 K"
+    },
+    {
+     "valore": 1.00025,
+     "etichetta": "rapporto DFT-D / sperimentale"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "a (Å) | 14.39061 (16) | 14.5051 (6)/1.0079 | 14.394189/1.00025",
+   "note": "il testo dice che l'ottimizzazione DFT-D riduce molto la cella e i cambiamenti sono anisotropi (didascalia della Tabella 4)"
+  },
+  {
+   "id": "X137",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella b del triidrato a 152 K (cristallo singolo) e a 302 K (polvere)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD (152 K) e PXRD (302 K)",
+   "valori": [
+    {
+     "valore": 8.26729,
+     "unita": "Å",
+     "incertezza": 9,
+     "etichetta": "152 K, cristallo singolo",
+     "forma": "F1"
+    },
+    {
+     "valore": 8.3364,
+     "unita": "Å",
+     "incertezza": 3,
+     "etichetta": "302 K, polvere",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.0083,
+     "etichetta": "rapporto 302 K / 152 K"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "b (Å) | 8.26729 (9) | 8.3364 (3)/1.0083 | 7.950375/0.96167",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; la cella a 302 K da polvere non e' la cella di forme (152 K)"
+  },
+  {
+   "id": "X138",
+   "categoria": "computazionale",
+   "proprieta": "parametro di cella b del triidrato ottimizzato con DFT-D a 152 K",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT-D3 (VASP)",
+   "valori": [
+    {
+     "valore": 7.950375,
+     "unita": "Å",
+     "etichetta": "DFT-D 152 K"
+    },
+    {
+     "valore": 0.96167,
+     "etichetta": "rapporto DFT-D / sperimentale"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "b (Å) | 8.26729 (9) | 8.3364 (3)/1.0083 | 7.950375/0.96167",
+   "note": "il testo dice che l'ottimizzazione DFT-D riduce molto la cella e i cambiamenti sono anisotropi (didascalia della Tabella 4)"
+  },
+  {
+   "id": "X139",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella c del triidrato a 152 K (cristallo singolo) e a 302 K (polvere)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD (152 K) e PXRD (302 K)",
+   "valori": [
+    {
+     "valore": 27.1581,
+     "unita": "Å",
+     "incertezza": 3,
+     "etichetta": "152 K, cristallo singolo",
+     "forma": "F1"
+    },
+    {
+     "valore": 27.2314,
+     "unita": "Å",
+     "incertezza": 13,
+     "etichetta": "302 K, polvere",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.0027,
+     "etichetta": "rapporto 302 K / 152 K"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "c (Å) | 27.1581 (3) | 27.2314 (13)/1.0027 | 25.283444/0.93097",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; la cella a 302 K da polvere non e' la cella di forme (152 K)"
+  },
+  {
+   "id": "X140",
+   "categoria": "computazionale",
+   "proprieta": "parametro di cella c del triidrato ottimizzato con DFT-D a 152 K",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT-D3 (VASP)",
+   "valori": [
+    {
+     "valore": 25.283444,
+     "unita": "Å",
+     "etichetta": "DFT-D 152 K"
+    },
+    {
+     "valore": 0.93097,
+     "etichetta": "rapporto DFT-D / sperimentale"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "c (Å) | 27.1581 (3) | 27.2314 (13)/1.0027 | 25.283444/0.93097",
+   "note": "il testo dice che l'ottimizzazione DFT-D riduce molto la cella e i cambiamenti sono anisotropi (didascalia della Tabella 4)"
+  },
+  {
+   "id": "X141",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella V del triidrato a 152 K (cristallo singolo) e a 302 K (polvere)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "SCXRD (152 K) e PXRD (302 K)",
+   "valori": [
+    {
+     "valore": 3231.04,
+     "unita": "Å3",
+     "etichetta": "152 K, cristallo singolo",
+     "forma": "F1"
+    },
+    {
+     "valore": 3292.84,
+     "unita": "Å3",
+     "incertezza": 32,
+     "etichetta": "302 K, polvere",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.0191,
+     "etichetta": "rapporto 302 K / 152 K"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "V (Å3) | 3231.04 | 3292.84 (32)/1.0191 | 2893.417/0.89551",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; la cella a 302 K da polvere non e' la cella di forme (152 K)"
+  },
+  {
+   "id": "X142",
+   "categoria": "computazionale",
+   "proprieta": "parametro di cella V del triidrato ottimizzato con DFT-D a 152 K",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT-D3 (VASP)",
+   "valori": [
+    {
+     "valore": 2893.417,
+     "unita": "Å3",
+     "etichetta": "DFT-D 152 K"
+    },
+    {
+     "valore": 0.89551,
+     "etichetta": "rapporto DFT-D / sperimentale"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "V (Å3) | 3231.04 | 3292.84 (32)/1.0191 | 2893.417/0.89551",
+   "note": "il testo dice che l'ottimizzazione DFT-D riduce molto la cella e i cambiamenti sono anisotropi (didascalia della Tabella 4)"
+  },
+  {
+   "id": "X143",
+   "categoria": "geometria",
+   "proprieta": "legame H O4—H20⋯O3 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.057,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 1.454,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.511,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 178.6,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.089,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    },
+    {
+     "valore": 16.3,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O4—H20⋯O3 | 1.057 | 1.454 | 2.511 | 178.6 | 0.089 | 16.3",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X144",
+   "categoria": "geometria",
+   "proprieta": "legame H N7—H36⋯O2 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.058,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 1.751,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.734,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 152.5,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.078,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    },
+    {
+     "valore": 6.4,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "N7—H36⋯O2 | 1.058 | 1.751 | 2.734 | 152.5 | 0.078 | 6.4",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X145",
+   "categoria": "geometria",
+   "proprieta": "legame H N6—H21⋯O2 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.031,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 1.899,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.905,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 164.2,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.061,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    },
+    {
+     "valore": 5.7,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "N6—H21⋯O2 | 1.031 | 1.899 | 2.905 | 164.2 | 0.061 | 5.7",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X146",
+   "categoria": "geometria",
+   "proprieta": "legame H C17—H29⋯O2 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.096,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.256,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2",
+     "testo": "2.256*"
+    },
+    {
+     "valore": 3.337,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 168.3,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.03,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C17—H29⋯O2 | 1.096 | 2.256* | 3.337 | 168.3 | 0.030 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; l'asterisco sul valore di H···A non e' spiegato nel testo letto"
+  },
+  {
+   "id": "X147",
+   "categoria": "geometria",
+   "proprieta": "legame H C19—H33⋯O3 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.096,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.517,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 3.518,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 151.4,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.017,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C19—H33⋯O3 | 1.096 | 2.517 | 3.518 | 151.4 | 0.017 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X148",
+   "categoria": "geometria",
+   "proprieta": "legame H C13—H24⋯O3 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.088,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.388,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2",
+     "testo": "2.388*"
+    },
+    {
+     "valore": 3.107,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 122.1,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.015,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C13—H24⋯O3 | 1.088 | 2.388* | 3.107 | 122.1 | 0.015 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; l'asterisco sul valore di H···A non e' spiegato nel testo letto"
+  },
+  {
+   "id": "X149",
+   "categoria": "geometria",
+   "proprieta": "legame H C14—H25⋯O4 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.087,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.668,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 3.648,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 149.7,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.014,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C14—H25⋯O4 | 1.087 | 2.668 | 3.648 | 149.7 | 0.014 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X150",
+   "categoria": "geometria",
+   "proprieta": "legame H C11—H22⋯O3 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.089,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.633,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 3.559,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 142.5,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.013,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C11—H22⋯O3 | 1.089 | 2.633 | 3.559 | 142.5 | 0.013 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X151",
+   "categoria": "geometria",
+   "proprieta": "legame H C19—H34⋯O3 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.095,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.731,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 3.693,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 146.4,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.012,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C19—H34⋯O3 | 1.095 | 2.731 | 3.693 | 146.4 | 0.012 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X152",
+   "categoria": "geometria",
+   "proprieta": "legame H C11—H22⋯O4 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.089,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.696,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 3.618,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 142.2,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.012,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C11—H22⋯O4 | 1.089 | 2.696 | 3.618 | 142.2 | 0.012 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X153",
+   "categoria": "geometria",
+   "proprieta": "legame H C18—H32⋯O4 in Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.094,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F2"
+    },
+    {
+     "valore": 2.69,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F2",
+     "testo": "2.690*"
+    },
+    {
+     "valore": 3.737,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 160.0,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F2"
+    },
+    {
+     "valore": 0.01,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C18—H32⋯O4 | 1.094 | 2.690* | 3.737 | 160.0 | 0.010 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; l'asterisco sul valore di H···A non e' spiegato nel testo letto"
+  },
+  {
+   "id": "X154",
+   "categoria": "geometria",
+   "proprieta": "legame H O40—H72⋯O39 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.043,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 1.491,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.533,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 179.0,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.085,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    },
+    {
+     "valore": 15.9,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O40—H72⋯O39 | 1.043 | 1.491 | 2.533 | 179.0 | 0.085 | 15.9",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X155",
+   "categoria": "geometria",
+   "proprieta": "legame H O3—H36⋯O2 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.063,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 1.423,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.485,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 176.6,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.089,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    },
+    {
+     "valore": 16.3,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O3—H36⋯O2 | 1.063 | 1.423 | 2.485 | 176.6 | 0.089 | 16.3",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X156",
+   "categoria": "geometria",
+   "proprieta": "legame H N44—H71⋯O38 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.078,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 1.557,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.616,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 166.1,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.103,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    },
+    {
+     "valore": 7.4,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "N44—H71⋯O38 | 1.078 | 1.557 | 2.616 | 166.1 | 0.103 | 7.4",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X157",
+   "categoria": "geometria",
+   "proprieta": "legame H N8—H35⋯O4 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.073,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 1.656,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3",
+     "testo": "1.656*"
+    },
+    {
+     "valore": 2.706,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 164.6,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.096,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    },
+    {
+     "valore": 7.2,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "N8—H35⋯O4 | 1.073 | 1.656* | 2.706 | 164.6 | 0.096 | 7.2",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding); l'asterisco sul valore di H···A non e' spiegato nel testo letto"
+  },
+  {
+   "id": "X158",
+   "categoria": "geometria",
+   "proprieta": "legame H N42—H43⋯O4 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.035,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 1.874,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.906,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 174.4,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.067,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    },
+    {
+     "valore": 6.0,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "N42—H43⋯O4 | 1.035 | 1.874 | 2.906 | 174.4 | 0.067 | 6.0",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X159",
+   "categoria": "geometria",
+   "proprieta": "legame H N6—H7⋯O39 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.034,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 1.791,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.797,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 163.1,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.064,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    },
+    {
+     "valore": 5.8,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "N6—H7⋯O39 | 1.034 | 1.791 | 2.797 | 163.1 | 0.064 | 5.8",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X160",
+   "categoria": "geometria",
+   "proprieta": "legame H C67—H70⋯O38 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.097,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.376,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 3.404,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 155.5,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.025,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C67—H70⋯O38 | 1.097 | 2.376 | 3.404 | 155.5 | 0.025 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X161",
+   "categoria": "geometria",
+   "proprieta": "legame H C48—H49⋯O2 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.092,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.545,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 3.552,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 153.0,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.018,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C48—H49⋯O2 | 1.092 | 2.545 | 3.552 | 153.0 | 0.018 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X162",
+   "categoria": "geometria",
+   "proprieta": "legame H C18—H19⋯O40 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.088,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.761,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 3.793,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 158.3,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.014,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C18—H19⋯O40 | 1.088 | 2.761 | 3.793 | 158.3 | 0.014 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X163",
+   "categoria": "geometria",
+   "proprieta": "legame H C12—H13⋯O41 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.091,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.707,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 3.725,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 155.1,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.014,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C12—H13⋯O41 | 1.091 | 2.707 | 3.725 | 155.1 | 0.014 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X164",
+   "categoria": "geometria",
+   "proprieta": "legame H C50—H51⋯O5 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.09,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.593,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 3.683,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 177.0,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.013,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C50—H51⋯O5 | 1.090 | 2.593 | 3.683 | 177.0 | 0.013 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X165",
+   "categoria": "geometria",
+   "proprieta": "legame H C27—H28⋯O4 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.096,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.715,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 3.605,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 137.9,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.013,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C27—H28⋯O4 | 1.096 | 2.715 | 3.605 | 137.9 | 0.013 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X166",
+   "categoria": "geometria",
+   "proprieta": "legame H C27—H30⋯O3 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.095,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.401,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 3.166,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 125.6,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.01,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C27—H30⋯O3 | 1.095 | 2.401 | 3.166 | 125.6 | 0.010 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X167",
+   "categoria": "geometria",
+   "proprieta": "legame H C67—H68⋯C18 in Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.097,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F3"
+    },
+    {
+     "valore": 2.871,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 3.954,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 168.9,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F3"
+    },
+    {
+     "valore": 0.01,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F3"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C67—H68⋯C18 | 1.097 | 2.871 | 3.954 | 168.9 | 0.010 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X168",
+   "categoria": "geometria",
+   "proprieta": "legame H O3—H17⋯O2 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.044,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.476,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.519,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 176.7,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.081,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    },
+    {
+     "valore": 15.6,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O3—H17⋯O2 | 1.044 | 1.476 | 2.519 | 176.7 | 0.081 | 15.6",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X169",
+   "categoria": "geometria",
+   "proprieta": "legame H N2—H16⋯O5 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.067,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.723,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.746,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 158.9,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.084,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    },
+    {
+     "valore": 6.7,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "N2—H16⋯O5 | 1.067 | 1.723 | 2.746 | 158.9 | 0.084 | 6.7",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X170",
+   "categoria": "geometria",
+   "proprieta": "legame H N1—H1⋯O6 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.028,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.982,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 3.006,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 173.9,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.057,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    },
+    {
+     "valore": 5.5,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "N1—H1⋯O6 | 1.028 | 1.982 | 3.006 | 173.9 | 0.057 | 5.5",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X171",
+   "categoria": "geometria",
+   "proprieta": "legame H O7—H23⋯O1 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 0.989,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.898,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.847,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 159.7,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.048,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    },
+    {
+     "valore": 11.9,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O7—H23⋯O1 | 0.989 | 1.898 | 2.847 | 159.7 | 0.048 | 11.9",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X172",
+   "categoria": "geometria",
+   "proprieta": "legame H O7—H22⋯O2 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 0.991,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.822,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.776,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 160.7,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.051,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    },
+    {
+     "valore": 12.3,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O7—H22⋯O2 | 0.991 | 1.822 | 2.776 | 160.7 | 0.051 | 12.3",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X173",
+   "categoria": "geometria",
+   "proprieta": "legame H O6—H21⋯O7 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 0.975,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.648,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 3.533,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 151.1,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.011,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    },
+    {
+     "valore": 5.7,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O6—H21⋯O7 | 0.975 | 2.648 | 3.533 | 151.1 | 0.011 | 5.7",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X174",
+   "categoria": "geometria",
+   "proprieta": "legame H O6—H20⋯O7 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 0.999,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.743,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.73,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 169.0,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.058,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    },
+    {
+     "valore": 13.2,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O6—H20⋯O7 | 0.999 | 1.743 | 2.730 | 169.0 | 0.058 | 13.2",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X175",
+   "categoria": "geometria",
+   "proprieta": "legame H O5—H19⋯O1 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 0.995,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.749,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.738,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 172.2,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.053,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    },
+    {
+     "valore": 12.6,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O5—H19⋯O1 | 0.995 | 1.749 | 2.738 | 172.2 | 0.053 | 12.6",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X176",
+   "categoria": "geometria",
+   "proprieta": "legame H O5—H18⋯O1 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 0.989,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 1.894,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.87,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 168.6,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.047,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    },
+    {
+     "valore": 11.8,
+     "unita": "kcal mol−1",
+     "etichetta": "E",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "O5—H18⋯O1 | 0.989 | 1.894 | 2.870 | 168.6 | 0.047 | 11.8",
+   "note": "geometria etichettata CRYSTAL17 nella tabella; E dalla correlazione di Rammohan & Kaduk (2018) per O—H···O e di Wheatley & Kaduk (2019) per N—H···O (testo della sezione Hydrogen bonding)"
+  },
+  {
+   "id": "X177",
+   "categoria": "geometria",
+   "proprieta": "legame H C12—H14⋯O6 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.097,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.519,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 3.604,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 170.1,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.026,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C12—H14⋯O6 | 1.097 | 2.519 | 3.604 | 170.1 | 0.026 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X178",
+   "categoria": "geometria",
+   "proprieta": "legame H C12—H15⋯O5 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.094,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.433,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 3.482,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 160.2,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.021,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C12—H15⋯O5 | 1.094 | 2.433 | 3.482 | 160.2 | 0.021 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X179",
+   "categoria": "geometria",
+   "proprieta": "legame H C12—H13⋯O2 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.093,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.478,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 3.423,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 143.9,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.014,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C12—H13⋯O2 | 1.093 | 2.478 | 3.423 | 143.9 | 0.014 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X180",
+   "categoria": "geometria",
+   "proprieta": "legame H C11—H10⋯O5 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.095,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.767,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 3.732,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 146.9,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.013,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C11—H10⋯O5 | 1.095 | 2.767 | 3.732 | 146.9 | 0.013 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X181",
+   "categoria": "geometria",
+   "proprieta": "legame H C11—H10⋯O7 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.095,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.744,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 3.462,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 122.8,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.011,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C11—H10⋯O7 | 1.095 | 2.744 | 3.462 | 122.8 | 0.011 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X182",
+   "categoria": "geometria",
+   "proprieta": "legame H C9—H7⋯O4 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.102,
+     "unita": "Å",
+     "etichetta": "D—H",
+     "forma": "F1"
+    },
+    {
+     "valore": 2.417,
+     "unita": "Å",
+     "etichetta": "H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 3.358,
+     "unita": "Å",
+     "etichetta": "D⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 142.5,
+     "unita": "°",
+     "etichetta": "D—H⋯A",
+     "forma": "F1"
+    },
+    {
+     "valore": 0.011,
+     "unita": "e",
+     "etichetta": "Overlap",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C9—H7⋯O4 | 1.102 | 2.417 | 3.358 | 142.5 | 0.011 |",
+   "note": "geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X183",
+   "categoria": "geometria",
+   "proprieta": "legame H C11—H12⋯C6 in Hydrate A (OKOKAD)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "Hydrate A"
+   },
+   "tecnica": "DFT (CRYSTAL17)",
+   "valori": [
+    {
+     "valore": 1.093,
+     "forma": "F1"
+    },
+    {
+     "valore": 3.545,
+     "forma": "F1"
+    },
+    {
+     "valore": 173.0,
+     "forma": "F1"
+    },
+    {
+     "valore": 0.013,
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "C11—H12⋯C6 | 1.093 | 3.545 | 173.0 | 0.013 |  |",
+   "note": "riga con meno celle delle altre nel testo letto (mancano una o piu' colonne): i valori sono nell'ordine scritto, l'attribuzione alle colonne non e' sicura; geometria etichettata CRYSTAL17 nella tabella"
+  },
+  {
+   "id": "X184",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 1 (RTI-1823-17-15)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 1 (RTI-1823-17-15)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "%",
+     "forma": "F1",
+     "etichetta": "Hydrate A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "1 | RTI-1823-17-15 | 100 | – |",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X185",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 2 (Folen)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 2 (Folen)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 4.5,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 4,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 85.9,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 54,
+     "etichetta": "Polymorph A"
+    },
+    {
+     "valore": 9.6,
+     "unita": "%",
+     "forma": "F3",
+     "incertezza": 30,
+     "etichetta": "Polymorph B"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "2 | Folen | 4.5 (4) | 85.9 (54) | 9.6 (30)",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X186",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 3 (USP 0274-F)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 3 (USP 0274-F)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "%",
+     "forma": "F1",
+     "etichetta": "Hydrate A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "3 | USP 0274-F | 100 | – | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X187",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 4 a (10415-25)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 4 a (10415-25)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.3,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 99.7,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 6,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "4 a | 10415-25 | 0.3 (1) | 99.7 (6) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X188",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 4 b (10415-25)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 4 b (10415-25)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.2,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 99.8,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 19,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "4 b | 10415-25 | 0.2 (1) | 99.8 (19) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X189",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 5 (Ψ-67-2)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 5 (Ψ-67-2)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 6.5,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 80.9,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 22,
+     "etichetta": "Polymorph A"
+    },
+    {
+     "valore": 12.5,
+     "unita": "%",
+     "forma": "F3",
+     "incertezza": 10,
+     "etichetta": "Polymorph B"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "5 | Ψ-67-2 | 6.5 (1) | 80.9 (22) | 12.5 (10)",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X190",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 6 (Ψ-81-1)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 6 (Ψ-81-1)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "%",
+     "forma": "F1",
+     "etichetta": "Hydrate A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "6 | Ψ-81-1 | 100 | – | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X191",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 7 (Ψ-97-1)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 7 (Ψ-97-1)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.2,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 99.8,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 17,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "7 | Ψ-97-1 | 0.2 (1) | 99.8 (17) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X192",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 8 (Polymorph A)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 8 (Polymorph A)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 80.9,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 6,
+     "etichetta": "Polymorph A"
+    },
+    {
+     "valore": 19.1,
+     "unita": "%",
+     "forma": "F3",
+     "incertezza": 7,
+     "etichetta": "Polymorph B"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "8 | Polymorph A | – | 80.9 (6) | 19.1 (7)",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X193",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 9 (Polymorph A′)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 9 (Polymorph A′)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 99.7,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 8,
+     "etichetta": "Polymorph A"
+    },
+    {
+     "valore": 0.3,
+     "unita": "%",
+     "forma": "F3",
+     "incertezza": 3,
+     "etichetta": "Polymorph B"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "9 | Polymorph A′ | – | 99.7 (8) | 0.3 (3)",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X194",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 10 (Hydrate A)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 10 (Hydrate A)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "%",
+     "forma": "F1",
+     "etichetta": "Hydrate A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "10 | Hydrate A | 100 |  |",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X195",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 11 (Polymorph B)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 11 (Polymorph B)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "%",
+     "forma": "F3",
+     "etichetta": "Polymorph B"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "11 | Polymorph B | – | – | 100",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X196",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 12 (SPS5107/20/1)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 12 (SPS5107/20/1)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.1,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 99.9,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 10,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "12 | SPS5107/20/1 | 0.1 (1) | 99.9 (10) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X197",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 13 (17/44/136G)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 13 (17/44/136G)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.1,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 99.1,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 13,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "13 | 17/44/136G | 0.1 (1) | 99.1 (13) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X198",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 14 (17/44/132E)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 14 (17/44/132E)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100.0,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 11,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "14 | 17/44/132E | – | 100.0 (11) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X199",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 15 (17/44/116Z)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 15 (17/44/116Z)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.1,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 99.1,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 12,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "15 | 17/44/116Z | 0.1 (1) | 99.1 (12) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X200",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 16 (17/44/123L)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 16 (17/44/123L)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.2,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 99.8,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 11,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "16 | 17/44/123L | 0.2 (1) | 99.8 (11) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X201",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 17 (800325750)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 17 (800325750)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.2,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 99.8,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 25,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "17 | 800325750 | 0.2 (1) | 99.8 (25) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X202",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 18 (800326600)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 18 (800326600)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 0.2,
+     "unita": "%",
+     "forma": "F1",
+     "incertezza": 1,
+     "etichetta": "Hydrate A"
+    },
+    {
+     "valore": 99.8,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 10,
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "18 | 800326600 | 0.2 (1) | 99.8 (10) | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X203",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 19 (ARN-19-002654)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 19 (ARN-19-002654)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "%",
+     "forma": "F2",
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "19 | ARN-19-002654 | – | 100 | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X204",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 20 (CG002E-035-04)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 20 (CG002E-035-04)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "%",
+     "forma": "F1",
+     "etichetta": "Hydrate A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "20 | CG002E-035-04 | 100 | – | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X205",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 21 (CG-0019E-038-03)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 21 (CG-0019E-038-03)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "%",
+     "forma": "F3",
+     "etichetta": "Polymorph B"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "21 | CG-0019E-038-03 | – | – | 100",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X206",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 22 (PL005E-004-40C)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 22 (PL005E-004-40C)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "%",
+     "forma": "F2",
+     "etichetta": "Polymorph A"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "22 | PL005E-004-40C | – | 100 | –",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X207",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 23 (PL005E-004-45C)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 23 (PL005E-004-45C)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 91.7,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 7,
+     "etichetta": "Polymorph A"
+    },
+    {
+     "valore": 8.3,
+     "unita": "%",
+     "forma": "F3",
+     "incertezza": 4,
+     "etichetta": "Polymorph B"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "23 | PL005E-004-45C | – | 91.7 (7) | 8.3 (4)",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X208",
+   "categoria": "composizione",
+   "proprieta": "abbondanza relativa delle fasi per QPA di Rietveld, Sample 24 (PL005E-004-55C)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 24 (PL005E-004-55C)"
+   },
+   "tecnica": "PXRD (Rietveld QPA, GSAS-II)",
+   "valori": [
+    {
+     "valore": 77.4,
+     "unita": "%",
+     "forma": "F2",
+     "incertezza": 8,
+     "etichetta": "Polymorph A"
+    },
+    {
+     "valore": 22.6,
+     "unita": "%",
+     "forma": "F3",
+     "incertezza": 5,
+     "etichetta": "Polymorph B"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "24 | PL005E-004-55C | – | 77.4 (8) | 22.6 (5)",
+   "note": "incertezza = cifre fra parentesi riferite alle ultime cifre; stime approssimate (diffrattometri e geometrie diverse); il trattino e le celle vuote indicano le fasi non indicate"
+  },
+  {
+   "id": "X209",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "riflessione a 10.1° 2θ rivendicata dai brevetti successivi per distinguere Polymorph A′ da Polymorph A",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Polymorph A′ / Polymorph A (etichette dei brevetti)"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 10.1,
+     "unita": "° 2θ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Subsequent patents include additional dependent claims defining Polymorph A versus Polymorph A′ to describe the presence of a reflection at 10.1° 2θ in Polymorph A′ where this reflection was ‘absent or substantially absent’ in Polymorph A.",
+   "note": "citato dai brevetti successivi a Londesbrough et al. (2019); gli autori la attribuiscono a un effetto di orientazione preferenziale"
+  },
+  {
+   "id": "X210",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "assenza della riflessione a 17.5° 2θ in Sample 19 (lotto da 1.2 kg)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 19 (ARN-19-002654)"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 17.5,
+     "unita": "° 2θ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "la riflessione aggiuntiva non e' presente nel campione da 1.2 kg",
+   "calcolato": null,
+   "citazione": "That is, the additional reflection at 17.5° 2θ was not correlated with psilocybin produced at large scale in the case of Sample 19.",
+   "note": null
+  },
+  {
+   "id": "X211",
+   "categoria": "composizione",
+   "proprieta": "assegnazione delle fasi nei campioni da 1 a 7 secondo la discussione",
+   "oggetto": null,
+   "tecnica": "PXRD (Rietveld QPA)",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "Hydrate A nei campioni 1, 2 e 6; Polymorph A nei campioni 4 e 7; materiali misti nei campioni 2 e 5",
+   "calcolato": null,
+   "citazione": "The older examples, Samples 1–7, demonstrated the existence of bulk psilocybin represented by either Hydrate A (Samples 1, 2, and 6), Polymorph A (Samples 4 and 7), or mixed-phase materials containing all three forms (Samples 2 and 5).",
+   "note": "il Sample 2 e' elencato sia fra gli idrati sia fra i misti; la Tabella 8 da' per Sample 2 Hydrate A 4.5 (4) %, Polymorph A 85.9 (54) %, Polymorph B 9.6 (30) %, e il testo su Sample 2 dice «consistent primarily with Polymorph A»: la frase e' incoerente con la tabella"
+  },
+  {
+   "id": "X212",
+   "categoria": "altro",
+   "proprieta": "lotto e data di produzione di Sample 1",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 1 (RTI-1823-17-15)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "944369",
+     "etichetta": "Batch"
+    },
+    {
+     "valore": 1963,
+     "etichetta": "anno del lotto (dicembre)"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The sample was obtained from an archived lot of psilocybin originally produced by Sandoz Ltd (Basel, Switzerland), Batch 944369, dated December 1963",
+   "note": null
+  },
+  {
+   "id": "X213",
+   "categoria": "altro",
+   "proprieta": "lotto del campione USP di Sample 3",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 3 (USP 0274-F)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "testo": "216420301",
+     "etichetta": "Lot"
+    },
+    {
+     "testo": "0274-F",
+     "etichetta": "code"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "This sample was a USP (Rockville, MD) Authentic Substance, Psilocybin code 0274-F, Lot 216420301",
+   "note": null
+  },
+  {
+   "id": "X214",
+   "categoria": "altro",
+   "proprieta": "data di Sample 3 ricavata dal registro d'uso",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 3 (USP 0274-F)"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 1976,
+     "etichetta": "primo uso registrato"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "A record-of-use log from the original owner (Dr Alexander Shulgin) shows it was used as early as 1976 and this date was used in Table 2 ▸.",
+   "note": "la data di fabbricazione precisa non e' disponibile"
+  },
+  {
+   "id": "X215",
+   "categoria": "cristallografia",
+   "proprieta": "probabilita' degli ellissoidi nella figura dell'unita' asimmetrica di Polymorph A",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "Polymorph A"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 50,
+     "unita": "%"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The atoms are represented by 50% probability spheroids.",
+   "note": null
+  },
+  {
+   "id": "X216",
+   "categoria": "cristallografia",
+   "proprieta": "probabilita' degli ellissoidi nella figura dell'unita' asimmetrica di Polymorph B",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 50,
+     "unita": "%"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "valori Uiso fissati",
+   "calcolato": null,
+   "citazione": "The atoms are represented by 50% probability spheroids (fixed U iso values).",
+   "note": null
+  },
+  {
+   "id": "X217",
+   "categoria": "cristallografia",
+   "proprieta": "assi di cella a, b, c con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Hydrate A, Polymorph A, Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 14.3906,
+     "unita": "Å",
+     "forma": "F1",
+     "etichetta": "a",
+     "incertezza": 2
+    },
+    {
+     "valore": 8.26729,
+     "unita": "Å",
+     "forma": "F1",
+     "etichetta": "b",
+     "incertezza": 9
+    },
+    {
+     "valore": 27.1581,
+     "unita": "Å",
+     "forma": "F1",
+     "etichetta": "c",
+     "incertezza": 3
+    },
+    {
+     "valore": 17.4979,
+     "unita": "Å",
+     "forma": "F2",
+     "etichetta": "a",
+     "incertezza": 2
+    },
+    {
+     "valore": 16.0914,
+     "unita": "Å",
+     "forma": "F2",
+     "etichetta": "b",
+     "incertezza": 1
+    },
+    {
+     "valore": 9.34815,
+     "unita": "Å",
+     "forma": "F2",
+     "etichetta": "c",
+     "incertezza": 7
+    },
+    {
+     "valore": 10.3986,
+     "unita": "Å",
+     "forma": "F3",
+     "etichetta": "a",
+     "incertezza": 13
+    },
+    {
+     "valore": 15.4823,
+     "unita": "Å",
+     "forma": "F3",
+     "etichetta": "b",
+     "incertezza": 19
+    },
+    {
+     "valore": 17.2085,
+     "unita": "Å",
+     "forma": "F3",
+     "etichetta": "c",
+     "incertezza": 26
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "a, b, c (Å) | 14.3906 (2), 8.26729 (9), 27.1581 (3) | 17.4979 (2), 16.0914 (1), 9.34815 (7) | 10.3986 (13), 15.4823 (19), 17.2085 (26)",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X218",
+   "categoria": "cristallografia",
+   "proprieta": "angoli di cella α, β, γ con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Hydrate A, Polymorph A, Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F1",
+     "etichetta": "α"
+    },
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F1",
+     "etichetta": "β"
+    },
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F1",
+     "etichetta": "γ"
+    },
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F2",
+     "etichetta": "α"
+    },
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F2",
+     "etichetta": "β"
+    },
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F2",
+     "etichetta": "γ"
+    },
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F3",
+     "etichetta": "α"
+    },
+    {
+     "valore": 95.6,
+     "unita": "°",
+     "forma": "F3",
+     "etichetta": "β",
+     "incertezza": 8
+    },
+    {
+     "valore": 90,
+     "unita": "°",
+     "forma": "F3",
+     "etichetta": "γ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "α, β, γ (°) | 90, 90, 90 | 90, 90, 90 | 90, 95.600 (8), 90",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X219",
+   "categoria": "cristallografia",
+   "proprieta": "volume di cella con incertezza",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Hydrate A, Polymorph A, Polymorph B"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 3231.04,
+     "unita": "Å3",
+     "forma": "F1",
+     "etichetta": "V",
+     "incertezza": 6
+    },
+    {
+     "valore": 2632.11,
+     "unita": "Å3",
+     "forma": "F2",
+     "etichetta": "V",
+     "incertezza": 3
+    },
+    {
+     "valore": 2757.3,
+     "unita": "Å3",
+     "forma": "F3",
+     "etichetta": "V",
+     "incertezza": 8
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "V (Å3) | 3231.04 (6) | 2632.11 (3) | 2757.3 (8)",
+   "note": "i valori sono gia' in forme.cella senza incertezza; qui con le cifre fra parentesi, riferite alle ultime cifre"
+  },
+  {
+   "id": "X220",
+   "categoria": "altro",
+   "proprieta": "numero di campioni di psilocibina analizzati per PXRD",
+   "oggetto": null,
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 24,
+     "unita": "campioni"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "In total, PXRD analysis was obtained for 24 unique samples of psilocybin from multiple sources",
+   "note": null
+  },
+  {
+   "id": "X221",
+   "categoria": "composizione",
+   "proprieta": "rapporto approssimato Polymorph A : Polymorph B nel campione 8 (Polymorph A del brevetto)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "Sample 8 (Polymorph A del brevetto)"
+   },
+   "tecnica": "PXRD (Rietveld QPA)",
+   "valori": [
+    {
+     "testo": "81:19",
+     "etichetta": "Polymorph A : Polymorph B",
+     "circa": true
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The approximate ratio of Polymorph A to Polymorph B was 81:19.",
+   "note": "stesso dato della riga 8 di Tabella 8 (80.9 (6) % e 19.1 (7) %), qui arrotondato nel testo"
+  }
+ ]
+}

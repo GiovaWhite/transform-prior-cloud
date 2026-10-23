@@ -1,0 +1,1031 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.3c01011",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "griseofulvin",
+   "nome_scritto": "C17H17ClO6-(2S,6’R)-7-chloro-2′,4,6-trimethoxy-6′-methyl-3H,4′H-spiro [1-benzo-furan-2,1′-cyclohex[2]ene]-3,4′-dione",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "GSF Form I",
+   "etichette_alternative": [
+    "Form I",
+    "stable Form I"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "refcode": "GRISFL0720",
+   "ccdc": null,
+   "citazione": "The crystallographic data for GSF Form I (CSD Refcode GRISFL0720) and Form VI (this work) were used as structural models.",
+   "note": "Polimorfo stabile, forma del farmaco in commercio («The medicine is available as a tablet or suspension for oral administration as the stable Form I»); prima struttura del 1977. La forma usata come materiale di partenza e' Form I al 98% di un fornitore. Mai chiamata «anhydrous», ma senza solvente: tipo_presunto. Il refcode GRISFL0720 e' attribuito dal testo ai dati usati per l'analisi di Hirshfeld; gruppo spaziale e cella non sono dati nel testo."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "GSF Form VI",
+   "etichette_alternative": [
+    "Form VI",
+    "GSF form VI"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 9.4957,
+    "b": 8.6772,
+    "c": 11.8614,
+    "alpha": 90,
+    "beta": 113.465,
+    "gamma": 90,
+    "V": 896.51,
+    "Z": 2,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "298.00 K (RT)"
+   },
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "RT"
+     },
+     "fonte": "SCXRD",
+     "citazione": "The crystal structure was determined at RT and at 150 K for crystals obtained from ACN solution"
+    },
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 150,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "The crystal structure was determined at RT and at 150 K for crystals obtained from ACN solution"
+    }
+   ],
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "The new polymorph (GSF form VI) crystallizes in the monoclinic P21 space group, with a = 9.4957 Å, b = 8.6772 Å, c = 11.8614 Å, and β = 113.465° (Table 1). The unit cell contains 2 GSF molecules (Z = 2), with one molecule in the asymmetric unit.",
+   "note": "Nuovo polimorfo, ottenuto per essiccamento a temperatura ambiente del solvato con acetonitrile (relict structure). Cella a temperatura ambiente (Tabella 1, colonna «GSF Form VI», T/K 298.00): a, b, c, beta come nel testo, alpha = gamma = 90 e V = 896.51(7) Å3 dalla Tabella 1; Z, Z' = 2, 1. Una seconda cella a 150 K (a 9.3824(6), b 8.6221(5), c 11.8304(7) Å, beta 113.240(3)°, V 879.38(9) Å3) e' nell'extra: nelle forme c'e' posto per una sola cella. Nessun CCDC nel testo. Mai chiamata «anhydrous»: formula C17H17ClO6 senza solvente (tipo_presunto)."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "GSF-ACN",
+   "etichette_alternative": [
+    "GSF-acetonitrile solvate",
+    "GSF-ACN solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 1,
+    "riferito_a": "molecola"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "The TGA profile and DSC thermogram of GSF-ACN (Figure 8a) agree with the data that has previously been reported by Aitipamula et al.,8 confirming it has a 1:1 stoichiometric ratio.",
+   "note": "Solvato gia' noto (Aitipamula et al., 2014), qui rifatto: si ottiene sciogliendo Form I in acetonitrile («it recrystallizes as the GSF-ACN solvate»). Struttura a strati doppi con vuoti occupati dal solvente; la sua struttura e le sue celle non sono date nel testo (solo confronto strutturale con Form VI)."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "GSF-nBuAc",
+   "etichette_alternative": [
+    "GSF-nBuAc solvate",
+    "GSF-n-butyl acetate solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "n-butyl acetate",
+    "stechiometria": 0.5,
+    "riferito_a": "molecola"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P1",
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 150,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "and at 150 K for the crystals obtained from nBuAc solution"
+    }
+   ],
+   "cella": {
+    "a": 8.6087,
+    "b": 11.7252,
+    "c": 11.7453,
+    "alpha": 113.229,
+    "beta": 90.06,
+    "gamma": 110.993,
+    "V": 1003.04,
+    "Z": 2,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "150 K"
+   },
+   "ccdc": null,
+   "refcode": null,
+   "citazione": "Single crystals of the new solvate, at 150 K, adopt a triclinic space group, with a = 8.6087 Å, b = 11.7252 Å, c = 11.7453 Å, α = 113.229°, β = 90.060°, and γ = 110.993° (Table 1). The unit cell contains 2 molecules of GSF and 1 nBuAc in the asymmetric unit.",
+   "note": "Nuovo solvato, emisolvato («GSF-nBuAc is a hemisolvate»): GSF:nBuAc 1:0.5, due molecole di GSF per ogni molecola di nBuAc. Tabella 1 (150.00 K): «space group P1», formula C17H17ClO6·0.5C6H12O2, Z, Z' = 2, 2, V = 1003.04(6) Å3. Il gruppo P1 e' coerente con una molecola chirale ((2S,6'R)) e Z = Z' = 2: non e' un P-1 perso dal PDF. Il testo dice «The unit cell contains 2 molecules of GSF and 1 nBuAc in the asymmetric unit» (frase confusa: cella e unita' asimmetrica coincidono in P1). Isostrutturale con il solvato di diclorometano. Nessun CCDC nel testo."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F1"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F1",
+   "stabile_a_temperatura_ambiente": "F1",
+   "citazione": "Based on this rule, the DSC result suggests a monotropic polymorphic relationship between the previously unreported GSF Form VI and Form I.",
+   "fonte_dati": "propria",
+   "note": "Dedotta dalla regola del calore di transizione di Burger e Ramberger: un picco esotermico (Form VI -> Form I a 381.55 K) indica monotropia. L'abstract la afferma piu' decisamente («Form VI is metastable and monotropically related to the stable GSF Form I»), i risultati dicono «the DSC result suggests». Energia reticolare calcolata: Form I -41.9, Form VI -35.9 kcal/mol (Form I piu' stabile). Nessuna temperatura di transizione."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 291,
+     "max": 298,
+     "unita": "K",
+     "tipo": "ambiente",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Upon drying at ambient temperature (around 291–298 K) for 24 h, a novel phase crystallized whose structure was not previously present in the CSD database, henceforth called Form VI (Figure 2a).",
+    "When GSF Form I, as received, is dissolved in ACN solution, it recrystallizes as the GSF-ACN solvate (Figure 2a).8",
+    "The white suspensions obtained by crystallization were then filtered using 0.22 μm polyvinylidene fluoride (PVDF) membrane filters and left to dry at RT in a fume hood.",
+    "The slurry containing GSF-ACN solvate and freshly filtered samples of GSF-nBuAc solvate powder was analyzed by PXRD analysis."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il solvato di acetonitrile (sospensione filtrata) lasciato asciugare all'aria a temperatura ambiente (circa 291-298 K) per 24 h da' il nuovo polimorfo Form VI. L'umidita' non e' detta (aria ambiente). «RT» e' dato dal testo come 291-298 K. Campione: torta filtrata su membrana PVDF lasciata asciugare in cappa.",
+   "campione": {
+    "tipo": "torta_umida"
+   }
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 291,
+     "max": 298,
+     "unita": "K",
+     "tipo": "ambiente"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "PLM"
+    ]
+   },
+   "citazioni": [
+    "The exposure of GSF-ACN crystals to air at RT (291–298 K) for 24 h provides single crystals of the novel phase (GSF Form VI) suitable for SC-XRD analysis.",
+    "Based on the solid-state analysis presented in this work, GSF crystallizes as the GSF-ACN solvate in ACN and transforms to GSF Form VI after RT exposure for 24 h and to GSF Form I after heating at 423 K;"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Cristalli del solvato esposti all'aria a RT (291-298 K) per 24 h danno cristalli singoli di Form VI adatti alla diffrazione: la struttura e' risolta su questi cristalli. Il testo non usa la parola SCSC. Le immagini al microscopio a luce polarizzata (Fig. 12a-b) mostrano lo stesso passaggio: 'transforms to GSF Form VI after RT exposure for 24 h'.",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   }
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 291,
+     "max": 298,
+     "unita": "K",
+     "tipo": "ambiente"
+    },
+    "tempo": {
+     "valore": 6,
+     "unita": "month",
+     "tipo": "trasformazione"
+    },
+    "atmosfera": "closed vial",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "GSF Form VI transforms into the stable Form I after six months if kept in a closed vial at RT (291–298 K) or in less time if exposed to high relative air humidity (Figure 2a).",
+    "GSF Form VI is metastable, transforming into Form I upon aging at RT or by incubating at 423.15 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Conservazione in un flacone chiuso a temperatura ambiente (291-298 K): dopo sei mesi Form VI diventa la Form I stabile. Il tempo e' 'after six months' (quanto ci mette la trasformazione in quelle condizioni).",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "umidita": {
+     "valore": null,
+     "unita": null,
+     "testo": "high relative air humidity"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": "month",
+     "tipo": "trasformazione",
+     "max": 6,
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "GSF Form VI transforms into the stable Form I after six months if kept in a closed vial at RT (291–298 K) or in less time if exposed to high relative air humidity (Figure 2a)."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Esposta a «high relative air humidity» la trasformazione e' piu' rapida dei sei mesi del flacone chiuso: RH, temperatura e tempo non sono dati (il tempo e' un limite superiore ricavato dal confronto, 'in less time'). Nessun idrato citato: il prodotto e' Form I.",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 381.55
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "picco": 381.55
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC thermogram for GSF Form VI, Figure 8b, shows an exothermic peak at 381.55 K corresponding to the transformation into GSF Form I, and an endothermic peak at 492.05 K corresponding to the melting of GSF Form I.",
+    "2–4 mg of powder was added to a concavus aluminum pan, which was sealed using a crimping press, and then the lid was pierced to avoid an increase in pressure due to sample evaporation.",
+    "The samples were analyzed in an inert environment (nitrogen flow of 20 mL min–1) with a temperature ramp rate of 5 K min–1 from 293.15 to 533.15 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Picco esotermico a 381.55 K: trasformazione di Form VI in Form I. Per la regola del calore di transizione (Burger e Ramberger) l'esotermo suggerisce una relazione monotropa (vedi relazioni). Il campione di Form VI e' la polvere da essiccamento del solvato. Crogiolo: «concavus aluminum pan» sigillato e poi forato.",
+   "passo": "transformation of Form VI into Form I",
+   "campione": {
+    "massa": "2–4 mg",
+    "crogiolo": "forato"
+   }
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 492.05
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "picco": 492.05
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC thermogram for GSF Form VI, Figure 8b, shows an exothermic peak at 381.55 K corresponding to the transformation into GSF Form I, and an endothermic peak at 492.05 K corresponding to the melting of GSF Form I.",
+    "2–4 mg of powder was added to a concavus aluminum pan, which was sealed using a crimping press, and then the lid was pierced to avoid an increase in pressure due to sample evaporation.",
+    "The samples were analyzed in an inert environment (nitrogen flow of 20 mL min–1) with a temperature ramp rate of 5 K min–1 from 293.15 to 533.15 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione di Form I formata da Form VI nella stessa corsa DSC (E5).",
+   "da_evento": "E5",
+   "passo": "melting of Form I",
+   "campione": {
+    "massa": "2–4 mg",
+    "crogiolo": "forato"
+   }
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 363.85
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "picco": 363.85
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC shows one endothermic peak at 363.85 K corresponding to the desolvation of the solvate and another endothermic peak at 493.85 K corresponding to the melting of GSF Form I, but the transition of the solvate to GSF Form VI and then to Form I was not detected during the DSC analysis.",
+    "2–4 mg of powder was added to a concavus aluminum pan, which was sealed using a crimping press, and then the lid was pierced to avoid an increase in pressure due to sample evaporation.",
+    "The samples were analyzed in an inert environment (nitrogen flow of 20 mL min–1) with a temperature ramp rate of 5 K min–1 from 293.15 to 533.15 K."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Picco endotermico a 363.85 K: desolvatazione del solvato di acetonitrile. La DSC non mostra il passaggio attraverso Form VI e poi Form I («was not detected»): intermedio cercato e non trovato. Il prodotto non e' identificato al picco: Form I e' dedotta dalla fusione di Form I a 493.85 K nella stessa corsa (E8), da cui a = Form I con certezza media.",
+   "esito_dettaglio": "senza_intermedio",
+   "passo": "desolvation of the solvate",
+   "campione": {
+    "massa": "2–4 mg",
+    "crogiolo": "forato"
+   }
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 493.85
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "picco": 493.85
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC shows one endothermic peak at 363.85 K corresponding to the desolvation of the solvate and another endothermic peak at 493.85 K corresponding to the melting of GSF Form I, but the transition of the solvate to GSF Form VI and then to Form I was not detected during the DSC analysis.",
+    "2–4 mg of powder was added to a concavus aluminum pan, which was sealed using a crimping press, and then the lid was pierced to avoid an increase in pressure due to sample evaporation.",
+    "The samples were analyzed in an inert environment (nitrogen flow of 20 mL min–1) with a temperature ramp rate of 5 K min–1 from 293.15 to 533.15 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione di Form I nella corsa DSC del solvato di acetonitrile (dopo la desolvatazione, E7).",
+   "da_evento": "E7",
+   "passo": "melting of Form I",
+   "campione": {
+    "massa": "2–4 mg",
+    "crogiolo": "forato"
+   }
+  },
+  {
+   "id": "E9",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "min": 471.15,
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "At higher temperatures, there is a gradual loss of mass with an unclear onset temperature above 471.15 K due to the melt-induced thermal decomposition of the GSF.",
+    "The TGA profiles do not show weight loss during the transformation from Form VI into Form I, indicating that Form VI is formed after a full desolvation of the GSF-ACN solvate.",
+    "Thermogravimetric analysis (TGA) was carried out under a nitrogen flow of 20 mL min–1 using a Perkin-Elmer TGA 4000.",
+    "Samples containing 2–5 mg of powder were placed in a ceramic crucible and heated to 523.15 K at a ramp rate of 20 K min–1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Nella TGA di Form VI: nessuna perdita di massa durante il passaggio Form VI -> Form I (Form VI nasce da una desolvatazione completa del solvato); oltre 471.15 K perdita graduale di massa, con inizio non chiaro, attribuita a «melt-induced thermal decomposition». La TGA parte da Form VI, che nel riscaldamento passa a Form I (senza perdita di massa); la decomposizione e' detta «melt-induced», cioe' riguarda il fuso. Si tiene la forma caricata.",
+   "campione": {
+    "massa": "2–5 mg"
+   }
+  },
+  {
+   "id": "E10",
+   "da": "F4",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 363.15,
+     "max": 374.15
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 15,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "The TGA profile presents a sharp loss of mass (15%) occurring between 363.15 and 374.15 K, corresponding to the solvent completely leaving the crystal structure.",
+    "The solvate loses the solvent from the crystal lattice at a temperature between 363.15 and 374.15 K.",
+    "Thermogravimetric analysis (TGA) was carried out under a nitrogen flow of 20 mL min–1 using a Perkin-Elmer TGA 4000.",
+    "Samples containing 2–5 mg of powder were placed in a ceramic crucible and heated to 523.15 K at a ramp rate of 20 K min–1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Perdita di massa del 15% fra 363.15 e 374.15 K: tutto il solvente esce («completely leaving the crystal structure»); la stechiometria GSF:nBuAc 1:0.5 corrisponde a 14.2% di solvente in massa. La TGA non caratterizza il prodotto: Form I e' quella identificata dalla DSC (E11) e dalla PXRD (E13, E14) per lo stesso solvato, da cui a = Form I con certezza media.",
+   "campione": {
+    "massa": "2–5 mg"
+   }
+  },
+  {
+   "id": "E11",
+   "da": "F4",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 351.95
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "picco": 351.95
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC thermogram shows an endothermic peak at 351.95 K corresponding to the collapse of the solvate structure and recrystallization into GSF Form I and evaporation of the solvent molecules19 and an endothermic peak at 491.95 K corresponding to the melting of the stable Form I.",
+    "2–4 mg of powder was added to a concavus aluminum pan, which was sealed using a crimping press, and then the lid was pierced to avoid an increase in pressure due to sample evaporation.",
+    "The samples were analyzed in an inert environment (nitrogen flow of 20 mL min–1) with a temperature ramp rate of 5 K min–1 from 293.15 to 533.15 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Picco endotermico a 351.95 K: collasso della struttura del solvato, ricristallizzazione in Form I ed evaporazione del solvente. Temperatura piu' bassa della TGA (363.15-374.15 K): velocita' diverse (5 contro 20 K/min).",
+   "passo": "collapse of the solvate structure and recrystallization into Form I, evaporation of the solvent",
+   "campione": {
+    "massa": "2–4 mg",
+    "crogiolo": "forato"
+   }
+  },
+  {
+   "id": "E12",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 491.95
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "nitrogen flow",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "picco": 491.95
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC thermogram shows an endothermic peak at 351.95 K corresponding to the collapse of the solvate structure and recrystallization into GSF Form I and evaporation of the solvent molecules19 and an endothermic peak at 491.95 K corresponding to the melting of the stable Form I.",
+    "2–4 mg of powder was added to a concavus aluminum pan, which was sealed using a crimping press, and then the lid was pierced to avoid an increase in pressure due to sample evaporation.",
+    "The samples were analyzed in an inert environment (nitrogen flow of 20 mL min–1) with a temperature ramp rate of 5 K min–1 from 293.15 to 533.15 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione di Form I formata dal solvato di nBuAc nella corsa DSC (E11).",
+   "da_evento": "E11",
+   "passo": "melting of Form I",
+   "campione": {
+    "massa": "2–4 mg",
+    "crogiolo": "forato"
+   }
+  },
+  {
+   "id": "E13",
+   "da": "F4",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "RT"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "PLM"
+    ]
+   },
+   "citazioni": [
+    "Upon drying at RT for 24 h, GSF-nBuAc undergoes desolvation and converts into the stable GSF Form I (Figure 2b).",
+    "GSF crystallizes as GSF-nBuAc in butyl acetate and transforms to GSF Form I after drying for 24 h.",
+    "GSF-nBuAc converts to GSF Form I upon heating to 323.15 K or by exposure to ambient air."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Essiccamento a temperatura ambiente per 24 h (le conclusioni dicono anche «by exposure to ambient air»): il solvato di nBuAc perde il solvente e diventa Form I, senza passare per un polimorfo intermedio. «RT» per questa frase non ha numero (291-298 K e' dato solo per le frasi di Form VI). Stessa trasformazione osservata al microscopio a luce polarizzata (Fig. 12d-e) e alla PXRD (Fig. 2b).",
+   "campione": {
+    "tipo": "torta_umida"
+   }
+  },
+  {
+   "id": "E14",
+   "da": "F4",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 323.15,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 20,
+     "unita": "h",
+     "tipo": "processo",
+     "circa": true
+    },
+    "atmosfera": "open oven",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Samples of crystals obtained in ACN and in nBuAc solutions were incubated overnight (∼ 20 h) at 423.15 and 323.15 K, respectively.",
+    "The PVDF membrane filter containing the solids after filtration was placed in a petri dish and left open in a clean oven set at the desired temperature. The resulting powder samples were analyzed by PXRD to identify structural transitions.",
+    "PXRD analysis of the solid samples of GSF Form VI and GSF-nBuAc incubated for around 20 h at 423.15 and 323.15 K, respectively, are presented in Figure 9. The PXRD patterns show that both GSF Form VI and GSF-nBuAc completely transformed into Form I.",
+    "The GSF-nBuAc transformation into GSF Form I at this temperature, lower than the transformation indicated by DSC, was due to a longer heating time (∼20 h)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Incubazione per circa 20 h (overnight) in un forno pulito aperto a 323.15 K: il solvato di nBuAc si trasforma completamente in Form I. Gli autori spiegano che la T e' piu' bassa di quella della DSC grazie al tempo di riscaldamento piu' lungo. Campione: solidi filtrati su membrana PVDF.",
+   "campione": {
+    "tipo": "torta_umida"
+   }
+  },
+  {
+   "id": "E15",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 423.15,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 20,
+     "unita": "h",
+     "tipo": "processo",
+     "circa": true
+    },
+    "atmosfera": "open oven",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Samples of crystals obtained in ACN and in nBuAc solutions were incubated overnight (∼ 20 h) at 423.15 and 323.15 K, respectively.",
+    "The PVDF membrane filter containing the solids after filtration was placed in a petri dish and left open in a clean oven set at the desired temperature. The resulting powder samples were analyzed by PXRD to identify structural transitions.",
+    "PXRD analysis of the solid samples of GSF Form VI and GSF-nBuAc incubated for around 20 h at 423.15 and 323.15 K, respectively, are presented in Figure 9. The PXRD patterns show that both GSF Form VI and GSF-nBuAc completely transformed into Form I."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Incubazione per circa 20 h a 423.15 K di cristalli ottenuti da acetonitrile (che essiccati sono Form VI): Form VI diventa completamente Form I. Il testo chiama il campione «crystals obtained in ACN»; l'identificazione come Form VI viene dalla frase dei risultati («PXRD ... of GSF Form VI and GSF-nBuAc incubated ...»). Campione: solidi filtrati su membrana PVDF.",
+   "campione": {
+    "tipo": "torta_umida"
+   },
+   "pretrattamento": "cristalli da soluzione di acetonitrile, asciugati (Form VI)"
+  },
+  {
+   "id": "E16",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 423,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PLM"
+    ]
+   },
+   "citazioni": [
+    "During solvent evaporation, microscope images were collected as freshly crystallized after 24 h drying at RT and after incubating for 1 h at 423 K.",
+    "Based on the solid-state analysis presented in this work, GSF crystallizes as the GSF-ACN solvate in ACN and transforms to GSF Form VI after RT exposure for 24 h and to GSF Form I after heating at 423 K;"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Microscopia a luce polarizzata di cristalli cresciuti per evaporazione su vetrino: dopo 1 h a 423 K Form VI e' Form I (Fig. 12b-c). L'identificazione delle fasi per le immagini e' 'based on the solid-state analysis presented in this work'; il cristallo non e' analizzato con PXRD in questa prova. Campione: gocce di soluzione evaporate su un vetrino (cristalli non meglio descritti).",
+   "campione": {
+    "tipo": "altro"
+   }
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Griseofulvin (GSF) Form I (98%) was obtained from Baoji Guokang Bio-Technology Co. (China)"
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "acetonitrile"
+   ],
+   "temperatura": {
+    "valore": 283.15,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "agitazione": {
+    "valore": 1200,
+    "unita": "rpm"
+   },
+   "rapporto_solido_solvente": "37–45 g L–1",
+   "esito": "ottenuta",
+   "pretrattamento": "soluzioni non sature agitate a 313.15 K per 72 h e filtrate (nylon 0.2 μm)",
+   "citazioni": [
+    "Undersaturated solutions of GSF in ACN within the concentration range 37–45 g L–1 were stirred at 313.15 K for 72 h and filtered using nylon 0.2 μm filters.",
+    "The resulting solutions in both solvents were left to crystallize at 283.15 K and 1200 rpm in sealed vials.",
+    "The supersaturation range for GSF was 1.41–1.86 in ACN and 2.13–2.57 in nBuAc.",
+    "When GSF Form I, as received, is dissolved in ACN solution, it recrystallizes as the GSF-ACN solvate (Figure 2a).8"
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristallizzazione per raffreddamento da 313.15 a 283.15 K in vials sigillati; sovrasaturazione 1.41-1.86 (rapporto fra concentrazione e solubilita' di Form I). Il solido e' il solvato GSF-ACN (sospensione analizzata alla PXRD)."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "n-butyl acetate"
+   ],
+   "temperatura": {
+    "valore": 283.15,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "agitazione": {
+    "valore": 1200,
+    "unita": "rpm"
+   },
+   "rapporto_solido_solvente": "8–10 g L–1",
+   "esito": "ottenuta",
+   "pretrattamento": "soluzioni non sature agitate a 333.15 K per 72 h e filtrate (PTFE 0.2 μm)",
+   "citazioni": [
+    "Undersaturated solutions of GSF in nBuAc within the concentration range 8–10 g L–1 were stirred at 333.15 K for 72 h and filtered using polytetrafluoroethylene (PTFE) 0.2 μm filters.",
+    "The resulting solutions in both solvents were left to crystallize at 283.15 K and 1200 rpm in sealed vials.",
+    "The supersaturation range for GSF was 1.41–1.86 in ACN and 2.13–2.57 in nBuAc.",
+    "Similarly, PXRD analysis suggests that the recrystallization of GSF Form I from nBuAc solution affords a new GSF-nBuAc solvate (Figure 2b)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Raffreddamento da 333.15 a 283.15 K; sovrasaturazione 2.13-2.57. Campione fresco di polvere filtrata analizzato alla PXRD subito."
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile",
+    "n-butyl acetate"
+   ],
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "RT"
+   },
+   "esito": "ottenuta",
+   "pretrattamento": "soluzioni non sature agitate 72 h a 313.15 K (ACN) e 333.15 K (nBuAc)",
+   "citazioni": [
+    "Undersaturated solutions of GSF in ACN within the concentration range 37–45 g L–1 and in nBuAc within the concentration range 8 - 10 g L–1 were stirred for 72 h at 313.15 and 333.15 K, respectively.",
+    "The resulting solution was then placed in open glass Petri dishes at RT inside a fume hood. Crystals formed upon complete solvent evaporation were collected for analysis."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli per la diffrazione di cristallo singolo: evaporazione completa del solvente in capsule di Petri aperte a RT. I cristalli da acetonitrile, esposti all'aria, danno Form VI (E2); quelli da nBuAc sono analizzati a 150 K come solvato."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E1",
+    "E2"
+   ],
+   "solventi": [],
+   "temperatura": {
+    "valore": null,
+    "min": 291,
+    "max": 298,
+    "unita": "K",
+    "tipo": "ambiente"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Upon drying at ambient temperature (around 291–298 K) for 24 h, a novel phase crystallized whose structure was not previously present in the CSD database, henceforth called Form VI (Figure 2a).",
+    "The exposure of GSF-ACN crystals to air at RT (291–298 K) for 24 h provides single crystals of the novel phase (GSF Form VI) suitable for SC-XRD analysis."
+   ],
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "two chiral centers on the cyclohexanone ring; (2S,6'R) configuration given in the name",
+     "citazione": "a cyclohexanone ring containing two chiral centers"
+    }
+   ],
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "metodo": "BCS class II: low solubility and high permeability (citato dal rif. 8)",
+     "citazione": "GSF is a class II drug according to the biopharmaceutics classification system (BCS), which means that it has low solubility and high permeability."
+    }
+   ]
+  }
+ ],
+ "note": "Griseofulvina (GSF): Form I stabile, Form VI nuova (polimorfo 'relict' ottenuto dall'essiccamento del solvato di acetonitrile) e un nuovo solvato di n-butil acetato (GSF-nBuAc, 1:0.5). Forme gia' note citate nell'introduzione e non estratte (nessun dato sperimentale di questo lavoro): Form II e III ottenute per cristallizzazione dal fuso (2013; strutture del 2018 e 2020), Form IV e V dal fuso in presenza di PEG (2022), e solvati con cloroformio, benzene, diossano, bromoetano, dicloroetano, diclorometano, dibromometano, bromoclorometano, 1-bromo-2-cloroetano, nitrometano e nitroetano (1:1 e 2:1). Il solvato di diclorometano e' isostrutturale con GSF-nBuAc. Tutti i solvati con vuoti (tranne quello di nitroetano 2:1) hanno la stessa struttura a strati: i doppi strati di Form VI si ripetono ab-ab, quelli dei solvati ab-ba (spazi per il solvente). Nessun numero CCDC e' scritto nel testo (il supplementare ha i dati cristallografici). Non sono eventi: lo spostamento del picco (030) ad angoli maggiori raffreddando (espansione termica, stessa fase); il confronto energetico del solvato di nBuAc 'desolvatato' virtuale (struttura ipotetica, non osservata: «too unstable to be isolated»). Calcoli (Hirshfeld, energie reticolari) e spettri FTIR sono nell'extra."
+}

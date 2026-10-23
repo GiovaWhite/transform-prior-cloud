@@ -1,0 +1,1280 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1248/cpb.c22-00817",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "sintesi",
+   "proprieta": "purezza, numero di passi e resa del processo di sintesi di NEt-3IB",
+   "oggetto": {
+    "forma": null,
+    "composto": "C1",
+    "etichetta": "NEt-3IB"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 99,
+     "unita": "%",
+     "limite": "sopra",
+     "etichetta": "purezza"
+    },
+    {
+     "valore": 7,
+     "unita": "passi",
+     "etichetta": "numero di passi"
+    },
+    {
+     "valore": 30,
+     "unita": "%",
+     "limite": "sopra",
+     "etichetta": "resa"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "which can be recovered and reused, and aﬀords 1 with at least 99% purity in 7 steps in a yield of 30% or more",
+   "note": "processo gia' stabilito dagli autori (rif. 16)"
+  },
+  {
+   "id": "X2",
+   "categoria": "composizione",
+   "proprieta": "analisi elementare (Tabella 1): campione ricristallizzato da EtOH al 70 % e asciugato",
+   "oggetto": {
+    "forma": "F3",
+    "composto": null,
+    "etichetta": "form II′"
+   },
+   "tecnica": "analisi elementare (PerkinElmer 2400II)",
+   "valori": [
+    {
+     "valore": 70.74,
+     "unita": "%",
+     "etichetta": "C"
+    },
+    {
+     "valore": 7.55,
+     "unita": "%",
+     "etichetta": "H"
+    },
+    {
+     "valore": 7.84,
+     "unita": "%",
+     "etichetta": "N"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "With drying 70.74 7.55 7.84",
+   "note": "«the dried sample ... consistent with the expected composition of anhydrous 1»"
+  },
+  {
+   "id": "X3",
+   "categoria": "composizione",
+   "proprieta": "analisi elementare (Tabella 1): campione ricristallizzato da EtOH al 70 % non asciugato",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "analisi elementare (PerkinElmer 2400II)",
+   "valori": [
+    {
+     "valore": 68.34,
+     "unita": "%",
+     "etichetta": "C"
+    },
+    {
+     "valore": 7.46,
+     "unita": "%",
+     "etichetta": "H"
+    },
+    {
+     "valore": 7.56,
+     "unita": "%",
+     "etichetta": "N"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Without drying 68.34 7.46 7.56",
+   "note": "carbonio piu' basso, in accordo con il monoidrato"
+  },
+  {
+   "id": "X4",
+   "categoria": "composizione",
+   "proprieta": "analisi elementare (Tabella 1): anidro di 1 (calcolato)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "1 anhydrate (calcd.)"
+   },
+   "tecnica": "analisi elementare (PerkinElmer 2400II)",
+   "valori": [
+    {
+     "valore": 70.76,
+     "unita": "%",
+     "etichetta": "C"
+    },
+    {
+     "valore": 7.92,
+     "unita": "%",
+     "etichetta": "H"
+    },
+    {
+     "valore": 7.86,
+     "unita": "%",
+     "etichetta": "N"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "1 anhydrate (calcd.)a) 70.76 7.92 7.86",
+   "note": "calcolato con ChemDraw 20.0 (nota a) della tabella)"
+  },
+  {
+   "id": "X5",
+   "categoria": "composizione",
+   "proprieta": "analisi elementare (Tabella 1): monoidrato di 1 (calcolato)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "1 monohydrate (calcd.)"
+   },
+   "tecnica": "analisi elementare (PerkinElmer 2400II)",
+   "valori": [
+    {
+     "valore": 67.35,
+     "unita": "%",
+     "etichetta": "C"
+    },
+    {
+     "valore": 8.08,
+     "unita": "%",
+     "etichetta": "H"
+    },
+    {
+     "valore": 7.48,
+     "unita": "%",
+     "etichetta": "N"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": true,
+   "citazione": "1 monohydrate (calcd.)a) 67.35 8.08 7.48",
+   "note": "calcolato con ChemDraw 20.0 (nota a) della tabella)"
+  },
+  {
+   "id": "X6",
+   "categoria": "composizione",
+   "proprieta": "analisi elementare del campione non asciugato nella Tabella 3",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "70% EtOH without drying (Tabella 3)"
+   },
+   "tecnica": "analisi elementare",
+   "valori": [
+    {
+     "valore": 68.34,
+     "unita": "%",
+     "etichetta": "C"
+    },
+    {
+     "valore": 7.9,
+     "unita": "%",
+     "etichetta": "H"
+    },
+    {
+     "valore": 7.47,
+     "unita": "%",
+     "etichetta": "N"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Elemental analysis (%) C H N 194.9–196.2 68.34 7.90 7.47",
+   "note": "la riga della Tabella 3 e' spezzata dal cambio di pagina; l'attribuzione al campione «70% EtOH without drying» e' per posizione. H e N (7.90, 7.47) non coincidono con quelli della Tabella 1 (7.46, 7.56) per lo stesso tipo di campione; C e' uguale (68.34)"
+  },
+  {
+   "id": "X7",
+   "categoria": "composizione",
+   "proprieta": "analisi elementare (Tabella 3): campione ricristallizzato da 70% EtOH with drying",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "70% EtOH with drying (Tabella 3)"
+   },
+   "tecnica": "analisi elementare",
+   "valori": [
+    {
+     "valore": 70.74,
+     "unita": "%",
+     "etichetta": "C"
+    },
+    {
+     "valore": 7.55,
+     "unita": "%",
+     "etichetta": "H"
+    },
+    {
+     "valore": 7.84,
+     "unita": "%",
+     "etichetta": "N"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "70% EtOH with drying — 195.8–196.5 70.74 7.55 7.84",
+   "note": "i punti di fusione della stessa riga sono negli eventi; la riga contiene anche la resa, nelle voci di sintesi"
+  },
+  {
+   "id": "X8",
+   "categoria": "composizione",
+   "proprieta": "analisi elementare (Tabella 3): campione ricristallizzato da EtOH (anhydrous)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "EtOH (anhydrous) (Tabella 3)"
+   },
+   "tecnica": "analisi elementare",
+   "valori": [
+    {
+     "valore": 70.71,
+     "unita": "%",
+     "etichetta": "C"
+    },
+    {
+     "valore": 7.78,
+     "unita": "%",
+     "etichetta": "H"
+    },
+    {
+     "valore": 7.86,
+     "unita": "%",
+     "etichetta": "N"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "EtOH 79% 195.7–196.3 70.71 7.78 7.86",
+   "note": "i punti di fusione della stessa riga sono negli eventi; la riga contiene anche la resa, nelle voci di sintesi"
+  },
+  {
+   "id": "X9",
+   "categoria": "composizione",
+   "proprieta": "analisi elementare (Tabella 3): campione ricristallizzato da MeOH",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MeOH (Tabella 3)"
+   },
+   "tecnica": "analisi elementare",
+   "valori": [
+    {
+     "valore": 70.79,
+     "unita": "%",
+     "etichetta": "C"
+    },
+    {
+     "valore": 7.89,
+     "unita": "%",
+     "etichetta": "H"
+    },
+    {
+     "valore": 7.82,
+     "unita": "%",
+     "etichetta": "N"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "MeOH 77% 195.7–196.5 70.79 7.89 7.82",
+   "note": "i punti di fusione della stessa riga sono negli eventi; la riga contiene anche la resa, nelle voci di sintesi"
+  },
+  {
+   "id": "X10",
+   "categoria": "composizione",
+   "proprieta": "analisi elementare (Tabella 3): campione ricristallizzato da iPrOH",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "iPrOH (Tabella 3)"
+   },
+   "tecnica": "analisi elementare",
+   "valori": [
+    {
+     "valore": 70.74,
+     "unita": "%",
+     "etichetta": "C"
+    },
+    {
+     "valore": 7.81,
+     "unita": "%",
+     "etichetta": "H"
+    },
+    {
+     "valore": 7.85,
+     "unita": "%",
+     "etichetta": "N"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "iPrOH 73% 195.9–196.6 70.74 7.81 7.85",
+   "note": "i punti di fusione della stessa riga sono negli eventi; la riga contiene anche la resa, nelle voci di sintesi"
+  },
+  {
+   "id": "X11",
+   "categoria": "sintesi",
+   "proprieta": "resa di ricristallizzazione da EtOH al 70 % senza asciugatura",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "70% EtOH without drying"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 103,
+     "unita": "%",
+     "etichetta": "come anidro"
+    },
+    {
+     "valore": 98,
+     "unita": "%",
+     "etichetta": "come monoidrato"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "70% EtOH without drying 103% as anhydrate (98% as monohydrate)",
+   "note": "resa quantitativa: «The 70% EtOH-recrystallized sample was obtained in quantitative yield»; 103 % come anidro perche' il solido e' un monoidrato"
+  },
+  {
+   "id": "X12",
+   "categoria": "sintesi",
+   "proprieta": "resa di ricristallizzazione da EtOH anidro",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "EtOH anidro"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 79,
+     "unita": "%"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "EtOH 79%",
+   "note": null
+  },
+  {
+   "id": "X13",
+   "categoria": "sintesi",
+   "proprieta": "resa di ricristallizzazione da MeOH",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "MeOH"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 77,
+     "unita": "%"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "MeOH 77%",
+   "note": null
+  },
+  {
+   "id": "X14",
+   "categoria": "sintesi",
+   "proprieta": "resa di ricristallizzazione da iPrOH",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "iPrOH"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 73,
+     "unita": "%"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "iPrOH 73%",
+   "note": null
+  },
+  {
+   "id": "X15",
+   "categoria": "sintesi",
+   "proprieta": "rese da EtOH anidro e dagli altri alcoli (testo)",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "EtOH anidro, MeOH, iPrOH"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 75,
+     "unita": "%",
+     "circa": true
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "whereas the yields in the case of anhydrous EtOH and the other alcoholic solvents were around 75%",
+   "note": null
+  },
+  {
+   "id": "X16",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "concentrazione di 1 nel filtrato dopo la ricristallizzazione",
+   "oggetto": {
+    "forma": null,
+    "composto": "C1",
+    "etichetta": "NEt-3IB"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 65,
+     "unita": "mM",
+     "etichetta": "EtOH anidro"
+    },
+    {
+     "valore": 1.8,
+     "unita": "mM",
+     "etichetta": "EtOH al 70 %"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "alta solubilita' nei solventi alcolici assoluti; la resa piu' bassa da EtOH anidro e dagli altri alcoli ne e' la conseguenza",
+   "calcolato": null,
+   "citazione": "it was 65 mM in anhydrous EtOH and 1.8 mM in 70% EtOH",
+   "note": null
+  },
+  {
+   "id": "X17",
+   "categoria": "cristallografia",
+   "proprieta": "formula e peso formula della forma I (Tabella 2)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 374.48,
+     "etichetta": "Formula weight"
+    },
+    {
+     "testo": "C21H28N2O3・H2O",
+     "etichetta": "Experimental formula"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Experimental formula C21H28N2O3・H2O Formula weight 374.48",
+   "note": null
+  },
+  {
+   "id": "X18",
+   "categoria": "morfologia",
+   "proprieta": "colore e abito della forma I",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "incolore, prismatico",
+   "calcolato": null,
+   "citazione": "Crystal color Habit colorless, prism",
+   "note": null
+  },
+  {
+   "id": "X19",
+   "categoria": "cristallografia",
+   "proprieta": "dimensioni del cristallo della forma I",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.1,
+     "unita": "mm"
+    },
+    {
+     "valore": 0.05,
+     "unita": "mm"
+    },
+    {
+     "valore": 0.03,
+     "unita": "mm"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Crystal dimensions 0.100 × 0.050 × 0.030 mm",
+   "note": null
+  },
+  {
+   "id": "X20",
+   "categoria": "cristallografia",
+   "proprieta": "tipo di reticolo della forma I",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "reticolo primitivo",
+   "calcolato": null,
+   "citazione": "Lattice type Primitive",
+   "note": null
+  },
+  {
+   "id": "X21",
+   "categoria": "cristallografia",
+   "proprieta": "parametri di cella della forma I con incertezza (Tabella 2)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 8.521,
+     "unita": "Å",
+     "incertezza": 2,
+     "etichetta": "a"
+    },
+    {
+     "valore": 9.0003,
+     "unita": "Å",
+     "incertezza": 2,
+     "etichetta": "b"
+    },
+    {
+     "valore": 14.884,
+     "unita": "Å",
+     "incertezza": 4,
+     "etichetta": "c"
+    },
+    {
+     "valore": 102.508,
+     "unita": "°",
+     "incertezza": 8,
+     "etichetta": "α"
+    },
+    {
+     "valore": 100.112,
+     "unita": "°",
+     "incertezza": 8,
+     "etichetta": "β"
+    },
+    {
+     "valore": 106.564,
+     "unita": "°",
+     "incertezza": 6,
+     "etichetta": "γ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Lattice parameters a = 8.521(2) Å b = 9.0003(2) Å c = 14.884(4) Å α = 102.508(8)° β = 100.112(8)° γ = 106.564(6)°",
+   "note": "valori gia' in forme.cella senza incertezza (incertezza = cifre fra parentesi, riferite alle ultime cifre); b e' scritto 9.0003(2) nella tabella, 9.003(2) nel testo: in forme si tiene 9.003"
+  },
+  {
+   "id": "X22",
+   "categoria": "cristallografia",
+   "proprieta": "volume di cella della forma I con incertezza",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 1033.5,
+     "unita": "Å3",
+     "incertezza": 4
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Lattice volume 1033.5(4) Å3",
+   "note": "incertezza = ultima cifra"
+  },
+  {
+   "id": "X23",
+   "categoria": "cristallografia",
+   "proprieta": "formula e peso formula della forma II (Tabella 4)",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "form II"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 356.46,
+     "etichetta": "Formula weight"
+    },
+    {
+     "testo": "C21H28N2O3",
+     "etichetta": "Experimental formula"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Experimental formula C21H28N2O3 Formula weight 356.46",
+   "note": null
+  },
+  {
+   "id": "X24",
+   "categoria": "morfologia",
+   "proprieta": "colore e abito della forma II",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "form II"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "incolore, prismatico",
+   "calcolato": null,
+   "citazione": "Crystal color Colorless, prism",
+   "note": null
+  },
+  {
+   "id": "X25",
+   "categoria": "cristallografia",
+   "proprieta": "dimensioni del cristallo della forma II",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "form II"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.38,
+     "unita": "mm"
+    },
+    {
+     "valore": 0.35,
+     "unita": "mm"
+    },
+    {
+     "valore": 0.19,
+     "unita": "mm"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Crystal dimensions 0.380 × 0.350 × 0.190 mm",
+   "note": null
+  },
+  {
+   "id": "X26",
+   "categoria": "cristallografia",
+   "proprieta": "parametri di cella della forma II con incertezza (Tabella 4)",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "form II"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 8.5195,
+     "unita": "Å",
+     "incertezza": 10,
+     "etichetta": "a"
+    },
+    {
+     "valore": 10.3418,
+     "unita": "Å",
+     "incertezza": 11,
+     "etichetta": "b"
+    },
+    {
+     "valore": 12.7631,
+     "unita": "Å",
+     "incertezza": 12,
+     "etichetta": "c"
+    },
+    {
+     "valore": 102.168,
+     "unita": "°",
+     "incertezza": 3,
+     "etichetta": "α"
+    },
+    {
+     "valore": 74.987,
+     "unita": "°",
+     "incertezza": 4,
+     "etichetta": "β"
+    },
+    {
+     "valore": 110.08,
+     "unita": "°",
+     "incertezza": 6,
+     "etichetta": "γ"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "a = 8.5195(10) Å b = 10.3418(11) Å c = 12.7631(12) Å α = 102.168(3)° β = 74.987(4)° γ = 110.080(6)°",
+   "note": "valori gia' in forme.cella senza incertezza (incertezza = cifre fra parentesi, riferite alle ultime cifre); nel testo di confronto b e' 10.3418(10), in tabella 10.3418(11)"
+  },
+  {
+   "id": "X27",
+   "categoria": "cristallografia",
+   "proprieta": "volume di cella della forma II con incertezza",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "form II"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 1010.86,
+     "unita": "Å3",
+     "incertezza": 19
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Lattice volume 1010.86(19) Å3",
+   "note": "incertezza = ultime due cifre"
+  },
+  {
+   "id": "X28",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "confronto dei parametri di cella fra forma I e forma II",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "form I contro form II"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "a simile; b aumenta e c diminuisce da I a II; l'angolo β diminuisce (da 100.112(8)° a 74.987(4)°), gli altri angoli non cambiano in modo significativo",
+   "calcolato": null,
+   "citazione": "the length in direction a is similar (form I; 8.521(2) Å, form II; 8.5195(10) Å), but the length in direction b is increased in the form II (form I; 9.003(2) Å, form II; 10.3418(10) Å), and the length in direction c is de- creased (form I; 14.884(4) Å, form II; 12.7631(12) Å). Regarding the lattice angles, b is decreased in the form II (form I; 100.112(8)°, form II; 74.987(4)°), while there is no signiﬁcant change in other angles.",
+   "note": "la frase e' interrotta dalla paginazione («is de-» / «creased»); i valori sono gia' in forme"
+  },
+  {
+   "id": "X29",
+   "categoria": "geometria",
+   "proprieta": "distanza O–O fra gli acidi carbossilici della forma I (tramite H2O)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 5.085,
+     "unita": "Å",
+     "incertezza": 4
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "the intermolecular oxygen-oxygen distance is 5.085(4) Å",
+   "note": "incertezza = ultima cifra; gli acidi carbossilici formano legami H tramite le molecole d'acqua"
+  },
+  {
+   "id": "X30",
+   "categoria": "geometria",
+   "proprieta": "distanza O–O fra gli acidi carbossilici della forma II",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "form II"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2.586,
+     "unita": "Å",
+     "incertezza": 2
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "In the form II, the oxygen-oxygen distance of the carboxylic acids of the two molecules in the unit cell is 2.586(2) Å (Fig. 6C).",
+   "note": "incertezza = ultima cifra"
+  },
+  {
+   "id": "X31",
+   "categoria": "geometria",
+   "proprieta": "distanza fra l'azoto della piridina e l'ossigeno dell'acqua nella forma I",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2.844,
+     "unita": "Å",
+     "incertezza": 4
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "the nitrogen atom on the pyridine of 1 is located 2.844(4) Å from the oxygen atom of H2O (Fig. 6B), which is consistent with hydrogen bond formation",
+   "note": "incertezza = ultima cifra; compatibile con un legame idrogeno N···H–O; secondo gli autori puo' spiegare la distanza piu' corta lungo b"
+  },
+  {
+   "id": "X32",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "conformazione molecolare di 1 nelle due forme",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "form I e form II"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "conformazioni molecolari simili; le due forme si interconvertono reversibilmente",
+   "calcolato": null,
+   "citazione": "The molecular conformations of 1 in the crystals of the two forms are similar, and they can be reversibly interconverted.",
+   "note": null
+  },
+  {
+   "id": "X33",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "idratazione/deidratazione senza grande cambio di conformazione",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "form I e form II"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "idratazione e deidratazione possono avvenire in modo reversibile senza forti cambi di conformazione molecolare",
+   "calcolato": null,
+   "citazione": "This suggests that hydration/ dehydration can occur reversibly without major change in the molecular conformation in the crystal structures, as shown in the schematic diagram (Fig. 6D).",
+   "note": null
+  },
+  {
+   "id": "X34",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "cella unitaria della forma I e della forma II: contenuto",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2,
+     "unita": "molecole di H2O",
+     "forma": "F1"
+    },
+    {
+     "valore": 2,
+     "unita": "molecole di 1",
+     "forma": "F1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The triclinic crystal of space group P1¯ contained two molecules of H2O together with two molecules of 1 per unit cell.",
+   "note": null
+  },
+  {
+   "id": "X35",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "forma II: due molecole di 1 per cella e nessuna acqua",
+   "oggetto": {
+    "forma": "F2",
+    "composto": null,
+    "etichetta": "form II"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2,
+     "unita": "molecole di 1",
+     "forma": "F2"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "the unit cell contained two molecules of 1, with no H2O",
+   "note": null
+  },
+  {
+   "id": "X36",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "PXRD simulata dai dati SCXRD",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "form I e form II"
+   },
+   "tecnica": "PXRD simulata (VESTA)",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "la PXRD calcolata da SCXRD concorda con quella misurata",
+   "calcolato": true,
+   "citazione": "When the PXRD pattern was simulated using VESTA based on the single crystal X-ray diﬀraction data shown in Figs. 3 and 5, the results were in agreement with the measured data (Supplementary Figure S3).",
+   "note": null
+  },
+  {
+   "id": "X37",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "capillare e geometria della PXRD",
+   "oggetto": null,
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 0.7,
+     "unita": "mm",
+     "etichetta": "diametro del capillare"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Finely ground samples were loaded into a 0.7 mm borosilicate glass capillary and mounted on the diffractometer operating in transmission geometry",
+   "note": null
+  },
+  {
+   "id": "X38",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "intervallo angolare e velocita' di scansione della PXRD",
+   "oggetto": null,
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 5,
+     "unita": "° 2θ",
+     "etichetta": "min"
+    },
+    {
+     "valore": 60,
+     "unita": "° 2θ",
+     "etichetta": "max"
+    },
+    {
+     "valore": 2,
+     "unita": "°/min",
+     "etichetta": "velocita'"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Data were collected over the angular range 5 ≤ 2θ/θ° ≤ 60 at 2°/min.",
+   "note": null
+  },
+  {
+   "id": "X39",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "campioni confrontati in Fig. 4",
+   "oggetto": null,
+   "tecnica": "PXRD",
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "stesso diffrattogramma per tutti i campioni tranne quello da EtOH al 70 % non asciugato (forma I)",
+   "calcolato": null,
+   "citazione": "All samples showed the same diﬀraction pattern, except for the sample recrystallized from 70% EtOH without drying (Fig. 4).",
+   "note": null
+  },
+  {
+   "id": "X40",
+   "categoria": "termica",
+   "proprieta": "perdita di peso della TG sotto i 100 °C (Tabella 3 e Fig. S2)",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": "TG-DTA",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "°C",
+     "limite": "sotto"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "perdita di peso sotto 100 °C solo per il prodotto da EtOH al 70 % non asciugato",
+   "calcolato": null,
+   "citazione": "Similarly, TG-DTA showed a weight decrease at less than 100 °C only for the product recrystallized from 70% EtOH and undried (Supplementary Fig. S2).",
+   "note": null
+  },
+  {
+   "id": "X41",
+   "categoria": "composizione",
+   "proprieta": "condizioni del forno per l'analisi elementare",
+   "oggetto": null,
+   "tecnica": "analisi elementare",
+   "valori": [
+    {
+     "valore": 1253.15,
+     "unita": "K",
+     "etichetta": "tubo di combustione"
+    },
+    {
+     "valore": 923.15,
+     "unita": "K",
+     "etichetta": "tubo di riduzione"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The combustion tube and reduction tube temperatures were set at 1253.15 and 923.15 K, respectively.",
+   "note": null
+  },
+  {
+   "id": "X42",
+   "categoria": "composizione",
+   "proprieta": "massa di campione per l'analisi elementare",
+   "oggetto": null,
+   "tecnica": "analisi elementare",
+   "valori": [
+    {
+     "valore": 1.5,
+     "unita": "mg",
+     "etichetta": "min"
+    },
+    {
+     "valore": 3,
+     "unita": "mg",
+     "etichetta": "max"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "Each test sample (1.5–3 mg) was accurately weighed",
+   "note": null
+  },
+  {
+   "id": "X43",
+   "categoria": "metodo",
+   "proprieta": "essiccamento del composto prima della ricristallizzazione di prova",
+   "oggetto": {
+    "forma": null,
+    "composto": "C1",
+    "etichetta": "NEt-3IB"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 25,
+     "unita": "hPa"
+    },
+    {
+     "valore": 40,
+     "unita": "°C"
+    },
+    {
+     "valore": 1.0,
+     "unita": "g",
+     "etichetta": "massa di 1"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "NEt-3IB (1) was dried overnight at 25 hPa and 40 °C. Then, 1.0 g of 1",
+   "note": "stesse condizioni dell'essiccamento di E1/preparazioni"
+  },
+  {
+   "id": "X44",
+   "categoria": "metodo",
+   "proprieta": "lunghezza d'onda dell'area sotto la curva UV per la solubilita'",
+   "oggetto": null,
+   "tecnica": "UV-vis",
+   "valori": [
+    {
+     "valore": 250,
+     "unita": "nm",
+     "etichetta": "min"
+    },
+    {
+     "valore": 350,
+     "unita": "nm",
+     "etichetta": "max"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "The AUC at 250–350 nm in the UV absorption spectrum of the ﬁltrates were measured",
+   "note": null
+  },
+  {
+   "id": "X45",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' di II e II′: nessuna differenza significativa",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "form II e form II′"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "nessuna differenza significativa fra la forma II da EtOH anidro e quella da EtOH al 70 % asciugata; coerente con strutture non significativamente diverse",
+   "calcolato": null,
+   "citazione": "In addition, there was no signiﬁcant diﬀerence between the solubilities of the form II obtained by crystallization from anhydrous EtOH and obtained by crystallization from 70% EtOH followed by drying.",
+   "note": null
+  },
+  {
+   "id": "X46",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' in acqua in funzione del pH",
+   "oggetto": {
+    "forma": null,
+    "composto": "C1",
+    "etichetta": "NEt-3IB"
+   },
+   "tecnica": null,
+   "valori": [],
+   "condizioni": null,
+   "qualitativo": "solubilita' maggiore a pH piu' acido (probabile protonazione della piridina); la forma II resta piu' solubile della forma I",
+   "calcolato": null,
+   "citazione": "The water solubility of 1 was higher in the more acidic environment, probably due to pyridine protonation, though form II still showed signiﬁcantly higher solubility (Fig. 7B and Supplementary Fig. S5).",
+   "note": null
+  },
+  {
+   "id": "X47",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' della forma I nel test di 2 h",
+   "oggetto": {
+    "forma": "F1",
+    "composto": null,
+    "etichetta": "form I"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 2,
+     "unita": "h"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": "solubilita' significativamente piu' bassa gia' nel test di 2 h",
+   "calcolato": null,
+   "citazione": "Since form I shows signiﬁcantly lower solubility even in the 2-h water solubility test",
+   "note": null
+  },
+  {
+   "id": "X48",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "pH testati per la solubilita'",
+   "oggetto": {
+    "forma": null,
+    "composto": null,
+    "etichetta": "form I, II e II′"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 1.2,
+     "etichetta": "pH"
+    },
+    {
+     "valore": 6.8,
+     "etichetta": "pH"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "To predict the solubility of 1 in the stomach and intestinal tract, we compared the water solubility of each crystal form at pH 1.2 and 6.8.",
+   "note": null
+  },
+  {
+   "id": "X49",
+   "categoria": "sintesi",
+   "proprieta": "solvente di ricristallizzazione del processo stabilito: EtOH al 70 %",
+   "oggetto": {
+    "forma": null,
+    "composto": "C1",
+    "etichetta": "NEt-3IB"
+   },
+   "tecnica": null,
+   "valori": [
+    {
+     "valore": 70,
+     "unita": "%",
+     "etichetta": "EtOH in acqua"
+    }
+   ],
+   "condizioni": null,
+   "qualitativo": null,
+   "calcolato": null,
+   "citazione": "we have established a process synthesis of 1 in which the final product is obtained by recrystallization from 70% EtOH",
+   "note": "composizione scritta «70% EtOH» (la percentuale e' ripetuta in molte didascalie e frasi con la stessa dicitura)"
+  }
+ ]
+}

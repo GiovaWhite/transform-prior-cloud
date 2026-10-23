@@ -1,0 +1,1701 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1021/acs.cgd.3c01011",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "chemical formula",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "testo": "C17H17ClO6"
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "testo": "C17H17ClO6"
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "testo": "C17H17ClO6·0.5C6H12O2"
+    }
+   ],
+   "citazione": "chemical formula | C17H17ClO6 | C17H17ClO6 | C17H17ClO6·0.5C6H12O2",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "formula weight Mw",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "valore": 352.75,
+     "unita": "g mol-1"
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "valore": 352.75,
+     "unita": "g mol-1"
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "valore": 410.83,
+     "unita": "g mol-1"
+    }
+   ],
+   "citazione": "Mw, g mol–1 | 352.75 | 352.75 | 410.83",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "radiation source",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "testo": "copper"
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "testo": "copper"
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "testo": "molybdenum"
+    }
+   ],
+   "citazione": "radiation source | copper | copper | molybdenum",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "measured reflections",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "valore": 18884
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "valore": 30280
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "valore": 39116
+    }
+   ],
+   "citazione": "measured reflections | 18884 | 30280 | 39116",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "independent reflections",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "valore": 3268
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "valore": 3176
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "valore": 11798
+    }
+   ],
+   "citazione": "independent reflections | 3268 | 3176 | 11798",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X6",
+   "categoria": "cristallografia",
+   "proprieta": "reflections with I > 2σ(I)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "valore": 2783
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "valore": 2809
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "valore": 9185
+    }
+   ],
+   "citazione": "Reflections with I> 2σ(I) | 2783 | 2809 | 9185",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X7",
+   "categoria": "cristallografia",
+   "proprieta": "Rint",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "valore": 0.0561
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "valore": 0.0747
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "valore": 0.0482
+    }
+   ],
+   "citazione": "Rint | 0.0561 | 0.0747 | 0.0482",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X8",
+   "categoria": "cristallografia",
+   "proprieta": "R[F2 > 2σ(F2)]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "valore": 0.0408
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "valore": 0.055
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "valore": 0.0494
+    }
+   ],
+   "citazione": "R[F2> 2σ(F2)] | 0.0408 | 0.0550 | 0.0494",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "wR2(F2)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "valore": 0.1093
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "valore": 0.1497
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "valore": 0.1285
+    }
+   ],
+   "citazione": "wR2(F2) | 0.1093 | 0.1497 | 0.1285",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X10",
+   "categoria": "cristallografia",
+   "proprieta": "calculated density d",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "valore": 1.307,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "valore": 1.332,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "valore": 1.36,
+     "unita": "g cm-3"
+    }
+   ],
+   "citazione": "d/g cm–3 | 1.307 | 1.332 | 1.360",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X11",
+   "categoria": "cristallografia",
+   "proprieta": "absorption coefficient μ",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI (298.00 K)",
+     "forma": "F2",
+     "valore": 2.142,
+     "unita": "mm-1"
+    },
+    {
+     "etichetta": "GSF Form VI (150.00 K)",
+     "forma": "F2",
+     "valore": 2.184,
+     "unita": "mm-1"
+    },
+    {
+     "etichetta": "GSF-nBuAc solvate (150.00 K)",
+     "forma": "F4",
+     "valore": 0.229,
+     "unita": "mm-1"
+    }
+   ],
+   "citazione": "μ/mm–1 | 2.142 | 2.184 | 0.229",
+   "note": "Tabella 1; colonne GSF Form VI (298 K), GSF Form VI (150 K), GSF-nBuAc solvate (150 K)"
+  },
+  {
+   "id": "X12",
+   "categoria": "cristallografia",
+   "proprieta": "a (Form VI at 150 K)",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 9.3824,
+     "incertezza": 6,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "150.00 K, radiazione Cu",
+   "citazione": "a/Å | 9.4957(4) | 9.3824(6) | 8.6087(3)",
+   "note": "seconda cella di Form VI (colonna 150 K di Tabella 1); la cella a temperatura ambiente e' nella forma. Incertezza = ultima cifra. alpha e gamma = 90, Z, Z' = 2, 1"
+  },
+  {
+   "id": "X13",
+   "categoria": "cristallografia",
+   "proprieta": "b (Form VI at 150 K)",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 8.6221,
+     "incertezza": 5,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "150.00 K, radiazione Cu",
+   "citazione": "b/Å | 8.6772(4) | 8.6221(5) | 11.7252(4)",
+   "note": "seconda cella di Form VI (colonna 150 K di Tabella 1); la cella a temperatura ambiente e' nella forma. Incertezza = ultima cifra. alpha e gamma = 90, Z, Z' = 2, 1"
+  },
+  {
+   "id": "X14",
+   "categoria": "cristallografia",
+   "proprieta": "c (Form VI at 150 K)",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 11.8304,
+     "incertezza": 7,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "150.00 K, radiazione Cu",
+   "citazione": "c/Å | 11.8614(5) | 11.8304(7) | 11.7453(4)",
+   "note": "seconda cella di Form VI (colonna 150 K di Tabella 1); la cella a temperatura ambiente e' nella forma. Incertezza = ultima cifra. alpha e gamma = 90, Z, Z' = 2, 1"
+  },
+  {
+   "id": "X15",
+   "categoria": "cristallografia",
+   "proprieta": "β (Form VI at 150 K)",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 113.24,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "condizioni": "150.00 K, radiazione Cu",
+   "citazione": "β/° | 113.465(2) | 113.240(3) | 90.0600(10)",
+   "note": "seconda cella di Form VI (colonna 150 K di Tabella 1); la cella a temperatura ambiente e' nella forma. Incertezza = ultima cifra. alpha e gamma = 90, Z, Z' = 2, 1"
+  },
+  {
+   "id": "X16",
+   "categoria": "cristallografia",
+   "proprieta": "V (Form VI at 150 K)",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 879.38,
+     "incertezza": 9,
+     "unita": "Å3"
+    }
+   ],
+   "condizioni": "150.00 K, radiazione Cu",
+   "citazione": "V/Å3 | 896.51(7) | 879.38(9) | 1003.04(6)",
+   "note": "seconda cella di Form VI (colonna 150 K di Tabella 1); la cella a temperatura ambiente e' nella forma. Incertezza = ultima cifra. alpha e gamma = 90, Z, Z' = 2, 1"
+  },
+  {
+   "id": "X17",
+   "categoria": "cristallografia",
+   "proprieta": "SC-XRD radiations (Bruker D8 Quest, Photon 100 detector)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Cu Kα",
+     "valore": 1.54178,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "Mo Kα",
+     "valore": 0.71073,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "by X-ray diffraction on a Bruker D8 Quest diffractometer equipped either with a Cu Kα (λ = 1.54178 Å) radiation or Mo Kα (λ = 0.71073 Å) radiation and Photon 100 detector.",
+   "note": "Tabella 1: rame per Form VI, molibdeno per GSF-nBuAc"
+  },
+  {
+   "id": "X18",
+   "categoria": "cristallografia",
+   "proprieta": "hydrogen atom treatment (riding model), Uiso",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Uiso, × parent atom",
+     "valore": 1.2
+    },
+    {
+     "etichetta": "Uiso for methyl groups, × parent atom",
+     "valore": 1.5
+    }
+   ],
+   "citazione": "Hydrogen atoms were placed in calculated positions using standard riding model constraints and refined isotropically with Uiso fixed at 1.2 times the one of the parent atom (1.5 for methyl groups)."
+  },
+  {
+   "id": "X19",
+   "categoria": "cristallografia",
+   "proprieta": "molecular volume from the Hirshfeld analysis",
+   "tecnica": "Hirshfeld (CrystalExplorer21)",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI",
+     "forma": "F2",
+     "valore": 448.25,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "GSF Form I",
+     "forma": "F1",
+     "valore": 399.48,
+     "unita": "Å3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "with the molecular volume of GSF Form VI (448.25 Å3) being larger than that of GSF Form I (399.48 Å3).",
+   "note": "la Form I ha un impacchettamento piu' denso («denser (more efficient) packing»)"
+  },
+  {
+   "id": "X20",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD radiation and generator settings (Empyrean, PANalytical)",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "λ Cu Kα",
+     "valore": 1.5406,
+     "unita": "Å"
+    },
+    {
+     "valore": 45,
+     "unita": "kV"
+    },
+    {
+     "valore": 40,
+     "unita": "mA"
+    }
+   ],
+   "condizioni": "RT, riflessione",
+   "citazione": "PXRD data were collected in reflection mode with an Empyrean diffractometer (PANalytical, Phillips) equipped with Cu Kα radiation (λ = 1.5406 Å) operating at 45 kV and 40 mA at RT."
+  },
+  {
+   "id": "X21",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD scan range, step size and time per step",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ da",
+     "valore": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ a",
+     "valore": 45,
+     "unita": "°"
+    },
+    {
+     "etichetta": "step",
+     "valore": 0.01313,
+     "unita": "°"
+    },
+    {
+     "etichetta": "per step",
+     "valore": 18.87,
+     "unita": "s"
+    }
+   ],
+   "citazione": "Samples were scanned between 2θ values of 5 and 45° at a step size of 0.01313° and at 18.87 s per step."
+  },
+  {
+   "id": "X22",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "bulk Form VI: correspondence with the calculated pattern",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "substantial correspondence with the calculated pattern; minor intensity differences compatible with preferred orientation",
+   "citazione": "The PXRD of bulk Form VI indicates a substantial correspondence with the pattern calculated from the single-crystal data (Figure 3a). Minor differences in peak intensities are compatible with preferred orientation effects."
+  },
+  {
+   "id": "X23",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "GSF-nBuAc: experimental pattern versus calculated, peak shift",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "superimposable on the calculated pattern; broader peaks (lower crystallinity of the bulk); (030) peak shifts to higher angles on cooling (thermal expansion)",
+   "citazione": "The experimental PXRD pattern for GSF-nBuAc is also superimposable onto the calculated ones from the single-crystal model (Figure 3b), although, in this case, peak broadness suggests a lower crystallinity of the bulk. In addition, a peak shift is noticeable, which is a consequence of thermal expansion. In particular, the (030) peak shifts to higher angles (shorter d-spacing) upon cooling."
+  },
+  {
+   "id": "X24",
+   "categoria": "metodo",
+   "proprieta": "TGA nitrogen flow, final temperature, mass range",
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "nitrogen flow",
+     "valore": 20,
+     "unita": "mL min-1"
+    },
+    {
+     "etichetta": "final temperature",
+     "valore": 523.15,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Thermogravimetric analysis (TGA) was carried out under a nitrogen flow of 20 mL min–1 using a Perkin-Elmer TGA 4000. Samples containing 2–5 mg of powder were placed in a ceramic crucible and heated to 523.15 K at a ramp rate of 20 K min–1.",
+   "note": "la massa (2–5 mg) e la velocita' (20 K/min) sono negli eventi"
+  },
+  {
+   "id": "X25",
+   "categoria": "metodo",
+   "proprieta": "DSC calibration",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "model materials",
+     "valore": 5
+    }
+   ],
+   "citazione": "The furnace cell was precalibrated against the melting properties of 5 model materials."
+  },
+  {
+   "id": "X26",
+   "categoria": "metodo",
+   "proprieta": "DSC temperature range",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "nitrogen flow",
+     "valore": 20,
+     "unita": "mL min-1"
+    },
+    {
+     "etichetta": "T iniziale",
+     "valore": 293.15,
+     "unita": "K"
+    },
+    {
+     "etichetta": "T finale",
+     "valore": 533.15,
+     "unita": "K"
+    }
+   ],
+   "citazione": "The samples were analyzed in an inert environment (nitrogen flow of 20 mL min–1) with a temperature ramp rate of 5 K min–1 from 293.15 to 533.15 K.",
+   "note": "la velocita' (5 K/min) e' negli eventi"
+  },
+  {
+   "id": "X27",
+   "categoria": "metodo",
+   "proprieta": "FTIR acquisition (Nicolet iS50, ATR)",
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "etichetta": "range da",
+     "valore": 400,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "range a",
+     "valore": 4000,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "resolution",
+     "valore": 8,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "scans",
+     "valore": 64
+    }
+   ],
+   "citazione": "Spectra were recorded between 400 and 4000 cm–1 using 8 cm–1 spectral resolution and 64 scans per sample."
+  },
+  {
+   "id": "X28",
+   "categoria": "metodo",
+   "proprieta": "SEM sample support",
+   "tecnica": "SEM",
+   "valori": [
+    {
+     "etichetta": "stub",
+     "valore": 15,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "A small amount of the powder was placed onto an adhesive carbon tape previously attached to a cylindrical aluminum 15 mm SEM stub."
+  },
+  {
+   "id": "X29",
+   "categoria": "metodo",
+   "proprieta": "SEM gold coating",
+   "tecnica": "SEM",
+   "valori": [
+    {
+     "valore": 20,
+     "unita": "mA"
+    },
+    {
+     "valore": 60,
+     "unita": "s"
+    }
+   ],
+   "citazione": "The samples were coated with gold using an Emitech K550 (Emitech, United Kingdom) sputter coater at 20 mA for 60 s."
+  },
+  {
+   "id": "X30",
+   "categoria": "metodo",
+   "proprieta": "SEM imaging voltage",
+   "tecnica": "SEM",
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 3,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "a",
+     "valore": 10,
+     "unita": "kV"
+    }
+   ],
+   "citazione": "The particles were imaged at a voltage of 3–10 kV."
+  },
+  {
+   "id": "X31",
+   "categoria": "metodo",
+   "proprieta": "incubation time of the PLM samples",
+   "tecnica": "PLM",
+   "valori": [],
+   "qualitativo": "drying 24 h at RT, then incubation 1 h at 423 K (tempi e T sono negli eventi)",
+   "citazione": "A few drops of undersaturated solutions of GSF in ACN and GSF in nBuAc were placed on a glass slide. During solvent evaporation, microscope images were collected as freshly crystallized after 24 h drying at RT and after incubating for 1 h at 423 K."
+  },
+  {
+   "id": "X32",
+   "categoria": "metodo",
+   "proprieta": "Hirshfeld / energy framework calculation parameters",
+   "tecnica": "CrystalExplorer21",
+   "valori": [
+    {
+     "etichetta": "interaction energies cluster",
+     "valore": 3.8,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "lattice energies cluster",
+     "valore": 20,
+     "unita": "Å"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Interaction and lattice energies were calculated for 3.8 and 20 Å cluster of molecules, respectively, using B3LYP/6–31G(d,p) wave function.",
+   "note": "livello di teoria B3LYP/6–31G(d,p)"
+  },
+  {
+   "id": "X33",
+   "categoria": "metodo",
+   "proprieta": "energy framework threshold",
+   "tecnica": "CrystalExplorer21",
+   "valori": [
+    {
+     "valore": 10,
+     "unita": "kJ mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Interaction energies less than 10 kJ mol–1 were omitted for clarity."
+  },
+  {
+   "id": "X34",
+   "categoria": "metodo",
+   "proprieta": "structural model for the Hirshfeld analysis: GSF-nBuAc without the solvent",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "tecnica": "CrystalExplorer21",
+   "valori": [],
+   "qualitativo": "hypothetical structure obtained by deleting the solvent molecules of the GSF-nBuAc structure (pseudostructure with two molecules a and b)",
+   "calcolato": true,
+   "citazione": "Additionally, a hypothetical structure was simulated by deleting the solvent molecules from the GSF-nBuAc model structure."
+  },
+  {
+   "id": "X35",
+   "categoria": "sintesi",
+   "proprieta": "concentration of the undersaturated GSF solutions in acetonitrile (cooling crystallization)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 37,
+     "unita": "g L-1"
+    },
+    {
+     "etichetta": "a",
+     "valore": 45,
+     "unita": "g L-1"
+    },
+    {
+     "etichetta": "stirring temperature",
+     "valore": 313.15,
+     "unita": "K"
+    },
+    {
+     "etichetta": "stirring time",
+     "valore": 72,
+     "unita": "h"
+    },
+    {
+     "etichetta": "nylon filter pore size",
+     "valore": 0.2,
+     "unita": "μm"
+    }
+   ],
+   "citazione": "Undersaturated solutions of GSF in ACN within the concentration range 37–45 g L–1 were stirred at 313.15 K for 72 h and filtered using nylon 0.2 μm filters.",
+   "note": "stessi numeri sono nella preparazione, qui in forma strutturata"
+  },
+  {
+   "id": "X36",
+   "categoria": "sintesi",
+   "proprieta": "concentration of the undersaturated GSF solutions in n-butyl acetate (cooling crystallization)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 8,
+     "unita": "g L-1"
+    },
+    {
+     "etichetta": "a",
+     "valore": 10,
+     "unita": "g L-1"
+    },
+    {
+     "etichetta": "stirring temperature",
+     "valore": 333.15,
+     "unita": "K"
+    },
+    {
+     "etichetta": "stirring time",
+     "valore": 72,
+     "unita": "h"
+    },
+    {
+     "etichetta": "PTFE filter pore size",
+     "valore": 0.2,
+     "unita": "μm"
+    }
+   ],
+   "citazione": "Undersaturated solutions of GSF in nBuAc within the concentration range 8–10 g L–1 were stirred at 333.15 K for 72 h and filtered using polytetrafluoroethylene (PTFE) 0.2 μm filters."
+  },
+  {
+   "id": "X37",
+   "categoria": "sintesi",
+   "proprieta": "supersaturation ranges",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "ACN da",
+     "valore": 1.41
+    },
+    {
+     "etichetta": "ACN a",
+     "valore": 1.86
+    },
+    {
+     "etichetta": "nBuAc da",
+     "valore": 2.13
+    },
+    {
+     "etichetta": "nBuAc a",
+     "valore": 2.57
+    }
+   ],
+   "citazione": "The supersaturation range for GSF was 1.41–1.86 in ACN and 2.13–2.57 in nBuAc.",
+   "note": "sovrasaturazione = concentrazione della soluzione / solubilita' di Form I nel solvente (da Zhao et al.)"
+  },
+  {
+   "id": "X38",
+   "categoria": "sintesi",
+   "proprieta": "supersaturation: definition and choice of the crystallization temperature",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "supersaturation = ratio between solution concentration and solubility of GSF Form I in the solvent (solubility from Zhao et al.)",
+   "citazione": "This temperature was selected to generate a range of supersaturations, calculated as the ratio between the solution concentration and solubility of GSF Form I in the respective solvent, as reported by Zhao et al.23"
+  },
+  {
+   "id": "X39",
+   "categoria": "sintesi",
+   "proprieta": "filtration of the suspensions obtained by crystallization",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "PVDF membrane pore size",
+     "valore": 0.22,
+     "unita": "μm"
+    }
+   ],
+   "citazione": "The white suspensions obtained by crystallization were then filtered using 0.22 μm polyvinylidene fluoride (PVDF) membrane filters and left to dry at RT in a fume hood."
+  },
+  {
+   "id": "X40",
+   "categoria": "sintesi",
+   "proprieta": "single-crystal growth: concentration ranges, stirring time and temperatures (ACN and nBuAc)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "ACN da",
+     "valore": 37,
+     "unita": "g L-1"
+    },
+    {
+     "etichetta": "ACN a",
+     "valore": 45,
+     "unita": "g L-1"
+    },
+    {
+     "etichetta": "nBuAc da",
+     "valore": 8,
+     "unita": "g L-1"
+    },
+    {
+     "etichetta": "nBuAc a",
+     "valore": 10,
+     "unita": "g L-1"
+    },
+    {
+     "valore": 72,
+     "unita": "h"
+    },
+    {
+     "etichetta": "ACN",
+     "valore": 313.15,
+     "unita": "K"
+    },
+    {
+     "etichetta": "nBuAc",
+     "valore": 333.15,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Undersaturated solutions of GSF in ACN within the concentration range 37–45 g L–1 and in nBuAc within the concentration range 8 - 10 g L–1 were stirred for 72 h at 313.15 and 333.15 K, respectively."
+  },
+  {
+   "id": "X41",
+   "categoria": "sintesi",
+   "proprieta": "the crystals formed in Petri dishes",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "PLM",
+   "valori": [],
+   "qualitativo": "crystals dispersed in perfluoroether oil and inspected under cross-polarized light before selecting a single crystal",
+   "citazione": "A small amount of sample was dispersed in perfluoroether oil on a glass slide and inspected under cross-polarized light on a microscope."
+  },
+  {
+   "id": "X42",
+   "categoria": "composizione",
+   "proprieta": "purity of the commercial GSF Form I",
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "GSF Form I",
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "GSF Form I",
+     "forma": "F1",
+     "valore": 98,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Griseofulvin (GSF) Form I (98%) was obtained from Baoji Guokang Bio-Technology Co. (China)"
+  },
+  {
+   "id": "X43",
+   "categoria": "composizione",
+   "proprieta": "solvent purity (n-butyl acetate)",
+   "valori": [
+    {
+     "valore": 99,
+     "unita": "%",
+     "testo": "99+%"
+    }
+   ],
+   "citazione": "and the solvents acetonitrile (ACN) (HPLC gradient grade) and n-butyl acetate (nBuAc) (99+%) were obtained from Fisher Scientific.",
+   "note": "purezza del solvente nBuAc; ACN e' di grado HPLC gradient"
+  },
+  {
+   "id": "X44",
+   "categoria": "composizione",
+   "proprieta": "solvent content of GSF-nBuAc by mass (GSF:nBuAc 1:0.5)",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "tecnica": "TGA, SCXRD",
+   "valori": [
+    {
+     "etichetta": "GSF-nBuAc solvent content by mass",
+     "forma": "F4",
+     "valore": 14.2,
+     "unita": "%"
+    }
+   ],
+   "citazione": "The stoichiometry of the GSF-nBuAc solvate is two molecules of GSF for every molecule of nBuAc (GSF:nBuAc – 1:0.5, which correlates to 14.2% solvent content by mass), corresponding to the crystal structure determination.",
+   "note": "la perdita di massa TGA e' 15% (evento E10); la stechiometria e' nella forma"
+  },
+  {
+   "id": "X45",
+   "categoria": "termica",
+   "proprieta": "TGA: no weight loss during the Form VI -> Form I transformation",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "TGA",
+   "valori": [],
+   "qualitativo": "no mass loss during the transformation; Form VI forms after a full desolvation of the GSF-ACN solvate",
+   "citazione": "The TGA profiles do not show weight loss during the transformation from Form VI into Form I, indicating that Form VI is formed after a full desolvation of the GSF-ACN solvate."
+  },
+  {
+   "id": "X46",
+   "categoria": "termica",
+   "proprieta": "heat of transition rule applied to the DSC peaks",
+   "tecnica": "DSC",
+   "valori": [],
+   "qualitativo": "endothermic transition peak = enantiotropy; exothermic transition peak = monotropy (Burger and Ramberger, 1979)",
+   "citazione": "According to the heat of transition rule proposed by Burger and Ramberger (1979), if an endothermic peak is observed in the DSC thermogram, it indicates a transition between two forms that are related enantiotropically, while if an exothermic peak is observed, it indicates a transformation between two forms that are related monotropically.34,35",
+   "note": "regola citata dai rif. 34, 35"
+  },
+  {
+   "id": "X47",
+   "categoria": "termica",
+   "proprieta": "longer heating time (20 h) as the reason for the lower transformation temperature of GSF-nBuAc than in the DSC",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 20,
+     "unita": "h",
+     "circa": true
+    }
+   ],
+   "qualitativo": "the transformation at 323.15 K is lower than the DSC temperature because of the longer heating time",
+   "citazione": "The GSF-nBuAc transformation into GSF Form I at this temperature, lower than the transformation indicated by DSC, was due to a longer heating time (∼20 h)."
+  },
+  {
+   "id": "X48",
+   "categoria": "termica",
+   "proprieta": "desolvated forms metastable at the stability-test temperatures",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "desolvated forms metastable; transform to the most stable form (Form I)",
+   "citazione": "This clearly shows that the desolvated forms are metastable at these temperatures and undergo transformation to the most stable form."
+  },
+  {
+   "id": "X49",
+   "categoria": "termica",
+   "proprieta": "decomposition: gradual loss of mass above 471.15 K",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "valore": 471.15,
+     "unita": "K",
+     "limite": "sopra"
+    }
+   ],
+   "citazione": "At higher temperatures, there is a gradual loss of mass with an unclear onset temperature above 471.15 K due to the melt-induced thermal decomposition of the GSF.",
+   "note": "e' anche l'evento E9"
+  },
+  {
+   "id": "X50",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C–H) alkane stretching (medium shoulder)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 2840,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "a",
+     "valore": 3000,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "more intense for the solvate because of the butane solvate molecules",
+   "citazione": "The FTIR spectra of GSF Forms I and VI and GSF-nBuAc present a medium shoulder at 2840–3000 cm–1 corresponding to the C–H alkane stretching (with the peak observed for the solvate in this region being more intense due to the butane solvate molecules present)"
+  },
+  {
+   "id": "X51",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C=O) aliphatic ketone",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "valore": 1705,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "Forms I, VI and GSF-nBuAc; characteristic of the GSF molecular structure",
+   "citazione": "peaks at 1705 cm–1 corresponding to the C=O aliphatic ketone"
+  },
+  {
+   "id": "X52",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C=C) alkene",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 1600,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "a",
+     "valore": 1670,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "Forms I, VI and GSF-nBuAc; characteristic of the GSF molecular structure",
+   "citazione": "peaks at 1600–1670 cm–1 corresponding to alkene C=C stretching"
+  },
+  {
+   "id": "X53",
+   "categoria": "spettroscopia",
+   "proprieta": "δ(C–H) methyl group",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "valore": 1450,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "Forms I, VI and GSF-nBuAc; characteristic of the GSF molecular structure",
+   "citazione": "peaks at 1450 cm–1 corresponding to the C–H bending in the methyl group"
+  },
+  {
+   "id": "X54",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C–O) alkyl aryl ether",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "valore": 1350,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "Forms I, VI and GSF-nBuAc; characteristic of the GSF molecular structure",
+   "citazione": "peaks at 1350 cm–1 corresponding to the C–O stretching in the alkyl aryl ether"
+  },
+  {
+   "id": "X55",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C–O) vinyl ether",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "valore": 1205,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "Forms I, VI and GSF-nBuAc; characteristic of the GSF molecular structure",
+   "citazione": "peaks at 1205 cm–1 corresponding to the C–O stretching vinyl ether"
+  },
+  {
+   "id": "X56",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C–Cl)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "valore": 600,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "Forms I, VI and GSF-nBuAc; characteristic of the GSF molecular structure",
+   "citazione": "and peaks at 600 cm–1 corresponding to the C–Cl stretching"
+  },
+  {
+   "id": "X57",
+   "categoria": "spettroscopia",
+   "proprieta": "ν(C=O) of the ester group in nBuAc (GSF-nBuAc solvate)",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "tecnica": "FTIR (ATR)",
+   "valori": [
+    {
+     "etichetta": "ν(C=O) ester",
+     "valore": 1735,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "ν(C–O) ester",
+     "valore": 1220,
+     "unita": "cm-1"
+    }
+   ],
+   "citazione": "The FTIR for GSF-nBuAc solvate presents two strong peaks at 1735 and 1220 cm–1 corresponding to the C=O and C–O stretching of the ester group in nBuAc, respectively."
+  },
+  {
+   "id": "X58",
+   "categoria": "spettroscopia",
+   "proprieta": "FTIR: polymorphs not distinguishable; solvent peaks in the solvate",
+   "tecnica": "FTIR (ATR)",
+   "valori": [],
+   "qualitativo": "no significant differences between Form I and Form VI; two extra solvent peaks in GSF-nBuAc",
+   "citazione": "The FTIR spectra for GSF show no significant differences between the two polymorphic forms, and two extra peaks corresponding to the solvent groups were present in the spectrum of the GSF-nBuAc solvate."
+  },
+  {
+   "id": "X59",
+   "categoria": "computazionale",
+   "proprieta": "lattice energy (B3LYP/6–31G(d,p), 20 Å cluster)",
+   "tecnica": "CrystalExplorer21",
+   "valori": [
+    {
+     "etichetta": "GSF Form I",
+     "forma": "F1",
+     "valore": -41.9,
+     "unita": "kcal mol-1"
+    },
+    {
+     "etichetta": "GSF Form VI",
+     "forma": "F2",
+     "valore": -35.9,
+     "unita": "kcal mol-1"
+    },
+    {
+     "etichetta": "GSF-nBuAc desolvated (virtual)",
+     "valore": -32.6,
+     "unita": "kcal mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The lattice energies calculated for GSF Form I, Form VI, and GSF-nBuAc desolvated are −41.9, −35.9, and −32.6 kcal mol–1, respectively.",
+   "note": "la forma 'desolvated' e' una struttura virtuale ricavata dal solvato togliendo il solvente: «too unstable to be isolated»"
+  },
+  {
+   "id": "X60",
+   "categoria": "computazionale",
+   "proprieta": "Cl–O contact share of the Hirshfeld surface",
+   "tecnica": "Hirshfeld (CrystalExplorer21)",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI",
+     "forma": "F2",
+     "valore": 2.4,
+     "unita": "%"
+    },
+    {
+     "etichetta": "GSF Form I",
+     "forma": "F1",
+     "valore": 1.9,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Additionally Form VI has a more extended Cl–O contact (2.4 vs 1.9%) and narrower Cl–H interactions (10.8 vs 12.1%) of the total Hirshfeld surface."
+  },
+  {
+   "id": "X61",
+   "categoria": "computazionale",
+   "proprieta": "Cl–H interaction share of the Hirshfeld surface",
+   "tecnica": "Hirshfeld (CrystalExplorer21)",
+   "valori": [
+    {
+     "etichetta": "GSF Form VI",
+     "forma": "F2",
+     "valore": 10.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "GSF Form I",
+     "forma": "F1",
+     "valore": 12.1,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Additionally Form VI has a more extended Cl–O contact (2.4 vs 1.9%) and narrower Cl–H interactions (10.8 vs 12.1%) of the total Hirshfeld surface."
+  },
+  {
+   "id": "X62",
+   "categoria": "computazionale",
+   "proprieta": "Hirshfeld fingerprint of Form I: packing, O–H and H–H contacts",
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "GSF Form I"
+   },
+   "tecnica": "Hirshfeld (CrystalExplorer21)",
+   "valori": [],
+   "qualitativo": "denser (more efficient) packing; no interactions in the top right quadrant",
+   "calcolato": true,
+   "citazione": "The 2-D plot for GSF Form I shows a denser (more efficient) packing with no interactions in the top right quadrant"
+  },
+  {
+   "id": "X63",
+   "categoria": "computazionale",
+   "proprieta": "Hirshfeld contacts: O–H and H–H in Form I and Form VI",
+   "tecnica": "Hirshfeld (CrystalExplorer21)",
+   "valori": [],
+   "qualitativo": "Form I: shortest O–H H-bonds, longer H–H contacts than Form VI; Form VI: longer (possibly weaker) O–H contacts",
+   "calcolato": true,
+   "citazione": "H-bonds (O–H) in GSF Form I are the shortest of the series and the dispersive H–H contacts are longer than in Form VI. The new polymorph instead shows longer (i.e., possibly weaker) O–H contacts."
+  },
+  {
+   "id": "X64",
+   "categoria": "computazionale",
+   "proprieta": "Hirshfeld: relative stability of the two polymorphs",
+   "tecnica": "Hirshfeld (CrystalExplorer21)",
+   "valori": [],
+   "qualitativo": "differences in Hirshfeld contacts justify the relative stability of Form I and Form VI",
+   "calcolato": true,
+   "citazione": "Overall, such differences justify the relative stability of the two polymorphs."
+  },
+  {
+   "id": "X65",
+   "categoria": "computazionale",
+   "proprieta": "Hirshfeld surface of desolvated GSF-nBuAc",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "tecnica": "Hirshfeld (CrystalExplorer21)",
+   "valori": [],
+   "qualitativo": "intermediate between Form I and Form VI, with more relaxed O–H and H–H contacts",
+   "calcolato": true,
+   "citazione": "The surface for the framework of the desolvated GSF-nBuAc is somewhat in between the two extremes, with more relaxed O–H and H–H contacts."
+  },
+  {
+   "id": "X66",
+   "categoria": "computazionale",
+   "proprieta": "energy framework of GSF Form I",
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "GSF Form I"
+   },
+   "tecnica": "energy framework (CrystalExplorer21)",
+   "valori": [],
+   "qualitativo": "closely packed molecules, complex pattern of interactions",
+   "calcolato": true,
+   "citazione": "The energy framework of GSF Form I indicates that the molecules are closely packed and held together by a complex pattern of interactions."
+  },
+  {
+   "id": "X67",
+   "categoria": "computazionale",
+   "proprieta": "energy framework of GSF Form VI",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "energy framework (CrystalExplorer21)",
+   "valori": [],
+   "qualitativo": "strong zigzag interactions within the double layers, weaker dispersive interactions across layers",
+   "calcolato": true,
+   "citazione": "In the GSF Form VI, the lattice presents a network with strong zigzag interactions within the double layers and similar but weaker (dispersive) interactions across successive double layers."
+  },
+  {
+   "id": "X68",
+   "categoria": "computazionale",
+   "proprieta": "energy framework of the desolvated GSF-nBuAc",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "tecnica": "energy framework (CrystalExplorer21)",
+   "valori": [],
+   "qualitativo": "honeycomb framework, zigzag within the double layer, much weaker perpendicular elongated interactions across layers",
+   "calcolato": true,
+   "citazione": "The desolvated GSF-nBuAc form shows a honeycomb energy framework with a zigzag motif within the double layer but much weaker, perpendicular, and elongated across successive layers."
+  },
+  {
+   "id": "X69",
+   "categoria": "computazionale",
+   "proprieta": "anisotropy of the interactions and collapse of the solvate on guest removal",
+   "tecnica": "energy framework (CrystalExplorer21)",
+   "valori": [],
+   "qualitativo": "anisotropic strong/weak interactions could explain the collapse of the solvates on guest removal with the double layers preserved",
+   "calcolato": true,
+   "citazione": "The anisotropic arrangement of weak and strong interactions could explain why the structure of the solvates collapse upon guest removal while the double layers are preserved."
+  },
+  {
+   "id": "X70",
+   "categoria": "computazionale",
+   "proprieta": "Form I with the strongest lattice interactions; virtual desolvated nBuAc too unstable",
+   "tecnica": "CrystalExplorer21",
+   "valori": [],
+   "qualitativo": "Form I: closer and stronger intermolecular interactions; the virtual desolvated nBuAc form too unstable to be isolated",
+   "calcolato": true,
+   "citazione": "Therefore, GSF Form I has closer and stronger intermolecular interactions that stabilize the crystal structure. The virtual GSF-nBuAc desolvated form was too unstable to be isolated."
+  },
+  {
+   "id": "X71",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "π-stacked double layers; Cl–H and Cl–O interactions within each strand",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "π-stacked double layers of GSF molecules; Cl–H and Cl–O interactions within each strand; molecules oriented in the same direction",
+   "citazione": "The crystal structures of GSF Form VI, GSF-ACN, and GSF-nBuAc are characterized by π-stacked double layers of GSF molecules. Within each strand of the double layer, molecules are held together by a combination of Cl–H and Cl–O interactions and are oriented in the same direction."
+  },
+  {
+   "id": "X72",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "double layers along the screw axis in Form VI and the ACN solvate; nBuAc solvate lacks the screw axis",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "Form VI and ACN solvate: double layers along the screw axis; triclinic nBuAc solvate without screw axis, similar structure",
+   "citazione": "In Form VI and in the ACN solvate, the double layers extend along the crystallographic screw axis, Figure 4; the triclinic nBuAc solvate lacks the screw axis but a similar structure is observed."
+  },
+  {
+   "id": "X73",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "same periodicity along the vertical direction; differences in cell metrics from packing symmetry and independent molecules",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "same periodicity in the vertical direction in all structures",
+   "citazione": "As depicted in Figure 4, along the vertical direction, all the structures have the same periodicity, and the differences in the unit cell metrics are due to changes in packing symmetry and the number of independent molecules."
+  },
+  {
+   "id": "X74",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "double-layer repetition ab–ab in Form VI, ab–ba in the solvates",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "Form VI: ab–ab repetition; solvates: ab–ba repetition, creating voids for the solvent",
+   "citazione": "However, the double layers of Form VI repeat in an ab–ab fashion, whereas in the solvates they are shifted with respect to one another, resulting in an ab–ba repetition. The latter creates empty space that can accommodate the solvent molecules."
+  },
+  {
+   "id": "X75",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form VI as a relict structure",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "Form VI could be a relict structure from the removal of the guest solvent and collapse of the voids",
+   "citazione": "Such structural similarity, together with the observed synthetic conditions, suggests that GSF Form VI could be a relict structure that emerges from the removal of the guest solvent upon collapsing of the voids."
+  },
+  {
+   "id": "X76",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "layered structure with voids in all GSF solvates except GSF-nitroethane (2:1)",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "same layered structure with voids occupied by different solvents in all GSF solvates except GSF-nitroethane (2:1)",
+   "citazione": "Indeed, all of the crystal structures of GSF solvates, with the exception of the GSF-nitroethane (2:1), present the same layered structure with voids occupied by different solvent molecules, Figure 5."
+  },
+  {
+   "id": "X77",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GSF-nBuAc isostructural with GSF-dichloromethane; isometric with other solvates",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "isostructural with GSF-dichloromethane; isometric with the bromochloromethane, dibromomethane and bromoethane solvates",
+   "citazione": "The crystal is isostructural to that of GSF-dichloromethane17,18 as well as isometric to other GSF solvates (-bromochloromethane, -dibromomethane and -bromoethane17), whose full structures were never reported but whose crystal systems are reported in the CSD.",
+   "note": "confronto con strutture di altri lavori (rif. 17, 18)"
+  },
+  {
+   "id": "X78",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "solvent in voids of GSF-ACN, GSF-nitromethane (1:1) and GSF-nitroethane (1:1) (Aitipamula et al., 2014)",
+   "oggetto": {
+    "forma": "F3",
+    "etichetta": "GSF-ACN"
+   },
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "solvents occupy voids in GSF-ACN and in the nitromethane and nitroethane (1:1) solvates",
+   "citazione": "Aitipamula et al. (2014) observed solvents occupying voids in the GSF-ACN, GSF- nitromethane (1:1), and GSF- nitroethane (1:1) solvates8 and Chen et al. (2019) had proposed a similar theoretical structure for the GSF-dichloromethane solvate.18",
+   "note": "citato dai rif. 8 e 18"
+  },
+  {
+   "id": "X79",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "only Form VI isolated from the ACN solvate",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "valori": [],
+   "qualitativo": "Form VI isolated only from GSF-ACN; possibly in undetectable traces from other isostructural solvates",
+   "citazione": "Indeed, GSF Form VI was only isolated from GSF-ACN, though it might occur, in nondetectable traces, from other isostructural solvates."
+  },
+  {
+   "id": "X80",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "zigzag framework associated with crystal plasticity; compressibility of granulated GSF",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "valori": [],
+   "qualitativo": "zigzag frameworks associated with increased plasticity; the improved compressibility of granulated GSF may be due to metastable Form VI",
+   "citazione": "Furthermore, the observed zigzag framework has been associated with increased crystal plasticity.32,33 Previously, Chen et al. (2019) reported improved compressibility in GSF powder granulated with DCM and attributed the improvement to the formation of a porous phase.18 Here, instead, the cause of the reported increased compressibility may be the presence of metastable GSF Form VI.",
+   "note": "citato dai rif. 18, 32, 33"
+  },
+  {
+   "id": "X81",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form VI and the other GSF solvates with voids",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "valori": [],
+   "qualitativo": "metastable; isolated after desolvation of GSF-ACN; structure similar to the solvates with voids",
+   "citazione": "GSF Form VI is a metastable form that can be isolated after desolvation of the GSF-ACN solvate and presents a structure similar to the other GSF solvates containing voids such as the GSF-nBuAc."
+  },
+  {
+   "id": "X82",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "GSF-nBuAc: hemisolvate analogue of the other reported solvates",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "valori": [],
+   "qualitativo": "hemisolvate analogue of other GSF solvates",
+   "citazione": "GSF-nBuAc is a hemisolvate analogue of other solvates reported for GSF."
+  },
+  {
+   "id": "X83",
+   "categoria": "morfologia",
+   "proprieta": "SEM habit of GSF Form VI powder",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "tecnica": "SEM",
+   "valori": [],
+   "qualitativo": "irregular habit, nonhomogeneous size",
+   "citazione": "GSF Form VI sample crystals present an irregular habit of nonhomogeneous size."
+  },
+  {
+   "id": "X84",
+   "categoria": "morfologia",
+   "proprieta": "SEM habit of GSF-nBuAc powder",
+   "oggetto": {
+    "forma": "F4",
+    "etichetta": "GSF-nBuAc"
+   },
+   "tecnica": "SEM",
+   "valori": [],
+   "qualitativo": "blocky shapes, different sizes",
+   "citazione": "GSF-nBuAc crystals present blocky shapes with different sizes."
+  },
+  {
+   "id": "X85",
+   "categoria": "morfologia",
+   "proprieta": "PLM habit of crystals grown in ACN",
+   "tecnica": "PLM",
+   "valori": [],
+   "qualitativo": "platelike in ACN; diamond-like in nBuAc",
+   "citazione": "GSF crystallized in ACN present platelike shapes, while GSF crystallized in nBuAc present diamond-like shapes."
+  },
+  {
+   "id": "X86",
+   "categoria": "morfologia",
+   "proprieta": "habit is not changed by the solid-state transformations",
+   "tecnica": "PLM",
+   "valori": [],
+   "qualitativo": "habit unaffected by GSF-ACN -> Form VI and GSF-nBuAc -> Form I",
+   "citazione": "However, the transformation from GSF-ACN to GSF Form VI and from GSF-nBuAc to GSF Form I does not affect the resulting crystal habit."
+  },
+  {
+   "id": "X87",
+   "categoria": "morfologia",
+   "proprieta": "habit depends on the crystallization solvent",
+   "tecnica": "PLM",
+   "valori": [],
+   "qualitativo": "habit affected by the crystallization solvent",
+   "citazione": "Therefore, the habit of the GSF crystals was affected by the solvent employed during the crystallization."
+  },
+  {
+   "id": "X88",
+   "categoria": "altro",
+   "proprieta": "Form VI as possible cause of the plasticity and compressibility of granulated GSF",
+   "oggetto": {
+    "forma": "F2",
+    "etichetta": "GSF Form VI"
+   },
+   "valori": [],
+   "qualitativo": "Form VI might be the reason for the increased plasticity and compressibility of granulated GSF",
+   "citazione": "GSF Form VI might be the reason for the increased plasticity and compressibility of granulated GSF."
+  },
+  {
+   "id": "X89",
+   "categoria": "composizione",
+   "proprieta": "chemical formula and name of griseofulvin as written",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "formula",
+     "testo": "C17H17ClO6"
+    }
+   ],
+   "citazione": "Griseofulvin [C17H17ClO6-(2S,6’R)-7-chloro-2′,4,6-trimethoxy-6′-methyl-3H,4′H-spiro [1-benzo-furan-2,1′-cyclohex[2]ene]-3,4′-dione] (GSF)",
+   "note": "il nome e' spezzato dal PDF («1-benzo-furan»); la formula e' anche in Tabella 1"
+  },
+  {
+   "id": "X90",
+   "categoria": "altro",
+   "proprieta": "griseofulvin considered monomorphic for decades",
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "GSF Form I",
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "all crystallizations from solution gave Form I for many decades",
+   "citazione": "For many decades, GSF was considered to be monomorphic because all attempts to crystallize it from solution resulted in the formation of Form I, despite variation of crystallization protocols.",
+   "note": "storia riportata dall'introduzione"
+  },
+  {
+   "id": "X91",
+   "categoria": "altro",
+   "proprieta": "year of the first crystal structure of Form I",
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "GSF Form I"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "anno",
+     "valore": 1977
+    }
+   ],
+   "citazione": "The first crystal structure of GSF (Form I, the stable polymorph) was reported in 1977.14",
+   "note": "citato dal rif. 14"
+  },
+  {
+   "id": "X92",
+   "categoria": "altro",
+   "proprieta": "solvates of griseofulvin reported in the literature",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "solvates reported with chloroform, benzene, dioxane, bromoethane, dichloroethane, dichloromethane, dibromomethane, bromochloromethane, 1-bromo-2-chloroethane, acetonitrile, nitromethane and nitroethane",
+   "citazione": "However, different solvates have been reported: with chloroform,15 benzene, dioxane,16 bromoethane, dichloroethane, dichloromethane, dibromomethane, bromochloromethane, 1-bromo-2-chloroethane,17 acetonitrile, nitromethane, and nitroethane.8,18",
+   "note": "citato dai rif. 8, 15-18; senza dati sperimentali in questo lavoro"
+  },
+  {
+   "id": "X93",
+   "categoria": "altro",
+   "proprieta": "Forms II and III of griseofulvin: melt crystallization (2013) and structures (2018, 2020)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "anno Form II e III",
+     "valore": 2013
+    },
+    {
+     "etichetta": "struttura Form II",
+     "valore": 2018
+    },
+    {
+     "etichetta": "struttura Form III",
+     "valore": 2020
+    }
+   ],
+   "qualitativo": "Form II and Form III obtained from the melt; structures solved in 2018 (Form II) and 2020 (Form III)",
+   "citazione": "In 2013, two new GSF polymorphs (Form II and Form III) were obtained by melt crystallization.19 The respective crystal structures were solved in 2018 (Form II)20 and 2020 (Form III).21",
+   "note": "citato dai rif. 19-21; forme non estratte nell'estrazione principale (nessun evento di questo lavoro)"
+  },
+  {
+   "id": "X94",
+   "categoria": "altro",
+   "proprieta": "Forms IV and V of griseofulvin: melt with PEG (2022)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "anno",
+     "valore": 2022
+    }
+   ],
+   "qualitativo": "Form IV and Form V obtained from the melt in the presence of PEG",
+   "citazione": "In 2022, two additional polymorphs (Form IV and Form V) were obtained from the melt in the presence of PEG.22",
+   "note": "citato dal rif. 22"
+  },
+  {
+   "id": "X95",
+   "categoria": "altro",
+   "proprieta": "Form I as the form of the marketed medicine",
+   "oggetto": {
+    "forma": "F1",
+    "etichetta": "GSF Form I"
+   },
+   "valori": [],
+   "qualitativo": "marketed as tablet or suspension, as the stable Form I",
+   "citazione": "The medicine is available as a tablet or suspension for oral administration as the stable Form I.13",
+   "note": "citato dal rif. 13"
+  },
+  {
+   "id": "X96",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "solvates with voids in Figure 5",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "GSF–nitroethane exists as 2:1 and 1:1 solvates; also dichloroethane and dichloromethane solvates (Figure 5)",
+   "citazione": "(e) GSF – nitroethane (2:1), (f) GSF – nitroethane (1:1), (g) GSF-dichloroethane, and (h) GSF – dichloromethane.",
+   "note": "didascalia della Fig. 5"
+  }
+ ]
+}
