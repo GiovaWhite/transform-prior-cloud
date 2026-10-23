@@ -1,0 +1,985 @@
+{
+ "file": "estrazione/cloud/10.1021__acs.cgd.1c00886_4f64ee0f.json",
+ "doi": "10.1021/acs.cgd.1c00886",
+ "schema": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E2",
+   "via": "termica",
+   "esito": "parziale",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E3",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E4",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 452.59: il numero c'e' ma non accanto a «K»",
+    "entalpia 53.4: il numero c'e' ma non accanto a «kJ/mol»",
+    "picchi_dsc[0].grandezza 452.59: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E5",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 447.2: il numero c'e' ma non accanto a «K»",
+    "temperatura 448.2: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E6",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E7",
+   "via": "termica",
+   "esito": "parziale",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E8",
+   "via": "termica",
+   "esito": "parziale",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E9",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 430.45: il numero c'e' ma non accanto a «K»",
+    "entalpia 41.7: il numero c'e' ma non accanto a «kJ/mol»",
+    "picchi_dsc[0].grandezza 430.45: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E10",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 427.5: il numero c'e' ma non accanto a «K»",
+    "temperatura 428.2: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E11",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E12",
+   "via": "termica",
+   "esito": "parziale",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E13",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E14",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E15",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E16",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 446.18: il numero c'e' ma non accanto a «K»",
+    "entalpia 50.5: il numero c'e' ma non accanto a «kJ/mol»",
+    "picchi_dsc[0].grandezza 446.18: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E17",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 445.0: il numero c'e' ma non accanto a «K»",
+    "temperatura 446.0: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E18",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E19",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E20",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E21",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E22",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E23",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E24",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E25",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E26",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 428.7: il numero c'e' ma non accanto a «K»",
+    "temperatura 429.5: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E27",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E28",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E29",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E30",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 402.69: il numero c'e' ma non accanto a «K»",
+    "entalpia 29.3: il numero c'e' ma non accanto a «kJ/mol»",
+    "picchi_dsc[0].grandezza 402.69: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E31",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 400.2: il numero c'e' ma non accanto a «K»",
+    "temperatura 401.1: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E32",
+   "via": "termica",
+   "esito": "parziale",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E33",
+   "via": "umidita",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E34",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E35",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E36",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 395.98: il numero c'e' ma non accanto a «K»",
+    "entalpia 37.2: il numero c'e' ma non accanto a «kJ/mol»",
+    "picchi_dsc[0].grandezza 395.98: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E37",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "temperatura 394.0: il numero c'e' ma non accanto a «K»",
+    "temperatura 394.9: il numero c'e' ma non accanto a «K»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E38",
+   "via": "termica",
+   "esito": "parziale",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E39",
+   "via": "umidita",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E40",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E41",
+   "via": "desolvatazione",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E42",
+   "via": "desolvatazione",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E43",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E44",
+   "via": "desolvatazione",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E45",
+   "via": "desolvatazione",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E46",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E47",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E48",
+   "via": "desolvatazione",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E49",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E50",
+   "via": "solvente",
+   "esito": "parziale",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E51",
+   "via": "solvente",
+   "esito": "parziale",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E52",
+   "via": "solvente",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E53",
+   "via": "solvente",
+   "esito": "parziale",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F2",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F3",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F4",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F5",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F6",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F7",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F8",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F9",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F10",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F8",
+    "F10"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F5",
+    "F6"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "problemi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "composto": "C2",
+   "problemi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "composto": "C3",
+   "problemi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "composto": "C4",
+   "problemi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "composto": "C5",
+   "problemi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "problemi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "problemi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F5",
+    "F6"
+   ],
+   "problemi": [],
+   "verdetto": "accettato"
+  }
+ ]
+}

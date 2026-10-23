@@ -1,0 +1,3851 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1021/acs.cgd.1c00886",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "formula chimica (Tabella 1) [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "[C8H12N][C13H17O2]"
+    },
+    {
+     "forma": "F3",
+     "testo": "[C8H12N][C14H13O3]"
+    },
+    {
+     "forma": "F4",
+     "testo": "[C8H12N][C14H13O3]"
+    }
+   ],
+   "citazione": "formula [C8H12N][C13H17O2] [C8H12N][C14H13O3] [C8H12N][C14H13O3]"
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "peso formula MW [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 327.45
+    },
+    {
+     "forma": "F3",
+     "valore": 351.42
+    },
+    {
+     "forma": "F4",
+     "valore": 351.42
+    }
+   ],
+   "citazione": "MW 327.45 351.42 351.42"
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda λ [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 1.54178,
+     "unita": "Å"
+    },
+    {
+     "forma": "F3",
+     "valore": 1.54178,
+     "unita": "Å"
+    },
+    {
+     "forma": "F4",
+     "valore": 1.54178,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "λ (Å) 1.54178 1.54178 1.54178"
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "densita' calcolata dc [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 1.101,
+     "unita": "g/cm3"
+    },
+    {
+     "forma": "F3",
+     "valore": 1.216,
+     "unita": "g/cm3"
+    },
+    {
+     "forma": "F4",
+     "valore": 1.263,
+     "unita": "g/cm3"
+    }
+   ],
+   "citazione": "Z, dc (g/cm3) 4, 1.101 2, 1.216 2, 1.263",
+   "note": "La riga contiene anche Z (gia' nelle forme)."
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "coefficiente di assorbimento μ [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 0.544,
+     "unita": "mm-1"
+    },
+    {
+     "forma": "F3",
+     "valore": 0.641,
+     "unita": "mm-1"
+    },
+    {
+     "forma": "F4",
+     "valore": 0.666,
+     "unita": "mm-1"
+    }
+   ],
+   "citazione": "μ (mm−1) 0.544 0.641 0.666"
+  },
+  {
+   "id": "X6",
+   "categoria": "cristallografia",
+   "proprieta": "F(000) [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 712
+    },
+    {
+     "forma": "F3",
+     "valore": 376
+    },
+    {
+     "forma": "F4",
+     "valore": 376
+    }
+   ],
+   "citazione": "F(000) 712 376 376"
+  },
+  {
+   "id": "X7",
+   "categoria": "cristallografia",
+   "proprieta": "dimensioni del cristallo (mm) [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "etichetta": "dim1",
+     "valore": 0.15,
+     "unita": "mm"
+    },
+    {
+     "forma": "F1",
+     "etichetta": "dim2",
+     "valore": 0.18,
+     "unita": "mm"
+    },
+    {
+     "forma": "F1",
+     "etichetta": "dim3",
+     "valore": 0.24,
+     "unita": "mm"
+    },
+    {
+     "forma": "F3",
+     "etichetta": "dim1",
+     "valore": 0.14,
+     "unita": "mm"
+    },
+    {
+     "forma": "F3",
+     "etichetta": "dim2",
+     "valore": 0.15,
+     "unita": "mm"
+    },
+    {
+     "forma": "F3",
+     "etichetta": "dim3",
+     "valore": 0.19,
+     "unita": "mm"
+    },
+    {
+     "forma": "F4",
+     "etichetta": "dim1",
+     "valore": 0.14,
+     "unita": "mm"
+    },
+    {
+     "forma": "F4",
+     "etichetta": "dim2",
+     "valore": 0.16,
+     "unita": "mm"
+    },
+    {
+     "forma": "F4",
+     "etichetta": "dim3",
+     "valore": 0.19,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "crystal size (mm) 0.15 × 0.18 × 0.24 0.14 × 0.15 × 0.19 0.14 × 0.16 × 0.19",
+   "note": "Tre dimensioni per cristallo, nell'ordine scritto in tabella."
+  },
+  {
+   "id": "X8",
+   "categoria": "cristallografia",
+   "proprieta": "riflessioni raccolte/indipendenti (Rint) [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "etichetta": "collected",
+     "valore": 10588
+    },
+    {
+     "forma": "F1",
+     "etichetta": "unique",
+     "valore": 3456
+    },
+    {
+     "forma": "F1",
+     "etichetta": "Rint",
+     "valore": 0.0615
+    },
+    {
+     "forma": "F3",
+     "etichetta": "collected",
+     "valore": 21660
+    },
+    {
+     "forma": "F3",
+     "etichetta": "unique",
+     "valore": 3404
+    },
+    {
+     "forma": "F3",
+     "etichetta": "Rint",
+     "valore": 0.0669
+    },
+    {
+     "forma": "F4",
+     "etichetta": "collected",
+     "valore": 13442
+    },
+    {
+     "forma": "F4",
+     "etichetta": "unique",
+     "valore": 3534
+    },
+    {
+     "forma": "F4",
+     "etichetta": "Rint",
+     "valore": 0.0834
+    }
+   ],
+   "citazione": "reﬂns collected/unique (Rint) 10588/3456 (0.0615) 21660/3404 (0.0669) 13442/3534 (0.0834)"
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "intervallo 2θ (deg) [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "etichetta": "min",
+     "valore": 7.95,
+     "unita": "deg"
+    },
+    {
+     "forma": "F1",
+     "etichetta": "max",
+     "valore": 133.62,
+     "unita": "deg"
+    },
+    {
+     "forma": "F3",
+     "etichetta": "min",
+     "valore": 6.88,
+     "unita": "deg"
+    },
+    {
+     "forma": "F3",
+     "etichetta": "max",
+     "valore": 136.73,
+     "unita": "deg"
+    },
+    {
+     "forma": "F4",
+     "etichetta": "min",
+     "valore": 6.53,
+     "unita": "deg"
+    },
+    {
+     "forma": "F4",
+     "etichetta": "max",
+     "valore": 145.39,
+     "unita": "deg"
+    }
+   ],
+   "citazione": "2θ range (deg) 7.95/133.62 6.88/136.73 6.53/145.39"
+  },
+  {
+   "id": "X10",
+   "categoria": "cristallografia",
+   "proprieta": "dati/parametri raffinati [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "etichetta": "data",
+     "valore": 3456
+    },
+    {
+     "forma": "F1",
+     "etichetta": "parameters",
+     "valore": 304
+    },
+    {
+     "forma": "F3",
+     "etichetta": "data",
+     "valore": 3404
+    },
+    {
+     "forma": "F3",
+     "etichetta": "parameters",
+     "valore": 310
+    },
+    {
+     "forma": "F4",
+     "etichetta": "data",
+     "valore": 3534
+    },
+    {
+     "forma": "F4",
+     "etichetta": "parameters",
+     "valore": 310
+    }
+   ],
+   "citazione": "data/parameters 3456/304 3404/310 3534/310"
+  },
+  {
+   "id": "X11",
+   "categoria": "cristallografia",
+   "proprieta": "indici R finali [I > 2σ]: R1, wR2 [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "etichetta": "R1",
+     "valore": 0.0463
+    },
+    {
+     "forma": "F1",
+     "etichetta": "wR2",
+     "valore": 0.1183
+    },
+    {
+     "forma": "F3",
+     "etichetta": "R1",
+     "valore": 0.0514
+    },
+    {
+     "forma": "F3",
+     "etichetta": "wR2",
+     "valore": 0.1321
+    },
+    {
+     "forma": "F4",
+     "etichetta": "R1",
+     "valore": 0.0459
+    },
+    {
+     "forma": "F4",
+     "etichetta": "wR2",
+     "valore": 0.1001
+    }
+   ],
+   "citazione": "ﬁnal R indices [I > 2σ] R1 = 0.0463, wR2 = 0.1183 R1 = 0.0514, wR2 = 0.1321 R1 = 0.0459, wR2 = 0.1001"
+  },
+  {
+   "id": "X12",
+   "categoria": "cristallografia",
+   "proprieta": "indici R (tutti i dati): R1, wR2 [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "etichetta": "R1",
+     "valore": 0.0512
+    },
+    {
+     "forma": "F1",
+     "etichetta": "wR2",
+     "valore": 0.1275
+    },
+    {
+     "forma": "F3",
+     "etichetta": "R1",
+     "valore": 0.0518
+    },
+    {
+     "forma": "F3",
+     "etichetta": "wR2",
+     "valore": 0.1332
+    },
+    {
+     "forma": "F4",
+     "etichetta": "R1",
+     "valore": 0.055
+    },
+    {
+     "forma": "F4",
+     "etichetta": "wR2",
+     "valore": 0.1063
+    }
+   ],
+   "citazione": "R indices (all data) R1 = 0.0512, wR2 = 0.1275 R1 = 0.0518, wR2 = 0.1332 R1 = 0.0550, wR2 = 0.1063"
+  },
+  {
+   "id": "X13",
+   "categoria": "cristallografia",
+   "proprieta": "GOF [S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 1.054
+    },
+    {
+     "forma": "F3",
+     "valore": 1.108
+    },
+    {
+     "forma": "F4",
+     "valore": 1.079
+    }
+   ],
+   "citazione": "GOF 1.054 1.108 1.079"
+  },
+  {
+   "id": "X14",
+   "categoria": "cristallografia",
+   "proprieta": "formula chimica (Tabella 1) [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "testo": "[C8H12N][C16H13O3]"
+    },
+    {
+     "forma": "F6",
+     "testo": "[C8H12N][C16H13O3]"
+    },
+    {
+     "forma": "F7",
+     "testo": "[C8H12N][C16H13O3]·0.15H2O"
+    }
+   ],
+   "citazione": "formula [C8H12N][C16H13O3] [C8H12N][C16H13O3] [C8H12N][C16H13O3]·0.15H2O"
+  },
+  {
+   "id": "X15",
+   "categoria": "cristallografia",
+   "proprieta": "peso formula MW [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "valore": 375.44
+    },
+    {
+     "forma": "F6",
+     "valore": 375.44
+    },
+    {
+     "forma": "F7",
+     "valore": 379.75
+    }
+   ],
+   "citazione": "MW 375.44 375.44 379.75"
+  },
+  {
+   "id": "X16",
+   "categoria": "cristallografia",
+   "proprieta": "lunghezza d'onda λ [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "valore": 1.54178,
+     "unita": "Å"
+    },
+    {
+     "forma": "F6",
+     "valore": 1.54178,
+     "unita": "Å"
+    },
+    {
+     "forma": "F7",
+     "valore": 1.54178,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "λ (Å) 1.54178 1.54178 1.54178"
+  },
+  {
+   "id": "X17",
+   "categoria": "cristallografia",
+   "proprieta": "densita' calcolata dc [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "valore": 1.229,
+     "unita": "g/cm3"
+    },
+    {
+     "forma": "F6",
+     "valore": 1.225,
+     "unita": "g/cm3"
+    },
+    {
+     "forma": "F7",
+     "valore": 1.193,
+     "unita": "g/cm3"
+    }
+   ],
+   "citazione": "Z, dc (g/cm3) 4, 1.229 4, 1.225 2, 1.193",
+   "note": "La riga contiene anche Z (gia' nelle forme)."
+  },
+  {
+   "id": "X18",
+   "categoria": "cristallografia",
+   "proprieta": "coefficiente di assorbimento μ [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "valore": 0.642,
+     "unita": "mm-1"
+    },
+    {
+     "forma": "F6",
+     "valore": 0.641,
+     "unita": "mm-1"
+    },
+    {
+     "forma": "F7",
+     "valore": 0.631,
+     "unita": "mm-1"
+    }
+   ],
+   "citazione": "μ (mm−1) 0.642 0.641 0.631"
+  },
+  {
+   "id": "X19",
+   "categoria": "cristallografia",
+   "proprieta": "F(000) [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "valore": 800
+    },
+    {
+     "forma": "F6",
+     "valore": 800
+    },
+    {
+     "forma": "F7",
+     "valore": 405
+    }
+   ],
+   "citazione": "F(000) 800 800 405"
+  },
+  {
+   "id": "X20",
+   "categoria": "cristallografia",
+   "proprieta": "dimensioni del cristallo (mm) [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "etichetta": "dim1",
+     "valore": 0.13,
+     "unita": "mm"
+    },
+    {
+     "forma": "F5",
+     "etichetta": "dim2",
+     "valore": 0.15,
+     "unita": "mm"
+    },
+    {
+     "forma": "F5",
+     "etichetta": "dim3",
+     "valore": 0.18,
+     "unita": "mm"
+    },
+    {
+     "forma": "F6",
+     "etichetta": "dim1",
+     "valore": 0.16,
+     "unita": "mm"
+    },
+    {
+     "forma": "F6",
+     "etichetta": "dim2",
+     "valore": 0.2,
+     "unita": "mm"
+    },
+    {
+     "forma": "F6",
+     "etichetta": "dim3",
+     "valore": 0.25,
+     "unita": "mm"
+    },
+    {
+     "forma": "F7",
+     "etichetta": "dim1",
+     "valore": 0.14,
+     "unita": "mm"
+    },
+    {
+     "forma": "F7",
+     "etichetta": "dim2",
+     "valore": 0.18,
+     "unita": "mm"
+    },
+    {
+     "forma": "F7",
+     "etichetta": "dim3",
+     "valore": 0.22,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "crystal size (mm) 0.13 × 0.15 × 0.18 0.16 × 0.20 × 0.25 0.14 × 0.18 × 0.22",
+   "note": "Tre dimensioni per cristallo, nell'ordine scritto in tabella."
+  },
+  {
+   "id": "X21",
+   "categoria": "cristallografia",
+   "proprieta": "riflessioni raccolte/indipendenti (Rint) [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "etichetta": "collected",
+     "valore": 17011
+    },
+    {
+     "forma": "F5",
+     "etichetta": "unique",
+     "valore": 4020
+    },
+    {
+     "forma": "F5",
+     "etichetta": "Rint",
+     "valore": 0.0802
+    },
+    {
+     "forma": "F6",
+     "etichetta": "collected",
+     "valore": 18351
+    },
+    {
+     "forma": "F6",
+     "etichetta": "unique",
+     "valore": 3522
+    },
+    {
+     "forma": "F6",
+     "etichetta": "Rint",
+     "valore": 0.08
+    },
+    {
+     "forma": "F7",
+     "etichetta": "collected",
+     "valore": 12599
+    },
+    {
+     "forma": "F7",
+     "etichetta": "unique",
+     "valore": 4091
+    },
+    {
+     "forma": "F7",
+     "etichetta": "Rint",
+     "valore": 0.0755
+    }
+   ],
+   "citazione": "reﬂns collected/unique (Rint) 17011/4020 (0.0802) 18351/3522 (0.0800) 12599/4091 (0.0755)"
+  },
+  {
+   "id": "X22",
+   "categoria": "cristallografia",
+   "proprieta": "intervallo 2θ (deg) [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "etichetta": "min",
+     "valore": 6.83,
+     "unita": "deg"
+    },
+    {
+     "forma": "F5",
+     "etichetta": "max",
+     "valore": 149.11,
+     "unita": "deg"
+    },
+    {
+     "forma": "F6",
+     "etichetta": "min",
+     "valore": 5.83,
+     "unita": "deg"
+    },
+    {
+     "forma": "F6",
+     "etichetta": "max",
+     "valore": 134.47,
+     "unita": "deg"
+    },
+    {
+     "forma": "F7",
+     "etichetta": "min",
+     "valore": 7.01,
+     "unita": "deg"
+    },
+    {
+     "forma": "F7",
+     "etichetta": "max",
+     "valore": 144.84,
+     "unita": "deg"
+    }
+   ],
+   "citazione": "2θ range (deg) 6.83/149.11 5.83/134.47 7.01/144.84"
+  },
+  {
+   "id": "X23",
+   "categoria": "cristallografia",
+   "proprieta": "dati/parametri raffinati [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "etichetta": "data",
+     "valore": 4020
+    },
+    {
+     "forma": "F5",
+     "etichetta": "parameters",
+     "valore": 328
+    },
+    {
+     "forma": "F6",
+     "etichetta": "data",
+     "valore": 3522
+    },
+    {
+     "forma": "F6",
+     "etichetta": "parameters",
+     "valore": 328
+    },
+    {
+     "forma": "F7",
+     "etichetta": "data",
+     "valore": 4091
+    },
+    {
+     "forma": "F7",
+     "etichetta": "parameters",
+     "valore": 337
+    }
+   ],
+   "citazione": "data/parameters 4020/328 3522/328 4091/337"
+  },
+  {
+   "id": "X24",
+   "categoria": "cristallografia",
+   "proprieta": "indici R finali [I > 2σ]: R1, wR2 [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "etichetta": "R1",
+     "valore": 0.0786
+    },
+    {
+     "forma": "F5",
+     "etichetta": "wR2",
+     "valore": 0.1757
+    },
+    {
+     "forma": "F6",
+     "etichetta": "R1",
+     "valore": 0.0526
+    },
+    {
+     "forma": "F6",
+     "etichetta": "wR2",
+     "valore": 0.1494
+    },
+    {
+     "forma": "F7",
+     "etichetta": "R1",
+     "valore": 0.0519
+    },
+    {
+     "forma": "F7",
+     "etichetta": "wR2",
+     "valore": 0.1307
+    }
+   ],
+   "citazione": "ﬁnal R indices [I > 2σ] R1 = 0.0786, wR2 = 0.1757 R1 = 0.0526, wR2 = 0.1494 R1 = 0.0519, wR2 = 0.1307"
+  },
+  {
+   "id": "X25",
+   "categoria": "cristallografia",
+   "proprieta": "indici R (tutti i dati): R1, wR2 [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "etichetta": "R1",
+     "valore": 0.0906
+    },
+    {
+     "forma": "F5",
+     "etichetta": "wR2",
+     "valore": 0.1835
+    },
+    {
+     "forma": "F6",
+     "etichetta": "R1",
+     "valore": 0.0596
+    },
+    {
+     "forma": "F6",
+     "etichetta": "wR2",
+     "valore": 0.1602
+    },
+    {
+     "forma": "F7",
+     "etichetta": "R1",
+     "valore": 0.0573
+    },
+    {
+     "forma": "F7",
+     "etichetta": "wR2",
+     "valore": 0.1379
+    }
+   ],
+   "citazione": "R indices (all data) R1 = 0.0906, wR2 = 0.1835 R1 = 0.0596, wR2 = 0.1602 R1 = 0.0573, wR2 = 0.1379"
+  },
+  {
+   "id": "X26",
+   "categoria": "cristallografia",
+   "proprieta": "GOF [S-Ket_S-PEA, S-Ket_R-PEA, S-Ket_R-PEA_W]",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "valore": 1.178
+    },
+    {
+     "forma": "F6",
+     "valore": 1.061
+    },
+    {
+     "forma": "F7",
+     "valore": 1.083
+    }
+   ],
+   "citazione": "GOF 1.178 1.061 1.083"
+  },
+  {
+   "id": "X27",
+   "categoria": "cristallografia",
+   "proprieta": "fattore di occupazione dell'ossigeno dell'acqua (raffinamento)",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.15
+    }
+   ],
+   "qualitativo": "fattore di occupazione impostato a 0.15 dopo raffinamento libero; gli atomi di idrogeno dell'acqua non sono stati aggiunti",
+   "citazione": "The occupancy factor of the oxygen water molecule in S-Ket_R-PEA_W was set to 0.15 (hydrogen atoms were not added); this value was obtained after several reﬁnement cycles during which it was freely reﬁned.",
+   "note": "La stechiometria 0.15 per unita' formula e' gia' nell'ospite della forma; qui il dettaglio del raffinamento."
+  },
+  {
+   "id": "X28",
+   "categoria": "cristallografia",
+   "proprieta": "occupazione dell'ossigeno dell'acqua su piu' cristalli",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 0.15
+    }
+   ],
+   "citazione": "(30) Several crystals of S-Ket_R-PEA_W were tested, and in all cases the occupancy factor of the oxygen atom of the water molecule converged to 0.15.",
+   "note": "Nota 30 della bibliografia."
+  },
+  {
+   "id": "X29",
+   "categoria": "cristallografia",
+   "proprieta": "raffinamento: parametri termici e coordinate degli idrogeni",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "tutti gli atomi di idrogeno trovati nella mappa di differenza di Fourier; coordinate raffinate liberamente; parametri termici legati agli atomi di appartenenza",
+   "citazione": "Their coordinates were freely reﬁned, while their thermal parameters were set in accordance with the atoms to which they are bonded.",
+   "note": "Nessun numero; vincoli di raffinamento."
+  },
+  {
+   "id": "X30",
+   "categoria": "cristallografia",
+   "proprieta": "temperatura dei dati SCXRD per S-Ibu_R-PEA (Tabella 3)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 110,
+     "unita": "K"
+    }
+   ],
+   "citazione": "S-Ibu_R-PEA 1.085 63.8 110 430.45a 431.00a 41.7a 427.5−428.2",
+   "note": "Struttura nota (VUCHOR, rif. 23): la Tabella 3 scrive T = 110 K, il testo scrive 111 K («data collected at 111 K»)."
+  },
+  {
+   "id": "X31",
+   "categoria": "cristallografia",
+   "proprieta": "densita' calcolata di S-Ibu_R-PEA (Tabella 3)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 1.085,
+     "unita": "g/cm3"
+    }
+   ],
+   "citazione": "S-Ibu_R-PEA 1.085 63.8 110 430.45a 431.00a 41.7a 427.5−428.2",
+   "note": "Dal rif. 23 (struttura nota VUCHOR): non e' in Tabella 1."
+  },
+  {
+   "id": "X32",
+   "categoria": "cristallografia",
+   "proprieta": "indice di impacchettamento di Kitaigorodskii (K.P.I.)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "valore": 64.9
+    }
+   ],
+   "citazione": "S-Ibu_S-PEA 1.101 64.9 100 452.59a 452.86a 53.4a 447.2−448.2",
+   "note": "Colonna «K.P.I.» della Tabella 3; l'unita' non e' scritta e non si assume."
+  },
+  {
+   "id": "X33",
+   "categoria": "cristallografia",
+   "proprieta": "indice di impacchettamento di Kitaigorodskii (K.P.I.)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "valore": 63.8
+    }
+   ],
+   "citazione": "S-Ibu_R-PEA 1.085 63.8 110 430.45a 431.00a 41.7a 427.5−428.2"
+  },
+  {
+   "id": "X34",
+   "categoria": "cristallografia",
+   "proprieta": "indice di impacchettamento di Kitaigorodskii (K.P.I.)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "valore": 67.8
+    }
+   ],
+   "citazione": "S-Nap_S-PEA 1.216 67.8 100 446.18a 446.60a 50.5a 445.0−446.0"
+  },
+  {
+   "id": "X35",
+   "categoria": "cristallografia",
+   "proprieta": "indice di impacchettamento di Kitaigorodskii (K.P.I.)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [
+    {
+     "valore": 70.5
+    }
+   ],
+   "citazione": "S-Nap_R-PEA 1.263 70.5 100 415.7b/430.2ad 416.0b/430.1ad 428.7−429.5"
+  },
+  {
+   "id": "X36",
+   "categoria": "cristallografia",
+   "proprieta": "indice di impacchettamento di Kitaigorodskii (K.P.I.)",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "valori": [
+    {
+     "valore": 69.1
+    }
+   ],
+   "citazione": "S-Ket_S-PEA 1.229 69.1 100 402.69a 402.84a 29.3a 400.2−401.1"
+  },
+  {
+   "id": "X37",
+   "categoria": "cristallografia",
+   "proprieta": "indice di impacchettamento di Kitaigorodskii (K.P.I.)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [
+    {
+     "valore": 68.2
+    }
+   ],
+   "citazione": "S-Ket_R-PEA 1.225 68.2 100 395.98a 396.47a 37.2a 394.0−394.9"
+  },
+  {
+   "id": "X38",
+   "categoria": "termica",
+   "proprieta": "DSC: extrapolated peak (fusione, 10 K/min)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 452.86,
+     "unita": "K"
+    }
+   ],
+   "citazione": "S-Ibu_S-PEA 1.101 64.9 100 452.59a 452.86a 53.4a 447.2−448.2",
+   "note": "Colonna «extrapolated peak (K)» della Tabella 3; nota a = fusione."
+  },
+  {
+   "id": "X39",
+   "categoria": "termica",
+   "proprieta": "DSC: extrapolated peak (fusione, 10 K/min)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 431.0,
+     "unita": "K"
+    }
+   ],
+   "citazione": "S-Ibu_R-PEA 1.085 63.8 110 430.45a 431.00a 41.7a 427.5−428.2",
+   "note": "Colonna «extrapolated peak (K)» della Tabella 3; nota a = fusione."
+  },
+  {
+   "id": "X40",
+   "categoria": "termica",
+   "proprieta": "DSC: extrapolated peak (fusione, 10 K/min)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 446.6,
+     "unita": "K"
+    }
+   ],
+   "citazione": "S-Nap_S-PEA 1.216 67.8 100 446.18a 446.60a 50.5a 445.0−446.0",
+   "note": "Colonna «extrapolated peak (K)» della Tabella 3; nota a = fusione."
+  },
+  {
+   "id": "X41",
+   "categoria": "termica",
+   "proprieta": "DSC: extrapolated peak (fusione, 10 K/min)",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 402.84,
+     "unita": "K"
+    }
+   ],
+   "citazione": "S-Ket_S-PEA 1.229 69.1 100 402.69a 402.84a 29.3a 400.2−401.1",
+   "note": "Colonna «extrapolated peak (K)» della Tabella 3; nota a = fusione."
+  },
+  {
+   "id": "X42",
+   "categoria": "termica",
+   "proprieta": "DSC: extrapolated peak (fusione, 10 K/min)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 396.47,
+     "unita": "K"
+    }
+   ],
+   "citazione": "S-Ket_R-PEA 1.225 68.2 100 395.98a 396.47a 37.2a 394.0−394.9",
+   "note": "Colonna «extrapolated peak (K)» della Tabella 3; nota a = fusione."
+  },
+  {
+   "id": "X43",
+   "categoria": "termica",
+   "proprieta": "DSC: extrapolated peak del primo picco (decomposizione del sale)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 415.4,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Finally, for S-Nap_R-PEA, two endothermic peaks were observed in the DSC curve (rt to 470 K range), compatible with the salt decomposition observed in the TGA curve and during the VT-PXRD experiment, and with the melting of the naproxen acid (Tm = 425 K): peak = 415.3 K, extrapolated peak = 415.4 K and peak = 429.3 K, extrapolated peak = 429.3 K, respectively (see Figure S45).",
+   "note": "Valore del testo; la Tabella 3 scrive 416.0 K (nota b)."
+  },
+  {
+   "id": "X44",
+   "categoria": "termica",
+   "proprieta": "DSC: extrapolated peak del secondo picco (fusione dell'acido S-naproxen)",
+   "oggetto": {
+    "forma": "F9"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 429.3,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Finally, for S-Nap_R-PEA, two endothermic peaks were observed in the DSC curve (rt to 470 K range), compatible with the salt decomposition observed in the TGA curve and during the VT-PXRD experiment, and with the melting of the naproxen acid (Tm = 425 K): peak = 415.3 K, extrapolated peak = 415.4 K and peak = 429.3 K, extrapolated peak = 429.3 K, respectively (see Figure S45).",
+   "note": "Valore del testo; la Tabella 3 scrive 430.1 K (nota d)."
+  },
+  {
+   "id": "X45",
+   "categoria": "termica",
+   "proprieta": "punto di fusione Tm dell'acido naprossene",
+   "oggetto": {
+    "forma": "F9"
+   },
+   "valori": [
+    {
+     "valore": 425,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Finally, for S-Nap_R-PEA, two endothermic peaks were observed in the DSC curve (rt to 470 K range), compatible with the salt decomposition observed in the TGA curve and during the VT-PXRD experiment, and with the melting of the naproxen acid (Tm = 425 K): peak = 415.3 K, extrapolated peak = 415.4 K and peak = 429.3 K, extrapolated peak = 429.3 K, respectively (see Figure S45).",
+   "note": "«the melting of the naproxen acid (Tm = 425 K)»: il testo non dice se e' misurato qui o noto."
+  },
+  {
+   "id": "X46",
+   "categoria": "termica",
+   "proprieta": "DSC S-Nap_R-PEA: valori della Tabella 3 (diversi dal testo)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "peak, decomposizione (nota b)",
+     "valore": 415.7,
+     "unita": "K"
+    },
+    {
+     "etichetta": "peak, fusione dell'acido (note a,d)",
+     "valore": 430.2,
+     "unita": "K"
+    },
+    {
+     "etichetta": "extrapolated peak, decomposizione",
+     "valore": 416.0,
+     "unita": "K"
+    },
+    {
+     "etichetta": "extrapolated peak, fusione dell'acido",
+     "valore": 430.1,
+     "unita": "K"
+    }
+   ],
+   "citazione": "S-Nap_R-PEA 1.263 70.5 100 415.7b/430.2ad 416.0b/430.1ad 428.7−429.5",
+   "note": "Il testo scrive peak = 415.3 e 429.3 K, extrapolated peak = 415.4 e 429.3 K: i valori della tabella sono diversi (conflitto, vedi gli eventi dell'estrazione principale)."
+  },
+  {
+   "id": "X47",
+   "categoria": "termica",
+   "proprieta": "DSC: extrapolated peak della disidratazione",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 346.62,
+     "unita": "K"
+    }
+   ],
+   "citazione": "The DSC curve showed a very broad peak at about 350 K (peak = 343.42 K, extrapolated peak = 346.62 K, ΔH = 95.0 kJ/mol), which can be related to the loss of water and to the hydrate →anhydrous transition, and a peak at about 390 K (peak = 394.26 K, extrapolated peak = 394.55 K) due to the S-Ket_R-PEA melting (see Figure S53).",
+   "note": "Valore del testo; la Tabella 3 scrive 346.2 K."
+  },
+  {
+   "id": "X48",
+   "categoria": "termica",
+   "proprieta": "DSC: extrapolated peak della fusione dell'anidro formato",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 394.55,
+     "unita": "K"
+    }
+   ],
+   "citazione": "The DSC curve showed a very broad peak at about 350 K (peak = 343.42 K, extrapolated peak = 346.62 K, ΔH = 95.0 kJ/mol), which can be related to the loss of water and to the hydrate →anhydrous transition, and a peak at about 390 K (peak = 394.26 K, extrapolated peak = 394.55 K) due to the S-Ket_R-PEA melting (see Figure S53).",
+   "note": "Valore del testo; la Tabella 3 scrive 394.55 K (concorda)."
+  },
+  {
+   "id": "X49",
+   "categoria": "termica",
+   "proprieta": "DSC: picco della disidratazione, posizione approssimata",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 350,
+     "unita": "K",
+     "circa": true
+    }
+   ],
+   "citazione": "The DSC curve showed a very broad peak at about 350 K (peak = 343.42 K, extrapolated peak = 346.62 K, ΔH = 95.0 kJ/mol), which can be related to the loss of water and to the hydrate →anhydrous transition, and a peak at about 390 K (peak = 394.26 K, extrapolated peak = 394.55 K) due to the S-Ket_R-PEA melting (see Figure S53).",
+   "note": "«a very broad peak at about 350 K»; il picco misurato e' 343.42 K (evento dell'estrazione principale)."
+  },
+  {
+   "id": "X50",
+   "categoria": "termica",
+   "proprieta": "DSC: picco della fusione, posizione approssimata",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 390,
+     "unita": "K",
+     "circa": true
+    }
+   ],
+   "citazione": "The DSC curve showed a very broad peak at about 350 K (peak = 343.42 K, extrapolated peak = 346.62 K, ΔH = 95.0 kJ/mol), which can be related to the loss of water and to the hydrate →anhydrous transition, and a peak at about 390 K (peak = 394.26 K, extrapolated peak = 394.55 K) due to the S-Ket_R-PEA melting (see Figure S53).",
+   "note": "«a peak at about 390 K»; il picco misurato e' 394.26 K."
+  },
+  {
+   "id": "X51",
+   "categoria": "termica",
+   "proprieta": "differenza fra picco DSC e inizio della perdita di massa in TGA",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 50,
+     "unita": "K"
+    },
+    {
+     "forma": "F2",
+     "valore": 30,
+     "unita": "K"
+    }
+   ],
+   "citazione": "The DSC curves of both S-Ibu salts show just one endothermic peak (50 and 30 K above the beginning of mass loss observed in the TGA, for S-Ibu_S-PEA and SIbu_R-PEA, respectively, Figures S33 and S34).",
+   "note": "Il picco DSC sta 50 K (S-Ibu_S-PEA) e 30 K (S-Ibu_R-PEA) sopra l'inizio della perdita di massa in TGA. Per S-Ibu_S-PEA il testo scrive anche «starting at about 380 K» (452.59 - 50 non e' 380): incoerenza interna."
+  },
+  {
+   "id": "X52",
+   "categoria": "termica",
+   "proprieta": "differenza fra picco DSC di S-Nap_S-PEA e temperatura di decomposizione in TGA e VT-PXRD",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 25,
+     "unita": "deg",
+     "circa": true
+    },
+    {
+     "valore": 446,
+     "unita": "K",
+     "circa": true
+    }
+   ],
+   "citazione": "As already observed for the S-Ibu/PEA salts, in the DSC curve of S-Nap_S-PEA there is just one endothermic peak at about 446 K (i.e., about 25 deg above the decomposition temperature observed during the TGA and VT-PXRD experiments, Figure S44).",
+   "note": "Il picco DSC e' «about 25 deg above» la decomposizione."
+  },
+  {
+   "id": "X53",
+   "categoria": "termica",
+   "proprieta": "temperatura del forno rispetto al punto di fusione",
+   "tecnica": "altro",
+   "valori": [
+    {
+     "valore": 30,
+     "unita": "K",
+     "circa": true
+    }
+   ],
+   "citazione": "The temperature was set about 30 K lower than the melting temperature of the corresponding salt as measured with a Stuart Scientiﬁc apparatus: S-Ibu_S-PEA, T = 420 K",
+   "note": "Protocollo dei test termici preliminari: la T del forno e' ca. 30 K sotto il punto di fusione misurato con l'apparecchio Stuart."
+  },
+  {
+   "id": "X54",
+   "categoria": "termica",
+   "proprieta": "temperatura del forno rispetto al punto di fusione 'Buchi' di S-Ibu_S-PEA",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "valore": 30,
+     "unita": "deg"
+    }
+   ],
+   "citazione": "In the oven at 420 K (i.e., 30 deg below the Buchï melting point), a complete loss of S-Ibu_S-PEA",
+   "note": "Il testo dei risultati scrive «Buchï», i metodi «Stuart Scientific»."
+  },
+  {
+   "id": "X55",
+   "categoria": "termica",
+   "proprieta": "DSC: intervallo di temperatura misurato (sali S-Ibu e S-Nap)",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "S-Ibu e S-Nap, min",
+     "valore": 300,
+     "unita": "K"
+    },
+    {
+     "etichetta": "S-Ibu e S-Nap, max",
+     "valore": 490,
+     "unita": "K"
+    },
+    {
+     "etichetta": "S-Ket, min",
+     "valore": 300,
+     "unita": "K"
+    },
+    {
+     "etichetta": "S-Ket, max",
+     "valore": 450,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Measurements were carried out in the 300−490 K range for the S-Ibu and S-Nap salts and in the 300−450 K range for the S-Ket ones.",
+   "note": "Per S-Nap_R-PEA il testo dei risultati scrive «rt to 470 K range»."
+  },
+  {
+   "id": "X56",
+   "categoria": "termica",
+   "proprieta": "DSC di S-Nap_R-PEA: intervallo scritto nei risultati",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "max",
+     "valore": 470,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Finally, for S-Nap_R-PEA, two endothermic peaks were observed in the DSC curve (rt to 470 K range), compatible with the salt decomposition observed in the TGA curve and during the VT-PXRD experiment, and with the melting of the naproxen acid (Tm = 425 K): peak = 415.3 K, extrapolated peak = 415.4 K and peak = 429.3 K, extrapolated peak = 429.3 K, respectively (see Figure S45).",
+   "note": "«rt to 470 K range»: diverso dai metodi (300-490 K per i sali S-Nap)."
+  },
+  {
+   "id": "X57",
+   "categoria": "termica",
+   "proprieta": "DSC: errori standard della temperatura e dell'entalpia",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "temperatura",
+     "valore": 0.1,
+     "unita": "K"
+    },
+    {
+     "etichetta": "entalpia",
+     "valore": 0.3,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "numero di misure mediate",
+     "valore": 2
+    }
+   ],
+   "citazione": "The reported data were the average of two measurements, and standard errors were ±0.1 K for temperature and ±0.3 kJ/mol for enthalpy.",
+   "note": "Media di due misure."
+  },
+  {
+   "id": "X58",
+   "categoria": "termica",
+   "proprieta": "TGA: perdita di massa del sale idrato in molecole d'acqua",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "valore": 0.2,
+     "unita": "molecole d'acqua"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The TGA experiment evidenced (see Figure S54) a weight loss of 1% between 313 and 373 K, which corresponds to a calculated water loss of 0.2 water molecules (consistent with the water occupancy factor as determined from the SCXRD data).",
+   "note": "Perdita di massa 1% e intervallo 313-373 K sono nell'evento di TGA dell'estrazione principale; qui il valore calcolato in molecole d'acqua."
+  },
+  {
+   "id": "X59",
+   "categoria": "composizione",
+   "proprieta": "rapporto NSAID/PEA da 1H NMR dopo il forno a 390 K",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "8:1"
+    }
+   ],
+   "condizioni": "1H NMR (CDCl3) dopo il forno",
+   "citazione": "From the NMR spectrum, a S-Ibu/ S-PEA ratio of 8:1 can be estimated",
+   "note": "Rapporto S-Ibu/S-PEA; a 390 K il PXRD mostra ancora il sale."
+  },
+  {
+   "id": "X60",
+   "categoria": "composizione",
+   "proprieta": "rapporto NSAID/PEA da 1H NMR dopo il forno a 400 K",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "12:1"
+    }
+   ],
+   "condizioni": "1H NMR (CDCl3) dopo il forno",
+   "citazione": "the S-Ibu/R-PEA ratio was 12:1",
+   "note": "Rapporto S-Ibu/R-PEA a fine esperimento a 400 K."
+  },
+  {
+   "id": "X61",
+   "categoria": "composizione",
+   "proprieta": "rapporto NSAID/PEA da 1H NMR dopo il forno a 415 K",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "6:1"
+    }
+   ],
+   "condizioni": "1H NMR (CDCl3) dopo il forno",
+   "citazione": "Consistently, a 6:1 S-Nap/PEA ratio was estimated from the NMR spectrum.",
+   "note": "Rapporto S-Nap/PEA a fine esperimento a 415 K."
+  },
+  {
+   "id": "X62",
+   "categoria": "composizione",
+   "proprieta": "rapporto NSAID/PEA da 1H NMR dopo il forno a 370 e 360 K",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "1.5:1"
+    }
+   ],
+   "condizioni": "1H NMR (CDCl3) dopo il forno a 370 K",
+   "citazione": "the NMR spectra of the samples at the end of the experiment gave S-Ket/PEA ratios of 1.5:1 and 1.2:1 for SKet_S-PEA and S-Ket_R-PEA respectively.",
+   "note": "Il rapporto non e' 1:1 pur senza decomposizione secondo gli autori; 1.2:1 per S-Ket_R-PEA nella voce successiva."
+  },
+  {
+   "id": "X63",
+   "categoria": "composizione",
+   "proprieta": "rapporto NSAID/PEA da 1H NMR dopo il forno a 370 e 360 K",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "1.2:1"
+    }
+   ],
+   "condizioni": "1H NMR (CDCl3) dopo il forno a 360 K",
+   "citazione": "the NMR spectra of the samples at the end of the experiment gave S-Ket/PEA ratios of 1.5:1 and 1.2:1 for SKet_S-PEA and S-Ket_R-PEA respectively.",
+   "note": "Vedi la voce precedente."
+  },
+  {
+   "id": "X64",
+   "categoria": "composizione",
+   "proprieta": "rapporto NSAID/PEA da 1H NMR dopo il forno a 360 K (idrato)",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "1.15:1"
+    }
+   ],
+   "condizioni": "1H NMR (CDCl3) dopo il forno a 360 K",
+   "citazione": "Accordingly, from the NMR spectrum, a SKet/PEA ratio of 1.15:1 can be estimated.",
+   "note": "Rapporto S-Ket/PEA dopo la disidratazione al forno."
+  },
+  {
+   "id": "X65",
+   "categoria": "composizione",
+   "proprieta": "rapporto S-Ket/R-PEA da 1H NMR dopo il VT-PXRD",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "2:1"
+    }
+   ],
+   "condizioni": "1H NMR a fine VT-PXRD",
+   "citazione": "The NMR spectrum evidenced that the S-Ket/RPEA ratio in the sample at the end of the experiment was 2:1, i.e., part of the R-PEA had left the melt.",
+   "note": "Parte della R-PEA e' uscita dal fuso."
+  },
+  {
+   "id": "X66",
+   "categoria": "composizione",
+   "proprieta": "rapporto stechiometrico sale 1:1 verificato da 1H NMR (S-Ibu_S-PEA, S-Ibu_R-PEA)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "1:1"
+    }
+   ],
+   "condizioni": "1H NMR in metanolo-d6",
+   "citazione": "1H NMR (methanol-d6) spectra were collected on the solid products to verify the stoichiometric ratio (1:1) of the salt and to exclude the excess of unreacted starting material. The signals considered were the quartets at ca. 3.60 ppm for ibuprofen and ca. 4.30 ppm for PEA (see Figures S8 and S9).",
+   "note": "Verifica dell'assenza di materiale di partenza in eccesso; vale per entrambi i sali S-Ibu (F1 e F2)."
+  },
+  {
+   "id": "X67",
+   "categoria": "composizione",
+   "proprieta": "rapporto stechiometrico sale 1:1 verificato da 1H NMR (sali S-Nap)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "1:1"
+    }
+   ],
+   "condizioni": "1H NMR in metanolo-d6",
+   "citazione": "In all cases, 1H NMR (methanol-d6) spectra were collected on the solid products to verify the stoichiometric ratio (1:1) of the salt and to exclude the excess of unreacted starting material.",
+   "note": "Vale per entrambi i sali S-Nap (F3 e F4), per i due metodi di sintesi."
+  },
+  {
+   "id": "X68",
+   "categoria": "composizione",
+   "proprieta": "rapporto stechiometrico sale 1:1 verificato da 1H NMR (sali S-Ket)",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "1:1"
+    }
+   ],
+   "condizioni": "1H NMR in metanolo-d6",
+   "citazione": "1H NMR (methanol-d6) spectra were collected on the solid products to verify the stoichiometric ratio (1:1) of the salt and to exclude the excess of unreacted starting material. The signals considered were the quartets at ca. 3.60 ppm for ketoprofen and ca. 4.30 ppm for PEA (see Figures S12 and S13).",
+   "note": "Vale per entrambi i sali S-Ket anidri (F5 e F6)."
+  },
+  {
+   "id": "X69",
+   "categoria": "composizione",
+   "proprieta": "rapporto stechiometrico sale 1:1 verificato da 1H NMR (S-Ket_R-PEA_W)",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "analisi_chimica",
+   "valori": [
+    {
+     "testo": "1:1"
+    }
+   ],
+   "condizioni": "1H NMR in metanolo-d6",
+   "citazione": "1H NMR (methanol-d6) spectra were collected on the solid products to verify the stoichiometric ratio (1:1) of the salt and to exclude the excess of unreacted starting material. The signals considered were the quartets at ca. 3.60 ppm for ketoprofen and ca. 4.30 ppm for PEA (see Figure S14)."
+  },
+  {
+   "id": "X70",
+   "categoria": "composizione",
+   "proprieta": "purezza dichiarata di (S)-ibuprofen (reagente commerciale)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "valore": 98,
+     "unita": "%"
+    }
+   ],
+   "citazione": "(S)- (+)-Ibuprofen (98%), (S)-(+) ketoprofen (99%), (S)-(−)-1-phenylethylamine (99%), and (R)-(+)-1-phenylethylamine (99%) were purchased from Sigma-Aldrich.",
+   "note": "Sigma-Aldrich; usato senza ulteriore purificazione."
+  },
+  {
+   "id": "X71",
+   "categoria": "composizione",
+   "proprieta": "purezza dichiarata di (S)-ketoprofen (reagente commerciale)",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "valori": [
+    {
+     "valore": 99,
+     "unita": "%"
+    }
+   ],
+   "citazione": "(S)- (+)-Ibuprofen (98%), (S)-(+) ketoprofen (99%), (S)-(−)-1-phenylethylamine (99%), and (R)-(+)-1-phenylethylamine (99%) were purchased from Sigma-Aldrich.",
+   "note": "Sigma-Aldrich; usato senza ulteriore purificazione."
+  },
+  {
+   "id": "X72",
+   "categoria": "composizione",
+   "proprieta": "purezza dichiarata di (S)-1-phenylethylamine (reagente commerciale)",
+   "oggetto": {
+    "composto": "C5"
+   },
+   "valori": [
+    {
+     "valore": 99,
+     "unita": "%"
+    }
+   ],
+   "citazione": "(S)- (+)-Ibuprofen (98%), (S)-(+) ketoprofen (99%), (S)-(−)-1-phenylethylamine (99%), and (R)-(+)-1-phenylethylamine (99%) were purchased from Sigma-Aldrich.",
+   "note": "Sigma-Aldrich; usato senza ulteriore purificazione."
+  },
+  {
+   "id": "X73",
+   "categoria": "composizione",
+   "proprieta": "purezza dichiarata di (R)-1-phenylethylamine (reagente commerciale)",
+   "oggetto": {
+    "composto": "C4"
+   },
+   "valori": [
+    {
+     "valore": 99,
+     "unita": "%"
+    }
+   ],
+   "citazione": "(S)- (+)-Ibuprofen (98%), (S)-(+) ketoprofen (99%), (S)-(−)-1-phenylethylamine (99%), and (R)-(+)-1-phenylethylamine (99%) were purchased from Sigma-Aldrich.",
+   "note": "Sigma-Aldrich; usato senza ulteriore purificazione."
+  },
+  {
+   "id": "X74",
+   "categoria": "composizione",
+   "proprieta": "purezza dichiarata di (S)-naproxen (reagente commerciale)",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "valori": [
+    {
+     "valore": 99,
+     "unita": "%"
+    }
+   ],
+   "citazione": "(S)-(+)-2-(6-Methoxy-2-naphthyl)propionic acid ((S)-(+)-naproxen, 99%) was purchased from Alfa Aesar.",
+   "note": "Alfa Aesar."
+  },
+  {
+   "id": "X75",
+   "categoria": "composizione",
+   "proprieta": "purezza dichiarata dell'etanolo",
+   "valori": [
+    {
+     "etichetta": "etanolo",
+     "valore": 96,
+     "unita": "%"
+    }
+   ],
+   "citazione": "All syntheses were carried out in air at room temperature (rt) using ultrapure water (Milli-Q, Millipore type 1, 18.2 MΩ cm resistivity at 25 °C) and ethanol (96%) purchased from Sigma-Aldrich, used without further puriﬁcation.",
+   "note": "Sigma-Aldrich."
+  },
+  {
+   "id": "X76",
+   "categoria": "composizione",
+   "proprieta": "resistivita' dell'acqua ultrapura",
+   "valori": [
+    {
+     "valore": 18.2,
+     "unita": "MΩ cm"
+    },
+    {
+     "etichetta": "temperatura di misura",
+     "valore": 25,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "All syntheses were carried out in air at room temperature (rt) using ultrapure water (Milli-Q, Millipore type 1, 18.2 MΩ cm resistivity at 25 °C) and ethanol (96%) purchased from Sigma-Aldrich, used without further puriﬁcation.",
+   "note": "Milli-Q, Millipore type 1."
+  },
+  {
+   "id": "X77",
+   "categoria": "sintesi",
+   "proprieta": "sintesi di S-Ibu_S-PEA e S-Ibu_R-PEA: quantita' dei reagenti e solvente",
+   "valori": [
+    {
+     "etichetta": "(S)-ibuprofen, massa",
+     "valore": 206.3,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "(S)-ibuprofen, quantita'",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "PEA, volume",
+     "valore": 129,
+     "unita": "μL"
+    },
+    {
+     "etichetta": "PEA, quantita'",
+     "valore": 1.0,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume del solvente",
+     "valore": 6,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "etanolo nel solvente",
+     "valore": 67,
+     "unita": "%"
+    },
+    {
+     "etichetta": "temperatura di dissoluzione",
+     "valore": 60,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "durata del riscaldamento",
+     "valore": 1,
+     "unita": "min"
+    }
+   ],
+   "citazione": "Both (S)-(+)-ibuprofen (206.3 mg, 1 mmol) and (S)-(−)-1phenylethylamine or (R)-(+)-1-phenylethylamine (129 μL, 1.0 mmol) were dissolved in 6 mL of a 67% ethanol/water mixture by heating at 60 °C for a minute under magnetic stirring.",
+   "note": "Un'unica sintesi per S-Ibu_S-PEA (con S-PEA) e S-Ibu_R-PEA (con R-PEA). «a minute» = 1 min. La % del solvente e' scritta come «67% ethanol/water mixture»."
+  },
+  {
+   "id": "X78",
+   "categoria": "sintesi",
+   "proprieta": "resa di S-Ibu_S-PEA e S-Ibu_R-PEA",
+   "valori": [
+    {
+     "forma": "F1",
+     "etichetta": "massa",
+     "valore": 216,
+     "unita": "mg"
+    },
+    {
+     "forma": "F1",
+     "etichetta": "resa",
+     "valore": 66,
+     "unita": "%"
+    },
+    {
+     "forma": "F2",
+     "etichetta": "massa",
+     "valore": 190,
+     "unita": "mg"
+    },
+    {
+     "forma": "F2",
+     "etichetta": "resa",
+     "valore": 58,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Yield: 216 mg (66% based on the formula [C8H12N][C13H17O2] (S-Ibu_S-PEA) and 190 mg (58% based on the formula [C8H12N]- [C13H17O2] (S-Ibu_R-PEA)."
+  },
+  {
+   "id": "X79",
+   "categoria": "sintesi",
+   "proprieta": "sintesi di S-Nap_S-PEA e S-Nap_R-PEA (metodo 1): quantita' dei reagenti e solvente",
+   "valori": [
+    {
+     "etichetta": "(S)-naproxen, massa",
+     "valore": 230.3,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "(S)-naproxen, quantita'",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "PEA, volume",
+     "valore": 129,
+     "unita": "μL"
+    },
+    {
+     "etichetta": "PEA, quantita'",
+     "valore": 1.0,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume del solvente",
+     "valore": 15,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "etanolo nel solvente",
+     "valore": 70,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Both (S)-(+)-naproxen (230.3 mg, 1 mmol) and (S)-(−)-1-phenylethylamine or (R)-(+)-1-phenylethylamine (129 μL, 1.0 mmol) were solubilized together under magnetic stirring in 15 mL of a 70% ethanol/water mixture."
+  },
+  {
+   "id": "X80",
+   "categoria": "sintesi",
+   "proprieta": "resa di S-Nap_S-PEA e S-Nap_R-PEA (metodo 1)",
+   "valori": [
+    {
+     "forma": "F3",
+     "etichetta": "massa",
+     "valore": 221,
+     "unita": "mg"
+    },
+    {
+     "forma": "F3",
+     "etichetta": "resa",
+     "valore": 63,
+     "unita": "%"
+    },
+    {
+     "forma": "F4",
+     "etichetta": "massa",
+     "valore": 214,
+     "unita": "mg"
+    },
+    {
+     "forma": "F4",
+     "etichetta": "resa",
+     "valore": 61,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Yield: 221 mg (63% based on the formula [C8H12N][C14H13O3] (S-Nap_S-PEA) and 214 mg (61% based on the formula [C8H12N]- [C14H13O3] (S-Nap_R-PEA)."
+  },
+  {
+   "id": "X81",
+   "categoria": "sintesi",
+   "proprieta": "sintesi di S-Nap_S-PEA e S-Nap_R-PEA (metodo alternativo): solvente e riscaldamento",
+   "valori": [
+    {
+     "etichetta": "volume di etanolo",
+     "valore": 8,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "temperatura di dissoluzione",
+     "valore": 60,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "durata del riscaldamento",
+     "valore": 1,
+     "unita": "min"
+    },
+    {
+     "etichetta": "volume di H2O aggiunto",
+     "valore": 2,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "As an alternative method, the reactants were dissolved in ethanol (8 mL) by heating at 60 °C for a minute under magnetic stirring. Then 2 mL of H2O was added, and the solution was cooled to rt.",
+   "note": "Le quantita' dei reagenti non sono ripetute (stesse del metodo 1: «the reactants»)."
+  },
+  {
+   "id": "X82",
+   "categoria": "sintesi",
+   "proprieta": "resa di S-Nap_S-PEA e S-Nap_R-PEA (metodo alternativo)",
+   "valori": [
+    {
+     "forma": "F3",
+     "etichetta": "massa",
+     "valore": 208,
+     "unita": "mg"
+    },
+    {
+     "forma": "F3",
+     "etichetta": "resa",
+     "valore": 59,
+     "unita": "%"
+    },
+    {
+     "forma": "F4",
+     "etichetta": "massa",
+     "valore": 239,
+     "unita": "mg"
+    },
+    {
+     "forma": "F4",
+     "etichetta": "resa",
+     "valore": 68,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Yield: 208 mg (59% based on the formula [C8H12N][C14H13O3] (S-Nap_S-PEA) and 239 mg (68% based on the formula [C8H12N]- [C14H13O3] (S-Nap_R-PEA)."
+  },
+  {
+   "id": "X83",
+   "categoria": "sintesi",
+   "proprieta": "sintesi di S-Ket_S-PEA e S-Ket_R-PEA: quantita' dei reagenti e solvente",
+   "valori": [
+    {
+     "etichetta": "(S)-ketoprofen, massa",
+     "valore": 254.3,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "(S)-ketoprofen, quantita'",
+     "valore": 1.0,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "PEA, volume",
+     "valore": 134,
+     "unita": "μL"
+    },
+    {
+     "etichetta": "PEA, quantita'",
+     "valore": 1.05,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume del solvente",
+     "valore": 5,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "etanolo nel solvente",
+     "valore": 70,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Both S-(+)-ketoprofen (254.3 mg, 1.0 mmol) and (S)-(−)-1phenylethylamine or R-(+)-1-phenylethylamine (134 μL, 1.05 mmol) were solubilized together under magnetic stirring in 5 mL of a 70%",
+   "note": "Frase spezzata dalla Tabella 1 nel testo letto: «in 5 mL of a 70%» / «ethanol/water mixture». Nessuna resa scritta per i due sali S-Ket anidri."
+  },
+  {
+   "id": "X84",
+   "categoria": "sintesi",
+   "proprieta": "sintesi di S-Ket_R-PEA_W: quantita' dei reagenti e solvente",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "etichetta": "(S)-ketoprofen, massa",
+     "valore": 254.3,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "(S)-ketoprofen, quantita'",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "R-PEA, volume",
+     "valore": 129,
+     "unita": "μL"
+    },
+    {
+     "etichetta": "R-PEA, quantita'",
+     "valore": 1.0,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume del solvente",
+     "valore": 5,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "etanolo nel solvente",
+     "valore": 70,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Both (S)-(+)-ketoprofen (254.3 mg, 1 mmol) and (R)-(+)-1-phenylethylamine (129 μL, 1.0 mmol) were dissolved in 5 mL of a 70% ethanol/water mixture under magnetic stirring."
+  },
+  {
+   "id": "X85",
+   "categoria": "sintesi",
+   "proprieta": "resa di S-Ket_R-PEA_W",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "etichetta": "massa",
+     "valore": 272,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "resa",
+     "valore": 72,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Yield: 272 mg (72% based on the formula [C8H12N][C16H13O3]· 0.15H2O (S-Ket_R-PEA_W)."
+  },
+  {
+   "id": "X86",
+   "categoria": "sintesi",
+   "proprieta": "test di sorbimento di rac-PEA: quantita' di NSAID e di ammina",
+   "oggetto": {
+    "composto": "C6"
+   },
+   "valori": [
+    {
+     "etichetta": "(S)-NSAID",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "rac-PEA, volume",
+     "valore": 387,
+     "unita": "μL"
+    },
+    {
+     "etichetta": "rac-PEA, quantita'",
+     "valore": 3.0,
+     "unita": "mmol"
+    }
+   ],
+   "citazione": "In a desiccator, (S)- NSAID (1 mmol) and rac-1-phenylethylamine (387 μL, 3.0 mmol) were put in two diﬀerent Petri dishes.",
+   "note": "Eccesso di ammina (3.0 mmol contro 1 mmol di NSAID, «an excess of rac-1-phenylethylamine»); NSAID e ammina in due capsule di Petri distinte nello stesso essiccatore, 6 giorni sotto vuoto (evento nell'estrazione principale)."
+  },
+  {
+   "id": "X87",
+   "categoria": "spettroscopia",
+   "proprieta": "1H NMR: quartetto dello ibuprofen (CH, spostamento)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "valore": 3.6,
+     "unita": "ppm",
+     "circa": true
+    }
+   ],
+   "condizioni": "metanolo-d6, 400 MHz",
+   "citazione": "The signals considered were the quartets at ca. 3.60 ppm for ibuprofen and ca. 4.30 ppm for PEA (see Figures S8 and S9).",
+   "note": "Segnale usato per il rapporto stechiometrico; «quartet» come scritto."
+  },
+  {
+   "id": "X88",
+   "categoria": "spettroscopia",
+   "proprieta": "1H NMR: quartetto della PEA (ibuprofen salt, spostamento)",
+   "oggetto": {
+    "etichetta": "PEA"
+   },
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "valore": 4.3,
+     "unita": "ppm",
+     "circa": true
+    }
+   ],
+   "condizioni": "metanolo-d6, 400 MHz",
+   "citazione": "The signals considered were the quartets at ca. 3.60 ppm for ibuprofen and ca. 4.30 ppm for PEA (see Figures S8 and S9).",
+   "note": "Segnale usato per il rapporto stechiometrico."
+  },
+  {
+   "id": "X89",
+   "categoria": "spettroscopia",
+   "proprieta": "1H NMR: quartetto dello naproxen (CH, spostamento)",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "valore": 3.6,
+     "unita": "ppm",
+     "circa": true
+    }
+   ],
+   "condizioni": "metanolo-d6, 400 MHz",
+   "citazione": "The signals considered were the quartets at ca. 3.60 ppm for naproxen and ca. 4.30 ppm for PEA (see Figures S10 and S11).",
+   "note": "Segnale usato per il rapporto stechiometrico; «quartet» come scritto."
+  },
+  {
+   "id": "X90",
+   "categoria": "spettroscopia",
+   "proprieta": "1H NMR: quartetto della PEA (naproxen salt, spostamento)",
+   "oggetto": {
+    "etichetta": "PEA"
+   },
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "valore": 4.3,
+     "unita": "ppm",
+     "circa": true
+    }
+   ],
+   "condizioni": "metanolo-d6, 400 MHz",
+   "citazione": "The signals considered were the quartets at ca. 3.60 ppm for naproxen and ca. 4.30 ppm for PEA (see Figures S10 and S11).",
+   "note": "Segnale usato per il rapporto stechiometrico."
+  },
+  {
+   "id": "X91",
+   "categoria": "spettroscopia",
+   "proprieta": "1H NMR: quartetto dello ketoprofen (CH, spostamento)",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "valore": 3.6,
+     "unita": "ppm",
+     "circa": true
+    }
+   ],
+   "condizioni": "metanolo-d6, 400 MHz",
+   "citazione": "The signals considered were the quartets at ca. 3.60 ppm for ketoprofen and ca. 4.30 ppm for PEA (see Figures S12 and S13).",
+   "note": "Segnale usato per il rapporto stechiometrico; «quartet» come scritto."
+  },
+  {
+   "id": "X92",
+   "categoria": "spettroscopia",
+   "proprieta": "1H NMR: quartetto della PEA (ketoprofen salt, spostamento)",
+   "oggetto": {
+    "etichetta": "PEA"
+   },
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "valore": 4.3,
+     "unita": "ppm",
+     "circa": true
+    }
+   ],
+   "condizioni": "metanolo-d6, 400 MHz",
+   "citazione": "The signals considered were the quartets at ca. 3.60 ppm for ketoprofen and ca. 4.30 ppm for PEA (see Figures S12 and S13).",
+   "note": "Segnale usato per il rapporto stechiometrico."
+  },
+  {
+   "id": "X93",
+   "categoria": "spettroscopia",
+   "proprieta": "1H NMR: quartetto dello ketoprofen (CH, spostamento)",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "valore": 3.6,
+     "unita": "ppm",
+     "circa": true
+    }
+   ],
+   "condizioni": "metanolo-d6, 400 MHz",
+   "citazione": "The signals considered were the quartets at ca. 3.60 ppm for ketoprofen and ca. 4.30 ppm for PEA (see Figure S14).",
+   "note": "Segnale usato per il rapporto stechiometrico; «quartet» come scritto."
+  },
+  {
+   "id": "X94",
+   "categoria": "spettroscopia",
+   "proprieta": "1H NMR: quartetto della PEA (ketoprofen salt, spostamento)",
+   "oggetto": {
+    "etichetta": "PEA"
+   },
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "valore": 4.3,
+     "unita": "ppm",
+     "circa": true
+    }
+   ],
+   "condizioni": "metanolo-d6, 400 MHz",
+   "citazione": "The signals considered were the quartets at ca. 3.60 ppm for ketoprofen and ca. 4.30 ppm for PEA (see Figure S14).",
+   "note": "Segnale usato per il rapporto stechiometrico."
+  },
+  {
+   "id": "X95",
+   "categoria": "spettroscopia",
+   "proprieta": "1H NMR (CDCl3) dei campioni dopo il forno: quartetti di NSAID e PEA",
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "etichetta": "NSAID",
+     "valore": 3.6,
+     "unita": "ppm",
+     "circa": true
+    },
+    {
+     "etichetta": "PEA",
+     "valore": 4.3,
+     "unita": "ppm",
+     "circa": true
+    }
+   ],
+   "condizioni": "CDCl3",
+   "citazione": "In particular, the quartets at ca. 3.60 and ca. 4.30 ppm were used for NSAID and PEA, respectively.",
+   "note": "Usati per il rapporto NSAID/PEA dopo i test termici."
+  },
+  {
+   "id": "X96",
+   "categoria": "metodo",
+   "proprieta": "frequenza dello spettrometro NMR",
+   "tecnica": "1H NMR",
+   "valori": [
+    {
+     "valore": 400,
+     "unita": "MHz"
+    }
+   ],
+   "citazione": "1H NMR spectra were recorded with a Varian Mercuryplus 400 instrument, operating at 400 MHz."
+  },
+  {
+   "id": "X97",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picco PXRD del campione di S-Ibu dopo il sorbimento",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 21,
+     "unita": "°"
+    }
+   ],
+   "citazione": "However, in the batch containing S-Ibu, the presence of the salt containing R-PEA cannot be excluded (see in Figure 7 top the peak at 2θ = 21°).",
+   "note": "Picco a 2θ = 21° che non permette di escludere il sale con R-PEA."
+  },
+  {
+   "id": "X98",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD a temperatura ambiente: lunghezza d'onda, tensione e corrente",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "lunghezza d'onda Cu-Ka1",
+     "valore": 1.54056,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "tensione",
+     "valore": 40,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "corrente",
+     "valore": 40,
+     "unita": "mA"
+    }
+   ],
+   "citazione": "Room-temperature PXRD measurements were carried out by using a Bruker New D8 Da Vinci diﬀractometer (Cu−Kα1 radiation = 1.54056 Å, 40 kV x 40 mA), equipped with a Bruker LYNXEYE-XE detector, scanning range 2θ = 3−40°, 0.03° increments of 2θ and counting time of 0.8 s/step."
+  },
+  {
+   "id": "X99",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD a temperatura ambiente: intervallo di scansione, passo e tempo di conteggio",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ min",
+     "valore": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ max",
+     "valore": 40,
+     "unita": "°"
+    },
+    {
+     "etichetta": "passo",
+     "valore": 0.03,
+     "unita": "°"
+    },
+    {
+     "etichetta": "tempo di conteggio",
+     "valore": 0.8,
+     "unita": "s/step"
+    }
+   ],
+   "citazione": "Room-temperature PXRD measurements were carried out by using a Bruker New D8 Da Vinci diﬀractometer (Cu−Kα1 radiation = 1.54056 Å, 40 kV x 40 mA), equipped with a Bruker LYNXEYE-XE detector, scanning range 2θ = 3−40°, 0.03° increments of 2θ and counting time of 0.8 s/step."
+  },
+  {
+   "id": "X100",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "VT-PXRD: tensione e corrente (radiazione Cu-Ka)",
+   "tecnica": "VT-PXRD",
+   "valori": [
+    {
+     "etichetta": "tensione",
+     "valore": 40,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "corrente",
+     "valore": 40,
+     "unita": "mA"
+    }
+   ],
+   "citazione": "Variable-temperature PXRD analyses of S-Nap_S-PEA, S-Nap_RPEA, and S-Ket_R-PEA_W were performed by using an Anton Paar HTK 1200N hot chamber mounted on a Panalytical X’Pert PRO automated diﬀractometer (Cu−Kα radiation, 40 kV × 40 mA), equipped with a PIX-CEL solid-state fast detector."
+  },
+  {
+   "id": "X101",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "VT-PXRD: intervallo di scansione, tempo di conteggio e passo",
+   "tecnica": "VT-PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ min",
+     "valore": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ max",
+     "valore": 40,
+     "unita": "°"
+    },
+    {
+     "etichetta": "tempo di conteggio",
+     "valore": 1,
+     "unita": "s/step"
+    },
+    {
+     "etichetta": "passo",
+     "valore": 0.03,
+     "unita": "°"
+    }
+   ],
+   "citazione": "The scanning range was 2θ = 5−40° with a 1 s/step counting time and 0.03° increments of 2θ."
+  },
+  {
+   "id": "X102",
+   "categoria": "metodo",
+   "proprieta": "VT-PXRD del sale idrato: intervallo di temperatura",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "VT-PXRD",
+   "valori": [
+    {
+     "etichetta": "min",
+     "valore": 300,
+     "unita": "K"
+    },
+    {
+     "etichetta": "max",
+     "valore": 390,
+     "unita": "K"
+    }
+   ],
+   "citazione": "a VT-PXRD experiment was carried out in the 300−390 K range (see the powder X-ray diﬀraction, PXRD section).",
+   "note": "Intervallo scritto nei metodi; compare anche nella citazione dell'evento VT-PXRD."
+  },
+  {
+   "id": "X103",
+   "categoria": "metodo",
+   "proprieta": "celle SCXRD a temperatura variabile dell'idrato",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "min",
+     "valore": 100,
+     "unita": "K"
+    },
+    {
+     "etichetta": "max",
+     "valore": 340,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Variable-temperature XRD measures were also carried out to check the possibility of triggering the dehydration process by temperature: cell parameters of the SKet_R-PEA_W salt were determined in the 100−340 K range by SCXRD",
+   "note": "Valori delle celle non nel testo (Tabella S4)."
+  },
+  {
+   "id": "X104",
+   "categoria": "metodo",
+   "proprieta": "celle SCXRD a 300 K di tutti gli anidri",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 300,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Cell parameters were also determined at 300 K for all the anhydrous salts reported above, plus the already known S-Ibu_R-PEA salt (CSD Refcode = VUCHOR23).",
+   "note": "Valori delle celle a 300 K non nel testo."
+  },
+  {
+   "id": "X105",
+   "categoria": "metodo",
+   "proprieta": "TGA: portata d'aria",
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "portata d'aria",
+     "valore": 100,
+     "unita": "mL/min"
+    },
+    {
+     "etichetta": "T iniziale",
+     "valore": 313,
+     "unita": "K"
+    },
+    {
+     "etichetta": "T finale",
+     "valore": 873,
+     "unita": "K"
+    }
+   ],
+   "citazione": "For the thermogravimetric analyses (TGA), samples were analyzed on an EXSTAR Seiko 6200 analyzer under air (100 mL/min) at a heating rate of 5 K/min from 313 to 873 K.",
+   "note": "La velocita' di riscaldamento 5 K/min e' nelle condizioni degli eventi di TGA."
+  },
+  {
+   "id": "X106",
+   "categoria": "metodo",
+   "proprieta": "TGA: massa del campione",
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "min",
+     "valore": 3,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "max",
+     "valore": 5,
+     "unita": "mg"
+    }
+   ],
+   "citazione": "The weight of the samples was between 3 and 5 mg."
+  },
+  {
+   "id": "X107",
+   "categoria": "metodo",
+   "proprieta": "DSC: massa del campione",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "min",
+     "valore": 0.8,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "max",
+     "valore": 3.2,
+     "unita": "mg"
+    }
+   ],
+   "citazione": "Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg)."
+  },
+  {
+   "id": "X108",
+   "categoria": "metodo",
+   "proprieta": "analisi di Hirshfeld: raggio della sonda per i vuoti (Fig. 6)",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "valore": 1.2,
+     "unita": "Å"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Crystal packing view of S-Ket_R-PEA_W viewed down the b (left) and a (right) axis directions showing the voids (probe radius 1.2 Å) formed upon the in-silico removal of the disordered water molecule.",
+   "note": "Raggio della sonda per il calcolo dei vuoti dopo rimozione in silico dell'acqua."
+  },
+  {
+   "id": "X109",
+   "categoria": "geometria",
+   "proprieta": "distanze N···O ammonio-carbossilato d1, d2, d3 (Tabella 2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "d1",
+     "valore": 2.732,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d2",
+     "valore": 2.786,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d3",
+     "valore": 2.719,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "Tabella 2, intestazione «Distances (Å) Separating the Ammonium Nitrogen and the Carboxylate Oxygen Atoms»",
+   "citazione": "S-Ibu_S-PEA 2.732(3) 2.786(3) 2.719(3)",
+   "note": "Incertezza = ultima cifra. "
+  },
+  {
+   "id": "X110",
+   "categoria": "geometria",
+   "proprieta": "distanze N···O ammonio-carbossilato d1, d2, d3 (Tabella 2)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "d1",
+     "valore": 2.764,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d2",
+     "valore": 2.695,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d3",
+     "valore": 2.812,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "Tabella 2, intestazione «Distances (Å) Separating the Ammonium Nitrogen and the Carboxylate Oxygen Atoms»",
+   "citazione": "S-Ibu_R-PEAa 2.764 2.695 2.812",
+   "note": "Struttura nota (rif. 23, nota a), senza incertezze. Nella tabella la riga di S-Ibu_R-PEA e' scritta «S-Ibu_R-PEAa»: la «a» e' la nota."
+  },
+  {
+   "id": "X111",
+   "categoria": "geometria",
+   "proprieta": "distanze N···O ammonio-carbossilato d1, d2, d3 (Tabella 2)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "d1",
+     "valore": 2.771,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d2",
+     "valore": 2.808,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d3",
+     "valore": 2.663,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "Tabella 2, intestazione «Distances (Å) Separating the Ammonium Nitrogen and the Carboxylate Oxygen Atoms»",
+   "citazione": "S-Nap_S-PEA 2.771(3) 2.808(2) 2.663(3)",
+   "note": "Incertezza = ultima cifra. "
+  },
+  {
+   "id": "X112",
+   "categoria": "geometria",
+   "proprieta": "distanze N···O ammonio-carbossilato d1, d2, d3 (Tabella 2)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "d1",
+     "valore": 2.703,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d2",
+     "valore": 2.871,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d3",
+     "valore": 2.76,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "Tabella 2, intestazione «Distances (Å) Separating the Ammonium Nitrogen and the Carboxylate Oxygen Atoms»",
+   "citazione": "S-Nap_R-PEA 2.703(3) 2.871(3) 2.760(3)",
+   "note": "Incertezza = ultima cifra. "
+  },
+  {
+   "id": "X113",
+   "categoria": "geometria",
+   "proprieta": "distanze N···O ammonio-carbossilato d1, d2, d3 (Tabella 2)",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "d1",
+     "valore": 2.724,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d2",
+     "valore": 2.791,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d3",
+     "valore": 2.822,
+     "incertezza": 6,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "Tabella 2, intestazione «Distances (Å) Separating the Ammonium Nitrogen and the Carboxylate Oxygen Atoms»",
+   "citazione": "S-Ket_S-PEA 2.724(7) 2.791(7) 2.822(6)",
+   "note": "Incertezza = ultima cifra. "
+  },
+  {
+   "id": "X114",
+   "categoria": "geometria",
+   "proprieta": "distanze N···O ammonio-carbossilato d1, d2, d3 (Tabella 2)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "d1",
+     "valore": 2.785,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d2",
+     "valore": 2.861,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d3",
+     "valore": 2.739,
+     "incertezza": 4,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "Tabella 2, intestazione «Distances (Å) Separating the Ammonium Nitrogen and the Carboxylate Oxygen Atoms»",
+   "citazione": "S-Ket_R-PEA 2.785(4) 2.861(4) 2.739(4)",
+   "note": "Incertezza = ultima cifra. "
+  },
+  {
+   "id": "X115",
+   "categoria": "geometria",
+   "proprieta": "distanze N···O ammonio-carbossilato d1, d2, d3 (Tabella 2)",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "d1",
+     "valore": 2.757,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d2",
+     "valore": 2.72,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "d3",
+     "valore": 2.781,
+     "incertezza": 4,
+     "unita": "Å"
+    }
+   ],
+   "condizioni": "Tabella 2, intestazione «Distances (Å) Separating the Ammonium Nitrogen and the Carboxylate Oxygen Atoms»",
+   "citazione": "S-Ket_R-PEA_W 2.757(4) 2.720(3) 2.781(4)",
+   "note": "Incertezza = ultima cifra. "
+  },
+  {
+   "id": "X116",
+   "categoria": "geometria",
+   "proprieta": "legami N+−H···O− per catione 1-feniletilammonio",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "N+-H···O- per catione",
+     "valore": 3
+    }
+   ],
+   "citazione": "1-phenylethylammonium cation is involved in three chargeassisted N+−H···O−hydrogen bonds45 with three carboxylate groups",
+   "note": "Come nelle strutture VAKVEK, VUCHOR (S-Ibu) e HIFRIX (S-Nap_R-PEA)."
+  },
+  {
+   "id": "X117",
+   "categoria": "geometria",
+   "proprieta": "accettori e donatori dell'anello legato a H",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "accettori",
+     "valore": 3
+    },
+    {
+     "etichetta": "donatori",
+     "valore": 4
+    }
+   ],
+   "citazione": "made up of three and four H-bond acceptors and donors, respectively",
+   "note": "Anello R4^3(10): tre accettori e quattro donatori."
+  },
+  {
+   "id": "X118",
+   "categoria": "geometria",
+   "proprieta": "differenza della distanza di ripetizione lungo la colonna (S-Ket omochirale)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F5",
+     "valore": 0.5,
+     "unita": "Å",
+     "circa": true
+    }
+   ],
+   "citazione": "also in the anhydrous S-Ket ones the homochiral species is characterized by a shorter repeat distance (ca. 0.5 Å), while in the S-Nap salts they are comparable",
+   "note": "Il sale omochirale ha una distanza di ripetizione piu' corta di ca. 0.5 Å dell'eterochirale; per i sali S-Nap sono confrontabili."
+  },
+  {
+   "id": "X119",
+   "categoria": "geometria",
+   "proprieta": "contatto CH···OOC fra anioni NSAID adiacenti in S-Ibu_S-PEA (C2H2···O2)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···O",
+     "valore": 2.42,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angolo C-H···O",
+     "valore": 155,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "S-Ibu_S-PEA (C2H2···O2, 2.42(4) Å, 155(3)°)",
+   "note": "Incertezza = ultima cifra. Contatti aggiuntivi di tipo CH···OOC che stabilizzano la colonna."
+  },
+  {
+   "id": "X120",
+   "categoria": "geometria",
+   "proprieta": "contatto CH···OOC fra anioni NSAID adiacenti in S-Ket_R-PEA (C6H6···O2)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···O",
+     "valore": 2.58,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "angolo C-H···O",
+     "valore": 128,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "S-Ket_R-PEA (C6H6···O2, 2.58(6) Å, 128(4)°)",
+   "note": "Incertezza = ultima cifra."
+  },
+  {
+   "id": "X121",
+   "categoria": "geometria",
+   "proprieta": "contatti CH···OOC fra PEA e naprossene adiacenti in S-Nap_R-PEA",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C2PH2PC···O1, H···O",
+     "valore": 2.51,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C2PH2PC···O1, angolo",
+     "valore": 161,
+     "incertezza": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "C2PH2PC···O2, H···O",
+     "valore": 2.51,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C2PH2PC···O2, angolo",
+     "valore": 145,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "citazione": "S-Nap_R-PEA (C2PH2PC···O1 and C2PH2PC···O2, 2.51(3)Å, 161(2)° and 2.51(3) Å, 145(2)°, respectively)",
+   "note": "Incertezza = ultima cifra."
+  },
+  {
+   "id": "X122",
+   "categoria": "geometria",
+   "proprieta": "acqua disordinata: distanza O1W···O2",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2.82,
+     "incertezza": 2,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "(O1W···O2 = 2.82(2) Å; O1W···N1P = 3.12(2) Å, O1W···H1NC = 2.71(4) Å, O1W···H1NC-N1P = 105(3)°)",
+   "note": "Incertezza = ultima cifra. Contributo dell'acqua alla rete di legami H intracolonna."
+  },
+  {
+   "id": "X123",
+   "categoria": "geometria",
+   "proprieta": "acqua disordinata: distanza O1W···N1P",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 3.12,
+     "incertezza": 2,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "(O1W···O2 = 2.82(2) Å; O1W···N1P = 3.12(2) Å, O1W···H1NC = 2.71(4) Å, O1W···H1NC-N1P = 105(3)°)",
+   "note": "Incertezza = ultima cifra."
+  },
+  {
+   "id": "X124",
+   "categoria": "geometria",
+   "proprieta": "acqua disordinata: distanza O1W···H1NC",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2.71,
+     "incertezza": 4,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "(O1W···O2 = 2.82(2) Å; O1W···N1P = 3.12(2) Å, O1W···H1NC = 2.71(4) Å, O1W···H1NC-N1P = 105(3)°)",
+   "note": "Incertezza = ultima cifra."
+  },
+  {
+   "id": "X125",
+   "categoria": "geometria",
+   "proprieta": "acqua disordinata: angolo O1W···H1NC-N1P",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 105,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "(O1W···O2 = 2.82(2) Å; O1W···N1P = 3.12(2) Å, O1W···H1NC = 2.71(4) Å, O1W···H1NC-N1P = 105(3)°)",
+   "note": "Incertezza = ultima cifra."
+  },
+  {
+   "id": "X126",
+   "categoria": "geometria",
+   "proprieta": "angolo fra gli anelli aromatici di NSAID e PEA nei sette sali",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F2",
+     "valore": 77,
+     "unita": "°"
+    },
+    {
+     "forma": "F3",
+     "valore": 77,
+     "unita": "°"
+    },
+    {
+     "forma": "F4",
+     "valore": 87,
+     "unita": "°"
+    },
+    {
+     "forma": "F6",
+     "valore": 73,
+     "unita": "°"
+    },
+    {
+     "forma": "F7",
+     "valore": 86,
+     "unita": "°"
+    },
+    {
+     "forma": "F1",
+     "valore": 52,
+     "unita": "°"
+    },
+    {
+     "forma": "F5",
+     "valore": 43,
+     "unita": "°"
+    }
+   ],
+   "citazione": "For example, the NSAID and PEA aromatic rings are almost perpendicularly disposed in S-Ibu_R-PEA (77°), in both the naproxen salts (S-Nap_S-PEA, 77°; S-Nap_R-PEA, 87°), and in S-Ket_R-PEA (73°) and S-Ket_R-PEA_W (86°), while they are disposed at about 50° in S-Ibu_S-PEA (52°) and SKet_S-PEA (43°).",
+   "note": "Quasi perpendicolari in F2, F3, F4, F6, F7; a circa 50° in F1 e F5 («about 50°»)."
+  },
+  {
+   "id": "X127",
+   "categoria": "geometria",
+   "proprieta": "frazione di volume vuoto dopo rimozione in silico dell'acqua (S-Ket_R-PEA_W)",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "valore": 1.1,
+     "unita": "%"
+    }
+   ],
+   "qualitativo": "le molecole d'acqua sono alloggiate in tasche isolate",
+   "calcolato": true,
+   "citazione": "Consistent with the low occupancy factor of the crystallization water molecule, its in-silico removal results in a very small fraction of empty volume (1.1%); the resulting voids show that the water molecules are lodged in isolated pockets (Figure 6).",
+   "note": "Calcolo dei vuoti dopo rimozione in silico dell'acqua; sonda di 1.2 Å (didascalia della Fig. 6)."
+  },
+  {
+   "id": "X128",
+   "categoria": "geometria",
+   "proprieta": "densita' calcolata dell'idrato rispetto al sale anidro",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [],
+   "qualitativo": "densita' calcolata molto piu' bassa di quella del sale anidro S-Ket_R-PEA (1.193 contro 1.225 g/cm3 in Tabella 1)",
+   "citazione": "As for the hydrated species, the calculated density based on the crystallographic data is deﬁnitely lower than the corresponding anhydrous ketoprofen-PEA salt.",
+   "note": "Valori numerici nelle voci della Tabella 1."
+  },
+  {
+   "id": "X129",
+   "categoria": "computazionale",
+   "proprieta": "modelli ottimizzati del sale eterochirale S-Ket con diverse occupazioni dell'acqua",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "valori": [
+    {
+     "etichetta": "numero di modelli",
+     "valore": 4
+    },
+    {
+     "etichetta": "occupazione",
+     "valore": 0
+    },
+    {
+     "etichetta": "occupazione",
+     "testo": "1/4"
+    },
+    {
+     "etichetta": "occupazione",
+     "testo": "1/2"
+    },
+    {
+     "etichetta": "occupazione",
+     "valore": 1
+    }
+   ],
+   "calcolato": true,
+   "citazione": "In order to estimate the energetic gain due to the hydration of the S-Ket_R-PEA salt, four diﬀerent models of the (S)-ketoprofen heterochiral salt with diﬀerent water occupancies (0, 1/4, 1/2, and 1) were optimized.",
+   "note": "Ottimizzazione con HSEsol-3c (CRYSTAL17)."
+  },
+  {
+   "id": "X130",
+   "categoria": "computazionale",
+   "proprieta": "livello di teoria dei calcoli di stato solido",
+   "valori": [],
+   "qualitativo": "HSEsol-3c per ottimizzazione ed energetica (CRYSTAL17), accuratezza paragonabile a DFT con base convergente e correzione di dispersione",
+   "calcolato": true,
+   "citazione": "The HSEsol-3c was chosen for the optimization and energetics for its computationally demonstrated eﬃciency with an accuracy comparable to converged basis set dispersion corrected DFT.34",
+   "note": "Metodo di calcolo senza numeri propri; riferimento 34."
+  },
+  {
+   "id": "X131",
+   "categoria": "computazionale",
+   "proprieta": "differenza di volume calcolato fra il modello senz'acqua e quello con acqua piena",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "valore": 3,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The calculated volume of S-Ket_R-PEA_WE-o is 3% smaller than that of SKet_R-PEA_WF-o.",
+   "note": "Modelli in silico (WE-o: senz'acqua; WF-o: acqua con occupazione piena); non sono forme sperimentali."
+  },
+  {
+   "id": "X132",
+   "categoria": "computazionale",
+   "proprieta": "vuoto residuo nel modello con acqua piena",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "valore": 17,
+     "unita": "Å3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "In any case, a void of 17 Å3 is still visible where the water solvent molecule was located for S-Ket_RPEA_WF-o.",
+   "note": "Modello in silico WF-o."
+  },
+  {
+   "id": "X133",
+   "categoria": "computazionale",
+   "proprieta": "stabilizzazione energetica del modello con acqua piena (WF-o)",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "valore": 75,
+     "unita": "kJ/mol",
+     "circa": true
+    }
+   ],
+   "calcolato": true,
+   "citazione": "of S-Ket_R-PEA_WF-o is around 75 kJ/mol, 37.4 kJ/mol for the hemihydrate salt, and it reduces to 18.4 kJ/mol for the SKet_R-PEA_W1/4-o (site occupancy for the water molecule 0.25).",
+   "note": "La frase e' spezzata da un'intestazione e dalla didascalia di una figura: «From an energetic point of view, the stabilization» / «of S-Ket_R-PEA_WF-o is around 75 kJ/mol»."
+  },
+  {
+   "id": "X134",
+   "categoria": "computazionale",
+   "proprieta": "stabilizzazione energetica del sale emiidrato",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "valore": 37.4,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "of S-Ket_R-PEA_WF-o is around 75 kJ/mol, 37.4 kJ/mol for the hemihydrate salt, and it reduces to 18.4 kJ/mol for the SKet_R-PEA_W1/4-o (site occupancy for the water molecule 0.25)."
+  },
+  {
+   "id": "X135",
+   "categoria": "computazionale",
+   "proprieta": "stabilizzazione energetica del modello con occupazione 0.25 (W1/4-o)",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "valore": 18.4,
+     "unita": "kJ/mol"
+    },
+    {
+     "etichetta": "occupazione del sito dell'acqua",
+     "valore": 0.25
+    }
+   ],
+   "qualitativo": "una piccola occupazione, come nella struttura sperimentale, basta a stabilizzare lo scheletro di S-Ket_R-PEA_W",
+   "calcolato": true,
+   "citazione": "of S-Ket_R-PEA_WF-o is around 75 kJ/mol, 37.4 kJ/mol for the hemihydrate salt, and it reduces to 18.4 kJ/mol for the SKet_R-PEA_W1/4-o (site occupancy for the water molecule 0.25)."
+  },
+  {
+   "id": "X136",
+   "categoria": "computazionale",
+   "proprieta": "differenza di energia fra S-Ket_R-PEA-o e S-Ket_R-PEA_WE-o",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [
+    {
+     "valore": 0.4,
+     "unita": "kJ/mol",
+     "limite": "sotto"
+    }
+   ],
+   "qualitativo": "S-Ket_R-PEA-o non mostra vuoti nell'impacchettamento",
+   "calcolato": true,
+   "citazione": "On the other hand, the energy diﬀerence between the two S-Ket_R-PEA-o and S-Ket_RPEA_WE-o polymorphs is less than 0.4 kJ/mol, but S-Ket_RPEA-o is denser than S-Ket_R-PEA_WE-o (0.05 g/cm3), and S-Ket_R-PEA-o does not show any voids in the packing.",
+   "note": "Calcolato: S-Ket_R-PEA-o e S-Ket_R-PEA_WE-o sono modelli in silico («polymorphs» nel testo)."
+  },
+  {
+   "id": "X137",
+   "categoria": "computazionale",
+   "proprieta": "differenza di densita' calcolata fra S-Ket_R-PEA-o e S-Ket_R-PEA_WE-o",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [
+    {
+     "valore": 0.05,
+     "unita": "g/cm3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "On the other hand, the energy diﬀerence between the two S-Ket_R-PEA-o and S-Ket_RPEA_WE-o polymorphs is less than 0.4 kJ/mol, but S-Ket_RPEA-o is denser than S-Ket_R-PEA_WE-o (0.05 g/cm3), and S-Ket_R-PEA-o does not show any voids in the packing."
+  },
+  {
+   "id": "X138",
+   "categoria": "computazionale",
+   "proprieta": "rimozione dell'acqua a partire da 313 K e riarrangiamento",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [],
+   "qualitativo": "la rimozione completa dell'acqua (da 313 K in TGA) destabilizza in modo irreversibile la disposizione deidratata; il sale si riarrangia nella struttura di S-Ket_R-PEA",
+   "citazione": "On the other hand, the complete removal of the water molecules in S-Ket_R-PEA_W starting at 313 K (TGA data) irreversibly destabilizes the dehydrated arrange-",
+   "note": "Frase interrotta da un'intestazione di pagina («arrange-» / «ment of S-Ket_R-PEA_W...»): citata solo la prima meta'. La seconda e' la voce successiva."
+  },
+  {
+   "id": "X139",
+   "categoria": "computazionale",
+   "proprieta": "riarrangiamento al S-Ket_R-PEA dopo rimozione dell'acqua",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [],
+   "qualitativo": "il sale si riarrangia nella struttura di S-Ket_R-PEA (VT-PXRD)",
+   "citazione": "ment of S-Ket_R-PEA_W, and the salt rearranges to the structure of S-Ket_R-PEA, as shown by the variable-temperature powder X-ray diﬀraction experiment.",
+   "note": "Seconda meta' della frase interrotta."
+  },
+  {
+   "id": "X140",
+   "categoria": "altro",
+   "proprieta": "sondaggio del CSD: versione e criteri",
+   "valori": [
+    {
+     "etichetta": "versione CSD",
+     "valore": 5.42
+    }
+   ],
+   "citazione": "The Cambridge Structural Database (CSD, version 5.42)37 was searched for crystal structures (3D coordinates determined and only organics) containing the 1-phenylethylammonium cation (Scheme 2, left) and the aromatic",
+   "note": "Frase interrotta dalla didascalia dello Schema 2: la seconda meta' e' la voce successiva."
+  },
+  {
+   "id": "X141",
+   "categoria": "altro",
+   "proprieta": "sondaggio del CSD: numero di strutture con catione PEA e con carbossilato aromatico",
+   "valori": [
+    {
+     "etichetta": "ioni 1-feniletilammonio",
+     "valore": 403
+    },
+    {
+     "etichetta": "carbossilato aromatico",
+     "valore": 86
+    }
+   ],
+   "citazione": "carboxylate derivative fragment (Scheme 2, middle) to get information about the conformational preferences of the ammonium and carboxylate groups in these ions: 403 and 86 hits were found, respectively."
+  },
+  {
+   "id": "X142",
+   "categoria": "altro",
+   "proprieta": "sondaggio del CSD: strutture con PEA e carbossilato e coppie di sali diastereoisomerici",
+   "valori": [
+    {
+     "etichetta": "strutture trovate",
+     "valore": 205
+    },
+    {
+     "etichetta": "coppie di sali diastereoisomerici",
+     "valore": 6
+    }
+   ],
+   "citazione": "Then, structures containing both the PEA cation and the carboxylate derivative (Scheme 2 right, 3D coordinates determined, only organics) were searched; in this case, attention was paid to the H-bond motif which holds together the ions: 205 hits were found in the CSD, among which 6 pairs of diastereomeric salts were found",
+   "note": "Le sei coppie (con il carbonio alfa chirale, senza donatori/accettori -OH e -NH nel derivato carbossilato, senza solvente) includono S-Ibu_S-PEA e S-Ibu_R-PEA."
+  },
+  {
+   "id": "X143",
+   "categoria": "altro",
+   "proprieta": "sondaggio del CSD: coppie di refcode dei sali diastereoisomerici",
+   "valori": [
+    {
+     "testo": "AFINEJ/NMACEP"
+    },
+    {
+     "testo": "COVLAC/COVLIK"
+    },
+    {
+     "testo": "IRONEJ/IRONIN"
+    }
+   ],
+   "citazione": "AFINEJ/NMACEP;38 COVLAC/COVLIK;39 IRONEJ/IRONIN;40",
+   "note": "Prime tre coppie; i numeri attaccati ai refcode sono rimandi bibliografici. La frase continua con JASJIX/QANPIF e ODIQEZ/YARRER (voce successiva). Le coppie sono 6 e includono S-Ibu_S-PEA/S-Ibu_R-PEA (VAKVEK/VUCHOR)."
+  },
+  {
+   "id": "X144",
+   "categoria": "altro",
+   "proprieta": "sondaggio del CSD: ultime coppie di refcode",
+   "valori": [
+    {
+     "testo": "JASJIX/QANPIF"
+    },
+    {
+     "testo": "ODIQEZ/YARRER"
+    }
+   ],
+   "citazione": "JASJIX/QANPIF;41 ODIQEZ42/YARRER.43",
+   "note": "I numeri 41, 42, 43 sono rimandi bibliografici (ODIQEZ42 = ODIQEZ + rif. 42)."
+  },
+  {
+   "id": "X145",
+   "categoria": "altro",
+   "proprieta": "sondaggio del CSD: frequenza del motivo R4^3(10)",
+   "valori": [
+    {
+     "etichetta": "strutture con PEA e carbossilato",
+     "valore": 205
+    },
+    {
+     "etichetta": "selezionate (senza altri donatori/accettori e solvente)",
+     "valore": 98
+    },
+    {
+     "etichetta": "con il motivo R4^3(10)",
+     "valore": 95
+    }
+   ],
+   "citazione": "In particular, 205 hits featuring the PEA cation and the carboxylate fragment sketched in Scheme 2 (right) were found: 98 hits characterized by no -OH and -NH additional H-bond acceptor/donor groups in the monocarboxylate derivative and no cocrystallized solvent molecules were selected; 95 of them feature the R4 3(10) H-bond motif.",
+   "note": "Il motivo e' quindi comune nelle strutture con ioni PEA e carbossilato."
+  },
+  {
+   "id": "X146",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di S-Ibu_S-PEA e S-Ibu_R-PEA",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "aghi incolori (vale per entrambi i sali S-Ibu, F1 e F2)",
+   "citazione": "After 24 h, the formation of colorless needles was observed."
+  },
+  {
+   "id": "X147",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di S-Nap_S-PEA e S-Nap_R-PEA",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "aghi incolori (vale per entrambi i sali S-Nap, F3 e F4)",
+   "citazione": "The salts were obtained as colorless needles after partial solvent evaporation at rt for 7 days."
+  },
+  {
+   "id": "X148",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di S-Nap_S-PEA e S-Nap_R-PEA (metodo alternativo)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "aghi incolori anche con il metodo alternativo",
+   "citazione": "After partial evaporation of the solvent, 24 h later, the formation of colorless needles was observed."
+  },
+  {
+   "id": "X149",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di S-Ket_S-PEA e S-Ket_R-PEA",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "valori": [],
+   "qualitativo": "aghi incolori (vale per entrambi i sali S-Ket anidri, F5 e F6)",
+   "citazione": "Colorless needles of the salts formed once the solvent evaporated completely."
+  },
+  {
+   "id": "X150",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di S-Ket_R-PEA_W",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [],
+   "qualitativo": "cristalli a piastrina incolori",
+   "citazione": "the formation of colorless platelet crystals was observed"
+  },
+  {
+   "id": "X151",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica dei sali anidri e dell'idrato",
+   "valori": [],
+   "qualitativo": "un anione NSAID e un catione 1-feniletilammonio per unita' asimmetrica; nell'idrato anche una molecola d'acqua disordinata (occupazione 0.15)",
+   "citazione": "The asymmetric unit of the anhydrous diastereomeric salts S-Ibu_S-PEA, S-Nap_R-PEA, S-Nap_S-PEA, SKet_S-PEA, and S-Ket_R-PEA contains one NSAID anion and one 1-phenylthylammonium cation, while in S-Ket_RPEA_W, it also includes one disordered water molecule (occupancy factor 0.15)."
+  },
+  {
+   "id": "X152",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "effetto della temperatura sulla struttura di S-Ibu_S-PEA e S-Nap_R-PEA",
+   "valori": [],
+   "qualitativo": "nessun riarrangiamento significativo abbassando la temperatura (100 contro 173 K e temperatura ambiente)",
+   "citazione": "As for SIbu_S-PEA and S-Nap_R-PEA, lowering the temperature (100 vs 173 K and rt, respectively) does not produce any signiﬁcant rearrangement of the structures, both at the molecular and crystal levels (vide infra)."
+  },
+  {
+   "id": "X153",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "conformazione del catione PEA: orientazione del gruppo etilammonio",
+   "valori": [],
+   "qualitativo": "l'orientazione del gruppo etilammonio in S-Nap_R-PEA e S-Ket_R-PEA e' meno popolata nel CSD",
+   "citazione": "In particular, the orientation adopted by the ethylammonium moiety in the S-Nap_R-PEA and S-Ket_R-PEA salts appears less populated in the CSD."
+  },
+  {
+   "id": "X154",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "orientazione del gruppo propionato degli anioni NSAID",
+   "valori": [],
+   "qualitativo": "nessuna tendenza definita nell'orientazione del propionato in funzione della chiralita' (SS contro SR)",
+   "citazione": "As for the NSAIDs, there is not a deﬁnite trend in the orientation of the propionate group depending on the overall chirality (SS versus SR) of the salts (Figure 3 and Table S1)."
+  },
+  {
+   "id": "X155",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "orientazione del propionato: eccezioni rispetto ai dati del CSD",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "l'orientazione del propionato non cambia nella serie salvo che in S-Ibu_R-PEA; e' coerente col CSD salvo quella di S-Ket_S-PEA (poco comune)",
+   "citazione": "In other words, the orientation of the propionate group does not change signiﬁcantly within the series, except for S-Ibu_R-PEA (see also Figure S21), and it is consistent with the torsional data extracted from a search in the CSD (except for the orientation observed in S-Ket_S-PEA which is quite uncommon)."
+  },
+  {
+   "id": "X156",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "forma complessiva degli anioni S-Ibu e S-Ket nei sali",
+   "valori": [],
+   "qualitativo": "S-Ibu e S-Ket adottano forme complessive diverse nei loro sali (U e a sedia: vedi molecole dell'estrazione principale)",
+   "citazione": "Despite these similarities, the SIbu as well as the S-Ket anions adopt diﬀerent overall shapes in their salts (see Figure 3)."
+  },
+  {
+   "id": "X157",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "motivo R4^3(10) nelle strutture del CSD con ioni PEA e carbossilato",
+   "valori": [],
+   "qualitativo": "il motivo R4^3(10) e' di solito presente nelle strutture con ioni 1-feniletilammonio e carbossilato",
+   "citazione": "This motif is usually present in the crystal structures containing 1phenylethylammonium ions and carboxylate moieties, as provided by a search in the CSD."
+  },
+  {
+   "id": "X158",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "tasca che ospita l'acqua in S-Ket_R-PEA_W",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [],
+   "qualitativo": "la disposizione delle coppie ioniche (molto simile in S-Ibu_R-PEA e S-Ket_R-PEA_W) disegna una tasca che nell'idrato ospita l'acqua",
+   "citazione": "Finally, the overall relative arrangement of the NSAID and PEA ion pairs, which is very similar in S-Ibu_R-PEA and SKet_R-PEA_W, outlines a sort of pocket which, in the latter, hosts the crystallization water molecule (vide infra)."
+  },
+  {
+   "id": "X159",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "orientazione relativa dei gruppi CH3 di NSAID e PEA",
+   "valori": [],
+   "qualitativo": "CH3 testa-coda nei due sali S-Ibu, in S-Nap_S-PEA e in S-Ket_R-PEA anidro e idrato; testa-testa in S-Nap_R-PEA e S-Ket_S-PEA",
+   "citazione": "In addition, in both the ibuprofen salts, in S-Nap_S-PEA and in the anhydrous and hydrate S-Ket_R-PEA salts, the NSAID and PEA -CH3 groups are arranged head-to-tail, while in S-Nap_R-PEA and S-Ket_S-PEA they are head-to-head."
+  },
+  {
+   "id": "X160",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti CH3···π nei sali con gruppi CH3 testa-coda",
+   "valori": [],
+   "qualitativo": "il metile della PEA punta sempre verso un anello fenilico dell'anione NSAID: interazioni CH3···π",
+   "citazione": "In the head-to-tail group of anhydrous salts, the methyl group provided by the PEA cation always points toward a facing phenyl ring provided by the H-bonded NSAID anion resulting in CH3···π interactions (see Table S2)."
+  },
+  {
+   "id": "X161",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti CH3···π e CH···π aggiuntivi in S-Ket_R-PEA e S-Ibu_R-PEA",
+   "valori": [],
+   "qualitativo": "S-Ket_R-PEA: ulteriori contatti CH3···π; S-Ibu_R-PEA: contatto CH···π fra il carbonio chirale dell'anione e l'anello della PEA",
+   "citazione": "In S-Ket_R-PEA, further -CH3···π contacts are present between the methyl group provided by ketoprofen and the PEA aromatic ring (see Table S2), while in S-Ibu_R-PEA a CH···π contact involves the chiral carbon atom of the anion and the aromatic ring of the facing PEA (see Table S2)."
+  },
+  {
+   "id": "X162",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti π···π a T in S-Ket_S-PEA e S-Nap_R-PEA",
+   "valori": [],
+   "qualitativo": "contatti π···π a T all'interno delle colonne di S-Ket_S-PEA e S-Nap_R-PEA",
+   "citazione": "In S-Ket_S-PEA, NSAID-PEANSAID sequences weakly interact through T-shaped π···π contacts, while in S-Nap_R-PEA the same kind of interaction binds NSAID-PEA pairs (see Table S2)."
+  },
+  {
+   "id": "X163",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "impacchettamento delle colonne in funzione del gruppo spaziale",
+   "valori": [],
+   "qualitativo": "impacchettamento parallelo (P21) o antiparallelo (P212121) delle colonne",
+   "citazione": "Depending on the space group, two types of relative arrangements of the columns can be recognized: a parallel packing (columns are parallelly aligned, P21 space group) and an antiparallel packing (columns run in alternate directions, P212121 space group)."
+  },
+  {
+   "id": "X164",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti CH···π fra colonne diverse",
+   "valori": [],
+   "qualitativo": "contatti CH···π fra le colonne tranne in S-Ket_R-PEA, sostenuti da CH···OCH3 (naprossene) e CH···O=C (ketoprofene)",
+   "citazione": "CH···π contacts exist between the diﬀerent columns, except for S-Ket_R-PEA (see Table S3), supported by CH···OCH3 and CH···OC in the naproxen and ketoprofen salts, respectively."
+  },
+  {
+   "id": "X165",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti fra colonne nei sali S-Ibu",
+   "valori": [],
+   "qualitativo": "colonne collegate da contatti π···π a T ibuprofene-PEA",
+   "citazione": "In both ibuprofen salts, columns are connected through ibuprofen-PEA T-shaped π···π contacts (Figure 5 top)."
+  },
+  {
+   "id": "X166",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti fra colonne nei sali S-Nap",
+   "valori": [],
+   "qualitativo": "S-Nap_S-PEA: π···π a T PEA-PEA e naprossene-naprossene; S-Nap_R-PEA: contatti -OCH3···π; in entrambi l'ossigeno metossilico accettore di legame H",
+   "citazione": "In SNap_S-PEA, PEA−PEA and naproxen−naproxen T-shaped π···π interactions are present, and in S-Nap_R-PEA naproxen anions are involved in -OCH3···π contacts (Figure 5 middle); ﬁnally, in both salts, the methoxy oxygen atom also contributes to reinforce the crystal lattice, acting as a H-bond acceptor."
+  },
+  {
+   "id": "X167",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti fra colonne in S-Ket_S-PEA",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "valori": [],
+   "qualitativo": "interazioni π···π a T PEA-PEA",
+   "citazione": "In S-Ket_S-PEA, PEA−PEA T-shaped π···π interactions are present (Figure 5 bottom left)."
+  },
+  {
+   "id": "X168",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti fra colonne nei sali S-Ket eterochirali",
+   "valori": [],
+   "qualitativo": "S-Ket_R-PEA: l'ossigeno carbonilico e' accettore biforcato verso idrogeni di PEA e ketoprofene di due colonne diverse; S-Ket_R-PEA_W: contatti π···π a T ketoprofene-PEA e CH···O=C",
+   "citazione": "As for the heterochiral salts, in S-Ket_R-PEA, the carbonyl oxygen atom acts as a bifurcated acceptor toward the hydrogen atoms provided by PEA and ketoprofen ions of two diﬀerent columns (Figure 5 bottom center), while in S-Ket_R-PEA_W, ketoprofen-PEA T-shaped π···π contacts as well as CH···OC interactions involving the H atoms belonging to two ketoprofen ions of the same columns are present (Figure 5, bottom right)."
+  },
+  {
+   "id": "X169",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "efficienza di impacchettamento: S-Ibu contro S-Nap e S-Ket",
+   "valori": [],
+   "qualitativo": "i sali S-Ibu sono impacchettati meno efficientemente di quelli S-Nap e S-Ket; S-Nap_R-PEA e' il piu' denso",
+   "citazione": "packed than the S-Nap and S-Ket ones, as also quantiﬁed by the crystal density and the Kitaigorodskii packing index (K.P.I.)48,49 listed in Table 3, while S-Nap_R-PEA is the most densely packed."
+  },
+  {
+   "id": "X170",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "efficienza di impacchettamento: omochirali contro eterochirali",
+   "valori": [],
+   "qualitativo": "i sali omochirali di ibuprofene e ketoprofene sono impacchettati piu' efficientemente degli eterochirali e fondono a temperatura piu' alta",
+   "citazione": "Finally, the ibuprofen and ketoprofen homochiral salts are more eﬃciently packed than the corresponding heterochiral ones (Table 3), and they melt at a higher temperature (vide infra)."
+  },
+  {
+   "id": "X171",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "fogli 21 con superfici di bordo quasi planari (omochirali e idrato S-Ket, S-Nap, S-Ibu_S-PEA)",
+   "valori": [],
+   "qualitativo": "i fogli 21 hanno superfici di bordo quasi planari nei sali omochirali e idrato di S-Ket, in entrambi i sali S-Nap e in S-Ibu_S-PEA",
+   "citazione": "In the homochiral and the hydrated salts of S-Ket, in both the S-Nap DSs and in S-Ibu_S-PEA, 21"
+  },
+  {
+   "id": "X172",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "superfici di bordo nei sali eterochirali S-Ibu e S-Ket_R-PEA",
+   "valori": [],
+   "qualitativo": "S-Ibu_R-PEA: il metile dell'ibuprofene sporge dalla colonna; S-Ket_R-PEA: nessuna superficie di bordo, gli anioni di colonne diverse si incastrano come un puzzle con contatti CH···O=C",
+   "citazione": "By contrast, in the S-Ibu heterochiral salt, the methyl group of ibuprofen projects out of the column, and in S-Ket_R-PEA boundary surfaces are not present: i.e., ketoprofen anions belonging to diﬀerent columns ﬁt together like a jigsaw puzzle also thanks to CH···OC contacts (see Figure 8)."
+  },
+  {
+   "id": "X173",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "relazione fra superfici di bordo e selettivita' del sorbimento",
+   "valori": [],
+   "qualitativo": "S-Ket (e S-Ibu) catturano preferenzialmente la PEA omochirale (sali omochirali con superfici di bordo planari); S-Nap non e' selettivo (fogli 21 di entrambi i sali quasi planari)",
+   "citazione": "On this basis, the results from solid−vapor sorption tests, which further validate the Kinbara hypothesis,51 can be rationalized: S-Ket (as well as S-Ibu) reveals a preferential capture toward the homochiral PEA (their homochiral salts are characterized by planar boundary surfaces at variance with the corresponding heterochiral ones), and S-Nap is not selective (21 sheets of both salts are characterized by almost planar boundary surfaces)."
+  },
+  {
+   "id": "X174",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "riarrangiamento del cristallo nell'assorbimento e perdita d'acqua",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [],
+   "qualitativo": "l'assorbimento e la perdita d'acqua comportano un riarrangiamento del cristallo (conformazione complessiva dell'anione e disposizione delle colonne)",
+   "citazione": "The water uptake/loss implicates a signiﬁcant rearrangement of the whole crystal (ketoprofen anion overall conformation and column arrangement)."
+  },
+  {
+   "id": "X175",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "acqua in vuoti isolati e assenza di vuoti nell'anidro",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [],
+   "qualitativo": "nell'idrato l'acqua occupa vuoti isolati; nell'anidro non ci sono vuoti; l'acqua non entra/esce facilmente, la rimozione e' innescata dalla temperatura e comporta un riarrangiamento",
+   "citazione": "This is consistent with the fact that in the hydrated salt the water molecules occupy isolated voids as well as the lack of voids in the anhydrous species: the water molecules cannot easily come in/out of the crystal, and their removal, triggered by the temperature (exposure to KOH did not suﬃce), is accompanied by a rearrangement of the crystal."
+  },
+  {
+   "id": "X176",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "colonne interconnesse da contatti CH···OC in S-Ket_R-PEA anidro e idrato",
+   "valori": [],
+   "qualitativo": "S-Ket_R-PEA anidro e idrato: colonne interconnesse da contatti CH···O=C (anche in superficie di Hirshfeld); negli altri sali i contatti fra colonne sono molto piu' deboli",
+   "citazione": "Finally, in anhydrous and hydrated S-Ket_R-PEA salts, columns are interlinked through CH···OC contacts, as also evidenced in the corresponding HSs (see Supporting Information), while in the other DSs the intermolecular contacts between the 21 columns appear deﬁnitely weaker."
+  },
+  {
+   "id": "X177",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "sali di S-Ket stabili tra i sali: S-Ket omochirale e densita'",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "valori": [],
+   "qualitativo": "il sale omochirale S-Ket non si idrata, a differenza dell'eterochirale: struttura piu' stabile, con superfici di bordo planari e densita' piu' alta",
+   "citazione": "The fact that the homochiral SKet salt is stable toward hydration, at variance with the heterochiral one, further suggests that its crystal structure is deﬁnitely more stable with respect to S-Ket_R-PEA, consistent with planar boundary surfaces and also a higher density."
+  },
+  {
+   "id": "X178",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contatti intercolonna deboli tranne in S-Ket_R-PEA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [],
+   "qualitativo": "contatti intercolonna molto deboli salvo in S-Ket_R-PEA, dove interazioni C=O···H rinforzano il reticolo",
+   "citazione": "Intercolumns contacts are deﬁnitely weak except in S-Ket_R-PEA, where CO···H interactions contribute to reinforce the crystal lattice."
+  },
+  {
+   "id": "X179",
+   "categoria": "cristallografia",
+   "proprieta": "strumento, radiazione e temperatura di raccolta dei dati SCXRD",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "diffrattometro Bruker APEX-II CCD, radiazione Cu-Ka; tutte le misure a 100 K (la T e' gia' in cella.condizioni delle forme)",
+   "citazione": "Single-crystal X-ray diﬀraction data of S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA, S-Ket_S-PEA, S-Ket_R-PEA, and S-Ket_R-PEA_W were collected on a Bruker APEX-II CCD diﬀractometer using Cu−Kα radiation. All measurements were performed at 100 K.",
+   "note": "La T di 100 K e' nei dati di cella delle forme: non e' ripetuta nei valori."
+  },
+  {
+   "id": "X180",
+   "categoria": "cristallografia",
+   "proprieta": "metodo di raffinamento della struttura",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "strutture risolte con SIR-2004 e raffinate a matrice completa su F2 con tutti i dati (SHELX2018/3); atomi non-idrogeno raffinati in modo anisotropo",
+   "citazione": "Structures were solved using the SIR-2004 package28 and reﬁned by full-matrix least-squares against F2 using all data (SHELX2018/3.29 In all structures, the nonhydrogen atoms were anisotropically reﬁned.",
+   "note": "I numeri nel testo sono le versioni dei programmi (SIR-2004, SHELX2018/3) e il rimando 29, non dati."
+  },
+  {
+   "id": "X181",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "colonne lungo l'asse a vite 21 nei sette sali (discussione)",
+   "valori": [],
+   "qualitativo": "in tutti i sali diastereoisomerici le colonne sono disposte lungo l'asse a vite 21, grazie all'eterosintone 1-feniletilammonio-carbossilato (motivo R4^3(10))",
+   "citazione": "In all the investigated DSs, due to the supramolecular heterosynton involving the 1-phenylethylammonium and the carboxylate group (which leads to the formation of the R4 3(10) motif), columns disposed along the 21 screw axis are present."
+  },
+  {
+   "id": "X182",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "colonne di 21 nei sali (conclusioni)",
+   "valori": [],
+   "qualitativo": "tutti i sali sono cristalli a colonne 21 di ioni NSAID e 1-feniletilammonio uniti dall'eterosintone 1-feniletilammonio-carbossilato (anello R4^3(10))",
+   "citazione": "All of the salts are 21-column crystals, each column consisting of NSAID and 1-phenylthylammonium ions assembled via the 1-phenylethylammonium-carboxylate supramolecular heterosynthon which originates a H-bonded ring categorized as R4 3(10).",
+   "note": "Stesso fatto del motivo R4^3(10) delle forme, detto nelle conclusioni."
+  },
+  {
+   "id": "X183",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "colonne e contatti intercolonna nei sali (abstract)",
+   "valori": [],
+   "qualitativo": "contatti intercolonna molto piu' deboli dei contatti nella colonna",
+   "citazione": "All the salts are 2 1 -column crystals, each column consisting of API and 1-phenylethylamine ions assembled via the 1-phenylethylammonium-carboxylate supramolecular heterosynthon which originates a R 4 3 (10) pattern, the intercolumns contacts being deﬁnitely weaker.",
+   "note": "Abstract; l'eterosintone e' gia' un motivo delle forme."
+  },
+  {
+   "id": "X184",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "forma complessiva delle colonne H-legate (Fig. 4)",
+   "valori": [],
+   "qualitativo": "colonne H-legate 1-D viste lungo l'asse 21: differenze e somiglianze nella forma dell'NSAID e nella disposizione relativa degli ioni NSAID/PEA",
+   "citazione": "Figure 4 shows the 1-D H-bonded columns in the seven salts viewed down the 21 screw axis and illustrates well the diﬀerences and similarities in the overall shape adopted by each NSAID, as well as in the relative arrangement of the NSAID/PEA ions within each column."
+  },
+  {
+   "id": "X185",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "colonne con contatti aggiuntivi CH···OOC o con rete di legami H dell'acqua (discussione)",
+   "valori": [],
+   "qualitativo": "colonne stabilizzate da contatti CH···OOC (S-Ket_R-PEA, S-Ibu_S-PEA, S-Nap_R-PEA) o dalla rete di legami H dell'acqua (S-Ket_R-PEA_W)",
+   "citazione": "In some cases, columns are further stabilized or by additional CH···OOC contacts (S-Ket_R-PEA, S-Ibu_S-PEA, and SNAP_R-PEA) or by an H-bond network which involves the water molecules (S-Ket_R-PEA_W)."
+  },
+  {
+   "id": "X186",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "fogli 21 con superfici di bordo planari (conclusioni)",
+   "valori": [],
+   "qualitativo": "fogli 21 con superfici di bordo quasi planari in S-Ket_S-PEA, S-Ket_R-PEA_W, S-Ibu_S-PEA e nei due sali S-Nap, che favoriscono un impacchettamento compatto",
+   "citazione": "In SKet_S-PEA, S-Ket_R-PEA_W, and S-Ibu_S-PEA, both the SNap diastereomeric salts, 21 sheets are characterized by almost planar boundary surfaces which, according to Kinbara,51 favor a close packing."
+  },
+  {
+   "id": "X187",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "fogli 21 con superfici di bordo planari (abstract)",
+   "valori": [],
+   "qualitativo": "la selettivita' del sorbimento e' correlata alle superfici di bordo quasi planari dei fogli 21 di S-Ket_S-PEA e S-Ibu_S-PEA rispetto agli eterochirali",
+   "citazione": "This behavior has been correlated to the almost planar boundary surfaces which characterize and differentiate the 2 1 sheets in S-Ket_S-PEA and S-Ibu_S-PEA salts with respect to the corresponding heterochiral ones."
+  },
+  {
+   "id": "X188",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "cristalli: tipo di contatto debole fra le colonne in tutti gli altri sali",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [],
+   "qualitativo": "negli altri sali i contatti fra le colonne 21 sono molto piu' deboli",
+   "citazione": "Finally, in anhydrous and hydrated S-Ket_R-PEA salts, columns are interlinked through CH···OC contacts, as also evidenced in the corresponding HSs (see Supporting Information), while in the other DSs the intermolecular contacts between the 21 columns appear deﬁnitely weaker.",
+   "note": "Seconda lettura della stessa frase: nella voce delle colonne interconnesse c'e' la parte su S-Ket_R-PEA."
+  },
+  {
+   "id": "X189",
+   "categoria": "termica",
+   "proprieta": "sintesi della stabilita' termica: S-Ket omochirale e eterochirale restano stabili 30 K sotto la fusione",
+   "tecnica": "altro",
+   "valori": [
+    {
+     "valore": 30,
+     "unita": "K"
+    }
+   ],
+   "citazione": "In fact, all samples totally or partially decompose upon heating (TGA, DSC, and PXRD experiments), but S-Ket_S-PEA and SKet_R-PEA did not decompose when kept in the oven at 30 K",
+   "note": "Frase interrotta da un'intestazione di pagina: la seconda meta' («below their melting point; thus, in this respect they are the most stable salts of the series») e' nella voce successiva."
+  },
+  {
+   "id": "X190",
+   "categoria": "termica",
+   "proprieta": "S-Ket omochirale e eterochirale: i sali piu' stabili della serie (seconda meta' della frase)",
+   "tecnica": "altro",
+   "valori": [],
+   "qualitativo": "S-Ket_S-PEA e S-Ket_R-PEA sono i sali piu' stabili della serie rispetto alla decomposizione in forno",
+   "citazione": "below their melting point; thus, in this respect they are the most stable salts of the series."
+  },
+  {
+   "id": "X191",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "strutture a 100 K come ridefinizioni a T piu' bassa di strutture note",
+   "valori": [
+    {
+     "forma": "F1",
+     "etichetta": "T della struttura nota VAKVEK",
+     "valore": 173,
+     "unita": "K"
+    }
+   ],
+   "qualitativo": "S-Ibu_S-PEA e S-Nap_R-PEA a 100 K sono ridefinizioni a T piu' bassa delle strutture note VAKVEK (173 K) e HIFRIX (temperatura ambiente)",
+   "citazione": "For compounds S-Ibu_S-PEA and SNap_R-PEA, this was a redetermination at a lower temperature of already known structures (VAKVEK24 (173 K) and HIFRIX25 (rt), respectively).",
+   "note": "I refcode e le T sono anche in strutture delle forme; qui il fatto qualitativo (ridefinizione)."
+  },
+  {
+   "id": "X192",
+   "categoria": "altro",
+   "proprieta": "il sorbimento selettivo sostiene la maggiore stabilita' dei sali omochirali",
+   "valori": [],
+   "qualitativo": "il sorbimento preferenziale della PEA omochirale da parte di S-Ket e S-Ibu sostiene l'ipotesi che i sali omochirali siano piu' stabili degli eterochirali",
+   "citazione": "Results from the preliminary sorption tests (S-Ket and S-Ibu show a preferential capture"
+  },
+  {
+   "id": "X193",
+   "categoria": "altro",
+   "proprieta": "il sorbimento selettivo sostiene la maggiore stabilita' dei sali omochirali (seconda meta')",
+   "valori": [],
+   "qualitativo": "ruolo importante delle superfici di bordo planari nella stabilizzazione della struttura cristallina del sale diastereoisomerico omochirale",
+   "citazione": "toward the homochiral PEA) further support the hypothesis that their homochiral salts are more stable with respect to the corresponding heterochiral ones, thus suggesting the important role played by the planar boundary",
+   "note": "Frase delle conclusioni interrotta da un'intestazione di pagina: citata in due pezzi."
+  },
+  {
+   "id": "X194",
+   "categoria": "altro",
+   "proprieta": "nome chimico completo dei sali S-Ibu_S-PEA e S-Ibu_R-PEA (intestazione della sintesi)",
+   "valori": [
+    {
+     "forma": "F1",
+     "testo": "(S)-(−)-1-Phenylethylammonium (S)-(+)-2-(4Isobutylphenyl)propionate"
+    },
+    {
+     "forma": "F2",
+     "testo": "(R)-(+)-1-Phenylethylammonium (S)-(−)-2-(4-Isobutylphenyl)propionate"
+    }
+   ],
+   "citazione": "Synthesis of (S)-(−)-1-Phenylethylammonium (S)-(+)-2-(4Isobutylphenyl)propionate (S-Ibu_S-PEA) and (R)-(+)-1-Phenylethylammonium (S)-(−)-2-(4-Isobutylphenyl)propionate (S-Ibu_RPEA).",
+   "note": "Nome come scritto nell'intestazione («4Isobutylphenyl» spezzato dal PDF = 4-isobutylphenyl)."
+  },
+  {
+   "id": "X195",
+   "categoria": "altro",
+   "proprieta": "nome chimico completo dei sali S-Nap_S-PEA e S-Nap_R-PEA (intestazione della sintesi)",
+   "valori": [
+    {
+     "forma": "F3",
+     "testo": "(S)-(−)-1-Phenylethylammonium (S)-(+)-2-(6-methoxy-2-naphthyl)propionate"
+    },
+    {
+     "forma": "F4",
+     "testo": "(R)-(+)-1-Phenylethylammonium (S)-(+)-2-(6-Methoxy-2-naphthyl)propionate"
+    }
+   ],
+   "citazione": "Synthesis of (S)-(−)-1-Phenylethylammonium (S)-(+)-2-(6-methoxy-2-naphthyl)propionate (S-Nap_S-PEA) and (R)-(+)-1-Phenylethylammonium (S)-(+)-2-(6-Methoxy-2-naphthyl)propionate (S-Nap_R-PEA)."
+  },
+  {
+   "id": "X196",
+   "categoria": "altro",
+   "proprieta": "nome chimico completo dei sali S-Ket_S-PEA e S-Ket_R-PEA (intestazione della sintesi)",
+   "valori": [
+    {
+     "forma": "F5",
+     "testo": "(S)-(−)-1-Phenylethylammonium (2S)-2-(3Benzoylphenyl)propionate"
+    },
+    {
+     "forma": "F6",
+     "testo": "(R)-(+)-1-Phenylethylammonium (2S)-2-(3-Benzoylphenyl)propionate"
+    }
+   ],
+   "citazione": "Synthesis of (S)-(−)-1-Phenylethylammonium (2S)-2-(3Benzoylphenyl)propionate (S-Ket_S-PEA) and (R)-(+)-1-Phenylethylammonium (2S)-2-(3-Benzoylphenyl)propionate (S-Ket_RPEA).",
+   "note": "«3Benzoylphenyl» spezzato dal PDF = 3-benzoylphenyl."
+  },
+  {
+   "id": "X197",
+   "categoria": "altro",
+   "proprieta": "nome chimico completo di S-Ket_R-PEA_W (intestazione della sintesi)",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "valori": [
+    {
+     "forma": "F7",
+     "testo": "(R)-(+)-1-Phenylethylammonium (2S)-2-(3-Benzoylphenyl) Propionate Hydrate"
+    }
+   ],
+   "citazione": "Synthesis of (R)-(+)-1-Phenylethylammonium (2S)-2-(3-Benzoylphenyl) Propionate Hydrate (S-Ket_R-PEA_W)."
+  },
+  {
+   "id": "X198",
+   "categoria": "altro",
+   "proprieta": "nomi chimici dei farmaci racemici (introduzione)",
+   "valori": [
+    {
+     "testo": "(RS)-2-(4isobutylphenyl)propanoic acid"
+    },
+    {
+     "testo": "(RS)-2-(6-methoxy-2-naphthyl)propanoic acid"
+    },
+    {
+     "testo": "(RS)-2- (3-benzoylphenyl)propanoic acid"
+    }
+   ],
+   "citazione": "Among the many NSAIDs available, there are ibuprofen ((RS)-2-(4isobutylphenyl)propanoic acid), naproxen ((RS)-2-(6-methoxy-2-naphthyl)propanoic acid), and ketoprofen ((RS)-2- (3-benzoylphenyl)propanoic acid), all belonging to the class of arylpropionic acid derivatives (Scheme 1).",
+   "note": "Nomi dei racemi (ibuprofene, naprossene, ketoprofene), non degli enantiomeri S usati nel lavoro; ordine: ibuprofene (C1), naprossene (C2), ketoprofene (C3)."
+  }
+ ]
+}

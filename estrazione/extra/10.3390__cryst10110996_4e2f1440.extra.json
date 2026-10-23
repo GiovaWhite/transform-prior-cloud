@@ -1,0 +1,1818 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.3390/cryst10110996",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "formula chimica (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F2",
+     "testo": "C48H50Cl2N4O12"
+    },
+    {
+     "forma": "F3",
+     "testo": "C23H26ClN2O5"
+    }
+   ],
+   "citazione": "Formula C48H50Cl2N4O12 C23H26ClN2O5",
+   "note": "Il peso formula del CAB (945.82) e' 2 x 382.88 + 2 x 90.04 (pesi dello Schema 1): 2 Lor + 2 Oxa. Per l'idrato la formula e' per Z = 4 «formula units»; l'unita' asimmetrica contiene 1 Lor, 0.5 Oxa e una molecola d'acqua."
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "peso formula (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F2",
+     "valore": 945.82
+    },
+    {
+     "forma": "F3",
+     "valore": 445.91
+    }
+   ],
+   "citazione": "Formula weight 945.82 445.91"
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "densita' calcolata Dc (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F2",
+     "valore": 1.409,
+     "unita": "g/cm3"
+    },
+    {
+     "forma": "F3",
+     "valore": 1.401,
+     "unita": "g/cm3"
+    }
+   ],
+   "citazione": "Dc/g.cm3 1.409 1.401"
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "F(000) (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F2",
+     "valore": 2976.0
+    },
+    {
+     "forma": "F3",
+     "valore": 940
+    }
+   ],
+   "citazione": "F(000) 2976.0 940"
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "R1 [I > 2σ(I)] (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F2",
+     "valore": 0.055
+    },
+    {
+     "forma": "F3",
+     "valore": 0.0552
+    }
+   ],
+   "citazione": "R1 [I > 2σ(I)] 0.0550 0.0552"
+  },
+  {
+   "id": "X6",
+   "categoria": "cristallografia",
+   "proprieta": "wR2 [I > 2σ(I)] (Tabella 1)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "forma": "F2",
+     "valore": 0.1291
+    },
+    {
+     "forma": "F3",
+     "valore": 0.1647
+    }
+   ],
+   "citazione": "wR2 [I > 2sigma(I)] 0.1291 0.1647"
+  },
+  {
+   "id": "X7",
+   "categoria": "cristallografia",
+   "proprieta": "diffrattometro, radiazione e temperatura di raccolta dei dati SCXRD",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "diffrattometro Bruker-AXS Venture Photon-II con rivelatore CMOS, radiazione Mo Ka con monocromatore a grafite; dati a 100 K (T gia' in cella.condizioni delle forme)",
+   "citazione": "A Bruker-AXS Venture Photon-II diﬀractometer (Bruker AXS Inc., Madison, WI, USA), with a Photon-II (CMOS) detector, was used to collect the single crystal X-ray diﬀractometry (SCXRD) data at 100 K using Mo Kα radiation (graphite monochromator).",
+   "note": "La T di 100 K e' nei dati di cella delle forme: non e' ripetuta nei valori."
+  },
+  {
+   "id": "X8",
+   "categoria": "cristallografia",
+   "proprieta": "determinazione del gruppo spaziale e soluzione della struttura",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "gruppo P21/c da assenze sistematiche e statistica d'intensita'; soluzione con metodi diretti e cicli di minimi quadrati a matrice completa/differenze di Fourier per gli atomi non-idrogeno rimanenti",
+   "citazione": "Based on systematic absences and intensity statistics, the space group P21/c was determined. A direct-methods solution was calculated, which provided most non-hydrogen atoms from the E-map. Full-matrix least-squares/diﬀerence Fourier cycles were performed to locate the remaining non-hydrogen atoms.",
+   "note": "Vale per entrambe le strutture."
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "raffinamento: parametri di spostamento degli atomi",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "atomi non-idrogeno anisotropici; idrogeni in posizioni ideali raffinati come riding con parametri isotropi",
+   "citazione": "All non-hydrogen atoms were reﬁned with anisotropic displacement parameters. All hydrogen atoms were placed in ideal positions and reﬁned as riding atoms with isotropic displacement parameters."
+  },
+  {
+   "id": "X10",
+   "categoria": "cristallografia",
+   "proprieta": "contenuto dell'unita' asimmetrica di Lor-Oxa CAB",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Lor+ cationico",
+     "valore": 3
+    },
+    {
+     "etichetta": "Oxa- anionico",
+     "valore": 1.5
+    },
+    {
+     "etichetta": "Oxa neutro",
+     "valore": 1.5
+    }
+   ],
+   "citazione": "each asymmetric unit contains 3 cationic Lor+, 1.5 anionic Oxa-, and 1.5 neutral Oxa (Figure 2a)",
+   "note": "Con Z = 6 «formula units» (nelle forme)."
+  },
+  {
+   "id": "X11",
+   "categoria": "cristallografia",
+   "proprieta": "contenuto dell'unita' asimmetrica di Lor-Oxa hydrate",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Lor",
+     "valore": 1
+    },
+    {
+     "etichetta": "Oxa",
+     "valore": 0.5
+    },
+    {
+     "etichetta": "H2O",
+     "valore": 1
+    }
+   ],
+   "qualitativo": "l'Oxa ha un asse di simmetria",
+   "citazione": "the asymmetric unit comprises 1 Lor, 0.5 Oxa (Oxa has an axis of symmetry), and one water molecule (Figure 3a)",
+   "note": "Da qui 2 Lor : 1 Oxa : 2 H2O per unita' formula, mentre il nome dice «monohydrate» e Lor:Oxa:H2O = 2:1:1 (conflitto nella forma dell'estrazione principale)."
+  },
+  {
+   "id": "X12",
+   "categoria": "composizione",
+   "proprieta": "stechiometria dichiarata del CAB e dell'idrato (abstract)",
+   "valori": [
+    {
+     "forma": "F2",
+     "testo": "Lor:Oxa 1:1"
+    },
+    {
+     "forma": "F3",
+     "testo": "Lor:Oxa 2:1, monohydrate"
+    }
+   ],
+   "citazione": "i.e., a 1:1 Lor-Oxa conjugate acid-base (CAB) cocrystal (Lor-Oxa CAB) and a 2:1 Lor-Oxa cocrystal monohydrate (Lor-Oxa hydrate).",
+   "note": "Stechiometria come scritta nell'abstract."
+  },
+  {
+   "id": "X13",
+   "categoria": "composizione",
+   "proprieta": "stechiometria dichiarata dell'idrato (introduzione)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Lor:Oxa:H2O",
+     "testo": "2:1:1"
+    }
+   ],
+   "citazione": "Lor-Oxa cocrystal monohydrate (Lor-Oxa hydrate, Lor:Oxa:H2O = 2:1:1)",
+   "note": "Rapporto 2:1:1 come scritto; la struttura (unita' asimmetrica e Tabella 1) da' 1 Lor, 0.5 Oxa, 1 H2O (cioe' 2:1:2): vedi il conflitto nella forma."
+  },
+  {
+   "id": "X14",
+   "categoria": "composizione",
+   "proprieta": "rapporto Lor:Oxa del CAB (introduzione)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "Lor:Oxa",
+     "testo": "1:1"
+    }
+   ],
+   "citazione": "a Lor-Oxa conjugate acid-base salt (Lor-Oxa CAB) with the Lor to Oxa ratio of 1:1",
+   "note": "Qui il CAB e' chiamato «conjugate acid-base salt»; nell'abstract «cocrystal»."
+  },
+  {
+   "id": "X15",
+   "categoria": "composizione",
+   "proprieta": "contenuto d'acqua dell'acido ossalico anidro commerciale",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "valori": [
+    {
+     "valore": 1.6,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Oxalic acid anhydrate (1.6% water), malonic acid, benzoic acid, DL-malic acid, nicotinic acid, and succinic acid were purchased from Sigma−Aldrich (St. Louis, MO, USA).",
+   "note": "Acido ossalico «anhydrate (1.6% water)»; l'Oxa usata nelle sintesi."
+  },
+  {
+   "id": "X16",
+   "categoria": "composizione",
+   "proprieta": "peso molecolare di loratadina",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "valore": 382.88,
+     "unita": "g/mol"
+    }
+   ],
+   "citazione": "Chemical structures of (a) Loratadine (molecular weight (MW) = 382.88 g/mol) and (b) oxalic acid (MW = 90.04 g/mol).",
+   "note": "Dalla didascalia dello Schema 1; il peso dell'acido ossalico e' nella voce successiva."
+  },
+  {
+   "id": "X17",
+   "categoria": "composizione",
+   "proprieta": "peso molecolare dell'acido ossalico",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "valori": [
+    {
+     "valore": 90.04,
+     "unita": "g/mol"
+    }
+   ],
+   "citazione": "Chemical structures of (a) Loratadine (molecular weight (MW) = 382.88 g/mol) and (b) oxalic acid (MW = 90.04 g/mol)."
+  },
+  {
+   "id": "X18",
+   "categoria": "geometria",
+   "proprieta": "legami H O–H···O− delle catene di Oxa nel CAB (distanze)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2.51,
+     "unita": "Å"
+    },
+    {
+     "valore": 2.512,
+     "unita": "Å"
+    },
+    {
+     "valore": 2.515,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "1D Oxa chains running along the b axis are formed via O–H···O−(2.510, 2.512, 2.515 Å) hydrogen bonds (Figure 2b).",
+   "note": "Catene 1D di Oxa lungo l'asse b; legami H carica-assistiti (anche citati nella discussione dell'IR). Distanze donatore-accettore come scritte."
+  },
+  {
+   "id": "X19",
+   "categoria": "geometria",
+   "proprieta": "legami N+–H···O=C fra Oxa e Lor+ nel CAB (distanze)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2.624,
+     "unita": "Å"
+    },
+    {
+     "valore": 2.726,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "The Oxa chains are connected to surrounding Lor+ through N+–H···O=C (2.624, 2.726 Å) and N+–H···O−(2.897, 2.988 Å) to form a composite column (Figure 2c).",
+   "note": "Distanze N+–H···O=C; le N+–H···O− sono nella voce successiva."
+  },
+  {
+   "id": "X20",
+   "categoria": "geometria",
+   "proprieta": "legami N+–H···O− fra Oxa e Lor+ nel CAB (distanze)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2.897,
+     "unita": "Å"
+    },
+    {
+     "valore": 2.988,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "The Oxa chains are connected to surrounding Lor+ through N+–H···O=C (2.624, 2.726 Å) and N+–H···O−(2.897, 2.988 Å) to form a composite column (Figure 2c)."
+  },
+  {
+   "id": "X21",
+   "categoria": "geometria",
+   "proprieta": "impilamento π···π fra colonne adiacenti del CAB (distanza)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 3.439,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "The adjacent columns connect through π···π stacking (3.439 Å), Cl···π (3.320 Å), and C=O···H–C (3.402 Å) hydrogen bond to form a",
+   "note": "Frase interrotta da un'intestazione e dalle etichette di una figura: la seconda meta' («2D layer structure parallel to the (1 0 2) plane») e' nella voce qualitativa."
+  },
+  {
+   "id": "X22",
+   "categoria": "geometria",
+   "proprieta": "contatto Cl···π fra colonne adiacenti del CAB (distanza)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 3.32,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "The adjacent columns connect through π···π stacking (3.439 Å), Cl···π (3.320 Å), and C=O···H–C (3.402 Å) hydrogen bond to form a"
+  },
+  {
+   "id": "X23",
+   "categoria": "geometria",
+   "proprieta": "legame C=O···H–C fra colonne adiacenti del CAB (distanza)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 3.402,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "The adjacent columns connect through π···π stacking (3.439 Å), Cl···π (3.320 Å), and C=O···H–C (3.402 Å) hydrogen bond to form a"
+  },
+  {
+   "id": "X24",
+   "categoria": "geometria",
+   "proprieta": "legami C–H···O deboli fra gli strati del CAB (distanza)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 3.52,
+     "unita": "Å"
+    }
+   ],
+   "qualitativo": "strati (102) impilati in una struttura 3D stabilizzata da deboli C–H···O",
+   "citazione": "The (102) layers stack to form a 3D packing structure, which is stabilized by weak C–H···O (3.520 Å) hydrogen bonds between layers (Figure 2d)."
+  },
+  {
+   "id": "X25",
+   "categoria": "geometria",
+   "proprieta": "legame C=O···H–O fra Lor e acqua nell'idrato (distanza)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2.977,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "Lor and water interact via C=O . . . H–O (2.977 Å) and O–H . . . Cl (3.232 Å) hydrogen bonds to form 1D chains",
+   "note": "Lo stesso legame e' citato nella discussione dell'IR («O–H···O (2.977 Å) hydrogen bond formation between ester C=O and water») e della stabilita' (rif. all'idrato)."
+  },
+  {
+   "id": "X26",
+   "categoria": "geometria",
+   "proprieta": "legame O–H···Cl fra acqua e Lor nell'idrato (distanza)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 3.232,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "Lor and water interact via C=O . . . H–O (2.977 Å) and O–H . . . Cl (3.232 Å) hydrogen bonds to form 1D chains"
+  },
+  {
+   "id": "X27",
+   "categoria": "geometria",
+   "proprieta": "legame O–H···N fra Oxa e Lor nell'idrato (distanza)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 2.609,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "One Oxa molecule further connects to two Lor molecules in adjacent chains via O–H···N (2.609 Å), C–H···O=C (3.322 Å), C···H–O (3.448 Å, 3.528 Å) hydrogen bonds (Figure 3c) to form 2D zig-zagged layers."
+  },
+  {
+   "id": "X28",
+   "categoria": "geometria",
+   "proprieta": "legame C–H···O=C fra Oxa e Lor nell'idrato (distanza)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 3.322,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "One Oxa molecule further connects to two Lor molecules in adjacent chains via O–H···N (2.609 Å), C–H···O=C (3.322 Å), C···H–O (3.448 Å, 3.528 Å) hydrogen bonds (Figure 3c) to form 2D zig-zagged layers."
+  },
+  {
+   "id": "X29",
+   "categoria": "geometria",
+   "proprieta": "legami C···H–O fra Oxa e Lor nell'idrato (distanze)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "valore": 3.448,
+     "unita": "Å"
+    },
+    {
+     "valore": 3.528,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "One Oxa molecule further connects to two Lor molecules in adjacent chains via O–H···N (2.609 Å), C–H···O=C (3.322 Å), C···H–O (3.448 Å, 3.528 Å) hydrogen bonds (Figure 3c) to form 2D zig-zagged layers."
+  },
+  {
+   "id": "X30",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "strato 2D del CAB parallelo al piano (102) e impilamento 3D",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "strati 2D paralleli al piano (1 0 2) (seconda meta' di una frase interrotta da un'intestazione); gli strati (102) si impilano in una struttura 3D",
+   "citazione": "2D layer structure parallel to the (1 0 2) plane."
+  },
+  {
+   "id": "X31",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "strati 2D a zig-zag e struttura 3D dell'idrato",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "gli strati 2D a zig-zag si impilano in una struttura 3D di impacchettamento",
+   "citazione": "(Figure 3c) to form 2D zig-zagged layers. Finally, the layers stack to form a 3D packing structure (Figure 3d)."
+  },
+  {
+   "id": "X32",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "catene Lor-acqua dell'idrato",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "le catene 1D Lor-acqua sono collegate attraverso l'Oxa (Fig. 3b: «Lor-water chains bonded via Oxa»); una Oxa lega due Lor di catene adiacenti",
+   "citazione": "(Figure 3b). One Oxa molecule further connects to two Lor molecules in adjacent chains"
+  },
+  {
+   "id": "X33",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "descrizione dello strato (010) dell'idrato nella didascalia",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "struttura dello strato (010) dell'idrato (colori della figura: Lor verde, Oxa blu, acqua rossa), visto lungo l'asse a",
+   "citazione": "(c) structure of the (010) layer (Lor is green, Oxa is blue, and water is red), and (d) viewed into a-axis with a (010) layer is highlighted in pink."
+  },
+  {
+   "id": "X34",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "PXRD sperimentale e calcolato: spostamento sistematico a 2θ minori",
+   "valori": [],
+   "qualitativo": "spostamento sistematico dei picchi sperimentali a 2θ minori rispetto ai calcolati, attribuito all'espansione termica del reticolo",
+   "citazione": "For both solid forms, the systematic peak shift to the lower two theta angles in the experimental PXRD patterns compared to corresponding calculated patterns is attributed to the thermal expansion of crystal lattice."
+  },
+  {
+   "id": "X35",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "PXRD calcolato dalla struttura a 100 K",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "K"
+    }
+   ],
+   "qualitativo": "il PXRD calcolato viene da strutture risolte a 100 K, molto sotto la temperatura ambiente",
+   "citazione": "The crystal structures used for calculating PXRD were solved at 100 K, which is substantially lower than room temperature.",
+   "note": "La T e' anche nei dati di cella delle forme."
+  },
+  {
+   "id": "X36",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "fase dei campioni da slurry = fase del PXRD calcolato",
+   "valori": [],
+   "qualitativo": "i PXRD calcolati delle due forme nuove concordano con quelli delle polveri ottenute per sospensione (identita' di fase)",
+   "citazione": "The calculated PXRD patterns of the two new solid forms matched well with the PXRD patterns of the solids obtained from the slurry method (Figure 1), conﬁrming the phase identity of these powders."
+  },
+  {
+   "id": "X37",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD caratteristici per l'identificazione di fase (2θ)",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "forma": "F1",
+     "etichetta": "picco 1",
+     "valore": 7.52,
+     "unita": "°"
+    },
+    {
+     "forma": "F1",
+     "etichetta": "picco 2",
+     "valore": 12.87,
+     "unita": "°"
+    },
+    {
+     "forma": "F2",
+     "valore": 10.04,
+     "unita": "°"
+    },
+    {
+     "forma": "F3",
+     "valore": 8.87,
+     "unita": "°"
+    }
+   ],
+   "citazione": "using the 2θ of characteristic peaks for various solid forms: 7.52°and 12.87°for Lor, 10.04°for Lor-Oxa CAB, and 8.87°for Lor-Oxa hydrate (Figure 4, all ratios in Figure S2).",
+   "note": "Picchi usati per identificare le fasi negli esperimenti di sospensione a diversi rapporti Lor:Oxa."
+  },
+  {
+   "id": "X38",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picco caratteristico di Lor che compare nell'esperimento in forno",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 12.7,
+     "unita": "°"
+    }
+   ],
+   "citazione": "Characteristic peaks of Lor, e.g., 12.7°2θ, appeared after two days.",
+   "note": "Esperimento a 100 °C (evento dell'estrazione principale)."
+  },
+  {
+   "id": "X39",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD: radiazione, intervallo di scansione, passo e tempo",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "lunghezza d'onda Cu Ka",
+     "valore": 1.54059,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "2θ min",
+     "valore": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ max",
+     "valore": 30,
+     "unita": "°"
+    },
+    {
+     "etichetta": "passo",
+     "valore": 0.02,
+     "unita": "°"
+    },
+    {
+     "etichetta": "tempo per passo",
+     "valore": 1,
+     "unita": "s/step"
+    }
+   ],
+   "condizioni": "temperatura ambiente",
+   "citazione": "Powder X-ray diﬀractograms were collected using a powder X-ray diﬀractometer (X’pert Pro; PANalytical, Westborough, MA, USA) equipped with Cu Kα radiation (1.54059 Å). Samples were scanned between 5 to 30°2θ with a 0.02°step size and a 1 s/step dwell time at ambient temperature."
+  },
+  {
+   "id": "X40",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "PXRD: tensione e corrente del tubo",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "tensione",
+     "valore": 45,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "corrente",
+     "valore": 40,
+     "unita": "mA"
+    }
+   ],
+   "citazione": "The tube voltage and amperage were set at 45 kV and 40 mA, respectively."
+  },
+  {
+   "id": "X41",
+   "categoria": "metodo",
+   "proprieta": "FT-IR: intervallo, numero di scansioni e risoluzione",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "numero d'onda min",
+     "valore": 400,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "numero d'onda max",
+     "valore": 4000,
+     "unita": "cm-1"
+    }
+   ],
+   "citazione": "Fourier transformation infrared spectroscopy (FT-IR) spectra (in the range of 4000–400 cm−1) of dry powders were obtained using a FT-IR spectrometer (NicoletiS50; Thermo Scientiﬁc, Waltham, MA, USA) equipped with a diamond attenuated total reﬂection (ATR) and DLaTGS detector. Each reported",
+   "note": "Frase interrotta da un'intestazione di pagina: la seconda parte (media di 32 scansioni, risoluzione 2 cm-1) e' nella voce successiva."
+  },
+  {
+   "id": "X42",
+   "categoria": "metodo",
+   "proprieta": "FT-IR: media di scansioni e risoluzione spettrale",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "numero di scansioni",
+     "valore": 32
+    },
+    {
+     "etichetta": "risoluzione",
+     "valore": 2,
+     "unita": "cm-1"
+    }
+   ],
+   "citazione": "spectrum was an average of 32 scans of the same sample with a spectral resolution of 2 cm−1."
+  },
+  {
+   "id": "X43",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR: banda C=O dell'estere della loratadina",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "valore": 1698,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "banda piu' forte e stretta, C=O dell'estere",
+   "citazione": "The strongest sharp absorption band at 1698 cm−1 of the Lor is attributed to the C=O of the ester group"
+  },
+  {
+   "id": "X44",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR: bande C=O larghe dei due gruppi acido carbossilico",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "valore": 1668,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "bande C=O larghe dei due gruppi acido carbossilico (Oxa)",
+   "citazione": "which is distinct from the broad C=O absorption bands of the two carboxylic acid groups with a peak position at 1668 cm−1.",
+   "note": "Il testo non dice a quale spettro appartiene (l'Oxa e' l'acido); il riferimento e' ai gruppi acido carbossilico."
+  },
+  {
+   "id": "X45",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR: red-shift del picco C=O dell'idrato rispetto alla Lor",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "valore": 26,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "red-shift maggiore, spiegato dal legame H O–H···O fra il C=O dell'estere e l'acqua",
+   "citazione": "The larger red-shift of Lor-Oxa hydrate (26 cm−1) than Lor-Oxa CAB (9 cm−1) of the C=O peak can be explained by the O–H···O (2.977 Å) hydrogen bond formation between ester C=O and water."
+  },
+  {
+   "id": "X46",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR: red-shift del picco C=O del CAB rispetto alla Lor",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "valore": 9,
+     "unita": "cm-1"
+    }
+   ],
+   "citazione": "The larger red-shift of Lor-Oxa hydrate (26 cm−1) than Lor-Oxa CAB (9 cm−1) of the C=O peak can be explained by the O–H···O (2.977 Å) hydrogen bond formation between ester C=O and water."
+  },
+  {
+   "id": "X47",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR: red-shift del C=O di un carbossilato completamente deprotonato (non osservato)",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "cm-1",
+     "limite": "sopra"
+    }
+   ],
+   "qualitativo": "non evidente nei due cocristalli per la sovrapposizione con le bande C=O molto piu' forti della Lor",
+   "citazione": "The ≥100 cm−1 red-shift of the C=O absorption band of a fully deprotonated carboxylate group [33] was not obvious in the FT-IR spectra of both Lor-Oxa hydrate and Lor-Oxa CAB because of the overlapping of the much stronger C=O absorption bands of Lor.",
+   "note": "Valore di riferimento dal rif. 33."
+  },
+  {
+   "id": "X48",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR: bassa intensita' delle bande O–H dell'Oxa nel CAB",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "FT-IR",
+   "valori": [],
+   "qualitativo": "bassa intensita' delle bande O–H dell'Oxa, attribuita ai forti legami H carica-assistiti e all'assenza d'acqua",
+   "citazione": "The low intensity of O–H absorption bands of Oxa in Lor-Oxa CAB is attributed to its participation in strong charge-assisted hydrogen bonds of O–H···O−(2.510, 2.512, 2.515 Å) and absence of water.",
+   "note": "Distanze in geometria."
+  },
+  {
+   "id": "X49",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR: maggiore intensita' dei gruppi ossidrilici dell'idrato",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "FT-IR",
+   "valori": [],
+   "qualitativo": "i gruppi ossidrilici di acqua e Oxa partecipano solo a legami H deboli e mostrano intensita' maggiore",
+   "citazione": "In contrast, the hydroxyl groups of water and Oxa in Lor-Oxa hydrate only participate in weak hydrogen bonds (O–H···O, 2.977 Å; O–H···Cl, 3.232 Å) and, hence, exhibit higher intensity.",
+   "note": "Distanze in geometria."
+  },
+  {
+   "id": "X50",
+   "categoria": "termica",
+   "proprieta": "TGA del CAB: perdita di massa trascurabile sotto 150 °C",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "valore": 150,
+     "unita": "°C",
+     "limite": "sotto"
+    }
+   ],
+   "qualitativo": "perdita di massa trascurabile sotto 150 °C",
+   "citazione": "The TGA proﬁle of Lor-Oxa CAB (Figure 5a) showed negligible weight loss below 150 °C, suggesting acceptable thermal stability.",
+   "note": "La fusione del CAB (DSC, onset 124.29 °C) avviene entro questo intervallo: la perdita di massa riguarda la volatilita', non il cambio di forma."
+  },
+  {
+   "id": "X51",
+   "categoria": "termica",
+   "proprieta": "TGA dell'idrato: perdita accelerata di massa",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "inizio perdita accelerata",
+     "valore": 112,
+     "unita": "°C",
+     "limite": "sopra"
+    }
+   ],
+   "citazione": "The weight loss of Lor-Oxa hydrate corresponding to dehydration initiates at around 92 °C and proceeds slowly until the accelerated weight loss at ≥112 °C (Figure 5a).",
+   "note": "La perdita accelerata a ≥112 °C non e' attribuita a un processo dal testo. L'inizio della disidratazione (92 °C) e' nell'evento TGA dell'estrazione principale."
+  },
+  {
+   "id": "X52",
+   "categoria": "termica",
+   "proprieta": "DSC dell'idrato: onset sopra l'inizio della perdita di massa in TGA",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "valore": 28,
+     "unita": "°C",
+     "circa": true
+    }
+   ],
+   "citazione": "The onset temperature of the DSC endotherm is ~28 °C higher than the temperature corresponding to the initial weight loss observed on TGA.",
+   "note": "Differenza fra l'onset DSC (119.84 °C) e l'inizio della perdita di massa TGA (92 °C); per gli autori «larger than expected», dovuta alla depressione della disidratazione dal vapore acqueo nella capsula DSC."
+  },
+  {
+   "id": "X53",
+   "categoria": "termica",
+   "proprieta": "DSC: intervallo di temperatura, flusso di elio, velocita'",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "T finale",
+     "valore": 150,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "flusso di elio",
+     "valore": 25,
+     "unita": "mL/min"
+    }
+   ],
+   "citazione": "heated at a rate of 10 °C/min from room temperature to 150 °C under dry helium purge at a ﬂow rate of 25 mL/min.",
+   "note": "La velocita' (10 °C/min) e' nelle condizioni degli eventi DSC; la DSC arriva a 150 °C, quindi non osserva eventi sopra."
+  },
+  {
+   "id": "X54",
+   "categoria": "termica",
+   "proprieta": "TGA: intervallo di temperatura, flusso di azoto, massa",
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "T finale",
+     "valore": 300,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "flusso di azoto",
+     "valore": 60,
+     "unita": "mL/min"
+    }
+   ],
+   "citazione": "Powder samples (approximately 3 mg) were heated in open aluminum pans from room temperature to 300 °C at 10 °C/min under 60 mL/min dry nitrogen purge.",
+   "note": "Velocita' 10 °C/min e massa ca. 3 mg sono nelle condizioni degli eventi TGA."
+  },
+  {
+   "id": "X55",
+   "categoria": "termica",
+   "proprieta": "HSM: temperatura finale",
+   "tecnica": "HSM",
+   "valori": [
+    {
+     "etichetta": "T finale",
+     "valore": 150,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Crystals were heated to 150 °C at the rate of 5 °C/min with a temperature controller",
+   "note": "Velocita' 5 °C/min nelle condizioni degli eventi HSM."
+  },
+  {
+   "id": "X56",
+   "categoria": "termica",
+   "proprieta": "ritardo termico dell'HSM rispetto alla DSC (fusione del CAB)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "HSM",
+   "valori": [
+    {
+     "valore": 135,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "A Lor-Oxa CAB single crystal melted at 135 °C in a HSM study (Figure 5c, Video S1).",
+   "note": "Fusione a 135 °C in HSM contro onset 124.29 °C / picco 129.72 °C in DSC; gli autori la attribuiscono al ritardo termico per il contatto peggiore fra cristallo e vetrino. Il valore e' anche nell'evento HSM."
+  },
+  {
+   "id": "X57",
+   "categoria": "termica",
+   "proprieta": "aliquote dell'esperimento in forno a 100 °C: giorni di prelievo",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "valore": 1,
+     "unita": "day"
+    },
+    {
+     "valore": 2,
+     "unita": "day"
+    },
+    {
+     "valore": 3,
+     "unita": "day"
+    },
+    {
+     "valore": 4,
+     "unita": "day"
+    },
+    {
+     "valore": 5,
+     "unita": "day"
+    },
+    {
+     "valore": 6,
+     "unita": "day"
+    },
+    {
+     "valore": 12,
+     "unita": "day"
+    },
+    {
+     "valore": 18,
+     "unita": "day"
+    }
+   ],
+   "citazione": "To assess the stability of Lor-Oxa hydrate, a powder sample was placed in a 100 °C oven. An aliquot of powder was taken out for PXRD analysis after 1, 2, 3, 4, 5, 6, 12, and 18 days.",
+   "note": "Tempi dei prelievi; il testo discute 1, 2, 6 e ~12 giorni (le Figure 8 e S3 mostrano gli altri). La Fig. 8 elenca 12, 6, 3, 2, 1 giorno e il campione fresco."
+  },
+  {
+   "id": "X58",
+   "categoria": "sintesi",
+   "proprieta": "cristalli singoli: quantita' di Lor e di Oxa, solvente",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "Lor, massa",
+     "valore": 765.76,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "Lor, quantita'",
+     "valore": 2,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "Oxa (equimolare), massa",
+     "valore": 180.08,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "Oxa (equimolare), quantita'",
+     "valore": 2,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume di acetone",
+     "valore": 6,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "Equimolar Lor (765.76 mg, 2 mmol) and Oxa (180.08 mg, 2 mmol) or 2:1 molar ratio Lor (765.76 mg, 2 mmol) and Oxa (90.04 mg, 1 mmol) were dissolved in 6 mL acetone.",
+   "note": "Soluzione equimolare per il CAB (1:1)."
+  },
+  {
+   "id": "X59",
+   "categoria": "sintesi",
+   "proprieta": "cristalli singoli: quantita' di Oxa per il rapporto 2:1",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Lor, massa",
+     "valore": 765.76,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "Lor, quantita'",
+     "valore": 2,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "Oxa (2:1), massa",
+     "valore": 90.04,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "Oxa (2:1), quantita'",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume di acetone",
+     "valore": 6,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "Equimolar Lor (765.76 mg, 2 mmol) and Oxa (180.08 mg, 2 mmol) or 2:1 molar ratio Lor (765.76 mg, 2 mmol) and Oxa (90.04 mg, 1 mmol) were dissolved in 6 mL acetone.",
+   "note": "Soluzione 2:1 per l'idrato."
+  },
+  {
+   "id": "X60",
+   "categoria": "sintesi",
+   "proprieta": "screening per sospensione: quantita' di acido e di Lor, volume di acetone, durata",
+   "valori": [
+    {
+     "etichetta": "acido, quantita'",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "Lor, quantita'",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume di acetone",
+     "valore": 2,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "temperatura",
+     "valore": 4,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "durata",
+     "valore": 24,
+     "unita": "h"
+    }
+   ],
+   "citazione": "In one method, each candidate carboxylic acid (1 mmol) and Lor (1 mmol) was suspended in 2 mL acetone with a magnetic stirring bar at 4 °C (carried out in a walk-in cold room) for 24 h.",
+   "note": "Primo metodo di screening, per ciascun acido candidato. Temperatura e durata sono anche nella preparazione dell'estrazione principale."
+  },
+  {
+   "id": "X61",
+   "categoria": "sintesi",
+   "proprieta": "screening per evaporazione: quantita', volume di solvente e contenitore",
+   "valori": [
+    {
+     "etichetta": "Lor, quantita'",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "acido, quantita'",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume di solvente",
+     "valore": 5,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "volume del contenitore",
+     "valore": 20,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "In another method, 1 mmol of each of Lor and a carboxylic acid were fully dissolved in 5 mL solvent in a 20 mL scintillation vial with heating.",
+   "note": "Secondo metodo di screening, con riscaldamento; il contenitore ha il parafilm con pochi fori."
+  },
+  {
+   "id": "X62",
+   "categoria": "sintesi",
+   "proprieta": "polvere bulk del CAB: quantita' dei reagenti e solvente",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "Lor, massa",
+     "valore": 4.59,
+     "unita": "g"
+    },
+    {
+     "etichetta": "Lor, quantita'",
+     "valore": 12,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "Oxa, massa",
+     "valore": 1.08,
+     "unita": "g"
+    },
+    {
+     "etichetta": "Oxa, quantita'",
+     "valore": 12,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume di acetone",
+     "valore": 15,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "A batch of bulk powder of Lor-Oxa CAB was prepared by completely dissolving 4.59 g of Lor (12 mmol) and 1.08 g of Oxa (12 mmol) in 15 mL acetone at room temperature."
+  },
+  {
+   "id": "X63",
+   "categoria": "sintesi",
+   "proprieta": "polvere bulk del CAB: essiccamento del precipitato",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "temperatura del forno",
+     "valore": 35,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "The precipitant was then ﬁltered, washed with acetone, and dried in a 35 °C oven for overnight.",
+   "note": "Essiccamento per una notte; la durata («overnight») non e' un numero."
+  },
+  {
+   "id": "X64",
+   "categoria": "sintesi",
+   "proprieta": "polvere bulk dell'idrato: quantita' dei reagenti e solvente",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "Lor, massa",
+     "valore": 4.59,
+     "unita": "g"
+    },
+    {
+     "etichetta": "Lor, quantita'",
+     "valore": 12,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "Oxa, massa",
+     "valore": 0.54,
+     "unita": "g"
+    },
+    {
+     "etichetta": "Oxa, quantita'",
+     "valore": 6,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "volume di acetone",
+     "valore": 15,
+     "unita": "mL"
+    }
+   ],
+   "citazione": "A bulk powder of Lor-Oxa hydrate was prepared in a similar way, except 4.59 g of Lor (12 mmol) and 0.54 g of Oxa (6 mmol) was dissolved in 15 mL acetone with slight heating to obtain a clear solution before the sample was placed in the cold room."
+  },
+  {
+   "id": "X65",
+   "categoria": "altro",
+   "proprieta": "la quantita' di Oxa decide la fase (discussione 3.2)",
+   "valori": [],
+   "qualitativo": "la quantita' di Oxa gioca un ruolo nella stabilita' di fase di entrambi i cristalli (CAB a Lor:Oxa 1:1, idrato a 2:1)",
+   "citazione": "Given that Lor-Oxa CAB was obtained at 1:1 Lor to Oxa ratio, and Lor-Oxa hydrate was prepared at 2:1 ratio, the amount of Oxa clearly plays a role in phase stability of both crystals.",
+   "note": "I rapporti di sintesi sono nelle preparazioni dell'estrazione principale; in 3.2 i rapporti «1:0.2 ... 1:1» sono Lor:Oxa con Lor = 1 (eventi di sospensione)."
+  },
+  {
+   "id": "X66",
+   "categoria": "metodo",
+   "proprieta": "DVS: temperatura di misura e flusso di azoto",
+   "tecnica": "DVS",
+   "valori": [
+    {
+     "etichetta": "flusso di azoto",
+     "valore": 50,
+     "unita": "mL/min"
+    }
+   ],
+   "citazione": "at 25 °C with nitrogen ﬂow rate of 50 mL/min. Sample weight was monitored by a micro balance.",
+   "note": "La temperatura 25 °C e' nelle condizioni degli eventi DVS."
+  },
+  {
+   "id": "X67",
+   "categoria": "metodo",
+   "proprieta": "DVS: criteri di equilibrazione",
+   "tecnica": "DVS",
+   "valori": [
+    {
+     "etichetta": "dm/dt",
+     "valore": 0.003,
+     "unita": "%"
+    },
+    {
+     "etichetta": "tempo massimo di equilibrazione per passo",
+     "valore": 6,
+     "unita": "h"
+    }
+   ],
+   "citazione": "Samples were equilibrated at each step with the equilibration criteria of either dm/dt = 0.003% or maximum equilibration time of 6 h was reached before changing to the next target RH."
+  },
+  {
+   "id": "X68",
+   "categoria": "metodo",
+   "proprieta": "DVS: passo di RH",
+   "tecnica": "DVS",
+   "valori": [
+    {
+     "etichetta": "passo",
+     "valore": 5,
+     "unita": "%RH"
+    }
+   ],
+   "citazione": "The relative humidity (RH) was varied from 0% to 95% during sorption with a step size of 5% RH.",
+   "note": "Anche per l'idrato il passo e' 5% RH («from 95% to 0% with a step size of 5% RH»). L'intervallo di RH e' nelle condizioni degli eventi DVS."
+  },
+  {
+   "id": "X69",
+   "categoria": "metodo",
+   "proprieta": "solubilita': filtrazione della sospensione",
+   "valori": [
+    {
+     "etichetta": "porosita' della membrana PTFE",
+     "valore": 0.45,
+     "unita": "µm"
+    }
+   ],
+   "citazione": "Each suspension was passed through a 0.45 µm Polytetraﬂuoroethylene (PTFE) membrane ﬁlter."
+  },
+  {
+   "id": "X70",
+   "categoria": "metodo",
+   "proprieta": "solubilita': lunghezza d'onda UV-vis del filtrato",
+   "tecnica": "UV-vis",
+   "valori": [
+    {
+     "valore": 250,
+     "unita": "nm"
+    }
+   ],
+   "citazione": "The ﬁltrate was appropriately diluted with the medium for measurement by a UV−vis ﬁber optic probe (Ocean Optics, Dunedin, FL, USA) at 250 nm."
+  },
+  {
+   "id": "X71",
+   "categoria": "metodo",
+   "proprieta": "IDR: pressione di compattazione e durata della compressione",
+   "valori": [
+    {
+     "etichetta": "forza",
+     "valore": 2000,
+     "unita": "lb"
+    },
+    {
+     "etichetta": "durata",
+     "valore": 2,
+     "unita": "min"
+    },
+    {
+     "etichetta": "massa di polvere",
+     "valore": 20,
+     "unita": "mg",
+     "circa": true
+    },
+    {
+     "etichetta": "diametro del pellet",
+     "valore": 6.39,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "approximately 20 mg of powder was compressed, using a custom-made stainless-steel die, at a force of 2000 lb against a ﬂat stainless-steel disc for 2 min to prepare a pellet (6.39 mm in diameter).",
+   "note": "Condizioni di preparazione del pellet della dissoluzione; massa e diametro sono anche nel campione dell'evento IDR."
+  },
+  {
+   "id": "X72",
+   "categoria": "metodo",
+   "proprieta": "IDR: lunghezza d'onda UV-vis e volume del mezzo",
+   "tecnica": "UV-vis",
+   "valori": [
+    {
+     "valore": 250,
+     "unita": "nm"
+    }
+   ],
+   "citazione": "An ultraviolet–visible (UV−vis) ﬁber optic probe (Ocean Optics, Dunedin, FL, USA) was used to continuously monitor the UV absorbance of the solution at λ = 250 nm."
+  },
+  {
+   "id": "X73",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "aumento della solubilita' dell'idrato rispetto a Lor",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "solubilita'",
+     "valore": 1.46,
+     "unita": "volte"
+    },
+    {
+     "etichetta": "IDR",
+     "valore": 1.85,
+     "unita": "volte"
+    }
+   ],
+   "condizioni": "tampone fosfato pH 6.8; solubilita' a 25 °C, IDR a 37 °C",
+   "citazione": "Compared to Lor, Lor-Oxa hydrate displays both improved solubility (1.46 fold) and intrinsic dissolution rate (1.85 fold) (Figure 9a,b, Table 2).",
+   "note": "Rapporti rispetto a Lor (le solubilita' assolute sono in molecole nell'estrazione principale)."
+  },
+  {
+   "id": "X74",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "velocita' di dissoluzione intrinseca IDR (Tabella 2, scala «× 104» come scritta)",
+   "tecnica": "disco rotante",
+   "valori": [
+    {
+     "forma": "F1",
+     "valore": 2.32,
+     "incertezza": 0.16,
+     "unita": "× 104 µg·cm−2·s−1"
+    },
+    {
+     "forma": "F2",
+     "valore": 220.1,
+     "incertezza": 4.8,
+     "unita": "× 104 µg·cm−2·s−1"
+    },
+    {
+     "forma": "F3",
+     "valore": 4.28,
+     "incertezza": 0.22,
+     "unita": "× 104 µg·cm−2·s−1"
+    }
+   ],
+   "condizioni": "tampone fosfato pH 6.8, 37 °C, disco rotante a 200 rpm; n = 3",
+   "citazione": "IDR × 104 (µg·cm−2·s−1) 2.32 ± 0.16 220.1 ± 4.8 4.28 ± 0.22",
+   "note": "Colonne: Lor, Lor-Oxa CAB, Lor-Oxa Hydrate. Scala «IDR × 104» come scritta: il PDF puo' aver perso il segno meno di un esponente; il testo non permette di stabilirlo. Il rapporto fra le colonne e' invece verificabile con il testo (CAB/Lor ~95, idrato/Lor 1.85)."
+  },
+  {
+   "id": "X75",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "IDR del CAB rispetto a Lor",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "valore": 95,
+     "unita": "volte"
+    }
+   ],
+   "citazione": "The intrinsic dissolution rate of Lor-Oxa CAB is 95 times that of Lor, which makes it a promising candidate for tablet formulation development.",
+   "note": "Abstract; nei risultati «about 95 times of Lor»."
+  },
+  {
+   "id": "X76",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "IDR del CAB rispetto a Lor (risultati)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "valore": 95,
+     "unita": "volte",
+     "circa": true
+    }
+   ],
+   "citazione": "about 95 times of Lor."
+  },
+  {
+   "id": "X77",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "profilo IDR del CAB: concentrazione massima lineare",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "valore": 11.36,
+     "incertezza": 0.37,
+     "unita": "µg/mL"
+    }
+   ],
+   "qualitativo": "la concentrazione di Lor sale linearmente poi diminuisce",
+   "citazione": "In the IDR curve of Lor-Oxa CAB, the concentration of Lor in the medium initially increased linearly up to a concentration of 11.36 ± 0.37 µg/mL and then decreased (Figure S5)."
+  },
+  {
+   "id": "X78",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "precipitazione in massa dopo 10 minuti (CAB)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "valore": 10,
+     "unita": "min"
+    }
+   ],
+   "qualitativo": "calo della concentrazione di Lor dopo 10 min: precipitazione in massa e mezzo torbido",
+   "citazione": "The decline in the concentration of Lor after 10 min suggests bulk precipitation, which explains the observed turbidity of the dissolution medium (Figure 9d).",
+   "note": "Nel profilo IDR di Fig. S5 sono mostrati i primi 16 min."
+  },
+  {
+   "id": "X79",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "DVS: aumento di peso fino al 95% RH (CAB e idrato)",
+   "tecnica": "DVS",
+   "valori": [
+    {
+     "forma": "F2",
+     "valore": 1,
+     "unita": "%",
+     "limite": "sotto"
+    },
+    {
+     "forma": "F3",
+     "valore": 1,
+     "unita": "%",
+     "limite": "sotto"
+    }
+   ],
+   "qualitativo": "isteresi leggera fra sorbimento e desorbimento (dati non mostrati)",
+   "citazione": "Both Lor-Oxa CAB and Lor-Oxa hydrate gained less than 1% weight up to 95% RH (Figure 7) and only slight hysteresis between sorption and desorption curves was observed (data not shown).",
+   "note": "Variazione di massa anche nelle osservazioni degli eventi DVS; qui il confronto con l'isteresi."
+  },
+  {
+   "id": "X80",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "tabletability: intervallo di pressione e confronto con Lor",
+   "valori": [
+    {
+     "etichetta": "pressione min",
+     "valore": 25,
+     "unita": "MPa"
+    },
+    {
+     "etichetta": "pressione max",
+     "valore": 350,
+     "unita": "MPa"
+    }
+   ],
+   "qualitativo": "CAB e idrato hanno tabletability ridotta rispetto a Lor su tutto l'intervallo",
+   "citazione": "Both Lor-Oxa CAB and Lor-Oxa hydrate crystals exhibited reduced tabletbility than Lor over the entire compaction pressure range of 25–350 MPa (Figure 10a)."
+  },
+  {
+   "id": "X81",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "resistenza a trazione del CAB in funzione della pressione",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "etichetta": "pressione del massimo",
+     "valore": 200,
+     "unita": "MPa"
+    }
+   ],
+   "qualitativo": "la resistenza a trazione cresce fino a 200 MPa e poi cala leggermente",
+   "citazione": "The tablet tensile strength of Lor-Oxa CAB increased with increasing pressure up to 200 MPa, beyond which higher pressure led to slightly lower tensile strength."
+  },
+  {
+   "id": "X82",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "resistenza a trazione dell'idrato in funzione della pressione",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "valore": 100,
+     "unita": "MPa",
+     "limite": "sopra"
+    }
+   ],
+   "qualitativo": "il calo di resistenza a trazione comincia sopra 100 MPa",
+   "citazione": "A similar observation occurs for the Lor-Oxa hydrate, although the decline in tensile strength occurred at pressures higher than 100 MPa."
+  },
+  {
+   "id": "X83",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "laminazione delle compresse di idrato a 350 MPa",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "valore": 350,
+     "unita": "MPa"
+    }
+   ],
+   "qualitativo": "compresse intere impossibili per estesa laminazione",
+   "citazione": "At 350 MPa, intact tablets of Lor-Oxa hydrate could not be made due to extensive lamination of tablets (Figure S6).",
+   "note": "Le compresse a 350 MPa non sono un cambio di fase documentato (nessuna analisi PXRD delle compresse nel testo)."
+  },
+  {
+   "id": "X84",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "recupero elastico alla decompressione",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "la laminazione indica un esteso recupero elastico in decompressione che rompe i legami fra le particelle",
+   "citazione": "Such lamination suggests extensive elastic recovery during the decompression stage of the tableting cycle, which breaks bonding sites formed between particles during compression [36]."
+  },
+  {
+   "id": "X85",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "porosita' delle compresse e area di legame",
+   "valori": [],
+   "qualitativo": "a ogni pressione la porosita' delle compresse di Lor e' sempre minore di quella dei due cristalli nuovi, che sono simili",
+   "citazione": "At any given compaction pressure, the porosity of Lor tablets was always lower than those of the two new crystal forms, which were similar (Figure 10b)."
+  },
+  {
+   "id": "X86",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "resistenza di legame apparente σ0 (a porosita' zero)",
+   "valori": [],
+   "qualitativo": "σ0 piu' alta per l'idrato, poi Lor, poi CAB",
+   "citazione": "Interestingly, the apparent bonding strength, σ0 (tablet tensile strength at 0 porosity), of Lor-Oxa hydrate is the highest, followed by Lor and Lor-Oxa CAB (Figure 10c).",
+   "note": "Ordine σ0: idrato > Lor > CAB (nessun valore numerico nel testo)."
+  },
+  {
+   "id": "X87",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "tabletability delle miscele con 75% di MCC",
+   "valori": [
+    {
+     "etichetta": "MCC",
+     "valore": 75,
+     "unita": "% w/w"
+    }
+   ],
+   "qualitativo": "ordine decrescente di tabletability: Lor > CAB > idrato",
+   "citazione": "When mixed with 75% (w/w) MCC, all three solid forms of Lor exhibited good tabletability, following the descending order of Lor > Lor-Oxa CAB > Lor-Oxa hydrate (Figure 10d)."
+  },
+  {
+   "id": "X88",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "resistenza a trazione minima raggiunta dalle miscele sotto 100 MPa",
+   "valori": [
+    {
+     "etichetta": "resistenza a trazione",
+     "valore": 2,
+     "unita": "MPa"
+    },
+    {
+     "etichetta": "pressione",
+     "valore": 100,
+     "unita": "MPa",
+     "limite": "sotto"
+    }
+   ],
+   "qualitativo": "tutte le miscele formano compresse con resistenza a trazione di 2 MPa sotto 100 MPa",
+   "citazione": "All mixtures could form tablets with tensile strength of 2 MPa at pressures below 100 MPa."
+  },
+  {
+   "id": "X89",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "carico di farmaco nelle compresse commerciali di Lor",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "carico di farmaco",
+     "valore": 2,
+     "unita": "%",
+     "circa": true
+    },
+    {
+     "etichetta": "dose",
+     "valore": 10,
+     "unita": "mg"
+    }
+   ],
+   "citazione": "Given the drug loading in the commercial Lor tablet products is around 2% because of the low dose of Lor (10 mg), no issue with tablet mechanical strength is expected for any of the three crystal forms with a suitable formulation [39].",
+   "note": "Citato da prodotti commerciali (rif. 39)."
+  },
+  {
+   "id": "X90",
+   "categoria": "metodo",
+   "proprieta": "compattazione: dimensione delle particelle, setaccio",
+   "valori": [
+    {
+     "etichetta": "setaccio",
+     "valore": 250,
+     "unita": "µm",
+     "limite": "sotto"
+    }
+   ],
+   "qualitativo": "polveri macinate in mortaio e passate al setaccio #60 (≤250 µm)",
+   "citazione": "To minimize the eﬀect of particle size, powder samples were ground in a mortar with a pestle and passed through a #60 mesh (≤250 µm) sieve before compaction.",
+   "note": "La macinazione e' preparativa e non e' descritta come causa di cambio di fase."
+  },
+  {
+   "id": "X91",
+   "categoria": "metodo",
+   "proprieta": "compattazione: composizione delle miscele e miscelazione",
+   "valori": [
+    {
+     "etichetta": "forma cristallina di Lor",
+     "valore": 25,
+     "unita": "% w/w"
+    },
+    {
+     "etichetta": "MCC PH102",
+     "valore": 75,
+     "unita": "% w/w"
+    },
+    {
+     "etichetta": "durata della miscelazione",
+     "valore": 5,
+     "unita": "min"
+    },
+    {
+     "etichetta": "velocita'",
+     "valore": 49,
+     "unita": "rpm"
+    }
+   ],
+   "citazione": "Three mixtures containing 25% (w/w) of one of the three Lor crystal forms and 75% (w/w) of MCC PH102, were blended using a Turbula mixer (Glen Mills Inc., Clifton, NJ, USA) for 5 min at 49 rpm."
+  },
+  {
+   "id": "X92",
+   "categoria": "metodo",
+   "proprieta": "compattazione: intervallo di pressione, velocita' e punzoni",
+   "valori": [
+    {
+     "etichetta": "pressione min",
+     "valore": 25,
+     "unita": "MPa"
+    },
+    {
+     "etichetta": "pressione max",
+     "valore": 350,
+     "unita": "MPa"
+    },
+    {
+     "etichetta": "velocita'",
+     "valore": 4,
+     "unita": "mm/min"
+    },
+    {
+     "etichetta": "diametro dei punzoni",
+     "valore": 8,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "Tablets were compacted under pressures ranging from 25 to 350 MPa at a speed of 4 mm/min, using ﬂat faced round punches (8 mm diameter)."
+  },
+  {
+   "id": "X93",
+   "categoria": "metodo",
+   "proprieta": "compattazione: lubrificante",
+   "valori": [
+    {
+     "etichetta": "stearato di magnesio in etanolo",
+     "valore": 5,
+     "unita": "% w/v"
+    }
+   ],
+   "qualitativo": "solo per le forme pure; per le miscele con MCC nessun lubrificante",
+   "citazione": "For pure crystal forms, the punch tip and die wall were lubricated with a suspension of magnesium stearate in ethanol (5% w/v) and air dried prior to each compaction."
+  },
+  {
+   "id": "X94",
+   "categoria": "metodo",
+   "proprieta": "compattazione: rilassamento delle compresse",
+   "valori": [
+    {
+     "valore": 24,
+     "unita": "h",
+     "limite": "sopra"
+    }
+   ],
+   "citazione": "Tablets were relaxed for at least 24 h in a tightly closed glass vial before their dimensions were measured and broken down diametrically with a texture analyzer"
+  },
+  {
+   "id": "X95",
+   "categoria": "metodo",
+   "proprieta": "densita' vera: massa e criteri di arresto della misura",
+   "valori": [
+    {
+     "etichetta": "massa di polvere",
+     "valore": 1,
+     "unita": "g",
+     "circa": true
+    },
+    {
+     "etichetta": "volume della cella",
+     "valore": 10,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "coefficiente di variazione per l'arresto",
+     "valore": 0.005,
+     "unita": "%",
+     "limite": "sotto"
+    },
+    {
+     "etichetta": "numero massimo di misure",
+     "valore": 100
+    }
+   ],
+   "citazione": "Approximately 1 g of each powder was accurately weighed and placed into a sample cell (10 mL cell volume). The measurement was stopped when the coeﬃcient of variation of the last ﬁve consecutive volume measurements was less than 0.005% or after 100 measurements, in which case the last ﬁve measurements were used.",
+   "note": "Picnometro a elio; le ultime cinque misure consecutive sono mediate (numero cinque nel testo). Nessun valore di densita' vera riportato."
+  },
+  {
+   "id": "X96",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "perche' il PXRD calcolato (100 K) ha 2θ piu' alti",
+   "valori": [],
+   "qualitativo": "a 100 K lo spaziamento d di ogni piano di Miller e' minore, quindi 2θ maggiore",
+   "citazione": "The smaller d-spacing for each corresponding Miller plane (h, k, l) at 100 K necessarily leads to a higher two theta angel."
+  },
+  {
+   "id": "X97",
+   "categoria": "metodo",
+   "proprieta": "resistenza a trazione delle compresse: formula",
+   "valori": [],
+   "qualitativo": "σ = 2F/(πDh), con F forza di rottura, D diametro e h spessore della compressa (equazione 1)",
+   "citazione": "σ = 2F/(πDh) (1)",
+   "note": "Formula: la definizione delle variabili e' nella frase seguente («where F is the breaking force, D is tablet diameter, and h is tablet thickness»)."
+  },
+  {
+   "id": "X98",
+   "categoria": "metodo",
+   "proprieta": "porosita' delle compresse: formula",
+   "valori": [],
+   "qualitativo": "ε = 1 − ρ/ρt, con ρ e ρt densita' della compressa e densita' vera della polvere (equazione 2)",
+   "citazione": "ε = 1 −ρ/ρt (2)"
+  },
+  {
+   "id": "X99",
+   "categoria": "metodo",
+   "proprieta": "profilo IDR del CAB mostrato nei primi 16 min",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [
+    {
+     "valore": 16,
+     "unita": "min"
+    }
+   ],
+   "citazione": "Figure S5: IDR proﬁle of Lor-Oxa CAB in the ﬁrst 16 min;",
+   "note": "Didascalia del materiale supplementare."
+  }
+ ]
+}

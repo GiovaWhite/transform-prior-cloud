@@ -1,0 +1,3133 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.1c00886",
+ "pertinente": true,
+ "note": "Non sono eventi: il confronto della struttura a 100 K con quelle note a 173 K (VAKVEK) e a temperatura ambiente (HIFRIX) per S-Ibu_S-PEA e S-Nap_R-PEA e' coperto dagli eventi di stabilita' a bassa T; l'analisi di Hirshfeld e i fingerprint, il sondaggio del CSD (205 strutture con catione PEA e carbossilato; coppie di sali diastereoisomerici AFINEJ/NMACEP, COVLAC/COVLIK, IRONEJ/IRONIN, JASJIX/QANPIF, ODIQEZ/YARRER), i calcoli di stato solido (HSEsol-3c, CRYSTAL17) sui modelli in-silico dell'idrato (S-Ket_R-PEA-o, S-Ket_R-PEA_WF-o, S-Ket_R-PEA_WE-o, W1/4-o) e l'analisi dei vuoti: sono nell'extra. Le temperature di 'melting' dei sali sono accompagnate da decomposizione (tutti i campioni decompongono totalmente o parzialmente col riscaldamento): per i picchi DSC e i punti di fusione con apparecchio l'evento e' 'fuso', con l'avvertenza degli autori che la decomposizione impedisce il confronto quantitativo dei calori di fusione. Il testo dice che la selettivita' del sorbimento di rac-PEA (S-Ket e S-Ibu catturano la PEA omochirale, S-Nap no) e' correlata alle superfici di bordo quasi planari dei fogli 21 dei sali omochirali; la stabilita' relativa omochirale/eterochirale e' in 'relazioni'. Le celle a 300 K di tutti gli anidri e a 100-340 K dell'idrato, i valori della Tabella S4, le figure S1-S58 e le Tabelle S1-S4 sono nel supplementare.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "(S)-ibuprofen (S-Ibu)"
+  },
+  {
+   "id": "C2",
+   "nome": "(S)-naproxen (S-Nap)"
+  },
+  {
+   "id": "C3",
+   "nome": "(S)-ketoprofen (S-Ket)"
+  },
+  {
+   "id": "C4",
+   "nome": "(R)-(+)-1-phenylethylamine (R-PEA)"
+  },
+  {
+   "id": "C5",
+   "nome": "(S)-(−)-1-phenylethylamine (S-PEA)",
+   "analogo_di": "C4"
+  },
+  {
+   "id": "C6",
+   "nome": "rac-1-phenylethylamine (rac-PEA)",
+   "analogo_di": "C4"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "S-Ibu_S-PEA",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 5.8472,
+    "b": 15.2007,
+    "c": 22.2281,
+    "V": 1975.67,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2100696",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R4^3(10) ring (1-phenylethylammonium-carboxylate heterosynthon)",
+     "chi": "1-phenylethylammonium cation and carboxylate groups (three and four H-bond acceptors and donors; charge-assisted N+−H···O− hydrogen bonds)",
+     "citazione": "bonded ring originates (Scheme 3), made up of three and four H-bond acceptors and donors, respectively, which, according to graph set notation,46 can be categorized as R4 3(10)."
+    },
+    {
+     "motivo": "hydrogen-bonded column about the 21 screw axis (type II column)",
+     "chi": "NSAID and 1-phenylethylammonium ions",
+     "citazione": "3(10) motif extends along the shortest axis direction, giving rise to a hydrogen-bonded column arranged about the two-fold screw axis (Scheme 3), referred to as a type II column."
+    }
+   ],
+   "refcode": "VAKVEK",
+   "strutture": [
+    {
+     "refcode": "VAKVEK",
+     "temperatura": {
+      "valore": 173,
+      "unita": "K"
+     },
+     "fonte": "non_detta",
+     "citazione": "as already found in the crystal structures of S-Ibu_SPEA and S-Ibu_R-PEA determined at 173 and 111 K, respectively (VAKVEK and VUCHOR) and in the rt structure of S-Nap_R-PEA (HIFRIX)"
+    },
+    {
+     "ccdc": "2100696",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "T (K) 100 100 100 λ (Å) 1.54178 1.54178 1.54178 crystal system, space group orthorhombic, P212121 monoclinic, P21 monoclinic, P21 unit cell dimensions (Å, °) a = 5.8472(1) a = 12.5323(3) a = 11.5926(4) b = 15.2007(3) b = 5.9648(2); β = 102.922(1) b = 5.8932(4); β = 94.487(2) c = 22.2281(4) c = 13.1780(3) c = 13.5680(4) volume (Å3) 1975.67(6) 960.14(5) 924.09(5) Z, dc (g/cm3) 4, 1.101 2, 1.216 2, 1.263"
+    }
+   ],
+   "citazione": "CCDC 2100696−2100701 (for S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA, S-Ket_S-PEA, S-Ket_R-PEA and S-Ket_RPEA_W)",
+   "note": "Sale (S)-ibuprofen / (S)-1-phenylethylamine, omochirale (SS). Cella da Tabella 1 (100 K, Cu-Ka); il CCDC 2100696 e' attribuito PER ORDINE dall'elenco «CCDC 2100696−2100701 (for S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA, S-Ket_S-PEA, S-Ket_R-PEA and S-Ket_RPEA_W)». Il refcode VAKVEK (struttura nota a 173 K, rif. 24) e' attribuito a S-Ibu_S-PEA da «S-Ibu_S-PEA (CSD refcode: VAKVEK)» e dalla frase citata in strutture; il testo dice che la struttura a 100 K ne e' una ridefinizione a T piu' bassa. Nella Tabella 1 la forma e' ortorombica P212121 (gruppo normalizzato come scritto). Z = 4."
+  },
+  {
+   "id": "F2",
+   "etichetta": "S-Ibu_R-PEA",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R4^3(10) ring (1-phenylethylammonium-carboxylate heterosynthon)",
+     "chi": "1-phenylethylammonium cation and carboxylate groups (three and four H-bond acceptors and donors; charge-assisted N+−H···O− hydrogen bonds)",
+     "citazione": "bonded ring originates (Scheme 3), made up of three and four H-bond acceptors and donors, respectively, which, according to graph set notation,46 can be categorized as R4 3(10)."
+    },
+    {
+     "motivo": "hydrogen-bonded column about the 21 screw axis (type II column)",
+     "chi": "NSAID and 1-phenylethylammonium ions",
+     "citazione": "3(10) motif extends along the shortest axis direction, giving rise to a hydrogen-bonded column arranged about the two-fold screw axis (Scheme 3), referred to as a type II column."
+    }
+   ],
+   "refcode": "VUCHOR",
+   "strutture": [
+    {
+     "refcode": "VUCHOR",
+     "temperatura": {
+      "valore": 111,
+      "unita": "K"
+     },
+     "fonte": "non_detta",
+     "citazione": "For comparative purposes, the following discussion will also comprise the structure of SIbu_R-PEA (VUCHOR, data collected at 111 K)."
+    }
+   ],
+   "citazione": "Cell parameters were also determined at 300 K for all the anhydrous salts reported above, plus the already known S-Ibu_R-PEA salt (CSD Refcode = VUCHOR23).",
+   "note": "Sale eterochirale (SR), gia' noto (VUCHOR, rif. 23, dati a 111 K): non misurato a 100 K in questo lavoro (non e' fra i sei CCDC 2100696-2100701). Gli autori ne determinano solo la cella a 300 K, valori non nel testo (Tabella S4 del supplementare). Gruppo spaziale e cella non dati nel testo. Il refcode VUCHOR e' scritto pulito in «S-Ibu_R-PEA (CSD refcode: VUCHOR)» e attaccato al rimando 23 in «CSD Refcode = VUCHOR23» (citazione di questa forma)."
+  },
+  {
+   "id": "F3",
+   "etichetta": "S-Nap_S-PEA",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 12.5323,
+    "b": 5.9648,
+    "c": 13.178,
+    "beta": 102.922,
+    "V": 960.14,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2100697",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R4^3(10) ring (1-phenylethylammonium-carboxylate heterosynthon)",
+     "chi": "1-phenylethylammonium cation and carboxylate groups (three and four H-bond acceptors and donors; charge-assisted N+−H···O− hydrogen bonds)",
+     "citazione": "bonded ring originates (Scheme 3), made up of three and four H-bond acceptors and donors, respectively, which, according to graph set notation,46 can be categorized as R4 3(10)."
+    },
+    {
+     "motivo": "hydrogen-bonded column about the 21 screw axis (type II column)",
+     "chi": "NSAID and 1-phenylethylammonium ions",
+     "citazione": "3(10) motif extends along the shortest axis direction, giving rise to a hydrogen-bonded column arranged about the two-fold screw axis (Scheme 3), referred to as a type II column."
+    }
+   ],
+   "strutture": [
+    {
+     "ccdc": "2100697",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "T (K) 100 100 100 λ (Å) 1.54178 1.54178 1.54178 crystal system, space group orthorhombic, P212121 monoclinic, P21 monoclinic, P21 unit cell dimensions (Å, °) a = 5.8472(1) a = 12.5323(3) a = 11.5926(4) b = 15.2007(3) b = 5.9648(2); β = 102.922(1) b = 5.8932(4); β = 94.487(2) c = 22.2281(4) c = 13.1780(3) c = 13.5680(4) volume (Å3) 1975.67(6) 960.14(5) 924.09(5) Z, dc (g/cm3) 4, 1.101 2, 1.216 2, 1.263"
+    }
+   ],
+   "citazione": "CCDC 2100696−2100701 (for S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA, S-Ket_S-PEA, S-Ket_R-PEA and S-Ket_RPEA_W)",
+   "note": "Sale (S)-naproxen / (S)-1-phenylethylamine, omochirale. Cella da Tabella 1 (100 K). CCDC 2100697 attribuito PER ORDINE."
+  },
+  {
+   "id": "F4",
+   "etichetta": "S-Nap_R-PEA",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "etichette_alternative": [
+    "S_Nap-R_PEA"
+   ],
+   "cella": {
+    "a": 11.5926,
+    "b": 5.8932,
+    "c": 13.568,
+    "beta": 94.487,
+    "V": 924.09,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2100698",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R4^3(10) ring (1-phenylethylammonium-carboxylate heterosynthon)",
+     "chi": "1-phenylethylammonium cation and carboxylate groups (three and four H-bond acceptors and donors; charge-assisted N+−H···O− hydrogen bonds)",
+     "citazione": "bonded ring originates (Scheme 3), made up of three and four H-bond acceptors and donors, respectively, which, according to graph set notation,46 can be categorized as R4 3(10)."
+    },
+    {
+     "motivo": "hydrogen-bonded column about the 21 screw axis (type II column)",
+     "chi": "NSAID and 1-phenylethylammonium ions",
+     "citazione": "3(10) motif extends along the shortest axis direction, giving rise to a hydrogen-bonded column arranged about the two-fold screw axis (Scheme 3), referred to as a type II column."
+    }
+   ],
+   "refcode": "HIFRIX",
+   "strutture": [
+    {
+     "refcode": "HIFRIX",
+     "fonte": "non_detta",
+     "citazione": "as already found in the crystal structures of S-Ibu_SPEA and S-Ibu_R-PEA determined at 173 and 111 K, respectively (VAKVEK and VUCHOR) and in the rt structure of S-Nap_R-PEA (HIFRIX)"
+    },
+    {
+     "ccdc": "2100698",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "T (K) 100 100 100 λ (Å) 1.54178 1.54178 1.54178 crystal system, space group orthorhombic, P212121 monoclinic, P21 monoclinic, P21 unit cell dimensions (Å, °) a = 5.8472(1) a = 12.5323(3) a = 11.5926(4) b = 15.2007(3) b = 5.9648(2); β = 102.922(1) b = 5.8932(4); β = 94.487(2) c = 22.2281(4) c = 13.1780(3) c = 13.5680(4) volume (Å3) 1975.67(6) 960.14(5) 924.09(5) Z, dc (g/cm3) 4, 1.101 2, 1.216 2, 1.263"
+    }
+   ],
+   "citazione": "CCDC 2100696−2100701 (for S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA, S-Ket_S-PEA, S-Ket_R-PEA and S-Ket_RPEA_W)",
+   "note": "Sale eterochirale (SR). Cella da Tabella 1 (100 K). CCDC 2100698 attribuito PER ORDINE. Il refcode HIFRIX e' la struttura nota a temperatura ambiente (rif. 25, «the rt structure of S-Nap_R-PEA (HIFRIX)»); il testo dice che la struttura a 100 K ne e' una ridefinizione a T piu' bassa («lowering the temperature (100 vs 173 K and rt, respectively) does not produce any significant rearrangement»)."
+  },
+  {
+   "id": "F5",
+   "etichetta": "S-Ket_S-PEA",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 6.045,
+    "b": 12.894,
+    "c": 25.868,
+    "V": 2030,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2100699",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R4^3(10) ring (1-phenylethylammonium-carboxylate heterosynthon)",
+     "chi": "1-phenylethylammonium cation and carboxylate groups (three and four H-bond acceptors and donors; charge-assisted N+−H···O− hydrogen bonds)",
+     "citazione": "bonded ring originates (Scheme 3), made up of three and four H-bond acceptors and donors, respectively, which, according to graph set notation,46 can be categorized as R4 3(10)."
+    },
+    {
+     "motivo": "hydrogen-bonded column about the 21 screw axis (type II column)",
+     "chi": "NSAID and 1-phenylethylammonium ions",
+     "citazione": "3(10) motif extends along the shortest axis direction, giving rise to a hydrogen-bonded column arranged about the two-fold screw axis (Scheme 3), referred to as a type II column."
+    }
+   ],
+   "strutture": [
+    {
+     "ccdc": "2100699",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "T (K) 100 100 100 λ (Å) 1.54178 1.54178 1.54178 crystal system, space group orthorhombic, P212121 orthorhombic, P212121 monoclinic, P21 unit cell dimensions (Å, °) a = 6.045(2) a = 6.5660(3) a = 12.554(2) b = 12.894(4) b = 10.2179(5) b = 6.6768(9); β = 93.563(5) c = 25.868(9) c = 30.331(1) c = 12.638(2) volume (Å3) 2030(1) 2034.9(2) 1057.3(3) Z, dc (g/cm3) 4, 1.229 4, 1.225 2, 1.193"
+    }
+   ],
+   "citazione": "CCDC 2100696−2100701 (for S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA, S-Ket_S-PEA, S-Ket_R-PEA and S-Ket_RPEA_W)",
+   "note": "Sale (S)-ketoprofen / (S)-1-phenylethylamine, omochirale. Cella da Tabella 1 (100 K): V = 2030(1). CCDC 2100699 attribuito PER ORDINE."
+  },
+  {
+   "id": "F6",
+   "etichetta": "S-Ket_R-PEA",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "etichette_alternative": [
+    "SKet_R-PEA"
+   ],
+   "cella": {
+    "a": 6.566,
+    "b": 10.2179,
+    "c": 30.331,
+    "V": 2034.9,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2100700",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R4^3(10) ring (1-phenylethylammonium-carboxylate heterosynthon)",
+     "chi": "1-phenylethylammonium cation and carboxylate groups (three and four H-bond acceptors and donors; charge-assisted N+−H···O− hydrogen bonds)",
+     "citazione": "bonded ring originates (Scheme 3), made up of three and four H-bond acceptors and donors, respectively, which, according to graph set notation,46 can be categorized as R4 3(10)."
+    },
+    {
+     "motivo": "hydrogen-bonded column about the 21 screw axis (type II column)",
+     "chi": "NSAID and 1-phenylethylammonium ions",
+     "citazione": "3(10) motif extends along the shortest axis direction, giving rise to a hydrogen-bonded column arranged about the two-fold screw axis (Scheme 3), referred to as a type II column."
+    }
+   ],
+   "strutture": [
+    {
+     "ccdc": "2100700",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "T (K) 100 100 100 λ (Å) 1.54178 1.54178 1.54178 crystal system, space group orthorhombic, P212121 orthorhombic, P212121 monoclinic, P21 unit cell dimensions (Å, °) a = 6.045(2) a = 6.5660(3) a = 12.554(2) b = 12.894(4) b = 10.2179(5) b = 6.6768(9); β = 93.563(5) c = 25.868(9) c = 30.331(1) c = 12.638(2) volume (Å3) 2030(1) 2034.9(2) 1057.3(3) Z, dc (g/cm3) 4, 1.229 4, 1.225 2, 1.193"
+    }
+   ],
+   "citazione": "CCDC 2100696−2100701 (for S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA, S-Ket_S-PEA, S-Ket_R-PEA and S-Ket_RPEA_W)",
+   "note": "Sale eterochirale (SR), anidro. Cella da Tabella 1 (100 K). CCDC 2100700 attribuito PER ORDINE."
+  },
+  {
+   "id": "F7",
+   "etichetta": "S-Ket_R-PEA_W",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "etichette_alternative": [
+    "S-Ket_RPEA_W",
+    "hydrated species of S-Ket_R-PEA"
+   ],
+   "cella": {
+    "a": 12.554,
+    "b": 6.6768,
+    "c": 12.638,
+    "beta": 93.563,
+    "V": 1057.3,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2100701",
+   "ccdc_dedotto": true,
+   "motivi_hb": [
+    {
+     "motivo": "R4^3(10) ring (1-phenylethylammonium-carboxylate heterosynthon)",
+     "chi": "1-phenylethylammonium cation and carboxylate groups (three and four H-bond acceptors and donors; charge-assisted N+−H···O− hydrogen bonds)",
+     "citazione": "bonded ring originates (Scheme 3), made up of three and four H-bond acceptors and donors, respectively, which, according to graph set notation,46 can be categorized as R4 3(10)."
+    },
+    {
+     "motivo": "hydrogen-bonded column about the 21 screw axis (type II column)",
+     "chi": "NSAID and 1-phenylethylammonium ions",
+     "citazione": "3(10) motif extends along the shortest axis direction, giving rise to a hydrogen-bonded column arranged about the two-fold screw axis (Scheme 3), referred to as a type II column."
+    },
+    {
+     "motivo": "water molecule in the intracolumn H-bond network",
+     "chi": "disordered water O1W with O2 and N1P",
+     "citazione": "In the hydrate species S-Ket_R-PEA_W, the disordered water molecule contributes to the intracolumn H-bond network"
+    }
+   ],
+   "strutture": [
+    {
+     "ccdc": "2100701",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "T (K) 100 100 100 λ (Å) 1.54178 1.54178 1.54178 crystal system, space group orthorhombic, P212121 orthorhombic, P212121 monoclinic, P21 unit cell dimensions (Å, °) a = 6.045(2) a = 6.5660(3) a = 12.554(2) b = 12.894(4) b = 10.2179(5) b = 6.6768(9); β = 93.563(5) c = 25.868(9) c = 30.331(1) c = 12.638(2) volume (Å3) 2030(1) 2034.9(2) 1057.3(3) Z, dc (g/cm3) 4, 1.229 4, 1.225 2, 1.193"
+    }
+   ],
+   "citazione": "CCDC 2100696−2100701 (for S-Ibu_S-PEA, S-Nap_S-PEA, S-Nap_R-PEA, S-Ket_S-PEA, S-Ket_R-PEA and S-Ket_RPEA_W)",
+   "note": "Sale eterochirale parzialmente idrato: formula [C8H12N][C16H13O3]·0.15H2O (Tabella 1). Cella da Tabella 1 (100 K). CCDC 2100701 attribuito PER ORDINE. L'acqua e' disordinata con fattore di occupazione 0.15, impostato dopo raffinamento libero; la TGA da' 0.2 molecole d'acqua (stesso ordine di grandezza, «consistent with the water occupancy factor»). Stechiometria 0.15 per unita' formula del sale (1 anione + 1 catione). Le celle a T diverse fra 100 e 340 K sono determinate ma non riportate nel testo.",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 0.15,
+    "riferito_a": "unita_formula",
+    "fonte_stechiometria": "cristallografica"
+   }
+  },
+  {
+   "id": "F8",
+   "composto": "C1",
+   "etichetta": "S-Ibu",
+   "etichette_alternative": [
+    "(S)-(+)-ibuprofen"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "(S)- (+)-Ibuprofen (98%), (S)-(+) ketoprofen (99%), (S)-(−)-1-phenylethylamine (99%), and (R)-(+)-1-phenylethylamine (99%) were purchased from Sigma-Aldrich.",
+   "note": "Acido libero (S)-ibuprofen commerciale, usato tal quale («All of the APIs were used without further purification»); mai caratterizzato come forma cristallina in questo lavoro, ma e' il solido di partenza della prova di sorbimento."
+  },
+  {
+   "id": "F9",
+   "composto": "C2",
+   "etichetta": "S-Nap",
+   "etichette_alternative": [
+    "S-naproxen acid",
+    "(S)-(+)-naproxen"
+   ],
+   "tipo": "non_specificato",
+   "refcode": "COYRUD",
+   "citazione": "(50) CSD Refcode: COYRUD; compound: (+)-2-(6-Methoxy-2naphthyl)-propionic acid",
+   "note": "Acido libero (S)-naproxen: commerciale (Alfa Aesar) e prodotto di decomposizione dei sali S-Nap_S-PEA e S-Nap_R-PEA. Il refcode COYRUD e' letto nella nota 50 della bibliografia, che il testo attacca a «the crystalline phase contains the S-naproxen acid.50» (la fase cristallina che cresce dal fuso del sale eterochirale); si applica quindi a quella fase e, per l'etichetta unica «S-naproxen acid», all'acido libero; nessuna cella nel testo."
+  },
+  {
+   "id": "F10",
+   "composto": "C3",
+   "etichetta": "S-Ket",
+   "etichette_alternative": [
+    "(S)-(+) ketoprofen"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "(S)- (+)-Ibuprofen (98%), (S)-(+) ketoprofen (99%), (S)-(−)-1-phenylethylamine (99%), and (R)-(+)-1-phenylethylamine (99%) were purchased from Sigma-Aldrich.",
+   "note": "Acido libero (S)-ketoprofen commerciale; solido di partenza della prova di sorbimento."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "relazione_scritta": "the temperature stability range suggests the homochiral salt as the most stable form",
+   "condizioni": "intervallo di stabilita' in temperatura (forno 2 h, DSC, TGA, VT-PXRD) degli anidri",
+   "citazione": "As for the anhydrous species, the temperature stability range (vide infra) suggests the homochiral salt as the most stable form, having the DSs of S-Ibu the largest temperature diﬀerence.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Coppia di sali diastereoisomerici di S-Ibu (omochirale contro eterochirale): non e' una coppia di polimorfi, quindi nessuna mono/enantiotropia. Il giudizio e' degli autori e si basa sulla stabilita' termica, con decomposizione che impedisce il confronto quantitativo del calore di fusione."
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "relazione_scritta": "the temperature stability range suggests the homochiral salt as the most stable form",
+   "condizioni": "intervallo di stabilita' in temperatura (forno 2 h, DSC, TGA, VT-PXRD) degli anidri",
+   "citazione": "As for the anhydrous species, the temperature stability range (vide infra) suggests the homochiral salt as the most stable form, having the DSs of S-Ibu the largest temperature diﬀerence.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Coppia di sali diastereoisomerici di S-Nap (omochirale contro eterochirale): non e' una coppia di polimorfi, quindi nessuna mono/enantiotropia. Il giudizio e' degli autori e si basa sulla stabilita' termica, con decomposizione che impedisce il confronto quantitativo del calore di fusione."
+  },
+  {
+   "forme": [
+    "F5",
+    "F6"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F5",
+   "relazione_scritta": "the temperature stability range suggests the homochiral salt as the most stable form",
+   "condizioni": "intervallo di stabilita' in temperatura (forno 2 h, DSC, TGA, VT-PXRD) degli anidri",
+   "citazione": "As for the anhydrous species, the temperature stability range (vide infra) suggests the homochiral salt as the most stable form, having the DSs of S-Ibu the largest temperature diﬀerence.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Coppia di sali diastereoisomerici di S-Ket (omochirale contro eterochirale): non e' una coppia di polimorfi, quindi nessuna mono/enantiotropia. Il giudizio e' degli autori e si basa sulla stabilita' termica, con decomposizione che impedisce il confronto quantitativo del calore di fusione. Per S-Ket gli autori aggiungono la stabilita' all'idratazione: «The fact that the homochiral SKet salt is stable toward hydration, at variance with the heterochiral one, further suggests that its crystal structure is deﬁnitely more stable with respect to S-Ket_R-PEA»."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 420,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "Each (S)-NSAID salt was kept in an oven for 2 h.",
+    "The temperature was set about 30 K lower than the melting temperature of the corresponding salt as measured with a Stuart Scientific apparatus: S-Ibu_S-PEA, T = 420 K",
+    "In the oven at 420 K (i.e., 30 deg below the Buchï melting point), a complete loss of S-Ibu_S-PEA",
+    "In fact, all samples totally or partially decompose upon heating (TGA, DSC, and PXRD experiments)"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "«a complete loss of S-Ibu_S-PEA occurred»: la frase non dice che cosa resti (il sale e' sparito); a = decomposizione e' sostenuta dalla frase della discussione «all samples totally or partially decompose upon heating». Il punto di fusione di riferimento e' scritto «Buchï» nei risultati e «Stuart Scientific» nei metodi. Il campione non e' descritto (polvere o cristalli)."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 390,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "Above rt, the thermal behavior of the seven salts was initially investigated putting each compound in an oven for 2 h (details in the Experimental Section), and then the resulting samples were characterized by PXRD and 1H NMR, the latter to evaluate the API/PEA ratio.",
+    "occurred, while at a lower temperature (390 K), PXRD data (see Figure S29) showed that S-Ibu_S-PEA is still present at the end of the experiment. From the NMR spectrum, a S-Ibu/ S-PEA ratio of 8:1 can be estimated;",
+    "A similar result was observed for S-Ibu_R-PEA (Figure S31); at 400 K, a partial decomposition of the salt, with loss of R-PEA, occurred"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "A 390 K il sale e' ancora presente (PXRD) ma il rapporto S-Ibu/S-PEA da NMR e' 8:1 invece di 1:1: perdita parziale di S-PEA. L'articolo non scrive «decomposition» per questo esperimento ma «a similar result» rispetto a S-Ibu_R-PEA a 400 K (decomposizione parziale con perdita di R-PEA). Le 2 h non sono ripetute per i 390 K: sono il protocollo generale del forno («putting each compound in an oven for 2 h»). Rapporto 8:1 nell'extra."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "onset",
+     "onset": 380,
+     "circa": true
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "air (100 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "For the thermogravimetric analyses (TGA), samples were analyzed on an EXSTAR Seiko 6200 analyzer under air (100 mL/min) at a heating rate of 5 K/min from 313 to 873 K. The weight of the samples was between 3 and 5 mg.",
+    "the TGA curve consistently showed a continuous mass loss, starting at about 380 K, followed by the complete disappearance of the salt (Figure S30)",
+    "an almost closed pan for DSC (the lid of the aluminum pan was only punctured) versus the open one adopted in TGA (measurements were performed under an air ﬂux of 100 mL/ min), a fast DSC experiment (heating rate 10 K/min) versus 2 h in the oven."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Perdita di massa continua da ca. 380 K fino alla scomparsa completa del sale. Crogiolo TGA aperto dal confronto DSC/TGA nella sezione S-Ibu («the open one adopted in TGA»); i metodi non dicono il crogiolo della TGA. La frase sul DSC dice che il picco e' a «50 and 30 K above the beginning of mass loss observed in the TGA» (S-Ibu_S-PEA e S-Ibu_R-PEA): 452.59 - 50 = ca. 402 K, non 380 K (incoerenza interna; vale il valore esplicito 380 K).",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "between 3 and 5 mg"
+   },
+   "conflitto": "Testo TGA: inizio perdita di massa «about 380 K»; frase DSC: il picco DSC (452.59 K) e' «50 and 30 K above the beginning of mass loss observed in the TGA» (per S-Ibu_S-PEA 50 K), cioe' ca. 402 K. Si tiene il valore esplicito 380 K."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 452.59
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "entalpia": {
+     "valore": 53.4,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 452.59,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg).",
+    "A linear heating rate of 10 K/min was used. Experiments were performed in air.",
+    "The DSC curves of both S-Ibu salts show just one endothermic peak (50 and 30 K above the beginning of mass loss observed in the TGA, for S-Ibu_S-PEA and SIbu_R-PEA, respectively, Figures S33 and S34).",
+    "diastereomeric salt density (g/cm) K.P.I. T (K) peak (K) extrapolated peak (K) ΔH (kJ/mol) T (K) S-Ibu_S-PEA 1.101 64.9 100 452.59a 452.86a 53.4a 447.2−448.2",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid.",
+    "On the other hand, decomposition of the samples prevents the use of the heat of fusion for quantitative comparisons."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Valori dalla Tabella 3 (colonne «peak (K)» e «ΔH (kJ/mol)» sotto «DSC»): l'unita' sta nell'intestazione e non accanto ai numeri, per questo la verifica da' «quasi». Picco 452.59 K, «extrapolated peak» 452.86 K (nell'extra). Tabella 3: nota «a Melting». Gli autori avvertono che la decomposizione impedisce confronti quantitativi del calore di fusione (non e' separata come evento).",
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.8 to 3.2 mg"
+   }
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 447.2,
+     "max": 448.2
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "Preliminary melting points of the prepared salts were measured on a Stuart Scientiﬁc SIMP3 apparatus and are uncorrected.",
+    "diastereomeric salt density (g/cm) K.P.I. T (K) peak (K) extrapolated peak (K) ΔH (kJ/mol) T (K) S-Ibu_S-PEA 1.101 64.9 100 452.59a 452.86a 53.4a 447.2−448.2",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione con apparecchio Stuart Scientific SIMP3 (non e' detto che sia un capillare). Nel risultato dell'esperimento al forno lo stesso punto e' chiamato «Buchï melting point». Unita' K dall'intestazione «T (K)»."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 100,
+     "testo": "100 K to rt"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "First, the stability of each crystal phase in the 100 K to rt range was checked by monitoring the cell parameters at diﬀerent temperatures by SCXRD (Table S4): no phase transitions occurred.",
+    "All solid forms are stable from 100 K to rt.",
+    "As for SIbu_S-PEA and S-Nap_R-PEA, lowering the temperature (100 vs 173 K and rt, respectively) does not produce any signiﬁcant rearrangement of the structures, both at the molecular and crystal levels (vide infra)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Frase che vale per «each crystal phase» dei sette sali: un evento per forma, certezza media. Il verso non e' detto (cella misurata a piu' T fra 100 K e temperatura ambiente, valori in Tabella S4 del supplementare), quindi sottovia null. Il limite superiore e' «rt», senza numero.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 400,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "meccanismo": [
+     "perdita_componente"
+    ],
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "Each (S)-NSAID salt was kept in an oven for 2 h.",
+    "The temperature was set about 30 K lower than the melting temperature of the corresponding salt as measured with a Stuart Scientific apparatus: S-Ibu_S-PEA, T = 420 K",
+    "S-Ibu_R-PEA, T = 400 K",
+    "A similar result was observed for S-Ibu_R-PEA (Figure S31); at 400 K, a partial decomposition of the salt, with loss of R-PEA, occurred, as evidenced by NMR (at the end of the experiment, the S-Ibu/R-PEA ratio was 12:1) and TGA data (see Figure S32)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Decomposizione parziale con perdita di R-PEA (rapporto S-Ibu/R-PEA 12:1 a fine prova). La fase solida residua non e' identificata."
+  },
+  {
+   "id": "E8",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "air (100 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "For the thermogravimetric analyses (TGA), samples were analyzed on an EXSTAR Seiko 6200 analyzer under air (100 mL/min) at a heating rate of 5 K/min from 313 to 873 K. The weight of the samples was between 3 and 5 mg.",
+    "A similar result was observed for S-Ibu_R-PEA (Figure S31); at 400 K, a partial decomposition of the salt, with loss of R-PEA, occurred, as evidenced by NMR (at the end of the experiment, the S-Ibu/R-PEA ratio was 12:1) and TGA data (see Figure S32).",
+    "an almost closed pan for DSC (the lid of the aluminum pan was only punctured) versus the open one adopted in TGA (measurements were performed under an air ﬂux of 100 mL/ min), a fast DSC experiment (heating rate 10 K/min) versus 2 h in the oven."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "«A similar result» rispetto a S-Ibu_S-PEA (perdita di massa continua poi scomparsa del sale); il testo non da' la temperatura di inizio della perdita di massa per questo sale (solo la frase DSC «50 and 30 K above the beginning of mass loss observed in the TGA»: 430.45 - 30 = ca. 400 K, un conto mio e non un numero scritto). Temperatura null. Crogiolo TGA aperto dal confronto DSC/TGA nella sezione S-Ibu («the open one adopted in TGA»); i metodi non dicono il crogiolo della TGA.",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "between 3 and 5 mg"
+   }
+  },
+  {
+   "id": "E9",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 430.45
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "entalpia": {
+     "valore": 41.7,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 430.45,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg).",
+    "A linear heating rate of 10 K/min was used. Experiments were performed in air.",
+    "The DSC curves of both S-Ibu salts show just one endothermic peak (50 and 30 K above the beginning of mass loss observed in the TGA, for S-Ibu_S-PEA and SIbu_R-PEA, respectively, Figures S33 and S34).",
+    "S-Ibu_R-PEA 1.085 63.8 110 430.45a 431.00a 41.7a 427.5−428.2",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid.",
+    "On the other hand, decomposition of the samples prevents the use of the heat of fusion for quantitative comparisons."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Valori dalla Tabella 3 (colonne «peak (K)» e «ΔH (kJ/mol)» sotto «DSC»): l'unita' sta nell'intestazione e non accanto ai numeri, per questo la verifica da' «quasi». Picco 430.45 K, «extrapolated peak» 431.00 K (nell'extra). Struttura gia' nota (VUCHOR); il campione DSC e' un campione fresco preparato per l'analisi in bulk.",
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.8 to 3.2 mg"
+   }
+  },
+  {
+   "id": "E10",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 427.5,
+     "max": 428.2
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "Preliminary melting points of the prepared salts were measured on a Stuart Scientiﬁc SIMP3 apparatus and are uncorrected.",
+    "S-Ibu_R-PEA 1.085 63.8 110 430.45a 431.00a 41.7a 427.5−428.2",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione con apparecchio Stuart Scientific SIMP3. Unita' K dall'intestazione «T (K)»."
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 100,
+     "testo": "100 K to rt"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "First, the stability of each crystal phase in the 100 K to rt range was checked by monitoring the cell parameters at diﬀerent temperatures by SCXRD (Table S4): no phase transitions occurred.",
+    "All solid forms are stable from 100 K to rt."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Frase per «each crystal phase». Per questo sale i dati a bassa T sono quelli della letteratura (111 K) piu' la cella a 300 K di questo lavoro. Verso non detto.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E12",
+   "da": "F3",
+   "a": "F9",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 415,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "Each (S)-NSAID salt was kept in an oven for 2 h.",
+    "The temperature was set about 30 K lower than the melting temperature of the corresponding salt as measured with a Stuart Scientific apparatus: S-Ibu_S-PEA, T = 420 K",
+    "S-Nap_S-PEA, T = 415 K",
+    "S-Nap_S-PEA partially decomposed after 2 h at 415 K in the oven: both the salt and S-naproxen acid are present in the sample at the end of the experiment (as provided by the PXRD pattern of the sample, Figure S35). Consistently, a 6:1 S-Nap/PEA ratio was estimated from the NMR spectrum."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Decomposizione parziale del sale: nel campione finale coesistono sale e acido (S)-naproxen libero (F9), identificato per PXRD. Gli autori la chiamano «decomposition»; poiche' il prodotto e' una forma identificata (l'acido libero, stessa molecola dell'API) l'evento e' un cambio di forma con perdita del contro-ione volatile, natura fisica. Rapporto NMR S-Nap/PEA 6:1 nell'extra."
+  },
+  {
+   "id": "E13",
+   "da": "F3",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 420,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "air (100 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "perdita_massa": {
+     "valore": 35.2,
+     "unita": "%",
+     "tipo": "totale"
+    },
+    "meccanismo": [
+     "perdita_componente"
+    ],
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "For the thermogravimetric analyses (TGA), samples were analyzed on an EXSTAR Seiko 6200 analyzer under air (100 mL/min) at a heating rate of 5 K/min from 313 to 873 K. The weight of the samples was between 3 and 5 mg.",
+    "The TGA also conﬁrmed the salt decomposition at 420 K with a mass loss of 35.2%, which corresponds to the loss of one PEA molecule for each naproxen (Figure S36).",
+    "an almost closed pan for DSC (the lid of the aluminum pan was only punctured) versus the open one adopted in TGA (measurements were performed under an air ﬂux of 100 mL/ min), a fast DSC experiment (heating rate 10 K/min) versus 2 h in the oven."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "TGA: il prodotto non e' caratterizzato nella TGA stessa; a = acido (S)-naproxen perche' la perdita (35.2%) «corresponds to the loss of one PEA molecule for each naproxen» e l'acido e' identificato negli esperimenti al forno e in VT-PXRD (certezza media). Crogiolo TGA aperto dal confronto DSC/TGA nella sezione S-Ibu («the open one adopted in TGA»); i metodi non dicono il crogiolo della TGA.",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "between 3 and 5 mg"
+   }
+  },
+  {
+   "id": "E14",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Variable-temperature PXRD analyses of S-Nap_S-PEA, S-Nap_RPEA, and S-Ket_R-PEA_W were performed by using an Anton Paar HTK 1200N hot chamber mounted on a Panalytical X’Pert PRO automated diﬀractometer (Cu−Kα radiation, 40 kV × 40 mA), equipped with a PIX-CEL solid-state fast detector.",
+    "The temperature variation rate was 5 K/min. After the target temperature was reached, the sample was kept at that temperature for 5 min before proceeding with data collection. Measures were performed in air.",
+    "VT-PXRD experiments carried out on both salts showed that during the heating steps no phase changes occurred until the complete amorphization of the samples (Figures S39 and S40)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessun cambio di fase durante i gradini di riscaldamento, fino all'amorfizzazione completa (E successivo). L'intervallo di temperatura della VT-PXRD dei sali di naprossene non e' scritto (il testo da' 300-390 K solo per il sale idrato S-Ket_R-PEA_W).",
+   "esito_dettaglio": "nessuna_altra_transizione"
+  },
+  {
+   "id": "E15",
+   "da": "F3",
+   "a": "amorfo",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Variable-temperature PXRD analyses of S-Nap_S-PEA, S-Nap_RPEA, and S-Ket_R-PEA_W were performed by using an Anton Paar HTK 1200N hot chamber mounted on a Panalytical X’Pert PRO automated diﬀractometer (Cu−Kα radiation, 40 kV × 40 mA), equipped with a PIX-CEL solid-state fast detector.",
+    "The temperature variation rate was 5 K/min. After the target temperature was reached, the sample was kept at that temperature for 5 min before proceeding with data collection. Measures were performed in air.",
+    "VT-PXRD experiments carried out on both salts showed that during the heating steps no phase changes occurred until the complete amorphization of the samples (Figures S39 and S40).",
+    "As for S-Nap_S-PEA, upon cooling, the melt did not immediately recrystallize"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Amorfizzazione completa in VT-PXRD, temperatura non scritta. Gli autori parlano poi di «the melt» per lo stesso campione al raffreddamento. Il DSC dice che il picco a 446 K e' «about 25 deg above the decomposition temperature observed during the TGA and VT-PXRD experiments».",
+   "da_evento": "E14"
+  },
+  {
+   "id": "E16",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 446.18
+    },
+    "velocita": {
+     "valore": null,
+     "unita": "K/min",
+     "valori": [
+      5,
+      10,
+      20
+     ]
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "entalpia": {
+     "valore": 50.5,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 446.18,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg).",
+    "A linear heating rate of 10 K/min was used. Experiments were performed in air.",
+    "As already observed for the S-Ibu/PEA salts, in the DSC curve of S-Nap_S-PEA there is just one endothermic peak at about 446 K (i.e., about 25 deg above the decomposition temperature observed during the TGA and VT-PXRD experiments, Figure S44). It is worth noting that DSC curves collected at diﬀerent heating rates (5, 10, and 20 K/min) gave the same results.",
+    "S-Nap_S-PEA 1.216 67.8 100 446.18a 446.60a 50.5a 445.0−446.0",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid.",
+    "On the other hand, decomposition of the samples prevents the use of the heat of fusion for quantitative comparisons."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Valori dalla Tabella 3 (colonne «peak (K)» e «ΔH (kJ/mol)» sotto «DSC»): l'unita' sta nell'intestazione e non accanto ai numeri, per questo la verifica da' «quasi». Picco 446.18 K (Tabella 3), «about 446 K» nel testo; «extrapolated peak» 446.60 K nell'extra. Velocita' 5, 10 e 20 K/min danno lo stesso risultato (il metodo generale e' 10 K/min).",
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.8 to 3.2 mg"
+   }
+  },
+  {
+   "id": "E17",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 445.0,
+     "max": 446.0
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "Preliminary melting points of the prepared salts were measured on a Stuart Scientiﬁc SIMP3 apparatus and are uncorrected.",
+    "S-Nap_S-PEA 1.216 67.8 100 446.18a 446.60a 50.5a 445.0−446.0",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione con apparecchio Stuart Scientific SIMP3. Unita' K dall'intestazione «T (K)»."
+  },
+  {
+   "id": "E18",
+   "da": "fuso",
+   "a": "F3",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "As for S-Nap_S-PEA, upon cooling, the melt did not immediately recrystallize; in the PXRD pattern collected the day after (Figure S41), only the S-Nap acid can be recognized (the salt did not recrystallize)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il sale non ricristallizza dal fuso (il «melt» e' il campione amorfizzato in VT-PXRD). Raffreddamento: velocita' e T finale non scritte.",
+   "da_evento": "E15",
+   "esito_dettaglio": "nessuna_ricristallizzazione",
+   "senza_condizioni": true
+  },
+  {
+   "id": "E19",
+   "da": "fuso",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "osservata",
+     "testo": "the day after"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "As for S-Nap_S-PEA, upon cooling, the melt did not immediately recrystallize; in the PXRD pattern collected the day after (Figure S41), only the S-Nap acid can be recognized (the salt did not recrystallize)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dal fuso, il giorno dopo, il PXRD mostra solo l'acido S-Nap. Non ricristallizza subito («did not immediately recrystallize»). Velocita' e T di raffreddamento non scritte.",
+   "da_evento": "E15"
+  },
+  {
+   "id": "E20",
+   "da": "F4",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 400,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "Each (S)-NSAID salt was kept in an oven for 2 h.",
+    "The temperature was set about 30 K lower than the melting temperature of the corresponding salt as measured with a Stuart Scientific apparatus: S-Ibu_S-PEA, T = 420 K",
+    "SNap_R-PEA, T = 400 K",
+    "S-Nap_R-PEA also decomposes when kept in a oven for 2 h at 400 K, but in this case the resulting sample contains only the S-naproxen acid as provided by the NMR data and the PXRD pattern (Figure S37)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il campione finale contiene solo l'acido (S)-naproxen (NMR e PXRD). Gli autori scrivono «decomposes»; il prodotto e' una forma identificata, quindi cambio di forma con perdita del contro-ione (natura fisica, vedi E del sale omochirale)."
+  },
+  {
+   "id": "E21",
+   "da": "F4",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 421,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "air (100 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "perdita_massa": {
+     "valore": 33,
+     "unita": "%",
+     "tipo": "totale",
+     "circa": true
+    },
+    "meccanismo": [
+     "perdita_componente"
+    ],
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "For the thermogravimetric analyses (TGA), samples were analyzed on an EXSTAR Seiko 6200 analyzer under air (100 mL/min) at a heating rate of 5 K/min from 313 to 873 K. The weight of the samples was between 3 and 5 mg.",
+    "As for the TGA, the curve shows a mass loss of about 33% at about 421 K, which agrees with the loss of one PEA molecule for each naproxen (Figure S38).",
+    "an almost closed pan for DSC (the lid of the aluminum pan was only punctured) versus the open one adopted in TGA (measurements were performed under an air ﬂux of 100 mL/ min), a fast DSC experiment (heating rate 10 K/min) versus 2 h in the oven."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Prodotto non caratterizzato dalla TGA; a = acido (S)-naproxen perche' la perdita «agrees with the loss of one PEA molecule for each naproxen» e l'acido e' identificato nell'esperimento al forno (certezza media). Crogiolo TGA aperto dal confronto DSC/TGA nella sezione S-Ibu («the open one adopted in TGA»); i metodi non dicono il crogiolo della TGA.",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "between 3 and 5 mg"
+   }
+  },
+  {
+   "id": "E22",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Variable-temperature PXRD analyses of S-Nap_S-PEA, S-Nap_RPEA, and S-Ket_R-PEA_W were performed by using an Anton Paar HTK 1200N hot chamber mounted on a Panalytical X’Pert PRO automated diﬀractometer (Cu−Kα radiation, 40 kV × 40 mA), equipped with a PIX-CEL solid-state fast detector.",
+    "The temperature variation rate was 5 K/min. After the target temperature was reached, the sample was kept at that temperature for 5 min before proceeding with data collection. Measures were performed in air.",
+    "VT-PXRD experiments carried out on both salts showed that during the heating steps no phase changes occurred until the complete amorphization of the samples (Figures S39 and S40)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessun cambio di fase fino all'amorfizzazione completa; intervallo di T non scritto.",
+   "esito_dettaglio": "nessuna_altra_transizione"
+  },
+  {
+   "id": "E23",
+   "da": "F4",
+   "a": "amorfo",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Variable-temperature PXRD analyses of S-Nap_S-PEA, S-Nap_RPEA, and S-Ket_R-PEA_W were performed by using an Anton Paar HTK 1200N hot chamber mounted on a Panalytical X’Pert PRO automated diﬀractometer (Cu−Kα radiation, 40 kV × 40 mA), equipped with a PIX-CEL solid-state fast detector.",
+    "The temperature variation rate was 5 K/min. After the target temperature was reached, the sample was kept at that temperature for 5 min before proceeding with data collection. Measures were performed in air.",
+    "VT-PXRD experiments carried out on both salts showed that during the heating steps no phase changes occurred until the complete amorphization of the samples (Figures S39 and S40)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Amorfizzazione completa in VT-PXRD, temperatura non scritta.",
+   "da_evento": "E22"
+  },
+  {
+   "id": "E24",
+   "da": "F4",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 415.3
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 415.3,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg).",
+    "A linear heating rate of 10 K/min was used. Experiments were performed in air.",
+    "Finally, for S-Nap_R-PEA, two endothermic peaks were observed in the DSC curve (rt to 470 K range), compatible with the salt decomposition observed in the TGA curve and during the VT-PXRD experiment, and with the melting of the naproxen acid (Tm = 425 K): peak = 415.3 K, extrapolated peak = 415.4 K and peak = 429.3 K, extrapolated peak = 429.3 K, respectively (see Figure S45).",
+    "S-Nap_R-PEA 1.263 70.5 100 415.7b/430.2ad 416.0b/430.1ad 428.7−429.5",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Primo picco DSC: «compatible with the salt decomposition» osservata in TGA e VT-PXRD (Tabella 3, nota b Decomposition); in DSC il prodotto non e' identificato, quindi a = decomposizione. Il testo dice «rt to 470 K range» mentre i metodi dicono 300-490 K per i sali S-Nap.",
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.8 to 3.2 mg"
+   },
+   "passo": "salt decomposition",
+   "conflitto": "Il testo da' per il primo picco peak = 415.3 K, extrapolated peak = 415.4 K; la Tabella 3 da' 415.7 K e 416.0 K (nota b: decomposizione). Si tiene il testo, che nomina ogni valore (picco ed extrapolated peak) con l'unita'."
+  },
+  {
+   "id": "E25",
+   "da": "F9",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 429.3
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 429.3,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg).",
+    "A linear heating rate of 10 K/min was used. Experiments were performed in air.",
+    "Finally, for S-Nap_R-PEA, two endothermic peaks were observed in the DSC curve (rt to 470 K range), compatible with the salt decomposition observed in the TGA curve and during the VT-PXRD experiment, and with the melting of the naproxen acid (Tm = 425 K): peak = 415.3 K, extrapolated peak = 415.4 K and peak = 429.3 K, extrapolated peak = 429.3 K, respectively (see Figure S45).",
+    "S-Nap_R-PEA 1.263 70.5 100 415.7b/430.2ad 416.0b/430.1ad 428.7−429.5",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Secondo picco: fusione dell'acido (S)-naproxen formatosi dalla decomposizione (E precedente): da = F9 e' dedotto dal testo («melting of the naproxen acid»). Il testo scrive anche Tm = 425 K per l'acido (extra).",
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.8 to 3.2 mg"
+   },
+   "da_evento": "E24",
+   "da_dedotto": true,
+   "passo": "melting of the naproxen acid",
+   "conflitto": "Il testo da' peak = 429.3 K, extrapolated peak = 429.3 K; la Tabella 3 da' 430.2 K e 430.1 K (nota d: fusione dell'acido S-naproxen). Si tiene il testo."
+  },
+  {
+   "id": "E26",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 428.7,
+     "max": 429.5
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "Preliminary melting points of the prepared salts were measured on a Stuart Scientiﬁc SIMP3 apparatus and are uncorrected.",
+    "S-Nap_R-PEA 1.263 70.5 100 415.7b/430.2ad 416.0b/430.1ad 428.7−429.5",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione con apparecchio Stuart Scientific SIMP3. Vicino al picco DSC dell'acido (429.3 K) e non del sale: la tabella non dice se fonde il sale o l'acido formatosi per decomposizione; la riga e' scritta «a» per tutti i sali ma per S-Nap_R-PEA il DSC mostra prima la decomposizione. Unita' K dall'intestazione «T (K)»."
+  },
+  {
+   "id": "E27",
+   "da": "fuso",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "As far as the heterochiral salt is concerned, upon lowering the temperature (see Figure S42) a new crystalline phase forms from the melt, which was ground after 24 h. The collected PXRD pattern evidenced (Figure S43) that the crystalline phase contains the S-naproxen acid.50"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dal fuso si forma una nuova fase cristallina che «contains» l'acido S-naproxen (rif. 50, COYRUD); macinata dopo 24 h per il PXRD. Non e' detto se la fase sia pura. Velocita' e T di raffreddamento non scritte.",
+   "da_evento": "E23"
+  },
+  {
+   "id": "E28",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 100,
+     "testo": "100 K to rt"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "First, the stability of each crystal phase in the 100 K to rt range was checked by monitoring the cell parameters at diﬀerent temperatures by SCXRD (Table S4): no phase transitions occurred.",
+    "All solid forms are stable from 100 K to rt.",
+    "As for SIbu_S-PEA and S-Nap_R-PEA, lowering the temperature (100 vs 173 K and rt, respectively) does not produce any signiﬁcant rearrangement of the structures, both at the molecular and crystal levels (vide infra)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Frase per «each crystal phase»; per S-Nap_R-PEA il confronto e' fra la struttura a temperatura ambiente (HIFRIX) e quella a 100 K.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E29",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 370,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "Each (S)-NSAID salt was kept in an oven for 2 h.",
+    "The temperature was set about 30 K lower than the melting temperature of the corresponding salt as measured with a Stuart Scientific apparatus: S-Ibu_S-PEA, T = 420 K",
+    "S-Ket_S-PEA, T = 370 K",
+    "No decomposition/phase changes occurred in the S-Ket_S-PEA and S-Ket_R-PEA salts when kept in the oven for 2 h at 370 and 360 K, respectively: the PXRD patterns collected at the beginning and at the end of the experiment are well superimposable (Figures S46 and S47), and the NMR spectra of the samples at the end of the experiment gave S-Ket/PEA ratios of 1.5:1 and 1.2:1 for SKet_S-PEA and S-Ket_R-PEA respectively.",
+    "but S-Ket_S-PEA and SKet_R-PEA did not decompose when kept in the oven at 30 K"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessuna decomposizione ne' cambio di fase (PXRD sovrapponibili). I rapporti NMR S-Ket/PEA a fine prova (1.5:1 e 1.2:1, nell'extra) non sono 1:1 e sarebbero compatibili con una perdita di PEA, ma la frase afferma «No decomposition/phase changes occurred»: si riporta l'affermazione degli autori.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E30",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 402.69
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "entalpia": {
+     "valore": 29.3,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 402.69,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg).",
+    "A linear heating rate of 10 K/min was used. Experiments were performed in air.",
+    "In the DSC curves (see Figures S48 and S49), the endothermic events occurred at 403 and 396 K for S-Ket_S-PEA and S-Ket_R-PEA, respectively.",
+    "S-Ket_S-PEA 1.229 69.1 100 402.69a 402.84a 29.3a 400.2−401.1",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid.",
+    "On the other hand, decomposition of the samples prevents the use of the heat of fusion for quantitative comparisons."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Valori dalla Tabella 3 (colonne «peak (K)» e «ΔH (kJ/mol)» sotto «DSC»): l'unita' sta nell'intestazione e non accanto ai numeri, per questo la verifica da' «quasi». Picco 402.69 K (Tabella 3), «403 K» nel testo; «extrapolated peak» 402.84 K nell'extra. Intervallo DSC 300-450 K per i sali S-Ket.",
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.8 to 3.2 mg"
+   }
+  },
+  {
+   "id": "E31",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 400.2,
+     "max": 401.1
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "Preliminary melting points of the prepared salts were measured on a Stuart Scientiﬁc SIMP3 apparatus and are uncorrected.",
+    "S-Ket_S-PEA 1.229 69.1 100 402.69a 402.84a 29.3a 400.2−401.1",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione con apparecchio Stuart Scientific SIMP3. Unita' K dall'intestazione «T (K)»."
+  },
+  {
+   "id": "E32",
+   "da": "F5",
+   "a": "decomposizione",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 400,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "air (100 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "perdita_massa": {
+     "valore": 10,
+     "unita": "%",
+     "tipo": "totale",
+     "circa": true
+    },
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "For the thermogravimetric analyses (TGA), samples were analyzed on an EXSTAR Seiko 6200 analyzer under air (100 mL/min) at a heating rate of 5 K/min from 313 to 873 K. The weight of the samples was between 3 and 5 mg.",
+    "TGA evidenced a mass loss of about 10% at about 400 K for S-Ket_S-PEA and 390 K for S-Ket_R-PEA (Figures S50 and S51), suggesting partial decomposition of the salts with consequent release of the amine.",
+    "an almost closed pan for DSC (the lid of the aluminum pan was only punctured) versus the open one adopted in TGA (measurements were performed under an air ﬂux of 100 mL/ min), a fast DSC experiment (heating rate 10 K/min) versus 2 h in the oven."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "«suggesting partial decomposition of the salts with consequent release of the amine»: interpretazione degli autori, prodotto non caratterizzato. Crogiolo TGA aperto dal confronto DSC/TGA nella sezione S-Ibu («the open one adopted in TGA»); i metodi non dicono il crogiolo della TGA.",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "between 3 and 5 mg"
+   }
+  },
+  {
+   "id": "E33",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "week",
+     "tipo": "processo"
+    },
+    "atmosfera": "closed chamber, saturated NaCl solution",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The possible anhydrous →hydrate transformation of S-Ket_S-PEA and S-Ket_R-PEA was investigated by keeping the salts in a desiccator at constant relative humidity (ca. 75% by using a saturated solution of NaCl) for a week. At the end of this period, PXRD patterns were collected and compared with those taken at the beginning of the experiment.",
+    "It is noteworthy that, keeping the anhydrous homochiral salt (S-Ket_S-PEA) in the same experimental conditions, no hydration process was observed (Figure S58)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il sale omochirale non si idrata: non esiste un idrato dichiarato, quindi a = ignota. Temperatura della camera non scritta.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E34",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 100,
+     "testo": "100 K to rt"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "First, the stability of each crystal phase in the 100 K to rt range was checked by monitoring the cell parameters at diﬀerent temperatures by SCXRD (Table S4): no phase transitions occurred.",
+    "All solid forms are stable from 100 K to rt."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Frase per «each crystal phase». Verso non detto.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E35",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 360,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "Each (S)-NSAID salt was kept in an oven for 2 h.",
+    "The temperature was set about 30 K lower than the melting temperature of the corresponding salt as measured with a Stuart Scientific apparatus: S-Ibu_S-PEA, T = 420 K",
+    "S-Ket_R-PEA, T = 360 K",
+    "No decomposition/phase changes occurred in the S-Ket_S-PEA and S-Ket_R-PEA salts when kept in the oven for 2 h at 370 and 360 K, respectively: the PXRD patterns collected at the beginning and at the end of the experiment are well superimposable (Figures S46 and S47), and the NMR spectra of the samples at the end of the experiment gave S-Ket/PEA ratios of 1.5:1 and 1.2:1 for SKet_S-PEA and S-Ket_R-PEA respectively.",
+    "but S-Ket_S-PEA and SKet_R-PEA did not decompose when kept in the oven at 30 K"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessuna decomposizione ne' cambio di fase; rapporto NMR S-Ket/PEA 1.2:1 nell'extra.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E36",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 395.98
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "entalpia": {
+     "valore": 37.2,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 395.98,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg).",
+    "A linear heating rate of 10 K/min was used. Experiments were performed in air.",
+    "In the DSC curves (see Figures S48 and S49), the endothermic events occurred at 403 and 396 K for S-Ket_S-PEA and S-Ket_R-PEA, respectively.",
+    "S-Ket_R-PEA 1.225 68.2 100 395.98a 396.47a 37.2a 394.0−394.9",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid.",
+    "On the other hand, decomposition of the samples prevents the use of the heat of fusion for quantitative comparisons."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Valori dalla Tabella 3 (colonne «peak (K)» e «ΔH (kJ/mol)» sotto «DSC»): l'unita' sta nell'intestazione e non accanto ai numeri, per questo la verifica da' «quasi». Picco 395.98 K (Tabella 3), «396 K» nel testo; «extrapolated peak» 396.47 K nell'extra.",
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.8 to 3.2 mg"
+   }
+  },
+  {
+   "id": "E37",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 394.0,
+     "max": 394.9
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "Preliminary melting points of the prepared salts were measured on a Stuart Scientiﬁc SIMP3 apparatus and are uncorrected.",
+    "S-Ket_R-PEA 1.225 68.2 100 395.98a 396.47a 37.2a 394.0−394.9",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione con apparecchio Stuart Scientific SIMP3. Unita' K dall'intestazione «T (K)»."
+  },
+  {
+   "id": "E38",
+   "da": "F6",
+   "a": "decomposizione",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 390,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "air (100 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "perdita_massa": {
+     "valore": 10,
+     "unita": "%",
+     "tipo": "totale",
+     "circa": true
+    },
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "For the thermogravimetric analyses (TGA), samples were analyzed on an EXSTAR Seiko 6200 analyzer under air (100 mL/min) at a heating rate of 5 K/min from 313 to 873 K. The weight of the samples was between 3 and 5 mg.",
+    "TGA evidenced a mass loss of about 10% at about 400 K for S-Ket_S-PEA and 390 K for S-Ket_R-PEA (Figures S50 and S51), suggesting partial decomposition of the salts with consequent release of the amine.",
+    "an almost closed pan for DSC (the lid of the aluminum pan was only punctured) versus the open one adopted in TGA (measurements were performed under an air ﬂux of 100 mL/ min), a fast DSC experiment (heating rate 10 K/min) versus 2 h in the oven."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Stessa frase di S-Ket_S-PEA: «about 10% at about 400 K for S-Ket_S-PEA and 390 K for S-Ket_R-PEA». Crogiolo TGA aperto dal confronto DSC/TGA nella sezione S-Ibu («the open one adopted in TGA»); i metodi non dicono il crogiolo della TGA.",
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "between 3 and 5 mg"
+   }
+  },
+  {
+   "id": "E39",
+   "da": "F6",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "week",
+     "tipo": "processo"
+    },
+    "atmosfera": "closed chamber, saturated NaCl solution",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "The reverse transformation, i.e., anhydrous →hydrate, of the heterochiral salt occurred when the anhydrous phase SKet_R-PEA was put in a closed chamber for a week at constant relative humidity (ca. 75%, by using a saturated solution of NaCl) as provided by the PXRD patterns (Figure S57).",
+    "The possible anhydrous →hydrate transformation of S-Ket_S-PEA and S-Ket_R-PEA was investigated by keeping the salts in a desiccator at constant relative humidity (ca. 75% by using a saturated solution of NaCl) for a week."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Idratazione dell'anidro eterochirale a ca. 75% RH (NaCl saturo) in una settimana: e' il verso inverso della disidratazione termica. Temperatura della camera non scritta.",
+   "reversibile": true,
+   "inverso_di": [
+    "E41",
+    "E42",
+    "E44",
+    "E45"
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecule (intracolumn H-bond network)",
+     "ruolo": "coordina_ospite",
+     "con": "non_detto",
+     "cambia": "si_forma",
+     "forma": "F7",
+     "citazione": "In the hydrate species S-Ket_R-PEA_W, the disordered water molecule contributes to the intracolumn H-bond network"
+    },
+    {
+     "gruppo": "ketoprofen anion overall conformation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "The water uptake/loss implicates a signiﬁcant rearrangement of the whole crystal (ketoprofen anion overall conformation and column arrangement)."
+    },
+    {
+     "gruppo": "1-phenylethylammonium-carboxylate supramolecular heterosynthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "As expected,22 in the salts, the NSAIDs and PEA ions are assembled through the 1-phenylethylammonium-carboxylate supramolecular heterosynthon,44 which is also observed in the hydrated species of S-Ket_R-PEA (S-Ket_R-PEA_W)."
+    }
+   ]
+  },
+  {
+   "id": "E40",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 100,
+     "testo": "100 K to rt"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "First, the stability of each crystal phase in the 100 K to rt range was checked by monitoring the cell parameters at diﬀerent temperatures by SCXRD (Table S4): no phase transitions occurred.",
+    "All solid forms are stable from 100 K to rt."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Frase per «each crystal phase». Verso non detto.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E41",
+   "da": "F7",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 360,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "analisi_chimica"
+    ]
+   },
+   "citazioni": [
+    "Each (S)-NSAID salt was kept in an oven for 2 h.",
+    "The temperature was set about 30 K lower than the melting temperature of the corresponding salt as measured with a Stuart Scientific apparatus: S-Ibu_S-PEA, T = 420 K",
+    "S-Ket_R-PEA_W, T = 360 K",
+    "The hydrated salt, S-Ket_RPEA_W, transformed into the anhydrous phase S-Ket_R-PEA when kept in the oven for 2 h at 360 K (see Figure S52 for the PXRD patterns). Accordingly, from the NMR spectrum, a SKet/PEA ratio of 1.15:1 can be estimated."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Disidratazione termica in forno: idrato parziale -> anidro. Rapporto NMR S-Ket/PEA 1.15:1 nell'extra. I gruppi: la molecola d'acqua esce e il riarrangiamento riguarda la conformazione dell'anione (U nell'anidro, a sedia nell'idrato) e la disposizione delle colonne; l'eterosintone resta (e' presente in entrambe le forme).",
+   "reversibile": true,
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecule (intracolumn H-bond network)",
+     "ruolo": "coordina_ospite",
+     "con": "non_detto",
+     "cambia": "si_rompe",
+     "forma": "F7",
+     "citazione": "In the hydrate species S-Ket_R-PEA_W, the disordered water molecule contributes to the intracolumn H-bond network"
+    },
+    {
+     "gruppo": "ketoprofen anion overall conformation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "The water uptake/loss implicates a signiﬁcant rearrangement of the whole crystal (ketoprofen anion overall conformation and column arrangement)."
+    },
+    {
+     "gruppo": "1-phenylethylammonium-carboxylate supramolecular heterosynthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "As expected,22 in the salts, the NSAIDs and PEA ions are assembled through the 1-phenylethylammonium-carboxylate supramolecular heterosynthon,44 which is also observed in the hydrated species of S-Ket_R-PEA (S-Ket_R-PEA_W)."
+    }
+   ],
+   "inverso_di": [
+    "E39"
+   ]
+  },
+  {
+   "id": "E42",
+   "da": "F7",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 343.42
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "entalpia": {
+     "valore": 95.0,
+     "unita": "kJ/mol",
+     "tipo": "desolvatazione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 343.42,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg).",
+    "A linear heating rate of 10 K/min was used. Experiments were performed in air.",
+    "The DSC curve showed a very broad peak at about 350 K (peak = 343.42 K, extrapolated peak = 346.62 K, ΔH = 95.0 kJ/mol), which can be related to the loss of water and to the hydrate →anhydrous transition, and a peak at about 390 K (peak = 394.26 K, extrapolated peak = 394.55 K) due to the S-Ket_R-PEA melting (see Figure S53).",
+    "S-Ket_R-PEA_W 1.193 100 343.42c/394.26a 346.2c/394.55a 95.0c/−",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Picco molto largo (nel testo «at about 350 K»), attribuito alla perdita d'acqua e alla transizione idrato -> anidro («can be related to»). ΔH = 95.0 kJ/mol attribuito al picco di disidratazione (Tabella 3: nota c Dehydration).",
+   "reversibile": true,
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.8 to 3.2 mg"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecule (intracolumn H-bond network)",
+     "ruolo": "coordina_ospite",
+     "con": "non_detto",
+     "cambia": "si_rompe",
+     "forma": "F7",
+     "citazione": "In the hydrate species S-Ket_R-PEA_W, the disordered water molecule contributes to the intracolumn H-bond network"
+    },
+    {
+     "gruppo": "ketoprofen anion overall conformation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "The water uptake/loss implicates a signiﬁcant rearrangement of the whole crystal (ketoprofen anion overall conformation and column arrangement)."
+    },
+    {
+     "gruppo": "1-phenylethylammonium-carboxylate supramolecular heterosynthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "As expected,22 in the salts, the NSAIDs and PEA ions are assembled through the 1-phenylethylammonium-carboxylate supramolecular heterosynthon,44 which is also observed in the hydrated species of S-Ket_R-PEA (S-Ket_R-PEA_W)."
+    }
+   ],
+   "conflitto": "Il testo da' extrapolated peak = 346.62 K per il picco di disidratazione, la Tabella 3 da' 346.2 K (peak = 343.42 K concorda).",
+   "inverso_di": [
+    "E39"
+   ]
+  },
+  {
+   "id": "E43",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 394.26
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 394.26,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) experiments were performed by using a Mettler Toledo DSC1 Excellence instrument. Measurements were run in aluminum pans with pinhole lids (the samples’ mass ranged from 0.8 to 3.2 mg).",
+    "A linear heating rate of 10 K/min was used. Experiments were performed in air.",
+    "The DSC curve showed a very broad peak at about 350 K (peak = 343.42 K, extrapolated peak = 346.62 K, ΔH = 95.0 kJ/mol), which can be related to the loss of water and to the hydrate →anhydrous transition, and a peak at about 390 K (peak = 394.26 K, extrapolated peak = 394.55 K) due to the S-Ket_R-PEA melting (see Figure S53).",
+    "S-Ket_R-PEA_W 1.193 100 343.42c/394.26a 346.2c/394.55a 95.0c/−",
+    "aMelting. bDecomposition. cDehydration. dMelting of the S-naproxen acid.",
+    "On the other hand, decomposition of the samples prevents the use of the heat of fusion for quantitative comparisons."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Secondo picco della DSC del campione idrato («a peak at about 390 K»): fusione dell'anidro S-Ket_R-PEA formatosi (da_evento = disidratazione). Nessun ΔH per questo picco (Tabella 3: «95.0c/−»).",
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "0.8 to 3.2 mg"
+   },
+   "da_evento": "E42"
+  },
+  {
+   "id": "E44",
+   "da": "F7",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 313,
+     "max": 373
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "atmosfera": "air (100 mL/min)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "perdita_massa": {
+     "valore": 1,
+     "unita": "%",
+     "tipo": "totale"
+    },
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "For the thermogravimetric analyses (TGA), samples were analyzed on an EXSTAR Seiko 6200 analyzer under air (100 mL/min) at a heating rate of 5 K/min from 313 to 873 K. The weight of the samples was between 3 and 5 mg.",
+    "The TGA experiment evidenced (see Figure S54) a weight loss of 1% between 313 and 373 K, which corresponds to a calculated water loss of 0.2 water molecules (consistent with the water occupancy factor as determined from the SCXRD data).",
+    "the complete removal of the water molecules in S-Ket_R-PEA_W starting at 313 K (TGA data)",
+    "an almost closed pan for DSC (the lid of the aluminum pan was only punctured) versus the open one adopted in TGA (measurements were performed under an air ﬂux of 100 mL/ min), a fast DSC experiment (heating rate 10 K/min) versus 2 h in the oven."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "TGA: prodotto non caratterizzato nella corsa stessa; a = anidro S-Ket_R-PEA perche' l'articolo identifica quel prodotto della disidratazione con forno e VT-PXRD (certezza media). 1% corrisponde a 0.2 molecole d'acqua calcolate (extra). Crogiolo TGA aperto dal confronto DSC/TGA nella sezione S-Ibu («the open one adopted in TGA»); i metodi non dicono il crogiolo della TGA.",
+   "reversibile": true,
+   "campione": {
+    "crogiolo": "aperto",
+    "massa": "between 3 and 5 mg"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecule (intracolumn H-bond network)",
+     "ruolo": "coordina_ospite",
+     "con": "non_detto",
+     "cambia": "si_rompe",
+     "forma": "F7",
+     "citazione": "In the hydrate species S-Ket_R-PEA_W, the disordered water molecule contributes to the intracolumn H-bond network"
+    },
+    {
+     "gruppo": "ketoprofen anion overall conformation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "The water uptake/loss implicates a signiﬁcant rearrangement of the whole crystal (ketoprofen anion overall conformation and column arrangement)."
+    },
+    {
+     "gruppo": "1-phenylethylammonium-carboxylate supramolecular heterosynthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "As expected,22 in the salts, the NSAIDs and PEA ions are assembled through the 1-phenylethylammonium-carboxylate supramolecular heterosynthon,44 which is also observed in the hydrated species of S-Ket_R-PEA (S-Ket_R-PEA_W)."
+    }
+   ],
+   "inverso_di": [
+    "E39"
+   ]
+  },
+  {
+   "id": "E45",
+   "da": "F7",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 350,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Variable-temperature PXRD analyses of S-Nap_S-PEA, S-Nap_RPEA, and S-Ket_R-PEA_W were performed by using an Anton Paar HTK 1200N hot chamber mounted on a Panalytical X’Pert PRO automated diﬀractometer (Cu−Kα radiation, 40 kV × 40 mA), equipped with a PIX-CEL solid-state fast detector.",
+    "The temperature variation rate was 5 K/min. After the target temperature was reached, the sample was kept at that temperature for 5 min before proceeding with data collection. Measures were performed in air.",
+    "a VT-PXRD experiment was carried out in the 300−390 K range (see the powder X-ray diﬀraction, PXRD section).",
+    "A VT-PXRD experiment performed on S-Ket_R-PEA_W conﬁrmed the above ﬁndings: at 350 K, the unique crystalline phase present in the sample is the anhydrous S-Ket_R-PEA one."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Misura a gradini fra 300 e 390 K: a 350 K la sola fase cristallina e' l'anidro. L'ultima T senza cambiamento non e' scritta (min null).",
+   "reversibile": true,
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecule (intracolumn H-bond network)",
+     "ruolo": "coordina_ospite",
+     "con": "non_detto",
+     "cambia": "si_rompe",
+     "forma": "F7",
+     "citazione": "In the hydrate species S-Ket_R-PEA_W, the disordered water molecule contributes to the intracolumn H-bond network"
+    },
+    {
+     "gruppo": "ketoprofen anion overall conformation",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "The water uptake/loss implicates a signiﬁcant rearrangement of the whole crystal (ketoprofen anion overall conformation and column arrangement)."
+    },
+    {
+     "gruppo": "1-phenylethylammonium-carboxylate supramolecular heterosynthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "As expected,22 in the salts, the NSAIDs and PEA ions are assembled through the 1-phenylethylammonium-carboxylate supramolecular heterosynthon,44 which is also observed in the hydrated species of S-Ket_R-PEA (S-Ket_R-PEA_W)."
+    }
+   ],
+   "inverso_di": [
+    "E39"
+   ]
+  },
+  {
+   "id": "E46",
+   "da": "F6",
+   "a": "amorfo",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 370,
+     "unita": "K",
+     "tipo": "osservata",
+     "min": 350
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Variable-temperature PXRD analyses of S-Nap_S-PEA, S-Nap_RPEA, and S-Ket_R-PEA_W were performed by using an Anton Paar HTK 1200N hot chamber mounted on a Panalytical X’Pert PRO automated diﬀractometer (Cu−Kα radiation, 40 kV × 40 mA), equipped with a PIX-CEL solid-state fast detector.",
+    "The temperature variation rate was 5 K/min. After the target temperature was reached, the sample was kept at that temperature for 5 min before proceeding with data collection. Measures were performed in air.",
+    "At 370 K, an amorphous phase was present (Figure S55), and no recrystallization was observed when lowering the temperature.",
+    "A VT-PXRD experiment performed on S-Ket_R-PEA_W conﬁrmed the above ﬁndings: at 350 K, the unique crystalline phase present in the sample is the anhydrous S-Ket_R-PEA one."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "A 350 K c'e' solo l'anidro, a 370 K una fase amorfa: min = 350 e' l'ultima T senza cambiamento (i due gradini sono entrambi scritti). L'NMR a fine prova da' S-Ket/R-PEA 2:1, «part of the R-PEA had left the melt» (extra): gli autori chiamano «melt» lo stesso campione.",
+   "da_evento": "E45"
+  },
+  {
+   "id": "E47",
+   "da": "amorfo",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "At 370 K, an amorphous phase was present (Figure S55), and no recrystallization was observed when lowering the temperature.",
+    "The NMR spectrum evidenced that the S-Ket/RPEA ratio in the sample at the end of the experiment was 2:1, i.e., part of the R-PEA had left the melt."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessuna ricristallizzazione al raffreddamento: il prodotto cristallino cercato non e' detto, a = ignota. Velocita' e T finale di raffreddamento non scritte.",
+   "da_evento": "E46",
+   "esito_dettaglio": "nessuna_ricristallizzazione",
+   "senza_condizioni": true
+  },
+  {
+   "id": "E48",
+   "da": "F7",
+   "a": "F6",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "essiccante",
+   "condizioni": {
+    "tempo": {
+     "valore": 1,
+     "unita": "week",
+     "tipo": "processo"
+    },
+    "atmosfera": "closed chamber with KOH",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In addition, the dehydration process of the S-Ket_R-PEA_W salt was investigated by putting the salt in a desiccator for a week with KOH. Then, the PXRD patterns collected at the beginning and at the end of the experiment were compared.",
+    "The stability of the hydrate phase toward the dehydration process was also tested by putting the S-Ket_R-PEA_W in a closed chamber with KOH for a week. The PXRD patterns collected at the beginning and at the end of the experiment superimpose well on each other (Figure S56): no dehydration of the sample occurred in this experimental condition.",
+    "their removal, triggered by the temperature (exposure to KOH did not suﬃce), is accompanied by a rearrangement of the crystal"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessuna disidratazione con KOH in una settimana; temperatura e RH non scritte (KOH come essiccante).",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E49",
+   "da": "F7",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 100,
+     "testo": "100 K to rt"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "First, the stability of each crystal phase in the 100 K to rt range was checked by monitoring the cell parameters at diﬀerent temperatures by SCXRD (Table S4): no phase transitions occurred.",
+    "All solid forms are stable from 100 K to rt.",
+    "For S-Ket_R-PEA_W, cell parameters were determined at diﬀerent temperatures in the 100−340 K range."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Frase per «each crystal phase». Per l'idrato le celle sono state determinate fra 100 e 340 K (la TGA comincia a perdere acqua a 313 K): il testo dice «no phase transitions» per l'intervallo 100 K - rt.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E50",
+   "da": "F8",
+   "a": "F1",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "tempo": {
+     "valore": 6,
+     "unita": "day",
+     "tipo": "processo"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "vacuum"
+    },
+    "atmosfera": "vacuum, desiccator with rac-1-phenylethylamine in a separate Petri dish",
+    "solventi": [
+     {
+      "nome": "rac-1-phenylethylamine (vapor)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To obtain information about the ability of the NSAIDs to discriminate between the PEA enantiomers, each solid (S)- NSAID acid was kept for 6 days in a desiccator with an excess of rac-1-phenylethylamine (compounds were put in two diﬀerent Petri dishes).",
+    "In a desiccator, (S)- NSAID (1 mmol) and rac-1-phenylethylamine (387 μL, 3.0 mmol) were put in two diﬀerent Petri dishes. The desiccator was kept under a vacuum for 6 days; after that time, a PXRD pattern of the solid originally containing the (S)-NSAID sample was collected.",
+    "Top: S-Ibu (black), sample after 6 days in desiccator with rac-PEA (red), S-Ibu_S-PEA (blue), S-Ibu_R-PEA (magenta)",
+    "As for S-Ibu and S-Ket, both samples contain the crystalline phases of the homochiral salts together with the corresponding free acid (Figure 7). However, in the batch containing S-Ibu, the presence of the salt containing R-PEA cannot be excluded (see in Figure 7 top the peak at 2θ = 21°)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il campione contiene il sale omochirale piu' l'acido libero residuo (parziale). Il vapore e' di un reagente (l'ammina rac-PEA), non di un solvente: sottovia vapore e' la scelta piu' vicina. Formazione di un sale da acido libero e ammina: cambio di forma (natura fisica come cocristallo -> sale), non reazione chimica a se'. Temperatura non scritta.",
+   "lettura_alternativa": "Nel lotto di S-Ibu non si puo' escludere anche il sale con R-PEA (S-Ibu_R-PEA, F2): picco a 2θ = 21°."
+  },
+  {
+   "id": "E51",
+   "da": "F10",
+   "a": "F5",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "tempo": {
+     "valore": 6,
+     "unita": "day",
+     "tipo": "processo"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "vacuum"
+    },
+    "atmosfera": "vacuum, desiccator with rac-1-phenylethylamine in a separate Petri dish",
+    "solventi": [
+     {
+      "nome": "rac-1-phenylethylamine (vapor)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To obtain information about the ability of the NSAIDs to discriminate between the PEA enantiomers, each solid (S)- NSAID acid was kept for 6 days in a desiccator with an excess of rac-1-phenylethylamine (compounds were put in two diﬀerent Petri dishes).",
+    "In a desiccator, (S)- NSAID (1 mmol) and rac-1-phenylethylamine (387 μL, 3.0 mmol) were put in two diﬀerent Petri dishes. The desiccator was kept under a vacuum for 6 days; after that time, a PXRD pattern of the solid originally containing the (S)-NSAID sample was collected.",
+    "middle: S-Ket (black), sample after 6 days in desiccator with rac-PEA (red), S-Ket_S-PEA (blue), S-Ket_R-PEA (magenta)",
+    "As for S-Ibu and S-Ket, both samples contain the crystalline phases of the homochiral salts together with the corresponding free acid (Figure 7)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il campione contiene il sale omochirale piu' l'acido libero residuo (parziale). Il vapore e' di un reagente (l'ammina rac-PEA), non di un solvente: sottovia vapore e' la scelta piu' vicina. Formazione di un sale da acido libero e ammina: cambio di forma (natura fisica come cocristallo -> sale), non reazione chimica a se'. Temperatura non scritta."
+  },
+  {
+   "id": "E52",
+   "da": "F10",
+   "a": "F6",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "tempo": {
+     "valore": 6,
+     "unita": "day",
+     "tipo": "processo"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "vacuum"
+    },
+    "atmosfera": "vacuum, desiccator with rac-1-phenylethylamine in a separate Petri dish",
+    "solventi": [
+     {
+      "nome": "rac-1-phenylethylamine (vapor)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To obtain information about the ability of the NSAIDs to discriminate between the PEA enantiomers, each solid (S)- NSAID acid was kept for 6 days in a desiccator with an excess of rac-1-phenylethylamine (compounds were put in two diﬀerent Petri dishes).",
+    "In a desiccator, (S)- NSAID (1 mmol) and rac-1-phenylethylamine (387 μL, 3.0 mmol) were put in two diﬀerent Petri dishes. The desiccator was kept under a vacuum for 6 days; after that time, a PXRD pattern of the solid originally containing the (S)-NSAID sample was collected.",
+    "middle: S-Ket (black), sample after 6 days in desiccator with rac-PEA (red), S-Ket_S-PEA (blue), S-Ket_R-PEA (magenta)",
+    "In order to try to rationalize the results of the preliminary sorption tests, i.e., the fact that with S-Ket only the homochiral salt forms, while S-Nap is not able to discriminate between the two PEA counterions"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Con S-Ket si forma solo il sale omochirale: il sale eterochirale (S-Ket_R-PEA) non si forma da rac-PEA. Il vapore e' di un reagente (l'ammina rac-PEA), non di un solvente: sottovia vapore e' la scelta piu' vicina. Formazione di un sale da acido libero e ammina: cambio di forma (natura fisica come cocristallo -> sale), non reazione chimica a se'. Temperatura non scritta.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E53",
+   "da": "F9",
+   "a": "F3",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "tempo": {
+     "valore": 6,
+     "unita": "day",
+     "tipo": "processo"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "vacuum"
+    },
+    "atmosfera": "vacuum, desiccator with rac-1-phenylethylamine in a separate Petri dish",
+    "solventi": [
+     {
+      "nome": "rac-1-phenylethylamine (vapor)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To obtain information about the ability of the NSAIDs to discriminate between the PEA enantiomers, each solid (S)- NSAID acid was kept for 6 days in a desiccator with an excess of rac-1-phenylethylamine (compounds were put in two diﬀerent Petri dishes).",
+    "In a desiccator, (S)- NSAID (1 mmol) and rac-1-phenylethylamine (387 μL, 3.0 mmol) were put in two diﬀerent Petri dishes. The desiccator was kept under a vacuum for 6 days; after that time, a PXRD pattern of the solid originally containing the (S)-NSAID sample was collected.",
+    "bottom: S-Nap (black), sample after 6 days in desiccator with rac-PEA (red), S-Nap_S-PEA (blue), S-Nap_R-PEA (magenta)",
+    "at the end of the experiment the free S-Nap acid is still present together with both the homo- and heterochiral salts (see Figure 7, bottom)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Restano l'acido libero e si formano entrambi i sali (omo- ed eterochirale): S-Nap non discrimina fra i due enantiomeri della PEA. Il vapore e' di un reagente (l'ammina rac-PEA), non di un solvente: sottovia vapore e' la scelta piu' vicina. Formazione di un sale da acido libero e ammina: cambio di forma (natura fisica come cocristallo -> sale), non reazione chimica a se'. Temperatura non scritta.",
+   "prodotti_secondari": [
+    "F4"
+   ]
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F8",
+    "F10"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "(S)- (+)-Ibuprofen (98%), (S)-(+) ketoprofen (99%), (S)-(−)-1-phenylethylamine (99%), and (R)-(+)-1-phenylethylamine (99%) were purchased from Sigma-Aldrich.",
+    "All of the APIs were used without further puriﬁcation."
+   ],
+   "fonte_dati": "propria",
+   "note": "Acidi liberi (S)-ibuprofen e (S)-ketoprofen commerciali (Sigma-Aldrich), usati senza ulteriore purificazione."
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "(S)-(+)-2-(6-Methoxy-2-naphthyl)propionic acid ((S)-(+)-naproxen, 99%) was purchased from Alfa Aesar.",
+    "All of the APIs were used without further puriﬁcation."
+   ],
+   "fonte_dati": "propria",
+   "note": "Acido libero (S)-naproxen commerciale (Alfa Aesar)."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol/water (67% ethanol)"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Both (S)-(+)-ibuprofen (206.3 mg, 1 mmol) and (S)-(−)-1phenylethylamine or (R)-(+)-1-phenylethylamine (129 μL, 1.0 mmol) were dissolved in 6 mL of a 67% ethanol/water mixture by heating at 60 °C for a minute under magnetic stirring. The solution was cooled to rt, and some of the solvent was allowed to evaporate. After 24 h, the formation of colorless needles was observed.",
+    "All syntheses were carried out in air at room temperature (rt)",
+    "In all cases, slow solvent evaporation resulted in SCXRD-quality crystals."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "rt"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "osservata"
+   },
+   "atmosfera": "air",
+   "rapporto_soluzione": "1 mmol : 1.0 mmol",
+   "pretrattamento": "dissolti riscaldando a 60 °C per un minuto sotto agitazione magnetica, poi raffreddati a rt",
+   "note": "Un'unica sintesi per i due diastereoisomeri (S-PEA o R-PEA). Aghi incolori. Quantita' e rese nell'extra."
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol/water (70% ethanol)"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Both (S)-(+)-naproxen (230.3 mg, 1 mmol) and (S)-(−)-1-phenylethylamine or (R)-(+)-1-phenylethylamine (129 μL, 1.0 mmol) were solubilized together under magnetic stirring in 15 mL of a 70% ethanol/water mixture. Stirring was ceased upon observing the complete dissolution of both reagents, the system was stored at rt, and the vial was sealed with punctured Paraﬁlm. The salts were obtained as colorless needles after partial solvent evaporation at rt for 7 days.",
+    "In all cases, slow solvent evaporation resulted in SCXRD-quality crystals."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "rt"
+   },
+   "tempo": {
+    "valore": 7,
+    "unita": "day",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "1 mmol : 1.0 mmol",
+   "note": "Metodo principale per S-Nap_S-PEA e S-Nap_R-PEA. Flaconcino chiuso con Parafilm forato."
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol",
+    "H2O"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "As an alternative method, the reactants were dissolved in ethanol (8 mL) by heating at 60 °C for a minute under magnetic stirring. Then 2 mL of H2O was added, and the solution was cooled to rt. After partial evaporation of the solvent, 24 h later, the formation of colorless needles was observed."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "rt"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "osservata"
+   },
+   "pretrattamento": "reagenti sciolti in etanolo riscaldando a 60 °C per un minuto, poi aggiunta di acqua e raffreddamento a rt",
+   "note": "Metodo alternativo per i sali di naprossene. Rese 59% e 68% nell'extra."
+  },
+  {
+   "forme": [
+    "F5",
+    "F6"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol/water (70% ethanol)"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Both S-(+)-ketoprofen (254.3 mg, 1.0 mmol) and (S)-(−)-1phenylethylamine or R-(+)-1-phenylethylamine (134 μL, 1.05 mmol) were solubilized together under magnetic stirring in 5 mL of a 70%",
+    "ethanol/water mixture. Stirring was ceased upon observing the complete dissolution of both reagents, and the system was stored at rt. Colorless needles of the salts formed once the solvent evaporated completely.",
+    "In all cases, slow solvent evaporation resulted in SCXRD-quality crystals."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "rt"
+   },
+   "rapporto_soluzione": "1.0 mmol : 1.05 mmol",
+   "note": "La frase dei metodi e' spezzata dalla Tabella 1 nel testo letto («in 5 mL of a 70%» ... «ethanol/water mixture»): citata in due pezzi. Aghi incolori; evaporazione completa."
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol/water (70% ethanol)"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Both (S)-(+)-ketoprofen (254.3 mg, 1 mmol) and (R)-(+)-1-phenylethylamine (129 μL, 1.0 mmol) were dissolved in 5 mL of a 70% ethanol/water mixture under magnetic stirring. After 5 days, by slow and not complete solvent evaporation, the formation of colorless platelet crystals was observed.",
+    "All syntheses were carried out in air at room temperature (rt)"
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "tempo": {
+    "valore": 5,
+    "unita": "day",
+    "tipo": "osservata"
+   },
+   "rapporto_soluzione": "1 mmol : 1.0 mmol",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "rt"
+   },
+   "atmosfera": "air",
+   "note": "Evaporazione lenta e NON completa (a differenza di S-Ket_R-PEA): cristalli a piastrina incolori dell'idrato parziale. La temperatura e' quella generale delle sintesi («All syntheses were carried out in air at room temperature (rt)»)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "For S-Ibu_S-PEA (CSD refcode: VAKVEK), a solventless procedure followed by methanol dissolution and slow evaporation at rt is reported,24"
+   ],
+   "fonte_dati": "citata",
+   "riferimento": "rif. 24",
+   "pretrattamento": "procedura senza solvente",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "rt"
+   },
+   "note": "Metodo riportato dal lavoro che ha descritto la struttura nota VAKVEK."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "ethanol"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "according to the authors, poor-quality crystals of S-Ibu_R-PEA (CSD refcode: VUCHOR) were obtained from ethanol.23"
+   ],
+   "fonte_dati": "citata",
+   "riferimento": "rif. 23",
+   "note": "Cristalli di qualita' scarsa dal lavoro che ha descritto la struttura nota VUCHOR; metodo di cristallizzazione non detto."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "the S_Nap-R_PEA salt has already been described under the CSD refcode HIFRIX;25 however, the authors did not highlight the method used for obtaining the salt and the related single crystals."
+   ],
+   "fonte_dati": "citata",
+   "riferimento": "rif. 25",
+   "note": "Il lavoro che ha descritto HIFRIX non dice come ha ottenuto il sale."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "low solubility (BCS class II)"
+     },
+     "solvente": "water",
+     "citazione": "They are BCS class II drugs1 (i.e., they are characterized by high permeability and low solubility), and because of their poor aqueous solubility, they are usually formulated as inorganic (e.g., ibuprofen, naproxen, and ketoprofen as sodium salts) as well as organic"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "stereocentro in alfa al carbossile; solo l'enantiomero S e' l'API; qui si usa l'enantiomero S",
+     "citazione": "Moreover, given the presence of one stereogenic center (the α-carbon of propionic acid), they exist as a pair of enantiomers, and although only the S one is the active pharmaceutical ingredient (API),2 they are usually administered as racemic mixtures."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "forma a U nel sale con S-PEA",
+     "forma": "F1",
+     "citazione": "In fact, on the basis of the relative orientation of the methyl and isobutyl groups, the ibuprofen molecule shows a U and a chair shape in S-Ibu_S-PEA and S-Ibu_R-PEA, respectively (Figure 3)."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "forma a sedia nel sale con R-PEA",
+     "forma": "F2",
+     "citazione": "In fact, on the basis of the relative orientation of the methyl and isobutyl groups, the ibuprofen molecule shows a U and a chair shape in S-Ibu_S-PEA and S-Ibu_R-PEA, respectively (Figure 3)."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "low solubility (BCS class II)"
+     },
+     "solvente": "water",
+     "citazione": "They are BCS class II drugs1 (i.e., they are characterized by high permeability and low solubility), and because of their poor aqueous solubility, they are usually formulated as inorganic (e.g., ibuprofen, naproxen, and ketoprofen as sodium salts) as well as organic"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "stereocentro in alfa al carbossile; solo l'enantiomero S e' l'API; qui si usa l'enantiomero S",
+     "citazione": "Moreover, given the presence of one stereogenic center (the α-carbon of propionic acid), they exist as a pair of enantiomers, and although only the S one is the active pharmaceutical ingredient (API),2 they are usually administered as racemic mixtures."
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "low solubility (BCS class II)"
+     },
+     "solvente": "water",
+     "citazione": "They are BCS class II drugs1 (i.e., they are characterized by high permeability and low solubility), and because of their poor aqueous solubility, they are usually formulated as inorganic (e.g., ibuprofen, naproxen, and ketoprofen as sodium salts) as well as organic"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "stereocentro in alfa al carbossile; solo l'enantiomero S e' l'API; qui si usa l'enantiomero S",
+     "citazione": "Moreover, given the presence of one stereogenic center (the α-carbon of propionic acid), they exist as a pair of enantiomers, and although only the S one is the active pharmaceutical ingredient (API),2 they are usually administered as racemic mixtures."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "anione a U nel sale eterochirale anidro",
+     "forma": "F6",
+     "citazione": "On the same grounds (relative orientation of the methyl and ﬁnal phenyl groups), the ketoprofen anion shows an overall U shape in S-Ket_R-PEA, while it is chair-shaped in the S-Ket_S-PEA and S-Ket_R-PEA_W salts (Figure 3)."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "anione a sedia nel sale omochirale",
+     "forma": "F5",
+     "citazione": "On the same grounds (relative orientation of the methyl and ﬁnal phenyl groups), the ketoprofen anion shows an overall U shape in S-Ket_R-PEA, while it is chair-shaped in the S-Ket_S-PEA and S-Ket_R-PEA_W salts (Figure 3)."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "anione a sedia nel sale eterochirale parzialmente idrato",
+     "forma": "F7",
+     "citazione": "On the same grounds (relative orientation of the methyl and ﬁnal phenyl groups), the ketoprofen anion shows an overall U shape in S-Ket_R-PEA, while it is chair-shaped in the S-Ket_S-PEA and S-Ket_R-PEA_W salts (Figure 3)."
+    }
+   ]
+  },
+  {
+   "composto": "C4",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "maggiore variabilita' conformazionale del catione R-PEA nei sali eterochirali",
+     "citazione": "In the homochiral salts, the S-PEA cations are almost perfectly superimposable, while a larger conformational variability is observed in the heterochiral species (Figure 2, right)."
+    }
+   ]
+  },
+  {
+   "composto": "C5",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "cationi S-PEA quasi perfettamente sovrapponibili nei sali omochirali",
+     "citazione": "In the homochiral salts, the S-PEA cations are almost perfectly superimposable, while a larger conformational variability is observed in the heterochiral species (Figure 2, right)."
+    }
+   ]
+  }
+ ]
+}

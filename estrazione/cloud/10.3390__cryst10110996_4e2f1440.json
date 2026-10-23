@@ -1,0 +1,1400 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/cryst10110996",
+ "pertinente": true,
+ "note": "Non sono eventi: le proprieta' di compattazione (tabletability, comprimibilita', compattabilita' con porosita' e resistenza a trazione, laminazione dell'idrato a 350 MPa), le velocita' di dissoluzione intrinseca (IDR) e la solubilita' sono proprieta' fisiche e stanno nell'extra e in 'molecole'; il CAB non ha un valore di solubilita' in Tabella 2 («–») perche' si converte in idrato. La compressione (25-350 MPa) non e' descritta come causa di un cambio di fase. I confronti del PXRD sperimentale con quello calcolato (spostamento a 2θ minori per l'espansione termica) non sono trasformazioni. Il testo non da' mai la perdita di massa della TGA in valore (solo \"negligible\" sotto 150 °C per il CAB).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "Loratadine (Lor)"
+  },
+  {
+   "id": "C2",
+   "nome": "oxalic acid (Oxa)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Lor",
+   "etichette_alternative": [
+    "Loratadine"
+   ],
+   "tipo": "non_specificato",
+   "citazione": "Loratadine was purchased from Wuhan Biocar Bio-pharm Co. Ltd. (Wuhan, Hubei, China).",
+   "note": "Loratadine commerciale (forma di partenza degli esperimenti); mai descritta come forma cristallina specifica: i picchi PXRD caratteristici sono nell'extra. Forma 'Lor' nel testo."
+  },
+  {
+   "id": "F2",
+   "etichetta": "Lor-Oxa CAB",
+   "etichette_alternative": [
+    "Lor-Oxa conjugate acid-base salt (CAB)",
+    "Lor-Oxa CAB cocrystal"
+   ],
+   "tipo": [
+    "cocristallo",
+    "sale"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 16.586,
+    "b": 10.6133,
+    "c": 38.1283,
+    "beta": 94.606,
+    "V": 6690.1,
+    "Z": 6,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1840642",
+   "strutture": [
+    {
+     "ccdc": "1840642",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Lor-Oxa CAB Lor-Oxa Hydrate Formula C48H50Cl2N4O12 C23H26ClN2O5 Formula weight 945.82 445.91 Temperature/K 100 100 Crystal system Monoclinic Monoclinic Space group P21/c P21/c a, Å 16.5860 (8) 9.1806 (3) b, Å 10.6133 (5) 11.4581 (3) c, Å 38.1283 (17) 20.1427 (6) β, deg 94.606 (2) 94.084 (1) Volume, Å3 6690.1 (5) 2113.48 (11) z 6 4 Dc/g.cm3 1.409 1.401 F(000) 2976.0 940 R1 [I > 2σ(I)] 0.0550 0.0552 wR2 [I > 2sigma(I)] 0.1291 0.1647 CCDC 1,840,642 2,023,546"
+    }
+   ],
+   "protonazione": "Lor+ cationico; Oxa in parte anionica (Oxa-) e in parte neutra (conteggi nell'extra)",
+   "motivi_hb": [
+    {
+     "motivo": "1D oxalic acid chains along the b axis (O–H···O− hydrogen bonds)",
+     "chi": "oxalic acid / oxalate",
+     "citazione": "In this structure, 1D Oxa chains running along the b axis are formed via O–H···O−(2.510, 2.512, 2.515 Å) hydrogen bonds (Figure 2b)."
+    },
+    {
+     "motivo": "composite column of Oxa chains and Lor+ (N+–H···O=C and N+–H···O− hydrogen bonds)",
+     "chi": "Lor+ cation with Oxa chain",
+     "citazione": "The Oxa chains are connected to surrounding Lor+ through N+–H···O=C (2.624, 2.726 Å) and N+–H···O−(2.897, 2.988 Å) to form a composite column (Figure 2c)."
+    }
+   ],
+   "citazione": "When crystallized from the 1:1 Lor:Oxa solution, the crystal belongs to the monoclinic P21/c space group (Table 1). Its unit cell consists of six formula units (Z = 6) and each asymmetric unit contains 3 cationic Lor+, 1.5 anionic Oxa-, and 1.5 neutral Oxa (Figure 2a).",
+   "note": "Il testo lo chiama «conjugate acid-base (CAB) cocrystal» nell'abstract e «conjugate acid-base salt» nell'introduzione e nella Fig. 1: nella struttura Lor e' protonata (Lor+), meta' dell'Oxa e' anionica e meta' neutra: tipo [cocristallo, sale]. Cella e Z dalla Tabella 1 (100 K): Z = 6 «formula units»; il peso formula della tabella (945.82) e' 2 x 382.88 + 2 x 90.04, cioe' 2 Lor + 2 Oxa (pesi molecolari dello Schema 1), quindi 1:1; l'unita' asimmetrica contiene 3 Lor+, 1.5 Oxa- e 1.5 Oxa neutro (conteggi nell'extra). Il CCDC e' scritto «1,840,642» con la virgola dei migliaia (rovinato dal formato della tabella): 1840642. Sistema cristallino e gruppo dal testo e dalla tabella."
+  },
+  {
+   "id": "F3",
+   "etichetta": "Lor-Oxa hydrate",
+   "etichette_alternative": [
+    "Lor-Oxa cocrystal monohydrate"
+   ],
+   "tipo": [
+    "cocristallo",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "molecola",
+    "fonte_stechiometria": "cristallografica"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 9.1806,
+    "b": 11.4581,
+    "c": 20.1427,
+    "beta": 94.084,
+    "V": 2113.48,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2023546",
+   "strutture": [
+    {
+     "ccdc": "2023546",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Lor-Oxa CAB Lor-Oxa Hydrate Formula C48H50Cl2N4O12 C23H26ClN2O5 Formula weight 945.82 445.91 Temperature/K 100 100 Crystal system Monoclinic Monoclinic Space group P21/c P21/c a, Å 16.5860 (8) 9.1806 (3) b, Å 10.6133 (5) 11.4581 (3) c, Å 38.1283 (17) 20.1427 (6) β, deg 94.606 (2) 94.084 (1) Volume, Å3 6690.1 (5) 2113.48 (11) z 6 4 Dc/g.cm3 1.409 1.401 F(000) 2976.0 940 R1 [I > 2σ(I)] 0.0550 0.0552 wR2 [I > 2sigma(I)] 0.1291 0.1647 CCDC 1,840,642 2,023,546"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "1D Lor–water chains (C=O···H–O and O–H···Cl hydrogen bonds)",
+     "chi": "Lor ester C=O and Cl with water",
+     "citazione": "Lor and water interact via C=O . . . H–O (2.977 Å) and O–H . . . Cl (3.232 Å) hydrogen bonds to form 1D chains"
+    },
+    {
+     "motivo": "Oxa bridging two Lor molecules of adjacent chains (O–H···N, C–H···O=C, C···H–O hydrogen bonds), 2D zig-zagged layers",
+     "chi": "oxalic acid with Lor",
+     "citazione": "One Oxa molecule further connects to two Lor molecules in adjacent chains via O–H···N (2.609 Å), C–H···O=C (3.322 Å), C···H–O (3.448 Å, 3.528 Å) hydrogen bonds (Figure 3c) to form 2D zig-zagged layers."
+    }
+   ],
+   "citazione": "When crystallized from the 2:1 Lor:Oxa solution, the solid form also belongs to the monoclinic P21/c space group (Table 1). Its unit cell contains 4 formula units (Z = 4) and the asymmetric unit comprises 1 Lor, 0.5 Oxa (Oxa has an axis of symmetry), and one water molecule (Figure 3a).",
+   "conflitto": "Il nome e la stechiometria dichiarata dicono «cocrystal monohydrate (Lor:Oxa:H2O = 2:1:1)» (introduzione) e «2:1 Lor-Oxa cocrystal monohydrate» (abstract), cioe' 0.5 molecole d'acqua per Lor; la struttura (unita' asimmetrica: «1 Lor, 0.5 Oxa ... and one water molecule», Z = 4) da' 1 molecola d'acqua per Lor, cioe' Lor:Oxa:H2O = 2:1:2. Per la regola «il misurato batte l'etichettato» si tiene 1 acqua per Lor.",
+   "note": "Cocristallo idrato 2:1 (Lor:Oxa). Z = 4 «formula units» dalla Tabella 1 (formula C23H26ClN2O5). CCDC 2,023,546 scritto con la virgola dei migliaia. L'Oxa e' neutra e lega la Lor tramite O–H···N. Stechiometria dell'ospite: vedi conflitto."
+  },
+  {
+   "id": "F4",
+   "composto": "C2",
+   "etichetta": "Oxa",
+   "etichette_alternative": [
+    "oxalic acid anhydrate"
+   ],
+   "tipo": "anidro",
+   "citazione": "Oxalic acid anhydrate (1.6% water), malonic acid, benzoic acid, DL-malic acid, nicotinic acid, and succinic acid were purchased from Sigma−Aldrich (St. Louis, MO, USA).",
+   "note": "Acido ossalico anidro commerciale (contiene 1.6% d'acqua), coformero degli esperimenti. Nessun dato cristallografico."
+  },
+  {
+   "id": "F5",
+   "etichetta": "[Lor + Oxa 1:0.2]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F4"
+   ],
+   "proporzioni": "1:0.2",
+   "citazione": "At the 1:0.2 ratio, the product was a mixture of Lor and Lor-Oxa hydrate.",
+   "note": "Miscela di partenza Lor + Oxa del rapporto 1:0.2 (Lor:Oxa), sospesa in acetone a 4 °C. Il testo dice «Lor to Oxa ratio»; in «1:0.2» il primo numero e' Lor."
+  },
+  {
+   "id": "F6",
+   "etichetta": "[Lor + Oxa da 1:0.3 a 1:0.5]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F4"
+   ],
+   "proporzioni": "da 1:0.3 a 1:0.5",
+   "citazione": "At ratios from 1:0.3 to 1:0.5, pure Lor-Oxa hydrate was obtained.",
+   "note": "Intervallo di rapporti Lor:Oxa dato come un blocco; i singoli rapporti provati sono nella Fig. 4 e S2 (nel testo letto: 1:1, 1:0.9, 1:0.6, 1:0.3, 1:0.2)."
+  },
+  {
+   "id": "F7",
+   "etichetta": "[Lor + Oxa da 1:0.6 a 1:0.9]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F4"
+   ],
+   "proporzioni": "da 1:0.6 a 1:0.9",
+   "citazione": "At ratios from 1:0.6 to 1:0.9, the powders were mixtures of Lor-Oxa hydrate and Lor-Oxa CAB, where the amount of Lor-Oxa CAB increased with increasing Oxa amount.",
+   "note": "Intervallo di rapporti Lor:Oxa dato come un blocco."
+  },
+  {
+   "id": "F8",
+   "etichetta": "[Lor + Oxa 1:1]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F4"
+   ],
+   "proporzioni": "1:1",
+   "citazione": "When the Lor to Oxa ratio reached 1:1, the product was pure Lor-Oxa CAB.",
+   "note": "Miscela di partenza Lor + Oxa in rapporto 1:1."
+  },
+  {
+   "id": "F9",
+   "etichetta": "[miscela di Lor e Lor-Oxa hydrate]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F3"
+   ],
+   "citazione": "At the 1:0.2 ratio, the product was a mixture of Lor and Lor-Oxa hydrate.",
+   "note": "Prodotto misto senza prevalenza dichiarata."
+  },
+  {
+   "id": "F10",
+   "etichetta": "[miscela di Lor-Oxa hydrate e Lor-Oxa CAB]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F3",
+    "F2"
+   ],
+   "citazione": "At ratios from 1:0.6 to 1:0.9, the powders were mixtures of Lor-Oxa hydrate and Lor-Oxa CAB, where the amount of Lor-Oxa CAB increased with increasing Oxa amount.",
+   "note": "Prodotto misto: la quantita' di CAB cresce con la quantita' di Oxa (nessun rapporto numerico nel testo)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "condizioni": "tampone fosfato pH 6.8, 25 °C",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "relazione_scritta": "Lor-Oxa CAB is more soluble than Lor-Oxa hydrate in the pH 6.8 buffer",
+   "citazione": "The phase change suggests that Lor-Oxa CAB is more soluble than Lor-Oxa hydrate in the pH 6.8 buﬀer [34].",
+   "note": "Il CAB si converte nell'idrato in tampone pH 6.8 a 25 °C, quindi l'idrato e' la fase stabile in quel mezzo (e meno solubile). Il CAB e l'idrato hanno composizioni diverse (1:1 anidro contro 2:1 idrato): non e' mono/enantiotropia. Le conclusioni ripetono «Lor-Oxa CAB is much more soluble than Lor-Oxa hydrate»."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "onset": 124.29,
+     "picco": 129.72
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry helium purge, 25 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "entalpia": {
+     "valore": 69.78,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 129.72,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ],
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "DSC data were collected on a diﬀerential scanning calorimeter (Q1000, TA Instruments, New Castle, DE, USA). Powder samples (~3 mg) were loaded into hermetically sealed aluminum Tzero pans and heated at a rate of 10 °C/min from room temperature to 150 °C under dry helium purge at a ﬂow rate of 25 mL/min.",
+    "The DSC thermogram of Lor-Oxa CAB exhibited a single endotherm with an onset temperature of 124.29 °C (∆Hf = 69.78 J/g) and peak temperature of 129.72 °C (Figure 5b)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Un solo endotermo: onset 124.29 °C, picco 129.72 °C, ΔHf = 69.78 J/g (l'unita' e' J/g come scritto, non kJ/mol). Capsula Tzero di alluminio sigillata ermeticamente, polvere ca. 3 mg.",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "~3 mg",
+    "crogiolo": "sigillato"
+   }
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 135,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Crystals were heated to 150 °C at the rate of 5 °C/min with a temperature controller (Linksys 32; V.2.2.0, Linkam Scientiﬁc Instruments, Ltd., Waterﬁeld, UK).",
+    "A Lor-Oxa CAB single crystal melted at 135 °C in a HSM study (Figure 5c, Video S1).",
+    "The higher melting point observed during HSM experiment than that by DSC is attributed to the thermal lag during the HSM experiment due to poorer contact between the crystal and the glass slide."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione di un cristallo singolo al microscopio a stadio caldo, 135 °C; piu' alta del DSC (onset 124.29 °C, picco 129.72 °C) per il ritardo termico (spiegazione degli autori).",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   }
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "min": 150,
+     "limite": "sopra"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge, 60 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "TGA data were collected using a thermogravimetry analyzer (Model Q500, TA Instruments, New Castle, DE, USA). Powder samples (approximately 3 mg) were heated in open aluminum pans from room temperature to 300 °C at 10 °C/min under 60 mL/min dry nitrogen purge.",
+    "Signiﬁcant weight loss was observed at ≥150 °C, likely due to the evaporation of Oxa from the melt."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Perdita di massa significativa da 150 °C, «likely due to the evaporation of Oxa from the melt» (ipotesi degli autori): il solido di partenza e' gia' fuso (DSC onset 124.29 °C) e il prodotto non e' caratterizzato. Sotto 150 °C la TGA mostra perdita trascurabile (extra).",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 3 mg",
+    "crogiolo": "aperto"
+   }
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 92,
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry nitrogen purge, 60 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "TGA data were collected using a thermogravimetry analyzer (Model Q500, TA Instruments, New Castle, DE, USA). Powder samples (approximately 3 mg) were heated in open aluminum pans from room temperature to 300 °C at 10 °C/min under 60 mL/min dry nitrogen purge.",
+    "The weight loss of Lor-Oxa hydrate corresponding to dehydration initiates at around 92 °C and proceeds slowly until the accelerated weight loss at ≥112 °C (Figure 5a).",
+    "dehydration did not occur under dry nitrogen purge until temperature was at least 92 °C"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "La disidratazione comincia a ca. 92 °C e procede lentamente fino a una perdita accelerata a ≥112 °C (che il testo non attribuisce a un processo). Il prodotto non e' caratterizzato nella TGA: a = Lor perche' nell'esperimento in forno a 100 °C l'idrato si converte in Lor (certezza media). Nessun valore numerico di perdita di massa nel testo (solo nella Fig. 5a).",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 3 mg",
+    "crogiolo": "aperto"
+   }
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 119.84
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry helium purge, 25 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "entalpia": {
+     "valore": 93.88,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "DSC data were collected on a diﬀerential scanning calorimeter (Q1000, TA Instruments, New Castle, DE, USA). Powder samples (~3 mg) were loaded into hermetically sealed aluminum Tzero pans and heated at a rate of 10 °C/min from room temperature to 150 °C under dry helium purge at a ﬂow rate of 25 mL/min.",
+    "The DSC thermogram of Lor-Oxa hydrate exhibited two overlapping endotherms with onset temperature of 119.84 °C (∆Hf = 93.88 J/g) (Figure 5b).",
+    "The onset temperature of the DSC endotherm is ~28 °C higher than the temperature corresponding to the initial weight loss observed on TGA. This temperature diﬀerence is larger than expected, which may be partially resulting from the depression of the dehydration reaction by the build up of water vapor from the initial dehydration in DSC pan."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Due endotermi sovrapposti (disidratazione e fusione, vedi l'HSM): un solo onset (119.84 °C) e un solo ΔHf (93.88 J/g) per il segnale composto, quindi un evento 'fuso' con desolvatazione_possibile. L'onset e' ~28 °C sopra l'inizio della perdita di massa in TGA (92 °C): gli autori lo attribuiscono alla depressione della disidratazione per il vapore d'acqua nella capsula sigillata.",
+   "campione": {
+    "tipo": "polvere",
+    "massa": "~3 mg",
+    "crogiolo": "sigillato"
+   },
+   "desolvatazione_possibile": true
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 101,
+     "unita": "°C",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Crystals were heated to 150 °C at the rate of 5 °C/min with a temperature controller (Linksys 32; V.2.2.0, Linkam Scientiﬁc Instruments, Ltd., Waterﬁeld, UK).",
+    "A Lor-Oxa single crystal released water bubbles when heated to 101 °C in an HSM experiment and continued through the melting of the crystal in the temperature range of 130–136 °C (Figure 5d, Video S2)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "A 101 °C il cristallo rilascia bolle d'acqua; il prodotto solido non e' identificato (a = ignota). «A Lor-Oxa single crystal» nel paragrafo dell'idrato e Fig. 5d: e' il cristallo dell'idrato.",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   }
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 130,
+     "max": 136
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Crystals were heated to 150 °C at the rate of 5 °C/min with a temperature controller (Linksys 32; V.2.2.0, Linkam Scientiﬁc Instruments, Ltd., Waterﬁeld, UK).",
+    "A Lor-Oxa single crystal released water bubbles when heated to 101 °C in an HSM experiment and continued through the melting of the crystal in the temperature range of 130–136 °C (Figure 5d, Video S2)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il rilascio d'acqua continua attraverso la fusione, 130-136 °C; coerente, secondo gli autori, con la forte sovrapposizione dei due endotermi in DSC.",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "da_evento": "E6"
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To assess the stability of Lor-Oxa hydrate, a powder sample was placed in a 100 °C oven. An aliquot of powder was taken out for PXRD analysis after 1, 2, 3, 4, 5, 6, 12, and 18 days.",
+    "When stored in a 100 °C oven, Lor-Oxa hydrate did not undergo detectable dehydration after 1 day base on PXRD (Figure 8, longer time data is given in Figure S3)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Primo prelievo (1 giorno): nessuna disidratazione rilevabile. Esperimento unico a 100 °C con prelievi a 1, 2, 3, 4, 5, 6, 12 e 18 giorni; il testo riporta i risultati a 1, 2, 6 e ~12 giorni (gli altri nella Fig. S3). Il prodotto atteso (Lor) e' dedotto dagli eventi successivi. «hydrate ... is attributed to the stabilization of water in the crystal structure by forming C=O···H–O and O–H···Cl hydrogen bonds» e' il commento degli autori alla stabilita'.",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "esito_dettaglio": "nessuna_trasformazione",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water (C=O···H–O and O–H···Cl hydrogen bonds)",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F3",
+     "citazione": "hydrate is attributed to the stabilization of water in the crystal structure by forming C=O . . . H–O (2.977 Å) and O–H . . . Cl (3.232 Å) hydrogen bonds."
+    }
+   ]
+  },
+  {
+   "id": "E9",
+   "da": "F3",
+   "a": "F1",
+   "esito": "parziale",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "day",
+     "tipo": "osservata",
+     "min": 1
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To assess the stability of Lor-Oxa hydrate, a powder sample was placed in a 100 °C oven. An aliquot of powder was taken out for PXRD analysis after 1, 2, 3, 4, 5, 6, 12, and 18 days.",
+    "When stored in a 100 °C oven, Lor-Oxa hydrate did not undergo detectable dehydration after 1 day base on PXRD (Figure 8, longer time data is given in Figure S3). Characteristic peaks of Lor, e.g., 12.7°2θ, appeared after two days."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dopo due giorni compaiono i picchi caratteristici di Lor (12.7° 2θ): primo prelievo con cambiamento (min = 1 giorno, ultimo prelievo senza cambiamento). La conversione e' parziale: l'idrato e' ancora presente.",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E10",
+   "da": "F3",
+   "a": "F1",
+   "esito": "parziale",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 6,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To assess the stability of Lor-Oxa hydrate, a powder sample was placed in a 100 °C oven. An aliquot of powder was taken out for PXRD analysis after 1, 2, 3, 4, 5, 6, 12, and 18 days.",
+    "However, an appreciable amount of Lor-Oxa hydrate remained even after 6 days."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dopo 6 giorni c'e' ancora una quantita' apprezzabile di idrato: conversione parziale.",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E11",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 12,
+     "unita": "day",
+     "tipo": "trasformazione",
+     "circa": true
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To assess the stability of Lor-Oxa hydrate, a powder sample was placed in a 100 °C oven. An aliquot of powder was taken out for PXRD analysis after 1, 2, 3, 4, 5, 6, 12, and 18 days.",
+    "Complete conversion from Lor-Oxa hydrate to Lor took about 12 days."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Conversione completa a Lor in ca. 12 giorni (prelievi a 12 e 18 giorni).",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E12",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": null,
+     "unita": "%RH",
+     "min": 0,
+     "max": 95
+    },
+    "atmosfera": "nitrogen flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "variazione_massa": {
+     "valore": null,
+     "unita": "%",
+     "max": 1,
+     "limite": "sotto"
+    },
+    "tecniche": [
+     "DVS"
+    ]
+   },
+   "citazioni": [
+    "Water sorption isotherms were collected using an automated vapor sorption analyzer (Intrinsic DVS, Surface Measurement Systems Ltd., Allentown, PA, USA) at 25 °C with nitrogen ﬂow rate of 50 mL/min.",
+    "The Lor-Oxa CAB sample was ﬁrst purged with dry nitrogen until a constant weight was obtained. The relative humidity (RH) was varied from 0% to 95% during sorption with a step size of 5% RH.",
+    "Both Lor-Oxa CAB and Lor-Oxa hydrate gained less than 1% weight up to 95% RH (Figure 7) and only slight hysteresis between sorption and desorption curves was observed (data not shown). The weight change was smooth not in a step-wise fashion. Therefore, the weight increase of both samples is due to the surface adsorption of moisture."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessuna trasformazione di forma: l'aumento di peso (meno dell'1% fino al 95% RH) e' adsorbimento superficiale (nessun gradino). La variazione di massa e' un aumento: il segno e' positivo (guadagno).",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E13",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "desorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "umidita": {
+     "valore": null,
+     "unita": "%RH",
+     "min": 0,
+     "max": 95
+    },
+    "atmosfera": "nitrogen flow 50 mL/min",
+    "solventi": []
+   },
+   "osservazioni": {
+    "variazione_massa": {
+     "valore": null,
+     "unita": "%",
+     "max": 1,
+     "limite": "sotto"
+    },
+    "tecniche": [
+     "DVS"
+    ]
+   },
+   "citazioni": [
+    "Water sorption isotherms were collected using an automated vapor sorption analyzer (Intrinsic DVS, Surface Measurement Systems Ltd., Allentown, PA, USA) at 25 °C with nitrogen ﬂow rate of 50 mL/min.",
+    "For Lor-oxa hydrate, the powder sample was exposed to a series of RHs from 95% to 0% with a step size of 5% RH.",
+    "Both Lor-Oxa CAB and Lor-Oxa hydrate gained less than 1% weight up to 95% RH (Figure 7) and only slight hysteresis between sorption and desorption curves was observed (data not shown). The weight change was smooth not in a step-wise fashion. Therefore, the weight increase of both samples is due to the surface adsorption of moisture.",
+    "The physical stability of Lor-Oxa hydrate against changes in RH is consistent with the TGA data (Figure 5a), which suggests that dehydration did not occur under dry nitrogen purge until temperature was at least 92 °C."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessuna disidratazione cambiando l'RH fra 95% e 0% a 25 °C: stabilita' fisica dell'idrato, coerente con la TGA (nessuna disidratazione in azoto secco sotto 92 °C).",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water (C=O···H–O and O–H···Cl hydrogen bonds)",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F3",
+     "citazione": "hydrate is attributed to the stabilization of water in the crystal structure by forming C=O . . . H–O (2.977 Å) and O–H . . . Cl (3.232 Å) hydrogen bonds."
+    }
+   ],
+   "conflitto": "I metodi dicono che il campione dell'idrato e' esposto a RH da 95% a 0% (desorbimento); i risultati parlano di aumento di peso fino al 95% RH e di isteresi fra sorbimento e desorbimento. Si tiene il verso dei metodi, l'intervallo 0-95% RH e' lo stesso."
+  },
+  {
+   "id": "E14",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "solventi": [
+     {
+      "nome": "phosphate buffer"
+     }
+    ],
+    "rapporto_solido_solvente": "100 mg in 5 mL",
+    "tempo": {
+     "valore": null,
+     "unita": "day",
+     "tipo": "trasformazione",
+     "max": 3,
+     "limite": "sotto"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Solubility was determined by suspending an excess amount of a solid (100 mg) in 5 mL of pH 6.8 phosphate buﬀer under stirring at 25 °C for 72 h.",
+    "Both solubilities and dissolution rates of the two new crystal forms of Lor are determined in pH 6.8 phosphate buﬀer to mimic the human physiological environment.",
+    "During solubility measurement at 25 °C, Lor-Oxa CAB converted to Lor-Oxa hydrate within three days while Lor-Oxa hydrate remained stable (Figure S4). The phase change suggests that Lor-Oxa CAB is more soluble than Lor-Oxa hydrate in the pH 6.8 buﬀer [34]."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Sospensione di 100 mg in 5 mL di tampone fosfato pH 6.8 a 25 °C per 72 h (misura della solubilita'); il solido residuo e' analizzato per PXRD. «within three days»: la trasformazione e' entro 3 giorni (la prova dura 72 h).",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E15",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "solventi": [
+     {
+      "nome": "phosphate buffer"
+     }
+    ],
+    "rapporto_solido_solvente": "100 mg in 5 mL",
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "processo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Solubility was determined by suspending an excess amount of a solid (100 mg) in 5 mL of pH 6.8 phosphate buﬀer under stirring at 25 °C for 72 h.",
+    "Both solubilities and dissolution rates of the two new crystal forms of Lor are determined in pH 6.8 phosphate buﬀer to mimic the human physiological environment.",
+    "During solubility measurement at 25 °C, Lor-Oxa CAB converted to Lor-Oxa hydrate within three days while Lor-Oxa hydrate remained stable (Figure S4)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "L'idrato resta stabile durante la misura di solubilita' (72 h).",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E16",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "dissoluzione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 37,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "pH": {
+     "valore": 6.8,
+     "unita": null
+    },
+    "agitazione": {
+     "valore": 200,
+     "unita": "rpm"
+    },
+    "solventi": [
+     {
+      "nome": "phosphate buffer"
+     }
+    ],
+    "rapporto_solido_solvente": "pellet of approximately 20 mg in 200 mL"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Intrinsic dissolution rate (IDR) was determined by the rotating disc method [29,30] in a phosphate buﬀer at pH 6.8 to mimic duodenum pH. For each sample, approximately 20 mg of powder was compressed, using a custom-made stainless-steel die, at a force of 2000 lb against a ﬂat stainless-steel disc for 2 min to prepare a pellet (6.39 mm in diameter).",
+    "While rotating at 200 rpm, the die was immersed in a 200 mL dissolution medium at 37 °C in a water-jacketed beaker.",
+    "The PXRD pattern of the Lor-Oxa CAB pellet after the IDR experiment matched that of Lor-Oxa hydrate, indicating conversion to Lor-Oxa hydrate (Figure 9c)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il pellet di CAB dopo l'IDR ha il PXRD dell'idrato: conversione CAB -> idrato durante la dissoluzione (disco rotante, 37 °C, pH 6.8). L'UV-vis a 250 nm segue la concentrazione di Lor: sale linearmente fino a 11.36 ± 0.37 µg/mL poi cala (extra).",
+   "campione": {
+    "tipo": "compressa",
+    "massa": "approximately 20 mg",
+    "dimensione": "6.39 mm in diameter"
+   },
+   "pretrattamento": "polvere compressa a 2000 lb per 2 min contro un disco di acciaio"
+  },
+  {
+   "id": "E17",
+   "da": "F5",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 4,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "We experimentally examined this by identifying solid phases prepared by suspending Lor and Oxa at diﬀerent ratios in acetone at 4 °C.",
+    "Phase identiﬁcation was achieved by PXRD, using the 2θ of characteristic peaks for various solid forms: 7.52°and 12.87°for Lor, 10.04°for Lor-Oxa CAB, and 8.87°for Lor-Oxa hydrate (Figure 4, all ratios in Figure S2).",
+    "At the 1:0.2 ratio, the product was a mixture of Lor and Lor-Oxa hydrate."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Rapporto Lor:Oxa 1:0.2: il prodotto e' una miscela di Lor e idrato. Sospensione di Lor e Oxa in acetone a 4 °C; durata e volume non scritti per questo esperimento (il protocollo di screening 2.2 usa 24 h e 2 mL, ma il testo non dice che valga qui).",
+   "campione": {
+    "tipo": "miscela"
+   }
+  },
+  {
+   "id": "E18",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 4,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "We experimentally examined this by identifying solid phases prepared by suspending Lor and Oxa at diﬀerent ratios in acetone at 4 °C.",
+    "Phase identiﬁcation was achieved by PXRD, using the 2θ of characteristic peaks for various solid forms: 7.52°and 12.87°for Lor, 10.04°for Lor-Oxa CAB, and 8.87°for Lor-Oxa hydrate (Figure 4, all ratios in Figure S2).",
+    "At ratios from 1:0.3 to 1:0.5, pure Lor-Oxa hydrate was obtained."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Rapporti Lor:Oxa da 1:0.3 a 1:0.5: idrato puro. Sospensione di Lor e Oxa in acetone a 4 °C; durata e volume non scritti per questo esperimento (il protocollo di screening 2.2 usa 24 h e 2 mL, ma il testo non dice che valga qui).",
+   "campione": {
+    "tipo": "miscela"
+   }
+  },
+  {
+   "id": "E19",
+   "da": "F7",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 4,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "We experimentally examined this by identifying solid phases prepared by suspending Lor and Oxa at diﬀerent ratios in acetone at 4 °C.",
+    "Phase identiﬁcation was achieved by PXRD, using the 2θ of characteristic peaks for various solid forms: 7.52°and 12.87°for Lor, 10.04°for Lor-Oxa CAB, and 8.87°for Lor-Oxa hydrate (Figure 4, all ratios in Figure S2).",
+    "At ratios from 1:0.6 to 1:0.9, the powders were mixtures of Lor-Oxa hydrate and Lor-Oxa CAB, where the amount of Lor-Oxa CAB increased with increasing Oxa amount."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Rapporti da 1:0.6 a 1:0.9: miscele di idrato e CAB, con piu' CAB al crescere dell'Oxa. Sospensione di Lor e Oxa in acetone a 4 °C; durata e volume non scritti per questo esperimento (il protocollo di screening 2.2 usa 24 h e 2 mL, ma il testo non dice che valga qui).",
+   "campione": {
+    "tipo": "miscela"
+   }
+  },
+  {
+   "id": "E20",
+   "da": "F8",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 4,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "We experimentally examined this by identifying solid phases prepared by suspending Lor and Oxa at diﬀerent ratios in acetone at 4 °C.",
+    "Phase identiﬁcation was achieved by PXRD, using the 2θ of characteristic peaks for various solid forms: 7.52°and 12.87°for Lor, 10.04°for Lor-Oxa CAB, and 8.87°for Lor-Oxa hydrate (Figure 4, all ratios in Figure S2).",
+    "When the Lor to Oxa ratio reached 1:1, the product was pure Lor-Oxa CAB."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Rapporto 1:1: CAB puro. Sospensione di Lor e Oxa in acetone a 4 °C; durata e volume non scritti per questo esperimento (il protocollo di screening 2.2 usa 24 h e 2 mL, ma il testo non dice che valga qui).",
+   "campione": {
+    "tipo": "miscela"
+   }
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Loratadine was purchased from Wuhan Biocar Bio-pharm Co. Ltd. (Wuhan, Hubei, China).",
+    "All materials were used as received."
+   ],
+   "fonte_dati": "propria",
+   "note": "Loratadine commerciale (Wuhan Biocar), usata cosi' com'e'."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Oxalic acid anhydrate (1.6% water), malonic acid, benzoic acid, DL-malic acid, nicotinic acid, and succinic acid were purchased from Sigma−Aldrich (St. Louis, MO, USA).",
+    "All materials were used as received."
+   ],
+   "fonte_dati": "propria",
+   "note": "Acido ossalico anidro commerciale (Sigma-Aldrich, 1.6% d'acqua), usato cosi' com'e'."
+  },
+  {
+   "forme": [],
+   "metodo": "non_specificato",
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "Except for Oxa, no new crystal forms with other organic acids were observed during the initial screening efforts (Table S1).",
+    "In one method, each candidate carboxylic acid (1 mmol) and Lor (1 mmol) was suspended in 2 mL acetone with a magnetic stirring bar at 4 °C (carried out in a walk-in cold room) for 24 h.",
+    "In another method, 1 mmol of each of Lor and a carboxylic acid were fully dissolved in 5 mL solvent in a 20 mL scintillation vial with heating. The vial was covered with paraﬁlm with a few pin holes and left in a fume hood undisturbed to allow solvent to slowly evaporate."
+   ],
+   "fonte_dati": "propria",
+   "componenti_cercati": [
+    "malonic acid",
+    "benzoic acid",
+    "DL-malic acid",
+    "nicotinic acid",
+    "succinic acid"
+   ],
+   "solventi_alternativi": false,
+   "note": "Screening con due metodi (sospensione in acetone a 4 °C per 24 h; evaporazione lenta da soluzione): nessuna forma nuova con gli altri cinque acidi organici (dettagli nella Tabella S1, supplementare). Il solvente del secondo metodo e' «solvent»: acetone e acetato di etile sono nominati solo per Oxa."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone",
+    "ethyl acetate"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "PXRD peaks diﬀerent from the starting Lor and Oxa were obtained when Oxa (1:1 mole ratio) was used in slow evaporation from both acetone and ethyl acetate solutions, suggesting the presence of a new crystal form.",
+    "In another method, 1 mmol of each of Lor and a carboxylic acid were fully dissolved in 5 mL solvent in a 20 mL scintillation vial with heating. The vial was covered with paraﬁlm with a few pin holes and left in a fume hood undisturbed to allow solvent to slowly evaporate."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": true,
+   "rapporto_soluzione": "1:1 (Lor:Oxa)",
+   "note": "Evaporazione lenta dello screening: due solventi alternativi (acetone, acetato di etile), uno per prova; polvere con PXRD nuovo, poi attribuita al CAB. L'attribuzione e' «suggesting the presence of a new crystal form»; la conferma e' la struttura (cristalli singoli) e il confronto col PXRD calcolato."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Slow evaporation of an acetone solution of Lor and Oxa at 2:1 mole ratio led to another powder with a unique PXRD pattern, suggesting that at least two new solid forms of Lor and Oxa were obtained (Figure 1).",
+    "In another method, 1 mmol of each of Lor and a carboxylic acid were fully dissolved in 5 mL solvent in a 20 mL scintillation vial with heating. The vial was covered with paraﬁlm with a few pin holes and left in a fume hood undisturbed to allow solvent to slowly evaporate."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "rapporto_soluzione": "2:1 (Lor:Oxa)",
+   "note": "Evaporazione lenta dello screening, polvere con PXRD unico, poi attribuita all'idrato."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Equimolar Lor (765.76 mg, 2 mmol) and Oxa (180.08 mg, 2 mmol) or 2:1 molar ratio Lor (765.76 mg, 2 mmol) and Oxa (90.04 mg, 1 mmol) were dissolved in 6 mL acetone. The vials were left in a cold room (4 °C), covered by paraﬁlm with holes introduced to allow slow evaporation of the solvent and crystal growth. Crystals suitable for single crystal X-ray diﬀraction study were harvested within one week. Lor-Oxa CAB and Lor-Oxa hydrate were obtained from 1:1 and 2:1 samples, respectively."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C"
+   },
+   "rapporto_soluzione": "1:1 (2 mmol : 2 mmol)",
+   "tempo": {
+    "valore": null,
+    "unita": "week",
+    "tipo": "osservata",
+    "max": 1,
+    "limite": "sotto"
+   },
+   "note": "Cristalli singoli del CAB da soluzione equimolare in acetone a 4 °C per evaporazione lenta, raccolti entro una settimana."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Equimolar Lor (765.76 mg, 2 mmol) and Oxa (180.08 mg, 2 mmol) or 2:1 molar ratio Lor (765.76 mg, 2 mmol) and Oxa (90.04 mg, 1 mmol) were dissolved in 6 mL acetone. The vials were left in a cold room (4 °C), covered by paraﬁlm with holes introduced to allow slow evaporation of the solvent and crystal growth. Crystals suitable for single crystal X-ray diﬀraction study were harvested within one week. Lor-Oxa CAB and Lor-Oxa hydrate were obtained from 1:1 and 2:1 samples, respectively."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C"
+   },
+   "rapporto_soluzione": "2:1 (Lor 2 mmol : Oxa 1 mmol)",
+   "tempo": {
+    "valore": null,
+    "unita": "week",
+    "tipo": "osservata",
+    "max": 1,
+    "limite": "sotto"
+   },
+   "note": "Cristalli singoli dell'idrato da soluzione 2:1 in acetone a 4 °C per evaporazione lenta, raccolti entro una settimana."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "A batch of bulk powder of Lor-Oxa CAB was prepared by completely dissolving 4.59 g of Lor (12 mmol) and 1.08 g of Oxa (12 mmol) in 15 mL acetone at room temperature. The solution was placed in a cold room (4 °C) with continuous stirring for 24 h. The precipitant was then ﬁltered, washed with acetone, and dried in a 35 °C oven for overnight."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "1:1 (12 mmol : 12 mmol)",
+   "pretrattamento": "soluzione preparata a temperatura ambiente; il precipitato filtrato e lavato con acetone e' seccato in forno a 35 °C per una notte",
+   "note": "Polvere bulk del CAB: dissoluzione a temperatura ambiente poi 4 °C con agitazione continua per 24 h. L'essiccamento in forno a 35 °C (per una notte) segue la precipitazione."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "A bulk powder of Lor-Oxa hydrate was prepared in a similar way, except 4.59 g of Lor (12 mmol) and 0.54 g of Oxa (6 mmol) was dissolved in 15 mL acetone with slight heating to obtain a clear solution before the sample was placed in the cold room.",
+    "The solution was placed in a cold room (4 °C) with continuous stirring for 24 h."
+   ],
+   "fonte_dati": "propria",
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 4,
+    "unita": "°C"
+   },
+   "tempo": {
+    "valore": 24,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "2:1 (12 mmol : 6 mmol)",
+   "pretrattamento": "Lor e Oxa sciolte in acetone con leggero riscaldamento fino a soluzione limpida",
+   "note": "«Prepared in a similar way»: la cella fredda a 4 °C e le 24 h con agitazione sono quelle della frase del CAB (condizioni richiamate, non ripetute). L'essiccamento a 35 °C e' quello del CAB ma non e' ripetuto per l'idrato."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 5.25,
+      "unita": null
+     },
+     "metodo": "citato dal rif. 15",
+     "citazione": "Lor is a weakly basic drug (pKa = 5.25) [15], belonging to the Biopharmaceutical Classiﬁcation System (BCS) Class II [16]."
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.7,
+      "unita": "mg/L"
+     },
+     "solvente": "pH 6.8 phosphate buffer",
+     "pH": {
+      "valore": 6.8,
+      "unita": null
+     },
+     "metodo": "citato dal rif. 18",
+     "citazione": "The solubility of Lor in pH 6.8 phosphate buﬀer is 0.7 mg/L [18]."
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "decreases exponentially with increasing pH"
+     },
+     "metodo": "citato dai rif. 16, 17",
+     "citazione": "The solubility of Lor decreases exponentially with increasing pH, which partially results in high variability in pharmacokinetic parameters [16,17]."
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "high permeability but low solubility under physiological conditions"
+     },
+     "citazione": "It has high permeability but low solubility under physiological conditions."
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.7,
+      "unita": "mg/L"
+     },
+     "forma": "F1",
+     "solvente": "pH 6.8 phosphate buffer",
+     "temperatura": {
+      "valore": 25,
+      "unita": "°C"
+     },
+     "pH": {
+      "valore": 6.8,
+      "unita": null
+     },
+     "metodo": "sospensione di un eccesso di solido (100 mg) in 5 mL per 72 h, UV-vis a 250 nm; media di n = 3; ± 0.0",
+     "citazione": "Table 2. Solubility at 25 °C and intrinsic dissolution rate at 37 °C of Lor, Lor-Oxa CAB, Lor-Oxa hydrate in pH 6.8 phosphate buﬀer (n = 3). Lor Lor-Oxa CAB Lor-Oxa Hydrate Solubility (mg·L−1) 0.7 ± 0.0 – 1.15 ± 0.04 IDR × 104 (µg·cm−2·s−1) 2.32 ± 0.16 220.1 ± 4.8 4.28 ± 0.22"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 1.15,
+      "unita": "mg/L"
+     },
+     "forma": "F3",
+     "solvente": "pH 6.8 phosphate buffer",
+     "temperatura": {
+      "valore": 25,
+      "unita": "°C"
+     },
+     "pH": {
+      "valore": 6.8,
+      "unita": null
+     },
+     "metodo": "sospensione di un eccesso di solido (100 mg) in 5 mL per 72 h, UV-vis a 250 nm; media di n = 3; ± 0.04",
+     "citazione": "Table 2. Solubility at 25 °C and intrinsic dissolution rate at 37 °C of Lor, Lor-Oxa CAB, Lor-Oxa hydrate in pH 6.8 phosphate buﬀer (n = 3). Lor Lor-Oxa CAB Lor-Oxa Hydrate Solubility (mg·L−1) 0.7 ± 0.0 – 1.15 ± 0.04 IDR × 104 (µg·cm−2·s−1) 2.32 ± 0.16 220.1 ± 4.8 4.28 ± 0.22"
+    }
+   ]
+  }
+ ]
+}
