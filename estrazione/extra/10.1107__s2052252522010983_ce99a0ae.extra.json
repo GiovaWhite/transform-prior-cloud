@@ -1,0 +1,4098 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1107/s2052252522010983",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "formula chimica, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "formula, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "testo": "C20H18NO4·C3H3O4"
+    },
+    {
+     "etichetta": "formula, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "testo": "C20H18NO4·C3H3O4"
+    },
+    {
+     "etichetta": "formula, 1BER-2MA-2W",
+     "forma": "F2",
+     "testo": "C20H18NO4·C3H4O4·C3H3O4·2(H2O)"
+    },
+    {
+     "etichetta": "formula, 1BER-1LTA-1W",
+     "forma": "F3",
+     "testo": "C20H18NO4·C4H5O6·H2O"
+    },
+    {
+     "etichetta": "formula, 1BER-1DTA-1W",
+     "forma": "F4",
+     "testo": "C20H18NO4·C4H5O6·H2O"
+    },
+    {
+     "etichetta": "formula, 2BER-2CA",
+     "forma": "F6",
+     "testo": "2C20H18NO4·2C6H7O7"
+    }
+   ],
+   "citazione": "Chemical formula | C20H18NO4·C3H3O4 | C20H18NO4·C3H3O4 | C20H18NO4·C3H4O4·C3H3O4·2(H2O) | C20H18NO4·C4H5O6·H2O | C20H18NO4·C4H5O6·H2O | 2C20H18NO4·2C6H7O7",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "peso formula, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Formula weight, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 439.41
+    },
+    {
+     "etichetta": "Formula weight, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 439.41
+    },
+    {
+     "etichetta": "Formula weight, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 579.5
+    },
+    {
+     "etichetta": "Formula weight, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 503.45
+    },
+    {
+     "etichetta": "Formula weight, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 503.45
+    },
+    {
+     "etichetta": "Formula weight, 2BER-2CA",
+     "forma": "F6",
+     "valore": 1054.92
+    }
+   ],
+   "citazione": "Formula weight | 439.41 | 439.41 | 579.50 | 503.45 | 503.45 | 1054.92",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Unita' non scritta nella tabella."
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella a, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "a, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 6.844,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 6.943,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 7.587,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 12.111,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 12.106,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a, 2BER-2CA",
+     "forma": "F6",
+     "valore": 7.585,
+     "incertezza": 1,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "a (Å) | 6.844 (1) | 6.943 (1) | 7.587 (1) | 12.111 (1) | 12.106 (1) | 7.585 (1)",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Valore gia' in `forme.cella` (con l'incertezza qui riportata come cifra fra parentesi sull'ultima cifra); ripetuto per l'incertezza e per la seconda cella di 1BER-1MA (293 K), che `forme.cella` non puo' contenere. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella b, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "b, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 19.545,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 19.818,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 12.937,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 7.093,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 7.09,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b, 2BER-2CA",
+     "forma": "F6",
+     "valore": 14.686,
+     "incertezza": 1,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "b (Å) | 19.545 (1) | 19.818 (2) | 12.937 (1) | 7.093 (1) | 7.090 (1) | 14.686 (1)",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Valore gia' in `forme.cella` (con l'incertezza qui riportata come cifra fra parentesi sull'ultima cifra); ripetuto per l'incertezza e per la seconda cella di 1BER-1MA (293 K), che `forme.cella` non puo' contenere. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di cella c, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "c, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 14.65,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 14.669,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 13.964,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 12.703,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 12.699,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "c, 2BER-2CA",
+     "forma": "F6",
+     "valore": 22.789,
+     "incertezza": 1,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "c (Å) | 14.650 (1) | 14.669 (2) | 13.964 (1) | 12.703 (1) | 12.699 (1) | 22.789 (1)",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Valore gia' in `forme.cella` (con l'incertezza qui riportata come cifra fra parentesi sull'ultima cifra); ripetuto per l'incertezza e per la seconda cella di 1BER-1MA (293 K), che `forme.cella` non puo' contenere. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X6",
+   "categoria": "cristallografia",
+   "proprieta": "angolo di cella alpha, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "alpha, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 90,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 90,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 71.32,
+     "incertezza": 1,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 90,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 90,
+     "unita": "°"
+    },
+    {
+     "etichetta": "alpha, 2BER-2CA",
+     "forma": "F6",
+     "valore": 101.25,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "citazione": "α (°) | 90 | 90 | 71.32 (1) | 90 | 90 | 101.25 (1)",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Valore gia' in `forme.cella` (con l'incertezza qui riportata come cifra fra parentesi sull'ultima cifra); ripetuto per l'incertezza e per la seconda cella di 1BER-1MA (293 K), che `forme.cella` non puo' contenere. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X7",
+   "categoria": "cristallografia",
+   "proprieta": "angolo di cella beta, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "beta, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 98.71,
+     "incertezza": 1,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 97.08,
+     "incertezza": 1,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 83.35,
+     "incertezza": 1,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 99.43,
+     "incertezza": 1,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 99.39,
+     "incertezza": 1,
+     "unita": "°"
+    },
+    {
+     "etichetta": "beta, 2BER-2CA",
+     "forma": "F6",
+     "valore": 97.33,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "citazione": "β (°) | 98.71 (1) | 97.08 (1) | 83.35 (1) | 99.43 (1) | 99.39 (1) | 97.33 (1)",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Valore gia' in `forme.cella` (con l'incertezza qui riportata come cifra fra parentesi sull'ultima cifra); ripetuto per l'incertezza e per la seconda cella di 1BER-1MA (293 K), che `forme.cella` non puo' contenere. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X8",
+   "categoria": "cristallografia",
+   "proprieta": "angolo di cella gamma, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "gamma, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 90,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 90,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 81.36,
+     "incertezza": 1,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 90,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 90,
+     "unita": "°"
+    },
+    {
+     "etichetta": "gamma, 2BER-2CA",
+     "forma": "F6",
+     "valore": 100.89,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "citazione": "γ (°) | 90 | 90 | 81.36 (1) | 90 | 90 | 100.89 (1)",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Valore gia' in `forme.cella` (con l'incertezza qui riportata come cifra fra parentesi sull'ultima cifra); ripetuto per l'incertezza e per la seconda cella di 1BER-1MA (293 K), che `forme.cella` non puo' contenere. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "volume di cella V, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "V, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 1937.2,
+     "incertezza": 1,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 2003.1,
+     "incertezza": 3,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 1280.4,
+     "incertezza": 2,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 1076.6,
+     "incertezza": 1,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 1075.5,
+     "incertezza": 1,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V, 2BER-2CA",
+     "forma": "F6",
+     "valore": 2409.2,
+     "incertezza": 2,
+     "unita": "Å3"
+    }
+   ],
+   "citazione": "V (Å3) | 1937.2(1) | 2003.1(3) | 1280.4 (2) | 1076.6 (1) | 1075.5 (1) | 2409.2 (2)",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Valore gia' in `forme.cella` (con l'incertezza qui riportata come cifra fra parentesi sull'ultima cifra); ripetuto per l'incertezza e per la seconda cella di 1BER-1MA (293 K), che `forme.cella` non puo' contenere. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X10",
+   "categoria": "cristallografia",
+   "proprieta": "Z, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Z, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 4
+    },
+    {
+     "etichetta": "Z, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 4
+    },
+    {
+     "etichetta": "Z, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 2
+    },
+    {
+     "etichetta": "Z, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 2
+    },
+    {
+     "etichetta": "Z, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 2
+    },
+    {
+     "etichetta": "Z, 2BER-2CA",
+     "forma": "F6",
+     "valore": 2
+    }
+   ],
+   "citazione": "Z | 4 | 4 | 2 | 2 | 2 | 2",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Z della cella (unita' formula per cella). Valore gia' in `forme.cella` (con l'incertezza qui riportata come cifra fra parentesi sull'ultima cifra); ripetuto per l'incertezza e per la seconda cella di 1BER-1MA (293 K), che `forme.cella` non puo' contenere."
+  },
+  {
+   "id": "X11",
+   "categoria": "cristallografia",
+   "proprieta": "temperatura della misura, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "T, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 100,
+     "unita": "K"
+    },
+    {
+     "etichetta": "T, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 293,
+     "unita": "K"
+    },
+    {
+     "etichetta": "T, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 100,
+     "unita": "K"
+    },
+    {
+     "etichetta": "T, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 100,
+     "unita": "K"
+    },
+    {
+     "etichetta": "T, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 100,
+     "unita": "K"
+    },
+    {
+     "etichetta": "T, 2BER-2CA",
+     "forma": "F6",
+     "valore": 100,
+     "unita": "K"
+    }
+   ],
+   "citazione": "Temperature (K) | 100 | 293 | 100 | 100 | 100 | 100",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Valore gia' in `forme.cella` (con l'incertezza qui riportata come cifra fra parentesi sull'ultima cifra); ripetuto per l'incertezza e per la seconda cella di 1BER-1MA (293 K), che `forme.cella` non puo' contenere."
+  },
+  {
+   "id": "X12",
+   "categoria": "cristallografia",
+   "proprieta": "densita' calcolata, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "rho calc, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 1.507,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "rho calc, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 1.457,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "rho calc, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 1.503,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "rho calc, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 1.553,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "rho calc, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 1.555,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "rho calc, 2BER-2CA",
+     "forma": "F6",
+     "valore": 1.451,
+     "unita": "g cm-3"
+    }
+   ],
+   "citazione": "ρcalc (g cm−3) | 1.507 | 1.457 | 1.503 | 1.553 | 1.555 | 1.451",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X13",
+   "categoria": "cristallografia",
+   "proprieta": "radiazione e lunghezza d'onda, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "lambda (Mo Kα), 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 0.71073
+    },
+    {
+     "etichetta": "lambda (Mo Kα), 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 0.71073
+    },
+    {
+     "etichetta": "lambda (Mo Kα), 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 0.71073
+    },
+    {
+     "etichetta": "lambda (Cu Kα), 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 1.54178
+    },
+    {
+     "etichetta": "lambda (Cu Kα), 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 1.54178
+    },
+    {
+     "etichetta": "lambda (Cu Kα), 2BER-2CA",
+     "forma": "F6",
+     "valore": 1.54178
+    }
+   ],
+   "citazione": "Radiation | Mo Kα (λ = 0.71073) | Mo Kα (λ = 0.71073) | Mo Kα (λ = 0.71073) | Cu Kα (λ = 1.54178) | Cu Kα (λ = 1.54178) | Cu Kα (λ = 1.54178)",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Unita' di λ non scritta nella tabella."
+  },
+  {
+   "id": "X14",
+   "categoria": "cristallografia",
+   "proprieta": "riflessioni misurate, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "riflessioni misurate, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 4584
+    },
+    {
+     "etichetta": "riflessioni misurate, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 3526
+    },
+    {
+     "etichetta": "riflessioni misurate, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 5902
+    },
+    {
+     "etichetta": "riflessioni misurate, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 4170
+    },
+    {
+     "etichetta": "riflessioni misurate, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 4305
+    },
+    {
+     "etichetta": "riflessioni misurate, 2BER-2CA",
+     "forma": "F6",
+     "valore": 9389
+    }
+   ],
+   "citazione": "Measured reflections | 4584 | 3526 | 5902 | 4170 | 4305 | 9389",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X15",
+   "categoria": "cristallografia",
+   "proprieta": "riflessioni indipendenti, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "riflessioni indipendenti, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 4584
+    },
+    {
+     "etichetta": "riflessioni indipendenti, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 2657
+    },
+    {
+     "etichetta": "riflessioni indipendenti, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 5902
+    },
+    {
+     "etichetta": "riflessioni indipendenti, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 4090
+    },
+    {
+     "etichetta": "riflessioni indipendenti, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 4305
+    },
+    {
+     "etichetta": "riflessioni indipendenti, 2BER-2CA",
+     "forma": "F6",
+     "valore": 9389
+    }
+   ],
+   "citazione": "Independent reflections | 4584 | 2657 | 5902 | 4090 | 4305 | 9389",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X16",
+   "categoria": "cristallografia",
+   "proprieta": "parametro di Flack, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Flack, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 0.05,
+     "incertezza": 6
+    },
+    {
+     "etichetta": "Flack, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 0.11,
+     "incertezza": 4
+    }
+   ],
+   "citazione": "Flack parameter | – | – | – | 0.05 (6) | 0.11 (4) | –",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Le altre quattro colonne hanno «–». Stessi valori della frase del testo (voce successiva). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X17",
+   "categoria": "cristallografia",
+   "proprieta": "R int, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Rint, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 0.0328
+    },
+    {
+     "etichetta": "Rint, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 0.0419
+    },
+    {
+     "etichetta": "Rint, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 0.0339
+    },
+    {
+     "etichetta": "Rint, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 0.0251
+    },
+    {
+     "etichetta": "Rint, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 0.0187
+    },
+    {
+     "etichetta": "Rint, 2BER-2CA",
+     "forma": "F6",
+     "valore": 0.0463
+    }
+   ],
+   "citazione": "R int | 0.0328 | 0.0419 | 0.0339 | 0.0251 | 0.0187 | 0.0463",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X18",
+   "categoria": "cristallografia",
+   "proprieta": "R1 [I > 2σ(I)], Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "R1 [I>2σ(I)], 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 0.1341
+    },
+    {
+     "etichetta": "R1 [I>2σ(I)], 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 0.0992
+    },
+    {
+     "etichetta": "R1 [I>2σ(I)], 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 0.0545
+    },
+    {
+     "etichetta": "R1 [I>2σ(I)], 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 0.0298
+    },
+    {
+     "etichetta": "R1 [I>2σ(I)], 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 0.0257
+    },
+    {
+     "etichetta": "R1 [I>2σ(I)], 2BER-2CA",
+     "forma": "F6",
+     "valore": 0.08
+    }
+   ],
+   "citazione": "R 1 [I > 2σ(I)] | 0.1341 | 0.0992 | 0.0545 | 0.0298 | 0.0257 | 0.080",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X19",
+   "categoria": "cristallografia",
+   "proprieta": "wR2 [I > 2σ(I)], Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "wR2 [I>2σ(I)], 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 0.2788
+    },
+    {
+     "etichetta": "wR2 [I>2σ(I)], 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 0.233
+    },
+    {
+     "etichetta": "wR2 [I>2σ(I)], 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 0.1204
+    },
+    {
+     "etichetta": "wR2 [I>2σ(I)], 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 0.0831
+    },
+    {
+     "etichetta": "wR2 [I>2σ(I)], 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 0.067
+    },
+    {
+     "etichetta": "wR2 [I>2σ(I)], 2BER-2CA",
+     "forma": "F6",
+     "valore": 0.226
+    }
+   ],
+   "citazione": "wR 2 [I > 2σ(I)] | 0.2788 | 0.2330 | 0.1204 | 0.0831 | 0.0670 | 0.226",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X20",
+   "categoria": "cristallografia",
+   "proprieta": "R1(all), Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "R1(all), 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 0.1417
+    },
+    {
+     "etichetta": "R1(all), 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 0.1182
+    },
+    {
+     "etichetta": "R1(all), 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 0.076
+    },
+    {
+     "etichetta": "R1(all), 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 0.0302
+    },
+    {
+     "etichetta": "R1(all), 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 0.0262
+    },
+    {
+     "etichetta": "R1(all), 2BER-2CA",
+     "forma": "F6",
+     "valore": 0.1073
+    }
+   ],
+   "citazione": "R 1(all) | 0.1417 | 0.1182 | 0.0760 | 0.0302 | 0.0262 | 0.1073",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X21",
+   "categoria": "cristallografia",
+   "proprieta": "wR2(all), Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "wR2(all), 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 0.2818
+    },
+    {
+     "etichetta": "wR2(all), 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 0.2413
+    },
+    {
+     "etichetta": "wR2(all), 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 0.1399
+    },
+    {
+     "etichetta": "wR2(all), 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 0.0836
+    },
+    {
+     "etichetta": "wR2(all), 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 0.0673
+    },
+    {
+     "etichetta": "wR2(all), 2BER-2CA",
+     "forma": "F6",
+     "valore": 0.2353
+    }
+   ],
+   "citazione": "wR 2(all) | 0.2818 | 0.2413 | 0.1399 | 0.0836 | 0.0673 | 0.2353",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X22",
+   "categoria": "cristallografia",
+   "proprieta": "goodness of fit, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "GOF, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 1.049
+    },
+    {
+     "etichetta": "GOF, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 1.081
+    },
+    {
+     "etichetta": "GOF, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 1.038
+    },
+    {
+     "etichetta": "GOF, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 1.076
+    },
+    {
+     "etichetta": "GOF, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 1.05
+    },
+    {
+     "etichetta": "GOF, 2BER-2CA",
+     "forma": "F6",
+     "valore": 1.03
+    }
+   ],
+   "citazione": "Goodness of fit | 1.049 | 1.081 | 1.038 | 1.076 | 1.050 | 1.03",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X23",
+   "categoria": "cristallografia",
+   "proprieta": "completezza, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "completezza, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "valore": 100,
+     "unita": "%"
+    },
+    {
+     "etichetta": "completezza, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "valore": 99.0,
+     "unita": "%"
+    },
+    {
+     "etichetta": "completezza, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 99.9,
+     "unita": "%"
+    },
+    {
+     "etichetta": "completezza, 1BER-1LTA-1W",
+     "forma": "F3",
+     "valore": 95.7,
+     "unita": "%"
+    },
+    {
+     "etichetta": "completezza, 1BER-1DTA-1W",
+     "forma": "F4",
+     "valore": 98.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "completezza, 2BER-2CA",
+     "forma": "F6",
+     "valore": 95.7,
+     "unita": "%"
+    }
+   ],
+   "citazione": "Completeness (%) | 100 | 99.0 | 99.9 | 95.7 | 98.8 | 95.7",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA."
+  },
+  {
+   "id": "X24",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O5—H5A⋯O7 (1BER-1MA)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O5—H5A⋯O7",
+     "forma": "F1",
+     "valore": 0.8,
+     "incertezza": 10,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O5—H5A⋯O7",
+     "forma": "F1",
+     "valore": 1.68,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O5—H5A⋯O7",
+     "forma": "F1",
+     "valore": 2.434,
+     "incertezza": 6,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O5—H5A⋯O7",
+     "forma": "F1",
+     "valore": 156,
+     "incertezza": 19,
+     "unita": "°"
+    }
+   ],
+   "citazione": "1BER-1MA | O5—H5A⋯O7 | 0.800 (10) | 1.68 (7) | 2.434 (6) | 156 (19)",
+   "note": "Tabella 2, composto 1BER-1MA. Intramolecolare nell'anione MA (testo: «The intramolecular hydrogen bond O5—H⋯O7 in the MA anion»). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X25",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O5—H5A⋯O13 (1BER-2MA-2W)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O5—H5A⋯O13",
+     "forma": "F2",
+     "valore": 1.0,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O5—H5A⋯O13",
+     "forma": "F2",
+     "valore": 1.61,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O5—H5A⋯O13",
+     "forma": "F2",
+     "valore": 2.5876,
+     "incertezza": 19,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O5—H5A⋯O13",
+     "forma": "F2",
+     "valore": 163,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O5—H5A⋯O13",
+     "forma": "F2",
+     "testo": "−x + 1, −y + 1, −z"
+    }
+   ],
+   "citazione": "1BER-2MA-2W | O5—H5A⋯O13 | 1.00 (3) | 1.61 (3) | 2.5876 (19) | 163 (3) | −x + 1, −y + 1, −z",
+   "note": "Tabella 2, composto 1BER-2MA-2W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X26",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O8—H8A⋯O9 (1BER-2MA-2W)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O8—H8A⋯O9",
+     "forma": "F2",
+     "valore": 0.92,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O8—H8A⋯O9",
+     "forma": "F2",
+     "valore": 1.63,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O8—H8A⋯O9",
+     "forma": "F2",
+     "valore": 2.554,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O8—H8A⋯O9",
+     "forma": "F2",
+     "valore": 175,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O8—H8A⋯O9 | 0.92 (3) | 1.63 (3) | 2.554 (2)) | 175 (3)",
+   "note": "Tabella 2, composto 1BER-2MA-2W. Intramolecolare nell'anione MA (testo: «the intramolecular hydrogen bond O8—H8⋯O9»). Parentesi in piu' in «2.554 (2))» nel PDF. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X27",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O10—H12C⋯O12 (1BER-2MA-2W)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O10—H12C⋯O12",
+     "forma": "F2",
+     "valore": 1.2,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O10—H12C⋯O12",
+     "forma": "F2",
+     "valore": 1.23,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O10—H12C⋯O12",
+     "forma": "F2",
+     "valore": 2.4008,
+     "incertezza": 17,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O10—H12C⋯O12",
+     "forma": "F2",
+     "valore": 163,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O10—H12C⋯O12 | 1.20 (3) | 1.23 (3) | 2.4008 (17) | 163 (3)",
+   "note": "Tabella 2, composto 1BER-2MA-2W. Legame H della tabella non descritto nel testo (il testo elenca O5—H⋯O13, O13—H⋯O11, O14—H⋯O6, O14—H⋯O12, O13—H⋯O14, O8—H⋯O9); D—H 1.20 e H⋯A 1.23: etichetta atomica H12C su O10 come scritta. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X28",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O13—H13C⋯O11 (1BER-2MA-2W)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O13—H13C⋯O11",
+     "forma": "F2",
+     "valore": 0.86,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O13—H13C⋯O11",
+     "forma": "F2",
+     "valore": 1.94,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O13—H13C⋯O11",
+     "forma": "F2",
+     "valore": 2.792,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O13—H13C⋯O11",
+     "forma": "F2",
+     "valore": 173,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O13—H13C⋯O11",
+     "forma": "F2",
+     "testo": "−x + 1, −y + 1, −z − 1"
+    }
+   ],
+   "citazione": "O13—H13C⋯O11 | 0.86 (3) | 1.94 (3) | 2.792 (2) | 173 (3) | −x + 1, −y + 1, −z − 1",
+   "note": "Tabella 2, composto 1BER-2MA-2W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X29",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O13—H13D⋯O14 (1BER-2MA-2W)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O13—H13D⋯O14",
+     "forma": "F2",
+     "valore": 0.92,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O13—H13D⋯O14",
+     "forma": "F2",
+     "valore": 1.84,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O13—H13D⋯O14",
+     "forma": "F2",
+     "valore": 2.735,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O13—H13D⋯O14",
+     "forma": "F2",
+     "valore": 165,
+     "incertezza": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O13—H13D⋯O14",
+     "forma": "F2",
+     "testo": "−x + 2, −y + 1, −z − 1"
+    }
+   ],
+   "citazione": "O13—H13D⋯O14 | 0.92 (3) | 1.84 (3) | 2.735 (2) | 165 (2) | −x + 2, −y + 1, −z − 1",
+   "note": "Tabella 2, composto 1BER-2MA-2W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X30",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O14—H14B⋯O6 (1BER-2MA-2W)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O14—H14B⋯O6",
+     "forma": "F2",
+     "valore": 0.82,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O14—H14B⋯O6",
+     "forma": "F2",
+     "valore": 2.03,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O14—H14B⋯O6",
+     "forma": "F2",
+     "valore": 2.833,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O14—H14B⋯O6",
+     "forma": "F2",
+     "valore": 166,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O14—H14B⋯O6",
+     "forma": "F2",
+     "testo": "−x + 2, −y, −z"
+    }
+   ],
+   "citazione": "O14—H14B⋯O6 | 0.82 (3) | 2.03 (3) | 2.833 (2) | 166 (3) | −x + 2, −y, −z",
+   "note": "Tabella 2, composto 1BER-2MA-2W. Il testo (3.2.2) dà per O14—H⋯O6 il codice di simmetria (−x + 2, −y, −z − 1), la Tabella 2 (−x + 2, −y, −z): incoerenza fra testo e tabella, riportata come scritta. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X31",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O14—H14C⋯O12 (1BER-2MA-2W)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O14—H14C⋯O12",
+     "forma": "F2",
+     "valore": 0.95,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O14—H14C⋯O12",
+     "forma": "F2",
+     "valore": 1.92,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O14—H14C⋯O12",
+     "forma": "F2",
+     "valore": 2.849,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O14—H14C⋯O12",
+     "forma": "F2",
+     "valore": 164,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O14—H14C⋯O12",
+     "forma": "F2",
+     "testo": "−x + 2, −y, −z − 1"
+    }
+   ],
+   "citazione": "O14—H14C⋯O12 | 0.95 (4) | 1.92 (4) | 2.849 (2) | 164 (3) | −x + 2, −y, −z − 1",
+   "note": "Tabella 2, composto 1BER-2MA-2W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X32",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O7—H7A⋯O11 (1BER-1LTA-1W)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O7—H7A⋯O11",
+     "forma": "F3",
+     "valore": 0.87,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O7—H7A⋯O11",
+     "forma": "F3",
+     "valore": 1.79,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O7—H7A⋯O11",
+     "forma": "F3",
+     "valore": 2.65,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O7—H7A⋯O11",
+     "forma": "F3",
+     "valore": 171,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "1BER-1LTA-1W | O7—H7A⋯O11 | 0.87 (4) | 1.79 (4) | 2.650 (2) | 171 (3)",
+   "note": "Tabella 2, composto 1BER-1LTA-1W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X33",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O8—H8A⋯O10 (1BER-1LTA-1W)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O8—H8A⋯O10",
+     "forma": "F3",
+     "valore": 0.88,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O8—H8A⋯O10",
+     "forma": "F3",
+     "valore": 2.07,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O8—H8A⋯O10",
+     "forma": "F3",
+     "valore": 2.643,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O8—H8A⋯O10",
+     "forma": "F3",
+     "valore": 122,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O8—H8A⋯O10 | 0.88 (4) | 2.07 (4) | 2.643 (2) | 122 (3)",
+   "note": "Tabella 2, composto 1BER-1LTA-1W. Intramolecolare nell'anione TA (testo: «The intramolecular hydrogen bond O8—H⋯O10 in the TA anion»). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X34",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O9—H9B⋯O6 (1BER-1LTA-1W)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O9—H9B⋯O6",
+     "forma": "F3",
+     "valore": 0.813,
+     "incertezza": 14,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O9—H9B⋯O6",
+     "forma": "F3",
+     "valore": 1.654,
+     "incertezza": 15,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O9—H9B⋯O6",
+     "forma": "F3",
+     "valore": 2.463,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O9—H9B⋯O6",
+     "forma": "F3",
+     "valore": 173,
+     "incertezza": 4,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O9—H9B⋯O6",
+     "forma": "F3",
+     "testo": "x, y + 1, z"
+    }
+   ],
+   "citazione": "O9—H9B⋯O6 | 0.813 (14) | 1.654 (15) | 2.463 (2) | 173 (4) | x, y + 1, z",
+   "note": "Tabella 2, composto 1BER-1LTA-1W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X35",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O11—H11A⋯O5 (1BER-1LTA-1W)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O11—H11A⋯O5",
+     "forma": "F3",
+     "valore": 0.99,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O11—H11A⋯O5",
+     "forma": "F3",
+     "valore": 1.83,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O11—H11A⋯O5",
+     "forma": "F3",
+     "valore": 2.816,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O11—H11A⋯O5",
+     "forma": "F3",
+     "valore": 173,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O11—H11A⋯O5",
+     "forma": "F3",
+     "testo": "x, y + 1, z"
+    }
+   ],
+   "citazione": "O11—H11A⋯O5 | 0.99 (4) | 1.83 (4) | 2.816 (2) | 173 (3) | x, y + 1, z",
+   "note": "Tabella 2, composto 1BER-1LTA-1W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X36",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O11 —H11B⋯O7 (1BER-1LTA-1W)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O11 —H11B⋯O7",
+     "forma": "F3",
+     "valore": 0.86,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O11 —H11B⋯O7",
+     "forma": "F3",
+     "valore": 2.21,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O11 —H11B⋯O7",
+     "forma": "F3",
+     "valore": 2.97,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O11 —H11B⋯O7",
+     "forma": "F3",
+     "valore": 147,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O11 —H11B⋯O7",
+     "forma": "F3",
+     "testo": "−x + 1, y + 1/2, −z + 2"
+    }
+   ],
+   "citazione": "O11 —H11B⋯O7 | 0.86 (3) | 2.21 (3) | 2.970 (2) | 147 (3) | −x + 1, y + 1/2, −z + 2",
+   "note": "Tabella 2, composto 1BER-1LTA-1W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X37",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O7—H7A⋯O11 (1BER-1DTA-1W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O7—H7A⋯O11",
+     "forma": "F4",
+     "valore": 0.89,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O7—H7A⋯O11",
+     "forma": "F4",
+     "valore": 1.76,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O7—H7A⋯O11",
+     "forma": "F4",
+     "valore": 2.65,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O7—H7A⋯O11",
+     "forma": "F4",
+     "valore": 175,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O7—H7A⋯O11",
+     "forma": "F4",
+     "testo": "−x, y + 1/2, −z"
+    }
+   ],
+   "citazione": "1BER-1DTA-1W | O7—H7A⋯O11 | 0.89 (3) | 1.76 (3) | 2.650 (2) | 175 (3) | −x, y + 1/2, −z",
+   "note": "Tabella 2, composto 1BER-1DTA-1W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X38",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O8—H8A⋯O10 (1BER-1DTA-1W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O8—H8A⋯O10",
+     "forma": "F4",
+     "valore": 0.89,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O8—H8A⋯O10",
+     "forma": "F4",
+     "valore": 2.06,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O8—H8A⋯O10",
+     "forma": "F4",
+     "valore": 2.642,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O8—H8A⋯O10",
+     "forma": "F4",
+     "valore": 122,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O8—H8A⋯O10 | 0.89 (4) | 2.06 (4) | 2.642 (2) | 122 (3)",
+   "note": "Tabella 2, composto 1BER-1DTA-1W. Intramolecolare nell'anione TA (testo: «The intramolecular hydrogen bond O8—H⋯O10 in the TA anion»). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X39",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O9—H9B⋯O6 (1BER-1DTA-1W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O9—H9B⋯O6",
+     "forma": "F4",
+     "valore": 0.821,
+     "incertezza": 14,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O9—H9B⋯O6",
+     "forma": "F4",
+     "valore": 1.644,
+     "incertezza": 15,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O9—H9B⋯O6",
+     "forma": "F4",
+     "valore": 2.4593,
+     "incertezza": 19,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O9—H9B⋯O6",
+     "forma": "F4",
+     "valore": 172,
+     "incertezza": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O9—H9B⋯O6",
+     "forma": "F4",
+     "testo": "x, y − 1, z"
+    }
+   ],
+   "citazione": "O9—H9B⋯O6 | 0.821 (14) | 1.644 (15) | 2.4593 (19) | 172 (5) | x, y − 1, z",
+   "note": "Tabella 2, composto 1BER-1DTA-1W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X40",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O11—H11A⋯O5 (1BER-1DTA-1W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O11—H11A⋯O5",
+     "forma": "F4",
+     "valore": 0.89,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O11—H11A⋯O5",
+     "forma": "F4",
+     "valore": 1.93,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O11—H11A⋯O5",
+     "forma": "F4",
+     "valore": 2.816,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O11—H11A⋯O5",
+     "forma": "F4",
+     "valore": 171,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O11—H11A⋯O5",
+     "forma": "F4",
+     "testo": "x, y − 1, z"
+    }
+   ],
+   "citazione": "O11—H11A⋯O5 | 0.89 (3) | 1.93 (3) | 2.816 (2) | 171 (3) | x, y − 1, z",
+   "note": "Tabella 2, composto 1BER-1DTA-1W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X41",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O11—H11B⋯O7 (1BER-1DTA-1W)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O11—H11B⋯O7",
+     "forma": "F4",
+     "valore": 0.84,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O11—H11B⋯O7",
+     "forma": "F4",
+     "valore": 2.23,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O11—H11B⋯O7",
+     "forma": "F4",
+     "valore": 2.9714,
+     "incertezza": 19,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O11—H11B⋯O7",
+     "forma": "F4",
+     "valore": 147,
+     "incertezza": 3,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O11—H11B⋯O7",
+     "forma": "F4",
+     "testo": "−x, y − 3/2, −z"
+    }
+   ],
+   "citazione": "O11—H11B⋯O7 | 0.84 (3) | 2.23 (3) | 2.9714 (19) | 147 (3) | −x, y − 3/2, −z",
+   "note": "Tabella 2, composto 1BER-1DTA-1W. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X42",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O6A—H6A⋯O9A (2BER-2CA)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O6A—H6A⋯O9A",
+     "forma": "F6",
+     "valore": 0.872,
+     "incertezza": 19,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O6A—H6A⋯O9A",
+     "forma": "F6",
+     "valore": 1.62,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O6A—H6A⋯O9A",
+     "forma": "F6",
+     "valore": 2.481,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O6A—H6A⋯O9A",
+     "forma": "F6",
+     "valore": 167,
+     "incertezza": 5,
+     "unita": "°"
+    }
+   ],
+   "citazione": "2BER-2CA | O6A—H6A⋯O9A | 0.872 (19) | 1.62 (2) | 2.481 (4) | 167 (5)",
+   "note": "Tabella 2, composto 2BER-2CA. Intramolecolare negli anioni CA (testo: «O6—H⋯O9 and O7—H⋯O8 form in both types of CA anions»). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X43",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O6B—H6B⋯O9B (2BER-2CA)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O6B—H6B⋯O9B",
+     "forma": "F6",
+     "valore": 0.87,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O6B—H6B⋯O9B",
+     "forma": "F6",
+     "valore": 1.67,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O6B—H6B⋯O9B",
+     "forma": "F6",
+     "valore": 2.538,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O6B—H6B⋯O9B",
+     "forma": "F6",
+     "valore": 173,
+     "incertezza": 8,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O6B—H6B⋯O9B | 0.87 (2) | 1.67 (2) | 2.538 (4) | 173 (8)",
+   "note": "Tabella 2, composto 2BER-2CA. Intramolecolare negli anioni CA (testo: «O6—H⋯O9 and O7—H⋯O8 form in both types of CA anions»). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X44",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O7A—H7A⋯O8A (2BER-2CA)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O7A—H7A⋯O8A",
+     "forma": "F6",
+     "valore": 0.86,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O7A—H7A⋯O8A",
+     "forma": "F6",
+     "valore": 2.18,
+     "incertezza": 7,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O7A—H7A⋯O8A",
+     "forma": "F6",
+     "valore": 2.613,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O7A—H7A⋯O8A",
+     "forma": "F6",
+     "valore": 111,
+     "incertezza": 6,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O7A—H7A⋯O8A | 0.86 (2) | 2.18 (7) | 2.613 (5) | 111 (6)",
+   "note": "Tabella 2, composto 2BER-2CA. Intramolecolare negli anioni CA (testo: «O6—H⋯O9 and O7—H⋯O8 form in both types of CA anions»). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X45",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O7B—H7B⋯O8B (2BER-2CA)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O7B—H7B⋯O8B",
+     "forma": "F6",
+     "valore": 0.859,
+     "incertezza": 19,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O7B—H7B⋯O8B",
+     "forma": "F6",
+     "valore": 2.1,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O7B—H7B⋯O8B",
+     "forma": "F6",
+     "valore": 2.604,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O7B—H7B⋯O8B",
+     "forma": "F6",
+     "valore": 117,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O7B—H7B⋯O8B | 0.859 (19) | 2.10 (4) | 2.604 (3) | 117 (4)",
+   "note": "Tabella 2, composto 2BER-2CA. Intramolecolare negli anioni CA (testo: «O6—H⋯O9 and O7—H⋯O8 form in both types of CA anions»). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X46",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O10A—H10A⋯O8A (2BER-2CA)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O10A—H10A⋯O8A",
+     "forma": "F6",
+     "valore": 0.85,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O10A—H10A⋯O8A",
+     "forma": "F6",
+     "valore": 1.92,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O10A—H10A⋯O8A",
+     "forma": "F6",
+     "valore": 2.758,
+     "incertezza": 5,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O10A—H10A⋯O8A",
+     "forma": "F6",
+     "valore": 166.6,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O10A—H10A⋯O8A",
+     "forma": "F6",
+     "testo": "x − 1, y, z"
+    }
+   ],
+   "citazione": "O10A—H10A⋯O8A | 0.85 | 1.92 | 2.758 (5) | 166.6 | x − 1, y, z",
+   "note": "Tabella 2, composto 2BER-2CA. Intermolecolare (testo: «with O10A—H⋯O8A for one type CA anions»). D—H e H⋯A senza incertezza nella tabella. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X47",
+   "categoria": "geometria",
+   "proprieta": "D—H⋯A: O10B—H10B⋯O9B (2BER-2CA)",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "D—H O10B—H10B⋯O9B",
+     "forma": "F6",
+     "valore": 0.853,
+     "incertezza": 10,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "H⋯A O10B—H10B⋯O9B",
+     "forma": "F6",
+     "valore": 1.693,
+     "incertezza": 11,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D⋯A O10B—H10B⋯O9B",
+     "forma": "F6",
+     "valore": 2.545,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H⋯A O10B—H10B⋯O9B",
+     "forma": "F6",
+     "valore": 176,
+     "incertezza": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "codice di simmetria O10B—H10B⋯O9B",
+     "forma": "F6",
+     "testo": "x − 1, y, z"
+    }
+   ],
+   "citazione": "O10B—H10B⋯O9B | 0.853 (10) | 1.693 (11) | 2.545 (3) | 176 (5) | x − 1, y, z",
+   "note": "Tabella 2, composto 2BER-2CA. Intermolecolare (testo: «O10B—H… O9B for the other»). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X48",
+   "categoria": "cristallografia",
+   "proprieta": "metodo di soluzione e raffinamento della struttura",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "direct methods; full-matrix least-squares against F2; anisotropic ADPs for non-hydrogen atoms",
+   "citazione": "The crystal structures were solved via direct methods and refined by a full-matrix least-squares procedure against F 2 using OLEX2 (Dolomanov et al., 2009 ▸) and SHELXTL (Sheldrick, 2008 ▸) with anisotropic displacement parameters (ADPs) for non-hydrogen atoms.",
+   "note": "Il testo non dice per quale cristallo vale (tutti i cinque): voce senza oggetto."
+  },
+  {
+   "id": "X49",
+   "categoria": "cristallografia",
+   "proprieta": "trattamento degli atomi di idrogeno",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "H on N/O from the electron density map, positions and isotropic ADPs refined freely; all other H atoms in calculated positions, riding model",
+   "citazione": "Hydrogen atoms bonded to nitrogen or oxygen were determined by the experimental electron density map, and their isotropic displacement parameters and positions were refined freely. All other hydrogen atoms were located in geometrically calculated positions and refined using a riding model."
+  },
+  {
+   "id": "X50",
+   "categoria": "cristallografia",
+   "proprieta": "parametri di Flack e configurazione assoluta (testo)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Flack, 1BER-1lTA-1W",
+     "forma": "F3",
+     "valore": 0.05,
+     "incertezza": 6
+    },
+    {
+     "etichetta": "Flack, 1BER-1dTA-1W",
+     "forma": "F4",
+     "valore": 0.11,
+     "incertezza": 4
+    },
+    {
+     "etichetta": "soglia",
+     "valore": 0.3,
+     "limite": "sotto"
+    }
+   ],
+   "qualitativo": "the absolute configuration of the two crystals could be determined",
+   "citazione": "Flack parameters for 1BER-1lTA-1W and 1BER-1dTA-1W below 0.3 were 0.05 (6) and 0.11 (4), respectively. This implies that the absolute configuration of the two crystals could be determined.",
+   "note": "Stessi valori della riga «Flack parameter» di Tabella 1 (voce precedente), qui con la conclusione degli autori. Incertezza: cifra fra parentesi sull'ultima cifra. «below 0.3» e' la soglia scritta dal testo."
+  },
+  {
+   "id": "X51",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica, 1BER-1MA",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "one BER cation and one MA anion in the asymmetric unit",
+   "citazione": "1BER-1MA crystallized in the monoclinic space group P21/c with one BER cation and one MA anion in the asymmetric unit.",
+   "note": "Stessa frase di forme[F1].citazione; qui il fatto strutturale (Z' = una unita' formula)."
+  },
+  {
+   "id": "X52",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica, 1BER-2MA-2W",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "one BER cation, one MA anion, one neutral MA molecule and two water molecules in the asymmetric unit",
+   "citazione": "1BER-2MA-2W crystallized in the triclinic space group P 1 with one BER cation, one MA anion, one neutral MA molecule and two water molecules in the asymmetric unit.",
+   "note": "Stessa frase di forme[F2].citazione."
+  },
+  {
+   "id": "X53",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica, 1BER-1lTA-1W",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "one BER cation, one TA anion and one water molecule in the asymmetric unit",
+   "citazione": "They crystallized in the triclinic space group P21 with one BER cation, one TA anion and one water molecule in the asymmetric unit.",
+   "note": "Frase unica per i due tartrati idrati (stessa citazione in forme[F3] e forme[F4]); «triclinic» e' in contrasto con Tabella 1 (Monoclinic), vedi `conflitto` delle forme."
+  },
+  {
+   "id": "X54",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica, 1BER-1dTA-1W",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "one BER cation, one TA anion and one water molecule in the asymmetric unit",
+   "citazione": "They crystallized in the triclinic space group P21 with one BER cation, one TA anion and one water molecule in the asymmetric unit.",
+   "note": "Frase unica per i due tartrati idrati (stessa citazione in forme[F3] e forme[F4]); «triclinic» e' in contrasto con Tabella 1 (Monoclinic), vedi `conflitto` delle forme."
+  },
+  {
+   "id": "X55",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica, 2BER-2CA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [],
+   "qualitativo": "two BER cations and two CA anions in the asymmetric unit",
+   "citazione": "2BER-2CA crystallized in the triclinic space group P 1 with two BER cations and two CA anions in the asymmetric unit.",
+   "note": "Stessa frase di forme[F6].citazione."
+  },
+  {
+   "id": "X56",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "due tipi di cationi BER e di anioni CA, 2BER-2CA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [],
+   "qualitativo": "both the BER cations and the CA anions fall in two crystallographically distinct types",
+   "citazione": "Both BER cations and CA anions could be divided into two types in 2BER-2CA."
+  },
+  {
+   "id": "X57",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "disordine del gruppo C12B—C13B, 2BER-2CA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "occupazioni delle due posizioni",
+     "forma": "F6",
+     "testo": "0.53:0.47"
+    }
+   ],
+   "qualitativo": "C12B—C13B group of one type of BER cation disordered over two positions",
+   "citazione": "The C12B—C13B group in one type of BER cations is disordered over two positions with 0.53:0.47.",
+   "note": "Rapporto di occupazione come testo (formato e0: i rapporti vanno in `testo`)."
+  },
+  {
+   "id": "X58",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "disordine di O11A, 2BER-2CA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "occupazioni delle due posizioni",
+     "forma": "F6",
+     "testo": "0.54:0.46"
+    }
+   ],
+   "qualitativo": "O11A split over two positions, in one type of CA anion",
+   "citazione": "The disordered O11A is split over two positions with 0.54:0.46, also observed in one type of the CA anions.",
+   "note": "Rapporto di occupazione come testo."
+  },
+  {
+   "id": "X59",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "protonazione degli acidi e classificazione come sali",
+   "valori": [],
+   "qualitativo": "the acid loses a proton in each crystal; the samples are termed salts",
+   "citazione": "Loss of a proton derived from the acid occurred in each crystal. Hence, these samples were termed salts."
+  },
+  {
+   "id": "X60",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "1BER-2MA-2W come cocristallo salino",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "an additional neutral MA molecule is included: salt cocrystal",
+   "citazione": "However, an additional neutral MA molecule was also included in 1BER-2MA-2W, which can be classified as a salt cocrystal."
+  },
+  {
+   "id": "X61",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "impacchettamento a strati, 1BER-1MA",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [],
+   "qualitativo": "layers held by van der Waals forces; MA anions scattered in the voids of the 3D structure",
+   "citazione": "The layer-like structures depend on van der Waals forces to create a three-dimensional structure with MA anions scattered in the voids"
+  },
+  {
+   "id": "X62",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "impacchettamento, 1BER-2MA-2W",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "chains and layers assembled into a 3D structure with alternating hydrophobic and hydrophilic zones",
+   "citazione": "Ultimately, the chain-like structures and layer-like structures that rely on van der Waals forces were assembled into a three-dimensional structure with hydro­phobic zones and hydro­philic zones in an alternate arrangement"
+  },
+  {
+   "id": "X63",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "impacchettamento, 1BER-1lTA-1W",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [],
+   "qualitativo": "layers assembled via van der Waals forces; hydrophilic chains scattered in the voids",
+   "citazione": "The layer-like structures assemble via van der Waals forces into a three-dimensional structure with hydro­philic chain-like structures scattered in the voids",
+   "note": "Frase unica per i due tartrati idrati (Fig. 6a e 6b)."
+  },
+  {
+   "id": "X64",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "impacchettamento, 1BER-1dTA-1W",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "valori": [],
+   "qualitativo": "layers assembled via van der Waals forces; hydrophilic chains scattered in the voids",
+   "citazione": "The layer-like structures assemble via van der Waals forces into a three-dimensional structure with hydro­philic chain-like structures scattered in the voids",
+   "note": "Frase unica per i due tartrati idrati (Fig. 6a e 6b)."
+  },
+  {
+   "id": "X65",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "impacchettamento, 2BER-2CA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [],
+   "qualitativo": "3D structure with hydrophilic chains scattered in the voids, assembled by layers (as in the tartrates)",
+   "citazione": "Similar to 1BER-1LTA-1W and 1BER-1DTA-1W, a three-dimensional structure with hydro­philic chain-like structures scattered in the voids assembled by the layer-like structures were formed"
+  },
+  {
+   "id": "X66",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "quasi isostrutturalita' dei due tartrati idrati",
+   "valori": [],
+   "qualitativo": "1BER-1lTA-1W and 1BER-1dTA-1W have similar cell parameters and crystal structure; almost the same PXRD pattern, FT-IR spectra and TGA/DSC curves expected",
+   "citazione": "However, the products obtained with 1BER-1lTA-1W and 1BER-1dTA-1W have similar cell parameters and crystal structure. This indicates that the two samples would have almost the same PXRD pattern, FT-IR spectra and TGA/DSC curves.",
+   "note": "L'attribuzione ad entrambe le forme F3 e F4: oggetto non unico."
+  },
+  {
+   "id": "X67",
+   "categoria": "geometria",
+   "proprieta": "distanza fra centroidi π–π fra due anelli benzenici, 1BER-1MA",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "distanza minima centro-centro",
+     "valore": 3.549,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "between two benzene rings (C1—C2—C3—C4—C5 and C10—C11—C14—C15—C16) [shortest centre-to-centre distance: 3.549 (3) Å]",
+   "note": "Incertezza: cifra fra parentesi sull'ultima cifra. Il testo elenca cinque atomi per anello ma dice «benzene rings»: riportato come scritto."
+  },
+  {
+   "id": "X68",
+   "categoria": "geometria",
+   "proprieta": "distanza fra centroidi π–π fra gli anelli a sei membri, 1BER-1MA",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "distanza minima centro-centro",
+     "valore": 3.795,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "between the six-membered rings (N1—C8—C7—C6—C5—C9) [shortest centre-to-centre distance: 3.795 (3) Å]",
+   "note": "Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X69",
+   "categoria": "geometria",
+   "proprieta": "distanza fra centroidi π–π fra due anelli benzenici, 1BER-2MA-2W",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "distanza minima centro-centro",
+     "valore": 3.6476,
+     "incertezza": 10,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "between two benzene rings (C1—C2—C3—C4—C5—C6 and C10—C11—C14—C15—C16—C17) [shortest centre-to-centre distance: 3.6476 (10) Å]",
+   "note": "Incertezza: cifra fra parentesi sull'ultima cifra (sulle ultime due cifre: 10)."
+  },
+  {
+   "id": "X70",
+   "categoria": "geometria",
+   "proprieta": "distanza fra centroidi π–π anello a sei membri / anello benzenico, 1BER-2MA-2W",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "distanza minima centro-centro",
+     "valore": 3.8355,
+     "incertezza": 10,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "between the six-membered ring (N1—C8—C7—C6—C5—C9) and the benzene ring (C1—C2—C3—C4—C5—C6) [shortest centre-to-centre distance: 3.8355 (10) Å]",
+   "note": "Incertezza: cifra fra parentesi sull'ultima cifra (10)."
+  },
+  {
+   "id": "X71",
+   "categoria": "geometria",
+   "proprieta": "distanze fra centroidi π–π fra anelli benzenici, 1BER-1lTA-1W e 1BER-1dTA-1W",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "distanza minima centro-centro, 1BER-1lTA-1W",
+     "forma": "F3",
+     "valore": 3.5772,
+     "incertezza": 12,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "distanza minima centro-centro, 1BER-1dTA-1W",
+     "forma": "F4",
+     "valore": 3.5744,
+     "incertezza": 12,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "exist between the two benzene rings (C1—C2—C3—C4—C5—C6 and C10—C11—C14—C15—C16—C17) [shortest centre-to-centre distances: 3.5772 (12) Å and 3.5744 (12)]",
+   "note": "Attribuzione per ordine: la frase elenca «1BER-1lTA-1W and 1BER-1dTA-1W» e poi due distanze senza «respectively». Il secondo valore non ha l'unita' nel testo (3.5744 (12)). Incertezza: cifra fra parentesi sull'ultima cifra (12)."
+  },
+  {
+   "id": "X72",
+   "categoria": "geometria",
+   "proprieta": "distanza fra centroidi π–π fra due anelli benzenici, 2BER-2CA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "distanza minima centro-centro",
+     "valore": 3.797,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "between two benzene rings (C1—C2—C3—C4—C5—C6 and C10—C11—C14—C15—C16—C17) [shortest centre-to-centre distance: 3.797 (3) Å]",
+   "note": "Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X73",
+   "categoria": "cristallografia",
+   "proprieta": "assi a e b di 1BER-1MA a 100 e 293 K (testo)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "a, 100 K",
+     "forma": "F1",
+     "valore": 6.844,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b, 100 K",
+     "forma": "F1",
+     "valore": 19.545,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "a, 293 K",
+     "forma": "F1",
+     "valore": 6.943,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "b, 293 K",
+     "forma": "F1",
+     "valore": 19.818,
+     "incertezza": 2,
+     "unita": "Å"
+    }
+   ],
+   "qualitativo": "a and b axes lengthen from 100 to 293 K; c axis almost unchanged",
+   "citazione": "The 6.844 (1) Å a axis and 19.545 (1) Å b axis at 100 K increased to 6.943 (1) Å and 19.818 (2) Å at 293 K, respectively, whereas the c axis showed almost no change.",
+   "note": "Stessi valori della Tabella 1 (colonne 1BER-1MA e 1BER-1MA-1) e della frase usata come citazione di forme[F1]; qui con l'osservazione sull'asse c. Incertezza: cifra fra parentesi sull'ultima cifra. Non e' un evento (stessa forma, stesso gruppo)."
+  },
+  {
+   "id": "X74",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "effetto della T sulle posizioni dei picchi, 1BER-1MA (100 K contro 293 K)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "simulated pattern at 100 K and experimental pattern at 293 K would have different peak positions",
+   "citazione": "This implies that the peak positions of 1BER-1MA between the simulated PXRD pattern based on SCXRD data at 100 K and the experimental PXRD pattern collected at 293 K would be different."
+  },
+  {
+   "id": "X75",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "accordo fra picchi sperimentali (293 K) e calcolati (100 K), quattro forme",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "experimental (293 K) and calculated (100 K) peak positions essentially consistent: no obvious change of the cell between 100 and 293 K",
+   "citazione": "The experimental peak positions of 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W and 2BER-2CA were essentially consistent with the calculated peak positions derived from the SCXRD data collected at 100 K. This suggests that there are no obvious differences in the unit-cell parameters of these crystals between 100 and 293 K.",
+   "note": "Quattro forme (F2, F3, F4, F6): oggetto non unico."
+  },
+  {
+   "id": "X76",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "1BER-1MA: a e b piu' corti a 100 K, picchi diversi",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "a and b axes notably shortened at 100 K relative to 293 K; some peak positions differ",
+   "citazione": "However, the a and b axes of 1BER-1MA at 100 K relative to 293 K were notably shortened, which caused some peak positions at 100 K to differ from those at 293 K."
+  },
+  {
+   "id": "X77",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "ripresa nelle conclusioni: cella di 1BER-1MA sensibile alla temperatura",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "cell of 1BER-1MA sensitive to temperature; calculated peak positions at 100 K clearly differ from those at 293 K",
+   "citazione": "The unit-cell parameters of 1BER-1MA were sensitive to temperature. Subsequently, the calculated characteristic diffraction peak positions of 1BER-1MA at 100 K clearly differ from those at 293 K.",
+   "note": "Ripresa nelle Conclusioni degli stessi fatti delle voci precedenti."
+  },
+  {
+   "id": "X78",
+   "categoria": "metodo",
+   "proprieta": "PXRD: tensione e corrente del tubo, temperatura della misura",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "tensione",
+     "valore": 40,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "corrente",
+     "valore": 150,
+     "unita": "mA"
+    },
+    {
+     "etichetta": "temperatura",
+     "valore": 293,
+     "unita": "K"
+    }
+   ],
+   "citazione": "PXRD experiments were performed on a Rigaku D/max-2550 diffractometer with Cu Kα radiation (Rigaku, Tokyo, Japan) at 40 kV and 150 mA at 293 K."
+  },
+  {
+   "id": "X79",
+   "categoria": "metodo",
+   "proprieta": "PXRD: velocita' di scansione e intervallo 2θ",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "velocita' di scansione",
+     "valore": 8,
+     "unita": "° min-1"
+    },
+    {
+     "etichetta": "2θ da",
+     "valore": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ a",
+     "valore": 60,
+     "unita": "°"
+    }
+   ],
+   "citazione": "PXRD patterns were recorded at a constant 8° min−1 scan rate in the 2θ range 5–60°."
+  },
+  {
+   "id": "X80",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "accordo fra diffrattogrammi sperimentali e calcolati (Mercury) e purezza",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "experimental patterns well matched with the theoretical ones: high purity of the samples",
+   "citazione": "The experimental powder patterns of the crystals were well matched with their theoretical powder patterns calculated using Mercury [version 3.0; Cambridge Crystallographic Data Centre, Cambridge, UK (Macrae et al., 2006 ▸)], implying high purity of samples."
+  },
+  {
+   "id": "X81",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "distinguibilita' delle forme per PXRD",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "the forms are distinguishable by PXRD except 1BER-1lTA-1W and 1BER-1dTA-1W",
+   "citazione": "Significant differences between the solid forms obtained could be effectively detected by PXRD, with the exception of 1BER-1lTA-1W and 1BER-1dTA-1W (Figs. S1–S6)."
+  },
+  {
+   "id": "X82",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD principali (2θ), 1BER-1MA",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F1",
+     "valore": 7.5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F1",
+     "valore": 8.873,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F1",
+     "valore": 10.752,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 4",
+     "forma": "F1",
+     "valore": 12.122,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 5",
+     "forma": "F1",
+     "valore": 17.278,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 6",
+     "forma": "F1",
+     "valore": 17.832,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 7",
+     "forma": "F1",
+     "valore": 18.773,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 8",
+     "forma": "F1",
+     "valore": 18.997,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 9",
+     "forma": "F1",
+     "valore": 19.96,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 10",
+     "forma": "F1",
+     "valore": 25.688,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 11",
+     "forma": "F1",
+     "valore": 26.895,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 12",
+     "forma": "F1",
+     "valore": 27.548,
+     "unita": "°"
+    }
+   ],
+   "citazione": "The main experimental peak positions observed were 7.500, 8.873, 10.752, 12.122, 17.278, 17.832, 18.773, 18.997, 19.960, 25.688, 26.895 and 27.548° for 1BER-1MA",
+   "note": "Picchi sperimentali a 293 K (Cu Kα). L'unita' ° e' scritta solo dopo l'ultimo valore dell'elenco. "
+  },
+  {
+   "id": "X83",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD principali (2θ), 1BER-2MA-2W",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F2",
+     "valore": 6.721,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F2",
+     "valore": 7.249,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F2",
+     "valore": 14.459,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 4",
+     "forma": "F2",
+     "valore": 17.583,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 5",
+     "forma": "F2",
+     "valore": 19.628,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 6",
+     "forma": "F2",
+     "valore": 21.758,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 7",
+     "forma": "F2",
+     "valore": 25.298,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 8",
+     "forma": "F2",
+     "valore": 26.402,
+     "unita": "°"
+    }
+   ],
+   "citazione": "6.721, 7.249, 14.459, 17.583, 19.628, 21.758, 25.298 and 26.402° for 1BER-2MA-2W",
+   "note": "Picchi sperimentali a 293 K (Cu Kα). L'unita' ° e' scritta solo dopo l'ultimo valore dell'elenco. "
+  },
+  {
+   "id": "X84",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD principali (2θ), 1BER-1dTA-1W",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F4",
+     "valore": 6.971,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F4",
+     "valore": 7.352,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F4",
+     "valore": 9.236,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 4",
+     "forma": "F4",
+     "valore": 13.986,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 5",
+     "forma": "F4",
+     "valore": 14.724,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 6",
+     "forma": "F4",
+     "valore": 15.194,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 7",
+     "forma": "F4",
+     "valore": 24.927,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 8",
+     "forma": "F4",
+     "valore": 26.629,
+     "unita": "°"
+    }
+   ],
+   "citazione": "6.971, 7.352, 9.236, 13.986, 14.724, 15.194, 24.927 and 26.629° for 1BER-1dTA-1W",
+   "note": "Picchi sperimentali a 293 K (Cu Kα). L'unita' ° e' scritta solo dopo l'ultimo valore dell'elenco. Nel testo l'elenco della dTA precede quello della lTA."
+  },
+  {
+   "id": "X85",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD principali (2θ), 1BER-1lTA-1W",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F3",
+     "valore": 7.028,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F3",
+     "valore": 7.399,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F3",
+     "valore": 9.297,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 4",
+     "forma": "F3",
+     "valore": 14.043,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 5",
+     "forma": "F3",
+     "valore": 14.784,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 6",
+     "forma": "F3",
+     "valore": 15.252,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 7",
+     "forma": "F3",
+     "valore": 24.952,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 8",
+     "forma": "F3",
+     "valore": 26.67,
+     "unita": "°"
+    }
+   ],
+   "citazione": "7.028, 7.399, 9.297, 14.043, 14.784, 15.252, 24.952 and 26.670° for 1BER-1lTA-1W",
+   "note": "Picchi sperimentali a 293 K (Cu Kα). L'unita' ° e' scritta solo dopo l'ultimo valore dell'elenco. Nel testo l'elenco della dTA precede quello della lTA."
+  },
+  {
+   "id": "X86",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD principali (2θ), 1BER-1dlTA",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F5",
+     "valore": 7.007,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F5",
+     "valore": 8.356,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F5",
+     "valore": 13.719,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 4",
+     "forma": "F5",
+     "valore": 15.109,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 5",
+     "forma": "F5",
+     "valore": 16.705,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 6",
+     "forma": "F5",
+     "valore": 23.294,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 7",
+     "forma": "F5",
+     "valore": 25.193,
+     "unita": "°"
+    }
+   ],
+   "citazione": "7.007, 8.356, 13.719, 15.109, 16.705, 23.294 and 25.193° for 1BER-1dl-TA",
+   "note": "Picchi sperimentali a 293 K (Cu Kα). L'unita' ° e' scritta solo dopo l'ultimo valore dell'elenco. Etichetta nel testo: «1BER-1dl-TA»."
+  },
+  {
+   "id": "X87",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD principali (2θ), 2BER-2CA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F6",
+     "valore": 6.701,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F6",
+     "valore": 8.074,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F6",
+     "valore": 13.332,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 4",
+     "forma": "F6",
+     "valore": 14.761,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 5",
+     "forma": "F6",
+     "valore": 16.297,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 6",
+     "forma": "F6",
+     "valore": 16.829,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 7",
+     "forma": "F6",
+     "valore": 24.193,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 8",
+     "forma": "F6",
+     "valore": 27.589,
+     "unita": "°"
+    }
+   ],
+   "citazione": "6.701, 8.074, 13.332, 14.761, 16.297, 16.829, 24.193 and 27.589° for 2BER-2CA",
+   "note": "Picchi sperimentali a 293 K (Cu Kα). L'unita' ° e' scritta solo dopo l'ultimo valore dell'elenco. "
+  },
+  {
+   "id": "X88",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD principali (2θ), 1BER-2MA-2W-AH",
+   "oggetto": {
+    "forma": "F7"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F7",
+     "valore": 6.109,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F7",
+     "valore": 6.397,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F7",
+     "valore": 7.581,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 4",
+     "forma": "F7",
+     "valore": 7.888,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 5",
+     "forma": "F7",
+     "valore": 10.447,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 6",
+     "forma": "F7",
+     "valore": 12.368,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 7",
+     "forma": "F7",
+     "valore": 15.418,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 8",
+     "forma": "F7",
+     "valore": 15.95,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 9",
+     "forma": "F7",
+     "valore": 16.872,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 10",
+     "forma": "F7",
+     "valore": 17.177,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 11",
+     "forma": "F7",
+     "valore": 19.243,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 12",
+     "forma": "F7",
+     "valore": 22.66,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 13",
+     "forma": "F7",
+     "valore": 23.949,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 14",
+     "forma": "F7",
+     "valore": 24.273,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 15",
+     "forma": "F7",
+     "valore": 25.38,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 16",
+     "forma": "F7",
+     "valore": 26.179,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 17",
+     "forma": "F7",
+     "valore": 26.424,
+     "unita": "°"
+    }
+   ],
+   "citazione": "with the main experimental peak positions 6.109, 6.397, 7.581, 7.888, 10.447, 12.368, 15.418, 15.950, 16.872, 17.177, 19.243, 22.660, 23.949, 24.273, 25.380, 26.179 and 26.424°",
+   "note": "Solido ottenuto dopo 10 min a 353 K (evento di disidratazione). L'unita' ° e' scritta solo dopo l'ultimo valore."
+  },
+  {
+   "id": "X89",
+   "categoria": "metodo",
+   "proprieta": "DSC/TGA: intervallo di scansione",
+   "tecnica": "DSC/TGA",
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 313,
+     "unita": "K"
+    },
+    {
+     "etichetta": "a",
+     "valore": 573,
+     "unita": "K"
+    }
+   ],
+   "citazione": "The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+   "note": "La velocita' (10 K/min) e il crogiolo sono nelle condizioni degli eventi."
+  },
+  {
+   "id": "X90",
+   "categoria": "termica",
+   "proprieta": "perdita di massa calcolata per la perdita di acido malonico neutro, 1BER-2MA-2W",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "perdita calcolata",
+     "forma": "F2",
+     "valore": 17.94,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "almost equivalent to the calculated uncharged malonic acid loss value of 17.94% based on the SCXRD data",
+   "note": "Calcolata dalla struttura SCXRD; la perdita misurata (17.80%) e' nell'evento 1BER-2MA-2W -> 1BER-1MA."
+  },
+  {
+   "id": "X91",
+   "categoria": "composizione",
+   "proprieta": "numero di molecole d'acqua per unita' asimmetrica da perdita di massa e da SCXRD",
+   "tecnica": "TGA",
+   "valori": [],
+   "qualitativo": "water molecules per asymmetric unit calculated from the TGA weight loss in accordance with the SCXRD data",
+   "citazione": "The calculated loss numbers of water for the asymmetric units based on the weight loss values were in accordance with the SCXRD data (Table 3 ▸).",
+   "note": "Il testo non da' i numeri di molecole d'acqua calcolati; Tabella 3 ha «Observed stoichiometry» e «Calculated stoichiometry» (voci successive)."
+  },
+  {
+   "id": "X92",
+   "categoria": "composizione",
+   "proprieta": "stechiometria osservata e calcolata, 1BER-2MA-2W (Tabella 3)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "observed stoichiometry",
+     "forma": "F2",
+     "testo": "1:2"
+    },
+    {
+     "etichetta": "calculated stoichiometry",
+     "forma": "F2",
+     "testo": "1:2"
+    }
+   ],
+   "citazione": "1BER-2MA-2W | 352.0 | 6.20 | 391.5 | 17.80 | 418.8 | – | 467.7 | 16.6 | 1:2 | 1:2",
+   "note": "Rapporti come testo. Il testo non dice a che cosa si riferiscono (BER:acido o BER:acqua: per queste forme i due rapporti coincidono)."
+  },
+  {
+   "id": "X93",
+   "categoria": "composizione",
+   "proprieta": "stechiometria osservata e calcolata, 1BER-1L-TA-1W (Tabella 3)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "observed stoichiometry",
+     "forma": "F3",
+     "testo": "1:1"
+    },
+    {
+     "etichetta": "calculated stoichiometry",
+     "forma": "F3",
+     "testo": "1:1"
+    }
+   ],
+   "citazione": "1BER-1L-TA-1W | 375.7 | 3.55 | 498.2 | 26.88 | – | – | – | – | 1:1 | 1:1",
+   "note": "Rapporti come testo. Il testo non dice a che cosa si riferiscono (BER:acido o BER:acqua: per queste forme i due rapporti coincidono)."
+  },
+  {
+   "id": "X94",
+   "categoria": "composizione",
+   "proprieta": "stechiometria osservata e calcolata, 1BER-1D-TA-1W (Tabella 3)",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "observed stoichiometry",
+     "forma": "F4",
+     "testo": "1:1"
+    },
+    {
+     "etichetta": "calculated stoichiometry",
+     "forma": "F4",
+     "testo": "1:1"
+    }
+   ],
+   "citazione": "1BER-1D-TA-1W | 379.9 | 3.65 | 497.8 | 27.78 | – | – | – | – | 1:1 | 1:1",
+   "note": "Rapporti come testo. Il testo non dice a che cosa si riferiscono (BER:acido o BER:acqua: per queste forme i due rapporti coincidono)."
+  },
+  {
+   "id": "X95",
+   "categoria": "termica",
+   "proprieta": "curva TGA piatta dopo fusione e decomposizione",
+   "tecnica": "TGA",
+   "valori": [],
+   "qualitativo": "TGA curves flat after melting and decomposition: the products may be pure solid phases",
+   "citazione": "Melting and decomposition appear to induce the formation of the novel compounds, and the TGA curves of all investigated samples after melting and decomposition seem flat to support this, which suggests that the products may be pure solid phases."
+  },
+  {
+   "id": "X96",
+   "categoria": "altro",
+   "proprieta": "uso delle nuove forme per preparare berberrubina",
+   "valori": [],
+   "qualitativo": "the novel salts could be used to prepare berberrubine (heating, FT-IR identification)",
+   "citazione": "Therefore, these novel salts could also be employed to prepare berberrubine.",
+   "note": "Applicazione proposta dagli autori, non un dato misurato."
+  },
+  {
+   "id": "X97",
+   "categoria": "metodo",
+   "proprieta": "FT-IR: intervallo di scansione e risoluzione",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 500,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "a",
+     "valore": 4000,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "risoluzione",
+     "valore": 4,
+     "unita": "cm-1"
+    }
+   ],
+   "citazione": "The scan range was set from 500 to 4000 cm−1 with a 4 cm−1 resolution."
+  },
+  {
+   "id": "X98",
+   "categoria": "spettroscopia",
+   "proprieta": "regione OH dell'FT-IR: posizione, numero e forma dei picchi differiscono fra le forme",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "regione OH da",
+     "valore": 3200,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "regione OH a",
+     "valore": 3800,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "positions, number and shape of the bands differ among the forms because of the distinct hydrogen interactions, except between 1BER-1lTA-1W and 1BER-1dTA-1W",
+   "citazione": "The peak position, number and shape in the regions 3200–3800 cm−1 and 1700–1800 cm−1 attributed to the characteristic OH and C=O absorptions were remarkably different among the samples obtained due to the distinct hydrogen interactions (Fig. S12), with the exception of 1BER-1lTA-1W and 1BER-1dTA-1W.",
+   "note": "Una voce per la regione OH (3200–3800 cm-1) e una per la regione C=O (1700–1800 cm-1) con la stessa frase; intervalli come due elementi «da»/«a». I singoli numeri d'onda delle bande non sono nel testo (Fig. S12)."
+  },
+  {
+   "id": "X99",
+   "categoria": "spettroscopia",
+   "proprieta": "regione C=O dell'FT-IR: posizione, numero e forma dei picchi differiscono fra le forme",
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "regione C=O da",
+     "valore": 1700,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "regione C=O a",
+     "valore": 1800,
+     "unita": "cm-1"
+    }
+   ],
+   "qualitativo": "positions, number and shape of the bands differ among the forms because of the distinct hydrogen interactions, except between 1BER-1lTA-1W and 1BER-1dTA-1W",
+   "citazione": "The peak position, number and shape in the regions 3200–3800 cm−1 and 1700–1800 cm−1 attributed to the characteristic OH and C=O absorptions were remarkably different among the samples obtained due to the distinct hydrogen interactions (Fig. S12), with the exception of 1BER-1lTA-1W and 1BER-1dTA-1W.",
+   "note": "Vedi la voce precedente (stessa frase)."
+  },
+  {
+   "id": "X100",
+   "categoria": "spettroscopia",
+   "proprieta": "uso dell'FT-IR per monitorare il cambio di forma",
+   "tecnica": "FT-IR",
+   "valori": [],
+   "qualitativo": "FT-IR used to follow the change of solid form (recrystallization product, stability samples, undissolved residues)",
+   "citazione": "FT-IR could effectively monitor the change in solid forms so was employed to analyse the recrystallization product, the stability of the obtained solid forms and the solid forms of the undissolved samples in the dissolution experiments."
+  },
+  {
+   "id": "X101",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR di 8H-HBER coerente con la letteratura",
+   "oggetto": {
+    "forma": "F15"
+   },
+   "tecnica": "FT-IR",
+   "valori": [],
+   "qualitativo": "FT-IR spectrum consistent with a previous report",
+   "citazione": "After five days, 8H-HBER precipitated and was analyzed using FT-IR; the FT-IR spectrum was consistent with a previous report (Dostál et al., 2004 ▸).",
+   "note": "Nessuna banda numerica nel testo."
+  },
+  {
+   "id": "X102",
+   "categoria": "computazionale",
+   "proprieta": "contributi principali alle superfici di Hirshfeld",
+   "tecnica": "Hirshfeld",
+   "valori": [],
+   "qualitativo": "O⋯H, C⋯H, H⋯H and C⋯C contacts contribute significantly",
+   "calcolato": true,
+   "citazione": "It is clear that the O⋯H, C⋯H, H⋯H and C⋯C interactions contribute significantly to the Hirshfeld surfaces."
+  },
+  {
+   "id": "X103",
+   "categoria": "computazionale",
+   "proprieta": "proporzione di contatti O⋯H, 1BER-2MA-2W contro 1BER-1MA",
+   "tecnica": "Hirshfeld",
+   "valori": [
+    {
+     "etichetta": "contatti O⋯H, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 46.4,
+     "unita": "%"
+    },
+    {
+     "etichetta": "contatti O⋯H, 1BER-1MA",
+     "forma": "F1",
+     "valore": 36.4,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "An increasing proportion of the strong O⋯H interactions – with 46.4% in 1BER-2MA-W – was observed because two water molecules and one additional MA molecule are incorporated into the crystal structure compared with 36.4% in 1BER-1MA, and there is no obvious difference in packing coefficient between 1BER-1MA and 1BER-2MA-2W.",
+   "note": "Il testo scrive «1BER-2MA-W» per 1BER-2MA-2W. Percentuali della superficie di Hirshfeld (Fig. 8)."
+  },
+  {
+   "id": "X104",
+   "categoria": "computazionale",
+   "proprieta": "implicazione della proporzione O⋯H sulla formazione di 1BER-2MA-2W",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "stronger connection between molecules in 1BER-2MA-2W; its formation over 1BER-1MA is favoured when the water content and the MA:BER ratio increase",
+   "citazione": "This implies a stronger connection between the molecules in 1BER-2MA-2W. Thus, it is favourable for the formation of 1BER-2MA-2W over 1BER-1MA when the water content in solution and molar ratio of MA to BER increase to a certain extent.",
+   "note": "Interpretazione degli autori sulla preparazione (vedi le preparazioni di F1 e F2)."
+  },
+  {
+   "id": "X105",
+   "categoria": "computazionale",
+   "proprieta": "equazione del coefficiente di impacchettamento",
+   "tecnica": "PLATON",
+   "valori": [],
+   "qualitativo": "Ck = Z Vmol / Vcell (Z molecole per cella, Vmol volume molecolare, Vcell volume di cella)",
+   "calcolato": true,
+   "citazione": "C k = ZV mol V cell −1",
+   "note": "Formula come scritta dal PDF."
+  },
+  {
+   "id": "X106",
+   "categoria": "computazionale",
+   "proprieta": "coefficienti di impacchettamento",
+   "tecnica": "PLATON",
+   "valori": [
+    {
+     "etichetta": "coefficiente di impacchettamento, 1BER-1MA",
+     "forma": "F1",
+     "valore": 73.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "coefficiente di impacchettamento, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 73.0,
+     "unita": "%"
+    },
+    {
+     "etichetta": "coefficiente di impacchettamento, 1BER-1lTA-1W",
+     "forma": "F3",
+     "valore": 75.3,
+     "unita": "%"
+    },
+    {
+     "etichetta": "coefficiente di impacchettamento, 1BER-1dTA-1W",
+     "forma": "F4",
+     "valore": 75.6,
+     "unita": "%"
+    },
+    {
+     "etichetta": "coefficiente di impacchettamento, 2BER-2CA",
+     "forma": "F6",
+     "valore": 69.6,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The packing coefficients for 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W and 2BER-2CA were determined to be 73.8, 73.0, 75.3, 75.6 and 69.6%, respectively."
+  },
+  {
+   "id": "X107",
+   "categoria": "metodo",
+   "proprieta": "test di stabilita': incertezza sui valori di T e RH",
+   "tecnica": "IR",
+   "valori": [
+    {
+     "etichetta": "40% ± 5% (alta temperatura)",
+     "valore": 40,
+     "incertezza": 5,
+     "unita": "%"
+    },
+    {
+     "etichetta": "90% ± 5% (alta umidita')",
+     "valore": 90,
+     "incertezza": 5,
+     "unita": "%"
+    }
+   ],
+   "citazione": "high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%)",
+   "note": "L'incertezza ± 5% non ha un campo nelle condizioni degli eventi. Il testo non scrive «RH»; per il 90% e' implicita da «high humidity». Il 40% e' letto come RH dagli eventi (vedi le loro note)."
+  },
+  {
+   "id": "X108",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "stabilita' delle nuove forme rispetto alla forma commerciale",
+   "tecnica": "IR",
+   "valori": [],
+   "qualitativo": "significant enhancement in stability of the novel solid forms compared with the commercial form",
+   "citazione": "In comparison with the commercial form of BER, significant enhancement in stability was achieved for the novel solid forms."
+  },
+  {
+   "id": "X109",
+   "categoria": "metodo",
+   "proprieta": "dissoluzione: setacciatura dei campioni",
+   "valori": [
+    {
+     "etichetta": "setaccio",
+     "valore": 100,
+     "unita": "mesh"
+    }
+   ],
+   "citazione": "All solid-state samples were sieved through a 100-mesh screen before dissolution experiments were performed."
+  },
+  {
+   "id": "X110",
+   "categoria": "metodo",
+   "proprieta": "dissoluzione: preparazione della soluzione standard di 1BER-1HCl-M",
+   "oggetto": {
+    "forma": "F10"
+   },
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "massa",
+     "forma": "F10",
+     "valore": 5,
+     "unita": "mg",
+     "circa": true
+    },
+    {
+     "etichetta": "volume",
+     "valore": 100,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "pH",
+     "valore": 1.2
+    }
+   ],
+   "citazione": "Approximately 5 mg of 1BER-1HCl-M (accurately weighed) was dissolved in 100 ml hydro­chloric acid solution (pH = 1.2).",
+   "note": "«Approximately»: circa. Soluzione per la curva di calibrazione (Seven primary standard solutions...)."
+  },
+  {
+   "id": "X111",
+   "categoria": "metodo",
+   "proprieta": "dissoluzione: tempi di prelievo e filtrazione",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 5,
+     "unita": "min"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 10,
+     "unita": "min"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 20,
+     "unita": "min"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 30,
+     "unita": "min"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 45,
+     "unita": "min"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 1,
+     "unita": "h"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 1.5,
+     "unita": "h"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 2,
+     "unita": "h"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 3,
+     "unita": "h"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 24,
+     "unita": "h"
+    },
+    {
+     "etichetta": "tempo di prelievo",
+     "valore": 48,
+     "unita": "h"
+    },
+    {
+     "etichetta": "porosita' delle membrane",
+     "valore": 0.2,
+     "unita": "µm"
+    }
+   ],
+   "citazione": "The suspensions were removed at 5, 10, 20, 30 and 45 min; and 1, 1.5, 2, 3, 24 and 48 h, and filtered through 0.2 µm membrane filters."
+  },
+  {
+   "id": "X112",
+   "categoria": "metodo",
+   "proprieta": "dissoluzione: lunghezza d'onda di rivelazione UV",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "lunghezza d'onda",
+     "valore": 340,
+     "unita": "nm"
+    }
+   ],
+   "citazione": "The detection wavelength was set to 340 nm."
+  },
+  {
+   "id": "X113",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "MAS in acqua pura: effetto dell'affinita' del controione per l'acqua",
+   "valori": [],
+   "qualitativo": "MAS of the salts markedly affected by the affinity of the counter-ion to water; malonate the most soluble",
+   "citazione": "It is obvious that the MAS of the novel salts was markedly affected by the affinity of the counter-ion to water. Among these organic acids, MA exhibits the best solubility. Therefore, the MAS of BER malonate was significantly higher than that of the other BER salts.",
+   "note": "Le MAS numeriche sono nelle `molecole`."
+  },
+  {
+   "id": "X114",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "1BER-1MA contro 1BER-2MA-2W: stesso controione, impacchettamento simile, diversa solubilita'",
+   "valori": [
+    {
+     "etichetta": "contatti O⋯H, 1BER-1MA",
+     "forma": "F1",
+     "valore": 36.4,
+     "unita": "%"
+    },
+    {
+     "etichetta": "contatti O⋯H, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 46.4,
+     "unita": "%"
+    }
+   ],
+   "qualitativo": "1BER-1MA more soluble than 1BER-2MA-2W, attributed (\"may be\") to the lower proportion of O⋯H contacts",
+   "calcolato": true,
+   "citazione": "In addition, 1BER-1MA and 1BER-2MA-2W included the same type of counter-ion as malonic acid and had similar packing indexes, but the former displayed better solubility, which may be attributed to the weaker intermolecular interactions with a lower proportion of O⋯H interactions (36.4%) compared with 1BER-2MA-2W (46.4%).",
+   "note": "Stessi valori della voce sui contatti di Hirshfeld; qui l'interpretazione sulla solubilita' (dubitativa: «may be attributed»). Percentuali di Hirshfeld, quindi calcolato."
+  },
+  {
+   "id": "X115",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "effetto della chiralita' dell'acido tartarico sulla MAS e regola di Wallach",
+   "valori": [],
+   "qualitativo": "chirality of TA affects the MAS; accordance with Wallach's rule (racemic crystals denser than chiral ones)",
+   "citazione": "In particular, the effect of chirality of TA on the MAS of the final products was clearly related to their solubilities. This phenomenon was in accordance with Wallach’s rule (Brock et al., 1991 ▸; Wang et al., 2012 ▸) which states that racemic crystals have a higher density relative to their chiral counterparts.",
+   "note": "Regola citata da Brock et al., 1991 e Wang et al., 2012."
+  },
+  {
+   "id": "X116",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "2BER-2CA contro i tartrati: coefficiente di impacchettamento e MAS",
+   "valori": [
+    {
+     "etichetta": "coefficiente di impacchettamento, 2BER-2CA",
+     "forma": "F6",
+     "valore": 69.6,
+     "unita": "%"
+    },
+    {
+     "etichetta": "coefficiente di impacchettamento, 1BER-1lTA-1W",
+     "forma": "F3",
+     "valore": 75.3,
+     "unita": "%"
+    },
+    {
+     "etichetta": "coefficiente di impacchettamento, 1BER-1dTA-1W",
+     "forma": "F4",
+     "valore": 75.6,
+     "unita": "%"
+    }
+   ],
+   "qualitativo": "MAS of 2BER-2CA significantly improved over the tartrates, attributed to its smaller packing coefficient",
+   "calcolato": true,
+   "citazione": "Solubility of CA was slightly greater than that of dTA/lTA. However, significant improvement in the MAS for 2BER-2CA was achieved compared with 1BER-1lTA-1W and 1BER-1dTA-1W, which resulted from a smaller packing coefficient of 2BER-2CA with 69.6% relative to that of 1BER-1lTA-1W with 75.3% and 1BER-1dTA-1W with 75.6%.",
+   "note": "Stessi valori della voce sui coefficienti di impacchettamento."
+  },
+  {
+   "id": "X117",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "aumento di MAS di 1BER-1MA in acido cloridrico diluito: abstract",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "MAS di 1BER-1MA / MAS della forma commerciale, abstract",
+     "forma": "F1",
+     "valore": 34,
+     "unita": "times"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "In particular, the MAS of 1BER-1MA in dilute hydro­chloric solution is as high as 34 times that of the commercial form.",
+   "note": "Incoerenza dell'articolo: l'abstract dice 34 volte, il testo dei risultati «33-fold» (voce successiva). Dai valori scritti (68.8 e 2.1 µmol/ml) il rapporto e' circa 32.8 (conto di controllo mio, non un numero scritto)."
+  },
+  {
+   "id": "X118",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "ordine delle MAS in acido cloridrico diluito e aumento per 1BER-1MA",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "MAS di 1BER-1MA / MAS della forma commerciale, risultati",
+     "forma": "F1",
+     "valore": 33,
+     "unita": "-fold"
+    }
+   ],
+   "qualitativo": "order of MAS in HCl as in pure water except 1BER-1HCl-M (lowest, possibly common ion effect); all novel forms notably higher than the commercial form",
+   "calcolato": true,
+   "citazione": "The MAS order in dilute hydro­chloric solution for the samples was in agreement with that in pure water, except for 1BER-1HCl-M with the lowest MAS, which may be the result of the common ion effect. The MAS of all the samples obtained was notably higher than that of the commercial form (1BER-1HCl-M), especially 1BER-1MA with a 33-fold increase.",
+   "note": "Vedi l'incoerenza 34 contro 33 nella voce dell'abstract. Unita' «-fold» come scritta («33-fold increase»)."
+  },
+  {
+   "id": "X119",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "aumento di MAS in acqua pura rispetto alla forma commerciale: conclusioni",
+   "valori": [
+    {
+     "etichetta": "MAS / MAS commerciale, 1BER-1MA",
+     "forma": "F1",
+     "valore": 23,
+     "unita": "-fold"
+    },
+    {
+     "etichetta": "MAS / MAS commerciale, 1BER-2MA-2W",
+     "forma": "F2",
+     "valore": 6,
+     "unita": "-fold"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The MAS values of BER-1MA and 1BER-2MA-2W in pure water, which show an increase of 23- and 6-fold, respectively, are obviously superior to that of the commercial form of BER.",
+   "note": "Il testo scrive «BER-1MA» per 1BER-1MA. I rapporti non sono ripetuti nei risultati (ricavabili dalle MAS in acqua, 149.5/6.5 e 41.9/6.5: conto di controllo mio)."
+  },
+  {
+   "id": "X120",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "effetto dello ione comune escluso come causa della minore MAS di 1BER-2MA-2W",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "common ion effect not the cause of the lower MAS of 1BER-2MA-2W compared with 1BER-1MA",
+   "citazione": "Hence, the common ion effect was not the cause of the lower MAS of 1BER-2MA-2W compared with 1BER-1MA.",
+   "note": "La frase precedente del testo («1BER-2MA-2W did not convert to 1BER-1MA in pure water») e' una citazione dell'evento negativo in sospensione."
+  },
+  {
+   "id": "X121",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' apparenti a 48 h piu' alte di quella di 1BER-1HCl-4W da 1BER-1HCl-M",
+   "oggetto": {
+    "forma": "F12"
+   },
+   "valori": [],
+   "qualitativo": "final apparent solubilities after conversion to 1BER-1HCl-4W are different from each other and significantly greater than that of 1BER-1HCl-4W derived from 1BER-1HCl-M",
+   "citazione": "Note that all the investigated salts underwent transformation to 1BER-1HCl-4W, but their final apparent solubilities were different and significantly greater than that of 1BER-1HCl-4W derived from 1BER-1HCl-M.",
+   "note": "Valori a 48 h nelle `molecole`. Incoerenza: per 1BER-1dl-TA la solubilita' apparente a 48 h (5.1 µmol/ml) e' maggiore della MAS in acido cloridrico (4.5 µmol/ml), mentre il testo dice che i valori a 48 h sono «below their MAS»."
+  },
+  {
+   "id": "X122",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "correlazione fra velocita' di conversione e MAS",
+   "valori": [],
+   "qualitativo": "possible positive correlation between the conversion rate to 1BER-1HCl-4W and the MAS",
+   "citazione": "This signifies that there may be a positive correlation between the conversion rate and the MAS of the distinct salts."
+  },
+  {
+   "id": "X123",
+   "categoria": "sintesi",
+   "proprieta": "preparazione di 8H-HBER: quantita' di BER idrogenosolfato e acqua",
+   "oggetto": {
+    "forma": "F15"
+   },
+   "valori": [
+    {
+     "etichetta": "massa di BER hydrogensulfate",
+     "valore": 200,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "volume d'acqua",
+     "valore": 45,
+     "unita": "ml"
+    }
+   ],
+   "citazione": "After complete dissolution of 200 mg of BER hydrogensulfate in water (45 ml)"
+  },
+  {
+   "id": "X124",
+   "categoria": "sintesi",
+   "proprieta": "preparazione di 8H-HBER: estrazione con etere dietilico",
+   "oggetto": {
+    "forma": "F15"
+   },
+   "valori": [
+    {
+     "etichetta": "numero di estrazioni",
+     "valore": 3
+    },
+    {
+     "etichetta": "volume di etere dietilico per estrazione",
+     "valore": 20,
+     "unita": "ml"
+    }
+   ],
+   "citazione": "Then, the mixture was extracted three times with 20 ml di­ethyl ether.",
+   "note": "«three times» in lettere: 3."
+  },
+  {
+   "id": "X125",
+   "categoria": "sintesi",
+   "proprieta": "quantita' per 1BER-1MA / 1BER-2MA-2W: miscela 8H-HBER e MA",
+   "valori": [
+    {
+     "etichetta": "massa della miscela 8H-HBER + MA",
+     "valore": 50,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "rapporto molare 8H-HBER:MA",
+     "testo": "1:1 or 1:2"
+    }
+   ],
+   "citazione": "After complete dissolution of 50 mg of the 8H-HBER and MA mixture (molar ratio 1:1 or 1:2)",
+   "note": "Un campione per ogni prova; i volumi dei solventi stanno in Table S1 (supplementare). Rapporti come testo."
+  },
+  {
+   "id": "X126",
+   "categoria": "sintesi",
+   "proprieta": "quantita' per 1BER-1lTA-1W e 1BER-1dTA-1W: miscela 8H-HBER e acido",
+   "valori": [
+    {
+     "etichetta": "massa della miscela 8H-HBER + acido",
+     "valore": 50,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "rapporto molare",
+     "testo": "1:1"
+    },
+    {
+     "etichetta": "volume di acetone",
+     "valore": 3,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "volume d'acqua",
+     "valore": 4,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "rapporto in volume acetone:acqua",
+     "testo": "3 ml:4 ml"
+    }
+   ],
+   "citazione": "After complete dissolution of 50 mg of the 8H-HBER and acid mixture (molar ratio 1:1) in the mixed acetone–water solvent (v/v = 3 ml:4 ml)",
+   "note": "Il testo non dice a quale dei due solventi appartiene ciascun volume: «acetone–water (v/v = 3 ml:4 ml)», attribuzione per ordine di scrittura."
+  },
+  {
+   "id": "X127",
+   "categoria": "sintesi",
+   "proprieta": "quantita' per 1BER-1dlTA: miscela 8H-HBER e dlTA",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "valori": [
+    {
+     "etichetta": "massa della miscela 8H-HBER + dlTA",
+     "valore": 50,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "rapporto molare",
+     "testo": "1:1"
+    },
+    {
+     "etichetta": "volume di acetone",
+     "valore": 5,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "volume d'acqua",
+     "valore": 5,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "rapporto in volume acetone:acqua",
+     "testo": "5 ml:5 ml"
+    }
+   ],
+   "citazione": "After complete dissolution of 50 mg of the 8H-HBER and dlTA mixture (molar ratio 1:1) in the acetone–water solvent (v/v = 5 ml:5 ml)",
+   "note": "Attribuzione dei volumi per ordine di scrittura (acetone–water)."
+  },
+  {
+   "id": "X128",
+   "categoria": "sintesi",
+   "proprieta": "quantita' per 2BER-2CA: miscela 8H-HBER e CA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [
+    {
+     "etichetta": "massa della miscela 8H-HBER + CA",
+     "valore": 50,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "rapporto molare",
+     "testo": "1:1"
+    },
+    {
+     "etichetta": "volume di acetone",
+     "valore": 1.5,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "volume d'acqua",
+     "valore": 2.5,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "rapporto in volume acetone:acqua",
+     "testo": "1.5 ml:2.5 ml"
+    }
+   ],
+   "citazione": "After complete dissolution of 50 mg of the 8H-HBER and CA mixture (molar ratio 1:1) in the acetone–water solvent (v/v = 1.5 ml:2.5 ml)",
+   "note": "Attribuzione dei volumi per ordine di scrittura (acetone–water)."
+  },
+  {
+   "id": "X129",
+   "categoria": "composizione",
+   "proprieta": "purezza di 8H-HBER (HPLC)",
+   "oggetto": {
+    "forma": "F15"
+   },
+   "tecnica": "HPLC",
+   "valori": [
+    {
+     "etichetta": "purezza",
+     "valore": 98,
+     "unita": "%",
+     "limite": "sopra"
+    }
+   ],
+   "citazione": "8H-HBER (dark yellow powder) was prepared in our laboratory, and its purification confirmed by HPLC was >98%."
+  },
+  {
+   "id": "X130",
+   "categoria": "morfologia",
+   "proprieta": "colore e aspetto di 8H-HBER",
+   "oggetto": {
+    "forma": "F15"
+   },
+   "valori": [],
+   "qualitativo": "dark yellow powder",
+   "citazione": "8H-HBER (dark yellow powder) was prepared in our laboratory, and its purification confirmed by HPLC was >98%."
+  },
+  {
+   "id": "X131",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di 1BER-1MA e 1BER-2MA-2W",
+   "valori": [
+    {
+     "etichetta": "abito, 1BER-1MA",
+     "forma": "F1",
+     "testo": "needle-like"
+    },
+    {
+     "etichetta": "abito, 1BER-2MA-2W",
+     "forma": "F2",
+     "testo": "needle-like"
+    }
+   ],
+   "citazione": "After five days, needle-like crystals were harvested.",
+   "note": "Frase unica del paragrafo 2.2.2 per le due forme."
+  },
+  {
+   "id": "X132",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di 1BER-1lTA-1W e 1BER-1dTA-1W",
+   "valori": [
+    {
+     "etichetta": "abito, 1BER-1lTA-1W",
+     "forma": "F3",
+     "testo": "needle-like"
+    },
+    {
+     "etichetta": "abito, 1BER-1dTA-1W",
+     "forma": "F4",
+     "testo": "needle-like"
+    }
+   ],
+   "citazione": "After four days, needle-like crystals were harvested.",
+   "note": "Frase del paragrafo 2.2.3 per le due forme."
+  },
+  {
+   "id": "X133",
+   "categoria": "morfologia",
+   "proprieta": "abito dei cristalli di 2BER-2CA",
+   "oggetto": {
+    "forma": "F6"
+   },
+   "valori": [
+    {
+     "etichetta": "abito, 2BER-2CA",
+     "forma": "F6",
+     "testo": "needle-like"
+    }
+   ],
+   "citazione": "After two days, needle-like crystals were harvested."
+  },
+  {
+   "id": "X134",
+   "categoria": "altro",
+   "proprieta": "numero di voci CSD per la berberina",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "voci CSD per BER",
+     "valore": 30,
+     "limite": "sopra"
+    }
+   ],
+   "citazione": "A Cambridge Structural Database (CSD) search combined with a literature retrieval showed that there are more than 30 hits for BER",
+   "note": "Valore dell'introduzione, ricerca fatta dagli autori. «more than 30»."
+  },
+  {
+   "id": "X135",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "solubilita' di sali di berberina da altri lavori contro 1BER-1HCl-M",
+   "valori": [],
+   "qualitativo": "solid forms of BER from the hydrochloride: stability solved but no substantial solubility improvement vs 1BER-1HCl-M; BER acesulfame and BER saccharine less soluble than 1BER-1HCl-M",
+   "citazione": "As a result, the stability issue was indeed resolved, but no substantial improvement in solubility of the products was achieved compared with 1BER-1HCl-M; the solubilities of some of the products such as BER acesulfame and BER saccharine are lower than that of 1BER-1HCl-M (Wang et al., 2016 ▸).",
+   "note": "Citato dal rif. Wang et al., 2016 (e dagli altri lavori della frase precedente)."
+  },
+  {
+   "id": "X136",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "stabilita' e solubilita' scarse della forma commerciale del cloridrato",
+   "oggetto": {
+    "forma": "F10"
+   },
+   "valori": [],
+   "qualitativo": "commercial hydrochloride form: poor stability and solubility",
+   "citazione": "However, its commercial form with hydro­chloride exhibits poor stability and solubility, which are detrimental to its clinical therapeutic effects.",
+   "note": "Affermazione dell'introduzione senza numeri."
+  },
+  {
+   "id": "X137",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "MAS di tutte le forme migliorate in acido cloridrico diluito rispetto alla forma commerciale (abstract)",
+   "tecnica": "UV",
+   "valori": [
+    {
+     "etichetta": "pH del mezzo",
+     "valore": 1.2
+    }
+   ],
+   "qualitativo": "MAS of all the products significantly improved compared with the commercial form in dilute hydrochloric solution",
+   "citazione": "Furthermore, dissolution experiments demonstrated that the maximum apparent solubilities (MAS) of all the products were significantly improved compared with the commercial form of BER in dilute hydro­chloric solution (pH = 1.2).",
+   "note": "Frase dell'abstract; le MAS numeriche sono nelle `molecole`."
+  },
+  {
+   "id": "X138",
+   "categoria": "metodo",
+   "proprieta": "durata del test di stabilita' (risultati)",
+   "tecnica": "IR",
+   "valori": [
+    {
+     "etichetta": "durata",
+     "valore": 10,
+     "unita": "day"
+    }
+   ],
+   "citazione": "In this study, the stability of the synthesized products against high humidity and high temperature over 10 days were evaluated.",
+   "note": "Stessa durata della frase dei metodi, citata nelle condizioni degli eventi di stabilita'."
+  },
+  {
+   "id": "X139",
+   "categoria": "metodo",
+   "proprieta": "analisi FT-IR dei residui di dissoluzione a 3 e 48 h",
+   "tecnica": "IR",
+   "valori": [
+    {
+     "etichetta": "tempo del residuo analizzato",
+     "valore": 3,
+     "unita": "h"
+    },
+    {
+     "etichetta": "tempo del residuo analizzato",
+     "valore": 48,
+     "unita": "h"
+    }
+   ],
+   "citazione": "Given that the solid form is largely related to solubility, all the residual solid forms were analysed after 3 and 48 h by FT-IR (Table 5 ▸).",
+   "note": "Stessi tempi della frase dei metodi; vedi gli eventi in sospensione."
+  },
+  {
+   "id": "X140",
+   "categoria": "composizione",
+   "proprieta": "componenti di 1BER-1dlTA dedotti dalla TGA/DSC dei tre tartrati",
+   "oggetto": {
+    "forma": "F5"
+   },
+   "tecnica": "DSC/TGA",
+   "valori": [
+    {
+     "etichetta": "rapporto molare BER:dlTA",
+     "forma": "F5",
+     "testo": "1:1"
+    }
+   ],
+   "citazione": "It is inferred from TGA/DSC data of three BER tartrates that the components in 1BER-1dl-TA were determined to be BER cations and racemic TA anions with a molar ratio of 1:1.",
+   "note": "Frase delle Conclusioni; 1BER-1dlTA non ha struttura SCXRD. Rapporto come testo."
+  },
+  {
+   "id": "X141",
+   "categoria": "cristallografia",
+   "proprieta": "gruppo spaziale come scritto in Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "gruppo spaziale, 1BER-1MA (100 K)",
+     "forma": "F1",
+     "testo": "P21 c"
+    },
+    {
+     "etichetta": "gruppo spaziale, 1BER-1MA-1 (293 K)",
+     "forma": "F1",
+     "testo": "P21 c"
+    },
+    {
+     "etichetta": "gruppo spaziale, 1BER-2MA-2W",
+     "forma": "F2",
+     "testo": "P 1"
+    },
+    {
+     "etichetta": "gruppo spaziale, 1BER-1LTA-1W",
+     "forma": "F3",
+     "testo": "P21"
+    },
+    {
+     "etichetta": "gruppo spaziale, 1BER-1DTA-1W",
+     "forma": "F4",
+     "testo": "P21"
+    },
+    {
+     "etichetta": "gruppo spaziale, 2BER-2CA",
+     "forma": "F6",
+     "testo": "P 1"
+    }
+   ],
+   "citazione": "Space group | P21 c | P21 c | P 1 | P21 | P21 | P 1",
+   "note": "Colonne di Tabella 1 nell'ordine 1BER-1MA (100 K), 1BER-1MA-1 (293 K, stessa forma F1 a T ambiente), 1BER-2MA-2W, 1BER-1LTA-1W, 1BER-1DTA-1W, 2BER-2CA. Simboli come letti dal PDF (barra e pedici persi: «P21 c» = P21/c nel testo; «P 1» = P-1 ricostruito, vedi forme[F2] e forme[F6]). `forme.gruppo_spaziale` e' il simbolo normalizzato."
+  }
+ ]
+}

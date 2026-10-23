@@ -1,0 +1,1500 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1021/acs.cgd.2c00035",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "sintesi",
+   "proprieta": "cristallizzazione da soluzione: quantita' e rapporto",
+   "valori": [
+    {
+     "etichetta": "massa di pyr o tmp",
+     "valore": 25,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "coformero(i) rispetto a pyr o tmp",
+     "valore": 1,
+     "unita": "mol equiv"
+    }
+   ],
+   "citazione": "25 mg of pyr or tmp and 1 mol equiv of the respective coformer(s) were dissolved in the minimum amount of solvent, and the solvent was allowed to slowly evaporate from an open vial.",
+   "note": "Quantita' gia' presenti come stringhe nelle preparazioni; qui in forma numerica."
+  },
+  {
+   "id": "X2",
+   "categoria": "metodo",
+   "proprieta": "macinazione: massa del campione, provetta, liquido e sfera",
+   "valori": [
+    {
+     "etichetta": "massa totale da",
+     "valore": 120,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "massa totale a",
+     "valore": 150,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "volume della provetta",
+     "valore": 2,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "volume di solvente",
+     "valore": 20,
+     "unita": "μL"
+    },
+    {
+     "etichetta": "diametro della sfera",
+     "valore": 5,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "Equimolar mixtures of tmp or pyr and the respective coformer(s) (120–150 mg in total, Table S1) were placed in 2 mL Eppendorf tubes. 20 μL of solvent and one 5 mm diameter stainless steel ball were added to each sample.",
+   "note": "Intervallo della massa come due elementi «da»/«a»; le masse esatte stanno in Table S1 (supplementare). «one» sfera di acciaio inox. Ripetuto in forma numerica rispetto ai parametri di macinazione degli eventi."
+  },
+  {
+   "id": "X3",
+   "categoria": "metodo",
+   "proprieta": "macinazione: supporto dei campioni e mulino",
+   "valori": [
+    {
+     "etichetta": "numero di provette del portacampioni",
+     "valore": 6
+    },
+    {
+     "etichetta": "frequenza",
+     "valore": 25,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "durata",
+     "valore": 20,
+     "unita": "min"
+    }
+   ],
+   "citazione": "The Eppendorf tubes were placed in an in-house 3D-printed six-tube sample holder. An oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) was used to mill the samples at 25 Hz for 20 min.",
+   "note": "«six-tube» = sei provette (in lettere). Frequenza e durata sono anche nei parametri di macinazione degli eventi."
+  },
+  {
+   "id": "X4",
+   "categoria": "metodo",
+   "proprieta": "sublimazione: provetta e riscaldatori",
+   "valori": [
+    {
+     "etichetta": "prima dimensione della provetta",
+     "valore": 15,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "seconda dimensione della provetta",
+     "valore": 160,
+     "unita": "mm"
+    }
+   ],
+   "citazione": "Equimolar ratios of pyr and az were sublimed from both ends of a standard 15 × 160 mm test tube sealed under vacuum.",
+   "note": "Il testo scrive «15 × 160 mm test tube»: le due dimensioni nell'ordine scritto, senza dire quale sia il diametro."
+  },
+  {
+   "id": "X5",
+   "categoria": "metodo",
+   "proprieta": "sospensione: recipiente",
+   "valori": [
+    {
+     "etichetta": "massa di ciascun campione",
+     "valore": 20,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "volume di metanolo",
+     "valore": 1,
+     "unita": "mL"
+    },
+    {
+     "etichetta": "diametro del vial",
+     "valore": 10,
+     "unita": "mm"
+    },
+    {
+     "etichetta": "durata",
+     "valore": 48,
+     "unita": "h"
+    }
+   ],
+   "citazione": "20 mg of each sample was mixed with 1 mL of methanol in a 10 mm diameter glass vial and the mixture was stirred for 48 h at room temperature",
+   "note": "Gli stessi valori sono nei Metodi come condizioni degli eventi di sospensione."
+  },
+  {
+   "id": "X6",
+   "categoria": "metodo",
+   "proprieta": "sospensione: asciugatura prima della XRPD",
+   "valori": [
+    {
+     "etichetta": "temperatura di asciugatura",
+     "valore": 40,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "durata dell'asciugatura",
+     "valore": 6,
+     "unita": "h"
+    }
+   ],
+   "citazione": "followed by drying in a vacuum oven at 40 °C for 6 h and recording the powder X-ray pattern.",
+   "note": "Trattamento fra la sospensione e la misura XRPD, non riportato nelle condizioni degli eventi di sospensione se non in nota."
+  },
+  {
+   "id": "X7",
+   "categoria": "metodo",
+   "proprieta": "DSC: intervallo di scansione",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 20,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "a",
+     "valore": 300,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min.",
+   "note": "La velocita' (10 °C/min) e' nelle condizioni degli eventi."
+  },
+  {
+   "id": "X8",
+   "categoria": "metodo",
+   "proprieta": "XRPD: radiazione, tensione, corrente e intervallo 2θ",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "lunghezza d'onda",
+     "valore": 1.54178,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "tensione",
+     "valore": 35,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "corrente",
+     "valore": 25,
+     "unita": "mA"
+    },
+    {
+     "etichetta": "2θ da",
+     "valore": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ a",
+     "valore": 90,
+     "unita": "°"
+    }
+   ],
+   "citazione": "Cu Kα radiation (λ = 1.54178 Å, 35 kV, 25 mA) was used, and data were collected between 2θ 5 and 90°."
+  },
+  {
+   "id": "X9",
+   "categoria": "metodo",
+   "proprieta": "CASTEP: taglio dell'onda piana",
+   "tecnica": "CASTEP",
+   "valori": [
+    {
+     "etichetta": "cutoff",
+     "valore": 843,
+     "unita": "eV"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "A plane-wave basis-set cutoff of 843 eV was used in all calculations."
+  },
+  {
+   "id": "X10",
+   "categoria": "computazionale",
+   "proprieta": "CASTEP: funzionale, dispersione e pseudopotenziali",
+   "tecnica": "CASTEP",
+   "valori": [],
+   "qualitativo": "PBEsol functional with Tkatchenko–Scheffler dispersion correction; on-the-fly norm-conserving pseudopotentials",
+   "calcolato": true,
+   "citazione": "The PBEsol functional38 was used in combination with the Tkatchenko and Scheffler,39 and dispersion correction and on-the-fly norm conserving pseudopotentials were employed.",
+   "note": "Nel testo i numeri 38 e 39 sono rimandi bibliografici."
+  },
+  {
+   "id": "X11",
+   "categoria": "computazionale",
+   "proprieta": "CASTEP: griglia dei punti k e energia per unita' formula",
+   "tecnica": "CASTEP",
+   "valori": [
+    {
+     "etichetta": "minidistanza dei punti k",
+     "valore": 20,
+     "unita": "Å"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Kpoints were calculated with a “minidistance” of 20 Å using getKPoints software.36",
+   "note": "Il «36» finale e' un rimando bibliografico. Entalpie di reticolo a celle fisse («fixed unit cell dimensions»); energia per unita' formula = Ecell/Z."
+  },
+  {
+   "id": "X12",
+   "categoria": "computazionale",
+   "proprieta": "CASTEP: entalpie di reticolo con celle fisse",
+   "tecnica": "CASTEP",
+   "valori": [],
+   "qualitativo": "lattice enthalpies calculated with fixed unit cell dimensions",
+   "calcolato": true,
+   "citazione": "CASTEP version 20.1135 was used to calculate lattice enthalpies with fixed unit cell dimensions using a PC or the ICHEC National HPC service.",
+   "note": "«20.1135»: versione 20.1 con il rimando bibliografico 35 attaccato dal PDF (come i refcode con rimando). Nessun numero estratto."
+  },
+  {
+   "id": "X13",
+   "categoria": "computazionale",
+   "proprieta": "energia per unita' formula",
+   "tecnica": "CASTEP",
+   "valori": [],
+   "qualitativo": "energy per formula unit = Ecell/Z",
+   "calcolato": true,
+   "citazione": "The energy per formula unit was given by Ecell/Z."
+  },
+  {
+   "id": "X14",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Tabella 1, keto: sito di legame e sintone",
+   "valori": [
+    {
+     "etichetta": "tmp",
+     "forma": "F17",
+     "testo": "1:1; salt; DA site; R12(5), R21(6)a"
+    },
+    {
+     "etichetta": "pyr",
+     "testo": "1:1; salt; DA site; R22(8)b"
+    }
+   ],
+   "citazione": "Keto | 1:1; salt; DA site; R12(5), R21(6)a | 1:1; salt; DA site; R22(8)b",
+   "note": "Colonne «tmp» e «pyr» di Tabella 1: stechiometria; sale/cocristallo; sito di legame (DA/DAD); motivo H. Le lettere minuscole attaccate (a–e) sono lettere di nota di tabella: il testo delle note non e' nel corpus letto. La colonna pyr e' il sale (pyr+)(keto–) della letteratura (rif. 50 nel testo: «(Pyr+)(keto–)50 ... have the typical R22(8) motif»), senza forma estratta."
+  },
+  {
+   "id": "X15",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Tabella 1, ox: sito di legame e sintone",
+   "valori": [
+    {
+     "etichetta": "tmp",
+     "testo": "2:1; salt; DA site; R12(5), R21(6)a"
+    },
+    {
+     "etichetta": "pyr",
+     "testo": "2:1.5; salt; DA site; R22(8)c"
+    }
+   ],
+   "citazione": "Ox | 2:1; salt; DA site; R12(5), R21(6)a | 2:1.5; salt; DA site; R22(8)c",
+   "note": "Colonne «tmp» e «pyr» di Tabella 1: stechiometria; sale/cocristallo; sito di legame (DA/DAD); motivo H. Le lettere minuscole attaccate (a–e) sono lettere di nota di tabella: il testo delle note non e' nel corpus letto. La colonna tmp vale per i due sali (tmp+)2(ox2–)·2CH3OH e ·6.5H2O (il testo dice che R21(6) e R12(5) sono in entrambi): nessuna forma unica. La colonna pyr 2:1.5 e' il sale noto (pyr+)2(ox–)(ox2–)0.5·2CH3OH della letteratura (rif. 51)."
+  },
+  {
+   "id": "X16",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Tabella 1, ox: seconda riga (pyr)",
+   "valori": [
+    {
+     "etichetta": "pyr",
+     "forma": "F19",
+     "testo": "2:1; salt; DA site; R22(9)a"
+    }
+   ],
+   "citazione": " |  | 2:1; salt; DA site; R22(9)a",
+   "note": "Colonne «tmp» e «pyr» di Tabella 1: stechiometria; sale/cocristallo; sito di legame (DA/DAD); motivo H. Le lettere minuscole attaccate (a–e) sono lettere di nota di tabella: il testo delle note non e' nel corpus letto. Riga di continuazione: solo la colonna pyr (questo lavoro, (pyr+)2(ox2–)·1.5H2O). Il PDF ha le due colonne a sinistra vuote."
+  },
+  {
+   "id": "X17",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Tabella 1, seb: sito di legame e sintone",
+   "valori": [
+    {
+     "etichetta": "tmp",
+     "forma": "F27",
+     "testo": "2:1; salt; DA site; R22(8)a"
+    },
+    {
+     "etichetta": "pyr",
+     "forma": "F28",
+     "testo": "2:1; cocrystal; DA site; R22(8)a"
+    }
+   ],
+   "citazione": "seb | 2:1; salt; DA site; R22(8)a | 2:1; cocrystal; DA site; R22(8)a",
+   "note": "Colonne «tmp» e «pyr» di Tabella 1: stechiometria; sale/cocristallo; sito di legame (DA/DAD); motivo H. Le lettere minuscole attaccate (a–e) sono lettere di nota di tabella: il testo delle note non e' nel corpus letto. "
+  },
+  {
+   "id": "X18",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Tabella 1, az: sale (tmp) e sale (pyr)",
+   "valori": [
+    {
+     "etichetta": "tmp",
+     "forma": "F25",
+     "testo": "1:1; salt; DA site; R22(8)a"
+    },
+    {
+     "etichetta": "pyr",
+     "forma": "F22",
+     "testo": "1:1; salt; DA site; R22(8)a"
+    }
+   ],
+   "citazione": "az | 1:1; salt; DA site; R22(8)a | 1:1; salt; DA site; R22(8)a",
+   "note": "Colonne «tmp» e «pyr» di Tabella 1: stechiometria; sale/cocristallo; sito di legame (DA/DAD); motivo H. Le lettere minuscole attaccate (a–e) sono lettere di nota di tabella: il testo delle note non e' nel corpus letto. La colonna pyr vale per il sale (pyr+)(az–) (forme I e II hanno gli stessi motivi: attribuita alla forma I)."
+  },
+  {
+   "id": "X19",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Tabella 1, az: cocristallo di tmp",
+   "valori": [
+    {
+     "etichetta": "tmp",
+     "forma": "F24",
+     "testo": "1:1; cocrystal; DA and DAD site; R22(8)–R42(8)–R22(8) ringsa"
+    }
+   ],
+   "citazione": " | 1:1; cocrystal; DA and DAD site; R22(8)–R42(8)–R22(8) ringsa | ",
+   "note": "Colonne «tmp» e «pyr» di Tabella 1: stechiometria; sale/cocristallo; sito di legame (DA/DAD); motivo H. Le lettere minuscole attaccate (a–e) sono lettere di nota di tabella: il testo delle note non e' nel corpus letto. Riga di continuazione: solo la colonna tmp."
+  },
+  {
+   "id": "X20",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Tabella 1, az: cocristallo ionico di tmp",
+   "valori": [
+    {
+     "etichetta": "tmp",
+     "forma": "F26",
+     "testo": "2:1:1; ionic cocrystal; DA and DAD site; C–NH2···Oa"
+    }
+   ],
+   "citazione": " | 2:1:1; ionic cocrystal; DA and DAD site; C–NH2···Oa | ",
+   "note": "Colonne «tmp» e «pyr» di Tabella 1: stechiometria; sale/cocristallo; sito di legame (DA/DAD); motivo H. Le lettere minuscole attaccate (a–e) sono lettere di nota di tabella: il testo delle note non e' nel corpus letto. Riga di continuazione: solo la colonna tmp. «2:1:1» = tmp+ : az2– : tmp."
+  },
+  {
+   "id": "X21",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Tabella 1, smz: cocristalli",
+   "valori": [
+    {
+     "etichetta": "tmp",
+     "testo": "1:1; cocrystal, DA site; R22(8)d"
+    },
+    {
+     "etichetta": "pyr",
+     "forma": "F18",
+     "testo": "1:1; cocrystal; DAD site; NH2···N/N···NHsulfonamide/NH2···O=Sa"
+    }
+   ],
+   "citazione": "smz | 1:1; cocrystal, DA site; R22(8)d | 1:1; cocrystal; DAD site; NH2···N/N···NHsulfonamide/NH2···O=Sa",
+   "note": "Colonne «tmp» e «pyr» di Tabella 1: stechiometria; sale/cocristallo; sito di legame (DA/DAD); motivo H. Le lettere minuscole attaccate (a–e) sono lettere di nota di tabella: il testo delle note non e' nel corpus letto. La colonna tmp e' il cocristallo tmp·smz·CH3OH della letteratura (rif. 22 nel testo), senza forma estratta; la colonna pyr e' questo lavoro."
+  },
+  {
+   "id": "X22",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Tabella 1, smz: seconda riga (tmp 1:2)",
+   "valori": [
+    {
+     "etichetta": "tmp",
+     "testo": "1:2; cocrystal, DA site; R22(8)e"
+    }
+   ],
+   "citazione": " | 1:2; cocrystal, DA site; R22(8)e | ",
+   "note": "Colonne «tmp» e «pyr» di Tabella 1: stechiometria; sale/cocristallo; sito di legame (DA/DAD); motivo H. Le lettere minuscole attaccate (a–e) sono lettere di nota di tabella: il testo delle note non e' nel corpus letto. Riga di continuazione: solo la colonna tmp, cocristallo tmp·2smz·H2O della letteratura (rif. 23)."
+  },
+  {
+   "id": "X23",
+   "categoria": "computazionale",
+   "proprieta": "Tabella 2: bal/tar (β-alanine/tartaric acid)",
+   "tecnica": "CASTEP",
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 0.52
+    },
+    {
+     "etichetta": "ΔE(sa-cc)",
+     "valore": 68.6
+    },
+    {
+     "etichetta": "forma stabile",
+     "testo": "cocrystal"
+    },
+    {
+     "etichetta": "densita' del sale",
+     "valore": 1.655,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "densita' del cocristallo",
+     "valore": 1.626,
+     "unita": "g cm-3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "bal/tar | 0.52 | 68.6 | cocrystal | 1.655 | 1.626",
+   "note": "Colonne di Tabella 2: ΔpKa (lettere di nota a,b attaccate all'intestazione); ΔE(sa-cc) (lettera di nota c; il testo dice: «Positive ΔE(sa-cc) values indicate that the cocrystal is more stable than the salt»; unita' non scritta in tabella); forma stabile; densita' del sale e del cocristallo (intestazione «densitycocrystal/g cm–3»). ΔE da calcolo DFT periodico (CASTEP) fatto dagli autori su sistemi di letteratura; la forma stabile e' quella trovata dall'esperimento (letteratura). Sistema di letteratura, calcolo degli autori."
+  },
+  {
+   "id": "X24",
+   "categoria": "computazionale",
+   "proprieta": "Tabella 2: smz/sac (sulfamethazine/saccharine)",
+   "tecnica": "CASTEP",
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 0.8
+    },
+    {
+     "etichetta": "ΔE(sa-cc)",
+     "valore": 7.4
+    },
+    {
+     "etichetta": "forma stabile",
+     "testo": "cocrystal"
+    },
+    {
+     "etichetta": "densita' del sale",
+     "valore": 1.45,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "densita' del cocristallo",
+     "valore": 1.569,
+     "unita": "g cm-3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "smz/sac | 0.80 | 7.4 | cocrystal | 1.450 | 1.569",
+   "note": "Colonne di Tabella 2: ΔpKa (lettere di nota a,b attaccate all'intestazione); ΔE(sa-cc) (lettera di nota c; il testo dice: «Positive ΔE(sa-cc) values indicate that the cocrystal is more stable than the salt»; unita' non scritta in tabella); forma stabile; densita' del sale e del cocristallo (intestazione «densitycocrystal/g cm–3»). ΔE da calcolo DFT periodico (CASTEP) fatto dagli autori su sistemi di letteratura; la forma stabile e' quella trovata dall'esperimento (letteratura). Sistema di letteratura, calcolo degli autori."
+  },
+  {
+   "id": "X25",
+   "categoria": "computazionale",
+   "proprieta": "Tabella 2: brma/dnb (4-bromo-2-methylaniline/3,5-dinitrobenzoic acid)",
+   "tecnica": "CASTEP",
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 0.89
+    },
+    {
+     "etichetta": "ΔE(sa-cc)",
+     "valore": -9.3
+    },
+    {
+     "etichetta": "forma stabile",
+     "testo": "salt"
+    },
+    {
+     "etichetta": "densita' del sale",
+     "valore": 1.717,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "densita' del cocristallo",
+     "valore": 1.73,
+     "unita": "g cm-3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "brma/dnb | 0.89 | –9.3 | salt | 1.717 | 1.730",
+   "note": "Colonne di Tabella 2: ΔpKa (lettere di nota a,b attaccate all'intestazione); ΔE(sa-cc) (lettera di nota c; il testo dice: «Positive ΔE(sa-cc) values indicate that the cocrystal is more stable than the salt»; unita' non scritta in tabella); forma stabile; densita' del sale e del cocristallo (intestazione «densitycocrystal/g cm–3»). ΔE da calcolo DFT periodico (CASTEP) fatto dagli autori su sistemi di letteratura; la forma stabile e' quella trovata dall'esperimento (letteratura). Il segno meno di ΔE e' «–» nel PDF (valore negativo: il sale e' piu' stabile). Sistema di letteratura, calcolo degli autori."
+  },
+  {
+   "id": "X26",
+   "categoria": "computazionale",
+   "proprieta": "Tabella 2: eth/sal (ethionamide/salicylic acid)",
+   "tecnica": "CASTEP",
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 2.0
+    },
+    {
+     "etichetta": "ΔE(sa-cc)",
+     "valore": -6.7
+    },
+    {
+     "etichetta": "forma stabile",
+     "testo": "salt"
+    },
+    {
+     "etichetta": "densita' del sale",
+     "valore": 1.332,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "densita' del cocristallo",
+     "valore": 1.298,
+     "unita": "g cm-3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "eth/sal | 2.0 | –6.7 | salt | 1.332 | 1.298",
+   "note": "Colonne di Tabella 2: ΔpKa (lettere di nota a,b attaccate all'intestazione); ΔE(sa-cc) (lettera di nota c; il testo dice: «Positive ΔE(sa-cc) values indicate that the cocrystal is more stable than the salt»; unita' non scritta in tabella); forma stabile; densita' del sale e del cocristallo (intestazione «densitycocrystal/g cm–3»). ΔE da calcolo DFT periodico (CASTEP) fatto dagli autori su sistemi di letteratura; la forma stabile e' quella trovata dall'esperimento (letteratura). Il segno meno di ΔE e' «–» nel PDF (valore negativo: il sale e' piu' stabile). Sistema di letteratura, calcolo degli autori."
+  },
+  {
+   "id": "X27",
+   "categoria": "computazionale",
+   "proprieta": "Tabella 2: tmp/az (trimethoprim/azeliac acid)",
+   "tecnica": "CASTEP",
+   "valori": [
+    {
+     "etichetta": "ΔpKa",
+     "valore": 3.0
+    },
+    {
+     "etichetta": "ΔE(sa-cc)",
+     "valore": 12.2
+    },
+    {
+     "etichetta": "forma stabile",
+     "forma": "F24",
+     "testo": "cocrystal"
+    },
+    {
+     "etichetta": "densita' del sale",
+     "forma": "F25",
+     "valore": 1.223,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "densita' del cocristallo",
+     "forma": "F24",
+     "valore": 1.307,
+     "unita": "g cm-3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "tmp/az | 3.0 | 12.2 | cocrystal | 1.223 | 1.307",
+   "note": "Colonne di Tabella 2: ΔpKa (lettere di nota a,b attaccate all'intestazione); ΔE(sa-cc) (lettera di nota c; il testo dice: «Positive ΔE(sa-cc) values indicate that the cocrystal is more stable than the salt»; unita' non scritta in tabella); forma stabile; densita' del sale e del cocristallo (intestazione «densitycocrystal/g cm–3»). ΔE da calcolo DFT periodico (CASTEP) fatto dagli autori su sistemi di letteratura; la forma stabile e' quella trovata dall'esperimento (letteratura). Sistema di questo lavoro; ΔpKa 3.0 con tmp = 7.16 e az = 4.15 (vedi l'incoerenza dei pKa nelle molecole). "
+  },
+  {
+   "id": "X28",
+   "categoria": "computazionale",
+   "proprieta": "i calcoli DFT periodici predicono la forma stabile trovata dall'esperimento",
+   "tecnica": "CASTEP",
+   "valori": [],
+   "qualitativo": "periodic DFT predicts the stable form in all five systems of Table 2; positive ΔE(sa-cc) = cocrystal more stable",
+   "calcolato": true,
+   "citazione": "We have calculated the energy differences between the salt and the cocrystal for tmp/az and for the other systems described in the literature (Table 2), and in every case, periodic DFT calculations predict the stable form found by the experiment. Positive ΔE(sa-cc) values indicate that the cocrystal is more stable than the salt."
+  },
+  {
+   "id": "X29",
+   "categoria": "computazionale",
+   "proprieta": "la densita' di cristallo predice la forma stabile in tre sistemi su cinque",
+   "valori": [
+    {
+     "etichetta": "sistemi in cui la densita' predice la forma stabile",
+     "valore": 3
+    },
+    {
+     "etichetta": "sistemi totali",
+     "valore": 5
+    }
+   ],
+   "qualitativo": "crystal density predicts the stable form in 3 of 5 systems; bal/tar and brma/dnb have stable forms with lower density than the metastable ones",
+   "calcolato": true,
+   "citazione": "In Table 2, crystal density correctly predicts the stable form in three out of the five examples, with bal/tar and brma/dnb having stable forms with lower densities than their metastable forms.",
+   "note": "«three out of the five» in lettere. Conteggio degli autori. Controllo mio sulla Tabella 2: la forma stabile ha densita' maggiore in smz/sac, eth/sal e tmp/az (tre) e minore in bal/tar e brma/dnb (due): coerente con la frase."
+  },
+  {
+   "id": "X30",
+   "categoria": "computazionale",
+   "proprieta": "vincoli non lineari sulle distanze O–H nel calcolo di tmp/az",
+   "tecnica": "CASTEP",
+   "valori": [],
+   "qualitativo": "nonlinear distance restraints on the O–H groups H-bonded to nitrogen were needed to prevent proton transfer in tmp/az",
+   "calcolato": true,
+   "citazione": "There is also one interesting difference between tmp/az and the other systems in Table 2 in that it was necessary to apply nonlinear distance restraints to the O–H groups H-bonded to nitrogen to prevent proton transfer."
+  },
+  {
+   "id": "X31",
+   "categoria": "computazionale",
+   "proprieta": "possibile altra forma salina nel gruppo spaziale P-1",
+   "oggetto": {
+    "forma": "F25"
+   },
+   "tecnica": "CASTEP",
+   "valori": [],
+   "qualitativo": "the proton transfer in the calculation suggests another salt form, which would crystallize in P-1 (hypothetical, not isolated)",
+   "calcolato": true,
+   "citazione": "This of course does not imply that the crystallized salt is more stable than the cocrystal, rather this proton transfer suggests that there may be another salt form, which would crystallize in space group P-1 if suitable conditions for its isolation could be found.",
+   "note": "Forma ipotetica non isolata: nessuna forma estratta. «P-1» come scritto."
+  },
+  {
+   "id": "X32",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "densita' di (tmp+)(az–), tmp·az e (pyr+)(az–)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "densita' di (tmp+)(az–)",
+     "forma": "F25",
+     "valore": 1.223,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "densita' di tmp·az",
+     "forma": "F24",
+     "valore": 1.307,
+     "unita": "g cm-3"
+    },
+    {
+     "etichetta": "densita' di (pyr+)(az–)",
+     "forma": "F22",
+     "valore": 1.252,
+     "unita": "g cm-3"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "The densities of (tmp+)(az–), tmp·az, and (pyr+)(az–) are 1.223, 1.307, and 1.252 g cm–3, respectively, that is, the density of (pyr+)(az–) is intermediate between those of tmp·az and (tmp+)(az–).",
+   "note": "Densita' di cristallo (calcolata dalla struttura); le prime due coincidono con le colonne di Tabella 2 per tmp/az. La forma di (pyr+)(az–) non e' specificata (I o II): attribuita alla forma I, che e' quella descritta con il motivo R22(8)."
+  },
+  {
+   "id": "X33",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "(pyr+)(az–) contiene Cl",
+   "oggetto": {
+    "forma": "F22"
+   },
+   "valori": [],
+   "qualitativo": "(pyr+)(az–) contains Cl: expected higher density than either of the tmp/az forms",
+   "citazione": "(Pyr+)(az–) contains Cl and would be expected to have a higher density than either of the tmp/az forms."
+  },
+  {
+   "id": "X34",
+   "categoria": "computazionale",
+   "proprieta": "indici di impacchettamento di tmp·az, (tmp+)(az–), (pyr+)(az–) (programma Void)",
+   "tecnica": "Void (Oscail)",
+   "valori": [
+    {
+     "etichetta": "indice di impacchettamento di tmp·az",
+     "forma": "F24",
+     "valore": 68.5,
+     "unita": "%"
+    },
+    {
+     "etichetta": "indice di impacchettamento di (tmp+)(az–)",
+     "forma": "F25",
+     "valore": 70.5,
+     "unita": "%"
+    },
+    {
+     "etichetta": "indice di impacchettamento di (pyr+)(az–)",
+     "forma": "F22",
+     "valore": 63.7,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Using the Void program in the Oscail package,69 the packing indices for tmp·az, (tmp+)(az–), and (pyr+)(az–) were calculated as 68.5, 70.5, and 63.7%.",
+   "note": "Il «69» e' un rimando bibliografico. Forma di (pyr+)(az–) non specificata (I o II): attribuita alla forma I."
+  },
+  {
+   "id": "X35",
+   "categoria": "computazionale",
+   "proprieta": "vuoti nella struttura di (pyr+)(az–)",
+   "tecnica": "Void (Oscail)",
+   "valori": [
+    {
+     "etichetta": "volume vuoto di (pyr+)(az–)",
+     "forma": "F22",
+     "valore": 3.3,
+     "unita": "%"
+    }
+   ],
+   "qualitativo": "a void large enough for one water molecule in (pyr+)(az–); no void in either tmp/az structure",
+   "calcolato": true,
+   "citazione": "The Void program also finds a 3.3% void, which is large enough to insert one water molecule into the (pyr+)(az–) structure. The program did not find any void in either of the tmp/az structures.",
+   "note": "Percentuale come scritta; il testo non dice se e' una frazione di volume di cella."
+  },
+  {
+   "id": "X36",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "impacchettamento meno efficiente di pyr: legame biphenyl rigido, tmp flessibile",
+   "valori": [],
+   "qualitativo": "possible explanation of the lower packing efficiency of (pyr+)(az–): rigid biphenyl linkage vs the flexible tmp (dubitativa)",
+   "citazione": "It is possible that the restriction imposed by the biphenyl linkage in the pyr molecule, which prevents the ring packing in a more efficient flat geometry, leads to a lower packing efficiency than is observed in the tmp/az structures, where the flexible nature of tmp may aid efficient packing."
+  },
+  {
+   "id": "X37",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "possibile contributo ionico al reticolo di (pyr+)(az–); N3 non legato in (tmp+)(az–)",
+   "valori": [],
+   "qualitativo": "salt rather than cocrystal for pyr/az possibly due to an extra ionic lattice-energy component (dubitativa)",
+   "citazione": "The observation of a salt rather than a cocrystal for pyr/az may be due to an extra lattice energy component provided by the ionic attractions in the salt. It is worthy to note that in tmp·az, both pyrimidine-N/NH2 sites form a pair of H bonds with az-COOH, while in (tmp+)(az–), only the N1/C2–NH2 site forms the R22(8) motif and N3 is not involved in H bonding."
+  },
+  {
+   "id": "X38",
+   "categoria": "proprieta_fisiche",
+   "proprieta": "densita' di cristallo come indicatore di stabilita'",
+   "valori": [],
+   "qualitativo": "crystal density used as an indication of the efficiency of packing and of stability",
+   "citazione": "Crystal density is an indication of the efficiency of crystal packing and can be used as an indication of crystal stability.",
+   "note": "Affermazione generale con rimandi; nessun numero."
+  },
+  {
+   "id": "X39",
+   "categoria": "altro",
+   "proprieta": "tmp/az: la ΔpKa piu' grande fra le coppie sale-cocristallo di Tabella 2",
+   "oggetto": {
+    "forma": "F24"
+   },
+   "valori": [],
+   "qualitativo": "tmp/az has the largest ΔpKa among the salt-cocrystal polymorph pairs of Table 2",
+   "citazione": "Noteworthily, among the salt-cocrystal polymorph pairs listed in Table 2, tmp/az has the largest ΔpKa difference between the two coformers."
+  },
+  {
+   "id": "X40",
+   "categoria": "altro",
+   "proprieta": "regola ΔpKa: soglie per sale e cocristallo",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "soglia del sale (ΔpKa maggiore di)",
+     "valore": 4,
+     "limite": "sopra"
+    },
+    {
+     "etichetta": "soglia del cocristallo (ΔpKa minore di)",
+     "valore": 0,
+     "limite": "sotto"
+    }
+   ],
+   "citazione": "so that salt formation for the pyr/az system is in line with the ΔpKa rule that states that a salt is usually obtained when the difference in the pKa of the two coformers is greater than 4, while a ΔpKa of <0 results in a cocrystal.55,56",
+   "note": "Regola della letteratura (rif. 55 e 56). Il «55,56» finale e' un rimando bibliografico."
+  },
+  {
+   "id": "X41",
+   "categoria": "altro",
+   "proprieta": "regola ΔpKa: continuo sale-cocristallo",
+   "valori": [
+    {
+     "etichetta": "ΔpKa da",
+     "valore": 0
+    },
+    {
+     "etichetta": "ΔpKa a",
+     "valore": 4
+    }
+   ],
+   "qualitativo": "salt-cocrystal continuum: no prediction possible",
+   "citazione": "In the ΔpKa range 0 < pKa < 4, there is a salt-cocrystal continuum and a prediction of salt or cocrystal formation is not possible.",
+   "note": "Il testo scrive «0 < pKa < 4» per ΔpKa. Regola della letteratura."
+  },
+  {
+   "id": "X42",
+   "categoria": "computazionale",
+   "proprieta": "modello di Cruz-Cabeza: probabilita' di cocristallo e di sale per tmp/az",
+   "valori": [
+    {
+     "etichetta": "probabilita' di cocristallo",
+     "forma": "F24",
+     "valore": 21,
+     "unita": "%"
+    },
+    {
+     "etichetta": "probabilita' di sale",
+     "forma": "F25",
+     "valore": 79,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Using these equations, there is a 21% probability of tmp and az crystallizing as a cocrystal and a 79% probability for salt formation.",
+   "note": "Equazioni del modello di Cruz-Cabeza non presenti nel testo letto (rimando 57). L'esperimento da' il cocristallo come forma stabile, contrario alla previsione del modello (la Conclusione lo dice: «contrary to what one would expect on the basis of the ΔpKa rule»)."
+  },
+  {
+   "id": "X43",
+   "categoria": "altro",
+   "proprieta": "sistemi sale-cocristallo di letteratura con stessa composizione",
+   "valori": [
+    {
+     "etichetta": "amminoacidi studiati con acido tartarico",
+     "valore": 4
+    }
+   ],
+   "qualitativo": "systems with salt or cocrystal of the same composition depending on conditions: smz/sac, four amino acids/tartaric acid (bal/tar in detail), eth/sal, haloaniline/3,5-dinitrobenzoic acid",
+   "citazione": "However, only a small number of systems have been reported, where a salt or a cocrystal of the same composition and stoichiometry is obtained depending on the crystallization conditions; smz/saccharine (smz/sac),28,29 four amino acids/tartaric acid of which β-alanine/tartaric acid (bal/tar), has been examined in detail,61,62 ethionamide/salicylic acid (eth/sal),27 and a range of haloaniline/3,5-dinitrobenzoic acid systems.30",
+   "note": "Rassegna interna di letteratura (rif. 27–30, 61, 62); «four» in lettere. I rimandi numerici sono bibliografici."
+  },
+  {
+   "id": "X44",
+   "categoria": "altro",
+   "proprieta": "brma/dnb (letteratura): sale piu' stabile del cocristallo di 8.5 kJ/mol",
+   "valori": [
+    {
+     "etichetta": "differenza di energia sale-cocristallo",
+     "valore": 8.5,
+     "unita": "kJ/mol"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "In the case of 4-bromo-2-methylaniline/3,5-dinitrobenzoic acid (brma/dnb), the salt was reported to be 8.5 kJ/mol more stable than the cocrystal.",
+   "note": "Dato della letteratura (calcolo DFT con VASP riportato nella frase precedente), citato dal rif. 30. Qui e' un sistema diverso da quelli dello studio."
+  },
+  {
+   "id": "X45",
+   "categoria": "geometria",
+   "proprieta": "lunghezze C–O dei carbossilati di keto– in (tmp+)(keto–)·0.5H2O",
+   "oggetto": {
+    "forma": "F17"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C15–O4",
+     "valore": 1.235,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C15–O5",
+     "valore": 1.239,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C34–O12",
+     "valore": 1.238,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C34–O13",
+     "valore": 1.232,
+     "incertezza": 2,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "the proton transfer is confirmed by the C–O bond lengths that are equal within the standard deviations (C15–O4 1.235(2) Å, C15–O5 1.239(2) Å, C34–O12 1.238(2) Å, and C34–O13 1.232(2) Å)",
+   "note": "Incertezza: cifra fra parentesi sull'ultima cifra. Le lunghezze C–O quasi uguali provano il trasferimento di protone."
+  },
+  {
+   "id": "X46",
+   "categoria": "geometria",
+   "proprieta": "angolo in N1: tmp neutro (rif. 42) e tmp+ nel sale con keto",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "angolo in N1, tmp neutro",
+     "forma": "F2",
+     "valore": 114.87,
+     "incertezza": 9,
+     "unita": "°"
+    },
+    {
+     "etichetta": "angolo in N1, primo tmp+",
+     "forma": "F17",
+     "valore": 119.6,
+     "incertezza": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "angolo in N1, secondo tmp+",
+     "forma": "F17",
+     "valore": 119.7,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "citazione": "by the increase of the angle at N1 from 114.87(9)° in neutral tmp42 to 119.6(2)/119.7(2)°",
+   "note": "Il valore 114.87(9)° del tmp neutro e' citato dal rif. 42; 119.6(2)/119.7(2)° sono i due cationi indipendenti. Incertezza: cifra fra parentesi sull'ultima cifra. Il «42» attaccato a «tmp» nel testo e' un rimando."
+  },
+  {
+   "id": "X47",
+   "categoria": "geometria",
+   "proprieta": "lunghezze C–O dell'acido az in tmp·az (nessun trasferimento di protone)",
+   "oggetto": {
+    "forma": "F24"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C15–O4",
+     "valore": 1.214,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C15–O5",
+     "valore": 1.299,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C23–O6",
+     "valore": 1.206,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C23–O7",
+     "valore": 1.319,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "The C–O bond lengths in az [C15–O4 1.214(3) Å; C15–O5 1.299(3) Å; C23–O6 1.206(3) Å; and C23–O7 1.319(3) Å] confirm that no proton transfer has taken place between the carboxylic acid and the N1 nitrogen in tmp·az.",
+   "note": "Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X48",
+   "categoria": "geometria",
+   "proprieta": "angolo diedro fra anello pirimidinico e fenile nelle forme I e II di (pyr+)(az–)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "angolo diedro, forma I",
+     "forma": "F22",
+     "valore": 82.9,
+     "unita": "°"
+    },
+    {
+     "etichetta": "angolo diedro, forma II",
+     "forma": "F23",
+     "valore": 87.8,
+     "unita": "°"
+    }
+   ],
+   "citazione": "Both forms have the same H bonding motifs, but differ in the dihedral angle between the pyrimidine and phenyl rings of tmp (82.9° in form I and 87.8° in form II).",
+   "note": "Il testo scrive «of tmp» ma le forme sono sali di pyr: refuso dell'articolo (riportato come scritto)."
+  },
+  {
+   "id": "X49",
+   "categoria": "geometria",
+   "proprieta": "dimerizzazione dei monoanioni pim– in un anello a 20 membri",
+   "oggetto": {
+    "forma": "F30"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "membri dell'anello dei dimeri di pim–",
+     "valore": 20
+    }
+   ],
+   "qualitativo": "two pim monoanions dimerize into a 20-membered ring in (tmp+)(pim–)·stz; seb2– on an inversion center in the seb ternary",
+   "citazione": "In (tmp+)(pim–)·stz, two pim monoanions dimerize into a 20-membered ring, while the seb2– dianion in (tmp+)2(seb2–)·stz·2H2O·C3H6O lies on an inversion center, so that both carboxylate groups interact with stz and tmp+.",
+   "note": "Stessa frase usata da motivi_hb di entrambe le forme; qui il numero di membri come grandezza."
+  },
+  {
+   "id": "X50",
+   "categoria": "termica",
+   "proprieta": "perdita di massa calcolata per la disidratazione di tmp·pyr·H2O",
+   "oggetto": {
+    "forma": "F16"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "perdita calcolata",
+     "forma": "F16",
+     "valore": 3.2,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "(weight loss in the TGA 3.1%; calcd. 3.2%)",
+   "note": "La perdita misurata (3.1%) e' nell'evento di disidratazione."
+  },
+  {
+   "id": "X51",
+   "categoria": "termica",
+   "proprieta": "perdita di massa calcolata per la perdita d'acqua di (tmp+)2(az2–)·tmp·6H2O",
+   "oggetto": {
+    "forma": "F26"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "perdita calcolata",
+     "forma": "F26",
+     "valore": 9.3,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "can be assigned to the loss of the water of crystallization (calcd. 9.3%)",
+   "note": "La perdita misurata (10.1%) e' nell'evento di disidratazione. Il testo scrive «TA plot» per TGA nella frase precedente."
+  },
+  {
+   "id": "X52",
+   "categoria": "termica",
+   "proprieta": "perdita di massa teorica per la sublimazione di ox da (tmp+)2(ox2–)·2CH3OH",
+   "oggetto": {
+    "forma": "F20"
+   },
+   "tecnica": "TGA",
+   "valori": [
+    {
+     "etichetta": "perdita teorica",
+     "forma": "F20",
+     "valore": 12.3,
+     "unita": "%"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "(theoretical weight loss: 12.3%; observed weight loss: 11.9%)",
+   "note": "La perdita osservata (11.9%) e' nell'evento di fusione delle nuove fasi."
+  },
+  {
+   "id": "X53",
+   "categoria": "termica",
+   "proprieta": "endotermo a 200.0 °C di (tmp+)2(ox2–)·2CH3OH: possibile tmp libero",
+   "oggetto": {
+    "forma": "F20"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "endotermo",
+     "forma": "F20",
+     "valore": 200.0,
+     "unita": "°C"
+    }
+   ],
+   "qualitativo": "the 200.0 °C endotherm may indicate free tmp and suggests that the new phases are different stoichiomorphs (dubitativa)",
+   "citazione": "The endotherm at 200.0 °C may indicate the presence of “free” tmp (melting point 199–203 °C) and may suggest that the new phases are different stoichiomorphs.",
+   "note": "Attribuzione dubitativa («may indicate», «may suggest»): non e' un evento. Il punto di fusione di tmp 199–203 °C e' nell'evento di fusione di tmp."
+  },
+  {
+   "id": "X54",
+   "categoria": "termica",
+   "proprieta": "terzo endotermo a 185.8 °C di (tmp+)2(az2–)·tmp·6H2O",
+   "oggetto": {
+    "forma": "F26"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "endotermo non assegnato",
+     "forma": "F26",
+     "valore": 185.8,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "The DSC plot of (tmp+)2(az2–)·tmp·6H2O shows endotherms at 90.4, 155.3, and 185.8 °C (Figure S12a).",
+   "note": "L'endotermo a 185.8 °C non e' assegnato dal testo (90.4 e 155.3 °C sono negli eventi)."
+  },
+  {
+   "id": "X55",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica di tmp·pyr·H2O",
+   "oggetto": {
+    "forma": "F16"
+   },
+   "valori": [],
+   "qualitativo": "one tmp, one pyr, one water molecule of crystallization in the asymmetric unit",
+   "citazione": "The asymmetric unit contains one tmp, one pyr, and one water molecule of crystallization.",
+   "note": "Stessa frase di forme.citazione."
+  },
+  {
+   "id": "X56",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "contenuto dell'unita' asimmetrica di (tmp+)(keto–)·0.5H2O",
+   "oggetto": {
+    "forma": "F17"
+   },
+   "valori": [],
+   "qualitativo": "two independent N1-protonated tmp+ cations, two keto– monoanions and one water molecule",
+   "citazione": "The asymmetric unit of (tmp+)(keto–)·0.5H2O contains two crystallographically independent N1-protonated tmp+ cations, two keto– monoanions, and a water molecule of crystallization.",
+   "note": "Stessa frase di forme.citazione."
+  },
+  {
+   "id": "X57",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "protonazione di keto– e dei cationi tmp+: gruppo carbossilico vicino al chetone",
+   "oggetto": {
+    "forma": "F17"
+   },
+   "valori": [],
+   "qualitativo": "the carboxyl group next to the keto group is deprotonated",
+   "citazione": "As expected, the carboxyl group next to the keto group is deprotonated and the proton transfer is confirmed by the C–O bond lengths"
+  },
+  {
+   "id": "X58",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "gruppo carbossilico protonato e acqua in (tmp+)(keto–)·0.5H2O",
+   "oggetto": {
+    "forma": "F17"
+   },
+   "valori": [],
+   "qualitativo": "second carboxylate oxygen bonded to the C4-amino of another tmp+; R22(8) homosynthon via C4–NH2···N3 pairs; protonated carboxyl bifurcated to two methoxy groups; water bonded to methoxy and carboxyl groups",
+   "citazione": "There is also H bonding between the second carboxylate oxygen and the C4-amino group of another tmp+ cation. Neighboring cations form the R22(8) homosynthon via pairs of C4–NH2···N3 H bonds. The protonated carboxyl group forms a bifurcated H bond with two of the methoxy groups of tmp+. The water molecule of crystallization interacts with the methoxy groups and the carboxyl group of keto–.",
+   "note": "Alcuni di questi motivi sono anche in forme.motivi_hb (R22(8))."
+  },
+  {
+   "id": "X59",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "ox: confronto fra pyr e tmp, effetto sterico dell'etile",
+   "valori": [],
+   "qualitativo": "R12(5)–R21(6) pattern only in tmp+ oxalates, possibly due to the steric hindrance of the ethyl substituent at C6 of pyr (dubitativa)",
+   "citazione": "The 2,4-diaminopyrimidine rings in pyr and tmp have almost the same pKa value (7.16 and 7.34, respectively), indicating very similar electronic properties and H bonding propensity. The fact that the R12(5)–R21(6) H bonding pattern is only observed in tmp+ oxalates may be due to a steric hindrance effect of the ethyl substituent at C6 of pyr (Figure 4a).",
+   "note": "Il pKa e' nelle `molecole` (con l'incoerenza)."
+  },
+  {
+   "id": "X60",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "(tmp+)2(ox2–)·2CH3OH: tmp+ legati dal sito C2–NH2/N3",
+   "valori": [],
+   "qualitativo": "R21(6) and R12(5) in both oxalates; C4–NH2···N3 R22(8) homosynthon in the hydrate versus C2–NH2/N3 interaction in the methanol solvate",
+   "citazione": "The R21(6) and R12(5) motifs are also present in (tmp+)2(ox2–)·2CH3OH (Figure 4b) and (tmp+)2(ox2–)·6.5H2O (Figure S4). In contrast to the C4–NH2···N3 R22(8) homosynthon in (tmp+)2(ox2–)·6.5H2O, the tmp+ cations in (tmp+)2(ox2–)·2CH3OH interact with each other through the C2–NH2/N3 site, while the amino group at C4 donates a H bond to the solvent molecule of crystallization.",
+   "note": "Parti in forme.motivi_hb."
+  },
+  {
+   "id": "X61",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "(pyr+)2(ox2–)·1.5H2O: stoichiomorfo del sale ossalato noto",
+   "oggetto": {
+    "forma": "F19"
+   },
+   "valori": [],
+   "qualitativo": "new stoichiomorph of the known oxalate salt of pyr (ref 51)",
+   "citazione": "Furthermore, we obtained single crystals of (pyr+)2(ox2–)·1.5H2O, which is a new stoichiomorph of the known oxalate salt of pyr.51",
+   "note": "Stessa frase di forme.citazione; qui il fatto «stoichiomorph». Il «51» e' un rimando bibliografico."
+  },
+  {
+   "id": "X62",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "(tmp+)(az–): ipotesi di forma transitoria",
+   "oggetto": {
+    "forma": "F25"
+   },
+   "valori": [],
+   "qualitativo": "the salt as a metastable transient intermediate may be why bulk quantities could not be isolated (dubitativa)",
+   "citazione": "The intermediate formation of the (tmp+)(az–) salt as a metastable transient form may be the reason why it was not possible to isolate bulk quantities.",
+   "note": "Ipotesi degli autori, non un evento."
+  },
+  {
+   "id": "X63",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "seb e coformeri carbossilici: cocristallo di pyr e sale di tmp",
+   "valori": [],
+   "qualitativo": "apart from the carboxyl proton position, the main H bonding motifs are the same in pyr.0.5seb·CH3CN and (tmp+)2(seb2–)·2CH3OH·2H2O",
+   "citazione": "Except for the position of the carboxyl proton, the main H bonding motifs are the same in both structures (Figure 5)."
+  },
+  {
+   "id": "X64",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "cocristallo ternario: tutti e tre i componenti legati in un R32(10)",
+   "valori": [],
+   "qualitativo": "the three components are connected in an R32(10) motif: unique ternary motif",
+   "citazione": "Instead, all three components are connected in an R32(10) motif, generating a unique ternary motif in (tmp+)(pim–)·stz and (tmp+)2(seb2–)·stz·2H2O·C3H6O.",
+   "note": "Stessa frase per le due forme ternarie; i sintoni sono in forme.motivi_hb."
+  },
+  {
+   "id": "X65",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "pyr·smz·CH3OH: il metanolo riempie i vuoti del sintone ADA···DAD",
+   "oggetto": {
+    "forma": "F18"
+   },
+   "valori": [],
+   "qualitativo": "steric hindrance of the ethyl substituent may prevent smz from binding to the C2–NH2/N1 site; the methanol fills the voids of the ADA···DAD synthon (dubitative)",
+   "citazione": "Again, the steric hindrance of the ethyl substituent on the carbon adjacent to N1 may be the reason why smz does not bind to the C2–NH2/N1 site as is the case in the tmp·smz cocrystal. It appears that the methanol of crystallization stabilizes the structure by filling the voids resulting from the formation of the ADA···DAD synthon."
+  },
+  {
+   "id": "X66",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "tmp/stz/carbossilato: sintone ternario",
+   "valori": [],
+   "qualitativo": "ternary cocrystals only with stz and tmp; stz interacts with the tmp+···carboxylate dimer via S=O···NH2 and NH···O H bonds",
+   "citazione": "The isolation of a ternary cocrystal was only successful in the case of stz and tmp, and instead of binding to the DAD site of tmp, a new ternary synthon was observed with stz interacting with the tmp+···carboxylate dimer via S=O···NH2 and NH···O H bonds.",
+   "note": "Stessa frase usata nella preparazione non ottenuta (screening)."
+  },
+  {
+   "id": "X67",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "screening ternario: sali binari e nessun cocristallo sulfa drug/acido",
+   "valori": [],
+   "qualitativo": "in the screening the binary pyr+/tmp+ carboxylate salt often crystallized; no binary sulfa drug/carboxylic acid cocrystal was obtained",
+   "citazione": "It is worthy to note that while in several cases, the binary pyr+/tmp+ carboxylate salt crystallized from solution in the screening study for ternary cocrystals, no binary sulfa drug/carboxylic acid cocrystal was obtained, which further confirms the low affinity of the carboxyl group for the sulfonamide/N-heterocycle binding site."
+  },
+  {
+   "id": "X68",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "tmp/az: sali e cocristalli senza omosintone C4–NH2···N3",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "valori": [],
+   "qualitativo": "neither the (tmp+)(az–) salt nor the tmp·az cocrystal contains the C4–NH2···N3 homosynthon",
+   "citazione": "Neither the salt nor the cocrystal contains the C4–NH2···N3 homosynthon."
+  },
+  {
+   "id": "X69",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "pyr e tmp (polimorfi stabili): stessi motivi H, coformeri complementari",
+   "valori": [],
+   "qualitativo": "pyr and tmp (stable polymorphs) have the same pairwise H bonding at both amino-pyrimidine sites: complementary coformers",
+   "citazione": "The stable polymorphs of pyr and tmp have the same hydrogen-bonding motifs with pairwise H bonding at both amino-pyrimidine sites (Figure 2a).40,41 Pyr and tmp are therefore complementary coformers, and a cocrystal was indeed obtained from methanol.",
+   "note": "40 e 41 sono rimandi bibliografici attaccati dal PDF."
+  },
+  {
+   "id": "X70",
+   "categoria": "altro",
+   "proprieta": "ricerca dei coformeri: sulfa drug con acidi carbossilici (letteratura)",
+   "valori": [
+    {
+     "etichetta": "combinazioni sulfa drug–acido carbossilico provate",
+     "valore": 30
+    },
+    {
+     "etichetta": "combinazioni riuscite",
+     "valore": 3
+    }
+   ],
+   "citazione": "Out of the 30 sulfa drug–carboxylic acid combinations tested, only three were successful.",
+   "note": "Dato della letteratura (rif. 70, citato dal rif. 70): «only three» in lettere."
+  },
+  {
+   "id": "X71",
+   "categoria": "altro",
+   "proprieta": "screening di smz con acidi carbossilici (letteratura)",
+   "valori": [
+    {
+     "etichetta": "cocristalli di smz caratterizzati",
+     "valore": 7
+    }
+   ],
+   "citazione": "A slightly higher success rate was reported for a smz cocrystal screen that led to the structural characterization of 7 smz cocrystals with aliphatic and aromatic carboxylic acids.",
+   "note": "Dato della letteratura (rif. 71)."
+  },
+  {
+   "id": "X72",
+   "categoria": "altro",
+   "proprieta": "sintone R22(8) fra acido carbossilico e sito sulfonammide/N(eterociclo) di smz (letteratura)",
+   "valori": [],
+   "qualitativo": "the carboxylic acid forms a pair of H bonds with the sulfonamide/N(heterocycle) site of the amidine or imidine tautomer of smz (R22(8))",
+   "citazione": "In all cases, the carboxylic acid formed a pair of H bonds with the sulfonamide/N(heterocycle) site of either the amidine or the imidine tautomer of smz.71",
+   "note": "Dato della letteratura (rif. 71). Il «71» e' un rimando."
+  },
+  {
+   "id": "X73",
+   "categoria": "altro",
+   "proprieta": "sulfa drug / acido 3,5-dinitrobenzoico e analoghi (letteratura): sintoni diversi",
+   "valori": [],
+   "qualitativo": "stz/3,5-dinitrobenzoic acid, sulfamethoxazole/3,5-dinitrobenzoic acid and sulfapyridine/2-chloro-4-nitrobenzoic acid all have different synthons (ref 70)",
+   "citazione": "By contrast, stz/3,5-dinitrobenzoic acid, sulfamethoxazole/3,5-dinitrobenzoic acid, and sulfapyridine/2-chloro-4-nitrobenzoic acid all have different synthons.70",
+   "note": "Dato della letteratura (rif. 70)."
+  },
+  {
+   "id": "X74",
+   "categoria": "altro",
+   "proprieta": "sintone sulfa drug con sale del tmp: R22(8) con il sito C2–NH2/N1 (letteratura)",
+   "valori": [],
+   "qualitativo": "in all the literature tmp/sulfa-drug structures the heterocyclic N and the sulfonamide N form a pair of H bonds with the C2–NH2/N1 site of tmp (R22(8))",
+   "citazione": "The sulfa drugs have an N(heterocycle)=CH–NH(sulfonamide) functionality, and in all cases, the heterocyclic nitrogen and the sulfonamide nitrogen form a pair of H bonds with the C2–NH2/N1 site of tmp (R22(8)).",
+   "note": "Strutture di letteratura (rif. 19–23): (tmp+)(smx–), (tmp+)(smt–), (tmp+)(smp–)·1.5H2O, tmp·smp, tmp·smz·CH3OH, tmp·2smz·H2O."
+  },
+  {
+   "id": "X75",
+   "categoria": "altro",
+   "proprieta": "strutture note da letteratura di sali e cocristalli di tmp con sulfa drug",
+   "valori": [
+    {
+     "etichetta": "acqua per unita' formula di (tmp+)(smp–)·1.5H2O",
+     "valore": 1.5
+    }
+   ],
+   "qualitativo": "X-ray structures of (tmp+)(smx–), (tmp+)(smt–), (tmp+)(smp–)·1.5H2O, tmp·smp, tmp·smz·CH3OH and tmp·2smz·H2O are reported in the literature (refs 19–23)",
+   "citazione": "The cocrystallization of tmp with the sulfa drugs sulfamethoxazole (smx), sulfametrole (smt), sulfamethoxypyridazine (smp), and smz is described in the literature, and the X-ray structures of the salts (tmp+)(smx–),19 (tmp+)(smt–),20 and (tmp+)(smp–)·1.5H2O21 and of the cocrystals tmp·smp,21 tmp·smz·CH3OH,22 and tmp·2smz·H2O23 have been reported.",
+   "note": "Forme di letteratura senza condizioni: non estratte come forme. I «19–23» attaccati ai nomi sono rimandi bibliografici."
+  },
+  {
+   "id": "X76",
+   "categoria": "altro",
+   "proprieta": "uso clinico di tmp (antibiotico)",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "valori": [],
+   "qualitativo": "trimethoprim is an antibiotic mainly used for urinary tract infections",
+   "citazione": "Tmp is an antibiotic mainly used for the treatment of urinary tract infections.",
+   "note": "Affermazione dell'introduzione sul composto, senza numeri."
+  },
+  {
+   "id": "X77",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "sintone principale in (tmp+)(keto–) e (tmp+)2(ox2–)·2CH3OH (abstract)",
+   "valori": [],
+   "qualitativo": "fused R21(6) and R12(5) rings instead of the R22(8) motif typical of tmp+ and pyr+ carboxylates",
+   "citazione": "The main synthon in (tmp+)(keto–).0.5H2O and (tmp+)2(ox2–)·2CH3OH is the motif of fused R21(6) and R12(5) rings instead of the R22(8) motif typically observed in tmp+ and pyr+ carboxylates.",
+   "note": "Il testo scrive «(tmp+)(keto–).0.5H2O» (punto al posto di «·»)."
+  },
+  {
+   "id": "X78",
+   "categoria": "altro",
+   "proprieta": "tmp/az: esempio di polimorfismo sale-cocristallo, contro il sale stabile di pyr/az (introduzione)",
+   "valori": [
+    {
+     "etichetta": "rapporto pyr:az",
+     "forma": "F22",
+     "testo": "1:1"
+    }
+   ],
+   "qualitativo": "pyr forms a 1:1 salt with az as the stable form; tmp/az is one of the few examples of salt-cocrystal polymorphism",
+   "citazione": "(1) In contrast to pyr that formed a 1:1 salt with azeliac acid (az) as the stable form, the tmp/az system is one of the few examples of salt-cocrystal polymorphism.",
+   "note": "Rapporto come testo. La forma stabile e' dichiarata senza dire quale polimorfo (I o II): attribuita alla forma I. Non e' una relazione fra due forme di pyr/az (nessuna coppia indicata)."
+  },
+  {
+   "id": "X79",
+   "categoria": "altro",
+   "proprieta": "sintone fra smz e il sito DAD di pyr contro il sito DA di tmp (introduzione)",
+   "valori": [],
+   "qualitativo": "smz binds the DA site of tmp (all previously reported tmp-sulfa drug cocrystals) but the DAD site of pyr in pyr·smz (three parallel H bonds)",
+   "citazione": "(2) While the sulfa drug sulfamethazine (smz) interacts with the DA binding site of tmp—as observed for all previously reported tmp-sulfa drug cocrystals19−23—a new synthon between smz and the DAD site of the 2,4-diaminopyrimidine ring is found in pyr·smz, namely, three parallel NH2···N, N···NHsulfonamide, and NH2···O=S H bonds.",
+   "note": "I «19−23» sono rimandi."
+  },
+  {
+   "id": "X80",
+   "categoria": "altro",
+   "proprieta": "ox e keto: motivi diversi con pyr e tmp (introduzione)",
+   "valori": [],
+   "qualitativo": "ox and keto give fused R21(6)/R12(5) rings with tmp but R22(8) rings with pyr",
+   "citazione": "Oxalic acid (ox) and α-ketoglutaric acid (keto) also form different H bonding motifs with the 2,4-diaminopyrimidine rings of tmp and pyr (fused R21(6) and R12(5) rings vs R22(8) rings)."
+  },
+  {
+   "id": "X81",
+   "categoria": "altro",
+   "proprieta": "ternario atteso e ternario trovato: sintone unico (introduzione)",
+   "valori": [],
+   "qualitativo": "the two coformers do not occupy the two 2,4-diaminopyrimidine sites: a unique ternary synthon with S=O and imido NH of stz bonded to the amino N and a carboxylate O of the tmp+···carboxylate pair",
+   "citazione": "(3) Contrary to our expectation based on (2) that the cocrystallization with both a carboxylic acid (AD coformer) and a sulfa drug (ADA coformer) would give a ternary cocrystal with the two coformers occupying the two 2,4-diaminopyrimidine binding sites, crystal structure determination of (tmp+)(pim–)·stz and (tmp+)(seb–)·stz·2H2O·C3H6O (pim = pimelic acid, seb = sebacic acid, stz = sulfathiazole) revealed a unique ternary synthon in which the S=O and imido NH of the sulfa drug H bond to the amino nitrogen and carboxylate oxygen of the tmp+···carboxylate pair.",
+   "note": "L'introduzione scrive «(tmp+)(seb–)·stz·2H2O·C3H6O» (anione seb– e un solo tmp+), diverso dalla formula dei Risultati: vedi `conflitto` della forma."
+  },
+  {
+   "id": "X82",
+   "categoria": "cristallografia",
+   "proprieta": "strutture risolte e raffinate",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "16 structures solved by direct methods (SHELXT) and refined with SHELXL 2018/3 within Oscail; crystallographic data and refinement details in Tables S2–S4",
+   "citazione": "The crystal structures of tmp·pyr·H2O, (tmp+)(keto–)·0.5H2O, pyr·smz·CH3OH, (pyr+)2(ox2–)·1.5H2O, (tmp+)2(ox2–)·2CH3OH, (tmp+)2(ox2–)·6.5H2O, (pyr+)(az–) form I, (pyr+)(az–) form II, tmp·az, (tmp+)(az–), (tmp+)2(az2–)·tmp·6H2O, (tmp+)2(seb2–)·2CH3OH·2H2O, pyr.0.5seb·CH3CN, tmp·pim.0.5CH3CN, (tmp+)(pim–)·stz, and (tmp+)2(seb2–)·2stz·2H2O·C3H6O were solved by direct methods using SHELXT and refined using SHELXL 2018/3 within the Oscail package.",
+   "note": "Elenco delle 16 strutture dello studio (conteggio delle voci dell'elenco, non un numero scritto). Qui il ternario con seb e' scritto con «2stz» (vedi `conflitto` della forma). I dati cristallografici stanno nel supplementare."
+  },
+  {
+   "id": "X83",
+   "categoria": "cristallografia",
+   "proprieta": "intervallo dei codici CCDC delle 16 strutture",
+   "valori": [
+    {
+     "etichetta": "codici CCDC",
+     "testo": "2129639–2129654"
+    }
+   ],
+   "citazione": "The cif files can be obtained free of charge at www.ccdc.cam.ac.uk/conts/retrieving.html or from the Cambridge Crystallographic Data Centre, Cambridge, UK with the REF codes 2129639–2129654.",
+   "note": "L'elenco dei 16 numeri e' nel campo `ccdc` dell'estrazione principale (a livello di articolo): l'ordine di assegnazione alle strutture non e' scritto."
+  },
+  {
+   "id": "X84",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "carbossilati di tmp e pyr in letteratura: trasferimento di protone e R22(8)",
+   "valori": [],
+   "qualitativo": "the vast majority of literature cocrystals/salts of tmp and pyr with carboxylic acids show proton transfer to N1 and the R22(8) motif at the N1–H+/C2–NH2 site",
+   "citazione": "A vast majority of crystal structures of cocrystals of tmp and pyr with a carboxylic acid coformer described in the literature show transfer of the carboxyl proton to the N1 nitrogen of pyr or tmp and the interaction of the carboxylate group with the N1–H+/C2–NH2 site via a pair of parallel H bonds creating the R22(8) motif (Figure 3).",
+   "note": "Strutture di letteratura (rif. 43–49)."
+  },
+  {
+   "id": "X85",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "confronto per quattro acidi con strutture disponibili per tmp e pyr",
+   "valori": [
+    {
+     "etichetta": "acidi carbossilici confrontati",
+     "valore": 4
+    }
+   ],
+   "citazione": "In the following, we compare the H bonding interactions of the 2,4-diaminopyrimidine pharmacophore and carboxylic acid coformers for four carboxylic acids for which single crystal structures are available for both the tmp and the pyr system (either obtained in this study or published data).",
+   "note": "«four» in lettere: keto, ox, seb, az."
+  },
+  {
+   "id": "X86",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "keto/ox, seb/az: differenze nel motivo o nella ionizzazione",
+   "valori": [],
+   "qualitativo": "different main H bonding motifs for keto and ox between tmp and pyr; different ionization states for seb (salt with tmp, cocrystal with pyr) and for az (cocrystal and salt with tmp, salt with pyr)",
+   "citazione": "Contrary to what one might expect, differences in the main H bonding motif were observed between tmp/keto and pyr/keto and between tmp/ox and pyr/ox, while tmp/az and pyr/az and tmp/seb and pyr/seb were found to differ in the ionization states of the coformers (Table 1).",
+   "note": "La frase dice «tmp/az and pyr/az ... differ in the ionization states» ma Tabella 1 e il testo mostrano per az: tmp sale + cocristallo, pyr sale."
+  },
+  {
+   "id": "X87",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "sali noti (pyr+)(keto–) e (pyr+)2(ox–)(ox2–)0.5·2CH3OH: motivo R22(8), assente nei sali di tmp",
+   "valori": [],
+   "qualitativo": "the known pyr salts with keto and ox have the typical R22(8) motif, absent in the corresponding tmp salts",
+   "citazione": "(Pyr+)(keto–)50 and (pyr+)2(ox–)(ox2–)0.5·2CH3OH51 have the typical R22(8) motif; however, this motif is absent in the corresponding tmp salts.",
+   "note": "Strutture di letteratura (rif. 50 e 51), senza forma estratta; i «50» e «51» sono rimandi."
+  },
+  {
+   "id": "X88",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "terza forma di tmp/az: cocristallo ionico da metanolo",
+   "oggetto": {
+    "forma": "F26"
+   },
+   "valori": [],
+   "qualitativo": "third form of tmp/az: ionic cocrystal from methanol",
+   "citazione": "A third form, the ionic cocrystal (tmp+)2(az2–)·tmp·6H2O, crystallized from methanol (Figure 6d)."
+  },
+  {
+   "id": "X89",
+   "categoria": "altro",
+   "proprieta": "forme transitorie in letteratura: sale metastabile del cocristallo isonicotinamide–acido citrico",
+   "valori": [
+    {
+     "etichetta": "rapporto isonicotinamide:acido citrico",
+     "testo": "2:1"
+    }
+   ],
+   "qualitativo": "concomitant growth of salt and cocrystal polymorphs for haloaniline/3,5-dinitrobenzoic acid; a metastable salt is a transient form to the polymorphs of the 2:1 isonicotinamide–citric acid cocrystal",
+   "citazione": "Concomitant growth of salt and cocrystal polymorphs has also been observed for haloaniline/3,5-dinitrobenzoic acid,30 and a metastable salt was identified as a transient form to the polymorphs of the 2:1 isonicotinamide–citric acid cocrystal.65",
+   "note": "Dati della letteratura (rif. 30 e 65); «30» e «65» sono rimandi. Rapporto come testo."
+  },
+  {
+   "id": "X90",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "conclusione: stesso coformero, siti diversi su tmp e pyr; effetto dell'etile in C6",
+   "valori": [],
+   "qualitativo": "the same coformer binds the N1/C2–NH2 site of tmp but the C2–NH2/N3/C4–NH2 site of pyr; or the same site with different graph sets (fused R21(6)/R12(5) vs R22(8)); significant effect of the ethyl substituent at C6 of pyr",
+   "citazione": "Crystal structures have been obtained, where the same coformer binds to the N1/C2–NH2 site of tmp (pairwise H bonding) but to the C2–NH2/N3/C4–NH2 site of pyr (three parallel H bonds) or where the coformer interacts at the same site but gives H bonding patterns with different graph set notations, specifically fused R21(6) and R12(5) rings versus the R22(8) motif in carboxylates. These examples demonstrated the significant effect of the ethyl substituent on the C6 carbon of pyr."
+  },
+  {
+   "id": "X91",
+   "categoria": "altro",
+   "proprieta": "tmp/az: sale transitorio e cocristallo stabile, contrariamente alla regola ΔpKa (conclusioni)",
+   "valori": [],
+   "qualitativo": "tmp/az shows salt-cocrystal polymorphism with the salt a transient metastable form, contrary to the expectation from the ΔpKa rule, the Coulomb contribution and the calculated packing indices",
+   "citazione": "The tmp/az system shows salt-cocrystal polymorphism with the salt, presenting a transient metastable form, contrary to what one would expect on the basis of the ΔpKa rule, the Coulomb attraction contribution to the lattice energy, and the calculated packing indices of the salt and cocrystal forms."
+  },
+  {
+   "id": "X92",
+   "categoria": "altro",
+   "proprieta": "cocristalli ionici a tre componenti di pyr (lavoro precedente) e interazione simultanea sfavorevole",
+   "valori": [],
+   "qualitativo": "in the previous pyr ternary ionic cocrystals the ADA and AD coformers bind different pyr molecules; simultaneous binding at both sites of the 2,4-diaminopyrimidine ring is apparently not favourable",
+   "citazione": "We have reported three-component ionic cocrystals of pyr with ADA- and AD coformers in a previous paper.18 The ADA- and AD-coformers bound to different pyr molecules in the crystal lattice. Apparently, the simultaneous interaction of two different coformers at both binding sites of the 2,4-diaminopyrimidine ring is not favorable.",
+   "note": "Citato dal rif. 18 (lavoro precedente degli autori)."
+  },
+  {
+   "id": "X93",
+   "categoria": "computazionale",
+   "proprieta": "intestazione di Tabella 2",
+   "valori": [],
+   "qualitativo": "columns: compound, ΔpKa (notes a,b), ΔE(sa-cc) (note c), stable form, density of the salt, density of the cocrystal in g cm–3",
+   "citazione": "compound | ΔpKaa,b | ΔE(sa-cc)c | stable form | densitysalt | densitycocrystal/g cm–3",
+   "note": "Le lettere a, b, c sono lettere di nota di tabella attaccate alle intestazioni; il testo delle note non e' nel corpus."
+  }
+ ]
+}

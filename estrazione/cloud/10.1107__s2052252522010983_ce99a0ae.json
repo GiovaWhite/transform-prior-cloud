@@ -1,0 +1,3845 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2052252522010983",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Pertinente: eventi sperimentali propri (stabilita' a caldo e a umidita', DSC/TGA con PXRD dopo trattamento termico, sospensione in acqua e in acido cloridrico diluito) e tre eventi citati dall'introduzione. Non sono eventi: la dipendenza dalla temperatura della cella di 1BER-1MA (a e b piu' lunghi a 293 K che a 100 K, c quasi invariato: stesso gruppo P21/c, stessa forma); la reversibilita' in soluzione fra la base BER libera e 8H-HBER; «Variation in the environment may also promote the solid-state transformation of commercially available BER» (generico, senza condizioni). Le forme di cloridrato di berberina (anidro, monoidrato, diidrato, tetraidrato) sono citate da Nakagawa 1978 e Yoshimatsu 1981. Calcolo di coefficienti di impacchettamento (PLATON), superfici di Hirshfeld, picchi PXRD, geometria dei legami H, dati di raffinamento e FT-IR: nell'extra. Il confronto fra la MAS delle forme e fattori quali impacchettamento, interazioni O⋯H e effetto dello ione comune e' una discussione degli autori, non una relazione di stabilita': nessuna `relazione` estratta. Incoerenze dell'articolo: (1) «triclinic space group P21» nel testo contro «Monoclinic» in Tabella 1 per i due tartrati; (2) abstract «34 times» contro «33-fold» nel testo per la MAS di 1BER-1MA in acido cloridrico diluito (68.8/2.1 = 32.8, conto di controllo mio); (3) il testo dice che le solubilita' apparenti a 48 h sono «below their MAS» ma per 1BER-1dl-TA 5.1 µmol/ml e' maggiore della MAS 4.5 µmol/ml; (4) etichette: 2BER-2CA contro 1BER-1CA (Tabelle 4-5, Conclusioni), BER-2MA-W (Hirshfeld) contro 1BER-2MA-2W, 1BER-1HCl-1M (Metodi) contro 1BER-1HCl-M; (5) Tabella 3 ha le colonne «Observed stoichiometry / Calculated stoichiometry» (1:2 per 1BER-2MA-2W, 1:1 per i due tartrati idrati) senza dire a che cosa si riferiscono: per queste tre forme coincidono sia il rapporto BER:acido sia il rapporto BER:acqua. Il testo dice che i campioni sono analizzati con FT-IR dopo il test di stabilita'; la PXRD solo per la forma che cambia.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "berberine (BER)"
+  },
+  {
+   "id": "C2",
+   "nome": "malonic acid (MA)"
+  },
+  {
+   "id": "C3",
+   "nome": "l-tartaric acid (lTA)"
+  },
+  {
+   "id": "C4",
+   "nome": "d-tartaric acid (dTA)",
+   "analogo_di": "C3"
+  },
+  {
+   "id": "C5",
+   "nome": "dl-tartaric acid (dlTA)",
+   "analogo_di": "C3"
+  },
+  {
+   "id": "C6",
+   "nome": "citric acid (CA)"
+  },
+  {
+   "id": "C7",
+   "nome": "hydrochloric acid",
+   "nome_scritto": "hydrochloric acid / HCl"
+  },
+  {
+   "id": "C8",
+   "nome": "8-hydroxy-7,8-dihydroberberine (8H-HBER)",
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "1BER-1MA",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 6.844,
+    "b": 19.545,
+    "c": 14.65,
+    "alpha": 90,
+    "beta": 98.71,
+    "gamma": 90,
+    "V": 1937.2,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2132141",
+   "strutture": [
+    {
+     "ccdc": "2132141",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "CCDC code | 2132141 | 2132142 | 2132143 | 2132145 | 2132144 | 2132146"
+    },
+    {
+     "ccdc": "2132142",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "CCDC code | 2132141 | 2132142 | 2132143 | 2132145 | 2132144 | 2132146"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "intramolecular O5—H⋯O7 hydrogen bond, ring-like structure",
+     "chi": "MA anion (intramolecular)",
+     "citazione": "The intramolecular hydrogen bond O5—H⋯O7 in the MA anion generates a ring-like structure"
+    },
+    {
+     "motivo": "no intermolecular hydrogen bonds",
+     "chi": null,
+     "citazione": "However, no intermolecular hydrogen bonds were observed in 1BER-1MA."
+    }
+   ],
+   "citazione": "The 6.844 (1) Å a axis and 19.545 (1) Å b axis at 100 K increased to 6.943 (1) Å and 19.818 (2) Å at 293 K, respectively, whereas the c axis showed almost no change.",
+   "note": "Sale malonato di berberina (1BER-1MA): un catione BER e un anione MA nell'unita' asimmetrica. Cella e gruppo da Tabella 1 colonna 1BER-1MA (100 K): «P21 c» in tabella, «P21/c» nel testo. Il CCDC 2132141 e il 2132142 sono attribuiti dalla riga «CCDC code» di Tabella 1 (colonne 1BER-1MA e 1BER-1MA-1). La seconda struttura, 1BER-1MA-1 (293 K: a 6.943(1), b 19.818(2), c 14.669(2) Å, beta 97.08(1), V 2003.1(3), Z 4), e' la stessa forma a T ambiente: `forme.cella` ne ha una sola, la cella a 293 K sta nell'extra. Dal testo: «The unit-cell parameters of 1BER-1MA were evidently affected by the measured temperature» (a e b aumentano, c quasi invariato): non e' un evento (stessa forma, stesso gruppo)."
+  },
+  {
+   "id": "F2",
+   "etichetta": "1BER-2MA-2W",
+   "tipo": [
+    "sale",
+    "cocristallo",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P 1",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 7.587,
+    "b": 12.937,
+    "c": 13.964,
+    "alpha": 71.32,
+    "beta": 83.35,
+    "gamma": 81.36,
+    "V": 1280.4,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2132143",
+   "motivi_hb": [
+    {
+     "motivo": "intramolecular O8—H8⋯O9 hydrogen bond, ring motif",
+     "chi": "MA anion (intramolecular)",
+     "citazione": "the intramolecular hydrogen bond O8—H8⋯O9 in 1BER-2MA-2W was generated to form a ring motif"
+    },
+    {
+     "motivo": "12-membered ring motif",
+     "chi": "two water molecules, one MA anion and one MA molecule",
+     "citazione": "Two water molecules, one MA anion and one MA molecule were connected via the hydrogen bonds O5—H⋯O13 (−x + 1, −y + 1, −z), O13—H⋯O11 (−x + 1, −y + 1, −z − 1), O14—H⋯O6 (−x + 2, −y, −z − 1) and O14—H⋯O12 (−x + 2, −y, −z − 1) to form a 12-membered ring motif."
+    },
+    {
+     "motivo": "two 12-membered ring motifs bonded via O13—H⋯O14",
+     "chi": "12-membered ring motifs (water, MA anion, MA molecule)",
+     "citazione": "Moreover, two 12-membered ring motifs were bonded to each other via the hydrogen bond O13—H⋯O14 (−x + 2, −y + 1, −z − 1)."
+    },
+    {
+     "motivo": "chain-like structure (via O8—H⋯O9)",
+     "chi": "hydrogen-bonded network extended via O8—H⋯O9",
+     "citazione": "Furthermore, the hydrogen-bonded network was extended via the hydrogen bond O8—H⋯O9 to generate a chain-like structure."
+    }
+   ],
+   "citazione": "1BER-2MA-2W crystallized in the triclinic space group P 1 with one BER cation, one MA anion, one neutral MA molecule and two water molecules in the asymmetric unit.",
+   "note": "Sale cocristallo idrato («salt cocrystal»: un MA e' deprotonato, l'altro neutro). Gruppo spaziale: il testo e la Tabella 1 scrivono «P 1» con la barra persa dal PDF; ricostruito P-1: sistema triclino, Z = 2 e unita' asimmetrica con UNA unita' formula completa (un BER, un MA anione, un MA neutro, due acque) quindi la cella ha due unita' formula = centrosimmetrica; BER e MA non sono chirali; il peso di formula 579.50 con V = 1280.4 e rho = 1.503 e' coerente con Z = 2 (conto di controllo mio). Stechiometria dell'acqua: due per unita' formula (un BER). Cella da Tabella 1 (100 K). CCDC 2132143 da Tabella 1."
+  },
+  {
+   "id": "F3",
+   "etichetta": "1BER-1lTA-1W",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "etichette_alternative": [
+    "1BER-1l-TA-1W",
+    "1BER-1L-TA-1W",
+    "1BER-1LTA-1W",
+    "BER-1lTA-1W"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 12.111,
+    "b": 7.093,
+    "c": 12.703,
+    "alpha": 90,
+    "beta": 99.43,
+    "gamma": 90,
+    "V": 1076.6,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2132145",
+   "motivi_hb": [
+    {
+     "motivo": "intramolecular O8—H⋯O10 hydrogen bond, five-membered ring-like motif",
+     "chi": "TA anion (intramolecular)",
+     "citazione": "The intramolecular hydrogen bond O8—H⋯O10 in the TA anion generates a five-membered ring-like motif"
+    },
+    {
+     "motivo": "chain-like structure",
+     "chi": "water molecule bonded to three TA anions via O7—H⋯O11, O11—H⋯O5, O11—H⋯O7",
+     "citazione": "Each water molecule is bonded to three TA anions around it via three hydrogen bonds, O7—H⋯O11, O11—H⋯O5 and O11—H⋯O7 to form a chain-like structure."
+    },
+    {
+     "motivo": "12-membered ring-like structure",
+     "chi": "via O9—H⋯O6",
+     "citazione": "The connection is further strengthened via the hydrogen bond O9—H⋯O6 to form a 12-membered ring-like structure."
+    }
+   ],
+   "citazione": "They crystallized in the triclinic space group P21 with one BER cation, one TA anion and one water molecule in the asymmetric unit.",
+   "conflitto": "Il testo scrive «triclinic space group P21»; la Tabella 1 scrive «Monoclinic» con P21 e angoli alpha = gamma = 90 (beta 99.43): si tiene monoclino P21 (P21 non e' un gruppo triclino; i dati di cella sono monoclini).",
+   "note": "Sale idrato con acido l-tartarico. Il testo tratta insieme 1BER-1lTA-1W e 1BER-1dTA-1W («have similar cell parameters and crystal structure»). Parametro di Flack 0.05(6) (nell'extra). Cella da Tabella 1 (100 K), colonna 1BER-1LTA-1W. CCDC 2132145 da Tabella 1: l'ordine delle colonne e' 1BER-1LTA-1W, 1BER-1DTA-1W e i CCDC sono scritti 2132145, 2132144 (non 2132144, 2132145): attribuzione cosi' come stampata."
+  },
+  {
+   "id": "F4",
+   "etichetta": "1BER-1dTA-1W",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "etichette_alternative": [
+    "1BER-1DTA-1W",
+    "1BER-1D-TA-1W"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 12.106,
+    "b": 7.09,
+    "c": 12.699,
+    "alpha": 90,
+    "beta": 99.39,
+    "gamma": 90,
+    "V": 1075.5,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2132144",
+   "motivi_hb": [
+    {
+     "motivo": "intramolecular O8—H⋯O10 hydrogen bond, five-membered ring-like motif",
+     "chi": "TA anion (intramolecular)",
+     "citazione": "The intramolecular hydrogen bond O8—H⋯O10 in the TA anion generates a five-membered ring-like motif"
+    },
+    {
+     "motivo": "chain-like structure",
+     "chi": "water molecule bonded to three TA anions via O7—H⋯O11, O11—H⋯O5, O11—H⋯O7",
+     "citazione": "Each water molecule is bonded to three TA anions around it via three hydrogen bonds, O7—H⋯O11, O11—H⋯O5 and O11—H⋯O7 to form a chain-like structure."
+    },
+    {
+     "motivo": "12-membered ring-like structure",
+     "chi": "via O9—H⋯O6",
+     "citazione": "The connection is further strengthened via the hydrogen bond O9—H⋯O6 to form a 12-membered ring-like structure."
+    }
+   ],
+   "citazione": "They crystallized in the triclinic space group P21 with one BER cation, one TA anion and one water molecule in the asymmetric unit.",
+   "conflitto": "Come per 1BER-1lTA-1W: il testo scrive «triclinic space group P21», la Tabella 1 «Monoclinic» (alpha = gamma = 90); si tiene monoclino.",
+   "note": "Sale idrato con acido d-tartarico. Parametro di Flack 0.11(4) (nell'extra). Cella da Tabella 1 (100 K), colonna 1BER-1DTA-1W; CCDC 2132144 da Tabella 1 (seconda delle due colonne dei tartrati, ma con il CCDC piu' basso)."
+  },
+  {
+   "id": "F5",
+   "etichetta": "1BER-1dlTA",
+   "tipo": "sale",
+   "etichette_alternative": [
+    "1BER-1dl-TA",
+    "1BER-1DLTA",
+    "1BER-1DL-TA"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "citazione": "Thus, the components included in 1BER-1dlTA were determined to be BER cations and dlTA anions with the molar ratio 1:1.",
+   "note": "Unica forma senza struttura SCXRD («All the multi-component solid forms with the exception of 1BER-1dlTA were confirmed by single-crystal X-ray diffraction»): componenti e rapporto 1:1 dedotti dagli autori dalla TGA/DSC dei tre tartrati; esiste un file Rietveld nel supplementare (non nel testo). Nessuna cella ne' CCDC nel testo."
+  },
+  {
+   "id": "F6",
+   "etichetta": "2BER-2CA",
+   "tipo": "sale",
+   "etichette_alternative": [
+    "1BER-1CA",
+    "BER-2CA"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 2
+    }
+   ],
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P 1",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 7.585,
+    "b": 14.686,
+    "c": 22.789,
+    "alpha": 101.25,
+    "beta": 97.33,
+    "gamma": 100.89,
+    "V": 2409.2,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2132146",
+   "motivi_hb": [
+    {
+     "motivo": "five- and seven-membered intramolecular ring-like motifs (O6—H⋯O9, O7—H⋯O8)",
+     "chi": "both types of CA anions (intramolecular)",
+     "citazione": "Similar intramolecular hydrogen bonds O6—H⋯O9 and O7—H⋯O8 form in both types of CA anions to construct five- and seven-membered ring-like motifs"
+    },
+    {
+     "motivo": "chain-like structure (O10A—H⋯O8A, O10B—H…O9B)",
+     "chi": "same type of CA anions",
+     "citazione": "The intermolecular hydrogen bond was shaped to yield a chain-like structure among the same type of CA anions, but with O10A—H⋯O8A for one type CA anions and O10B—H… O9B for the other."
+    }
+   ],
+   "citazione": "2BER-2CA crystallized in the triclinic space group P 1 with two BER cations and two CA anions in the asymmetric unit.",
+   "note": "Sale con acido citrico, due tipi di cationi BER e due di anioni CA nell'unita' asimmetrica. Gruppo spaziale: «P 1» con la barra persa; ricostruito P-1 perche' sistema triclino, Z = 2 con l'unita' asimmetrica che contiene gia' una unita' formula completa (2 BER + 2 CA, formula 2C20H18NO4·2C6H7O7 in Tabella 1), BER e acido citrico non sono chirali, e il peso di formula 1054.92 con V = 2409.2 e' compatibile con Z = 2 e con rho = 1.451 della tabella (conto di controllo mio: circa 1.454). Etichetta: 2BER-2CA ovunque tranne nel titolo del paragrafo («BER-2CA»), nelle Tabelle 4-5 e nelle Conclusioni («1BER-1CA»). Disordine: C12B—C13B su due posizioni (0.53:0.47), O11A su due posizioni (0.54:0.46)."
+  },
+  {
+   "id": "F7",
+   "etichetta": "1BER-2MA-2W-AH",
+   "tipo": [
+    "sale",
+    "cocristallo",
+    "anidro"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "citazione": "This signified that the crystal of 1BER-2MA-2W had collapsed following the loss of water to form a new solid (1BER-2MA-2W-AH)",
+   "note": "Forma disidratata di 1BER-2MA-2W («new solid»), caratterizzata solo da PXRD (picchi nell'extra), senza struttura. Componenti: BER 1 e MA 2 per deduzione (la perdita di acido malonico e' un passo successivo, secondo picco DSC); il testo non da' la composizione dell'AH."
+  },
+  {
+   "id": "F8",
+   "etichetta": "[anidro di 1BER-1lTA-1W]",
+   "tipo": [
+    "sale",
+    "anidro"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "citazione": "while both 1BER-1lTA-1W and 1BER-1dTA-1W only formed anhydrates without crystal collapse.",
+   "note": "Il testo scrive solo «anhydrates» senza etichetta: etichetta descrittiva. Nessun dato di struttura."
+  },
+  {
+   "id": "F9",
+   "etichetta": "[anidro di 1BER-1dTA-1W]",
+   "tipo": [
+    "sale",
+    "anidro"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "citazione": "while both 1BER-1lTA-1W and 1BER-1dTA-1W only formed anhydrates without crystal collapse.",
+   "note": "Come [anidro di 1BER-1lTA-1W]."
+  },
+  {
+   "id": "F10",
+   "etichetta": "1BER-1HCl-M",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F11",
+    "F12"
+   ],
+   "citazione": "Hence, the commercial form of BER hydro­chloride is usually a mixture (1BER-1HCl-M) of its dihydrate and tetrahydrate (Tong et al., 2009 ▸).",
+   "note": "Forma commerciale del cloridrato di berberina: miscela di diidrato e tetraidrato secondo l'introduzione (rif. Tong et al., 2009, «usually»); nelle prove di dissoluzione e' il riferimento. Proporzioni non date. L'articolo la chiama anche «1BER-1HCl-1M» (Metodi, refuso)."
+  },
+  {
+   "id": "F11",
+   "etichetta": "1BER-1HCl-2W",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "etichette_alternative": [
+    "dihydrate of BER hydrochloride"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "citazione": "It is reported that BER hydro­chloride exists in four solid forms: anhydrate, monohydrate, dihydrate (1BER-1HCl-2W) and tetrahydrate (1BER-1HCl-4W)",
+   "note": "Forma citata dalla letteratura (Nakagawa et al., 1978; Yoshimatsu et al., 1981); nessun dato strutturale nell'articolo."
+  },
+  {
+   "id": "F12",
+   "etichetta": "1BER-1HCl-4W",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "etichette_alternative": [
+    "tetrahydrate of BER hydrochloride"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 4,
+    "riferito_a": "unita_formula"
+   },
+   "citazione": "It is reported that BER hydro­chloride exists in four solid forms: anhydrate, monohydrate, dihydrate (1BER-1HCl-2W) and tetrahydrate (1BER-1HCl-4W)",
+   "note": "Tetraidrato del cloridrato: prodotto finale di tutte le conversioni in acqua e in acido cloridrico diluito (identificato per FT-IR dal confronto con la forma di riferimento)."
+  },
+  {
+   "id": "F13",
+   "etichetta": "[BER hydrochloride anhydrate]",
+   "tipo": "anidro",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "citazione": "It is reported that BER hydro­chloride exists in four solid forms: anhydrate, monohydrate, dihydrate (1BER-1HCl-2W) and tetrahydrate (1BER-1HCl-4W)",
+   "note": "Il testo non da' un'etichetta all'anidro del cloridrato: etichetta descrittiva."
+  },
+  {
+   "id": "F14",
+   "etichetta": "[BER hydrochloride monohydrate]",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "citazione": "It is reported that BER hydro­chloride exists in four solid forms: anhydrate, monohydrate, dihydrate (1BER-1HCl-2W) and tetrahydrate (1BER-1HCl-4W)",
+   "note": "Il testo non da' un'etichetta al monoidrato: etichetta descrittiva; la stechiometria 1 e' quella della parola «monohydrate»."
+  },
+  {
+   "id": "F15",
+   "composto": "C8",
+   "etichetta": "8H-HBER",
+   "tipo": "non_specificato",
+   "citazione": "8H-HBER (dark yellow powder) was prepared in our laboratory, and its purification confirmed by HPLC was >98%.",
+   "note": "Reagente (pseudobase della berberina) da cui si ottengono tutti i sali per cristallizzazione reattiva; nessun dato cristallografico nel testo."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F13",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita": {
+     "valore": 12,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "fonte_dati": "citata",
+   "riferimento": "Nakagawa et al., 1978; Yoshimatsu et al., 1981",
+   "natura": "fisica",
+   "note": "Evento riportato dall'introduzione come dato di letteratura; i rimandi (Nakagawa et al., 1978; Yoshimatsu et al., 1981) sono attaccati alla frase precedente, che elenca le quattro forme, e non alla frase dell'evento: attribuzione ai rimandi dedotta. «readily convert to the dihydrate at 12% humidity»: l'anidro e il monoidrato sono detti «remarkably hygroscopic»; il testo non dice se 12% e' una soglia o il valore provato. Temperatura non detta. Nessuna `frequenza`: «readily» non e' una frequenza dichiarata.",
+   "citazioni": [
+    "It is reported that BER hydro­chloride exists in four solid forms: anhydrate, monohydrate, dihydrate (1BER-1HCl-2W) and tetrahydrate (1BER-1HCl-4W)",
+    "The anhydrate and monohydrate are remarkably hygroscopic and readily convert to the dihydrate at 12% humidity."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E2",
+   "da": "F14",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita": {
+     "valore": 12,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "fonte_dati": "citata",
+   "riferimento": "Nakagawa et al., 1978; Yoshimatsu et al., 1981",
+   "natura": "fisica",
+   "note": "Evento riportato dall'introduzione come dato di letteratura; i rimandi (Nakagawa et al., 1978; Yoshimatsu et al., 1981) sono attaccati alla frase precedente, che elenca le quattro forme, e non alla frase dell'evento: attribuzione ai rimandi dedotta. Stessa frase dell'evento anidro -> diidrato: «The anhydrate and monohydrate ... readily convert to the dihydrate at 12% humidity», due eventi (uno per forma di partenza).",
+   "citazioni": [
+    "It is reported that BER hydro­chloride exists in four solid forms: anhydrate, monohydrate, dihydrate (1BER-1HCl-2W) and tetrahydrate (1BER-1HCl-4W)",
+    "The anhydrate and monohydrate are remarkably hygroscopic and readily convert to the dihydrate at 12% humidity."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E3",
+   "da": "F11",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "umidita": {
+     "unita": "%RH",
+     "min": 70,
+     "limite": "sopra"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "fonte_dati": "citata",
+   "riferimento": "Nakagawa et al., 1978; Yoshimatsu et al., 1981",
+   "natura": "fisica",
+   "note": "Evento riportato dall'introduzione come dato di letteratura; i rimandi (Nakagawa et al., 1978; Yoshimatsu et al., 1981) sono attaccati alla frase precedente, che elenca le quattro forme, e non alla frase dell'evento: attribuzione ai rimandi dedotta. «Humidity >70% would further induce»: il condizionale e il limite aperto sono riportati come scritti.",
+   "citazioni": [
+    "It is reported that BER hydro­chloride exists in four solid forms: anhydrate, monohydrate, dihydrate (1BER-1HCl-2W) and tetrahydrate (1BER-1HCl-4W)",
+    "Humidity >70% would further induce a phase transformation from the dihydrate to the tetrahydrate."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 352.0
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 6.2,
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecule",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "forma": "F2",
+     "citazione": "Although every water molecule in 1BER-2MA-2W (similar to that in BER-1lTA-1W and 1BER-1dTA-1W) was also bonded to molecules around it via three hydrogen bonds, the dehydration temperature of 1BER-2MA-2W was evidently lower than BER-1lTA-1W and 1BER-1dTA-1W."
+    },
+    {
+     "gruppo": "malonic acid",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "forma": "F2",
+     "citazione": "The reason for this phenomenon may be the lower melting point of the molecules including the water molecule and malonic acid in 1BER-2MA-2W (which form hydrogen bonds with water molecules), relative to those of the molecules of tartaric acid in BER-1lTA-1W and 1BER-1dTA-1W (which also form hydrogen bonds with water molecules)."
+    }
+   ],
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). Primo picco DSC attribuito a «water molecule loss» (quattro picchi in successione); perdita di massa 6.20% = «water weight loss». Il prodotto non e' caratterizzato dalla DSC/TGA: e' 1BER-2MA-2W-AH perche' l'esperimento PXRD dopo 10 min a 353 K (evento successivo) identifica il solido disidratato (certezza media). Il testo dice che la temperatura di disidratazione di 1BER-2MA-2W e' «evidently lower» di quella di lTA e dTA: 352.0 contro 375.7 e 379.9 K (Tabella 3).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "The proportions of water weight loss for 1BER-2MA-2W, 1BER-1lTA-1W and 1BER-1dTA-1W were 6.20, 3.55 and 3.65%, respectively.",
+    "Comparatively, there were four endothermic peaks for 1BER-2MA-2W, which were successively attributed to water molecule loss, uncharged malonic acid loss, solid-state transformation, and melting and decomposition, on the basis of analysing the TGA and PXRD data.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "1BER-2MA-2W | 352.0 | 6.20 | 391.5 | 17.80 | 418.8 | – | 467.7 | 16.6 | 1:2 | 1:2",
+    "Although every water molecule in 1BER-2MA-2W (similar to that in BER-1lTA-1W and 1BER-1dTA-1W) was also bonded to molecules around it via three hydrogen bonds, the dehydration temperature of 1BER-2MA-2W was evidently lower than BER-1lTA-1W and 1BER-1dTA-1W.",
+    "The reason for this phenomenon may be the lower melting point of the molecules including the water molecule and malonic acid in 1BER-2MA-2W (which form hydrogen bonds with water molecules), relative to those of the molecules of tartaric acid in BER-1lTA-1W and 1BER-1dTA-1W (which also form hydrogen bonds with water molecules)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 353,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«the crystal of 1BER-2MA-2W had collapsed following the loss of water to form a new solid (1BER-2MA-2W-AH)»: il testo non dice se il collasso e' del cristallo o del reticolo ne' dice un meccanismo; picchi PXRD della nuova forma nell'extra. Il metodo (stufa, DSC, altro) con cui si fa la disidratazione di 10 min non e' detto. Atmosfera e umidita' non dette.",
+   "citazioni": [
+    "After 10 min dehydration at 378 K for 1BER-1lTA-1W and 1BER-1dTA-1W and at 353 K for 1BER-2MA-2W, the samples were characterized by PXRD",
+    "the results showed that only the sample derived from 1BER-2MA-2W had undergone obvious changes in peak positions before and after dehydration.",
+    "This signified that the crystal of 1BER-2MA-2W had collapsed following the loss of water to form a new solid (1BER-2MA-2W-AH)"
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 423,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "perdita_componente"
+    ]
+   },
+   "esito_dettaglio": "incongruente",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«the results suggested that the residual solid was 1BER-1MA»: dedotto dalla PXRD («suggested»). Il sale cocristallo perde l'acqua e l'acido malonico neutro («uncharged malonic acid loss», picco 2 della DSC) e resta 1BER-1MA: esito_dettaglio «incongruente» e meccanismo «perdita_componente».",
+   "citazioni": [
+    "Thus, the 1BER-2MA-2W sample after heating for 10 min at 423 K was characterized by PXRD, and the results suggested that the residual solid was 1BER-1MA."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picchi": [
+      391.5,
+      418.8
+     ]
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "PXRD"
+    ],
+    "perdita_massa": {
+     "valore": 17.8,
+     "unita": "%",
+     "tipo": "passo"
+    },
+    "meccanismo": [
+     "perdita_componente"
+    ]
+   },
+   "esito_dettaglio": "incongruente",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). I due picchi dell'evento: 391.5 K = secondo picco, perdita di acido malonico neutro con 17.80% di massa (calcolato 17.94% dal SCXRD); 418.8 K = terzo picco, «solid-state transformation»; il testo dice che la perdita di massa e' «accompanied by transformation of the solid form» e il solido residuo e' 1BER-1MA solo per la PXRD dopo 10 min a 423 K (evento precedente): l'attribuzione del prodotto e' una deduzione degli autori («We inferred»). `da` e' la forma caricata: dopo il primo picco (perdita d'acqua) il campione e' presumibilmente 1BER-2MA-2W-AH, ma il testo non lo dice per la corsa DSC.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "The second DSC peak of 1BER-2MA-2W corresponded to a 17.80% weight loss in the TGA curve, almost equivalent to the calculated uncharged malonic acid loss value of 17.94% based on the SCXRD data.",
+    "A third endothermic peak appeared along with the weight loss of the uncharged malonic acid. We inferred that the weight loss is accompanied by transformation of the solid form.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "1BER-2MA-2W | 352.0 | 6.20 | 391.5 | 17.80 | 418.8 | – | 467.7 | 16.6 | 1:2 | 1:2"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_dedotto": true,
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 467.7
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 16.6,
+     "unita": "%",
+     "tipo": "passo"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 467.7,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "passo": "melting and decomposition",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). Quarto picco di 1BER-2MA-2W, «melting and decomposition»: regola 12 (fusione/decomposizione = a fuso con prodotti secondari decomposizione). `da` = 1BER-1MA per deduzione (da_dedotto): dopo il terzo picco («solid-state transformation») il residuo e' 1BER-1MA secondo la PXRD a 423 K; il testo non dice quale forma fonde al quarto picco. Il picco (467.7 K) e' vicino a quello di 1BER-1MA (470.7 K) ma il testo non lo osserva. Perdita di massa 16.6% dalla stessa riga di tabella (nota: l'unita' % e' nell'intestazione).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "Comparatively, there were four endothermic peaks for 1BER-2MA-2W, which were successively attributed to water molecule loss, uncharged malonic acid loss, solid-state transformation, and melting and decomposition, on the basis of analysing the TGA and PXRD data.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "1BER-2MA-2W | 352.0 | 6.20 | 391.5 | 17.80 | 418.8 | – | 467.7 | 16.6 | 1:2 | 1:2"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E9",
+   "da": "F3",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 375.7
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 3.55,
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecule",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "forma": "F3",
+     "citazione": "Although every water molecule in 1BER-2MA-2W (similar to that in BER-1lTA-1W and 1BER-1dTA-1W) was also bonded to molecules around it via three hydrogen bonds, the dehydration temperature of 1BER-2MA-2W was evidently lower than BER-1lTA-1W and 1BER-1dTA-1W."
+    },
+    {
+     "gruppo": "tartaric acid",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "forma": "F3",
+     "citazione": "The reason for this phenomenon may be the lower melting point of the molecules including the water molecule and malonic acid in 1BER-2MA-2W (which form hydrogen bonds with water molecules), relative to those of the molecules of tartaric acid in BER-1lTA-1W and 1BER-1dTA-1W (which also form hydrogen bonds with water molecules)."
+    }
+   ],
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). Primo picco di 1BER-1lTA-1W: «another endothermic peak ... that could be attributed to the crystalline water loss»; perdita di massa 3.55% = «water weight loss». Il prodotto non e' caratterizzato nella corsa DSC/TGA; e' l'anidro «anhydrate» identificato dalla PXRD dopo 10 min a 378 K (evento successivo), certezza media. La forma anidra non ha etichetta nel testo (solo «anhydrates»): etichetta descrittiva fra parentesi quadre.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "The proportions of water weight loss for 1BER-2MA-2W, 1BER-1lTA-1W and 1BER-1dTA-1W were 6.20, 3.55 and 3.65%, respectively.",
+    "However, another endothermic peak was observed in both 1BER-1lTA-1W and 1BER-1dTA-1W that could be attributed to the crystalline water loss.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "1BER-1L-TA-1W | 375.7 | 3.55 | 498.2 | 26.88 | – | – | – | – | 1:1 | 1:1",
+    "Although every water molecule in 1BER-2MA-2W (similar to that in BER-1lTA-1W and 1BER-1dTA-1W) was also bonded to molecules around it via three hydrogen bonds, the dehydration temperature of 1BER-2MA-2W was evidently lower than BER-1lTA-1W and 1BER-1dTA-1W.",
+    "The reason for this phenomenon may be the lower melting point of the molecules including the water molecule and malonic acid in 1BER-2MA-2W (which form hydrogen bonds with water molecules), relative to those of the molecules of tartaric acid in BER-1lTA-1W and 1BER-1dTA-1W (which also form hydrogen bonds with water molecules)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E10",
+   "da": "F3",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 378,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Per 1BER-1lTA-1W la PXRD dopo la disidratazione non mostra cambi evidenti delle posizioni dei picchi («only the sample derived from 1BER-2MA-2W had undergone obvious changes in peak positions»): formato un anidro «without crystal collapse». Il testo non usa il termine isomorfo ne' lo afferma come meccanismo, quindi nessun `meccanismo`. Picchi della PXRD dell'anidro non dati.",
+   "citazioni": [
+    "After 10 min dehydration at 378 K for 1BER-1lTA-1W and 1BER-1dTA-1W and at 353 K for 1BER-2MA-2W, the samples were characterized by PXRD",
+    "the results showed that only the sample derived from 1BER-2MA-2W had undergone obvious changes in peak positions before and after dehydration.",
+    "while both 1BER-1lTA-1W and 1BER-1dTA-1W only formed anhydrates without crystal collapse."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E11",
+   "da": "F4",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 379.9
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 3.65,
+     "unita": "%",
+     "tipo": "passo"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecule",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "forma": "F4",
+     "citazione": "Although every water molecule in 1BER-2MA-2W (similar to that in BER-1lTA-1W and 1BER-1dTA-1W) was also bonded to molecules around it via three hydrogen bonds, the dehydration temperature of 1BER-2MA-2W was evidently lower than BER-1lTA-1W and 1BER-1dTA-1W."
+    },
+    {
+     "gruppo": "tartaric acid",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "forma": "F4",
+     "citazione": "The reason for this phenomenon may be the lower melting point of the molecules including the water molecule and malonic acid in 1BER-2MA-2W (which form hydrogen bonds with water molecules), relative to those of the molecules of tartaric acid in BER-1lTA-1W and 1BER-1dTA-1W (which also form hydrogen bonds with water molecules)."
+    }
+   ],
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). Primo picco di 1BER-1dTA-1W: «another endothermic peak ... that could be attributed to the crystalline water loss»; perdita di massa 3.65% = «water weight loss». Il prodotto non e' caratterizzato nella corsa DSC/TGA; e' l'anidro «anhydrate» identificato dalla PXRD dopo 10 min a 378 K (evento successivo), certezza media. La forma anidra non ha etichetta nel testo (solo «anhydrates»): etichetta descrittiva fra parentesi quadre.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "The proportions of water weight loss for 1BER-2MA-2W, 1BER-1lTA-1W and 1BER-1dTA-1W were 6.20, 3.55 and 3.65%, respectively.",
+    "However, another endothermic peak was observed in both 1BER-1lTA-1W and 1BER-1dTA-1W that could be attributed to the crystalline water loss.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "1BER-1D-TA-1W | 379.9 | 3.65 | 497.8 | 27.78 | – | – | – | – | 1:1 | 1:1",
+    "Although every water molecule in 1BER-2MA-2W (similar to that in BER-1lTA-1W and 1BER-1dTA-1W) was also bonded to molecules around it via three hydrogen bonds, the dehydration temperature of 1BER-2MA-2W was evidently lower than BER-1lTA-1W and 1BER-1dTA-1W.",
+    "The reason for this phenomenon may be the lower melting point of the molecules including the water molecule and malonic acid in 1BER-2MA-2W (which form hydrogen bonds with water molecules), relative to those of the molecules of tartaric acid in BER-1lTA-1W and 1BER-1dTA-1W (which also form hydrogen bonds with water molecules)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E12",
+   "da": "F4",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 378,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Per 1BER-1dTA-1W la PXRD dopo la disidratazione non mostra cambi evidenti delle posizioni dei picchi («only the sample derived from 1BER-2MA-2W had undergone obvious changes in peak positions»): formato un anidro «without crystal collapse». Il testo non usa il termine isomorfo ne' lo afferma come meccanismo, quindi nessun `meccanismo`. Picchi della PXRD dell'anidro non dati.",
+   "citazioni": [
+    "After 10 min dehydration at 378 K for 1BER-1lTA-1W and 1BER-1dTA-1W and at 353 K for 1BER-2MA-2W, the samples were characterized by PXRD",
+    "the results showed that only the sample derived from 1BER-2MA-2W had undergone obvious changes in peak positions before and after dehydration.",
+    "while both 1BER-1lTA-1W and 1BER-1dTA-1W only formed anhydrates without crystal collapse."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E13",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 470.7
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 20.55,
+     "unita": "%",
+     "tipo": "passo"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 470.7,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "passo": "melting and decomposition",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). Un solo picco endotermo, attribuito a «melting and decomposition» (a fuso con prodotto secondario decomposizione, regola 12). Perdita di massa 20.55% dalla stessa riga di Tabella 3 (unita' % nell'intestazione).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "Only one endothermic peak corresponding to melting and decomposition in the DSC plots of 1BER-1MA, 1BER-1dl-TA and 2BER-2CA was observed.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "1BER-1MA | 470.7 | 20.55 | – | – | – | – | – | – | – | –"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E14",
+   "da": "F8",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 498.2
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 26.88,
+     "unita": "%",
+     "tipo": "passo"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 498.2,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "passo": "melting and decomposition",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_dedotto": true,
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). Secondo picco di 1BER-1lTA-1W: il testo non numera il picco ma parla di «the weight loss value attributed to melting and decomposition» anche per 1BER-1lTA-1W e 1BER-1dTA-1W (oltre alla perdita d'acqua del primo picco): attribuzione del secondo picco a «melting and decomposition» per esclusione. `da` = anidro [F8] per deduzione (da_dedotto): dopo il primo picco (perdita d'acqua) il campione e' presumibilmente anidro; il testo non dice quale forma fonde.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "Only one endothermic peak corresponding to melting and decomposition in the DSC plots of 1BER-1MA, 1BER-1dl-TA and 2BER-2CA was observed.",
+    "However, another endothermic peak was observed in both 1BER-1lTA-1W and 1BER-1dTA-1W that could be attributed to the crystalline water loss.",
+    "Moreover, the weight loss value attributed to melting and decomposition for 1BER-1dlTA was roughly equivalent to that for 1BER-1lTA-1W and 1BER-1dTA-1W.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "1BER-1L-TA-1W | 375.7 | 3.55 | 498.2 | 26.88 | – | – | – | – | 1:1 | 1:1"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E15",
+   "da": "F9",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 497.8
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 27.78,
+     "unita": "%",
+     "tipo": "passo"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 497.8,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "passo": "melting and decomposition",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_dedotto": true,
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). Secondo picco di 1BER-1dTA-1W: stessa situazione di 1BER-1lTA-1W (attribuzione per esclusione, `da` = anidro dedotto).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "Only one endothermic peak corresponding to melting and decomposition in the DSC plots of 1BER-1MA, 1BER-1dl-TA and 2BER-2CA was observed.",
+    "However, another endothermic peak was observed in both 1BER-1lTA-1W and 1BER-1dTA-1W that could be attributed to the crystalline water loss.",
+    "Moreover, the weight loss value attributed to melting and decomposition for 1BER-1dlTA was roughly equivalent to that for 1BER-1lTA-1W and 1BER-1dTA-1W.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "1BER-1D-TA-1W | 379.9 | 3.65 | 497.8 | 27.78 | – | – | – | – | 1:1 | 1:1"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E16",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 507.8
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 29.48,
+     "unita": "%",
+     "tipo": "passo"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 507.8,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "passo": "melting and decomposition",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). Un solo picco, «melting and decomposition». La forma non ha struttura SCXRD (componenti e rapporto 1:1 dedotti dalla TGA/DSC dei tre tartrati).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "Only one endothermic peak corresponding to melting and decomposition in the DSC plots of 1BER-1MA, 1BER-1dl-TA and 2BER-2CA was observed.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "1BER-1DL-TA | 507.8 | 29.48 | – | – | – | – | – | – | – | –"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E17",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 481.3
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 26.5,
+     "unita": "%",
+     "tipo": "passo"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 481.3,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "passo": "melting and decomposition",
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il numero del picco e' preso da Tabella 3 (intestazione «First peak (K)»): l'unita' sta nell'intestazione e non accanto al numero, per questo la verifica puo' dare «quasi». Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). Un solo picco, «melting and decomposition».",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "Only one endothermic peak corresponding to melting and decomposition in the DSC plots of 1BER-1MA, 1BER-1dl-TA and 2BER-2CA was observed.",
+    "First peak (K) | Weight loss (%) | Second peak (K) | Weight loss (%) | Third peak (K) | Weight loss (%) | Fourth peak (K) | Weight loss (%) | Observed stoichiometry | Calculated stoichiometry",
+    "2BER-2CA | 481.3 | 26.5 | – | – | – | – | – | – | – | –"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E18",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo sulla sola desolvatazione: nella DSC/TGA di 1BER-1dlTA c'e' solo il picco di fusione e decomposizione (507.8 K, evento separato). Intervallo scansionato 313-573 K a 10 K/min. Crogiolo: «open aluminium oxide cells» (cella aperta di ossido di alluminio; il materiale non ha un campo). ",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA) were conducted on a ZCT-B DSC/TGA calorimeter (Jingyi Gaoke Instrument Co. Ltd, Beijing, China). The accurately weighed samples in open aluminium oxide cells were heated from 313 to 573 K at a constant rate of 10 K min−1.",
+    "No de-solvent peak was observed for 1BER-1dlTA."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E19",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 483,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Frase per «all the products» (i sei sali): un evento per forma, certezza media. Il prodotto di decomposizione dopo la fusione e' identificato per FT-IR come berberrubina («correspond to berberrubine derived from 1BER-1HCl-M»), confronto con la berberrubina ottenuta da 1BER-1HCl-M (Iwasa et al., 1996). La berberrubina non e' una forma solida dichiarata nell'articolo: a = decomposizione. Il testo non dice se si parte da 1BER-1MA o da una forma intermedia (anidro, 1BER-1MA); 483 K e' scritto una volta per tutti i prodotti, e per alcune forme i picchi DSC di fusione/decomposizione della Tabella 3 sono a temperatura maggiore di 483 K (tartrati: 498.2, 497.8, 507.8 K).",
+   "citazioni": [
+    "Hence, all the products after melting and decomposition were monitored using FT-IR and were found to correspond to berberrubine derived from 1BER-1HCl-M",
+    "when heated for 10 min at 483 K."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E20",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 483,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Frase per «all the products» (i sei sali): un evento per forma, certezza media. Il prodotto di decomposizione dopo la fusione e' identificato per FT-IR come berberrubina («correspond to berberrubine derived from 1BER-1HCl-M»), confronto con la berberrubina ottenuta da 1BER-1HCl-M (Iwasa et al., 1996). La berberrubina non e' una forma solida dichiarata nell'articolo: a = decomposizione. Il testo non dice se si parte da 1BER-2MA-2W o da una forma intermedia (anidro, 1BER-1MA); 483 K e' scritto una volta per tutti i prodotti, e per alcune forme i picchi DSC di fusione/decomposizione della Tabella 3 sono a temperatura maggiore di 483 K (tartrati: 498.2, 497.8, 507.8 K).",
+   "citazioni": [
+    "Hence, all the products after melting and decomposition were monitored using FT-IR and were found to correspond to berberrubine derived from 1BER-1HCl-M",
+    "when heated for 10 min at 483 K."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E21",
+   "da": "F3",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 483,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Frase per «all the products» (i sei sali): un evento per forma, certezza media. Il prodotto di decomposizione dopo la fusione e' identificato per FT-IR come berberrubina («correspond to berberrubine derived from 1BER-1HCl-M»), confronto con la berberrubina ottenuta da 1BER-1HCl-M (Iwasa et al., 1996). La berberrubina non e' una forma solida dichiarata nell'articolo: a = decomposizione. Il testo non dice se si parte da 1BER-1lTA-1W o da una forma intermedia (anidro, 1BER-1MA); 483 K e' scritto una volta per tutti i prodotti, e per alcune forme i picchi DSC di fusione/decomposizione della Tabella 3 sono a temperatura maggiore di 483 K (tartrati: 498.2, 497.8, 507.8 K).",
+   "citazioni": [
+    "Hence, all the products after melting and decomposition were monitored using FT-IR and were found to correspond to berberrubine derived from 1BER-1HCl-M",
+    "when heated for 10 min at 483 K."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E22",
+   "da": "F4",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 483,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Frase per «all the products» (i sei sali): un evento per forma, certezza media. Il prodotto di decomposizione dopo la fusione e' identificato per FT-IR come berberrubina («correspond to berberrubine derived from 1BER-1HCl-M»), confronto con la berberrubina ottenuta da 1BER-1HCl-M (Iwasa et al., 1996). La berberrubina non e' una forma solida dichiarata nell'articolo: a = decomposizione. Il testo non dice se si parte da 1BER-1dTA-1W o da una forma intermedia (anidro, 1BER-1MA); 483 K e' scritto una volta per tutti i prodotti, e per alcune forme i picchi DSC di fusione/decomposizione della Tabella 3 sono a temperatura maggiore di 483 K (tartrati: 498.2, 497.8, 507.8 K).",
+   "citazioni": [
+    "Hence, all the products after melting and decomposition were monitored using FT-IR and were found to correspond to berberrubine derived from 1BER-1HCl-M",
+    "when heated for 10 min at 483 K."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E23",
+   "da": "F5",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 483,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Frase per «all the products» (i sei sali): un evento per forma, certezza media. Il prodotto di decomposizione dopo la fusione e' identificato per FT-IR come berberrubina («correspond to berberrubine derived from 1BER-1HCl-M»), confronto con la berberrubina ottenuta da 1BER-1HCl-M (Iwasa et al., 1996). La berberrubina non e' una forma solida dichiarata nell'articolo: a = decomposizione. Il testo non dice se si parte da 1BER-1dlTA o da una forma intermedia (anidro, 1BER-1MA); 483 K e' scritto una volta per tutti i prodotti, e per alcune forme i picchi DSC di fusione/decomposizione della Tabella 3 sono a temperatura maggiore di 483 K (tartrati: 498.2, 497.8, 507.8 K).",
+   "citazioni": [
+    "Hence, all the products after melting and decomposition were monitored using FT-IR and were found to correspond to berberrubine derived from 1BER-1HCl-M",
+    "when heated for 10 min at 483 K."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E24",
+   "da": "F6",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 483,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Frase per «all the products» (i sei sali): un evento per forma, certezza media. Il prodotto di decomposizione dopo la fusione e' identificato per FT-IR come berberrubina («correspond to berberrubine derived from 1BER-1HCl-M»), confronto con la berberrubina ottenuta da 1BER-1HCl-M (Iwasa et al., 1996). La berberrubina non e' una forma solida dichiarata nell'articolo: a = decomposizione. Il testo non dice se si parte da 2BER-2CA o da una forma intermedia (anidro, 1BER-1MA); 483 K e' scritto una volta per tutti i prodotti, e per alcune forme i picchi DSC di fusione/decomposizione della Tabella 3 sono a temperatura maggiore di 483 K (tartrati: 498.2, 497.8, 507.8 K).",
+   "citazioni": [
+    "Hence, all the products after melting and decomposition were monitored using FT-IR and were found to correspond to berberrubine derived from 1BER-1HCl-M",
+    "when heated for 10 min at 483 K."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E25",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 333,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 40,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni dalla frase dei metodi «high temperature (313 K and/or 333 K, 40% ± 5%)»: il testo non scrive «RH» accanto a «40%»; e' letto come umidita' relativa perche' la coppia e' parallela a «high humidity (298 K, 90% ± 5%)» (codice «HH-90%» in Tabella 4), ma e' una lettura. L'incertezza ± 5% non ha un campo nella grandezza. Tabella 4 chiama il sale con acido citrico «1BER-1CA», mentre il resto dell'articolo e la Tabella 1 lo chiamano 2BER-2CA. Tabella 4 colonna HT-333K-10d: 1BER-1MA resta 1BER-1MA; il testo dice che tutti i campioni «retained their original solid form except for 1BER-2MA-2W». I campioni sono analizzati con FT-IR («further analysed via FT-IR to determine whether the samples had changed»). Sale anidro: via termica/conservazione.",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1MA | – | 1BER-1MA | 1BER-1MA"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E26",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 333,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 40,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni dalla frase dei metodi «high temperature (313 K and/or 333 K, 40% ± 5%)»: il testo non scrive «RH» accanto a «40%»; e' letto come umidita' relativa perche' la coppia e' parallela a «high humidity (298 K, 90% ± 5%)» (codice «HH-90%» in Tabella 4), ma e' una lettura. L'incertezza ± 5% non ha un campo nella grandezza. Tabella 4 chiama il sale con acido citrico «1BER-1CA», mentre il resto dell'articolo e la Tabella 1 lo chiamano 2BER-2CA. Tabella 4 colonna HT-333K-10d: 1BER-1lTA-1W resta 1BER-1lTA-1W; il testo dice che tutti i campioni «retained their original solid form except for 1BER-2MA-2W». I campioni sono analizzati con FT-IR («further analysed via FT-IR to determine whether the samples had changed»). Idrato: via `desolvatazione`/riscaldamento perche' la leva provata e' il calore su un idrato (la forma 1BER-2MA-2W, dello stesso test, perde l'acqua).",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1LTA-1W | – | 1BER-1LTA-1W | 1BER-1LTA-1W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E27",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 333,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 40,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni dalla frase dei metodi «high temperature (313 K and/or 333 K, 40% ± 5%)»: il testo non scrive «RH» accanto a «40%»; e' letto come umidita' relativa perche' la coppia e' parallela a «high humidity (298 K, 90% ± 5%)» (codice «HH-90%» in Tabella 4), ma e' una lettura. L'incertezza ± 5% non ha un campo nella grandezza. Tabella 4 chiama il sale con acido citrico «1BER-1CA», mentre il resto dell'articolo e la Tabella 1 lo chiamano 2BER-2CA. Tabella 4 colonna HT-333K-10d: 1BER-1dTA-1W resta 1BER-1dTA-1W; il testo dice che tutti i campioni «retained their original solid form except for 1BER-2MA-2W». I campioni sono analizzati con FT-IR («further analysed via FT-IR to determine whether the samples had changed»). Idrato: via `desolvatazione`/riscaldamento perche' la leva provata e' il calore su un idrato (la forma 1BER-2MA-2W, dello stesso test, perde l'acqua).",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1DTA-1W | – | 1BER-1DTA-1W | 1BER-1DTA-1W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E28",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 333,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 40,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni dalla frase dei metodi «high temperature (313 K and/or 333 K, 40% ± 5%)»: il testo non scrive «RH» accanto a «40%»; e' letto come umidita' relativa perche' la coppia e' parallela a «high humidity (298 K, 90% ± 5%)» (codice «HH-90%» in Tabella 4), ma e' una lettura. L'incertezza ± 5% non ha un campo nella grandezza. Tabella 4 chiama il sale con acido citrico «1BER-1CA», mentre il resto dell'articolo e la Tabella 1 lo chiamano 2BER-2CA. Tabella 4 colonna HT-333K-10d: 1BER-1dlTA resta 1BER-1dlTA; il testo dice che tutti i campioni «retained their original solid form except for 1BER-2MA-2W». I campioni sono analizzati con FT-IR («further analysed via FT-IR to determine whether the samples had changed»). Sale anidro: via termica/conservazione.",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1DLTA | – | 1BER-1DLTA | 1BER-1DLTA"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E29",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 333,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 40,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni dalla frase dei metodi «high temperature (313 K and/or 333 K, 40% ± 5%)»: il testo non scrive «RH» accanto a «40%»; e' letto come umidita' relativa perche' la coppia e' parallela a «high humidity (298 K, 90% ± 5%)» (codice «HH-90%» in Tabella 4), ma e' una lettura. L'incertezza ± 5% non ha un campo nella grandezza. Tabella 4 chiama il sale con acido citrico «1BER-1CA», mentre il resto dell'articolo e la Tabella 1 lo chiamano 2BER-2CA. Tabella 4 colonna HT-333K-10d: 2BER-2CA resta 1BER-1CA; il testo dice che tutti i campioni «retained their original solid form except for 1BER-2MA-2W». I campioni sono analizzati con FT-IR («further analysed via FT-IR to determine whether the samples had changed»). Sale anidro: via termica/conservazione.",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1CA | – | 1BER-1CA | 1BER-1CA"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E30",
+   "da": "F2",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 333,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 40,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR",
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni dalla frase dei metodi «high temperature (313 K and/or 333 K, 40% ± 5%)»: il testo non scrive «RH» accanto a «40%»; e' letto come umidita' relativa perche' la coppia e' parallela a «high humidity (298 K, 90% ± 5%)» (codice «HH-90%» in Tabella 4), ma e' una lettura. L'incertezza ± 5% non ha un campo nella grandezza. Tabella 4 chiama il sale con acido citrico «1BER-1CA», mentre il resto dell'articolo e la Tabella 1 lo chiamano 2BER-2CA. Unica forma che cambia nel test: a 333 K diventa «the new solid form 1BER-2MA-2W-AH» (Tabella 4), identificata con la PXRD. Disidratazione per riscaldamento con RH > 0: prevale il riscaldamento (regola v1.3: `desolvatazione`/riscaldamento con umidita'), perche' il prodotto e' un anidro e non un idrato.",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-2MA-2W | 1BER-2MA-2W | 1BER-2MA-2W-AH | 1BER-2MA-2W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E31",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 313,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 40,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR",
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni dalla frase dei metodi «high temperature (313 K and/or 333 K, 40% ± 5%)»: il testo non scrive «RH» accanto a «40%»; e' letto come umidita' relativa perche' la coppia e' parallela a «high humidity (298 K, 90% ± 5%)» (codice «HH-90%» in Tabella 4), ma e' una lettura. L'incertezza ± 5% non ha un campo nella grandezza. Tabella 4 chiama il sale con acido citrico «1BER-1CA», mentre il resto dell'articolo e la Tabella 1 lo chiamano 2BER-2CA. Solo 1BER-2MA-2W e' provata a 313 K (le altre righe di Tabella 4 hanno «–»). A 313 K resta stabile; a 333 K si disidrata (evento separato).",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "Thus, we further investigated the stability of 1BER-2MA-2W at high temperature (313 K) and the results showed that 1BER-2MA-2W remained stable.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-2MA-2W | 1BER-2MA-2W | 1BER-2MA-2W-AH | 1BER-2MA-2W"
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E32",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Tabella 4 colonna HH-90%-10d: la forma resta quella di partenza. L'incertezza ± 5% della RH non ha un campo. ",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1MA | – | 1BER-1MA | 1BER-1MA"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E33",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Tabella 4 colonna HH-90%-10d: la forma resta quella di partenza. L'incertezza ± 5% della RH non ha un campo. ",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-2MA-2W | 1BER-2MA-2W | 1BER-2MA-2W-AH | 1BER-2MA-2W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E34",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Tabella 4 colonna HH-90%-10d: la forma resta quella di partenza. L'incertezza ± 5% della RH non ha un campo. ",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1LTA-1W | – | 1BER-1LTA-1W | 1BER-1LTA-1W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E35",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Tabella 4 colonna HH-90%-10d: la forma resta quella di partenza. L'incertezza ± 5% della RH non ha un campo. ",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1DTA-1W | – | 1BER-1DTA-1W | 1BER-1DTA-1W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E36",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Tabella 4 colonna HH-90%-10d: la forma resta quella di partenza. L'incertezza ± 5% della RH non ha un campo. ",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1DLTA | – | 1BER-1DLTA | 1BER-1DLTA"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E37",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "umidita": {
+     "valore": 90,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Tabella 4 colonna HH-90%-10d: la forma resta quella di partenza. L'incertezza ± 5% della RH non ha un campo. Tabella 4 scrive «1BER-1CA» per il sale dell'acido citrico (2BER-2CA altrove).",
+   "citazioni": [
+    "Samples were subjected to accelerated conditions of high temperature (313 K and/or 333 K, 40% ± 5%) and high humidity (298 K, 90% ± 5%) for 10 days according to the Chinese Pharmacopoeia",
+    "As presented in Table 4 ▸ and Figs. S13–S18, all the samples prepared retained their original solid form except for 1BER-2MA-2W. The sample derived from 1BER-2MA-2W at high temperature was characterized by PXRD and found to be the new solid form 1BER-2MA-2W-AH.",
+    "HT-313K-10d | HT-333K-10d | HH-90%-10d",
+    "1BER-1CA | – | 1BER-1CA | 1BER-1CA"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E38",
+   "da": "F10",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "h",
+     "tipo": "osservata"
+    },
+    "solventi": [
+     {
+      "nome": "pure water"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). La forma commerciale 1BER-1HCl-M (miscela di diidrato e tetraidrato secondo l'introduzione, rif. Tong et al., 2009) «underwent full conversion to 1BER-1HCl-4W» in acqua pura; il tempo (3 h, primo controllo) e' letto dalla Tabella 5: il testo non lo dice per questo caso.",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "As expected, all the residual solid forms derived from pure water (Figs. S19–S20) showed no difference from their original forms, except for the commercial form of BER, which underwent full conversion to 1BER-1HCl-4W.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1HCl-M | 1BER-1HCl-4W | 1BER-1HCl-4W | 1BER-1HCl-M | 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E39",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "unita": "h",
+     "tipo": "attesa",
+     "valori": [
+      3,
+      48
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "pure water"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). Residuo analizzato dopo 3 e 48 h: in acqua pura nessuna differenza dalla forma di partenza (frase per tutte le forme tranne la commerciale, e Tabella 5).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "As expected, all the residual solid forms derived from pure water (Figs. S19–S20) showed no difference from their original forms, except for the commercial form of BER, which underwent full conversion to 1BER-1HCl-4W.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1MA | 1BER-1MA | 1BER-1MA | 1BER-1MA | 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E40",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "unita": "h",
+     "tipo": "attesa",
+     "valori": [
+      3,
+      48
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "pure water"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). Residuo analizzato dopo 3 e 48 h: in acqua pura nessuna differenza dalla forma di partenza (frase per tutte le forme tranne la commerciale, e Tabella 5). `a_possibili`: il testo dice esplicitamente che 1BER-2MA-2W non diventa 1BER-1MA in acqua pura (con la nota che quindi l'effetto dello ione comune non spiega la minore MAS di 1BER-2MA-2W rispetto a 1BER-1MA).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "As expected, all the residual solid forms derived from pure water (Figs. S19–S20) showed no difference from their original forms, except for the commercial form of BER, which underwent full conversion to 1BER-1HCl-4W.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-2MA-2W | 1BER-2MA-2W | 1BER-2MA-2W | 1BER-2MA-2W | 1BER-1HCl-4W | 1BER-1HCl-4W",
+    "1BER-2MA-2W did not convert to 1BER-1MA in pure water."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E41",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "unita": "h",
+     "tipo": "attesa",
+     "valori": [
+      3,
+      48
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "pure water"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). Residuo analizzato dopo 3 e 48 h: in acqua pura nessuna differenza dalla forma di partenza (frase per tutte le forme tranne la commerciale, e Tabella 5).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "As expected, all the residual solid forms derived from pure water (Figs. S19–S20) showed no difference from their original forms, except for the commercial form of BER, which underwent full conversion to 1BER-1HCl-4W.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1L-TA-1W | 1BER-1L-TA-1W | 1BER-1L-TA-1W | 1BER-1L-TA-1W | 1BER-1L-TA-1W + 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E42",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "unita": "h",
+     "tipo": "attesa",
+     "valori": [
+      3,
+      48
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "pure water"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). Residuo analizzato dopo 3 e 48 h: in acqua pura nessuna differenza dalla forma di partenza (frase per tutte le forme tranne la commerciale, e Tabella 5).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "As expected, all the residual solid forms derived from pure water (Figs. S19–S20) showed no difference from their original forms, except for the commercial form of BER, which underwent full conversion to 1BER-1HCl-4W.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1D-TA-1W | 1BER-1D-TA-1W | 1BER-1D-TA-1W | 1BER-1D-TA-1W | 1BER-1D-TA-1W + 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E43",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "unita": "h",
+     "tipo": "attesa",
+     "valori": [
+      3,
+      48
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "pure water"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). Residuo analizzato dopo 3 e 48 h: in acqua pura nessuna differenza dalla forma di partenza (frase per tutte le forme tranne la commerciale, e Tabella 5).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "As expected, all the residual solid forms derived from pure water (Figs. S19–S20) showed no difference from their original forms, except for the commercial form of BER, which underwent full conversion to 1BER-1HCl-4W.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1DL-TA | 1BER-1DL-TA | 1BER-1DL-TA | 1BER-1DL-TA | 1BER-1DL-TA | 1BER-1HCl-4W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E44",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "unita": "h",
+     "tipo": "attesa",
+     "valori": [
+      3,
+      48
+     ]
+    },
+    "solventi": [
+     {
+      "nome": "pure water"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). Residuo analizzato dopo 3 e 48 h: in acqua pura nessuna differenza dalla forma di partenza (frase per tutte le forme tranne la commerciale, e Tabella 5).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "As expected, all the residual solid forms derived from pure water (Figs. S19–S20) showed no difference from their original forms, except for the commercial form of BER, which underwent full conversion to 1BER-1HCl-4W.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1CA | 1BER-1CA | 1BER-1CA | 1BER-1CA | 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E45",
+   "da": "F10",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "h",
+     "tipo": "osservata"
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). In acido cloridrico diluito (pH 1.2) la forma commerciale e' gia' 1BER-1HCl-4W a 3 h (Tabella 5); il testo la include in «all the residual solid forms» ma non dice il tempo.",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "The solid form transformation occurred in all the residual solid forms that originated from the dilute hydrochloric solution (Figs. S21 and S22), but the conversion rate of the solid forms is obviously different among the solid forms obtained.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1HCl-M | 1BER-1HCl-4W | 1BER-1HCl-4W | 1BER-1HCl-M | 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E46",
+   "da": "F1",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "h",
+     "tipo": "osservata"
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "organic acids",
+     "ruolo": "altro",
+     "con": "controione",
+     "cambia": "cambia_partner",
+     "forma": "F1",
+     "citazione": "It is inferred that the organic acids replaced by hydrochloric acid in solution may affect the apparent solubility of 1BER-1HCl-4W."
+    }
+   ],
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). Conversione completa a 3 h; lo stesso prodotto e' presente a 48 h (Tabella 5). Il controione organico e' scambiato con cloruro («the organic acids replaced by hydrochloric acid in solution»), frase che gli autori introducono con «It is inferred»: natura fisica perche' il cation BER non cambia, ma la forma e' un sale di un altro controione.",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "1BER-1MA, 1BER-2MA-2W and 2BER-2CA underwent complete conversion to 1BER-1HCl-4W after 3 h.",
+    "The solid form transformation occurred in all the residual solid forms that originated from the dilute hydrochloric solution (Figs. S21 and S22), but the conversion rate of the solid forms is obviously different among the solid forms obtained.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1MA | 1BER-1MA | 1BER-1MA | 1BER-1MA | 1BER-1HCl-4W | 1BER-1HCl-4W",
+    "It is inferred that the organic acids replaced by hydrochloric acid in solution may affect the apparent solubility of 1BER-1HCl-4W."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E47",
+   "da": "F2",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "h",
+     "tipo": "osservata"
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "organic acids",
+     "ruolo": "altro",
+     "con": "controione",
+     "cambia": "cambia_partner",
+     "forma": "F2",
+     "citazione": "It is inferred that the organic acids replaced by hydrochloric acid in solution may affect the apparent solubility of 1BER-1HCl-4W."
+    }
+   ],
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). Conversione completa a 3 h (come 1BER-1MA e 2BER-2CA). Il prodotto 1BER-1HCl-4W e' il tetraidrato del cloridrato; la forma di partenza e' il cocristallo salino con MA anione, MA neutra e due acque (stesso commento dell'evento 1BER-1MA sul controione).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "1BER-1MA, 1BER-2MA-2W and 2BER-2CA underwent complete conversion to 1BER-1HCl-4W after 3 h.",
+    "The solid form transformation occurred in all the residual solid forms that originated from the dilute hydrochloric solution (Figs. S21 and S22), but the conversion rate of the solid forms is obviously different among the solid forms obtained.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-2MA-2W | 1BER-2MA-2W | 1BER-2MA-2W | 1BER-2MA-2W | 1BER-1HCl-4W | 1BER-1HCl-4W",
+    "It is inferred that the organic acids replaced by hydrochloric acid in solution may affect the apparent solubility of 1BER-1HCl-4W."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E48",
+   "da": "F6",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "h",
+     "tipo": "osservata"
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "organic acids",
+     "ruolo": "altro",
+     "con": "controione",
+     "cambia": "cambia_partner",
+     "forma": "F6",
+     "citazione": "It is inferred that the organic acids replaced by hydrochloric acid in solution may affect the apparent solubility of 1BER-1HCl-4W."
+    }
+   ],
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). Conversione completa a 3 h; Tabella 5 scrive «1BER-1CA» per questo sale.",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "1BER-1MA, 1BER-2MA-2W and 2BER-2CA underwent complete conversion to 1BER-1HCl-4W after 3 h.",
+    "The solid form transformation occurred in all the residual solid forms that originated from the dilute hydrochloric solution (Figs. S21 and S22), but the conversion rate of the solid forms is obviously different among the solid forms obtained.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1CA | 1BER-1CA | 1BER-1CA | 1BER-1CA | 1BER-1HCl-4W | 1BER-1HCl-4W",
+    "It is inferred that the organic acids replaced by hydrochloric acid in solution may affect the apparent solubility of 1BER-1HCl-4W."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E49",
+   "da": "F4",
+   "a": "F12",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "h",
+     "tipo": "osservata"
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ],
+    "frazione_convertita": {
+     "testo": "small amounts"
+    },
+    "composizione_prodotto": [
+     {
+      "forma": "F4",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F12",
+      "prevalenza": "minoritaria"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). A 3 h: «small amounts of 1BER-1dTA-1W and 1BER-1lTA-1W were converted to 1BER-1HCl-4W»; Tabella 5: «1BER-1D-TA-1W + 1BER-1HCl-4W». `prevalente`/`minoritaria` ricavati da «small amounts»; nessuna frazione numerica. Corsa campionata a 3 e 48 h: due eventi (3 h parziale, 48 h completo).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "In comparison, small amounts of 1BER-1dTA-1W and 1BER-1lTA-1W were converted to 1BER-1HCl-4W after 3 h.",
+    "The solid form transformation occurred in all the residual solid forms that originated from the dilute hydrochloric solution (Figs. S21 and S22), but the conversion rate of the solid forms is obviously different among the solid forms obtained.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1D-TA-1W | 1BER-1D-TA-1W | 1BER-1D-TA-1W | 1BER-1D-TA-1W | 1BER-1D-TA-1W + 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E50",
+   "da": "F3",
+   "a": "F12",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "h",
+     "tipo": "osservata"
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ],
+    "frazione_convertita": {
+     "testo": "small amounts"
+    },
+    "composizione_prodotto": [
+     {
+      "forma": "F3",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F12",
+      "prevalenza": "minoritaria"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). A 3 h: piccole quantita' convertite (stessa frase di 1BER-1dTA-1W). Tabella 5: «1BER-1L-TA-1W + 1BER-1HCl-4W».",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "In comparison, small amounts of 1BER-1dTA-1W and 1BER-1lTA-1W were converted to 1BER-1HCl-4W after 3 h.",
+    "The solid form transformation occurred in all the residual solid forms that originated from the dilute hydrochloric solution (Figs. S21 and S22), but the conversion rate of the solid forms is obviously different among the solid forms obtained.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1L-TA-1W | 1BER-1L-TA-1W | 1BER-1L-TA-1W | 1BER-1L-TA-1W | 1BER-1L-TA-1W + 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E51",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). A 3 h nessuna conversione per 1BER-1dlTA (Tabella 5: ancora 1BER-1DL-TA). A 48 h risulta convertita (evento seguente).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "No conversion of solid form was observed from the residual sample of 1BER-1dl-TA after 3 h.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1DL-TA | 1BER-1DL-TA | 1BER-1DL-TA | 1BER-1DL-TA | 1BER-1DL-TA | 1BER-1HCl-4W"
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E52",
+   "da": "F4",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "osservata",
+     "min": 3
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E49",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). A 48 h tutti i residui da acido cloridrico diluito sono 1BER-1HCl-4W (Tabella 5). `min` = 3 h, ultimo controllo senza conversione completa di 1BER-1dTA-1W. Il testo collega la velocita' di conversione alla MAS in forma dubitativa («there may be a positive correlation between the conversion rate and the MAS»).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "However, all the residual solid forms that originated from dilute hydrochloric solution were finally converted to 1BER-1HCl-4W after 48 h.",
+    "The solid form transformation occurred in all the residual solid forms that originated from the dilute hydrochloric solution (Figs. S21 and S22), but the conversion rate of the solid forms is obviously different among the solid forms obtained.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1D-TA-1W | 1BER-1D-TA-1W | 1BER-1D-TA-1W | 1BER-1D-TA-1W | 1BER-1D-TA-1W + 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "alta",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "organic acids",
+     "ruolo": "altro",
+     "con": "controione",
+     "cambia": "cambia_partner",
+     "forma": "F4",
+     "citazione": "It is inferred that the organic acids replaced by hydrochloric acid in solution may affect the apparent solubility of 1BER-1HCl-4W."
+    }
+   ]
+  },
+  {
+   "id": "E53",
+   "da": "F3",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "osservata",
+     "min": 3
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E50",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). A 48 h tutti i residui da acido cloridrico diluito sono 1BER-1HCl-4W (Tabella 5). `min` = 3 h, ultimo controllo senza conversione completa di 1BER-1lTA-1W. Il testo collega la velocita' di conversione alla MAS in forma dubitativa («there may be a positive correlation between the conversion rate and the MAS»).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "However, all the residual solid forms that originated from dilute hydrochloric solution were finally converted to 1BER-1HCl-4W after 48 h.",
+    "The solid form transformation occurred in all the residual solid forms that originated from the dilute hydrochloric solution (Figs. S21 and S22), but the conversion rate of the solid forms is obviously different among the solid forms obtained.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1L-TA-1W | 1BER-1L-TA-1W | 1BER-1L-TA-1W | 1BER-1L-TA-1W | 1BER-1L-TA-1W + 1BER-1HCl-4W | 1BER-1HCl-4W"
+   ],
+   "certezza": "alta",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "organic acids",
+     "ruolo": "altro",
+     "con": "controione",
+     "cambia": "cambia_partner",
+     "forma": "F3",
+     "citazione": "It is inferred that the organic acids replaced by hydrochloric acid in solution may affect the apparent solubility of 1BER-1HCl-4W."
+    }
+   ]
+  },
+  {
+   "id": "E54",
+   "da": "F5",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 310,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "agitazione": {
+     "valore": 100,
+     "unita": "rpm"
+    },
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "osservata",
+     "min": 3
+    },
+    "solventi": [
+     {
+      "nome": "dilute hydrochloric acid solution"
+     }
+    ],
+    "rapporto_solido_solvente": "excess amounts of sample in 30 ml pure water / dilute hydrochloric acid solution",
+    "pH": {
+     "valore": 1.2
+    }
+   },
+   "campione": {
+    "tipo": "polvere",
+    "dimensione": "sieved through a 100-mesh screen"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "IR"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E51",
+   "note": "Polvere in sospensione (sottovia `sospensione`), 310 K, 100 rpm, 30 ml di mezzo, residuo analizzato con FT-IR. Nel Metodi la forma commerciale e' scritta «1BER-1HCl-1M» (refuso per 1BER-1HCl-M). A 48 h tutti i residui da acido cloridrico diluito sono 1BER-1HCl-4W (Tabella 5). `min` = 3 h, ultimo controllo senza conversione completa di 1BER-1dlTA. Il testo collega la velocita' di conversione alla MAS in forma dubitativa («there may be a positive correlation between the conversion rate and the MAS»).",
+   "citazioni": [
+    "Excess amounts of seven different samples including 1BER-1MA, 1BER-2MA-2W, 1BER-1lTA-1W, 1BER-1dTA-1W, 1BER-1dlTA, 2BER-2CA and 1BER-1HCl-1M were added to 30 ml pure water or dilute hydrochloric acid solution (pH = 1.2). The solutions were shaken at 310 K for 48 h at a speed of 100 rpm.",
+    "Moreover, the undissolved samples were collected at 3 and 48 h for FT-IR analysis.",
+    "However, all the residual solid forms that originated from dilute hydrochloric solution were finally converted to 1BER-1HCl-4W after 48 h.",
+    "The solid form transformation occurred in all the residual solid forms that originated from the dilute hydrochloric solution (Figs. S21 and S22), but the conversion rate of the solid forms is obviously different among the solid forms obtained.",
+    "Pure water | Dilute hydro­chloric solution\n0 h | 3 h | 48 h | 0 h | 3 h | 48 h",
+    "1BER-1DL-TA | 1BER-1DL-TA | 1BER-1DL-TA | 1BER-1DL-TA | 1BER-1DL-TA | 1BER-1HCl-4W"
+   ],
+   "certezza": "alta",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "organic acids",
+     "ruolo": "altro",
+     "con": "controione",
+     "cambia": "cambia_partner",
+     "forma": "F5",
+     "citazione": "It is inferred that the organic acids replaced by hydrochloric acid in solution may affect the apparent solubility of 1BER-1HCl-4W."
+    }
+   ]
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F10"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Commercial BER hydro­chloride and BER hydrogen sulfate were purchased from Baoji Fangsheng Biological Development Co. Ltd (Shanxi, China)."
+   ],
+   "note": "Il cloridrato commerciale e' la forma 1BER-1HCl-M; il solfato acido di berberina commerciale e' il reagente per preparare 8H-HBER (non e' una forma estratta)."
+  },
+  {
+   "forme": [
+    "F15"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 323,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": 5,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After complete dissolution of 200 mg of BER hydrogensulfate in water (45 ml), a saturated aqueous solution of NaOH was added until no further precipitation occured.",
+    "Finally, the solid sample collected was dissolved in methanol at 323 K and left at ambient temperature to evaporate. After five days, 8H-HBER precipitated and was analyzed using FT-IR"
+   ],
+   "pretrattamento": "200 mg di BER hydrogensulfate in 45 ml di acqua, NaOH acquoso saturo fino a nessun altro precipitato, estratto tre volte con 20 ml di dietil etere, etere rimosso a pressione ridotta",
+   "note": "323 K e' la temperatura di dissoluzione in metanolo; poi evaporazione a temperatura ambiente (non numerica). Sintesi chimica del reagente seguita da cristallizzazione per evaporazione."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "ethanol",
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 323,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": 5,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_soluzione": "8H-HBER:MA 1:1",
+   "rapporto_solido_solvente": "50 mg of the 8H-HBER and MA mixture; volumi in Table S1",
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After complete dissolution of 50 mg of the 8H-HBER and MA mixture (molar ratio 1:1 or 1:2) in the solvents listed in Table S1 of the supporting information at 323 K, the solution was filtered and cooled to room temperature. After five days, needle-like crystals were harvested.",
+    "As expected, 1BER-1MA is prepared via the reactive crystallization of 8H-HBER with MA in a 1:1 molar ratio in the ethanol and water mixed solvent system."
+   ],
+   "note": "Cristallizzazione reattiva: 323 K e' la temperatura di dissoluzione, poi raffreddamento a temperatura ambiente. Le proporzioni dei solventi stanno in Table S1 del supplementare."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "ethanol",
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 323,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": 5,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_soluzione": "8H-HBER:MA 1:2, volume ratio water:ethanol below 1:9",
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After complete dissolution of 50 mg of the 8H-HBER and MA mixture (molar ratio 1:1 or 1:2) in the solvents listed in Table S1 of the supporting information at 323 K, the solution was filtered and cooled to room temperature. After five days, needle-like crystals were harvested.",
+    "However, the 1:2 molar ratio of 8H-HBER to MA also produces 1BER-1MA when the volume ratio of water and ethanol was below 1:9."
+   ],
+   "note": "Anche con un eccesso di acido (1:2) si ottiene 1BER-1MA se il rapporto in volume acqua:etanolo e' sotto 1:9 («below 1:9»)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "acetone",
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 323,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": 5,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_soluzione": "8H-HBER:MA 1:1 or 1:2",
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After complete dissolution of 50 mg of the 8H-HBER and MA mixture (molar ratio 1:1 or 1:2) in the solvents listed in Table S1 of the supporting information at 323 K, the solution was filtered and cooled to room temperature. After five days, needle-like crystals were harvested.",
+    "1BER-2MA-2W could be harvested from the mixed solvent system of acetone and water, regardless of the 1:1 or 1:2 molar ratio of 8H-HBER and MA."
+   ],
+   "note": "Il solvente decide la forma: miscela acetone-acqua da 1BER-2MA-2W con entrambi i rapporti molari."
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "acetone",
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 323,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": 4,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_soluzione": "8H-HBER:acid 1:1",
+   "rapporto_solido_solvente": "50 mg of the 8H-HBER and acid mixture in acetone–water v/v = 3 ml:4 ml",
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After complete dissolution of 50 mg of the 8H-HBER and acid mixture (molar ratio 1:1) in the mixed acetone–water solvent (v/v = 3 ml:4 ml) at 323 K, the solution was filtered and cooled to room temperature. After four days, needle-like crystals were harvested."
+   ],
+   "note": "Una frase per i due enantiomeri: lTA per F3, dTA per F4 («8H-HBER and acid mixture»)."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "acetone",
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 323,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": 4,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_soluzione": "8H-HBER:dlTA 1:1",
+   "rapporto_solido_solvente": "50 mg of the 8H-HBER and dlTA mixture in acetone–water v/v = 5 ml:5 ml",
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After complete dissolution of 50 mg of the 8H-HBER and dlTA mixture (molar ratio 1:1) in the acetone–water solvent (v/v = 5 ml:5 ml) at 323 K, the solution was filtered and cooled to room temperature. After four days, the product was prepared."
+   ],
+   "note": "Il testo non dice «cristalli» ma «the product was prepared»."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "acetone",
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 323,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "day",
+    "tipo": "attesa"
+   },
+   "rapporto_soluzione": "8H-HBER:CA 1:1",
+   "rapporto_solido_solvente": "50 mg of the 8H-HBER and CA mixture in acetone–water v/v = 1.5 ml:2.5 ml",
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After complete dissolution of 50 mg of the 8H-HBER and CA mixture (molar ratio 1:1) in the acetone–water solvent (v/v = 1.5 ml:2.5 ml) at 323 K, the solution was filtered and cooled to room temperature. After two days, needle-like crystals were harvested."
+   ]
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E5",
+    "E30"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After 10 min dehydration at 378 K for 1BER-1lTA-1W and 1BER-1dTA-1W and at 353 K for 1BER-2MA-2W, the samples were characterized by PXRD",
+    "This signified that the crystal of 1BER-2MA-2W had collapsed following the loss of water to form a new solid (1BER-2MA-2W-AH)"
+   ],
+   "note": "Ottenuta dalla disidratazione di 1BER-2MA-2W (10 min a 353 K); compare anche nel test di stabilita' a 333 K."
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E10"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After 10 min dehydration at 378 K for 1BER-1lTA-1W and 1BER-1dTA-1W and at 353 K for 1BER-2MA-2W, the samples were characterized by PXRD",
+    "while both 1BER-1lTA-1W and 1BER-1dTA-1W only formed anhydrates without crystal collapse."
+   ]
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E12"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "After 10 min dehydration at 378 K for 1BER-1lTA-1W and 1BER-1dTA-1W and at 353 K for 1BER-2MA-2W, the samples were characterized by PXRD",
+    "while both 1BER-1lTA-1W and 1BER-1dTA-1W only formed anhydrates without crystal collapse."
+   ]
+  },
+  {
+   "forme": [
+    "F12"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E38",
+    "E45",
+    "E46",
+    "E47",
+    "E48",
+    "E52",
+    "E53",
+    "E54"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "As expected, all the residual solid forms derived from pure water (Figs. S19–S20) showed no difference from their original forms, except for the commercial form of BER, which underwent full conversion to 1BER-1HCl-4W.",
+    "However, all the residual solid forms that originated from dilute hydrochloric solution were finally converted to 1BER-1HCl-4W after 48 h."
+   ],
+   "note": "Il tetraidrato del cloridrato si ottiene per conversione allo stato solido in sospensione: dalla forma commerciale in acqua pura, e da tutti i sali in acido cloridrico diluito (completo a 3 h per 1BER-1MA, 1BER-2MA-2W, 2BER-2CA; a 48 h per gli altri)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 149.5,
+      "unita": "µmol/mL"
+     },
+     "forma": "F1",
+     "solvente": "pure water",
+     "metodo": "maximum apparent solubility (MAS) in acqua pura: eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8)",
+     "calcolato": false,
+     "citazione": "1BER-1MA with 149.5 µmol ml−1"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 41.9,
+      "unita": "µmol/mL"
+     },
+     "forma": "F2",
+     "solvente": "pure water",
+     "metodo": "maximum apparent solubility (MAS) in acqua pura: eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8)",
+     "calcolato": false,
+     "citazione": "1BER-2MA-2W with 41.9 µmol ml−1"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 9.2,
+      "unita": "µmol/mL"
+     },
+     "forma": "F6",
+     "solvente": "pure water",
+     "metodo": "maximum apparent solubility (MAS) in acqua pura: eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8)",
+     "calcolato": false,
+     "citazione": "2BER-2CA with 9.2 µmol ml−1"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 6.5,
+      "unita": "µmol/mL"
+     },
+     "forma": "F10",
+     "solvente": "pure water",
+     "metodo": "maximum apparent solubility (MAS) in acqua pura: eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8)",
+     "calcolato": false,
+     "citazione": "1BER-1HCl-M with 6.5 µmol ml−1"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 6.2,
+      "unita": "µmol/mL"
+     },
+     "forma": "F4",
+     "solvente": "pure water",
+     "metodo": "maximum apparent solubility (MAS) in acqua pura: eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8)",
+     "calcolato": false,
+     "citazione": "1BER-1dTA-1W with 6.2 µmol ml−1"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 6.1,
+      "unita": "µmol/mL"
+     },
+     "forma": "F3",
+     "solvente": "pure water",
+     "metodo": "maximum apparent solubility (MAS) in acqua pura: eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8)",
+     "calcolato": false,
+     "citazione": "1BER-1lTA-1W with 6.1 µmol ml−1"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 2.3,
+      "unita": "µmol/mL"
+     },
+     "forma": "F5",
+     "solvente": "pure water",
+     "metodo": "maximum apparent solubility (MAS) in acqua pura: eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8)",
+     "calcolato": false,
+     "citazione": "1BER-1dl-TA with 2.3 µmol ml−1"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 2.1,
+      "unita": "µmol/mL"
+     },
+     "forma": "F10",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "maximum apparent solubility (MAS) in acido cloridrico diluito (pH 1.2): eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8); valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "1BER-1HCl-M, 1BER-1MA, 1BER-2MA-2W, 1BER-1dTA-1W, 1BER-1lTA-1W, 1BER-1dl-TA and 2BER-2CA achieved MAS in dilute hydro­chloric solution at 2.1, 68.8, 34.8, 13.1, 12.5, 4.5 and 16.4 µmol ml−1, respectively"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 68.8,
+      "unita": "µmol/mL"
+     },
+     "forma": "F1",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "maximum apparent solubility (MAS) in acido cloridrico diluito (pH 1.2): eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8); valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "1BER-1HCl-M, 1BER-1MA, 1BER-2MA-2W, 1BER-1dTA-1W, 1BER-1lTA-1W, 1BER-1dl-TA and 2BER-2CA achieved MAS in dilute hydro­chloric solution at 2.1, 68.8, 34.8, 13.1, 12.5, 4.5 and 16.4 µmol ml−1, respectively"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 34.8,
+      "unita": "µmol/mL"
+     },
+     "forma": "F2",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "maximum apparent solubility (MAS) in acido cloridrico diluito (pH 1.2): eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8); valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "1BER-1HCl-M, 1BER-1MA, 1BER-2MA-2W, 1BER-1dTA-1W, 1BER-1lTA-1W, 1BER-1dl-TA and 2BER-2CA achieved MAS in dilute hydro­chloric solution at 2.1, 68.8, 34.8, 13.1, 12.5, 4.5 and 16.4 µmol ml−1, respectively"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 13.1,
+      "unita": "µmol/mL"
+     },
+     "forma": "F4",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "maximum apparent solubility (MAS) in acido cloridrico diluito (pH 1.2): eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8); valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "1BER-1HCl-M, 1BER-1MA, 1BER-2MA-2W, 1BER-1dTA-1W, 1BER-1lTA-1W, 1BER-1dl-TA and 2BER-2CA achieved MAS in dilute hydro­chloric solution at 2.1, 68.8, 34.8, 13.1, 12.5, 4.5 and 16.4 µmol ml−1, respectively"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 12.5,
+      "unita": "µmol/mL"
+     },
+     "forma": "F3",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "maximum apparent solubility (MAS) in acido cloridrico diluito (pH 1.2): eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8); valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "1BER-1HCl-M, 1BER-1MA, 1BER-2MA-2W, 1BER-1dTA-1W, 1BER-1lTA-1W, 1BER-1dl-TA and 2BER-2CA achieved MAS in dilute hydro­chloric solution at 2.1, 68.8, 34.8, 13.1, 12.5, 4.5 and 16.4 µmol ml−1, respectively"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 4.5,
+      "unita": "µmol/mL"
+     },
+     "forma": "F5",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "maximum apparent solubility (MAS) in acido cloridrico diluito (pH 1.2): eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8); valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "1BER-1HCl-M, 1BER-1MA, 1BER-2MA-2W, 1BER-1dTA-1W, 1BER-1lTA-1W, 1BER-1dl-TA and 2BER-2CA achieved MAS in dilute hydro­chloric solution at 2.1, 68.8, 34.8, 13.1, 12.5, 4.5 and 16.4 µmol ml−1, respectively"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 16.4,
+      "unita": "µmol/mL"
+     },
+     "forma": "F6",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "maximum apparent solubility (MAS) in acido cloridrico diluito (pH 1.2): eccesso di polvere, 30 ml, agitata a 310 K per 48 h a 100 rpm, UV a 340 nm (Metodi 2.8); valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "1BER-1HCl-M, 1BER-1MA, 1BER-2MA-2W, 1BER-1dTA-1W, 1BER-1lTA-1W, 1BER-1dl-TA and 2BER-2CA achieved MAS in dilute hydro­chloric solution at 2.1, 68.8, 34.8, 13.1, 12.5, 4.5 and 16.4 µmol ml−1, respectively"
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 18.3,
+      "unita": "µmol/mL"
+     },
+     "forma": "F1",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "solubilita' apparente a 48 h (non la MAS), dopo la trasformazione del residuo in 1BER-1HCl-4W; stesse condizioni di agitazione; valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "the apparent solubilities at 48 h of 1BER-1MA, 1BER-2MA-2W, 2BER-2CA, 1BER-1dTA-1W, 1BER-1lTA-1W and 1BER-1dl-TA below their MAS in dilute hydro­chloric solution, were 18.3, 21.6, 4.6, 5.0, 4.1 and 5.1 µmol ml−1, respectively."
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 21.6,
+      "unita": "µmol/mL"
+     },
+     "forma": "F2",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "solubilita' apparente a 48 h (non la MAS), dopo la trasformazione del residuo in 1BER-1HCl-4W; stesse condizioni di agitazione; valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "the apparent solubilities at 48 h of 1BER-1MA, 1BER-2MA-2W, 2BER-2CA, 1BER-1dTA-1W, 1BER-1lTA-1W and 1BER-1dl-TA below their MAS in dilute hydro­chloric solution, were 18.3, 21.6, 4.6, 5.0, 4.1 and 5.1 µmol ml−1, respectively."
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 4.6,
+      "unita": "µmol/mL"
+     },
+     "forma": "F6",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "solubilita' apparente a 48 h (non la MAS), dopo la trasformazione del residuo in 1BER-1HCl-4W; stesse condizioni di agitazione; valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "the apparent solubilities at 48 h of 1BER-1MA, 1BER-2MA-2W, 2BER-2CA, 1BER-1dTA-1W, 1BER-1lTA-1W and 1BER-1dl-TA below their MAS in dilute hydro­chloric solution, were 18.3, 21.6, 4.6, 5.0, 4.1 and 5.1 µmol ml−1, respectively."
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 5.0,
+      "unita": "µmol/mL"
+     },
+     "forma": "F4",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "solubilita' apparente a 48 h (non la MAS), dopo la trasformazione del residuo in 1BER-1HCl-4W; stesse condizioni di agitazione; valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "the apparent solubilities at 48 h of 1BER-1MA, 1BER-2MA-2W, 2BER-2CA, 1BER-1dTA-1W, 1BER-1lTA-1W and 1BER-1dl-TA below their MAS in dilute hydro­chloric solution, were 18.3, 21.6, 4.6, 5.0, 4.1 and 5.1 µmol ml−1, respectively."
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 4.1,
+      "unita": "µmol/mL"
+     },
+     "forma": "F3",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "solubilita' apparente a 48 h (non la MAS), dopo la trasformazione del residuo in 1BER-1HCl-4W; stesse condizioni di agitazione; valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "the apparent solubilities at 48 h of 1BER-1MA, 1BER-2MA-2W, 2BER-2CA, 1BER-1dTA-1W, 1BER-1lTA-1W and 1BER-1dl-TA below their MAS in dilute hydro­chloric solution, were 18.3, 21.6, 4.6, 5.0, 4.1 and 5.1 µmol ml−1, respectively."
+    },
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 5.1,
+      "unita": "µmol/mL"
+     },
+     "forma": "F5",
+     "solvente": "dilute hydrochloric acid solution (pH = 1.2)",
+     "metodo": "solubilita' apparente a 48 h (non la MAS), dopo la trasformazione del residuo in 1BER-1HCl-4W; stesse condizioni di agitazione; valori in ordine di elenco «respectively»",
+     "calcolato": false,
+     "citazione": "the apparent solubilities at 48 h of 1BER-1MA, 1BER-2MA-2W, 2BER-2CA, 1BER-1dTA-1W, 1BER-1lTA-1W and 1BER-1dl-TA below their MAS in dilute hydro­chloric solution, were 18.3, 21.6, 4.6, 5.0, 4.1 and 5.1 µmol ml−1, respectively."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "unita": "%",
+      "max": 1,
+      "limite": "sotto"
+     },
+     "forma": "F10",
+     "solvente": null,
+     "metodo": "biodisponibilita' della forma commerciale (1BER-1HCl-M), «extremely low (<1%)»; dato citato da Liu et al., 2016 e Sahibzada et al., 2020",
+     "calcolato": false,
+     "citazione": "Moreover, bioavailability of 1BER-1HCl-M is extremely low (<1%), partly due to its poor solubility"
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.2445,
+      "unita": "mole fraction"
+     },
+     "solvente": "water",
+     "metodo": "citato da Apelblat & Manzurola, 1987 e Tan et al., 2016 (fraz. molare, T non detta); primo valore dell'elenco «MA, CA, dTA/lTA and dlTA»",
+     "calcolato": false,
+     "citazione": "Solubilities (the mole fraction solubility) of MA, CA, dTA/lTA and dlTA in water are reported to be 0.2445, 0.1617, 0.1583 and 0.0365, respectively"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "MA anion: intramolecular O5—H⋯O7 ring (1BER-1MA); O8—H8⋯O9 ring motif (1BER-2MA-2W)",
+     "forma": "F1",
+     "citazione": "The intramolecular hydrogen bond O5—H⋯O7 in the MA anion generates a ring-like structure"
+    },
+    {
+     "tipo": "altro",
+     "testo": "in 1BER-2MA-2W solo una delle due MA e' deprotonata: un anione e una molecola neutra",
+     "forma": "F2",
+     "citazione": "Only one of the two MA molecules in the asymmetric unit was deprotonated."
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.1583,
+      "unita": "mole fraction"
+     },
+     "solvente": "water",
+     "metodo": "citato da Apelblat & Manzurola, 1987 e Tan et al., 2016 (fraz. molare, T non detta); il valore 0.1583 e' scritto per «dTA/lTA» insieme",
+     "calcolato": false,
+     "citazione": "Solubilities (the mole fraction solubility) of MA, CA, dTA/lTA and dlTA in water are reported to be 0.2445, 0.1617, 0.1583 and 0.0365, respectively"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "TA anion: O8—H⋯O10, five-membered ring-like motif",
+     "forma": "F3",
+     "citazione": "The intramolecular hydrogen bond O8—H⋯O10 in the TA anion generates a five-membered ring-like motif"
+    },
+    {
+     "tipo": "chiralita",
+     "testo": "l-tartaric acid, enantiomero puro; parametro di Flack consente di determinare la configurazione assoluta",
+     "forma": "F3",
+     "citazione": "Flack parameters for 1BER-1lTA-1W and 1BER-1dTA-1W below 0.3 were 0.05 (6) and 0.11 (4), respectively. This implies that the absolute configuration of the two crystals could be determined."
+    }
+   ]
+  },
+  {
+   "composto": "C4",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.1583,
+      "unita": "mole fraction"
+     },
+     "solvente": "water",
+     "metodo": "citato da Apelblat & Manzurola, 1987 e Tan et al., 2016 (fraz. molare, T non detta); il valore 0.1583 e' scritto per «dTA/lTA» insieme",
+     "calcolato": false,
+     "citazione": "Solubilities (the mole fraction solubility) of MA, CA, dTA/lTA and dlTA in water are reported to be 0.2445, 0.1617, 0.1583 and 0.0365, respectively"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "d-tartaric acid, enantiomero opposto di lTA",
+     "forma": "F4",
+     "citazione": "TA molecules with distinct chirality were employed in the salt formation process."
+    }
+   ]
+  },
+  {
+   "composto": "C5",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.0365,
+      "unita": "mole fraction"
+     },
+     "solvente": "water",
+     "metodo": "citato da Apelblat & Manzurola, 1987 e Tan et al., 2016 (fraz. molare, T non detta)",
+     "calcolato": false,
+     "citazione": "Solubilities (the mole fraction solubility) of MA, CA, dTA/lTA and dlTA in water are reported to be 0.2445, 0.1617, 0.1583 and 0.0365, respectively"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "dlTA: racemo; i cristalli di 1BER-1dlTA sono «racemic crystals»",
+     "forma": "F5",
+     "citazione": "Thus, the racemic crystals of 1BER-1dl-TA displayed a lower solubility compared with their chiral counterparts 1BER-1dTA-1W and 1BER-1lTA-1W."
+    }
+   ]
+  },
+  {
+   "composto": "C6",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": 0.1617,
+      "unita": "mole fraction"
+     },
+     "solvente": "water",
+     "metodo": "citato da Apelblat & Manzurola, 1987 e Tan et al., 2016 (fraz. molare, T non detta)",
+     "calcolato": false,
+     "citazione": "Solubilities (the mole fraction solubility) of MA, CA, dTA/lTA and dlTA in water are reported to be 0.2445, 0.1617, 0.1583 and 0.0365, respectively"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "legame_h_intramolecolare",
+     "testo": "CA anions (due tipi): O6—H⋯O9 e O7—H⋯O8, anelli a cinque e sette membri",
+     "forma": "F6",
+     "citazione": "Similar intramolecular hydrogen bonds O6—H⋯O9 and O7—H⋯O8 form in both types of CA anions to construct five- and seven-membered ring-like motifs"
+    }
+   ]
+  },
+  {
+   "composto": "C8",
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "8H-HBER e' la forma solida stabile in equilibrio reversibile con la base amminica quaternaria libera della berberina",
+     "forma": "F15",
+     "citazione": "In view of the reversible transformation between the free BER quaternary amine base and 8-hy­droxy-7,8-di­hydro­berberine [8H-HBER, Fig. 1 ▸(b)], 8H-HBER serving as the stable solid form (Dostál et al., 2004 ▸)"
+    }
+   ]
+  }
+ ]
+}

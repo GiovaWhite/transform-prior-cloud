@@ -1,0 +1,2929 @@
+{
+ "versione_extra": "e0",
+ "doi": "10.1107/s2052252517004043",
+ "voci": [
+  {
+   "id": "X1",
+   "categoria": "cristallografia",
+   "proprieta": "a di cella, Tabella 4",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "a, Form I",
+     "forma": "F1",
+     "valore": 8.44
+    },
+    {
+     "etichetta": "a, Form II",
+     "forma": "F2",
+     "valore": 8.35
+    },
+    {
+     "etichetta": "a, Form III",
+     "forma": "F3",
+     "valore": 7.27
+    },
+    {
+     "etichetta": "a, Form IV",
+     "forma": "F4",
+     "valore": 7.43
+    }
+   ],
+   "citazione": "a 8.44 8.35 7.27 7.43",
+   "note": "Colonne di Tabella 4 nell'ordine Form I (25 °C), Form II (25 °C), Form III (25 °C), Form IV (180 °C); il PDF scrive «°C» con U+0003. Ripetuto da `forme.cella` (a, b, c, V). Unita' non scritta nella riga ne' nell'intestazione (solo il volume ha «A˚ 3»); numeri come scritti. "
+  },
+  {
+   "id": "X2",
+   "categoria": "cristallografia",
+   "proprieta": "b di cella, Tabella 4",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "b, Form I",
+     "forma": "F1",
+     "valore": 9.11
+    },
+    {
+     "etichetta": "b, Form II",
+     "forma": "F2",
+     "valore": 12.75
+    },
+    {
+     "etichetta": "b, Form III",
+     "forma": "F3",
+     "valore": 13.27
+    },
+    {
+     "etichetta": "b, Form IV",
+     "forma": "F4",
+     "valore": 13.29
+    }
+   ],
+   "citazione": "b 9.11 12.75 13.27 13.29",
+   "note": "Colonne di Tabella 4 nell'ordine Form I (25 °C), Form II (25 °C), Form III (25 °C), Form IV (180 °C); il PDF scrive «°C» con U+0003. Ripetuto da `forme.cella` (a, b, c, V). Unita' non scritta nella riga ne' nell'intestazione (solo il volume ha «A˚ 3»); numeri come scritti. "
+  },
+  {
+   "id": "X3",
+   "categoria": "cristallografia",
+   "proprieta": "c di cella, Tabella 4",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "c, Form I",
+     "forma": "F1",
+     "valore": 9.15
+    },
+    {
+     "etichetta": "c, Form II",
+     "forma": "F2",
+     "valore": 13.01
+    },
+    {
+     "etichetta": "c, Form III",
+     "forma": "F3",
+     "valore": 14.54
+    },
+    {
+     "etichetta": "c, Form IV",
+     "forma": "F4",
+     "valore": 14.69
+    }
+   ],
+   "citazione": "c 9.15 13.01 14.54 14.69",
+   "note": "Colonne di Tabella 4 nell'ordine Form I (25 °C), Form II (25 °C), Form III (25 °C), Form IV (180 °C); il PDF scrive «°C» con U+0003. Ripetuto da `forme.cella` (a, b, c, V). Unita' non scritta nella riga ne' nell'intestazione (solo il volume ha «A˚ 3»); numeri come scritti. "
+  },
+  {
+   "id": "X4",
+   "categoria": "cristallografia",
+   "proprieta": "V di cella, Tabella 4",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "V, Form I",
+     "forma": "F1",
+     "valore": 673.27,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V, Form II",
+     "forma": "F2",
+     "valore": 1322.2,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V, Form III",
+     "forma": "F3",
+     "valore": 1345.3,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "V, Form IV",
+     "forma": "F4",
+     "valore": 1386.5,
+     "unita": "Å3"
+    }
+   ],
+   "citazione": "V (A˚ 3) 673.27 1322.2 1345.3 1386.5",
+   "note": "Colonne di Tabella 4 nell'ordine Form I (25 °C), Form II (25 °C), Form III (25 °C), Form IV (180 °C); il PDF scrive «°C» con U+0003. Ripetuto da `forme.cella` (a, b, c, V). Volume in «A˚ 3» come scritto. "
+  },
+  {
+   "id": "X5",
+   "categoria": "cristallografia",
+   "proprieta": "densita' di cella, Tabella 4",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "densita', Form I",
+     "forma": "F1",
+     "valore": 1.525
+    },
+    {
+     "etichetta": "densita', Form II",
+     "forma": "F2",
+     "valore": 1.553
+    },
+    {
+     "etichetta": "densita', Form III",
+     "forma": "F3",
+     "valore": 1.526
+    },
+    {
+     "etichetta": "densita', Form IV",
+     "forma": "F4",
+     "valore": 1.481
+    }
+   ],
+   "citazione": "Density 1.525 1.553 1.526 1.481",
+   "note": "Colonne di Tabella 4 nell'ordine Form I (25 °C), Form II (25 °C), Form III (25 °C), Form IV (180 °C); il PDF scrive «°C» con U+0003. Ripetuto da `forme.cella` (a, b, c, V). Unita' non scritta nella riga (intestazione «Density» senza unita'). "
+  },
+  {
+   "id": "X6",
+   "categoria": "cristallografia",
+   "proprieta": "raggi X per SCXRD delle forme I, II, III e del composto B",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "temperatura",
+     "valore": 298,
+     "unita": "K"
+    },
+    {
+     "etichetta": "lunghezza d'onda",
+     "valore": 1.54184,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "X-ray reﬂections for compound A (Form I, Form II and Form III) and compound B were collected on an Oxford Xcalibur Gemini Eos CCD diffractometer at 298 K using Cu K\u0003 radiation (\u0004 = 1.54184 A˚ )",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Radiazione Cu Kα (U+0003 al posto di α). Il simbolo λ e' U+0004 nel testo letto."
+  },
+  {
+   "id": "X7",
+   "categoria": "cristallografia",
+   "proprieta": "raggi X per SCXRD del composto C e per Form IV",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "lunghezza d'onda (C, Mo Kα)",
+     "valore": 0.71073,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "temperatura di raccolta di Form IV",
+     "forma": "F4",
+     "valore": 180,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "X-ray reﬂections for compound C were collected on a Bruker D8 Quest CCD diffractometer equipped with a graphite monochromator and Mo K\u0003 ﬁne-focus sealed tube (\u0004 = 0.71073 A˚ ), and high-temperature Form IV (Compound A) was collected on Bruker D8 venture diffractometer at 180\u0003C;",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Composto C: Mo Kα, λ = 0.71073 Å; Form IV: raccolta a 180 °C su Bruker D8 Venture. La temperatura di raccolta di C non e' scritta."
+  },
+  {
+   "id": "X8",
+   "categoria": "cristallografia",
+   "proprieta": "trattamento degli atomi di idrogeno e programmi",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "non-hydrogen atoms anisotropic; H atoms on heteroatoms from difference maps; C—H hydrogens fixed geometrically",
+   "citazione": "All non-hydrogen atoms were reﬁned anisotropically. Hydrogen atoms on hetero atoms were located from difference electron-density maps and all C—H H atoms were ﬁxed geometrically."
+  },
+  {
+   "id": "X9",
+   "categoria": "cristallografia",
+   "proprieta": "codici CCDC delle sei strutture",
+   "valori": [
+    {
+     "etichetta": "CCDC (Metodi)",
+     "testo": "1488992–1488996"
+    }
+   ],
+   "citazione": "Crystal structures are deposited as part of the supporting information and may be accessed at https://www.ccdc.cam.ac.uk/structures/ (CCDC Nos. 1488992–1488996).",
+   "note": "Cinque numeri consecutivi; l'intestazione dell'articolo ne elenca sei (1488992; 1488993; 1488994; 1524448; 1488995; 1488996): vedi `ccdc` dell'estrazione principale."
+  },
+  {
+   "id": "X10",
+   "categoria": "cristallografia",
+   "proprieta": "codici CCDC dell'intestazione",
+   "valori": [
+    {
+     "etichetta": "CCDC (intestazione)",
+     "testo": "1488992; 1488993; 1488994; 1524448; 1488995; 1488996"
+    }
+   ],
+   "citazione": "CCDC references: 1488992; 1488993; 1488994; 1524448; 1488995; 1488996",
+   "note": "Sei numeri per sei strutture (I, II, III, IV, B, C); l'ordine di assegnazione non e' scritto."
+  },
+  {
+   "id": "X11",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Z' = 1 (Form I) e 2 (Form II)",
+   "valori": [
+    {
+     "etichetta": "Z' Form I",
+     "forma": "F1",
+     "valore": 1
+    },
+    {
+     "etichetta": "Z' Form II",
+     "forma": "F2",
+     "valore": 2
+    }
+   ],
+   "citazione": "different (Z0 = 1 in Form I and 2 in Form II).",
+   "note": "«Z0» = Z' (l'apice prime e' perso dal PDF). La frase prosegue la precedente («The number of symmetry independent molecules is» prima di Figure 5): citazione dopo l'interruzione."
+  },
+  {
+   "id": "X12",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form III e IV: due molecole nell'unita' asimmetrica",
+   "valori": [
+    {
+     "etichetta": "molecole nell'unita' asimmetrica, Form III",
+     "forma": "F3",
+     "valore": 2
+    },
+    {
+     "etichetta": "molecole nell'unita' asimmetrica, Form IV",
+     "forma": "F4",
+     "valore": 2
+    }
+   ],
+   "qualitativo": "Forms III and IV crystallize with two molecules in the asymmetric unit",
+   "citazione": "Form III and IV also crystallized in the space group P\u00021 and with two molecules in the asymmetric unit.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. «two molecules» in lettere."
+  },
+  {
+   "id": "X13",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Z' ed espansione della cella di Form I con correzione per Z'",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "ΔV, Form I → IV (corretto per Z')",
+     "forma": "F1",
+     "valore": 20,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "Z' Form I",
+     "forma": "F1",
+     "valore": 1
+    },
+    {
+     "etichetta": "Z' Form IV",
+     "forma": "F4",
+     "valore": 2
+    },
+    {
+     "etichetta": "durata del riscaldamento, da",
+     "valore": 5,
+     "unita": "min"
+    },
+    {
+     "etichetta": "durata del riscaldamento, a",
+     "valore": 10,
+     "unita": "min"
+    }
+   ],
+   "calcolato": false,
+   "citazione": "After heating Form I crystals for 5–10 min at 200\u0003C, it converted to Form IV with a small change in unit-cell volume (\u0003V = 20 A˚ 3), after correcting for Z0 being 1 and 2 in Form I and IV, respectively.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. ΔV = 20 Å3: il simbolo Δ e' U+0003 nel testo. Il volume e' corretto dagli autori per Z' = 1 contro 2 (Form I e IV). 200 °C e le durate sono anche nell'evento I → IV."
+  },
+  {
+   "id": "X14",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "ΔV per le forme II e III",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "ΔV, Form II → IV",
+     "forma": "F2",
+     "valore": 64,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "ΔV, Form III → IV",
+     "forma": "F3",
+     "valore": 41,
+     "unita": "Å3"
+    },
+    {
+     "etichetta": "durata del riscaldamento",
+     "valore": 5,
+     "unita": "min"
+    }
+   ],
+   "citazione": "Similarly Forms II and III also converted to Form IV after heating for 5 min with a much larger change in volume (\u0003V = 64, 41 A˚ 3).",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Il testo scrive «(ΔV = 64, 41 Å3)» senza «respectively»: attribuzione per ordine di «Forms II and III». Il «much larger change» e' contrapposto al ΔV = 20 Å3 della forma I."
+  },
+  {
+   "id": "X15",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "variazione degli assi di cella nel passaggio a Form IV",
+   "tecnica": "SCXRD",
+   "valori": [],
+   "qualitativo": "decrease in the a axis and increase in the b and c directions of the triclinic cells of Forms I and II on going to Form IV",
+   "citazione": "Examination of the individual cell axes (Table 4) suggests that there is a decrease in the cell length along the a-axis and increase in the b- and cdirection of the triclinic cells of Forms I and II.",
+   "note": "Controllo con Tabella 4: a 8.44 → 7.43 per I (diminuisce), 8.35 → 7.43 per II (diminuisce); b e c aumentano: coerente con la frase (confronto mio)."
+  },
+  {
+   "id": "X16",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form III riscaldata sulle facce (0 1 1)/(0 −1 −1): cella leggermente piu' lunga in a, b, c",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "facce",
+     "forma": "F3",
+     "testo": "(0 1 1)/(0 −1 −1)"
+    }
+   ],
+   "qualitativo": "Form III crystals jump when heated on the (0 1 1)/(0 −1 −1) faces, with a slight increase in the cell lengths a, b and c",
+   "citazione": "Form III crystals also showed jumping (see the video in the supporting information) when heated on the (0 1 1)/(0 \u00041 \u00041) faces with a slight increase in cell lengths in a, b and c directions.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Indici di Miller come testo (i segni meno sono U+0004)."
+  },
+  {
+   "id": "X17",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form I riscaldata sulle facce (1 0 1)/(−1 0 −1): salta",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "valori": [
+    {
+     "etichetta": "facce",
+     "forma": "F1",
+     "testo": "(1 0 1)/(−1 0 −1)"
+    }
+   ],
+   "qualitativo": "Form I crystals jump when heated on the (1 0 1)/(−1 0 −1) faces",
+   "citazione": "During heating of Form I (Compound A) on the (1 0 1)/(\u00041 0 \u00041) faces (Fig. 3), we observed a mechanical response of the material by jumping (see the video in the supporting information).",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Indici di Miller come testo."
+  },
+  {
+   "id": "X18",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "Form II: morfologia irregolare, nessuna faccia identificata",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "valori": [],
+   "qualitativo": "Form II crystals have irregular morphology: no specific face identified for the response to heating",
+   "citazione": "In contrast, Form II crystals have irregular morphology (Table S2), so we were not able to identify speciﬁc faces in which the crystal shows a response to heating.",
+   "note": "Anche in `morfologia`."
+  },
+  {
+   "id": "X19",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "impacchettamento a strati di Form I e III contro onda corrugata di Form II",
+   "valori": [],
+   "qualitativo": "layered structure in Forms I and III; corrugated wave motif of the symmetry-independent molecules in Form II",
+   "citazione": "Forms I and III molecules are arranged in a layered structure (Figs. 3 and 5), whereas in form II symmetry-independent molecules are arranged in a corrugated wave motif"
+  },
+  {
+   "id": "X20",
+   "categoria": "altro",
+   "proprieta": "ipotesi sulla trasmissione del calore: salto contro scoppio",
+   "valori": [],
+   "qualitativo": "hypothesis: uniform heat transfer from the face and single-direction thermal stress (Forms I and III) give jumping; non-uniform heat transmission in the corrugated Form II gives a blast",
+   "citazione": "We hypothesize that upon heating crystals of Form I and Form III, the heat is transferred uniformly from the face resulting in the transmission of thermal stress largely in a single direction, thereby causing a thermosalient effect of jumping. In Form II, however, due to the corrugated wave-like arrangement of molecules, heat transmission is non-uniform resulting in a sudden blast of the crystal.",
+   "note": "Ipotesi degli autori («We hypothesize»); non e' un evento."
+  },
+  {
+   "id": "X21",
+   "categoria": "altro",
+   "proprieta": "spiegazione piu' probabile: rilascio di energia di deformazione e anisotropia dei parametri di cella",
+   "valori": [],
+   "qualitativo": "most likely explanation: sudden release of accumulated strain energy during phase transition, and anisotropy in the cell parameters",
+   "citazione": "The most likely explanation for these effects is due to the sudden release of accumulated strain energy during phase transition (Etter & Siedle, 1983), and anisotropy in the cell parameters.",
+   "note": "Citato in parte dal rif. Etter & Siedle, 1983."
+  },
+  {
+   "id": "X22",
+   "categoria": "altro",
+   "proprieta": "composto A in classe III per la presenza del gruppo ammidico",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "the amide group makes compound A a Class III thermosalient material; jumping, breaking and sudden blasting on heating its polymorphic crystals",
+   "citazione": "The presence of a strong hydrogen bonding functional group (e.g. the amide group) makes Compound A a Class III category, and the surprising effects of jumping, breaking and sudden blasting upon heating its polymorphic crystals are presented in this paper.",
+   "note": "Classificazione di Naumov (rif. nell'introduzione)."
+  },
+  {
+   "id": "X23",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "C—Cl···O e N—H···O: sintoni uguali nelle quattro forme, distanze Cl···O diverse",
+   "valori": [],
+   "qualitativo": "the H-bond synthons are identical in Forms I–IV; only the Cl···O distances vary",
+   "citazione": "The hydrogen-bond synthons in Forms I, II, III and IV are identical except that the Cl\u0002 \u0002 \u0002O distances vary in the polymorphs (Table 2)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. "
+  },
+  {
+   "id": "X24",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "derivati bromo e iodo: stessi sintoni, isostrutturali in 3D (Xpac)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "Xpac",
+   "valori": [],
+   "qualitativo": "Br and I derivatives have the same type of hydrogen and halogen bonds and are three-dimensionally isostructural (Xpac); no mechanical response",
+   "citazione": "Compound A showed a mechanical response towards heating but not the Br and I derivatives, even though these structures have the same type of hydrogen bonds and halogen bonding synthons and are three-dimensional isostructural (Xpac analysis; Figs. S18–20).",
+   "note": "Frase gia' citata dagli eventi negativi di B e C."
+  },
+  {
+   "id": "X25",
+   "categoria": "computazionale",
+   "proprieta": "legami alogeno piu' forti con Br e I: nessuna risposta meccanica",
+   "valori": [],
+   "qualitativo": "stronger C—Br···O and C—I···O halogen bonds make B and C less responsive to temperature and mechanical stress; weaker C—Cl···O important for the response",
+   "calcolato": true,
+   "citazione": "In effect, the stronger halogen-bonded structures (having nearidentical amide N—H\u0002 \u0002 \u0002O hydrogen bonds) with Br and I atoms make them less responsive to temperature and mechanical stress because the halogen bond is too strong for the heavier halogens to show structural (and property) dynamics, indicating the importance of weaker C—Cl\u0002 \u0002 \u0002O",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Frase interrotta da una didascalia e da una tabella: continua dopo la Tabella 4 con «interactions in exhibiting the mechanical response of molecular crystals and temperature effects»."
+  },
+  {
+   "id": "X26",
+   "categoria": "computazionale",
+   "proprieta": "energie di stabilizzazione dei legami alogeno C—X···O (Tabella 3)",
+   "valori": [
+    {
+     "etichetta": "C—Cl···O (Form I)",
+     "forma": "F1",
+     "valore": -0.07,
+     "unita": "kcal mol-1"
+    },
+    {
+     "etichetta": "C—Br···O",
+     "valore": -0.52,
+     "unita": "kcal mol-1"
+    },
+    {
+     "etichetta": "C—I···O",
+     "valore": -1.7,
+     "unita": "kcal mol-1"
+    }
+   ],
+   "calcolato": true,
+   "citazione": "Halogen bond (C—X\u0002 \u0002 \u0002O) Stabilization energy (kcal mol\u00041)\nC—Cl\u0002 \u0002 \u0002O (Form I) \u00040.07 C—Br\u0002 \u0002 \u0002O \u00040.52 C—I\u0002 \u0002 \u0002O \u00041.70",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Tabella 3 «Energy of halogen bonds (see Table S4)», intestazione «Stabilization energy (kcal mol−1)»: i valori hanno il segno meno (U+0004) davanti. Il testo non dice il metodo di calcolo."
+  },
+  {
+   "id": "X27",
+   "categoria": "computazionale",
+   "proprieta": "tendenza dell'energia di interazione C—X···O con la polarizzabilita'",
+   "valori": [],
+   "qualitativo": "the C—X···O interaction energy increases with polarizability and decreases with electronegativity of the halogen",
+   "calcolato": true,
+   "citazione": "The interaction energy for the C—X\u0002 \u0002 \u0002O (X = F, Cl, Br and I) bond increases with an increase in polarizability and a decrease of electronegativity for the halogen atom",
+   "note": "Dato di letteratura (Politzer et al., 2010; Riley & Hobza, 2008; Riley & Merz, 2007)."
+  },
+  {
+   "id": "X28",
+   "categoria": "geometria",
+   "proprieta": "N1—H1B···O1 (Form I): H···A e angolo",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F1",
+     "valore": 2.0,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F1",
+     "valore": 172,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1—H1B\u0002 \u0002 \u0002O1 [2.00 (4) A˚ , /172 (3)\u0003]",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Dimero ammidico. Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X29",
+   "categoria": "geometria",
+   "proprieta": "O2—H2A···N2 intramolecolare (Form I): H···A e angolo",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F1",
+     "valore": 1.66,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F1",
+     "valore": 149,
+     "incertezza": 4,
+     "unita": "°"
+    }
+   ],
+   "citazione": "O2—H2A\u0002 \u0002 \u0002N2 [1.66 (4) A˚ , /149 (4)\u0003]",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Anello S(6). Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X30",
+   "categoria": "geometria",
+   "proprieta": "angolo diedro fra i due anelli fenilici (Form I)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "angolo diedro",
+     "forma": "F1",
+     "valore": 20.07,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "citazione": "The dihedral angle between the two phenyl rings is 20.07 (2)\u0003 (Table 1).",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri.  Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X31",
+   "categoria": "geometria",
+   "proprieta": "C—Cl···O (Form I)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C—Cl···O",
+     "forma": "F1",
+     "valore": 2.961,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "C— Cl\u0002 \u0002 \u0002O [2.961 (3) A˚ ]",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri.  Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X32",
+   "categoria": "geometria",
+   "proprieta": "N1—H1A···O2 (Form I): H···A e angolo",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F1",
+     "valore": 2.25,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F1",
+     "valore": 161,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1—H1A\u0002 \u0002 \u0002O2 [2.25 (4) A˚ , / 161 (3)\u0003]",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Estende i dimeri in un anello a otto membri. Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X33",
+   "categoria": "geometria",
+   "proprieta": "distanza fra gli strati molecolari (Form I)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "distanza fra gli strati",
+     "forma": "F1",
+     "valore": 3.4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "piano degli strati",
+     "forma": "F1",
+     "testo": "(1 −1 −2)"
+    }
+   ],
+   "citazione": "The molecular layers are parallel to the crystallographic (1 \u00041 \u00042) plane at a distance of 3.4 A˚ between the molecular layers (Fig. 3).",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Piano (1 −1 −2): i segni meno sono U+0004. Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X34",
+   "categoria": "geometria",
+   "proprieta": "N1—H1B···O3 (Form II): H···A e angolo",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F2",
+     "valore": 2.06,
+     "incertezza": 1,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F2",
+     "valore": 170,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1—H1B\u0002 \u0002 \u0002O3; 2.06 (1) A˚ , /170 (1)\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Dimero ammidico. Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X35",
+   "categoria": "geometria",
+   "proprieta": "N3—H3B···O1 (Form II): H···A e angolo",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F2",
+     "valore": 2.06,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F2",
+     "valore": 170.4,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N3—H3B\u0002 \u0002 \u0002O1; 2.06 (3) A˚ , /170.4 (1)\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Dimero ammidico. Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X36",
+   "categoria": "geometria",
+   "proprieta": "N3—H3A···O2 (Form II): H···A e angolo",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F2",
+     "valore": 2.41,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F2",
+     "valore": 144.3,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N3—H3A\u0002 \u0002 \u0002O2, 2.41 (2) A˚ , /144.3 (2)\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri.  Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X37",
+   "categoria": "geometria",
+   "proprieta": "N1—H1A···O4 (Form II): H···A e angolo",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F2",
+     "valore": 2.32,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F2",
+     "valore": 157.4,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1— H1A\u0002 \u0002 \u0002O4, 2.32 (4) A˚ , /157.4 (1)\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri.  Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X38",
+   "categoria": "geometria",
+   "proprieta": "angoli diedri fra gli anelli fenilici (Form II)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "angolo diedro, molecola 1",
+     "forma": "F2",
+     "valore": 11.99,
+     "incertezza": 17,
+     "unita": "°"
+    },
+    {
+     "etichetta": "angolo diedro, molecola 2",
+     "forma": "F2",
+     "valore": 26.52,
+     "incertezza": 17,
+     "unita": "°"
+    }
+   ],
+   "citazione": "The dihedral angles between phenyl ring planes are 11.99 (17)\u0003 and 26.52 (17)\u0003.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri.  Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X39",
+   "categoria": "geometria",
+   "proprieta": "C—Cl···O (Form II)",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C—Cl···O",
+     "forma": "F2",
+     "valore": 2.983,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C—Cl···O",
+     "forma": "F2",
+     "valore": 3.237,
+     "incertezza": 2,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "The C—Cl\u0002 \u0002 \u0002O interactions are 2.983 (2), 3.237 (2) A˚ .",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri.  Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X40",
+   "categoria": "geometria",
+   "proprieta": "N1—H1B···O3 (Form III): H···A e angolo",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F3",
+     "valore": 2.02,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F3",
+     "valore": 170.7,
+     "incertezza": 3,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1—H1B\u0002 \u0002 \u0002O3: 2.02 (2) A˚ , /170.7 (3)\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Attribuzione a Form III per ordine («Forms III and IV ... [..] and [..]»: il primo bracket e' III, il secondo IV). Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X41",
+   "categoria": "geometria",
+   "proprieta": "N3—H3B···O1 (Form III): H···A e angolo",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F3",
+     "valore": 2.17,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F3",
+     "valore": 160.9,
+     "incertezza": 1,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N3—H3B\u0002 \u0002 \u0002O1: 2.17 (3) A˚ , /160.9 (1)\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Attribuzione a Form III per ordine. Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X42",
+   "categoria": "geometria",
+   "proprieta": "N1—H1B···O3 (Form IV): H···A e angolo",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F4",
+     "valore": 2.18,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F4",
+     "valore": 161.2,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N1—H1B\u0002 \u0002 \u0002O3: 2.18 (2) A˚ , /161.2 (2)\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Attribuzione a Form IV per ordine (secondo bracket). Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X43",
+   "categoria": "geometria",
+   "proprieta": "N3—H3A···O1 (Form IV): H···A e angolo",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "H···A",
+     "forma": "F4",
+     "valore": 2.04,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "D—H···A",
+     "forma": "F4",
+     "valore": 170.8,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "citazione": "N3—H3A\u0002 \u0002 \u0002O1: 2.04 A˚ , /170.8 (2)\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Attribuzione a Form IV per ordine. 2.04 Å senza incertezza nel testo. Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X44",
+   "categoria": "geometria",
+   "proprieta": "C—Cl···O (Form III e Form IV)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C—Cl···O, Form III",
+     "forma": "F3",
+     "valore": 3.04,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C—Cl···O, Form IV",
+     "forma": "F4",
+     "valore": 3.101,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "[3.04 (4), Fig. 5a; and 3.101 (3) A˚ , Fig. 6a]",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Valori per ordine (Fig. 5a poi Fig. 6a); l'unita' Å e' scritta solo dopo il secondo valore. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X45",
+   "categoria": "geometria",
+   "proprieta": "angoli diedri fra gli anelli fenilici (Form III e Form IV)",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "angolo diedro 1, Form III",
+     "forma": "F3",
+     "valore": 13.87,
+     "incertezza": 4,
+     "unita": "°"
+    },
+    {
+     "etichetta": "angolo diedro 2, Form III",
+     "forma": "F3",
+     "valore": 23.91,
+     "incertezza": 4,
+     "unita": "°"
+    },
+    {
+     "etichetta": "angolo diedro 1, Form IV",
+     "forma": "F4",
+     "valore": 12.72,
+     "incertezza": 2,
+     "unita": "°"
+    },
+    {
+     "etichetta": "angolo diedro 2, Form IV",
+     "forma": "F4",
+     "valore": 23.49,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "citazione": "The dihedral angle between two phenyl rings of the same molecule in Form III is 13.87 (4) and 23.91 (4)\u0003 and in Form IV is 12.72 (2) and 23.49 (2)\u0003, respectively (Table 1).",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X46",
+   "categoria": "geometria",
+   "proprieta": "contatto Cl···Cl di tipo I (Form III): distanza e angolo",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Cl···Cl",
+     "forma": "F3",
+     "valore": 3.466,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C—Cl···Cl",
+     "forma": "F3",
+     "valore": 138.4,
+     "incertezza": 2,
+     "unita": "°"
+    }
+   ],
+   "citazione": "[C—Cl\u0002 \u0002 \u0002Cl–C, 3.466 (2) A˚ , /138.4 (2)\u0003]",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Interazione di tipo I che collega i dimeri ammidici in un anello tetramerico. Incertezza: cifra fra parentesi sull'ultima cifra. «/» davanti all'angolo = simbolo ∠ perso dal PDF."
+  },
+  {
+   "id": "X47",
+   "categoria": "geometria",
+   "proprieta": "distanze C—Cl···O nei polimorfi del composto A, Tabella 2",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "C—Cl···O, Form I",
+     "forma": "F1",
+     "valore": 2.961,
+     "incertezza": 3,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C—Cl···O, Form II",
+     "forma": "F2",
+     "valore": 2.983,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C—Cl···O, Form II",
+     "forma": "F2",
+     "valore": 3.237,
+     "incertezza": 2,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C—Cl···O, Form III",
+     "forma": "F3",
+     "valore": 3.04,
+     "incertezza": 4,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "C—Cl···O, Form IV",
+     "forma": "F4",
+     "valore": 3.101,
+     "incertezza": 3,
+     "unita": "Å"
+    }
+   ],
+   "citazione": "Polymorph C—Cl\u0002 \u0002 \u0002O (A˚ )\nForm I 2.961 (3) Form II 2.983 (2), 3.237 (2) Form III 3.04 (4) Form IV 3.101 (3)",
+   "note": "Tabella 2 (intestazione «C—Cl···O (Å)»): ripete i valori del testo. Il valore di Form III ha incertezza (4) sulla sola ultima cifra (3.04 (4)). Incertezza: cifra fra parentesi sull'ultima cifra."
+  },
+  {
+   "id": "X48",
+   "categoria": "geometria",
+   "proprieta": "angolo diedro fra i due anelli fenilici, Tabella 1",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "Form I",
+     "forma": "F1",
+     "valore": 20.07,
+     "unita": "°"
+    },
+    {
+     "etichetta": "Form II, molecola 1",
+     "forma": "F2",
+     "valore": 11.99,
+     "unita": "°"
+    },
+    {
+     "etichetta": "Form II, molecola 2",
+     "forma": "F2",
+     "valore": 26.52,
+     "unita": "°"
+    },
+    {
+     "etichetta": "Form III, molecola 1",
+     "forma": "F3",
+     "valore": 13.87,
+     "unita": "°"
+    },
+    {
+     "etichetta": "Form III, molecola 2",
+     "forma": "F3",
+     "valore": 23.91,
+     "unita": "°"
+    },
+    {
+     "etichetta": "Form IV, molecola 1",
+     "forma": "F4",
+     "valore": 12.72,
+     "unita": "°"
+    },
+    {
+     "etichetta": "Form IV, molecola 2",
+     "forma": "F4",
+     "valore": 23.49,
+     "unita": "°"
+    },
+    {
+     "etichetta": "compound B",
+     "forma": "F5",
+     "valore": 18.08,
+     "unita": "°"
+    },
+    {
+     "etichetta": "compound C",
+     "forma": "F6",
+     "valore": 13.48,
+     "unita": "°"
+    }
+   ],
+   "citazione": "Compound Dihedral angle (in \u0003)\nCompound A Form I 20.07 Compound A Form II 11.99, 26.52 Compound A Form III 13.87, 23.91 Compound A Form IV 12.72, 23.49 Compound B 18.08 Compound C 13.48",
+   "note": "Tabella 1 «Dihedral angle (in °)» (° e' U+0003 nel testo): ripete i valori del testo per A e aggiunge B e C. Per le forme con due molecole il testo non dice quale e' la prima."
+  },
+  {
+   "id": "X49",
+   "categoria": "cristallografia",
+   "proprieta": "temperatura delle celle di Tabella 4",
+   "tecnica": "SCXRD",
+   "valori": [
+    {
+     "etichetta": "T, Form I",
+     "forma": "F1",
+     "valore": 25,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "T, Form II",
+     "forma": "F2",
+     "valore": 25,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "T, Form III",
+     "forma": "F3",
+     "valore": 25,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "T, Form IV",
+     "forma": "F4",
+     "valore": 180,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Form I (at 25\u0003C)\nForm II (at 25\u0003C)\nForm III (at 25\u0003C)\nForm IV (at 180\u0003C)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Intestazione delle colonne di Tabella 4 con la temperatura della cella. 25 °C = 298 K dei Metodi (conto mio, non scritto)."
+  },
+  {
+   "id": "X50",
+   "categoria": "metodo",
+   "proprieta": "1H-NMR composto A: frequenza, solvente e temperatura",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "frequenza",
+     "valore": 400,
+     "unita": "MHz"
+    },
+    {
+     "etichetta": "temperatura",
+     "valore": 298,
+     "unita": "K"
+    }
+   ],
+   "citazione": "1H-NMR (400 MHz, DMSO-d6, 298 K, \u0002 in p.p.m.; Fig. S24):",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Solvente DMSO-d6; δ in p.p.m. (il simbolo δ e' U+0002)."
+  },
+  {
+   "id": "X51",
+   "categoria": "metodo",
+   "proprieta": "1H-NMR composto B: frequenza, solvente e temperatura",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "frequenza",
+     "valore": 400,
+     "unita": "MHz"
+    },
+    {
+     "etichetta": "temperatura",
+     "valore": 298,
+     "unita": "K"
+    }
+   ],
+   "citazione": "1H-NMR (400 MHz, DMSO-d6, 298 K, \u0002 in p.p.m.; Fig. S24): 14.22 (s, 1H), 9.08 (s, 1H), 8.06 (br, 1H), 8.01 (d, J = 8.4 Hz, 2H), 7.78 (dd, J = 10.4 Hz and J = 2.4 Hz, 2H), 7.56 (d, J = 8.4 Hz, 2H), 7.45 (br, 1H). 13C-NMR (400 MHz, DMSO-d6, 298 K, \u0002 in p.p.m.; Fig. S25): 167.5, 163.8, 156.3, 149.1, 133, 133, 131.3, 131.3, 129.42, 122.6, 121.8 and 120.9. FT–IR (KBr, cm\u00041; Fig. S26): 3493.3 (s, N—H), 3164 (m, br, OH), 1594.7 (s, C O), 1562.8 (m, C N), 1453.6 (w), 1415.4 (w), 1393.4 (m), 1262 (w), 1198 (w), 1176 (m).\nThermogravimetric analysis (TGA) showed no weight loss or decomposition on heating of the material (Fig. S27).\nFigure 1 Schematic representation of the preparation conditions and transformations for polymorphs of compound A.\n4. Compound B\n1H-NMR (400 MHz, DMSO-d6, 298 K, \u0002 in p.p.m., Fig. S28):",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. "
+  },
+  {
+   "id": "X52",
+   "categoria": "metodo",
+   "proprieta": "1H-NMR composto C: frequenza, solvente e temperatura",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "frequenza",
+     "valore": 400,
+     "unita": "MHz"
+    },
+    {
+     "etichetta": "temperatura",
+     "valore": 298,
+     "unita": "K"
+    }
+   ],
+   "citazione": "1H-NMR (400 MHz, DMSO-d6, 298 K, \u0002 in p.p.m.; Fig. S24): 14.22 (s, 1H), 9.08 (s, 1H), 8.06 (br, 1H), 8.01 (d, J = 8.4 Hz, 2H), 7.78 (dd, J = 10.4 Hz and J = 2.4 Hz, 2H), 7.56 (d, J = 8.4 Hz, 2H), 7.45 (br, 1H). 13C-NMR (400 MHz, DMSO-d6, 298 K, \u0002 in p.p.m.; Fig. S25): 167.5, 163.8, 156.3, 149.1, 133, 133, 131.3, 131.3, 129.42, 122.6, 121.8 and 120.9. FT–IR (KBr, cm\u00041; Fig. S26): 3493.3 (s, N—H), 3164 (m, br, OH), 1594.7 (s, C O), 1562.8 (m, C N), 1453.6 (w), 1415.4 (w), 1393.4 (m), 1262 (w), 1198 (w), 1176 (m).\nThermogravimetric analysis (TGA) showed no weight loss or decomposition on heating of the material (Fig. S27).\nFigure 1 Schematic representation of the preparation conditions and transformations for polymorphs of compound A.\n4. Compound B\n1H-NMR (400 MHz, DMSO-d6, 298 K, \u0002 in p.p.m., Fig. S28): 14.38 (s, 1H), 9.05 (s, 1H), 8.03 (d, 2H), 7.98 (d, J = 4.2 Hz, 2H), 7.94 (d, J = 2.8 Hz, 2H), 7.55 (d, J = 4.2 Hz, 2H), 7.42 (br, 1H).\n5. Compound C\n1H-NMR (400 MHz, DMSO-d6, 298 K, \u0002 in p.p.m., Fig. S29):",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. "
+  },
+  {
+   "id": "X53",
+   "categoria": "metodo",
+   "proprieta": "FT-IR composto A: unita' dei numeri d'onda",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [],
+   "qualitativo": "KBr pellets, wavenumbers in cm−1",
+   "citazione": "FT–IR (KBr, cm\u00041; Fig. S26):",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Il testo scrive «cm−1» con il meno come U+0004."
+  },
+  {
+   "id": "X54",
+   "categoria": "computazionale",
+   "proprieta": "buco σ dell'alogeno e rafforzamento del legame alogeno",
+   "valori": [],
+   "qualitativo": "the σ hole of the halogens becomes more positive in the order I > Br > Cl",
+   "calcolato": true,
+   "citazione": "The combined effects of both factors increases the \u0006 hole for halogens towards a more +ve lobe in the order of I > Br > Cl.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. σ = U+0006 nel testo letto."
+  },
+  {
+   "id": "X55",
+   "categoria": "computazionale",
+   "proprieta": "interazione elettrostatica buco σ-ossigeno e tabella delle energie",
+   "valori": [],
+   "qualitativo": "the electrostatic interaction between the σ hole of the halogen and the oxygen lone pair strengthens the halogen bond from C—Cl···O through C—Br···O to C—I···O",
+   "calcolato": true,
+   "citazione": "The increased electrostatic interaction between the \u0006 hole of the halogen and oxygen lone pair electrons results in strengthening of the halogen bond from C—Cl\u0002 \u0002 \u0002O through C—Br\u0002 \u0002 \u0002O to C—I\u0002 \u0002 \u0002O (Table 3) (Riley & Merz, 2007).",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. "
+  },
+  {
+   "id": "X56",
+   "categoria": "computazionale",
+   "proprieta": "contributi percentuali dei contatti O···H e Cl···O (superficie di Hirshfeld)",
+   "tecnica": "Hirshfeld",
+   "valori": [
+    {
+     "etichetta": "O···H, Form II",
+     "forma": "F2",
+     "valore": 14.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Cl···O, Form II",
+     "forma": "F2",
+     "valore": 2.6,
+     "unita": "%"
+    },
+    {
+     "etichetta": "O···H, Form I",
+     "forma": "F1",
+     "valore": 12.9,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Cl···O, Form I",
+     "forma": "F1",
+     "valore": 2.1,
+     "unita": "%"
+    },
+    {
+     "etichetta": "O···H, Form III",
+     "forma": "F3",
+     "valore": 11.8,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Cl···O, Form III",
+     "forma": "F3",
+     "valore": 1.5,
+     "unita": "%"
+    },
+    {
+     "etichetta": "O···H, Form IV",
+     "forma": "F4",
+     "valore": 12.1,
+     "unita": "%"
+    },
+    {
+     "etichetta": "Cl···O, Form IV",
+     "forma": "F4",
+     "valore": 1.8,
+     "unita": "%"
+    }
+   ],
+   "qualitativo": "Form II has the greater contribution of O···H and Cl···O contacts, indicating its stability compared with the other forms (supported by competitive slurries)",
+   "calcolato": true,
+   "citazione": "Form II has a greater contribution from O\u0002 \u0002 \u0002H and Cl\u0002 \u0002 \u0002O contacts (14.8 and 2.6%) compared with Form I (12.9 and 2.1%), Form III (11.8 and 1.5%) and Form IV (12.1 and 1.8%, Fig. S22)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Coppie «O···H e Cl···O» nell'ordine scritto per ogni forma. La frase continua: «...indicating the stability of Form II compared with the other two forms, which was also supported in competitive slurry experiments»."
+  },
+  {
+   "id": "X57",
+   "categoria": "metodo",
+   "proprieta": "PXRD: radiazione, tensione e corrente",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "lunghezza d'onda",
+     "valore": 1.5406,
+     "unita": "Å"
+    },
+    {
+     "etichetta": "tensione",
+     "valore": 40,
+     "unita": "kV"
+    },
+    {
+     "etichetta": "corrente",
+     "valore": 30,
+     "unita": "mA"
+    }
+   ],
+   "citazione": "Powder X-ray diffraction was recorded on Bruker D8 Advance diffractometer (Bruker-AXS, Karlsruhe, Germany) using Cu K\u0003 X-radiation (\u0004 = 1.5406 A˚ ) at 40 kV and 30 mA power.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. "
+  },
+  {
+   "id": "X58",
+   "categoria": "metodo",
+   "proprieta": "PXRD: intervallo 2θ e velocita' di scansione",
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ da",
+     "valore": 5,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ a",
+     "valore": 40,
+     "unita": "°"
+    },
+    {
+     "etichetta": "velocita' di scansione",
+     "valore": 1,
+     "unita": "° min-1"
+    }
+   ],
+   "citazione": "X-ray diffraction patterns were collected over the 2\u0005 range 5–40\u0003 at a scan rate of 1\u0003 min\u00041.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Il testo scrive «2θ range 5–40°» (θ e ° sono U+0005 e U+0003) e «1° min−1»."
+  },
+  {
+   "id": "X59",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD (2θ), Form I",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F1",
+     "valore": 9.89,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F1",
+     "valore": 10.84,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F1",
+     "valore": 13.22,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 4",
+     "forma": "F1",
+     "valore": 13.66,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 5",
+     "forma": "F1",
+     "valore": 15.66,
+     "unita": "°"
+    }
+   ],
+   "citazione": "The peaks of Form I appear at 2\u0005 9.89, 10.84, 13.22, 13.66, 15.66\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Picchi caratteristici (non l'elenco completo): «The peaks of Form I appear at ...»."
+  },
+  {
+   "id": "X60",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD (2θ), Form II",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F2",
+     "valore": 7.08,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F2",
+     "valore": 8.94,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F2",
+     "valore": 11.58,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 4",
+     "forma": "F2",
+     "valore": 12.82,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 5",
+     "forma": "F2",
+     "valore": 14.19,
+     "unita": "°"
+    }
+   ],
+   "citazione": "for Form II at 7.08, 8.94, 11.58, 12.82, 14.19\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Picchi caratteristici (non l'elenco completo): «The peaks of Form I appear at ...»."
+  },
+  {
+   "id": "X61",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "picchi PXRD (2θ), Form III",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "tecnica": "PXRD",
+   "valori": [
+    {
+     "etichetta": "2θ 1",
+     "forma": "F3",
+     "valore": 9.21,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 2",
+     "forma": "F3",
+     "valore": 12.32,
+     "unita": "°"
+    },
+    {
+     "etichetta": "2θ 3",
+     "forma": "F3",
+     "valore": 13.75,
+     "unita": "°"
+    }
+   ],
+   "citazione": "and Form III at 9.21, 12.32, 13.75\u0003",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Picchi caratteristici (non l'elenco completo): «The peaks of Form I appear at ...»."
+  },
+  {
+   "id": "X62",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "i diffrattogrammi dei tre polimorfi sono distinti",
+   "tecnica": "PXRD",
+   "valori": [],
+   "qualitativo": "the PXRD lines of the three polymorphs are distinct enough to characterize the bulk and to monitor phase transitions",
+   "citazione": "The powder X-ray diffraction lines of the three polymorphs of compound A are signiﬁcantly distinct to permit characterization of the bulk material in each case (Fig. S8), as well as to monitor phase transitions."
+  },
+  {
+   "id": "X63",
+   "categoria": "diffrazione_polvere",
+   "proprieta": "Form IV: righe PXRD uniche; Form III al raffreddamento",
+   "tecnica": "VT-PXRD",
+   "valori": [],
+   "qualitativo": "transient Form IV characterized by its unique powder XRD lines; Form III is the product on cooling to room temperature, 'the nearest stable phase'",
+   "citazione": "This transient Form IV was characterized by its unique powder XRD lines and in all cases the product on cooling to room temperature was Form III, which is the nearest stable phase (Fig. S9).",
+   "note": "Stessa frase di un evento (raffreddamento IV → III)."
+  },
+  {
+   "id": "X64",
+   "categoria": "termica",
+   "proprieta": "endotermo a 147 °C di Form I (non assegnato)",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "endotermo di Form I",
+     "forma": "F1",
+     "valore": 147,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Form I showed an endotherm at 147\u0003C and saw tooth-like endotherms (zigzag proﬁle) at 170–185\u0003C due to Form I ! IV conversion (conﬁrmed by VT-PXRD experiments, Fig. S9).",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Endotermo a 147 °C (nessun segno meno davanti nel testo letto) citato prima della conversione I → IV a 170–185 °C: il testo non lo assegna."
+  },
+  {
+   "id": "X65",
+   "categoria": "termica",
+   "proprieta": "intervallo DSC sotto la temperatura ambiente",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "valore fra parentesi dopo «below ambient temperature», da",
+     "valore": -25,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "valore fra parentesi dopo «below ambient temperature», a",
+     "valore": 30,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "intervallo DSC da",
+     "valore": -150,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "intervallo DSC a",
+     "valore": 200,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "In order to observe possible phase changes below ambient temperature (\u000425\u0003C to 30\u0003C), DSC was carried out on the sample in the range \u0004150\u0003C to 200 \u0003C.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Nel testo letto: «below ambient temperature (−25 °C to 30 °C), DSC was carried out ... in the range −150 °C to 200 °C» con il segno meno come U+0004. I Metodi dicono invece «the temperature range was 30–300 °C»: incoerenza dell'articolo."
+  },
+  {
+   "id": "X66",
+   "categoria": "termica",
+   "proprieta": "DSC: dimensione del campione",
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "da",
+     "valore": 3,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "a",
+     "valore": 5,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "intervallo di T da",
+     "valore": 30,
+     "unita": "°C"
+    },
+    {
+     "etichetta": "intervallo di T a",
+     "valore": 300,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Massa e intervallo come due elementi «da»/«a»."
+  },
+  {
+   "id": "X67",
+   "categoria": "termica",
+   "proprieta": "ripetibilita' degli esperimenti termici",
+   "tecnica": "DSC",
+   "valori": [],
+   "qualitativo": "all the thermal experiments were performed multiple times with identical results",
+   "citazione": "All the above experiments were performed multiple times with identical results."
+  },
+  {
+   "id": "X68",
+   "categoria": "termica",
+   "proprieta": "Form IV stabile oltre 180 °C; III e IV reversibili",
+   "oggetto": {
+    "forma": "F4"
+   },
+   "tecnica": "DSC",
+   "valori": [
+    {
+     "etichetta": "temperatura oltre la quale IV e' stabile",
+     "forma": "F4",
+     "valore": 180,
+     "unita": "°C",
+     "limite": "sopra"
+    }
+   ],
+   "citazione": "DSC and VT-PXRD conﬁrmed that Form IV is stable at high temperature (after 180\u0003C) and Forms III and IVare reversible during cooling and heating (III $ IV).",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. «stable ... after 180 °C»: limite «sopra». Reversibilita' III ↔ IV riportata dagli eventi di riscaldamento/raffreddamento."
+  },
+  {
+   "id": "X69",
+   "categoria": "termica",
+   "proprieta": "le transizioni solido-solido su VT-PXRD e DSC sono simili",
+   "tecnica": "DSC",
+   "valori": [],
+   "qualitativo": "solid-to-solid transitions on temperature-modulated PXRD and DSC are similar under heat–cool conditions",
+   "citazione": "Thus, the solid-to-solid phase transitions on temperature-modulated powder XRD and DSC exhibit similar transformations under heat–cool conditions."
+  },
+  {
+   "id": "X70",
+   "categoria": "termica",
+   "proprieta": "Form I → IV ↔ III come trasformazione solido-solido",
+   "tecnica": "DSC",
+   "valori": [],
+   "qualitativo": "Form I → IV ↔ III is a solid-to-solid phase transformation",
+   "citazione": "(Form I ! IV $ III is a solid-to-solid phase transformation);",
+   "note": "Frase: «(Form I → IV ↔ III is a solid-to-solid phase transformation)»: i simboli → e ↔ sono «!» e «$» nel testo letto."
+  },
+  {
+   "id": "X71",
+   "categoria": "termica",
+   "proprieta": "TGA: nessuna perdita di massa ne' decomposizione",
+   "tecnica": "TGA",
+   "valori": [],
+   "qualitativo": "no weight loss or decomposition on heating",
+   "citazione": "Thermogravimetric analysis (TGA) showed no weight loss or decomposition on heating of the material (Fig. S27).",
+   "note": "Gia' evento negativo di decomposizione (TGA 30–300 °C)."
+  },
+  {
+   "id": "X72",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto A: δ 14.22",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 14.22,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "s"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "14.22 (s, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X73",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto A: δ 9.08",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 9.08,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "s"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "9.08 (s, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X74",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto A: δ 8.06",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 8.06,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "br"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "8.06 (br, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X75",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto A: δ 8.01",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 8.01,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "d"
+    },
+    {
+     "etichetta": "J",
+     "valore": 8.4,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "8.01 (d, J = 8.4 Hz, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X76",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto A: δ 7.78",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.78,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "dd"
+    },
+    {
+     "etichetta": "J",
+     "valore": 10.4,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "J",
+     "valore": 2.4,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.78 (dd, J = 10.4 Hz and J = 2.4 Hz, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X77",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto A: δ 7.56",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.56,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "d"
+    },
+    {
+     "etichetta": "J",
+     "valore": 8.4,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.56 (d, J = 8.4 Hz, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X78",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto A: δ 7.45",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.45,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "br"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.45 (br, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X79",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto B: δ 14.38",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 14.38,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "s"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "14.38 (s, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X80",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto B: δ 9.05",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 9.05,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "s"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "9.05 (s, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X81",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto B: δ 8.03",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 8.03,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "d"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "8.03 (d, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X82",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto B: δ 7.98",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.98,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "d"
+    },
+    {
+     "etichetta": "J",
+     "valore": 4.2,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.98 (d, J = 4.2 Hz, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X83",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto B: δ 7.94",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.94,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "d"
+    },
+    {
+     "etichetta": "J",
+     "valore": 2.8,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.94 (d, J = 2.8 Hz, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X84",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto B: δ 7.55",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.55,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "d"
+    },
+    {
+     "etichetta": "J",
+     "valore": 4.2,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.55 (d, J = 4.2 Hz, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X85",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto B: δ 7.42",
+   "oggetto": {
+    "composto": "C2"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.42,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "br"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.42 (br, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X86",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto C: δ 14.5",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 14.5,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "s"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "14.50 (s, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X87",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto C: δ 8.96",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 8.96,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "s"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "8.96 (s, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X88",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto C: δ 8.17",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 8.17,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "s"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "8.17 (s, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X89",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto C: δ 8.028",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 8.028,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "d"
+    },
+    {
+     "etichetta": "J",
+     "valore": 8.0,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "8.028 (d, J = 8.0 Hz, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X90",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto C: δ 7.99",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.99,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "d"
+    },
+    {
+     "etichetta": "J",
+     "valore": 4.2,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.99 (d, J = 4.2 Hz, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X91",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto C: δ 7.56",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.56,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "d"
+    },
+    {
+     "etichetta": "J",
+     "valore": 4.4,
+     "unita": "Hz"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 2,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.56 (d, J = 4.4 Hz, 2H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X92",
+   "categoria": "spettroscopia",
+   "proprieta": "1H-NMR composto C: δ 7.43",
+   "oggetto": {
+    "composto": "C3"
+   },
+   "tecnica": "1H-NMR",
+   "valori": [
+    {
+     "etichetta": "δ",
+     "valore": 7.43,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "molteplicita'",
+     "testo": "br"
+    },
+    {
+     "etichetta": "integrale",
+     "valore": 1,
+     "unita": "H"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K, 400 MHz",
+   "citazione": "7.43 (br, 1H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Segnale come scritto; nessuna attribuzione data nel testo. Il simbolo δ e' U+0002 nel testo letto."
+  },
+  {
+   "id": "X93",
+   "categoria": "spettroscopia",
+   "proprieta": "13C-NMR composto A",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "13C-NMR",
+   "valori": [
+    {
+     "etichetta": "δ 1",
+     "valore": 167.5,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 2",
+     "valore": 163.8,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 3",
+     "valore": 156.3,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 4",
+     "valore": 149.1,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 5",
+     "valore": 133.0,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 6",
+     "valore": 133.0,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 7",
+     "valore": 131.3,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 8",
+     "valore": 131.3,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 9",
+     "valore": 129.42,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 10",
+     "valore": 122.6,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 11",
+     "valore": 121.8,
+     "unita": "ppm"
+    },
+    {
+     "etichetta": "δ 12",
+     "valore": 120.9,
+     "unita": "ppm"
+    }
+   ],
+   "condizioni": "DMSO-d6, 298 K",
+   "citazione": "13C-NMR (400 MHz, DMSO-d6, 298 K, \u0002 in p.p.m.; Fig. S25): 167.5, 163.8, 156.3, 149.1, 133, 133, 131.3, 131.3, 129.42, 122.6, 121.8 and 120.9.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Dodici segnali elencati in una sola frase (133 e 131.3 compaiono due volte nell'elenco: due carboni equivalenti o distinti, non detto). Il testo scrive «400 MHz» per il 13C come per l'1H."
+  },
+  {
+   "id": "X94",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 3493.3 cm-1 (N—H)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 3493.3,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "strong"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "3493.3 (s, N—H)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta."
+  },
+  {
+   "id": "X95",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 3164 cm-1 (OH)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 3164.0,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "medium"
+    },
+    {
+     "etichetta": "forma",
+     "testo": "broad"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "3164 (m, br, OH)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta."
+  },
+  {
+   "id": "X96",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 1594.7 cm-1 (C=O)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 1594.7,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "strong"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "1594.7 (s, C O)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta (nel testo letto «C O» e «C N» hanno perso il segno «=»)."
+  },
+  {
+   "id": "X97",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 1562.8 cm-1 (C=N)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 1562.8,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "medium"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "1562.8 (m, C N)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta (nel testo letto «C O» e «C N» hanno perso il segno «=»)."
+  },
+  {
+   "id": "X98",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 1453.6 cm-1",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 1453.6,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "weak"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "1453.6 (w)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta; nessuna assegnazione data."
+  },
+  {
+   "id": "X99",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 1415.4 cm-1",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 1415.4,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "weak"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "1415.4 (w)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta; nessuna assegnazione data."
+  },
+  {
+   "id": "X100",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 1393.4 cm-1",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 1393.4,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "medium"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "1393.4 (m)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta; nessuna assegnazione data."
+  },
+  {
+   "id": "X101",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 1262 cm-1",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 1262.0,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "weak"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "1262 (w)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta; nessuna assegnazione data."
+  },
+  {
+   "id": "X102",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 1198 cm-1",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 1198.0,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "weak"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "1198 (w)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta; nessuna assegnazione data."
+  },
+  {
+   "id": "X103",
+   "categoria": "spettroscopia",
+   "proprieta": "FT-IR composto A: banda a 1176 cm-1",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "tecnica": "FT-IR",
+   "valori": [
+    {
+     "etichetta": "ν",
+     "valore": 1176.0,
+     "unita": "cm-1"
+    },
+    {
+     "etichetta": "intensita'",
+     "testo": "medium"
+    }
+   ],
+   "condizioni": "KBr",
+   "citazione": "1176 (m)",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Assegnazione come scritta; nessuna assegnazione data."
+  },
+  {
+   "id": "X104",
+   "categoria": "metodo",
+   "proprieta": "FT-IR: preparazione dei campioni",
+   "tecnica": "FT-IR",
+   "valori": [],
+   "qualitativo": "samples dispersed in KBr pellets",
+   "citazione": "IR spectra were recorded on samples dispersed in KBr pellets."
+  },
+  {
+   "id": "X105",
+   "categoria": "sintesi",
+   "proprieta": "metodo 1: quantita' di reagenti e di metanolo",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "4-aminobenzamide",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "massa di 4-aminobenzamide",
+     "valore": 136,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "3,5-dichlorosalicylaldehyde",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "massa di 3,5-dichlorosalicylaldehyde",
+     "valore": 191,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "metanolo da",
+     "valore": 2,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "metanolo a",
+     "valore": 3,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "durata della macinazione",
+     "valore": 30,
+     "unita": "min"
+    },
+    {
+     "etichetta": "rapporto stechiometrico",
+     "testo": "1:1"
+    }
+   ],
+   "citazione": "The product was obtained by mechanical grinding of 4-aminobenzamide and 3,5-dichlorosalicylaldehyde in a 1:1 stoichiometric ratio (1 mmol each, 136 mg; 191 mg) by adding 2–3 ml of methanol (drop by drop addition) solvent for 30 min",
+   "note": "Le masse 136 e 191 mg sono scritte «136 mg; 191 mg» dopo «1 mmol each»: attribuzione per ordine (4-aminobenzamide poi diclorosalicilaldeide, come nell'elenco dei reagenti)."
+  },
+  {
+   "id": "X106",
+   "categoria": "sintesi",
+   "proprieta": "metodo 1: lavaggio con esano",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "lavaggi da",
+     "valore": 3
+    },
+    {
+     "etichetta": "lavaggi a",
+     "valore": 4
+    }
+   ],
+   "citazione": "and the resulting product was washed with hexane 3–4 times to remove unwanted",
+   "note": "Frase interrotta da un'intestazione di pagina («by-» / «products»)."
+  },
+  {
+   "id": "X107",
+   "categoria": "sintesi",
+   "proprieta": "metodo 1: stesso procedimento per B e C",
+   "valori": [],
+   "qualitativo": "compounds B and C synthesized by the same procedure; structures confirmed by 1H-NMR and single-crystal XRD",
+   "citazione": "We followed the same procedure for the synthesis of compound B and compound C and conﬁrmed their structures by 1H-NMR and single-crystal XRD."
+  },
+  {
+   "id": "X108",
+   "categoria": "sintesi",
+   "proprieta": "metodo 2: 4-aminobenzamide in anisolo",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "4-aminobenzamide",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "massa",
+     "valore": 136.15,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "anisolo",
+     "valore": 10,
+     "unita": "ml"
+    },
+    {
+     "etichetta": "pallone",
+     "valore": 100,
+     "unita": "ml"
+    }
+   ],
+   "citazione": "Method 2: 4-Aminobenzamide 1 mmol (136.15 mg) was dissolved in anisole (10 ml) in a 100 ml round-bottom ﬂask ﬁtted with a Dean-Stark setup."
+  },
+  {
+   "id": "X109",
+   "categoria": "sintesi",
+   "proprieta": "metodo 2: diclorosalicilaldeide, colore e riflusso",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "3,5-dichlorosalicylaldehyde",
+     "valore": 1,
+     "unita": "mmol"
+    },
+    {
+     "etichetta": "massa",
+     "valore": 191.01,
+     "unita": "mg"
+    },
+    {
+     "etichetta": "tempo per il cambio di colore",
+     "valore": 10,
+     "unita": "min"
+    },
+    {
+     "etichetta": "riflusso",
+     "valore": 4,
+     "unita": "h"
+    }
+   ],
+   "citazione": "1 mmol of 3,5-dichlorosalicylaldehyde (191.01 mg) was added to the solution. The reaction mixture turns to a light yellow color (after 10 min) and it was reﬂuxed for 4 h.",
+   "note": "La soluzione diventa giallo chiaro dopo 10 min."
+  },
+  {
+   "id": "X110",
+   "categoria": "sintesi",
+   "proprieta": "metodo 2: lavaggio e resa",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [
+    {
+     "etichetta": "lavaggi da",
+     "valore": 3
+    },
+    {
+     "etichetta": "lavaggi a",
+     "valore": 4
+    },
+    {
+     "etichetta": "resa",
+     "valore": 80,
+     "unita": "%"
+    }
+   ],
+   "citazione": "The solution was concentrated by removing the solvent and then washed with n-hexane 3–4 times to remove unwanted by-products. Red color crystals were obtained in 80% yield."
+  },
+  {
+   "id": "X111",
+   "categoria": "sintesi",
+   "proprieta": "metodo 2: stesso procedimento per B e C",
+   "valori": [],
+   "qualitativo": "compounds B and C synthesized by the same procedure; structures confirmed by 1H-NMR and single-crystal X-ray diffraction",
+   "citazione": "We followed the same procedure for the synthesis of compound B and compound C and conﬁrmed their structures by 1H-NMR and single-crystal Xray diffraction."
+  },
+  {
+   "id": "X112",
+   "categoria": "sintesi",
+   "proprieta": "tre polimorfi concomitanti da metanolo e un quarto polimorfo ad alta temperatura",
+   "valori": [],
+   "qualitativo": "three polymorphs concomitantly from methanol, plus a fourth high-temperature polymorph",
+   "citazione": "Further screening in different solvents afforded three polymorphs concomitantly from methanol solvent as well as a fourth hightemperature polymorph.",
+   "note": "Frase citata anche dalla preparazione."
+  },
+  {
+   "id": "X113",
+   "categoria": "sintesi",
+   "proprieta": "quantita' dei polimorfi: da mg a g",
+   "valori": [
+    {
+     "etichetta": "quantita' di polimorfo in bulk",
+     "testo": "several mg up to g"
+    },
+    {
+     "etichetta": "temperatura per Form III",
+     "forma": "F3",
+     "valore": 80,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Polymorphs of A in bulk quantity (several mg up to g) were obtained by different techniques, such as Form I by rotary evaporation, Form II from slurry in methanol, and Form III from acetone at 80\u0003C in a sealed tube (Fig. 1).",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Frase gia' citata dalle preparazioni di Form I, II e III."
+  },
+  {
+   "id": "X114",
+   "categoria": "morfologia",
+   "proprieta": "colore dei cristalli di A",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "red color crystals of diffraction quality from methanol",
+   "citazione": "diffraction quality red color crystals were harvested from the same solvent"
+  },
+  {
+   "id": "X115",
+   "categoria": "morfologia",
+   "proprieta": "colore dei cristalli di A (metodo 2)",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "red color crystals",
+   "citazione": "Red color crystals were obtained in 80% yield.",
+   "note": "La resa 80% e' nella voce di sintesi."
+  },
+  {
+   "id": "X116",
+   "categoria": "morfologia",
+   "proprieta": "Form III: strati molecolari planari paralleli a (101)",
+   "oggetto": {
+    "forma": "F3"
+   },
+   "valori": [
+    {
+     "etichetta": "piano degli strati molecolari, Form III",
+     "forma": "F3",
+     "testo": "(101)"
+    }
+   ],
+   "qualitativo": "planar molecular layers parallel to (101) in Form III",
+   "citazione": "The planar molecular layers are parallel to the crystallographic (101) plane in Form III (Fig. 5c).",
+   "note": "Indici di Miller come testo."
+  },
+  {
+   "id": "X117",
+   "categoria": "morfologia",
+   "proprieta": "salto del cristallo di Form I dallo stage HSM",
+   "oggetto": {
+    "forma": "F1"
+   },
+   "tecnica": "HSM",
+   "valori": [
+    {
+     "etichetta": "temperatura, da",
+     "forma": "F1",
+     "valore": 170,
+     "unita": "°C",
+     "circa": true
+    },
+    {
+     "etichetta": "temperatura, a",
+     "forma": "F1",
+     "valore": 180,
+     "unita": "°C",
+     "circa": true
+    },
+    {
+     "etichetta": "altezza del salto, da",
+     "forma": "F1",
+     "valore": 2,
+     "unita": "cm"
+    },
+    {
+     "etichetta": "altezza del salto, a",
+     "forma": "F1",
+     "valore": 3,
+     "unita": "cm"
+    }
+   ],
+   "citazione": "Upon heating Form I crystals to about 170–180\u0003C, a few crystals were seen to suddenly ﬂy off from the stage (about 2–3 cm height) and they moved outside",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Intervalli come due elementi; ripete i numeri dell'evento HSM con l'altezza di salto «about 2–3 cm»."
+  },
+  {
+   "id": "X118",
+   "categoria": "morfologia",
+   "proprieta": "Form II: scoppio dei cristalli (mini esplosione) a 180 °C",
+   "oggetto": {
+    "forma": "F2"
+   },
+   "tecnica": "HSM",
+   "valori": [
+    {
+     "etichetta": "temperatura",
+     "forma": "F2",
+     "valore": 180,
+     "unita": "°C"
+    }
+   ],
+   "citazione": "Form II crystals showed sudden blasting (mini explosion, Fig. 2b) at 180\u0003C,",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Stessa osservazione dell'evento HSM di Form II."
+  },
+  {
+   "id": "X119",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "sintoni comuni alle tre strutture: dimero ammidico N—H···O e legame alogeno C—Cl···O",
+   "valori": [],
+   "qualitativo": "the molecules are connected via the amide N—H···O dimer synthon and the C—Cl···O halogen bond in the three crystal structures",
+   "citazione": "The molecules are connectedviathe amide N—H...O dimer synthon and C—Cl...O halogen bond in the three crystal structures.",
+   "note": "Abstract (testo con «...» al posto di «···»)."
+  },
+  {
+   "id": "X120",
+   "categoria": "struttura_qualitativa",
+   "proprieta": "ragioni dei salti (Forms I e III) e dello scoppio (Form II)",
+   "valori": [],
+   "qualitativo": "jumping of Forms I and III due to the layered sheet morphology and unidirectional thermal stress; blasting of Form II from corrugated sheets and more isotropic heat dissipation",
+   "citazione": "The behaviour of jumping exhibited by the polymorphic crystals of Forms I and III is due to the layered sheet morphology and the transmission of thermal stress in a single direction, compared with the corrugated sheet structure of Form II such that heat dissipation is more isotropic causing blasting.",
+   "note": "Abstract."
+  },
+  {
+   "id": "X121",
+   "categoria": "altro",
+   "proprieta": "ruolo dei Cl···O deboli nella risposta meccanica (conclusioni)",
+   "valori": [],
+   "qualitativo": "weaker Cl···O interactions in an invariant amide-dimer N—H···O family of polymorphs are the reason ascribed to the mechanical response",
+   "citazione": "The signiﬁcance of weaker Cl\u0002 \u0002 \u0002O interactions in an invariant amide dimer N— H\u0002 \u0002 \u0002O structural family of polymorphs is the reason ascribed to the mechanical response of chloromolecular crystals.",
+   "note": "Nel testo letto il PDF ha sostituito ° (e α) con U+0003, «···» con tre U+0002, il segno meno con U+0004: la citazione contiene quei caratteri. Conclusioni."
+  },
+  {
+   "id": "X122",
+   "categoria": "altro",
+   "proprieta": "composti coinvolti: derivati dicloro, dibromo, diiodo",
+   "oggetto": {
+    "composto": "C1"
+   },
+   "valori": [],
+   "qualitativo": "dichloro (A), dibromo (B) and diiodo (C) derivatives of N-salicylideneaniline",
+   "citazione": "In the present investigation, we synthesized dichloro (compound A), dibromo (compound B) and diiodo (compound C) derivatives of N-salicylideneaniline (Schiff’s bases) (Scheme 1)."
+  }
+ ]
+}

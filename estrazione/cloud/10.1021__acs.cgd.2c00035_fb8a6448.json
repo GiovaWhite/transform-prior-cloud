@@ -1,0 +1,2507 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.2c00035",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2129639",
+  "2129640",
+  "2129641",
+  "2129642",
+  "2129643",
+  "2129644",
+  "2129645",
+  "2129646",
+  "2129647",
+  "2129648",
+  "2129649",
+  "2129650",
+  "2129651",
+  "2129652",
+  "2129653",
+  "2129654"
+ ],
+ "note": "Pertinente: eventi sperimentali propri (macinazione, sospensione in metanolo, DSC/TGA, riscaldamento sotto vuoto) e preparazioni da soluzione e da gas. Nessun dato di cella, gruppo spaziale o CCDC attribuito alle singole strutture nel testo (Tabelle S2–S4 del supplementare): i 16 CCDC 2129639–2129654 sono a livello di articolo perche' l'ordine con cui sono assegnati alle 16 strutture non e' scritto. Non sono eventi: l'assegnazione dell'endotermo a 200.0 °C di (tmp+)2(ox2–)·2CH3OH a tmp «libero» («may indicate»); l'endotermo a 185.8 °C di (tmp+)2(az2–)·tmp·6H2O, non assegnato; l'ipotesi che il sale (tmp+)(az–) sia una forma transitoria metastabile «The intermediate formation of the (tmp+)(az–) salt as a metastable transient form may be the reason» (dubitativa); la stabilita' relativa dei sistemi di letteratura di Tabella 2 (bal/tar, smz/sac, brma/dnb, eth/sal), calcolata dagli autori con DFT: nell'extra; la Tabella 1 (siti di legame e sintoni anche di strutture di letteratura): nell'extra. Le forme di letteratura citate (sali di tmp con sulfa drug (tmp+)(smx–), (tmp+)(smt–), (tmp+)(smp–)·1.5H2O, cocristalli tmp·smp, tmp·smz·CH3OH, tmp·2smz·H2O, (pyr+)(keto–), (pyr+)2(ox–)(ox2–)0.5·2CH3OH) non sono estratte come forme: non hanno condizioni, solo sintoni (Tabella 1, nell'extra). Incoerenze dell'articolo: (1) pKa: «(7.16 and 7.34, respectively)» per pyr e tmp contro «7.34» per pyr e «7.16» per tmp piu' avanti (la ΔpKa 3.0 di Tabella 2 per tmp/az torna con tmp = 7.16: 7.16 − 4.15 = 3.01, conto di controllo mio); (2) formula del ternario con seb: «2stz» nei Metodi, «stz» nei Risultati/figura/Conclusioni, «(tmp+)(seb–)·stz» nell'introduzione; (3) angolo diedro «of tmp» per le forme I e II del sale di pyr; (4) i Metodi dicono «Equimolar mixtures» per la macinazione ma i Risultati danno 2:1, 3:1, 1:1:1; (5) «Competitive slurry experiments» nei Metodi contro la descrizione di conversioni semplici nei Risultati; (6) gli endotermi a 186.1 e 214.7 °C di pyr·smz sono detti «close to the melting points of smz and pyr», mentre il punto di fusione di pyr scritto altrove e' 233 °C.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "pyrimethamine (pyr)"
+  },
+  {
+   "id": "C2",
+   "nome": "trimethoprim (tmp)"
+  },
+  {
+   "id": "C3",
+   "nome": "sulfamethazine (smz)"
+  },
+  {
+   "id": "C4",
+   "nome": "α-ketoglutaric acid (keto)"
+  },
+  {
+   "id": "C5",
+   "nome": "oxalic acid (ox)"
+  },
+  {
+   "id": "C6",
+   "nome": "sebacic acid (seb)"
+  },
+  {
+   "id": "C7",
+   "nome": "azeliac acid (az)",
+   "nome_scritto": "azeliac acid (az)"
+  },
+  {
+   "id": "C8",
+   "nome": "pimelic acid (pim)"
+  },
+  {
+   "id": "C9",
+   "nome": "sulfathiazole (stz)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "pyr",
+   "tipo": "non_specificato",
+   "citazione": "pyr, tmp, keto, az, pim, and seb were purchased from Tokyo Chemical Industry, Europe. ox and smz were obtained from Sigma-Aldrich. Sulfathiazole (stz) was obtained from Fluka Analytical.",
+   "composto": "C1",
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) homosynthon, pairwise H bonding at both amino-pyrimidine sites (C2–NH2···N1 and C4–NH2···N3)",
+     "chi": "stable polymorph, 2,4-diaminopyrimidine sites",
+     "citazione": "The stable polymorphs of pyr and tmp have the same hydrogen-bonding motifs with pairwise H bonding at both amino-pyrimidine sites"
+    }
+   ],
+   "note": "Reagente commerciale (non e' una struttura dello studio). Forma non specificata: il testo parla di «the stable polymorphs of pyr and tmp». "
+  },
+  {
+   "id": "F2",
+   "etichetta": "tmp",
+   "tipo": "non_specificato",
+   "citazione": "pyr, tmp, keto, az, pim, and seb were purchased from Tokyo Chemical Industry, Europe. ox and smz were obtained from Sigma-Aldrich. Sulfathiazole (stz) was obtained from Fluka Analytical.",
+   "composto": "C2",
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) homosynthon, pairwise H bonding at both amino-pyrimidine sites (C2–NH2···N1 and C4–NH2···N3)",
+     "chi": "stable polymorph, 2,4-diaminopyrimidine sites",
+     "citazione": "The stable polymorphs of pyr and tmp have the same hydrogen-bonding motifs with pairwise H bonding at both amino-pyrimidine sites"
+    }
+   ],
+   "note": "Reagente commerciale (non e' una struttura dello studio). Forma non specificata: il testo parla di «the stable polymorphs of pyr and tmp». "
+  },
+  {
+   "id": "F3",
+   "etichetta": "ox",
+   "tipo": "non_specificato",
+   "citazione": "pyr, tmp, keto, az, pim, and seb were purchased from Tokyo Chemical Industry, Europe. ox and smz were obtained from Sigma-Aldrich. Sulfathiazole (stz) was obtained from Fluka Analytical.",
+   "composto": "C5",
+   "note": "Reagente commerciale (non e' una struttura dello studio). "
+  },
+  {
+   "id": "F4",
+   "etichetta": "az",
+   "tipo": "non_specificato",
+   "citazione": "pyr, tmp, keto, az, pim, and seb were purchased from Tokyo Chemical Industry, Europe. ox and smz were obtained from Sigma-Aldrich. Sulfathiazole (stz) was obtained from Fluka Analytical.",
+   "composto": "C7",
+   "note": "Reagente commerciale (non e' una struttura dello studio). "
+  },
+  {
+   "id": "F5",
+   "etichetta": "stz",
+   "tipo": "non_specificato",
+   "citazione": "pyr, tmp, keto, az, pim, and seb were purchased from Tokyo Chemical Industry, Europe. ox and smz were obtained from Sigma-Aldrich. Sulfathiazole (stz) was obtained from Fluka Analytical.",
+   "composto": "C9",
+   "note": "Reagente commerciale (non e' una struttura dello studio). "
+  },
+  {
+   "id": "F6",
+   "etichetta": "seb",
+   "tipo": "non_specificato",
+   "citazione": "pyr, tmp, keto, az, pim, and seb were purchased from Tokyo Chemical Industry, Europe. ox and smz were obtained from Sigma-Aldrich. Sulfathiazole (stz) was obtained from Fluka Analytical.",
+   "composto": "C6",
+   "note": "Reagente commerciale (non e' una struttura dello studio). "
+  },
+  {
+   "id": "F7",
+   "etichetta": "pim",
+   "tipo": "non_specificato",
+   "citazione": "pyr, tmp, keto, az, pim, and seb were purchased from Tokyo Chemical Industry, Europe. ox and smz were obtained from Sigma-Aldrich. Sulfathiazole (stz) was obtained from Fluka Analytical.",
+   "composto": "C8",
+   "note": "Reagente commerciale (non e' una struttura dello studio). "
+  },
+  {
+   "id": "F8",
+   "etichetta": "keto",
+   "tipo": "non_specificato",
+   "citazione": "pyr, tmp, keto, az, pim, and seb were purchased from Tokyo Chemical Industry, Europe. ox and smz were obtained from Sigma-Aldrich. Sulfathiazole (stz) was obtained from Fluka Analytical.",
+   "composto": "C4",
+   "note": "Reagente commerciale (non e' una struttura dello studio). "
+  },
+  {
+   "id": "F9",
+   "etichetta": "tmp + pyr (miscela equimolare)",
+   "tipo": "miscela",
+   "citazione": "The cocrystal can also be prepared by ball-milling an equimolar mixture of tmp and pyr in the presence of a trace amount of ethanol.",
+   "forme_componenti": [
+    "F2",
+    "F1"
+   ],
+   "proporzioni": "1:1",
+   "note": "Miscela di polveri macinata (Metodi: «Equimolar mixtures ... were placed in 2 mL Eppendorf tubes»); le proporzioni sono quelle dei Risultati."
+  },
+  {
+   "id": "F10",
+   "etichetta": "tmp + ox (2:1)",
+   "tipo": "miscela",
+   "citazione": "Milling of tmp and ox in a 2:1 ratio in the presence of traces of methanol gave an XRPD pattern that is a good match with the theoretical pattern of (tmp+)2(ox2–)·2CH3OH (Figure S6).",
+   "forme_componenti": [
+    "F2",
+    "F3"
+   ],
+   "proporzioni": "2:1",
+   "note": "Miscela di polveri macinata (Metodi: «Equimolar mixtures ... were placed in 2 mL Eppendorf tubes»); le proporzioni sono quelle dei Risultati."
+  },
+  {
+   "id": "F11",
+   "etichetta": "tmp + az (1:1)",
+   "tipo": "miscela",
+   "citazione": "Figure S9 shows the XRPD patterns after milling a 1:1 mixture of tmp and az in the presence of traces of ethanol, acetonitrile, and ethyl acetate.",
+   "forme_componenti": [
+    "F2",
+    "F4"
+   ],
+   "proporzioni": "1:1",
+   "note": "Miscela di polveri macinata (Metodi: «Equimolar mixtures ... were placed in 2 mL Eppendorf tubes»); le proporzioni sono quelle dei Risultati."
+  },
+  {
+   "id": "F12",
+   "etichetta": "tmp + az (3:1)",
+   "tipo": "miscela",
+   "citazione": "When a 3:1 mixture was milled in the presence of traces of H2O, the XRPD pattern of (tmp+)2(az2–)·tmp·6H2O was obtained (Figure S10).",
+   "forme_componenti": [
+    "F2",
+    "F4"
+   ],
+   "proporzioni": "3:1",
+   "note": "Miscela di polveri macinata (Metodi: «Equimolar mixtures ... were placed in 2 mL Eppendorf tubes»); le proporzioni sono quelle dei Risultati."
+  },
+  {
+   "id": "F13",
+   "etichetta": "tmp + stz + seb (1:1:1)",
+   "tipo": "miscela",
+   "citazione": "The XRPD patterns of the milled tmp/stz/seb sample (1:1:1 molar ratio) showed a new set of peaks and unreacted stz (Figure S18).",
+   "forme_componenti": [
+    "F2",
+    "F5",
+    "F6"
+   ],
+   "proporzioni": "1:1:1",
+   "note": "Miscela di polveri macinata (Metodi: «Equimolar mixtures ... were placed in 2 mL Eppendorf tubes»); le proporzioni sono quelle dei Risultati."
+  },
+  {
+   "id": "F14",
+   "etichetta": "tmp + stz + pim (1:1:1)",
+   "tipo": "miscela",
+   "citazione": "In the case of the 1:1:1 tmp/stz/pim sample, the XRPD pattern matched the theoretical pattern of (tmp+)(pim–)·stz (Figure S19)",
+   "forme_componenti": [
+    "F2",
+    "F5",
+    "F7"
+   ],
+   "proporzioni": "1:1:1",
+   "note": "Miscela di polveri macinata (Metodi: «Equimolar mixtures ... were placed in 2 mL Eppendorf tubes»); le proporzioni sono quelle dei Risultati."
+  },
+  {
+   "id": "F15",
+   "etichetta": "tmp + seb (1:1)",
+   "tipo": "miscela",
+   "citazione": "The new peaks are identical to the pattern obtained when a binary 1:1 mixture of tmp and seb is milled.",
+   "forme_componenti": [
+    "F2",
+    "F6"
+   ],
+   "proporzioni": "1:1",
+   "note": "Miscela di polveri macinata (Metodi: «Equimolar mixtures ... were placed in 2 mL Eppendorf tubes»); le proporzioni sono quelle dei Risultati."
+  },
+  {
+   "id": "F16",
+   "etichetta": "tmp·pyr·H2O",
+   "tipo": [
+    "cocristallo",
+    "idrato"
+   ],
+   "citazione": "The asymmetric unit contains one tmp, one pyr, and one water molecule of crystallization.",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1
+   },
+   "etichette_alternative": [
+    "tmp.pyr·H2O"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) pyr···tmp heterosynthon (pairs of C2–NH2···N1 and C4–NH2···N3 H bonds)",
+     "chi": "pyr and tmp 2,4-diaminopyrimidine sites",
+     "citazione": "The R22(8) homosynthons with pairs of C2–NH2···N1 and C4–NH2···N3 H bonds in the X-ray structures of pyr and tmp are replaced by the corresponding pyr···tmp heterosynthons."
+    },
+    {
+     "motivo": "bifurcated H bond from the C4-amino proton of tmp to two methoxy groups of an adjacent tmp",
+     "chi": "tmp C4–NH2 and methoxy groups",
+     "citazione": "The second C4-amino proton of tmp forms a bifurcated H bond with two methoxy groups of an adjacent tmp."
+    },
+    {
+     "motivo": "methoxy group of tmp as acceptor for the C2-amino group of pyr; infinite 2D structure",
+     "chi": "tmp OCH3 and pyr C2–NH2",
+     "citazione": "In addition, one methoxy group of tmp acts as a H bond acceptor for the C2-amino group of pyr. Overall, pyr and tmp are linked to an infinite 2D structure."
+    },
+    {
+     "motivo": "disordered water (three positions) bonded to pyr C4-amino and tmp C2-amino",
+     "chi": "water, pyr C4–NH2, tmp C2–NH2",
+     "citazione": "The water molecule of crystallization is disordered over three positions and interacts with the C4-amino group of pyr and with the C2-amino group of tmp."
+    }
+   ],
+   "note": "Cocristallo idrato tmp·pyr·H2O ottenuto da metanolo; l'acqua e' disordinata su tre posizioni. Nessun dato di cella, gruppo spaziale o CCDC attribuito nel testo (Tabelle S2–S4; CCDC dell'intervallo a livello di articolo)."
+  },
+  {
+   "id": "F17",
+   "etichetta": "(tmp+)(keto–)·0.5H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "citazione": "The asymmetric unit of (tmp+)(keto–)·0.5H2O contains two crystallographically independent N1-protonated tmp+ cations, two keto– monoanions, and a water molecule of crystallization.",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 0.5,
+    "riferito_a": "unita_formula"
+   },
+   "protonazione": "N1-protonated tmp+ cation, keto monoanion (carboxyl group next to the keto group deprotonated)",
+   "motivi_hb": [
+    {
+     "motivo": "R21(6)",
+     "chi": "carboxylate oxygen and the N1–H+/C2–NH2 site of tmp+",
+     "citazione": "One of the carboxylate oxygens interacts with the N1–H+/C2–NH2 site in an R21(6) motif"
+    },
+    {
+     "motivo": "R12(5)",
+     "chi": "bifurcated donor N1–H+ to the 2-oxoacid site of keto–",
+     "citazione": "The protonated N1 nitrogen acts as a bifurcated H bond donor to the 2-oxoacid site (graph set notation R12(5))."
+    },
+    {
+     "motivo": "R44(12) rings",
+     "chi": "tmp+···keto– ion pairs via C2-amino and second carboxylate oxygen",
+     "citazione": "The tmp+···keto– ion pairs are connected through H bonding between the C2-amino group and the second carboxylate oxygen, giving rise to R44(12) rings."
+    },
+    {
+     "motivo": "R22(8) homosynthon (pairs of C4–NH2···N3)",
+     "chi": "neighbouring tmp+ cations",
+     "citazione": "Neighboring cations form the R22(8) homosynthon via pairs of C4–NH2···N3 H bonds."
+    }
+   ],
+   "note": "Sale 1:1 con 0.5 H2O per unita' formula (due cationi, due anioni e una acqua nell'unita' asimmetrica). Cristalli da acetonitrile. Le lunghezze dei legami C–O e gli angoli sono nell'extra."
+  },
+  {
+   "id": "F18",
+   "etichetta": "pyr·smz·CH3OH",
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "citazione": "In pyr·smz·CH3OH, one of the sulfonyl oxygens, the sulfonamide nitrogen and the ring nitrogen of smz form H bonds with the amino group at C4, the N3 nitrogen, and the amino group at C2 of pyr.",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 1
+   },
+   "etichette_alternative": [
+    "pyr.smz·CH3OH",
+    "pyr·smz"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "three parallel NH2···N, N···NHsulfonamide, and NH2···O=S H bonds (ADA···DAD synthon)",
+     "chi": "smz sulfonyl O, sulfonamide N and ring N with pyr C4-amino, N3 and C2-amino (DAD site)",
+     "citazione": "a new synthon between smz and the DAD site of the 2,4-diaminopyrimidine ring is found in pyr·smz, namely, three parallel NH2···N, N···NHsulfonamide, and NH2···O=S H bonds."
+    },
+    {
+     "motivo": "second sulfonyl oxygen accepts a H bond from the amino group of an adjacent smz",
+     "chi": "smz sulfonyl O and NH2 of adjacent smz",
+     "citazione": "The second sulfonyl oxygen accepts a H bond from the amino group of an adjacent smz."
+    },
+    {
+     "motivo": "methanol bonded to N1 of pyr and the amino group of smz",
+     "chi": "CH3OH, pyr N1, smz NH2",
+     "citazione": "The methanol molecule of crystallization participates in H bonding with N1 of pyr and the amino group of smz."
+    }
+   ],
+   "note": "Cocristallo metanolato; il metanolo riempie i vuoti dovuti al sintone ADA···DAD («the methanol of crystallization stabilizes the structure by filling the voids»). L'etile di pyr e' disordinato (didascalia della Fig. 7). Crescita da metanolo."
+  },
+  {
+   "id": "F19",
+   "etichetta": "(pyr+)2(ox2–)·1.5H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "citazione": "Furthermore, we obtained single crystals of (pyr+)2(ox2–)·1.5H2O, which is a new stoichiomorph of the known oxalate salt of pyr.51",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1.5,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R22(9)",
+     "chi": "one oxygen of each carboxylate group and a pair of NH···O H bonds",
+     "citazione": "In this 2:1 salt, one oxygen of each carboxylate group is involved in a pair of NH···O H bonds (R22(9)"
+    }
+   ],
+   "note": "Salto 2:1 di pyr con ossalato, idrato con 1.5 H2O per unita' formula (2 pyr + 1 ox). Nuovo stoichiomorfo del sale ossalato gia' noto (rif. 51). Non ottenuto puro in massa ne' per macinazione ne' per scale-up."
+  },
+  {
+   "id": "F20",
+   "etichetta": "(tmp+)2(ox2–)·2CH3OH",
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "citazione": "The R21(6) and R12(5) motifs are also present in (tmp+)2(ox2–)·2CH3OH (Figure 4b) and (tmp+)2(ox2–)·6.5H2O (Figure S4).",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": 2,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R21(6) and R12(5)",
+     "chi": "oxalate carboxylate and the N1–H+/C2–NH2 site of tmp+",
+     "citazione": "The R21(6) and R12(5) motifs are also present in (tmp+)2(ox2–)·2CH3OH (Figure 4b)"
+    },
+    {
+     "motivo": "R43(10)",
+     "chi": "C4-amino of tmp+, methanol, oxalate oxygen",
+     "citazione": "while the amino group at C4 donates a H bond to the solvent molecule of crystallization. The latter in turn forms a H bond with an oxalate oxygen, creating an R43(10) motif."
+    },
+    {
+     "motivo": "tmp+···tmp+ interaction through the C2–NH2/N3 site",
+     "chi": "adjacent tmp+ cations",
+     "citazione": "the tmp+ cations in (tmp+)2(ox2–)·2CH3OH interact with each other through the C2–NH2/N3 site"
+    }
+   ],
+   "note": "Sale 2:1 con 2 metanoli per unita' formula (2 tmp + 1 ox). Cristalli da metanolo."
+  },
+  {
+   "id": "F21",
+   "etichetta": "(tmp+)2(ox2–)·6.5H2O",
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "citazione": "The R21(6) and R12(5) motifs are also present in (tmp+)2(ox2–)·2CH3OH (Figure 4b) and (tmp+)2(ox2–)·6.5H2O (Figure S4).",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 6.5,
+    "riferito_a": "unita_formula"
+   },
+   "etichette_alternative": [
+    "(Tmp+)2(ox2–)·6.5H2O"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R21(6) and R12(5)",
+     "chi": "oxalate carboxylate and the N1–H+/C2–NH2 site of tmp+",
+     "citazione": "The R21(6) and R12(5) motifs are also present in (tmp+)2(ox2–)·2CH3OH (Figure 4b) and (tmp+)2(ox2–)·6.5H2O (Figure S4)."
+    },
+    {
+     "motivo": "C4–NH2···N3 R22(8) homosynthon",
+     "chi": "tmp+ cations",
+     "citazione": "In contrast to the C4–NH2···N3 R22(8) homosynthon in (tmp+)2(ox2–)·6.5H2O"
+    }
+   ],
+   "note": "Idrato con 6.5 H2O per unita' formula (2 tmp + 1 ox). Cristalli da acetonitrile; non ottenuto puro in massa ne' per macinazione ne' per scale-up."
+  },
+  {
+   "id": "F22",
+   "etichetta": "(pyr+)(az–) form I",
+   "tipo": "sale",
+   "citazione": "Pyr crystallized with az from acetonitrile as the 1:1 salt (pyr+)(az–) with the common R22(8) heterosynthon (Figure 6a).",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichette_alternative": [
+    "(pyr+)(az–)"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) heterosynthon",
+     "chi": "pyr+ N1–H+/C2–NH2 site and az– carboxylate",
+     "citazione": "Pyr crystallized with az from acetonitrile as the 1:1 salt (pyr+)(az–) with the common R22(8) heterosynthon (Figure 6a)."
+    },
+    {
+     "motivo": "24-membered ring of two az– monoanions; centrosymmetric pyr+ dimers by pairs of C4–NH2···N3",
+     "chi": "az– monoanions; pyr+ cations",
+     "citazione": "Two az– monoanions self-assemble into a 24-membered ring and pairs of C4–NH2···N3 H bonds connect the pyr+ cations to centrosymmetric dimers."
+    },
+    {
+     "motivo": "R32(8)",
+     "chi": "carbonyl oxygen of the COOH group and the pyr+ dimers",
+     "citazione": "H bonding between the carbonyl oxygen of the COOH group and the pyr+ dimers creates an R32(8) motif."
+    }
+   ],
+   "note": "Prima forma del sale 1:1 pyr/az, da acetonitrile. L'articolo dice che e' la forma stabile di pyr/az (unica forma identificata negli esperimenti di cocristallizzazione). Contiene Cl (nel testo: «(Pyr+)(az–) contains Cl»)."
+  },
+  {
+   "id": "F23",
+   "etichetta": "(pyr+)(az–) form II",
+   "tipo": "sale",
+   "citazione": "Co-sublimation of pyr and az gave a second polymorph, (pyr+)(az–) form II.",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "same H bonding motifs as form I",
+     "chi": "pyr+, az–",
+     "citazione": "Both forms have the same H bonding motifs, but differ in the dihedral angle between the pyrimidine and phenyl rings of tmp (82.9° in form I and 87.8° in form II)."
+    }
+   ],
+   "note": "Secondo polimorfo del sale, da co-sublimazione. Il testo scrive «of tmp» per l'angolo diedro fra pirimidina e fenile, ma le forme sono sali di pyr: refuso, riportato come scritto."
+  },
+  {
+   "id": "F24",
+   "etichetta": "tmp·az",
+   "tipo": "cocristallo",
+   "citazione": "A comparison of the XRPD pattern of the crystalline sample isolated from acetonitrile with the theoretical powder pattern of tmp·az confirmed that the single crystal structure was representative of the bulk composition (Figure S8).",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "etichette_alternative": [
+    "tmp.az"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "DADA array / fused R22(8)–R42(8)–R22(8) rings",
+     "chi": "both az carboxyl groups with the N1/C2–NH2 and N3/C4–NH2 sites of tmp; carbonyl O accepting from an adjacent C2-amino",
+     "citazione": "Both carboxyl groups of az form a pair of H bonds with tmp in the cocrystal, one COOH group interacts with the N1/C2–NH2 site and the other one interacts with the N3/C4–NH2 site. The carbonyl oxygen of the former also accepts a H bond from an adjacent C2-amino group, leading to a DADA array of quadruplex H bonding pattern or a motif of fused R22(8)–R42(8)–R22(8) rings."
+    }
+   ],
+   "note": "Cocristallo 1:1 (nessun trasferimento di protone, confermato dalle lunghezze C–O dell'acido). Cristalli da acetonitrile; forma termodinamicamente stabile del sistema tmp/az secondo gli autori (slurry e calcolo DFT)."
+  },
+  {
+   "id": "F25",
+   "etichetta": "(tmp+)(az–)",
+   "tipo": "sale",
+   "citazione": "The single crystal of the (tmp+)(az–) salt was isolated from ethyl acetate.",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) (N1/C2–NH2 site), N3 not in H bonding",
+     "chi": "tmp+ N1–H+/C2–NH2 and az– carboxylate",
+     "citazione": "while in (tmp+)(az–), only the N1/C2–NH2 site forms the R22(8) motif and N3 is not involved in H bonding"
+    },
+    {
+     "motivo": "R22(8) motif with the position of the proton differing from the cocrystal",
+     "chi": "salt and cocrystal of tmp/az",
+     "citazione": "By contrast, in the case of tmp, a salt and a cocrystal were obtained, both containing the R22(8) motif with the position of the proton differing (Figure 6b,c)."
+    }
+   ],
+   "note": "Forma minoritaria o transitoria (il bulk dalla stessa cristallizzazione mostra il pattern del cocristallo). Non ottenuta in massa. Le Conclusioni la chiamano «a transient metastable form»; i Risultati usano il condizionale («may be the reason»). Densita', indice di impacchettamento ed energia nell'extra."
+  },
+  {
+   "id": "F26",
+   "etichetta": "(tmp+)2(az2–)·tmp·6H2O",
+   "tipo": [
+    "sale",
+    "cocristallo",
+    "idrato"
+   ],
+   "citazione": "The asymmetric unit comprises two tmp+ cations (denoted A and B), one neutral tmp and one az2– dianion and six water molecules of crystallization.",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 3
+    },
+    {
+     "composto": "C7",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 6,
+    "riferito_a": "unita_formula"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "no C–NH2/N(H)···(H)OOC R22(8) motif",
+     "chi": "az2– dianion with the C2- and C4-amino groups of tmp and tmp+",
+     "citazione": "In contrast to the 1:1 tmp·az cocrystal, (tmp+)2(az2–)·tmp·6H2O does not contain the C–NH2/N(H)···(H)OOC R22(8) motif."
+    },
+    {
+     "motivo": "pair of H bonds between N3/C4–NH2 of tmp+ A and C2–NH2/N3 of neutral tmp",
+     "chi": "tmp+ A and tmp",
+     "citazione": "Tmp+ A and tmp interact via a pair of H bonds between the N3/C4–NH2 site of the cation and the C2–NH2/N3 site of the neutral molecule."
+    }
+   ],
+   "note": "Cocristallo ionico: 2 tmp+ (A e B), 1 tmp neutro, 1 az2– e 6 acque nell'unita' asimmetrica; le acque contano 6 per unita' formula (2 tmp+ + 1 tmp + 1 az2–). Da metanolo."
+  },
+  {
+   "id": "F27",
+   "etichetta": "(tmp+)2(seb2–)·2CH3OH·2H2O",
+   "tipo": [
+    "sale",
+    "solvato",
+    "idrato"
+   ],
+   "citazione": "However, tmp and seb form a 2:1 salt of composition (tmp+)2(seb2–)·2CH3OH·2H2O, while no proton transfer takes place between pyr and seb and a cocrystal was obtained.",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": [
+    {
+     "specie": "methanol",
+     "stechiometria": 2,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "water",
+     "stechiometria": 2,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) (typical pairwise H bonding with the C2–NH2/N1 site)",
+     "chi": "seb with the C2–NH2/N1 site of tmp",
+     "citazione": "Seb interacts with tmp and pyr via the typical pairwise H bonding with the C2–NH2/N1 site (R22(8))."
+    },
+    {
+     "motivo": "pair of H bonds C4–NH2···N3 between tmp+ ions",
+     "chi": "tmp+ ions",
+     "citazione": "The tmp+ ions are connected through a pair of H bonds involving the amino group at C4 and the ring nitrogen N3."
+    },
+    {
+     "motivo": "R32(8) (water bridging the 2-amino and 4-amino groups)",
+     "chi": "water, 2-amino and 4-amino groups across the C4–NH2···N3 pair",
+     "citazione": "CH3CN in pyr.0.5seb·CH3CN and water in (tmp+)2(seb2–)·2CH3OH·2H2O bridge the 2-amino and 4-amino groups on both sides of the pair of C4–NH2···N3 H bonds, creating an R32(8) motif."
+    }
+   ],
+   "note": "Sale 2:1 con 2 CH3OH e 2 H2O per unita' formula. Cristalli da metanolo."
+  },
+  {
+   "id": "F28",
+   "etichetta": "pyr.0.5seb·CH3CN",
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "citazione": "However, tmp and seb form a 2:1 salt of composition (tmp+)2(seb2–)·2CH3OH·2H2O, while no proton transfer takes place between pyr and seb and a cocrystal was obtained.",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 0.5
+    }
+   ],
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 1
+   },
+   "etichette_alternative": [
+    "pyr·0.5seb·CH3CN"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R22(8) (typical pairwise H bonding with the C2–NH2/N1 site)",
+     "chi": "seb with the C2–NH2/N1 site of pyr",
+     "citazione": "Seb interacts with tmp and pyr via the typical pairwise H bonding with the C2–NH2/N1 site (R22(8))."
+    },
+    {
+     "motivo": "R32(8) (CH3CN bridging the 2-amino and 4-amino groups)",
+     "chi": "CH3CN, 2-amino and 4-amino groups across the C4–NH2···N3 pair",
+     "citazione": "CH3CN in pyr.0.5seb·CH3CN and water in (tmp+)2(seb2–)·2CH3OH·2H2O bridge the 2-amino and 4-amino groups on both sides of the pair of C4–NH2···N3 H bonds, creating an R32(8) motif."
+    }
+   ],
+   "note": "Cocristallo (nessun trasferimento di protone) con 0.5 seb e 1 CH3CN per pyr. Da acetonitrile. Tabella 1 lo dice «2:1; cocrystal» (pyr:seb)."
+  },
+  {
+   "id": "F29",
+   "etichetta": "tmp·pim·0.5CH3CN",
+   "tipo": [
+    "cocristallo",
+    "solvato"
+   ],
+   "citazione": "It is interesting that in contrast to (tmp+)(pim–)·stz, no proton transfer from the carboxyl group to the 2,4-diaminopyrimidine nitrogen takes place when tmp and pim cocrystallize to give the binary cocrystal tmp·pim·0.5CH3CN (Figure S17).",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C8",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": 0.5
+   },
+   "etichette_alternative": [
+    "tmp·pim.0.5CH3CN"
+   ],
+   "note": "Cocristallo binario (nessun trasferimento di protone) con 0.5 CH3CN per tmp. Da acetonitrile. Struttura nel supplementare (Fig. S17)."
+  },
+  {
+   "id": "F30",
+   "etichetta": "(tmp+)(pim–)·stz",
+   "tipo": [
+    "sale",
+    "cocristallo"
+   ],
+   "citazione": "The H bonding patterns of the two ternary ionic cocrystals obtained, (tmp+)(pim–)·stz and (tmp+)2(seb2–)·stz·2H2O·C3H6O, are shown in Figure 8.",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C8",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C9",
+     "stechiometria": 1
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "fused R32(10) and R22(8) rings (ternary synthon)",
+     "chi": "stz sulfonyl O with C2-amino of tmp+, heterocyclic ring N–H of stz with a carboxylate oxygen",
+     "citazione": "H bonding between a sulfonyl oxygen and the amino group at C2 and between the proton on the heterocyclic ring nitrogen and a carboxylate oxygen connect the sulfa drug to the tmp+···carboxylate synthon, leading to a motif of fused R32(10) and R22(8) rings."
+    },
+    {
+     "motivo": "C4–NH2···N3 homosynthon; R32(8) rings from C2- and C4-amino with S=O",
+     "chi": "tmp+ cations; amino groups and S=O of stz",
+     "citazione": "Furthermore, both structures have the C4–NH2···N3 homosynthon. Additional hydrogen bonding of the C2- and C4-amino groups with S=O creates R32(8) rings."
+    },
+    {
+     "motivo": "20-membered ring of two pim monoanions",
+     "chi": "pim monoanions",
+     "citazione": "In (tmp+)(pim–)·stz, two pim monoanions dimerize into a 20-membered ring"
+    }
+   ],
+   "note": "Cocristallo ionico ternario tmp+/pim–/stz 1:1:1. stz in forma tautomerica imido. Da acetonitrile; ottenuto anche per macinazione 1:1:1."
+  },
+  {
+   "id": "F31",
+   "etichetta": "(tmp+)2(seb2–)·stz·2H2O·C3H6O",
+   "tipo": [
+    "sale",
+    "cocristallo",
+    "idrato",
+    "solvato"
+   ],
+   "citazione": "The H bonding patterns of the two ternary ionic cocrystals obtained, (tmp+)(pim–)·stz and (tmp+)2(seb2–)·stz·2H2O·C3H6O, are shown in Figure 8.",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C6",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C9",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": [
+    {
+     "specie": "water",
+     "stechiometria": 2,
+     "riferito_a": "unita_formula"
+    },
+    {
+     "specie": "acetone",
+     "stechiometria": 1,
+     "riferito_a": "unita_formula"
+    }
+   ],
+   "etichette_alternative": [
+    "(tmp+)2(seb2–)·2stz·2H2O·C3H6O",
+    "(tmp+)(seb–)·stz·2H2O·C3H6O"
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "fused R32(10) and R22(8) rings (ternary synthon)",
+     "chi": "stz sulfonyl O with C2-amino of tmp+, heterocyclic ring N–H of stz with a carboxylate oxygen",
+     "citazione": "H bonding between a sulfonyl oxygen and the amino group at C2 and between the proton on the heterocyclic ring nitrogen and a carboxylate oxygen connect the sulfa drug to the tmp+···carboxylate synthon, leading to a motif of fused R32(10) and R22(8) rings."
+    },
+    {
+     "motivo": "seb2– dianion on an inversion center, both carboxylates interacting with stz and tmp+",
+     "chi": "seb2–, stz, tmp+",
+     "citazione": "while the seb2– dianion in (tmp+)2(seb2–)·stz·2H2O·C3H6O lies on an inversion center, so that both carboxylate groups interact with stz and tmp+."
+    }
+   ],
+   "conflitto": "La formula e' scritta con «2stz» nei Metodi (cristallizzazione e analisi a raggi X: «(tmp+)2(seb2–)·2stz·2H2O·C3H6O») e con «stz» (un solo stz) nei Risultati, nella didascalia della Fig. 8, nell'abstract e nelle Conclusioni; l'introduzione scrive «(tmp+)(seb–)·stz·2H2O·C3H6O». Si tiene «stz» (Risultati e didascalia della figura battono i Metodi).",
+   "note": "Cocristallo ionico ternario. Il solvente C3H6O e' scritto come formula: l'acetone e' il solvente di cristallizzazione (Metodi: «crystallized from ... acetone»); `ospite.specie` = acetone per questo. Da acetone. La stechiometria 2:1:1 (tmp:seb:stz) segue la formula dei Risultati."
+  },
+  {
+   "id": "F32",
+   "etichetta": "[(tmp+)2(ox2–) desolvato]",
+   "tipo": [
+    "sale",
+    "anidro"
+   ],
+   "citazione": "The exotherms are assigned to the formation of new phases of the desolvated salt.",
+   "componenti": [
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    },
+    {
+     "composto": "C5",
+     "stechiometria": 1
+    }
+   ],
+   "note": "Etichetta descrittiva: «the desolvated salt» di (tmp+)2(ox2–)·2CH3OH dopo la perdita del solvente a 116.3 °C; mai caratterizzata a parte."
+  },
+  {
+   "id": "F33",
+   "etichetta": "[nuove fasi del sale desolvato (tmp+)2(ox2–)]",
+   "tipo": "non_specificato",
+   "citazione": "The exotherms are assigned to the formation of new phases of the desolvated salt. The endotherm at 200.0 °C may indicate the presence of “free” tmp (melting point 199–203 °C) and may suggest that the new phases are different stoichiomorphs.",
+   "note": "Etichetta collettiva descrittiva: «new phases» al plurale, possibili stoichiomorfi diversi («may suggest»); non distinte ne' caratterizzate."
+  },
+  {
+   "id": "F34",
+   "etichetta": "[pyr·smz desolvato]",
+   "tipo": "non_specificato",
+   "citazione": "The DSC plot of pyr·smz (Figure S16) shows an endotherm at 111.5 °C followed by an exotherm at 136.2 °C that can be assigned to the loss of the hydrogen-bonded methanol of recrystallization and the structural rearrangement of the desolvated form.",
+   "note": "Etichetta descrittiva: «the desolvated form» di pyr·smz·CH3OH; solo DSC/TGA."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F24",
+    "F25"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F24",
+   "fonte_dati": "propria",
+   "certezza": "alta",
+   "relazione_scritta": "tmp·az cocrystal > (tmp+)(az–) salt (order of stability); the cocrystal is the thermodynamically stable form; the salt a metastable transient form",
+   "condizioni": "calcolo DFT periodico (ΔE(sa-cc) positivo = cocristallo piu' stabile) e sospensione del cocristallo in metanolo, 48 h, temperatura ambiente",
+   "citazione": "Theoretical calculations were performed to understand the order of stability, which is tmp·az cocrystal > (tmp+)(az–) salt.",
+   "note": "Cocristallo e sale con la stessa composizione e stechiometria (gli autori parlano di «cocrystal-salt polymorphism»): il testo non dice mono/enantiotropia. Valori ΔE e densita' nell'extra. Il testo: «solution crystallization of tmp/az suggests that the cocrystal is in the thermodynamically stable form, which was confirmed by slurry experiments»; l'esperimento di sospensione riguarda il solo cocristallo (nessun cambio), non una competizione con il sale."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F9",
+   "a": "F16",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "one 5 mm diameter stainless steel ball",
+     "liquido": "ethanol (trace amount)",
+     "testo": "20 μL of solvent; 2 mL Eppendorf tubes"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol",
+      "proporzione": "trace amount"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "120–150 mg in total"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Parametri di macinazione dai Metodi (valgono per tutti i campioni: «20 μL of solvent», 25 Hz, 20 min, una sfera di acciaio da 5 mm); i Metodi dicono «Equimolar mixtures» ma i Risultati danno rapporti diversi per alcuni campioni (2:1, 3:1, 1:1:1): valgono i rapporti dei Risultati. Il liquido e' quello nominato nella frase dei Risultati. Prodotto identificato per accordo del pattern XRPD con quello teorico dalla struttura singola di tmp·pyr·H2O.",
+   "citazioni": [
+    "Equimolar mixtures of tmp or pyr and the respective coformer(s) (120–150 mg in total, Table S1) were placed in 2 mL Eppendorf tubes. 20 μL of solvent and one 5 mm diameter stainless steel ball were added to each sample.",
+    "An oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) was used to mill the samples at 25 Hz for 20 min. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "The cocrystal can also be prepared by ball-milling an equimolar mixture of tmp and pyr in the presence of a trace amount of ethanol. The match of the XRPD pattern of the milled sample and the theoretical pattern calculated from the single crystal data of tmp·pyr·H2O is shown in Figure S1."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E2",
+   "da": "F10",
+   "a": "F20",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "one 5 mm diameter stainless steel ball",
+     "liquido": "methanol (traces)",
+     "testo": "20 μL of solvent; 2 mL Eppendorf tubes"
+    },
+    "solventi": [
+     {
+      "nome": "methanol",
+      "proporzione": "traces"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "120–150 mg in total"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Parametri di macinazione dai Metodi (valgono per tutti i campioni: «20 μL of solvent», 25 Hz, 20 min, una sfera di acciaio da 5 mm); i Metodi dicono «Equimolar mixtures» ma i Risultati danno rapporti diversi per alcuni campioni (2:1, 3:1, 1:1:1): valgono i rapporti dei Risultati. Il liquido e' quello nominato nella frase dei Risultati. ",
+   "citazioni": [
+    "Equimolar mixtures of tmp or pyr and the respective coformer(s) (120–150 mg in total, Table S1) were placed in 2 mL Eppendorf tubes. 20 μL of solvent and one 5 mm diameter stainless steel ball were added to each sample.",
+    "An oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) was used to mill the samples at 25 Hz for 20 min. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "Milling of tmp and ox in a 2:1 ratio in the presence of traces of methanol gave an XRPD pattern that is a good match with the theoretical pattern of (tmp+)2(ox2–)·2CH3OH (Figure S6)."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E3",
+   "da": "F11",
+   "a": "F24",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "solventi_alternativi": true,
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "one 5 mm diameter stainless steel ball",
+     "liquido": "ethanol, acetonitrile or ethyl acetate (traces; one trial per solvent)",
+     "testo": "20 μL of solvent; 2 mL Eppendorf tubes"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol",
+      "proporzione": "traces"
+     },
+     {
+      "nome": "acetonitrile",
+      "proporzione": "traces"
+     },
+     {
+      "nome": "ethyl acetate",
+      "proporzione": "traces"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "120–150 mg in total"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Parametri di macinazione dai Metodi (valgono per tutti i campioni: «20 μL of solvent», 25 Hz, 20 min, una sfera di acciaio da 5 mm); i Metodi dicono «Equimolar mixtures» ma i Risultati danno rapporti diversi per alcuni campioni (2:1, 3:1, 1:1:1): valgono i rapporti dei Risultati. Il liquido e' quello nominato nella frase dei Risultati. Tre solventi provati in alternativa (Fig. S9), stesso esito con tutti: «the Bragg peaks of the cocrystal» = tmp·az (il cocristallo 1:1, non il cocristallo ionico).",
+   "citazioni": [
+    "Equimolar mixtures of tmp or pyr and the respective coformer(s) (120–150 mg in total, Table S1) were placed in 2 mL Eppendorf tubes. 20 μL of solvent and one 5 mm diameter stainless steel ball were added to each sample.",
+    "An oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) was used to mill the samples at 25 Hz for 20 min. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "Figure S9 shows the XRPD patterns after milling a 1:1 mixture of tmp and az in the presence of traces of ethanol, acetonitrile, and ethyl acetate. In all cases, the Bragg peaks of the cocrystal were observed."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E4",
+   "da": "F12",
+   "a": "F26",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "one 5 mm diameter stainless steel ball",
+     "liquido": "water (traces)",
+     "testo": "20 μL of solvent; 2 mL Eppendorf tubes"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": "traces"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "120–150 mg in total"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Parametri di macinazione dai Metodi (valgono per tutti i campioni: «20 μL of solvent», 25 Hz, 20 min, una sfera di acciaio da 5 mm); i Metodi dicono «Equimolar mixtures» ma i Risultati danno rapporti diversi per alcuni campioni (2:1, 3:1, 1:1:1): valgono i rapporti dei Risultati. Il liquido e' quello nominato nella frase dei Risultati. ",
+   "citazioni": [
+    "Equimolar mixtures of tmp or pyr and the respective coformer(s) (120–150 mg in total, Table S1) were placed in 2 mL Eppendorf tubes. 20 μL of solvent and one 5 mm diameter stainless steel ball were added to each sample.",
+    "An oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) was used to mill the samples at 25 Hz for 20 min. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "When a 3:1 mixture was milled in the presence of traces of H2O, the XRPD pattern of (tmp+)2(az2–)·tmp·6H2O was obtained (Figure S10)."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E5",
+   "da": "F13",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "one 5 mm diameter stainless steel ball",
+     "liquido": null,
+     "testo": "20 μL of solvent; 2 mL Eppendorf tubes"
+    },
+    "solventi": []
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "120–150 mg in total"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F5",
+      "prevalenza": null
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Parametri di macinazione dai Metodi (valgono per tutti i campioni: «20 μL of solvent», 25 Hz, 20 min, una sfera di acciaio da 5 mm); i Metodi dicono «Equimolar mixtures» ma i Risultati danno rapporti diversi per alcuni campioni (2:1, 3:1, 1:1:1): valgono i rapporti dei Risultati. Il liquido e' quello nominato nella frase dei Risultati. Il liquido di macinazione non e' nominato per questo campione (sottovia generica `macinazione`). Prodotto: un nuovo insieme di picchi identico a quello della miscela binaria tmp+seb 1:1 macinata, piu' stz non reagito; la fase nuova non e' identificata (ne' e' il cocristallo ionico ternario di seb). `composizione_prodotto` elenca stz non reagito.",
+   "citazioni": [
+    "Milling experiments were carried out to investigate if the two ternary cocrystals could also be prepared mechanochemically.",
+    "Equimolar mixtures of tmp or pyr and the respective coformer(s) (120–150 mg in total, Table S1) were placed in 2 mL Eppendorf tubes. 20 μL of solvent and one 5 mm diameter stainless steel ball were added to each sample.",
+    "An oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) was used to mill the samples at 25 Hz for 20 min. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "The XRPD patterns of the milled tmp/stz/seb sample (1:1:1 molar ratio) showed a new set of peaks and unreacted stz (Figure S18). The new peaks are identical to the pattern obtained when a binary 1:1 mixture of tmp and seb is milled."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E6",
+   "da": "F13",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "a_possibili": [
+    "F31"
+   ],
+   "esito_dettaglio": "nessun_cocristallo",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "one 5 mm diameter stainless steel ball",
+     "liquido": null,
+     "testo": "20 μL of solvent; 2 mL Eppendorf tubes"
+    },
+    "solventi": []
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "120–150 mg in total"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Parametri di macinazione dai Metodi (valgono per tutti i campioni: «20 μL of solvent», 25 Hz, 20 min, una sfera di acciaio da 5 mm); i Metodi dicono «Equimolar mixtures» ma i Risultati danno rapporti diversi per alcuni campioni (2:1, 3:1, 1:1:1): valgono i rapporti dei Risultati. Il liquido e' quello nominato nella frase dei Risultati. Negativo: il cocristallo ionico ternario (tmp+)2(seb2–)·stz·2H2O·C3H6O non si forma per macinazione 1:1:1 (`a_possibili` = nessuna di queste si e' formata). Il liquido di macinazione non e' nominato.",
+   "citazioni": [
+    "Milling experiments were carried out to investigate if the two ternary cocrystals could also be prepared mechanochemically.",
+    "Equimolar mixtures of tmp or pyr and the respective coformer(s) (120–150 mg in total, Table S1) were placed in 2 mL Eppendorf tubes. 20 μL of solvent and one 5 mm diameter stainless steel ball were added to each sample.",
+    "An oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) was used to mill the samples at 25 Hz for 20 min. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "The XRPD patterns of the milled tmp/stz/seb sample (1:1:1 molar ratio) showed a new set of peaks and unreacted stz (Figure S18)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E7",
+   "da": "F15",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "one 5 mm diameter stainless steel ball",
+     "liquido": null,
+     "testo": "20 μL of solvent; 2 mL Eppendorf tubes"
+    },
+    "solventi": []
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "120–150 mg in total"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Parametri di macinazione dai Metodi (valgono per tutti i campioni: «20 μL of solvent», 25 Hz, 20 min, una sfera di acciaio da 5 mm); i Metodi dicono «Equimolar mixtures» ma i Risultati danno rapporti diversi per alcuni campioni (2:1, 3:1, 1:1:1): valgono i rapporti dei Risultati. Il liquido e' quello nominato nella frase dei Risultati. La miscela binaria tmp+seb 1:1 macinata da' un pattern (nuovi picchi) che il testo menziona solo per confronto con la miscela ternaria; la fase non e' identificata ne' si dice il liquido di macinazione.",
+   "citazioni": [
+    "Equimolar mixtures of tmp or pyr and the respective coformer(s) (120–150 mg in total, Table S1) were placed in 2 mL Eppendorf tubes. 20 μL of solvent and one 5 mm diameter stainless steel ball were added to each sample.",
+    "An oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) was used to mill the samples at 25 Hz for 20 min. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "The new peaks are identical to the pattern obtained when a binary 1:1 mixture of tmp and seb is milled."
+   ],
+   "certezza": "bassa"
+  },
+  {
+   "id": "E8",
+   "da": "F14",
+   "a": "F30",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "Mixer Mill MM400 (Retsch), oscillatory ball mill",
+     "frequenza_Hz": 25,
+     "durata": {
+      "valore": 20,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "sfere": "one 5 mm diameter stainless steel ball",
+     "liquido": null,
+     "testo": "20 μL of solvent; 2 mL Eppendorf tubes"
+    },
+    "solventi": []
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "120–150 mg in total"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Parametri di macinazione dai Metodi (valgono per tutti i campioni: «20 μL of solvent», 25 Hz, 20 min, una sfera di acciaio da 5 mm); i Metodi dicono «Equimolar mixtures» ma i Risultati danno rapporti diversi per alcuni campioni (2:1, 3:1, 1:1:1): valgono i rapporti dei Risultati. Il liquido e' quello nominato nella frase dei Risultati. Il liquido di macinazione non e' nominato per questo campione.",
+   "citazioni": [
+    "Milling experiments were carried out to investigate if the two ternary cocrystals could also be prepared mechanochemically.",
+    "Equimolar mixtures of tmp or pyr and the respective coformer(s) (120–150 mg in total, Table S1) were placed in 2 mL Eppendorf tubes. 20 μL of solvent and one 5 mm diameter stainless steel ball were added to each sample.",
+    "An oscillatory ball mill (Mixer Mill MM400, Retsch GmbH & Co., Germany) was used to mill the samples at 25 Hz for 20 min. The milled powder samples were analyzed immediately by X-ray powder diffraction.",
+    "In the case of the 1:1:1 tmp/stz/pim sample, the XRPD pattern matched the theoretical pattern of (tmp+)(pim–)·stz (Figure S19), indicating that the ternary cocrystal can also be prepared mechanochemically."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E9",
+   "da": "F26",
+   "a": "F24",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "methanol"
+     }
+    ],
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "temperatura": {
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "rapporto_solido_solvente": "20 mg of each sample in 1 mL of methanol (10 mm diameter glass vial)"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "20 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "lettura_alternativa": "Sospensione competitiva: 20 mg di (tmp+)2(az2–)·tmp·6H2O e 20 mg di tmp·az insieme in 1 mL di metanolo («Competitive slurry experiments ... 20 mg of each sample»).",
+   "note": "I Metodi parlano di «Competitive slurry experiments» per le due forme con «20 mg of each sample», ma i Risultati descrivono la conversione di (tmp+)2(az2–)·tmp·6H2O in tmp·az e, a parte, il cocristallo tmp·az da solo (nessun cambio): non e' chiaro se la sospensione fosse una miscela delle due forme; si tratta come sospensione semplice (`lettura_alternativa` = competitiva). Dopo la sospensione il solido e' asciugato in stufa a vuoto a 40 °C per 6 h prima della XRPD: il trattamento puo' avere un effetto non discusso.",
+   "citazioni": [
+    "Competitive slurry experiments were carried out for (tmp+)2(az2–)·tmp·6H2O and tmp·az to determine the most stable polymorph. 20 mg of each sample was mixed with 1 mL of methanol in a 10 mm diameter glass vial and the mixture was stirred for 48 h at room temperature, followed by drying in a vacuum oven at 40 °C for 6 h and recording the powder X-ray pattern.",
+    "On slurrying in methanol, (tmp+)2(az2–)·tmp·6H2O converted to tmp·az (Figure S11)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E10",
+   "da": "F24",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "methanol"
+     }
+    ],
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "temperatura": {
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "rapporto_solido_solvente": "20 mg in 1 mL of methanol (10 mm diameter glass vial)"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "20 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il cocristallo tmp·az resta invariato dopo 48 h in metanolo: «confirmed by slurry experiments» che e' la forma termodinamicamente stabile del sistema tmp/az. Stessa asciugatura a 40 °C per 6 h in stufa a vuoto prima della XRPD.",
+   "citazioni": [
+    "Competitive slurry experiments were carried out for (tmp+)2(az2–)·tmp·6H2O and tmp·az to determine the most stable polymorph. 20 mg of each sample was mixed with 1 mL of methanol in a 10 mm diameter glass vial and the mixture was stirred for 48 h at room temperature, followed by drying in a vacuum oven at 40 °C for 6 h and recording the powder X-ray pattern.",
+    "No change in the XRPD pattern was observed, when the cocrystal was slurried for 48 h in methanol (Figure S14)."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E11",
+   "da": "F16",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 124.1,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 3.1,
+     "unita": "%",
+     "tipo": "totale"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 124.1,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Disidratazione di tmp·pyr·H2O: perdita di massa 3.1% (calcolata 3.2%, nell'extra). Il solido disidratato non e' caratterizzato: a = ignota.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "The DSC plot of the cocrystal (Figure S2) shows a dehydration endotherm at 124.1 °C (weight loss in the TGA 3.1%; calcd. 3.2%) and a melting endotherm at 195.9 °C."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E12",
+   "da": "F16",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E11",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 195.9,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 195.9,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Fusione nella stessa corsa DSC, dopo l'endoterma di disidratazione a 124.1 °C (evento precedente): `da` e' la forma caricata, ma il solido che fonde e' presumibilmente il cocristallo disidratato (il testo non lo dice). 195.9 °C e' piu' basso dei punti di fusione di tmp (200 °C) e pyr (233 °C).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "The DSC plot of the cocrystal (Figure S2) shows a dehydration endotherm at 124.1 °C (weight loss in the TGA 3.1%; calcd. 3.2%) and a melting endotherm at 195.9 °C.",
+    "The latter temperature is lower than the melting points of tmp (200 °C) and pyr (233 °C)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E13",
+   "da": "F17",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 134.9,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 134.9,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Il punto di fusione del sale e' fra quelli dei due coformeri (tmp: 199–203 °C; keto: 113.5 °C).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "The DSC plot (Figure S3) shows a melting endotherm at 134.9 °C."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E14",
+   "da": "F17",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E13",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 160,
+     "max": 190
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "unita": "°C",
+       "min": 160,
+       "max": 190
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Secondo endotermo largo con perdita di massa in TGA (senza valore), attribuito alla decomposizione di keto, dopo la fusione del sale (evento precedente).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "A second, broad endotherm at 160–190 °C is accompanied by a weight loss in the TGA and is attributed to the decomposition of keto."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E15",
+   "da": "F20",
+   "a": "F32",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 116.3,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. «the loss of the solvent molecules» (due CH3OH); «Thermal analysis»: il testo non dice se DSC o DSC/TGA (nei Metodi c'e' solo la DSC); condizioni DSC dei Metodi. Perdita di massa del solvente non data.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "Thermal analysis of (tmp+)2(ox2–)·2CH3OH (Figure S7) revealed the loss of the solvent molecules at 116.3 °C followed by two exothermic events at 161.9 and 172.6 °C and two endothermic events at 200.0 and 222.0 °C"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E16",
+   "da": "F32",
+   "a": "F33",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E15",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "picchi": [
+      161.9,
+      172.6
+     ]
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 161.9,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     },
+     {
+      "grandezza": {
+       "valore": 172.6,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Due esotermi a 161.9 e 172.6 °C assegnati alla formazione di «new phases of the desolvated salt» (possibili stoichiomorfi diversi): un evento con due picchi, prodotto = etichetta collettiva descrittiva.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "Thermal analysis of (tmp+)2(ox2–)·2CH3OH (Figure S7) revealed the loss of the solvent molecules at 116.3 °C followed by two exothermic events at 161.9 and 172.6 °C and two endothermic events at 200.0 and 222.0 °C",
+    "The exotherms are assigned to the formation of new phases of the desolvated salt."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E17",
+   "da": "F33",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E16",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "picchi": [
+      222.0,
+      235.6
+     ]
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 11.9,
+     "unita": "%",
+     "tipo": "totale"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 222.0,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     },
+     {
+      "grandezza": {
+       "valore": 235.6,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Picco a 222.0 °C con spalla a 235.6 °C, «Melting of these phases»; la fusione e' accompagnata dalla sublimazione di ox (perdita osservata 11.9%, teorica 12.3% nell'extra). L'endotermo a 200.0 °C e' attribuito dubitativamente a tmp «libero» («may indicate»): non e' un evento.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "Thermal analysis of (tmp+)2(ox2–)·2CH3OH (Figure S7) revealed the loss of the solvent molecules at 116.3 °C followed by two exothermic events at 161.9 and 172.6 °C and two endothermic events at 200.0 and 222.0 °C",
+    "The latter peak has a shoulder at 235.6 °C. The exotherms are assigned to the formation of new phases of the desolvated salt.",
+    "Melting of these phases gives the peak/shoulder at 222.0/235.6 °C. The TGA plot shows that melting is accompanied by the sublimation of ox (theoretical weight loss: 12.3%; observed weight loss: 11.9%)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E18",
+   "da": "F18",
+   "a": "F34",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 111.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 111.5,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N1 of pyr",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "forma": "F18",
+     "citazione": "The methanol molecule of crystallization participates in H bonding with N1 of pyr and the amino group of smz."
+    },
+    {
+     "gruppo": "amino group of smz",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "forma": "F18",
+     "citazione": "The methanol molecule of crystallization participates in H bonding with N1 of pyr and the amino group of smz."
+    }
+   ],
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Perdita del «hydrogen-bonded methanol of recrystallization»: endotermo a 111.5 °C; la perdita di massa in TGA non ha valore. I gruppi sono quelli a cui il testo dice che il metanolo e' legato (N1 di pyr e ammino di smz); il testo non dice che si rompono.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "The DSC plot of pyr·smz (Figure S16) shows an endotherm at 111.5 °C followed by an exotherm at 136.2 °C that can be assigned to the loss of the hydrogen-bonded methanol of recrystallization and the structural rearrangement of the desolvated form. The evaporation of methanol is confirmed by the weight loss in the TGA plot.",
+    "The methanol molecule of crystallization participates in H bonding with N1 of pyr and the amino group of smz."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E19",
+   "da": "F34",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E18",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 136.2,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 136.2,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Esotermo a 136.2 °C = «structural rearrangement of the desolvated form»: la fase risultante non e' identificata (a = ignota).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "The DSC plot of pyr·smz (Figure S16) shows an endotherm at 111.5 °C followed by an exotherm at 136.2 °C that can be assigned to the loss of the hydrogen-bonded methanol of recrystallization and the structural rearrangement of the desolvated form."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E20",
+   "da": "ignota",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E19",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "picchi": [
+      186.1,
+      214.7
+     ]
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 186.1,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     },
+     {
+      "grandezza": {
+       "valore": 214.7,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "lettura_alternativa": "Il testo non dice che i due endotermi siano fusioni: li confronta solo con i punti di fusione di smz e pyr (fusione dei due componenti?).",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Due endotermi (186.1 e 214.7 °C) «close to the melting points of smz and pyr»: attribuzione non esplicita, certezza bassa; `da` = ignota (la fase che si forma al riarrangiamento, evento precedente). Il punto di fusione di pyr scritto altrove nell'articolo e' 233 °C.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "Two other endothermic events occur at 186.1 and 214.7 °C, which is close to the melting points of smz and pyr."
+   ],
+   "certezza": "bassa"
+  },
+  {
+   "id": "E21",
+   "da": "F26",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 90.4,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 10.1,
+     "unita": "%",
+     "tipo": "totale"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 90.4,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Perdita dell'acqua di cristallizzazione (10.1%; calcolata 9.3%, nell'extra); il testo scrive «TA plot» (TGA). Il solido disidratato non e' caratterizzato nella corsa DSC. Il terzo endotermo (185.8 °C) non e' assegnato dal testo.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "The DSC plot of (tmp+)2(az2–)·tmp·6H2O shows endotherms at 90.4, 155.3, and 185.8 °C (Figure S12a). The first endothermic event is accompanied by a 10.1% weight loss in the TA plot and can be assigned to the loss of the water of crystallization (calcd. 9.3%)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E22",
+   "da": "F24",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_dedotto": true,
+   "da_evento": "E21",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (purged in ambient mode)",
+    "solventi": [],
+    "temperatura": {
+     "valore": 155.3,
+     "unita": "°C",
+     "tipo": "picco"
+    }
+   },
+   "campione": {
+    "crogiolo": "aperto"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 155.3,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Condizioni DSC dai Metodi (crogiolo di alluminio aperto, 10 °C/min fra 20 e 300 °C, azoto in modo ambiente); le temperature sono scritte «endotherm at ...», senza dire se onset o picco: tipo `non_specificato`. Il picco a 155.3 °C nella corsa DSC di (tmp+)2(az2–)·tmp·6H2O «corresponds to the melting point of tmp·az (Figure S12b)»: la forma che fonde e' identificata dal confronto con la DSC di tmp·az, non e' la forma caricata (da_dedotto). Il testo dice «peak»: tipo `picco`.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was carried out in open aluminum crucibles using an STA625 thermal analyzer (Rheometric Scientific, Piscataway, New Jersey).",
+    "The DSC plots were recorded between 20 and 300 °C with a heating rate of 10 °C/min. Nitrogen was purged in ambient mode, and an indium standard was used for calibration.",
+    "The DSC plot of (tmp+)2(az2–)·tmp·6H2O shows endotherms at 90.4, 155.3, and 185.8 °C (Figure S12a).",
+    "The peak at 155.3 °C corresponds to the melting point of tmp·az (Figure S12b)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E23",
+   "da": "F26",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "prodotti_secondari": [
+    "F24"
+   ],
+   "condizioni": {
+    "temperatura": {
+     "valore": 90,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 6,
+     "unita": "h",
+     "tipo": "processo"
+    },
+    "pressione": {
+     "tipo": "applicata",
+     "testo": "vacuum"
+    },
+    "atmosfera": "vacuum",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F24",
+      "prevalenza": "minoritaria"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Pattern di tmp «libero» piu' picchi minori che «may be assigned to the cocrystal» (tmp·az): `prodotti_secondari` e `composizione_prodotto` con certezza media. Il destino di az non e' descritto. «free tmp»: tmp neutro, forma con etichetta tmp (reagente).",
+   "citazioni": [
+    "When a sample of (tmp+)2(az2–)·tmp·6H2O was heated to 90 °C under vacuum for 6 h, XRPD analysis showed the pattern of free tmp and minor peaks that may be assigned to the cocrystal (Figure S13)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E24",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 199,
+     "max": 203
+    },
+    "solventi": []
+   },
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del reagente puro; il testo non dice se misurato qui o preso dalla letteratura, ne' con quale tecnica: `fonte_dati` null. Intervallo 199–203 °C (due frasi); in un'altra frase tmp ha «200 °C» (confronto con la fusione del cocristallo).",
+   "citazioni": [
+    "The melting point of the salt is in the range between the melting points of the two coformers (tmp: 199–203 °C; keto: 113.5 °C).",
+    "The latter temperature is lower than the melting points of tmp (200 °C) and pyr (233 °C).",
+    "The endotherm at 200.0 °C may indicate the presence of “free” tmp (melting point 199–203 °C)"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E25",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 233,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del reagente puro; il testo non dice se misurato qui o preso dalla letteratura, ne' con quale tecnica: `fonte_dati` null. ",
+   "citazioni": [
+    "The latter temperature is lower than the melting points of tmp (200 °C) and pyr (233 °C)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E26",
+   "da": "F8",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 113.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "fonte_dati": null,
+   "natura": "fisica",
+   "note": "Punto di fusione del reagente puro; il testo non dice se misurato qui o preso dalla letteratura, ne' con quale tecnica: `fonte_dati` null. ",
+   "citazioni": [
+    "The melting point of the salt is in the range between the melting points of the two coformers (tmp: 199–203 °C; keto: 113.5 °C)."
+   ],
+   "certezza": "media"
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "pyr, tmp, keto, az, pim, and seb were purchased from Tokyo Chemical Industry, Europe. ox and smz were obtained from Sigma-Aldrich. Sulfathiazole (stz) was obtained from Fluka Analytical."
+   ],
+   "note": "pyr, tmp, keto, az, pim, seb (Tokyo Chemical Industry, Europe); ox e smz (Sigma-Aldrich); stz (Fluka Analytical). smz non e' una forma estratta."
+  },
+  {
+   "forme": [
+    "F16",
+    "F18",
+    "F19",
+    "F20",
+    "F26",
+    "F27"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "tempo": {
+    "testo": "a few days"
+   },
+   "rapporto_soluzione": "pyr o tmp : coformero(i) 1 mol equiv",
+   "rapporto_solido_solvente": "25 mg of pyr or tmp in the minimum amount of solvent",
+   "citazioni": [
+    "25 mg of pyr or tmp and 1 mol equiv of the respective coformer(s) were dissolved in the minimum amount of solvent, and the solvent was allowed to slowly evaporate from an open vial. Crystallization experiments were carried out in methanol, acetonitrile, acetone, and ethyl acetate.",
+    "Within a few days, X-ray suitable single crystals of (pyr+)2(ox2–)·1.5H2O, (tmp+)2(ox2–)·2CH3OH, (tmp+)2(az2–)·tmp·6H2O, tmp·pyr·H2O, pyr·smz·CH3OH, and (tmp+)2(seb2–)·2CH3OH·2H2O were obtained from methanol."
+   ],
+   "note": "Evaporazione lenta da vial aperto. Un metodo e un tempo («a few days») per tutte le forme di questa frase."
+  },
+  {
+   "forme": [
+    "F21",
+    "F17",
+    "F24",
+    "F28",
+    "F29",
+    "F22",
+    "F30"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "pyr o tmp : coformero(i) 1 mol equiv",
+   "rapporto_solido_solvente": "25 mg of pyr or tmp in the minimum amount of solvent",
+   "citazioni": [
+    "25 mg of pyr or tmp and 1 mol equiv of the respective coformer(s) were dissolved in the minimum amount of solvent, and the solvent was allowed to slowly evaporate from an open vial. Crystallization experiments were carried out in methanol, acetonitrile, acetone, and ethyl acetate.",
+    "(Tmp+)2(ox2–)·6.5H2O, (tmp+)(keto–)·0.5H2O, tmp.az, pyr.0.5seb·CH3CN, tmp·pim.0.5CH3CN, (pyr+)(az–) form I, and (tmp+)(pim–)·stz crystallized from acetonitrile, while (tmp+)(az–) and (tmp+)2(seb2–)·2stz·2H2O·C3H6O crystallized from ethyl acetate and acetone, respectively."
+   ],
+   "note": "Evaporazione lenta da acetonitrile. Il tempo «Within a few days» e' scritto nella frase del metanolo e vale per le «single crystals» in generale: qui non si ripete."
+  },
+  {
+   "forme": [
+    "F25"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "tmp : az 1 mol equiv",
+   "citazioni": [
+    "25 mg of pyr or tmp and 1 mol equiv of the respective coformer(s) were dissolved in the minimum amount of solvent, and the solvent was allowed to slowly evaporate from an open vial. Crystallization experiments were carried out in methanol, acetonitrile, acetone, and ethyl acetate.",
+    "(Tmp+)2(ox2–)·6.5H2O, (tmp+)(keto–)·0.5H2O, tmp.az, pyr.0.5seb·CH3CN, tmp·pim.0.5CH3CN, (pyr+)(az–) form I, and (tmp+)(pim–)·stz crystallized from acetonitrile, while (tmp+)(az–) and (tmp+)2(seb2–)·2stz·2H2O·C3H6O crystallized from ethyl acetate and acetone, respectively.",
+    "The single crystal of the (tmp+)(az–) salt was isolated from ethyl acetate. However, XRPD analysis of the bulk sample showed the pattern of the cocrystal, indicating that the salt is a minor side product or a transient form."
+   ],
+   "note": "Un monocristallo del sale isolato da acetato di etile; il campione in massa da' il pattern del cocristallo (il sale e' un sottoprodotto minoritario o una forma transitoria)."
+  },
+  {
+   "forme": [
+    "F31"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "tmp : seb : stz (1 mol equiv di ciascun coformero)",
+   "citazioni": [
+    "25 mg of pyr or tmp and 1 mol equiv of the respective coformer(s) were dissolved in the minimum amount of solvent, and the solvent was allowed to slowly evaporate from an open vial. Crystallization experiments were carried out in methanol, acetonitrile, acetone, and ethyl acetate.",
+    "(Tmp+)2(ox2–)·6.5H2O, (tmp+)(keto–)·0.5H2O, tmp.az, pyr.0.5seb·CH3CN, tmp·pim.0.5CH3CN, (pyr+)(az–) form I, and (tmp+)(pim–)·stz crystallized from acetonitrile, while (tmp+)(az–) and (tmp+)2(seb2–)·2stz·2H2O·C3H6O crystallized from ethyl acetate and acetone, respectively."
+   ],
+   "note": "Da acetone («respectively»: acetato di etile per (tmp+)(az–), acetone per il ternario con seb)."
+  },
+  {
+   "forme": [
+    "F23"
+   ],
+   "metodo": "sublimazione",
+   "solventi": [],
+   "temperatura": {
+    "unita": "°C",
+    "tipo": "non_specificato",
+    "valori": [
+     193.5,
+     148.3
+    ]
+   },
+   "tempo": {
+    "valore": 17,
+    "unita": "h",
+    "tipo": "trasformazione"
+   },
+   "atmosfera": "sealed under vacuum",
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "pyr : az equimolare (sublimati da due estremi opposti)",
+   "citazioni": [
+    "The salt (pyr+)(az–) form II was crystallized from the gas phase using an in-house sublimation apparatus.31 Equimolar ratios of pyr and az were sublimed from both ends of a standard 15 × 160 mm test tube sealed under vacuum. Two heaters were used to sublime the components, and the temperatures at the pyr and az ends were set at 193.5 and 148.3 °C, respectively. Pyr and az formed small crystals of (pyr+)(az–) form II in the middle of the test tube after 17 h."
+   ],
+   "note": "Temperature: 193.5 °C all'estremo di pyr e 148.3 °C all'estremo di az («respectively»); provetta 15 × 160 mm chiusa sotto vuoto, cristalli piccoli al centro dopo 17 h. Il vuoto non ha un valore."
+  },
+  {
+   "forme": [
+    "F21",
+    "F19"
+   ],
+   "metodo": "macinazione",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "(Tmp+)2(ox2–)·6.5H2O and (pyr+)2(ox2–)·1.5H2O could not be obtained as phase-pure solids in bulk quantities, neither by milling nor by scaling up the crystallization experiment."
+   ],
+   "note": "Non ottenuti come solidi puri in massa per macinazione (i campioni e i liquidi di macinazione non sono detti)."
+  },
+  {
+   "forme": [
+    "F21",
+    "F19"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "(Tmp+)2(ox2–)·6.5H2O and (pyr+)2(ox2–)·1.5H2O could not be obtained as phase-pure solids in bulk quantities, neither by milling nor by scaling up the crystallization experiment."
+   ],
+   "note": "Non ottenuti come solidi puri in massa nemmeno ingrandendo l'esperimento di cristallizzazione (scale-up)."
+  },
+  {
+   "forme": [
+    "F25"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Attempts to prepare bulk quantities of the salt by rapid solvent evaporation were unsuccessful."
+   ],
+   "note": "Evaporazione rapida del solvente: nessun sale in massa."
+  },
+  {
+   "forme": [],
+   "metodo": "altro",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "fonte_dati": "propria",
+   "solo_supplementare": true,
+   "componenti_cercati": [
+    "tmp o pyr + sulfa drug + carboxylic acid (ternary cocrystal)"
+   ],
+   "citazioni": [
+    "The carboxylic acid and sulfonamide combinations used in the screening study are listed in Tables S6 and S7. The isolation of a ternary cocrystal was only successful in the case of stz and tmp, and instead of binding to the DAD site of tmp, a new ternary synthon was observed with stz interacting with the tmp+···carboxylate dimer via S=O···NH2 and NH···O H bonds."
+   ],
+   "note": "Le combinazioni provate (Tabelle S6 e S7) sono nel supplementare; il ternario si ottiene solo con stz e tmp. Nello screening spesso cristallizza il sale binario pyr+/tmp+ carbossilato e mai un cocristallo binario sulfa drug/acido carbossilico."
+  },
+  {
+   "forme": [],
+   "metodo": "altro",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "fonte_dati": "propria",
+   "componenti_cercati": [
+    "pyr·az cocrystal"
+   ],
+   "citazioni": [
+    "The only form that was identified in cocrystallization experiments for pyr and az is the salt (pyr+)(az–)."
+   ],
+   "note": "Nessun cocristallo di pyr con az: solo il sale (pyr+)(az–). Condizioni delle prove non date."
+  },
+  {
+   "forme": [
+    "F16"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "The cocrystal can also be prepared by ball-milling an equimolar mixture of tmp and pyr in the presence of a trace amount of ethanol."
+   ],
+   "note": "Ottenuto anche per macinazione (evento collegato)."
+  },
+  {
+   "forme": [
+    "F20"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E2",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Milling of tmp and ox in a 2:1 ratio in the presence of traces of methanol gave an XRPD pattern that is a good match with the theoretical pattern of (tmp+)2(ox2–)·2CH3OH (Figure S6)."
+   ],
+   "note": "Ottenuto anche per macinazione (evento collegato)."
+  },
+  {
+   "forme": [
+    "F24"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E3",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Figure S9 shows the XRPD patterns after milling a 1:1 mixture of tmp and az in the presence of traces of ethanol, acetonitrile, and ethyl acetate. In all cases, the Bragg peaks of the cocrystal were observed."
+   ],
+   "note": "Ottenuto anche per macinazione (evento collegato)."
+  },
+  {
+   "forme": [
+    "F26"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E4",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "When a 3:1 mixture was milled in the presence of traces of H2O, the XRPD pattern of (tmp+)2(az2–)·tmp·6H2O was obtained (Figure S10)."
+   ],
+   "note": "Ottenuto anche per macinazione (evento collegato)."
+  },
+  {
+   "forme": [
+    "F30"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E8",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "In the case of the 1:1:1 tmp/stz/pim sample, the XRPD pattern matched the theoretical pattern of (tmp+)(pim–)·stz (Figure S19), indicating that the ternary cocrystal can also be prepared mechanochemically."
+   ],
+   "note": "Ottenuto anche per macinazione (evento collegato)."
+  },
+  {
+   "forme": [
+    "F24"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E9",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "On slurrying in methanol, (tmp+)2(az2–)·tmp·6H2O converted to tmp·az (Figure S11)."
+   ],
+   "note": "Ottenuto anche per conversione in sospensione di metanolo dal cocristallo ionico idrato."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "gruppo": "2,4-diaminopyrimidine ring",
+     "grandezza": {
+      "valore": 7.16
+     },
+     "metodo": "valore in CONFLITTO con l'altra frase (qui pyr 7.16, tmp 7.34 «respectively»; piu' avanti pyr 7.34 e tmp 7.16)",
+     "calcolato": false,
+     "citazione": "The 2,4-diaminopyrimidine rings in pyr and tmp have almost the same pKa value (7.16 and 7.34, respectively)"
+    },
+    {
+     "tipo": "pKa",
+     "gruppo": "N1 nitrogen",
+     "grandezza": {
+      "valore": 7.34
+     },
+     "metodo": "valore in CONFLITTO con la prima frase (pyr 7.16); usato per la regola ΔpKa di pyr/az",
+     "calcolato": false,
+     "citazione": "The pKa values of the N1 nitrogen of pyr and for the deprotonation of the first carboxyl group of az are 7.34 and 4.15, respectively"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "pyr: «the restriction imposed by the biphenyl linkage» prevents ring packing in a flat geometry; ethyl substituent at C6 causes steric hindrance",
+     "citazione": "It is possible that the restriction imposed by the biphenyl linkage in the pyr molecule, which prevents the ring packing in a more efficient flat geometry, leads to a lower packing efficiency than is observed in the tmp/az structures"
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "gruppo": "2,4-diaminopyrimidine ring",
+     "grandezza": {
+      "valore": 7.34
+     },
+     "metodo": "valore in CONFLITTO con l'altra frase (qui tmp 7.34, pyr 7.16 «respectively»; piu' avanti tmp 7.16)",
+     "calcolato": false,
+     "citazione": "The 2,4-diaminopyrimidine rings in pyr and tmp have almost the same pKa value (7.16 and 7.34, respectively)"
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 7.16
+     },
+     "metodo": "valore in CONFLITTO con la prima frase (tmp 7.34); coerente con ΔpKa = 3.0 di Tabella 2 per tmp/az",
+     "calcolato": false,
+     "citazione": "The pKa value of tmp is 7.16 and is thus very close to that of pyr."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "tmp: «the flexible nature of tmp may aid efficient packing»",
+     "citazione": "where the flexible nature of tmp may aid efficient packing"
+    }
+   ]
+  },
+  {
+   "composto": "C7",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "gruppo": "first carboxyl group",
+     "grandezza": {
+      "valore": 4.15
+     },
+     "metodo": "pKa per la deprotonazione del primo carbossile",
+     "calcolato": false,
+     "citazione": "The pKa values of the N1 nitrogen of pyr and for the deprotonation of the first carboxyl group of az are 7.34 and 4.15, respectively"
+    }
+   ]
+  },
+  {
+   "composto": "C9",
+   "descrizioni": [
+    {
+     "tipo": "tautomeria",
+     "testo": "stz exists in its imido tautomeric form in both ternary cocrystals",
+     "forma": "F30",
+     "citazione": "In both structures, stz exists in its imido tautomeric form and forms the same ternary synthon with tmp+ and the carboxylate group."
+    }
+   ]
+  }
+ ]
+}

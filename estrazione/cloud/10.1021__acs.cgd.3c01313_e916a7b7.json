@@ -1013,9 +1013,19 @@
     "To confirm that dehydration the hydrated phase RS-AI_S-Nap_W gave RS-AI_S-Nap_A2"
    ],
    "certezza": "media",
-   "note": "Primo picco DSC di W: perdita d'acqua («can be related to the loss of water»), con peak 129.6, extrapolated peak 130.1 (nell'extra) e onset 129.6 °C; DeltaH 16.6 kJ/mol. Il prodotto e' «the resulting anhydrous compound»: l'articolo lo identifica come A2 con l'esperimento in stufa a 140 °C (evento successivo) e con la stessa fusione (175.9 °C), quindi a = F3 con certezza media. Nessuna TGA: perdita di massa non scritta. Crogiolo con coperchio forato. [Coordinatore: rimossi i gruppi_coinvolti dedotti dal confronto fra le strutture; il testo non dice che partecipino alla trasformazione (linee guida: solo se il testo lo dice). I dati strutturali restano nell'extra: voci X75 e X105.]",
+   "note": "Primo picco DSC di W: perdita d'acqua («can be related to the loss of water»), con peak 129.6, extrapolated peak 130.1 (nell'extra) e onset 129.6 °C; DeltaH 16.6 kJ/mol. Il prodotto e' «the resulting anhydrous compound»: l'articolo lo identifica come A2 con l'esperimento in stufa a 140 °C (evento successivo) e con la stessa fusione (175.9 °C), quindi a = F3 con certezza media. Nessuna TGA: perdita di massa non scritta. Crogiolo con coperchio forato. [Coordinatore: gruppo 'acqua' mantenuto come coordina_ospite, senza 'cambia' (il testo non dice che il legame si rompa; come l'esempio dello schema 'water is H-bonded to the amide N-H'). Dati strutturali anche nell'extra: voce X105.]",
    "fonte_dati": "propria",
-   "natura": "fisica"
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecules (H-bonded to the naproxen anions)",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F4",
+     "citazione": "each naproxen anion is strongly H-bound to three symmetry related AI cations and two independent water molecules"
+    }
+   ]
   },
   {
    "id": "E15",
@@ -1109,9 +1119,19 @@
     "in a monotropic relationship) and the dehydration of RS-AI_S-Nap_W to RS-AI_S-Nap_A2 occurred."
    ],
    "certezza": "alta",
-   "note": "Disidratazione di W in stufa a 140 °C per 20 min (durata del trattamento), «above its dehydration temperature as obtained by DSC analysis»: il PXRD finale coincide con quello di A2. Atmosfera e RH non scritte. I gruppi: l'acqua e' legata ai naprossenati in W; il naprossenato di W ha la stessa forma di A e A1 («almost identical and definitely superimposable»), mentre in A2 il carbossilato e' eclissato (confronto fra strutture, non descrizione del percorso). [Coordinatore: rimossi i gruppi_coinvolti dedotti dal confronto fra le strutture; il testo non dice che partecipino alla trasformazione (linee guida: solo se il testo lo dice). I dati strutturali restano nell'extra: voci X75 e X105.]",
+   "note": "Disidratazione di W in stufa a 140 °C per 20 min (durata del trattamento), «above its dehydration temperature as obtained by DSC analysis»: il PXRD finale coincide con quello di A2. Atmosfera e RH non scritte. I gruppi: l'acqua e' legata ai naprossenati in W; il naprossenato di W ha la stessa forma di A e A1 («almost identical and definitely superimposable»), mentre in A2 il carbossilato e' eclissato (confronto fra strutture, non descrizione del percorso). [Coordinatore: gruppo 'acqua' mantenuto come coordina_ospite, senza 'cambia'; rimossa la torsione del carbossilato, che e' un confronto fra le strutture e non e' attribuita dal testo al percorso. Dati strutturali nell'extra: voci X75 e X105.]",
    "fonte_dati": "propria",
-   "natura": "fisica"
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecules (H-bonded to the naproxen anions)",
+     "ruolo": "coordina_ospite",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F4",
+     "citazione": "each naproxen anion is strongly H-bound to three symmetry related AI cations and two independent water molecules"
+    }
+   ]
   },
   {
    "id": "E17",

@@ -1,0 +1,1495 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2052252517004043",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "1488992",
+  "1488993",
+  "1488994",
+  "1524448",
+  "1488995",
+  "1488996"
+ ],
+ "note": "Pertinente: trasformazioni solido-solido riscaldando/raffreddando (HSM, VT-PXRD, DSC), sospensione competitiva, composti B e C senza trasformazioni. Nel testo letto il PDF ha sostituito simboli con caratteri di controllo: ° e α = U+0003, δ e «···» e la barra di P-1 = U+0002, θ = U+0005, σ = U+0006, meno = U+0004; per questo i numeri con °C danno «quasi» nel verificatore (unita' non accanto al numero) e le citazioni contengono quei caratteri. Non sono eventi: l'endotermo a 147 °C di Form I nella stessa frase della conversione I → IV (non assegnato); l'ipotesi sui flussi di calore («We hypothesize that upon heating crystals of Form I and Form III, the heat is transferred uniformly ...»); le energie dei legami alogeno C—X···O (calcolate, Tabella 3); le percentuali di contatti di Hirshfeld; gli effetti termocromici (supplementare, Fig. S21). Incoerenze dell'articolo: (1) intervallo DSC dei Metodi «30–300 °C» contro «−150 °C to 200 °C» nei Risultati (i segni meno sono U+0004 nel testo letto); (2) VT-PXRD: il prodotto raffreddando a temperatura ambiente e' Form III, mentre la DSC dice IV → III a 0–10 °C; (3) l'elenco CCDC dell'intestazione ha sei numeri (1488992; 1488993; 1488994; 1524448; 1488995; 1488996) mentre i Metodi dicono «CCDC Nos. 1488992–1488996» (cinque numeri consecutivi, senza 1524448); l'ordine di assegnazione alle sei strutture (I, II, III, IV, B, C) non e' scritto: elenco a livello di articolo; (4) la Tabella 4 dà solo a, b, c, V e la densita' (nessun angolo di cella, nessun Z).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "(E)-4-((3,5-dichloro-2-hydroxybenzylidene)amino)benzamide (compound A)",
+   "nome_scritto": "(E)-4-((3,5-dichloro-2hydroxybenzylidene)amino)benzamide"
+  },
+  {
+   "id": "C2",
+   "nome": "dibromo derivative of N-salicylideneaniline (compound B)",
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C3",
+   "nome": "diiodo derivative of N-salicylideneaniline (compound C)",
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "Form I",
+   "tipo": "anidro",
+   "citazione": "The X-ray crystal structures of Form I and II were solved in triclinic space group P\u00021.",
+   "composto": "C1",
+   "tipo_presunto": true,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P\u00021",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 8.44,
+    "b": 9.11,
+    "c": 9.15,
+    "V": 673.27,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "25 °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "R2^2(8) amide dimer (N1—H1B···O1)",
+     "chi": "amide group dimer",
+     "citazione": "The amide group forms a dimer through N1—H1B\u0002 \u0002 \u0002O1 [2.00 (4) A˚ , /172 (3)\u0003] hydrogen bonds in a R2\n2ð8Þ ring motif (Etter et al., 1990; Bernstein et al., 1995) in Form I (Fig. 3)."
+    },
+    {
+     "motivo": "S(6) intramolecular O2—H2A···N2",
+     "chi": "hydroxyl donor and imine nitrogen",
+     "citazione": "An intramolecular hydrogen bond between the hydroxyl donor and imine nitrogen through the O2—H2A\u0002 \u0002 \u0002N2 [1.66 (4) A˚ , /149 (4)\u0003] ring makes an Sð6Þ motif."
+    },
+    {
+     "motivo": "eight-membered ring from the amide dimers extended through C—Cl···O and N1—H1A···O2",
+     "chi": "amide dimers, C—Cl···O halogen bond, N—H···O",
+     "citazione": "The amide dimers extend through C— Cl\u0002 \u0002 \u0002O [2.961 (3) A˚ ] and N1—H1A\u0002 \u0002 \u0002O2 [2.25 (4) A˚ , / 161 (3)\u0003] interactions in an eight-membered ring motif."
+    }
+   ],
+   "note": "Forma I del composto A (derivato dicloro di N-salicylideneaniline); polimorfo ottenuto per evaporazione rotativa in quantita' (da mg a g). Gruppo spaziale: nel testo letto e' «P\u00021» (U+0002 al posto della barra, e «triclinic» prima): ricostruito P-1 con questo appoggio: la molecola non e' chirale, Z' = 1 scritto («Z0 = 1 in Form I», il primo e' perso come apice), e dai dati di Tabella 4 (V = 673.27 e densita' 1.525) con la massa della molecola (circa 309, dalle masse dei reagenti dei Metodi, 136 e 191 per mmol, meno l'acqua persa) la cella contiene due molecole, quindi Z = 2 con Z' = 1: centrosimmetrica (conto di controllo mio; Z non e' scritto). Cella da Tabella 4 a 25 °C (a, b, c, V; gli angoli non sono dati). CCDC nell'elenco a livello di articolo."
+  },
+  {
+   "id": "F2",
+   "etichetta": "Form II",
+   "tipo": "anidro",
+   "citazione": "The X-ray crystal structures of Form I and II were solved in triclinic space group P\u00021.",
+   "composto": "C1",
+   "tipo_presunto": true,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P\u00021",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 8.35,
+    "b": 12.75,
+    "c": 13.01,
+    "V": 1322.2,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "25 °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "amide dimer synthon (N1—H1B···O3 and N3—H3B···O1) as in Form I, plus N—H···O",
+     "chi": "amide dimers",
+     "citazione": "The crystal structure of Form II (Fig. 4) has the same amide dimer synthon [N1—H1B\u0002 \u0002 \u0002O3; 2.06 (1) A˚ , /170 (1)\u0003 and N3—H3B\u0002 \u0002 \u0002O1; 2.06 (3) A˚ , /170.4 (1)\u0003] and N—H\u0002 \u0002 \u0002O [N3—H3A\u0002 \u0002 \u0002O2, 2.41 (2) A˚ , /144.3 (2)\u0003; and N1— H1A\u0002 \u0002 \u0002O4, 2.32 (4) A˚ , /157.4 (1)\u0003] hydrogen bonds as in Form I."
+    },
+    {
+     "motivo": "corrugated wave-like arrangement of the symmetry-independent molecules",
+     "chi": "two molecules in the asymmetric unit",
+     "citazione": "In Form II, however, due to the corrugated wave-like arrangement of molecules, heat transmission is non-uniform resulting in a sudden blast of the crystal."
+    }
+   ],
+   "note": "Forma II: da slurry in metanolo, forma termodinamicamente piu' stabile secondo gli autori. Due molecole indipendenti (Z' = 2: «Z0 = 1 in Form I and 2 in Form II»). Gruppo spaziale ricostruito P-1 come per la forma I (stesso testo: «Form I and II ... triclinic space group P\u00021»; due molecole indipendenti; densita' 1.553 con V = 1322.2 corrisponde a 4 molecole per cella da 309, conto di controllo mio). Cella da Tabella 4 a 25 °C; gli angoli non sono dati."
+  },
+  {
+   "id": "F3",
+   "etichetta": "Form III",
+   "tipo": "anidro",
+   "citazione": "Form III and IV also crystallized in the space group P\u00021 and with two molecules in the asymmetric unit.",
+   "composto": "C1",
+   "tipo_presunto": true,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P\u00021",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "a": 7.27,
+    "b": 13.27,
+    "c": 14.54,
+    "V": 1345.3,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "25 °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "same type of amide dimers as in Forms I and II, extended via C—Cl···O",
+     "chi": "amide dimers, C—Cl···O",
+     "citazione": "Forms III and IV (Figs. 5 and 6) have the same type of amide dimers which are described for the above two structures [N1—H1B\u0002 \u0002 \u0002O3: 2.02 (2) A˚ , /170.7 (3)\u0003; N3—H3B\u0002 \u0002 \u0002O1: 2.17 (3) A˚ , /160.9 (1)\u0003] and [N1—H1B\u0002 \u0002 \u0002O3: 2.18 (2) A˚ , /161.2 (2)\u0003; N3—H3A\u0002 \u0002 \u0002O1: 2.04 A˚ , /170.8 (2)\u0003], which extend via C— Cl\u0002 \u0002 \u0002O interactions [3.04 (4), Fig. 5a; and 3.101 (3) A˚ , Fig. 6a]."
+    },
+    {
+     "motivo": "tetrameric ring motif from Type I Cl···Cl interactions connecting the amide dimers",
+     "chi": "C—Cl···Cl—C between amide dimers",
+     "citazione": "In Form III the amide dimers are connected by Cl\u0002 \u0002 \u0002Cl interactions of Type I (Mukherjee et al., 2014; Desiraju & Parthasarathy, 1989) [C—Cl\u0002 \u0002 \u0002Cl–C, 3.466 (2) A˚ , /138.4 (2)\u0003] to form a tetrameric ring motif (Fig. S2)."
+    }
+   ],
+   "note": "Forma III: ottenuta da acetone a 80 °C in tubo sigillato; per raffreddamento da IV ritorna III («the nearest stable phase»). Due molecole indipendenti. Gruppo spaziale ricostruito P-1 come per la forma I (testo: «P\u00021»; due molecole nell'unita' asimmetrica). Cella da Tabella 4 a 25 °C; gli angoli non sono dati."
+  },
+  {
+   "id": "F4",
+   "etichetta": "Form IV",
+   "tipo": "anidro",
+   "citazione": "Form III and IV also crystallized in the space group P\u00021 and with two molecules in the asymmetric unit.",
+   "composto": "C1",
+   "tipo_presunto": true,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P\u00021",
+   "gruppo_spaziale_dedotto": true,
+   "etichette_alternative": [
+    "high-temperature Form IV",
+    "polymorph IV",
+    "transient Form IV"
+   ],
+   "cella": {
+    "a": 7.43,
+    "b": 13.29,
+    "c": 14.69,
+    "V": 1386.5,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "180 °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "same type of amide dimers as in Forms I, II and III, extended via C—Cl···O",
+     "chi": "amide dimers, C—Cl···O",
+     "citazione": "Forms III and IV (Figs. 5 and 6) have the same type of amide dimers which are described for the above two structures [N1—H1B\u0002 \u0002 \u0002O3: 2.02 (2) A˚ , /170.7 (3)\u0003; N3—H3B\u0002 \u0002 \u0002O1: 2.17 (3) A˚ , /160.9 (1)\u0003] and [N1—H1B\u0002 \u0002 \u0002O3: 2.18 (2) A˚ , /161.2 (2)\u0003; N3—H3A\u0002 \u0002 \u0002O1: 2.04 A˚ , /170.8 (2)\u0003], which extend via C— Cl\u0002 \u0002 \u0002O interactions [3.04 (4), Fig. 5a; and 3.101 (3) A˚ , Fig. 6a]."
+    }
+   ],
+   "note": "Polimorfo ad alta temperatura: struttura SCXRD a 180 °C («A fourth high-temperature Form IV was confirmed by variable-temperature single-crystal X-ray diffraction at 180 °C»); il testo la chiama anche «transient Form IV» e dice che e' stabile oltre 180 °C. Due molecole indipendenti. Gruppo spaziale ricostruito P-1 come per le altre forme. Cella da Tabella 4 a 180 °C; gli angoli non sono dati."
+  },
+  {
+   "id": "F5",
+   "etichetta": "compound B",
+   "tipo": "non_specificato",
+   "citazione": "we have so far obtained a single-crystal structure only for the bromo and iodo salicylideneanilines (no polymorphism)",
+   "composto": "C2",
+   "note": "Derivato dibromo (composto B): solo una struttura a cristallo singolo, nessun polimorfismo («no polymorphism»). Dati cristallografici nel supplementare (Tabella S3). Fonde a 274 °C senza trasformazioni di fase."
+  },
+  {
+   "id": "F6",
+   "etichetta": "compound C",
+   "tipo": "non_specificato",
+   "citazione": "we have so far obtained a single-crystal structure only for the bromo and iodo salicylideneanilines (no polymorphism)",
+   "composto": "C3",
+   "note": "Derivato diiodo (composto C): solo una struttura a cristallo singolo, nessun polimorfismo. Dati nel supplementare. Fonde a 254 °C senza trasformazioni di fase. Dati raccolti con Mo Kα (λ = 0.71073 Å) su Bruker D8 Quest."
+  },
+  {
+   "id": "F7",
+   "etichetta": "compound A (as synthesized)",
+   "tipo": "non_specificato",
+   "citazione": "The product was obtained by mechanical grinding of 4-aminobenzamide and 3,5-dichlorosalicylaldehyde in a 1:1 stoichiometric ratio (1 mmol each, 136 mg; 191 mg)",
+   "composto": "C1",
+   "note": "Composto A come sintetizzato (macinazione o reazione a riflusso) e purificato per cristallizzazione da metanolo: il testo non dice quale polimorfo."
+  },
+  {
+   "id": "F8",
+   "etichetta": "Forms I + II + III (competitive slurry)",
+   "tipo": "miscela",
+   "citazione": "We also performed competitive slurry experiments to establish that Form II is more stable (thermodynamically stable state) compared with the remaining two Forms I and III.",
+   "forme_componenti": [
+    "F1",
+    "F2",
+    "F3"
+   ],
+   "note": "Miscela di partenza della sospensione competitiva: il testo dice solo che Form II e' piu' stabile delle «remaining two Forms I and III»; non dice se i tre polimorfi fossero insieme o a coppie, ne' le quantita' o il solvente (probabilmente nel supplementare)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F2",
+   "piu_stabile_fra": [
+    "F1",
+    "F3"
+   ],
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "relazione_scritta": "Form II is more stable (thermodynamically stable state) compared with the remaining two Forms I and III",
+   "condizioni": "sospensioni competitive (solvente e T non detti nel testo) e superficie di Hirshfeld (contatti O···H e Cl···O piu' alti in Form II)",
+   "citazione": "We also performed competitive slurry experiments to establish that Form II is more stable (thermodynamically stable state) compared with the remaining two Forms I and III.",
+   "note": "Relazione di stabilita' dichiarata senza mono/enantiotropia. Form II contro I e contro III in un'unica frase: piu_stabile_fra elenca le due forme meno stabili. Supporto: «Form II has a greater contribution from O···H and Cl···O contacts ... indicating the stability of Form II ... also supported in competitive slurry experiments»."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 170,
+     "max": 180,
+     "circa": true
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "integrita": "salta",
+    "meccanismo": [
+     "termosaliente"
+    ],
+    "cinetica": "brusca: alcuni cristalli saltano dal vetrino a 2–3 cm di altezza"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». L'HSM non identifica il prodotto: `a` = Form IV perche' gli autori collegano le osservazioni al microscopio alla transizione solido-solido I/II/III → IV («To better understand the events visually observed on the thermal microscope, VT-PXRD and DSC ... were performed»; Conclusioni: «due to the sudden phase transition at high temperature»). Solo «a few crystals» saltano. Intervallo «about 170–180 °C».",
+   "citazioni": [
+    "The preliminary observations in this study were done on a hot stage microscope (HSM).",
+    "Upon heating Form I crystals to about 170–180\u0003C, a few crystals were seen to suddenly ﬂy off from the stage (about 2–3 cm height) and they moved outside",
+    "To better understand the events visually observed on the thermal microscope, variable-temperature powder X-ray diffraction (VT-PXRD) and DSC of the three polymorphs were performed."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 180,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "termosaliente"
+    ],
+    "cinetica": "brusca: blasting (mini esplosione)"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». L'HSM non identifica il prodotto: `a` = Form IV perche' gli autori collegano le osservazioni al microscopio alla transizione solido-solido I/II/III → IV («To better understand the events visually observed on the thermal microscope, VT-PXRD and DSC ... were performed»; Conclusioni: «due to the sudden phase transition at high temperature»). Blasting di Form II «at 180 °C»; nei Risultati 6.4 «beyond 180 °C»; l'integrita' finale dei cristalli non e' descritta con una parola dell'enum (nessun `integrita`).",
+   "citazioni": [
+    "The preliminary observations in this study were done on a hot stage microscope (HSM).",
+    "Form II crystals showed sudden blasting (mini explosion, Fig. 2b) at 180\u0003C,",
+    "Heating Form II crystals beyond 180\u0003C caused blasting (see the video in the supporting information).",
+    "To better understand the events visually observed on the thermal microscope, variable-temperature powder X-ray diffraction (VT-PXRD) and DSC of the three polymorphs were performed."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 180,
+     "max": 190
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "integrita": "salta",
+    "meccanismo": [
+     "termosaliente"
+    ],
+    "cinetica": "brusca: i cristalli saltano dal vetrino («flying off suddenly»)"
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». L'HSM non identifica il prodotto: `a` = Form IV perche' gli autori collegano le osservazioni al microscopio alla transizione solido-solido I/II/III → IV («To better understand the events visually observed on the thermal microscope, VT-PXRD and DSC ... were performed»; Conclusioni: «due to the sudden phase transition at high temperature»). ",
+   "citazioni": [
+    "The preliminary observations in this study were done on a hot stage microscope (HSM).",
+    "Form III crystals behaved similar to those of Form I in that they were ﬂying off suddenly from the hot stage at 180–190\u0003C.",
+    "To better understand the events visually observed on the thermal microscope, variable-temperature powder X-ray diffraction (VT-PXRD) and DSC of the three polymorphs were performed."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 200,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "unita": "min",
+     "tipo": "processo",
+     "min": 5,
+     "max": 10
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD",
+     "SCXRD"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide N—H···O dimer synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed.",
+     "forma": "F1"
+    },
+    {
+     "gruppo": "C—Cl···O halogen bonds",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed.",
+     "forma": "F1"
+    },
+    {
+     "gruppo": "molecular conformation (dihedral angle between the two phenyl rings)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "citazione": "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed.",
+     "forma": "F1"
+    }
+   ],
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». Riscaldamento a 200 °C: la VT-PXRD («Heating the sample bench of XRD») dice 200 °C per i tre polimorfi; i cristalli per la SCXRD sono riscaldati 5–10 min (I) o 5 min (II, III) a 200 °C (stessa temperatura: un solo evento per forma con le due tecniche). Il ΔV (20, 64 e 41 Å3 per I, II, III) e le variazioni degli assi di cella sono nell'extra. Tutti i legami H/alogeno sono mantenuti (`gruppi_coinvolti`), lievi variazioni di conformazione e forti variazioni dell'impacchettamento. ",
+   "citazioni": [
+    "Heating the sample bench of XRD showed transformation to a new polymorph IV at 200\u0003C for all the three polymorphs such as I, II and III.",
+    "After heating Form I crystals for 5–10 min at 200\u0003C, it converted to Form IV with a small change in unit-cell volume (\u0003V = 20 A˚ 3), after correcting for Z0 being 1 and 2 in Form I and IV, respectively.",
+    "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 200,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD",
+     "SCXRD"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide N—H···O dimer synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed.",
+     "forma": "F2"
+    },
+    {
+     "gruppo": "C—Cl···O halogen bonds",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed.",
+     "forma": "F2"
+    },
+    {
+     "gruppo": "molecular conformation (dihedral angle between the two phenyl rings)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "citazione": "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed.",
+     "forma": "F2"
+    }
+   ],
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». Riscaldamento a 200 °C: la VT-PXRD («Heating the sample bench of XRD») dice 200 °C per i tre polimorfi; i cristalli per la SCXRD sono riscaldati 5–10 min (I) o 5 min (II, III) a 200 °C (stessa temperatura: un solo evento per forma con le due tecniche). Il ΔV (20, 64 e 41 Å3 per I, II, III) e le variazioni degli assi di cella sono nell'extra. Tutti i legami H/alogeno sono mantenuti (`gruppi_coinvolti`), lievi variazioni di conformazione e forti variazioni dell'impacchettamento. La durata di 5 min e' di «Similarly Forms II and III also converted to Form IV after heating for 5 min»: la temperatura di 200 °C e' richiamata da «Similarly» e dalla frase della VT-PXRD («for all the three polymorphs»).",
+   "citazioni": [
+    "Heating the sample bench of XRD showed transformation to a new polymorph IV at 200\u0003C for all the three polymorphs such as I, II and III.",
+    "Similarly Forms II and III also converted to Form IV after heating for 5 min with a much larger change in volume (\u0003V = 64, 41 A˚ 3).",
+    "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 200,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD",
+     "SCXRD"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide N—H···O dimer synthon",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed.",
+     "forma": "F3"
+    },
+    {
+     "gruppo": "C—Cl···O halogen bonds",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed.",
+     "forma": "F3"
+    },
+    {
+     "gruppo": "molecular conformation (dihedral angle between the two phenyl rings)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "citazione": "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed.",
+     "forma": "F3"
+    }
+   ],
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». Riscaldamento a 200 °C: la VT-PXRD («Heating the sample bench of XRD») dice 200 °C per i tre polimorfi; i cristalli per la SCXRD sono riscaldati 5–10 min (I) o 5 min (II, III) a 200 °C (stessa temperatura: un solo evento per forma con le due tecniche). Il ΔV (20, 64 e 41 Å3 per I, II, III) e le variazioni degli assi di cella sono nell'extra. Tutti i legami H/alogeno sono mantenuti (`gruppi_coinvolti`), lievi variazioni di conformazione e forti variazioni dell'impacchettamento. Come per Form II: 5 min da «Similarly Forms II and III ...».",
+   "citazioni": [
+    "Heating the sample bench of XRD showed transformation to a new polymorph IV at 200\u0003C for all the three polymorphs such as I, II and III.",
+    "Similarly Forms II and III also converted to Form IV after heating for 5 min with a much larger change in volume (\u0003V = 64, 41 A˚ 3).",
+    "During the transition all hydrogen/halogen bonds were retained in the structure with slight changes in the distances along with slight changes in conformation in the molecule, and signiﬁcant changes in packing of molecules were observed."
+   ],
+   "certezza": "media",
+   "inverso_di": "E7",
+   "reversibile": true
+  },
+  {
+   "id": "E7",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "pretrattamento": "Form IV ottenuta riscaldando Form I, II o III a 200 °C",
+   "reversibile": true,
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». «in all cases the product on cooling to room temperature was Form III, which is the nearest stable phase»: valido per la IV ottenuta da I, da II e da III; l'inverso e' quello di III → IV (evento 3). Il testo dice «heat–cool cycle exhibited transformation to polymorph III via a new phase IV».",
+   "citazioni": [
+    "This transient Form IV was characterized by its unique powder XRD lines and in all cases the product on cooling to room temperature was Form III, which is the nearest stable phase (Fig. S9).",
+    "Thus, a heat– cool cycle exhibited transformation to polymorph III via a new phase IV."
+   ],
+   "certezza": "media",
+   "inverso_di": "E6"
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 170,
+     "max": 185
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "unita": "°C",
+       "min": 170,
+       "max": 185
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». Endotermi «saw tooth-like (zigzag profile)» a 170–185 °C dovuti alla conversione I → IV (confermata da VT-PXRD). L'endotermo a 147 °C citato nella stessa frase non e' assegnato dal testo (extra).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "Form I showed an endotherm at 147\u0003C and saw tooth-like endotherms (zigzag proﬁle) at 170–185\u0003C due to Form I ! IV conversion (conﬁrmed by VT-PXRD experiments, Fig. S9)."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "id": "E9",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 183,
+     "max": 185
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 170,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     },
+     {
+      "grandezza": {
+       "unita": "°C",
+       "min": 183,
+       "max": 185
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». Due endotermi: 170 °C e, riscaldando ancora, 183–185 °C «which indicates Form II → IV conversion». Il testo non dice se la conversione e' attribuita solo al secondo endotermo: la temperatura dell'evento e' 183–185 °C, il primo endotermo (170 °C) e' nei picchi senza assegnazione.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "In the case of Form II, an endotherm was observed at 170\u0003C and upon further heating a second endotherm occurred at 183–185\u0003C, which indicates Form II ! IV conversion. Reheating of the same material showed a small endotherm at 150–160\u0003C (Form III ! IV) followed by melting at 249\u0003C (Figs. S13 and S14)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E10",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 181,
+     "max": 190
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "unita": "°C",
+       "min": 181,
+       "max": 190
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». Profilo DSC «sawtooth wave» a 181–190 °C = conversione di III in IV.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "During heating of Form III, a sawtooth wave DSC proﬁle was observed at 181–190\u0003C, indicating the conversion of Form III to IV. Cooling of the same material showed transformation to Form III, and on reheating small endotherms were observed at 150–162\u0003C (Form III ! IV), followed by melting at 251\u0003C (Figs. S15 and S16)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E11",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "da_evento": "E8",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 0,
+     "max": 10
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "reversibile": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». Raffreddamento del materiale dopo I → IV: «Form IV converted to Form III at 0–10 °C» (nel testo letto non ci sono segni meno prima di 0–10). La VT-PXRD dice invece che il prodotto raffreddando a temperatura ambiente e' Form III: i due intervalli non sono conciliati dal testo (0–10 °C e' sotto la temperatura ambiente). Riportato come scritto.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "On cooling the same material, Form IV converted to Form III at 0–10\u0003C and on reheating Form III, a small endotherm at 150–160\u0003C was observed, after which it again converted to high-temperature phase Form IV (Form I ! IV $ III is a solid-to-solid phase transformation); melting occurred at 249\u0003C (Figs. S11 and S12)."
+   ],
+   "certezza": "media",
+   "inverso_di": "E13"
+  },
+  {
+   "id": "E12",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "da_evento": "E10",
+   "condizioni": {
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "reversibile": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "senza_condizioni": false,
+   "note": "DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». Raffreddamento del materiale dopo III → IV: «showed transformation to Form III» senza temperatura.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "Cooling of the same material showed transformation to Form III, and on reheating small endotherms were observed at 150–162\u0003C (Form III ! IV), followed by melting at 251\u0003C (Figs. S15 and S16)."
+   ],
+   "certezza": "media",
+   "inverso_di": "E14"
+  },
+  {
+   "id": "E13",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E11",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 150,
+     "max": 160
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "reversibile": true,
+   "inverso_di": "E11",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "unita": "°C",
+       "min": 150,
+       "max": 160
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». Riscaldamento dopo il raffreddamento: «a small endotherm at 150–160 °C ... again converted to high-temperature phase Form IV»; lo stesso intervallo e' dato per il materiale di partenza II («Reheating of the same material showed a small endotherm at 150–160 °C (Form III → IV)»): un evento per le due corse (stessa temperatura).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "On cooling the same material, Form IV converted to Form III at 0–10\u0003C and on reheating Form III, a small endotherm at 150–160\u0003C was observed, after which it again converted to high-temperature phase Form IV (Form I ! IV $ III is a solid-to-solid phase transformation); melting occurred at 249\u0003C (Figs. S11 and S12).",
+    "Reheating of the same material showed a small endotherm at 150–160\u0003C (Form III ! IV)"
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E14",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E12",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 150,
+     "max": 162
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "reversibile": true,
+   "inverso_di": "E12",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "unita": "°C",
+       "min": 150,
+       "max": 162
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». Corsa partita da Form III: «on reheating small endotherms were observed at 150–162 °C (Form III → IV)».",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "During heating of Form III, a sawtooth wave DSC proﬁle was observed at 181–190\u0003C, indicating the conversion of Form III to IV. Cooling of the same material showed transformation to Form III, and on reheating small endotherms were observed at 150–162\u0003C (Form III ! IV), followed by melting at 251\u0003C (Figs. S15 and S16)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E15",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_dedotto": true,
+   "da_evento": "E13",
+   "condizioni": {
+    "temperatura": {
+     "valore": 249,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 249,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». Fusione a 249 °C dopo il riscaldamento, sia per il materiale partito da Form I sia per quello partito da Form II (stesso valore). `da` = Form IV per deduzione: dopo III → IV a 150–160 °C la fase presente e' IV («stable at high temperature (after 180 °C)»); il testo non dice quale forma fonde.",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "On cooling the same material, Form IV converted to Form III at 0–10\u0003C and on reheating Form III, a small endotherm at 150–160\u0003C was observed, after which it again converted to high-temperature phase Form IV (Form I ! IV $ III is a solid-to-solid phase transformation); melting occurred at 249\u0003C (Figs. S11 and S12).",
+    "In the case of Form II, an endotherm was observed at 170\u0003C and upon further heating a second endotherm occurred at 183–185\u0003C, which indicates Form II ! IV conversion. Reheating of the same material showed a small endotherm at 150–160\u0003C (Form III ! IV) followed by melting at 249\u0003C (Figs. S13 and S14)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E16",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_dedotto": true,
+   "da_evento": "E14",
+   "condizioni": {
+    "temperatura": {
+     "valore": 251,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 251,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». Fusione a 251 °C nella corsa partita da Form III. `da` = Form IV per deduzione (come per il valore 249 °C).",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "During heating of Form III, a sawtooth wave DSC proﬁle was observed at 181–190\u0003C, indicating the conversion of Form III to IV. Cooling of the same material showed transformation to Form III, and on reheating small endotherms were observed at 150–162\u0003C (Form III ! IV), followed by melting at 251\u0003C (Figs. S15 and S16)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E17",
+   "da": "F8",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione_competitiva",
+   "condizioni": {
+    "composizione_iniziale": [
+     {
+      "forma": "F1"
+     },
+     {
+      "forma": "F2"
+     },
+     {
+      "forma": "F3"
+     }
+    ],
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Sospensione competitiva: Form II resta, dichiarata la piu' stabile («thermodynamically stable state») rispetto a I e III. Il testo non da' solvente, durata, temperatura, tecnica di verifica ne' le frazioni: condizioni nulle; i dettagli sono probabilmente nel supplementare. Il metanolo e' il solvente di Form II da sospensione (preparazione) ma non e' detto per questa prova.",
+   "citazioni": [
+    "We also performed competitive slurry experiments to establish that Form II is more stable (thermodynamically stable state) compared with the remaining two Forms I and III.",
+    "Hirshfeld surface (Poulsen et al., 2009) analysis of polymorphs of compound A (Fig. 7) showed that Form II has a greater contribution from O\u0002 \u0002 \u0002H and Cl\u0002 \u0002 \u0002O contacts (14.8 and 2.6%) compared with Form I (12.9 and 2.1%), Form III (11.8 and 1.5%) and Form IV (12.1 and 1.8%, Fig. S22) indicating the stability of Form II compared with the other two forms, which was also supported in competitive slurry experiments."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E18",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 274,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». «Compounds B and C melt at 274 °C and 254 °C, respectively»: B = 274 °C (frase spezzata da due tabelle; citata in due pezzi). Condizioni DSC dai Metodi (non e' detto che valgano per B e C). DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». ",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "Compounds B and C melt at 274\u0003C and",
+    "254 \u0003C, respectively, without any phase transformation (Fig. S17)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E19",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 254,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». C = 254 °C («respectively»). Condizioni DSC dai Metodi. DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». ",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "Compounds B and C melt at 274\u0003C and",
+    "254 \u0003C, respectively, without any phase transformation (Fig. S17)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E20",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "max": 274,
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». «without any phase transformation» prima della fusione a 274 °C. DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». ",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "Compounds B and C melt at 274\u0003C and",
+    "254 \u0003C, respectively, without any phase transformation (Fig. S17)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E21",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "max": 254,
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "crogiolo": "forato",
+    "massa": "3–5 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». «without any phase transformation» prima della fusione a 254 °C. DSC: pentole di alluminio «crimped but vented» (crogiolo forato), campioni di 3–5 mg, azoto a 60 ml/min, 20 °C/min (Metodi; il testo dice «the temperature range was 30–300 °C» ma i Risultati parlano di un intervallo da −150 a 200 °C: incoerenza dell'articolo). I numeri di velocita' sono dopo l'intestazione di pagina nel testo: la citazione e' la riga «20 °C min−1. Samples were purged...». ",
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) was performed on a Mettler Toledo DSC 822e module. Samples were placed in crimped but vented aluminium sample pans.",
+    "The typical sample size is 3–5 mg; the temperature range was 30–300\u0003C at",
+    "20\u0003C min\u00041. Samples were purged by a stream of nitrogen ﬂowing at 60 ml min\u00041.",
+    "Compounds B and C melt at 274\u0003C and",
+    "254 \u0003C, respectively, without any phase transformation (Fig. S17)."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E22",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "senza_condizioni": true,
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessuna risposta meccanica al riscaldamento (niente salti ne' blasting) per i derivati bromo e iodo, a differenza di A. Il testo non dice le condizioni (T, tecnica): «senza_condizioni»; tecnica non detta.",
+   "citazioni": [
+    "Compound A showed a mechanical response towards heating but not the Br and I derivatives",
+    "The bromo and iodo halogen derivatives did not exhibit any thermal responses."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E23",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "senza_condizioni": true,
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Come per il composto B (derivato iodo).",
+   "citazioni": [
+    "Compound A showed a mechanical response towards heating but not the Br and I derivatives",
+    "The bromo and iodo halogen derivatives did not exhibit any thermal responses."
+   ],
+   "certezza": "media"
+  },
+  {
+   "id": "E24",
+   "da": "F7",
+   "a": "decomposizione",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "condizioni": {
+    "temperatura": {
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 30,
+     "max": 300
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C/min"
+    },
+    "atmosfera": "nitrogen purge (60 ml min-1)",
+    "solventi": []
+   },
+   "campione": {
+    "massa": "5–15 mg"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». «no weight loss or decomposition on heating of the material»: negativo su composto A (il polimorfo non e' detto: forma «as synthesized»). Intervallo 30–300 °C, 20 °C/min, crogioli di allumina, azoto 60 ml/min (Metodi della TGA). La fusione osservata in DSC (249 °C) e' dentro l'intervallo; il testo non dice altro.",
+   "citazioni": [
+    "Thermogravimetric analysis (TGA) showed no weight loss or decomposition on heating of the material (Fig. S27).",
+    "TGA was carried out using Mettler Toledo TGASDTA851e operating with STARe software to detect solvates and thermal degradation. Accurately weighed (5–15 mg) samples were loaded in alumina crucibles and heated at a rate of 20\u0003C min\u00041\nover a temperature range of 30 to 300\u0003C under a nitrogen purge of 60 ml min\u00041."
+   ],
+   "certezza": "media"
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "macinazione",
+   "solventi": [
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "tempo": {
+    "valore": 30,
+    "unita": "min",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "4-aminobenzamide:3,5-dichlorosalicylaldehyde 1:1 (1 mmol each)",
+   "rapporto_solido_solvente": "136 mg + 191 mg con 2–3 ml di methanol (a gocce)",
+   "citazioni": [
+    "The product was obtained by mechanical grinding of 4-aminobenzamide and 3,5-dichlorosalicylaldehyde in a 1:1 stoichiometric ratio (1 mmol each, 136 mg; 191 mg) by adding 2–3 ml of methanol (drop by drop addition) solvent for 30 min and the resulting product was washed with hexane 3–4 times to remove unwanted",
+    "The product salicylideneaniline was ﬁnally puriﬁed by crystallization from methanol and characterized by 1HNMR and 13C-NMR, FT–IR (Figs. S24–26) and ﬁnally conﬁrmed by single-crystal X-ray diffraction."
+   ],
+   "note": "Sintesi meccanochimica (macinazione con metanolo a gocce, 30 min), lavaggio con esano, purificazione per cristallizzazione da metanolo; il polimorfo ottenuto non e' detto. Quantita' di reagenti nell'extra. Lo stesso procedimento per B e C (preparazione separata)."
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "anisole"
+   ],
+   "solventi_alternativi": false,
+   "tempo": {
+    "valore": 4,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "rapporto_soluzione": "4-aminobenzamide:3,5-dichlorosalicylaldehyde 1:1 (1 mmol each)",
+   "citazioni": [
+    "Method 2: 4-Aminobenzamide 1 mmol (136.15 mg) was dissolved in anisole (10 ml) in a 100 ml round-bottom ﬂask ﬁtted with a Dean-Stark setup.",
+    "1 mmol of 3,5-dichlorosalicylaldehyde (191.01 mg) was added to the solution. The reaction mixture turns to a light yellow color (after 10 min) and it was reﬂuxed for 4 h.",
+    "Red color crystals were obtained in 80% yield."
+   ],
+   "note": "Sintesi convenzionale a riflusso in anisolo con Dean-Stark (rimozione azeotropica dell'acqua), 4 h; cristalli rossi con resa 80% (extra)."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2",
+    "F3"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Compound Awas puriﬁed by crystallization from methanol, and after multiple recrystallizations diffraction quality red color crystals were harvested from the same solvent. Further screening in different solvents afforded three polymorphs concomitantly from methanol solvent as well as a fourth hightemperature polymorph."
+   ],
+   "note": "Tre polimorfi concomitanti da metanolo (screening di solventi) piu' un quarto polimorfo ad alta temperatura (F4, per riscaldamento). Il metodo di cristallizzazione non e' detto."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Polymorphs of A in bulk quantity (several mg up to g) were obtained by different techniques, such as Form I by rotary evaporation"
+   ],
+   "note": "Form I per evaporazione rotativa (solvente non detto), in quantita' da mg a g."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "sospensione",
+   "solventi": [
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Form II from slurry in methanol"
+   ],
+   "note": "Il solido di partenza della sospensione non e' detto (metodo `sospensione`)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "acetone"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 80,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "atmosfera": "sealed tube",
+   "citazioni": [
+    "Form III from acetone at 80\u0003C in a sealed tube (Fig. 1)."
+   ],
+   "note": "Il PDF ha sostituito il simbolo ° con un carattere di controllo (U+0003): l'unita' non e' accanto al numero per il verificatore, quindi l'evento puo' risultare «quasi». Form III da acetone a 80 °C in tubo sigillato (cristallizzazione in condizioni solvotermiche; altro metodo non detto)."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E4",
+    "E5",
+    "E6",
+    "E8",
+    "E9",
+    "E10"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Heating the sample bench of XRD showed transformation to a new polymorph IV at 200\u0003C for all the three polymorphs such as I, II and III.",
+    "A fourth high-temperature Form IV was confirmed by variable-temperature single-crystal X-ray diffraction at 180"
+   ],
+   "note": "Form IV si ottiene solo per riscaldamento di I, II o III; struttura SCXRD a 180 °C."
+  },
+  {
+   "forme": [
+    "F5",
+    "F6"
+   ],
+   "metodo": "macinazione",
+   "solventi": [
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "We followed the same procedure for the synthesis of compound B and compound C and conﬁrmed their structures by 1H-NMR and single-crystal XRD."
+   ],
+   "note": "Stesso procedimento della macinazione del metodo 1 per B (dibromo) e C (diiodo); i reagenti non sono nominati (derivati alogenati della salicilaldeide)."
+  },
+  {
+   "forme": [
+    "F5",
+    "F6"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "anisole"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "We followed the same procedure for the synthesis of compound B and compound C and conﬁrmed their structures by 1H-NMR and single-crystal Xray diffraction."
+   ],
+   "note": "Stesso procedimento del riflusso del metodo 2 per B e C."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "legame_h_intramolecolare",
+     "forma": "F1",
+     "testo": "O2—H2A···N2 between the hydroxyl donor and the imine nitrogen, S(6) ring",
+     "citazione": "An intramolecular hydrogen bond between the hydroxyl donor and imine nitrogen through the O2—H2A\u0002 \u0002 \u0002N2 [1.66 (4) A˚ , /149 (4)\u0003] ring makes an Sð6Þ motif."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "angolo diedro fra i due anelli fenilici: 20.07° (I), 11.99° e 26.52° (II), 13.87° e 23.91° (III), 12.72° e 23.49° (IV) (Tabella 1)",
+     "citazione": "Compound Dihedral angle (in \u0003)\nCompound A Form I 20.07 Compound A Form II 11.99, 26.52 Compound A Form III 13.87, 23.91 Compound A Form IV 12.72, 23.49 Compound B 18.08 Compound C 13.48"
+    }
+   ]
+  }
+ ]
+}
