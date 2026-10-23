@@ -1,0 +1,2160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Estrazione di un articolo — Transform_Prior v1.4",
+  "description": "v1 (2026-10-07): nata dalle segnalazioni dei quattro estrattori del lotto estrazione1. Superinsieme della v0: un file v0 resta valido; i campi marcati 'v0' non si usano piu' nelle estrazioni nuove. v1.1: campione, pretrattamento, picchi multipli, natura fisica/chimica, analoghi, luce. v1.2 (2026-10-14): i casi dei nove estrattori di pilota1 (verso ignoto, osservato, negativi senza condizioni, umidita' ignota, macinazione ed estrusione, perdita di massa, ospiti multipli, preparazioni con esito, CCDC e gruppo dedotti, gerarchia delle fonti). v1.3 (2026-10-15): i casi degli estrattori di desolvati1 (ospite per unita' formula, idrati non stechiometrici, attivita' dell'acqua e pH, fori del crogiolo, attivita' critica, entalpie multiple, cinetica, prodotti secondari, generalizzazioni, microonde). v1.4 (2026-10-23): la molecola (proprieta' dal testo, gruppi coinvolti nella trasformazione, motivi di legame H), sospensioni competitive, partenze e prodotti incerti, piu' strutture per forma, quanto e quanto spesso; vocabolari allargati (proposte 1-97).",
+  "type": "object",
+  "required": [
+    "doi",
+    "pertinente",
+    "forme",
+    "eventi",
+    "preparazioni"
+  ],
+  "properties": {
+    "versione_schema": {
+      "type": "string",
+      "description": "'v1.4' per le estrazioni nuove (v1.3, v1.2, v1.1, v1 e v0 restano valide)"
+    },
+    "doi": {
+      "type": "string"
+    },
+    "pertinente": {
+      "type": "boolean",
+      "description": "L'articolo riporta almeno un evento sperimentale (anche negativo) fra forme solide"
+    },
+    "motivo_non_pertinente": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "ccdc": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "string"
+      },
+      "description": "Tutti i numeri CCDC dell'articolo, quando non si possono attribuire alle singole forme"
+    },
+    "note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Osservazioni che non sono eventi (transizione vetrosa, ordinamento dell'ospite senza cambio di forma, ...)"
+    },
+    "composti": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "nome"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "nome": {
+            "type": "string"
+          },
+          "smiles": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Solo se l'articolo lo scrive"
+          },
+          "analogo_di": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "id del composto di cui e' isotopologo, enantiomero o analogo"
+          },
+          "nome_scritto": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Il nome come lo restituisce il testo letto, se il PDF lo ha spezzato ('1,2benzothiazine'): 'nome' e' quello ricomposto"
+          },
+          "sigla_non_sciolta": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "La sigla non e' mai sciolta nel testo (solo in una figura o nel supplementare): senza nome chimico il collegamento al CSD non si fa"
+          }
+        }
+      }
+    },
+    "forme": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "etichetta",
+          "tipo"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "composto": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Il composto di una forma a un solo componente (anche idrati e solvati: l'acqua o il solvente vanno in 'ospite'); per sali e cocristalli usare 'componenti'"
+          },
+          "componenti": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "object",
+              "properties": {
+                "composto": {
+                  "type": "string"
+                },
+                "stechiometria": {
+                  "type": [
+                    "number",
+                    "string",
+                    "null"
+                  ],
+                  "description": "Proporzione del componente; frazioni come scritte ('1/3') (27)"
+                }
+              }
+            }
+          },
+          "etichetta": {
+            "type": "string",
+            "description": "Dall'occorrenza piu' pulita nel testo"
+          },
+          "etichette_alternative": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "tipo": {
+            "description": "Una o piu' etichette: un sale idrato e' ['sale', 'idrato']",
+            "oneOf": [
+              {
+                "$ref": "#/$defs/tipo_forma"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/tipo_forma"
+                },
+                "minItems": 1
+              }
+            ]
+          },
+          "forme_componenti": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "description": "Per tipo 'miscela': gli id delle forme mescolate"
+          },
+          "proporzioni": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Per tipo 'miscela', come scritte (es. '1:1')"
+          },
+          "ospite": {
+            "description": "Acqua o solvente di un idrato/solvato: un oggetto, o una lista se gli ospiti sono piu' d'uno ('1·2DMAc·4THF'). MAI in 'componenti'",
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "specie": {
+                    "type": "string"
+                  },
+                  "stechiometria": {
+                    "type": [
+                      "number",
+                      "string",
+                      "null"
+                    ],
+                    "description": "Molecole di ospite per UNA molecola del composto principale (emietanolato: 0.5; 'API:guest 2:1' -> 0.5); frazioni scritte come nell'articolo ('1/3') (27)"
+                  },
+                  "riferito_a": {
+                    "enum": [
+                      "molecola",
+                      "unita_formula",
+                      null
+                    ],
+                    "description": "unita_formula: la stechiometria e' per l'unita' formula del sale come scritta ('2(C21H23N2O2)+·SO42-·5.29(H2O)' -> 5.29), non per molecola (1)"
+                  },
+                  "stechiometria_min": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Idrato non stechiometrico: il minimo dichiarato (2)"
+                  },
+                  "stechiometria_max": {
+                    "type": [
+                      "number",
+                      "null"
+                    ],
+                    "description": "Idrato non stechiometrico: il massimo dichiarato (2)"
+                  },
+                  "fonte_stechiometria": {
+                    "enum": [
+                      "cristallografica",
+                      "gravimetrica",
+                      "spettroscopica",
+                      "altro",
+                      null
+                    ],
+                    "description": "Da dove viene la stechiometria, se gli autori ne danno piu' d'una (occupanze contro TGA) (29)"
+                  },
+                  "circa": {
+                    "type": [
+                      "boolean",
+                      "null"
+                    ],
+                    "description": "'approximately sixteen water' (31)"
+                  }
+                }
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "specie": {
+                      "type": "string"
+                    },
+                    "stechiometria": {
+                      "type": [
+                        "number",
+                        "string",
+                        "null"
+                      ],
+                      "description": "Molecole di ospite per UNA molecola del composto principale (emietanolato: 0.5; 'API:guest 2:1' -> 0.5); frazioni scritte come nell'articolo ('1/3') (27)"
+                    },
+                    "riferito_a": {
+                      "enum": [
+                        "molecola",
+                        "unita_formula",
+                        null
+                      ],
+                      "description": "unita_formula: la stechiometria e' per l'unita' formula del sale come scritta ('2(C21H23N2O2)+·SO42-·5.29(H2O)' -> 5.29), non per molecola (1)"
+                    },
+                    "stechiometria_min": {
+                      "type": [
+                        "number",
+                        "null"
+                      ],
+                      "description": "Idrato non stechiometrico: il minimo dichiarato (2)"
+                    },
+                    "stechiometria_max": {
+                      "type": [
+                        "number",
+                        "null"
+                      ],
+                      "description": "Idrato non stechiometrico: il massimo dichiarato (2)"
+                    },
+                    "fonte_stechiometria": {
+                      "enum": [
+                        "cristallografica",
+                        "gravimetrica",
+                        "spettroscopica",
+                        "altro",
+                        null
+                      ],
+                      "description": "Da dove viene la stechiometria, se gli autori ne danno piu' d'una (occupanze contro TGA) (29)"
+                    },
+                    "circa": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ],
+                      "description": "'approximately sixteen water' (31)"
+                    }
+                  }
+                },
+                "minItems": 1
+              }
+            ]
+          },
+          "gruppo_spaziale": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Normalizzato (P-1, P21/c)"
+          },
+          "gruppo_spaziale_scritto": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Come appare nel testo letto, se diverso"
+          },
+          "cella": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "description": "Parametri di cella come scritti (a, b, c, alpha, beta, gamma, V, Z); v1.4 anche: Z_primo (24), fonte ('SCXRD', 'PXRD': le celle da indicizzazione non hanno T) (24), T_scritta (la temperatura come letta, anche rovinata: '250 °C', '2105') e T_probabile (la lettura probabile) (72)"
+          },
+          "cella_dedotta": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Attribuzione verificata aritmeticamente ma non scritta (es. colonne di tabella rimescolate dal PDF)"
+          },
+          "ccdc": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "refcode": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "citazione": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "conflitto": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "sistema_cristallino": {
+            "enum": [
+              "triclino",
+              "monoclino",
+              "ortorombico",
+              "tetragonale",
+              "trigonale",
+              "esagonale",
+              "cubico",
+              null
+            ]
+          },
+          "gruppo_spaziale_dedotto": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Gruppo ricostruito da un simbolo rovinato con un appoggio nel testo (numero del gruppo, sistema + 'centrosymmetric'): spiegare in note"
+          },
+          "ccdc_dedotto": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "CCDC attribuito per ordine da un intervallo o elenco nello stesso ordine delle forme"
+          },
+          "refcode_dedotto": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "protonazione": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Stato di protonazione, se distingue la forma"
+          },
+          "forme_possibili": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "description": "Etichetta collettiva ('·xH2O, x = 0.25, 3'): la forma e' UNA di queste, l'articolo non dice quale"
+          },
+          "stato_di": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "id della forma di cui questa e' uno stato di idratazione (stessa fase, contenuto d'acqua diverso, magari CCDC diversi: HyA1.95 e HyA1.73) (2)"
+          },
+          "tipo_presunto": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Il tipo non e' mai scritto ma lo dice il resto (una 'crystal form A' senza solvente in formula ne' perdita in TGA: 'anidro' con tipo_presunto) (26)"
+          },
+          "gruppo_spaziale_sospetto": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Gruppo scritto ma incoerente con Z o con il resto ('P1' con Z = 2), senza appigli per correggerlo (28)"
+          },
+          "motivi_hb": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "object",
+              "required": [
+                "motivo",
+                "citazione"
+              ],
+              "properties": {
+                "motivo": {
+                  "type": "string",
+                  "description": "come scritto: 'R2^2(8)', 'C(4) chain', 'carboxylic acid dimer'"
+                },
+                "chi": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "fra quali gruppi o molecole ('acid-pyridine', 'water-amide')"
+                },
+                "citazione": {
+                  "type": "string",
+                  "description": "frase LETTERALE dell'articolo che lo dice"
+                }
+              }
+            },
+            "description": "Motivi di legame H (sintoni, grafi) della forma dichiarati nel testo (65)"
+          },
+          "strutture": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "object",
+              "properties": {
+                "refcode": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "ccdc": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "temperatura": {
+                  "$ref": "#/$defs/grandezza",
+                  "description": "Temperatura della misura"
+                },
+                "fonte": {
+                  "enum": [
+                    "SCXRD",
+                    "PXRD",
+                    "neutroni",
+                    "elettroni",
+                    "calcolata",
+                    "non_detta",
+                    null
+                  ]
+                },
+                "citazione": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            },
+            "description": "Piu' strutture per la stessa forma (piu' T, piu' tecniche): una per voce (24, 28, 79). Se c'e' una sola struttura bastano refcode e ccdc della forma"
+          },
+          "refcode_ricostruito": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Il refcode e' scritto attaccato al numero di un rimando bibliografico ('SOGUAN0158' = SOGUAN01 + rif. 58; 'KONTIQ0310/0511') e chi estrae lo ha staccato: il testo letto e' in 'note'. Diverso da refcode_dedotto, che vuol dire 'attribuito per ordine' (15, 79)"
+          },
+          "refcode_famiglia": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Il testo da' la famiglia di refcode ('refcode families: QQQBKD and PYRGAL'), non la voce (14)"
+          },
+          "voce_contestata": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Gli autori dicono che la voce del CSD e' sbagliata o superata ('the volume of ZZZEEU corresponds to a monohydrate'): perche', in breve (14, 97)"
+          },
+          "gruppo_spaziale_numero": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "description": "Numero del gruppo spaziale (1-230), se il simbolo e' in un'impostazione non standard o diverso fra testo e tabella (74)"
+          }
+        }
+      }
+    },
+    "relazioni": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "Relazione termodinamica fra una COPPIA di forme, come la dichiara l'articolo",
+      "items": {
+        "type": "object",
+        "required": [
+          "forme",
+          "relazione",
+          "citazione"
+        ],
+        "properties": {
+          "forme": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "relazione": {
+            "enum": [
+              "enantiotropa",
+              "monotropa",
+              "non_dichiarata"
+            ]
+          },
+          "temperatura_transizione": {
+            "oneOf": [
+              {
+                "$ref": "#/$defs/grandezza"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "grandezza": {
+                      "$ref": "#/$defs/grandezza"
+                    },
+                    "metodo": {
+                      "type": [
+                        "string",
+                        "null"
+                      ],
+                      "description": "sospensione, solubilita', equazione di Yu, DSC, calcolo..."
+                    },
+                    "natura": {
+                      "enum": [
+                        "sperimentale",
+                        "termodinamica",
+                        "derivata",
+                        "stimata",
+                        null
+                      ]
+                    },
+                    "citazione": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              }
+            ],
+            "description": "Una grandezza, o piu' stime ciascuna col suo metodo e la sua natura (56, 87)"
+          },
+          "stabile_a_temperatura_ambiente": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "id della forma stabile a T ambiente, se detto"
+          },
+          "citazione": {
+            "type": "string"
+          },
+          "conflitto": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "piu_stabile": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "id della forma dichiarata piu' stabile"
+          },
+          "condizioni": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Dove vale la stabilita' dichiarata (T, RH, attivita' del solvente): serve fra un solvato e il suo non solvato, che non sono mono/enantiotropi"
+          },
+          "fonte_dati": {
+            "enum": [
+              "propria",
+              "citata",
+              "riprodotta",
+              "incerta",
+              null
+            ],
+            "description": "propria = misurata qui; citata = riportata da un altro lavoro; riprodotta = rimisurata qui un risultato noto"
+          },
+          "riferimento": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "relazione_scritta": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "La relazione come la dichiarano gli autori, anche fra idrato e anidro ('monotropically more stable'): vale piu' della regola non_dichiarata (7)"
+          },
+          "attivita_critica": {
+            "$ref": "#/$defs/grandezza",
+            "description": "Attivita' dell'acqua (o RH/100) critica fra due idrati o fra idrato e anidro, come temperatura_transizione (8)"
+          },
+          "piu_stabile_fra": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "description": "La forma 'piu_stabile' lo e' rispetto a TUTTE queste ('the most stable phases at room temperature'): invece di n relazioni a coppie identiche (88)"
+          },
+          "certezza": {
+            "enum": [
+              "alta",
+              "media",
+              "bassa",
+              null
+            ],
+            "description": "Come negli eventi (71)"
+          },
+          "attribuzione_dedotta": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Le forme della relazione sono attribuite per complemento ('the solvates of the larger monoalcohols') (71)"
+          },
+          "pH_max": {
+            "$ref": "#/$defs/grandezza",
+            "description": "pH di massima solubilita' fra un sale e la sua base libera (disproporzionamento) (69)"
+          }
+        }
+      }
+    },
+    "eventi": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "da",
+          "a",
+          "esito",
+          "via",
+          "citazioni",
+          "certezza"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "da": {
+            "type": "string",
+            "description": "id di una forma (anche di tipo 'miscela')"
+          },
+          "a": {
+            "type": "string",
+            "description": "id di una forma, oppure 'fuso', 'amorfo', 'decomposizione', 'reazione', 'ignota'"
+          },
+          "esito": {
+            "enum": [
+              "avvenuta",
+              "parziale",
+              "non_avvenuta",
+              "reversibile"
+            ],
+            "description": "'reversibile' e' v0: in v1 l'esito dice che cosa e' successo in QUESTO verso, e la reversibilita' va nei campi sotto"
+          },
+          "esito_dettaglio": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Per i negativi: la portata ('nessuna_trasformazione', 'nessuna_irreversibile', 'nessuna_altra_transizione', ...) Valori fissi quando si applicano: peritettica (fusione incongruente di un idrato), congruente (10, 23) v1.4: dissociazione (23), disproporzionamento (sale -> base o acido liberi) (69), incongruente (un cocristallo perde un componente) (53), senza_intermedio (passa direttamente, senza l'intermedio atteso) (4), solo_contenuto_ospite (stessa fase, cambia solo l'acqua) (3), nessun_cocristallo (47)"
+          },
+          "reversibile": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "inverso_di": {
+            "description": "id (o lista di id) degli eventi nel verso opposto; vale anche per un 'non_avvenuta'",
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ]
+          },
+          "via": {
+            "enum": [
+              "termica",
+              "solvente",
+              "umidita",
+              "desolvatazione",
+              "meccanica",
+              "pressione",
+              "luce",
+              "altro",
+              null
+            ],
+            "description": "null SOLO per un evento citato senza condizioni (fonte_dati: citata)"
+          },
+          "sottovia": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "v1.4, valori nuovi: sospensione_competitiva (tutte le forme in eccesso nello stesso solvente: si guarda chi resta; le forme di partenza in condizioni.composizione_iniziale) (2, 20, 45, 83); atmosfera_secca_controllata (16); secco_senza_mezzo (0 % RH con mezzo non detto) (17); gas (H2, N2, CO2 provati) (33); durante_misura (la forma cambia mentre la si misura: rotore ssNMR, capillare) (76); macinazione (generica, a secco o con liquido non detto) (90)"
+          },
+          "condizioni": {
+            "type": "object",
+            "properties": {
+              "temperatura": {
+                "$ref": "#/$defs/grandezza"
+              },
+              "velocita": {
+                "$ref": "#/$defs/grandezza"
+              },
+              "umidita": {
+                "$ref": "#/$defs/grandezza"
+              },
+              "pressione": {
+                "$ref": "#/$defs/grandezza"
+              },
+              "mezzo_pressione": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "idrostatica": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "tempo": {
+                "$ref": "#/$defs/grandezza"
+              },
+              "solventi": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "nome": {
+                      "type": "string"
+                    },
+                    "proporzione": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              },
+              "additivi": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": "string"
+                }
+              },
+              "atmosfera": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "macinazione": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "mulino": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "frequenza_Hz": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "durata": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/$defs/grandezza"
+                      },
+                      {
+                        "type": "string"
+                      }
+                    ],
+                    "description": "Grandezza (v1.2); le estrazioni v1.1 la scrivono come stringa ('30 min')"
+                  },
+                  "sfere": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "liquido": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "eta_uL_mg": {
+                    "type": [
+                      "number",
+                      "null"
+                    ]
+                  },
+                  "testo": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "semina": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "altro": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "luce": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "properties": {
+                  "lunghezza_onda": {
+                    "$ref": "#/$defs/grandezza"
+                  },
+                  "dose": {
+                    "$ref": "#/$defs/grandezza"
+                  },
+                  "sorgente": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "umidita_ignota": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "Prova d'umidita' senza la RH di quella frase"
+              },
+              "acqua_incontrollata": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "Acqua non voluta (macinazione 'a secco', aria)"
+              },
+              "estrusione": {
+                "type": [
+                  "object",
+                  "null"
+                ],
+                "description": "Estrusione a caldo (HME)",
+                "properties": {
+                  "temperatura": {
+                    "$ref": "#/$defs/grandezza"
+                  },
+                  "velocita_vite": {
+                    "$ref": "#/$defs/grandezza"
+                  },
+                  "carico": {
+                    "$ref": "#/$defs/grandezza"
+                  },
+                  "testo": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "attivita_acqua": {
+                "$ref": "#/$defs/grandezza",
+                "description": "Attivita' dell'acqua di una sospensione o di un'atmosfera (aw, senza unita') (4)"
+              },
+              "pH": {
+                "$ref": "#/$defs/grandezza",
+                "description": "pH della sospensione o della soluzione (senza unita') (4)"
+              },
+              "potenza": {
+                "$ref": "#/$defs/grandezza",
+                "description": "Potenza di un trattamento (microonde: '700 W') (19)"
+              },
+              "composizione_iniziale": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "forma": {
+                      "type": "string"
+                    },
+                    "frazione": {
+                      "$ref": "#/$defs/grandezza",
+                      "description": "% o rapporto della forma nella miscela di partenza"
+                    },
+                    "tipo": {
+                      "enum": [
+                        "nominale",
+                        "misurata",
+                        null
+                      ]
+                    }
+                  }
+                },
+                "description": "Sospensione competitiva o miscela di partenza: le forme e, se dette, le frazioni nominali (1:1) e misurate (51.2 / 48.8 %) (83)"
+              },
+              "contenuto_acqua": {
+                "$ref": "#/$defs/grandezza",
+                "description": "Contenuto d'acqua di un solvente misto (%v/v, %w/w); l'aw, se detta, in attivita_acqua (1)"
+              },
+              "agitazione": {
+                "$ref": "#/$defs/grandezza",
+                "description": "Agitazione (rpm) (48)"
+              },
+              "rapporto_solido_solvente": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Quantita' di solido e di solvente come scritte ('150.5 mg in 200 μL') (48)"
+              },
+              "punto_rugiada": {
+                "$ref": "#/$defs/grandezza",
+                "description": "RH data come punto di rugiada: la RH vale alla T di riferimento, non al campione caldo (9)"
+              },
+              "condizioni_non_raggiunte": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "La condizione voluta non e' stata raggiunta ('aw < 0.15 could not be produced'): che cosa, in breve (22)"
+              }
+            }
+          },
+          "osservazioni": {
+            "type": "object",
+            "properties": {
+              "tecniche": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "entalpia": {
+                "$ref": "#/$defs/grandezza"
+              },
+              "energia_attivazione": {
+                "$ref": "#/$defs/grandezza"
+              },
+              "relazione": {
+                "enum": [
+                  "enantiotropa",
+                  "monotropa",
+                  null
+                ],
+                "description": "v0: in v1 va in 'relazioni' a livello di articolo"
+              },
+              "meccanismo": {
+                "description": "Uno o piu' valori, solo se l'articolo lo afferma o lo mostra",
+                "oneOf": [
+                  {
+                    "type": "null"
+                  },
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "array",
+                    "items": {
+                      "$ref": "#/$defs/meccanismo"
+                    }
+                  }
+                ]
+              },
+              "ordine_transizione": {
+                "enum": [
+                  "primo",
+                  "secondo",
+                  null
+                ]
+              },
+              "geminazione": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "integrita": {
+                "enum": [
+                  "intatto",
+                  "degradato",
+                  "opaco",
+                  "fratturato",
+                  "polverizzato",
+                  "salta",
+                  "deformato",
+                  null
+                ]
+              },
+              "direzione_fronte": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Direzione cristallografica o faccia da cui avanza la trasformazione"
+              },
+              "rompe": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "v0: in v1 usare 'integrita'"
+              },
+              "cinetica": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "perdita_massa": {
+                "$ref": "#/$defs/grandezza",
+                "description": "Perdita di massa in TGA (unita' '%'), o in moli di ospite per mole ('loss of approximately 3 mol of water per mole': unita' 'mol/mol') (3)"
+              },
+              "desolvatazione_possibile": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "L'articolo chiama 'fusione' l'evento di un solvato/idrato senza dire se prima perde l'ospite"
+              },
+              "entalpie": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "description": "Piu' entalpie per lo stesso passaggio (disidratazione misurata, transizione derivata, idratazione): una per voce, con la nota di tabella che dice da dove viene (21)",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "tipo": {
+                      "type": "string"
+                    },
+                    "grandezza": {
+                      "$ref": "#/$defs/grandezza"
+                    },
+                    "derivata": {
+                      "type": [
+                        "boolean",
+                        "null"
+                      ]
+                    },
+                    "nota": {
+                      "type": [
+                        "string",
+                        "null"
+                      ]
+                    },
+                    "temperatura_riferimento": {
+                      "$ref": "#/$defs/grandezza",
+                      "description": "La temperatura a cui l'entalpia e' riportata (3.15 kJ/mol a 150 °C, 4.02 a 25 °C) (55)"
+                    }
+                  }
+                }
+              },
+              "modello_cinetico": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Modello di stato solido come scritto (A2, A3, R2, R3, D3, F1...) (22)"
+              },
+              "fattore_frequenza": {
+                "$ref": "#/$defs/grandezza",
+                "description": "Fattore pre-esponenziale (unita' come scritta, '1/s') (22)"
+              },
+              "variazione_massa": {
+                "$ref": "#/$defs/grandezza",
+                "description": "Variazione di massa CON SEGNO (+ = acqua o solvente presi: 'weight gain of 0.68%'), distinta da perdita_massa (5, 30, 84)"
+              },
+              "frazione_convertita": {
+                "$ref": "#/$defs/grandezza",
+                "description": "Quanto si e' trasformato (%: 'only ca. 25% of form II° transformed') (84)"
+              },
+              "conversione": {
+                "$ref": "#/$defs/grandezza",
+                "description": "Conversione CHIMICA misurata (% di prodotto di degradazione), quando la forma non e' controllata (75)"
+              },
+              "composizione_prodotto": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "forma": {
+                      "type": "string"
+                    },
+                    "prevalenza": {
+                      "enum": [
+                        "prevalente",
+                        "minoritaria",
+                        "tracce",
+                        null
+                      ]
+                    },
+                    "frazione": {
+                      "$ref": "#/$defs/grandezza"
+                    }
+                  }
+                },
+                "description": "Prodotto misto: le forme con la loro prevalenza ('predominantly form A with slight form B') (35)"
+              },
+              "picchi_dsc": {
+                "type": [
+                  "array",
+                  "null"
+                ],
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "grandezza": {
+                      "$ref": "#/$defs/grandezza"
+                    },
+                    "segno": {
+                      "enum": [
+                        "endo",
+                        "eso",
+                        null
+                      ]
+                    }
+                  }
+                },
+                "description": "Picchi DSC col loro segno (endo 85.7 e 98.1, eso 94.1 °C) (36)"
+              }
+            }
+          },
+          "citazioni": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "certezza": {
+            "enum": [
+              "alta",
+              "media",
+              "bassa"
+            ]
+          },
+          "fonte_dati": {
+            "enum": [
+              "propria",
+              "citata",
+              "riprodotta",
+              "incerta",
+              null
+            ],
+            "description": "propria = misurata qui; citata = riportata da un altro lavoro; riprodotta = rimisurata qui un risultato noto"
+          },
+          "secondaria": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "v0: in v1 usare fonte_dati"
+          },
+          "riferimento": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "solo_supplementare": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "I valori stanno solo nel supplementare: un lotto apposito li recuperera'"
+          },
+          "conflitto": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "L'articolo si contraddice: che cosa dicono le due parti e quale si e' scelta"
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "natura": {
+            "enum": [
+              "fisica",
+              "chimica",
+              null
+            ],
+            "description": "chimica: reazione o decomposizione; fisica: cambio di forma solida"
+          },
+          "pretrattamento": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Storia del campione che conta per l'esito ('raffreddato a -170 C', 'ottenuto dalla forma II')"
+          },
+          "da_evento": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "id dell'evento precedente nella stessa corsa, se l'esito dipende da come ci si e' arrivati"
+          },
+          "campione": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "properties": {
+              "tipo": {
+                "enum": [
+                  "cristallo_singolo",
+                  "polvere",
+                  "macinato",
+                  "film",
+                  "compressa",
+                  "miscela",
+                  "altro",
+                  "torta_umida",
+                  null
+                ]
+              },
+              "dimensione": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "massa": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Come scritta ('6.58 mg')"
+              },
+              "crogiolo": {
+                "enum": [
+                  "aperto",
+                  "chiuso",
+                  "forato",
+                  "sigillato",
+                  "alta_pressione",
+                  "capillare",
+                  null
+                ],
+                "description": "Per DSC/TGA: conta per le desolvatazioni"
+              },
+              "fori": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "description": "Fori nel coperchio del crogiolo ('one pinhole'): decidono quanto ospite esce (5)"
+              },
+              "coperchio": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "false: crogiolo senza coperchio ('pinhole pans without lid') (5)"
+              },
+              "mezzo": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Il mezzo intorno al campione ('crystals in silicone oil' = sistema chiuso) (5)"
+              },
+              "sigillato": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "Capillare o contenitore sigillato (8)"
+              },
+              "supporto": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Il campione e' su un'altra forma ('amorphous material on a crystal of polymorph-2': semina possibile) (40)"
+              },
+              "fase_pura": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "L'articolo dice che la trasformazione richiede (o no) un campione puro (93)"
+              },
+              "semina_involontaria": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "Impurezze o tracce di un'altra forma che fanno da semi ('hydrate impurities catalyze') (93)"
+              },
+              "mezzo_incerto": {
+                "type": [
+                  "boolean",
+                  "null"
+                ],
+                "description": "Il mezzo intorno al campione e' probabile ma non scritto (olio di silicone al microscopio a piastra calda) (26)"
+              }
+            }
+          },
+          "verso": {
+            "enum": [
+              "noto",
+              "ignoto",
+              null
+            ],
+            "description": "ignoto: transizione dichiarata senza verso; da/a sono la coppia, senza ordine"
+          },
+          "lettura_alternativa": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "L'altra lettura di una frase ambigua"
+          },
+          "osservato": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "false: dedotto senza analizzare il solido"
+          },
+          "senza_condizioni": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Negativo (o evento) senza alcuna condizione dichiarata"
+          },
+          "condizioni_ambigue": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Le condizioni sono rimandate a una frase che non dice quali ('under the same conditions mentioned')"
+          },
+          "dettagli_nel_supplementare": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Il testo da' valori approssimati, quelli precisi stanno nel supplementare (diverso da solo_supplementare: li' il testo non da' nulla)"
+          },
+          "prodotti_secondari": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "description": "id delle forme ottenute insieme ad 'a' ('form IV and a certain amount of crystal form A') (23)"
+          },
+          "generalizzazione": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "L'evento viene da una frase riassuntiva gia' implicata da altri eventi ('none of the forms converted in the isotherms') (24)"
+          },
+          "attribuzione_ricostruita": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Le forme dell'evento sono attribuite ricostruendo una tabella rimescolata dal PDF (25)"
+          },
+          "gruppi_coinvolti": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "object",
+              "required": [
+                "gruppo",
+                "citazione"
+              ],
+              "properties": {
+                "gruppo": {
+                  "type": "string",
+                  "description": "il gruppo funzionale o il sintone COME SCRITTO ('carboxylic acid dimer', 'amide N-H', 'hydroxyl groups', 'pyridine N')"
+                },
+                "ruolo": {
+                  "enum": [
+                    "donatore",
+                    "accettore",
+                    "sintone",
+                    "coordina_ospite",
+                    "torsione",
+                    "protonazione",
+                    "altro",
+                    null
+                  ]
+                },
+                "con": {
+                  "enum": [
+                    "ospite",
+                    "altra_molecola",
+                    "stessa_molecola",
+                    "controione",
+                    "non_detto",
+                    null
+                  ]
+                },
+                "cambia": {
+                  "enum": [
+                    "si_forma",
+                    "si_rompe",
+                    "cambia_partner",
+                    "ruota",
+                    "resta",
+                    null
+                  ],
+                  "description": "Che cosa gli succede nella trasformazione, se detto"
+                },
+                "forma": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "id della forma in cui vale, se detta"
+                },
+                "citazione": {
+                  "type": "string",
+                  "description": "frase LETTERALE dell'articolo che lo dice"
+                }
+              }
+            },
+            "description": "I gruppi funzionali o i sintoni che l'articolo dice coinvolti NELLA TRASFORMAZIONE ('the acid dimer is broken', 'water is H-bonded to the amide N-H'). Il vocabolario di RDKit lo aggancia il codice (64)"
+          },
+          "da_possibili": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "description": "La forma di partenza e' una fra queste, senza dire quale ('AH-I, AH-II, or Hy1-I ... Hy1-I formed') (21)"
+          },
+          "a_possibili": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "description": "Il prodotto e' una fra queste ('either one of the three anhydrous forms or a hydrate'; 'A or B'). Con esito non_avvenuta: NESSUNA di queste si e' formata (12, 80)"
+          },
+          "da_dedotto": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "La forma di partenza si capisce solo per deduzione (una nota di tabella, una pseudomorfosi) (21, 91)"
+          },
+          "frequenza": {
+            "enum": [
+              "sempre",
+              "di_norma",
+              "talvolta",
+              "una_volta",
+              null
+            ],
+            "description": "Quanto spesso l'esito si osserva ('normally resulted in', 'sometimes') (81)"
+          },
+          "copertura": {
+            "enum": [
+              "tutte",
+              "parte_non_detta",
+              null
+            ],
+            "description": "parte_non_detta: la frase dice 'most of the solvates' senza dire quali; l'evento e' per forma con certezza bassa (67)"
+          },
+          "solventi_alternativi": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Come nelle preparazioni: i solventi elencati sono alternativi, uno per prova (46)"
+          },
+          "passo": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Il processo di questo evento dentro un picco DSC che ne contiene piu' d'uno ('peritectic melting', 'evaporation', 'crystallization of form I') (86)"
+          }
+        }
+      }
+    },
+    "preparazioni": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "metodo"
+        ],
+        "properties": {
+          "forma": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "v0: in v1 'forme'"
+          },
+          "forme": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "metodo": {
+            "type": "string",
+            "description": "evaporazione, raffreddamento, antisolvente, diffusione (stratificazione, vapore), sospensione, sublimazione, dal_fuso, macinazione, in_situ_pressione, commerciale, non_specificato, altro, da_evento (la forma si ottiene da un altro solido: vedi 'da_evento') (13), v1.4: semina, liofilizzazione, spray_drying, elettrospruzzatura (58, 78)"
+          },
+          "solventi": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "solventi_alternativi": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "true: i solventi sono alternative (una prova per solvente); false: sono una miscela"
+          },
+          "additivi": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "temperatura": {
+            "$ref": "#/$defs/grandezza"
+          },
+          "pressione": {
+            "$ref": "#/$defs/grandezza"
+          },
+          "citazione": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "v0: in v1 'citazioni'"
+          },
+          "citazioni": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            }
+          },
+          "fonte_dati": {
+            "enum": [
+              "propria",
+              "citata",
+              "riprodotta",
+              "incerta",
+              null
+            ]
+          },
+          "note": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "velocita": {
+            "$ref": "#/$defs/grandezza"
+          },
+          "esito": {
+            "enum": [
+              "ottenuta",
+              "non_ottenuta",
+              null
+            ],
+            "description": "non_ottenuta: la forma cercata non si e' formata ('no co-crystals formed')"
+          },
+          "conflitto": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "solo_supplementare": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "umidita": {
+            "$ref": "#/$defs/grandezza"
+          },
+          "tempo": {
+            "$ref": "#/$defs/grandezza"
+          },
+          "atmosfera": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rapporto_soluzione": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Rapporto dei componenti in soluzione, come scritto ('QUE:TMP 1:1')"
+          },
+          "pretrattamento": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "da_evento": {
+            "oneOf": [
+              {
+                "type": "null"
+              },
+              {
+                "type": "string"
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            ],
+            "description": "id dell'evento (o degli eventi) che producono la forma; una lista quando una frase sola ne copre piu' d'uno (13, 92)"
+          },
+          "attivita_acqua": {
+            "$ref": "#/$defs/grandezza",
+            "description": "Attivita' dell'acqua (4)"
+          },
+          "pH": {
+            "$ref": "#/$defs/grandezza",
+            "description": "pH (4)"
+          },
+          "attribuzione_ricostruita": {
+            "type": [
+              "boolean",
+              "null"
+            ],
+            "description": "Forme attribuite ricostruendo una tabella rimescolata dal PDF (92)"
+          },
+          "componenti_cercati": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "string"
+            },
+            "description": "Preparazione non ottenuta: i coformeri o i solventi provati, quando la forma cercata non esiste (47, 78)"
+          },
+          "agitazione": {
+            "$ref": "#/$defs/grandezza",
+            "description": "Agitazione (rpm) (48)"
+          },
+          "rapporto_solido_solvente": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Quantita' come scritte ('150.5 mg ... (200 μL)') (48)"
+          }
+        },
+        "anyOf": [
+          {
+            "required": [
+              "citazione"
+            ]
+          },
+          {
+            "required": [
+              "citazioni"
+            ]
+          }
+        ]
+      }
+    },
+    "molecole": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "items": {
+        "type": "object",
+        "required": [
+          "composto"
+        ],
+        "properties": {
+          "composto": {
+            "type": "string",
+            "description": "id del composto in 'composti'"
+          },
+          "proprieta": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "object",
+              "required": [
+                "tipo",
+                "citazione"
+              ],
+              "properties": {
+                "tipo": {
+                  "enum": [
+                    "pKa",
+                    "solubilita",
+                    "logP",
+                    "logD",
+                    "igroscopicita",
+                    "punto_fusione_amorfo",
+                    "temperatura_transizione_vetrosa",
+                    "altro"
+                  ]
+                },
+                "grandezza": {
+                  "$ref": "#/$defs/grandezza",
+                  "description": "Il valore con la sua unita' (solubilita' in mg/mL, igroscopicita' in % di massa presa)"
+                },
+                "gruppo": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "pKa: il gruppo a cui si riferisce, come scritto"
+                },
+                "forma": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "id della forma misurata (solubilita', igroscopicita'), se detta"
+                },
+                "solvente": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "solubilita': il solvente o il mezzo, come scritto"
+                },
+                "temperatura": {
+                  "$ref": "#/$defs/grandezza",
+                  "description": "La temperatura della misura"
+                },
+                "umidita": {
+                  "$ref": "#/$defs/grandezza",
+                  "description": "igroscopicita': la RH a cui si misura l'assorbimento"
+                },
+                "pH": {
+                  "$ref": "#/$defs/grandezza",
+                  "description": "Il pH della misura"
+                },
+                "metodo": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "come e' misurato o calcolato (potenziometria, shake-flask, DVS, calcolato con ...)"
+                },
+                "calcolato": {
+                  "type": [
+                    "boolean",
+                    "null"
+                  ],
+                  "description": "Vero se il valore e' calcolato e non misurato"
+                },
+                "citazione": {
+                  "type": "string",
+                  "description": "frase LETTERALE dell'articolo che lo dice"
+                }
+              }
+            },
+            "description": "Proprieta' misurate o calcolate DICHIARATE nel testo, una per voce"
+          },
+          "descrizioni": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "object",
+              "required": [
+                "tipo",
+                "citazione"
+              ],
+              "properties": {
+                "tipo": {
+                  "enum": [
+                    "tautomeria",
+                    "zwitterione",
+                    "flessibilita",
+                    "conformeri",
+                    "chiralita",
+                    "legame_h_intramolecolare",
+                    "altro"
+                  ]
+                },
+                "testo": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "in breve, con le parole dell'articolo (le torsioni nominate, 'racemic', 'enol form')"
+                },
+                "forma": {
+                  "type": [
+                    "string",
+                    "null"
+                  ],
+                  "description": "id della forma in cui vale, se detta"
+                },
+                "citazione": {
+                  "type": "string",
+                  "description": "frase LETTERALE dell'articolo che lo dice"
+                }
+              }
+            },
+            "description": "Fatti qualitativi sulla molecola dichiarati nel testo"
+          }
+        }
+      },
+      "description": "Che cosa l'articolo dice delle molecole, oltre alle forme (63). Il punto di fusione di una forma resta nell'evento verso il fuso. Niente valori da altre fonti o calcolati da chi estrae."
+    }
+  },
+  "$defs": {
+    "tipo_forma": {
+      "enum": [
+        "anidro",
+        "idrato",
+        "solvato",
+        "sale",
+        "cocristallo",
+        "amorfo",
+        "fuso",
+        "miscela",
+        "prodotto_reazione",
+        "altro",
+        "non_specificato",
+        "soluzione_solida"
+      ]
+    },
+    "meccanismo": {
+      "enum": [
+        "SCSC",
+        "cooperativa",
+        "nucleazione_crescita",
+        "via_amorfo",
+        "via_fuso",
+        "via_soluzione",
+        "termosaliente",
+        "ordine_disordine",
+        "displaciva",
+        "ricostruttiva",
+        "martensitica",
+        "desolvato_isomorfo",
+        "topochimico",
+        "altro",
+        "pseudomorfosi",
+        "confine_di_fase",
+        "via_vapore",
+        "perdita_componente"
+      ]
+    },
+    "grandezza": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "valore": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "min": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "max": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "onset": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "picco": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "fine": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "unita": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "tipo": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "temperatura: onset, picco, fine, equilibrio, osservata, intervallo, isoterma, ambiente, non_specificato; pressione: transizione, misura, forchetta, applicata (vuoto o pressione imposta durante il trattamento); tempo: trasformazione (quanto ci mette), attesa (dopo quanto si guarda), conservazione, processo (durata di una macinazione o estrusione), osservata (primo controllo in cui si vede il cambio; min = ultimo controllo senza cambio); entalpia: transizione, fusione, assorbimento, desolvatazione; perdita_massa: totale, passo; pressione anche: vapore (pressione parziale di un vapore di solvente, distinta da applicata) (20); entalpia anche: disidratazione, idratazione; velocita anche: salto (portato direttamente alla T, senza rampa) (85); tempo anche: ciclo (cicli fra due T: min e max) (49); qualsiasi grandezza: dispersione (intervallo dovuto a campioni, velocita' o laboratori diversi) (54)"
+        },
+        "circa": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "'about', '~', 'around'"
+        },
+        "limite": {
+          "enum": [
+            "sopra",
+            "sotto",
+            null
+          ],
+          "description": "Limite aperto: 'above 22% RH' -> min=22, limite='sopra'"
+        },
+        "derivato": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "Valore interpolato o calcolato dagli autori, non misurato direttamente"
+        },
+        "testo": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "La grandezza come scritta, se non e' un numero ('a few days')"
+        },
+        "picchi": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "number"
+          },
+          "description": "Piu' picchi per la stessa transizione"
+        },
+        "lettura_probabile": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Valore probabile di un numero rovinato dal PDF ('7784°C' -> 77): NON sostenuto dal testo, il verificatore non lo conta"
+        },
+        "lettura_probabile_max": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "relativo_a": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "string"
+            },
+            {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          ],
+          "description": "id dell'evento (o degli eventi) a cui il valore e' relativo ('25 °C lower than for S-EtGly and S-PrGly') (70)"
+        },
+        "delta": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "description": "Differenza rispetto all'evento in relativo_a, come scritta"
+        },
+        "unita_sospetta": {
+          "type": [
+            "boolean",
+            "null"
+          ],
+          "description": "L'unita' scritta e' impossibile per la grandezza ('J mol-1' per un'entalpia di transizione): il numero va in 'testo' (9)"
+        },
+        "valori": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "number"
+          },
+          "description": "Piu' valori provati in parallelo nello stesso esperimento (pH 1.2, 4.5 e 6.8; '5 or 10 °C/min'): un evento solo invece di eventi identici (77, 78)"
+        }
+      }
+    }
+  }
+}

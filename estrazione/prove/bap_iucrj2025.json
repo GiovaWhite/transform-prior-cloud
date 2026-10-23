@@ -1,0 +1,95 @@
+{
+  "versione_schema": "v1.2",
+  "doi": "10.1107/s2052252524010455",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "composti": [
+    {"id": "C1", "nome": "benzo[a]pyrene", "smiles": null}
+  ],
+  "forme": [
+    {"id": "F1", "composto": "C1", "etichetta": "BaP-I", "tipo": "anidro", "ospite": null,
+     "sistema_cristallino": "monoclino", "gruppo_spaziale": "P21/c",
+     "cella": {"a": 4.5384, "b": 20.439, "c": 13.531, "beta": 97.006, "V": 1245.8, "condizioni": "ambiente"},
+     "ccdc": null, "refcode": null,
+     "citazione": "The structure is monoclinic (space group No. 14, P21/c) with the following unit-cell parameters under ambient conditions: a = 4.5384(3) Å, b = 20.439(5) Å, c = 13.531(2) Å, β = 97.006(8)° and V = 1245.8(4) Å3."},
+    {"id": "F2", "composto": "C1", "etichetta": "BaP-II", "tipo": "anidro", "ospite": null,
+     "sistema_cristallino": "monoclino", "gruppo_spaziale": "P21/c",
+     "cella": {"a": 3.5971, "b": 21.658, "c": 12.7908, "beta": 95.339, "V": 992.2, "condizioni": "4.8 GPa"},
+     "ccdc": null, "refcode": null,
+     "citazione": "was solved and refined at 4.8 GPa [Table S3, Fig. 1 ▸(b)] with the unit-cell parameters a = 3.59710(10) Å, b = 21.658(9) Å, c = 12.7908(9) Å, β = 95.339(5)° and V = 992.2(4) Å3"},
+    {"id": "F3", "composto": "C1", "etichetta": "BaP-III", "tipo": "anidro", "ospite": null,
+     "sistema_cristallino": "triclino", "gruppo_spaziale": "P-1", "gruppo_spaziale_scritto": "P1",
+     "gruppo_spaziale_dedotto": true,
+     "cella": {"a": 3.4912, "b": 12.687, "c": 21.531, "alpha": 91.51, "beta": 90.434, "gamma": 95.82, "V": 911.5, "condizioni": "7.1 GPa"},
+     "ccdc": null, "refcode": null,
+     "citazione": "Further compression of BaP-II led to the formation of a new triclinic polymorph, BaP-III (space group No. 2, P1), which we first observed at 7.1 GPa",
+     "note": "Il testo scrive «No. 2, P1»: il gruppo numero 2 e' P-1, la barra e' andata persa nel PDF."},
+    {"id": "F4", "composto": "C1", "etichetta": "orthorhombic BaP polymorph (Contag, 1978)", "tipo": "anidro", "ospite": null,
+     "sistema_cristallino": "ortorombico", "gruppo_spaziale": null, "cella": null, "ccdc": null, "refcode": null,
+     "citazione": "Subsequently, one more ortho­rhombic BaP polymorph was reported (Contag, 1978 ▸)."}
+  ],
+  "relazioni": [],
+  "eventi": [
+    {"id": "E1", "da": "F1", "a": "F2", "esito": "avvenuta", "via": "pressione", "sottovia": "DAC",
+     "condizioni": {
+       "pressione": {"valore": null, "min": 2.2, "max": 4.8, "unita": "GPa", "tipo": "forchetta"},
+       "temperatura": {"valore": null, "unita": null, "tipo": "ambiente", "testo": "room temperature"},
+       "mezzo_pressione": "He", "idrostatica": true,
+       "solventi": []},
+     "osservazioni": {"tecniche": ["SCXRD"], "meccanismo": ["SCSC"],
+                      "cinetica": "brusca: salto dell'angolo intermolecolare da 73,5° a 53,5°"},
+     "campione": {"tipo": "cristallo_singolo", "dimensione": null},
+     "citazioni": [
+       "On compression of BaP-I (P21/c) to 4.8 GPa in an He pressure medium, we observed a phase transition to a previously unknown monoclinic polymorph BaP-II (P21/c).",
+       "SC-XRD studies at room temperature were conducted in DAC No. 1 and DAC No. 2",
+       "in the BaP-I to BaP-II transformation, the applied stress leads to an abrupt change in the intermolecular angle from 73.5° at 2.2 GPa in BaP-I to 53.5° at 4.8 GPa in BaP-II"],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "La transizione sta fra 2,2 GPa (ultimo punto di BaP-I) e 4,8 GPa (BaP-II risolta). SCSC: la struttura di BaP-II e' risolta in situ sullo stesso cristallo singolo, anche se l'articolo non usa la parola."},
+    {"id": "E2", "da": "F2", "a": "F3", "esito": "avvenuta", "via": "pressione", "sottovia": "DAC",
+     "condizioni": {
+       "pressione": {"valore": 7.1, "unita": "GPa", "tipo": "transizione"},
+       "temperatura": {"valore": null, "unita": null, "tipo": "ambiente"},
+       "mezzo_pressione": "He", "idrostatica": true,
+       "solventi": []},
+     "osservazioni": {"tecniche": ["SCXRD"], "meccanismo": ["SCSC"]},
+     "campione": {"tipo": "cristallo_singolo", "dimensione": null},
+     "da_evento": "E1",
+     "citazioni": [
+       "The next phase transition occurred at 7.1 GPa to BaP-III with a triclinic structure (P1), which was preserved up to about 28 GPa.",
+       "Further compression of BaP-II to 7.1 GPa results in a decrease of symmetry to P1, indicating the transformation to BaP-III."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Abbassamento di simmetria P21/c -> P-1."},
+    {"id": "E3", "da": "F3", "a": "ignota", "esito": "non_avvenuta", "esito_dettaglio": "nessuna_trasformazione",
+     "via": "pressione", "sottovia": "DAC",
+     "condizioni": {
+       "pressione": {"valore": null, "min": 7.1, "max": 27.9, "unita": "GPa", "tipo": null},
+       "mezzo_pressione": "He", "idrostatica": true, "solventi": []},
+     "osservazioni": {"tecniche": ["SCXRD"]},
+     "citazioni": [
+       "The second previously unknown polymorph, BaP-III, was detected at 7.1 GPa and preserved under an He pressure medium up to 27.9 GPa."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Negativo: BaP-III stabile in tutto l'intervallo."},
+    {"id": "E4", "da": "F3", "a": "ignota", "esito": "avvenuta", "via": "pressione", "sottovia": "DAC",
+     "condizioni": {
+       "pressione": {"valore": 35, "unita": "GPa", "tipo": "osservata"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["SCXRD"]},
+     "da_evento": "E3",
+     "citazioni": ["At the next pressure step of 35 GPa, the XRD pattern disappeared."],
+     "certezza": "bassa", "fonte_dati": "propria",
+     "note": "Scomparsa del diffrattogramma: amorfizzazione o perdita del cristallo, l'articolo non lo dice."},
+    {"id": "E5", "da": "F4", "a": "F1", "esito": "avvenuta", "via": "termica", "sottovia": "conservazione",
+     "condizioni": {
+       "tempo": {"valore": null, "max": 6, "unita": "month", "tipo": "trasformazione", "limite": "sotto"},
+       "solventi": []},
+     "osservazioni": {"tecniche": [], "cinetica": "graduale"},
+     "citazioni": ["However, it was found to be unstable and gradually, within 6 months, transformed into the known monoclinic BaP."],
+     "certezza": "media", "fonte_dati": "citata", "riferimento": "Contag, 1978", "natura": "fisica",
+     "note": "Forma metastabile che si converte da sola; la temperatura e le altre condizioni di conservazione non sono dette."}
+  ],
+  "preparazioni": [
+    {"forme": ["F1"], "metodo": "commerciale", "solventi": [], "temperatura": null, "esito": "ottenuta",
+     "citazioni": ["A crystalline powder of BaP of 96% purity was purchased from Merck."],
+     "fonte_dati": "propria"}
+  ]
+}
