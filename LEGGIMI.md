@@ -10,13 +10,10 @@ Non contiene dati del CSD né la configurazione locale. Va caricato in un repo G
 
 ## 1. Caricarlo (una volta)
 
-Su GitHub crea un repo **privato** vuoto, per esempio `transform-prior-cloud`. Poi,
-da questa cartella:
+Su GitHub crea un repo **privato** vuoto, per esempio `transform-prior-cloud`, senza
+README. Il repo locale c'è già, col primo commit su `main`. Da questa cartella:
 
 ```
-git init -b main
-git add .
-git commit -m "pacchetto di estrazione v1.4"
 git remote add origin https://github.com/<tuo-utente>/transform-prior-cloud.git
 git push -u origin main
 ```
