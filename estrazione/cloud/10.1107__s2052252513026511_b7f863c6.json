@@ -1,0 +1,2055 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2052252513026511",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "891302",
+  "891303",
+  "891304",
+  "891305",
+  "891307",
+  "891309"
+ ],
+ "note": "Nota sulle temperature DSC: i metodi dicono «The given values for the temperatures are onset and offset values for the corresponding heating and cooling processes», senza dire quale e' quale per ogni numero: i valori «at X °C» hanno tipo non_specificato, salvo dove il testo dice onset o minimo. CCDC: 891302-891305, 891307 e 891309 sono sei numeri e il supplementare elenca sei datablock (5-A, 5-D, 5-E, 7-C, D-1-A, rac-1), ma l'articolo non attribuisce i numeri alle forme: restano qui. Non estratti: i punti di fusione di neo-, muco- ed epi-inositolo e di 2-B (da altri lavori, tabella di rassegna), le miscele di 2-A e 2-B in DSC («two separate but barely resolved events, with onsets at about 359 and 364 °C», non attribuiti), i due idrati noti (cis-inositolo monoidrato TAZMOW, myo-inositolo MYTOLD01) senza eventi. Incoerenze: temperatura delle celle 293 K in Table 2 ma 25 (2) °C nei metodi; decomposizione di 2-A a 358 °C (3.3, Fig. 6, Table 1) e 355 °C (3.5); 5-C a 350 °C (Fig. 7) e 351 °C (Fig. 11, Table 1); «7-C ... is stable at 20 °C» (3.7) contro «At room temperature, 7-C slowly converts to 7-A over time»; la colonna Reference di Table 1 per L-1-A cita Jeffrey & Yeon per la struttura, ma le curve DSC di l-1 sono dichiarate uguali a quelle di d-1. Le entalpie sono in J/g (colonna ΔH t di Table 1). Fasi rotatorie: d-1-B, l-1-B, 5-B, 5-C, 6-B.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "d-(+)-chiro-inositol",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "l-(−)-chiro-inositol",
+   "smiles": null,
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C3",
+   "nome": "rac-chiro-inositol",
+   "smiles": null,
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C4",
+   "nome": "scyllo-inositol",
+   "smiles": null
+  },
+  {
+   "id": "C5",
+   "nome": "cis-inositol",
+   "smiles": null
+  },
+  {
+   "id": "C6",
+   "nome": "allo-inositol",
+   "smiles": null
+  },
+  {
+   "id": "C7",
+   "nome": "myo-inositol",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "d-1·1/3H2O",
+   "etichette_alternative": [
+    "1/3 hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": "1/3",
+    "fonte_stechiometria": "cristallografica"
+   },
+   "citazione": "The crystals initially obtained for d-(+)-chiro-inositol turned out to be a 1/3 hydrate, d-1·1/3H2O, as determined by single-crystal analysis.",
+   "note": "La TGA da' una perdita di circa 0.3 molecole d'acqua per molecola (approximately 0.3 water molecules per d-(+)-chiro-inositol molecule). Struttura non discussa nell'articolo."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "d-1-A",
+   "etichette_alternative": [
+    "D-1-A",
+    "anhydrate"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 6.86637,
+    "b": 9.12272,
+    "c": 6.21914,
+    "alpha": 90,
+    "beta": 106.5963,
+    "gamma": 90,
+    "V": 373.338,
+    "Z": 2,
+    "fonte": "PXRD",
+    "condizioni": "Table 2: Temperature (K) 293; methods: 25 (2) °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "12 hydrogen bonds per molecule",
+     "chi": "molecola-molecola",
+     "citazione": "The molecules are connected to their neighbours by 12 hydrogen bonds (as determined with Mercury; Macrae et al., 2008 ▶)."
+    },
+    {
+     "motivo": "three-dimensional network",
+     "chi": "—OH donor and acceptor",
+     "citazione": "Each —OH group acts as a donor and as an acceptor for one intermolecular hydrogen bond each, resulting in a three-dimensional network."
+    }
+   ],
+   "citazione": "The structure of d-1-A was derived from the known crystal structure of its enantiomer, l-1-A",
+   "note": "Struttura d-1-A da Rietveld (dati nel supplementare), derivata da quella dell'enantiomero l-1-A (FOPKOK). Cella da Table 2. Table 1 titolo: «polymorphs (not including hydrates)»."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "d-1-B",
+   "etichette_alternative": [
+    "D-1-B",
+    "high-temperature polymorph"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "cubico",
+   "gruppo_spaziale": null,
+   "gruppo_spaziale_scritto": "F***†",
+   "cella": {
+    "a": 9.3,
+    "V": 800,
+    "fonte": "PXRD",
+    "condizioni": "cella cubica F-centrata comune alle fasi rotatorie isostrutturali d-1-B, l-1-B, 5-C, 6-B; solo la cella (non una struttura)"
+   },
+   "citazione": "The volume of the cubic unit cell is 800 Å3 (a = 9.3 Å) and based on the systematic absences, it must be F-centred; this yields a plausible molecular volume of 200 Å3",
+   "note": "Fase rotatoria («rotator phase»): solo la cella e' determinata. Cella attribuita perche' l'articolo dice che le quattro fasi d-1-B, l-1-B, 5-C, 6-B hanno gli stessi picchi e sono isostrutturali. Il simbolo di gruppo in Table 1 e' «F***†»: non normalizzabile."
+  },
+  {
+   "id": "F4",
+   "composto": "C2",
+   "etichetta": "l-1·1/3H2O",
+   "etichette_alternative": [
+    "1/3 hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": "1/3",
+    "fonte_stechiometria": "cristallografica"
+   },
+   "citazione": "The crystal structures of the two 1/3 hydrates, l-1·1/3H2O and d-1·1/3H2O, will not be discussed in this paper",
+   "note": "Enantiomero di F1; struttura non discussa."
+  },
+  {
+   "id": "F5",
+   "composto": "C2",
+   "etichetta": "l-1-A",
+   "etichette_alternative": [
+    "L-1-A"
+   ],
+   "tipo": "anidro",
+   "gruppo_spaziale": "P21",
+   "refcode": "FOPKOK",
+   "citazione": "The crystal structure of the room-temperature phase l-1-A was determined by Jeffrey & Yeon (1987 ▶).",
+   "note": "Il refcode FOPKOK e' scritto nel paragrafo §2.3: «l-1-A [Cambridge Structural Database (CSD; Allen, 2002 ▶) reference code FOPKOK, Jeffrey & Yeon, 1987 ▶]». Gruppo P21 da Table 1."
+  },
+  {
+   "id": "F6",
+   "composto": "C2",
+   "etichetta": "l-1-B",
+   "etichette_alternative": [
+    "L-1-B"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "cubico",
+   "gruppo_spaziale": null,
+   "gruppo_spaziale_scritto": "F***†",
+   "cella": {
+    "a": 9.3,
+    "V": 800,
+    "fonte": "PXRD",
+    "condizioni": "cella cubica F-centrata comune alle fasi rotatorie isostrutturali"
+   },
+   "citazione": "The peak positions and intensities in the X-ray powder patterns of d-1-B, l-1-B, 5-C and 6-B are the same, and it must therefore be assumed that these phases – though consisting of chemically different molecules – are isostructural.",
+   "note": "Fase rotatoria, solo la cella. Vedi F3."
+  },
+  {
+   "id": "F7",
+   "composto": "C3",
+   "etichetta": "rac-1",
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 10.1435,
+    "b": 8.1542,
+    "c": 8.6239,
+    "alpha": 90,
+    "beta": 92.3556,
+    "gamma": 90,
+    "V": 712.7,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "PXRD",
+    "condizioni": "Table 2: Temperature (K) 293; methods: 25 (2) °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "12 hydrogen bonds per molecule",
+     "chi": "molecola-molecola",
+     "citazione": "Each molecule is connected to the other molecules through 12 hydrogen bonds. In contrast to d-1-A and l-1-A, one O atom (O3) accepts two hydrogen bonds, while another (O2) accepts none."
+    }
+   ],
+   "citazione": "The compound crystallizes in the space group P21/c with one molecule in the asymmetric unit.",
+   "note": "Racemato di d- e l-chiro-inositolo (Table 1: «racemic»). Il reticolo non contiene acqua ne' solvente: «the lattices did not contain further water or other solvent molecules»."
+  },
+  {
+   "id": "F8",
+   "composto": "C4",
+   "etichetta": "2-A",
+   "tipo": "anidro",
+   "gruppo_spaziale": "P21/c",
+   "refcode": "EFURIH01",
+   "citazione": "The crystal structures of both polymorphs were reported by Yeon (2001 ▶); CSD reference codes EFURIH01 and EFURIH02 for 2-A and 2-B, respectively.",
+   "note": "Gruppo P21/c da Table 1."
+  },
+  {
+   "id": "F9",
+   "composto": "C4",
+   "etichetta": "2-B",
+   "tipo": "anidro",
+   "refcode": "EFURIH02",
+   "citazione": "The crystal structures of both polymorphs were reported by Yeon (2001 ▶); CSD reference codes EFURIH01 and EFURIH02 for 2-A and 2-B, respectively.",
+   "note": "Mai ottenuto puro in questo lavoro."
+  },
+  {
+   "id": "F10",
+   "composto": "C5",
+   "etichetta": "5-A",
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 11.58792,
+    "b": 12.2101,
+    "c": 5.25364,
+    "alpha": 90,
+    "beta": 90.5649,
+    "gamma": 90,
+    "V": 743.3,
+    "Z": 4,
+    "fonte": "PXRD",
+    "condizioni": "Table 2: Temperature (K) 293; methods: 25 (2) °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "one intramolecular and ten intermolecular hydrogen bonds per molecule (five as donors, five as acceptors)",
+     "chi": "molecola-molecola",
+     "citazione": "In 5-A, each molecule forms one intramolecular hydrogen bond and ten intermolecular hydrogen bonds (five as donors, five as acceptors; Fig. 13 ▶)."
+    }
+   ],
+   "citazione": "The powder patterns could be indexed with monoclinic lattices for rac-1 and 5-A and orthorhombic lattices for 5-D, 5-E and 7-C without ambiguity",
+   "note": "Gruppo P21/n da §2.3 e Table 2."
+  },
+  {
+   "id": "F11",
+   "composto": "C5",
+   "etichetta": "5-B",
+   "tipo": "anidro",
+   "sistema_cristallino": "esagonale",
+   "gruppo_spaziale": null,
+   "gruppo_spaziale_scritto": "P3**/P6**††",
+   "cella": {
+    "a": 6.575,
+    "c": 10.58,
+    "V": 396.05,
+    "Z": 2,
+    "fonte": "PXRD",
+    "condizioni": "fase rotatoria ad alta T; solo la cella"
+   },
+   "citazione": "The powder pattern could be indexed by a hexagonal cell without ambiguity (a = 6.575, c = 10.580 Å); the unit-cell volume is 396.05 Å3, corresponding to Z = 2.",
+   "note": "Fase rotatoria («5-B is also a rotator phase»). Il simbolo in Table 1 e' «P3**/P6**††»: non normalizzabile."
+  },
+  {
+   "id": "F12",
+   "composto": "C5",
+   "etichetta": "5-C",
+   "tipo": "anidro",
+   "sistema_cristallino": "cubico",
+   "gruppo_spaziale": null,
+   "gruppo_spaziale_scritto": "F*** †",
+   "cella": {
+    "a": 9.3,
+    "V": 800,
+    "fonte": "PXRD",
+    "condizioni": "cella cubica F-centrata comune alle fasi rotatorie isostrutturali"
+   },
+   "citazione": "The peak positions and intensities in the X-ray powder patterns of d-1-B, l-1-B, 5-C and 6-B are the same, and it must therefore be assumed that these phases – though consisting of chemically different molecules – are isostructural.",
+   "note": "Fase rotatoria, solo la cella. Vedi F3."
+  },
+  {
+   "id": "F13",
+   "composto": "C5",
+   "etichetta": "5-D",
+   "tipo": "anidro",
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pbca",
+   "cella": {
+    "a": 14.1313,
+    "b": 11.0757,
+    "c": 9.36191,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 1465.27,
+    "Z": 8,
+    "Z_primo": 1,
+    "fonte": "PXRD",
+    "condizioni": "Table 2: Temperature (K) 408; methods: 135 (2) °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "one intramolecular and ten intermolecular hydrogen bonds per molecule",
+     "chi": "molecola-molecola",
+     "citazione": "In 5-D and 5-E, each molecule forms one intramolecular and ten intermolecular hydrogen bonds."
+    }
+   ],
+   "citazione": "5-D is a high-temperature polymorph that only exists above 57 °C and that converts to 5-E on cooling.",
+   "note": "Forma ad alta T: struttura a 135 °C (408 K)."
+  },
+  {
+   "id": "F14",
+   "composto": "C5",
+   "etichetta": "5-E",
+   "tipo": "anidro",
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 14.01476,
+    "b": 11.03782,
+    "c": 9.33193,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 1443.58,
+    "Z": 8,
+    "Z_primo": 2,
+    "fonte": "PXRD",
+    "condizioni": "Table 2: Temperature (K) 293; methods: 25 (2) °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "one intramolecular and ten intermolecular hydrogen bonds per molecule",
+     "chi": "molecola-molecola",
+     "citazione": "In 5-D and 5-E, each molecule forms one intramolecular and ten intermolecular hydrogen bonds."
+    }
+   ],
+   "citazione": "The phase transition corresponds to the loss of the inversion symmetry to lower the space-group symmetry from Pbca, Z′ = 1 to one of its maximum subgroups P212121, Z′ = 2",
+   "note": "Fase a temperatura ambiente ottenuta raffreddando 5-D."
+  },
+  {
+   "id": "F15",
+   "composto": "C6",
+   "etichetta": "6-A",
+   "tipo": "anidro",
+   "gruppo_spaziale": "P21/n",
+   "refcode": "IFAKAC",
+   "citazione": "The crystal structure of the room-temperature phase 6-A was determined by Bonnet et al. (2006a ▶; CSD reference code IFAKAC)",
+   "note": "Gruppo P21/n da Table 1."
+  },
+  {
+   "id": "F16",
+   "composto": "C6",
+   "etichetta": "6-B",
+   "etichette_alternative": [
+    "high-temperature polymorph"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "cubico",
+   "gruppo_spaziale": null,
+   "gruppo_spaziale_scritto": "F***†",
+   "cella": {
+    "a": 9.3,
+    "V": 800,
+    "fonte": "PXRD",
+    "condizioni": "cella cubica F-centrata comune alle fasi rotatorie isostrutturali"
+   },
+   "citazione": "The peak positions and intensities in the X-ray powder patterns of d-1-B, l-1-B, 5-C and 6-B are the same, and it must therefore be assumed that these phases – though consisting of chemically different molecules – are isostructural.",
+   "note": "Fase rotatoria («6-B is another rotator phase»), solo la cella. Vedi F3."
+  },
+  {
+   "id": "F17",
+   "composto": "C7",
+   "etichetta": "7-A",
+   "tipo": "anidro",
+   "gruppo_spaziale": "P21/c",
+   "refcode": "MYINOL",
+   "citazione": "The crystal structure of 7-A was published by Rabinovich & Kraut (1964 ▶; CSD reference code MYINOL).",
+   "note": "Gruppo P21/c da Table 1."
+  },
+  {
+   "id": "F18",
+   "composto": "C7",
+   "etichetta": "7-B",
+   "tipo": "anidro",
+   "gruppo_spaziale": "Pna21",
+   "refcode": "MYINOL01",
+   "citazione": "the second reported polymorph of myo-inositol (7-B, Khan et al., 2007 ▶; CSD reference code MYINOL01)",
+   "note": "Mai riprodotto in questo lavoro. Gruppo Pna21 da Table 1."
+  },
+  {
+   "id": "F19",
+   "composto": "C7",
+   "etichetta": "7-C",
+   "tipo": "anidro",
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pca21",
+   "cella": {
+    "a": 11.8577,
+    "b": 7.01486,
+    "c": 8.68032,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 722.03,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "PXRD",
+    "condizioni": "Table 2: Temperature (K) 293; methods: 25 (2) °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "12 hydrogen bonds per molecule",
+     "chi": "molecola-molecola",
+     "citazione": "Each molecule is connected to the other molecules through 12 hydrogen bonds (Fig. 21 ▶)."
+    }
+   ],
+   "citazione": "The new polymorph of myo-inositol (7-C) crystallizes in Pca21 with one molecule in the asymmetric unit.",
+   "note": "Nuovo polimorfo del myo-inositolo."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 74,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "VT-PXRD"
+    ],
+    "perdita_massa": {
+     "valore": 2.98,
+     "circa": true,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "with an onset at about 74 °C resulting from the loss of water and conversion of the 1/3 hydrate to the known anhydrate (d-1-A)",
+    "The TGA curve shows a mass loss of about 2.98% between 83 and 93 °C corresponding to a loss of approximately 0.3 water molecules per d-(+)-chiro-inositol molecule",
+    "Temperature-dependent X-ray powder diffraction traces of d-(+)-chiro-inositol (d-1) at 25, 100 and 210 °C showing the phase transitions from the 1/3 hydrate (black) (d-1·1/3H2O) to the anhydrate (red) (d-1-A) and to the high-temperature polymorph (blue) (d-1-B).",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere.",
+    "Thermogravimetric analyses (TGA) were performed on a SETARAM (TGA 92) device. For each measurement, about 15 to 20 mg of the samples was filled into an Al2O3 (corundum) crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Segnale endotermico allargato in DSC (onset circa 74 °C); in TGA la perdita di massa e' fra 83 e 93 °C (circa 0.3 molecole d'acqua per molecola): un solo evento, come la regola dei doppioni (stessa prova con due tecniche). Il crogiolo DSC e' «Al crucible» (aperto o chiuso non detto); TGA in crogiolo di corindone. Anidro identificato con T-XRPD a 100 °C (Fig. 3).",
+   "campione": {
+    "massa": "DSC: about 10 to 15 mg; TGA: about 15 to 20 mg"
+   }
+  },
+  {
+   "id": "E2",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "The DSC and TGA curves and the XRPD patterns of l-1 are the same as for its enantiomer d-1.",
+    "The crystal structures of the two 1/3 hydrates, l-1·1/3H2O and d-1·1/3H2O, will not be discussed in this paper",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessun valore numerico dato per l-1: le curve DSC/TGA e i diffrattogrammi sono dichiarati uguali a quelli dell'enantiomero d-1 (E1), quindi stessa disidratazione. Temperatura e perdita di massa non riportate per l'enantiomero.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 201,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "entalpia": {
+     "valore": 181.9,
+     "unita": "J/g",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "In the DSC, three further endothermic signals could be observed; the first sharp peak at 201 °C resulting from a phase transition to the high-temperature polymorph, (d-1-B), the second sharp peak at 245 °C from melting and a third broad signal between 281 and 337 °C resulting from decomposition.",
+    "The enthalpy of the phase transition at 201 °C is remarkably large, whereas the melting enthalpy at 245 °C is remarkably small.",
+    "This is because the high-temperature phase (d-1-B) is a rotator phase (see §3.9) and the major part of the melting process takes place at 201 °C, with only the translational order of the centres of mass of the molecules remaining.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "D-(+)-chiro | D-1-A | 1.60 | P21 | 201 | 181.9 | Conversion to 1-B | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere.",
+    "Temperature-dependent X-ray powder diffraction traces of d-(+)-chiro-inositol (d-1) at 25, 100 and 210 °C showing the phase transitions from the 1/3 hydrate (black) (d-1·1/3H2O) to the anhydrate (red) (d-1-A) and to the high-temperature polymorph (blue) (d-1-B)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "d-1-B e' una fase rotatoria (la maggior parte della fusione avviene a 201 °C, resta solo l'ordine traslazionale). Tipo di temperatura non specificato: i metodi dicono solo «onset and offset values for the corresponding heating and cooling processes». Entalpia dalla colonna ΔH t (J g−1) di Table 1. L'articolo non ha studiato la reversibilita' (A→B non investigata).",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 245,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 17.0,
+     "unita": "J/g",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "In the DSC, three further endothermic signals could be observed; the first sharp peak at 201 °C resulting from a phase transition to the high-temperature polymorph, (d-1-B), the second sharp peak at 245 °C from melting and a third broad signal between 281 and 337 °C resulting from decomposition.",
+    "The enthalpy of the phase transition at 201 °C is remarkably large, whereas the melting enthalpy at 245 °C is remarkably small.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "D-(+)-chiro | D-1-B | 1.50 | F***† | 245‡ | 17.0 | Melting | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione della fase rotatoria d-1-B; entalpia di fusione piccola perche' la maggior parte e' gia' assorbita a 201 °C.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E5",
+   "da": "fuso",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 281,
+     "max": 337,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In the DSC, three further endothermic signals could be observed; the first sharp peak at 201 °C resulting from a phase transition to the high-temperature polymorph, (d-1-B), the second sharp peak at 245 °C from melting and a third broad signal between 281 and 337 °C resulting from decomposition.",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Terzo segnale DSC, largo, dopo la fusione a 245 °C: decomposizione. Il testo non dice esplicitamente che decompone il fuso, ma il segnale segue la fusione.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "d-1-A does not rehydrate upon cooling to room temperature."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "d-1-A (ottenuto per disidratazione, E1) non riprende l'acqua raffreddando a temperatura ambiente. Umidita' e atmosfera del raffreddamento non dette (i metodi DSC/TGA sono sotto N2).",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "inverso_di": "E1",
+   "pretrattamento": "d-1-A ottenuto per disidratazione di d-1·1/3H2O riscaldando (E1)"
+  },
+  {
+   "id": "E7",
+   "da": "F5",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 202,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "entalpia": {
+     "valore": 191.0,
+     "unita": "J/g",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "The DSC and TGA curves and the XRPD patterns of l-1 are the same as for its enantiomer d-1.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "L-(−)-chiro | L-1-A | 1.60 | P21 | 202 | 191.0 | Conversion to 1-B | Jeffrey & Yeon (1987 ▶)",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Valori da Table 1. La colonna Reference per L-1-A cita Jeffrey & Yeon (1987), riferimento della struttura; le curve DSC di l-1 sono dichiarate uguali a quelle di d-1, quindi il dato e' trattato come proprio.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E8",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 246,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 16.4,
+     "unita": "J/g",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "The DSC and TGA curves and the XRPD patterns of l-1 are the same as for its enantiomer d-1.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "L-(−)-chiro | L-1-B | 1.50 | F***† | 246‡ | 16.4 | Melting | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Valori da Table 1 (L-1-B, Reference: This work).",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E9",
+   "da": "F7",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 250,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "entalpia": {
+     "valore": 243.1,
+     "unita": "J/g",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "The DSC analysis of rac-chiro-inositol, rac-1, shows only one endothermic signal at 250 °C from melting, which is 4–5 °C higher than for the pure enantiomers.",
+    "Combined DSC (red) and TGA (black) traces of rac-chiro-inositol (rac-1) measured from 20 to 400 °C showing the melting of rac-1 at 250 °C.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "racemic | rac-1 | 1.69 | P21/c | 250‡ | 243.1 | Melting | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il racemato fonde 4-5 °C sopra gli enantiomeri puri. La TGA non mostra perdita di massa prima della fusione.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E10",
+   "da": "F7",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 20,
+     "max": 250,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "The DSC analysis of rac-chiro-inositol, rac-1, shows only one endothermic signal at 250 °C from melting, which is 4–5 °C higher than for the pure enantiomers.",
+    "Combined DSC (red) and TGA (black) traces of rac-chiro-inositol (rac-1) measured from 20 to 400 °C showing the melting of rac-1 at 250 °C.",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«Only one endothermic signal ... from melting»: nessuna altra transizione solido-solido riscaldando da 20 °C fino alla fusione a 250 °C (la decomposizione e' dopo, 308-344 °C). L'intervallo 20-250 e' la corsa fino alla fusione.",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E11",
+   "da": "fuso",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 308,
+     "max": 344,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Decomposition occurs as a broad signal between 308 and 344 °C.",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Segnale largo dopo la fusione a 250 °C.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E12",
+   "da": "F8",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 358,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "entalpia": {
+     "valore": 263.1,
+     "unita": "J/g",
+     "tipo": "decomposizione"
+    }
+   },
+   "citazioni": [
+    "DSC analysis of 2-A shows only one sharp endothermic signal at 358 °C resulting from decomposition. TGA measurements show no mass loss or gain until 330 °C. Further heating results in decomposition (see Fig. 6 ▶).",
+    "Combined DSC (red) and TGA (black) traces of scyllo-inositol (2-A) measured from 20 to 500 °C showing the decomposition of 2-A at 358 °C.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "scyllo | 2-A | 1.57 | P21/c | 358§ | 263.1 | Decomposition | Yeon (2001 ▶), Day et al. (2006 ▶)",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "scyllo-inositolo decompone prima di fondere: l'entalpia di fusione non e' misurabile. La TGA non mostra perdita ne' guadagno di massa fino a 330 °C.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E13",
+   "da": "F8",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "max": 358,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ]
+   },
+   "citazioni": [
+    "DSC analysis of 2-A shows only one sharp endothermic signal at 358 °C resulting from decomposition. TGA measurements show no mass loss or gain until 330 °C. Further heating results in decomposition (see Fig. 6 ▶).",
+    "In contrast, the D 3d-symmetrical scyllo-inositol (σ = 6) exhibits neither a rotator phase nor any other phase transition up to its decomposition at 355 °C.",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nessuna fase rotatoria ne' altra transizione di fase fino alla decomposizione.",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "conflitto": "La decomposizione e' a 358 °C nella sezione 3.3, in Fig. 6 e in Table 1, ma a 355 °C nella discussione del cis-inositolo («up to its decomposition at 355 °C»): si tiene 358 °C (la descrizione puntuale batte il riepilogo).",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E14",
+   "da": "F10",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 152,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "entalpia": {
+     "valore": 136.8,
+     "unita": "J/g",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "DSC analysis of 5-A shows a sharp endothermic signal at 152 °C resulting from the phase transition to a high-temperature form 5-B.",
+    "As was the case for d-1-B, the high value of the phase transition enthalpy from 5-A to 5-B is due to the fact that 5-B and 5-C are rotator phases.",
+    "Combined DSC (red) and TGA (black) traces of cis-inositol (5-A) measured from 20 to 400 °C showing the phase transition of polymorph 5-A to 5-B at 152 °C and 5-B to 5-C at 215 °C until melting/decomposition of 5-C at 350 °C.",
+    "Temperature-dependent X-ray powder diffraction traces of cis-inositol (5) at 20, 200 and up to 227 °C showing the phase transition of polymorph 5-A (black) to the first high-temperature polymorph 5-B (red) to the second high-temperature polymorph 5-C (blue).",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "cis | 5-A | 1.61 | P21/n | 152 | 136.8 | Conversion to 5-B | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "5-B e' una fase rotatoria (alta entalpia di transizione). Ritorno: 5-B non torna a 5-A raffreddando (E18).",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E15",
+   "da": "F11",
+   "a": "F12",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 215,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "entalpia": {
+     "min": 3.6,
+     "limite": "sopra",
+     "unita": "J/g",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "Furthermore, 5-B shows a phase transition to another high-temperature form labelled as 5-C.",
+    "The XRPD patterns show that the transition from 5-B to 5-C at 215 °C is incomplete, resulting in a mixture of 5-B and 5-C.",
+    "These transformations are reversible: upon heating, 5-E changes back to 5-D at 57 °C, to 5-B at 156 °C and to 5-C at 215 °C, which finally shows a melting/decomposition point at 351 °C (Fig. 11 ▶).",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "cis | 5-B | 1.51 | P3**/P6**†† | 215 | > 3.6‡‡ | Conversion to 5-C | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere.",
+    "The heating rate was 5 °C min−1 for the mixture 5-B + 5-C, 3 °C min−1 for all other phases."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Esito parziale: in T-XRPD la trasformazione e' incompleta, miscela di 5-B e 5-C (dati a 227 °C nei metodi, «mixture 5-B + 5-C»; velocita' T-XRPD 5 °C/min per questa miscela, 3 °C/min per le altre fasi). Lo stesso passaggio a 215 °C si osserva anche scaldando 5-E (seconda corsa DSC, Fig. 11): un solo evento. Entalpia in Table 1: «> 3.6».",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E16",
+   "da": "F12",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 350,
+     "max": 351,
+     "unita": "°C",
+     "tipo": "dispersione"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "entalpia": {
+     "valore": 313.6,
+     "unita": "J/g",
+     "tipo": "fusione/decomposizione"
+    }
+   },
+   "citazioni": [
+    "Upon further heating, a simultaneous melting/decomposition process occurs at 350 °C (Fig. 7 ▶).",
+    "These transformations are reversible: upon heating, 5-E changes back to 5-D at 57 °C, to 5-B at 156 °C and to 5-C at 215 °C, which finally shows a melting/decomposition point at 351 °C (Fig. 11 ▶).",
+    "The TGA curves show no mass loss or gain during these heating and cooling processes, except at the melting/decomposition points.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "cis | 5-C | 1.47 | F*** † | 351 | 313.6 | Decomposition | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione e decomposizione simultanee («melting/decomposition»): a = fuso con decomposizione fra i prodotti secondari. 350 °C nella prima corsa (Fig. 7), 351 °C nella seconda (Fig. 11 e Table 1).",
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E17",
+   "da": "F11",
+   "a": "F13",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 141,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "When polymorph 5-B is cooled from 200 °C to room temperature, it does not convert back to 5-A, but forms two new polymorphs: at 141 °C form 5-B transforms to 5-D, which at 57 °C converts to form 5-E (Fig. 9 ▶).",
+    "DSC trace of cis-inositol measured from 200 °C down to room temperature showing the phase transition of polymorph 5-B to 5-D at 141 °C and 5-D to 5-E at 57 °C.",
+    "Temperature-dependent X-ray powder diffraction traces of cis-inositol (5) at 200, 135 and down to 20 °C showing the phase transitions of polymorph 5-B (black) to polymorph 5-D (red) to polymorph (5-E) (blue).",
+    "These transformations are reversible: upon heating, 5-E changes back to 5-D at 57 °C, to 5-B at 156 °C and to 5-C at 215 °C, which finally shows a melting/decomposition point at 351 °C (Fig. 11 ▶).",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Raffreddamento da 200 °C. Il ritorno scaldando ha condizioni sue (156 °C, E22).",
+   "reversibile": true,
+   "inverso_di": "E22",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E18",
+   "da": "F11",
+   "a": "F10",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "max": 200,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "When polymorph 5-B is cooled from 200 °C to room temperature, it does not convert back to 5-A, but forms two new polymorphs: at 141 °C form 5-B transforms to 5-D, which at 57 °C converts to form 5-E (Fig. 9 ▶).",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Raffreddando 5-B da 200 °C a temperatura ambiente non si riforma 5-A: si formano 5-D e poi 5-E.",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "inverso_di": "E14",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E19",
+   "da": "F13",
+   "a": "F14",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 57,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "When polymorph 5-B is cooled from 200 °C to room temperature, it does not convert back to 5-A, but forms two new polymorphs: at 141 °C form 5-B transforms to 5-D, which at 57 °C converts to form 5-E (Fig. 9 ▶).",
+    "5-D is a high-temperature polymorph that only exists above 57 °C and that converts to 5-E on cooling.",
+    "The crystal structures of 5-D and 5-E are very similar and share the same unit-cell parameters. The phase transition corresponds to the loss of the inversion symmetry to lower the space-group symmetry from Pbca, Z′ = 1 to one of its maximum subgroups P212121, Z′ = 2 (see overlay in Fig. 14 ▶).",
+    "These transformations are reversible: upon heating, 5-E changes back to 5-D at 57 °C, to 5-B at 156 °C and to 5-C at 215 °C, which finally shows a melting/decomposition point at 351 °C (Fig. 11 ▶).",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Strutture molto simili, stessa cella: perdita del centro di inversione (Pbca, Z'=1 -> P212121, Z'=2).",
+   "reversibile": true,
+   "inverso_di": "E21",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E20",
+   "da": "F13",
+   "a": "F14",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "condizioni": {
+    "temperatura": {
+     "min": 57,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sopra"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "5-D is a high-temperature polymorph that only exists above 57 °C and that converts to 5-E on cooling."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo per soglia («only exists above 57 °C»): sopra 57 °C 5-D non si converte in 5-E; sotto, raffreddando, si converte (E19).",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E21",
+   "da": "F14",
+   "a": "F13",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 57,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "entalpia": {
+     "valore": 12.5,
+     "unita": "J/g",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "These transformations are reversible: upon heating, 5-E changes back to 5-D at 57 °C, to 5-B at 156 °C and to 5-C at 215 °C, which finally shows a melting/decomposition point at 351 °C (Fig. 11 ▶).",
+    "DSC trace of cis-inositol (5) measured from 20 up to 400 °C showing the phase transition of polymorph 5-E back to 5-D at 57 °C, 5-D back to 5-B at 156 °C and 5-B to 5-C at 215 °C until melting/decomposition of 5-C at 351 °C.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "cis | 5-E | 1.66 | P212121 | 57 | 12.5 | Conversion to 5-D | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Verso inverso di 5-D -> 5-E, scaldando.",
+   "reversibile": true,
+   "inverso_di": "E19",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E22",
+   "da": "F13",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 156,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "entalpia": {
+     "valore": 93.6,
+     "unita": "J/g",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "These transformations are reversible: upon heating, 5-E changes back to 5-D at 57 °C, to 5-B at 156 °C and to 5-C at 215 °C, which finally shows a melting/decomposition point at 351 °C (Fig. 11 ▶).",
+    "DSC trace of cis-inositol (5) measured from 20 up to 400 °C showing the phase transition of polymorph 5-E back to 5-D at 57 °C, 5-D back to 5-B at 156 °C and 5-B to 5-C at 215 °C until melting/decomposition of 5-C at 351 °C.",
+    "Temperature-dependent X-ray powder diffraction traces of cis-inositol (5) at 20, 135, 200 and up to 227 °C showing the phase transitions of 5-E (black) to polymorph 5-D (red) to polymorph 5-B (blue) and finally to a mixture of polymorphs 5-B and 5-C (green).",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "cis | 5-D | 1.63 | Pbca | 156 | 93.6 | Conversion to 5-B | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Verso inverso di 5-B -> 5-D (141 °C raffreddando), scaldando a 156 °C.",
+   "reversibile": true,
+   "inverso_di": "E17",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E23",
+   "da": "F12",
+   "a": "F14",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 20,
+     "max": 227,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "testo": "rapid cooling",
+     "unita": null
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "After all T-XRPD measurements, a final rapid cooling process from 227 to 20 °C led to a conversion of polymorph 5-C to 5-E."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Raffreddamento rapido da 227 a 20 °C alla fine delle misure T-XRPD; velocita' non data. A 227 °C il campione e' descritto altrove come miscela di 5-B e 5-C («the mixture 5-B + 5-C»), ma la frase parla di 5-C."
+  },
+  {
+   "id": "E24",
+   "da": "F15",
+   "a": "F16",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "picco": 184,
+     "circa": true,
+     "unita": "°C",
+     "tipo": "picco"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "entalpia": {
+     "valore": 197.2,
+     "unita": "J/g",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "DSC analysis of allo-inositol shows a sharp endothermic signal with a minimum at about 184 °C resulting from the phase transition from polymorph 6-A to the high-temperature polymorph 6-B.",
+    "6-B is another rotator phase, again explaining the unusually high enthalpy of the transition from 6-A to 6-B (Fig. 15 ▶).",
+    "DSC trace of allo-inositol measured from 20 up to 400 °C showing the phase transition of polymorph 6-A to 6-B at 184 °C, melting of 6-B at 319 °C and decomposition at 334 °C.",
+    "Temperature-dependent X-ray powder diffraction traces of allo-inositol (6) at 20, 170 and 200 °C showing the phase transition of polymorph 6-A (black and red), which is stable up to the minimum 170 °C, to polymorph 6-B at 200 °C (blue).",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "allo | 6-A | 1.68 | P21/n | 184 | 197.2 | Conversion to 6-B | Bonnet et al. (2006a ▶)",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Minimo dell'endoterma a circa 184 °C (picco). Il cambio a 180 °C riportato da Bonnet et al. 2006 era questa transizione e non una fusione (intro).",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E25",
+   "da": "F15",
+   "a": "F16",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "max": 170,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 3,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Temperature-dependent X-ray powder diffraction traces of allo-inositol (6) at 20, 170 and 200 °C showing the phase transition of polymorph 6-A (black and red), which is stable up to the minimum 170 °C, to polymorph 6-B at 200 °C (blue).",
+    "The heating rate was 5 °C min−1 for the mixture 5-B + 5-C, 3 °C min−1 for all other phases."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "6-A stabile fino a 170 °C (la T minima misurata prima di 200 °C): il diffrattogramma a 170 °C e' ancora 6-A, a 200 °C e' 6-B. Velocita' T-XRPD 3 °C/min («all other phases»).",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E26",
+   "da": "F16",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 319,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 23.04,
+     "unita": "J/g",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "Two further endothermic signals could be observed; the first onset at 319 °C resulting from melting of polymorph 6-B and the second sharp endothermic signal at 334 °C resulting from decomposition.",
+    "DSC trace of allo-inositol measured from 20 up to 400 °C showing the phase transition of polymorph 6-A to 6-B at 184 °C, melting of 6-B at 319 °C and decomposition at 334 °C.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "allo | 6-B | 1.50 | F***† | 319‡ | 23.04 | Melting | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione della fase rotatoria 6-B: e' il polimorfo ad alto punto di fusione cercato per l'allo-inositolo.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E27",
+   "da": "fuso",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 334,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Two further endothermic signals could be observed; the first onset at 319 °C resulting from melting of polymorph 6-B and the second sharp endothermic signal at 334 °C resulting from decomposition.",
+    "DSC trace of allo-inositol measured from 20 up to 400 °C showing the phase transition of polymorph 6-A to 6-B at 184 °C, melting of 6-B at 319 °C and decomposition at 334 °C.",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Secondo segnale, acuto, dopo la fusione di 6-B a 319 °C.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E28",
+   "da": "F17",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 225,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 242.7,
+     "unita": "J/g",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "We redetermined the melting point of polymorph 7-A using DSC measurement (Fig. 17 ▶).",
+    "DSC trace of myo-inositol (7) measured from 20 up to 400 °C showing its melting point of polymorph 7-A at 225 °C and its decomposition between 306 and 363 °C.",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "myo | 7-A | 1.58 | P21/c | 225‡ | 242.7 | Melting | Rabinovich & Kraut (1964 ▶)",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "riprodotta",
+   "natura": "fisica",
+   "note": "Punto di fusione gia' noto (225 °C, Simperler et al.) rideterminato qui: «We redetermined the melting point of polymorph 7-A».",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E29",
+   "da": "fuso",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 306,
+     "max": 363,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "DSC trace of myo-inositol (7) measured from 20 up to 400 °C showing its melting point of polymorph 7-A at 225 °C and its decomposition between 306 and 363 °C.",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Decomposizione dopo la fusione di 7-A a 225 °C (didascalia Fig. 17).",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E30",
+   "da": "F17",
+   "a": "F19",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 189,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min",
+     "testo": "slow cooling rate"
+    },
+    "atmosfera": "N2",
+    "altro": "campione scaldato fino a 280 °C finche' 7-A e' completamente fuso, poi raffreddato a 20 °C"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Polymorph 7-C was obtained during DSC measurements by heating 7-A to 280 °C until 7-A had melted completely. During the cooling down process to 20 °C, 7-C crystallizes from the melt at 189 °C and is stable at 20 °C (Fig. 18 ▶).",
+    "It appears that a slow cooling rate yields form 7-C from the melt, whereas a fast cooling rate yields form 7-A from the melt.",
+    "DSC trace of myo-inositol (7) measured from 280 down to 20 °C showing the transformation from the melt to polymorph 7-C at 189 °C.",
+    "Temperature-dependent X-ray powder diffraction traces of myo-inositol (7) at 20 up to 280 down to 20 and up to 200 °C showing the melt of polymorph 7-A (black and red), recrystallization to 7-C (blue) and phase transition back to 7-A (green).",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "7-A fonde (225 °C) e il fuso, raffreddato lentamente, cristallizza come 7-C a 189 °C. Velocita' di raffreddamento DSC 1 °C/min dai metodi; la frase non dice il valore di «slow» ne' di «fast». Un raffreddamento veloce dal fuso da' invece 7-A (preparazione).",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E31",
+   "da": "F19",
+   "a": "F17",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 170,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "entalpia": {
+     "valore": -31.8,
+     "unita": "J/g",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "Heating 7-C to 280 °C, at 170 °C it transforms back to 7-A, which melts at 225 °C (see Fig. 19 ▶); this transition is reproducible.",
+    "DSC trace of myo-inositol (7) measured from 20 up to 280 °C showing the phase transition of 7-C back to 7-A at 170 °C, and the melting point of polymorph 7-A at 225 °C.",
+    "Temperature-dependent X-ray powder diffraction traces of myo-inositol (7) at 20 up to 280 down to 20 and up to 200 °C showing the melt of polymorph 7-A (black and red), recrystallization to 7-C (blue) and phase transition back to 7-A (green).",
+    "Isomer | Phase | ρ (g cm−3) | Space group | T m (°C) | ΔH t (J g−1) | Type of phase transition | Reference",
+    "myo | 7-C | 1.66 | Pca21 | 170 | −31.8 | Conversion to 7-A | This work",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Transizione riproducibile («this transition is reproducible»). Entalpia negativa in Table 1 (-31.8 J/g): segno come scritto.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  },
+  {
+   "id": "E32",
+   "da": "F19",
+   "a": "F17",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "over time"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "At room temperature, 7-C slowly converts to 7-A over time. See the supporting information for further information."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Conversione lenta a temperatura ambiente; i dettagli sono nel supplementare. Vedi il conflitto con «is stable at 20 °C» nell'evento 7-C non convertito.",
+   "dettagli_nel_supplementare": true
+  },
+  {
+   "id": "E33",
+   "da": "F19",
+   "a": "F17",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 20,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "atmosfera": "N2"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "During the cooling down process to 20 °C, 7-C crystallizes from the melt at 189 °C and is stable at 20 °C (Fig. 18 ▶).",
+    "Differential scanning calorimetry (DSC) measurements were performed on a SETARAM (DSC 131) device. For each measurement, about 10 to 15 mg of the sample was filled into an Al crucible and measured at a rate of 1 °C min−1 under an N2 atmosphere."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«is stable at 20 °C» alla fine del raffreddamento DSC (tempi della corsa).",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "conflitto": "Altrove: «At room temperature, 7-C slowly converts to 7-A over time»: stabile nella corsa DSC a 20 °C, ma si converte lentamente a temperatura ambiente nel tempo. Si riportano entrambe.",
+   "campione": {
+    "massa": "about 10 to 15 mg"
+   }
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F4"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "d-(+)-chiro-Inositol (d-1·1/3H2O), l-(−)-chiro-inositol (l-1·1/3H2O), cis-inositol (5), allo-inositol (6) and myo-inositol (7) were purchased from Sigma Aldrich (≥ 98.0%)",
+    "The crystals initially obtained for d-(+)-chiro-inositol turned out to be a 1/3 hydrate, d-1·1/3H2O, as determined by single-crystal analysis."
+   ],
+   "fonte_dati": "propria",
+   "note": "Gli idrati 1/3 dei due enantiomeri sono i reagenti commerciali (Sigma Aldrich, ≥ 98.0%), usati cosi' come ricevuti. Per cis-, allo- e myo-inositolo il testo non nomina la forma acquistata."
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "water"
+   ],
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 5,
+    "unita": "d",
+    "circa": true,
+    "tipo": "attesa"
+   },
+   "citazioni": [
+    "rac-chiro-Inositol (rac-1) was prepared by dissolving 30 mg of each enantiomer in 3 ml water. The solution was left to evaporate at room temperature and a white powder precipitated after ca 5 d."
+   ],
+   "fonte_dati": "propria",
+   "rapporto_solido_solvente": "30 mg of each enantiomer in 3 ml water"
+  },
+  {
+   "forme": [
+    "F17"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "esito": "ottenuta",
+   "velocita": {
+    "testo": "fast cooling rate",
+    "unita": null
+   },
+   "citazioni": [
+    "It appears that a slow cooling rate yields form 7-C from the melt, whereas a fast cooling rate yields form 7-A from the melt.",
+    "A final cool-down of the melt shown in Fig. 19 ▶ led to the recrystallization of polymorph 7-A (see Fig. S13 ▶ in the supporting information)."
+   ],
+   "fonte_dati": "propria",
+   "note": "7-A ricristallizza dal fuso con raffreddamento veloce, e dal raffreddamento finale del fuso di Fig. 19 (velocita' non detta). Velocita' non data in numeri."
+  },
+  {
+   "forme": [
+    "F19"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E30",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Polymorph 7-C was obtained during DSC measurements by heating 7-A to 280 °C until 7-A had melted completely. During the cooling down process to 20 °C, 7-C crystallizes from the melt at 189 °C and is stable at 20 °C (Fig. 18 ▶)."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F18"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "ethanol/ethyl acetate 60:40"
+   ],
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "Repeated attempts to crystallize 7-B including crystallizations from ethanol/ethyl acetate 60:40 as indicated in the publication of Khan et al. and additional solvent-assisted grinding experiments failed to reproduce the polymorph."
+   ],
+   "fonte_dati": "propria",
+   "note": "Il metodo di cristallizzazione non e' dettagliato (come nella pubblicazione di Khan et al.). Il campione di 7-B non era piu' disponibile."
+  },
+  {
+   "forme": [
+    "F18"
+   ],
+   "metodo": "macinazione",
+   "solventi": [],
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "Repeated attempts to crystallize 7-B including crystallizations from ethanol/ethyl acetate 60:40 as indicated in the publication of Khan et al. and additional solvent-assisted grinding experiments failed to reproduce the polymorph."
+   ],
+   "fonte_dati": "propria",
+   "note": "«solvent-assisted grinding»: solvente e forma di partenza non detti."
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "methanol/water"
+   ],
+   "esito": "non_ottenuta",
+   "citazioni": [
+    "Repeated attempts to crystallize 2-B using crystallization experiments from methanol/water as indicated in the publication of Day et al. failed to reproduce the polymorph."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F8",
+    "F9"
+   ],
+   "metodo": "diffusione",
+   "solventi": [
+    "water",
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "rapporto_solido_solvente": "50, 40 and 30 mg of 2-A in 3 ml water; vials in jars containing 10 ml methanol",
+   "citazioni": [
+    "Vapour diffusion experiments were performed by dissolving 50, 40 and 30 mg samples of 2-A in 3 ml water using an ultrasonic bath.",
+    "The first set of solutions (containing 50, 40 and 30 mg dissolved in 3 ml water) were deposited without a lid into screw-top jars containing 10 ml methanol.",
+    "In each experiment, different ratios of 2-A and 2-B were obtained, but these experiments also failed to produce pure 2-B."
+   ],
+   "fonte_dati": "propria",
+   "note": "Miscele di 2-A e 2-B in rapporti diversi; 2-B puro mai ottenuto. Un secondo gruppo di fiale con coperchio forato da una cannula di 0.9 mm per rallentare la diffusione del metanolo."
+  },
+  {
+   "forme": [
+    "F8",
+    "F9"
+   ],
+   "metodo": "antisolvente",
+   "solventi": [
+    "water",
+    "methanol"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "rapporto_solido_solvente": "scyllo-inositol in 3 ml water; portions of about 7 ml methanol added",
+   "citazioni": [
+    "Additionally, antisolvent crystallization experiments were performed by dissolving scyllo-inositol in the same manner as for the vapour diffusion experiments. Afterwards, portions of about 7 ml methanol were added, at first fast to each of the first set of experiments using a syringe and then slowly by placing methanol carefully over the solution containing scyllo-inositol to yield a two-phase system.",
+    "In each experiment, different ratios of 2-A and 2-B were obtained, but these experiments also failed to produce pure 2-B."
+   ],
+   "fonte_dati": "propria",
+   "note": "Miscele di 2-A e 2-B, mai 2-B puro. Il metanolo e' aggiunto prima velocemente e poi lentamente in strato."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "chiral; enantiomer of l-(−)-chiro-inositol",
+     "citazione": "d-(+)-chiro- and l-(−)-chiro-inositol are enantiomers, and their crystal structures can be expected to be mirror images, with identical thermodynamic properties such as melting points."
+    },
+    {
+     "tipo": "chiralita",
+     "testo": "one of the only two chiral inositols (cannot pack in a space group with an inversion centre or a glide plane)",
+     "citazione": "Because d-(+)- and l-(−)-chiro-inositol are the only inositols that are chiral, they are the only inositols that cannot pack in a space group with an inversion centre or a glide plane"
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "chiral; enantiomer of d-(+)-chiro-inositol",
+     "citazione": "d-(+)-chiro- and l-(−)-chiro-inositol are enantiomers, and their crystal structures can be expected to be mirror images, with identical thermodynamic properties such as melting points."
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "racemic (equal mixture of the two enantiomers of chiro-inositol)",
+     "citazione": "Both pure enantiomers and the racemate, rac-1, were investigated."
+    }
+   ],
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "forma": "F7",
+     "grandezza": {
+      "valore": 221,
+      "unita": "°C"
+     },
+     "calcolato": true,
+     "metodo": "temperatura di fusione corretta per la simmetria molecolare (T m′), equazione (4) di Wei (1999)",
+     "citazione": "The only corrected melting point that can be calculated with the current data is that of rac-chiro-inositol (rac-1), for which T m′ = 221 °C."
+    }
+   ]
+  },
+  {
+   "composto": "C4",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 6,
+      "unita": null
+     },
+     "calcolato": false,
+     "metodo": "numero di simmetria molecolare σ (ordine del gruppo puntuale contando solo rotazioni proprie e identita')",
+     "citazione": "In contrast, the D 3d-symmetrical scyllo-inositol (σ = 6) exhibits neither a rotator phase nor any other phase transition up to its decomposition at 355 °C."
+    }
+   ]
+  },
+  {
+   "composto": "C5",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 3,
+      "unita": null
+     },
+     "calcolato": false,
+     "metodo": "numero di simmetria molecolare σ (simmetria C3v)",
+     "citazione": "Interestingly, the C 3v-symmetrical cis-inositol (σ = 3) has five different polymorphs, of which two are rotator phases, the first even at quite a low temperature (156 °C)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "legame_h_intramolecolare",
+     "forma": "F10",
+     "testo": "one intramolecular hydrogen bond per molecule in 5-A",
+     "citazione": "In 5-A, each molecule forms one intramolecular hydrogen bond and ten intermolecular hydrogen bonds (five as donors, five as acceptors; Fig. 13 ▶)."
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "forma": "F13",
+     "testo": "one intramolecular hydrogen bond per molecule in 5-D and 5-E",
+     "citazione": "In 5-D and 5-E, each molecule forms one intramolecular and ten intermolecular hydrogen bonds."
+    }
+   ]
+  }
+ ]
+}
