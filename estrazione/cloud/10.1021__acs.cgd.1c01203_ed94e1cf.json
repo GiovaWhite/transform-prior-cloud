@@ -1,0 +1,1093 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.1c01203",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2109678",
+  "2109679",
+  "2109680"
+ ],
+ "note": "Non sono eventi: la flessione plastica dei cristalli di Form I perpendicolarmente a [100] (prove meccaniche con ago e pinzette, nessun cambio di fase; altre direzioni rompono il cristallo), l'analisi di Hirshfeld e le energie d'interazione (calcoli). Incoerenze dell'articolo: la T della transizione I -> II e' 127 °C (abstract, DSC, conclusioni), 129 e 135 °C (HSM, corpo e didascalia Fig. 2b), 117-131 °C (VT-PXRD), 125 °C (HSM da Form III), «higher than 134 °C» (sezione struttura); la fusione e' 153 °C (DSC), 160 °C (HSM Form I, didascalia) e 140 °C (HSM da Form III); il Form III e' «obtained» in DCM (metodi) o «concomitantly with Form I» (risultati). Tabella 1 con colonne affiancate dal PDF: le celle sono attribuite per ordine di colonna (298 K, 100 K, 404 K, 100 K). Nel testo i 'solvothermal' e 'precipitation at gradient temperature' sono citati senza condizioni.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "2,7-bis(2-(2-methoxyethoxy)ethoxy)benzo[b]benzo[4,5]thieno[2,3-d]thiophene (OEG-BTBT)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Form I",
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 18.635,
+    "b": 7.667,
+    "c": 8.293,
+    "beta": 99.35,
+    "V": 1169.1,
+    "Z": 4,
+    "Z_primo": 0.5,
+    "fonte": "SCXRD",
+    "condizioni": "298 K (RT)"
+   },
+   "strutture": [
+    {
+     "ccdc": "2109678",
+     "temperatura": {
+      "valore": 298,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Data collection of room temperature (298 K) Form I OEG-BTBT was performed at the X-ray diffraction beamline (XRD2) of the Elettra Synchrotron, Trieste, Italy."
+    },
+    {
+     "ccdc": "2109679",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Form I and Form III at low temperature (100 K) SCXRD was performed by a Bruker Apex-II diffractometer with a Photon II detector."
+    }
+   ],
+   "ccdc_dedotto": true,
+   "citazione": "Form I crystal data were collected at room temperature (RT) and low temperature (LT); it is monoclinic with space group P21/c and a half molecule in the asymmetric unit, and the inversion center generates the whole molecule (see Table 1).",
+   "note": "Cella RT (298 K) dalla Tabella 1 (colonna «Form I (298 K)»: a 18.635(4), b 7.667(2), c 8.293(2), β 99.35(3), V 1169.1(4), Z/Z′ 4/0.5). Cella LT (100 K): a 18.407(2), b 7.607(1), c 8.202(1), β 100.423(4), V 1129.6(2), Z/Z′ 4/0.5. I tre CCDC 2109678-2109680 della riga «CCDC no.» sono attribuiti PER ORDINE a Form I (298 K), Form I (100 K) e Form III (100 K): la tabella ha quattro colonne ma Form II (404 K) non ha struttura (solo indicizzazione). «Form I is anhydrous» (TGA-EGA).",
+   "motivi_hb": null
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "Form II",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2",
+   "cella": {
+    "a": 11.653,
+    "b": 41.255,
+    "c": 8.338,
+    "beta": 64.552,
+    "V": 3619.745,
+    "Z": 6,
+    "Z_primo": 1.5,
+    "fonte": "PXRD",
+    "condizioni": "404 K"
+   },
+   "citazione": "The pattern was indexed using TOPAS (Figure S14) and was found to have a monoclinic crystal structure (C2) having the unit cell parameters a = 11.653 Å, b = 41.255 Å, c = 8.338 Å, β = 64.552°, and volume 3619.745 Å−3, which corresponds to the presence of one and a half molecules in an asymmetric unit.",
+   "note": "Fase ad alta temperatura: solo cella indicizzata dalla PXRD da sincrotrone, struttura non risolta («it was not possible to solve the structure of Form II»). La Tabella 1 ha per Form II «Form II (404 K)», gruppo scritto solo «C» (testo: «(C2)»), Z/Z′ 6/1.5; la T di 404 K e' quella dell'intestazione. Gli autori la ritengono una fase disordinata. Nessun CCDC. Tipo anidro presunto: nessun solvente ne' perdita di massa detti per Form II.",
+   "etichette_alternative": [
+    "high-temperature polymorph"
+   ]
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Form III",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dichloromethane (DCM)",
+    "stechiometria": 1,
+    "fonte_stechiometria": "cristallografica"
+   },
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pnma",
+   "cella": {
+    "a": 8.303,
+    "b": 41.759,
+    "c": 7.491,
+    "beta": 90.0,
+    "V": 2597.3,
+    "Z": 8,
+    "Z_primo": 0.5,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "2109680",
+   "ccdc_dedotto": true,
+   "citazione": "Form III crystallizes as orthorhombic with space group Pnma and half a OEG-BTBT molecule and half a solvent molecule in the asymmetric unit.",
+   "note": "Cella dalla Tabella 1 (colonna «Form III (100 K)»; formula C24H28O6S2, CH2Cl2, Z/Z′ 8/0.5). Stechiometria 1:1 dalla formula della tabella e da «half ... and half». Solvato metastabile ottenuto da DCM, in concomitanza con Form I."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "enantiotropa",
+   "temperatura_transizione": {
+    "valore": 127,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "stabile_a_temperatura_ambiente": "F1",
+   "fonte_dati": "propria",
+   "citazione": "Form I and Form II are enantiotropically related, and Form II is stable at temperatures higher than 127 °C.",
+   "conflitto": "Nella sezione di struttura: «Form II is stable at a temperature higher than 134 °C before melting»; nelle conclusioni: «exists only at a temperature above 127 °C and below the melting point (153 °C)». Si tiene 127 °C (abstract, DSC, conclusioni).",
+   "note": "127 °C e' la temperatura della transizione in DSC («around 127 °C»), non una temperatura di equilibrio termodinamico misurata come tale."
+  },
+  {
+   "forme": [
+    "F1",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "condizioni": "room temperature",
+   "fonte_dati": "propria",
+   "citazione": "The thermodynamically stable Form I structure dominates since Form II and Form III are metastable at RT.",
+   "note": "Form III e' un solvato di DCM: la stabilita' rispetto a Form I dipende dalla perdita di solvente, non e' mono/enantiotropia."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "inverso_di": [
+    "E10"
+   ],
+   "condizioni": {
+    "temperatura": {
+     "valore": 127,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (flow rate 80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 27.96,
+     "unita": "kJ/mol",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "The DSC curve of Form I revealed that there is a solid−solid reversible transition at around 127 °C (ΔH = 27.96 kJ/mol) confirmed also by the VTXRD at synchrotron, whereas the melting starts at 153 °C (ΔH = 22.76 kJ/mol) (Figure 2a).",
+    "About 2−4 mg of samples was crimped in hermetic aluminum crucibles (40 μL) and scanned from room temperature to 300 °C at a heating rate 10 °C/min under a dry N2 atmosphere (flow rate 80 mL/min) for Form I and Form III.",
+    "Figure 2. OEG-BTBT Form I (a) DSC plot showing the onset temperature of the transition and melting (Endo UP), (b) HSM showing transition at 135 °C and melt at 160 °C. The heating rate for both DSC and HSM was 10 °C/min."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "massa": "2−4 mg",
+    "crogiolo": "sigillato"
+   },
+   "note": "Transizione solido-solido «reversible» a «around 127 °C»: il testo non dice se e' onset o picco (la didascalia della Fig. 2 dice solo che il grafico mostra le temperature di onset). Il ritorno ha condizioni sue (raffreddamento dal fuso): E10. Gli autori: l'entalpia della transizione e' maggiore di quella di fusione, il che «suggests that Form II is a disordered phase». La temperatura di transizione cambia nel testo: 127 (DSC, abstract, conclusioni), 129 e 135 (HSM), 117-131 (VT-PXRD), 134 °C («Form II is stable at a temperature higher than 134 °C»)."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "inverso_di": [
+    "E17"
+   ],
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 129
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "integrita": "fratturato"
+   },
+   "citazioni": [
+    "Form I crystal starts to convert at 129 °C, and the crystal shows cracks and changes on light polarization, but the crystallinity is highly maintained (Figure 2b).",
+    "Figure 2. OEG-BTBT Form I (a) DSC plot showing the onset temperature of the transition and melting (Endo UP), (b) HSM showing transition at 135 °C and melt at 160 °C. The heating rate for both DSC and HSM was 10 °C/min.",
+    "The heating chamber was capped with a sealable lid during heating and cooling cycles, and the rate was kept constant at 10 °C min−1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "conflitto": "Il testo dice che il cristallo «starts to convert at 129 °C»; la didascalia della Fig. 2b scrive «HSM showing transition at 135 °C». Si tiene il corpo (129 °C, onset).",
+   "note": "Il cristallo mostra crepe e cambia con la luce polarizzata, ma «the crystallinity is highly maintained» (integrita fratturato, non polverizzato). Il ritorno osservato in HSM e' E17."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "min": 117,
+     "max": 131
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "The VTXRDs of Form I were collected at the PSI synchrotron. The diffractograms were collected at regular intervals up to 136 °C. The transition was observed in the range of 117−131 °C (Figure 9).",
+    "VTXRD was performed at the Paul Scherrer Institut (PSI) Synchrotron radiation facility (Switzerland) using PXRD in the capillary transmission mode at MS-X04SA beamline from 20 to 136 °C.",
+    "Starting from room temperature, the XRD pattern was collected at various intervals until complete conversion of Form I to Form II (136 °C)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "capillare"
+   },
+   "note": "Sincrotrone PSI, PXRD in trasmissione su capillare, da 20 a 136 °C a intervalli regolari fino alla conversione completa di Form I in Form II (136 °C). La transizione e' osservata fra 117 e 131 °C. La velocita' di riscaldamento non e' scritta."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 121,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "altro": "Form I rapidly heated up to 121 °C, then pattern collected under isothermal conditions"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "modello_cinetico": "JMAK (Avrami)",
+    "cinetica": "Avrami exponent n = 2.26, ln K = −4.73 (linear plot at 121 °C); «nearly 2, which denotes one-dimensional growth»"
+   },
+   "citazioni": [
+    "To determine the solid-state kinetics, we rapidly heated Form I up to 121 °C, which corresponds to the temperature of transition, and collected the pattern at isothermal conditions.",
+    "The diffractogram collected shows the presence of a mixed",
+    "phase in the start and finally corresponds to Form II.",
+    "yielded a slope n = 2.26 and an y-intercept ln K = −4.73",
+    "At 121 °C, when the transformation was completed with increasing time, the value of the Avrami constant from the slope of the straight line was determined to be nearly 2, which denotes one-dimensional growth.",
+    "Therefore, it is known that n = 2 is consistent with nucleation and onedimensional growth processes."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "capillare"
+   },
+   "note": "Il diffrattogramma all'inizio mostra una fase mista (Form I e Form II) e alla fine solo Form II. Frazioni in peso quantificate col metodo PONKCS. Tempo di conversione non scritto in numeri (solo nelle figure)."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 117,
+     "unita": "°C",
+     "tipo": "isoterma"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "modello_cinetico": "JMAK (Avrami)",
+    "cinetica": "Avrami constant 3.81 a 117 °C"
+   },
+   "citazioni": [
+    "Similar plots for slightly lower (117 °C) and higher (124 °C) temperatures were also studied (Figure S15). We observed that as the temperature increased from 117 to 124 °C, the value of the Avrami constant decreased from 3.81 to 1.33, indicating that the nucleation to growth ratio was decreasing."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "capillare"
+   },
+   "note": "«Similar plots» a 117 e 124 °C (Fig. S15): la trasformazione I -> II e' implicita nell'analisi di Avrami; il testo non scrive la parola «Form II» per queste due temperature. Costante di Avrami 3.81 a 117 °C e 1.33 a 124 °C, come dice la frase («decreased from 3.81 to 1.33» al salire della T da 117 a 124 °C)."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 124,
+     "unita": "°C",
+     "tipo": "isoterma"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "modello_cinetico": "JMAK (Avrami)",
+    "cinetica": "Avrami constant 1.33 a 124 °C"
+   },
+   "citazioni": [
+    "Similar plots for slightly lower (117 °C) and higher (124 °C) temperatures were also studied (Figure S15). We observed that as the temperature increased from 117 to 124 °C, the value of the Avrami constant decreased from 3.81 to 1.33, indicating that the nucleation to growth ratio was decreasing."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "crogiolo": "capillare"
+   },
+   "note": "«Similar plots» a 117 e 124 °C (Fig. S15): la trasformazione I -> II e' implicita nell'analisi di Avrami; il testo non scrive la parola «Form II» per queste due temperature. Costante di Avrami 3.81 a 117 °C e 1.33 a 124 °C, come dice la frase («decreased from 3.81 to 1.33» al salire della T da 117 a 124 °C)."
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_dedotto": true,
+   "da_evento": "E1",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 153
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (flow rate 80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 22.76,
+     "unita": "kJ/mol",
+     "tipo": "fusione"
+    }
+   },
+   "citazioni": [
+    "The DSC curve of Form I revealed that there is a solid−solid reversible transition at around 127 °C (ΔH = 27.96 kJ/mol) confirmed also by the VTXRD at synchrotron, whereas the melting starts at 153 °C (ΔH = 22.76 kJ/mol) (Figure 2a).",
+    "About 2−4 mg of samples was crimped in hermetic aluminum crucibles (40 μL) and scanned from room temperature to 300 °C at a heating rate 10 °C/min under a dry N2 atmosphere (flow rate 80 mL/min) for Form I and Form III.",
+    "Form II, which is a high-temperature polymorph, exists only at a temperature above 127 °C and below the melting point (153 °C)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "massa": "2−4 mg",
+    "crogiolo": "sigillato"
+   },
+   "note": "Il testo scrive «the melting starts at 153 °C» nella curva DSC di Form I; poiche' la Form I e' gia' passata a Form II a 127 °C e le conclusioni dicono che Form II esiste «below the melting point (153 °C)», la forma che fonde e' Form II (da_dedotto). Punto di fusione dato come «starts», quindi onset."
+  },
+  {
+   "id": "E8",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_dedotto": true,
+   "da_evento": "E2",
+   "condizioni": {
+    "temperatura": {
+     "valore": 160,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Figure 2. OEG-BTBT Form I (a) DSC plot showing the onset temperature of the transition and melting (Endo UP), (b) HSM showing transition at 135 °C and melt at 160 °C. The heating rate for both DSC and HSM was 10 °C/min.",
+    "The heating chamber was capped with a sealable lid during heating and cooling cycles, and the rate was kept constant at 10 °C min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Solo nella didascalia della Fig. 2b («melt at 160 °C»); il corpo dice invece «the melting at 140 °C» per il campione partito da Form III (E15) e 153 °C in DSC (E7). La forma che fonde e' Form II (la I si e' gia' trasformata, E2): da_dedotto."
+  },
+  {
+   "id": "E9",
+   "da": "fuso",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "da_evento": "E7",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Upon cooling from the melt, first, we observe Form II at a higher temperature, which converts to Form I, and this shows the reversible behavior of the solid−solid transition."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "massa": "2−4 mg",
+    "crogiolo": "sigillato"
+   },
+   "note": "«Upon cooling from the melt, first, we observe Form II at a higher temperature»: nessuna T ne' velocita' di raffreddamento scritte. La tecnica (DSC) e' attribuita dal contesto del paragrafo («The DSC curve of Form I revealed ...»), la frase non la nomina."
+  },
+  {
+   "id": "E10",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "reversibile": true,
+   "inverso_di": [
+    "E1"
+   ],
+   "da_evento": "E9",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Upon cooling from the melt, first, we observe Form II at a higher temperature, which converts to Form I, and this shows the reversible behavior of the solid−solid transition."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "massa": "2−4 mg",
+    "crogiolo": "sigillato"
+   },
+   "note": "Il ritorno II -> I avviene nella stessa corsa, dopo la cristallizzazione di Form II dal fuso (E9): «this shows the reversible behavior of the solid−solid transition». Nessuna T scritta; vedi E17 per i 125 °C in HSM."
+  },
+  {
+   "id": "E11",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "picco",
+     "picco": 48,
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (flow rate 80 mL/min) per il DSC"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "°C",
+       "tipo": "picco",
+       "picco": 48,
+       "circa": true
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "In the DSC curve of Form III crystals (Figure S3), a small endothermic peak near 48 °C is clearly visible, which indicates the loss of DCM solvent, whereafter Form III solvate converts to the pristine Form I as the thermal behavior after the first peak is identical to Form I DSC.",
+    "TGA and EGA analysis revealed that Form I is anhydrous and Form III is a solvate Form (Figure S1), and the DCM molecules are easily lost from the crystal lattice at high temperatures (48 °C) or at room temperature in less than seven days’ time (Figures S2, S3 and S5).",
+    "As the solvent molecule disappears from the structure, the molecular packing loosens, due to which the molecules reorient themselves back to the original Form I.",
+    "About 2−4 mg of samples was crimped in hermetic aluminum crucibles (40 μL) and scanned from room temperature to 300 °C at a heating rate 10 °C/min under a dry N2 atmosphere (flow rate 80 mL/min) for Form I and Form III.",
+    "TGA-EGA was performed on Mettler-Toledo TGA coupled with a Thermo Nicolet iS 10IR FT_IR spectrometer with a scan rate of 10 °C/min and analyzed using STARe software."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "massa": "2−4 mg",
+    "crogiolo": "sigillato"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "oligoether chains",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "The solvent molecules which are placed between the layers of OEG-BTBT are involved only in weak interactions with the oligoether chains and among themselves."
+    }
+   ],
+   "note": "Il DSC e' in crogiolo «hermetic» crimpato: il testo attribuisce comunque il picco endotermico alla perdita di DCM («indicates the loss of DCM solvent»), quindi desolvatazione e non termica (stranezza del crogiolo segnalata). Dopo il primo picco la curva e' identica a quella di Form I. La TGA-EGA (10 °C/min) conferma che Form III e' un solvato e che il DCM esce a 48 °C; nessuna perdita di massa numerica nel testo (Fig. S1-S3)."
+  },
+  {
+   "id": "E12",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": "days",
+     "tipo": "trasformazione",
+     "max": 7,
+     "limite": "sotto"
+    }
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "TGA and EGA analysis revealed that Form I is anhydrous and Form III is a solvate Form (Figure S1), and the DCM molecules are easily lost from the crystal lattice at high temperatures (48 °C) or at room temperature in less than seven days’ time (Figures S2, S3 and S5).",
+    "Form III, which is a solvate of dichloromethane, found at ambient conditions again converts back to Form I as the DCM dries out of the crystal lattice (upon heating or within seven days of time).",
+    "As the solvent molecule disappears from the structure, the molecular packing loosens, due to which the molecules reorient themselves back to the original Form I."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "oligoether chains",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "The solvent molecules which are placed between the layers of OEG-BTBT are involved only in weak interactions with the oligoether chains and among themselves."
+    }
+   ],
+   "note": "«at room temperature in less than seven days’ time» / «found at ambient conditions ... within seven days of time»: il DCM esce all'aria ambiente senza RH detta. La tecnica con cui si segue la conversione non e' nominata (rimando alle Fig. S2, S3 e S5)."
+  },
+  {
+   "id": "E13",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 75,
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "The HSM of Form III visually confirms the onset of release of solvent at around 75 °C. Interestingly, it is not a destructive transition as commonly observed, and it converts into Form I, and then the conversion into Form II is observed to start at 125 °C and the melting at 140 °C.",
+    "The heating chamber was capped with a sealable lid during heating and cooling cycles, and the rate was kept constant at 10 °C min−1.",
+    "Single crystals on a glass-slide and covered with a coverslip were placed in a heating chamber (hot stage) on an OLYMPUS BX41 stereo-microscope equipped with an LINKAM LTS350 platinum plate for temperature control and VISICAM analyzer."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "oligoether chains",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "The solvent molecules which are placed between the layers of OEG-BTBT are involved only in weak interactions with the oligoether chains and among themselves."
+    }
+   ],
+   "note": "«onset of release of solvent at around 75 °C»; «it is not a destructive transition as commonly observed» (integrita intatto). Piu' alta dei 48 °C di DSC/TGA: eventi distinti per tecnica. Il vetrino e' coperto da un coprioggetto e la camera chiusa da un coperchio apribile."
+  },
+  {
+   "id": "E14",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E13",
+   "pretrattamento": "Form I ottenuta dalla Form III per perdita di DCM (E13) nella stessa corsa HSM",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 125
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The HSM of Form III visually confirms the onset of release of solvent at around 75 °C. Interestingly, it is not a destructive transition as commonly observed, and it converts into Form I, and then the conversion into Form II is observed to start at 125 °C and the melting at 140 °C.",
+    "The heating chamber was capped with a sealable lid during heating and cooling cycles, and the rate was kept constant at 10 °C min−1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "«the conversion into Form II is observed to start at 125 °C»: Form I proveniente dalla desolvatazione di Form III, non Form I di partenza (E2: 129 °C). Il ritorno e' E17."
+  },
+  {
+   "id": "E15",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "da_evento": "E14",
+   "da_dedotto": true,
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "onset",
+     "onset": 140
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The HSM of Form III visually confirms the onset of release of solvent at around 75 °C. Interestingly, it is not a destructive transition as commonly observed, and it converts into Form I, and then the conversion into Form II is observed to start at 125 °C and the melting at 140 °C.",
+    "The heating chamber was capped with a sealable lid during heating and cooling cycles, and the rate was kept constant at 10 °C min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "«the conversion into Form II is observed to start at 125 °C and the melting at 140 °C»: il verbo «start» regge anche la fusione (onset), ma il testo non lo ripete. Il solido che fonde e' Form II (da_dedotto). 140 °C contro 153 °C (DSC, E7) e 160 °C (HSM, didascalia Fig. 2b, E8): incoerenza dell'articolo fra esperimenti HSM diversi."
+  },
+  {
+   "id": "E16",
+   "da": "fuso",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "da_evento": "E15",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "By cooling the melt, Form II crystallizes, which exhibits a reversible transition at 125 °C resulting in the stable polymorph (Form I) at room temperature (Video S1).",
+    "The heating chamber was capped with a sealable lid during heating and cooling cycles, and the rate was kept constant at 10 °C min−1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "«By cooling the melt, Form II crystallizes»: la T di cristallizzazione non e' scritta. 10 °C min−1 vale per «heating and cooling cycles» secondo i metodi HSM."
+  },
+  {
+   "id": "E17",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "reversibile": true,
+   "inverso_di": [
+    "E2"
+   ],
+   "da_evento": "E16",
+   "condizioni": {
+    "temperatura": {
+     "valore": 125,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "By cooling the melt, Form II crystallizes, which exhibits a reversible transition at 125 °C resulting in the stable polymorph (Form I) at room temperature (Video S1).",
+    "The heating chamber was capped with a sealable lid during heating and cooling cycles, and the rate was kept constant at 10 °C min−1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Form II cristallizzata dal fuso mostra «a reversible transition at 125 °C» che da' Form I «at room temperature». Il testo non dice se 125 °C e' onset o picco."
+  },
+  {
+   "id": "E18",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "K",
+     "tipo": "non_specificato"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "pretrattamento": "flash cooling in liquid nitrogen",
+   "citazioni": [
+    "Low-temperature data (100 K) are still consistent with the room temperature model of Form I (i.e., no detectable phase transition has been detected upon flash cooling in liquid nitrogen).",
+    "Form I and Form III at low temperature (100 K) SCXRD was performed by a Bruker Apex-II diffractometer with a Photon II detector."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Raffreddando bruscamente Form I a 100 K i dati restano coerenti con il modello a temperatura ambiente: nessuna transizione di fase rilevata. «a» ignota: il testo non nomina una forma attesa."
+  },
+  {
+   "id": "E19",
+   "da": "F1",
+   "a": "F3",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "da_dedotto": true,
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "dichloromethane (DCM)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Surprisingly, after many attempts, no Form III was obtained by prolonged slurry experiments in DCM.",
+    "In addition to recrystallization from solution, other methods to explore the polymorphs were investigated, such as the solvothermal method in CHF and DCM, precipitation at gradient temperature, antisolvent crystallization, slurry, and mechanochemistry.",
+    "All of these experiments and different experimental conditions resulted in Form I, and no amorphous phase was detected.",
+    "OEG-BTBT is a crystalline material, and it was recrystallized in the various solvents mentioned above and, in all cases, yielded to the formation of the starting crystalline material called Form I, while by recrystallization of OEG-BTBT in DCM, the solvate crystal form called Form III, was obtained concomitantly with Form I (Figure S4)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«after many attempts, no Form III was obtained by prolonged slurry experiments in DCM»: durata e temperatura non scritte. Il solido di partenza non e' nominato nella frase; si assume Form I perche' il testo la chiama «the starting crystalline material called Form I» (da_dedotto). La tecnica PXRD e' quella con cui «All precipitates were characterized»."
+  },
+  {
+   "id": "E20",
+   "da": "F1",
+   "a": "amorfo",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "da_dedotto": true,
+   "condizioni": {
+    "macinazione": {
+     "testo": "mechanochemistry"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "In addition to recrystallization from solution, other methods to explore the polymorphs were investigated, such as the solvothermal method in CHF and DCM, precipitation at gradient temperature, antisolvent crystallization, slurry, and mechanochemistry.",
+    "All of these experiments and different experimental conditions resulted in Form I, and no amorphous phase was detected."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«All of these experiments ... resulted in Form I, and no amorphous phase was detected»: la frase copre solvotermale, precipitazione a gradiente di T, antisolvente, sospensione e meccanochimica; qui solo per la meccanochimica, che parte da un solido. Mulino, durata e liquido non scritti; il solido di partenza (Form I) e' dedotto."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "chloroform (CHF)",
+    "N,N-dimethylacetamide (DMA)",
+    "N,N-dimethylformamide (DMF)",
+    "cyclohexanone",
+    "toluene (TOL)",
+    "tetrahydrofuran (THF)"
+   ],
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente"
+   },
+   "citazioni": [
+    "Recrystallization was carried out by solvent evaporation at RT in chloroform (CHF), dichloromethane (DCM), N,N-dimethylacetamide (DMA), N,Ndimethylformamide (DMF), cyclohexanone, toluene (TOL), and tetrahydrofuran (THF).",
+    "In all of the experiments, Form I was obtained except in DCM where we obtained Form III."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Evaporazione a RT in sette solventi, una prova per solvente; in tutti Form I tranne che in DCM (P2). La solubilita' e' stata provata in 25 solventi."
+  },
+  {
+   "forme": [
+    "F3",
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "dichloromethane (DCM)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente"
+   },
+   "citazioni": [
+    "Recrystallization was carried out by solvent evaporation at RT in chloroform (CHF), dichloromethane (DCM), N,N-dimethylacetamide (DMA), N,Ndimethylformamide (DMF), cyclohexanone, toluene (TOL), and tetrahydrofuran (THF).",
+    "OEG-BTBT is a crystalline material, and it was recrystallized in the various solvents mentioned above and, in all cases, yielded to the formation of the starting crystalline material called Form I, while by recrystallization of OEG-BTBT in DCM, the solvate crystal form called Form III, was obtained concomitantly with Form I (Figure S4)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "conflitto": "Metodi: «In all of the experiments, Form I was obtained except in DCM where we obtained Form III»; risultati: Form III «obtained concomitantly with Form I (Figure S4)». Si tiene la versione dei risultati (piu' circostanziata): Form III insieme a Form I.",
+   "note": "Form III compare solo da DCM."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "antisolvente",
+   "solventi": [
+    "chloroform/propyl acetate (1:1)",
+    "dichloromethane/1,4-dioxane (1:1)"
+   ],
+   "solventi_alternativi": true,
+   "citazioni": [
+    "Antiprecipitation from supersaturated solutions was carried out with chloroform/propyl acetate (1:1) and dichloromethane/1,4-dioxane (1:1).",
+    "All of these experiments and different experimental conditions resulted in Form I, and no amorphous phase was detected."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "I rapporti 1:1 sono quelli delle miscele di solventi. «All of these experiments» (risultati) comprende l'antisolvente: Form I."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "chloroform (CHF)",
+    "dichloromethane (DCM)"
+   ],
+   "solventi_alternativi": true,
+   "citazioni": [
+    "Crystallization through the solvothermal technique was performed using CHF and DCM.",
+    "In addition to recrystallization from solution, other methods to explore the polymorphs were investigated, such as the solvothermal method in CHF and DCM, precipitation at gradient temperature, antisolvent crystallization, slurry, and mechanochemistry.",
+    "All of these experiments and different experimental conditions resulted in Form I, and no amorphous phase was detected."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Metodo solvotermale (nessuna T ne' tempo scritti)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "altro",
+   "citazioni": [
+    "In addition to recrystallization from solution, other methods to explore the polymorphs were investigated, such as the solvothermal method in CHF and DCM, precipitation at gradient temperature, antisolvent crystallization, slurry, and mechanochemistry.",
+    "All of these experiments and different experimental conditions resulted in Form I, and no amorphous phase was detected."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "«precipitation at gradient temperature»: solvente, gradiente e T non scritti."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "chloroform (CHF)"
+   ],
+   "rapporto_solido_solvente": "1 mg/mL",
+   "citazioni": [
+    "Suitable crystals of Form I and Form III for single-crystal X-ray diffraction were obtained from CHF and DCM solutions (1 mg/mL), respectively."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Cristalli per SCXRD di Form I da soluzione in CHF (1 mg/mL). Metodo di cristallizzazione non detto; i cristalli sono lastrine sottili «when subjected to very slow evaporation»."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "dichloromethane (DCM)"
+   ],
+   "rapporto_solido_solvente": "1 mg/mL",
+   "citazioni": [
+    "Suitable crystals of Form I and Form III for single-crystal X-ray diffraction were obtained from CHF and DCM solutions (1 mg/mL), respectively."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Cristalli per SCXRD di Form III da soluzione in DCM (1 mg/mL); struttura misurata a 100 K. Metodo di cristallizzazione non detto."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "solvente": "organic solvents (soluble in CHF, DCM, DMA, DMF, TOL, THF and cyclohexanone)",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "highly insoluble in most of the organic solvents, except in CHF, DCM, DMA, DMF, TOL, THF, and cyclohexanone"
+     },
+     "metodo": "solubility screening in 25 solvents",
+     "calcolato": false,
+     "citazione": "Solubility tests show that OEGBTBT is highly insoluble in most of the organic solvents, except in CHF, DCM, DMA, DMF, TOL, THF, and cyclohexanone."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "flat rigid core and flexible oligoether chain, almost perpendicular to the core; O−C−C−O torsion angles 68.66(8)−70.29(7)°",
+     "citazione": "The molecule is characterized by the flat rigid core and the flexible oligoether chain, which is almost perpendicular to the core."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "O−C−C−O torsion angles of the chain in the range 68.66(8)−70.29(7)°, close to the average torsion angle of ethylene glycol",
+     "citazione": "The chain, due to the presence of the oxygen, loses the regularity of the alkyne chain with the formation of a torsion angles (O−C−C−O) in the range 68.66(8)−70.29(7)°, which is close to the average value of the torsion angle of ethylene glycol statistics obtained from Mogul software"
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "molecules in Form I and Form III superimposable despite possible different chain configurations",
+     "citazione": "Despite the possibility of having different chain configurations, the OEG-BTBT molecules in Form I and Form III are superimposable"
+    }
+   ]
+  }
+ ]
+}
