@@ -1,0 +1,1047 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/jacs.3c09246",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "HOF molecolari di una gabbia organica flessibile con ponti di ossigeno (Cage-6-COOH): CageHOF-2α (3 reti interpenetrate, non porosa), CageHOF-2β (2 reti, porosa) e cinque solvati; sette strutture SCXRD in totale. Dati cristallografici nel testo solo per α e β; per i solvati (DMAc, DESO, NMP, THF, H2O) le tabelle S6–S10 sono nel supplementare e il testo non da' CCDC. «CageHOF-2» è usato dagli autori sia per il solido a bassa cristallinità (attivato) sia come prefisso della famiglia dei solvati («CageHOF-2·THF»): qui F4 è il solido a bassa cristallinità. Le isoterme di sorbimento (CH3CN, EtOH, CO2, N2) sono eventi quando il testo dice che la fase cambia (PXRD); il sorbimento senza cambio di fase (N2 a 77 K su β) è un negativo. Il testo non da' le temperature del VT-PXRD di α (Fig. S11, S12, S15) né la velocità. Incoerenze del testo: (1) Introduzione: «CageHOF-2α switches to CageHOF-2β in response to ethanol vapor», Risultati: è la polvere attivata CageHOF-2 (collassata) che diventa β con vapore di EtOH (ad α non e' mai applicato l'EtOH); (2) area superficiale di β: abstract e fine della sezione sorbimento 458 m2 g–1, sezione 'Properties' 410 m2 g–1 (campione attivato per scambio di solvente e vuoto; 458 dalla preparazione scalata con vapore di EtOH); (3) la cella di β da SCXRD (a 43.576(4) Å, V 8275.5(11) Å3) e da Pawley sul campione solvatato (a 44.06 Å, V 8374.5 Å3) differiscono; (4) «an activated, solvent-free, activated CageHOF-2 powder» (ripetizione); (5) abstract: «a remarkable 67° dihedral angle range» (90°–157°) mentre i singoli intervalli sono 116°–126° (α) e 90°–143° (β); (6) lo scambio di solvente di β e' fatto con EtOH → acetone → n-pentano, ma dopo l'attivazione resta «a trace amount of EtOH solvent (3.5 wt %)».",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "Cage-6-COOH",
+   "sigla_non_sciolta": true
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "CageHOF-2α",
+   "etichette_alternative": [
+    "CH3CN-solvated CageHOF-2α",
+    "P6̅2c crystal structure"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetonitrile",
+    "stechiometria": null
+   },
+   "sistema_cristallino": "esagonale",
+   "gruppo_spaziale": "P-62c",
+   "gruppo_spaziale_scritto": "P6̅2c",
+   "cella": {
+    "a": 22.6444,
+    "c": 16.4319,
+    "V": 7296.9,
+    "fonte": "SCXRD"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "carboxylic acid dimers (3-D HOF, acs topology, 3-fold interpenetrated)",
+     "chi": "Cage-6-COOH with six neighbouring Cage-6-COOH molecules",
+     "citazione": "In the extended CageHOF-2α structure, each Cage-6-COOH hydrogen bonds to six neighboring Cage-6-COOH molecules via strongly directional carboxylic acid dimers at donor–acceptor distances in the range of 2.58–2.59 Å."
+    }
+   ],
+   "citazione": "Single-crystal X-ray diffraction (SCXRD) analysis revealed that Cage-6-COOH crystallized from the THF/CH3CN solution in the hexagonal space group P6̅2c (a = 22.6444(8) Å, c = 16.4319(5) Å, V = 7296.9(6) Å3).",
+   "note": "Cristallo SCXRD da THF/CH3CN; il campione in massa e' «the CH3CN-solvated crystalline sample» (PXRD, Pawley). Stechiometria dell'ospite non detta; pori da 2.2 nm riempiti di solvente e tre piccoli pori triangolari (<10 Å). Meta' molecola nell'unita' asimmetrica; non porosa dopo attivazione. Angoli diedri dei pilastri 116°–126°."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "CageHOF-2β",
+   "etichette_alternative": [
+    "EtOH-solvated CageHOF-2β"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "ethanol",
+    "stechiometria": null
+   },
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P21212",
+   "cella": {
+    "a": 43.576,
+    "b": 11.7207,
+    "c": 16.203,
+    "V": 8275.5,
+    "fonte": "SCXRD"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "carboxylic acid dimers, not all planar (3-D HOF, distorted acs topology, 2-fold interpenetrated)",
+     "chi": "Cage-6-COOH with six neighbouring Cage-6-COOH molecules",
+     "citazione": "In CageHOF-2β, each Cage-6-COOH molecule in the structure hydrogen bonds with six neighboring Cage-6-COOH molecules via carboxylic acid dimers at donor–acceptor distances in the range of 2.51–2.74 Å."
+    },
+    {
+     "motivo": "hydrogen-bond motifs not all planar",
+     "chi": "Cage-6-COOH carboxylic acid dimers",
+     "citazione": "However, unlike those in CageHOF-2α, the hydrogen-bond motifs in CageHOF-2β are not all planar, and the aromatic pillars have profoundly different orientations."
+    }
+   ],
+   "citazione": "As shown in Figure 3, the CageHOF-2β structure, which has orthorhombic P21212 symmetry (a = 43.576(4) Å, b = 11.7207(9) Å, c = 16.2030(8) Å, and V = 8275.5(11) Å3), contains two pores with different sizes and shapes.",
+   "note": "Cristallizzata da EtOH per evaporazione a 343 K; cristalli piccoli e debole diffrazione. «Disordered solvent molecules were omitted» (etanolo, stechiometria non detta). Angoli diedri dei pilastri 90°–143°. Cella da Pawley sul campione solvatato (P21212): a 44.06, b 11.74, c 16.19 Å, V 8374.5 Å3 (Rwp 2.39%, Rp 1.68%)."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "activated CageHOF-2β",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "stato_di": "F2",
+   "citazione": "Unlike CageHOF-2α, the crystallinity of CageHOF-2β appeared to be preserved after activating the crystal, according to the PXRD patterns (Figure 3e and Figure S22).",
+   "note": "β attivata (scambio di solvente EtOH → acetone → n-pentano, vuoto dinamico a temperatura ambiente): cristallinita' conservata, residuo «a trace amount of EtOH solvent (3.5 wt %)» (NMR), TGA 5% prima di 450 °C. Porosa: isoterma N2 a 77 K di tipo I, SA_BET 410 m2 g–1 (458 m2 g–1 dalla preparazione scalata con vapore di EtOH). Tipo anidro presunto: il testo dice «activated», non 'anidra', e c'e' un residuo di EtOH."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "CageHOF-2",
+   "etichette_alternative": [
+    "activated CageHOF-2 powder",
+    "low-crystallinity solid",
+    "CageHOF-2 powder"
+   ],
+   "tipo": "amorfo",
+   "ospite": null,
+   "citazione": "However, all attempts to remove the solvent from the crystal pores, including heating (Figures S11 and S12) and supercritical CO2 drying (scCO2, Figure S13), caused CageHOF-2α to transform into a low-crystallinity solid (referred to as CageHOF-2) that was nonporous based on N2 sorption at 77 K (Figure S14).",
+   "note": "Solido a bassa cristallinita' e non poroso (N2 a 77 K), senza solvente; «amorfo» per mancanza di un tipo 'a bassa cristallinita' (il testo non dice 'amorphous'). Dopo attivazione di α e, nelle prove di sorbimento, 'activated, solvent-free CageHOF-2 powder'."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "CageHOF-2·DMAc",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethylacetamide",
+    "stechiometria": null
+   },
+   "citazione": "We found five other crystal structures by crystallizing Cage-6-COOH from the following solvent mixtures: dimethylacetamide (DMAc)/acetone (CageHOF-2·DMAc, Figure S29 and Table S6), diethyl sulfoxide (DESO) (CageHOF-2·DESO, Figure S30 and Table S7), N-methyl-2-pyrrolidone (NMP) (CageHOF-2·NMP, Figure S31 and Table S8), THF/pentane (CageHOF-2·THF, Figure S32 and Table S9), and EtOH/H2O (CageHOF-2·H2O, Figure S33 and Table S10).",
+   "note": "Struttura SCXRD nel supplementare (tabelle S6–S10); stechiometria dell'ospite non detta nel testo.",
+   "motivi_hb": null,
+   "etichette_alternative": null
+  },
+  {
+   "id": "F6",
+   "composto": "C1",
+   "etichetta": "CageHOF-2·DESO",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "diethyl sulfoxide",
+    "stechiometria": null
+   },
+   "citazione": "We found five other crystal structures by crystallizing Cage-6-COOH from the following solvent mixtures: dimethylacetamide (DMAc)/acetone (CageHOF-2·DMAc, Figure S29 and Table S6), diethyl sulfoxide (DESO) (CageHOF-2·DESO, Figure S30 and Table S7), N-methyl-2-pyrrolidone (NMP) (CageHOF-2·NMP, Figure S31 and Table S8), THF/pentane (CageHOF-2·THF, Figure S32 and Table S9), and EtOH/H2O (CageHOF-2·H2O, Figure S33 and Table S10).",
+   "note": "Struttura SCXRD nel supplementare (tabelle S6–S10); stechiometria dell'ospite non detta nel testo.",
+   "motivi_hb": null
+  },
+  {
+   "id": "F7",
+   "composto": "C1",
+   "etichetta": "CageHOF-2·NMP",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "N-methyl-2-pyrrolidone",
+    "stechiometria": null
+   },
+   "citazione": "We found five other crystal structures by crystallizing Cage-6-COOH from the following solvent mixtures: dimethylacetamide (DMAc)/acetone (CageHOF-2·DMAc, Figure S29 and Table S6), diethyl sulfoxide (DESO) (CageHOF-2·DESO, Figure S30 and Table S7), N-methyl-2-pyrrolidone (NMP) (CageHOF-2·NMP, Figure S31 and Table S8), THF/pentane (CageHOF-2·THF, Figure S32 and Table S9), and EtOH/H2O (CageHOF-2·H2O, Figure S33 and Table S10).",
+   "note": "Struttura SCXRD nel supplementare (tabelle S6–S10); stechiometria dell'ospite non detta nel testo. CageHOF-2·DMAc, ·NMP e ·DESO sono isostrutturali nell'impacchettamento di Cage-6-COOH.",
+   "motivi_hb": null
+  },
+  {
+   "id": "F8",
+   "composto": "C1",
+   "etichetta": "CageHOF-2·THF",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "tetrahydrofuran (THF)",
+    "stechiometria": null
+   },
+   "citazione": "We found five other crystal structures by crystallizing Cage-6-COOH from the following solvent mixtures: dimethylacetamide (DMAc)/acetone (CageHOF-2·DMAc, Figure S29 and Table S6), diethyl sulfoxide (DESO) (CageHOF-2·DESO, Figure S30 and Table S7), N-methyl-2-pyrrolidone (NMP) (CageHOF-2·NMP, Figure S31 and Table S8), THF/pentane (CageHOF-2·THF, Figure S32 and Table S9), and EtOH/H2O (CageHOF-2·H2O, Figure S33 and Table S10).",
+   "note": "Struttura SCXRD nel supplementare (tabelle S6–S10); stechiometria dell'ospite non detta nel testo."
+  },
+  {
+   "id": "F9",
+   "composto": "C1",
+   "etichetta": "CageHOF-2·H2O",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": null
+   },
+   "citazione": "We found five other crystal structures by crystallizing Cage-6-COOH from the following solvent mixtures: dimethylacetamide (DMAc)/acetone (CageHOF-2·DMAc, Figure S29 and Table S6), diethyl sulfoxide (DESO) (CageHOF-2·DESO, Figure S30 and Table S7), N-methyl-2-pyrrolidone (NMP) (CageHOF-2·NMP, Figure S31 and Table S8), THF/pentane (CageHOF-2·THF, Figure S32 and Table S9), and EtOH/H2O (CageHOF-2·H2O, Figure S33 and Table S10).",
+   "note": "Struttura SCXRD nel supplementare (tabella S6–S10), stechiometria dell'ospite non detta nel testo. Angolo diedro fino a 157° in CageHOF-2·H2O."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "altro": "riscaldamento durante VT-PXRD (temperature nelle Figure S11, S12 e S15, non nel testo)"
+   },
+   "citazioni": [
+    "However, all attempts to remove the solvent from the crystal pores, including heating (Figures S11 and S12) and supercritical CO2 drying (scCO2, Figure S13), caused CageHOF-2α to transform into a low-crystallinity solid (referred to as CageHOF-2) that was nonporous based on N2 sorption at 77 K (Figure S14).",
+    "We used variable-temperature (VT) PXRD measurement to monitor the desolvation of the CH3CN-solvated CageHOF-2α sample. During the VT-PXRD study, we observed a contraction along the a = b unit cell axes while heating the sample to remove the solvent from the crystal pores. Over the same range, the structure appeared to remain unchanged along the c unit cell axis (Figure S15), which we attribute to the denser packing of Cage-6-COOH layers in the CageHOF-2α crystal structure (Figure S16)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD",
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen-bonded layers of Cage-6-COOH (packing along c)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F1",
+     "citazione": "Over the same range, the structure appeared to remain unchanged along the c unit cell axis (Figure S15), which we attribute to the denser packing of Cage-6-COOH layers in the CageHOF-2α crystal structure (Figure S16)."
+    }
+   ],
+   "note": "Rimozione del solvente (CH3CN) da CageHOF-2α per riscaldamento: il solido collassa in un solido a bassa cristallinita' non poroso (CageHOF-2). Durante il VT-PXRD la cella si contrae lungo a = b e resta invariata lungo c (impacchettamento denso degli strati). Frase unica per piu' tentativi («all attempts ... including heating and supercritical CO2 drying»): un evento per tentativo, certezza media."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "gas",
+   "condizioni": {
+    "atmosfera": "supercritical CO2 drying (scCO2)"
+   },
+   "citazioni": [
+    "However, all attempts to remove the solvent from the crystal pores, including heating (Figures S11 and S12) and supercritical CO2 drying (scCO2, Figure S13), caused CageHOF-2α to transform into a low-crystallinity solid (referred to as CageHOF-2) that was nonporous based on N2 sorption at 77 K (Figure S14)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "note": "Essiccamento con CO2 supercritica del campione solvatato di CageHOF-2α: stesso esito di E1 (solido a bassa cristallinita', non poroso). Temperatura e pressione dello scCO2 non dette nel testo."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 303,
+     "max": 433,
+     "unita": "K",
+     "tipo": "intervallo"
+    }
+   },
+   "citazioni": [
+    "No significant changes were observed in the VT-PXRD patterns of CageHOF-2β while increasing the temperature from 303 to 433 K or upon recooling the sample to room temperature, indicating that CageHOF-2β has good thermal stability (Figure S18).",
+    "From the VT-PXRD study, we also observed that CageHOF-2β contracts along the a and b unit cell axes during heating while expanding along the c unit cell axis (Figure S20)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "da_dedotto": true,
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen-bonding interactions between Cage-6-COOH molecules",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "citazione": "We attribute this to the hydrogen-bonding interactions between Cage-6-COOH molecules reorganizing into a more planar geometry along the c unit cell axis, which enables the Cage-6-COOH molecules to pack more closely along the a and b unit cell axes (Figure S21)."
+    }
+   ],
+   "note": "Nessun cambiamento significativo da 303 a 433 K e al ritorno a temperatura ambiente; solo variazione anisotropa della cella (a e b si contraggono, c si espande). Il campione non e' precisato (solvatato o attivato): e' prima dell'attivazione («This thermal stability encouraged us to obtain crystalline porous materials by careful desolvation treatment»), quindi da = β solvatata (da_dedotto)."
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "vuoto",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "dynamic vacuum"
+    }
+   },
+   "citazioni": [
+    "Before studying the porosity of CageHOF-2β, we first exchanged the EtOH crystallization solvent with acetone and then n-pentane over 2 days, noting that n-pentane is the most volatile and least likely to interact strongly with the pore walls (see SI Section 4 for details). Then, we activated the pores under a dynamic vacuum at room temperature.",
+    "Unlike CageHOF-2α, the crystallinity of CageHOF-2β appeared to be preserved after activating the crystal, according to the PXRD patterns (Figure 3e and Figure S22).",
+    "However, the NMR spectrum indicates that the activated CageHOF-2β still contained a trace amount of EtOH solvent (3.5 wt %, Figure S23).",
+    "Thermogravimetric analysis (TGA, Figure S24) showed a 5% weight loss before 450 °C, in broad agreement with the NMR data."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "pretrattamento": "scambio del solvente di cristallizzazione: EtOH → acetone → n-pentano in 2 giorni",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "TGA",
+     "analisi_chimica"
+    ],
+    "perdita_massa": {
+     "valore": 5,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "note": "Attivazione di CageHOF-2β: dopo lo scambio di solvente (EtOH → acetone → n-pentano, 2 giorni) il vuoto dinamico a temperatura ambiente toglie il solvente e la cristallinita' resta (PXRD), a differenza di α. Residuo di EtOH 3.5 wt % (NMR) e TGA 5% prima di 450 °C. Il prodotto (F3) e' poroso (SA_BET 410 m2 g–1, isoterma N2 di tipo I). La durata del vuoto non e' detta."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "altro",
+   "sottovia": "gas",
+   "condizioni": {
+    "temperatura": {
+     "valore": 77,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "atmosfera": "N2 sorption isotherm"
+   },
+   "citazioni": [
+    "Next, we recorded an N2 sorption isotherm for the activated CageHOF-2β at 77 K.",
+    "We also recorded a PXRD pattern of CageHOF-2β after the N2 sorption isotherm, which confirmed the good stability of CageHOF-2β during this sorption measurement (Figure S26)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "note": "Dopo l'isoterma di N2 a 77 K su β attivata il PXRD conferma la stabilita' della struttura durante il sorbimento."
+  },
+  {
+   "id": "E6",
+   "da": "F4",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.43,
+     "unita": "P/P0",
+     "tipo": "vapore"
+    },
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "solventi": [
+     {
+      "nome": "acetonitrile (CH3CN)"
+     }
+    ]
+   },
+   "citazioni": [
+    "To do this, we conducted organic vapor sorption experiments by exposing an activated, solvent-free, activated CageHOF-2 powder to CH3CN vapor.",
+    "In the CH3CN sorption isotherm, we observed a stepwise increase in the uptake (Figure 5a) with a gradual increase over the low-pressure range, followed by a steep increase in the uptake at P/P0 = 0.43.",
+    "PXRD patterns recorded after CH3CN vapor exposure indicated that the CageHOF-2 powder had switched to CageHOF-2α with high crystallinity.",
+    "Organic vapor sorption isotherms of activated Cage-HOF-2 at 298 K.",
+    "The flexibility of Cage-6-COOH allows this molecule to rapidly transform from a low-crystallinity solid into the two crystalline interpenetrated HOFs, CageHOF-2α and CageHOF-2β, under mild conditions simply by using acetonitrile or ethanol vapor, respectively."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E7",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "altro"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "carboxylic acid dimers (hydrogen bonds between cage molecules)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "forma": "F1",
+     "citazione": "In the extended CageHOF-2α structure, each Cage-6-COOH hydrogen bonds to six neighboring Cage-6-COOH molecules via strongly directional carboxylic acid dimers at donor–acceptor distances in the range of 2.58–2.59 Å."
+    }
+   ],
+   "note": "Autoguarigione (self-healing): la polvere attivata a bassa cristallinita' torna ad α con alta cristallinita' con vapore di CH3CN a 298 K; salto netto dell'assorbimento a P/P0 = 0.43, saturazione verso 0.85. Volumi di pori: 0.12 cm3 g–1 a P/P0 = 0.41, 0.23 a 0.68, 0.25 a 0.93 (sotto il valore teorico di α, 0.40 cm3 g–1). I dimeri dell'acido carbossilico sono il sintone di α (struttura SCXRD); il testo non dice se si formino o si ricompongano nella trasformazione."
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": null,
+   "condizioni": {},
+   "citazioni": [
+    "Further PXRD experiments suggested that this transformation was reversible; that is, the regenerated CageHOF-2α crystal transformed to CageHOF-2 powder again after removing the CH3CN (Figures S40–S42)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E6",
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "note": "Ritorno ad CageHOF-2 a bassa cristallinita' togliendo il CH3CN: il testo non dice come (T, vuoto, tempo) ne' quanto: «suggested». Il degassaggio a 333 K per 12 h e' descritto per il campione prima dell'isoterma di EtOH (E8), non per questo ritorno."
+  },
+  {
+   "id": "E8",
+   "da": "F4",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.35,
+     "unita": "P/P0",
+     "tipo": "vapore",
+     "circa": true
+    },
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol (EtOH)"
+     }
+    ]
+   },
+   "citazioni": [
+    "After the CH3CN vapor sorption isotherm, we used the same sample for an EtOH vapor sorption isotherm after degassing the material at 333 K for 12 h. Again, we observed a gate-opening-type sorption isotherm, with a sharp increase occurring from about P/P0 = 0.35, indicating the existence of a phase transformation (Figure 5b).",
+    "A further PXRD study confirmed that activated CageHOF-2 powder transformed into the porous CageHOF-2β phase upon treatment with EtOH vapor (Figure S41).",
+    "In this case, the sorption process was irreversible until the fourth cycle.",
+    "Organic vapor sorption isotherms of activated Cage-HOF-2 at 298 K.",
+    "The flexibility of Cage-6-COOH allows this molecule to rapidly transform from a low-crystallinity solid into the two crystalline interpenetrated HOFs, CageHOF-2α and CageHOF-2β, under mild conditions simply by using acetonitrile or ethanol vapor, respectively."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "pretrattamento": "stesso campione dell'isoterma di CH3CN, degassato a 333 K per 12 h",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "altro"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "flexible oxygen bridges of Cage-6-COOH",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "We propose that the fast crystalline transformation is due to the synergistic effect of the flexible oxygen bridges in Cage-6-COOH and flexible carboxylic acid hydrogen-bond dimers."
+    },
+    {
+     "gruppo": "flexible carboxylic acid hydrogen-bond dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "We propose that the fast crystalline transformation is due to the synergistic effect of the flexible oxygen bridges in Cage-6-COOH and flexible carboxylic acid hydrogen-bond dimers."
+    }
+   ],
+   "note": "Isoterma di EtOH a 298 K con salto da P/P0 ≈ 0.35 (gate opening) e transizione a β porosa (PXRD); irreversibile fino al quarto ciclo, poi il punto di saturazione si sposta a pressioni piu' basse perche' il materiale passa «step by step» a una fase porosa metastabile (non nominata, Fig. S44). Volume dei pori 0.197 cm3 g–1 a P/P0 = 0.97 (teorico di β 0.22 cm3 g–1). Prodotto: β con EtOH assorbito (F2)."
+  },
+  {
+   "id": "E9",
+   "da": "F4",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "trasformazione"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol (EtOH)",
+      "proporzione": "vapore saturo"
+     }
+    ]
+   },
+   "citazioni": [
+    "Remarkably, this structural transformation appeared to be complete after 5 min under saturated EtOH vapor at room temperature, as indicated by a dynamic PXRD study (Figure S45).",
+    "This switching behavior is advantageous for the scale-up preparation of CageHOF-2β with improved porosity (458 m2 g–1, Figures S46 and S47).",
+    "We propose that the fast crystalline transformation is due to the synergistic effect of the flexible oxygen bridges in Cage-6-COOH and flexible carboxylic acid hydrogen-bond dimers.",
+    "The flexibility of Cage-6-COOH allows this molecule to rapidly transform from a low-crystallinity solid into the two crystalline interpenetrated HOFs, CageHOF-2α and CageHOF-2β, under mild conditions simply by using acetonitrile or ethanol vapor, respectively."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "flexible oxygen bridges of Cage-6-COOH",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "We propose that the fast crystalline transformation is due to the synergistic effect of the flexible oxygen bridges in Cage-6-COOH and flexible carboxylic acid hydrogen-bond dimers."
+    },
+    {
+     "gruppo": "flexible carboxylic acid hydrogen-bond dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "We propose that the fast crystalline transformation is due to the synergistic effect of the flexible oxygen bridges in Cage-6-COOH and flexible carboxylic acid hydrogen-bond dimers."
+    }
+   ],
+   "note": "Trasformazione completa in 5 min con vapore saturo di EtOH a temperatura ambiente (PXRD dinamico); usata per la preparazione scalata di β con SA_BET 458 m2 g–1. Stessa trasformazione dell'isoterma (E8) in condizioni diverse (vapore saturo, tempo)."
+  },
+  {
+   "id": "E10",
+   "da": "F2",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "vapore",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "acetonitrile (CH3CN)"
+     }
+    ]
+   },
+   "citazioni": [
+    "Notably, we could not transform CageHOF-2β into CageHOF-2α after exposing CageHOF-2β to CH3CN vapor, suggesting that activated CageHOF-2 powder exhibits a structural “memory” behavior, as observed in some soft porous MOF materials.2,50"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "note": "Memoria strutturale: β esposta a vapore di CH3CN non passa ad α (la polvere attivata CageHOF-2 sì, E6). Condizioni (T, P/P0, durata) non dette; la tecnica non e' scritta ma le trasformazioni sono verificate con PXRD."
+  },
+  {
+   "id": "E11",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "gas",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 0.21,
+     "max": 0.96,
+     "unita": "P/P0",
+     "tipo": "forchetta"
+    },
+    "temperatura": {
+     "valore": 195,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "atmosfera": "CO2 adsorption isotherm"
+   },
+   "citazioni": [
+    "We also observed this type of gate open behavior during a CO2 adsorption isotherm recorded at 195 K (Figure S43), with the pore volume increasing from 0.024 cm3 g–1 at P/P0 = 0.21 to 0.185 cm3 g–1 at P/P0 = 0.96."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservato": false,
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "note": "Apertura del cancello nell'isoterma di CO2 a 195 K (volume dei pori da 0.024 cm3 g–1 a P/P0 = 0.21 a 0.185 cm3 g–1 a 0.96): cambio strutturale dedotto dall'isoterma, senza identificazione della fase (osservato: false). Il campione e' la polvere attivata CageHOF-2 (dal contesto «this type of gate open behavior»)."
+  },
+  {
+   "id": "E12",
+   "da": "F4",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "gocce_di_solvente",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "tetrahydrofuran (THF)",
+      "proporzione": "trace amount of liquid"
+     }
+    ]
+   },
+   "citazioni": [
+    "For example, we found that a trace amount of THF liquid cleanly transformed activated CageHOF-2 powder into highly crystalline CageHOF-2·THF (Figures S49–S51).",
+    "We screened the self-healing behavior of activated CageHOF-2 powder in response to different organic solvents, which suggests that the self-healing behavior strongly correlates with the type and functionality of the solvent (Figure S48)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Una traccia di THF liquido trasforma «cleanly» la polvere attivata in CageHOF-2·THF molto cristallino. Quantita', T e durata non dette."
+  },
+  {
+   "id": "E13",
+   "da": "F4",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": null,
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "methanol (MeOH)"
+     }
+    ]
+   },
+   "citazioni": [
+    "By contrast, MeOH transformed activated CageHOF-2 powder into CageHOF-2β, whereas solvents without hydrogen-bond donor and acceptor atoms, such as hexane and toluene, had no apparent effect on the structure of the material (Figure S48).",
+    "We screened the self-healing behavior of activated CageHOF-2 powder in response to different organic solvents, which suggests that the self-healing behavior strongly correlates with the type and functionality of the solvent (Figure S48)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "MeOH (liquido o vapore: non detto) porta la polvere attivata a β. Il testo correla l'autoguarigione con il tipo e la funzionalita' del solvente (donatori/accettori di legami H)."
+  },
+  {
+   "id": "E14",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": null,
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "hexane"
+     },
+     {
+      "nome": "toluene"
+     }
+    ]
+   },
+   "citazioni": [
+    "By contrast, MeOH transformed activated CageHOF-2 powder into CageHOF-2β, whereas solvents without hydrogen-bond donor and acceptor atoms, such as hexane and toluene, had no apparent effect on the structure of the material (Figure S48).",
+    "We screened the self-healing behavior of activated CageHOF-2 powder in response to different organic solvents, which suggests that the self-healing behavior strongly correlates with the type and functionality of the solvent (Figure S48)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "solventi_alternativi": true,
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Esano e toluene, solventi senza atomi donatori e accettori di legame H, «had no apparent effect on the structure». Una prova per solvente (alternativi). Stato del solvente (liquido o vapore) non detto."
+  },
+  {
+   "id": "E15",
+   "da": "F1",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ],
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "several days"
+    }
+   },
+   "citazioni": [
+    "In addition, we found that after being immersed in water for several days, CageHOF-2α transformed to CageHOF-2·H2O."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "note": "CageHOF-2α immersa in acqua per diversi giorni diventa CageHOF-2·H2O (idrato, angolo diedro fino a 157°). La tecnica e' dedotta (PXRD come per le altre trasformazioni, il testo non la ripete)."
+  },
+  {
+   "id": "E16",
+   "da": "F8",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": null,
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "ethanol (EtOH)"
+     }
+    ]
+   },
+   "citazioni": [
+    "Interestingly, CageHOF-2·THF and CageHOF-2·H2O could then be transformed to CageHOF-2β using EtOH (Figures S52–S54)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "note": "CageHOF-2·THF → β con EtOH (liquido o vapore: non detto). Una frase per due forme: un evento per forma."
+  },
+  {
+   "id": "E17",
+   "da": "F9",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": null,
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "ethanol (EtOH)"
+     }
+    ]
+   },
+   "citazioni": [
+    "Interestingly, CageHOF-2·THF and CageHOF-2·H2O could then be transformed to CageHOF-2β using EtOH (Figures S52–S54)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "note": "CageHOF-2·H2O → β con EtOH (liquido o vapore: non detto). Una frase per due forme: un evento per forma. L'angolo diedro Φ va da 157° (·H2O) a 90°–143° (β) secondo il testo sulle strutture: la rotazione e' fra le due strutture, non descritta come meccanismo della trasformazione.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "aromatic pillars (dihedral angle Φ about the oxygen bridges)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F9",
+     "citazione": "Indeed, we found that the dihedral angle (Φ in Figure 4) could rotate from 90° in CageHOF-2β to up to 157° in CageHOF-2·H2O."
+    }
+   ]
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "diffusione",
+   "solventi": [
+    "tetrahydrofuran (THF)",
+    "acetonitrile (CH3CN)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente"
+   },
+   "tempo": {
+    "valore": 5,
+    "unita": "day",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "We first crystallized Cage-6-COOH from tetrahydrofuran (THF) after carefully layering acetonitrile (CH3CN) on the THF solution (see the SI, Section 4 for full details). After leaving the crystallization undisturbed at room temperature for 5 days, we observed colorless needle-like crystals that were suitable for X-ray analysis (Figures S6 and S7)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol (EtOH)"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 343,
+    "unita": "K",
+    "tipo": "isoterma"
+   },
+   "citazioni": [
+    "Next, we expanded our crystallization screen and discovered a new polymorph, CageHOF-2β, that was formed by crystallizing Cage-6-COOH from ethanol (EtOH) after leaving a solution to evaporate at 343 K. During the crystallization, we observed spindle-like crystals on the surface of the vial (Figure S8)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Cristalli a forma di fuso (spindle-like) sulla superficie della fiala; piccoli e con diffrazione debole."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "dimethylacetamide (DMAc)",
+    "acetone"
+   ],
+   "solventi_alternativi": false,
+   "citazioni": [
+    "We found five other crystal structures by crystallizing Cage-6-COOH from the following solvent mixtures: dimethylacetamide (DMAc)/acetone (CageHOF-2·DMAc, Figure S29 and Table S6)"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Metodo (evaporazione, diffusione...) non detto nel testo; dettagli nella SI Sezione 4."
+  },
+  {
+   "forme": [
+    "F6",
+    "F7"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "diethyl sulfoxide (DESO)",
+    "N-methyl-2-pyrrolidone (NMP)"
+   ],
+   "solventi_alternativi": true,
+   "citazioni": [
+    "Notably, the crystal structures from NMP and DESO were discovered using encapsulated nanodroplet crystallization techniques,48 which we have used here for the first time to study the crystallization behavior of porous molecular HOFs (see SI Section 4 for details)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Cristallizzazione in nanogocce incapsulate (encapsulated nanodroplet crystallization): un solvente per forma (DESO per CageHOF-2·DESO, NMP per CageHOF-2·NMP)."
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "THF",
+    "pentane"
+   ],
+   "solventi_alternativi": false,
+   "citazioni": [
+    "THF/pentane (CageHOF-2·THF, Figure S32 and Table S9)"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Dal testo «THF/pentane»; metodo non detto (SI Sezione 4)."
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "EtOH",
+    "H2O"
+   ],
+   "solventi_alternativi": false,
+   "citazioni": [
+    "EtOH/H2O (CageHOF-2·H2O, Figure S33 and Table S10)"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Dal testo «EtOH/H2O»; metodo non detto (SI Sezione 4)."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E1",
+    "E2"
+   ],
+   "citazioni": [
+    "However, all attempts to remove the solvent from the crystal pores, including heating (Figures S11 and S12) and supercritical CO2 drying (scCO2, Figure S13), caused CageHOF-2α to transform into a low-crystallinity solid (referred to as CageHOF-2) that was nonporous based on N2 sorption at 77 K (Figure S14)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E4",
+   "citazioni": [
+    "Then, we activated the pores under a dynamic vacuum at room temperature."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E12",
+   "citazioni": [
+    "For example, we found that a trace amount of THF liquid cleanly transformed activated CageHOF-2 powder into highly crystalline CageHOF-2·THF (Figures S49–S51)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E15",
+   "citazioni": [
+    "In addition, we found that after being immersed in water for several days, CageHOF-2α transformed to CageHOF-2·H2O."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "forma": "F3",
+     "grandezza": {
+      "valore": 410,
+      "unita": "m2 g–1"
+     },
+     "metodo": "area superficiale BET da isoterma N2 a 77 K (SA_BET) dopo scambio di solvente e vuoto",
+     "calcolato": false,
+     "citazione": "The SABET also revealed a surface area of 410 m2 g–1 (Figures S25), which is similar to that of other soft porous HOFs reported in the literature.22,24,47"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F3",
+     "grandezza": {
+      "valore": 458,
+      "unita": "m2 g–1"
+     },
+     "metodo": "area superficiale BET (SA_BET) di β da preparazione scalata con vapore di EtOH",
+     "calcolato": false,
+     "citazione": "CageHOF-2α is nonporous, while CageHOF-2β has permanent porosity and a surface area of 458 m2 g–1."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 6.4,
+      "unita": "kcal mol–1"
+     },
+     "metodo": "DFT con scansione rilassata: energia per ruotare i pilastri di 60° da 120° (conformero di minima energia, angoli diedri attorno a 120°)",
+     "calcolato": true,
+     "citazione": "However, the energy required to rotate the pillars of Cage-6-COOH by 60° from 120° was approximately 6.4 kcal mol–1 (Figure S38 and Section 1.2.7 for full details), which is within the usual energetic range of polymorphism.49"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "rotazione a cerniera dei tre pilastri aromatici attorno ai ponti di ossigeno; angolo diedro Φ da 90° in CageHOF-2β fino a 157° in CageHOF-2·H2O; i tre pilastri sono flessibili in modo indipendente",
+     "citazione": "Indeed, we found that the dihedral angle (Φ in Figure 4) could rotate from 90° in CageHOF-2β to up to 157° in CageHOF-2·H2O."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "angoli diedri dei pilastri fra 116° e 126°",
+     "citazione": "For comparison, the dihedral angles in CageHOF-2α range between 116° and 126°, while the dihedral angles in CageHOF-2β range between 90° and 143°."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "angoli diedri dei pilastri fra 90° e 143°",
+     "citazione": "For comparison, the dihedral angles in CageHOF-2α range between 116° and 126°, while the dihedral angles in CageHOF-2β range between 90° and 143°."
+    },
+    {
+     "tipo": "altro",
+     "testo": "simmetria D3h in soluzione (due singoletti aromatici a δ = 8.78 e 6.76 ppm)",
+     "citazione": "We also observed two singlets at δ = 8.78 and 6.76 ppm, assigned to the two aromatic protons, indicating that Cage-6-COOH adopts a high D3h-symmetric structure in solution."
+    }
+   ]
+  }
+ ]
+}
