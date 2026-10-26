@@ -1,0 +1,1297 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2052252519015616",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Piridina ad alta pressione. Fase I (Pna21, Z' = 4, pressione ambiente), fase II (P212121, Z' = 1, nota) e fase III nuova (P41212, Z' = 1/2, cristalli singoli da cristallizzazione in situ in DAC a 1.69 GPa, strutture a 293 K). Le fasi II e III di h5 si ottengono per cristallizzazione in situ (preparazioni); gli eventi propri sono le transizioni in decompressione del d5 (neutroni su polvere, presse Paris-Edinburgh) e del h5 (Raman su cristallo singolo da metanolo), piu' gli eventi citati della letteratura (Crawford, Podsiadlo, Heyns e Venter, Fanetti, Zhuravlev), con le etichette di fase riportate alla numerazione dell'articolo. La fase II/III fra h5 e d5: gli stessi nomi per le due isotopologhe (forme distinte per composto, come per gli isotopologhi). Non sono eventi: le equazioni di stato (Birch-Murnaghan di terzo ordine, V0 fisso a 452 Å3 = volume di II a 195 K: II K0 = 6.4(3) GPa, K' = 8.7(10); III K0 = 6.2(3) GPa, K' = 8.1(9)); l'analisi dei modi di simmetria III -> II (ampiezze di Tab. 5) e i calcoli PIXEL/SAPT/DFT; i punti delle energie di reticolo (II a 1.09 GPa −60.0, III a 1.69 GPa −56.3 kJ/mol); la pressione di fusione 0.55 GPa (cristallizzazione osservata solo a ~1 GPa o piu'); il confronto dei diffrattogrammi Raman con la letteratura. «The sequence of phases I→II→III has never been observed at high pressure in a single sample» e' una frase riassuntiva senza condizioni, non estratta. Incoerenze del testo: c di fase III 13.44853 (testo, §3.1) contro 13.4853 (Tabella 1); «CCDC references: 1966460, 1966461, 1966461» con due sole strutture; parametri assoluti di struttura 10.0(10) e −10.0(10) in Tabella 1 mentre il testo dice che Flack «could not be reliably determined»; «Fanetti et al. were able to compress phase II to 9.4 GPa» (conclusioni) contro la loro «phase II» = fase III fino a 18 GPa (§3.4 e conclusioni); i campioni di fase III: 1.55 GPa caricati e 1.69 GPa all'equilibrio, 1.98 GPa dalla soluzione in metanolo e 2.50 GPa per la decompressione Raman (stessa fase a pressioni diverse). Il metanolo puo' dare un solvato con la piridina (Podsiadlo et al., 2010) citato senza condizioni: non estratto.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "pyridine (pyridine-h5, C5H5N)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "pyridine-d5",
+   "analogo_di": "C1",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "phase I",
+   "etichette_alternative": [
+    "Z' = 4 phase",
+    "oP16"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "Pna21",
+   "cella": {
+    "Z_primo": 4,
+    "condizioni": "pressione ambiente"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "chains of molecules formed by a mixture of CH⋯N and CH⋯π interactions",
+     "chi": "pyridine molecules",
+     "citazione": "Chains of molecules in pyridine I are formed by a mixture of these interactions (Crawford et al., 2009 ▸)."
+    },
+    {
+     "motivo": "CH⋯π and CH⋯N contacts (some CH⋯π converted into CH⋯N in phase II)",
+     "chi": "pyridine molecules",
+     "citazione": "Both phases I and II contain CH⋯π and CH⋯N contacts, but over the course of the I→II transformation some CH⋯π contacts are converted into CH⋯N interactions as a result of molecular reorientations."
+    }
+   ],
+   "citazione": "Pyridine (C5H5N) is one of the simplest organic compounds, but its crystal structure at ambient pressure (phase I, Pna21), determined by Mootz & Wussow (1981 ▸), is unusually complicated, with four molecules in the asymmetric unit (Z′ = 4).",
+   "note": "Fase I di h5: forma termodinamicamente stabile fra 231 K (fusione) e 5 K. Struttura di Mootz e Wussow (1981), nessun refcode nel testo. Pearson oP16. Il sistema cristallino non e' scritto per la fase I."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "phase II",
+   "etichette_alternative": [
+    "pyridine-h5-II",
+    "Heyns & Venter 'phase I'",
+    "oP4"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P212121",
+   "sistema_cristallino": "ortorombico",
+   "cella": {
+    "a": 5.392,
+    "b": 6.806,
+    "c": 11.261,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 413.2,
+    "Z": 4,
+    "Z_primo": 1,
+    "condizioni": "1.09 GPa, 293 K"
+   },
+   "ccdc": "1966460",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "1966460",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "High-pressure single-crystal X-ray diffraction data were collected at 293 K on Beamline 12.2.2 at the Advanced Light Source"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "CH⋯π and CH⋯N interactions; CH⋯N contacts split into two sets E/H (2.58 Å) and F/G (2.76 Å)",
+     "chi": "pyridine molecules",
+     "citazione": "Contacts E–H are all related by symmetry in phase III (C2H2⋯N1 = 2.69 Å, ∠C2H2⋯N1 = 142°, −7.6 kJ mol−1), but split in phase II into two sets of two contacts E/H (C2H2⋯N1 = 2.58 Å, ∠C2H2⋯N1 = 135°, −10.8 kJ mol−1) and F/G (C2H2⋯N1 = 2.76 Å, ∠C2H2⋯N1 = 124°, −12.4 kJ mol−1)."
+    },
+    {
+     "motivo": "CH⋯π interactions (contacts A–D)",
+     "chi": "pyridine molecules",
+     "citazione": "A second set of contacts (A–D) consists of CH⋯π interactions with centroid–centroid distances of around 4.5 Å, CH⋯ring centroid distances of between 2.57 and 3.12 Å, and energies between −9 and −10 kJ mol−1."
+    },
+    {
+     "motivo": "no π⋯π contacts",
+     "chi": "pyridine molecules",
+     "citazione": "Note that π⋯π contacts do not occur in any of the phases."
+    }
+   ],
+   "citazione": "The sample solidified spontaneously into large single-crystal domains on application of 1.09 GPa pressure at 293 K. X-ray diffraction data were collected on domain 2 shown in Fig. 1 ▸(b).",
+   "note": "Cristallizza spontaneamente a 1.09 GPa e 293 K. CCDC 1966460 attribuito per ordine al datablock pyridine2_final (l'elenco «1966460, 1966461, 1966461» ripete il secondo numero). Topologia bcu (coordinazione 14-50-110). Cella da Tabella 1."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "phase III",
+   "etichette_alternative": [
+    "pyridine-h5-III",
+    "tP4",
+    "Fanetti 'phase II'",
+    "Zhuravlev 'phase II'"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P41212",
+   "sistema_cristallino": "tetragonale",
+   "cella": {
+    "a": 5.4053,
+    "b": 5.4053,
+    "c": 13.4853,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 394.0,
+    "Z": 4,
+    "Z_primo": 0.5,
+    "condizioni": "1.69 GPa, 293 K"
+   },
+   "ccdc": "1966461",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "1966461",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "High-pressure single-crystal X-ray diffraction data were collected at 293 K on Beamline 12.2.2 at the Advanced Light Source"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "CH⋯N contacts E–H all related by symmetry (C2H2⋯N1 = 2.69 Å, 142°)",
+     "chi": "pyridine molecules",
+     "citazione": "Contacts E–H are all related by symmetry in phase III (C2H2⋯N1 = 2.69 Å, ∠C2H2⋯N1 = 142°, −7.6 kJ mol−1), but split in phase II into two sets of two contacts E/H (C2H2⋯N1 = 2.58 Å, ∠C2H2⋯N1 = 135°, −10.8 kJ mol−1) and F/G (C2H2⋯N1 = 2.76 Å, ∠C2H2⋯N1 = 124°, −12.4 kJ mol−1)."
+    },
+    {
+     "motivo": "CH⋯π interactions (contacts A–D)",
+     "chi": "pyridine molecules",
+     "citazione": "A second set of contacts (A–D) consists of CH⋯π interactions with centroid–centroid distances of around 4.5 Å, CH⋯ring centroid distances of between 2.57 and 3.12 Å, and energies between −9 and −10 kJ mol−1."
+    },
+    {
+     "motivo": "no π⋯π contacts",
+     "chi": "pyridine molecules",
+     "citazione": "Note that π⋯π contacts do not occur in any of the phases."
+    }
+   ],
+   "citazione": "Phase III was obtained by isochoric in situ crystallization. The DAC was pressurized to 1.55 GPa, the sample forming a polycrystalline solid. The cell was then heated using a hot plate to ca 400 K and slowly cooled to room temperature. This process was repeated until only large single crystals filled the sample chamber [Fig. 1 ▸(a)]. The crystal used for data collection, marked domain 1 in Fig. 1 ▸(a), accounted for about half of the sample volume. The pressure was allowed to equilibrate to 1.69 GPa prior to data collection.",
+   "conflitto": "Nel testo (§3.1) c = 13.44853 (14) Å a 1.69 GPa; in Tabella 1 c = 13.4853 (14) Å. Si tiene la tabella (V = 394.00 e a = 5.4053 sono coerenti con 13.4853).",
+   "note": "Fase nuova, per la prima volta con raggi X; stessa simmetria di altri composti con molecole C2v. Z' = 1/2 (la molecola sta su un asse binario). Topologia fcu (coordinazione 12-42-92), piu' compatta di II. CCDC 1966461 attribuito per ordine al datablock pyridine3_final. Il testo dice «P41212 (or equivalently P43212)»."
+  },
+  {
+   "id": "F4",
+   "composto": "C2",
+   "etichetta": "phase I (pyridine-d5)",
+   "etichette_alternative": [
+    "phase I"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "The same phase is formed by pyridine-d5 on cooling the liquid below the melting point, and the phase can also be cooled to 5 K.",
+   "note": "Stessa fase I della piridina h5 (isotopologa), formata raffreddando il liquido; sotto 215 K e' metastabile per d5 («the result of the sluggishness of the I→II transition»)."
+  },
+  {
+   "id": "F5",
+   "composto": "C2",
+   "etichetta": "phase II (pyridine-d5)",
+   "etichette_alternative": [
+    "phase II"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "Z_primo": 1
+   },
+   "citazione": "However, on warming from 5 K the structure transforms to the simpler phase II (P212121, Z′ = 1) at 170 K.",
+   "note": "Forma termodinamicamente stabile del d5 sotto 215 K. Le misure di neutroni su polvere (PEARL, ISIS) ne danno il volume di cella in funzione della pressione per l'equazione di stato; nessuna struttura depositata per d5. Fase pura ottenuta decomprimendo un solido amorfo da 2.7 a 0.942 GPa."
+  },
+  {
+   "id": "F6",
+   "composto": "C2",
+   "etichetta": "phase III (pyridine-d5)",
+   "etichette_alternative": [
+    "phase III"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "A pattern of phase III was observed at 1.599 (19) GPa.",
+   "note": "Neutroni su polvere (POLARIS, ISIS) con silice e piombo come marcatore di pressione: da 1.599 a 2.670 GPa. Nessuna descrizione di come e' stata ottenuta."
+  },
+  {
+   "id": "F7",
+   "composto": "C2",
+   "etichetta": "[solido amorfo di piridina-d5 a 2.7 GPa]",
+   "tipo": "amorfo",
+   "ospite": null,
+   "citazione": "A phase-pure sample of pyridine II was obtained by forming an amorphous solid at 2.7 GPa and then reducing the pressure to 0.942 (9) GPa.",
+   "note": "Il testo parla di «amorphous solid» formato a 2.7 GPa e di «partial amorphization» del campione di II a 1.83-2.52 GPa; la pressione di amorfizzazione parziale e' un'etichetta descrittiva."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F4",
+    "F5"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F5",
+   "condizioni": "sotto 215 K (pressione ambiente), pyridine-d5",
+   "citazione": "These observations, combined with calorimetry data, indicate that the thermodynamically stable form of pyridine-d5 below 215 K is phase II. When phase I persists below this temperature it is metastable, the result of the sluggishness of the I→II transition.",
+   "fonte_dati": "citata",
+   "riferimento": "Crawford et al., 2009 (dal contesto)",
+   "certezza": "media",
+   "note": "Per il d5 la fase II e' la stabile sotto 215 K e la I e' metastabile per la lentezza della transizione; per h5 la fase I e' la stabile da 231 a 5 K. Nessuna Ttr di equilibrio scritta (215 K e' la T della trasformazione II -> I in riscaldamento)."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "condizioni": "pressione ambiente, fra la fusione (231 K) e 5 K; la fase II si forma ad alta pressione",
+   "citazione": "Phase I is the thermodynamically stable form of isotopically normal pyridine (pyridine-h5) between the melting point (231 K) and 5 K, and it can be cooled or heated within this temperature range without undergoing any phase transitions.",
+   "fonte_dati": "citata",
+   "riferimento": "Crawford et al., 2009 (dal contesto)",
+   "certezza": "media",
+   "note": "«Phase II has never been observed for pyridine-h5 at ambient pressure, but because it has a smaller molar volume than phase I, it can be formed at high pressure». Il passaggio I -> II sotto pressione e' guidato dal termine pV (volume molare minore). Nessuna pressione di equilibrio scritta."
+  },
+  {
+   "forme": [
+    "F5",
+    "F6"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F6",
+   "condizioni": "a pressione elevata (d5; l'articolo dice «consistent with it becoming the more stable phase at elevated pressure»)",
+   "citazione": "The consistently lower volume of phase III is consistent with it becoming the more stable phase at elevated pressure, whereas its higher density is consistent with a more close-packed topology.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Volume sempre minore per III dalle equazioni di stato da neutroni (parametri uguali entro le incertezze); non e' una misura diretta dell'equilibrio. Per h5: III a 1.69 GPa, II a 1.09 GPa dalle cristallizzazioni."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 170,
+     "unita": "K",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "However, on warming from 5 K the structure transforms to the simpler phase II (P212121, Z′ = 1) at 170 K.",
+    "However, on warming from 5 K the structure transforms to the simpler phase II (P212121, Z′ = 1) at 170 K. This phase can also be cooled to 5 K, but on warming above 215 K it transforms back to phase I. These observations, combined with calorimetry data, indicate that the thermodynamically stable form of pyridine-d5 below 215 K is phase II. When phase I persists below this temperature it is metastable, the result of the sluggishness of the I→II transition."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "pretrattamento": "fase I raffreddata a 5 K",
+   "campione": {
+    "tipo": "altro"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH⋯π contacts converted into CH⋯N interactions through molecular reorientation",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "cambia_partner",
+     "forma": "F5",
+     "citazione": "Both phases I and II contain CH⋯π and CH⋯N contacts, but over the course of the I→II transformation some CH⋯π contacts are converted into CH⋯N interactions as a result of molecular reorientations."
+    }
+   ],
+   "riferimento": "Crawford et al., 2009 (dal contesto)",
+   "note": "Pyridine-d5: «on warming from 5 K the structure transforms to the simpler phase II (P212121, Z′ = 1) at 170 K». Il riferimento non e' dato in frase ma e' la fonte dell'intero paragrafo sul polimorfismo isotopico (Crawford et al., 2009). La tecnica non e' detta (la trasformazione e' descritta con «calorimetry data»)."
+  },
+  {
+   "id": "E2",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "min": 215,
+     "limite": "sopra"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "This phase can also be cooled to 5 K, but on warming above 215 K it transforms back to phase I.",
+    "However, on warming from 5 K the structure transforms to the simpler phase II (P212121, Z′ = 1) at 170 K. This phase can also be cooled to 5 K, but on warming above 215 K it transforms back to phase I. These observations, combined with calorimetry data, indicate that the thermodynamically stable form of pyridine-d5 below 215 K is phase II. When phase I persists below this temperature it is metastable, the result of the sluggishness of the I→II transition."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "pretrattamento": "fase II (anche raffreddata a 5 K)",
+   "campione": {
+    "tipo": "altro"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH⋯N contacts converted back into CH⋯π (reverse of I→II)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "cambia_partner",
+     "forma": "F4",
+     "citazione": "Both phases I and II contain CH⋯π and CH⋯N contacts, but over the course of the I→II transformation some CH⋯π contacts are converted into CH⋯N interactions as a result of molecular reorientations."
+    }
+   ],
+   "riferimento": "Crawford et al., 2009 (dal contesto)",
+   "note": "Pyridine-d5: «on warming above 215 K it transforms back to phase I». Non e' l'inverso di E1 per la leva (entrambe in riscaldamento)."
+  },
+  {
+   "id": "E3",
+   "da": "F4",
+   "a": "F5",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "min": 5,
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "The same phase is formed by pyridine-d5 on cooling the liquid below the melting point, and the phase can also be cooled to 5 K.",
+    "These observations, combined with calorimetry data, indicate that the thermodynamically stable form of pyridine-d5 below 215 K is phase II. When phase I persists below this temperature it is metastable, the result of the sluggishness of the I→II transition."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "pretrattamento": "fase I formata raffreddando il liquido di pyridine-d5",
+   "riferimento": "Crawford et al., 2009 (dal contesto)",
+   "note": "La fase I del d5 si raffredda fino a 5 K senza passare a II, che e' la stabile sotto 215 K: «When phase I persists below this temperature it is metastable, the result of the sluggishness of the I→II transition»."
+  },
+  {
+   "id": "E4",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "min": 5,
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "This phase can also be cooled to 5 K, but on warming above 215 K it transforms back to phase I."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "riferimento": "Crawford et al., 2009 (dal contesto)",
+   "note": "«This phase [II of pyridine-d5] can also be cooled to 5 K»: nessuna transizione dichiarata raffreddando."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "min": 5,
+     "max": 231,
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "Phase I is the thermodynamically stable form of isotopically normal pyridine (pyridine-h5) between the melting point (231 K) and 5 K, and it can be cooled or heated within this temperature range without undergoing any phase transitions."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "riferimento": "Crawford et al., 2009 (dal contesto)",
+   "note": "Pyridine-h5: la fase I «can be cooled or heated within this temperature range without undergoing any phase transitions» (5-231 K, a pressione ambiente)."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 231,
+     "unita": "K"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "Phase I is the thermodynamically stable form of isotopically normal pyridine (pyridine-h5) between the melting point (231 K) and 5 K, and it can be cooled or heated within this temperature range without undergoing any phase transitions."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Crawford et al., 2009 (dal contesto)",
+   "note": "Punto di fusione 231 K di pyridine-h5 (fase I) a pressione ambiente, detto in parentesi; non ha una frase propria."
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "min": 1.23,
+     "max": 2.0,
+     "tipo": "forchetta"
+    },
+    "temperatura": {
+     "valore": 295,
+     "unita": "K",
+     "tipo": "isoterma"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "integrita": "fratturato"
+   },
+   "citazioni": [
+    "By contrast, phase I was obtained at 1.23 GPa by high pressure isothermal crystal growth (Podsiadło et al., 2010 ▸). In these experiments, a stable crystal–liquid equilibrium was established at 1.00 GPa and 295 K. The crystal was then allowed to grow by carefully increasing the pressure but holding the temperature constant at 295 K. The sample was found to undergo a phase transition on increasing the pressure to 2.00 GPa, which destroyed the integrity of the single crystal.",
+    "Increasing the pressure on this sample to 2 GPa caused it to break up. It was assumed at the time that phase II had formed, but the pressure implies that it could have been phase III."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "a_possibili": [
+    "F2",
+    "F3"
+   ],
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "riferimento": "Podsiadło et al., 2010",
+   "note": "Cristallo di fase I cresciuto a 1.23 GPa e portato a 2.00 GPa a 295 K: transizione di fase che ne distrugge l'integrita' («caused it to break up»). Gli autori originali pensavano alla fase II, ma «the pressure implies that it could have been phase III»: a_possibili. Mezzo di pressione e idrostaticita' non detti."
+  },
+  {
+   "id": "E8",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": 2,
+     "unita": "GPa",
+     "tipo": "transizione"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "citazioni": [
+    "On increasing the pressure they observed discontinuities in the trend of band frequencies versus pressure and the appearance of one new band in pyridine-h5 and two in pyridine-d5 which were taken to indicate that this phase transforms to a ‘phase II’ at 2 GPa.",
+    "It is clear from these data that the ‘phase I’ of Heyns & Venter (1985 ▸) is actually the Z′ = 1, P212121 phase II, and the ‘phase II’ of Fanetti et al. (2011 ▸) and Zhuravlev et al. (2010 ▸) is the Z′ = ½, P41212 phase III.",
+    "The expected transition from phase II to III on pressure increase is less reproducibly observed, but both Heyns & Venter and Zhuravlev et al. made this observation."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Heyns & Venter, 1985",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH⋯N contacts (nature of each interaction preserved)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F3",
+     "citazione": "By contrast, the correlations shown in the animations (see supporting information) and in Tables 2 ▸ and 3 ▸ show that nature of each interaction remains constant over the course of the transition between phases II and III, so that CH⋯N contacts in one phase transform in to CH⋯N contacts in the other etc., but the distances and energies change."
+    },
+    {
+     "gruppo": "CH⋯π contacts (nature of each interaction preserved)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F3",
+     "citazione": "By contrast, the correlations shown in the animations (see supporting information) and in Tables 2 ▸ and 3 ▸ show that nature of each interaction remains constant over the course of the transition between phases II and III, so that CH⋯N contacts in one phase transform in to CH⋯N contacts in the other etc., but the distances and energies change."
+    }
+   ],
+   "note": "Heyns e Venter (Raman, h5 e d5): la loro «phase I» a ca 1 GPa e' la fase II di questo articolo e il passaggio alla loro «phase II» a 2 GPa e' II -> III; ma a 2.5 GPa il loro spettro contiene bande in piu' (57-108 cm-1) che «possibly» indicano una miscela II/III (Tabella 4). Anche Zhuravlev et al. hanno osservato II -> III in compressione, senza condizioni nel testo. Trasposizione delle etichette fatta dagli autori in §3.4."
+  },
+  {
+   "id": "E9",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 1,
+     "unita": "GPa",
+     "circa": true,
+     "tipo": "transizione"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ],
+    "meccanismo": [
+     "displaciva"
+    ]
+   },
+   "citazioni": [
+    "Decompression to around 1 GPa (Fanetti et al., 2011 ▸) found that ‘phase II’ transformed to ‘phase I’.",
+    "The transition between phases III and II can be reproducibly observed by releasing pressure: in this work its onset was seen as pressure was reduced from 2.5 to 1.97 GPa (Fig. 6 ▸), in Fanetti’s work it was seen at 1 GPa.",
+    "It is clear from these data that the ‘phase I’ of Heyns & Venter (1985 ▸) is actually the Z′ = 1, P212121 phase II, and the ‘phase II’ of Fanetti et al. (2011 ▸) and Zhuravlev et al. (2010 ▸) is the Z′ = ½, P41212 phase III."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Fanetti et al., 2011",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH⋯N contacts (nature of each interaction preserved)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "By contrast, the correlations shown in the animations (see supporting information) and in Tables 2 ▸ and 3 ▸ show that nature of each interaction remains constant over the course of the transition between phases II and III, so that CH⋯N contacts in one phase transform in to CH⋯N contacts in the other etc., but the distances and energies change."
+    },
+    {
+     "gruppo": "CH⋯π contacts (nature of each interaction preserved)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "By contrast, the correlations shown in the animations (see supporting information) and in Tables 2 ▸ and 3 ▸ show that nature of each interaction remains constant over the course of the transition between phases II and III, so that CH⋯N contacts in one phase transform in to CH⋯N contacts in the other etc., but the distances and energies change."
+    }
+   ],
+   "note": "Fanetti et al.: decompressione fino a ca 1 GPa, la loro «phase II» (= fase III) diventa la loro «phase I» (= fase II). Etichette riportate dall'articolo (§3.4 e conclusioni)."
+  },
+  {
+   "id": "E10",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "max": 18
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "citazioni": [
+    "Fanetti et al.’s (2011 ▸) Raman data show that phase III persists all the way to 18 GPa",
+    "It is clear from these data that the ‘phase I’ of Heyns & Venter (1985 ▸) is actually the Z′ = 1, P212121 phase II, and the ‘phase II’ of Fanetti et al. (2011 ▸) and Zhuravlev et al. (2010 ▸) is the Z′ = ½, P41212 phase III."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "riferimento": "Fanetti et al., 2011",
+   "note": "«phase III persists all the way to 18 GPa»; le transizioni proposte a 8, 11 e 16 GPa da Zhuravlev et al. non sono sostenute dall'andamento regolare delle frequenze."
+  },
+  {
+   "id": "E11",
+   "da": "F3",
+   "a": "reazione",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "min": 18,
+     "limite": "sopra"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "citazioni": [
+    "In a later study, Fanetti et al. (2011 ▸) describe an investigation of pyridine up to 25 GPa, showing that above 18 GPa the compound begins to undergo a rearrangement of the primary covalent bonds in which the carbon atoms become sp 3 hybridized. The same behaviour was noted by Zhuravlev et al. (2010 ▸) above 22 GPa.",
+    "It is clear from these data that the ‘phase I’ of Heyns & Venter (1985 ▸) is actually the Z′ = 1, P212121 phase II, and the ‘phase II’ of Fanetti et al. (2011 ▸) and Zhuravlev et al. (2010 ▸) is the Z′ = ½, P41212 phase III."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "chimica",
+   "riferimento": "Fanetti et al., 2011",
+   "note": "Sopra 18 GPa riarrangiamento dei legami covalenti primari con atomi di C sp3 (fino a 25 GPa). Fase di partenza = la loro «phase II» = fase III di questo articolo."
+  },
+  {
+   "id": "E12",
+   "da": "F3",
+   "a": "reazione",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "min": 22,
+     "limite": "sopra"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "citazioni": [
+    "In a later study, Fanetti et al. (2011 ▸) describe an investigation of pyridine up to 25 GPa, showing that above 18 GPa the compound begins to undergo a rearrangement of the primary covalent bonds in which the carbon atoms become sp 3 hybridized. The same behaviour was noted by Zhuravlev et al. (2010 ▸) above 22 GPa.",
+    "It is clear from these data that the ‘phase I’ of Heyns & Venter (1985 ▸) is actually the Z′ = 1, P212121 phase II, and the ‘phase II’ of Fanetti et al. (2011 ▸) and Zhuravlev et al. (2010 ▸) is the Z′ = ½, P41212 phase III."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "chimica",
+   "da_dedotto": true,
+   "riferimento": "Zhuravlev et al., 2010",
+   "note": "«The same behaviour was noted by Zhuravlev et al. above 22 GPa»; la fase di partenza non e' nominata per Zhuravlev, qui la fase III dalla trasposizione delle etichette (§3.4)."
+  },
+  {
+   "id": "E13",
+   "da": "F7",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.942,
+     "unita": "GPa",
+     "tipo": "misura"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "A phase-pure sample of pyridine II was obtained by forming an amorphous solid at 2.7 GPa and then reducing the pressure to 0.942 (9) GPa.",
+    "Phase II can also be accessed by decompression of phase III or from decompression of a pressure-amorphized sample.",
+    "Fanetti’s paper illustrates featureless Raman spectra up to 1.6 GPa, while we failed to see any evidence of crystalline diffraction at pressures as high as 2.7 GPa, the sample only crystallizing on release of pressure."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Pyridine-d5 in pressa Paris-Edinburgh (neutroni su polvere, PEARL): solido amorfo a 2.7 GPa, poi decompressione a 0.942 (9) GPa: fase II pura. «the sample only crystallizing on release of pressure». La pressione di inizio cristallizzazione non e' detta; 0.942 GPa e' dove la fase II e' stata misurata."
+  },
+  {
+   "id": "E14",
+   "da": "F5",
+   "a": "F7",
+   "esito": "parziale",
+   "via": "pressione",
+   "sottovia": "grande_volume",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "min": 1.59,
+     "max": 1.83,
+     "tipo": "forchetta"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "Further neutron powder diffraction data sets were collected at pressures of 1.09 (2), 1.22 (3), 1.59 (3), 1.83 (6) and 2.52 (5) GPa. The pattern was much weaker for the last two points, possibly because of the onset of partial amorphization.",
+    "However, Fanetti et al. were able to compress phase II to 9.4 GPa, whereas in this work we compressed a sample of the deuterated isotopologue to 2.5 GPa, albeit with some reversible amorphization."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E15",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Il diffrattogramma e' molto piu' debole a 1.83 e 2.52 GPa, «possibly because of the onset of partial amorphization»; le conclusioni dicono «some reversible amorphization» comprimendo il d5 fino a 2.5 GPa. La forchetta e' fra l'ultimo punto forte (1.59 GPa) e il primo debole (1.83 GPa). Non si osserva alcuna transizione II -> III in questo campione."
+  },
+  {
+   "id": "E15",
+   "da": "F7",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "min": 1.03,
+     "max": 1.38,
+     "tipo": "forchetta"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "The load was reduced and further patterns collected at 1.38 (9) and 1.03 (2) GPa, the original intensity of the pattern being re-established at the second of these points.",
+    "However, Fanetti et al. were able to compress phase II to 9.4 GPa, whereas in this work we compressed a sample of the deuterated isotopologue to 2.5 GPa, albeit with some reversible amorphization."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E14",
+   "da_evento": "E14",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Riducendo il carico, a 1.38 GPa il diffrattogramma e' ancora debole e a 1.03 GPa «the original intensity of the pattern being re-established»: ricristallizzazione dell'amorfo parziale in II."
+  },
+  {
+   "id": "E16",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "onset": 0.62,
+     "fine": 0.45,
+     "tipo": "forchetta"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "Reduction of the pressure to 0.62 (6) GPa produced a mixture of phases I and II, becoming pure phase I at 0.45 (4) GPa."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E15",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH⋯N contacts converted back into CH⋯π (reverse of I→II)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "cambia_partner",
+     "forma": "F4",
+     "citazione": "Both phases I and II contain CH⋯π and CH⋯N contacts, but over the course of the I→II transformation some CH⋯π contacts are converted into CH⋯N interactions as a result of molecular reorientations."
+    }
+   ],
+   "note": "Pyridine-d5: «Reduction of the pressure to 0.62 (6) GPa produced a mixture of phases I and II, becoming pure phase I at 0.45 (4) GPa». onset = inizio (miscela), fine = fase I pura. Fa seguito alle decompressioni da 2.52 GPa (da_evento E15, stessa corsa)."
+  },
+  {
+   "id": "E17",
+   "da": "F6",
+   "a": "F5",
+   "esito": "parziale",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "min": 1.159,
+     "max": 1.229,
+     "tipo": "forchetta"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "A pattern of phase III was observed at 1.599 (19) GPa. Patterns were then measured at 1.914 (18), 2.202 (14), 2.436 (18) and 2.670 (16) GPa. The sample was decompressed, with further patterns measured at 1.340 (15) and 1.229 (15) GPa. The pattern collected at 1.159 (20) GPa was a mixture of phases II and III."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH⋯N contacts (nature of each interaction preserved)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F5",
+     "citazione": "By contrast, the correlations shown in the animations (see supporting information) and in Tables 2 ▸ and 3 ▸ show that nature of each interaction remains constant over the course of the transition between phases II and III, so that CH⋯N contacts in one phase transform in to CH⋯N contacts in the other etc., but the distances and energies change."
+    },
+    {
+     "gruppo": "CH⋯π contacts (nature of each interaction preserved)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F5",
+     "citazione": "By contrast, the correlations shown in the animations (see supporting information) and in Tables 2 ▸ and 3 ▸ show that nature of each interaction remains constant over the course of the transition between phases II and III, so that CH⋯N contacts in one phase transform in to CH⋯N contacts in the other etc., but the distances and energies change."
+    }
+   ],
+   "note": "Pyridine-d5 (POLARIS): fase III da 1.599 a 2.670 GPa; in decompressione a 1.229 GPa ancora III, a 1.159 GPa «a mixture of phases II and III». La forchetta e' fra l'ultimo punto di sola III (1.229) e la miscela (1.159); l'esito e' parziale. Il pattern a 1.340 e 1.229 GPa non e' descritto in modo esplicito come III pura."
+  },
+  {
+   "id": "E18",
+   "da": "F3",
+   "a": "F2",
+   "esito": "parziale",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "min": 1.97,
+     "max": 2.5,
+     "tipo": "forchetta"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ],
+    "meccanismo": [
+     "displaciva"
+    ]
+   },
+   "citazioni": [
+    "A single crystal of pyridine III was grown in situ at 2.50 GPa from a methanol solution and its Raman spectra were collected at room temperature as the sample was decompressed to 2.44, 2.28, 1.97, 1.69 and 1.55 GPa.",
+    "The onset of the pyridine III→II phase transition can been seen on decompression from 2.50 to 1.97 GPa from the emergence of the phase II band at 71 cm−1 (cf. Table 4 ▸). The intensity of this band increases at 1.69 GPa, with an additional band beginning to grow-in at 100 cm−1 also being consistent with the formation of phase II.",
+    "These data show that the transition between phases III and II does not occur sharply, but gradually occurs as pressure is reduced, an observation that is consistent with the sluggishness of the transition between phases I and II in pyridine-d5 as a function of temperature.",
+    "The transition between phases III and II is displacive and governed by mode-softening.",
+    "However, the transition is not concerted, and it may proceed via nucleation at defects.",
+    "The transition between phases III and II can be reproducibly observed by releasing pressure: in this work its onset was seen as pressure was reduced from 2.5 to 1.97 GPa (Fig. 6 ▸), in Fanetti’s work it was seen at 1 GPa."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "metanolo (soluzione di crescita)"
+   },
+   "frequenza": "sempre",
+   "da_evento": null,
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH⋯N contacts (nature of each interaction preserved)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "By contrast, the correlations shown in the animations (see supporting information) and in Tables 2 ▸ and 3 ▸ show that nature of each interaction remains constant over the course of the transition between phases II and III, so that CH⋯N contacts in one phase transform in to CH⋯N contacts in the other etc., but the distances and energies change."
+    },
+    {
+     "gruppo": "CH⋯π contacts (nature of each interaction preserved)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "By contrast, the correlations shown in the animations (see supporting information) and in Tables 2 ▸ and 3 ▸ show that nature of each interaction remains constant over the course of the transition between phases II and III, so that CH⋯N contacts in one phase transform in to CH⋯N contacts in the other etc., but the distances and energies change."
+    },
+    {
+     "gruppo": "pyridine molecule (rotation about an axis ~25° from the N1—C4 axis)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "An analysis of changes in the Cartesian-coordinate atom positions, calculated using the actual cell parameters of each phase, shows that the pyridine molecule rotation angle is 9.5° around an axis that is roughly 25° from the N1—C4 axis and 11° out of the plane of the molecule."
+    }
+   ],
+   "note": "Cristallo di III cresciuto a 2.50 GPa da metanolo e decompresso a 2.44, 2.28, 1.97, 1.69 e 1.55 GPa: la banda di II a 71 cm-1 compare fra 2.50 e 1.97 GPa e cresce a 1.69 GPa (insieme a una a 100 cm-1): «does not occur sharply, but gradually occurs as pressure is reduced». Trasformazione displaciva, governata dal softening di un modo B2 (non osservabile col Raman, stimato con DFT periodica); pressione di transizione calcolata ca 1 GPa piu' bassa di quella osservata. Gli autori propongono che possa iniziare ai difetti con nucleazione e crescita («it may proceed via nucleation at defects»), senza affermarlo. La rotazione molecolare e' 9.5° (19.6° senza la deformazione del reticolo, 8.9° se si trascura il resto)."
+  },
+  {
+   "id": "E19",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 1.55,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "citazioni": [
+    "A single crystal of pyridine III was grown in situ at 2.50 GPa from a methanol solution and its Raman spectra were collected at room temperature as the sample was decompressed to 2.44, 2.28, 1.97, 1.69 and 1.55 GPa.",
+    "Further decompression (to 1.55 GPa) led to dissolution of the pyridine in the methanol and a noisy luminescence spectrum from which no Raman data could be extracted."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E18",
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "metanolo (soluzione di crescita)"
+   },
+   "note": "A 1.55 GPa la piridina «led to dissolution ... in the methanol»: il solido (miscela III/II) si scioglie nel metanolo. a = fuso (soluzione); da dalla miscela III/II dell'evento E18 (la fase di partenza e' III, il campione era gia' una miscela con II)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "in_situ_pressione",
+   "temperatura": {
+    "valore": null,
+    "unita": "K",
+    "max": 400,
+    "circa": true,
+    "tipo": "intervallo"
+   },
+   "pressione": {
+    "valore": 1.69,
+    "unita": "GPa",
+    "tipo": "misura"
+   },
+   "citazioni": [
+    "Phase III was obtained by isochoric in situ crystallization. The DAC was pressurized to 1.55 GPa, the sample forming a polycrystalline solid. The cell was then heated using a hot plate to ca 400 K and slowly cooled to room temperature. This process was repeated until only large single crystals filled the sample chamber [Fig. 1 ▸(a)]. The crystal used for data collection, marked domain 1 in Fig. 1 ▸(a), accounted for about half of the sample volume. The pressure was allowed to equilibrate to 1.69 GPa prior to data collection.",
+    "Crystals of phases II and III were grown from pure pyridine-h5 by in situ crystallization at 1.09 and 1.69 GPa, respectively, using the ‘approximately isochoric’ procedure described in Sections 1 and 2."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Pyridine-h5 pura, cristallizzazione in situ in DAC quasi isocora: caricata a 1.55 GPa (policristallo), scaldata a ca 400 K e raffreddata lentamente fino a temperatura ambiente, ripetuto fino a soli grandi cristalli singoli; la pressione si e' equilibrata a 1.69 GPa prima della raccolta dati."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "methanol"
+   ],
+   "rapporto_soluzione": "pyridine 6 ml : methanol 3 ml (1:1 molar ratio)",
+   "temperatura": {
+    "valore": null,
+    "unita": "K",
+    "min": 403,
+    "max": 423,
+    "tipo": "intervallo"
+   },
+   "pressione": {
+    "valore": 1.98,
+    "unita": "GPa"
+   },
+   "velocita": {
+    "valore": 2,
+    "unita": "K/min"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "day",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "Pyridine III can also be grown from methanol. The solution used for crystallization consisted of a 1:1 molar ratio of pyridine (6 ml) and methanol (3 ml). A drop of this solution was placed in a diamond anvil cell, and crystals were found to form on standing at room temperature and 1.98 GPa over the course of two days. The crystals were melted back to one seed at 423 K and the temperature was then reduced to 403 K at a rate of 2 K min−1 to initiate crystal growth. The temperature was then decreased to room temperature at a rate of 0.5 K min−1."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Crescita da soluzione di piridina in metanolo in DAC: cristalli a temperatura ambiente e 1.98 GPa in due giorni, fusi fino a un seme a 423 K, 403 K a 2 K/min e poi temperatura ambiente a 0.5 K/min. Puo' dare anche un solvato col metanolo (Podsiadlo et al., 2010)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "methanol"
+   ],
+   "pressione": {
+    "valore": 2.5,
+    "unita": "GPa"
+   },
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "A single crystal of pyridine III was grown in situ at 2.50 GPa from a methanol solution and its Raman spectra were collected at room temperature as the sample was decompressed to 2.44, 2.28, 1.97, 1.69 and 1.55 GPa."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Cristallo singolo di fase III cresciuto in situ da soluzione in metanolo, usato per lo studio Raman in decompressione (E18)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "in_situ_pressione",
+   "temperatura": {
+    "valore": 293,
+    "unita": "K"
+   },
+   "pressione": {
+    "valore": 1.09,
+    "unita": "GPa"
+   },
+   "citazioni": [
+    "The sample solidified spontaneously into large single-crystal domains on application of 1.09 GPa pressure at 293 K. X-ray diffraction data were collected on domain 2 shown in Fig. 1 ▸(b).",
+    "Crystals of phases II and III were grown from pure pyridine-h5 by in situ crystallization at 1.09 and 1.69 GPa, respectively, using the ‘approximately isochoric’ procedure described in Sections 1 and 2."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Il campione di pyridine-h5 solidifica spontaneamente in grandi domini di cristallo singolo applicando 1.09 GPa a 293 K."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "in_situ_pressione",
+   "pressione": {
+    "valore": null,
+    "unita": "GPa",
+    "valori": [
+     0.8,
+     1.03
+    ]
+   },
+   "citazioni": [
+    "We have shown that crystal growth of pyridine-h5 yields phase I at 0.80 and 1.03 GPa, but phase II at 1.09 GPa (Dawson, 2003 ▸).",
+    "In these experiments, single crystals of pyridine were grown by first compressing the liquid into a polycrystalline mass at the desired pressure using a diamond anvil cell. The sample was then heated to melt-back the sample to a single crystallite which was then allowed to grow as the cell cooled back to room temperature. These conditions are, at least approximately, isochoric, i.e. the pressure is constant during crystal growth."
+   ],
+   "fonte_dati": "citata",
+   "riferimento": "Dawson, 2003",
+   "esito": "ottenuta",
+   "note": "Crescita in DAC quasi isocora (liquido compresso a policristallo, riscaldato fino a un cristallino, raffreddato): fase I a 0.80 e 1.03 GPa, fase II a 1.09 GPa."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "in_situ_pressione",
+   "pressione": {
+    "valore": 1.09,
+    "unita": "GPa"
+   },
+   "citazioni": [
+    "We have shown that crystal growth of pyridine-h5 yields phase I at 0.80 and 1.03 GPa, but phase II at 1.09 GPa (Dawson, 2003 ▸).",
+    "In these experiments, single crystals of pyridine were grown by first compressing the liquid into a polycrystalline mass at the desired pressure using a diamond anvil cell. The sample was then heated to melt-back the sample to a single crystallite which was then allowed to grow as the cell cooled back to room temperature. These conditions are, at least approximately, isochoric, i.e. the pressure is constant during crystal growth."
+   ],
+   "fonte_dati": "citata",
+   "riferimento": "Dawson, 2003",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "in_situ_pressione",
+   "temperatura": {
+    "valore": 295,
+    "unita": "K",
+    "tipo": "isoterma"
+   },
+   "pressione": {
+    "valore": 1.23,
+    "unita": "GPa"
+   },
+   "citazioni": [
+    "By contrast, phase I was obtained at 1.23 GPa by high pressure isothermal crystal growth (Podsiadło et al., 2010 ▸). In these experiments, a stable crystal–liquid equilibrium was established at 1.00 GPa and 295 K. The crystal was then allowed to grow by carefully increasing the pressure but holding the temperature constant at 295 K. The sample was found to undergo a phase transition on increasing the pressure to 2.00 GPa, which destroyed the integrity of the single crystal."
+   ],
+   "fonte_dati": "citata",
+   "riferimento": "Podsiadło et al., 2010",
+   "esito": "ottenuta",
+   "note": "Crescita isoterma a 295 K aumentando la pressione da un equilibrio cristallo-liquido a 1.00 GPa: fase I a 1.23 GPa (contro la fase II della crescita isocora a 1.09 GPa)."
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "in_situ_pressione",
+   "pressione": {
+    "valore": 2.7,
+    "unita": "GPa"
+   },
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "A phase-pure sample of pyridine II was obtained by forming an amorphous solid at 2.7 GPa and then reducing the pressure to 0.942 (9) GPa.",
+    "Pressure was applied at ambient temperature using a type V3b Paris–Edinburgh (PE) press"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Pyridine-d5 in capsula TiZr con CaF2 e silice in una pressa Paris-Edinburgh: solido amorfo a 2.7 GPa. Il testo non dice se si parte dal liquido."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "in_situ_pressione",
+   "pressione": {
+    "valore": null,
+    "unita": "GPa",
+    "max": 2.7
+   },
+   "citazioni": [
+    "Fanetti’s paper illustrates featureless Raman spectra up to 1.6 GPa, while we failed to see any evidence of crystalline diffraction at pressures as high as 2.7 GPa, the sample only crystallizing on release of pressure."
+   ],
+   "fonte_dati": "propria",
+   "esito": "non_ottenuta",
+   "note": "«we failed to see any evidence of crystalline diffraction at pressures as high as 2.7 GPa, the sample only crystallizing on release of pressure»: in compressione non si ottiene un cristallo; il testo non dice a quale esperimento (qui attribuito ai neutroni su pyridine-d5) si riferisce."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "non_specificato",
+   "pressione": {
+    "valore": 1.599,
+    "unita": "GPa",
+    "tipo": "misura"
+   },
+   "citazioni": [
+    "A pattern of phase III was observed at 1.599 (19) GPa. Patterns were then measured at 1.914 (18), 2.202 (14), 2.436 (18) and 2.670 (16) GPa. The sample was decompressed, with further patterns measured at 1.340 (15) and 1.229 (15) GPa. The pattern collected at 1.159 (20) GPa was a mixture of phases II and III."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Come si e' ottenuta la fase III di pyridine-d5 (POLARIS) non e' descritto: il primo diffrattogramma e' gia' di III a 1.599 GPa."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "pyridine intramolecular geometry not distorted by pressure",
+     "citazione": "There is no suggestion that pressure distorts the intramolecular geometry, as was the case in syn-1,6:8,13-bis­carbonyl­[14]annulene (Casati et al., 2016 ▸)."
+    },
+    {
+     "tipo": "altro",
+     "testo": "isotopic polymorphism: phase I stable for h5, phase II stable for d5 below 215 K",
+     "citazione": "A further unusual feature is that it exhibits isotopic polymorphism (Merz & Kupka, 2015 ▸; Crawford et al., 2009 ▸; Castellucci et al., 1969 ▸)."
+    }
+   ]
+  }
+ ]
+}
