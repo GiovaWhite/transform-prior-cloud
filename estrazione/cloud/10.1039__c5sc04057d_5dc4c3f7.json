@@ -1,0 +1,535 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1039/c5sc04057d",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "1422938",
+  "986256–986258"
+ ],
+ "note": "Cristallo organoionico superelastico (PnBu4)(BPh4) (1): fase α a bassa temperatura (triclina) e fase β ad alta temperatura (monoclina), trasformazione martensitica termica (DSC) e indotta dal taglio (superelasticita'), effetto memoria di forma. I CCDC dell'articolo («CCDC 1422938 and 986256–986258», nelle note del supplementare) sono quattro numeri per le quattro temperature dell'analisi (183, 298, 394, 403 K) ma l'ordine di elenco non permette di attribuirli: restano a livello di articolo. La geminazione indotta dal taglio a temperatura ambiente (α+ → α–, angolo di flessione costante di 12°) è la stessa fase α con i domini scambiati: non è un evento (stessa forma). La regione di geminazione (T) va da almeno –50 °C ad As (123 °C) e lascia una deformazione residua; il recupero spontaneo avviene solo sopra As (E7). Prove di compressione unidirezionale (modulo di Young, pressione di snervamento) e rottura del cristallo (a mosaico a circa –60 °C, per sfaldatura a circa 130 °C) non sono cambi di forma. La fase β non è considerata una mesofase plastica: «Because of the sufficiently large ΔS (>20.9 JK–1 mol–1) upon melting, the β phase should not be considered as a plastic mesophase but instead as an ordinal crystal phase». Il testo non dà velocità di riscaldamento del DSC (Shimadzu DSC-60) né il tipo di campione. Il solido grezzo ottenuto per precipitazione dalle soluzioni acquose («colorless crystalline powder») non è identificato come fase. Incoerenze del testo: (1) Risultati: «a mixed aqueous solution of PBu4Cl and NaBPh4», Sperimentale: «NaBPh4 and PBu4Br»; (2) Tα–β = 122.94 °C (DSC) minore di As = 123.00 °C, che è «T0 for heating» (l'inizio): un picco sotto l'inizio; (3) il cristallo grande comincia a sollevare a 131.0, 131.8 e 133.4 °C, cioè 5.9–8.2 °C sopra le temperature attese dai microcristalli («probably due to the non-ideal strain in a large crystal specimen»); (4) il gruppo spaziale triclino è scritto «P1» (la barra di P-1 potrebbe essere persa dal PDF; nessun appiglio nel testo); (5) «Young's modulus ... decreased almost linearly to the Ms point with 0.4 MPa» (unita' diversa dal resto, GPa); (6) «Mf (Te for cooling), Ms (T0 for cooling)»: As − Ms = 2.5 K nel testo, 2.54 °C in Tabella 1.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "tetrabutyl-n-phosphonium"
+  },
+  {
+   "id": "C2",
+   "nome": "tetraphenylborate"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "α phase",
+   "etichette_alternative": [
+    "α",
+    "low temperature phase"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P1",
+   "cella": {
+    "V_Z": 960.7,
+    "condizioni": "394 K",
+    "fonte": "SCXRD"
+   },
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 394,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "By warming the crystal 1, the crystal system changed from triclinic P1 in the α phase (394 K, V/Z: 960.7 Å3) into monoclinic P21/n in the β phase (403 K, V/Z: 968.5 Å3) with a 0.8% expansion in volume (Table S1†)."
+    }
+   ],
+   "citazione": "By warming the crystal 1, the crystal system changed from triclinic P1 in the α phase (394 K, V/Z: 960.7 Å3) into monoclinic P21/n in the β phase (403 K, V/Z: 968.5 Å3) with a 0.8% expansion in volume (Table S1†).",
+   "note": "Sale (PnBu4)+(BPh4)– chiamato 1 dagli autori. V/Z = 960.7 Å3 a 394 K (volume per unita' formula, come scritto). Gruppo scritto «P1» per il triclino; nessun appiglio per leggerlo come P-1. A temperatura ambiente la fase del cristallo a bacchetta e' α («a colorless rod-shaped crystal (α phase)»). Struttura anche a 183 e 298 K (non attribuite a una fase nel testo)."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "β phase",
+   "etichette_alternative": [
+    "β",
+    "high temperature phase"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "V_Z": 968.5,
+    "condizioni": "403 K",
+    "fonte": "SCXRD"
+   },
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 403,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "By warming the crystal 1, the crystal system changed from triclinic P1 in the α phase (394 K, V/Z: 960.7 Å3) into monoclinic P21/n in the β phase (403 K, V/Z: 968.5 Å3) with a 0.8% expansion in volume (Table S1†)."
+    }
+   ],
+   "citazione": "By warming the crystal 1, the crystal system changed from triclinic P1 in the α phase (394 K, V/Z: 960.7 Å3) into monoclinic P21/n in the β phase (403 K, V/Z: 968.5 Å3) with a 0.8% expansion in volume (Table S1†).",
+   "note": "V/Z = 968.5 Å3 a 403 K, +0.8% rispetto alla fase α a 394 K. Fase ordinata, non mesofase plastica (ΔS di fusione 81.4 JK–1 mol–1)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": null,
+   "condizioni": "fase α sotto Ms (120.46 °C), fase β sopra As (123.00 °C); fra Ms e As e' permessa l'una o l'altra a seconda che si salga da α o si scenda da β",
+   "relazione_scritta": "the crystal phase should be α below Ms (L) and β over As (H)",
+   "temperatura_transizione": [
+    {
+     "grandezza": {
+      "valore": 122.94,
+      "unita": "°C",
+      "tipo": "non_specificato"
+     },
+     "metodo": "DSC (Tα–β)",
+     "natura": "sperimentale",
+     "citazione": "The transition temperatures and thermodynamic parameters were: Tα–β = 122.94 °C;"
+    },
+    {
+     "grandezza": {
+      "valore": 123.0,
+      "unita": "°C",
+      "tipo": "equilibrio"
+     },
+     "metodo": "As (T0 per il riscaldamento), che gli autori indicano come temperatura di incrocio delle energie libere di Gibbs di α e β",
+     "natura": "derivata",
+     "citazione": "The temperature hysteresis can be defined using four pertinent transition temperatures (Mf (Te for cooling), Ms (T0 for cooling), As (T0 for heating), and Af (Te for heating) were 118.56, 120.46, 123.00, and 124.97 °C, respectively, with respect to the scientific notation for SMAs) with an extremely small separation of 2.5 K between As and Ms for 1."
+    }
+   ],
+   "citazione": "From the thermal perspective of the crystal phase of 1, the crystal phase should be α below Ms (L) and β over As (H) (Fig. 2i).",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Gli autori scrivono «As is the temperature in the crossing of the Gibbs free energies of the α and β phases». Non e' dichiarata enantiotropia o monotropia con quelle parole; la stabilita' α sotto / β sopra è scritta, con isteresi di 2.5 K fra As e Ms."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 122.94,
+     "onset": 123.0,
+     "fine": 124.97,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "citazioni": [
+    "Thermal transition for 1 from the low temperature phase (α) to the high temperature phase (β) was confirmed via DSC measurements (Table 1 and Fig. S3†). The transition temperatures and thermodynamic parameters were: Tα–β = 122.94 °C; ΔH (ΔS) = 3.01 kJ mol–1 (7.60 JK–1 mol–1) for the transition from the α phase to the β phase;",
+    "T α–β/°C | ΔH/kJ mol–1 | ΔS/JK–1 mol–1 | T m/°C | ΔH/kJ mol–1 | ΔS/JK–1 mol–1 | A s (Af)/°C | M s (Mf)/°C | A s–Ms/°C 122.94 | 3.01 | 7.60 | 230.05 | 41.0 | 81.4 | 123.00 (124.97) | 120.46 (118.56) | 2.54",
+    "The temperature hysteresis can be defined using four pertinent transition temperatures (Mf (Te for cooling), Ms (T0 for cooling), As (T0 for heating), and Af (Te for heating) were 118.56, 120.46, 123.00, and 124.97 °C, respectively, with respect to the scientific notation for SMAs) with an extremely small separation of 2.5 K between As and Ms for 1.",
+    "By warming the crystal 1, the crystal system changed from triclinic P1 in the α phase (394 K, V/Z: 960.7 Å3) into monoclinic P21/n in the β phase (403 K, V/Z: 968.5 Å3) with a 0.8% expansion in volume (Table S1†).",
+    "The α–β thermal structural transition of 1 was confirmed using PXRD measurements (Fig. S4†)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD",
+     "SCXRD"
+    ],
+    "entalpia": {
+     "valore": 3.01,
+     "unita": "kJ mol–1",
+     "tipo": "transizione"
+    },
+    "meccanismo": [
+     "martensitica"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "molecular components (cation and anion): orientation and conformation at the interface",
+     "ruolo": "torsione",
+     "con": "altra_molecola",
+     "cambia": "ruota",
+     "citazione": "Since molecular components have certain complexities in figures unlike the atomic components in SMAs, the molecular correspondence at the interface can be regulated via a change of orientation and conformation as well as their relative position."
+    },
+    {
+     "gruppo": "molecular components (cation and anion): minimal rotation with harmonic conformational change",
+     "ruolo": "torsione",
+     "con": "altra_molecola",
+     "cambia": "ruota",
+     "citazione": "A minimal molecular rotation with a harmonic conformational change can achieve molecular correspondence in the interface without a break in the crystal."
+    }
+   ],
+   "note": "Transizione termica α → β riscaldando: Tα–β = 122.94 °C, ΔH 3.01 kJ mol–1, ΔS 7.60 JK–1 mol–1 (DSC); As (T0 per il riscaldamento, inizio) 123.00 °C e Af (Te, fine) 124.97 °C; SCXRD: α a 394 K e β a 403 K con +0.8% di volume per unita' formula; trasformazione martensitica termoelastica, senza diffusione («non-diffusional crystal-to-crystal transformation»). Isteresi piccolissima (As − Ms 2.5 K) e buona coerenza all'interfaccia. valore = Tα–β come scritta; onset = As, fine = Af. ΔS di fusione elevato: β non e' una mesofase plastica."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "onset": 120.46,
+     "fine": 118.56,
+     "unita": "°C",
+     "tipo": "onset"
+    }
+   },
+   "citazioni": [
+    "The temperature hysteresis can be defined using four pertinent transition temperatures (Mf (Te for cooling), Ms (T0 for cooling), As (T0 for heating), and Af (Te for heating) were 118.56, 120.46, 123.00, and 124.97 °C, respectively, with respect to the scientific notation for SMAs) with an extremely small separation of 2.5 K between As and Ms for 1.",
+    "T α–β/°C | ΔH/kJ mol–1 | ΔS/JK–1 mol–1 | T m/°C | ΔH/kJ mol–1 | ΔS/JK–1 mol–1 | A s (Af)/°C | M s (Mf)/°C | A s–Ms/°C 122.94 | 3.01 | 7.60 | 230.05 | 41.0 | 81.4 | 123.00 (124.97) | 120.46 (118.56) | 2.54",
+    "In the heat-induced reversible transformation, the crystal of 1 thermally transforms across the transition temperatures of Ms (β → α) and As (α → β) in the manner of an isothermal martensitic transformation."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "meccanismo": [
+     "martensitica"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "molecular components (cation and anion): orientation and conformation at the interface",
+     "ruolo": "torsione",
+     "con": "altra_molecola",
+     "cambia": "ruota",
+     "citazione": "Since molecular components have certain complexities in figures unlike the atomic components in SMAs, the molecular correspondence at the interface can be regulated via a change of orientation and conformation as well as their relative position."
+    }
+   ],
+   "note": "Raffreddando β → α: Ms (T0 per il raffreddamento, inizio) 120.46 °C, Mf (Te, fine) 118.56 °C. Gli indici As, Af, Ms, Mf sono quelli della notazione delle leghe a memoria di forma."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 230.05,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "citazioni": [
+    "Tm = 230.05 °C; ΔH (ΔS) = 41.0 kJ mol–1 (81.4 JK–1 mol–1) upon melting.",
+    "T α–β/°C | ΔH/kJ mol–1 | ΔS/JK–1 mol–1 | T m/°C | ΔH/kJ mol–1 | ΔS/JK–1 mol–1 | A s (Af)/°C | M s (Mf)/°C | A s–Ms/°C 122.94 | 3.01 | 7.60 | 230.05 | 41.0 | 81.4 | 123.00 (124.97) | 120.46 (118.56) | 2.54",
+    "Because of the sufficiently large ΔS (>20.9 JK–1 mol–1 (ref. 18)) upon melting, the β phase should not be considered as a plastic mesophase but instead as an ordinal crystal phase."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 41.0,
+     "unita": "kJ mol–1",
+     "tipo": "fusione"
+    }
+   },
+   "note": "Fusione della fase β (DSC): Tm 230.05 °C, ΔH 41.0 kJ mol–1, ΔS 81.4 JK–1 mol–1."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 125.0,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    }
+   },
+   "citazioni": [
+    "Upon homogeneous warming, the deformed crystal regained its straight shape, showing the thermal shape recovery of 1 (Fig. 1a).",
+    "Thermal shaping recovered the deformed zigzag α+/α– prepared at room temperature to the “remembered” straight rod β: around 125.0 °C by warming (a);",
+    "Through application of shear force at room temperature, a colorless rod-shaped crystal (α phase) underwent a stress-induced martensitic transformation in growing a twin (α+/α– state) with mobile planar phase boundaries across the crystal rod keeping an invariant bending angle of 12°."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "pretrattamento": "cristallo a bacchetta deformato per taglio a temperatura ambiente (zigzag di α+/α–, geminato con angolo di flessione di 12°)",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "martensitica"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "molecular components (cation and anion): orientation and conformation at the interface",
+     "ruolo": "torsione",
+     "con": "altra_molecola",
+     "cambia": "ruota",
+     "citazione": "Since molecular components have certain complexities in figures unlike the atomic components in SMAs, the molecular correspondence at the interface can be regulated via a change of orientation and conformation as well as their relative position."
+    }
+   ],
+   "note": "Effetto memoria di forma: il cristallo deformato (zigzag α+/α–) riscaldato in modo omogeneo torna alla bacchetta dritta «remembered» β intorno a 125.0 °C (Fig. 1a, microcristalli). Sotto As il cristallo deformato non recupera da solo (regione di geminazione T: la geminazione lascia una deformazione residua)."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "F2",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 150,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "citazioni": [
+    "In contrast, applying heat to the straight rod-shaped crystal with a longitudinally thermal gradient bent the crystal by generating a high-temperature phase (β) from the original phase (α). This was done in a quick shifting bending position by regulating the applied heat with a definite bending angle of 6° at the boundary (Fig. 1b).",
+    "thermal actuation for cyclic α ⇄ β/α transformation via heat fluctuation with an iron at 150 °C (b);",
+    "The practical shape-memory effect of 1 was clearly confirmed via heat sweeping of the deformed crystal specimen with the partial generation of the β phase through the α/β/α transient state (Fig. 1c)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "martensitica"
+    ],
+    "integrita": "deformato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Riscaldamento locale con gradiente termico lungo la bacchetta (un ferro a 150 °C, non la temperatura del cristallo): si genera β solo in parte e il cristallo si piega di 6° al confine α/β; lo stesso nel «heat sweep» sul cristallo deformato (Fig. 1c, α/β/α transitorio). L'angolo di 6.0° osservato concorda con 5.3° stimato dai dati a raggi X. Interfaccia α±/β: (205)α+//(313)β e (205)α–//(313)β."
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": null,
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 123,
+     "max": 129,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "altro": "taglio con lama metallica (5 o 95 μm di larghezza) su (010)β a 200 o 500 μm min–1; σf-trans(β → α) cresce linearmente con la temperatura oltre As, con gradiente 0.135 MPa °C–1; larghezza dell'isteresi taglio–deformazione costante a 0.123 MPa; 100 cicli riprodotti a 124.5 °C"
+   },
+   "citazioni": [
+    "We recorded the cyclic strain curves caused by shear on (101)α and (010)β at various temperatures between –50 °C and 130 °C.",
+    "In the shear-induced transformation of 1 under our experimental conditions, T spreads from at least –50 °C to As (123 °C) in L.",
+    "The superelastic region (S) is located from As up to at least 129 °C in H.",
+    "The superelastic transformation of 1 was reproduced in 100 cycles of measurements at 124.5 °C (Fig. S10†).",
+    "In the temperature range between Tf-trans(β → α) and Tr-trans(β ← α), which includes a temperature region even lower than As, an applied force can induce β → α transformation to lead to an α/β crystal state without a spontaneously reversing transformation.",
+    "The vertical (shear stress) width in the shear–strain hysteresis was regarded as being constant at 0.123 MPa to depict the parallel lines for σf-trans(β → α) and σr-trans(β ← α)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E7",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "martensitica"
+    ],
+    "cinetica": "superelastica: curve cicliche taglio–deformazione con plateau tipico e senza deformazione residua",
+    "integrita": "intatto"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Regione superelastica S (da As a almeno 129 °C): il taglio induce β → α (σf-trans) e al rilascio la trasformazione inversa e' spontanea (E7). La temperatura e' l'intervallo S (123 °C = As, fino a «at least 129 °C»); la prova di 100 cicli e' a 124.5 °C. Il testo dice che anche sotto As una forza puo' indurre β → α «without a spontaneously reversing transformation» nell'intervallo fra Tf-trans e Tr-trans. Le grandezze di sforzo (MPa) non hanno un campo dedicato e stanno in condizioni.altro."
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 123,
+     "max": 129,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "citazioni": [
+    "In contrast, the crystal was spontaneously restored above the As temperature at the beginning of S (Fig. 3b). The shear for the reverse transformation showed cyclic shear–strain curves without residual strain.",
+    "In the shear-induced transformation of 1 under our experimental conditions, T spreads from at least –50 °C to As (123 °C) in L.",
+    "The superelastic region (S) is located from As up to at least 129 °C in H."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E6",
+   "da_evento": "E6",
+   "pretrattamento": "α indotta da taglio (β → α, E6)",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "martensitica"
+    ],
+    "integrita": "intatto"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Ritorno spontaneo α → β al rilascio del taglio sopra As, senza deformazione residua (superelasticita'). Sotto As lo stesso taglio lascia invece deformazione residua (geminazione α+ → α–)."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "valori": [
+      131.0,
+      131.8,
+      133.4
+     ],
+     "unita": "°C",
+     "tipo": "osservata"
+    },
+    "altro": "pesi SUS di 1, 10 e 100 g appesi con un filamento SUS; forno; cristallo di 3.8 cm, 0.6 g, sezione 0.18 cm2"
+   },
+   "citazioni": [
+    "In order to visually observe the lifting work, we prepared a large single crystal and cleaved it into a 3.8 cm long specimen of 0.6 g in self-weight with a 0.18 cm2 (0.6 × 0.3 cm) cross-sectional area, which had a 1.8 kg lift capability with a 1 MPa recovery shear around 130 °C.",
+    "Considering the current experimental configuration, we hung SUS weights of 1, 10, and 100 g (more than 102 times heavier than the specimen's own weight) with a SUS filament on the single-crystal specimen after the specimen was manually deformed below As.",
+    "After the experimental system was warmed in an oven, the specimen regained its default straight shape via sequential lifting as the recovery shear increased during the rise in temperature, demonstrating the practical and feasible work capability of the shape-memory effect of 1, (Fig. 7) although the lifting started at 131.0 (1 g), 131.8 (10 g), and 133.4 (100 g) °C, which are higher by 5.9 (131.0–125.1)–8.2 (133.4–125.2) °C than the expected starting temperatures from the microcrystal experiments depicted in Fig. 1a, probably due to the non-ideal strain in a large crystal specimen hanging heavy weights."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "pretrattamento": "cristallo grande deformato a mano sotto As",
+   "frequenza": null,
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "martensitica"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "3.8 cm long, 0.6 g, cross-section 0.18 cm2 (0.6 × 0.3 cm)"
+   },
+   "note": "Recupero di forma con carico: il sollevamento comincia a 131.0 °C (1 g), 131.8 °C (10 g) e 133.4 °C (100 g), cioe' 5.9–8.2 °C sopra le temperature attese dai microcristalli (125.1 e 125.2 °C). Una prova per ogni peso, un evento con valori (l'associazione fra peso e temperatura e' nella citazione). Esperimento di lavoro meccanico: i pesi non cambiano la forma di partenza o arrivo."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "acetone"
+   ],
+   "solventi_alternativi": false,
+   "citazioni": [
+    "Its single-crystals were prepared via recrystallization from an acetone solution of crude 1, which was first obtained as a precipitate from a mixed aqueous solution of PBu4Cl and NaBPh4.",
+    "Well-formed colorless rod crystals were obtained via recrystallization from acetone and used for the experiments after vacuum drying."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "conflitto": "Risultati: precipitato da «a mixed aqueous solution of PBu4Cl and NaBPh4»; Sperimentale: «two separately prepared 0.15 M aqueous solutions of NaBPh4 and PBu4Br». Si riportano entrambe.",
+   "note": "Cristalli a bacchetta (rod) incolori, fase α a temperatura ambiente. La polvere grezza (resa 82.6%) si ricristallizza «from acetone or acetonitrile»; i cristalli per gli esperimenti vengono dall'acetone e sono asciugati sotto vuoto."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "componente molecolare di forma sferica, scelto per somigliare alle sfere rigide dei componenti atomici delle leghe",
+     "citazione": "We investigated organoionic single crystals consisting of binary molecular components with a spherical shape as similar as possible to the rigid sphere atomic components in metal alloys."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "componente molecolare di forma sferica, scelto per somigliare alle sfere rigide dei componenti atomici delle leghe",
+     "citazione": "We investigated organoionic single crystals consisting of binary molecular components with a spherical shape as similar as possible to the rigid sphere atomic components in metal alloys."
+    }
+   ]
+  }
+ ]
+}
