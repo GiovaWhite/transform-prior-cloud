@@ -1,0 +1,1449 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/cryst10121098",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Solvati dell'acido trimesico (TMA): nuovo solvato con etanolo (evaporazione lenta), transizione SCSC nel solvato con IPA fra 233 e 243 K, solvato 1:3 transitorio con DMF (Pmn21) che si trasforma nell'1:2 stabile in minuti (all'aria) o ore (in olio, a 100 K piu' a lungo). Lo screening con LAG e sospensione in altri solventi mostra solo qualitativamente quali solvati noti si formano (Figure S1 e S2, supplementare). Non estratti: le energie intermolecolari PIXEL (calcolate), la correlazione fra lunghezza dell'alcool e distorsione dello scheletro di TMA, le distanze strato-strato, la formazione del δ-TMA per trasformazione SCSC sotto vuoto dal solvato scambiato con n-pentano (Cui et al., senza numeri), «the majority of the other solvents» che danno α-TMA (solventi non nominati), e le strutture di metanolo/propanolo/butanolo-esanolo di altri lavori. Incoerenze: l'abstract dice che i solvati con etanolo, IPA e DMF si formano «via liquid-assisted grinding and slurry experiments», mentre i Risultati dicono che etanolo e IPA (macinando) restano quasi invariati nelle polveri; 2 h (Risultati) contro 2 1/2 h (Conclusioni) per la conversione 1:3 -> 1:2 sul diffrattometro; il TMA:IPA «Cui et al.» a 100 K e' la fase LT, qui con i dati a T variabile.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "trimesic acid (TMA)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "α-TMA",
+   "etichette_alternative": [
+    "raw TMA",
+    "known α-form of TMA",
+    "BTCOAC"
+   ],
+   "tipo": "anidro",
+   "refcode": "BTCOAC",
+   "citazione": "From our experimental patterns, we observe that this phase is produced via the Liquid-Assisted Grinding with a secondary component that can be identiﬁed as the raw TMA pattern (BTCOAC) (Figure 1a).",
+   "note": "Materiale di partenza e forma «known α-form of TMA»; il refcode BTCOAC e' scritto accanto al «raw TMA pattern»."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "TMA:EtOH solvate",
+   "etichette_alternative": [
+    "ethanol solvate of TMA",
+    "TMA:ethanol solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "ethanol",
+    "stechiometria": 1
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "ccdc": "2042918",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2042918",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "The samples were cooled using an Oxford Cryosystems low temperature device [10] with data collected at 100 K."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R22(8)",
+     "chi": "TMA acid dimer (TMA–TMA)",
+     "citazione": "Like many of the other alcohol structures the TMA molecules hydrogen bond to each other using the acid dimer hydrogen bonding motif (R22(8))."
+    },
+    {
+     "motivo": "R44(32) rings forming a tape",
+     "chi": "TMA dimers linked by single hydrogen bonds to the neighbouring dimers",
+     "citazione": "These secondary interactions form large rings R44(32) that extend into a tape motif with the solvent molecules positioned at the edges of the tape."
+    },
+    {
+     "motivo": "solvent–free carbonyl interaction",
+     "chi": "ethanol and the free carbonyl of TMA",
+     "citazione": "The solvent molecules interact with the free carbonyl that is unused in the TMA interactions (Figure 2)."
+    }
+   ],
+   "citazione": "The ethanol solvate crystallizes in space group P-1 with one molecule of TMA and one molecule of ethanol in the asymmetric unit.",
+   "note": "Nuovo solvato con etanolo, ottenuto per evaporazione lenta dal sovranatante della sospensione; dati a 100 K. Cella non nel testo (Table S1, supplementare). CCDC dall'intervallo «2042918-2042926» (9 numeri) attribuiti per ordine: etanolo (1 dataset, 100 K), IPA (7 temperature in ordine crescente: 100, 173, 223, 233, 243, 263, 293 K), DMF (1 dataset, 100 K), cioe' l'ordine dei Metodi e delle Tabelle S1-S3. "
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "TMA:IPA solvate (LT phase)",
+   "etichette_alternative": [
+    "low-temperature polymorph of the TMA:IPA solvate",
+    "LT phase"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "isopropyl alcohol (IPA)",
+    "stechiometria": 1
+   },
+   "gruppo_spaziale": "C2/c",
+   "ccdc": "2042919",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2042919",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Temperature control was provided by use of an Oxford Cryosystems Cobra low temperature device with data collected at temperatures of 100, 173, 223, 233, 243, 263 and 293 K."
+    },
+    {
+     "ccdc": "2042920",
+     "temperatura": {
+      "valore": 173,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Temperature control was provided by use of an Oxford Cryosystems Cobra low temperature device with data collected at temperatures of 100, 173, 223, 233, 243, 263 and 293 K."
+    },
+    {
+     "ccdc": "2042921",
+     "temperatura": {
+      "valore": 223,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Temperature control was provided by use of an Oxford Cryosystems Cobra low temperature device with data collected at temperatures of 100, 173, 223, 233, 243, 263 and 293 K."
+    },
+    {
+     "ccdc": "2042922",
+     "temperatura": {
+      "valore": 233,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Temperature control was provided by use of an Oxford Cryosystems Cobra low temperature device with data collected at temperatures of 100, 173, 223, 233, 243, 263 and 293 K."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "R44(32) pockets filled by IPA",
+     "chi": "TMA tape and IPA of the tapes above and below",
+     "citazione": "This crystal forms the same hydrogen-bonded TMA motif that we have observed in other alcohol solvates. There is intercalation of the alcohol molecules into the large pockets created by the R44(32) motif."
+    },
+    {
+     "motivo": "R44(32) rings filled by IPA from adjacent tapes",
+     "chi": "IPA solvent molecules and the TMA rings",
+     "citazione": "The tapes stack together in a similar manner to the ethanol solvate (Figure 4a) where the IPA solvent molecules from the tapes above and below ﬁll the ring."
+    }
+   ],
+   "citazione": "TMA:IPA solvate was investigated by Cui and co-workers, and they observed that two TMA molecules crystallized with two IPA molecules in C2/c symmetry at 100 K.",
+   "note": "Fase a bassa temperatura (ordinata), gia' riportata da Cui et al.; qui i dati VT dell'articolo. Quali temperature appartengono a LT e quali a HT e' dedotto dall'intervallo di transizione 233-243 K: 100, 173, 223, 233 K in LT; 243, 263, 293 K in HT. Sistema cristallino non scritto. CCDC dall'intervallo «2042918-2042926» (9 numeri) attribuiti per ordine: etanolo (1 dataset, 100 K), IPA (7 temperature in ordine crescente: 100, 173, 223, 233, 243, 263, 293 K), DMF (1 dataset, 100 K), cioe' l'ordine dei Metodi e delle Tabelle S1-S3. Dentro IPA, l'ordine delle temperature e' quello scritto nei Metodi."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "TMA:IPA solvate (HT phase)",
+   "etichette_alternative": [
+    "ambient temperature form of the TMA:IPA solvate",
+    "high-temperature polymorph of the TMA:IPA solvate",
+    "HT phase"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "isopropyl alcohol (IPA)",
+    "stechiometria": null
+   },
+   "gruppo_spaziale": "C2/m",
+   "ccdc": "2042925",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2042923",
+     "temperatura": {
+      "valore": 243,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Temperature control was provided by use of an Oxford Cryosystems Cobra low temperature device with data collected at temperatures of 100, 173, 223, 233, 243, 263 and 293 K."
+    },
+    {
+     "ccdc": "2042924",
+     "temperatura": {
+      "valore": 263,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Temperature control was provided by use of an Oxford Cryosystems Cobra low temperature device with data collected at temperatures of 100, 173, 223, 233, 243, 263 and 293 K."
+    },
+    {
+     "ccdc": "2042925",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Temperature control was provided by use of an Oxford Cryosystems Cobra low temperature device with data collected at temperatures of 100, 173, 223, 233, 243, 263 and 293 K."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "parallel TMA tape with mirror symmetry through the molecule",
+     "chi": "TMA molecules of the tape",
+     "citazione": "The tape structure in the ambient temperature form is set so the TMA molecules are parallel to one another which enables the mirror symmetry to be deﬁned through the molecule."
+    }
+   ],
+   "citazione": "However, on warming, we observe a single-crystal to single-crystal phase transformation to a new disordered phase between 233 and 243 K that persists to ambient temperature.",
+   "note": "Nuova fase disordinata (propile dell'IPA disordinato sul piano speculare, occupanza 0.5), unita' asimmetrica con mezza molecola di TMA, che «persists to ambient temperature». La stechiometria dell'ospite non e' detta per questa fase (occupanza dell'IPA 0.5 sul piano speculare). CCDC dall'intervallo «2042918-2042926» (9 numeri) attribuiti per ordine: etanolo (1 dataset, 100 K), IPA (7 temperature in ordine crescente: 100, 173, 223, 233, 243, 263, 293 K), DMF (1 dataset, 100 K), cioe' l'ordine dei Metodi e delle Tabelle S1-S3. Il CCDC della forma e' quello di 293 K (ambiente)."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "TMA:DMF 1:2 solvate",
+   "etichette_alternative": [
+    "known DMF solvate",
+    "stable 1:2 solvate",
+    "XAVPOZ",
+    "XAVPOZ01"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethylformamide (DMF)",
+    "stechiometria": 2
+   },
+   "refcode": "XAVPOZ",
+   "strutture": [
+    {
+     "refcode": "XAVPOZ",
+     "fonte": "non_detta",
+     "citazione": "TMA forms a solvate with DMF that has been characterized previously either from a mixture of DMF/benzene in a 1:10 ratio (XAVPOZ) [27] or through recrystallisation from pure DMF (XAVPOZ01) [17]."
+    },
+    {
+     "refcode": "XAVPOZ01",
+     "fonte": "non_detta",
+     "citazione": "TMA forms a solvate with DMF that has been characterized previously either from a mixture of DMF/benzene in a 1:10 ratio (XAVPOZ) [27] or through recrystallisation from pure DMF (XAVPOZ01) [17]."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "layers of TMA hydrogen bonded to two DMF molecules and one neighbouring TMA",
+     "chi": "TMA–DMF (2.517, 2.611 Å) and TMA–TMA (2.747 Å)",
+     "citazione": "It forms a layered structure (parallel to the (1 0 −1) plane) where the TMA molecules hydrogen bond to two DMF molecules (2.517, 2.611 Å) and one neighbouring TMA molecule (2.747 Å)."
+    }
+   ],
+   "citazione": "The structure of the DMF solvate has a 1:2 stoichiometric ratio of TMA to DMF.",
+   "note": "Solvato noto, stabile, da lavori citati (rif. 27 e 17); XAVPOZ e' anche il riferimento del Rietveld del campione «dried» (Fig. 6b). Il testo dice «at 293 K» per la distanza fra gli strati (3.225 Å). Il refcode XAVPOZ e' scritto per la sintesi da DMF/benzene 1:10, XAVPOZ01 per la ricristallizzazione da DMF puro."
+  },
+  {
+   "id": "F6",
+   "composto": "C1",
+   "etichetta": "TMA:DMF 1:3 solvate",
+   "etichette_alternative": [
+    "new DMF solvate",
+    "Pmn21 polymorph of the DMF solvate",
+    "DMF trisolvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethylformamide (DMF)",
+    "stechiometria": 3
+   },
+   "gruppo_spaziale": "Pmn21",
+   "ccdc": "2042926",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2042926",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "For the DMF solvate X-ray, diﬀraction intensities were collected on a Bruker Apex II diﬀractometer with an Incotec IµS microsource, Mo-Kα radiation (λ = 0.71073 Å) and equipped with an Oxford Cryosystems low temperature device [10] operating at 100 K."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "isolated TMA units each hydrogen bonded to three DMF molecules",
+     "chi": "TMA and DMF",
+     "citazione": "The DMF solvate is a transitory phase that has three molecules of DMF that are hydrogen-bonded to the TMA molecule."
+    },
+    {
+     "motivo": "TMA hydrogen bonded to DMF rather than to other TMA molecules",
+     "chi": "TMA and DMF",
+     "citazione": "This is in contrast to the stable form 1:2 solvate where the TMA molecules are hydrogen bonded to one another."
+    },
+    {
+     "motivo": "contact between DMF aldehyde CH and TMA carbonyl of a neighbouring unit",
+     "chi": "the two mirror-related DMF molecules and the TMA of a neighbouring unit",
+     "citazione": "the TMA which enables a contact to be made between the aldehyde CH and carbonyl of the TMA in a neighbouring unit"
+    }
+   ],
+   "citazione": "The structure conﬁrms a new solvate with three molecules of DMF to one TMA molecule in Pmn21 (Figure 7).",
+   "note": "Fase transitoria: una delle tre DMF e' disordinata su due posizioni per il piano speculare. Analoga al trisolvato metastabile con DMSO (XASFAA). Dati a 100 K; a 296 K il cristallo si degrada. CCDC dall'intervallo «2042918-2042926» (9 numeri) attribuiti per ordine: etanolo (1 dataset, 100 K), IPA (7 temperature in ordine crescente: 100, 173, 223, 233, 243, 263, 293 K), DMF (1 dataset, 100 K), cioe' l'ordine dei Metodi e delle Tabelle S1-S3. "
+  },
+  {
+   "id": "F7",
+   "composto": "C1",
+   "etichetta": "TMA:DMSO solvate (known)",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethyl sulfoxide (DMSO)",
+    "stechiometria": null
+   },
+   "citazione": "The DMSO and 1-pentanol patterns show diﬀerent patterns to the α-TMA and are the known solvates.",
+   "note": "Solvato noto di DMSO [20-22], stechiometria non detta qui; osservato nel LAG con DMSO (Figura S1, supplementare)."
+  },
+  {
+   "id": "F8",
+   "composto": "C1",
+   "etichetta": "TMA:pentanol solvate (known)",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "pentanol",
+    "stechiometria": null
+   },
+   "citazione": "The DMSO and 1-pentanol patterns show diﬀerent patterns to the α-TMA and are the known solvates.",
+   "note": "Solvato noto di pentanolo [7]; stechiometria non detta. Osservato nel LAG con pentanolo."
+  },
+  {
+   "id": "F9",
+   "composto": "C1",
+   "etichetta": "TMA:butanol solvate (known)",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "butanol",
+    "stechiometria": null
+   },
+   "citazione": "The solvents in which there were diﬀerences were those known solvated forms of TMA, e.g., DMSO [20–22] and pentanol [7] (for LAG) and water [18,19], methanol [9], butanol (for the slurry) [7] (Figures S1 and S2).",
+   "note": "Solvato noto di butanolo [7]; stechiometria non detta."
+  },
+  {
+   "id": "F10",
+   "composto": "C1",
+   "etichetta": "TMA hydrate (known)",
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": null
+   },
+   "citazione": "The solvents in which there were diﬀerences were those known solvated forms of TMA, e.g., DMSO [20–22] and pentanol [7] (for LAG) and water [18,19], methanol [9], butanol (for the slurry) [7] (Figures S1 and S2).",
+   "note": "Idrato noto [18,19]: il testo cita il diidrato di sintesi idrotermale fallita [18] e l'idrato non stechiometrico (5/6) di Herbstein e Marsh [19]; non dice quale si osserva nella sospensione in acqua."
+  },
+  {
+   "id": "F11",
+   "composto": "C1",
+   "etichetta": "TMA:methanol solvate (known)",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "methanol",
+    "stechiometria": null
+   },
+   "refcode": "IYUQIC",
+   "citazione": "(c) the tape motif observed in the methanol solvate of TMA (CSD Refcode: IYUQIC) [9]",
+   "note": "Solvato noto [9]; il refcode IYUQIC e' nella didascalia della Fig. 2."
+  },
+  {
+   "id": "F12",
+   "composto": "C1",
+   "etichetta": "δ-TMA",
+   "etichette_alternative": [
+    "new unsolvated δ-form"
+   ],
+   "tipo": "anidro",
+   "citazione": "It was found to be stable to 110 ◦C before converting to α-TMA.",
+   "note": "Forma non solvata trovata da Cui et al. [8] (lavoro citato, non misurata qui)."
+  },
+  {
+   "id": "F13",
+   "composto": "C1",
+   "etichetta": "TMA:DMSO trisolvate",
+   "etichette_alternative": [
+    "tri-dmsolate",
+    "DMSO trisolvate",
+    "XASFAA"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethyl sulfoxide (DMSO)",
+    "stechiometria": 3
+   },
+   "refcode": "XASFAA",
+   "citazione": "This mimics the behaviour of the metastable tri-dmsolate where the TMA is hydrogen bonded to DMSO rather than other TMA molecules (XASFAA) [21].",
+   "note": "Trisolvato metastabile con DMSO di Davey et al. [21] (lavoro citato)."
+  },
+  {
+   "id": "F14",
+   "composto": "C1",
+   "etichetta": "[more stable 1:2 phase of the DMSO trisolvate transformation]",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethyl sulfoxide (DMSO)",
+    "stechiometria": 2
+   },
+   "citazione": "This behaviour mimics that of the previously known DMSO trisolvate that also transitions within a matter of minutes to a more stable 1:2 phase.",
+   "note": "Etichetta descrittiva: il testo dice solo «a more stable 1:2 phase» (si legge come 1:2 con DMSO nel contesto del trisolvato)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F6",
+    "F5"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F5",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "condizioni": "temperatura ambiente, all'aria (l'1:3 diventa 1:2)",
+   "citazione": "We were able to identify this phase and observe its conversion to the stable 1:2 solvate over the course of 2 1/2 h on the single crystal diﬀractometer.",
+   "note": "L'1:2 e' detto «stable»; l'1:3 e' «transitory» e «metastable»-like (come il trisolvato con DMSO)."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 233,
+     "max": 243,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "However, on warming, we observe a single-crystal to single-crystal phase transformation to a new disordered phase between 233 and 243 K that persists to ambient temperature.",
+    "a temperature-induced phase transition in the isopropyl alcohol solvate between 233 K and 243 K",
+    "Temperature control was provided by use of an Oxford Cryosystems Cobra low temperature device with data collected at temperatures of 100, 173, 223, 233, 243, 263 and 293 K.",
+    "Over the phase transition the translational component of the glide operation is lost leaving a C2/m symmetry. The asymmetric unit is composed of half a TMA molecule, and the propyl group of the IPA molecule is now disordered.",
+    "On cooling, the tape is maintained but the neighbouring dimers have moved laterally, which breaks the mirror symmetry through the TMA molecules (Figure 4).",
+    "In the case of TMA:IPA, we have identiﬁed that the previous structure obtained by Cui et al. undergoes a phase transition at ~240 K to a ambient temperature phase that is disordered.",
+    "Inspection of the crystal during warming showed a gradual colour change; at 100 K, the sample crystal was a strong yellow colour, the intensity of which diminished gradually during warming through the transition and back to room temperature (Figure S3)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "TMA hydrogen-bonded tape (acid dimers linked into R44(32) rings)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "On cooling, the tape is maintained but the neighbouring dimers have moved laterally, which breaks the mirror symmetry through the TMA molecules (Figure 4)."
+    },
+    {
+     "gruppo": "propyl group of the IPA molecule",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F4",
+     "citazione": "Over the phase transition the translational component of the glide operation is lost leaving a C2/m symmetry. The asymmetric unit is composed of half a TMA molecule, and the propyl group of the IPA molecule is now disordered."
+    },
+    {
+     "gruppo": "IPA solvent molecules filling the R44(32) ring",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "The tapes stack together in a similar manner to the ethanol solvate (Figure 4a) where the IPA solvent molecules from the tapes above and below ﬁll the ring."
+    }
+   ],
+   "note": "Transizione SCSC LT (C2/c, ordinata) -> HT (C2/m, disordinata) riscaldando un cristallo singolo: strutture a 100, 173, 223, 233 K (LT) e 243, 263, 293 K (HT); la transizione e' fra 233 e 243 K (nelle Conclusioni «~240 K»). Si perde la componente traslazionale del glide e compare un piano speculare attraverso la molecola. Il colore del cristallo (giallo intenso a 100 K) cala gradualmente riscaldando, anche attraverso la transizione. Il cristallo e' stato indicizzato sulle facce a ogni temperatura."
+  },
+  {
+   "id": "E2",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 233,
+     "max": 243,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The phase transition from the ambient temperature form to the low temperature form occurs between 233 K and 243 K.",
+    "Then, we describe the phase transition that occurs in the isopropyl alcohol solvate of TMA on cooling to 100 K",
+    "On cooling, the tape is maintained but the neighbouring dimers have moved laterally, which breaks the mirror symmetry through the TMA molecules (Figure 4).",
+    "The tapes stack together in a similar manner to the ethanol solvate (Figure 4a) where the IPA solvent molecules from the tapes above and below ﬁll the ring."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "TMA hydrogen-bonded tape (acid dimers linked into R44(32) rings)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "On cooling, the tape is maintained but the neighbouring dimers have moved laterally, which breaks the mirror symmetry through the TMA molecules (Figure 4)."
+    },
+    {
+     "gruppo": "IPA solvent molecules filling the R44(32) ring",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "The tapes stack together in a similar manner to the ethanol solvate (Figure 4a) where the IPA solvent molecules from the tapes above and below ﬁll the ring."
+    }
+   ],
+   "note": "Verso inverso, dichiarato nella didascalia della Fig. S3 («from the ambient temperature form to the low temperature form occurs between 233 K and 243 K») e nell'introduzione («on cooling to 100 K»); stesso intervallo di E1, nessuna temperatura propria. «SCSC» e' detto per il riscaldamento; per il raffreddamento e' lo stesso cristallo. Scendendo, i dimeri vicini si spostano lateralmente e la simmetria speculare si rompe."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "dimethylformamide (DMF)"
+     }
+    ],
+    "temperatura": {
+     "min": 20,
+     "max": 55,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 0.15,
+     "unita": "°C/min"
+    },
+    "rapporto_solido_solvente": "TMA 500 mg in 1 mL"
+   },
+   "citazioni": [
+    "Slurries of TMA (500 mg) in each solvent (1 mL) and heated from 20 ◦C to 55 ◦C over 4 h (0.15 ◦C/min) before cooling to 20 ◦C over 2 h (0.3 ◦C/min).",
+    "It was possible to transfer the wet slurry to a capillary for XRPD data collection, following which we collected data repeatedly over the period of 24 h and saw no change in the pattern (Figure 6a).",
+    "(a) XRPD pattern obtained from a “wet” TMA:DMF slurry. The pattern has been ﬁtted (Pawley) using the unit cell parameters of the new Pmn21 polymorph of the DMF solvate.",
+    "The structure conﬁrms a new solvate with three molecules of DMF to one TMA molecule in Pmn21 (Figure 7).",
+    "The slurry experiment seems to be free from raw TMA, but there are peaks present that we cannot identify from the known forms in the literature (Figure 1b)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "500 mg"
+   },
+   "note": "Sospensione di TMA in DMF con ciclo di temperatura (20 -> 55 °C in 4 h a 0.15 °C/min, poi 55 -> 20 °C in 2 h a 0.3 °C/min): il campione umido in capillare e' la fase 1:3 (Pmn21, fit di Pawley); i cristalli ricresciuti nel capillare sono stati isolati per la SCXRD. Fuori dal capillare, o seccando, il prodotto e' l'1:2 (E5). Per la sospensione su piastra piana il testo dice che «the majority of the solid has converted to the known solvate phase» con un picco in piu' a 8° (doppietto): la stessa prova vista dopo il trasferimento, non un evento nuovo. Raffreddamento: 0.3 °C/min."
+  },
+  {
+   "id": "E4",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "dimethylformamide (DMF)"
+     }
+    ]
+   },
+   "citazioni": [
+    "It was possible to transfer the wet slurry to a capillary for XRPD data collection, following which we collected data repeatedly over the period of 24 h and saw no change in the pattern (Figure 6a).",
+    "(a) XRPD pattern obtained from a “wet” TMA:DMF slurry. The pattern has been ﬁtted (Pawley) using the unit cell parameters of the new Pmn21 polymorph of the DMF solvate."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "altro",
+    "crogiolo": "capillare",
+    "mezzo": "wet TMA:DMF slurry"
+   },
+   "note": "Negativo: il campione umido nel capillare non cambia in 24 h (XRPD ripetuta). Temperatura non detta. La forma attesa non e' nominata: a = ignota. Alla fine i cristalli erano ricresciuti («annealed») nel capillare."
+  },
+  {
+   "id": "E5",
+   "da": "F6",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "temperatura": {
+     "valore": 296,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "min": 5,
+     "max": 20,
+     "unita": "min",
+     "tipo": "trasformazione"
+    },
+    "atmosfera": "air",
+    "solventi": []
+   },
+   "citazioni": [
+    "We attempted to isolate these crystals for single-crystal XRD data collection, and interestingly, these crystals rapidly transformed when removed from the capillary tube (5–20 min).",
+    "The inset images show the transformation of (a) a single crystal of the Pmn21 phase isolated from the slurry to the (b) XAVPOZ phase within minutes of isolation (296 K, in air).",
+    "(b) XRPD pattern obtained from a “dried” sample of the TMA:DMF slurry. The pattern has been ﬁtted (Rietveld) to the previously known polymorph (CSD: XAVPOZ) of the DMF solvate.",
+    "This timescale is much longer than we observed for crystals fresh from the capillary which deteriorated within minutes of exposure to air.",
+    "The phase transition between this 1:3 and 1:2 solvate is reconstructive, suggesting a complete disruption of the hydrogen bonded network."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "PXRD",
+     "microscopia"
+    ],
+    "meccanismo": [
+     "ricostruttiva"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristalli ricresciuti («annealed») da sospensione umida di TMA in DMF nel capillare",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "TMA hydrogen-bonded to DMF (1:3 solvate)",
+     "ruolo": null,
+     "con": "ospite",
+     "cambia": "cambia_partner",
+     "forma": "F6",
+     "citazione": "The DMF solvate is a transitory phase that has three molecules of DMF that are hydrogen-bonded to the TMA molecule."
+    },
+    {
+     "gruppo": "TMA–TMA hydrogen bonds (1:2 solvate)",
+     "ruolo": null,
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F5",
+     "citazione": "This is in contrast to the stable form 1:2 solvate where the TMA molecules are hydrogen bonded to one another."
+    },
+    {
+     "gruppo": "hydrogen bonded network",
+     "ruolo": null,
+     "con": "non_detto",
+     "cambia": "si_rompe",
+     "citazione": "The phase transition between this 1:3 and 1:2 solvate is reconstructive, suggesting a complete disruption of the hydrogen bonded network."
+    }
+   ],
+   "note": "Il cristallo 1:3 estratto dal capillare si trasforma in minuti (5-20 min) nel solvato 1:2 (XAVPOZ): la transizione e' «reconstructive». Via: il solvato cambia all'aria ambiente (regola «aria»); il testo non dice che DMF esce ma suggerisce che «regions of solvent molecules ... may facilitate the loss of DMF to create the 1:2 solvate». Anche il campione «dried» della sospensione e' XAVPOZ (Fig. 6b): lo stesso passaggio su polvere, non un evento nuovo."
+  },
+  {
+   "id": "E6",
+   "da": "F6",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": null,
+   "condizioni": {
+    "temperatura": {
+     "valore": 296,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "trasformazione"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "We performed a single-crystal X-ray diﬀraction study on this material and could identify a new unit cell; however, during the collection at ambient temperature (296 K) the diﬀraction pattern deteriorated signiﬁcantly within a 2-h period (Figure 6c–e).",
+    "The change in diﬀraction obtained from a crystal of the Pmn21 phase over the period of 2 h is shown in (c–e), where the highlighted ring represents 1.0 angstrom resolution.",
+    "The mineral oil used to mount the crystal protected the crystal from the rapid transformation.",
+    "We were able to identify this phase and observe its conversion to the stable 1:2 solvate over the course of 2 1/2 h on the single crystal diﬀractometer."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "mineral oil"
+   },
+   "conflitto": "Durata sul diffrattometro: «within a 2-h period» (Risultati, Fig. 6c-e) contro «over the course of 2 1/2 h» (Conclusioni). Si tiene 2 h (corpo batte conclusioni).",
+   "note": "Cristallo 1:3 montato in olio minerale a 296 K: il pattern si degrada in ca 2 h, molto piu' lentamente dei minuti all'aria. Le Conclusioni dicono che si converte nel solvato 1:2 stabile; i Risultati dicono solo «deteriorated significantly». Sottovia non assegnata: il cristallo e' in olio, non all'aria libera."
+  },
+  {
+   "id": "E7",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The lifetime of the new structure is suitably extended at 100 K and allowed the collection of a dataset from which we solved the structure."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo debole: a 100 K la vita della fase 1:3 e' «suitably extended» e permette di raccogliere il dataset (non e' detto «nessun cambio» ne' per quanto tempo). Forma attesa non nominata: a = ignota."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "F5",
+   "esito": "parziale",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "mortar and pestle",
+     "durata": {
+      "valore": 15,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "dimethylformamide (DMF), 75 µL added in 25 µL aliquots"
+    },
+    "solventi": [
+     {
+      "nome": "dimethylformamide (DMF)"
+     }
+    ]
+   },
+   "citazioni": [
+    "LAG experiments were conducted on sample weights of approximately 300 mg of TMA. A mortar and pestle were used to lightly grind up the material in 75 µL of the chosen solvent was added in 25 µL aliquots over 15 min with continuous grinding throughout.",
+    "From our experimental patterns, we observe that this phase is produced via the Liquid-Assisted Grinding with a secondary component that can be identiﬁed as the raw TMA pattern (BTCOAC) (Figure 1a).",
+    "In each of the graphs, the dimethylformamide sample shows a very diﬀerent PXRD to the raw material which supports previous investigations that isolated the DMF solvate [17].",
+    "The structure of the DMF solvate has a 1:2 stoichiometric ratio of TMA to DMF."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F5",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F1",
+      "prevalenza": "minoritaria"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 300 mg"
+   },
+   "note": "LAG di TMA con DMF: si ottiene il solvato 1:2 noto con una componente secondaria che e' il TMA di partenza (BTCOAC). Temperatura non detta."
+  },
+  {
+   "id": "E9",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "mortar and pestle",
+     "durata": {
+      "valore": 15,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "isopropyl alcohol (IPA), 75 µL added in 25 µL aliquots"
+    },
+    "solventi": [
+     {
+      "nome": "isopropyl alcohol (IPA)"
+     }
+    ]
+   },
+   "citazioni": [
+    "LAG experiments were conducted on sample weights of approximately 300 mg of TMA. A mortar and pestle were used to lightly grind up the material in 75 µL of the chosen solvent was added in 25 µL aliquots over 15 min with continuous grinding throughout.",
+    "The isopropyl alcohol shows no conversion during grinding but there is partial transformation in the slurried sample occurring at 11◦that indicates the potential change to the IPA solvate."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 300 mg"
+   },
+   "note": "Nessuna conversione macinando con IPA (Fig. 1a). Forma attesa non nominata (il testo parla di «the IPA solvate»).",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "parziale",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "isopropyl alcohol (IPA)"
+     }
+    ],
+    "temperatura": {
+     "min": 20,
+     "max": 55,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 0.15,
+     "unita": "°C/min"
+    },
+    "rapporto_solido_solvente": "TMA 500 mg in 1 mL"
+   },
+   "citazioni": [
+    "Slurries of TMA (500 mg) in each solvent (1 mL) and heated from 20 ◦C to 55 ◦C over 4 h (0.15 ◦C/min) before cooling to 20 ◦C over 2 h (0.3 ◦C/min).",
+    "The isopropyl alcohol shows no conversion during grinding but there is partial transformation in the slurried sample occurring at 11◦that indicates the potential change to the IPA solvate."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "500 mg"
+   },
+   "note": "Trasformazione parziale della sospensione, con un picco a 11° che indica «the potential change to the IPA solvate»: il prodotto non e' identificato fra le due fasi dell'IPA (LT, HT; a 20 °C ci si aspetta la fase ambiente). Raffreddamento a 0.3 °C/min.",
+   "a_possibili": [
+    "F3",
+    "F4"
+   ]
+  },
+  {
+   "id": "E11",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "mortar and pestle",
+     "durata": {
+      "valore": 15,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "ethanol, 75 µL added in 25 µL aliquots"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol"
+     }
+    ]
+   },
+   "citazioni": [
+    "LAG experiments were conducted on sample weights of approximately 300 mg of TMA. A mortar and pestle were used to lightly grind up the material in 75 µL of the chosen solvent was added in 25 µL aliquots over 15 min with continuous grinding throughout.",
+    "The powder from ethanol looks to be largely unchanged via these experiments; however, there is a peak at 8.7◦that does not ﬁt with the known form of TMA but does potentially correspond to the TMA dihydrate that was formed under failed hydrothermal synthesis with 2-2′-bipyridine and lanthanum sulfate nonahydrate [18]."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 300 mg"
+   },
+   "note": "La polvere da etanolo «looks to be largely unchanged»; un picco a 8.7° non e' del TMA noto e potrebbe corrispondere al diidrato di TMA (non identificato qui). Il solvato con etanolo (F2) non si vede nelle polveri: «hidden».",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E12",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "ethanol"
+     }
+    ],
+    "temperatura": {
+     "min": 20,
+     "max": 55,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 0.15,
+     "unita": "°C/min"
+    },
+    "rapporto_solido_solvente": "TMA 500 mg in 1 mL"
+   },
+   "citazioni": [
+    "Slurries of TMA (500 mg) in each solvent (1 mL) and heated from 20 ◦C to 55 ◦C over 4 h (0.15 ◦C/min) before cooling to 20 ◦C over 2 h (0.3 ◦C/min).",
+    "The powder from ethanol looks to be largely unchanged via these experiments; however, there is a peak at 8.7◦that does not ﬁt with the known form of TMA but does potentially correspond to the TMA dihydrate that was formed under failed hydrothermal synthesis with 2-2′-bipyridine and lanthanum sulfate nonahydrate [18]."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "500 mg"
+   },
+   "note": "La polvere da etanolo «looks to be largely unchanged»; un picco a 8.7° potrebbe corrispondere al diidrato di TMA (non confermato). Il solvato con etanolo (F2) si ottiene solo per evaporazione lenta del sovranatante. Raffreddamento a 0.3 °C/min.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E13",
+   "da": "F1",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "mortar and pestle",
+     "durata": {
+      "valore": 15,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "dimethyl sulfoxide (DMSO), 75 µL added in 25 µL aliquots"
+    },
+    "solventi": [
+     {
+      "nome": "dimethyl sulfoxide (DMSO)"
+     }
+    ]
+   },
+   "citazioni": [
+    "LAG experiments were conducted on sample weights of approximately 300 mg of TMA. A mortar and pestle were used to lightly grind up the material in 75 µL of the chosen solvent was added in 25 µL aliquots over 15 min with continuous grinding throughout.",
+    "The solvents in which there were diﬀerences were those known solvated forms of TMA, e.g., DMSO [20–22] and pentanol [7] (for LAG) and water [18,19], methanol [9], butanol (for the slurry) [7] (Figures S1 and S2).",
+    "The DMSO and 1-pentanol patterns show diﬀerent patterns to the α-TMA and are the known solvates."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 300 mg"
+   },
+   "note": "LAG con DMSO: si osserva il solvato noto (Fig. S1, supplementare; stechiometria e struttura non dette)."
+  },
+  {
+   "id": "E14",
+   "da": "F1",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "mortar and pestle",
+     "durata": {
+      "valore": 15,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "pentanol, 75 µL added in 25 µL aliquots"
+    },
+    "solventi": [
+     {
+      "nome": "pentanol"
+     }
+    ]
+   },
+   "citazioni": [
+    "LAG experiments were conducted on sample weights of approximately 300 mg of TMA. A mortar and pestle were used to lightly grind up the material in 75 µL of the chosen solvent was added in 25 µL aliquots over 15 min with continuous grinding throughout.",
+    "The solvents in which there were diﬀerences were those known solvated forms of TMA, e.g., DMSO [20–22] and pentanol [7] (for LAG) and water [18,19], methanol [9], butanol (for the slurry) [7] (Figures S1 and S2).",
+    "We found that the technique used was a factor in our observation of the phases, for example, the butanol solvate and hydrate were not observed after LAG, but we did begin to observe these phases forming under slurry. However, we observed the pentanol under LAG conditions"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 300 mg"
+   },
+   "note": "LAG con pentanolo: si osserva il solvato noto di pentanolo; il testo lo collega alla volatilita' del solvente."
+  },
+  {
+   "id": "E15",
+   "da": "F1",
+   "a": "F9",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "mortar and pestle",
+     "durata": {
+      "valore": 15,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "butanol, 75 µL added in 25 µL aliquots"
+    },
+    "solventi": [
+     {
+      "nome": "butanol"
+     }
+    ]
+   },
+   "citazioni": [
+    "LAG experiments were conducted on sample weights of approximately 300 mg of TMA. A mortar and pestle were used to lightly grind up the material in 75 µL of the chosen solvent was added in 25 µL aliquots over 15 min with continuous grinding throughout.",
+    "We found that the technique used was a factor in our observation of the phases, for example, the butanol solvate and hydrate were not observed after LAG, but we did begin to observe these phases forming under slurry. However, we observed the pentanol under LAG conditions"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 300 mg"
+   },
+   "note": "«the butanol solvate and hydrate were not observed after LAG»: negativo per il butanolo (solvente butanolo; il testo dice «butanol solvate»).",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E16",
+   "da": "F1",
+   "a": "F10",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "mortar and pestle",
+     "durata": {
+      "valore": 15,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "water, 75 µL added in 25 µL aliquots"
+    },
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ]
+   },
+   "citazioni": [
+    "LAG experiments were conducted on sample weights of approximately 300 mg of TMA. A mortar and pestle were used to lightly grind up the material in 75 µL of the chosen solvent was added in 25 µL aliquots over 15 min with continuous grinding throughout.",
+    "We found that the technique used was a factor in our observation of the phases, for example, the butanol solvate and hydrate were not observed after LAG, but we did begin to observe these phases forming under slurry. However, we observed the pentanol under LAG conditions"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 300 mg"
+   },
+   "note": "«the butanol solvate and hydrate were not observed after LAG»: negativo per l'idrato (liquido LAG = acqua).",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E17",
+   "da": "F1",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ],
+    "temperatura": {
+     "min": 20,
+     "max": 55,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 0.15,
+     "unita": "°C/min"
+    },
+    "rapporto_solido_solvente": "TMA 500 mg in 1 mL"
+   },
+   "citazioni": [
+    "Slurries of TMA (500 mg) in each solvent (1 mL) and heated from 20 ◦C to 55 ◦C over 4 h (0.15 ◦C/min) before cooling to 20 ◦C over 2 h (0.3 ◦C/min).",
+    "The solvents in which there were diﬀerences were those known solvated forms of TMA, e.g., DMSO [20–22] and pentanol [7] (for LAG) and water [18,19], methanol [9], butanol (for the slurry) [7] (Figures S1 and S2).",
+    "We found that the technique used was a factor in our observation of the phases, for example, the butanol solvate and hydrate were not observed after LAG, but we did begin to observe these phases forming under slurry. However, we observed the pentanol under LAG conditions"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "500 mg"
+   },
+   "note": "Sospensione in acqua: si osserva l'idrato noto («we did begin to observe these phases forming under slurry»). Quale idrato non e' detto. Raffreddamento a 0.3 °C/min."
+  },
+  {
+   "id": "E18",
+   "da": "F1",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "methanol"
+     }
+    ],
+    "temperatura": {
+     "min": 20,
+     "max": 55,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 0.15,
+     "unita": "°C/min"
+    },
+    "rapporto_solido_solvente": "TMA 500 mg in 1 mL"
+   },
+   "citazioni": [
+    "Slurries of TMA (500 mg) in each solvent (1 mL) and heated from 20 ◦C to 55 ◦C over 4 h (0.15 ◦C/min) before cooling to 20 ◦C over 2 h (0.3 ◦C/min).",
+    "The solvents in which there were diﬀerences were those known solvated forms of TMA, e.g., DMSO [20–22] and pentanol [7] (for LAG) and water [18,19], methanol [9], butanol (for the slurry) [7] (Figures S1 and S2)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "500 mg"
+   },
+   "note": "Sospensione in metanolo: si osserva il solvato noto di metanolo [9] (IYUQIC nella didascalia della Fig. 2). Raffreddamento a 0.3 °C/min."
+  },
+  {
+   "id": "E19",
+   "da": "F1",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "butanol"
+     }
+    ],
+    "temperatura": {
+     "min": 20,
+     "max": 55,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 0.15,
+     "unita": "°C/min"
+    },
+    "rapporto_solido_solvente": "TMA 500 mg in 1 mL"
+   },
+   "citazioni": [
+    "Slurries of TMA (500 mg) in each solvent (1 mL) and heated from 20 ◦C to 55 ◦C over 4 h (0.15 ◦C/min) before cooling to 20 ◦C over 2 h (0.3 ◦C/min).",
+    "The solvents in which there were diﬀerences were those known solvated forms of TMA, e.g., DMSO [20–22] and pentanol [7] (for LAG) and water [18,19], methanol [9], butanol (for the slurry) [7] (Figures S1 and S2).",
+    "We found that the technique used was a factor in our observation of the phases, for example, the butanol solvate and hydrate were not observed after LAG, but we did begin to observe these phases forming under slurry. However, we observed the pentanol under LAG conditions"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "500 mg"
+   },
+   "note": "Sospensione in butanolo: si osserva il solvato noto («we did begin to observe these phases forming under slurry»). Raffreddamento a 0.3 °C/min."
+  },
+  {
+   "id": "E20",
+   "da": "F12",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 110,
+     "unita": "°C",
+     "limite": "sopra",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "It was found to be stable to 110 ◦C before converting to α-TMA."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Cui et al. [8]",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Dalla rassegna di Cui et al. [8]: δ-TMA convertito in α-TMA oltre 110 °C. Fonte non propria."
+  },
+  {
+   "id": "E21",
+   "da": "F12",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "max": 110,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "It was found to be stable to 110 ◦C before converting to α-TMA."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Cui et al. [8]",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "«stable to 110 °C»: dall'altra parte della soglia di E20. Fonte non propria."
+  },
+  {
+   "id": "E22",
+   "da": "F13",
+   "a": "F14",
+   "esito": "avvenuta",
+   "via": null,
+   "sottovia": null,
+   "condizioni": {
+    "solventi": []
+   },
+   "citazioni": [
+    "This behaviour mimics that of the previously known DMSO trisolvate that also transitions within a matter of minutes to a more stable 1:2 phase.",
+    "This mimics the behaviour of the metastable tri-dmsolate where the TMA is hydrogen bonded to DMSO rather than other TMA molecules (XASFAA) [21]."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Davey et al. [21]",
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Trisolvato metastabile con DMSO (XASFAA) che passa in pochi minuti a una fase 1:2 piu' stabile: senza condizioni, da un lavoro citato; il tempo e' «a matter of minutes»."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethanol"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": 20,
+    "unita": "°C",
+    "tipo": "ambiente"
+   },
+   "citazioni": [
+    "Single crystals used for single crystal X-ray diﬀraction studies were obtained by slow evaporation from a saturated solution. For all evaporations, the supernatant present in slurried samples (once returned to room temperature, 20 ◦C) was removed and ﬁltered in to clean vials.",
+    "Vial caps were loosely placed on the vials to prevent dust ingress, and the vials stored in a fumehood until crystals suitable for diﬀraction studies were obtained.",
+    "The crystals from ethanol evaporative crystallization (Figure 2b) were of high quality and we were able to identify a new triclinic unit cell from the diﬀraction data."
+   ],
+   "note": "Evaporazione lenta del sovranatante (filtrato) della sospensione in etanolo, a 20 °C, in vial con tappo appoggiato."
+  },
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "isopropyl alcohol (IPA)"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": 20,
+    "unita": "°C",
+    "tipo": "ambiente"
+   },
+   "citazioni": [
+    "Single crystals used for single crystal X-ray diﬀraction studies were obtained by slow evaporation from a saturated solution. For all evaporations, the supernatant present in slurried samples (once returned to room temperature, 20 ◦C) was removed and ﬁltered in to clean vials.",
+    "Vial caps were loosely placed on the vials to prevent dust ingress, and the vials stored in a fumehood until crystals suitable for diﬀraction studies were obtained."
+   ],
+   "note": "Cristalli per la SCXRD a temperatura variabile (raccolta dal National Crystallography Service). Il testo non dice a quale temperatura sia stato misurato per primo il cristallo, quindi non si sa se la crescita e' di LT o HT: a 20 °C ci si aspetta HT. Lo stesso cristallo copre le due fasi."
+  },
+  {
+   "forme": [
+    "F7",
+    "F10",
+    "F11"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "dimethyl sulfoxide (DMSO)",
+    "water",
+    "methanol"
+   ],
+   "solventi_alternativi": true,
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "citazioni": [
+    "In addition to the slurry and grinding experiments we also performed solution-based crystallization of TMA from the selected solvents. Again, we were able to isolate the known solvated forms of TMA, e.g., methanol, hydrate and dimethylsulfoxide, but we also observed new phases that had not been observed before during the collection of single crystal diﬀraction data."
+   ],
+   "note": "Cristallizzazione da soluzione nei solventi scelti: si isolano i solvati noti (metanolo, idrato, DMSO) e fasi nuove (le tre nuove strutture dell'articolo). Il metodo preciso non e' descritto in questa frase."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "tre gruppi acido carbossilico che danno forti interazioni intermolecolari; forma neutra (148 voci CSD)",
+     "citazione": "The ability to form strong intermolecular interactions through the use of its three carboxylic acid groups gives scientists a great tool to work with for both organic and metal organic framework studies [1–5]."
+    }
+   ]
+  }
+ ]
+}
