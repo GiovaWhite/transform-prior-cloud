@@ -1,0 +1,917 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2052252521010381",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Alta pressione su 6-chloro-1,2,3,4-tetrazolo[1,5-b]pyridazine (CTP): compressione isoterma in Daphne oil (α -> α′ a 0.20 GPa, SCSC; α′ -> β a 0.6 GPa, distruttiva) e ricristallizzazione isocora in situ (β sopra ca 0.15 GPa; idrato 'stocastico' α·xH2O sotto ca 0.15 GPa da soluzione acquosa). Tutti i dati di struttura sono in cella a incudini di diamante; T 296 K in Tabella 1 per le strutture ad alta pressione. CCDC 2102408-2102436 attribuiti ai 29 datablock per ordine (ccdc_dedotto). Il testo dice che il confronto con TAPYR e ATriP (altri composti, lavori citati) mostra β recuperabile in TAPYR ma non in CTP: non estratto, senza numeri. Non sono eventi: l'ordinamento/volume dell'acqua x (0.14, 0.30, 0.08) e la compressione monotona di α fino a 0.20 GPa e di α′ fino a 0.6 GPa (prodotti dagli eventi E1 ed E3). Incoerenze del testo: soglie di β (0.15/0.16/0.18/0.20 GPa), soglia dell'idrato (0.15/0.20 GPa), α′ -> β (0.6 contro 0.70 GPa), e la frase 'α-to-β occurs only when recrystallized in situ' contro la trasformazione di α′ in β per compressione.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "6-chloro-1,2,3,4-tetrazolo[1,5-b]pyridazine (C4H2N5Cl, CTP)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "α",
+   "etichette_alternative": [
+    "α phase",
+    "α-C4H2N5Cl",
+    "ambient-pressure phase α"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 7.0651,
+    "b": 8.7859,
+    "c": 10.0906,
+    "V": 626.36,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "p = 0.0001 GPa, T = 300.0 K"
+   },
+   "ccdc": "2102418",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2102408",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@300K_phase_alpha",
+     "temperatura": {
+      "valore": 300,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102409",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@275K_phase_alpha",
+     "temperatura": {
+      "valore": 275,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102410",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@250K_phase_alpha",
+     "temperatura": {
+      "valore": 250,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102411",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@225K_phase_alpha",
+     "temperatura": {
+      "valore": 225,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102412",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@200K_phase_alpha",
+     "temperatura": {
+      "valore": 200,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102413",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@190K_phase_alpha",
+     "temperatura": {
+      "valore": 190,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102414",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@175K_phase_alpha",
+     "temperatura": {
+      "valore": 175,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102415",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@160K_phase_alpha",
+     "temperatura": {
+      "valore": 160,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102416",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@150K_phase_alpha",
+     "temperatura": {
+      "valore": 150,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102417",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@130K_phase_alpha",
+     "temperatura": {
+      "valore": 130,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2102418",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_0001GPa_phase_alpha"
+    },
+    {
+     "ccdc": "2102419",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_12GPa_phase_alpha"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "CH⋯N bonded corrugated sheets",
+     "chi": "molecular aggregates linked by CH⋯N bonds",
+     "citazione": "The corrugated sheets of CH⋯N bonded molecular aggregates in α at the phase transition become perfectly planar in α′ (Fig. 5 ▸)."
+    },
+    {
+     "motivo": "N⋯N contacts between the sheets",
+     "chi": "CH⋯N bonded corrugated sheets",
+     "citazione": "The CH⋯N bonded corrugated sheets in α and the planar sheets in α′ are connected by N⋯N contacts between the sheets (Fig. 5 ▸)."
+    },
+    {
+     "motivo": "(17) ring (graph notation)",
+     "chi": "molecules connected by the shortest CH⋯N contacts",
+     "citazione": "The patterns of molecules connected by the shortest CH⋯N contacts are rings that can be described as (17) in α and α′, and (8) and (12) in β"
+    },
+    {
+     "motivo": "short CH⋯N bonds",
+     "chi": "CTP molecules",
+     "citazione": "All the structures are governed mainly by short CH⋯N bonds, while non contacts N⋯N, CH⋯Cl or Cl⋯Cl are shorter than the sum of van der Waals radii (Bondi, 1964 ▸) (Fig. 6 ▸)."
+    }
+   ],
+   "citazione": "Crystals of the orthorhombic α phase were obtained from methanol solution under ambient conditions exclusively.",
+   "note": "Fase fondamentale a pressione ambiente. Cella, gruppo e Z da Tabella 1 (colonna α: 0.0001 GPa, 300.0 K; Z, Z′ = 4/1). CCDC per ordine: il datablock @0_0001GPa_phase_alpha e' quello che corrisponde alla colonna di Tabella 1; gli altri 11 datablock di α sono la serie in T (300-130 K) e @0_12GPa. CCDC attribuiti per ordine: 29 datablock elencati in «Crystal structure: contains datablock(s)» e 29 numeri in «CCDC references» (2102408-2102436) nello stesso ordine; il datablock indica fase, P o T. "
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "α-C4H2N5Cl·xH2O",
+   "etichette_alternative": [
+    "C4H2N5Cl·xH2O",
+    "CTP·xH2O",
+    "α·xH2O",
+    "stochastic hydrate",
+    "partial hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": null,
+    "stechiometria_min": 0.14,
+    "stechiometria_max": 0.3,
+    "fonte_stechiometria": "altro",
+    "circa": true
+   },
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 7.0733,
+    "b": 8.7965,
+    "c": 10.042,
+    "V": 624.8,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "p = 0.10 GPa, T = 296 K"
+   },
+   "ccdc": "2102423",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2102422",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_09GPa_phase_alpha_xH2O"
+    },
+    {
+     "ccdc": "2102423",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_10GPa_phase_alpha_xH2O"
+    },
+    {
+     "ccdc": "2102424",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_17GPa_phase_alpha_xH2O"
+    },
+    {
+     "ccdc": "2102425",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_18GPa_phase_alpha_xH2O"
+    },
+    {
+     "ccdc": "2102426",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_20GPa_phase_alpha_xH2O"
+    },
+    {
+     "ccdc": "2102427",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_30GPa_phase_alpha_xH2O"
+    }
+   ],
+   "citazione": "We concluded that the high-pressure recrystallization forces some water molecules into the crystal structure, so the inclusion compound C4H2N5Cl·xH2O is obtained, with H2O contents too small to be visible in our X-ray diffraction analysis.",
+   "note": "Idrato 'stocastico' isostrutturale con α (stesso gruppo P212121, «isostructural with the ambient-pressure phase α» nell'abstract); l'acqua non si vede nelle mappe ΔF: x e' stimato solo dall'aumento di volume rispetto all'anidro (x = [Vm(hydrate) − Vm(anhydrate)]/Vw). Il testo dice «x is about 0.14 for 0.10 GPa, 0.30 for 0.20 GPa and 0.08 for 0.49 GPa»: i valori a 0.10 e 0.20 GPa (0.14 e 0.30) sono in stechiometria_min/max di questa forma; 0.08 (a 0.49 GPa) non e' attribuito con certezza a una fase e sta in F4. Il volume per molecola e' piu' grande di circa 3 Å3 rispetto ad α (Fig. 4). Cella e gruppo da Tabella 1 (colonna con Solvent MeOH:H2O (1:1), 0.10 GPa, 296 K). CCDC: datablock @0_10GPa_phase_alpha_xH2O (colonna di Tabella 1); gli altri 5 datablock della forma: 0.09, 0.17, 0.18, 0.20, 0.30 GPa. CCDC attribuiti per ordine: 29 datablock elencati in «Crystal structure: contains datablock(s)» e 29 numeri in «CCDC references» (2102408-2102436) nello stesso ordine; il datablock indica fase, P o T. "
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "α′",
+   "etichette_alternative": [
+    "α′ phase",
+    "α′-C4H2N5Cl",
+    "high-pressure α′ phase"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pnma",
+   "cella": {
+    "a": 10.697,
+    "b": 6.2545,
+    "c": 8.8012,
+    "V": 588.8,
+    "Z": 4,
+    "Z_primo": 0.5,
+    "fonte": "SCXRD",
+    "condizioni": "p = 0.24 GPa, T = 296 K"
+   },
+   "ccdc": "2102420",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2102420",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_24GPa_phase_alpha_prim"
+    },
+    {
+     "ccdc": "2102421",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_49GPa_phase_alpha_prim"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "CH⋯N bonded planar sheets",
+     "chi": "molecular aggregates linked by CH⋯N bonds",
+     "citazione": "The corrugated sheets of CH⋯N bonded molecular aggregates in α at the phase transition become perfectly planar in α′ (Fig. 5 ▸)."
+    },
+    {
+     "motivo": "N⋯N contacts between the sheets",
+     "chi": "CH⋯N bonded planar sheets",
+     "citazione": "The CH⋯N bonded corrugated sheets in α and the planar sheets in α′ are connected by N⋯N contacts between the sheets (Fig. 5 ▸)."
+    },
+    {
+     "motivo": "(17) ring (graph notation)",
+     "chi": "molecules connected by the shortest CH⋯N contacts",
+     "citazione": "The patterns of molecules connected by the shortest CH⋯N contacts are rings that can be described as (17) in α and α′, and (8) and (12) in β"
+    },
+    {
+     "motivo": "short CH⋯N bonds",
+     "chi": "CTP molecules",
+     "citazione": "All the structures are governed mainly by short CH⋯N bonds, while non contacts N⋯N, CH⋯Cl or Cl⋯Cl are shorter than the sum of van der Waals radii (Bondi, 1964 ▸) (Fig. 6 ▸)."
+    }
+   ],
+   "citazione": "This new high-pressure α′ phase remains orthorhombic, but its space group symmetry increases to Pnma (Table 1 ▸).",
+   "note": "Fase ad alta pressione, simmetria piu' alta di α (sottogruppo-gruppo, P212121 -> Pnma). Cella da Tabella 1 (0.24 GPa, 296 K; Z, Z′ = 4/0.5). CCDC: @0_24GPa_phase_alpha_prim (colonna di Tabella 1) e @0_49GPa_phase_alpha_prim. CCDC attribuiti per ordine: 29 datablock elencati in «Crystal structure: contains datablock(s)» e 29 numeri in «CCDC references» (2102408-2102436) nello stesso ordine; il datablock indica fase, P o T. "
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "α′-C4H2N5Cl·xH2O",
+   "etichette_alternative": [
+    "α′·xH2O",
+    "α′-C4H2N5Cl·xH2O phase"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": null,
+    "fonte_stechiometria": "altro",
+    "circa": true
+   },
+   "ccdc": "2102428",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2102428",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_54GPa_phase_alpha_prim_xH2O"
+    }
+   ],
+   "citazione": "The hydrate α-C4H2N5Cl·xH2O can also be isothermally compressed up to 0.30 GPa before transforming to the α′-C4H2N5Cl·xH2O phase.",
+   "note": "Forma ad alta pressione dell'idrato; gruppo spaziale e cella non sono nel testo (non in Tabella 1). Il testo da' x «0.08 for 0.49 GPa» senza dire a quale fase: non lo si attribuisce (il datablock di α′·xH2O e' a 0.54 GPa, quello di α′ anidro a 0.49 GPa). CCDC attribuiti per ordine: 29 datablock elencati in «Crystal structure: contains datablock(s)» e 29 numeri in «CCDC references» (2102408-2102436) nello stesso ordine; il datablock indica fase, P o T. "
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "β",
+   "etichette_alternative": [
+    "β phase",
+    "β-C4H2N5Cl"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 7.824,
+    "b": 13.0789,
+    "c": 5.629,
+    "beta": 100.793,
+    "V": 565.8,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "p = 0.40 GPa, T = 296 K"
+   },
+   "ccdc": "2102433",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2102429",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_17GPa_phase_beta"
+    },
+    {
+     "ccdc": "2102430",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_20GPa_phase_beta"
+    },
+    {
+     "ccdc": "2102431",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_25GPa_phase_beta"
+    },
+    {
+     "ccdc": "2102432",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_33GPa_phase_beta"
+    },
+    {
+     "ccdc": "2102433",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_40GPa_phase_beta"
+    },
+    {
+     "ccdc": "2102434",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_48GPa_phase_beta"
+    },
+    {
+     "ccdc": "2102435",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_55GPa_phase_beta"
+    },
+    {
+     "ccdc": "2102436",
+     "fonte": "SCXRD",
+     "citazione": "C4H2N5Cl1@0_80GPa_phase_beta"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "ribbons of CH⋯N bonded molecules along [100]",
+     "chi": "the two shortest CH⋯N bonds",
+     "citazione": "In β the two shortest CH⋯N bonds connect molecules into ribbons running along [100]; these ribbons are connected by other short CH⋯N bonds into double layers."
+    },
+    {
+     "motivo": "double layers linked by CH⋯N bonds",
+     "chi": "ribbons connected by other short CH⋯N bonds",
+     "citazione": "In β the two shortest CH⋯N bonds connect molecules into ribbons running along [100]; these ribbons are connected by other short CH⋯N bonds into double layers."
+    },
+    {
+     "motivo": "N⋯N contacts between double layers",
+     "chi": "double layers",
+     "citazione": "There are short N⋯N contacts between these double layers."
+    },
+    {
+     "motivo": "(8) and (12) rings (graph notation)",
+     "chi": "molecules connected by the shortest CH⋯N contacts",
+     "citazione": "The patterns of molecules connected by the shortest CH⋯N contacts are rings that can be described as (17) in α and α′, and (8) and (12) in β"
+    },
+    {
+     "motivo": "short CH⋯N bonds",
+     "chi": "CTP molecules",
+     "citazione": "All the structures are governed mainly by short CH⋯N bonds, while non contacts N⋯N, CH⋯Cl or Cl⋯Cl are shorter than the sum of van der Waals radii (Bondi, 1964 ▸) (Fig. 6 ▸)."
+    }
+   ],
+   "citazione": "The β phase is monoclinic (space group P21/c), however its structure is very different from those of phases α and α′.",
+   "note": "Fase ad alta pressione, cresciuta per ricristallizzazione isocora in situ (Table 1: Solvent Acetone). Cella da Tabella 1 (0.40 GPa, 296 K; Z, Z′ = 4/1). Non ha relazioni strutturali o di simmetria con α e α′. CCDC: @0_40GPa_phase_beta (colonna di Tabella 1) piu' altri 7 datablock da 0.17 a 0.80 GPa. CCDC attribuiti per ordine: 29 datablock elencati in «Crystal structure: contains datablock(s)» e 29 numeri in «CCDC references» (2102408-2102436) nello stesso ordine; il datablock indica fase, P o T. "
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.2,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "mezzo_pressione": "Daphne oil",
+    "temperatura": {
+     "tipo": "isoterma",
+     "valore": null,
+     "unita": null,
+     "testo": "isothermal"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ],
+    "integrita": "intatto",
+    "cinetica": "brusca: forte deformazione visibile, il cristallo si accorcia di ca 10% lungo x"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH⋯N bonded molecular aggregates (corrugated sheets)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "The corrugated sheets of CH⋯N bonded molecular aggregates in α at the phase transition become perfectly planar in α′ (Fig. 5 ▸)."
+    },
+    {
+     "gruppo": "N⋯N contacts between the sheets",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "The CH⋯N bonded corrugated sheets in α and the planar sheets in α′ are connected by N⋯N contacts between the sheets (Fig. 5 ▸)."
+    },
+    {
+     "gruppo": "tetrazole form CTP molecules (rigid and planar)",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "citazione": "In the tetrazole form the CTP molecules are rigid and planar under ambient conditions and these features are preserved in the high-pressure phases."
+    }
+   ],
+   "citazioni": [
+    "Method (i) resulted in monotonic compression of the ambient-pressure phase α up to 0.20 GPa, whereby the sample crystal visibly became shorter and transformed to a new phase α′ (Fig. 2 ▸).",
+    "X-ray diffraction confirmed this to be a single-crystal-to-single-crystal phase transition of the subgroup–group symmetry relation, and clearly discontinuous in character.",
+    "The single-crystal sample isothermally compressed to 0.20 GPa displays an abrupt strong visible strain marking the transition to α′ (Figs. S2 and S3); subsequent X-ray measurements revealed the single crystal retains its high quality after the transformation is complete.",
+    "(i) isothermal compression (Figs. 2 ▸, S2 and S3) in Daphne oil",
+    "The effect of high pressure on CTP was studied in a diamond anvil cell (DAC) (Merrill & Bassett, 1974 ▸) modified by mounting the anvils directly on steel disks with conical windows.",
+    "The transition around 0.20 GPa between α and α′ can be observed visually, because the longest dimension of the crystal along the x direction of α is shortened by ca 10% at the transition to α′",
+    "At the α-to-α′ transition the molecular volume is reduced by about 3 Å3."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "conflitto": "L'abstract scrive «transforms under 0.18 GPa to a higher-symmetry phase α′»; Metodi, Risultati e Conclusioni dicono 0.20 GPa. Si tiene 0.20 GPa (corpo batte abstract).",
+   "note": "Compressione isoterma in Daphne oil in cella a incudini di diamante. Transizione SCSC, discontinua, con aumento di simmetria (P212121 -> Pnma, relazione sottogruppo-gruppo): e' «unusual» rispetto alla regola Tapie. Isteresi di circa 0.08 GPa (0.20 in salita, 0.12 in discesa). Il volume molecolare scende di circa 3 Å3; il reticolo si allunga lungo l'ondulazione dei fogli (c/a′), la dimensione lungo i fogli resta (b/c′) e quella fra i fogli si accorcia (a/b′). La temperatura non e' scritta per la compressione («isothermal»): la Tabella 1 da' 296 K per le strutture ad alta pressione."
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.12,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "mezzo_pressione": "Daphne oil",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "cinetica": "la deformazione visibile del cristallo segna il punto di transizione anche in discesa"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "On releasing pressure, α′ transforms back to α at 0.12 GPa.",
+    "This visible strain precisely indicating the transition point on increasing and releasing the pressure was helpful for measuring the transition hysteresis (of about 0.08 GPa)"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Ritorno di E1: isteresi di circa 0.08 GPa (0.20 salendo, 0.12 scendendo). La Fig. 2 mostra α ricomparso a 0.05 GPa."
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.6,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "mezzo_pressione": "Daphne oil",
+    "temperatura": {
+     "tipo": "isoterma",
+     "valore": null,
+     "unita": null,
+     "testo": "isothermal"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "integrita": "degradato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH⋯N hydrogen bonds",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "The structural transition from the α to the β phase is destructive for the single crystal and involves a large volume drop and significant elongation of all the shortest intermolecular distances which are the CH⋯N and CH⋯Cl hydrogen bonds, as well as the N⋯N contacts."
+    },
+    {
+     "gruppo": "CH⋯Cl hydrogen bonds",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "Though the change in the CH⋯N distance is small (it is about 0.05 Å longer in phase β than it is in phase α), the elongation of distances N⋯N and CH⋯Cl is of the order of about 0.1 and 0.3 Å, respectively."
+    },
+    {
+     "gruppo": "N⋯N contacts",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "Though the change in the CH⋯N distance is small (it is about 0.05 Å longer in phase β than it is in phase α), the elongation of distances N⋯N and CH⋯Cl is of the order of about 0.1 and 0.3 Å, respectively."
+    },
+    {
+     "gruppo": "CH⋯N bonded ribbons and double layers (β)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F5",
+     "citazione": "In β the two shortest CH⋯N bonds connect molecules into ribbons running along [100]; these ribbons are connected by other short CH⋯N bonds into double layers."
+    },
+    {
+     "gruppo": "tetrazole form CTP molecules (rigid and planar)",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "citazione": "In the tetrazole form the CTP molecules are rigid and planar under ambient conditions and these features are preserved in the high-pressure phases."
+    }
+   ],
+   "citazioni": [
+    "The α′ phase can be compressed to 0.6 GPa, when its transformation to the monoclinic β phase damages the single crystal.",
+    "It transforms into the higher-symmetry α′ phase at 0.20 GPa and to phase β at about 0.70 GPa.",
+    "The molecular volume of the β phase is over 10 Å3 smaller than that of the α phase (Fig. 4 ▸).",
+    "(i) isothermal compression (Figs. 2 ▸, S2 and S3) in Daphne oil",
+    "The effect of high pressure on CTP was studied in a diamond anvil cell (DAC) (Merrill & Bassett, 1974 ▸) modified by mounting the anvils directly on steel disks with conical windows.",
+    "The arrangement of the molecules is clearly related between α and α′, but different from that in β (Fig. 5 ▸ and S10)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "conflitto": "Pressione di transizione: Risultati «compressed to 0.6 GPa, when its transformation to the monoclinic β phase damages the single crystal»; Conclusioni «to phase β at about 0.70 GPa». Si tiene 0.6 (risultati battono conclusioni). Inoltre la sezione 3.1 scrive «the α-to-β transformation occurs only when the compounds are recrystallized in situ under high-pressure and high-temperature conditions», che contraddice la trasformazione per sola compressione di α′; si tiene la descrizione puntuale dei Risultati.",
+   "note": "Transizione per compressione di α′ (partito da α compresso in Daphne oil), distruttiva per il cristallo singolo; l'abstract la chiama 'α to β'. I confronti sulle distanze (CH⋯N circa 0.05 Å, N⋯N circa 0.1 Å, CH⋯Cl circa 0.3 Å piu' lunghe in β) sono fra le strutture α e β. Il volume molecolare di β e' piu' piccolo di oltre 10 Å3 di quello di α; non ci sono relazioni strutturali o di simmetria fra α e β. Temperatura non scritta per la compressione; Tabella 1: 296 K per β a 0.40 GPa. Il ritorno non e' ad α′ ma ad α (E4)."
+  },
+  {
+   "id": "E4",
+   "da": "F5",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.15,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "integrita": "polverizzato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo singolo di β cresciuto per ricristallizzazione isocora in situ in cella a incudini di diamante",
+   "citazioni": [
+    "On releasing pressure, β transforms back to α at 0.15 GPa and the single crystal was pulverized again.",
+    "From isochoric recrystallizations above 0.16 GPa β was obtained, which is stable up to 0.80 GPa at least and on releasing pressure transforms back to α."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "conflitto": "L'abstract scrive che β «on releasing pressure, transforms back to the α phase below 0.15 GPa»; i Risultati «at 0.15 GPa». Si tiene 0.15 (corpo batte abstract).",
+   "note": "Decompressione di β cresciuta in situ (non di β ottenuta da α′ per compressione): torna direttamente ad α, non ad α′, quindi non e' l'inverso esatto di E3. Il testo dice che β «exists only under high-pressure conditions» (non recuperabile, a differenza di TAPYR). Il mezzo di pressione intorno al cristallo non e' detto."
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.3,
+     "unita": "GPa",
+     "tipo": "transizione",
+     "relativo_a": "E1",
+     "delta": 0.1
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo ottenuto per ricristallizzazione isocora ad alta pressione da soluzione acquosa (idrato α·xH2O)",
+   "citazioni": [
+    "The hydrate α-C4H2N5Cl·xH2O can also be isothermally compressed up to 0.30 GPa before transforming to the α′-C4H2N5Cl·xH2O phase.",
+    "Moreover, the volume dependence on pressure displays clearly a convex shape, and the crystals could be compressed to 0.3 GPa before undergoing transformation to the α′ phase in an analogous way to that observed for the α phase.",
+    "This visible strain precisely indicating the transition point on increasing and releasing the pressure was helpful for measuring the transition hysteresis (of about 0.08 GPa) as well as the higher transition pressure of the partial hydrate CTP·xH2O at 0.30 GPa.",
+    "the α·xH2O phase transforms into the α′·xH2O phase at a pressure about 0.1 GPa higher than the pure α-C4H2N5Cl phase."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Stessa transizione di E1 per l'idrato parziale: avviene a 0.30 GPa, circa 0.1 GPa sopra l'anidro (0.20). Gli autori postulano che l'acqua aumenti il volume del cristallo e ne riduca la compressibilita'. La Fig. 4 disegna la retta di compressione di α′·xH2O «through one experimental point», solo come guida. Il testo non dice se l'idrato torna indietro in decompressione."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 130,
+     "unita": "K",
+     "tipo": "intervallo",
+     "testo": "down to 130 K"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": null,
+     "testo": "atmospheric pressure"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "The low-temperature behavior of CTP crystals at atmospheric pressure was also studied by X-ray diffraction.",
+    "Over the temperature range down to 130 K the crystal remained in the α phase and it contracted to about 98% of the volume at 296 K.",
+    "At ambient pressure and low temperature only the α phase was obtained."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: raffreddando a pressione atmosferica fino a 130 K, α resta α (il volume scende a ca 98% di quello a 296 K; un raffreddamento di questa entita' equivale a una compressione a 0.10 GPa a 296 K). La forma attesa non e' nominata: a = ignota. I datablock di α vanno da 300 a 130 K."
+  },
+  {
+   "id": "E7",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "condizioni": {
+    "pressione": {
+     "max": 0.8,
+     "unita": "GPa",
+     "tipo": null,
+     "testo": "up to 0.80 GPa at least"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo singolo di β cresciuto per ricristallizzazione isocora in situ",
+   "citazioni": [
+    "From isochoric recrystallizations above 0.16 GPa β was obtained, which is stable up to 0.80 GPa at least and on releasing pressure transforms back to α."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: β e' stabile fino ad almeno 0.80 GPa («at least»: 0.80 GPa e' un limite inferiore della stabilita'; l'ultimo datablock di β e' a 0.80 GPa). La forma attesa non e' nominata: a = ignota."
+  },
+  {
+   "id": "E8",
+   "da": "ignota",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 473,
+     "unita": "K",
+     "limite": "sopra",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "Temperatures higher than 473 K caused the sample to decompose."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "La frase sta nei Metodi, nella descrizione della ricristallizzazione ad alta pressione (la cella viene scaldata per sciogliere i semi); «the sample» non e' identificato come forma (da = ignota) e la pressione non e' detta."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Crystals of the orthorhombic α phase were obtained from methanol solution under ambient conditions exclusively."
+   ],
+   "solventi": [
+    "methanol"
+   ],
+   "esito": "ottenuta",
+   "note": "«exclusively»: a condizioni ambiente da metanolo si ottiene solo α. Il modo di cristallizzare non e' detto. Pressione e temperatura ambiente senza numero."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "in_situ_pressione",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "The high-pressure isochoric recrystallizations of CTP from aqueous solution up to 0.15 GPa yielded single crystals, which initially appeared to be identical to the α phase; however, their volume was markedly larger by about 3 Å3 per C4H2N5Cl molecule compared with that of the α phase grown at atmospheric pressure (Fig. 4 ▸).",
+    "The high-pressure recrystallization of C4H2N5Cl yields its stochastic hydrate α·xH2O when water is present in the solvent.",
+    "Therefore before loading the solution, some additional crystals were placed in the high-pressure chamber to increase the concentration at high temperature.",
+    "After increasing the pressure to the required value, the DAC was heated until all seeds except one dissolved and a single crystal was grown by controlled slow cooling of the sample to room temperature (Fig. 3 ▸).",
+    "High-pressure recrystallizations were performed from aqueous, methanol, ethanol and acetone solutions or from mixtures of them. Temperatures higher than 473 K caused the sample to decompose."
+   ],
+   "solventi": [
+    "aqueous solution",
+    "MeOH:H2O (1:1)"
+   ],
+   "solventi_alternativi": true,
+   "esito": "ottenuta",
+   "pressione": {
+    "max": 0.15,
+    "unita": "GPa",
+    "limite": "sotto",
+    "tipo": null
+   },
+   "conflitto": "L'abstract dice «high-pressure recrystallization below 0.20 GPa leads to a stochastic hydrate» e anche «isochoric crystallizations below 0.15 GPa»; i Risultati «up to 0.15 GPa». Si tiene 0.15.",
+   "note": "Ricristallizzazione isocora in cella DAC: pressione portata al valore voluto, cella scaldata finche' tutti i semi tranne uno si sciolgono, poi raffreddamento lento a temperatura ambiente. Il solvente in Tabella 1 per il cristallo a 0.10 GPa e' MeOH:H2O (1:1); nel testo «aqueous solution». L'idrato si forma quando c'e' acqua nel solvente. Il cristallo sembra α ma ha volume piu' grande di ca 3 Å3 per molecola."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "in_situ_pressione",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Single crystals of β were grown under isochoric conditions above 0.15 GPa.",
+    "From isochoric recrystallizations above 0.16 GPa β was obtained, which is stable up to 0.80 GPa at least and on releasing pressure transforms back to α.",
+    "The isochoric recrystallization of C4H2N5Cl above 0.18 GPa yields a new anhydrous phase β",
+    "but its high-pressure recrystallization below 0.20 GPa leads to a stochastic hydrate while above 0.20 GPa recrystallization leads to a new phase, β.",
+    "After increasing the pressure to the required value, the DAC was heated until all seeds except one dissolved and a single crystal was grown by controlled slow cooling of the sample to room temperature (Fig. 3 ▸)."
+   ],
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "pressione": {
+    "min": 0.15,
+    "unita": "GPa",
+    "limite": "sopra",
+    "tipo": null
+   },
+   "conflitto": "Soglia di pressione di formazione di β nel testo: «above 0.15 GPa» (Risultati, crescita), «above 0.16 GPa» (Risultati, ricristallizzazioni), «above 0.18 GPa» e «above 0.20 GPa» (abstract). Si tiene 0.15 (la frase piu' specifica sulla crescita); le altre soglie sono in citazioni.",
+   "note": "Il solvente di β in Tabella 1 e' acetone (0.40 GPa) e in Fig. 3 acetone a 0.33 GPa; la soglia non dice il solvente. Altre prove: ricristallizzazioni da soluzioni acquose, di metanolo, etanolo e acetone o miscele; sopra 473 K il campione si decompone. Con acqua nel solvente e sotto soglia si forma l'idrato (F2)."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "in_situ_pressione",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Stages of isochoric recrystallization of C4H2N5Cl in the β phase from acetone solution at 0.33 GPa: (a)–(b) a single crystal nucleated and growing in the DAC at 363 K; (c) the same crystal at 353 K and (d) at 296 K.",
+    "After increasing the pressure to the required value, the DAC was heated until all seeds except one dissolved and a single crystal was grown by controlled slow cooling of the sample to room temperature (Fig. 3 ▸)."
+   ],
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "pressione": {
+    "valore": 0.33,
+    "unita": "GPa",
+    "tipo": null
+   },
+   "temperatura": {
+    "min": 296,
+    "max": 363,
+    "unita": "K",
+    "tipo": "intervallo"
+   },
+   "note": "Esempio di Fig. 3: nucleazione e crescita del cristallo di β a 363 K, poi 353 K e 296 K a fine raffreddamento lento (temperatura ambiente)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "tautomeria",
+     "testo": "azide-tetrazole tautomerism: la molecola passa fra forma azide e forma tetrazolo in fase gassosa e liquida",
+     "citazione": "It can transform between the azide and tetrazole forms in the gaseous and liquid states (Fig. 1 ▸)."
+    },
+    {
+     "tipo": "tautomeria",
+     "testo": "nel cristallo, a condizioni ambiente, la molecola e' nella forma tetrazolo",
+     "citazione": "Under ambient conditions the studied compound assumes the tetrazole form."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "molecole rigide e planari nella forma tetrazolo, anche nelle fasi ad alta pressione",
+     "citazione": "In the tetrazole form the CTP molecules are rigid and planar under ambient conditions and these features are preserved in the high-pressure phases."
+    }
+   ],
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "solvente": "water",
+     "grandezza": {
+      "testo": "highest among the solvents tested",
+      "valore": null,
+      "unita": null
+     },
+     "calcolato": false,
+     "citazione": "The highest solubility was found for water."
+    }
+   ]
+  }
+ ]
+}
