@@ -1,0 +1,1115 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.9b01522",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Desloratadine (DES): tre polimorfi conformazionali I (bassa T), II (intermedio, politipico) e III (alta T), transizioni reversibili in due passi I <-> II <-> III, cristallo singolo -> cristallo singolo (SCSC). Non sono eventi: il confronto con la CSP (nessun altro polimorfo suggerito), le energie libere calcolate (DFT-D) e i fononi, la contrazione del cristallo (~9.5% sulla faccia (101-bar), da 182.5 a 165.2 um, con dCl-Cl da 9.959 a 8.983 A) che e' una proprieta' del cristallo, e il dato Rietveld/Raman delle percentuali di conformazione AAA lungo i cicli (solo in Fig. 7). Le fasi coesistono: la forma II si vede sempre insieme a I (riscaldando) o a III (raffreddando) e a 315 K in raffreddamento la polvere e' 64% II, 27% III, 9% I. Le trasformazioni in polvere si estendono per ~15 K in riscaldamento e ~25 K in raffreddamento (VT-PXRD) e, da misure piu' quantitative, per oltre 40 K fra I e III. Isteresi termica ~20 K dagli onset DSC. Il Raman a THz (cristallo singolo) conferma la reversibilita' e le due tappe; non e' un evento a parte perche' coincide con DSC/PXRD (regola dei doppioni). Gli altri dati (VT-SS-NMR, Raman, figure S16-S19) stanno nel supplementare o in figura. Condizioni sperimentali incoerenti nel testo: VT-PXRD 150-380 K nei metodi e 150-400 K nei risultati.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "desloratadine",
+   "nome_scritto": "DES (8-chloro-11-(piperidin-4ylidene)-6,11-dihydro-5H-benzo[5,6]cyclohepta[1,2-b]pyridine)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "form I",
+   "etichette_alternative": [
+    "DES I",
+    "low temperature form I"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21",
+   "sistema_cristallino": null,
+   "cella": {
+    "a": 7.061,
+    "b": 12.07,
+    "c": 9.559,
+    "beta": 108.2,
+    "Z_primo": 1
+   },
+   "refcode": "GEHXEX",
+   "ccdc": "1963618",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "1963618",
+     "temperatura": {
+      "valore": 80,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Accession Codes CCDC 1963618−1963621 (DES I at 80 K, DES III at 350 K, DES I at 293 K, DES II at 335 K, respectively)"
+    },
+    {
+     "ccdc": "1963620",
+     "temperatura": {
+      "valore": 293,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Accession Codes CCDC 1963618−1963621 (DES I at 80 K, DES III at 350 K, DES I at 293 K, DES II at 335 K, respectively)"
+    },
+    {
+     "refcode": "GEHXEX",
+     "fonte": "non_detta",
+     "citazione": "Reported solid forms of DES include form I25 (CSD refcode: GEHXEX)"
+    }
+   ],
+   "citazione": "Reported solid forms of DES include form I25 (CSD refcode: GEHXEX)",
+   "conflitto": "Beta di I: 108.2 nella didascalia di Fig. 4, 108.08 nel testo («the angle β sequentially increases from form I to II to III (108.08°, 113.38°, and 118.78° respectively)»). Si tiene la didascalia, che da' la cella.",
+   "note": "CCDC attribuiti all'ordine dell'elenco «respectively»; i due numeri intermedi dell'intervallo 1963618−1963621 sono ricostruiti (1963619 e 1963620). Due strutture di I (80 K e 293 K). Conformazione AAA, una molecola indipendente (Z' = 1). Il testo non scrive «monoclinic»: sistema cristallino non assegnato. Cella da Fig. 4 senza temperatura; le celle di II e III sono nell'orientazione coerente con I (matrici di trasformazione nei codici di accesso)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "form II",
+   "etichette_alternative": [
+    "DES II",
+    "polytypic intermediate form II"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21",
+   "sistema_cristallino": null,
+   "cella": {
+    "a": 14.818,
+    "b": 12.223,
+    "c": 9.631,
+    "beta": 113.3,
+    "Z_primo": 2
+   },
+   "ccdc": "1963621",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "1963621",
+     "temperatura": {
+      "valore": 335,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Accession Codes CCDC 1963618−1963621 (DES I at 80 K, DES III at 350 K, DES I at 293 K, DES II at 335 K, respectively)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "1D H-bonded chains along b from weak C−H···N interactions",
+     "chi": "the two molecules in the asymmetric unit of form II (AAA and ASE conformations)",
+     "citazione": "N interactions (C···N = 3.369 (2) and 3.360 (3) Å), which arrange to form 1D H-bonded chains extending along the b axis."
+    }
+   ],
+   "citazione": "Structure determination at 335 K demonstrates that single crystal has transformed with two molecules in the asymmetric unit and the length of the “a” axis doubling in size.",
+   "conflitto": "Beta di II: 113.3 nella didascalia di Fig. 4, 113.38 nel testo. Si tiene la didascalia.",
+   "note": "Due molecole indipendenti (Z' = 2), una in conformazione AAA e una ASE; asse a doppio rispetto a I. «Form II being a polytypic arrangement of alternating layers of I and III». Il testo scrive che le due molecole sono legate da deboli C−H···N (frase spezzata da un'intestazione di pagina). Si vede sempre insieme a I (riscaldando) o a III (raffreddando)."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "form III",
+   "etichette_alternative": [
+    "DES III",
+    "high temperature form III",
+    "high temperature phase"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21",
+   "sistema_cristallino": null,
+   "cella": {
+    "a": 7.754,
+    "b": 12.139,
+    "c": 9.608,
+    "beta": 118.78,
+    "Z_primo": 1
+   },
+   "ccdc": "1963619",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "1963619",
+     "temperatura": {
+      "valore": 350,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Accession Codes CCDC 1963618−1963621 (DES I at 80 K, DES III at 350 K, DES I at 293 K, DES II at 335 K, respectively)"
+    }
+   ],
+   "citazione": "Structure determination at 350 K in space group P21 yields one molecule in the asymmetric unit in the ASE conformation",
+   "conflitto": "Beta di III: la didascalia di Fig. 4 scrive «III (P21, a = 7.754 Å b = 12.139 Å c = 9.608 Å, β = 108.2°)», uguale a I; il testo dice che beta cresce da I a II a III («108.08°, 113.38°, and 118.78° respectively»). Si tiene 118.78 del testo, perche' la didascalia contraddice la tendenza dichiarata.",
+   "note": "Una molecola indipendente in conformazione ASE (tutte le molecole cambiano conformazione). Il testo dice che prima non se ne conosceva la struttura («no crystal structure has thus far been reported»)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "relazione": "enantiotropa",
+   "certezza": "bassa",
+   "citazione": "The DSC data suggest that DES form I is the thermodynamically stable form at room temperature (RT) with II and III being enantiotropically related.",
+   "fonte_dati": "propria",
+   "note": "Frase ambigua: «II and III being enantiotropically related» e' letto alla lettera (coppia II-III); potrebbe voler dire che II e III sono entrambe in rapporto enantiotropico con I. Prima: «if an endothermic transition is observed before melting, the polymorphs are related enantiotropically» (regola di Burger e Ramberger). La relazione e' dedotta dal DSC («suggest»)."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "stabile_a_temperatura_ambiente": "F1",
+   "condizioni": "a bassa temperatura / temperatura ambiente",
+   "certezza": "media",
+   "citazione": "Form I was found to be the most thermodynamically stable form at lower T, with form II being the next most stable in lattice energy",
+   "fonte_dati": "propria",
+   "note": "Calcolo periodico DFT-D (energie di reticolo ed energie libere dai fononi), non una misura."
+  },
+  {
+   "forme": [
+    "F1",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "stabile_a_temperatura_ambiente": "F1",
+   "condizioni": "sotto circa 380 K; sopra circa 380 K la piu' stabile e' III (calcolo)",
+   "temperatura_transizione": [
+    {
+     "grandezza": {
+      "valore": 380,
+      "unita": "K",
+      "circa": true,
+      "derivato": true,
+      "tipo": "equilibrio"
+     },
+     "metodo": "calcolo DFT-D periodico (fononi armonici, energie libere)",
+     "natura": "termodinamica",
+     "citazione": "but the thermal contributions stabilize form III, such that form III becomes the most stable phase above about 380 K."
+    }
+   ],
+   "certezza": "media",
+   "citazione": "but the thermal contributions stabilize form III, such that form III becomes the most stable phase above about 380 K.",
+   "fonte_dati": "propria",
+   "note": "Valore calcolato (approssimazione armonica, senza espansione termica). Le Ttr sperimentali (DSC) sono 334.8 K (I->II+III, onset) e 326.5/313.9 K in raffreddamento."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "onset": 334.8,
+     "picco": 338.6
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "ordine_transizione": "primo",
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "picco": 338.6
+      },
+      "segno": "endo"
+     }
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 28,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "citazioni": [
+    "DSC analysis of polycrystalline DES I exhibits two endothermic transitions upon heating with peak temperatures of 338.6 and 431.3 K (Figure 2). While the second endotherm is consistent with the melting of the compound, the ﬁrst endotherm with an onset of 334.8 K can be attributed to successive solid−solid phase transformations, i.e., overlapping signals from the conversion of DES I →II and II →III (based on diﬀraction data) (Section 2.2 and 2.3).",
+    "Data collected at 5 K/min.",
+    "This indicates that during the DSC heating measurements (Figure 2), the two phase transitions (I →II and II →III) overlap, probably due to hysteresis, resulting in a single observable endotherm (Tonset = 334.8 K).",
+    "On the basis of the PXRD data, Form II reaches a maximum composition in the powder sample at 335 K (28%) after which the sample rapidly and completely converts to form III above 350 K.",
+    "It is clear that during heating form I ﬁrst transforms to form II with the appearance of the ASE conformation.",
+    "The single-crystal to single-crystal transformations in DES are ﬁrst-order processes proceeding via nucleation and growth, manifested as heat-transfer events in DSC and their considerable hysteresis."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E4",
+   "reversibile": true,
+   "passo": "primo dei due processi sovrapposti dell'endotermo di riscaldamento (I -> II)",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1
+   },
+   "frequenza": "sempre",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "It is clear that during heating form I ﬁrst transforms to form II with the appearance of the ASE conformation."
+    }
+   ],
+   "note": "Un solo endotermo (onset 334.8 K, picco 338.6 K) per I -> II e II -> III sovrapposti: «the exact onset of DES I →II and II →III phase transitions in the heating cycle are not clear». Onset e picco sono quindi dell'endotermo complessivo, attribuiti a I -> II e a II -> III con lo stesso valore (due eventi, uno per processo). VT-PXRD in polvere (stesso campione, conferma): II raggiunge il massimo, 28%, a 335 K; trasformazione estesa per ~15 K. DSC a 5 K/min (Fig. 2); esperimenti ripetuti fra RT e 375 K a 5-40 K/min danno dati simili. Il 28% e' la frazione di II nel campione a 335 K, non una resa."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "onset": 334.8,
+     "picco": 338.6
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "ordine_transizione": "primo",
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "picco": 338.6
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "DSC analysis of polycrystalline DES I exhibits two endothermic transitions upon heating with peak temperatures of 338.6 and 431.3 K (Figure 2). While the second endotherm is consistent with the melting of the compound, the ﬁrst endotherm with an onset of 334.8 K can be attributed to successive solid−solid phase transformations, i.e., overlapping signals from the conversion of DES I →II and II →III (based on diﬀraction data) (Section 2.2 and 2.3).",
+    "Data collected at 5 K/min.",
+    "This indicates that during the DSC heating measurements (Figure 2), the two phase transitions (I →II and II →III) overlap, probably due to hysteresis, resulting in a single observable endotherm (Tonset = 334.8 K).",
+    "On the basis of the PXRD data, Form II reaches a maximum composition in the powder sample at 335 K (28%) after which the sample rapidly and completely converts to form III above 350 K.",
+    "The single-crystal to single-crystal transformations in DES are ﬁrst-order processes proceeding via nucleation and growth, manifested as heat-transfer events in DSC and their considerable hysteresis."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E3",
+   "reversibile": true,
+   "passo": "secondo dei due processi sovrapposti dell'endotermo di riscaldamento (II -> III)",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1
+   },
+   "da_evento": "E1",
+   "frequenza": "sempre",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "The two-step transition involves a sequential ﬂipping of the piperidine rings of desloratadine molecules in the crystals, which induce reversible micrometer-scale contraction on heating and expansion on cooling of the largest face of a desloratadine single crystal."
+    }
+   ],
+   "note": "Stesso endotermo di E1 (onset 334.8 K, picco 338.6 K). Dal VT-PXRD: dopo il massimo di II a 335 K «the sample rapidly and completely converts to form III above 350 K»."
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "onset": 326.5
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "Raman"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "ordine_transizione": "primo",
+    "entalpia": {
+     "valore": 0.4,
+     "unita": "kJ/mol",
+     "tipo": "transizione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "onset": 326.5
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "Indeed, upon cooling from 375 K, the thermogram exhibits two exothermic transitions with onset temperatures of 326.5 and 313.9 K corresponding to polymorphic transformations of III →II and II →I. The enthalpy changes associated with the transformations III →II and II →I during the cooling cycle are 0.4 ± 0.1 and 0.3 ± 0.1 kJ/mol.",
+    "Data collected at 5 K/min.",
+    "THz Raman revealed two stages for the molecular conformation changes, separated by an evident slow-down just before the AAA percentage reached 50% (black lines in Figure 7b), again matching the observed transition temperatures by DSC (T(III →II)onset = 326.5 K and T(II→I)onset = 313.9 K) (Figure 2).",
+    "In the ﬁrst stage, form III transforms to form II with the accompanying transformation of some ASE conformers to AAA, while some form II may have transformed to form I by the end of this stage.",
+    "However, at 315 K, form II is the main component (64%) of the sample, with about 27% of untransformed form III and 9% completely transformed to form I.",
+    "The single-crystal to single-crystal transformations in DES are ﬁrst-order processes proceeding via nucleation and growth, manifested as heat-transfer events in DSC and their considerable hysteresis."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E2",
+   "reversibile": true,
+   "da_evento": "E2",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1
+   },
+   "frequenza": "sempre",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "In the ﬁrst stage, form III transforms to form II with the accompanying transformation of some ASE conformers to AAA, while some form II may have transformed to form I by the end of this stage."
+    }
+   ],
+   "note": "Raffreddando da 375 K. Entalpia 0.4 ± 0.1 kJ/mol. A 315 K (VT-PXRD) la polvere e' 64% II, 27% III non ancora trasformata, 9% I; le trasformazioni nella polvere si estendono per ~25 K in raffreddamento. Il Raman a THz (cristallo singolo) mostra due tappe di cambio conformazionale che coincidono con gli onset DSC."
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "onset": 313.9
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "Raman"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "ordine_transizione": "primo",
+    "entalpia": {
+     "valore": 0.3,
+     "unita": "kJ/mol",
+     "tipo": "transizione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "onset": 313.9
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "citazioni": [
+    "Indeed, upon cooling from 375 K, the thermogram exhibits two exothermic transitions with onset temperatures of 326.5 and 313.9 K corresponding to polymorphic transformations of III →II and II →I. The enthalpy changes associated with the transformations III →II and II →I during the cooling cycle are 0.4 ± 0.1 and 0.3 ± 0.1 kJ/mol.",
+    "Data collected at 5 K/min.",
+    "THz Raman revealed two stages for the molecular conformation changes, separated by an evident slow-down just before the AAA percentage reached 50% (black lines in Figure 7b), again matching the observed transition temperatures by DSC (T(III →II)onset = 326.5 K and T(II→I)onset = 313.9 K) (Figure 2).",
+    "along with any remaining III →II →I transformation resulting in the complete transformation of the sample to form I (and AAA conformation).",
+    "The single-crystal to single-crystal transformations in DES are ﬁrst-order processes proceeding via nucleation and growth, manifested as heat-transfer events in DSC and their considerable hysteresis."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E1",
+   "reversibile": true,
+   "da_evento": "E3",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1
+   },
+   "frequenza": "sempre",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F1",
+     "citazione": "along with any remaining III →II →I transformation resulting in the complete transformation of the sample to form I (and AAA conformation)."
+    }
+   ],
+   "note": "Raffreddando da 375 K, secondo esotermo. Entalpia 0.3 ± 0.1 kJ/mol. Alla fine il campione e' completamente forma I, conformazione AAA. Isteresi ~20 K dagli onset."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "picco": 431.3
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "unita": "K",
+       "picco": 431.3
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "DSC analysis of polycrystalline DES I exhibits two endothermic transitions upon heating with peak temperatures of 338.6 and 431.3 K (Figure 2). While the second endotherm is consistent with the melting of the compound, the ﬁrst endotherm with an onset of 334.8 K can be attributed to successive solid−solid phase transformations, i.e., overlapping signals from the conversion of DES I →II and II →III (based on diﬀraction data) (Section 2.2 and 2.3).",
+    "Data collected at 5 K/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_dedotto": true,
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1
+   },
+   "note": "Il secondo endotermo (picco 431.3 K) «is consistent with the melting of the compound». La forma che fonde non e' scritta: e' III per la sequenza I -> II -> III descritta dagli autori (da_dedotto)."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 335,
+     "unita": "K",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "nucleazione_crescita",
+     "cooperativa"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Starting with a single crystal of form I, single crystal X-ray diﬀraction data were obtained at 80 K, 293 K, 320 K, 335 K, and 350 K during heating and then at 320 K, 315 K, and 293 K during cooling to explore the sequence of structural transitions.",
+    "Structure determination at 335 K demonstrates that single crystal has transformed with two molecules in the asymmetric unit and the length of the “a” axis doubling in size.",
+    "One molecule is in the AAA conformation, and the other is in the ASE conformation (where the piperidine ring and the C6 carbon of the NDBA moiety are in the “syn” orientation), which is nearly equi-energetic with the AAA conformation (Supporting Information, Section 2.1).",
+    "The VT-SXRD results show the transition between forms I, II, and III is a completely reversible, two-step single-crystal to single-crystal, solid-state transformation.",
+    "The mosaicity (∼0.59 ± 0.02) of the crystal also remains constant over the heating and cooling cycles, suggesting no signiﬁcant change in individual crystal quality.",
+    "The single-crystal to single-crystal transformations in DES are ﬁrst-order processes proceeding via nucleation and growth, manifested as heat-transfer events in DSC and their considerable hysteresis.",
+    "indicating a ﬁrst-order diﬀusionless process between I →II and II →III, wherein both conformational changes and lattice distortions occur simultaneously in the crystal lattice"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E9",
+   "reversibile": true,
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "frequenza": "sempre",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "One molecule is in the AAA conformation, and the other is in the ASE conformation (where the piperidine ring and the C6 carbon of the NDBA moiety are in the “syn” orientation), which is nearly equi-energetic with the AAA conformation (Supporting Information, Section 2.1)."
+    },
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "The two-step transition involves a sequential ﬂipping of the piperidine rings of desloratadine molecules in the crystals, which induce reversible micrometer-scale contraction on heating and expansion on cooling of the largest face of a desloratadine single crystal."
+    },
+    {
+     "gruppo": "weak C−H···N interactions between the two molecules of the asymmetric unit",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "The two molecules in the asymmetric unit of form II are connected by weak C−H···"
+    }
+   ],
+   "note": "Dati SCXRD a 80, 293, 320, 335 e 350 K in riscaldamento: a ~320 K compaiono riflessioni extra che non indicizzano con la cella di I (prima dell'onset DSC atteso a ~335 K), a 335 K la struttura e' quella di II (asse a doppio, due molecole indipendenti). La forma II si vede sempre in presenza di I («fragments of the crystal had not yet transformed»). Nessun cambio di manualita' (parametro di Flack) e mosaicita' costante (~0.59 ± 0.02)."
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 350,
+     "unita": "K",
+     "tipo": "osservata",
+     "min": 335
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "nucleazione_crescita",
+     "cooperativa"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Starting with a single crystal of form I, single crystal X-ray diﬀraction data were obtained at 80 K, 293 K, 320 K, 335 K, and 350 K during heating and then at 320 K, 315 K, and 293 K during cooling to explore the sequence of structural transitions.",
+    "On heating above 335 K, the DES form II crystal subsequently transforms to a high temperature phase, form III. Structure determination at 350 K in space group P21 yields one molecule in the asymmetric unit in the ASE conformation, highlighting that all molecules in the lattice have changed conformation.",
+    "The VT-SXRD results show the transition between forms I, II, and III is a completely reversible, two-step single-crystal to single-crystal, solid-state transformation.",
+    "The mosaicity (∼0.59 ± 0.02) of the crystal also remains constant over the heating and cooling cycles, suggesting no signiﬁcant change in individual crystal quality.",
+    "The single-crystal to single-crystal transformations in DES are ﬁrst-order processes proceeding via nucleation and growth, manifested as heat-transfer events in DSC and their considerable hysteresis.",
+    "indicating a ﬁrst-order diﬀusionless process between I →II and II →III, wherein both conformational changes and lattice distortions occur simultaneously in the crystal lattice"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E8",
+   "reversibile": true,
+   "da_evento": "E6",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "frequenza": "sempre",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "On heating above 335 K, the DES form II crystal subsequently transforms to a high temperature phase, form III. Structure determination at 350 K in space group P21 yields one molecule in the asymmetric unit in the ASE conformation, highlighting that all molecules in the lattice have changed conformation."
+    },
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "Despite the conformational change of the piperidine ring involved in each phase transformation, all three polymorphs contain similar packing arrangements."
+    }
+   ],
+   "note": "Struttura a 350 K: una molecola indipendente in conformazione ASE, cioe' tutte le molecole del reticolo hanno cambiato conformazione. Misure con cristalli di dimensioni diverse danno la stessa sequenza."
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 320,
+     "unita": "K",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "nucleazione_crescita",
+     "cooperativa"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Starting with a single crystal of form I, single crystal X-ray diﬀraction data were obtained at 80 K, 293 K, 320 K, 335 K, and 350 K during heating and then at 320 K, 315 K, and 293 K during cooling to explore the sequence of structural transitions.",
+    "Upon cooling from 350 K, form III crystals transform back to form II at 320 K, which subsequently transforms to form I at 293 K conﬁrming that both transformations are reversible.",
+    "The VT-SXRD results show the transition between forms I, II, and III is a completely reversible, two-step single-crystal to single-crystal, solid-state transformation.",
+    "The mosaicity (∼0.59 ± 0.02) of the crystal also remains constant over the heating and cooling cycles, suggesting no signiﬁcant change in individual crystal quality.",
+    "The single-crystal to single-crystal transformations in DES are ﬁrst-order processes proceeding via nucleation and growth, manifested as heat-transfer events in DSC and their considerable hysteresis."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E7",
+   "reversibile": true,
+   "da_evento": "E7",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "frequenza": "sempre",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "Despite the conformational change of the piperidine ring involved in each phase transformation, all three polymorphs contain similar packing arrangements."
+    }
+   ],
+   "note": "Raffreddando da 350 K; a 320 K si vede II (sempre insieme a III). Misure SCXRD in raffreddamento a 320, 315 e 293 K."
+  },
+  {
+   "id": "E9",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 293,
+     "unita": "K",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "nucleazione_crescita",
+     "cooperativa"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Starting with a single crystal of form I, single crystal X-ray diﬀraction data were obtained at 80 K, 293 K, 320 K, 335 K, and 350 K during heating and then at 320 K, 315 K, and 293 K during cooling to explore the sequence of structural transitions.",
+    "Upon cooling from 350 K, form III crystals transform back to form II at 320 K, which subsequently transforms to form I at 293 K conﬁrming that both transformations are reversible.",
+    "The VT-SXRD results show the transition between forms I, II, and III is a completely reversible, two-step single-crystal to single-crystal, solid-state transformation.",
+    "The mosaicity (∼0.59 ± 0.02) of the crystal also remains constant over the heating and cooling cycles, suggesting no signiﬁcant change in individual crystal quality.",
+    "The single-crystal to single-crystal transformations in DES are ﬁrst-order processes proceeding via nucleation and growth, manifested as heat-transfer events in DSC and their considerable hysteresis."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E6",
+   "reversibile": true,
+   "da_evento": "E8",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "frequenza": "sempre",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F1",
+     "citazione": "Despite the conformational change of the piperidine ring involved in each phase transformation, all three polymorphs contain similar packing arrangements."
+    }
+   ],
+   "note": "II -> I a 293 K, confermando che le due trasformazioni sono reversibili."
+  },
+  {
+   "id": "E10",
+   "da": "ignota",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "max": 360
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto",
+    "direzione_fronte": "il fronte parte dalla faccia (001) [(100/001) in discussione] e avanza lungo [101]",
+    "cinetica": "fronte trasversale continuo, 0.17-0.35 um/s secondo velocita' di riscaldamento e dimensioni del cristallo"
+   },
+   "citazioni": [
+    "Crystals of DES form I were immersed in silicon oil and examined by hot-stage microscopy during heating and cooling between RT and 360 K.",
+    "Upon heating, the crystal visibly changes shape (Figure 8, Supporting Information, Figures S1 and S3, Supporting Information Video_S1 and S2), and a continuous transverse wavefront can be observed, initiating from the (001) face, that moves through the crystal as growth of the emergent phase proceeds. In the heating cycle, it has not been possible to attribute the observed optical phenomenon to either of the two possible transformations (I →II or II →III), due to the narrow temperature diﬀerence between successive transformations.",
+    "Viewed perpendicular to the (101̅) face, the width of the crystal between faces (100) and (001) reduces by ∼9.5% at the phase transition on heating and returns to its original dimensions on cooling back to RT",
+    "The speed of the propagating wavefront during both the heating (I →II and/or II →III) and cooling cycles (II−I) was estimated to be in the range of 0.17−0.35 μm/s, which showed some dependence on the heating/cooling rate as well as the crystal size.",
+    "The reversible phase transitions and shape changing eﬀects occur with complete retention of the crystal orientation and morphology.",
+    "The wave fronts in DES always initiate on the (100/ 001) face and propagate in the [101] direction of the crystal, suggesting a single nucleation event initiated by the ﬂipping of the piperidine moiety of DES molecules on the (001) face.",
+    "The single-crystal to single-crystal transformations in DES are ﬁrst-order processes proceeding via nucleation and growth, manifested as heat-transfer events in DSC and their considerable hysteresis."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_possibili": [
+    "F1",
+    "F2"
+   ],
+   "a_possibili": [
+    "F2",
+    "F3"
+   ],
+   "da_evento": null,
+   "reversibile": true,
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "silicon oil"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperidine ring",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "The two-step transition involves a sequential ﬂipping of the piperidine rings of desloratadine molecules in the crystals, which induce reversible micrometer-scale contraction on heating and expansion on cooling of the largest face of a desloratadine single crystal."
+    },
+    {
+     "gruppo": "chlorine atoms (dCl−Cl in the (101̅) plane)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "distance between two chlorine atoms (dCl−Cl) decreases by 0.976 Å or 9.8%, from 9.959(2) Å in form I to 8.983 Å in form III (Figure 9a). This change in dCl−Cl distance following the conformational ﬂipping of the piperidine ring in DES results in a contraction in the crystal size by ∼9.5% (from 182.5 →165.2 μm; Figure 9b and Supporting Information, Figure S3) as observed in hot-stage microscopy."
+    }
+   ],
+   "note": "«It has not been possible to attribute the observed optical phenomenon to either of the two possible transformations (I →II or II →III)»: partenza e prodotto sono da_possibili/a_possibili. Il cristallo si contrae di ~9.5% (larghezza fra le facce (100) e (001), da 182.5 a 165.2 um) e torna alle dimensioni originali raffreddando. dCl-Cl scende di 0.976 A (9.8%) da 9.959 A in I a 8.983 A in III dopo il ribaltamento del piperidine ring. La velocita' del fronte e' molto minore di quella delle trasformazioni martensitiche e termosalienti. Cristalli di I immersi in olio di silicone fra RT e 360 K. Frase del testo: «a continuous transverse wavefront ... initiating from the (001) face»."
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "intervallo",
+     "min": 300,
+     "max": 320
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto",
+    "cinetica": "fronte trasversale, 0.17-0.35 um/s"
+   },
+   "citazioni": [
+    "Crystals of DES form I were immersed in silicon oil and examined by hot-stage microscopy during heating and cooling between RT and 360 K.",
+    "upon further cooling through the II →I transformation between 320 and 300 K, the crystal shape changes visibly as the wavefront propagates through the crystal with a change in relative intensity of the light transmitted through the crystal.",
+    "The speed of the propagating wavefront during both the heating (I →II and/or II →III) and cooling cycles (II−I) was estimated to be in the range of 0.17−0.35 μm/s, which showed some dependence on the heating/cooling rate as well as the crystal size.",
+    "The reversible phase transitions and shape changing eﬀects occur with complete retention of the crystal orientation and morphology."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "silicon oil"
+   },
+   "note": "Raffreddando fra 320 e 300 K il cristallo cambia forma visibilmente quando il fronte attraversa il cristallo (cambio di intensita' della luce trasmessa). Nel raffreddamento fra 360 e 330 K, che corrisponde a III -> II, si osservano solo «limited changes»: la trasformazione c'e' ma non si vede, quindi non e' un negativo."
+  },
+  {
+   "id": "E12",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "atmosfera": "air"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "termosaliente"
+    ],
+    "integrita": "fratturato",
+    "cinetica": "fronte piu' veloce che in olio, ~37 um/s"
+   },
+   "citazioni": [
+    "If the crystals are heated when exposed in air, cracks appear accompanied by a visible propagation of a transformation interface in the bulk of the crystal, followed by small movements of the crystal as it transforms to form III",
+    "The slight movement of the crystal (see Supporting Information Video_S3) is a demonstration of the thermosalient eﬀect, although is not as strong as those observed in other jumping crystals",
+    "The estimated speed of the wavefront in air-exposed crystals is generally faster (∼37 μm/s) compared to crystals immersed in silicon oil."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "aria (senza olio di silicone)"
+   },
+   "note": "Cristalli scaldati esposti all'aria: compaiono crepe con propagazione visibile di un'interfaccia di trasformazione, poi piccoli movimenti del cristallo («a demonstration of the thermosalient effect, although is not as strong as those observed in other jumping crystals») mentre diventa III. Il testo non dice la T e non separa i due passi: un evento I -> III, con II come passo intermedio. Le crepe sarebbero dovute a gradienti di temperatura (assenza dell'olio)."
+  },
+  {
+   "id": "E13",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ]
+   },
+   "citazioni": [
+    "There are again no observable optical phenomenon during the cooling III →II transformation. However, upon further cooling, a transverse wavefront was observed during the II →I transformation."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E12",
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "aria (senza olio di silicone)"
+   },
+   "note": "Nei cristalli esposti all'aria, raffreddando, per III -> II non si osserva alcun fenomeno ottico; per II -> I si vede un fronte trasversale. Nessuna temperatura."
+  },
+  {
+   "id": "E14",
+   "da": "F1",
+   "a": "amorfo",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 380,
+     "unita": "K",
+     "tipo": "intervallo",
+     "max": 380
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "citazioni": [
+    "Variable temperature THz-Raman data on a single crystal of DES were collected between RT and 380 K during heating and cooling cycles in the extended spectral range of 0−1700 cm−1.",
+    "There is no evidence from the THz-Raman data of any transient amorphous or disordered intermediate phases during the heating/cooling cycles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "senza_intermedio",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Raman a THz su cristallo singolo, cicli di riscaldamento e raffreddamento fra RT e 380 K: nessuna evidenza di fasi intermedie amorfe o disordinate transitorie («any transient amorphous or disordered intermediate phases»). Il negativo vale per entrambi i versi e per i due passi."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "RT"
+   },
+   "tempo": {
+    "valore": null,
+    "unita": "day",
+    "min": 5,
+    "max": 8,
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "Single crystals of DES were obtained by dissolving ∼100 mg of DES in ∼2− 3 mL of ethyl acetate solvent and allowing the solution to evaporate slowly at RT. Colorless crystals that appeared after 5−8 days were used for subsequent analysis.",
+    "A ﬁnely ground sample of recrystallized DES I was used to perform in situ VT-PXRD analysis."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "L'attribuzione a forma I viene dall'uso successivo dei cristalli («recrystallized DES I», «Starting with a single crystal of form I»). Il DES di partenza e il solvente (acetato di etile anidro) sono Sigma-Aldrich."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E6"
+   ],
+   "citazioni": [
+    "Structure determination at 335 K demonstrates that single crystal has transformed with two molecules in the asymmetric unit and the length of the “a” axis doubling in size."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "La forma II si ottiene solo in situ, scaldando un cristallo di I a 335 K (struttura risolta a quella temperatura)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E7"
+   ],
+   "citazioni": [
+    "Structure determination at 350 K in space group P21 yields one molecule in the asymmetric unit in the ASE conformation, highlighting that all molecules in the lattice have changed conformation."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "La forma III si ottiene solo in situ, scaldando II sopra 335 K (struttura risolta a 350 K)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "eight gas-phase conformational minima within 4 kJ/mol of the global minimum (calcolo)",
+     "citazione": "Conformational analysis of a DES molecule in the gas phase resulted in eight conformational minima within 4 kJ/mol of the global minimum (Supporting Information, Section 2.1)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "AAA conformation (piperidine ring); il picco Raman a 987.3 cm-1 ne e' l'impronta",
+     "citazione": "along with any remaining III →II →I transformation resulting in the complete transformation of the sample to form I (and AAA conformation)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "una molecola AAA e una ASE (piperidine ring e C6 dell'NDBA in orientazione syn), quasi equienergetiche",
+     "citazione": "One molecule is in the AAA conformation, and the other is in the ASE conformation (where the piperidine ring and the C6 carbon of the NDBA moiety are in the “syn” orientation), which is nearly equi-energetic with the AAA conformation (Supporting Information, Section 2.1)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F3",
+     "testo": "ASE conformation (tutte le molecole)",
+     "citazione": "Structure determination at 350 K in space group P21 yields one molecule in the asymmetric unit in the ASE conformation, highlighting that all molecules in the lattice have changed conformation."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "ring flipping of the piperidine ring, analogo a un'inversione a sedia nelle piperidine",
+     "citazione": "The ability of DES to undergo the conformational change of ﬂipping the piperidine ring in the solid state, presumably aided by the two steps (I →II →III) in a reversible shape-changing manner,"
+    }
+   ]
+  }
+ ]
+}
