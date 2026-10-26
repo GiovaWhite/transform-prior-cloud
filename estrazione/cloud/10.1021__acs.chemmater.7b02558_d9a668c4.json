@@ -1,0 +1,784 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.chemmater.7b02558",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Cristallo del diariletene 1a (1,2-bis(2-methyl-5-(4-octyloxyphenyl)-3-thienyl)perfluorocyclopentene): transizione reversibile SCSC Form I -> Form II a ca 36-38 °C (riscaldando) e 25-26 °C (raffreddando) con effetto termosaliente (salto a 36.5 °C), fotocromismo allo stato solido (UV -> blu, visibile -> incolore) e piegamento insolito sotto UV spiegato con la combinazione di fotoreazione e transizione. Non estratti: il fotocromismo in soluzione (n-esano) come evento (non e' fra forme solide); i dati di piegamento del cristallo (spostamento della punta, 20 cicli senza danno); la cella e le tabelle cristallografiche (Tabella S1, supplementare; nessun CCDC o refcode). Il cristallo a 66 °C (Form II) sotto UV «hardly exhibited a bending motion»: non e' un cambio di forma. Incoerenze: il salto avviene a 36.5 °C (aria) contro l'espansione a 37.9-38.0 °C (olio di paraffina); ΔH = 2.47 kJ mol−1 senza dire se riscaldamento o raffreddamento; nell'abstract la transizione e' «thermodynamic SCSC» e nel testo «first-order»; il gruppo spaziale «P1 _» (barra persa nel PDF); i livelli di conversione sono indicati solo con apici (I′, I′′, II′′′).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "1,2-bis(2-methyl-5-(4-octyloxyphenyl)-3-thienyl)perfluorocyclopentene (1a)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "closed-ring isomer of 1,2-bis(2-methyl-5-(4-octyloxyphenyl)-3-thienyl)perfluorocyclopentene (1b)",
+   "nome_scritto": "closed-ring isomer 1b",
+   "smiles": null,
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Form I",
+   "etichette_alternative": [
+    "crystal 1a before the phase transition",
+    "1a (open-ring isomer) at 0 °C"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1 _",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "Z": 2,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "0 °C"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "C−H···F and C−H···C contacts (viewed from the (100) face)",
+     "chi": "diarylethene molecules",
+     "citazione": "When viewed from (100) face, the distance of C−H···F and C−H···C changed from 2.792 and 4.007 Å to 3.159 and 3.852 Å, respectively, as depicted in inset of Figure 10."
+    },
+    {
+     "motivo": "C−H···F, F···F, F···H−C and C···H−C contacts (viewed along b)",
+     "chi": "diarylethene molecules",
+     "citazione": "The distance of C−H···F (3.858 Å), F···F (2.912 Å), F···H−C (2.639 Å), and C···H−C (2.883 Å) changed to 3.954, 3.089, 2.710, and 2.886 Å, respectively, as depicted in inset of Figure 11."
+    }
+   ],
+   "citazione": "From X-ray crystallographic analysis, it was revealed that the crystal system and space group is triclinic P1",
+   "note": "Rod-like crystal da n-esano, asse lungo parallelo ad a. Il gruppo e' scritto «P1» con una barra «_» a capo (barra sopra l'1 persa dal PDF): con due molecole nella cella e una nell'unita' asimmetrica e' P-1. Cella (Tabella S1) non nel testo; CIF a 0 °C e a 40 °C nel supplementare, senza numeri CCDC. Contatti Form I: C−H···F 2.792 Å, C−H···C 4.007 Å (dal (100)); C−H···F 3.858 Å, F···F 2.912 Å, F···H−C 2.639 Å, C···H−C 2.883 Å (lungo b). Molecole in conformazione antiparallela fotoreattiva, catene ottiliche all-trans."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "Form II",
+   "etichette_alternative": [
+    "crystal 1a after the phase transition",
+    "1a (open-ring isomer) at 40 °C"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1 _",
+   "gruppo_spaziale_dedotto": true,
+   "cella": {
+    "fonte": "SCXRD",
+    "condizioni": "40 °C"
+   },
+   "citazione": "The crystal system and space group did not change (triclinic P1",
+   "note": "Fase ad alta temperatura: stesso sistema e gruppo di Form I («did not change»). A 40 °C gli assi a e c si allungano e b si accorcia (a: +2.2%). Contatti Form II: C−H···F 3.159 Å, C−H···C 3.852 Å (dal (100)); C−H···F 3.954 Å, F···F 3.089 Å, F···H−C 2.710 Å, C···H−C 2.886 Å (lungo b). A 66 °C il cristallo e' gia' in Form II."
+  },
+  {
+   "id": "F3",
+   "composto": "C2",
+   "etichetta": "photocolored crystal of 1a (closed-ring isomer 1b in the crystal)",
+   "etichette_alternative": [
+    "blue-colored crystal",
+    "colored crystal of 1a"
+   ],
+   "tipo": "prodotto_reazione",
+   "citazione": "The colored crystals of 1a had absorption maxima at 580 nm.",
+   "note": "Cristallo colorato di blu per fotociclizzazione allo stato solido: assorbimento a 580 nm, dicroismo che indica la reazione nella fase cristallina. La conversione nel cristallo non e' detta. Nel testo i livelli di conversione sono indicati con apici: Form I′, I′′, II′′, II′′′ (strati superficiali fotoreagiti)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "enantiotropa",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "temperatura_transizione": [
+    {
+     "grandezza": {
+      "min": 36,
+      "max": 38,
+      "unita": "°C"
+     },
+     "metodo": "DSC (riscaldamento, 1 °C min−1)",
+     "natura": "sperimentale",
+     "citazione": "Figure 7 shows the DSC traces of diarylethene 1a in the range of 0−70 °C at a rate of 1 °C min−1 in both heating and cooling processes. In the heating process, a small endothermic peak appeared at 36−38 °C. On the other hand, in the cooling process, a small broad exothermic peak appeared at 26−31 °C. The enthalpy change (ΔH) was estimated to be 2.47 kJ mol−1."
+    },
+    {
+     "grandezza": {
+      "min": 37.9,
+      "max": 38.0,
+      "unita": "°C"
+     },
+     "metodo": "lunghezza del cristallo in olio di paraffina (riscaldamento, 2 °C min−1)",
+     "natura": "sperimentale",
+     "citazione": "The crystal was put in a paraffin oil to avoid jumping. When the crystal 1a was heated up from 15 °C to 45 °C at a rate of 2 °C min−1, the crystal suddenly expanded between 37.9 and 38.0 °C as shown in Video S4. On the other hand, the crystal suddenly contracted between 25.4 and 25.3 °C when the crystal 1a was cooled down from 45 °C to 15 °C at a rate of 2 °C min−1 as shown in Video S5. This result clearly indicates that 1a occurs a reversible single-crystal-to-single-crystal (SCSC) phase transition and there is a hysteresis between the heating process and the cooling process. The difference in crystal length of the long axis before and after the phase transition was estimated to be 2.2%. The SCSC phase transition quickly finished within 0.03 s."
+    }
+   ],
+   "citazione": "According to the heat of transition rule,52,53 if endothermic process is involved, the phase transition is reversible, which is called as enantiotropic phase transition. In fact, these endothermic and exothermic behaviors can be repeated more than 3 cycles. This result indicates that the crystal occurred a reversible thermodynamic first-order phase transition with a hysteresis between the heating process and the cooling process.",
+   "note": "L'articolo applica la regola del calore di transizione (processo endotermico -> transizione reversibile = enantiotropa) e conclude «reversible thermodynamic first-order phase transition», ma non scrive in una frase che 1a e' enantiotropo: certezza media. Raffreddando la transizione avviene a 26-31 °C (DSC) e 25.4-25.3 °C (olio)."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 36.5,
+     "unita": "°C",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "When the crystal was heated up from 25 °C at a rate of 2 °C min−1, the crystal suddenly jumped at 36.5 °C as shown in Figure S4 and Video S3. The speed of jumping was estimated to be more than 35 mm s−1.",
+    "Such thermal jumping phenomena of crystals are known as a thermosalient effect.",
+    "In the course of study, a thermosalient effect of crystal induced by a reversible thermodynamic phase transition 1a was found.",
+    "In the course of measuring the melting point of crystal 1a, the crystal was found to take place the thermomechanical effect."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "termosaliente"
+    ],
+    "integrita": "salta",
+    "cinetica": "il cristallo salta all'improvviso, velocita' del salto stimata > 35 mm s−1"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Effetto termosaliente: scaldando da 25 °C a 2 °C min−1, il cristallo salta a 36.5 °C (Fig. S4, Video S3). «In general, the thermosalient effect of crystals takes place due to thermodynamic phase transition of crystals»: il testo attribuisce il salto alla transizione Form I -> Form II. Per evitare il salto le misure di lunghezza sono fatte in olio di paraffina (E2). Il cristallo non e' nell'olio."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 37.9,
+     "max": 38.0,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "°C/min"
+    },
+    "tempo": {
+     "max": 0.03,
+     "unita": "s",
+     "tipo": "trasformazione"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The crystal was put in a paraffin oil to avoid jumping. When the crystal 1a was heated up from 15 °C to 45 °C at a rate of 2 °C min−1, the crystal suddenly expanded between 37.9 and 38.0 °C as shown in Video S4. On the other hand, the crystal suddenly contracted between 25.4 and 25.3 °C when the crystal 1a was cooled down from 45 °C to 15 °C at a rate of 2 °C min−1 as shown in Video S5. This result clearly indicates that 1a occurs a reversible single-crystal-to-single-crystal (SCSC) phase transition and there is a hysteresis between the heating process and the cooling process. The difference in crystal length of the long axis before and after the phase transition was estimated to be 2.2%. The SCSC phase transition quickly finished within 0.03 s.",
+    "To investigate the difference in the crystal structure before and after the phase transition (Form I and Form II, respectively), X-ray crystallographic analysis was performed using the same single crystal at various temperatures.",
+    "The a- and c-axes largely expanded at 40 °C. On the other hand, the b-axis largely contracted at 40 °C. This is ascribed to the thermodynamic phase transition from Form I to Form II. The difference in a-axis length before and after the phase transition is estimated to be 2.2%, which is consistent with the result of the direct observation of the change in crystal length.",
+    "The crystal system and space group did not change (triclinic P1",
+    "These small but apparent changes in molecular packing results in a reversible SCSC phase transition.",
+    "According to the heat of transition rule,52,53 if endothermic process is involved, the phase transition is reversible, which is called as enantiotropic phase transition. In fact, these endothermic and exothermic behaviors can be repeated more than 3 cycles. This result indicates that the crystal occurred a reversible thermodynamic first-order phase transition with a hysteresis between the heating process and the cooling process."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E3",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia",
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ],
+    "ordine_transizione": "primo",
+    "cinetica": "improvvisa: la transizione si completa entro 0.03 s"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "paraffin oil"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "C−H···F contacts (viewed from the (100) face)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "When viewed from (100) face, the distance of C−H···F and C−H···C changed from 2.792 and 4.007 Å to 3.159 and 3.852 Å, respectively, as depicted in inset of Figure 10."
+    },
+    {
+     "gruppo": "C−H···C contacts (viewed from the (100) face)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "When viewed from (100) face, the distance of C−H···F and C−H···C changed from 2.792 and 4.007 Å to 3.159 and 3.852 Å, respectively, as depicted in inset of Figure 10."
+    },
+    {
+     "gruppo": "C−H···F contacts (viewed along b)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "The distance of C−H···F (3.858 Å), F···F (2.912 Å), F···H−C (2.639 Å), and C···H−C (2.883 Å) changed to 3.954, 3.089, 2.710, and 2.886 Å, respectively, as depicted in inset of Figure 11."
+    },
+    {
+     "gruppo": "F···F contacts",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "The distance of C−H···F (3.858 Å), F···F (2.912 Å), F···H−C (2.639 Å), and C···H−C (2.883 Å) changed to 3.954, 3.089, 2.710, and 2.886 Å, respectively, as depicted in inset of Figure 11."
+    },
+    {
+     "gruppo": "F···H−C contacts",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "The distance of C−H···F (3.858 Å), F···F (2.912 Å), F···H−C (2.639 Å), and C···H−C (2.883 Å) changed to 3.954, 3.089, 2.710, and 2.886 Å, respectively, as depicted in inset of Figure 11."
+    },
+    {
+     "gruppo": "C···H−C contacts",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "The distance of C−H···F (3.858 Å), F···F (2.912 Å), F···H−C (2.639 Å), and C···H−C (2.883 Å) changed to 3.954, 3.089, 2.710, and 2.886 Å, respectively, as depicted in inset of Figure 11."
+    }
+   ],
+   "note": "Misura diretta della lunghezza del cristallo in olio di paraffina (15 -> 45 °C a 2 °C min−1): si allunga di 2.2% lungo l'asse lungo (a) fra 37.9 e 38.0 °C. La SCXRD sullo stesso cristallo a varie temperature (0 e 40 °C nelle Fig. 10-11) conferma: stesso sistema e gruppo (P-1), a e c si allungano, b si accorcia, piccoli cambiamenti dell'impaccamento. Isteresi con E3. Il testo parla di transizione del primo ordine termodinamica, reversibile (ripetibile per piu' di 3 cicli nel DSC)."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 25.3,
+     "max": 25.4,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "°C/min"
+    },
+    "tempo": {
+     "max": 0.03,
+     "unita": "s",
+     "tipo": "trasformazione"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The crystal was put in a paraffin oil to avoid jumping. When the crystal 1a was heated up from 15 °C to 45 °C at a rate of 2 °C min−1, the crystal suddenly expanded between 37.9 and 38.0 °C as shown in Video S4. On the other hand, the crystal suddenly contracted between 25.4 and 25.3 °C when the crystal 1a was cooled down from 45 °C to 15 °C at a rate of 2 °C min−1 as shown in Video S5. This result clearly indicates that 1a occurs a reversible single-crystal-to-single-crystal (SCSC) phase transition and there is a hysteresis between the heating process and the cooling process. The difference in crystal length of the long axis before and after the phase transition was estimated to be 2.2%. The SCSC phase transition quickly finished within 0.03 s.",
+    "These small but apparent changes in molecular packing results in a reversible SCSC phase transition."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ],
+    "ordine_transizione": "primo",
+    "cinetica": "improvvisa: la contrazione avviene fra 25.4 e 25.3 °C"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "paraffin oil"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "C−H···F contacts (viewed from the (100) face)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "When viewed from (100) face, the distance of C−H···F and C−H···C changed from 2.792 and 4.007 Å to 3.159 and 3.852 Å, respectively, as depicted in inset of Figure 10."
+    },
+    {
+     "gruppo": "C−H···C contacts (viewed from the (100) face)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "When viewed from (100) face, the distance of C−H···F and C−H···C changed from 2.792 and 4.007 Å to 3.159 and 3.852 Å, respectively, as depicted in inset of Figure 10."
+    },
+    {
+     "gruppo": "C−H···F contacts (viewed along b)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "The distance of C−H···F (3.858 Å), F···F (2.912 Å), F···H−C (2.639 Å), and C···H−C (2.883 Å) changed to 3.954, 3.089, 2.710, and 2.886 Å, respectively, as depicted in inset of Figure 11."
+    },
+    {
+     "gruppo": "F···F contacts",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "The distance of C−H···F (3.858 Å), F···F (2.912 Å), F···H−C (2.639 Å), and C···H−C (2.883 Å) changed to 3.954, 3.089, 2.710, and 2.886 Å, respectively, as depicted in inset of Figure 11."
+    },
+    {
+     "gruppo": "F···H−C contacts",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "The distance of C−H···F (3.858 Å), F···F (2.912 Å), F···H−C (2.639 Å), and C···H−C (2.883 Å) changed to 3.954, 3.089, 2.710, and 2.886 Å, respectively, as depicted in inset of Figure 11."
+    },
+    {
+     "gruppo": "C···H−C contacts",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "The distance of C−H···F (3.858 Å), F···F (2.912 Å), F···H−C (2.639 Å), and C···H−C (2.883 Å) changed to 3.954, 3.089, 2.710, and 2.886 Å, respectively, as depicted in inset of Figure 11."
+    }
+   ],
+   "note": "Raffreddamento da 45 a 15 °C a 2 °C min−1 in olio di paraffina: contrazione fra 25.4 e 25.3 °C. Isteresi di ca 12.5 °C rispetto al riscaldamento (E2). Il tempo di 0.03 s e' dato per «the SCSC phase transition» in generale."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 36,
+     "max": 38,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Figure 7 shows the DSC traces of diarylethene 1a in the range of 0−70 °C at a rate of 1 °C min−1 in both heating and cooling processes. In the heating process, a small endothermic peak appeared at 36−38 °C. On the other hand, in the cooling process, a small broad exothermic peak appeared at 26−31 °C. The enthalpy change (ΔH) was estimated to be 2.47 kJ mol−1.",
+    "According to the heat of transition rule,52,53 if endothermic process is involved, the phase transition is reversible, which is called as enantiotropic phase transition. In fact, these endothermic and exothermic behaviors can be repeated more than 3 cycles. This result indicates that the crystal occurred a reversible thermodynamic first-order phase transition with a hysteresis between the heating process and the cooling process."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E5",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "ordine_transizione": "primo",
+    "entalpia": {
+     "valore": 2.47,
+     "unita": "kJ/mol",
+     "tipo": "transizione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 36,
+       "max": 38,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "note": "DSC fra 0 e 70 °C a 1 °C min−1: picco endotermico piccolo a 36-38 °C. ΔH = 2.47 kJ mol−1: il testo non dice se si riferisce al riscaldamento o al raffreddamento (sta dopo entrambi). Endotermico e raffreddamento esotermico ripetuti per piu' di 3 cicli. Il campione non e' descritto (nei Metodi solo lo strumento)."
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 26,
+     "max": 31,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Figure 7 shows the DSC traces of diarylethene 1a in the range of 0−70 °C at a rate of 1 °C min−1 in both heating and cooling processes. In the heating process, a small endothermic peak appeared at 36−38 °C. On the other hand, in the cooling process, a small broad exothermic peak appeared at 26−31 °C. The enthalpy change (ΔH) was estimated to be 2.47 kJ mol−1.",
+    "According to the heat of transition rule,52,53 if endothermic process is involved, the phase transition is reversible, which is called as enantiotropic phase transition. In fact, these endothermic and exothermic behaviors can be repeated more than 3 cycles. This result indicates that the crystal occurred a reversible thermodynamic first-order phase transition with a hysteresis between the heating process and the cooling process."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E4",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "ordine_transizione": "primo",
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "min": 26,
+       "max": 31,
+       "unita": "°C"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "note": "Picco esotermico largo e piccolo a 26-31 °C raffreddando a 1 °C min−1 (isteresi rispetto al riscaldamento)."
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 96,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The melting point of crystal 1a was observed at 96 °C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_dedotto": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "note": "Il testo da' «the melting point of crystal 1a was observed at 96 °C» dopo aver detto di aver fatto il DSC; la forma che fonde non e' detta: sopra 38 °C il cristallo e' Form II, quindi da = Form II per deduzione. Velocita' e picco/onset non detti."
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 365,
+      "unita": "nm"
+     },
+     "sorgente": "UV light"
+    },
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Upon UV light irradiation, the colorless single crystals of 1a turned blue (Figure 2 and Video S1). The colored crystals of 1a had absorption maxima at 580 nm. The blue-colored crystals returned to the colorless crystals upon irradiation with visible light.",
+    "This clear dichroism indicates that the photochromic reaction took place in the crystalline phase.",
+    "all 1a molecules exist in photoreactive antiparallel conformations and the distance between reactive carbon atoms is 3.588(5) Å, which is sufficiently short for photocyclization to take place in the crystalline phase.",
+    "UV irradiation was carried out using a Keyence UV-LED UV-400/UV-50H (365-nm light)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "reversibile": true,
+   "inverso_di": "E8",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "reactive carbon atoms of the antiparallel photoreactive conformation (3.588(5) Å apart)",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "all 1a molecules exist in photoreactive antiparallel conformations and the distance between reactive carbon atoms is 3.588(5) Å, which is sufficiently short for photocyclization to take place in the crystalline phase."
+    },
+    {
+     "gruppo": "octyl groups (all-trans conformation)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "The octyl groups of diarylethene 1a exist in all-trans conformation."
+    }
+   ],
+   "note": "Fotociclizzazione dal diariletene aperto (1a) al chiuso (1b) nel cristallo: il cristallo incolore diventa blu (assorbimento a 580 nm), con dicroismo sul piano (0 1 −1) che dimostra la reazione nella fase cristallina. Lunghezza d'onda: il testo scrive «UV light» per il cristallo; 365 nm e' il LED UV dei Metodi (fotomeccanica, e la lampada a mercurio con filtro UV-1A per gli spettri polarizzati): la verifica avverte perche' «365-nm» ha il trattino. La conversione nel cristallo non e' detta. In soluzione (n-esano, 313 nm) la conversione e' del 98%."
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "sorgente": "visible light (halogen lamp)"
+    },
+    "potenza": {
+     "valore": 100,
+     "unita": "W"
+    },
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Upon UV light irradiation, the colorless single crystals of 1a turned blue (Figure 2 and Video S1). The colored crystals of 1a had absorption maxima at 580 nm. The blue-colored crystals returned to the colorless crystals upon irradiation with visible light.",
+    "Visible light irradiation was carried out using a halogen lamp (100 W)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "reversibile": true,
+   "inverso_di": "E7",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Il cristallo blu torna incolore con luce visibile (lampada alogena da 100 W nei Metodi). Il testo non dice la lunghezza d'onda per il cristallo (in soluzione >500 nm)."
+  },
+  {
+   "id": "E9",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 365,
+      "unita": "nm"
+     },
+     "sorgente": "UV light"
+    },
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Figure 12 shows the photomechanical behavior of diarylethene 1a at 25 °C (before phase transition, Form I, Video S6) and 66 °C (after phase transition, Form II, Video S7), respectively.",
+    "After continuous irradiation with UV light, the crystal suddenly bends largely away from the incident light as the photoreacted crystal surface layer undergoes thermodynamic phase transition from Form I’’ to Form II’’. This is due to a decrease in the phase transition temperature caused by the photoisomerization of diarylethene molecules.54-57",
+    "Upon further irradiation with UV light, the conversion ratio of photoisomerization of diarylethene molecules in right side of crystal also increases and the thermodynamic phase transition from Form I’’ to Form II’’ also occurs in right side of crystal. As a result, the crystal suddenly returns to the straight shape.",
+    "Upon irradiation with UV light from left side, the crystal bends away from the incident light due to the expansion in the crystal surface caused by photochromic reaction of diarylethene molecules from the open-ring isomer to the closed-ring isomer.",
+    "UV irradiation was carried out using a Keyence UV-LED UV-400/UV-50H (365-nm light)."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservato": false,
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Meccanismo PROPOSTO per il curioso piegamento del cristallo a 25 °C sotto UV: la fotoisomerizzazione abbassa la temperatura della transizione e lo strato superficiale fotoreagito (I′′) passa da Form I a Form II (II′′), il cristallo si piega di colpo allontanandosi dalla luce e, quando la transizione arriva anche all'altro lato, torna dritto. Non e' osservato direttamente: e' dedotto dal piegamento. A 66 °C (cristallo gia' in Form II) il cristallo si piega appena sotto UV.",
+   "lettura_alternativa": "Il testo mostra solo la deformazione del cristallo (Fig. 5, 6, 12): la transizione di fase dello strato superficiale e' una spiegazione degli autori."
+  },
+  {
+   "id": "E10",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valori": [
+      17,
+      15
+     ],
+     "unita": "°C",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The photoirradiated crystal means the crystal after continuous UV irradiation at 25 °C. When the photoirradiated crystal was cooled down from 25 °C, the crystal largely bent toward right side at 17 °C. Upon continuous cooling of the crystal, the crystal returned to the slightly bent shape at 15 °C. When the slightly bent shape crystal was heated up, the crystal largely bent toward right side again. Upon continuous heating of the crystal, the crystal returned to the initial straight shape at 25 °C.",
+    "When the photoirradiated crystal was cooled down, at first, the thermodynamic phase transition from Form II’’ to Form I’’ in right side of crystal takes place, which results in the large bending toward right side. Upon continuous cooling, the thermodynamic phase transition from Form II’’’ to Form I’’’ in left side of crystal also undergoes, which results in the return to the slightly bent crystal shape. Bending behavior by heating can be explained by the reverse process."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservato": false,
+   "pretrattamento": "cristallo fotoirraggiato: dopo irraggiamento UV continuo a 25 °C",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Raffreddando il cristallo fotoirraggiato da 25 °C il cristallo si piega a destra a 17 °C (transizione II′′ -> I′′ sul lato destro) e torna quasi dritto a 15 °C (II′′′ -> I′′′ sul lato sinistro). Sono temperature del piegamento, e le transizioni sono dedotte dagli autori, non misurate: la transizione del cristallo fresco avviene a 25.4-25.3 °C (E3), quindi la fotoisomerizzazione l'ha abbassata."
+  },
+  {
+   "id": "E11",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The photoirradiated crystal means the crystal after continuous UV irradiation at 25 °C. When the photoirradiated crystal was cooled down from 25 °C, the crystal largely bent toward right side at 17 °C. Upon continuous cooling of the crystal, the crystal returned to the slightly bent shape at 15 °C. When the slightly bent shape crystal was heated up, the crystal largely bent toward right side again. Upon continuous heating of the crystal, the crystal returned to the initial straight shape at 25 °C.",
+    "When the photoirradiated crystal was cooled down, at first, the thermodynamic phase transition from Form II’’ to Form I’’ in right side of crystal takes place, which results in the large bending toward right side. Upon continuous cooling, the thermodynamic phase transition from Form II’’’ to Form I’’’ in left side of crystal also undergoes, which results in the return to the slightly bent crystal shape. Bending behavior by heating can be explained by the reverse process."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservato": false,
+   "pretrattamento": "cristallo fotoirraggiato e poi raffreddato fino alla forma quasi dritta",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Riscaldando il cristallo fotoirraggiato e raffreddato, si piega di nuovo a destra e a 25 °C torna alla forma dritta iniziale: processo inverso di E10 «explained by the reverse process». 25 °C e' la T a cui il cristallo e' di nuovo dritto, non una T di inizio."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "n-hexane"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "citazioni": [
+    "When diarylethene 1a was recrystallized from n-hexane, a rod-like crystal was obtained as shown in Figure 2."
+   ],
+   "note": "Cristallo a bastoncino da ricristallizzazione in n-esano; modo e temperatura non detti. L'asse lungo e' parallelo ad a."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 98,
+      "unita": "%"
+     },
+     "gruppo": "photoisomerization conversion ratio 1a -> 1b",
+     "solvente": "n-hexane",
+     "metodo": "spettroscopia di assorbimento, 313 nm",
+     "calcolato": false,
+     "citazione": "The photoisomerization conversion ratio from 1a to 1b was determined to be 98% in n-hexane upon irradiation with 313-nm light."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.54
+     },
+     "gruppo": "photocyclization quantum yield (313 nm)",
+     "solvente": "n-hexane",
+     "metodo": "rese quantiche relative",
+     "calcolato": false,
+     "citazione": "The photocyclization and cycloreversion quantum yields were determined to be 0.54 (upon irradiation at 313 nm) and 0.0082 (upon irradiation at 585 nm)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.0082
+     },
+     "gruppo": "cycloreversion quantum yield (585 nm)",
+     "solvente": "n-hexane",
+     "metodo": "rese quantiche relative",
+     "calcolato": false,
+     "citazione": "The photocyclization and cycloreversion quantum yields were determined to be 0.54 (upon irradiation at 313 nm) and 0.0082 (upon irradiation at 585 nm)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "nel cristallo tutte le molecole sono in conformazione antiparallela fotoreattiva (distanza fra i carboni reattivi 3.588(5) Å)",
+     "forma": "F1",
+     "citazione": "all 1a molecules exist in photoreactive antiparallel conformations and the distance between reactive carbon atoms is 3.588(5) Å, which is sufficiently short for photocyclization to take place in the crystalline phase."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "i gruppi ottile sono in conformazione all-trans",
+     "forma": "F1",
+     "citazione": "The octyl groups of diarylethene 1a exist in all-trans conformation."
+    },
+    {
+     "tipo": "altro",
+     "testo": "fotocromismo reversibile: isomero aperto incolore (massimo a 295 nm) e isomero chiuso blu (massimo a 585 nm in soluzione)",
+     "citazione": "Upon irradiation with 313-nm light, the colorless solution of 1a turned blue, in which a visible light absorption maximum appeared at 585 nm."
+    }
+   ]
+  }
+ ]
+}
