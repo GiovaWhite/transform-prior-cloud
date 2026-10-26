@@ -1,0 +1,937 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2052252523002452",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "dl-mentolo: polimorfo α (triclino, stabile a pressione ambiente) e polimorfo β (monoclino, nuovo, stabile sopra 0.40 GPa, meno denso di α in quella regione). Le due forme si ottengono SOLO per ricristallizzazione (da soluzione, da fuso, con seme di α) sotto o sopra 0.40 GPa; nessuna transizione solido-solido α <-> β osservata, nemmeno dopo mesi, per la barriera cinetica dovuta alle diverse simmetrie che legano le catene. Le ricristallizzazioni in cella a pressione sono preparazioni, non eventi (regola dell'in situ in DAC). Non sono eventi: la compressibilita' (βα = 0.198 GPa-1 a 0.1 MPa e 0.0415 a 2.00 GPa; ββ = 0.084 e 0.018 GPa-1), la contrazione di volume del 13.2% di α a 1.00 GPa, i vuoti (~25% della struttura di α), le variazioni degli angoli OH···O (da 148 a 175° fra 0.10 MPa e 0.10 GPa) e delle torsioni (fino a ~20°), la dilatazione termica anisotropa di β, il disordine 50:50 dei protoni ossidrilici in tutti gli esperimenti fra 296 e 100 K e la sovrapposizione delle densita' (ΔV = 0 a 0.30 GPa, ΔG = 0 a 0.40 GPa). Il punto di fusione di l-mentolo (36–38 °C) e' citato nel testo ma senza forma ne' struttura: non estratto. Incoerenze del testo: compressione di α «with no signs of anomalies to 2.20 GPa at least» nei risultati contro «at least 3.37 GPa» nell'abstract; datablock «alpha_DL_0.01MPa» contro 0.0001 GPa (= 0.1 MPa) in Tabella 1; cella pseudo-monoclina di α a 0.60 GPa nel testo (a = 11.581, c = 12.222 Å) contro Tabella 1 (a = 11.601, b = 12.022 Å); «up to about 20° in torsion angles» contro «no ... significant conformational change (Fig. S24)»; solventi di ricristallizzazione elencati come metanolo:acqua (1:2) ed etanolo:acqua (2:1), ma l'etanolo:acqua e' 1:3 per il PXRD e 2:1 per «methanol:water and ethanol:water mixtures (2:1 v/v)»; regione di stabilita' di α fino a 0.40 GPa ma densita' uguali a 0.30 GPa; «The solubility of methanol» invece di mentolo; gruppo spaziale «P 1» con barra persa (triclino con Z = 6, Z' = 3 e centri di inversione: P-1).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "dl-menthol",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "polymorph α",
+   "etichette_alternative": [
+    "α-dl-menthol",
+    "α-DL-C10H20O"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P 1",
+   "gruppo_spaziale_dedotto": true,
+   "sistema_cristallino": "triclino",
+   "cella": {
+    "a": 12.035,
+    "b": 12.536,
+    "c": 12.859,
+    "alpha": 117.56,
+    "beta": 98.61,
+    "gamma": 103.93,
+    "V": 1590.6,
+    "Z": 6,
+    "Z_primo": 3,
+    "condizioni": "296 K, 0.0001 GPa (0.10 MPa)"
+   },
+   "ccdc": "2206626",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2206626",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_0.01MPa"
+    },
+    {
+     "ccdc": "2206627",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_0.10GPa"
+    },
+    {
+     "ccdc": "2206628",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_0.15GPa"
+    },
+    {
+     "ccdc": "2206629",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_0.30GPa"
+    },
+    {
+     "ccdc": "2206630",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_0.51GPa"
+    },
+    {
+     "ccdc": "2206631",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_0.60GPa"
+    },
+    {
+     "ccdc": "2206632",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_0.65GPa"
+    },
+    {
+     "ccdc": "2206633",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_0.84GPa"
+    },
+    {
+     "ccdc": "2206634",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_1.12GPa"
+    },
+    {
+     "ccdc": "2206635",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_1.44GPa"
+    },
+    {
+     "ccdc": "2206636",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_1.70GPa"
+    },
+    {
+     "ccdc": "2206637",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_2.10GPa"
+    },
+    {
+     "ccdc": "2206638",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_3.37GPa"
+    },
+    {
+     "ccdc": "2206639",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_120K",
+     "temperatura": {
+      "valore": 120,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2206640",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_160K",
+     "temperatura": {
+      "valore": 160,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2206641",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_190K",
+     "temperatura": {
+      "valore": 190,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2206642",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_220K",
+     "temperatura": {
+      "valore": 220,
+      "unita": "K"
+     }
+    },
+    {
+     "ccdc": "2206643",
+     "fonte": "SCXRD",
+     "citazione": "alpha_DL_260K",
+     "temperatura": {
+      "valore": 260,
+      "unita": "K"
+     }
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "⋯OH⋯OH⋯ bonded chains, Ci symmetric, three independent molecules in sequence [ABCCBA]n; hydroxyl H 50:50 disordered",
+     "chi": "hydroxyl groups of dl-menthol molecules A, B, C",
+     "citazione": "The crystals of α-dl-menthol are built from ⋯OH⋯OH⋯ bonded chains. In the chains, three independent molecules (Z′ = 3), denoted A, B and C, are arranged in the sequence [ABCCBA] n ."
+    },
+    {
+     "motivo": "OH⋯O hydrogen bonds with 50:50 disordered hydroxyl H",
+     "chi": "hydroxyl groups",
+     "citazione": "All hydroxyl atoms (H1) are disordered 50:50 across two sites in OH⋯O hydrogen bonds (cf. Experimental)"
+    },
+    {
+     "motivo": "OH⋯O bonds on average ca 0.10 Å shorter than in β, voids larger",
+     "chi": "hydroxyl groups",
+     "citazione": "It is also characteristic that on average all OH⋯O hydrogen bonds in polymorph α are ca 0.10 Å shorter than the corresponding four independent hydrogen bonds in polymorph β and this average difference in length does not change significantly with pressure."
+    }
+   ],
+   "citazione": "Under normal conditions (273 K and 1006 hPa), dl-menthol forms triclinic crystals, hereafter referred to as polymorph α (α-dl-menthol, Table 1 ▸; Figs. 4 ▸, S13 and S14).",
+   "note": "Cella di Tabella 1 a 296 K e 0.0001 GPa (il testo dice anche «at 0.10 MPa»). Altre celle: 0.60 GPa a = 11.601, b = 12.022, c = 12.596, α = 117.58, β = 99.50, γ = 103.76, V = 1432.9. CCDC 2206626-2206658 attribuiti per ordine ai 33 datablock dell'elenco del materiale supplementare (18 di α, 15 di β): il nome del datablock e' nella citazione di ogni struttura e dice P o T; il form-level riporta quella a pressione ambiente (alpha_DL_0.01MPa, che Tabella 1 chiama 0.0001 GPa). Le strutture a pressione sono a 296 K (Tabella 1 e didascalia). Gruppo spaziale «P 1» nel testo con la barra persa: P-1 per i centri di inversione fra le catene e Z = 6, Z' = 3."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "polymorph β",
+   "etichette_alternative": [
+    "β-dl-menthol",
+    "β-DL-C10H20O"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21/n",
+   "sistema_cristallino": "monoclino",
+   "cella": {
+    "a": 11.928,
+    "b": 21.334,
+    "c": 12.235,
+    "alpha": 90,
+    "beta": 103.71,
+    "gamma": 90,
+    "V": 3025,
+    "Z": 12,
+    "Z_primo": 3,
+    "condizioni": "296 K, 0.10 GPa"
+   },
+   "ccdc": "2206644",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2206644",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_0.10GPa"
+    },
+    {
+     "ccdc": "2206645",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_0.20GPa"
+    },
+    {
+     "ccdc": "2206646",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_0.45GPa"
+    },
+    {
+     "ccdc": "2206647",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_0.56GPa"
+    },
+    {
+     "ccdc": "2206648",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_0.57GPa"
+    },
+    {
+     "ccdc": "2206649",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_0.64GPa"
+    },
+    {
+     "ccdc": "2206650",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_0.67GPa"
+    },
+    {
+     "ccdc": "2206651",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_0.70GPa"
+    },
+    {
+     "ccdc": "2206652",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_0.90GPa"
+    },
+    {
+     "ccdc": "2206653",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_1.28GPa"
+    },
+    {
+     "ccdc": "2206654",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_1.34GPa"
+    },
+    {
+     "ccdc": "2206655",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_1.67GPa"
+    },
+    {
+     "ccdc": "2206656",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_2.10GPa"
+    },
+    {
+     "ccdc": "2206657",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_2.39GPa"
+    },
+    {
+     "ccdc": "2206658",
+     "fonte": "SCXRD",
+     "citazione": "beta_DL_2.90GPa"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "chains of OH⋯O bonded molecules nearly identical to those of α, three independent molecules in sequence A′ABCC′′",
+     "chi": "hydroxyl groups of dl-menthol molecules",
+     "citazione": "Fig. 4 ▸ shows that both these structures are built of similar chains of OH⋯O bonded molecules. These chains are nearly identical in shape (Figs. 6 ▸, S13 and S14): each contains three independent molecules in sequence A′ABCC′′"
+    },
+    {
+     "motivo": "OH⋯O bonds longer (ca 0.10 Å) than in α, longer chains (aβ > aα), voids smaller",
+     "chi": "hydroxyl groups",
+     "citazione": "It is also characteristic that on average all OH⋯O hydrogen bonds in polymorph α are ca 0.10 Å shorter than the corresponding four independent hydrogen bonds in polymorph β and this average difference in length does not change significantly with pressure."
+    }
+   ],
+   "citazione": "Above 0.40 GPa, a new monoclinic form, hereafter denoted β-dl-menthol, was crystallized (Table 1 ▸).",
+   "note": "Cella di Tabella 1 a 296 K e 0.10 GPa (la prima β della tabella). Seconda cella: 0.56 GPa a = 11.728, b = 21.085, c = 12.258, β = 104.60, V = 2933. Nuovo polimorfo, mai ottenuto per compressione di α. Fonde a 14 °C a 0.10 MPa. CCDC per ordine come per α."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "condizioni": "296 K; α piu' stabile fino a 0.40 GPa, β piu' stabile sopra 0.40 GPa",
+   "citazione": "These polymorphs can coexist and below 0.40 GPa the less dense polymorph α is stable, whereas at pressures above 0.40 GPa polymorph α becomes more dense and less stable than polymorph β, despite the fact that no chemical, compositional or even a significant conformational change (Fig. S24) take places.",
+   "fonte_dati": "propria",
+   "certezza": "alta",
+   "note": "Pressione di equilibrio α/β = 0.40 GPa (ΔG = 0) a 296 K; le densita' si invertono a 0.30 GPa (ΔV = 0). L'articolo non dice se sono monotrope o enantiotrope. Le densita' si invertono: α meno densa di β fino a 0.30 GPa, piu' densa sopra («low-density preference»). A 0.10 MPa β fonde a 14 °C contro 42–43 °C di α. Lo schema non ha un campo per la pressione di transizione fra due forme (vedi rapporto)."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "max": 3.37
+    },
+    "temperatura": {
+     "valore": 296,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "mezzo_pressione": "glycerine",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "The compression of polymorph α to at least 3.37 GPa is monotonic, with no signs of phase transitions.",
+    "This new polymorph β-dl-menthol could not be obtained by compressing the ambient-pressure polymorph α up to 3.37 GPa.",
+    "Glycerine was used as the hydrostatic medium.",
+    "The hydrostatic limit of glycerine was assessed as 3.00 GPa",
+    "The structures of high-pressure polymorphs α and β were determined by SCXRD up to 3.37 and 2.90 GPa, respectively, although we plotted the data up to 2.5 GPa only to better represent the region around 0.40 GPa.",
+    "We found that the α-dl-menthol crystals, obtained and mounted in the DAC under ambient conditions in our laboratory, can be compressed with no signs of anomalies to 2.20 GPa at least (Fig. 5 ▸).",
+    "Selected crystal data of DL-menthol polymorphs α and β determined at 296 K (cf. Tables S1 and S2)",
+    "However, the different symmetries relating the chains constitute a high kinetic barrier for the solid–solid transition between polymorphs α and β, hence their crystallizations below or above 0.40 GPa, respectively, are required."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "OH⋯O bonded chains (hydroxyl groups, Ci symmetric)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F1",
+     "citazione": "The structures of both dl-menthol polymorphs α and β are very similar with respect to the lattice dimensions, the aggregation of OH⋯O molecules bonded into C i symmetric chains, the presence of three symmetry-independent molecules (Z′ = 3), their sequence ABCC′B′A′, the disorder of the hydroxyl protons and the parallel arrangement of the chains."
+    }
+   ],
+   "note": "Cristallo singolo di α cresciuto a pressione ambiente e montato nella DAC, compresso con glicerina: compressione monotona senza anomalie fino ad almeno 3.37 GPa (strutture SCXRD fino a 3.37 GPa). β non si ottiene per compressione di α. Il limite idrostatico della glicerina e' 3.00 GPa, quindi sopra e' non idrostatico (idrostatica True vale fino a 3.00 GPa). I risultati dicono «no signs of anomalies to 2.20 GPa at least (Fig. 5)». Gli autori lo spiegano con la barriera cinetica: «the different symmetries relating the chains constitute a high kinetic barrier». A pressione ambiente α e' stabile; sopra 0.40 GPa e' metastabile ma piu' densa di β (supercompressa)."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F2",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "min": 0.4,
+     "limite": "sopra"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "testo": "several months",
+     "tipo": "conservazione"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "However, no phase transition has been observed in any of our high-pressure experiments on dl-menthol, even when the samples were kept at high pressure for several months.",
+    "Indeed, we observed no solid-state phase transitions from polymorph α to polymorph β when the pressure was increased to above 0.40 GPa, and from polymorph β to polymorph α when pressure was released to below 0.40 GPa.",
+    "However, the different symmetries relating the chains constitute a high kinetic barrier for the solid–solid transition between polymorphs α and β, hence their crystallizations below or above 0.40 GPa, respectively, are required."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "frequenza": "sempre",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "OH⋯O bonded chains (hydroxyl groups, Ci symmetric)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F1",
+     "citazione": "The structures of both dl-menthol polymorphs α and β are very similar with respect to the lattice dimensions, the aggregation of OH⋯O molecules bonded into C i symmetric chains, the presence of three symmetry-independent molecules (Z′ = 3), their sequence ABCC′B′A′, the disorder of the hydroxyl protons and the parallel arrangement of the chains."
+    }
+   ],
+   "note": "«no phase transition has been observed in any of our high-pressure experiments on dl-menthol, even when the samples were kept at high pressure for several months» (frase generale, vale per entrambi i versi). Condizione di E1 piu' la durata; il tempo non e' attribuito a una singola prova. Per ottenere l'altro polimorfo il campione doveva essere fuso o sciolto."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "max": 0.4,
+     "limite": "sotto"
+    },
+    "temperatura": {
+     "valore": 296,
+     "unita": "K",
+     "tipo": "isoterma"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "Indeed, we observed no solid-state phase transitions from polymorph α to polymorph β when the pressure was increased to above 0.40 GPa, and from polymorph β to polymorph α when pressure was released to below 0.40 GPa.",
+    "all recrystallizations above 0.40 GPa yielded β-dl-menthol (triangles down), which also persisted after further compression (triangles right) and decompression below 0.40 GPa (triangles left).",
+    "However, the different symmetries relating the chains constitute a high kinetic barrier for the solid–solid transition between polymorphs α and β, hence their crystallizations below or above 0.40 GPa, respectively, are required.",
+    "Selected crystal data of DL-menthol polymorphs α and β determined at 296 K (cf. Tables S1 and S2)"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "inverso_di": "E1",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "OH⋯O bonded chains (hydroxyl groups, Ci symmetric)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "The structures of both dl-menthol polymorphs α and β are very similar with respect to the lattice dimensions, the aggregation of OH⋯O molecules bonded into C i symmetric chains, the presence of three symmetry-independent molecules (Z′ = 3), their sequence ABCC′B′A′, the disorder of the hydroxyl protons and the parallel arrangement of the chains."
+    }
+   ],
+   "note": "β, ottenuta sopra 0.40 GPa, persiste dopo la compressione e la decompressione sotto 0.40 GPa (Fig. 5: triangoli a sinistra); strutture di β a 0.10 e 0.20 GPa. Il tempo di permanenza non e' detto (vedi E2). Abstract: «on reducing the pressure of polymorph β to below 0.40 GPa, its transition to the less dense polymorph α is also hampered by the work contribution»."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.1,
+     "unita": "MPa",
+     "tipo": "misura"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "min": 42,
+     "max": 43,
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "At 0.10 MPa, the melting point of the β polymorph is 14°C, much lower compared with those of α-dl-menthol (42–43°C) and l-menthol (36–38°C)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione di α-dl-menthol 42–43 °C a 0.10 MPa (abstract). La frase non dice se e' misurato qui o riportato; la tecnica non e' detta. Nella stessa frase l-mentolo (36–38 °C), non estratto."
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.1,
+     "unita": "MPa",
+     "tipo": "misura"
+    },
+    "temperatura": {
+     "valore": 14,
+     "unita": "°C"
+    }
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "At 0.10 MPa, the melting point of the β polymorph is 14°C, much lower compared with those of α-dl-menthol (42–43°C) and l-menthol (36–38°C).",
+    "It can be recovered under atmospheric pressure only at low temperature, because its melting point is about 14°C (287 K)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Punto di fusione di β 14 °C (287 K) a 0.10 MPa: «It can be recovered under atmospheric pressure only at low temperature». A 296 K e 0.1 GPa β e' al limite della fusione (Fig. 8: «experimentally observed melting pressure of polymorph β at 0.1 GPa and 296 K»)."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "max": 0.4,
+     "limite": "sotto"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "Hence, in another series of experiments we gradually compressed the pure dl-menthol sample in the DAC and for each pressure point we recorded the temperature of the beginning and of the full melting of the sample (Fig. 10 ▸), determined by microscopic observations. The temperature required for melting the sample in the DAC chamber drastically increases above 0.40 GPa. This increase in temperature of about 80 K above 0.40 GPa, coinciding with the formation of polymorph β, indicates that it becomes more stable than polymorph α, which implies that polymorph β is not metastable above 0.40 GPa."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_dedotto": true,
+   "note": "Fusione di dl-mentolo puro compresso nella DAC, inizio e fine fusione a ogni pressione («determined by microscopic observations»): i valori sono solo in Fig. 10. Sotto 0.40 GPa la fase e' α (dedotto dalla regione di stabilita'), serve da riferimento per E7."
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "min": 0.4,
+     "limite": "sopra"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "delta": 80,
+     "circa": true,
+     "relativo_a": "E6"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "Hence, in another series of experiments we gradually compressed the pure dl-menthol sample in the DAC and for each pressure point we recorded the temperature of the beginning and of the full melting of the sample (Fig. 10 ▸), determined by microscopic observations. The temperature required for melting the sample in the DAC chamber drastically increases above 0.40 GPa. This increase in temperature of about 80 K above 0.40 GPa, coinciding with the formation of polymorph β, indicates that it becomes more stable than polymorph α, which implies that polymorph β is not metastable above 0.40 GPa."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_dedotto": true,
+   "note": "«The temperature required for melting the sample in the DAC chamber drastically increases above 0.40 GPa. This increase in temperature of about 80 K above 0.40 GPa, coinciding with the formation of polymorph β, indicates that it becomes more stable than polymorph α». Il +80 K e' rispetto alla fusione sotto 0.40 GPa (E6); i valori assoluti sono solo in Fig. 10. Sopra 0.40 GPa la fase e' β (dedotto)."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "min": 140,
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) measurements were performed for the samples sealed in aluminium capsules in N2 atmospheres on a Setsys 1200 Setaram instrument between 140 and 573 K at a scan speed of 5 K min−1 (cf. Fig. S12).",
+    "the DSC (cf. Fig. S12) of the α-dl-menthol crystals revealed no anomalous heat flow down to 140 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "sigillato"
+   },
+   "note": "«the DSC of the α-dl-menthol crystals revealed no anomalous heat flow down to 140 K». DSC fra 140 e 573 K a 5 K/min, campioni sigillati in capsule di alluminio sotto N2. Il testo non dice se la rampa e' di riscaldamento o raffreddamento; la direzione (raffreddamento) e' quella della frase «down to»."
+  },
+  {
+   "id": "E9",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "min": 120,
+     "tipo": "intervallo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "This result is consistent with our low-temperature X-ray diffraction measurements on the α-dl-menthol crystals showing the persistence of the disorder of hydroxyl hydrogen atoms down to 120 K at least, and no new phases, in particular no metastable triclinic dl-menthol postulated at 233 K by Corvis et al. (2012 ▸); its occurrence was excluded within the conditions of our experiments.",
+    "Low-temperature SCXRD data were measured on Oxford Diffraction diffractometers Xcalibur and SuperNova equipped with low-temperature Cryosystem attachments."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Strutture SCXRD di α a 260, 220, 190, 160 e 120 K: persistenza del disordine dei protoni ossidrilici fino ad almeno 120 K «and no new phases, in particular no metastable triclinic dl-menthol postulated at 233 K by Corvis et al. (2012)». La fase postulata da Corvis non e' una forma dell'articolo (nessuna struttura): a resta ignota. Nei metodi il disordine e' seguito «between 296 and 100 K»."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "temperatura": {
+    "valore": 294,
+    "unita": "K"
+   },
+   "pressione": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "atmospheric pressure"
+   },
+   "citazioni": [
+    "Crystals of dl-menthol were investigated either by gradually compressing a single crystal grown at 294 (2) K and atmospheric pressure, or by high-pressure recrystallizations and growing single crystals under isothermal and isochoric conditions from the solutions in dry methanol, ethanol, methanol:water mixture (1:2 v/v) and ethanol:water mixture (2:1 v/v), as shown in Figs. 2 ▸ and S1–S5 of the supporting information."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Cristallo singolo di α cresciuto a 294(2) K e pressione atmosferica (il metodo non e' detto), poi montato nella DAC e compresso (E1)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "dry methanol",
+    "ethanol",
+    "methanol:water (1:2 v/v)",
+    "ethanol:water (2:1 v/v)"
+   ],
+   "solventi_alternativi": true,
+   "pressione": {
+    "valore": null,
+    "unita": "GPa",
+    "max": 0.4,
+    "limite": "sotto"
+   },
+   "citazioni": [
+    "In another series of experiments, when the single crystals of dl-menthol were recrystallized from the water:ethanol mixture under pressure in the DAC, the same triclinic polymorph α was obtained up to 0.40 GPa.",
+    "Crystals of dl-menthol were investigated either by gradually compressing a single crystal grown at 294 (2) K and atmospheric pressure, or by high-pressure recrystallizations and growing single crystals under isothermal and isochoric conditions from the solutions in dry methanol, ethanol, methanol:water mixture (1:2 v/v) and ethanol:water mixture (2:1 v/v), as shown in Figs. 2 ▸ and S1–S5 of the supporting information."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Ricristallizzazioni in situ nella DAC, in condizioni isoterme e isocore: α fino a 0.40 GPa. Didascalia di Fig. 5: ricristallizzazioni fino a 0.40 GPa da soluzione metanolo:acqua, etanolo:acqua e dal fuso puro. Il testo dice «water:ethanol mixture» nei risultati."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "methanol:water (1:2 v/v)"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": "K",
+    "min": 296,
+    "max": 363,
+    "tipo": "intervallo"
+   },
+   "pressione": {
+    "valore": 0.1,
+    "unita": "GPa"
+   },
+   "citazioni": [
+    "Single crystal of α-dl-menthol grown from the methanol:water mixture (1:2 v/v) under isochoric conditions in the DAC chamber at (a) 363 K, (b) 353 K, (c) 323 K, (d) 296 K and 0.10 GPa."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Fig. 2: cristallo di α cresciuto raffreddando da 363 a 296 K a 0.10 GPa (isocoro)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "in_situ_pressione",
+   "pressione": {
+    "valore": null,
+    "unita": "GPa",
+    "max": 0.4,
+    "limite": "sotto"
+   },
+   "citazioni": [
+    "Moreover, the recrystallizations of the pure molten dl-menthol yielded polymorph α below 0.40 GPa and polymorph β above 0.40 GPa."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Ricristallizzazione isocora dal fuso di dl-mentolo puro (nessun solvente), per escludere cocristallizzazione o solvatazione stocastica."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "methanol:water",
+    "ethanol:water (2:1 v/v)"
+   ],
+   "solventi_alternativi": true,
+   "pressione": {
+    "valore": null,
+    "unita": "GPa",
+    "min": 0.4,
+    "limite": "sopra"
+   },
+   "citazioni": [
+    "Above 0.40 GPa the isochoric recrystallizations of molten dl-menthol and the solutions in methanol:water and ethanol:water mixtures (2:1 v/v) yielded a new monoclinic polymorph β (Fig. 3 ▸).",
+    "In another series of experiments, when the single crystals of dl-menthol were recrystallized from the water:ethanol mixture under pressure in the DAC, the same triclinic polymorph α was obtained up to 0.40 GPa. Above 0.40 GPa, a new monoclinic form, hereafter denoted β-dl-menthol, was crystallized (Table 1 ▸)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Il testo scrive «(2:1 v/v)» dopo «methanol:water and ethanol:water mixtures», ma altrove metanolo:acqua e' 1:2 v/v."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "ethanol:water (2:1 v/v)"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": "K",
+    "min": 296,
+    "max": 365,
+    "tipo": "intervallo"
+   },
+   "pressione": {
+    "valore": 0.64,
+    "unita": "GPa"
+   },
+   "citazioni": [
+    "Single crystal of β-dl-menthol grown from the ethanol:water mixture (2:1 v/v) under isochoric conditions in the DAC chamber: (a) spontaneous powder precipitation at 0.64 GPa viewed under polarized light, (b) one seed (indicated by the red arrow) at 365 K, (c) 323 K and (d) 0.64 GPa and 296 K."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Fig. 3: precipitazione spontanea di polvere a 0.64 GPa, poi un seme a 365 K e crescita del cristallo di β fino a 296 K a 0.64 GPa."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "in_situ_pressione",
+   "temperatura": {
+    "valore": 453,
+    "unita": "K"
+   },
+   "pressione": {
+    "valore": 0.9,
+    "unita": "GPa"
+   },
+   "citazioni": [
+    "The isochoric recrystallizations of pure dl-menthol required 453 K for melting the sample at 0.90 GPa and 483 K for melting the sample at 1.28 GPa."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Fuso a 453 K a 0.90 GPa e ricristallizzato in modo isocoro: β (sopra 0.40 GPa). La forma che si fonde non e' detta."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "in_situ_pressione",
+   "temperatura": {
+    "valore": 483,
+    "unita": "K"
+   },
+   "pressione": {
+    "valore": 1.28,
+    "unita": "GPa"
+   },
+   "citazioni": [
+    "The isochoric recrystallizations of pure dl-menthol required 453 K for melting the sample at 0.90 GPa and 483 K for melting the sample at 1.28 GPa."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Fuso a 483 K a 1.28 GPa e ricristallizzato in modo isocoro: β (sopra 0.40 GPa)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "semina",
+   "pressione": {
+    "valore": null,
+    "unita": "GPa",
+    "min": 0.4,
+    "limite": "sopra"
+   },
+   "citazioni": [
+    "We also performed seeded crystallizations above 0.40 GPa, when a small seed of polymorph α was left, when the temperature was lowered, but these recrystallizations also resulted in the crystals of polymorph β."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Il seme di α rimasto nel fuso non induce α: si ottiene β sopra 0.40 GPa."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "isopropanol"
+   ],
+   "temperatura": {
+    "valore": 296,
+    "unita": "K",
+    "tipo": "isoterma"
+   },
+   "pressione": {
+    "valore": null,
+    "unita": "GPa",
+    "min": 0.4,
+    "limite": "sopra"
+   },
+   "citazioni": [
+    "In order to confirm that polymorph β is stable at the same temperature as polymorph α, at 296 K, we performed isothermal crystallizations from dl-menthol dissolved in isopropanol, and nucleation occurred above 0.40 GPa. These isothermal in situ recrystallizations yielded the β polymorph, identified by PXRD, as exemplified in Fig. S25."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "solvente": "water",
+     "temperatura": {
+      "valore": 25,
+      "unita": "°C"
+     },
+     "grandezza": {
+      "valore": 0.456,
+      "unita": "mg/mL"
+     },
+     "metodo": "valore di letteratura (Yalkowsky et al., 2010)",
+     "calcolato": false,
+     "citazione": "it hardly dissolves in water, 0.456 mg ml−1 at 25°C (298 K) (Yalkowsky et al., 2010 ▸)"
+    },
+    {
+     "tipo": "solubilita",
+     "solvente": "methanol",
+     "grandezza": {
+      "valore": 100,
+      "unita": "mg/mL"
+     },
+     "metodo": "valore di letteratura (Hopp & Lawrence, 2006; Sell, 1999; O'Neil, 2013)",
+     "calcolato": false,
+     "citazione": "but it is very soluble in ethanol, methanol (100 mg ml−1)"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "dl-menthol racemic compound: in the chains the ABC intervals are of the same chirality, reversed by inversion centres between molecules AA and CC",
+     "citazione": "The ABC intervals are of the same chirality, reversed by two non-equivalent inversion centres located between molecules AA and CC."
+    },
+    {
+     "tipo": "chiralita",
+     "testo": "dl-menthol: racemate of l-(−)-(1R,2S,5R)-menthol and d-(+)-menthol; mainly obtained by chemical synthesis",
+     "citazione": "Unlike l-(−)-menthol, the dl-racemate is mainly obtained by chemical synthesis and applied in ointments, cough drops and nasal inhalers"
+    }
+   ]
+  }
+ ]
+}
