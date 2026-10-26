@@ -1,0 +1,1811 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/molecules29184376",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2373442",
+  "2373443",
+  "2373444"
+ ],
+ "note": "Tre naftalendiimmidi cloro-sostituite al nucleo con catene fluoroalchiliche (CF3-NDI, C3F7-NDI, C4F9-NDI). CF3-NDI: nessun altro polimorfo ma un solvato con p-xilene (CF3-NDI·PXY, instabile all'aria) e una soluzione solida con il prodotto di decomposizione CF3-NDI-OH (80% OH, 20% Cl) che si forma in DMSO. C3F7-NDI e C4F9-NDI: solvati con ACN che perdono il solvente e danno una forma Gamma poco cristallina, poi Alfa; forme Beta di alta temperatura (enantiotrope secondo l'introduzione). Non sono eventi: la dilatazione termica anisotropa reversibile di C3F7-NDI Alfa (VT-XRPD fino a 200 C e ritorno; X1 = -11 MK-1, X3 = 320 MK-1, volume 383 MK-1, HSM: il cristallo si allunga e torna alle dimensioni di partenza) e di C4F9-NDI Alfa (X1, X2, X3 = -79, 184, 287 MK-1, volume 398 MK-1, prima della transizione); la fragilita' meccanica dei cristalli di CF3-NDI Alfa nonostante il piano di scorrimento («the crystals are brittle upon mechanical deformation»); il confronto degli angoli di pitch e roll. La cristallizzazione dal fuso di CF3-NDI Alfa nel DSC in raffreddamento (picco di cristallizzazione senza T ne' forma) non e' estratta. La sostituzione di un Cl con OH di CF3-NDI avviene in soluzione di DMSO («probably due to the presence of water in the DMSO»): preparazione, non evento solido. Il VT-XRPD di C4F9-NDI (ALBA, 20-275 C, 5 C/min) e il DSC danno la transizione Alfa -> Beta a 258 e 276 C. Incoerenze del testo: colore del solvato CF3-NDI·PXY («dark yellow crystals» in 2.2, «the crystal color changes from orange to light yellow» in 2.3, «orange crystal» in Fig. 5); distanza pi-pi di CF3-NDI·SS 3.277 A nel testo contro 3.316 A in Tabella 2; la forma di partenza di CF3-NDI e' detta «Form α» e «Form I» (ATR-FTIR); velocita' DSC 5 C/min nei metodi e 2 C/min in Fig. 6; HSM dei metodi su ·ACN ma i risultati mostrano HSM su Form α di C3F7-NDI; Fig. 8 «non-reversible transition» per C4F9-NDI contro conclusioni «metastable at room temperature and convert back into Form α»; C3F7-NDI: «Upon cooling, the Form β is obtained, since the second heating shows only one endothermic event» contro «readily converts to the more stable ... Form α at room temperature»; VT-XRPD con «CF3-NDI and C4F9-NDI powders» nei metodi, ma i risultati usano C3F7-NDI e C4F9-NDI.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "4,5,9,10-tetrachloro-2,7-bis(2,2,2-trifluoroethyl)benzo[lmn][3,8]phenanthroline-1,3,6,8(2H,7H)-tetraone (CF3-NDI)",
+   "nome_scritto": "4,5,9,10-tetrachloro-2,7-bis (2,2,2trifluoroethyl) benzo[lmn][3,8] phenanthroline-1,3,6,8(2H,7H)-tetraone",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "C3F7-NDI",
+   "sigla_non_sciolta": true,
+   "smiles": null
+  },
+  {
+   "id": "C3",
+   "nome": "C4F9-NDI",
+   "sigla_non_sciolta": true,
+   "smiles": null
+  },
+  {
+   "id": "C4",
+   "nome": "4,5,9-trichloro-10-hydroxy-2,7-bis(2,2,2-trifluoroethyl)benzo[lmn][3,8]phenanthroline-1,3,6,8(2H,7H)-tetraone (CF3-NDI-OH)",
+   "nome_scritto": "4,5,9-trichloro-10-hydroxy2,7-bis(2,2,2-trifluoroethyl)benzo[lmn][3,8] phenanthroline-1,3,6,8(2H,7H)-tetraone (CF3NDI-OH)",
+   "analogo_di": "C1",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "CF3-NDI Form α",
+   "etichette_alternative": [
+    "Form α",
+    "starting material",
+    "Form I (ATR-FTIR)"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P 1",
+   "gruppo_spaziale_dedotto": true,
+   "sistema_cristallino": "triclino",
+   "cella": {
+    "a": 4.8722,
+    "b": 8.8027,
+    "c": 11.5608,
+    "alpha": 75.075,
+    "beta": 89.777,
+    "gamma": 82.792,
+    "V": 475.103,
+    "Z": 1,
+    "Z_primo": 0.5,
+    "condizioni": "160.15 K"
+   },
+   "ccdc": "2373444",
+   "motivi_hb": [
+    {
+     "motivo": "layers of slip-stacked NDI cores parallel to a, -CF3 groups not interdigitated (layer separation 1.574 Å)",
+     "chi": "NDI cores (π-stacking) and CF3 groups",
+     "citazione": "The packing of CF3-NDI Form α is characterized by layers with slip-stacked molecular packing, observed also in the structure of C3F7-NDI and C4F9-NDI Form α (Figure 2a) [4]: the layers are parallel to crystallographic axis a, as shown in Figure 2b. The -CF3 groups are not interdigitated, and the two layers show a separation of 1.574 Å, as shown at Figure 2."
+    }
+   ],
+   "citazione": "CCDC number 2373444 2373442 2373443 BUYJIP [4] BUYJEL [4] Temperature (K) 160.15 160.15 RT 100 100",
+   "note": "Gruppo spaziale: il testo scrive «space group P 1» (barra persa) con «a half molecule in the asymmetric unit» e Z/Z' = 1/0.5: P-1 ricostruito dalla mezza molecola nell'unita' asimmetrica. Cristalli gialli aghiformi. T 160.15 K dalla Tabella 1 (la misura SCXRD e' fatta come per CF3-NDI·SS, a 160 K)."
+  },
+  {
+   "id": "F2",
+   "etichetta": "CF3-NDI·SS",
+   "etichette_alternative": [
+    "solid solution of CF3-NDI and CF3-NDI-OH"
+   ],
+   "tipo": "soluzione_solida",
+   "componenti": [
+    {
+     "composto": "C4",
+     "stechiometria": 0.8
+    },
+    {
+     "composto": "C1",
+     "stechiometria": 0.2
+    }
+   ],
+   "ospite": null,
+   "gruppo_spaziale": "P1",
+   "sistema_cristallino": "triclino",
+   "cella": {
+    "a": 5.8351,
+    "b": 8.0999,
+    "c": 9.7935,
+    "alpha": 97.962,
+    "beta": 95.34,
+    "gamma": 102.323,
+    "V": 444.242,
+    "Z": 1,
+    "Z_primo": 1,
+    "condizioni": "160.15 K"
+   },
+   "ccdc": "2373442",
+   "motivi_hb": [
+    {
+     "motivo": "short π-plane distance 3.277 Å, flat NDI core with the lowest torsion angle",
+     "chi": "NDI cores (π-stacking)",
+     "citazione": "Interestingly, the crystal structure of CF3-NDI·SS shows the shortest distance between π-planes (3.277 Å) (Figure 4) and a flat core with the lowest torsion angle of all the structures"
+    }
+   ],
+   "citazione": "CF3-NDI·SS crystallizes as triclinic P1, with the inversion center lost due to the substitution of one chlorine atom with a hydroxyl group, which the diffraction data suggest presenting with 80%.",
+   "note": "Cristalli prismatici arancioni, non isomorfi con Form α. La frazione 0.8/0.2 e' quella suggerita dalla diffrazione (80% di OH sul Cl del nucleo; formula C18H4.8Cl3.2F6N2O4.8 in Tabella 1); il testo dice «20% of the solid solution has only Cl in the core». P1 (non P-1) perche' il centro di inversione e' perso per la sostituzione."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "CF3-NDI·PXY",
+   "etichette_alternative": [
+    "PXY solvate"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "paraxylene (PXY)",
+    "stechiometria": 1,
+    "fonte_stechiometria": "cristallografica"
+   },
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P 1",
+   "gruppo_spaziale_dedotto": true,
+   "sistema_cristallino": "triclino",
+   "cella": {
+    "a": 7.7798,
+    "b": 8.1543,
+    "c": 10.6415,
+    "alpha": 91.6,
+    "beta": 101.96,
+    "gamma": 90.58,
+    "V": 660.08,
+    "Z": 1,
+    "Z_primo": 0.5,
+    "condizioni": "RT"
+   },
+   "ccdc": "2373443",
+   "motivi_hb": [
+    {
+     "motivo": "donor–acceptor interactions between the solvent molecules and the NDI",
+     "chi": "paraxylene (PXY) and NDI core",
+     "citazione": "It is noteworthy that in CF3-NDI·PXY, solvent molecules engage in donor–acceptor interactions, suggesting the potential for the formation of co-crystals."
+    },
+    {
+     "motivo": "alternated slip-stack of NDI and PXY molecules, slip plane 0.641 Å between layers",
+     "chi": "NDI and PXY molecules",
+     "citazione": "In CF3-NDI·PXY, the solvent molecules are alternated between the NDI molecules keeping the slip-stacked packing, as shown in Figure 3."
+    }
+   ],
+   "citazione": "Both CF3-NDI Form α and CF3-NDI·PXY crystallize as triclinic with space group P 1 with a half molecule in the asymmetric unit, and in the case of the solvate form, with a half molecule of CF3-NDI and a half molecule of paraxylene.",
+   "note": "Stechiometria 1:1 dalla mezza molecola di CF3-NDI e mezza di paraxilene nell'unita' asimmetrica e dalla perdita di massa attesa («a stoichiometry 1:1 (15.75%)»). P-1 ricostruito come per Form α. Cristalli a blocchi; il colore e' detto «dark yellow» nella descrizione dei cristalli."
+  },
+  {
+   "id": "F4",
+   "composto": "C2",
+   "etichetta": "C3F7-NDI Form α",
+   "etichette_alternative": [
+    "starting material phase Form α"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P 1",
+   "gruppo_spaziale_dedotto": true,
+   "sistema_cristallino": "triclino",
+   "cella": {
+    "a": 5.1039,
+    "b": 10.358,
+    "c": 12.395,
+    "alpha": 111.077,
+    "beta": 90.07,
+    "gamma": 96.67,
+    "V": 606.645,
+    "Z": 1,
+    "Z_primo": 0.5,
+    "condizioni": "100 K"
+   },
+   "refcode": "BUYJIP",
+   "motivi_hb": [
+    {
+     "motivo": "slip-stacked molecular packing",
+     "chi": "NDI cores (π-stacking)",
+     "citazione": "observed also in the structure of C3F7-NDI and C4F9-NDI Form α (Figure 2a) [4]"
+    }
+   ],
+   "citazione": "CCDC number 2373444 2373442 2373443 BUYJIP [4] BUYJEL [4] Temperature (K) 160.15 160.15 RT 100 100",
+   "note": "Struttura gia' nota (rif. [4]). P-1 ricostruito da Z/Z' = 1/0.5 come per Form α di CF3-NDI. Le fasi Beta e Gamma non hanno struttura."
+  },
+  {
+   "id": "F5",
+   "composto": "C2",
+   "etichetta": "C3F7-NDI Form β",
+   "etichette_alternative": [
+    "high-temperature polymorph"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "followed by recrystallization into Form β, which melts at 291 ◦C",
+   "note": "Fase di alta temperatura, «metastable at room temperature»; nessuna struttura riportata."
+  },
+  {
+   "id": "F6",
+   "composto": "C2",
+   "etichetta": "C3F7-NDI·ACN",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetonitrile (ACN)",
+    "stechiometria": null
+   },
+   "citazione": "C3F7-NDI·ACN and C4F9-NDI·ACN small crystals were obtained by precipitation using a gradient temperature",
+   "note": "Piccoli cristalli, stabili solo nell'acqua madre; qualita' insufficiente per SC-XRD, quindi nessuna struttura ne' stechiometria."
+  },
+  {
+   "id": "F7",
+   "composto": "C2",
+   "etichetta": "C3F7-NDI Form γ",
+   "tipo": "non_specificato",
+   "ospite": null,
+   "citazione": "These solvate forms quickly release the acetonitrile and are converted into very poorly crystalline forms, which are not ascribable to the starting material and are labeled C3F7-NDI Form γ and C4F9-NDI Form γ, respectively.",
+   "note": "«very poorly crystalline», non attribuibile alla fase di partenza; metastabile, torna a Form α col tempo. Nessuna caratterizzazione ulteriore."
+  },
+  {
+   "id": "F8",
+   "composto": "C3",
+   "etichetta": "C4F9-NDI Form α",
+   "etichette_alternative": [
+    "starting material phase Form α"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P 1",
+   "gruppo_spaziale_dedotto": true,
+   "sistema_cristallino": "triclino",
+   "cella": {
+    "a": 5.5055,
+    "b": 9.8095,
+    "c": 12.7073,
+    "alpha": 87.786,
+    "beta": 81.088,
+    "gamma": 87.289,
+    "V": 676.888,
+    "Z": 1,
+    "Z_primo": 0.5,
+    "condizioni": "100 K"
+   },
+   "refcode": "BUYJEL",
+   "motivi_hb": [
+    {
+     "motivo": "slip-stacked molecular packing",
+     "chi": "NDI cores (π-stacking)",
+     "citazione": "observed also in the structure of C3F7-NDI and C4F9-NDI Form α (Figure 2a) [4]"
+    }
+   ],
+   "citazione": "CCDC number 2373444 2373442 2373443 BUYJIP [4] BUYJEL [4] Temperature (K) 160.15 160.15 RT 100 100",
+   "note": "Struttura gia' nota (rif. [4]). P-1 ricostruito da Z/Z' = 1/0.5."
+  },
+  {
+   "id": "F9",
+   "composto": "C3",
+   "etichetta": "C4F9-NDI Form β",
+   "etichette_alternative": [
+    "high-temperature polymorph"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "less interdigitated packing, increased d-spacing (intense low-angle peak ascribed to the long axis)",
+     "chi": "C4F9-NDI molecules (fluoroalkyl chains)",
+     "citazione": "of a low angle peak ascribable to a long axis suggests that the C4F9-NDI molecules in Form β pack in a less interdigitated manner, resulting in an increased d-spacing."
+    }
+   ],
+   "citazione": "Upon cooling, C4F9-NDI recrystallizes into Form β; the second heating confirms the presence of C4F9-NDI Form β as only the melting at 283 ◦C is observed.",
+   "note": "Nessuna struttura riportata; il VT-XRPD mostra un picco intenso a basso angolo."
+  },
+  {
+   "id": "F10",
+   "composto": "C3",
+   "etichetta": "C4F9-NDI·ACN",
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "acetonitrile (ACN)",
+    "stechiometria": null
+   },
+   "citazione": "C4F9-NDI·ACN crystals, obtained by precipitation using a gradient temperature, are very unstable",
+   "note": "Molto instabile fuori dall'acqua madre; nessuna struttura ne' stechiometria."
+  },
+  {
+   "id": "F11",
+   "composto": "C3",
+   "etichetta": "C4F9-NDI Form γ",
+   "tipo": "non_specificato",
+   "ospite": null,
+   "citazione": "This last form is characterized by a low crystallinity with peaks not ascribable to Form α nor Form β (Figure 9).",
+   "note": "Bassa cristallinita'; torna a Form α (Fig. 9)."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F4",
+    "F5"
+   ],
+   "relazione": "enantiotropa",
+   "stabile_a_temperatura_ambiente": "F4",
+   "piu_stabile": "F4",
+   "condizioni": "a temperatura ambiente",
+   "citazione": "The polymorph screening on C3F7-NDI and C4F9-NDI revealed the presence of two new elusive crystal phases, and by thermal characterization we detected their enatiotropically related polymorphs, which are stable only at high temperature.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "La parola «enatiotropically» e' detta nell'introduzione per i polimorfi di alta temperatura di C3F7-NDI e C4F9-NDI («stable only at high temperature»). Form α e' «the more stable C3F7-NDI Form α at room temperature» (S18). Nessuna Ttr."
+  },
+  {
+   "forme": [
+    "F8",
+    "F9"
+   ],
+   "relazione": "enantiotropa",
+   "stabile_a_temperatura_ambiente": "F8",
+   "citazione": "The polymorph screening on C3F7-NDI and C4F9-NDI revealed the presence of two new elusive crystal phases, and by thermal characterization we detected their enatiotropically related polymorphs, which are stable only at high temperature.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "conflitto": "La didascalia di Fig. 8 (basso) parla di «non-reversible transition from C4F9-NDI Form α to C4F9-NDI Form β», mentre le conclusioni dicono che Form β e' «metastable at room temperature and convert back into Form α». Si riporta l'enantiotropia dichiarata dall'introduzione.",
+   "note": "Form α di C4F9-NDI e' la forma che le conclusioni danno stabile a temperatura ambiente (Beta «metastable at room temperature»). Nessuna Ttr."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 63,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 14.55,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "citazioni": [
+    "TGA-EGA analysis of CF3-NDI·PXY confirmed the presence and the nature of the solvent. The weight loss (−14.55%) is comparable with the one expected with a stoichiometry 1:1 (15.75%). The slightly lower experimental value is probably due to the instability of the solvate in ambient conditions.",
+    "The PXY molecules are readily released from the crystal lattice at approximately 63 ◦C or within a few hours under ambient conditions.",
+    "To characterize the solvate forms of the different materials, TGA-EGA was performed on Mettler-Toledo (Columbus, OH, USA) TGA coupled with a ThermoFisher (Waltham, MA, USA) Nicolet iS 10IR FT_IR spectrometer, with a scan rate of 10 ◦C/min and analyzed using STARe software.",
+    "With solvent evaporation in PXY, we obtained a solvate called CF3-NDI·PXY, which converts into CF3-NDI Form α in a couple of hours at room conditions."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "TGA-EGA del solvato (rapporto 1:1 atteso 15.75%, osservato 14.55%: «The slightly lower experimental value is probably due to the instability of the solvate in ambient conditions»). Il prodotto della TGA non e' caratterizzato: Form α e' il prodotto identificato dagli autori per la perdita del paraxilene (E2), quindi media. Il testo scrive «readily released ... at approximately 63 °C or within a few hours under ambient conditions»: la T non dice se e' un onset o un picco."
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "testo": "a couple of hours",
+     "tipo": "trasformazione"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "SCSC"
+    ]
+   },
+   "citazioni": [
+    "With solvent evaporation in PXY, we obtained a solvate called CF3-NDI·PXY, which converts into CF3-NDI Form α in a couple of hours at room conditions.",
+    "The PXY molecules are readily released from the crystal lattice at approximately 63 ◦C or within a few hours under ambient conditions.",
+    "The desolvation is easily identified since the crystal color changes from orange to light yellow (Figure 5, right), with a single-crystal-to-single-crystal conversion."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il solvato con p-xilene «converts into CF3-NDI Form α in a couple of hours at room conditions» e «within a few hours under ambient conditions»; il colore cambia da arancione a giallo chiaro, «with a single-crystal-to-single-crystal conversion». Il testo non dice come e' identificato Form α (il PXRD non e' nominato per questa prova). Aria: perdita del solvente all'ambiente senza RH detta.",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "solvent molecules (PXY) in donor–acceptor interactions with the NDI",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "It is noteworthy that in CF3-NDI·PXY, solvent molecules engage in donor–acceptor interactions, suggesting the potential for the formation of co-crystals."
+    }
+   ]
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": "day",
+     "valori": [
+      1,
+      3,
+      10
+     ],
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "isopropanol"
+     },
+     {
+      "nome": "chloroform"
+     },
+     {
+      "nome": "dichloromethane"
+     },
+     {
+      "nome": "ethanol"
+     },
+     {
+      "nome": "water"
+     },
+     {
+      "nome": "methanol"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "During the polymorph screening, slurry experiments of CF3-NDI were performed in isopropanol (2PR), chloroform (CHF), dichloromethane (DCM), ethanol (ETH), water (H2O), and methanol (MET), and the solid residue was measured by XRD after one day, three days and ten days.",
+    "In all cases, CF3-NDI Form α was obtained.",
+    "and for the remaining solvents slurry experiments at RT were performed."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "solventi_alternativi": true,
+   "frequenza": "sempre",
+   "note": "Sospensioni di CF3-NDI (il materiale di partenza e' Form α) in sei solventi, residuo solido misurato dopo uno, tre e dieci giorni: sempre Form α. Il testo dice «slurry experiments at RT» nei metodi per i solventi a bassa solubilita'; le abbreviazioni 2PR, CHF, DCM, ETH, H2O, MET sciolte come nel testo."
+  },
+  {
+   "id": "E4",
+   "da": "F4",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "solventi": [
+     {
+      "nome": "acetonitrile (ACN)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Analogous polymorph screening was performed for C3F7-NDI and C4F9-NDI; for both compounds, all the slurry and recrystallization by evaporation experiments led to the starting material phase Form α, with exception for the slurry experiment in ACN that produced the solvate forms C3F7-NDI·ACN and C4F9-NDI·ACN.",
+    "and for the remaining solvents slurry experiments at RT were performed."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "L'unica sospensione di C3F7-NDI che ha dato un'altra fase: in ACN, il solvato C3F7-NDI·ACN. Il testo non dice la durata ne' la T della sospensione (RT dai metodi per i solventi a bassa solubilita'); il materiale di partenza e' Form α.",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E5",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Analogous polymorph screening was performed for C3F7-NDI and C4F9-NDI; for both compounds, all the slurry and recrystallization by evaporation experiments led to the starting material phase Form α, with exception for the slurry experiment in ACN that produced the solvate forms C3F7-NDI·ACN and C4F9-NDI·ACN.",
+    "and for the remaining solvents slurry experiments at RT were performed."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "frequenza": "sempre",
+   "note": "«all the slurry ... experiments led to the starting material phase Form α, with exception for the slurry experiment in ACN»: le altre sospensioni (solventi non nominati nel testo, Tab. S1) lasciano Form α. Evento per i solventi diversi da ACN.",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E6",
+   "da": "F6",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "testo": "quickly",
+     "tipo": "trasformazione"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "These solvate forms quickly release the acetonitrile and are converted into very poorly crystalline forms, which are not ascribable to the starting material and are labeled C3F7-NDI Form γ and C4F9-NDI Form γ, respectively.",
+    "C3F7-NDI·ACN and C4F9-NDI·ACN small crystals were obtained by precipitation using a gradient temperature with a cooling rate of −0.125 ◦C/min; the crystals are stable as long as they remain in the mother liquor, but their quality was not good enough for SC-XRD."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "I solvati «quickly release the acetonitrile and are converted into very poorly crystalline forms»; sono «stable as long as they remain in the mother liquor», quindi la perdita avviene fuori dall'acqua madre. Il solvente esce all'ambiente: desolvatazione/aria (regola dell'aria), media. Nessuna T ne' umidita' detta.",
+   "campione": {
+    "tipo": "altro"
+   }
+  },
+  {
+   "id": "E7",
+   "da": "F6",
+   "a": "F7",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "acetonitrile (mother liquor)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "C3F7-NDI·ACN and C4F9-NDI·ACN small crystals were obtained by precipitation using a gradient temperature with a cooling rate of −0.125 ◦C/min; the crystals are stable as long as they remain in the mother liquor, but their quality was not good enough for SC-XRD."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "«the crystals are stable as long as they remain in the mother liquor»: il solvato non cambia nell'acqua madre. a e' la forma attesa (Form γ) dalla frase vicina sulla perdita del solvente. Frase detta per C3F7-NDI·ACN e C4F9-NDI·ACN insieme: un evento per forma.",
+   "campione": {
+    "tipo": "altro"
+   }
+  },
+  {
+   "id": "E8",
+   "da": "F7",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "testo": "over time",
+     "tipo": "trasformazione"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "These forms are metastable and convert into the starting structure (Form α) over time."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«These forms are metastable and convert into the starting structure (Form α) over time»: frase per C3F7-NDI Form γ e C4F9-NDI Form γ. Condizioni di conservazione non dette (ambiente per ipotesi, non scritto)."
+  },
+  {
+   "id": "E9",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 286,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 286,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC curve of C3F7-NDI Form α shows a double event just before melting, which corresponds to the melting of Form α at 286 ◦C followed by recrystallization into Form β, which melts at 291 ◦C (Figure 6). Upon cooling, the Form β is obtained, since the second heating shows only one endothermic event at 291 ◦C.",
+    "Figure 6. DSC analysis of C3F7-NDI, showing the presence of melting and crystallization followed by a complete melting, 2 ◦C/min).",
+    "At slightly higher temperature (302 ◦C) than the DSC, it is possible to observe the double event of the melting of the C3F7-NDI Form α and recrystallization into Form β, followed by the complete melting at 304 ◦C (see Figure 7).",
+    "The samples were prepared by weighing approximately 1–4 mg of the powder or crystals in aluminum pans (40 µL) and then sealed with an aluminum cover. Before the measurement, the pan cover was pierced, and the measurements were performed with a pinhole during two cycles of heating and cooling with a rate of 5 ◦C/min under a dry N2 atmosphere (flow rate 80 mL/min)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "passo": "melting of Form α",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "note": "Doppio evento appena prima della fusione: fusione di Form α a 286 °C seguita da ricristallizzazione in Form β (E10), che fonde a 291 °C (E11). Velocita' 2 °C/min dalla didascalia di Fig. 6 (i metodi dicono 5 °C/min, con prove a 2, 5, 10 e 20 °C/min). In HSM, «at slightly higher temperature (302 ◦C) than the DSC», si vede lo stesso doppio evento e la fusione completa a 304 °C."
+  },
+  {
+   "id": "E10",
+   "da": "fuso",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The DSC curve of C3F7-NDI Form α shows a double event just before melting, which corresponds to the melting of Form α at 286 ◦C followed by recrystallization into Form β, which melts at 291 ◦C (Figure 6). Upon cooling, the Form β is obtained, since the second heating shows only one endothermic event at 291 ◦C.",
+    "Figure 6. DSC analysis of C3F7-NDI, showing the presence of melting and crystallization followed by a complete melting, 2 ◦C/min).",
+    "At slightly higher temperature (302 ◦C) than the DSC, it is possible to observe the double event of the melting of the C3F7-NDI Form α and recrystallization into Form β, followed by the complete melting at 304 ◦C (see Figure 7)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "passo": "recrystallization into Form β after the melting of Form α",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "da_evento": "E9",
+   "note": "Ricristallizzazione del fuso di Form α in Form β nella stessa corsa. La T non e' scritta a parte (fra 286 e 291 °C nel DSC; 302 °C in HSM). Le batch recuperate dopo il DSC sono miscele di α e β o α pura (vedi E14)."
+  },
+  {
+   "id": "E11",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 291,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 291,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "The DSC curve of C3F7-NDI Form α shows a double event just before melting, which corresponds to the melting of Form α at 286 ◦C followed by recrystallization into Form β, which melts at 291 ◦C (Figure 6). Upon cooling, the Form β is obtained, since the second heating shows only one endothermic event at 291 ◦C.",
+    "Figure 6. DSC analysis of C3F7-NDI, showing the presence of melting and crystallization followed by a complete melting, 2 ◦C/min).",
+    "At slightly higher temperature (302 ◦C) than the DSC, it is possible to observe the double event of the melting of the C3F7-NDI Form α and recrystallization into Form β, followed by the complete melting at 304 ◦C (see Figure 7)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "passo": "melting of Form β",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "da_evento": "E10",
+   "note": "Form β fonde a 291 °C; la seconda corsa di riscaldamento mostra solo questo endotermo. In HSM la fusione completa e' a 304 °C."
+  },
+  {
+   "id": "E12",
+   "da": "fuso",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 284,
+     "unita": "°C",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In HSM, during the cooling process, the C3F7-NDI crystallizes at 284 ◦C as Form β, and at 251 ◦C a solid–solid transition is observed which is ascribable to the transition C3F7-NDI Form β →C3F7-NDI Form α.",
+    "The DSC curve of C3F7-NDI Form α shows a double event just before melting, which corresponds to the melting of Form α at 286 ◦C followed by recrystallization into Form β, which melts at 291 ◦C (Figure 6). Upon cooling, the Form β is obtained, since the second heating shows only one endothermic event at 291 ◦C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "In HSM, raffreddando, C3F7-NDI cristallizza a 284 °C come Form β; il DSC conferma che raffreddando si ottiene Form β (la seconda corsa mostra solo l'endotermo a 291 °C, senza T di cristallizzazione scritta).",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   }
+  },
+  {
+   "id": "E13",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 251,
+     "unita": "°C",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "In HSM, during the cooling process, the C3F7-NDI crystallizes at 284 ◦C as Form β, and at 251 ◦C a solid–solid transition is observed which is ascribable to the transition C3F7-NDI Form β →C3F7-NDI Form α."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Transizione solido-solido osservata in HSM raffreddando a 251 °C, attribuita a Form β -> Form α.",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   }
+  },
+  {
+   "id": "E14",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "To confirm the presence of different forms we characterized the material recovered after differential scanning calorimetry (DSC) analysis of several batches using X-ray powder diffraction (XRPD). The resulting crystal phases were inconsistent across batches, with some yielding pure C3F7-NDI Form α, while others presented a mixture of Form α and Form β. These findings suggest that C3F7-NDI initially crystallizes in the metastable Form β, which readily converts to the more stable C3F7-NDI Form α at room temperature.",
+    "Furthermore, the thermal characterization showed the presence of high-temperature polymorphs called, respectively, C3F7-NDI Form β and C4F9-NDI Form β, which are metastable at room temperature and convert back into Form α."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Dalle batch recuperate dopo il DSC: «with some yielding pure C3F7-NDI Form α, while others presented a mixture of Form α and Form β. These findings suggest that C3F7-NDI initially crystallizes in the metastable Form β, which readily converts to the more stable C3F7-NDI Form α at room temperature» (conclusioni: Form β «metastable at room temperature and convert back into Form α»). Dedotto dagli autori dai risultati sulle batch, non osservato direttamente."
+  },
+  {
+   "id": "E15",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "Figure S13. (a) Desolvation of C3F7-NDI·ACN and (b) C4F9-NDI·ACN.",
+    "The thermal behavior of the different crystals was studied by hot stage microscopy (HSM); the influence of the temperature was observed on single crystals of C3F7-NDI·ACN and C4F9-NDI·ACN, obtained by precipitation by gradient temperature in ACN with a cooling rate of −0.125 ◦C/min."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "solo_supplementare": true,
+   "note": "Solo la didascalia di Fig. S13 («Desolvation of C3F7-NDI·ACN») nel supplementare; nel testo la prova HSM con bolle a ~78 °C e' detta solo per C4F9-NDI·ACN. Nessuna condizione nel testo.",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   }
+  },
+  {
+   "id": "E16",
+   "da": "F10",
+   "a": "F11",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "aria",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "testo": "rapidly",
+     "tipo": "trasformazione"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "C4F9-NDI·ACN crystals, obtained by precipitation using a gradient temperature, are very unstable; for this reason, their XRPD pattern was collected in the presence of some mother liquor to avoid desolvation. Indeed, C4F9-NDI·ACN rapidly loses the solvent converting into C4F9-NDI Form γ.",
+    "These solvate forms quickly release the acetonitrile and are converted into very poorly crystalline forms, which are not ascribable to the starting material and are labeled C3F7-NDI Form γ and C4F9-NDI Form γ, respectively."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "«C4F9-NDI·ACN rapidly loses the solvent converting into C4F9-NDI Form γ»; il PXRD si misura «in the presence of some mother liquor to avoid desolvation». Fuori dall'acqua madre, all'ambiente: desolvatazione/aria.",
+   "campione": {
+    "tipo": "altro"
+   }
+  },
+  {
+   "id": "E17",
+   "da": "F10",
+   "a": "F11",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "acetonitrile (mother liquor)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "C3F7-NDI·ACN and C4F9-NDI·ACN small crystals were obtained by precipitation using a gradient temperature with a cooling rate of −0.125 ◦C/min; the crystals are stable as long as they remain in the mother liquor, but their quality was not good enough for SC-XRD.",
+    "C4F9-NDI·ACN crystals, obtained by precipitation using a gradient temperature, are very unstable; for this reason, their XRPD pattern was collected in the presence of some mother liquor to avoid desolvation. Indeed, C4F9-NDI·ACN rapidly loses the solvent converting into C4F9-NDI Form γ."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Il PXRD di C4F9-NDI·ACN e' misurato con un po' di acqua madre «to avoid desolvation»; «the crystals are stable as long as they remain in the mother liquor» (frase detta per entrambi i solvati).",
+   "campione": {
+    "tipo": "altro"
+   }
+  },
+  {
+   "id": "E18",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 78,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "citazioni": [
+    "The release of solvent from C4F9-NDI·ACN crystals submerged in fomblin was observed through HSM, clearly showing the formation of bubbles around 78 ◦C (Figure S13).",
+    "The thermal behavior of the different crystals was studied by hot stage microscopy (HSM); the influence of the temperature was observed on single crystals of C3F7-NDI·ACN and C4F9-NDI·ACN, obtained by precipitation by gradient temperature in ACN with a cooling rate of −0.125 ◦C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Cristalli di C4F9-NDI·ACN sommersi in fomblin: «formation of bubbles around 78 °C». Il prodotto della prova HSM non e' caratterizzato; la perdita del solvente da questi cristalli porta a Form γ in E16.",
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "mezzo": "fomblin"
+   }
+  },
+  {
+   "id": "E19",
+   "da": "F8",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "solventi": [
+     {
+      "nome": "acetonitrile (ACN)"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Analogous polymorph screening was performed for C3F7-NDI and C4F9-NDI; for both compounds, all the slurry and recrystallization by evaporation experiments led to the starting material phase Form α, with exception for the slurry experiment in ACN that produced the solvate forms C3F7-NDI·ACN and C4F9-NDI·ACN.",
+    "and for the remaining solvents slurry experiments at RT were performed."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Come E4: l'unica sospensione di C4F9-NDI che ha dato un'altra fase. Durata e T della sospensione non dette (RT dai metodi); materiale di partenza Form α.",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E20",
+   "da": "F8",
+   "a": "F10",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Analogous polymorph screening was performed for C3F7-NDI and C4F9-NDI; for both compounds, all the slurry and recrystallization by evaporation experiments led to the starting material phase Form α, with exception for the slurry experiment in ACN that produced the solvate forms C3F7-NDI·ACN and C4F9-NDI·ACN.",
+    "and for the remaining solvents slurry experiments at RT were performed."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "frequenza": "sempre",
+   "note": "Le sospensioni in solventi diversi da ACN (non nominati nel testo) lasciano la fase di partenza Form α. a e' ignota: il testo dice solo «led to the starting material phase Form α».",
+   "campione": {
+    "tipo": "polvere"
+   }
+  },
+  {
+   "id": "E21",
+   "da": "F11",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "testo": "over time",
+     "tipo": "trasformazione"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "These forms are metastable and convert into the starting structure (Form α) over time.",
+    "Figure 9. XRPD curve of C4F9-NDI Form γ transition from C4F9-NDI Form γ to C4F9-NDI Form α."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fig. 9: «XRPD curve of C4F9-NDI Form γ transition from C4F9-NDI Form γ to C4F9-NDI Form α». Condizioni di conservazione non dette."
+  },
+  {
+   "id": "E22",
+   "da": "F8",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 276,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 276,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "In the case of C4F9-NDI Form α, the DSC curve shows a solid–solid transition around 276 ◦C ascribed to the transition C4F9-NDI Form α →C4F9-NDI Form β, followed by the melting point at 283 ◦C (Figure S12).",
+    "The transition C4F9-NDI Form α →C4F9-NDI Form β was observed also with VT-XRPD, in which it occurs at slightly lower temperature, around 258 ◦C (Figure 8, bottom).",
+    "The samples were prepared by weighing approximately 1–4 mg of the powder or crystals in aluminum pans (40 µL) and then sealed with an aluminum cover. Before the measurement, the pan cover was pierced, and the measurements were performed with a pinhole during two cycles of heating and cooling with a rate of 5 ◦C/min under a dry N2 atmosphere (flow rate 80 mL/min).",
+    "The characterization of C4F9-NDI was executed in a temperature range from 20 ◦C to 275 ◦C in continuous heating with a 5 ◦C/min heating rate"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "passo": "solid-solid transition before melting",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "C4F9-NDI molecules (fluoroalkyl chains) packing, less interdigitated in Form β",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F9",
+     "citazione": "of a low angle peak ascribable to a long axis suggests that the C4F9-NDI molecules in Form β pack in a less interdigitated manner, resulting in an increased d-spacing."
+    }
+   ],
+   "note": "DSC: transizione solido-solido «around 276 ◦C» seguita dal punto di fusione a 283 °C (Fig. S12, supplementare). VT-XRPD (ALBA, capillari di vetro da 0.5 mm, 20-275 °C a 5 °C/min): la transizione avviene a una T un po' piu' bassa, «around 258 °C». Le due T sono della stessa trasformazione con rampa uguale: un evento, con la T del DSC e il VT-XRPD in nota (nessuna velocita' DSC specifica per C4F9-NDI: si usa quella generale dei metodi, 5 °C/min). Form β ha un picco intenso a basso angolo (asse lungo) e impacchettamento meno interdigitato."
+  },
+  {
+   "id": "E23",
+   "da": "F9",
+   "a": "F8",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {},
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Figure 8. VT-XRPD ofC3F7-NDI in heating and cooling (top), showing the same behavior for both since the thermal expansion of C3F7-NDI is reversible, and (bottom) C4F9-NDI, which shows the non-reversible transition from C4F9-NDI Form α to C4F9-NDI Form β."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "inverso_di": "E22",
+   "senza_condizioni": true,
+   "note": "Didascalia di Fig. 8 (basso): «the non-reversible transition from C4F9-NDI Form α to C4F9-NDI Form β». Il ritorno a Form α non si osserva. Il testo non descrive il raffreddamento di C4F9-NDI nel VT-XRPD (i metodi: 20-275 °C in riscaldamento continuo): il negativo viene dalla sola didascalia. Contrasta con le conclusioni («metastable at room temperature and convert back into Form α»)."
+  },
+  {
+   "id": "E24",
+   "da": "F9",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 283,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 283,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "In the case of C4F9-NDI Form α, the DSC curve shows a solid–solid transition around 276 ◦C ascribed to the transition C4F9-NDI Form α →C4F9-NDI Form β, followed by the melting point at 283 ◦C (Figure S12).",
+    "Upon cooling, C4F9-NDI recrystallizes into Form β; the second heating confirms the presence of C4F9-NDI Form β as only the melting at 283 ◦C is observed.",
+    "The samples were prepared by weighing approximately 1–4 mg of the powder or crystals in aluminum pans (40 µL) and then sealed with an aluminum cover. Before the measurement, the pan cover was pierced, and the measurements were performed with a pinhole during two cycles of heating and cooling with a rate of 5 ◦C/min under a dry N2 atmosphere (flow rate 80 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "passo": "melting of Form β",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "da_dedotto": true,
+   "da_evento": "E22",
+   "note": "Punto di fusione a 283 °C dopo la transizione α -> β; la seconda corsa mostra solo la fusione a 283 °C, quindi la fase che fonde e' Form β (la forma che fonde non e' scritta nel primo riscaldamento)."
+  },
+  {
+   "id": "E25",
+   "da": "fuso",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Upon cooling, C4F9-NDI recrystallizes into Form β; the second heating confirms the presence of C4F9-NDI Form β as only the melting at 283 ◦C is observed.",
+    "The samples were prepared by weighing approximately 1–4 mg of the powder or crystals in aluminum pans (40 µL) and then sealed with an aluminum cover. Before the measurement, the pan cover was pierced, and the measurements were performed with a pinhole during two cycles of heating and cooling with a rate of 5 ◦C/min under a dry N2 atmosphere (flow rate 80 mL/min)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "da_evento": "E24",
+   "note": "«Upon cooling, C4F9-NDI recrystallizes into Form β»: nessuna T di cristallizzazione scritta."
+  },
+  {
+   "id": "E26",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 323.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 323.5,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "DSC of CF3-NDI Form α was performed with two cycles of heating and cooling. No transitions were observed, except for the peaks related to the melting at 323.5 ◦C in the heating cycles and the peak of crystallization during the cooling (Figure S10). Similar behavior was observed for CF3-NDI·SS, which shows only the melting peak at 304.0 ◦C (Figure S11).",
+    "The samples were prepared by weighing approximately 1–4 mg of the powder or crystals in aluminum pans (40 µL) and then sealed with an aluminum cover. Before the measurement, the pan cover was pierced, and the measurements were performed with a pinhole during two cycles of heating and cooling with a rate of 5 ◦C/min under a dry N2 atmosphere (flow rate 80 mL/min)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "passo": "melting",
+   "note": "Due cicli di riscaldamento e raffreddamento; fusione a 323.5 °C nei cicli di riscaldamento (Fig. S10, supplementare)."
+  },
+  {
+   "id": "E27",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "DSC of CF3-NDI Form α was performed with two cycles of heating and cooling. No transitions were observed, except for the peaks related to the melting at 323.5 ◦C in the heating cycles and the peak of crystallization during the cooling (Figure S10). Similar behavior was observed for CF3-NDI·SS, which shows only the melting peak at 304.0 ◦C (Figure S11).",
+    "The samples were prepared by weighing approximately 1–4 mg of the powder or crystals in aluminum pans (40 µL) and then sealed with an aluminum cover. Before the measurement, the pan cover was pierced, and the measurements were performed with a pinhole during two cycles of heating and cooling with a rate of 5 ◦C/min under a dry N2 atmosphere (flow rate 80 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "note": "«No transitions were observed, except for the peaks related to the melting at 323.5 ◦C in the heating cycles and the peak of crystallization during the cooling»: nessuna transizione solido-solido di Form α prima della fusione. Il limite alto e' la fusione."
+  },
+  {
+   "id": "E28",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 304.0,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 304.0,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "citazioni": [
+    "DSC of CF3-NDI Form α was performed with two cycles of heating and cooling. No transitions were observed, except for the peaks related to the melting at 323.5 ◦C in the heating cycles and the peak of crystallization during the cooling (Figure S10). Similar behavior was observed for CF3-NDI·SS, which shows only the melting peak at 304.0 ◦C (Figure S11).",
+    "The samples were prepared by weighing approximately 1–4 mg of the powder or crystals in aluminum pans (40 µL) and then sealed with an aluminum cover. Before the measurement, the pan cover was pierced, and the measurements were performed with a pinhole during two cycles of heating and cooling with a rate of 5 ◦C/min under a dry N2 atmosphere (flow rate 80 mL/min)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "passo": "melting",
+   "note": "CF3-NDI·SS: solo il picco di fusione a 304.0 °C (Fig. S11, supplementare); «similar behavior» a Form α."
+  },
+  {
+   "id": "E29",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 5,
+     "unita": "°C/min"
+    },
+    "atmosfera": "dry N2 (80 mL/min)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "DSC of CF3-NDI Form α was performed with two cycles of heating and cooling. No transitions were observed, except for the peaks related to the melting at 323.5 ◦C in the heating cycles and the peak of crystallization during the cooling (Figure S10). Similar behavior was observed for CF3-NDI·SS, which shows only the melting peak at 304.0 ◦C (Figure S11).",
+    "The samples were prepared by weighing approximately 1–4 mg of the powder or crystals in aluminum pans (40 µL) and then sealed with an aluminum cover. Before the measurement, the pan cover was pierced, and the measurements were performed with a pinhole during two cycles of heating and cooling with a rate of 5 ◦C/min under a dry N2 atmosphere (flow rate 80 mL/min)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "forato",
+    "fori": 1,
+    "massa": "approximately 1–4 mg"
+   },
+   "note": "«Similar behavior was observed for CF3-NDI·SS, which shows only the melting peak at 304.0 °C»: nessuna transizione solido-solido prima della fusione."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F4",
+    "F8"
+   ],
+   "metodo": "commerciale",
+   "citazioni": [
+    "The CF3-NDI, C3F7-NDI, and C4F9-NDI were provided by BASF SE (Ludwigshafen am Rhein, Germany) and used without further purification.",
+    "In the case of CF3-NDI, recrystallization experiments by solvent evaporation yielded always to the CF3-NDI Form α (starting material), except in DMSO and paraxylene (PXY).",
+    "Analogous polymorph screening was performed for C3F7-NDI and C4F9-NDI; for both compounds, all the slurry and recrystallization by evaporation experiments led to the starting material phase Form α, with exception for the slurry experiment in ACN that produced the solvate forms C3F7-NDI·ACN and C4F9-NDI·ACN."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Materiale di partenza BASF SE, usato senza purificazione; le fasi di partenza sono le Form α."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetonitrile",
+    "acetone",
+    "DMF",
+    "ethyl acetate",
+    "THF",
+    "toluene"
+   ],
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Recrystallization by solvent evaporation at room temperature was carried out in the solvents where the solubility was higher than 5 mg/mL (for CF3-NDI, acetonitrile, acetone, DMF, DMSO, ethyl acetate, paraxylene, THF, toluene; for C3F7-NDI, acetone, dichloromethane, DMF, ethyl acetate, paraxylene, THF, toluene; for C4F9-NDI, acetone, DMF, ethyl acetate, paraxylene, THF, toluene), and for the remaining solvents slurry experiments at RT were performed.",
+    "In the case of CF3-NDI, recrystallization experiments by solvent evaporation yielded always to the CF3-NDI Form α (starting material), except in DMSO and paraxylene (PXY)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Solventi di evaporazione di CF3-NDI (metodi): acetonitrile, acetone, DMF, DMSO, acetato di etile, paraxilene, THF, toluene; sono tolti DMSO e paraxilene perche' il testo dice «yielded always to the CF3-NDI Form α (starting material), except in DMSO and paraxylene (PXY)»."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "acetonitrile (ACN)"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": "°C",
+    "min": 25,
+    "max": 75,
+    "tipo": "intervallo"
+   },
+   "velocita": {
+    "valore": 0.125,
+    "unita": "°C/min"
+   },
+   "citazioni": [
+    "Acetonitrile (ACN) solution of CF3-NDI with concentration of 12.5 mg/mL was cooled from 75 ◦C to 25 ◦C with a cooling rate of 0.125 ◦C/min; when the solvent was DMSO, the solution with a concentration of 33.3 mg/mL was cooled with the same rate from 100 ◦C to 25 ◦C. In the case of C3F7-NDI and C4F9NDI, slow cooling recrystallization was performed in ACN solution with a concentration of 3 mg/mL from 75 ◦C to 25 ◦C and a cooling rate of 0.125 ◦C/min.",
+    "Suitable crystals of CF3-NDI Form α and CF3-NDI·SS were obtained by thermal gradient of ACN and DMSO solutions, respectively, while CF3-NDI·PXY crystals were obtained by slow evaporation of the solvent.",
+    "A crystal of CF3-NDI Form α, obtained from acetonitrile by slow-cooling crystallization, was mounted following the description above, but in this case the radiation used was Cu Kα (λ = 1.54184 Å)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Soluzione 12.5 mg/mL in ACN, gradiente di temperatura (Crystal16). Cristalli per SCXRD di Form α."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "antisolvente",
+   "solventi": [
+    "ACN"
+   ],
+   "citazioni": [
+    "In addition, anti-solvent precipitation and precipitation by gradient temperature were performed in ACN. In all cases, CF3-NDI Form α was obtained."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Precipitazione con antisolvente in ACN (l'antisolvente non e' nominato) e per gradiente di temperatura in ACN: in tutti i casi Form α."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "paraxylene (PXY)"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "With solvent evaporation in PXY, we obtained a solvate called CF3-NDI·PXY, which converts into CF3-NDI Form α in a couple of hours at room conditions.",
+    "Data collection for single-crystal X-ray diffraction of CF3-NDI·PXY, obtained from slow evaporation at room temperature of a p-xylene solution, was performed with a Rigaku (Tokyo, Japan) Oxford Diffraction Xcalibur diffractometer with a Sapphire 3 detector using Mo Kα radiation (λ = 0.71073 Å) at room temperature.",
+    "Suitable crystals of CF3-NDI Form α and CF3-NDI·SS were obtained by thermal gradient of ACN and DMSO solutions, respectively, while CF3-NDI·PXY crystals were obtained by slow evaporation of the solvent."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Evaporazione lenta di una soluzione in p-xilene; il solvato si converte in Form α in poche ore all'ambiente."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "DMSO"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "When CF3-NDI is recrystallized in DMSO, both by solvent evaporation and by thermal gradient precipitation with a slow cooling profile, big orange block crystals were obtained and only after some effort were identified as a solid solution of CF3-NDI and a new molecule obtained by decomposition of CF3-NDI.",
+    "A crystal of CF3-NDI·SS, obtained from DMSO by slow evaporation at room temperature, was mounted on a cryo-loop and used for a low-temperature (160 K) X-ray structure determination."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Cristalli arancioni a blocco/prismatici da DMSO per evaporazione. CF3-NDI-OH nasce dalla decomposizione di CF3-NDI in soluzione («One of the chlorine atoms was substituted by the hydroxyl group, probably due to the presence of water in the DMSO»), non da un solido; sempre in soluzione solida con CF3-NDI."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "DMSO"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": "°C",
+    "min": 25,
+    "max": 100,
+    "tipo": "intervallo"
+   },
+   "velocita": {
+    "valore": 0.125,
+    "unita": "°C/min"
+   },
+   "citazioni": [
+    "Acetonitrile (ACN) solution of CF3-NDI with concentration of 12.5 mg/mL was cooled from 75 ◦C to 25 ◦C with a cooling rate of 0.125 ◦C/min; when the solvent was DMSO, the solution with a concentration of 33.3 mg/mL was cooled with the same rate from 100 ◦C to 25 ◦C. In the case of C3F7-NDI and C4F9NDI, slow cooling recrystallization was performed in ACN solution with a concentration of 3 mg/mL from 75 ◦C to 25 ◦C and a cooling rate of 0.125 ◦C/min.",
+    "When CF3-NDI is recrystallized in DMSO, both by solvent evaporation and by thermal gradient precipitation with a slow cooling profile, big orange block crystals were obtained and only after some effort were identified as a solid solution of CF3-NDI and a new molecule obtained by decomposition of CF3-NDI.",
+    "Suitable crystals of CF3-NDI Form α and CF3-NDI·SS were obtained by thermal gradient of ACN and DMSO solutions, respectively, while CF3-NDI·PXY crystals were obtained by slow evaporation of the solvent."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Soluzione 33.3 mg/mL in DMSO, gradiente di temperatura da 100 a 25 °C."
+  },
+  {
+   "forme": [],
+   "metodo": "semina",
+   "solventi": [
+    "CF3-NDI solution (solvente non detto)"
+   ],
+   "citazioni": [
+    "so we tried to seed a solution of CF3-NDI with a crystal of CF3-NDI·SS to obtain a new polymorph, without any success."
+   ],
+   "fonte_dati": "propria",
+   "esito": "non_ottenuta",
+   "componenti_cercati": [
+    "new polymorph of CF3-NDI"
+   ],
+   "note": "Semina di una soluzione di CF3-NDI con un cristallo di CF3-NDI·SS per ottenere un nuovo polimorfo: nessun successo. Il solvente della soluzione non e' detto."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone",
+    "dichloromethane",
+    "DMF",
+    "ethyl acetate",
+    "paraxylene",
+    "THF",
+    "toluene"
+   ],
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Recrystallization by solvent evaporation at room temperature was carried out in the solvents where the solubility was higher than 5 mg/mL (for CF3-NDI, acetonitrile, acetone, DMF, DMSO, ethyl acetate, paraxylene, THF, toluene; for C3F7-NDI, acetone, dichloromethane, DMF, ethyl acetate, paraxylene, THF, toluene; for C4F9-NDI, acetone, DMF, ethyl acetate, paraxylene, THF, toluene), and for the remaining solvents slurry experiments at RT were performed.",
+    "Analogous polymorph screening was performed for C3F7-NDI and C4F9-NDI; for both compounds, all the slurry and recrystallization by evaporation experiments led to the starting material phase Form α, with exception for the slurry experiment in ACN that produced the solvate forms C3F7-NDI·ACN and C4F9-NDI·ACN."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Tutte le ricristallizzazioni per evaporazione di C3F7-NDI hanno dato la fase di partenza Form α."
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone",
+    "DMF",
+    "ethyl acetate",
+    "paraxylene",
+    "THF",
+    "toluene"
+   ],
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "citazioni": [
+    "Recrystallization by solvent evaporation at room temperature was carried out in the solvents where the solubility was higher than 5 mg/mL (for CF3-NDI, acetonitrile, acetone, DMF, DMSO, ethyl acetate, paraxylene, THF, toluene; for C3F7-NDI, acetone, dichloromethane, DMF, ethyl acetate, paraxylene, THF, toluene; for C4F9-NDI, acetone, DMF, ethyl acetate, paraxylene, THF, toluene), and for the remaining solvents slurry experiments at RT were performed.",
+    "Analogous polymorph screening was performed for C3F7-NDI and C4F9-NDI; for both compounds, all the slurry and recrystallization by evaporation experiments led to the starting material phase Form α, with exception for the slurry experiment in ACN that produced the solvate forms C3F7-NDI·ACN and C4F9-NDI·ACN."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Tutte le ricristallizzazioni per evaporazione di C4F9-NDI hanno dato la fase di partenza Form α."
+  },
+  {
+   "forme": [
+    "F6",
+    "F10"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "ACN"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": "°C",
+    "min": 25,
+    "max": 75,
+    "tipo": "intervallo"
+   },
+   "velocita": {
+    "valore": 0.125,
+    "unita": "°C/min"
+   },
+   "citazioni": [
+    "Acetonitrile (ACN) solution of CF3-NDI with concentration of 12.5 mg/mL was cooled from 75 ◦C to 25 ◦C with a cooling rate of 0.125 ◦C/min; when the solvent was DMSO, the solution with a concentration of 33.3 mg/mL was cooled with the same rate from 100 ◦C to 25 ◦C. In the case of C3F7-NDI and C4F9NDI, slow cooling recrystallization was performed in ACN solution with a concentration of 3 mg/mL from 75 ◦C to 25 ◦C and a cooling rate of 0.125 ◦C/min.",
+    "C3F7-NDI·ACN and C4F9-NDI·ACN small crystals were obtained by precipitation using a gradient temperature with a cooling rate of −0.125 ◦C/min; the crystals are stable as long as they remain in the mother liquor, but their quality was not good enough for SC-XRD."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Soluzione 3 mg/mL in ACN; piccoli cristalli dei solvati (stabili solo nell'acqua madre). Il testo scrive la velocita' di raffreddamento anche come −0.125 °C/min."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E10"
+   ],
+   "citazioni": [
+    "followed by recrystallization into Form β, which melts at 291 ◦C"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Form β di C3F7-NDI si ottiene dal fuso di Form α nella corsa DSC (e raffreddando il fuso)."
+  },
+  {
+   "forme": [
+    "F7"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E6"
+   ],
+   "citazioni": [
+    "These solvate forms quickly release the acetonitrile and are converted into very poorly crystalline forms, which are not ascribable to the starting material and are labeled C3F7-NDI Form γ and C4F9-NDI Form γ, respectively."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E22"
+   ],
+   "citazioni": [
+    "In the case of C4F9-NDI Form α, the DSC curve shows a solid–solid transition around 276 ◦C ascribed to the transition C4F9-NDI Form α →C4F9-NDI Form β, followed by the melting point at 283 ◦C (Figure S12)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "F11"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E16"
+   ],
+   "citazioni": [
+    "C4F9-NDI·ACN crystals, obtained by precipitation using a gradient temperature, are very unstable; for this reason, their XRPD pattern was collected in the presence of some mother liquor to avoid desolvation. Indeed, C4F9-NDI·ACN rapidly loses the solvent converting into C4F9-NDI Form γ."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "forma": "F2",
+     "testo": "NDI core flat, with the lowest torsion angle of all the structures (in CF3-NDI·SS)",
+     "citazione": "Interestingly, the crystal structure of CF3-NDI·SS shows the shortest distance between π-planes (3.277 Å) (Figure 4) and a flat core with the lowest torsion angle of all the structures"
+    }
+   ]
+  },
+  {
+   "composto": "C4",
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "CF3-NDI-OH: one core chlorine of CF3-NDI substituted by a hydroxyl group (decomposition in DMSO)",
+     "citazione": "One of the chlorine atoms was substituted by the hydroxyl group, probably due to the presence of water in the DMSO."
+    }
+   ]
+  }
+ ]
+}
