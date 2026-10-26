@@ -1,0 +1,1490 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1038/s42004-025-01715-8",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Due benzimidammidi alogenate, A (cloro) e B (bromo): solvati con DMSO (AIIα, BII) e polimorfi senza solvente (AI, BI). (1) Transizione reversibile ordine-disordine del DMSO AIIα <-> AIIβ a ca 190-199 K (VT-SCXRD, DSC a bassa T), assente in BII. (2) Immersione in olio di silicone: AIIα -> AI e BII -> BI in 24 h. (3) Riscaldamento: desolvatazione e fusione. Nessun CCDC o refcode nel testo. Non estratti: energie di interazione e di reticolo (calcolate), analisi Xpac e BFDH, facce dei cristalli. Incoerenze del testo: (a) Tc ~199 K (abstract, DSC), ~190 K (parametri di cella) e ≤198 K (Metodi); (b) VT-SCXRD da 298 a 120 K con passi di 20 e 10 K (Risultati) contro 298-110 K a passi di 10 K (Metodi) contro 298-100 K (Fig. 5); (c) distorsione dell'angolo γ: −2.72% nell'elenco e −2.27% nella frase seguente; (d) TGA: 25% di DMSO a ca 180 °C (supplementare) contro 2.049% fra 50 e 105 °C (Fig. 8c); (e) ΔH del picco a e b di BII scambiati; (f) i tetrameri di AIIα sono N-H···O con il DMSO nei Risultati e «N-H…N tetramer motifs» nella sezione sull'impaccamento; (g) ordine DSC in raffreddamento: nessun picco, ma la VT-SCXRD vede la transizione.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "2-chloro-Nʹ-(2-chlorophenyl)benzimidamide (A)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "2-bromo-Nʹ-(2-bromophenyl)benzimidamide (B)",
+   "smiles": null,
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "AI",
+   "etichette_alternative": [
+    "polymorph AI",
+    "bulk form A"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "Z_primo": 1
+   },
+   "motivi_hb": [
+    {
+     "motivo": "N-H…N hydrogen bonds and π…π stacking",
+     "chi": "benzimidamide molecules of A",
+     "citazione": "SCXRD analysis reveals that AI crystallized in the centrosymmetric monoclinic space group P21/c, with one molecule in the asymmetric unit. Its structure is characterized by strong hydrogen bonding N-H…N and π… π stacking interactions (Fig. 10a)."
+    }
+   ],
+   "citazione": "SCXRD analysis reveals that AI crystallized in the centrosymmetric monoclinic space group P21/c, with one molecule in the asymmetric unit.",
+   "note": "Polimorfo senza solvente di A, da evaporazione lenta a 3 °C in dietiletere, acetone e metanolo e anche prodotto dai solvati per silicone oil o calore. Il testo lo dice «corresponding to bulk form A». Nessun CCDC o refcode nel testo."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "AIIα",
+   "etichette_alternative": [
+    "AII",
+    "solvatomorph AIIα",
+    "DMSO solvate of A"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethyl sulfoxide (DMSO)",
+    "stechiometria": 1,
+    "fonte_stechiometria": "cristallografica"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 7.3313,
+    "b": 15.4034,
+    "c": 15.2772,
+    "alpha": 90,
+    "beta": 96.77,
+    "gamma": 90,
+    "V": 1713.18,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "T = 298 K"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "N2-H2A…O1 hydrogen bond",
+     "chi": "A and DMSO (1:1 assembly)",
+     "citazione": "This assembly is stabilized by a strong N2-H2A…O1 hydrogen bond."
+    },
+    {
+     "motivo": "tetrameric motif (N2-H2B…O1, S1…C9(π), C14-H14C… C3(π))",
+     "chi": "A and DMSO",
+     "citazione": "The crystal structure displays the formation of a stronger tetrameric motif (Fig. 4a), stabilized by a network of intermolecular interactions, including N2-H2B…O1, S1…C9(π), and C14-H14C… C3(π) interactions."
+    },
+    {
+     "motivo": "C4-H4…Cl1, Cl1…Cl2 and C13-H13…O1 interactions between parallel 2-D sheets",
+     "chi": "sheets of tetramers",
+     "citazione": "Furthermore, the two-dimensional sheets formed are aligned in parallel, stabilized by additional C4-H4…Cl1, Cl1…Cl2, and C13-H13…O1 interactions along the ab-plane (Fig. 4c)."
+    }
+   ],
+   "citazione": "At 298 K, the AIIα crystallizes in the P21/n space group with two molecules in the asymmetric unit (Zʹ = 2).",
+   "note": "Solvato con DMSO 1:1 di A (isomorfo con BII), disordine posizionale del DMSO in due configurazioni (I e II) legate da una rotazione di 180°. Cella a 298 K dal testo. Il TGA da' 25% di DMSO contro 23% teorico (Supplementary Table 2). Nessun CCDC o refcode nel testo."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "AIIβ",
+   "etichette_alternative": [
+    "low-temperature AIIβ phase"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethyl sulfoxide (DMSO)",
+    "stechiometria": 1,
+    "fonte_stechiometria": "cristallografica"
+   },
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "cella": {
+    "a": 7.2454,
+    "b": 15.314,
+    "c": 14.884,
+    "alpha": 89.401,
+    "beta": 97.017,
+    "gamma": 87.556,
+    "V": 1637.5,
+    "Z_primo": 4,
+    "fonte": "SCXRD",
+    "condizioni": "T = 100 K"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "tetramers (N2-H4A…O2, N2-H4B…O2 hydrogen bonds)",
+     "chi": "A and DMSO",
+     "citazione": "Similar to AIIα, tetramers (Supplementary Fig. 13a) are formed through N2-H4A…O2, N2-H4B…O2 hydrogen bonds and additionally supported by S1…C9, S2…C22, and C23-H23…C2(π)/C3(π) interactions, enhancing structural stability."
+    },
+    {
+     "motivo": "C13-H13…O1, C29-H29B…N1, C30-H30B…N1 and C28-H28B…N3 interactions in the asymmetric unit",
+     "chi": "four molecules of A and DMSO",
+     "citazione": "C13-H13…O1, C29-H29B…N1, C30-H30B…N1 and C28-H28B…N3 interactions stabilized the asymmetric unit."
+    },
+    {
+     "motivo": "Cl1…Cl4 and Cl2…Cl3 halogen contacts between successive sheets",
+     "chi": "sheets of tetramers",
+     "citazione": "Successive sheets are interconnected by well-oriented C26-H26…O2 contacts, along with synergistic interactions, like Cl1…Cl4, and Cl2…Cl3 further reinforces the crystal packing along the ab-plane (Supplementary Fig. 13c)."
+    }
+   ],
+   "citazione": "At this low temperature (100 K), the AIIβ crystallizes in the P-1 space group, containing four molecules in the asymmetric unit.",
+   "note": "Fase ordinata a bassa temperatura, con domini di geminazione triclini (pseudo-meroedrica, rotazione di 180° attorno a b). Quattro molecole di A e DMSO in rapporto 2:2 nell'unita' asimmetrica. Cella a 100 K dal testo; variazioni rispetto ad AIIα: ΔV −4.59%. Nessun CCDC o refcode nel testo."
+  },
+  {
+   "id": "F4",
+   "composto": "C2",
+   "etichetta": "BI",
+   "etichette_alternative": [
+    "polymorph BI"
+   ],
+   "tipo": "anidro",
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2/c",
+   "cella": {
+    "Z_primo": 3
+   },
+   "motivi_hb": [
+    {
+     "motivo": "N-H…N chains",
+     "chi": "benzimidamide molecules of B",
+     "citazione": "The structure of BI features robust N-H…N interactions that facilitate the formation of molecular chains (Fig. 10b)."
+    }
+   ],
+   "citazione": "In contrast, BI crystallizes in the monoclinic space group C2/c, with three molecules in the asymmetric unit.",
+   "note": "Polimorfo senza solvente di B."
+  },
+  {
+   "id": "F5",
+   "composto": "C2",
+   "etichetta": "BII",
+   "etichette_alternative": [
+    "solvatomorph BII",
+    "DMSO solvate of B"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "dimethyl sulfoxide (DMSO)",
+    "stechiometria": null
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "Z_primo": 2
+   },
+   "motivi_hb": [
+    {
+     "motivo": "tetrameric motif (N2-H2A…O1, C10-H10…C2(π)/C3(π), S1…C9(π))",
+     "chi": "B and DMSO",
+     "citazione": "Strong intermolecular interactions, including N2-H2A…O1, C10-H10…C2(π)/C3(π), and S1…C9(π), lead to the formation of a tetrameric motif in both polymorphs due to their shared isomorphous characteristics."
+    },
+    {
+     "motivo": "N2-H2B…O1 hydrogen-bond network",
+     "chi": "the two molecules of B in the asymmetric unit and DMSO",
+     "citazione": "These molecules are connected through a robust hydrogen-bond network dominated by N2-H2B…O1 interactions."
+    },
+    {
+     "motivo": "C13-H13…O1, C4-H4…Br1 and Br1…Br2 interactions between 2D sheets",
+     "chi": "sheets of tetramers",
+     "citazione": "Furthermore, the 2D sheets formed in the structure are interconnected through C13-H13…O1, C4-H4…Br1, and Br1…Br2 interactions (Supplementary Fig. 17)."
+    }
+   ],
+   "citazione": "The form crystallizes in the P21/n space group with two molecules in the asymmetric unit (Supplementary Fig. 7).",
+   "note": "Solvato con DMSO di B, isomorfo con AIIα; il DMSO e' disordinato (rapporto di occupanza 0.683(3):0.317(3) a 298 K). La stechiometria del DMSO non e' scritta (il TGA da' 20% contro 18% teorico). Nessuna transizione fra 298 e 100 K."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "relazione": "enantiotropa",
+   "fonte_dati": "propria",
+   "certezza": "alta",
+   "temperatura_transizione": [
+    {
+     "grandezza": {
+      "valore": 199,
+      "circa": true,
+      "unita": "K"
+     },
+     "metodo": "VT-SCXRD e DSC a bassa temperatura",
+     "natura": "sperimentale",
+     "citazione": "The enantiotropic transition was characterized as an order-disorder phase transition in DMSO solvent, which resulted in conversion of AIIα to AIIβ, and was observed at Tc~199 K through variable-temperature SCXRD and low-temperature DSC."
+    },
+    {
+     "grandezza": {
+      "valore": 190,
+      "circa": true,
+      "unita": "K"
+     },
+     "metodo": "VT-SCXRD (parametri di cella)",
+     "natura": "sperimentale",
+     "citazione": "Notable shifts in the lattice parameters (a, b, c) and unit cell angles (α, β, γ) and volume in the vicinity of ~190 K clearly indicate a PT (Fig. 5a)."
+    }
+   ],
+   "citazione": "The enantiotropic transition was characterized as an order-disorder phase transition in DMSO solvent, which resulted in conversion of AIIα to AIIβ, and was observed at Tc~199 K through variable-temperature SCXRD and low-temperature DSC.",
+   "note": "Transizione ordine-disordine del DMSO; DSC in riscaldamento a 199.35/199.10/199.30 K (E2). Temperature molto vicine, l'isteresi fra raffreddamento e riscaldamento non e' discussa."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "condizioni": "calcolo dell'energia reticolare e analisi termica (DSC, TGA, HSM); solvato contro forma senza solvente",
+   "citazione": "Collectively, the results identify polymorph AI as the most thermodynamically stable form with higher lattice energy compared to polymorph AIIα (Supplementary Table 15).",
+   "note": "Il solvato con DMSO e la forma senza solvente non sono mono/enantiotropi: la stabilita' dipende dall'attivita' del solvente."
+  },
+  {
+   "forme": [
+    "F4",
+    "F5"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F4",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "condizioni": "analisi termica (DSC, TGA, HSM, PXRD) e calcolo dell'energia reticolare; solvato contro forma senza solvente",
+   "citazione": "The thermal analysis confirms that polymorph BI represents the thermodynamically stable form of compound B.",
+   "note": "Come per A: BII e' un solvato con DMSO."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 190,
+     "circa": true,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "K per minute"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Variable-temperature data collection reveals an order-disorder phase transition between AIIα and AIIβ (Supplementary Fig. 6).",
+    "Upon cooling to 100 K, the same crystal undergoes a significant structural transformation, characterized by marked destruction of the monoclinic symmetry and appearance of triclinic twin domains in the diffraction pattern (Fig. 2b) (Supplementary Fig. 12).",
+    "To examine the PT behavior at various temperatures, ϕ-scan data was collected over a temperature range from 298 K to 120 K. Initially, a 20 K decrement was applied during the transition from 298 to 220 K, followed by 10 K intervals between 220 and 120 K.",
+    "Notable shifts in the lattice parameters (a, b, c) and unit cell angles (α, β, γ) and volume in the vicinity of ~190 K clearly indicate a PT (Fig. 5a).",
+    "AIIα undergoes non-merohedral twinning during an enantiotropic SCSC phase transition to AIIβ at temperatures equal to or below 198 K.",
+    "The enantiotropic transition was characterized as an order-disorder phase transition in DMSO solvent, which resulted in conversion of AIIα to AIIβ, and was observed at Tc~199 K through variable-temperature SCXRD and low-temperature DSC.",
+    "Phi-scans were recorded between 298 K to 110 K in 10 K intervals, with cooling and heating controlled at 1 K per minute via an Oxford Cryo-stream.",
+    "Notably, a martensitic phase transition occurs between AIIα ↔ AIIβ, driven by complete rotational disorder of the DMSO molecules.",
+    "This structural adaptability creates sufficient space for the DMSO solvent to adopt an ordered conformation in the crystal structure below the phase transition temperature.",
+    "The driving force for the order-disorder PT is due to the increase in configurational entropy, whose magnitude is Rln2 = 5.76 J mol−1 K−133,44–46."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "ordine_disordine",
+     "martensitica"
+    ],
+    "geminazione": true
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMSO solvent molecules (two configurations related by a 180° rotation)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "citazione": "Variable-temperature SCXRD reveals a gradual shift in the occupancy ratio (Fig. 3c) of the DMSO configurations from 0.818(2):0.182(2) at 298 K to 0.954(2):0.046(2) at 200 K."
+    },
+    {
+     "gruppo": "DMSO solvent molecules (fully ordered in AIIβ)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "However, following the PT, the DMSO becomes fully ordered in the AIIβ phase (Fig. 3b)."
+    },
+    {
+     "gruppo": "halogen-substituted benzimidamide interactions",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Since the solvent molecule ordering drives the phase transition, halogen-substituted benzimidamide interactions remain largely unchanged."
+    },
+    {
+     "gruppo": "N–H···O hydrogen-bonded tetramers (A with DMSO)",
+     "ruolo": "sintone",
+     "con": "ospite",
+     "cambia": "resta",
+     "forma": "F3",
+     "citazione": "Similar to AIIα, tetramers (Supplementary Fig. 13a) are formed through N2-H4A…O2, N2-H4B…O2 hydrogen bonds and additionally supported by S1…C9, S2…C22, and C23-H23…C2(π)/C3(π) interactions, enhancing structural stability."
+    },
+    {
+     "gruppo": "Cl···Cl interactions",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "At 298 K, these weak intermolecular Cl…Cl interactions span a distance of 3.627 Å, which exceeds the sum of the vdW radii (Fig. 6a). As the temperature decreases to 200 K, the distance contracts to 3.551 Å (Fig. 6b), and after the phase transition at 100 K, it further shortens to 3.437 Å (Fig. 6c)."
+    },
+    {
+     "gruppo": "molecule A (conformation)",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "citazione": "The results indicate that all the molecules remained invariant throughout the process of the PT of AIIα ↔ AIIβ."
+    }
+   ],
+   "conflitto": "Temperatura di transizione: «in the vicinity of ~190 K» (parametri di cella, Fig. 5a, Risultati), «equal to or below 198 K» (Metodi), «Tc~199 K» (abstract, introduzione; e' la T del DSC in riscaldamento). Per il raffreddamento con la SCXRD si tiene ~190 K (Risultati, il passo in cui il cristallo e' gemellato); le altre sono nei campi di citazione.",
+   "note": "Transizione ordine-disordine del solo DMSO (SCSC, geminazione pseudo-meroedrica) da AIIα monoclina P21/n a AIIβ triclina P-1 (4 molecole nell'unita' asimmetrica): a 220 K un solo dominio, a 160 K domini gemellati. Passi di 20 K da 298 a 220 K e di 10 K da 220 a 120 K (Risultati); i Metodi dicono 298-110 K a passi di 10 K con 1 K al minuto. L'occupanza del DMSO va da 0.818:0.182 a 298 K a 0.954:0.046 a 200 K (ordinamento graduale, che spiega l'assenza di picco DSC). Variazioni di cella: ΔV −4.59%; la distanza Cl···Cl scende da 3.627 Å (298 K) a 3.551 Å (200 K) a 3.437 Å (100 K) e lascia spazio al DMSO ordinato. Forza motrice: entropia configurazionale, Rln2 = 5.76 J mol−1 K−1. DSC in raffreddamento da 298 a 120 K a 1 K min−1: nessun evento termico rilevato («could not be detected under these conditions»), quindi nessun evento DSC negativo."
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valori": [
+      199.35,
+      199.1,
+      199.3
+     ],
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 1,
+     "unita": "K/min"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Upon heating from the cooled state, a pronounced endothermic phase transition was detected at Tcycle 1 = 199.35 K. This transition corresponds to the conversion of AIIβ back to AIIα phase, accompanied by an enthalpy change of 1.213 J g−1 (Fig. 2c).",
+    "The continuation of the DSC experiments for the second and third cycles yielded highly consistent results. The transition temperature remained close to the initial value at Tcycle 2 = 199.10 K and Tcycle 3 = 199.30 K in the second and third cycles, while the associated enthalpy changes were 2.367 J g−1 and 1.161 J g−1, respectively (Fig. 2c).",
+    "During the first cooling-heating cycle, crystals of the AIIα phase were cooled from room temperature (298 K) to 120 K at a slow rate of 1 K min−1.",
+    "Variable-temperature SCXRD measurements confirmed that the phase transition is fully reversible, with the formation of the parent phase AIIα after heating.",
+    "On the other hand, during heating, the crystal transforms from a completely ordered AIIβ to a disordered AIIα structure, showing the sharp co-operative nature of the transition marked by the endotherm during consecutive cycles.",
+    "Low-temperature DSC was carried out on a NETZSCH 3500 Sirius, scanning from 30 °C to −170 °C with liquid nitrogen cooling and a nitrogen purge of 20 mlmin-1. A 19 mg sample was cycled at 1 Kmin-1 with a 2-min isothermal hold at 170 °C and 30 °C.",
+    "The enantiotropic transition was characterized as an order-disorder phase transition in DMSO solvent, which resulted in conversion of AIIα to AIIβ, and was observed at Tc~199 K through variable-temperature SCXRD and low-temperature DSC."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "cooperativa",
+     "ordine_disordine",
+     "martensitica"
+    ],
+    "entalpia": {
+     "valore": 1.213,
+     "unita": "J/g",
+     "tipo": "transizione"
+    },
+    "entalpie": [
+     {
+      "tipo": "transizione",
+      "grandezza": {
+       "valore": 1.213,
+       "unita": "J/g"
+      },
+      "nota": "ciclo 1, Tcycle 1 = 199.35 K"
+     },
+     {
+      "tipo": "transizione",
+      "grandezza": {
+       "valore": 2.367,
+       "unita": "J/g"
+      },
+      "nota": "ciclo 2, Tcycle 2 = 199.10 K"
+     },
+     {
+      "tipo": "transizione",
+      "grandezza": {
+       "valore": 1.161,
+       "unita": "J/g"
+      },
+      "nota": "ciclo 3, Tcycle 3 = 199.30 K"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "altro",
+    "massa": "19 mg"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMSO solvent molecules (ordered AIIβ to disordered AIIα)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": null,
+     "citazione": "On the other hand, during heating, the crystal transforms from a completely ordered AIIβ to a disordered AIIα structure, showing the sharp co-operative nature of the transition marked by the endotherm during consecutive cycles."
+    },
+    {
+     "gruppo": "halogen-substituted benzimidamide interactions",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Since the solvent molecule ordering drives the phase transition, halogen-substituted benzimidamide interactions remain largely unchanged."
+    }
+   ],
+   "note": "Riscaldamento dopo raffreddamento a 120 K: endotermia a 199.35, 199.10 e 199.30 K nei tre cicli (la temperatura specifica, onset o picco, non e' detta; ΔH 1.213, 2.367, 1.161 J g−1). Il testo dice che la SCXRD a temperatura variabile conferma la reversibilita' completa con AIIα dopo il riscaldamento (Fig. 3c: occupanza da 298 a 100 K e ritorno a 298 K); senza una T propria, e' lo stesso evento. Il campione di DSC e' «crystals of the AIIα phase» (19 mg). L'entalpia del ciclo 2 e' piu' del doppio degli altri."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "trasformazione"
+    },
+    "solventi": [
+     {
+      "nome": "silicone oil (SO)"
+     }
+    ]
+   },
+   "citazioni": [
+    "When block crystals were submerged in SO, the growth of needle-like crystals began within 20 min, and this transformation continued until complete conversion into the second form occurred after 24 h. SCXRD analysis of the newly formed needle-shaped crystals confirmed the generation of AI and BI polymorphs (Fig. 7).",
+    "To explore polymorphic interconversion at room temperature, temporal microscopic imaging and thermal characterization were employed to assess the stability profile of the crystals.",
+    "However, immersing crystals of AIIα and BII in silicone oil triggered conversion to AI and BI crystals, completing the transition within 24 h, as confirmed by SCXRD studies.",
+    "A distinct phase transition is observed when single crystals of AIIα and BII are immersed in SO, transforming into AI and BI, respectively. This transformation follows a nucleation and growth mechanism, where the daughter phase (AI and BI) originates from the parent crystals (AIIα and BII).",
+    "An intriguing SCSC phase transition was observed in the presence of silicone oil (SO).",
+    "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI.",
+    "Needle-like crystals began to emerge from the block crystals of AIIα and BII, indicating a rapid transformation (Fig. 7).",
+    "The interaction with SO begins at the crystal surface, wherein the progression of the AI/BI phase boundary on the surface of crystals of AIIα/BII is clearly visible in optical images (Fig. 7)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "microscopia"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "nucleazione_crescita"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMSO solvent molecules (elimination)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "citazione": "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI."
+    },
+    {
+     "gruppo": "oxygen atom of DMSO and hydrophobic chlorophenyl/bromophenyl moiety (interacting with the silicon atoms of silicone oil)",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "It may be postulated that this transformation is driven by possible supramolecular interactions, involving the oxygen atom in DMSO and the hydrophobic chlorophenyl/bromophenyl moiety in compound A/B with the silicon atoms in silicone oil (Fig. 12a, b), which may facilitate the elimination of DMSO solvent and the conversion of the resulting solid into more stable forms, namely AI and BI, respectively."
+    },
+    {
+     "gruppo": "N–H···N hydrogen bonds and π···π stacking (solvent-free AI)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F1",
+     "citazione": "SCXRD analysis reveals that AI crystallized in the centrosymmetric monoclinic space group P21/c, with one molecule in the asymmetric unit. Its structure is characterized by strong hydrogen bonding N-H…N and π… π stacking interactions (Fig. 10a)."
+    }
+   ],
+   "note": "Cristalli a blocco immersi in olio di silicone: dopo 20 min iniziano a crescere cristalli aghiformi e dopo 24 h la conversione e' completa (Fig. 7); l'interazione parte dalla superficie e il fronte AI/BI avanza sul cristallo madre. Il testo dice «SCSC» nel titolo della sezione e nel testo, e «nucleation and growth» nelle Conclusioni. Il fenomeno compare gia' al montaggio dei cristalli per la SCXRD (l'olio e' usato come olio crioprotettivo) e anche con una goccia di olio in laboratorio. Via scelta solvente/sospensione (immersione in un liquido); la perdita di DMSO e' dichiarata («solvent loss (DMSO)») ma l'olio non e' ne' vuoto ne' aria. Il testo propone (con «may») interazioni fra l'ossigeno del DMSO e il gruppo fenile idrofobo con il silicio dell'olio. Stesso fenomeno per la serie bromurata (E4)."
+  },
+  {
+   "id": "E4",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "trasformazione"
+    },
+    "solventi": [
+     {
+      "nome": "silicone oil (SO)"
+     }
+    ]
+   },
+   "citazioni": [
+    "When block crystals were submerged in SO, the growth of needle-like crystals began within 20 min, and this transformation continued until complete conversion into the second form occurred after 24 h. SCXRD analysis of the newly formed needle-shaped crystals confirmed the generation of AI and BI polymorphs (Fig. 7).",
+    "To explore polymorphic interconversion at room temperature, temporal microscopic imaging and thermal characterization were employed to assess the stability profile of the crystals.",
+    "However, immersing crystals of AIIα and BII in silicone oil triggered conversion to AI and BI crystals, completing the transition within 24 h, as confirmed by SCXRD studies.",
+    "A distinct phase transition is observed when single crystals of AIIα and BII are immersed in SO, transforming into AI and BI, respectively. This transformation follows a nucleation and growth mechanism, where the daughter phase (AI and BI) originates from the parent crystals (AIIα and BII).",
+    "An intriguing SCSC phase transition was observed in the presence of silicone oil (SO).",
+    "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI.",
+    "Needle-like crystals began to emerge from the block crystals of AIIα and BII, indicating a rapid transformation (Fig. 7).",
+    "The interaction with SO begins at the crystal surface, wherein the progression of the AI/BI phase boundary on the surface of crystals of AIIα/BII is clearly visible in optical images (Fig. 7)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "microscopia"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "nucleazione_crescita"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMSO solvent molecules (elimination)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "citazione": "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI."
+    },
+    {
+     "gruppo": "oxygen atom of DMSO and hydrophobic chlorophenyl/bromophenyl moiety (interacting with the silicon atoms of silicone oil)",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "It may be postulated that this transformation is driven by possible supramolecular interactions, involving the oxygen atom in DMSO and the hydrophobic chlorophenyl/bromophenyl moiety in compound A/B with the silicon atoms in silicone oil (Fig. 12a, b), which may facilitate the elimination of DMSO solvent and the conversion of the resulting solid into more stable forms, namely AI and BI, respectively."
+    },
+    {
+     "gruppo": "N–H···N hydrogen bonds (solvent-free BI)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F4",
+     "citazione": "The structure of BI features robust N-H…N interactions that facilitate the formation of molecular chains (Fig. 10b)."
+    }
+   ],
+   "note": "Cristalli a blocco immersi in olio di silicone: dopo 20 min iniziano a crescere cristalli aghiformi e dopo 24 h la conversione e' completa (Fig. 7); l'interazione parte dalla superficie e il fronte AI/BI avanza sul cristallo madre. Il testo dice «SCSC» nel titolo della sezione e nel testo, e «nucleation and growth» nelle Conclusioni. Il fenomeno compare gia' al montaggio dei cristalli per la SCXRD (l'olio e' usato come olio crioprotettivo) e anche con una goccia di olio in laboratorio. Via scelta solvente/sospensione (immersione in un liquido); la perdita di DMSO e' dichiarata («solvent loss (DMSO)») ma l'olio non e' ne' vuoto ne' aria. Il testo propone (con «may») interazioni fra l'ossigeno del DMSO e il gruppo fenile idrofobo con il silicio dell'olio. Isomorfo di E3: «Due to their isomorphous nature, the rate of phase transition remains nearly uniform»."
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "room temperature"
+    },
+    "solventi": [
+     {
+      "nome": "other hydrophobic polymers"
+     }
+    ]
+   },
+   "citazioni": [
+    "A comparable anomalous transformation was also observed in the laboratory, where the addition of a small drop of SO induced the conversion of the crystals into another form. However, attempts to replicate these findings using other hydrophobic polymers were unsuccessful, highlighting the unique role of SO in this phenomenon."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo: i tentativi di riprodurre la conversione con altri polimeri idrofobi (non nominati) non riescono; il testo parla dei «crystals» in generale (AIIα e BII) e della conversione in «another form». Condizioni non dette."
+  },
+  {
+   "id": "E6",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "room temperature"
+    },
+    "solventi": [
+     {
+      "nome": "other hydrophobic polymers"
+     }
+    ]
+   },
+   "citazioni": [
+    "A comparable anomalous transformation was also observed in the laboratory, where the addition of a small drop of SO induced the conversion of the crystals into another form. However, attempts to replicate these findings using other hydrophobic polymers were unsuccessful, highlighting the unique role of SO in this phenomenon."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo: come E5 per BII; la frase vale per i «crystals» di AIIα e BII senza distinguere. Condizioni non dette."
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "room temperature"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Preliminary comparative findings revealed that the crystal structure of AIIα and BII remains stable at room temperature due to their favorable supramolecular motifs."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo di riferimento: senza olio di silicone, la struttura resta stabile a temperatura ambiente («due to their favorable supramolecular motifs»). Durata non detta."
+  },
+  {
+   "id": "E8",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "room temperature"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Preliminary comparative findings revealed that the crystal structure of AIIα and BII remains stable at room temperature due to their favorable supramolecular motifs."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo di riferimento: come E7 per BII. Durata non detta."
+  },
+  {
+   "id": "E9",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "min": 100,
+     "max": 298,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Variable-temperature data collection indicates that no phase transition was observed during the temperature variation from 298 to 100 K.",
+    "In contrast, the BII crystal exhibited a steady, linear change in the unit cell parameters across the same temperature range (Supplementary Table 8), indicating the absence of any PT (Fig. 5b).",
+    "In contrast, the BII crystalline phase features shorter Br…Br interactions. At 298 K, the Br…Br distance is 3.706 Å (Fig. 6a), which is nearly equal to twice the vdW radii. This distance decreases to 3.649 Å (Fig. 6b) at 200 K and further reduces to 3.601 Å (Fig. 6c) near 100 K.",
+    "The continued presence of DMSO disorder at lower temperature (down to 100 K) in BII is attributed to the absence of sufficient free volume, which prevents complete reordering of the solvent molecules."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "Br···Br interactions",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F5",
+     "citazione": "In contrast, the BII crystalline phase features shorter Br…Br interactions. At 298 K, the Br…Br distance is 3.706 Å (Fig. 6a), which is nearly equal to twice the vdW radii. This distance decreases to 3.649 Å (Fig. 6b) at 200 K and further reduces to 3.601 Å (Fig. 6c) near 100 K."
+    },
+    {
+     "gruppo": "DMSO solvent molecules (disorder persists)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "resta",
+     "forma": "F5",
+     "citazione": "The continued presence of DMSO disorder at lower temperature (down to 100 K) in BII is attributed to the absence of sufficient free volume, which prevents complete reordering of the solvent molecules."
+    }
+   ],
+   "note": "Negativo: BII isomorfo con AIIα, raffreddato nello stesso intervallo, non mostra transizione (cambio lineare dei parametri di cella, Fig. 5b); il disordine del DMSO resta fino a 100 K per mancanza di volume libero, perche' i contatti Br···Br sono piu' corti (3.706 Å a 298 K, 3.649 Å a 200 K, 3.601 Å a 100 K). Prova fatta in parallelo con AIIα, di cui cambia solo AIIα. Forma attesa non nominata: a = ignota."
+  },
+  {
+   "id": "E10",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valori": [
+      1,
+      5
+     ],
+     "unita": "°C/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "onset": 50,
+     "unita": "°C",
+     "circa": true
+    }
+   },
+   "citazioni": [
+    "Images captured during heating show the pristine AIIα crystals (image 1 in Fig. 8d) begin to undergo desolvation of DMSO solvent after 50 °C (image 2 in Fig. 8d).",
+    "As the temperature rises, desolvation increases slowly, leading to the emergence of an unidentified phase, following minor solvent loss (image 3–6 in Fig. 8d).",
+    "TGA analysis supports this interpretation, indicating a 2.049% weight loss, corresponding to the loss of DMSO solvent, between a temperature range of 50 °C to 105 °C (Fig. 8c).",
+    "The DSC trace begins with a broad endothermic peak starting around 50 °C, followed by a minor endothermic peak at 88 °C (ΔH = 0.83 J g−1), highlighted by a green circle, and then a major melting peak at 96 °C (ΔH = 74.03 J g−1) (Fig. 8a).",
+    "DSC was performed on a Perkin-Elmer DSC 6000 from 25 °C to 200 °C under nitrogen, using bulk powder and polymorphs of A and B at a scan rate of 1 and 5 °C min−1. Samples were sealed in covered aluminum pans, and heat flow was recorded as a function of temperature.",
+    "Heating was applied from 20 to 200 °C at a constant rate of 1 °C min−1.",
+    "In contrast, AIIα displays a more complex and multiphase thermal response due to residual DMSO, which initiates desolvation upon heating and facilitates the transformation into an intermediate phase that ultimately resembles AI."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "DSC",
+     "TGA"
+    ],
+    "perdita_massa": {
+     "valore": 2.049,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "passo": "desolvation of DMSO and emergence of an unidentified phase",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMSO solvent molecules (loss)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "citazione": "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI."
+    }
+   ],
+   "note": "Sopra circa 50 °C AIIα comincia a perdere DMSO (HSM, picco largo DSC da 50 °C, TGA −2.049% fra 50 e 105 °C); compare una fase non identificata che poi fonde (E11). Un picco minore a 88 °C (ΔH = 0.83 J g−1) non e' assegnato. HSM a 1 °C min−1 (20-200 °C), DSC a 1 e 5 °C min−1 senza dire quale per quale figura. Il TGA delle Informazioni supplementari da' invece il 25% di DMSO a ca 180 °C: valori non conciliabili."
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valori": [
+      1,
+      5
+     ],
+     "unita": "°C/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "picco": 96,
+     "unita": "°C"
+    }
+   },
+   "citazioni": [
+    "The DSC trace begins with a broad endothermic peak starting around 50 °C, followed by a minor endothermic peak at 88 °C (ΔH = 0.83 J g−1), highlighted by a green circle, and then a major melting peak at 96 °C (ΔH = 74.03 J g−1) (Fig. 8a).",
+    "This unknown phase melts at 96 °C, which is coincident with the major peak in the DSC endotherm (image 7–9 in Fig. 8d). Upon cooling, solidification occurs at ~40 °C (image 11–13 in Fig. 8d).",
+    "DSC was performed on a Perkin-Elmer DSC 6000 from 25 °C to 200 °C under nitrogen, using bulk powder and polymorphs of A and B at a scan rate of 1 and 5 °C min−1. Samples were sealed in covered aluminum pans, and heat flow was recorded as a function of temperature.",
+    "Heating was applied from 20 to 200 °C at a constant rate of 1 °C min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "passo": "melting of the unidentified desolvated phase",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ],
+    "desolvatazione_possibile": true,
+    "entalpia": {
+     "valore": 74.03,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 96,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "sigillato"
+   },
+   "note": "Il picco principale DSC a 96 °C e la fusione vista in HSM della «unknown phase» coincidono (un solo evento). Il solvato AIIα prima perde DMSO (E10): la fusione e' della fase ottenuta."
+  },
+  {
+   "id": "E12",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 362,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The variable-temperature SCXRD data were sufficient to confirm that the AIIα crystal exhibited multiple domains at an elevated temperature of 362 K. Upon thermal treatment, these domains transitioned into a second polymorphic form, corresponding to AI (Supplementary Fig. 26).",
+    "In contrast, AIIα displays a more complex and multiphase thermal response due to residual DMSO, which initiates desolvation upon heating and facilitates the transformation into an intermediate phase that ultimately resembles AI.",
+    "Overall, the combined thermal analysis (DSC, TGA, HSM, and SCXRD) reveals that polymorphs AI and AIIα possess distinct thermal behaviors.",
+    "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMSO solvent molecules (loss)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "citazione": "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI."
+    },
+    {
+     "gruppo": "N–H···N hydrogen bonds and π···π stacking (solvent-free AI)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F1",
+     "citazione": "SCXRD analysis reveals that AI crystallized in the centrosymmetric monoclinic space group P21/c, with one molecule in the asymmetric unit. Its structure is characterized by strong hydrogen bonding N-H…N and π… π stacking interactions (Fig. 10a)."
+    }
+   ],
+   "note": "VT-SCXRD: a 362 K il cristallo di AIIα mostra domini multipli e dopo «thermal treatment» (non descritto) i domini passano ad AI. 362 K e' la T a cui si vedono i domini, non quella del passaggio ad AI. Il riscaldamento di AIIα porta ad AI anche in HSM/DSC (fase intermedia che «ultimately resembles AI»)."
+  },
+  {
+   "id": "E13",
+   "da": "fuso",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "velocita": {
+     "valori": [
+      1,
+      5
+     ],
+     "unita": "°C/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "valore": 40,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "picco"
+    }
+   },
+   "citazioni": [
+    "Upon cooling, a broad exothermic peak appears around 40 °C.",
+    "This unknown phase melts at 96 °C, which is coincident with the major peak in the DSC endotherm (image 7–9 in Fig. 8d). Upon cooling, solidification occurs at ~40 °C (image 11–13 in Fig. 8d).",
+    "DSC was performed on a Perkin-Elmer DSC 6000 from 25 °C to 200 °C under nitrogen, using bulk powder and polymorphs of A and B at a scan rate of 1 and 5 °C min−1. Samples were sealed in covered aluminum pans, and heat flow was recorded as a function of temperature.",
+    "Heating was applied from 20 to 200 °C at a constant rate of 1 °C min−1."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 40,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "note": "Raffreddando il fuso ottenuto da AIIα (dopo E11) il solido ricompare a ca 40 °C (picco esotermico largo in DSC, solidificazione in HSM). La fase formata non e' identificata."
+  },
+  {
+   "id": "E14",
+   "da": "ignota",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valori": [
+      1,
+      5
+     ],
+     "unita": "°C/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "picco": 106,
+     "unita": "°C"
+    }
+   },
+   "citazioni": [
+    "During subsequent DSC heating and cooling cycles (2nd and 3rd), the curves show an anomalous broadening with several endothermic thermal events starting near 85 °C, eventually culminating in a final peak at 106 °C that closely resembles the melting behavior of polymorph AI (Fig. 8b).",
+    "no significant changes are observed until it melts at 106 °C (image 15–18 in Fig. 8d), a behavior that closely mirrors polymorph AI, as indicated by the second DSC cycle.",
+    "DSC was performed on a Perkin-Elmer DSC 6000 from 25 °C to 200 °C under nitrogen, using bulk powder and polymorphs of A and B at a scan rate of 1 and 5 °C min−1. Samples were sealed in covered aluminum pans, and heat flow was recorded as a function of temperature.",
+    "Heating was applied from 20 to 200 °C at a constant rate of 1 °C min−1."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "HSM"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 106,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "note": "Secondo e terzo ciclo DSC e seconda corsa HSM: la fase formatasi dopo raffreddamento resta stabile fino alla fusione a 106 °C, che «closely resembles» quella di AI (104 °C): il testo non la identifica come AI. Prima della fusione, piu' eventi endotermici da ca 85 °C attribuiti a DMSO residuo."
+  },
+  {
+   "id": "E15",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valori": [
+      1,
+      5
+     ],
+     "unita": "°C/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "picco": 104,
+     "unita": "°C"
+    }
+   },
+   "citazioni": [
+    "The DSC curve for the bulk compound (A) displays a single endothermic peak at 105 °C, with an associated enthalpy change (ΔH) of 73.4 J g−1 (Fig. 8a). Similarly, polymorph AI (blue) exhibits comparable melting behavior, displaying an endothermic peak at 104 °C with ΔH = 75.7 J g−1 (Fig. 8a).",
+    "DSC was performed on a Perkin-Elmer DSC 6000 from 25 °C to 200 °C under nitrogen, using bulk powder and polymorphs of A and B at a scan rate of 1 and 5 °C min−1. Samples were sealed in covered aluminum pans, and heat flow was recorded as a function of temperature."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 75.7,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 104,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "sigillato"
+   },
+   "note": "AI fonde nettamente a 104 °C (ΔH = 75.7 J g−1): il testo la prende come prova della sua stabilita' termodinamica."
+  },
+  {
+   "id": "E16",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valori": [
+      1,
+      5
+     ],
+     "unita": "°C/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "picco": 105,
+     "unita": "°C"
+    }
+   },
+   "citazioni": [
+    "The DSC curve for the bulk compound (A) displays a single endothermic peak at 105 °C, with an associated enthalpy change (ΔH) of 73.4 J g−1 (Fig. 8a). Similarly, polymorph AI (blue) exhibits comparable melting behavior, displaying an endothermic peak at 104 °C with ΔH = 75.7 J g−1 (Fig. 8a).",
+    "DSC was performed on a Perkin-Elmer DSC 6000 from 25 °C to 200 °C under nitrogen, using bulk powder and polymorphs of A and B at a scan rate of 1 and 5 °C min−1. Samples were sealed in covered aluminum pans, and heat flow was recorded as a function of temperature."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_dedotto": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 73.4,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 105,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "sigillato"
+   },
+   "note": "Composto grezzo («bulk compound (A)»): un solo picco a 105 °C (ΔH = 73.4 J g−1). Il testo dice che AI «correspond[s] to bulk form A»; da = AI e' quindi attribuito per questo rimando."
+  },
+  {
+   "id": "E17",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valori": [
+      1,
+      5
+     ],
+     "unita": "°C/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "valore": 108,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "osservata"
+    }
+   },
+   "citazioni": [
+    "HSM observations support this conclusion, desolvation begins as the temperature rises (Fig. 9c), followed by nucleation and growth of BI crystals around 108 °C, highlighted in a green box (Fig. 9c), which melt at 114 °C, consistent with DSC findings.",
+    "TGA analysis confirms that BII initially contains 20.004% DMSO solvent. By 150 °C, approximately 11.765% of this content is lost, indicating that some solvent remains during the cooling cycle (Fig. 9b).",
+    "Meanwhile, the isomorphous polymorph BII (red) exhibits a DSC profile resembling that of AIIα, beginning with a broad endothermic region at 70 °C, followed by a minor endothermic peak (a) at 111 °C (marked with a brown circle) (ΔH = 55.9 J g−1), and a major melting peak (b) at 114 °C (ΔH = 11.05 J g−1), corresponding to the melting point of BI (Fig. 9a).",
+    "Starting from form BII, it undergoes partial desolvation and subsequent transformation into BI upon heating, thereby indicating conversion into the thermodynamically more stable form BI (Supplementary Table 15).",
+    "DSC was performed on a Perkin-Elmer DSC 6000 from 25 °C to 200 °C under nitrogen, using bulk powder and polymorphs of A and B at a scan rate of 1 and 5 °C min−1. Samples were sealed in covered aluminum pans, and heat flow was recorded as a function of temperature.",
+    "Heating was applied from 20 to 200 °C at a constant rate of 1 °C min−1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "frequenza": null,
+   "osservazioni": {
+    "tecniche": [
+     "HSM",
+     "DSC",
+     "TGA"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ],
+    "perdita_massa": {
+     "valore": 11.765,
+     "unita": "%",
+     "tipo": "totale"
+    }
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMSO solvent molecules (partial loss)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "citazione": "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI."
+    }
+   ],
+   "note": "BII perde parzialmente DMSO (broad endotherm da 70 °C; TGA da 20.004% iniziale a ca 11.765% perso a 150 °C; il testo dice che «some solvent remains») e poi si formano cristalli di BI per nucleazione e crescita intorno a 108 °C (HSM), che fondono a 114 °C. I valori del picco DSC minore (a, 111 °C) e maggiore (b, 114 °C) sono nel testo con ΔH invertiti (vedi E20)."
+  },
+  {
+   "id": "E18",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 383,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "This observation was further supported by variable-temperature SCXRD data, which showed that the BII crystals transformed into multiple domains at 383 K. Upon thermal treatment, these domains transitioned into a second polymorphic form, corresponding to BI (Supplementary Fig. 27).",
+    "Starting from form BII, it undergoes partial desolvation and subsequent transformation into BI upon heating, thereby indicating conversion into the thermodynamically more stable form BI (Supplementary Table 15).",
+    "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMSO solvent molecules (loss)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "citazione": "Upon exposure to external stimuli, such as heat or SO, the AIIα and BII crystals undergo solvent loss (DMSO), which induces a reorganization into energetically more favorable supramolecular motifs, thereby transitioning into AI and BI."
+    },
+    {
+     "gruppo": "N–H···N hydrogen bonds (solvent-free BI)",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F4",
+     "citazione": "The structure of BI features robust N-H…N interactions that facilitate the formation of molecular chains (Fig. 10b)."
+    }
+   ],
+   "note": "VT-SCXRD: a 383 K il cristallo di BII mostra domini multipli e dopo «thermal treatment» (non descritto) passa a BI. 383 K e' la T a cui si vedono i domini."
+  },
+  {
+   "id": "E19",
+   "da": "F4",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valori": [
+      1,
+      5
+     ],
+     "unita": "°C/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "picco": 114,
+     "unita": "°C"
+    }
+   },
+   "citazioni": [
+    "For the bulk compound B, DSC analysis reveals an endothermic peak at 114 °C with an associated enthalpy change (ΔH) of 55.9 J g−1 (Fig. 9a). Polymorph BI (blue) shows a similar thermal behavior, exhibiting a sharp endothermic peak at 114 °C (ΔH = 55.9 J g−1), as illustrated in Fig. 9a.",
+    "DSC was performed on a Perkin-Elmer DSC 6000 from 25 °C to 200 °C under nitrogen, using bulk powder and polymorphs of A and B at a scan rate of 1 and 5 °C min−1. Samples were sealed in covered aluminum pans, and heat flow was recorded as a function of temperature."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "entalpia": {
+     "valore": 55.9,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 114,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "sigillato"
+   },
+   "note": "BI fonde nettamente a 114 °C (ΔH = 55.9 J g−1); il composto grezzo B da' lo stesso picco (114 °C, 55.9 J g−1): lo stesso evento, non due."
+  },
+  {
+   "id": "E20",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valori": [
+      1,
+      5
+     ],
+     "unita": "°C/min"
+    },
+    "solventi": [],
+    "temperatura": {
+     "picco": 114,
+     "unita": "°C"
+    }
+   },
+   "citazioni": [
+    "Meanwhile, the isomorphous polymorph BII (red) exhibits a DSC profile resembling that of AIIα, beginning with a broad endothermic region at 70 °C, followed by a minor endothermic peak (a) at 111 °C (marked with a brown circle) (ΔH = 55.9 J g−1), and a major melting peak (b) at 114 °C (ΔH = 11.05 J g−1), corresponding to the melting point of BI (Fig. 9a).",
+    "DSC was performed on a Perkin-Elmer DSC 6000 from 25 °C to 200 °C under nitrogen, using bulk powder and polymorphs of A and B at a scan rate of 1 and 5 °C min−1. Samples were sealed in covered aluminum pans, and heat flow was recorded as a function of temperature."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "passo": "melting of BI formed on heating (major peak b)",
+   "conflitto": "Il testo da' al picco minore (a, 111 °C) ΔH = 55.9 J g−1 e al maggiore (b, 114 °C) ΔH = 11.05 J g−1; i due valori sembrano scambiati (55.9 J g−1 e' anche quello di BI e del composto grezzo). Riportati come scritti.",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "desolvatazione_possibile": true,
+    "entalpia": {
+     "valore": 11.05,
+     "unita": "J/g",
+     "tipo": "fusione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 111,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     },
+     {
+      "grandezza": {
+       "valore": 114,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "sigillato"
+   },
+   "note": "Picco principale a 114 °C «corresponding to the melting point of BI»; il picco minore a 111 °C non e' assegnato. BII perde prima DMSO (E17)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "diethyl ether (DEE)",
+    "acetone",
+    "methanol"
+   ],
+   "solventi_alternativi": true,
+   "temperatura": {
+    "valore": 3,
+    "unita": "°C"
+   },
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "citazioni": [
+    "The crystallization of A and B was carried out by using the slow evaporation method with various solvents. At a low temperature of 3 °C, crystallization in solvents such as diethyl ether (DEE), acetone, and methanol resulted in block and needle-like morphologies corresponding to AI and BI (Supplementary Table 1) forms, respectively."
+   ],
+   "note": "Evaporazione lenta a 3 °C: i solventi sono alternative (una prova per solvente)."
+  },
+  {
+   "forme": [
+    "F2",
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "DMSO"
+   ],
+   "temperatura": {
+    "valore": 23,
+    "unita": "°C"
+   },
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "citazioni": [
+    "In contrast, employing the same method with DMSO as the solvent at ambient temperature (23 °C) led to the formation of block-like morphology, as mentioned, identified as polymorphic AIIα (Supplementary Fig. 3) and BII (Supplementary Fig. 4)."
+   ],
+   "note": "Evaporazione lenta in DMSO a temperatura ambiente (23 °C)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "conformazione della molecola A invariata nel passaggio AIIα <-> AIIβ (torsioni τ1 e τ2 nella sovrapposizione di Fig. 11); struttura rigida",
+     "forma": "F3",
+     "citazione": "Consequently, the overall structure remained rigid across the entire temperature range."
+    },
+    {
+     "tipo": "altro",
+     "testo": "AIIα: due molecole di A nell'unita' asimmetrica (Z′ = 2); AIIβ: quattro",
+     "forma": "F2",
+     "citazione": "The results indicate that all the molecules remained invariant throughout the process of the PT of AIIα ↔ AIIβ."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "analogo bromurato di A: contatti Br···Br piu' corti dei Cl···Cl",
+     "citazione": "In contrast, the BII crystalline phase features shorter Br…Br interactions. At 298 K, the Br…Br distance is 3.706 Å (Fig. 6a), which is nearly equal to twice the vdW radii. This distance decreases to 3.649 Å (Fig. 6b) at 200 K and further reduces to 3.601 Å (Fig. 6c) near 100 K."
+    }
+   ]
+  }
+ ]
+}
