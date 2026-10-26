@@ -1,0 +1,571 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/molecules24102018",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "1911442-1911459"
+ ],
+ "note": "Alta pressione su 4-iodobenzonitrile: transizione fase I (monoclina, I2/a) -> fase II (triclina, P-1) a 5.5 GPa, ricostruttiva, del primo ordine. La stessa transizione e' vista con SCXRD (5.5 GPa), Raman (fase I fino a 4.3 GPa, fase II misurata a 5.29 GPa), spettri UV-Vis in olio di paraffina (trasmittanza giu' di due ordini di grandezza), resistenza elettrica in olio Daphne 7373 («At just above 5 GPa we observed a sudden drop in resistance») e, nel mezzo pentano:isopentano, come scurimento oltre 5.0 GPa con qualita' di diffrazione crollata («Beyond 5.0 GPa the sample darkened in colour and diffraction quality decreased dramatically»): una sola transizione, un solo evento (E1), niente doppioni per tecnica o per mezzo. Nel percorso (iii) (crescita in situ e compressione lenta) «The crystal broke apart above 5 GPa and no discernible diffraction data could be obtained». Non sono eventi: PIXEL e DFT (energie di dimero, energie reticolari, bande), l'ordinamento dei contatti, l'equazione di stato di fase I (K0 = 6.5(6) GPa). Incoerenze del testo: (1) l'abstract dice che il cristallo scurisce «on account of formation of microscopic cracks», il corpo (par. 2.4) dice che lo scurimento e' dovuto a «formation of very small domains» e non a una variazione della struttura a bande; (2) i contatti E/F di fase I sono CH...N (par. 2.2, Tabella 2) ma nel par. 2.5 sono chiamati «antiparallel off-set stacking interactions»; (3) abstract: «The resistance drops by 10%», didascalia Fig. 9: «A drop from 1010 to 8 × 109 Ω» (l'esponente e' rovinato dal PDF, ma 10^10 -> 8 × 10^9 sarebbe il 20%); (4) «In phase I the molecule has. 2. site symmetry» (simbolo di sito rovinato dal PDF).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "4-iodobenzonitrile"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "phase I",
+   "etichette_alternative": [
+    "ambient-pressure phase"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "I2/a",
+   "cella": {
+    "a": 7.788,
+    "b": 10.592,
+    "c": 9.086,
+    "alpha": 90,
+    "beta": 104.934,
+    "gamma": 90,
+    "V": 724.2,
+    "Z": 4,
+    "condizioni": "0.00 GPa, 298 K",
+    "fonte": "SCXRD"
+   },
+   "ccdc": "1911442",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "1911442",
+     "temperatura": {
+      "valore": 298,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Table 5: Experimental details for the ambient pressure structure, and structures immediately below and above the phase transition. For all structures: C7H4IN, Mr = 229.01. Experiments were carried out at 298 K. H-atom parameters were constrained. CCDC deposition numbers for the structures listed are 1911442, 1911457, and 1911458."
+    },
+    {
+     "ccdc": "1911457",
+     "temperatura": {
+      "valore": 298,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Table 5: Experimental details for the ambient pressure structure, and structures immediately below and above the phase transition. For all structures: C7H4IN, Mr = 229.01. Experiments were carried out at 298 K. H-atom parameters were constrained. CCDC deposition numbers for the structures listed are 1911442, 1911457, and 1911458."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "chain of C≡N···I halogen bonds along b",
+     "chi": "nitrile N and iodine of molecules related by translation along b",
+     "citazione": "Molecules related by unit cell translations along b (molecules G and H in Table 1) are linked by I···N halogen bonding interactions into an exactly linear chain, with a contact distance of 3.168(4) Å and a total intermolecular energy of −10.8 kJ mol−1 (Figure 1a)."
+    },
+    {
+     "motivo": "inter-chain CH···I, CH···N and π-stacking contacts",
+     "chi": "neighbouring halogen-bonded chains",
+     "citazione": "The chains interact through CH···I, CH···N and π-stacking contacts."
+    }
+   ],
+   "citazione": "a, b, c (Å) | 7.788 (2), 10.592 (3), 9.086 (3) | 6.8316 (3), 10.2395 (6), 8.0931 (18) | 5.692 (5), 6.9674 (11), 7.7283 (12)",
+   "note": "Cella e Z della colonna 0.00 GPa della Tabella 5 (I2/a, Z = 4); la stessa fase e' misurata anche a 5.00 GPa (a 6.8316(3), b 10.2395(6), c 8.0931(18) Å, beta 100.696(7)°, V 556.29(13) Å3). I tre CCDC della didascalia della Tabella 5 (1911442, 1911457, 1911458) sono attribuiti per ordine alle colonne 0.00 (fase I), 5.00 (fase I) e 5.49 GPa (fase II): ccdc_dedotto. Le strutture non hanno un campo per la pressione: 1911442 a 0.00 GPa, 1911457 a 5.00 GPa. Gli altri CCDC dell'intervallo 1911442-1911459 non sono attribuiti."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "phase II",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1¯",
+   "cella": {
+    "a": 5.692,
+    "b": 6.9674,
+    "c": 7.7283,
+    "alpha": 65.412,
+    "beta": 80.98,
+    "gamma": 87.77,
+    "V": 275.1,
+    "Z": 2,
+    "condizioni": "5.49 GPa, 298 K",
+    "fonte": "SCXRD"
+   },
+   "ccdc": "1911458",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "1911458",
+     "temperatura": {
+      "valore": 298,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "Table 5: Experimental details for the ambient pressure structure, and structures immediately below and above the phase transition. For all structures: C7H4IN, Mr = 229.01. Experiments were carried out at 298 K. H-atom parameters were constrained. CCDC deposition numbers for the structures listed are 1911442, 1911457, and 1911458."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "chains of molecules interacting via I···N interactions",
+     "chi": "iodine and nitrile N of neighbouring molecules (contacts G and H)",
+     "citazione": "Like phase I, the structure of phase II consists of chains of molecules which interact via I∙∙∙N interactions (G and H)."
+    },
+    {
+     "motivo": "short contacts π···π, CH···I, CH···N, I···N plus additional I···π and H···H",
+     "chi": "neighbouring molecules",
+     "citazione": "Phase II exhibits the same four classes of short contact found in phase I (π···π, CH···I, CH···N and I···N) as well as some additional I···π and H···H contacts."
+    }
+   ],
+   "citazione": "a, b, c (Å) | 7.788 (2), 10.592 (3), 9.086 (3) | 6.8316 (3), 10.2395 (6), 8.0931 (18) | 5.692 (5), 6.9674 (11), 7.7283 (12)",
+   "note": "Cella e Z della colonna 5.49 GPa della Tabella 5 (dati da cristallo frammentato, modellato con la soluzione ottenuta a 8.1 GPa: «The solution was used to model the data obtained from a fragmented crystal at 5.5 GPa»). La struttura di fase II risolta a 8.1 GPa (percorso iv) non e' in Tabella 5. Il simbolo e' scritto «P1¯» (P-1 con la barra rovinata dal PDF)."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 5.5,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "mezzo_pressione": "4:1 methanol-ethanol (mother liquor)",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "Raman",
+     "altro"
+    ],
+    "meccanismo": [
+     "ricostruttiva"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "fratturato"
+   },
+   "citazioni": [
+    "Phase I transforms to a new high-pressure polymorph (phase II) at 5.5 GPa, with sharp discontinuities in the unit cell dimensions (Figure 7a).",
+    "(ii) Ex situ crystal growth and compression in methanol-ethanol: 4-Iodobenzonitrile was recrystallized by slow evaporation of a 4:1 methanol-ethanol solution to give colourless, rectangular prism shaped crystals of phase I. Ambient and high-pressure X-ray diffraction data were collected using a crystal (0.1 × 0.1 × 0.1 mm3) and the mother liquor from the crystal growth as the pressure- transmitting medium. Data were collected to 5.5 GPa using synchrotron radiation (see below). A new phase (phase II) formed at 5.5 GPa but the sample contained numerous quite weakly-scattering domains.",
+    "Single crystal X-ray diffraction, Raman and UV-Vis absorption spectroscopy at high pressure were performed in Merrill-Bassett or Boehler-Almax type diamond anvil cells (DACs) equipped with 0.6 mm culet type Ia Boehler-Almax cut diamonds. Tungsten gaskets with holes of diameter 0.25–0.35 mm and thickness 0.1–0.12 mm formed the sample chambers and the hydrostatic pressure transmitting media, were either 1:1 n-pentane:isopentane, 4:1 methanol-ethanol or spectroscopic paraffin oil. Pressures were determined by the ruby fluorescence method [42].",
+    "Experiments were carried out at 298 K.",
+    "The phase transition from phase I to II tended to lead to fragmentation of a single crystal of phase I.",
+    "This is further evidence that the phase transition is first order and reconstructive, supporting the conclusions made in Section 2.4.",
+    "The clearest effect of the phase I → II transition on the Raman spectra (Figure 2) is an increase in intensity in the bands above 1500 cm−1 that correspond to a mixture of CC stretches and CCH bends in the phenyl group.",
+    "At just above 5 GPa we observed a sudden drop in resistance which is also accompanied by the darkening of the sample.",
+    "The structure undergoes a transition to a triclinic (P1¯) phase at 5.5 GPa."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "0.1 × 0.1 × 0.1 mm3"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "I∙∙∙N interactions",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "Like phase I, the structure of phase II consists of chains of molecules which interact via I∙∙∙N interactions (G and H)."
+    },
+    {
+     "gruppo": "I∙∙∙N halogen bond",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "The I···N bond increases in length to 2.928(10) Å and become less linear [<C−I∙∙∙N = 166.2(5)°]"
+    },
+    {
+     "gruppo": "N∙∙∙H interactions",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "citazione": "the PIXEL calculations show that the transition is driven by relief of the destabilising N∙∙∙H and π-stacking interactions."
+    },
+    {
+     "gruppo": "π-stacking interactions",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "citazione": "the PIXEL calculations show that the transition is driven by relief of the destabilising N∙∙∙H and π-stacking interactions."
+    },
+    {
+     "gruppo": "C–I bond of one molecule above the phenyl ring of the other (contact K)",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "cambia_partner",
+     "forma": "F2",
+     "citazione": "In contact K the C–I bond of one molecule moves above the phenyl ring of the other, with the slippage between the rings changing from 1.747 to 3.056 Å."
+    },
+    {
+     "gruppo": "I···π and H···H contacts",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F2",
+     "citazione": "Phase II exhibits the same four classes of short contact found in phase I (π···π, CH···I, CH···N and I···N) as well as some additional I···π and H···H contacts."
+    },
+    {
+     "gruppo": "nitrile group",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "forma": "F2",
+     "citazione": "This said, the nitrile group appears to be quite non-linear at 5.5 GPa with <C5−C6−N7 = 169(2)°."
+    }
+   ],
+   "note": "Percorso (ii): cristallo cresciuto ex situ da 4:1 methanol-ethanol, compresso nel suo liquido madre; a 5.5 GPa la fase II si forma ma «the sample contained numerous quite weakly-scattering domains». L'ultima pressione con fase I e' 5.0 GPa (Tabella 2, Tabella 5). La transizione e' vista anche con Raman, UV-Vis, resistenza e scurimento (vedi nota dell'articolo): stesso evento. Abstract: lo scurimento e' attribuito a microcrepe; par. 2.4: a «very small domains» (integrita fratturato dalla «fragmentation of a single crystal»)."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "testo": "complete pressure release"
+    },
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "mezzo_pressione": "methanol-ethanol"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "citazioni": [
+    "However, the Raman spectrum collected on complete pressure release resembles the ambient pressure single-crystal spectrum, indicating that the transition is reversible.",
+    "Spectra were collected on compression up to 9.7 GPa and on decompression to ambient pressure at 298 K.",
+    "High-pressure Raman spectra were collected in parallel to the single-crystal diffraction experiments during the study using the crystal grown ex situ in methanol-ethanol as a pressure transmitting medium [method (ii) above].",
+    "The optical transmittance of the sample also recovers, but only partially (Figure 10)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Ritorno visto solo con Raman: dopo il rilascio completo della pressione lo spettro assomiglia a quello del cristallo di fase I a pressione ambiente. La trasmittanza ottica (campione UV-Vis in olio di paraffina) si recupera solo in parte, e «The crystal does not completely recover its integrity after pressure release» (didascalia Fig. 10). Il testo non dice a quale pressione, sotto quella di andata, avvenga il ritorno."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "da_dedotto": true,
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 8.1,
+     "unita": "GPa",
+     "tipo": "misura"
+    },
+    "velocita": {
+     "valore": null,
+     "unita": null,
+     "tipo": "salto",
+     "testo": "rapidly compressed to 8.1 GPa from ambient pressure in one step"
+    },
+    "mezzo_pressione": "methanol-ethanol",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "(iv) In situ crystal growth followed by rapid compression in methanol-ethanol: A small single crystal (~0.05 mm3) was regrown in situ but rapidly compressed to 8.1 GPa from ambient pressure in one step. High-pressure diffraction measurements were performed immediately on a lab source diffractometer to give sufficiently good data for structure solution and refinement of phase II.",
+    "a well-diffracting single crystal of phase II was obtained by in situ crystal growth in methanol-ethanol, followed by rapid increase in pressure to 8.1 GPa; the structure of phase II was solved from this data set.",
+    "The phase transition from phase I to II tended to lead to fragmentation of a single crystal of phase I."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "~0.05 mm3"
+   },
+   "note": "Percorso (iv): cristallo piccolo (~0.05 mm3) ricresciuto in situ e compresso rapidamente fino a 8.1 GPa in un solo passo. La fase di partenza non e' nominata nel paragrafo (iv): si capisce dal par. 2.4 («The phase transition from phase I to II ... After some experimentation a well-diffracting single crystal of phase II was obtained by in situ crystal growth ... followed by rapid increase in pressure to 8.1 GPa»). Questo e' il cristallo da cui e' risolta la struttura di fase II. La pressione di transizione di questa corsa non e' detta (8.1 GPa e' dove si misura)."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "max": 5.0,
+     "unita": "GPa",
+     "limite": "sotto"
+    },
+    "temperatura": {
+     "valore": 298,
+     "unita": "K",
+     "tipo": "isoterma"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "The crystal structure remains in the same phase up to 5.0 GPa",
+    "The energies of the five unique dimers observed between ambient pressure and 5.0 GPa are plotted as a function of centroid separation in Figure 5",
+    "Experiments were carried out at 298 K.",
+    "However, the halogen bond remains linear up to 5 GPa"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "I∙∙∙N halogen bond",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F1",
+     "citazione": "However, the halogen bond remains linear up to 5 GPa"
+    }
+   ],
+   "note": "Fase I invariata dalla pressione ambiente a 5.0 GPa (abstract: «The crystal structure remains in the same phase up to 5.0 GPa»); la transizione e' a 5.5 GPa (E1). Le corse sono piu' d'una (pentano:isopentano fino a 5.0 GPa; metanolo-etanolo fino a 4.9 GPa in situ e fino a 5.5 GPa ex situ): il testo non separa il negativo per mezzo."
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 5.5,
+     "max": 8.1,
+     "unita": "GPa"
+    },
+    "mezzo_pressione": "methanol-ethanol"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "The triclinic phase persists up to 8.1 GPa.",
+    "The volume in phase II at 8.1 GPa appears to lie on the same trend-line as those in phase I, but with only two data points available it is not possible to determine an equation of state for phase II.",
+    "The structure undergoes a transition to a triclinic (P1¯) phase at 5.5 GPa."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fase II persistente da 5.5 a 8.1 GPa (abstract: «The triclinic phase persists up to 8.1 GPa»). Per la fase II ci sono solo due punti di diffrazione (5.5 e 8.1 GPa); il Raman arriva a 9.7 GPa («Spectra were collected on compression up to 9.7 GPa»). Il mezzo e' metanolo-etanolo perche' la struttura a 8.1 GPa viene dal percorso (iv)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "diffusione",
+   "solventi": [
+    "n-pentane",
+    "dichloromethane"
+   ],
+   "solventi_alternativi": false,
+   "citazioni": [
+    "4-Iodobenzonitrile (97%, Sigma-Aldrich, Irvine, UK) was first recrystallized by solvent diffusion of n-pentane in dichloromethane solution to give colourless, rectangular-prismatic crystals of the ambient-pressure phase (phase I)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Diffusione di n-pentano (antisolvente) in soluzione di diclorometano."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol-ethanol 4:1"
+   ],
+   "solventi_alternativi": false,
+   "citazioni": [
+    "4-Iodobenzonitrile was recrystallized by slow evaporation of a 4:1 methanol-ethanol solution to give colourless, rectangular prism shaped crystals of phase I."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "methanol-ethanol"
+   ],
+   "solventi_alternativi": false,
+   "pressione": {
+    "valore": 0.6,
+    "unita": "GPa",
+    "tipo": "applicata"
+   },
+   "citazioni": [
+    "4-Iodobenzonitrile crystallises in phase I at ambient conditions from dichloromethane or a mixture of methanol and ethanol and at high pressure (0.6 GPa) from methanol-ethanol."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "methanol-ethanol"
+   ],
+   "solventi_alternativi": false,
+   "pressione": {
+    "valore": 0.5,
+    "unita": "GPa",
+    "tipo": "applicata"
+   },
+   "temperatura": {
+    "valore": 420,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "citazioni": [
+    "(iii) In situ crystal growth and slow compression in methanol-ethanol: A 4-iodobenzonitrile in 4:1 methanol-ethanol solution was loaded in a DAC to give a polycrystalline mass on compression at 0.5 GPa. A colourless crystal measuring 0.12 × 0.18 × 0.22 mm3 was obtained by repeatedly heating the DAC to 420 K and cooling to room temperature (Figure 8b)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Percorso (iii): massa policristallina a 0.5 GPa, poi un cristallo ottenuto scaldando ripetutamente la cella a 420 K e raffreddando a temperatura ambiente. Il paragrafo (iii) non nomina la fase; si attribuisce a F1 perche' i dati arrivano a 4.9 GPa, sotto la transizione, e il par. 2.1 dice che a 0.6 GPa da metanolo-etanolo si ha la fase I."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E3",
+   "solventi": [
+    "methanol-ethanol"
+   ],
+   "solventi_alternativi": false,
+   "pressione": {
+    "valore": 8.1,
+    "unita": "GPa",
+    "tipo": "applicata"
+   },
+   "citazioni": [
+    "a well-diffracting single crystal of phase II was obtained by in situ crystal growth in methanol-ethanol, followed by rapid increase in pressure to 8.1 GPa"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 88.0,
+      "unita": "kJ mol−1"
+     },
+     "metodo": "entalpia di sublimazione sperimentale, Knudsen effusion (Rocha et al. [56])",
+     "calcolato": false,
+     "citazione": "the experimental enthalpy of sublimation, 88.0(3) kJ mol−1, determined using Knudsen effusion methods by Rocha et al. [56]"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": -62.5,
+      "unita": "kJ mol−1"
+     },
+     "forma": "F1",
+     "metodo": "energia reticolare calcolata con PIXEL",
+     "calcolato": true,
+     "citazione": "the lattice energy calculated by PIXEL is −62.5 kJ mol−1"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 6.5,
+      "unita": "GPa"
+     },
+     "forma": "F1",
+     "metodo": "modulo di bulk K0, equazione di stato di Birch-Murnaghan del terzo ordine (fit sperimentale)",
+     "calcolato": false,
+     "citazione": "yields a bulk modulus K0 = 6.5(6) GPa"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 2.8,
+      "unita": "eV"
+     },
+     "forma": "F1",
+     "metodo": "band gap termico calcolato a 5 GPa (funzionale PBE)",
+     "calcolato": true,
+     "citazione": "calculated thermal bandgaps of 2.8 eV at 5 GPa, reducing to 2.5 eV at 8.14 GPa"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 2.5,
+      "unita": "eV"
+     },
+     "forma": "F2",
+     "metodo": "band gap termico calcolato a 8.14 GPa (funzionale PBE)",
+     "calcolato": true,
+     "citazione": "calculated thermal bandgaps of 2.8 eV at 5 GPa, reducing to 2.5 eV at 8.14 GPa"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "forma": "F2",
+     "testo": "gruppo nitrile non lineare a 5.5 GPa, <C5−C6−N7 = 169(2)° (DFT: 4.4° di deviazione; 4(3)° a 8.1 GPa)",
+     "citazione": "This said, the nitrile group appears to be quite non-linear at 5.5 GPa with <C5−C6−N7 = 169(2)°."
+    }
+   ]
+  }
+ ]
+}
