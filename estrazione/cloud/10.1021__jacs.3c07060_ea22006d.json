@@ -1,0 +1,1694 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/jacs.3c07060",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Cocristalli dye-volatile di cis-azobenzene: (cis-azo)(diossano) e (cis-azo)(pirazina). Tre risposte alla luce che dipendono dall'intensita' (cambio di colore, flessione fotomeccanica, fotoincisione 'cold photocarving'), piu' la loro termica. Il cambio di colore e la flessione sono isomerizzazione parziale cis → trans (conversione misurata con 19F NMR dopo dissoluzione): eventi con a = «reazione» e natura chimica. La fotoincisione (taglio) ha prodotto solido trans-azo I/II (PXRD) e perdita del coformero. Il testo non dà nessun CCDC, gruppo spaziale o cella: forme senza questi dati. Distanze I···O 2.854(2) Å (RXB 0.815) in (cis-azo)(diossano) e I···N 2.896(5) Å (RXB 0.820) in (cis-azo)(pirazina), contro 2.981(3) Å (RXB 0.852) e 2.840(3) Å (RXB 0.805) nei cocristalli trans già noti (rif. 37, 39). Il segnale a circa 52 °C nel DSC di (cis-azo)(pirazina) è la fusione di un po' di pirazina solida (Fig. 5a): non è una forma del colorante, non è un evento. I calcoli (DFT periodica: ΔEiso, ΔEdec, EXB) sono solo in molecole.proprieta (calcolato: true). Per i cocristalli con coformero volatile si segue la regola degli ospiti: il diossano (solvente di cristallizzazione, «a solution of cis-azo in dioxane») è in ospite e la forma e' un solvato, benché gli autori scrivano «cocrystal»; la pirazina (solida, «melting point of a small amount of solid pyrazine» a 52 °C) è un coformero in componenti. Intensità di luce: non esiste un campo per l'irradianza; si usa luce.dose con tipo 'intensita' (mW cm–2, W mm–2) e il diametro del fascio in condizioni.altro. Incoerenze del testo: (1) polvere di (cis-azo)(diossano) con LED: testo «PXRD analysis after 20 min irradiation», didascalia Fig. 2a «before and after 2 h irradiation»; il cristallo singolo: «irradiating a single crystal ... for 20 min ... approximately 8%» ma poi «~8% conversion observed for the photochromic effect observed after 2 h irradiation»; (2) la polvere di (cis-azo)(diossano) dà «a small amount of solid cis-azo» (PXRD) mentre per la pirazina «Similar to (cis-azo)(dioxane), analysis of the PXRD patterns did not reveal any sign of (trans-azo)(pyrazine) or solid cis-azo»; (3) intensita' LED: «approximately 37 mW cm–2 output power at the source» contro «low power intensities (below 1 mW cm–2) generated using the LED light source»; (4) hot-stage: nessuna variazione visibile «until 104 °C» contro l'endoterma DSC di perdita del diossano a 80–110 °C; fusione di trans-azo a 197 °C (DSC) contro «185 °C» (microscopia, «expected melting point»); liquefazione a ~121 °C contro 141 °C (DSC) per cis-azo; (5) Metodi: «For cocrystallization of (trans-azo)(dioxane)» ma i cristalli ottenuti sono (cis-azo)(dioxane) (soluzione irradiata); (cis-azo)(pirazina): risultati «preground equimolar mixture of trans-azo and pyrazine», Metodi 0.010 mmol di trans-azo e 0.075 mmol di pirazina in esano, senza macinazione; (6) «5 C° min–1» (unita' rovinata); «Supplmentary Figure 16» (refuso); «dI···NRB»; (7) confocale: foro grande con «>5 mW ... ∼5 W mm–2», camera veloce: 5 mW ≈ 2.1 W mm–2 (fascio di 78 μm) con solo «minor etching»: setup diversi.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "cis-(p-iodoperfluorophenyl)azobenzene",
+   "nome_scritto": "cis-azo"
+  },
+  {
+   "id": "C2",
+   "nome": "trans-(p-iodoperfluorophenyl)azobenzene",
+   "analogo_di": "C1",
+   "nome_scritto": "trans-azo"
+  },
+  {
+   "id": "C3",
+   "nome": "1,4-dioxane"
+  },
+  {
+   "id": "C4",
+   "nome": "pyrazine"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "(cis-azo)(dioxane)",
+   "etichette_alternative": [
+    "(cis-azo)(dioxane) cocrystal"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "1,4-dioxane",
+    "stechiometria": 1
+   },
+   "motivi_hb": [
+    {
+     "motivo": "zigzag chains of I···O halogen bonds",
+     "chi": "iodine of cis-azo and oxygen of dioxane",
+     "citazione": "Structural analysis by single crystal X-ray diffraction revealed that the structure consists of zigzag chains held together by I···O halogen bonds (Figure 1b, also Supplementary Figure 2)."
+    }
+   ],
+   "citazione": "Yellow needle-shaped single crystals of (cis-azo)(dioxane) were obtained by slow evaporation of a solution of cis-azo in dioxane.",
+   "note": "Stechiometria 1 dalla notazione (cis-azo)(dioxane) (non e' scritta come numero). Gli autori lo chiamano cocristallo («volatile cocrystal former»); il diossano e' anche il solvente di cristallizzazione, quindi solvato con ospite. Distanza I···O 2.854(2) Å, RXB 0.815. Cristalli giallo-aghiformi (needles), asse lungo ⊥ al piano (001) nella flessione."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "(cis-azo)(pyrazine)",
+   "etichette_alternative": [
+    "(cis-azo)(pyrazine) cocrystal"
+   ],
+   "tipo": "cocristallo",
+   "motivi_hb": [
+    {
+     "motivo": "zigzag chains of alternating pyrazine and cis-azo via I···N halogen bonds",
+     "chi": "iodine of cis-azo and nitrogen of pyrazine",
+     "citazione": "Single crystal X-ray diffraction analysis (Figure 4a,b, also Supplementary Figure 1) revealed a structure analogous to that of (cis-azo)(dioxane), with zigzag chains of alternating molecules of pyrazine and cis-azo connected through I···N halogen bonds."
+    }
+   ],
+   "citazione": "Crystals of (cis-azo)(pyrazine) were readily obtained by the crystallization of a preground equimolar mixture of trans-azo and pyrazine.",
+   "note": "Stechiometria 1:1 dalla notazione e da «alternating molecules of pyrazine and cis-azo». Distanza I···N 2.896(5) Å, RXB 0.820; cristalli a lastre (1000 × 250 × 50 μm3 tipici)."
+  },
+  {
+   "id": "F3",
+   "composto": "C2",
+   "etichetta": "(trans-azo)(dioxane)",
+   "etichette_alternative": [
+    "(trans-azo)(dioxane) cocrystal"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "1,4-dioxane",
+    "stechiometria": 1
+   },
+   "citazione": "Importantly, the characteristic ν(C–O–C) Raman band for dioxane at 830 cm–1 remained, suggesting that irradiation induced a rapid transformation of (cis-azo)(dioxane) to the corresponding (trans-azo)(dioxane) cocrystal.",
+   "note": "Cocristallo trans gia' studiato (rif. 37), qui solo intermedio transitorio visto con Raman («Although the short-lived (trans-azo)(dioxane) phase was not observed by PXRD»). Distanza I···O 2.981(3) Å (RXB 0.852) nel lavoro precedente."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "solid cis-azo",
+   "etichette_alternative": [
+    "cis-azo (solid)"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "The DSC, TGA, and hot-stage microscopy show that the first step in the heat-driven process is desolvation of the cocrystal to form solid cis-azo which subsequently melts and then undergoes isomerization and crystallization to form solid trans-azo."
+  },
+  {
+   "id": "F5",
+   "composto": "C2",
+   "etichetta": "trans-azo I",
+   "etichette_alternative": [
+    "polymorph I of trans-azo"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Powder X-ray diffraction (PXRD) analysis after 20 min irradiation showed the complete disappearance of Bragg reflections of (cis-azo)(dioxane) and the appearance of new reflections corresponding to the two previously reported polymorphs, trans-azo I and II, along with a small amount of solid cis-azo (Figure 2a).",
+   "note": "Polimorfo gia' riportato (non descritto qui)."
+  },
+  {
+   "id": "F6",
+   "composto": "C2",
+   "etichetta": "trans-azo II",
+   "etichette_alternative": [
+    "polymorph II of trans-azo"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Powder X-ray diffraction (PXRD) analysis after 20 min irradiation showed the complete disappearance of Bragg reflections of (cis-azo)(dioxane) and the appearance of new reflections corresponding to the two previously reported polymorphs, trans-azo I and II, along with a small amount of solid cis-azo (Figure 2a).",
+   "note": "Polimorfo gia' riportato (non descritto qui)."
+  },
+  {
+   "id": "F7",
+   "etichetta": "[miscela fisica di trans-azo I e II]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F5",
+    "F6"
+   ],
+   "composto": "C2",
+   "ospite": null,
+   "citazione": "Visual inspection of the PXRD patterns of the material before and after irradiation indicated the complete transformation of (cis-azo)(pyrazine) to a physical mixture of solids trans-azo I and II over a period of 20 h, demonstrating improved photostability compared to (cis-azo)(dioxane).",
+   "note": "Prodotto delle irradiazioni di polvere e di cristalli tagliati: i due polimorfi trans insieme; le proporzioni non sono date."
+  },
+  {
+   "id": "F8",
+   "composto": "C2",
+   "etichetta": "solid trans-azo",
+   "etichette_alternative": [
+    "pure solid trans-azo"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "forme_possibili": [
+    "F5",
+    "F6"
+   ],
+   "citazione": "Raman spectroscopy analysis of the irradiated spot following the second 532 nm laser pulse then revealed the complete disappearance of the ν(C–O–C) Raman band, with the overall spectrum exhibiting only the Raman shifts of pure trans-azo.",
+   "note": "Etichetta collettiva: trans-azo solido senza dire quale polimorfo (Raman e DSC non distinguono I e II)."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "dose": {
+      "valore": 37,
+      "unita": "mW cm–2",
+      "tipo": "intensita"
+     },
+     "sorgente": "LED 532 nm"
+    },
+    "tempo": {
+     "valore": 20,
+     "unita": "min",
+     "tipo": "attesa"
+    }
+   },
+   "citazioni": [
+    "The photochromic response at low light intensity was also evaluated on bulk powder of (cis-azo)(dioxane) by irradiation with a 532 nm LED source (37 mW cm–2). Powder X-ray diffraction (PXRD) analysis after 20 min irradiation showed the complete disappearance of Bragg reflections of (cis-azo)(dioxane) and the appearance of new reflections corresponding to the two previously reported polymorphs, trans-azo I and II, along with a small amount of solid cis-azo (Figure 2a).",
+    "(a) PXRD analysis of bulk (cis-azo)(dioxane) sample before and after 2 h irradiation using a 532 nm, 37 mW cm–2 LED source."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "prodotti_secondari": [
+    "F4"
+   ],
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "conflitto": "Il testo dice «PXRD analysis after 20 min irradiation»; la didascalia della Fig. 2a «before and after 2 h irradiation». Si tiene il testo del corpo (20 min).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "cis-azobenzene (azo) unit",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F1",
+     "citazione": "The light-induced color change and photomechanical bending occur due to different extents of the dye cis → trans isomerization taking place at different irradiation intensities, while the photocarving effect is due the combination of the volatility of the cocrystal former and the photochromic nature of the azobenzene."
+    }
+   ],
+   "note": "Polvere di (cis-azo)(diossano) irradiata con LED: scompaiono tutte le riflessioni del cocristallo e compaiono quelle dei due polimorfi trans I e II, con un po' di cis-azo solido (prodotto secondario F4). Isomerizzazione cis → trans e perdita del diossano (cambio fra composti: natura chimica)."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "reazione",
+   "esito": "parziale",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "dose": {
+      "valore": null,
+      "unita": "mW cm–2",
+      "tipo": "intensita",
+      "max": 1,
+      "limite": "sotto"
+     },
+     "sorgente": "LED 532 nm"
+    },
+    "tempo": {
+     "valore": 20,
+     "unita": "min",
+     "tipo": "attesa"
+    }
+   },
+   "citazioni": [
+    "Specifically, irradiation at low power intensities (below 1 mW cm–2) generated using the LED light source led only to a change in color (Figure 1c) of the single crystal, which was assignable to the isomerization of cis- to trans-azo.",
+    "Irradiation at the lowest light intensity was achieved using a 532 nm dispersed light-emitting diode (LED) of approximately 37 mW cm–2 output power at the source, placed 10 cm away from the crystal.",
+    "The extent of isomerization was estimated by irradiating a single crystal of (cis-azo)(dioxane) using the 532 nm LED source for 20 min, followed by dissolution in CDCl3 and 19F nuclear magnetic resonance spectroscopy (NMR) analysis.",
+    "Analogous analysis of a nonirradiated (cis-azo)(dioxane) crystal from the same batch revealed no signal of the trans-isomer (Supplementary Figure 8), indicating that the color change upon LED irradiation is associated with approximately 8% extent of cis → trans isomerization."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "analisi_chimica",
+     "microscopia"
+    ],
+    "conversione": {
+     "valore": 8,
+     "unita": "%",
+     "circa": true
+    }
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "conflitto": "Piu' avanti: «Compared to ∼8% conversion observed for the photochromic effect observed after 2 h irradiation with low intensity light»; qui 20 min. Si tiene il dato del paragrafo che descrive la prova.",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "cis-azobenzene (azo) unit",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F1",
+     "citazione": "The light-induced color change and photomechanical bending occur due to different extents of the dye cis → trans isomerization taking place at different irradiation intensities, while the photocarving effect is due the combination of the volatility of the cocrystal former and the photochromic nature of the azobenzene."
+    }
+   ],
+   "note": "Risposta fotocromica: cambio di colore del cristallo singolo, conversione cis → trans di circa l'8% (19F NMR dopo dissoluzione in CDCl3, rapporto cis:trans 92:8). Intensita' al cristallo sotto 1 mW cm–2; il LED e' di circa 37 mW cm–2 alla sorgente, a 10 cm. Il prodotto cristallino non e' identificato: a = reazione."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "reazione",
+   "esito": "parziale",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 488,
+      "unita": "nm"
+     },
+     "dose": {
+      "valore": 150,
+      "unita": "mW mm–2",
+      "tipo": "intensita"
+     },
+     "sorgente": "laser, fascio di 2 mm"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "min",
+     "tipo": "attesa"
+    }
+   },
+   "citazioni": [
+    "Irradiation at a higher light intensity of 150 mW mm–2, achieved by switching to a laser light source with a beam diameter of 2 mm, produced not only a change in crystal color but also a strong photomechanical effect (Figure 1d, also Supporting Information Video 1 shown at 4× speed): the irradiated single crystals were observed to bend rapidly and significantly (within seconds) in a direction perpendicular to the long needle axis, corresponding to the (001) lattice plane (Supplementary Figure 9).",
+    "Solution 19F NMR spectroscopy analysis of a (cis-azo)(dioxane) crystal that was irradiated for 1 min resulting in irreversible bending of ∼15° revealed a cis- to trans-isomers of 79:21.",
+    "(d) Images illustrating the observed photomechanical bending of the (cis-azo)(dioxane) cocrystal upon irradiation by 488 nm light of power density 150 mW·mm–2 for different lengths of time."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "analisi_chimica",
+     "microscopia"
+    ],
+    "conversione": {
+     "valore": 21,
+     "unita": "%"
+    },
+    "integrita": "deformato",
+    "meccanismo": [
+     "altro"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "cis-azobenzene (azo) unit",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F1",
+     "citazione": "The light-induced color change and photomechanical bending occur due to different extents of the dye cis → trans isomerization taking place at different irradiation intensities, while the photocarving effect is due the combination of the volatility of the cocrystal former and the photochromic nature of the azobenzene."
+    }
+   ],
+   "note": "Flessione fotomeccanica rapida («within seconds») perpendicolare all'asse lungo dell'ago, piano (001), prima verso il fascio, poi in senso opposto; piegatura irreversibile di circa 15° dopo 1 min con rapporto cis:trans 79:21 (conversione 21% = parte trans del rapporto; il testo scrive solo il rapporto, per questo il verificatore segnala l'unita'). Altri due cristalli piegati di circa 20° e 50° hanno ~33% e ~60% di trans (dati rumorosi). Lunghezza d'onda: 488 nm dalla didascalia Fig. 1d; il testo dice che il tipo di risposta non dipende dalla lunghezza d'onda (488, 515, 532 nm). Meccanismo: isomerizzazione fotoindotta con accumulo rapido di trans-azo sulla superficie irradiata («the rapid buildup of trans-azo on the irradiated crystal surface»)."
+  },
+  {
+   "id": "E4",
+   "da": "F1",
+   "a": "F7",
+   "esito": "parziale",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "dose": {
+      "valore": 2.25,
+      "unita": "W mm–2",
+      "tipo": "intensita"
+     },
+     "sorgente": "laser, fascio di 78 μm"
+    }
+   },
+   "citazioni": [
+    "Finally, switching to a laser beam of 78 μm diameter and light intensity of 2.25 W mm–2 resulted in cold photocarving (Figure 1e, also Supporting Information Video 2), evident by clean cutting of the crystal.",
+    "In contrast to irradiation at lower power densities, which led to a change in color throughout the crystal, in this case, the color change from yellow to red was only observed on the irradiated spot.",
+    "Analysis by PXRD (Figure 2b,c) of a single crystal of (cis-azo)(dioxane) that was cut using a higher light intensity (78 μm beam diameter) 532 nm laser beam, and then placed on a zero-background silicon sample holder, demonstrated the presence of trans-azo polymorphs I and II along with residual (cis-azo)(dioxane)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "cis-azobenzene (azo) unit",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F1",
+     "citazione": "The light-induced color change and photomechanical bending occur due to different extents of the dye cis → trans isomerization taking place at different irradiation intensities, while the photocarving effect is due the combination of the volatility of the cocrystal former and the photochromic nature of the azobenzene."
+    },
+    {
+     "gruppo": "halogen bonds (XB)",
+     "ruolo": "sintone",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "forma": "F1",
+     "citazione": "In contrast, the CPC behavior enabled through the dye-volatile cocrystal design does not involve high-temperature disruption of covalent bonds but instead gentle, low-temperature, and localized cleavage of noncovalent interactions, such as halogen bonds (XB).46"
+    }
+   ],
+   "note": "Fotoincisione fredda: taglio netto del cristallo; il colore cambia da giallo a rosso solo nel punto irradiato (solo la parte irradiata si isomerizza). PXRD del cristallo tagliato: trans-azo I e II piu' cis-(diossano) residuo, quindi parziale. Il taglio e' un processo localizzato."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     }
+    },
+    "potenza": {
+     "valore": 0.1,
+     "unita": "mW"
+    },
+    "tempo": {
+     "valore": 0.1,
+     "unita": "s",
+     "tipo": "processo"
+    }
+   },
+   "citazioni": [
+    "Both the isomerization and dioxane loss from the crystal were probed on a confocal Raman microscope using a sequence of two rapid pulses (0.1 s each) of laser light of 532 nm wavelength and 0.1 mW power.",
+    "After the first 532 nm pulse, the Raman signals associated with the cis-azo component disappeared completely, concomitant with the appearance of new Raman bands associated with trans-azo. Importantly, the characteristic ν(C–O–C) Raman band for dioxane at 830 cm–1 remained, suggesting that irradiation induced a rapid transformation of (cis-azo)(dioxane) to the corresponding (trans-azo)(dioxane) cocrystal."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ],
+    "meccanismo": [
+     "altro"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "cis-azobenzene (azo) unit",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F1",
+     "citazione": "The light-induced color change and photomechanical bending occur due to different extents of the dye cis → trans isomerization taking place at different irradiation intensities, while the photocarving effect is due the combination of the volatility of the cocrystal former and the photochromic nature of the azobenzene."
+    },
+    {
+     "gruppo": "dioxane (ν(C–O–C) Raman band at 830 cm–1)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "resta",
+     "forma": "F3",
+     "citazione": "Importantly, the characteristic ν(C–O–C) Raman band for dioxane at 830 cm–1 remained, suggesting that irradiation induced a rapid transformation of (cis-azo)(dioxane) to the corresponding (trans-azo)(dioxane) cocrystal."
+    }
+   ],
+   "note": "Primo impulso di 0.1 s (532 nm, 0.1 mW): spariscono del tutto i segnali Raman del cis-azo, compaiono quelli del trans-azo, la banda del diossano resta: isomerizzazione prima della perdita del coformero. Intermedio transitorio, non visto in PXRD («Although the short-lived (trans-azo)(dioxane) phase was not observed by PXRD»); certezza media perche' lo dice il Raman e con «suggesting». La sonda Raman a 785 nm e' verificata come non fotoattiva."
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     }
+    },
+    "potenza": {
+     "valore": 0.1,
+     "unita": "mW"
+    },
+    "tempo": {
+     "valore": 0.2,
+     "unita": "s",
+     "tipo": "processo"
+    }
+   },
+   "citazioni": [
+    "Raman spectroscopy analysis of the irradiated spot following the second 532 nm laser pulse then revealed the complete disappearance of the ν(C–O–C) Raman band, with the overall spectrum exhibiting only the Raman shifts of pure trans-azo.",
+    "This band disappearance suggests the complete loss of dioxane, consistent with the results of the PXRD analyses.",
+    "(d) Raman spectra from in situ analysis of a single crystal of (cis-azo)(dioxane) being irradiated with a 532 nm laser at a 0.1 mW power, illustrating first the replacement of cis-azo bands with those of trans-azo at 0.1 s of irradiation, followed by the disappearance of dioxane signal highlighted by “∗” after 0.2 s irradiation.",
+    "Overall, the real-time Raman spectroscopy (Figure 2d) analyses on the single crystal indicate that the laser light-induced desolvation of (cis-azo)(dioxane) proceeds through a cis → trans photoisomerization, giving rise first to a transient appearance of (trans-azo)(dioxane), which subsequently converts to pure solid trans-azo (Figure 2e)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E5",
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "dioxane (ν(C–O–C) Raman band at 830 cm–1)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "forma": "F3",
+     "citazione": "This band disappearance suggests the complete loss of dioxane, consistent with the results of the PXRD analyses."
+    },
+    {
+     "gruppo": "halogen bonds (XB)",
+     "ruolo": "sintone",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "forma": "F3",
+     "citazione": "In contrast, the CPC behavior enabled through the dye-volatile cocrystal design does not involve high-temperature disruption of covalent bonds but instead gentle, low-temperature, and localized cleavage of noncovalent interactions, such as halogen bonds (XB).46"
+    }
+   ],
+   "note": "Secondo impulso: scompare la banda del diossano (perdita completa) e lo spettro e' di solo trans-azo; 0.2 s e' l'irradiazione totale della Fig. 2d. Il polimorfo del trans-azo non e' distinto dal Raman: forma collettiva F8."
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "dose": {
+      "valore": 5,
+      "unita": "W mm–2",
+      "tipo": "intensita",
+      "circa": true
+     },
+     "sorgente": "laser, microscopio confocale"
+    },
+    "potenza": {
+     "valore": null,
+     "min": 5,
+     "unita": "mW",
+     "limite": "sopra"
+    }
+   },
+   "citazioni": [
+    "Upon irradiation with laser light of higher power (>5 mW, which corresponds to a light intensity of ∼5 W mm–2), larger holes of approximately 20 μm diameter were carved into the crystal surface, with SEM imaging revealing a significant buildup of material, most likely trans-azo II, with ridges over 1 μm in height forming around the area of the hole.",
+    "Single crystals of (cis-azo)(dioxane) were irradiated with a 532 nm laser beam using a confocal microscope system which enabled numerically controlled precision photocarving of the crystal surface."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "integrita": "fratturato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "halogen bonds (XB)",
+     "ruolo": "sintone",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "forma": "F1",
+     "citazione": "In contrast, the CPC behavior enabled through the dye-volatile cocrystal design does not involve high-temperature disruption of covalent bonds but instead gentle, low-temperature, and localized cleavage of noncovalent interactions, such as halogen bonds (XB).46"
+    }
+   ],
+   "note": "Fotoincisione in un sistema confocale con potenza sopra 5 mW: fori di circa 20 μm, con accumulo di materiale «most likely trans-azo II» (SEM, non diffrazione): prodotto attribuito per morfologia, certezza bassa."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "sorgente": "laser, microscopio confocale"
+    },
+    "potenza": {
+     "valore": 1,
+     "unita": "mW"
+    }
+   },
+   "citazioni": [
+    "However, the use of a lower power (1 mW) laser beam in the confocal microscope photocarving experiment was found to decrease the cut diameter to approximately 1 μm, with SEM imaging revealing the appearance of small plate-like crystals aligned parallel to the crystal surface.",
+    "The appearance and orientation of the crystallites indicate a high mobility of trans-azo molecules, and crystallization of trans-azo II, constrained in the direction of the laser movement.",
+    "Single crystals of (cis-azo)(dioxane) were irradiated with a 532 nm laser beam using a confocal microscope system which enabled numerically controlled precision photocarving of the crystal surface."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "halogen bonds (XB)",
+     "ruolo": "sintone",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "forma": "F1",
+     "citazione": "In contrast, the CPC behavior enabled through the dye-volatile cocrystal design does not involve high-temperature disruption of covalent bonds but instead gentle, low-temperature, and localized cleavage of noncovalent interactions, such as halogen bonds (XB).46"
+    }
+   ],
+   "note": "Con 1 mW il taglio e' di circa 1 μm di diametro e ai lati si formano lastrine di trans-azo II (attribuzione da morfologia e orientamento, SEM): certezza bassa."
+  },
+  {
+   "id": "E9",
+   "da": "F1",
+   "a": "reazione",
+   "esito": "parziale",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "sorgente": "laser, fascio di 78 μm"
+    },
+    "potenza": {
+     "valore": 5,
+     "unita": "mW"
+    }
+   },
+   "citazioni": [
+    "Photocarving was also studied visually, using a 78 μm beam diameter laser at powers of 5–15 mW (2.1–6.3 W mm–2) and a high-speed camera operating at 1000 frames per second (fps) (Supplementary Figures 13–15).",
+    "While irradiation at the low power setting of 5 mW resulted only in minor etching of the cocrystal surface accompanied by a color change, the higher irradiation powers of 10 and 15 mW both resulted in photocarving, clearly evident by the formation of a hole in the crystal surface (Supporting Information Videos 3, 4, and 5).",
+    "In each case irradiation led to the emission of a “fog” from the spot of the irradiation, which was assigned to the release of dioxane.37",
+    "Video 5, high-speed camera video of (cis-azo)(dioxane) photocarving, 5 mW, 532 nm irradiation (MP4)"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "A 5 mW (fascio di 78 μm) solo una leggera incisione con cambio di colore, niente foro: il foro (fotoincisione) richiede almeno 10 mW in questo setup (E10). Il «fog» emesso in ogni caso e' assegnato al rilascio di diossano. L'intervallo 5–15 mW corrisponde a 2.1–6.3 W mm–2: il testo non dice a quanti W mm–2 stia 5 mW da solo."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "sorgente": "laser, fascio di 78 μm"
+    },
+    "potenza": {
+     "valore": null,
+     "valori": [
+      10,
+      15
+     ],
+     "unita": "mW"
+    }
+   },
+   "citazioni": [
+    "Photocarving was also studied visually, using a 78 μm beam diameter laser at powers of 5–15 mW (2.1–6.3 W mm–2) and a high-speed camera operating at 1000 frames per second (fps) (Supplementary Figures 13–15).",
+    "While irradiation at the low power setting of 5 mW resulted only in minor etching of the cocrystal surface accompanied by a color change, the higher irradiation powers of 10 and 15 mW both resulted in photocarving, clearly evident by the formation of a hole in the crystal surface (Supporting Information Videos 3, 4, and 5).",
+    "In each case irradiation led to the emission of a “fog” from the spot of the irradiation, which was assigned to the release of dioxane.37",
+    "Video 3, high-speed camera video of (cis-azo)(dioxane) photocarving, 15 mW, 532 nm irradiation (MP4)",
+    "Video 4, high-speed camera video of (cis-azo)(dioxane) photocarving, 10 mW, 532 nm irradiation (MP4)"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "halogen bonds (XB)",
+     "ruolo": "sintone",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "forma": "F1",
+     "citazione": "In contrast, the CPC behavior enabled through the dye-volatile cocrystal design does not involve high-temperature disruption of covalent bonds but instead gentle, low-temperature, and localized cleavage of noncovalent interactions, such as halogen bonds (XB).46"
+    }
+   ],
+   "note": "Fotoincisione con foro a 10 e 15 mW (due prove, un evento con valori), ripresa con camera veloce a 1000 fps; prodotto non caratterizzato in questa prova: a = ignota. Il «fog» e' il diossano rilasciato."
+  },
+  {
+   "id": "E11",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "sorgente": "laser, fascio di 78 μm"
+    }
+   },
+   "citazioni": [
+    "Moreover, eliciting a photoresponse at a lower light intensity did not prevent the cocrystal from also exhibiting a different response upon subsequent irradiation at a higher light intensity. For example, while irradiation of a crystal with a beam of 2 mm diameter led to photomechanical bending, subsequent irradiation of the same bent crystal with a beam of 78 μm diameter was still found to lead to photocarving."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "da_evento": "E3",
+   "pretrattamento": "cristallo piegato dalla flessione fotomeccanica (fascio di 2 mm)",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Stesso cristallo gia' piegato (E3) e poi irradiato con fascio di 78 μm: taglia ancora. Intensita' e lunghezza d'onda di questa prova non dette."
+  },
+  {
+   "id": "E12",
+   "da": "F2",
+   "a": "reazione",
+   "esito": "parziale",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "sorgente": "LED 532 nm"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "h",
+     "tipo": "attesa"
+    }
+   },
+   "citazioni": [
+    "Irradiation with low-intensity 532 nm LED light led to a change in color from yellow to orange (Figure 4c), along with minor cracking of the crystal, attributed to the strain of cis–trans isomerization.",
+    "After dissolving the irradiated cocrystal in CDCl3, 19F NMR analysis revealed that cis- to trans-azo conversion took place to an extent of ∼8% (Supplmentary Figure 16).",
+    "Notably, such conversion was achieved after 2 h of irradiation, indicating greater photostability of (cis-azo)(pyrazine) compared to (cis-azo)(dioxane) which showed similar conversion after only 20 min of irradiation."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "analisi_chimica",
+     "microscopia"
+    ],
+    "conversione": {
+     "valore": 8,
+     "unita": "%",
+     "circa": true
+    },
+    "integrita": "fratturato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "cis-azobenzene (azo) unit",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "The light-induced color change and photomechanical bending occur due to different extents of the dye cis → trans isomerization taking place at different irradiation intensities, while the photocarving effect is due the combination of the volatility of the cocrystal former and the photochromic nature of the azobenzene."
+    }
+   ],
+   "note": "Cambio di colore da giallo ad arancione con piccole fratture da deformazione dell'isomerizzazione. Intensita' del LED non detta per questa prova."
+  },
+  {
+   "id": "E13",
+   "da": "F2",
+   "a": "reazione",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": null,
+      "valori": [
+       488,
+       532
+      ],
+      "unita": "nm"
+     },
+     "dose": {
+      "valore": 150,
+      "unita": "mW mm–2",
+      "tipo": "intensita"
+     },
+     "sorgente": "laser disperso"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "min",
+     "tipo": "trasformazione"
+    }
+   },
+   "citazioni": [
+    "Upon irradiation by dispersed laser light of 488 or 532 nm wavelength and intensity of 150 mW mm–2, a crystal of (cis-azo)(pyrazine) was observed to bend away from the source of irradiation over the course of a minute, with the irradiated section changing color from yellow to red, consistent with cis → trans isomerization (Supporting Information Video 6, shown at 4× speed).",
+    "the second panel showing the crystal after 1 min of irradiation."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "integrita": "deformato",
+    "meccanismo": [
+     "altro"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "cis-azobenzene (azo) unit",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "The light-induced color change and photomechanical bending occur due to different extents of the dye cis → trans isomerization taking place at different irradiation intensities, while the photocarving effect is due the combination of the volatility of the cocrystal former and the photochromic nature of the azobenzene."
+    }
+   ],
+   "note": "Flessione fotomeccanica piu' lenta e meno marcata che nel diossano (si piega allontanandosi dalla sorgente in circa un minuto). Conversione non misurata: l'isomerizzazione e' dedotta dal colore («consistent with»)."
+  },
+  {
+   "id": "E14",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "dose": {
+      "valore": 2.25,
+      "unita": "W mm–2",
+      "tipo": "intensita"
+     },
+     "sorgente": "laser"
+    }
+   },
+   "citazioni": [
+    "Cold photocarving was demonstrated by exposure to either green or blue light, on both fresh or previously irradiated crystals.",
+    "Using a sample of (cis-azo)(pyrazine), the sample was exposed to 532 nm laser radiation, showing the ability to readily carve through the crystal using a higher light intensity beam of 2.25 W mm–2 (Figure 4e, also Supporting Information Video 7).",
+    "In contrast to their dioxane counterpart, crystals of (cis-azo)(pyrazine) were found to retain crystallinity after cutting with a 532 nm laser beam, which was evident from full X-ray diffraction data that were collected from a parent (cis-azo)(pyrazine) single crystal before irradiation and on the daughter crystal resulting from cutting (Figure 4b, Supplementary Figures 17 and 18).",
+    "The freshly laser-cut crystal exhibited only X-ray diffraction signals of (cis-azo)(pyrazine), with the only indication of cis → trans isomerization being a slight change in the color of the cut crystal surface from yellow to red."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "integrita": "intatto"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo sulla fase: il cristallo tagliato dal laser (taglio completo) resta (cis-azo)(pirazina) all'SCXRD, con solo un lieve cambio di colore sulla superficie di taglio; il taglio avviene (fotoincisione) ma il cristallo figlio non cambia fase. a = ignota perche' il testo non nomina la forma attesa (il confronto e' col diossano, che da' trans-azo I/II)."
+  },
+  {
+   "id": "E15",
+   "da": "F2",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 532,
+      "unita": "nm"
+     },
+     "dose": {
+      "valore": 37,
+      "unita": "mW·cm–2",
+      "tipo": "intensita"
+     },
+     "sorgente": "LED"
+    },
+    "tempo": {
+     "valore": 20,
+     "unita": "h",
+     "tipo": "attesa"
+    }
+   },
+   "citazioni": [
+    "Changes to (cis-azo)(pyrazine) upon irradiation were also followed by PXRD (Supplementary Figure 19), by irradiating a bulk crystalline powder of the cocrystal with dispersed green (532 nm wavelength) LED light of light intensity 37 mW·cm–2.",
+    "Visual inspection of the PXRD patterns of the material before and after irradiation indicated the complete transformation of (cis-azo)(pyrazine) to a physical mixture of solids trans-azo I and II over a period of 20 h, demonstrating improved photostability compared to (cis-azo)(dioxane).",
+    "Similar to (cis-azo)(dioxane), analysis of the PXRD patterns did not reveal any sign of (trans-azo)(pyrazine) or solid cis-azo, suggesting that cis → trans isomerization and loss of coformer upon irradiation of the (cis-azo)(pyrazine) cocrystal either are simultaneous or occur through intermediates that are too minute to be observed via PXRD."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "cis-azobenzene (azo) unit",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "The light-induced color change and photomechanical bending occur due to different extents of the dye cis → trans isomerization taking place at different irradiation intensities, while the photocarving effect is due the combination of the volatility of the cocrystal former and the photochromic nature of the azobenzene."
+    },
+    {
+     "gruppo": "I···N halogen bond (cis-azo···pyrazine)",
+     "ruolo": "sintone",
+     "con": "ospite",
+     "forma": "F2",
+     "citazione": "The calculated halogen-bonding energies additionally highlight the stability of the pyrazine cocrystals compared to their dioxane counterparts and suggest that the increase in halogen-bonding strength upon switching from an oxygen-based to a nitrogen-based acceptor contributes to the overall stability of the cocrystal."
+    }
+   ],
+   "note": "Polvere irradiata con LED: trasformazione completa in 20 h in una miscela fisica di trans-azo I e II (contro 20 min del diossano), nessun segno di (trans-azo)(pirazina) o cis-azo solido. Il ruolo del legame di alogeno I···N e' un'ipotesi dai calcoli DFT (E_XB −28.11 contro −18.55 kJ mol–1 per l'I···O), non misurata."
+  },
+  {
+   "id": "E16",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "sorgente": "laser verde"
+    },
+    "potenza": {
+     "valore": null,
+     "min": 15,
+     "unita": "mW",
+     "limite": "sopra"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "s",
+     "tipo": "attesa"
+    }
+   },
+   "citazioni": [
+    "Irradiation of a (cis-azo)(pyrazine) crystal with a higher power green laser beam (>15 mW) after 5 s produced a hole at the spot of irradiation, with significant material buildup around the hole."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Foro dopo 5 s con laser verde sopra 15 mW e accumulo di materiale intorno; il prodotto non e' identificato per questa prova (SEM)."
+  },
+  {
+   "id": "E17",
+   "da": "F2",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "sorgente": "laser verde"
+    },
+    "potenza": {
+     "valore": 3,
+     "unita": "mW",
+     "circa": true
+    }
+   },
+   "citazioni": [
+    "Reducing the power of the laser line (to ∼3 mW) and automating a linear cutting process revealed plate-like crystallites forming on the edge of the cut similar to those seen for (cis-azo)(dioxane), again indicating displacement from the irradiated area and crystallization of trans-azo II."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Taglio lineare a circa 3 mW: lastrine ai bordi del taglio, attribuite a trans-azo II per analogia con il diossano e per morfologia (SEM): certezza bassa."
+  },
+  {
+   "id": "E18",
+   "da": "F1",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 80,
+     "max": 110,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C min–1"
+    },
+    "atmosfera": "nitrogen stream (50 cm3 min–1)"
+   },
+   "citazioni": [
+    "The DSC thermogram for (cis-azo)(dioxane) heated at a rate of 5 C° min–1 shows an endothermic process in the 80–110 °C range, attributed to dioxane loss (Figure 5a).",
+    "This assignment was supported by TGA, which revealed a 14.2% loss of weight in the same thermal range, consistent with the theoretically calculated content of dioxane (13.2%) in (cis-azo)(dioxane) (Supplementary Figure 21).",
+    "The samples were placed in alumina crucibles, and measurements were conducted under a stream of nitrogen (50 cm3 min–1) gas, at a heating rate of 5 °C min–1.",
+    "The DSC, TGA, and hot-stage microscopy show that the first step in the heat-driven process is desolvation of the cocrystal to form solid cis-azo which subsequently melts and then undergoes isomerization and crystallization to form solid trans-azo.",
+    "Heating of a yellow (cis-azo)(dioxane) crystal did not produce visible changes in shape or color until 104 °C, when the crystal begins to darken and crack, which was interpreted as due to the loss of dioxane coformer.",
+    "While the initial Raman spectrum (25 °C) revealed only bands of cis-azo and dioxane (ν(C–O–C) at 830 cm–1), increasing the temperature to 105 °C led to the appearance of new low-frequency bands (<150 cm–1), indicating changes in intermolecular vibrations, and the disappearance of the dioxane Raman band at 830 cm–1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "microscopia",
+     "Raman"
+    ],
+    "perdita_massa": {
+     "valore": 14.2,
+     "unita": "%",
+     "tipo": "totale"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "min": 80,
+       "max": 110,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ],
+    "integrita": "fratturato"
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "dioxane coformer",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_rompe",
+     "forma": "F1",
+     "citazione": "Indeed, if the heating is conducted with a (cis-azo)(dioxane) cocrystal submerged in oil, the darkening of the crystal is associated with the appearance of bubbles on the crystal surface, consistent with the removal of gaseous dioxane."
+    }
+   ],
+   "note": "Percorso termico, primo passo: perdita del diossano che da' cis-azo solido (DSC 80–110 °C a 5 °C min–1, TGA 14.2%). Microscopia a stadio caldo (20 °C min–1): il cristallo scurisce e si fessura a 104 °C; Raman in temperatura (cristallo singolo): a 105 °C scompare la banda del diossano a 830 cm–1. Crogiolo: allumina (non si dice se con coperchio), campione 'bulk'. Il DSC alternativo del TA (1 °C min–1, pentola di alluminio ermetica) non e' assegnato a una figura. La microscopia dice nessuna variazione visibile fino a 104 °C mentre il DSC mostra la perdita gia' da 80 °C (incoerenza notata nell'articolo)."
+  },
+  {
+   "id": "E19",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 104,
+     "unita": "°C",
+     "limite": "sotto"
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C min–1"
+    }
+   },
+   "citazioni": [
+    "Heating of a yellow (cis-azo)(dioxane) crystal did not produce visible changes in shape or color until 104 °C, when the crystal begins to darken and crack, which was interpreted as due to the loss of dioxane coformer.",
+    "Heating was performed from 20 to 200 °C at a rate of 20 °C min–1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo dalla microscopia a stadio caldo: nessuna variazione visibile di forma o colore fino a 104 °C. Il DSC (E18) mostra pero' l'endoterma di perdita del diossano a 80–110 °C."
+  },
+  {
+   "id": "E20",
+   "da": "F4",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 141,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C min–1"
+    }
+   },
+   "citazioni": [
+    "Further heating leads to another endothermic event at 141 °C, immediately followed by an exothermic process, which has been interpreted as the melting of cis-azo followed by thermally induced isomerization and crystallization into solid trans-azo.32",
+    "Further heating leads to liquefaction at ∼121 °C, followed by recrystallization at ∼139 °C to form crystallites of trans-azo that subsequently melt at the expected melting point temperature of 185 °C.",
+    "Further heating to 165 °C leads also to the appearance of new Raman bands that were consistent with trans-azo.",
+    "The samples were placed in alumina crucibles, and measurements were conducted under a stream of nitrogen (50 cm3 min–1) gas, at a heating rate of 5 °C min–1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "da_evento": "E18",
+   "passo": "fusione del cis-azo, poi isomerizzazione termica e cristallizzazione del trans-azo (esotermo subito dopo)",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia",
+     "Raman"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 141,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Il cis-azo solido (dal cocristallo desolvato) fonde a 141 °C (DSC) e dal fuso cristallizza trans-azo isomerizzato (esotermo subito dopo): «has been interpreted as» (rif. 32), certezza media. Microscopia: liquefazione a ~121 °C e ricristallizzazione a ~139 °C; Raman: bande del trans-azo a 165 °C. Stessa trasformazione con altre tecniche e T diverse (121 contro 141 °C): un solo evento. Il polimorfo di trans-azo non e' detto: F8."
+  },
+  {
+   "id": "E21",
+   "da": "F8",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 197,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "°C min–1"
+    }
+   },
+   "citazioni": [
+    "Upon further heating, the DSC thermogram exhibits a sharp endothermic process at 197 °C, consistent with the melting of trans-azo.",
+    "The samples were placed in alumina crucibles, and measurements were conducted under a stream of nitrogen (50 cm3 min–1) gas, at a heating rate of 5 °C min–1."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 197,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E20",
+   "conflitto": "Microscopia a stadio caldo: i cristalliti di trans-azo fondono a 185 °C, «the expected melting point temperature». Si tiene il DSC (197 °C), piu' dettagliato.",
+   "note": "Fusione del trans-azo formato dal percorso termico del cocristallo; polimorfo non detto."
+  },
+  {
+   "id": "E22",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 80,
+     "max": 115,
+     "unita": "°C",
+     "tipo": "intervallo"
+    }
+   },
+   "citazioni": [
+    "The DSC analysis of bulk (cis-azo)(pyrazine) (Figure 5a) revealed three distinct endothermic events, the first between 80 and 115 °C, which was identified as loss of pyrazine coformer (confirmed by TGA, which revealed a mass loss of ∼12.5%, Supplementary Figure 24), the second at 140 °C, which was assigned as cis-azo melt, and the third was at 196 °C, which was assigned to the melting of trans-azo.",
+    "The two experiments yielded very similar results, with the crystal retaining the overall appearance until ∼90 °C, followed by darkening and the appearance of bubbles (in the case of the crystal submerged in oil) at higher temperatures. These observations are consistent with cis → trans isomerization and thermal loss of pyrazine."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "TGA",
+     "microscopia"
+    ],
+    "perdita_massa": {
+     "valore": 12.5,
+     "unita": "%",
+     "circa": true,
+     "tipo": "totale"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "min": 80,
+       "max": 115,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ],
+    "integrita": "opaco"
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Prima endoterma del DSC di (cis-azo)(pirazina): perdita di pirazina (TGA ~12.5%). Il prodotto e' cis-azo solido solo per via implicita: la seconda endoterma a 140 °C «was assigned as cis-azo melt». Velocita' di riscaldamento non scritta per la pirazina (Fig. 5a sovrappone i due DSC; il metodo dichiara 5 °C min–1 per il sistema TGA/DSC e 1 °C min–1 per il TA). Il segnale debole a ~52 °C e' la fusione di pirazina solida in eccesso (Fig. 5a), non un evento della forma."
+  },
+  {
+   "id": "E23",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "max": 90,
+     "unita": "°C",
+     "limite": "sotto",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "°C min–1"
+    }
+   },
+   "citazioni": [
+    "The two experiments yielded very similar results, with the crystal retaining the overall appearance until ∼90 °C, followed by darkening and the appearance of bubbles (in the case of the crystal submerged in oil) at higher temperatures.",
+    "Heating was performed from 20 to 200 °C at a rate of 20 °C min–1."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo dalla microscopia a stadio caldo su un cristallo di (cis-azo)(pirazina), anche in olio: aspetto invariato fino a ~90 °C."
+  },
+  {
+   "id": "E24",
+   "da": "F4",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 140,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "citazioni": [
+    "The DSC analysis of bulk (cis-azo)(pyrazine) (Figure 5a) revealed three distinct endothermic events, the first between 80 and 115 °C, which was identified as loss of pyrazine coformer (confirmed by TGA, which revealed a mass loss of ∼12.5%, Supplementary Figure 24), the second at 140 °C, which was assigned as cis-azo melt, and the third was at 196 °C, which was assigned to the melting of trans-azo.",
+    "An exothermic process was also observed between approximately 140 and 145 °C, which was identified as a combination of cis → trans isomerization and recrystallization.",
+    "After ∼140 °C the sample consists of solid trans-azo, which was identified by PXRD, and subsequently either melts or dissolves in oil at around 200 °C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "da_evento": "E22",
+   "passo": "fusione del cis-azo a 140 °C, poi esotermo di isomerizzazione cis → trans e ricristallizzazione (circa 140–145 °C)",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD",
+     "microscopia"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 140,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     },
+     {
+      "grandezza": {
+       "valore": null,
+       "min": 140,
+       "max": 145,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "eso"
+     }
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dopo la perdita di pirazina il cis-azo fonde a 140 °C e dal fuso cristallizza trans-azo isomerizzato (esotermo 140–145 °C); il solido oltre ~140 °C e' trans-azo (PXRD). Polimorfo non detto: F8."
+  },
+  {
+   "id": "E25",
+   "da": "F8",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 196,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    }
+   },
+   "citazioni": [
+    "The DSC analysis of bulk (cis-azo)(pyrazine) (Figure 5a) revealed three distinct endothermic events, the first between 80 and 115 °C, which was identified as loss of pyrazine coformer (confirmed by TGA, which revealed a mass loss of ∼12.5%, Supplementary Figure 24), the second at 140 °C, which was assigned as cis-azo melt, and the third was at 196 °C, which was assigned to the melting of trans-azo.",
+    "After ∼140 °C the sample consists of solid trans-azo, which was identified by PXRD, and subsequently either melts or dissolves in oil at around 200 °C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": 196,
+       "unita": "°C"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E24",
+   "note": "Fusione del trans-azo formato dal percorso termico di (cis-azo)(pirazina); in microscopia «melts or dissolves in oil at around 200 °C»."
+  },
+  {
+   "id": "E26",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 785,
+      "unita": "nm"
+     },
+     "sorgente": "laser rosso, sonda Raman"
+    }
+   },
+   "citazioni": [
+    "After each pulse, the Raman spectrum of the irradiated spot on the crystal was immediately recorded using a 785 nm red laser, previously verified not to elicit a photoresponse.",
+    "The type of photoresponse was not noticeably dependent on the wavelength of incident irradiation (488, 515, or 532 nm), as long as either green or blue light was used, i.e. light with wavelengths that can excite well within the n−π* absorption band of the azo component (Supplementary Figure 3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Il laser rosso a 785 nm usato come sonda Raman, «previously verified not to elicit a photoresponse»: nessuna risposta (la verifica non e' mostrata nel testo; intensita' e durata non dette). La risposta c'e' solo con luce verde o blu, nella banda n−π* del gruppo azo."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "1,4-dioxane"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente"
+   },
+   "pretrattamento": "soluzione di trans-azo irradiata 30 min con LED a 532 nm (37 mW·cm–2) per ottenere il cis-azo",
+   "citazioni": [
+    "Yellow needle-shaped single crystals of (cis-azo)(dioxane) were obtained by slow evaporation of a solution of cis-azo in dioxane.",
+    "For cocrystallization of (trans-azo)(dioxane) approximately 6 mg of trans-azo (0.010 mmol) was dissolved in a minimal volume of 1,4-dioxane (∼2 mL). The solution was then irradiated for 30 min via a 532 nm 37 mW·cm–2 LED and left to evaporate at room temperature, yielding long, yellow, needle-shaped crystals."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "conflitto": "I Metodi intitolano la prova «cocrystallization of (trans-azo)(dioxane)», ma i cristalli ottenuti dalla soluzione irradiata sono (cis-azo)(dioxane) (Risultati).",
+   "note": "Il cis-azo si forma in soluzione per irraggiamento del trans-azo e poi cristallizza con il diossano."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "hexanes",
+    "CH2Cl2"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente"
+   },
+   "rapporto_soluzione": "trans-azo 0.010 mmol : pyrazine 0.075 mmol (Metodi)",
+   "pretrattamento": "soluzione irradiata con LED a 532 nm (37 mW·cm–2) per formare cis-azo",
+   "citazioni": [
+    "Crystals of (cis-azo)(pyrazine) were readily obtained by the crystallization of a preground equimolar mixture of trans-azo and pyrazine. The sample was then dissolved in hexanes with dropwise addition of CH2Cl2 until complete dissolution. The resulting solution was irradiated by a 532 nm LED source to induce the formation of cis-azo and left to crystallize by slow evaporation.",
+    "For cocrystallization of (cis-azo)(pyrazine), approximately 6 mg of trans-azo (0.010 mmol) and 6 mg of pyrazine (0.075 mmol) were mixed in hexanes (∼5 mL) with methylene chloride added dropwise until all material was fully dissolved. The solution was then irradiated with a 532 nm 37 mW·cm–2 LED. The solution was left to evaporate at room temperature, yielding lath-shaped yellow crystals."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "conflitto": "Risultati: «preground equimolar mixture of trans-azo and pyrazine»; Metodi: 0.010 mmol di trans-azo e 0.075 mmol di pirazina mescolati in esano, senza macinazione. Cristalli «large plates» nei Risultati, «lath-shaped» nei Metodi."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "forma": "F1",
+     "grandezza": {
+      "valore": -34.25,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia di isomerizzazione cis → trans del cocristallo, (cis-azo)(dioxane) → (trans-azo)(dioxane) (ΔEiso)",
+     "calcolato": true,
+     "citazione": "cocrystal isomerization process | ΔEiso, kJ mol–1 (cis-azo)(dioxane) → (trans-azo)(dioxane) | –34.25"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F2",
+     "grandezza": {
+      "valore": -43.68,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia di isomerizzazione cis → trans del cocristallo, (cis-azo)(pyrazine) → (trans-azo)(pyrazine) (ΔEiso)",
+     "calcolato": true,
+     "citazione": "(cis-azo)(pyrazine) → (trans- azo)(pyrazine) | –43.68"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F4",
+     "grandezza": {
+      "valore": -37.67,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): ΔEiso cis-azo → trans-azo I (solidi)",
+     "calcolato": true,
+     "citazione": "cis-azo → trans-azo I | –37.67"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F4",
+     "grandezza": {
+      "valore": -36.97,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): ΔEiso cis-azo → trans-azo II (solidi)",
+     "calcolato": true,
+     "citazione": "cis-azo → trans-azo II | –36.97"
+    },
+    {
+     "tipo": "altro",
+     "forma": null,
+     "grandezza": {
+      "valore": -36.99,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "calcolo in fase gassosa (rif. 19): ΔEiso cis-azo → trans-azo",
+     "calcolato": true,
+     "citazione": "cis-azo → trans-azo (g)19 | –36.99"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F1",
+     "grandezza": {
+      "valore": 86.86,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia di decomposizione ΔEdec(cis) di (cis-azo)(dioxane) in cis-azo solido + coformero gassoso",
+     "calcolato": true,
+     "citazione": "cocrystal | ΔEdec(cis), kJ mol–1 | ΔEdec(trans II), kJ mol–1 | EXB, kJ mol–1 (cis-azo) (dioxane) | 86.86 | 49.74 | –18.55"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F1",
+     "grandezza": {
+      "valore": 49.74,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia di decomposizione ΔEdec(trans II) di (cis-azo)(dioxane) in trans-azo II solido + coformero gassoso",
+     "calcolato": true,
+     "citazione": "cocrystal | ΔEdec(cis), kJ mol–1 | ΔEdec(trans II), kJ mol–1 | EXB, kJ mol–1 (cis-azo) (dioxane) | 86.86 | 49.74 | –18.55"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F1",
+     "grandezza": {
+      "valore": -18.55,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia del legame di alogeno EXB nel cocristallo (cis-azo)(dioxane)",
+     "calcolato": true,
+     "citazione": "cocrystal | ΔEdec(cis), kJ mol–1 | ΔEdec(trans II), kJ mol–1 | EXB, kJ mol–1 (cis-azo) (dioxane) | 86.86 | 49.74 | –18.55"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F2",
+     "grandezza": {
+      "valore": 100.18,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia di decomposizione ΔEdec(cis) di (cis-azo)(pyrazine) in cis-azo solido + coformero gassoso",
+     "calcolato": true,
+     "citazione": "(cis-azo) (pyrazine) | 100.18 | 63.07 | –28.11"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F2",
+     "grandezza": {
+      "valore": 63.07,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia di decomposizione ΔEdec(trans II) di (cis-azo)(pyrazine) in trans-azo II solido + coformero gassoso",
+     "calcolato": true,
+     "citazione": "(cis-azo) (pyrazine) | 100.18 | 63.07 | –28.11"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F2",
+     "grandezza": {
+      "valore": -28.11,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia del legame di alogeno EXB nel cocristallo (cis-azo)(pyrazine)",
+     "calcolato": true,
+     "citazione": "(cis-azo) (pyrazine) | 100.18 | 63.07 | –28.11"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F3",
+     "grandezza": {
+      "valore": 84.13,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia di decomposizione ΔEdec(trans II) di (trans-azo)(dioxane) in trans-azo II solido + coformero gassoso",
+     "calcolato": true,
+     "citazione": "(trans-azo) (dioxane) | N/A | 84.13 | –19.05"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F3",
+     "grandezza": {
+      "valore": -19.05,
+      "unita": "kJ mol–1"
+     },
+     "metodo": "DFT periodica (CASTEP, PBE con correzione di dispersione): energia del legame di alogeno EXB nel cocristallo (trans-azo)(dioxane)",
+     "calcolato": true,
+     "citazione": "(trans-azo) (dioxane) | N/A | 84.13 | –19.05"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "forma": "F1",
+     "testo": "unita azobenzenica fotocommutabile cis → trans, componente XB donatore del cocristallo (cis-azo)",
+     "citazione": "Each of these optical responses, which result from using the photoswitchable cis-azo unit as a cocrystal component, can be achieved in the same crystal by careful control of laser irradiation parameters, including power and beam diameter."
+    }
+   ]
+  }
+ ]
+}
