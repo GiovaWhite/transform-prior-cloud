@@ -1,0 +1,2101 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/cryst7010013",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Cocristalli di ivabradine cloridrato (IVA HCl) con acido (S)- e (R)-mandelico (IClSM, IClRM) e solvato con etanolo (IClEt): screening, riproduzione per sospensione e LAG, formazione in situ per granulazione con etanolo (non con acqua) in presenza di lattosio, test di stress sulle polveri (Tabella 5: II, γ, cocristallo a 80 °C, 0/75% RH, 100% RH) e stabilita' di miscele di formulazione A-J a 80 °C per 72 h. Non estratti: i test di stabilita' a lungo termine di IClSM e della forma δd a 25 °C/60% RH e 40 °C/75% RH dopo 2 settimane, 1 e 3 mesi (esiti solo in Table S1, supplementare); le impurezze chimiche (Tabella 5, UPLC; stabilita' chimica delle miscele; pH e acqua delle miscele); la conversione di II in γ citata nell'introduzione «during the stability treatment (this part is not included in the paper)» (gia' coperta dai test di stress); le forme di brevetto (α, βd, γd, δ, ε, ζ, δd1, δd2, ...) senza condizioni; la prova DVS e le analisi IR/Raman/ssNMR delle Figure S1-S15. Incoerenze: la Tabella 5 scrive «3 days 80 °C» mentre i Metodi dicono «80 °C and 0% RH»; i test a 0% e 100% RH sono «10 days at RT» nella sezione 3.3 ma «10 days, 25 °C/100% RH» per II -> β; il testo rimanda a «Table 1 in the Experimental Section» per la composizione delle miscele A-J, che sta nelle Tabelle 2 e 3.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "ivabradine",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "hydrochloric acid",
+   "nome_scritto": "hydrochloride (HCl)",
+   "smiles": null
+  },
+  {
+   "id": "C3",
+   "nome": "(S)-mandelic acid",
+   "smiles": null
+  },
+  {
+   "id": "C4",
+   "nome": "(R)-mandelic acid",
+   "analogo_di": "C3",
+   "smiles": null
+  },
+  {
+   "id": "C5",
+   "nome": "racemic mandelic acid",
+   "analogo_di": "C3",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "ivabradine hydrochloride (IVA HCl)",
+   "etichette_alternative": [
+    "IVA HCl"
+   ],
+   "tipo": [
+    "sale",
+    "non_specificato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "citazione": "Ivabradine hydrochloride (Figure 1, IVA HCl) [19] is used for the treatment of chronic stable angina pectoris and a chronic heart failure",
+   "note": "Forma generica usata come reagente (screening, riproduzioni, granulazione): il polimorfo non e' detto nei Metodi. Le didascalie delle Figure S1 e S7 (supplementare) dicono che il componente di partenza e' la forma δd: «starting components, ivabradin hydrochloride form δd»."
+  },
+  {
+   "id": "F2",
+   "etichetta": "form II",
+   "etichette_alternative": [
+    "IVA HCl form II"
+   ],
+   "tipo": [
+    "sale",
+    "anidro"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "citazione": "Only polymorphic form II showed to be polymorphically pure and was used for further pharmaceutical development.",
+   "note": "Anidra per esclusione: «The other forms are anhydrous, but the structures are yet to be determined» (le forme non-idrate). La struttura di II e' risolta e pubblicata nel brevetto ma non e' nel CSD (nessun refcode). Polimorfo metastabile, scelto come rappresentativo."
+  },
+  {
+   "id": "F3",
+   "etichetta": "form γ",
+   "etichette_alternative": [
+    "polymorphic form γ",
+    "IVA HCl form γ"
+   ],
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "citazione": "Form γ seems to be a monohydrate [20]",
+   "note": "Forma del prodotto originatore (Procorolan). Il monoidrato e' detto con «seems to be» e viene da un riferimento (rif. 20): non e' stato determinato qui."
+  },
+  {
+   "id": "F4",
+   "etichetta": "form β",
+   "etichette_alternative": [
+    "polymorph β",
+    "IVA HCl form β"
+   ],
+   "tipo": [
+    "sale",
+    "idrato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 4,
+    "riferito_a": "unita_formula"
+   },
+   "refcode": "RIYKIT",
+   "citazione": "It should also be noted that the structures of ivabradine hydrochloride forms remain elusive, and only the structure of polymorph β is deposited in the Cambridge Structure Database (CSD) [42] under reference RIYKIT and is determined as tetrahydrate [43].",
+   "note": "Struttura da un lavoro citato (rif. 43), non determinata qui; in questo articolo β compare come prodotto dei test di stress a 100% RH."
+  },
+  {
+   "id": "F5",
+   "etichetta": "form δd",
+   "etichette_alternative": [
+    "IVA HCl δd"
+   ],
+   "tipo": [
+    "sale",
+    "anidro"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "citazione": "Ivabradine hydrochloride (IVA HCl) in form δd and form II, and the excipients, were kindly provided by Zentiva k.s. (Prague, Czech Republic).",
+   "note": "Forma brevettata da Servier, fornita da Zentiva; anidra per esclusione («The other forms are anhydrous»). Confrontata con IClSM nei test di stabilita' a lungo termine, i cui risultati sono solo nel supplementare (Table S1)."
+  },
+  {
+   "id": "F6",
+   "etichetta": "IClSM",
+   "etichette_alternative": [
+    "ivabradine hydrochloride (S)-mandelic acid 1:1 co-crystal",
+    "IVA HCl (S)-mandelic acid co-crystal"
+   ],
+   "tipo": [
+    "cocristallo",
+    "sale"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 7.4447,
+    "b": 8.5027,
+    "c": 52.159,
+    "V": 3301.67,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "T = 120 K"
+   },
+   "ccdc": "1479092",
+   "protonazione": "ivabradine protonato sull'azoto amminico aciclico; ione cloruro; acido mandelico neutro (azoto amidico ciclico non protonato)",
+   "motivi_hb": [
+    {
+     "motivo": "(S)-mandelic acid···chloride hydrogen bonds (two)",
+     "chi": "(S)-mandelic acid and neighboring chloride anions",
+     "citazione": "In IClSM (Figure 3a), the (S)-mandelic acid forms two hydrogen bonds with the neighboring chloride anions."
+    },
+    {
+     "motivo": "weaker N–H···Cl interaction",
+     "chi": "protonated ivabradine nitrogen and chloride anion",
+     "citazione": "The protonated ivabradine nitrogen forms a weaker interaction with the chloride anion."
+    }
+   ],
+   "citazione": "The co-crystals IClSM and IClRM crystallized in the orthorhombic system (space group P 212121) and the ethanol solvate IClEt crystallized in the monoclinic system (space group P 21).",
+   "note": "Cocristallo 1:1 di un sale (cloridrato) con acido (S)-mandelico. Cella, gruppo e T dalla Tabella 4 (testo letto con le colonne in fila: IClSM, IClRM, IClEt); CCDC dalla riga «CCDC number» nello stesso ordine di colonne. Unita' asimmetrica: ivabradine protonata, cloruro, acido mandelico neutro. Impaccamento quasi identico a IClRM; piu' denso e piu' facile da preparare di IClRM."
+  },
+  {
+   "id": "F7",
+   "etichetta": "IClRM",
+   "etichette_alternative": [
+    "ivabradine hydrochloride (R)-mandelic acid 1:1 co-crystal",
+    "IVA HCl (R)-mandelic acid co-crystal"
+   ],
+   "tipo": [
+    "cocristallo",
+    "sale"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C4",
+     "stechiometria": 1
+    }
+   ],
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 7.5398,
+    "b": 8.6296,
+    "c": 51.5013,
+    "V": 3350.96,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "T = 120 K"
+   },
+   "ccdc": "1479091",
+   "protonazione": "ivabradine protonato sull'azoto amminico aciclico; ione cloruro; acido mandelico neutro (azoto amidico ciclico non protonato)",
+   "motivi_hb": [
+    {
+     "motivo": "carboxyl···chloride hydrogen bond",
+     "chi": "carboxyl group of (R)-mandelic acid and chloride anion",
+     "citazione": "In IClRM (Figure 3b), the (R)-mandelic acid forms a hydrogen bonds to the chloride anion via its carboxyl group and to ivabradine carbonyl oxygen via the hydroxyl group."
+    },
+    {
+     "motivo": "hydroxyl···carbonyl hydrogen bond",
+     "chi": "hydroxyl group of (R)-mandelic acid and ivabradine carbonyl oxygen",
+     "citazione": "In IClRM (Figure 3b), the (R)-mandelic acid forms a hydrogen bonds to the chloride anion via its carboxyl group and to ivabradine carbonyl oxygen via the hydroxyl group."
+    },
+    {
+     "motivo": "N–H···Cl hydrogen bond",
+     "chi": "ivabradine N–H and chloride anion",
+     "citazione": "Ivabradine N–H is H-bond to the chloride anion."
+    }
+   ],
+   "citazione": "The co-crystals IClSM and IClRM crystallized in the orthorhombic system (space group P 212121) and the ethanol solvate IClEt crystallized in the monoclinic system (space group P 21).",
+   "note": "Cella, gruppo e T dalla Tabella 4; CCDC dalla riga «CCDC number» nello stesso ordine di colonne. Meno denso di IClSM, ottenuto in meno solventi e spesso contaminato dai componenti di partenza. I legami H sono diversi per l'orientamento del gruppo ossidrile nell'acido (R) rispetto a (S)."
+  },
+  {
+   "id": "F8",
+   "etichetta": "IClEt",
+   "etichette_alternative": [
+    "ivabradine hydrochloride ethanol solvate"
+   ],
+   "tipo": [
+    "sale",
+    "solvato"
+   ],
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": {
+    "specie": "ethanol",
+    "stechiometria": 1,
+    "riferito_a": "unita_formula"
+   },
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 5.4844,
+    "b": 11.7967,
+    "c": 21.8297,
+    "beta": 91.905,
+    "V": 1411.55,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "T = 100 K"
+   },
+   "ccdc": "1479090",
+   "motivi_hb": [
+    {
+     "motivo": "N–H···Cl hydrogen bond",
+     "chi": "ivabradine N–H and chloride anion",
+     "citazione": "In IClEt (Figure 3c), ivabradine N–H is also H-bonded to the chloride anion."
+    },
+    {
+     "motivo": "weaker ethanol hydroxyl···methoxy interaction",
+     "chi": "ethanol hydroxyl and ivabradine methoxy group",
+     "citazione": "Ethanol hydroxyl forms a weaker interaction with the ivabradine methoxy group."
+    }
+   ],
+   "citazione": "The co-crystals IClSM and IClRM crystallized in the orthorhombic system (space group P 212121) and the ethanol solvate IClEt crystallized in the monoclinic system (space group P 21).",
+   "note": "Stechiometria dalla formula empirica della Tabella 4 (C27H37N2O5···Cl··C2H6O): un etanolo per unita' formula. Cella e T dalla Tabella 4 (IClEt a 100 K). Ottenuto per caso da una sospensione di IVA HCl in etanolo e non riprodotto."
+  },
+  {
+   "id": "F9",
+   "composto": "C3",
+   "etichetta": "(S)-mandelic acid",
+   "tipo": "non_specificato",
+   "citazione": "The co-crystal screening of ivabradine hydrochloride (IVA HCl) was conducted with 28 coformers: adipic acid, aminosalicylic acid, ascorbic acid, benzenesulfonic acid, benzoic acid, camphoric acid, cinnamic acid, citric acid, fumaric acid, gentisic acid, glutaric acid, hippuric acid, isonicotinamide, lysine, maleic acid, malic acid, malonic acid, (S)-mandelic acid, (R)-mandelic acid, nicotinamide, nicotinic acid, oxalic acid (dihydrate), pamoic acid, saccharin, salicylic acid, succinic acid, tartaric acid, and vanillin.",
+   "note": "Coformero commerciale, solido (reagente): fa parte dei 28 coformeri dello screening."
+  },
+  {
+   "id": "F10",
+   "composto": "C4",
+   "etichetta": "(R)-mandelic acid",
+   "tipo": "non_specificato",
+   "citazione": "The co-crystal screening of ivabradine hydrochloride (IVA HCl) was conducted with 28 coformers: adipic acid, aminosalicylic acid, ascorbic acid, benzenesulfonic acid, benzoic acid, camphoric acid, cinnamic acid, citric acid, fumaric acid, gentisic acid, glutaric acid, hippuric acid, isonicotinamide, lysine, maleic acid, malic acid, malonic acid, (S)-mandelic acid, (R)-mandelic acid, nicotinamide, nicotinic acid, oxalic acid (dihydrate), pamoic acid, saccharin, salicylic acid, succinic acid, tartaric acid, and vanillin.",
+   "note": "Coformero commerciale, solido (reagente): fa parte dei 28 coformeri dello screening."
+  },
+  {
+   "id": "F11",
+   "composto": "C5",
+   "etichetta": "racemic mandelic acid",
+   "tipo": "non_specificato",
+   "citazione": "As co-crystal was formed with enantiomerically pure (S)-mandelic (IClSM) or (R)-mandelic acid (IClRM), and we wondered what would be the resulting solid of co-crystallization of ivabradine hydrochloride with racemic mandelic acid.",
+   "note": "Reagente solido."
+  },
+  {
+   "id": "F12",
+   "etichetta": "IVA HCl + (S)-mandelic acid (equimolar mixture)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F9"
+   ],
+   "proporzioni": "equimolar",
+   "citazione": "by slurrying (100 mg of API and co-former in equimolar ratio)",
+   "note": "Miscela di partenza delle riproduzioni (sospensione e LAG) e, con lattosio monoidrato in eccesso e in quantita' stechiometriche, della granulazione umida."
+  },
+  {
+   "id": "F13",
+   "etichetta": "IVA HCl + (R)-mandelic acid (equimolar mixture)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F10"
+   ],
+   "proporzioni": "equimolar",
+   "citazione": "by slurrying (100 mg of API and co-former in equimolar ratio)",
+   "note": "Miscela di partenza delle riproduzioni di IClRM."
+  },
+  {
+   "id": "F14",
+   "etichetta": "IVA HCl + racemic mandelic acid (1:2 mixture)",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F1",
+    "F11"
+   ],
+   "proporzioni": "1:2",
+   "citazione": "Mixtures of IVA HCl with an excess of racemic mandelic acid (100 mg of the mixture in 1:2 molar ratio)",
+   "note": "Miscela dell'esperimento di maturazione."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F6",
+    "F7"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F6",
+   "citazione": "Based on the calculated crystal density, IClSM should be more thermodynamically stable than IClRM.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Cocristalli con acidi mandelici enantiomerici (non polimorfi). Argomento dalla densita' calcolata, che «correla» con la facilita' di preparazione; la maturazione con racemo e il punto di fusione piu' alto vanno nella stessa direzione."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F2",
+   "a": "F3",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 0,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "3 days 80 ◦C Form II + γ 0.15 Form γ ≤0.05 Cocrystal ≤0.05",
+    "The studies revealed that metastable form II is physically and chemically unstable."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. Dopo 3 giorni a 80 °C (0% RH nei Metodi; la Tabella 5 scrive solo «80 °C») l'XRPD dice «Form II + γ»: la conversione di II in γ e' cominciata ma non completa. Il testo dice solo che II e' fisicamente instabile; la via e' scelta termica perche' la RH e' 0%."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "3 days 80 ◦C/75% RH Form γ 2.12 Form γ ≤0.05 Cocrystal ≤0.05",
+    "We observed the transformation of form II into polymorphic form γ (three days, 80 ◦C/75% RH) or into form β (10 days, 25 ◦C/100% RH) and the increase of chemical impurities, especially after three days at 80 ◦C/75% RH.",
+    "The studies revealed that metastable form II is physically and chemically unstable."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. II -> γ a 80 °C/75% RH in 3 giorni (aumento delle impurezze chimiche a 2.12%). Via umidita' perche' γ e' un monoidrato (con «seems to be», rif. 20): se la sua natura di idrato non fosse confermata la via resterebbe comunque la camera a RH controllata."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "secco_senza_mezzo",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "RT"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 0,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "(when the forms were stressed for three days at 80 ◦C and 0% and 75% RH, and 10 days at RT at 0% RH and at 100% RH)",
+    "10 days 0% RH Form II 0.15 Form γ ≤0.05 Cocrystal ≤0.05"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. Forma II invariata dopo 10 giorni a 0% RH (RT nella sezione 3.3). Forma attesa non nominata: a = ignota.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 25,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 100,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "(when the forms were stressed for three days at 80 ◦C and 0% and 75% RH, and 10 days at RT at 0% RH and at 100% RH)",
+    "10 days 100% RH Form β 0.14 Form β ≤0.05 Cocrystal ≤0.05",
+    "We observed the transformation of form II into polymorphic form γ (three days, 80 ◦C/75% RH) or into form β (10 days, 25 ◦C/100% RH) and the increase of chemical impurities, especially after three days at 80 ◦C/75% RH."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. II -> β (tetraidrato, struttura RIYKIT da lavoro citato) dopo 10 giorni a 25 °C/100% RH; la sezione 3.3 scrive «10 days at RT» per le prove a 0% e 100% RH."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 0,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "3 days 80 ◦C Form II + γ 0.15 Form γ ≤0.05 Cocrystal ≤0.05",
+    "On the other hand, co-crystal IClSM and form",
+    "γ were stable (see Table 5)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. γ stabile dopo 3 giorni a 80 °C (0% RH nei Metodi). Forma attesa non nominata.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "3 days 80 ◦C/75% RH Form γ 2.12 Form γ ≤0.05 Cocrystal ≤0.05",
+    "On the other hand, co-crystal IClSM and form",
+    "γ were stable (see Table 5)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. γ stabile dopo 3 giorni a 80 °C/75% RH. Forma attesa non nominata.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "secco_senza_mezzo",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "RT"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 0,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "(when the forms were stressed for three days at 80 ◦C and 0% and 75% RH, and 10 days at RT at 0% RH and at 100% RH)",
+    "10 days 0% RH Form II 0.15 Form γ ≤0.05 Cocrystal ≤0.05",
+    "On the other hand, co-crystal IClSM and form",
+    "γ were stable (see Table 5)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. γ stabile dopo 10 giorni a 0% RH: nessuna perdita di acqua rilevata (γ e' un monoidrato presunto). Forma attesa non nominata.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "umidita",
+   "sottovia": "assorbimento",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "RT"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 100,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "(when the forms were stressed for three days at 80 ◦C and 0% and 75% RH, and 10 days at RT at 0% RH and at 100% RH)",
+    "10 days 100% RH Form β 0.14 Form β ≤0.05 Cocrystal ≤0.05",
+    "Moreover, the conversion of form γ was observed after 10 days at 100% RH, while the co-crystal was stable."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. γ -> β dopo 10 giorni a 100% RH (RT nella sezione 3.3)."
+  },
+  {
+   "id": "E9",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 0,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "3 days 80 ◦C Form II + γ 0.15 Form γ ≤0.05 Cocrystal ≤0.05",
+    "On the other hand, co-crystal IClSM and form",
+    "γ were stable (see Table 5)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. IClSM stabile dopo 3 giorni a 80 °C (0% RH nei Metodi). Forma attesa non nominata.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E10",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 75,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "3 days 80 ◦C/75% RH Form γ 2.12 Form γ ≤0.05 Cocrystal ≤0.05",
+    "On the other hand, co-crystal IClSM and form",
+    "γ were stable (see Table 5)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. IClSM stabile dopo 3 giorni a 80 °C/75% RH. Forma attesa non nominata.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E11",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "secco_senza_mezzo",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "RT"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 0,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "(when the forms were stressed for three days at 80 ◦C and 0% and 75% RH, and 10 days at RT at 0% RH and at 100% RH)",
+    "10 days 0% RH Form II 0.15 Form γ ≤0.05 Cocrystal ≤0.05",
+    "On the other hand, co-crystal IClSM and form",
+    "γ were stable (see Table 5)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. IClSM stabile dopo 10 giorni a 0% RH. Forma attesa non nominata.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E12",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "umidita",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "tipo": "ambiente",
+     "valore": null,
+     "unita": null,
+     "testo": "RT"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "day",
+     "tipo": "attesa"
+    },
+    "umidita": {
+     "valore": 100,
+     "unita": "%RH"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The powders of co-crystal IClSM, ivabradine hydrochloride form II, and form γ were stressed for three days at 80 ◦C and 0% RH, three days at 80 ◦C and 75% RH, 10 days at 0% RH, and 10 days at 100% RH.",
+    "(when the forms were stressed for three days at 80 ◦C and 0% and 75% RH, and 10 days at RT at 0% RH and at 100% RH)",
+    "10 days 100% RH Form β 0.14 Form β ≤0.05 Cocrystal ≤0.05",
+    "Moreover, the conversion of form γ was observed after 10 days at 100% RH, while the co-crystal was stable."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Dalla Tabella 5 (testo letto con le righe in fila: «Stress Conditions», colonne Form II, Form γ, Cocrystal; ogni colonna ha la forma osservata in XRPD e la somma delle impurezze chimiche, che non e' estratta). Prove sulle polveri. IClSM stabile dopo 10 giorni a 100% RH, mentre γ si converte in β. Forma attesa non nominata.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E13",
+   "da": "F12",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     },
+     {
+      "nome": "dioxane"
+     },
+     {
+      "nome": "DMSO"
+     },
+     {
+      "nome": "ethanol"
+     },
+     {
+      "nome": "ethyl acetate"
+     },
+     {
+      "nome": "methanol"
+     }
+    ],
+    "rapporto_solido_solvente": "100 mg of API and co-former in equimolar ratio in 2 mL"
+   },
+   "citazioni": [
+    "Hits obtained during the screen were reproduced by two co-crystallization techniques: by slurrying (100 mg of API and co-former in equimolar ratio) in 2 mL of acetone, dioxane, DMSO, ethanol, ethyl acetate, and methanol (slurried for 48 h), and liquid-assisted grinding (LAG, same amount as for slurrying) with 0.2 mL of ethanol, ethyl acetate, and acetone (ground in a mortar and pestle for 10 min).",
+    "While IClSM was reproduced by both LAG and slurrying in all solvents, co-crystal IClRM was reproduced by both methods, however, in a lower number of solvents.",
+    "IClSM was always physically pure, while IClRM was often contaminated by input components ivabradine hydrochloride and (R)-mandelic acid."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "solventi_alternativi": true,
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "100 mg"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "(S)-mandelic acid (two hydrogen bonds to the neighboring chloride anions)",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "In IClSM (Figure 3a), the (S)-mandelic acid forms two hydrogen bonds with the neighboring chloride anions."
+    },
+    {
+     "gruppo": "protonated ivabradine nitrogen",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "The protonated ivabradine nitrogen forms a weaker interaction with the chloride anion."
+    }
+   ],
+   "note": "Riproduzione di IClSM per sospensione in sei solventi (una prova per solvente): riprodotto in tutti. Temperatura non detta. IClSM era sempre fisicamente puro."
+  },
+  {
+   "id": "E14",
+   "da": "F12",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "mortar and pestle",
+     "durata": {
+      "valore": 10,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "ethanol, ethyl acetate or acetone, 0.2 mL"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol"
+     },
+     {
+      "nome": "ethyl acetate"
+     },
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "citazioni": [
+    "Hits obtained during the screen were reproduced by two co-crystallization techniques: by slurrying (100 mg of API and co-former in equimolar ratio) in 2 mL of acetone, dioxane, DMSO, ethanol, ethyl acetate, and methanol (slurried for 48 h), and liquid-assisted grinding (LAG, same amount as for slurrying) with 0.2 mL of ethanol, ethyl acetate, and acetone (ground in a mortar and pestle for 10 min).",
+    "While IClSM was reproduced by both LAG and slurrying in all solvents, co-crystal IClRM was reproduced by both methods, however, in a lower number of solvents.",
+    "IClSM was always physically pure, while IClRM was often contaminated by input components ivabradine hydrochloride and (R)-mandelic acid."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "solventi_alternativi": true,
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "100 mg"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "(S)-mandelic acid (two hydrogen bonds to the neighboring chloride anions)",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "In IClSM (Figure 3a), the (S)-mandelic acid forms two hydrogen bonds with the neighboring chloride anions."
+    },
+    {
+     "gruppo": "protonated ivabradine nitrogen",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "The protonated ivabradine nitrogen forms a weaker interaction with the chloride anion."
+    }
+   ],
+   "note": "Riproduzione di IClSM per LAG con 0.2 mL di etanolo, acetato di etile o acetone (una prova per solvente), 10 min in mortaio: riprodotto in tutti. Quantita' di miscela come nella sospensione (100 mg). Temperatura non detta."
+  },
+  {
+   "id": "E15",
+   "da": "F13",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "tempo": {
+     "valore": 48,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "acetone"
+     },
+     {
+      "nome": "dioxane"
+     },
+     {
+      "nome": "DMSO"
+     },
+     {
+      "nome": "ethanol"
+     },
+     {
+      "nome": "ethyl acetate"
+     },
+     {
+      "nome": "methanol"
+     }
+    ],
+    "rapporto_solido_solvente": "100 mg of API and co-former in equimolar ratio in 2 mL"
+   },
+   "citazioni": [
+    "Hits obtained during the screen were reproduced by two co-crystallization techniques: by slurrying (100 mg of API and co-former in equimolar ratio) in 2 mL of acetone, dioxane, DMSO, ethanol, ethyl acetate, and methanol (slurried for 48 h), and liquid-assisted grinding (LAG, same amount as for slurrying) with 0.2 mL of ethanol, ethyl acetate, and acetone (ground in a mortar and pestle for 10 min).",
+    "While IClSM was reproduced by both LAG and slurrying in all solvents, co-crystal IClRM was reproduced by both methods, however, in a lower number of solvents.",
+    "IClSM was always physically pure, while IClRM was often contaminated by input components ivabradine hydrochloride and (R)-mandelic acid."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "solventi_alternativi": true,
+   "copertura": "parte_non_detta",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "100 mg"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "carboxyl group of (R)-mandelic acid",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F7",
+     "citazione": "In IClRM (Figure 3b), the (R)-mandelic acid forms a hydrogen bonds to the chloride anion via its carboxyl group and to ivabradine carbonyl oxygen via the hydroxyl group."
+    },
+    {
+     "gruppo": "hydroxyl group of (R)-mandelic acid",
+     "ruolo": null,
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F7",
+     "citazione": "In IClRM (Figure 3b), the (R)-mandelic acid forms a hydrogen bonds to the chloride anion via its carboxyl group and to ivabradine carbonyl oxygen via the hydroxyl group."
+    },
+    {
+     "gruppo": "ivabradine N–H",
+     "ruolo": "donatore",
+     "con": "controione",
+     "cambia": null,
+     "forma": "F7",
+     "citazione": "Ivabradine N–H is H-bond to the chloride anion."
+    }
+   ],
+   "note": "IClRM riprodotto con entrambi i metodi «in a lower number of solvents»: quali solventi non e' detto, quindi i sei solventi sono quelli provati e l'evento ha certezza bassa. IClRM era spesso contaminato dai componenti di partenza (IVA HCl e acido (R)-mandelico). Temperatura non detta."
+  },
+  {
+   "id": "E16",
+   "da": "F13",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "mortar and pestle",
+     "durata": {
+      "valore": 10,
+      "unita": "min",
+      "tipo": "processo"
+     },
+     "liquido": "ethanol, ethyl acetate or acetone, 0.2 mL"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol"
+     },
+     {
+      "nome": "ethyl acetate"
+     },
+     {
+      "nome": "acetone"
+     }
+    ]
+   },
+   "citazioni": [
+    "Hits obtained during the screen were reproduced by two co-crystallization techniques: by slurrying (100 mg of API and co-former in equimolar ratio) in 2 mL of acetone, dioxane, DMSO, ethanol, ethyl acetate, and methanol (slurried for 48 h), and liquid-assisted grinding (LAG, same amount as for slurrying) with 0.2 mL of ethanol, ethyl acetate, and acetone (ground in a mortar and pestle for 10 min).",
+    "While IClSM was reproduced by both LAG and slurrying in all solvents, co-crystal IClRM was reproduced by both methods, however, in a lower number of solvents.",
+    "IClSM was always physically pure, while IClRM was often contaminated by input components ivabradine hydrochloride and (R)-mandelic acid."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "solventi_alternativi": true,
+   "copertura": "parte_non_detta",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "100 mg"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "carboxyl group of (R)-mandelic acid",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F7",
+     "citazione": "In IClRM (Figure 3b), the (R)-mandelic acid forms a hydrogen bonds to the chloride anion via its carboxyl group and to ivabradine carbonyl oxygen via the hydroxyl group."
+    },
+    {
+     "gruppo": "hydroxyl group of (R)-mandelic acid",
+     "ruolo": null,
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F7",
+     "citazione": "In IClRM (Figure 3b), the (R)-mandelic acid forms a hydrogen bonds to the chloride anion via its carboxyl group and to ivabradine carbonyl oxygen via the hydroxyl group."
+    },
+    {
+     "gruppo": "ivabradine N–H",
+     "ruolo": "donatore",
+     "con": "controione",
+     "cambia": null,
+     "forma": "F7",
+     "citazione": "Ivabradine N–H is H-bond to the chloride anion."
+    }
+   ],
+   "note": "IClRM riprodotto per LAG «in a lower number of solvents» (quali non e' detto); spesso contaminato dai componenti di partenza. Temperatura non detta."
+  },
+  {
+   "id": "E17",
+   "da": "F14",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "tempo": {
+     "valore": 2,
+     "unita": "week",
+     "tipo": "attesa"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol"
+     },
+     {
+      "nome": "ethyl acetate"
+     }
+    ],
+    "rapporto_solido_solvente": "100 mg of the mixture in 1 mL"
+   },
+   "citazioni": [
+    "Mixtures of IVA HCl with an excess of racemic mandelic acid (100 mg of the mixture in 1:2 molar ratio) were slurried for two weeks (in 1 mL of ethanol and ethyl acetate) and the resulting solids were identified using XRPD.",
+    "Additionally, the maturation experiment, where ivabradine hydrochloride was exposed to the excess of racemic mandelic acid, suggested that IClSM was preferred over IClRM, as it was the prevalent resulting solid form."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "solventi_alternativi": true,
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F6",
+      "prevalenza": "prevalente"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "100 mg"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "(S)-mandelic acid (two hydrogen bonds to the neighboring chloride anions)",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "In IClSM (Figure 3a), the (S)-mandelic acid forms two hydrogen bonds with the neighboring chloride anions."
+    },
+    {
+     "gruppo": "protonated ivabradine nitrogen",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "The protonated ivabradine nitrogen forms a weaker interaction with the chloride anion."
+    }
+   ],
+   "note": "Esperimento di maturazione con acido mandelico racemo in eccesso (1:2): erano possibili IClSM, IClRM o una forma nuova con il racemo; IClSM e' il solido prevalente. Etanolo e acetato di etile: non e' chiaro se due prove o una miscela; letti come alternative. Temperatura non detta."
+  },
+  {
+   "id": "E18",
+   "da": "F12",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "liquido": "ethanol",
+     "testo": "wet granulation with lactose monohydrate"
+    },
+    "solventi": [
+     {
+      "nome": "ethanol"
+     }
+    ],
+    "additivi": [
+     "lactose monohydrate"
+    ]
+   },
+   "citazioni": [
+    "Stoichiometric amounts of IVA HCl and (S)-mandelic acid with excess of lactose monohydrate was mixed in a beaker or vial with spatula.",
+    "Using a micropipette, ethanol (EtOH) or water (WA) was added as the granulation liquid.",
+    "On the other hand, formation of co-crystal was observed when the mixture was granulated with ethanol and the co-crystal was identified by both XRPD (see Figures S17–19 in Supplementary Material) and ssNMR (see Figure 4).",
+    "Thus, ssNMR provided clear evidence of the complete conversion of hydrochloride salt into the co-crystal.",
+    "IClSM co-crystal proved to be able to form, even when its components were diluted by excess of excipients.",
+    "The initial experiments in small scale in the vial were successfully scaled-up in our own devised small scale high-shear granulator (see Figure S16 in the Supplementary Material) with, approximately, a 5 g load and even in a beaker with a load of approximately 12 g."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD",
+     "ssNMR"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "(S)-mandelic acid (two hydrogen bonds to the neighboring chloride anions)",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "In IClSM (Figure 3a), the (S)-mandelic acid forms two hydrogen bonds with the neighboring chloride anions."
+    },
+    {
+     "gruppo": "protonated ivabradine nitrogen",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": null,
+     "forma": "F6",
+     "citazione": "The protonated ivabradine nitrogen forms a weaker interaction with the chloride anion."
+    }
+   ],
+   "note": "Granulazione umida con etanolo di IVA HCl, acido (S)-mandelico in quantita' stechiometriche e lattosio monoidrato in eccesso: il cocristallo si forma in situ e la conversione del cloridrato e' completa (ssNMR). Provata in vial, nel granulatore ad alto taglio fatto in casa (ca 5 g, 960 rpm) e in un becher (ca 12 g); la forma di IVA HCl di partenza non e' detta. Sottovia LAG scelta per la vicinanza alle prove di LAG (la Tabella 1 le raggruppa); in realta' si tratta di impasto con liquido."
+  },
+  {
+   "id": "E19",
+   "da": "F12",
+   "a": "F6",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "LAG",
+   "condizioni": {
+    "macinazione": {
+     "liquido": "water",
+     "testo": "wet granulation with lactose monohydrate"
+    },
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ],
+    "additivi": [
+     "lactose monohydrate"
+    ]
+   },
+   "citazioni": [
+    "Stoichiometric amounts of IVA HCl and (S)-mandelic acid with excess of lactose monohydrate was mixed in a beaker or vial with spatula.",
+    "Using a micropipette, ethanol (EtOH) or water (WA) was added as the granulation liquid.",
+    "When granulated with water, no co-crystal formation was observed in the presence of lactose monohydrate."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessun_cocristallo",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD",
+     "ssNMR"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "note": "Negativo: con acqua come liquido di granulazione, in presenza di lattosio monoidrato, non si forma il cocristallo. a = IClSM e' la forma attesa nominata dall'articolo."
+  },
+  {
+   "id": "E20",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air or nitrogen (aluminum blister/sachet)",
+    "additivi": [
+     "Klucel EF",
+     "lactose monohydrate",
+     "Primojel type A",
+     "magnesium stearate"
+    ],
+    "solventi": []
+   },
+   "citazioni": [
+    "The mixtures were packed into aluminum blister under ambient and nitrogen atmosphere and treated for 72 h at 80 ◦C.",
+    "The mixtures were packed in aluminum sachets, ﬁlled with either air or nitrogen atmosphere and stressed with a temperature of 80 ◦C for a duration of 72 h in a stability chamber (Memmert HCP 108).",
+    "In mixtures A and D, the ﬁller lactose monohydrate was used; in mixtures B and E the ﬁller mannitol was used instead of lactose. In mixtures C and H meglumine was added for the pH adjustment. In addition to these, mixture F with higher amount of Mg stearate, mixture G with a low content of meglumine, mixture I with butylhydroxytoluene as an antioxidant and mixture J with citric acid as antioxidant, were also proposed.",
+    "IClSM 10.5 10.5 10.5 Klucel EF 2.7 2.7 2.7 Lactose monohydrate 115.0 - 111.9 Mannitol - 115 - Primojel type A 5.4 5.4 5.4 Meglumine - - 3.125 Magnesium stearate 1.35 1.35 1.35 Tablet weight (mg) 135 135 135",
+    "The treated mixtures with pre-prepared co-crystal showed physical (mixtures A, B) or chemical instability (mixture C). In case of physical instability, we observed dissociation of the co-crystal into the γ polymorph of ivabradine hydrochloride."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "pretrattamento": "cocristallo IClSM preparato prima e mescolato con gli eccipienti (mixture A)",
+   "note": "Mixture A (con lattosio monoidrato, cocristallo pre-preparato): instabilita' fisica, dissociazione del cocristallo in γ dopo 72 h a 80 °C. Atmosfera aria o azoto, non distinte.",
+   "esito_dettaglio": "dissociazione"
+  },
+  {
+   "id": "E21",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air or nitrogen (aluminum blister/sachet)",
+    "additivi": [
+     "Klucel EF",
+     "mannitol",
+     "Primojel type A",
+     "magnesium stearate"
+    ],
+    "solventi": []
+   },
+   "citazioni": [
+    "The mixtures were packed into aluminum blister under ambient and nitrogen atmosphere and treated for 72 h at 80 ◦C.",
+    "The mixtures were packed in aluminum sachets, ﬁlled with either air or nitrogen atmosphere and stressed with a temperature of 80 ◦C for a duration of 72 h in a stability chamber (Memmert HCP 108).",
+    "In mixtures A and D, the ﬁller lactose monohydrate was used; in mixtures B and E the ﬁller mannitol was used instead of lactose. In mixtures C and H meglumine was added for the pH adjustment. In addition to these, mixture F with higher amount of Mg stearate, mixture G with a low content of meglumine, mixture I with butylhydroxytoluene as an antioxidant and mixture J with citric acid as antioxidant, were also proposed.",
+    "IClSM 10.5 10.5 10.5 Klucel EF 2.7 2.7 2.7 Lactose monohydrate 115.0 - 111.9 Mannitol - 115 - Primojel type A 5.4 5.4 5.4 Meglumine - - 3.125 Magnesium stearate 1.35 1.35 1.35 Tablet weight (mg) 135 135 135",
+    "The treated mixtures with pre-prepared co-crystal showed physical (mixtures A, B) or chemical instability (mixture C). In case of physical instability, we observed dissociation of the co-crystal into the γ polymorph of ivabradine hydrochloride."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "pretrattamento": "cocristallo IClSM preparato prima e mescolato con gli eccipienti (mixture B)",
+   "note": "Mixture B (con mannitolo, cocristallo pre-preparato): instabilita' fisica, dissociazione del cocristallo in γ dopo 72 h a 80 °C.",
+   "esito_dettaglio": "dissociazione"
+  },
+  {
+   "id": "E22",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air or nitrogen (aluminum blister/sachet)",
+    "additivi": [
+     "Klucel EF",
+     "lactose monohydrate",
+     "Primojel type A",
+     "magnesium stearate"
+    ],
+    "solventi": []
+   },
+   "citazioni": [
+    "The mixtures were packed into aluminum blister under ambient and nitrogen atmosphere and treated for 72 h at 80 ◦C.",
+    "The mixtures were packed in aluminum sachets, ﬁlled with either air or nitrogen atmosphere and stressed with a temperature of 80 ◦C for a duration of 72 h in a stability chamber (Memmert HCP 108).",
+    "In mixtures A and D, the ﬁller lactose monohydrate was used; in mixtures B and E the ﬁller mannitol was used instead of lactose. In mixtures C and H meglumine was added for the pH adjustment. In addition to these, mixture F with higher amount of Mg stearate, mixture G with a low content of meglumine, mixture I with butylhydroxytoluene as an antioxidant and mixture J with citric acid as antioxidant, were also proposed.",
+    "Ivabradine HCl 8.085 8.085 8.085 8.085 8.085 8.085 8.085 (S)-mandelic acid 2.436 2.436 2.436 2.436 2.436 2.436 2.436 Klucel EF 2.7 2.7 2.7 2.7 2.7 2.7 2.7 Lactose monohydrate 115.0 - 112.3 114.25 111.9 114.8 111.5 Mannitol - 115 - - - - - Primojel type A 5.4 5.4 5.4 5.4 5.4 5.4 5.4 Butylhydroxytoluene(BHT) - - - - - 0.27 - Citric acid - - - - - - 3.5 Meglumine - - - 0.781 3.125 - - Magnesium stearate 1.35 1.35 4.05 1.35 1.35 1.35 1.35 Tablet weight (mg) 135 135 135 135 135 135 135",
+    "Mixtures D and F were physically unstable (formation of γ form), whereas mixture J was chemically unstable."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "pretrattamento": "cocristallo IClSM formato in situ per granulazione con etanolo con gli eccipienti, essiccato all'aria 2 h (mixture D)",
+   "note": "Mixture D (con lattosio monoidrato, cocristallo formato in situ): fisicamente instabile, «formation of γ form»."
+  },
+  {
+   "id": "E23",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air or nitrogen (aluminum blister/sachet)",
+    "additivi": [
+     "Klucel EF",
+     "lactose monohydrate",
+     "Primojel type A",
+     "magnesium stearate (higher amount)"
+    ],
+    "solventi": []
+   },
+   "citazioni": [
+    "The mixtures were packed into aluminum blister under ambient and nitrogen atmosphere and treated for 72 h at 80 ◦C.",
+    "The mixtures were packed in aluminum sachets, ﬁlled with either air or nitrogen atmosphere and stressed with a temperature of 80 ◦C for a duration of 72 h in a stability chamber (Memmert HCP 108).",
+    "In mixtures A and D, the ﬁller lactose monohydrate was used; in mixtures B and E the ﬁller mannitol was used instead of lactose. In mixtures C and H meglumine was added for the pH adjustment. In addition to these, mixture F with higher amount of Mg stearate, mixture G with a low content of meglumine, mixture I with butylhydroxytoluene as an antioxidant and mixture J with citric acid as antioxidant, were also proposed.",
+    "Ivabradine HCl 8.085 8.085 8.085 8.085 8.085 8.085 8.085 (S)-mandelic acid 2.436 2.436 2.436 2.436 2.436 2.436 2.436 Klucel EF 2.7 2.7 2.7 2.7 2.7 2.7 2.7 Lactose monohydrate 115.0 - 112.3 114.25 111.9 114.8 111.5 Mannitol - 115 - - - - - Primojel type A 5.4 5.4 5.4 5.4 5.4 5.4 5.4 Butylhydroxytoluene(BHT) - - - - - 0.27 - Citric acid - - - - - - 3.5 Meglumine - - - 0.781 3.125 - - Magnesium stearate 1.35 1.35 4.05 1.35 1.35 1.35 1.35 Tablet weight (mg) 135 135 135 135 135 135 135",
+    "Mixtures D and F were physically unstable (formation of γ form), whereas mixture J was chemically unstable."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "pretrattamento": "cocristallo IClSM formato in situ per granulazione con etanolo con gli eccipienti, essiccato all'aria 2 h (mixture F)",
+   "note": "Mixture F (come D ma con piu' stearato di magnesio): fisicamente instabile, «formation of γ form»."
+  },
+  {
+   "id": "E24",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air or nitrogen (aluminum blister/sachet)",
+    "additivi": [
+     "Klucel EF",
+     "lactose monohydrate",
+     "Primojel type A",
+     "meglumine (low content)",
+     "magnesium stearate"
+    ],
+    "solventi": []
+   },
+   "citazioni": [
+    "The mixtures were packed into aluminum blister under ambient and nitrogen atmosphere and treated for 72 h at 80 ◦C.",
+    "The mixtures were packed in aluminum sachets, ﬁlled with either air or nitrogen atmosphere and stressed with a temperature of 80 ◦C for a duration of 72 h in a stability chamber (Memmert HCP 108).",
+    "In mixtures A and D, the ﬁller lactose monohydrate was used; in mixtures B and E the ﬁller mannitol was used instead of lactose. In mixtures C and H meglumine was added for the pH adjustment. In addition to these, mixture F with higher amount of Mg stearate, mixture G with a low content of meglumine, mixture I with butylhydroxytoluene as an antioxidant and mixture J with citric acid as antioxidant, were also proposed.",
+    "Ivabradine HCl 8.085 8.085 8.085 8.085 8.085 8.085 8.085 (S)-mandelic acid 2.436 2.436 2.436 2.436 2.436 2.436 2.436 Klucel EF 2.7 2.7 2.7 2.7 2.7 2.7 2.7 Lactose monohydrate 115.0 - 112.3 114.25 111.9 114.8 111.5 Mannitol - 115 - - - - - Primojel type A 5.4 5.4 5.4 5.4 5.4 5.4 5.4 Butylhydroxytoluene(BHT) - - - - - 0.27 - Citric acid - - - - - - 3.5 Meglumine - - - 0.781 3.125 - - Magnesium stearate 1.35 1.35 4.05 1.35 1.35 1.35 1.35 Tablet weight (mg) 135 135 135 135 135 135 135",
+    "The treated mixtures containing in situ formed co-crystal and meglumine (mixtures G and H) were both chemically and physically unstable."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "pretrattamento": "cocristallo IClSM formato in situ per granulazione con etanolo con gli eccipienti, essiccato all'aria 2 h (mixture G)",
+   "note": "Mixture G (con poca meglumina): «chemically and physically unstable»; la forma prodotta non e' nominata."
+  },
+  {
+   "id": "E25",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air or nitrogen (aluminum blister/sachet)",
+    "additivi": [
+     "Klucel EF",
+     "lactose monohydrate",
+     "Primojel type A",
+     "meglumine",
+     "magnesium stearate"
+    ],
+    "solventi": []
+   },
+   "citazioni": [
+    "The mixtures were packed into aluminum blister under ambient and nitrogen atmosphere and treated for 72 h at 80 ◦C.",
+    "The mixtures were packed in aluminum sachets, ﬁlled with either air or nitrogen atmosphere and stressed with a temperature of 80 ◦C for a duration of 72 h in a stability chamber (Memmert HCP 108).",
+    "In mixtures A and D, the ﬁller lactose monohydrate was used; in mixtures B and E the ﬁller mannitol was used instead of lactose. In mixtures C and H meglumine was added for the pH adjustment. In addition to these, mixture F with higher amount of Mg stearate, mixture G with a low content of meglumine, mixture I with butylhydroxytoluene as an antioxidant and mixture J with citric acid as antioxidant, were also proposed.",
+    "Ivabradine HCl 8.085 8.085 8.085 8.085 8.085 8.085 8.085 (S)-mandelic acid 2.436 2.436 2.436 2.436 2.436 2.436 2.436 Klucel EF 2.7 2.7 2.7 2.7 2.7 2.7 2.7 Lactose monohydrate 115.0 - 112.3 114.25 111.9 114.8 111.5 Mannitol - 115 - - - - - Primojel type A 5.4 5.4 5.4 5.4 5.4 5.4 5.4 Butylhydroxytoluene(BHT) - - - - - 0.27 - Citric acid - - - - - - 3.5 Meglumine - - - 0.781 3.125 - - Magnesium stearate 1.35 1.35 4.05 1.35 1.35 1.35 1.35 Tablet weight (mg) 135 135 135 135 135 135 135",
+    "The treated mixtures containing in situ formed co-crystal and meglumine (mixtures G and H) were both chemically and physically unstable."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "pretrattamento": "cocristallo IClSM formato in situ per granulazione con etanolo con gli eccipienti, essiccato all'aria 2 h (mixture H)",
+   "note": "Mixture H (con meglumina): «chemically and physically unstable»; la forma prodotta non e' nominata."
+  },
+  {
+   "id": "E26",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air or nitrogen (aluminum blister/sachet)",
+    "additivi": [
+     "Klucel EF",
+     "mannitol",
+     "Primojel type A",
+     "magnesium stearate"
+    ],
+    "solventi": []
+   },
+   "citazioni": [
+    "The mixtures were packed into aluminum blister under ambient and nitrogen atmosphere and treated for 72 h at 80 ◦C.",
+    "The mixtures were packed in aluminum sachets, ﬁlled with either air or nitrogen atmosphere and stressed with a temperature of 80 ◦C for a duration of 72 h in a stability chamber (Memmert HCP 108).",
+    "In mixtures A and D, the ﬁller lactose monohydrate was used; in mixtures B and E the ﬁller mannitol was used instead of lactose. In mixtures C and H meglumine was added for the pH adjustment. In addition to these, mixture F with higher amount of Mg stearate, mixture G with a low content of meglumine, mixture I with butylhydroxytoluene as an antioxidant and mixture J with citric acid as antioxidant, were also proposed.",
+    "Ivabradine HCl 8.085 8.085 8.085 8.085 8.085 8.085 8.085 (S)-mandelic acid 2.436 2.436 2.436 2.436 2.436 2.436 2.436 Klucel EF 2.7 2.7 2.7 2.7 2.7 2.7 2.7 Lactose monohydrate 115.0 - 112.3 114.25 111.9 114.8 111.5 Mannitol - 115 - - - - - Primojel type A 5.4 5.4 5.4 5.4 5.4 5.4 5.4 Butylhydroxytoluene(BHT) - - - - - 0.27 - Citric acid - - - - - - 3.5 Meglumine - - - 0.781 3.125 - - Magnesium stearate 1.35 1.35 4.05 1.35 1.35 1.35 1.35 Tablet weight (mg) 135 135 135 135 135 135 135",
+    "However, two suggested mixtures, namely E and I, were complying—no physical conversion and no formation of chemical impurities were observed."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "pretrattamento": "cocristallo IClSM formato in situ per granulazione con etanolo con gli eccipienti, essiccato all'aria 2 h (mixture E)",
+   "note": "Mixture E (con mannitolo, cocristallo formato in situ): conforme, «no physical conversion». Forma attesa non nominata.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E27",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "tipo": "attesa"
+    },
+    "atmosfera": "air or nitrogen (aluminum blister/sachet)",
+    "additivi": [
+     "Klucel EF",
+     "lactose monohydrate",
+     "Primojel type A",
+     "butylhydroxytoluene (BHT)",
+     "magnesium stearate"
+    ],
+    "solventi": []
+   },
+   "citazioni": [
+    "The mixtures were packed into aluminum blister under ambient and nitrogen atmosphere and treated for 72 h at 80 ◦C.",
+    "The mixtures were packed in aluminum sachets, ﬁlled with either air or nitrogen atmosphere and stressed with a temperature of 80 ◦C for a duration of 72 h in a stability chamber (Memmert HCP 108).",
+    "In mixtures A and D, the ﬁller lactose monohydrate was used; in mixtures B and E the ﬁller mannitol was used instead of lactose. In mixtures C and H meglumine was added for the pH adjustment. In addition to these, mixture F with higher amount of Mg stearate, mixture G with a low content of meglumine, mixture I with butylhydroxytoluene as an antioxidant and mixture J with citric acid as antioxidant, were also proposed.",
+    "Ivabradine HCl 8.085 8.085 8.085 8.085 8.085 8.085 8.085 (S)-mandelic acid 2.436 2.436 2.436 2.436 2.436 2.436 2.436 Klucel EF 2.7 2.7 2.7 2.7 2.7 2.7 2.7 Lactose monohydrate 115.0 - 112.3 114.25 111.9 114.8 111.5 Mannitol - 115 - - - - - Primojel type A 5.4 5.4 5.4 5.4 5.4 5.4 5.4 Butylhydroxytoluene(BHT) - - - - - 0.27 - Citric acid - - - - - - 3.5 Meglumine - - - 0.781 3.125 - - Magnesium stearate 1.35 1.35 4.05 1.35 1.35 1.35 1.35 Tablet weight (mg) 135 135 135 135 135 135 135",
+    "However, two suggested mixtures, namely E and I, were complying—no physical conversion and no formation of chemical impurities were observed."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "XRPD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela"
+   },
+   "pretrattamento": "cocristallo IClSM formato in situ per granulazione con etanolo con gli eccipienti, essiccato all'aria 2 h (mixture I)",
+   "note": "Mixture I (con lattosio e butilidrossitoluene, cocristallo formato in situ): conforme, «no physical conversion». Forma attesa non nominata.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E28",
+   "da": "F6",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "temperatura": {
+     "tipo": "onset",
+     "valore": null,
+     "unita": null
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Both co-crystals showed low hygroscopicity and distinct melting temperature, comparable with polymorphic form γ, which was identiﬁed in the drug product of the originator.",
+    "Investigations were performed in a temperature range of 50−200 ◦C with a heating rate of 10 ◦C/min. The temperatures speciﬁed in relation to DSC analyses are the onset temperatures of peaks.",
+    "Moreover, co-crystal IClSM exhibited a higher melting point and slightly higher density."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "solo_supplementare": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 3 mg"
+   },
+   "note": "La temperatura di fusione (onset) sta nelle Figure S3 (supplementare); il testo dice solo «distinct melting temperature» e che IClSM ha un punto di fusione piu' alto di IClRM. DSC in padelle di alluminio coperte, flusso di azoto, 50-200 °C."
+  },
+  {
+   "id": "E29",
+   "da": "F7",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "temperatura": {
+     "tipo": "onset",
+     "valore": null,
+     "unita": null
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Both co-crystals showed low hygroscopicity and distinct melting temperature, comparable with polymorphic form γ, which was identiﬁed in the drug product of the originator.",
+    "Investigations were performed in a temperature range of 50−200 ◦C with a heating rate of 10 ◦C/min. The temperatures speciﬁed in relation to DSC analyses are the onset temperatures of peaks.",
+    "Moreover, co-crystal IClSM exhibited a higher melting point and slightly higher density."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "solo_supplementare": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "massa": "approximately 3 mg"
+   },
+   "note": "La temperatura di fusione (onset) sta nella Figura S9 (supplementare); il testo dice solo «distinct melting temperature» e che il punto di fusione di IClRM e' piu' basso di quello di IClSM."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F6",
+    "F7"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "ethanol"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "tipo": "ambiente",
+    "valore": null,
+    "unita": null,
+    "testo": "ambient temperature"
+   },
+   "rapporto_soluzione": "API:co-former equimolar (API 20 mg)",
+   "citazioni": [
+    "Equimolar mixtures of API (20 mg) and a co-former were placed in 50-mL round-bottomed ﬂasks, dissolved in ethanol at ambient temperature, and left until crystalline material was formed. The resulting solids were then analyzed by X-ray powder diffraction (XRPD).",
+    "The co-crystal screening of ivabradine hydrochloride (IVA HCl) was conducted with 28 coformers: adipic acid, aminosalicylic acid, ascorbic acid, benzenesulfonic acid, benzoic acid, camphoric acid, cinnamic acid, citric acid, fumaric acid, gentisic acid, glutaric acid, hippuric acid, isonicotinamide, lysine, maleic acid, malic acid, malonic acid, (S)-mandelic acid, (R)-mandelic acid, nicotinamide, nicotinic acid, oxalic acid (dihydrate), pamoic acid, saccharin, salicylic acid, succinic acid, tartaric acid, and vanillin.",
+    "We performed the co-crystal screening of ivabradine hydrochloride; the resulting solids were measured by XRPD and two unique powder patterns (differing from the patterns of input components) were identiﬁed.",
+    "We conducted a co-crystal screen, from which two hits were identiﬁed: with (S)-mandelic and (R)-mandelic acid."
+   ],
+   "note": "Screening di cocristalli con 28 coformeri: i due hit sono IClSM e IClRM. Il modo di evaporazione non e' detto («left until crystalline material was formed»)."
+  },
+  {
+   "forme": null,
+   "metodo": "non_specificato",
+   "solventi": [
+    "ethanol"
+   ],
+   "fonte_dati": "propria",
+   "esito": "non_ottenuta",
+   "componenti_cercati": [
+    "adipic acid",
+    "aminosalicylic acid",
+    "ascorbic acid",
+    "benzenesulfonic acid",
+    "benzoic acid",
+    "camphoric acid",
+    "cinnamic acid",
+    "citric acid",
+    "fumaric acid",
+    "gentisic acid",
+    "glutaric acid",
+    "hippuric acid",
+    "isonicotinamide",
+    "lysine",
+    "maleic acid",
+    "malic acid",
+    "malonic acid",
+    "nicotinamide",
+    "nicotinic acid",
+    "oxalic acid (dihydrate)",
+    "pamoic acid",
+    "saccharin",
+    "salicylic acid",
+    "succinic acid",
+    "tartaric acid",
+    "vanillin"
+   ],
+   "temperatura": {
+    "tipo": "ambiente",
+    "valore": null,
+    "unita": null,
+    "testo": "ambient temperature"
+   },
+   "rapporto_soluzione": "API:co-former equimolar (API 20 mg)",
+   "citazioni": [
+    "Equimolar mixtures of API (20 mg) and a co-former were placed in 50-mL round-bottomed ﬂasks, dissolved in ethanol at ambient temperature, and left until crystalline material was formed. The resulting solids were then analyzed by X-ray powder diffraction (XRPD).",
+    "The co-crystal screening of ivabradine hydrochloride (IVA HCl) was conducted with 28 coformers: adipic acid, aminosalicylic acid, ascorbic acid, benzenesulfonic acid, benzoic acid, camphoric acid, cinnamic acid, citric acid, fumaric acid, gentisic acid, glutaric acid, hippuric acid, isonicotinamide, lysine, maleic acid, malic acid, malonic acid, (S)-mandelic acid, (R)-mandelic acid, nicotinamide, nicotinic acid, oxalic acid (dihydrate), pamoic acid, saccharin, salicylic acid, succinic acid, tartaric acid, and vanillin.",
+    "We performed the co-crystal screening of ivabradine hydrochloride; the resulting solids were measured by XRPD and two unique powder patterns (differing from the patterns of input components) were identiﬁed.",
+    "We conducted a co-crystal screen, from which two hits were identiﬁed: with (S)-mandelic and (R)-mandelic acid."
+   ],
+   "note": "Gli altri 26 coformeri dello screening non danno un cocristallo: l'articolo identifica solo due hit («two hits were identified»; «two unique powder patterns ... were identified»). Nessuna frase dice a parte che gli altri non hanno dato cocristalli."
+  },
+  {
+   "forme": [
+    "F6",
+    "F7"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "ethanol"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": 70,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "citazioni": [
+    "The single crystals of co-crystals ivabradine hydrochloride (S)-mandelic acid (IClSM), and ivabradine hydrochloride (R)-mandelic acid (IClRM) for structure determination were obtained by spontaneous cooling of hot co-crystal solutions (from 70 ◦C to RT) in ethanol."
+   ],
+   "note": "Cristalli singoli per SXRD: raffreddamento spontaneo da 70 °C a RT di soluzioni calde dei cocristalli in etanolo."
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "sospensione",
+   "solventi": [
+    "ethanol"
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "citazioni": [
+    "The preparation of ivabradine hydrochloride ethanol solvate (IClEt) was serendipitous and the single crystals were obtained from a suspension of ivabradine hydrochloride in ethanol.",
+    "The phase was not reproduced."
+   ],
+   "note": "Ottenuto per caso; la fase non e' stata riprodotta. Il polimorfo di IVA HCl di partenza non e' detto, quindi non e' un evento."
+  },
+  {
+   "forme": [
+    "F2",
+    "F5"
+   ],
+   "metodo": "commerciale",
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Ivabradine hydrochloride (IVA HCl) in form δd and form II, and the excipients, were kindly provided by Zentiva k.s. (Prague, Czech Republic)."
+   ],
+   "note": "Forme fornite da Zentiva (non ottenute da un metodo descritto)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": -8,
+      "circa": true
+     },
+     "gruppo": "protonated N atom in an amide group (cyclic amidic nitrogen)",
+     "metodo": "stima generica per le ammidi, usata dagli autori per l'azoto amidico ciclico di ivabradine",
+     "citazione": "The pKa of the protonated N atom in an amide group would be somewhere around −8 (i.e., extremely unlikely to be protonated)."
+    },
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": -1,
+      "circa": true
+     },
+     "gruppo": "protonated oxygen of an amide group",
+     "metodo": "stima generica per le ammidi",
+     "citazione": "In fact, in amides, upon cation formation, the oxygen atom is more likely to be protonated with pKa of around −1."
+    },
+    {
+     "tipo": "igroscopicita",
+     "forma": "F6",
+     "grandezza": {
+      "testo": "low hygroscopicity"
+     },
+     "citazione": "Both co-crystals showed low hygroscopicity and distinct melting temperature, comparable with polymorphic form γ, which was identiﬁed in the drug product of the originator."
+    },
+    {
+     "tipo": "igroscopicita",
+     "forma": "F7",
+     "grandezza": {
+      "testo": "low hygroscopicity"
+     },
+     "citazione": "Both co-crystals showed low hygroscopicity and distinct melting temperature, comparable with polymorphic form γ, which was identiﬁed in the drug product of the originator."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "due azoti: uno amidico ciclico e uno amminico terziario aciclico",
+     "citazione": "The molecule of ivabradine contains, in its structure, two nitrogen atoms (in cyclic amidic and acyclic tertiary amino groups, see Figure 1)."
+    },
+    {
+     "tipo": "altro",
+     "testo": "come cloridrato e' protonata sull'azoto amminico aciclico; nei cocristalli con acido mandelico l'azoto amidico ciclico non e' protonato",
+     "forma": "F6",
+     "citazione": "When co-crystallized with mandelic acid, the cyclic amidic nitrogen was not protonated."
+    },
+    {
+     "tipo": "altro",
+     "testo": "protonazione sull'azoto amminico aciclico nel cloridrato (SXRD)",
+     "citazione": "The SXRD structure solution clearly showed that, upon hydrochloride formation, the ivabradine is protonated on the acyclic amino nitrogen (see Figure 2, left part)."
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "proprieta": [
+    {
+     "tipo": "pKa",
+     "grandezza": {
+      "valore": 3.41
+     },
+     "gruppo": "carboxylic group of mandelic acid (enantiomero non specificato)",
+     "citazione": "The pKa of mandelic acid is 3.41, so the ∆pKa would equal either −11.41 for the N, or −4.41 for the O atom."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "enantiomerically pure (S)-mandelic acid",
+     "citazione": "As co-crystal was formed with enantiomerically pure (S)-mandelic (IClSM) or (R)-mandelic acid (IClRM)"
+    }
+   ]
+  },
+  {
+   "composto": "C4",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "enantiomerically pure (R)-mandelic acid",
+     "citazione": "As co-crystal was formed with enantiomerically pure (S)-mandelic (IClSM) or (R)-mandelic acid (IClRM)"
+    }
+   ]
+  },
+  {
+   "composto": "C5",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "racemic mandelic acid",
+     "citazione": "Mixtures of IVA HCl with an excess of racemic mandelic acid"
+    }
+   ]
+  }
+ ]
+}
