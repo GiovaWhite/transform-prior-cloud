@@ -501,11 +501,6 @@
      },
      "sorgente": "UV light"
     },
-    "temperatura": {
-     "tipo": "ambiente",
-     "valore": null,
-     "unita": null
-    },
     "solventi": []
    },
    "citazioni": [
@@ -545,7 +540,7 @@
      "citazione": "The octyl groups of diarylethene 1a exist in all-trans conformation."
     }
    ],
-   "note": "Fotociclizzazione dal diariletene aperto (1a) al chiuso (1b) nel cristallo: il cristallo incolore diventa blu (assorbimento a 580 nm), con dicroismo sul piano (0 1 −1) che dimostra la reazione nella fase cristallina. Lunghezza d'onda: il testo scrive «UV light» per il cristallo; 365 nm e' il LED UV dei Metodi (fotomeccanica, e la lampada a mercurio con filtro UV-1A per gli spettri polarizzati): la verifica avverte perche' «365-nm» ha il trattino. La conversione nel cristallo non e' detta. In soluzione (n-esano, 313 nm) la conversione e' del 98%."
+   "note": "Fotociclizzazione dal diariletene aperto (1a) al chiuso (1b) nel cristallo: il cristallo incolore diventa blu (assorbimento a 580 nm), con dicroismo sul piano (0 1 −1) che dimostra la reazione nella fase cristallina. Lunghezza d'onda: il testo scrive «UV light» per il cristallo; 365 nm e' il LED UV dei Metodi (fotomeccanica, e la lampada a mercurio con filtro UV-1A per gli spettri polarizzati): la verifica avverte perche' «365-nm» ha il trattino. La conversione nel cristallo non e' detta. In soluzione (n-esano, 313 nm) la conversione e' del 98%. Temperatura non detta nel testo per il fotocromismo nel cristallo: nessun valore (tolto «ambiente», che non e' scritto)."
   },
   {
    "id": "E8",
@@ -561,11 +556,6 @@
     "potenza": {
      "valore": 100,
      "unita": "W"
-    },
-    "temperatura": {
-     "tipo": "ambiente",
-     "valore": null,
-     "unita": null
     },
     "solventi": []
    },
@@ -586,7 +576,7 @@
    "campione": {
     "tipo": "cristallo_singolo"
    },
-   "note": "Il cristallo blu torna incolore con luce visibile (lampada alogena da 100 W nei Metodi). Il testo non dice la lunghezza d'onda per il cristallo (in soluzione >500 nm)."
+   "note": "Il cristallo blu torna incolore con luce visibile (lampada alogena da 100 W nei Metodi). Il testo non dice la lunghezza d'onda per il cristallo (in soluzione >500 nm). Temperatura non detta nel testo per il fotocromismo nel cristallo: nessun valore (tolto «ambiente», che non e' scritto)."
   },
   {
    "id": "E9",
