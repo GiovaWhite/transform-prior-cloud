@@ -1,0 +1,2272 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.jpcc.1c07297",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2084039–2084046"
+ ],
+ "note": "Resorcinolo ad alta pressione e doping per stabilizzare a pressione ambiente le fasi di alta pressione (resorcinolo, imidazolo, benzimidazolo, 2-metilbenzimidazolo). Le ricristallizzazioni ad alta pressione da soluzione (isoterme e isocore) sono PREPARAZIONI (epsilon sopra 0.20 GPa, zeta sopra 0.70 GPa), non eventi; sono eventi la decompressione di epsilon, le compressioni senza trasformazione (isteresi), il monoidrato che si scioglie lasciando epsilon, il congelamento del fuso con dopante e le macinazioni senza effetto. Un evento per ogni riga di Tabella 3 e Tabella 4 (congelamento del fuso della miscela ospite+dopante). Dalla frase dell'articolo «The absence of the higher-pressure polymorph ζ in any of the doped samples» non nasce un evento (riassume le tabelle). I campioni di riferimento del composto puro congelati dal fuso («as well as the reference sample of the pure compound») non hanno un esito nel testo. Le righe di 5% e 25% di Ta e gli altri dati sono nel supplementare (Tabella S6). Il solo CCDC del lavoro è l'intervallo 2084039–2084046 (otto strutture), non attribuibile alle forme (Tabella S1 nel supplementare); la Tabella 1 dà sei celle a pressioni diverse. Pressione interna del dopante pd (eq. 2): calcolata dagli autori dal volume molecolare, dalla concentrazione e dal modulo di bulk; è in condizioni.altro, NON come pressione applicata. Il testo dice «polymorph β is metastable in all ranges of investigated pressure» a 300 K (beta del resorcinolo): nessuna relazione di coppia, perche' non dice rispetto a quale forma per ogni intervallo. Incoerenze del testo: (1) il testo dice «In the experiment of mixing BzIm with 5% dM-BzIm, we obtained a 100% yield of doped BzIm polymorph β», la Tabella 4 ha la riga «M-BzIm 5% | 0.0469 | 0.07 | 100% β» per BzIm: si segue la tabella; (2) la Tabella 2 dà per l'imidazolo solo M-BzIm come dopante, ma la Tabella 4 ha per l'imidazolo i dopanti BzIm (5% e 25%) e M-BzIm (25%); (3) introduzione: «Polymorph α could be isothermally compressed to 4 GPa; however, in other experiments, it transformed to polymorph β at 0.5 GPa», poi «polymorphs α and β persisted to 5 GPa»; (4) sezione sperimentale: α, β ed ε «could be isothermally compressed to over 1 GPa», risultati: ε «could be compressed to 1 GPa, at which they were crushed»; (5) l'abstract dice che l'isteresi arriva «to nearly 5 GPa», il testo che α e β persistono «to 5 GPa»; (6) refusi: «2-methlybenimidazole», «5,6-dimethibenzimidazole».",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "resorcinol"
+  },
+  {
+   "id": "C2",
+   "nome": "imidazole"
+  },
+  {
+   "id": "C3",
+   "nome": "benzimidazole"
+  },
+  {
+   "id": "C4",
+   "nome": "2-methyl benzimidazole"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "α-resorcinol",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "polymorph α",
+    "α-phase"
+   ],
+   "tipo_presunto": true,
+   "gruppo_spaziale": "Pna21",
+   "cella": {
+    "a": 10.283,
+    "b": 9.1431,
+    "c": 5.5953,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 526.06,
+    "Z": 4,
+    "Z_primo": 1,
+    "condizioni": "0.80(2) GPa",
+    "fonte": "SCXRD"
+   },
+   "citazione": "Back then, the density of low-temperature polymorph α being lower than that of high-temperature polymorph β and their space-group symmetry type Pna21 (Z = 4) being the same despite considerable structural differences were counterintuitive.",
+   "motivi_hb": [
+    {
+     "motivo": "three-dimensional H-bonded network",
+     "chi": "resorcinol molecules",
+     "citazione": "in the crystal structure of ζ-resorcinol, the molecules are H-bonded into layers, which contrasts with the three-dimensional H-bonded networks in the other polymorphs (Figures S6–S8)."
+    }
+   ],
+   "note": "Polimorfo di pressione ambiente, a bassa temperatura. Cella della Tabella 1 a 0.80(2) GPa (Dx 1.390 g/cm3); conformero degli ossidrili anti–anti. Nessun CCDC attribuibile (intervallo 2084039–2084046 nell'articolo)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "polymorph β",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "β"
+   ],
+   "tipo_presunto": true,
+   "gruppo_spaziale": "Pna21",
+   "cella": {
+    "a": 7.5918,
+    "b": 12.629,
+    "c": 5.3029,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 508.4,
+    "Z": 4,
+    "Z_primo": 1,
+    "condizioni": "0.91(2) GPa",
+    "fonte": "SCXRD"
+   },
+   "citazione": "Back then, the density of low-temperature polymorph α being lower than that of high-temperature polymorph β and their space-group symmetry type Pna21 (Z = 4) being the same despite considerable structural differences were counterintuitive.",
+   "motivi_hb": [
+    {
+     "motivo": "three-dimensional H-bonded network",
+     "chi": "resorcinol molecules",
+     "citazione": "in the crystal structure of ζ-resorcinol, the molecules are H-bonded into layers, which contrasts with the three-dimensional H-bonded networks in the other polymorphs (Figures S6–S8)."
+    }
+   ],
+   "note": "Polimorfo ad alta temperatura a pressione ambiente; cella della Tabella 1 a 0.91(2) GPa (Dx 1.439 g/cm3); conformero anti–syn. Metastabile a 300 K in tutto l'intervallo di pressione studiato."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "ε-resorcinol",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "polymorph ε"
+   ],
+   "tipo_presunto": true,
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 17.876,
+    "b": 10.464,
+    "c": 5.7045,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 1067.0,
+    "Z": 8,
+    "Z_primo": 2,
+    "condizioni": "0.25(2) GPa",
+    "fonte": "SCXRD"
+   },
+   "citazione": "Most recently, polymorph ε (space group P212121) was found in the mixture with polymorph β obtained by freezing the melt of resorcinol with the addition of tartaric acid in the form of a thin film.24",
+   "motivi_hb": [
+    {
+     "motivo": "three-dimensional H-bonded network",
+     "chi": "resorcinol molecules",
+     "citazione": "in the crystal structure of ζ-resorcinol, the molecules are H-bonded into layers, which contrasts with the three-dimensional H-bonded networks in the other polymorphs (Figures S6–S8)."
+    }
+   ],
+   "note": "Seconda cella della Tabella 1 a 0.96(2) GPa: a 17.700(6), b 10.094(3), c 5.6096(6) Å, V 1002.2(5) Å3, Z/Z′ 8/2. Conformero anti–syn. Stabile fra 0.20 e 0.70 GPa; a pressione ambiente non si e' potuta determinare la cella di ε puro («Because of the instability of resorcinol ε at ambient pressure»); la ε drogata con acido tartarico e' del lavoro [24]."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "ζ-resorcinol",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "polymorph ζ"
+   ],
+   "tipo_presunto": true,
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 10.6348,
+    "b": 9.5004,
+    "c": 10.873,
+    "alpha": 90,
+    "beta": 114.713,
+    "gamma": 90,
+    "V": 997.9,
+    "Z": 8,
+    "Z_primo": 2,
+    "condizioni": "0.70(2) GPa",
+    "fonte": "SCXRD"
+   },
+   "citazione": "Apart from the lowest molecular volume (the highest density), the unique features of polymorph ζ—among the group of structurally determined resorcinol polymorphs α, β, ε, and ζ—are the centrosymmetric space group (Table 1) and that, in the crystal structure of ζ-resorcinol, the molecules are H-bonded into layers, which contrasts with the three-dimensional H-bonded networks in the other polymorphs (Figures S6–S8).",
+   "motivi_hb": [
+    {
+     "motivo": "H-bonded layers",
+     "chi": "resorcinol molecules",
+     "citazione": "in the crystal structure of ζ-resorcinol, the molecules are H-bonded into layers, which contrasts with the three-dimensional H-bonded networks in the other polymorphs (Figures S6–S8)."
+    }
+   ],
+   "note": "Seconda cella della Tabella 1 a 1.2(2) GPa: a 10.465(3), b 9.425(5), c 10.787(6) Å, beta 113.70(4)°, V 974.1(9) Å3, Z/Z′ 8/2. Conformero anti–syn. Il sistema cristallino non e' scritto nel testo (solo il gruppo): sistema_cristallino lasciato null. Gruppo centrosimmetrico («the centrosymmetric space group (Table 1)»). Unico polimorfo del resorcinolo con strati legati da legami H."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "γ",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "phase γ"
+   ],
+   "tipo_presunto": true,
+   "gruppo_spaziale": "Pnna",
+   "citazione": "Since then, high-pressure polymorphs γ (space group Pnna) and δ (space group unknown)30,31 have also been postulated, but their structures have not been reported.",
+   "note": "Fase postulata ad alta pressione dalla letteratura (rif. 30, 31); la struttura non e' riportata."
+  },
+  {
+   "id": "F6",
+   "composto": "C1",
+   "etichetta": "resorcinol monohydrate",
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1
+   },
+   "citazione": "first, the monohydrate crystal was grown in the DAC at 0.80 GPa, and after releasing the pressure to 0.35 GPa, it started to dissolve while another crystal nucleated",
+   "note": "Cresciuto nella DAC a 0.80 GPa da soluzione acquosa; due intervalli di pressione che favoriscono gli idrati del resorcinolo sono citati da un altro lavoro (rif. 33)."
+  },
+  {
+   "id": "F7",
+   "composto": "C2",
+   "etichetta": "Im polymorph α",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "α"
+   ],
+   "tipo_presunto": true,
+   "citazione": "Analogous experiments were conducted for imidazole and its derivatives (Table 4 and Table S6), for which the ambient- and high-pressure polymorphs were previously determined.18,20,45",
+   "note": "Polimorfo di pressione ambiente dell'imidazolo (etichetta dalla Tabella 4, «Im polymorphs»)."
+  },
+  {
+   "id": "F8",
+   "composto": "C2",
+   "etichetta": "Im polymorph β",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "β"
+   ],
+   "tipo_presunto": true,
+   "citazione": "Analogous experiments were conducted for imidazole and its derivatives (Table 4 and Table S6), for which the ambient- and high-pressure polymorphs were previously determined.18,20,45",
+   "note": "Polimorfo di alta pressione dell'imidazolo (etichetta dalla Tabella 4, «Im polymorphs»)."
+  },
+  {
+   "id": "F9",
+   "composto": "C3",
+   "etichetta": "α-BzIm",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "polymorph α"
+   ],
+   "tipo_presunto": true,
+   "gruppo_spaziale": "Pna21",
+   "citazione": "the space-group symmetry of ambient-pressure polymorph α is Pna21,47 and that of polymorph β stable above 0.23 GPa is Pccn.18"
+  },
+  {
+   "id": "F10",
+   "composto": "C3",
+   "etichetta": "β-BzIm",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "polymorph β"
+   ],
+   "tipo_presunto": true,
+   "gruppo_spaziale": "Pccn",
+   "citazione": "the space-group symmetry of ambient-pressure polymorph α is Pna21,47 and that of polymorph β stable above 0.23 GPa is Pccn.18"
+  },
+  {
+   "id": "F11",
+   "composto": "C4",
+   "etichetta": "α-M-BzIm",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "polymorph α"
+   ],
+   "tipo_presunto": true,
+   "citazione": "gave in the case of M-BzIm mixed with 5% dM-BzIm only the ambient-pressure phase α-M-BzIm"
+  },
+  {
+   "id": "F12",
+   "composto": "C4",
+   "etichetta": "β-M-BzIm",
+   "tipo": "anidro",
+   "ospite": null,
+   "etichette_alternative": [
+    "polymorph β"
+   ],
+   "tipo_presunto": true,
+   "citazione": "being lower than the pressure of 0.26 GPa20 required for stabilizing pure polymorph β-M-BzIm."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F3",
+    "F4"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": null,
+   "condizioni": "resorcinolo puro, 296 K: ε stabile fra 0.20 e 0.70 GPa, ζ stabile a pressione piu' alta (da 0.70 GPa)",
+   "relazione_scritta": "polymorph ε of resorcinol is stable between 0.20 and 0.70 GPa and that polymorph ζ is stable at still higher pressure",
+   "citazione": "All these observations show that polymorph ε of resorcinol is stable between 0.20 and 0.70 GPa and that polymorph ζ is stable at still higher pressure.",
+   "fonte_dati": "propria",
+   "certezza": "alta",
+   "note": "La transizione e' in pressione (0.70 GPa), non in temperatura: nessuna temperatura_transizione."
+  },
+  {
+   "forme": [
+    "F1",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "condizioni": "resorcinolo puro, 296 K, sopra 0.20 GPa (ε stabile da 0.20 a 0.70 GPa); sotto 0.20 GPa ε passa ad α",
+   "citazione": "Presently, we have established that polymorph ε is the stable form of pure resorcinol from 0.20 to 0.70 GPa, at which point another polymorph ζ becomes stable.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "α come forma stabile sotto 0.20 GPa e' implicita nella sequenza «Consequently, the recrystallization experiments yield the sequence of polymorphs α, ε, and ζ» e nella transizione di primo ordine ε → α sotto 0.20 GPa."
+  },
+  {
+   "forme": [
+    "F9",
+    "F10"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F10",
+   "condizioni": "sopra 0.23 GPa",
+   "citazione": "that of polymorph β stable above 0.23 GPa is Pccn.18",
+   "fonte_dati": "citata",
+   "riferimento": "rif. 18",
+   "certezza": "media"
+  },
+  {
+   "forme": [
+    "F11",
+    "F12"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F12",
+   "condizioni": "da 0.26 GPa («the pressure of 0.26 GPa required for stabilizing pure polymorph β-M-BzIm»)",
+   "citazione": "being lower than the pressure of 0.26 GPa20 required for stabilizing pure polymorph β-M-BzIm.",
+   "fonte_dati": "citata",
+   "riferimento": "rif. 20",
+   "certezza": "media"
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "max": 0.2,
+     "unita": "GPa",
+     "tipo": "transizione",
+     "limite": "sotto"
+    }
+   },
+   "citazioni": [
+    "Upon releasing the pressure, the ε crystals were crushed into small pieces below 0.20 GPa due to the strain induced by the first-order phase transition to polymorph α, identified by PXRD both for the sample kept below 0.20 GPa in the DAC and for the powder recovered to ambient conditions.",
+    "The limiting pressure of 0.20 GPa, where single crystals of polymorph ε obtained from pure resorcinol immediately transformed to polymorph α, was most surprising"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "microscopia"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "fratturato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "inverso_di": "E2",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydroxyl groups (anti–anti in polymorph α, anti–syn in ε)",
+     "ruolo": "torsione",
+     "con": "altra_molecola",
+     "cambia": "ruota",
+     "citazione": "The polymorphs also differ in the conformations of hydroxyl groups, approximately described as either anti–anti (polymorph α) or anti–syn (polymorphs β, ε, and ζ)."
+    }
+   ],
+   "note": "ε ottenuta da resorcinolo puro in soluzione; scendendo sotto 0.20 GPa i cristalli si frantumano per la deformazione della transizione di primo ordine e α e' identificata con PXRD sia nella DAC sia nella polvere recuperata a pressione ambiente. La differenza di conformazione degli ossidrili fra α e ε e' quella fra i due polimorfi (non e' detto che cosa succeda a ogni gruppo nella transizione): cambia = ruota e' la lettura dalla frase. L'altro verso (α → ε in compressione) non avviene (E2, isteresi)."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 1,
+     "unita": "GPa",
+     "limite": "sopra"
+    },
+    "temperatura": {
+     "valore": 296,
+     "unita": "K",
+     "tipo": "isoterma"
+    }
+   },
+   "citazioni": [
+    "Characteristically, polymorphs α, β, and ε could be isothermally compressed to over 1 GPa, while high-pressure recrystallization between 0.20 and 0.70 GPa resulted in polymorph ε only.",
+    "Owing to the wide hysteresis of resorcinol polymorphs, their volume compressibility βv = −(1/V) dV/dp|T=296 K could be independently determined at 0.1 MPa at 296 K (Figure 1a)",
+    "The hysteresis, originating from the H-bonding networks, hinders the formation of polymorphs ε and ζ when polymorphs α and β are compressed without melting or dissolving the crystals."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "a_possibili": [
+    "F3",
+    "F4"
+   ],
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "molecular conformations coupled to H-bonding networks",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F1",
+     "citazione": "In those experiments, polymorphs α and β persisted to 5 GPa23,30,31 owing to the molecular conformations (Figure 2, Table 1) coupled to H-bonding networks (Table 1, Figure S6), preserving the present forms, although alternative structures could acquire a lower Gibbs free energy."
+    },
+    {
+     "gruppo": "hydroxyl groups",
+     "ruolo": "torsione",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F1",
+     "citazione": "The hydroxyl group conformation indicates the direction of the H-bonds to the neighboring molecules (Figures S6–S8)."
+    }
+   ],
+   "note": "Polimorfo α compresso isotermicamente oltre 1 GPa senza trasformarsi, benche' ε sia stabile da 0.20 GPa e ζ da 0.70 GPa: l'isteresi nasconde le fasi di alta pressione. a = ignota, a_possibili = ε e ζ (le fasi la cui formazione l'isteresi ostacola, secondo l'abstract). Compressibilita' a 296 K nella Figura 1a.",
+   "inverso_di": "E1"
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 1,
+     "unita": "GPa",
+     "limite": "sopra"
+    },
+    "temperatura": {
+     "valore": 296,
+     "unita": "K",
+     "tipo": "isoterma"
+    }
+   },
+   "citazioni": [
+    "Characteristically, polymorphs α, β, and ε could be isothermally compressed to over 1 GPa, while high-pressure recrystallization between 0.20 and 0.70 GPa resulted in polymorph ε only.",
+    "Owing to the wide hysteresis of resorcinol polymorphs, their volume compressibility βv = −(1/V) dV/dp|T=296 K could be independently determined at 0.1 MPa at 296 K (Figure 1a)",
+    "The hysteresis, originating from the H-bonding networks, hinders the formation of polymorphs ε and ζ when polymorphs α and β are compressed without melting or dissolving the crystals."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "a_possibili": [
+    "F3",
+    "F4"
+   ],
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "molecular conformations coupled to H-bonding networks",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "In those experiments, polymorphs α and β persisted to 5 GPa23,30,31 owing to the molecular conformations (Figure 2, Table 1) coupled to H-bonding networks (Table 1, Figure S6), preserving the present forms, although alternative structures could acquire a lower Gibbs free energy."
+    },
+    {
+     "gruppo": "hydroxyl groups",
+     "ruolo": "torsione",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "The hydroxyl group conformation indicates the direction of the H-bonds to the neighboring molecules (Figures S6–S8)."
+    }
+   ],
+   "note": "Polimorfo β compresso isotermicamente oltre 1 GPa senza trasformarsi, benche' ε sia stabile da 0.20 GPa e ζ da 0.70 GPa: l'isteresi nasconde le fasi di alta pressione. a = ignota, a_possibili = ε e ζ (le fasi la cui formazione l'isteresi ostacola, secondo l'abstract). Compressibilita' a 296 K nella Figura 1a."
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "max": 1,
+     "unita": "GPa",
+     "limite": "sotto"
+    }
+   },
+   "citazioni": [
+    "The single crystals of polymorph ε could be compressed to 1 GPa, at which they were crushed. By performing in situ PXRD measurements, we confirmed that the tiny fragments are still in the ε phase.",
+    "The damage was due to mechanical reasons caused by anisotropic strain in the elongated crystal samples bridging the opposite edges of the steel gaskets (Figures S1 and S2), which plastically deformed when the pressure in the DAC was increased."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "SCXRD"
+    ],
+    "integrita": "fratturato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "conflitto": "Sezione sperimentale: «polymorphs α, β, and ε could be isothermally compressed to over 1 GPa»; risultati: ε «could be compressed to 1 GPa, at which they were crushed». Si tiene il dato puntuale dei risultati.",
+   "note": "I cristalli di ε si frantumano a 1 GPa per cause meccaniche (deformazione anisotropa fra i bordi della guarnizione), ma i frammenti restano ε (PXRD in situ). Nessuna transizione a ζ, che sarebbe stabile sopra 0.70 GPa."
+  },
+  {
+   "id": "E5",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.35,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "solventi": [
+     {
+      "nome": "water",
+      "proporzione": "aqueous solution"
+     }
+    ]
+   },
+   "citazioni": [
+    "In another series of experiments, polymorph ε nucleated and grew in the form of a single crystal from the aqueous solution in the presence of resorcinol monohydrate (Figure S2): first, the monohydrate crystal was grown in the DAC at 0.80 GPa, and after releasing the pressure to 0.35 GPa, it started to dissolve while another crystal nucleated. After further reduction of the pressure to 0.20 GPa, the monohydrate dissolved completely, and a crystal of ε-resorcinol was isothermally grown when the pressure was slowly increased up to 0.25 GPa (Figure S2); the crystal grew when the pressure was increased to 0.50 GPa, and then no change in the size or shape was noticed."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "microscopia",
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "via_soluzione"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo di monoidrato cresciuto nella DAC a 0.80 GPa",
+   "note": "Sequenza nella DAC: monoidrato cresciuto a 0.80 GPa; portando la pressione a 0.35 GPa «it started to dissolve while another crystal nucleated»; a 0.20 GPa il monoidrato si e' sciolto del tutto; poi ε e' cresciuta isotermicamente aumentando lentamente la pressione fino a 0.25 GPa e ancora fino a 0.50 GPa. Si riporta 0.35 GPa (inizio della dissoluzione e nucleazione). Il testo non dice se l'«altro cristallo» nucleato a 0.35 GPa sia gia' ε: lo e' quello che cresce dopo la dissoluzione completa a 0.20 GPa."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": 0.5,
+     "unita": "GPa",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "Polymorph α could be isothermally compressed to 4 GPa; however, in other experiments, it transformed to polymorph β at 0.5 GPa.31"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "rif. 31",
+   "conflitto": "Piu' avanti «polymorphs α and β persisted to 5 GPa» (rif. 23, 30, 31) e, nella stessa frase, α «could be isothermally compressed to 4 GPa».",
+   "note": "Esperimenti di un altro lavoro (rif. 31); la frase non dice il mezzo ne' la temperatura."
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": 5,
+     "unita": "GPa",
+     "tipo": "transizione"
+    }
+   },
+   "citazioni": [
+    "identified polymorph β as the high-pressure form of resorcinol up to 5 GPa, where it transforms to phase γ.30,31"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "rif. 30, 31",
+   "note": "γ e' una fase postulata, di struttura non riportata (rif. 30, 31)."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "max": 5,
+     "unita": "GPa",
+     "limite": "sotto"
+    }
+   },
+   "citazioni": [
+    "In those experiments, polymorphs α and β persisted to 5 GPa23,30,31 owing to the molecular conformations (Figure 2, Table 1) coupled to H-bonding networks (Table 1, Figure S6)",
+    "contrary to the compression experiments on ambient-pressure polymorphs α and β, when the high-pressure phases were hidden behind the wide hysteresis extending to nearly 5 GPa."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "a_possibili": [
+    "F3",
+    "F4"
+   ],
+   "riferimento": "rif. 23, 30, 31",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "molecular conformations coupled to H-bonding networks",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F1",
+     "citazione": "In those experiments, polymorphs α and β persisted to 5 GPa23,30,31 owing to the molecular conformations (Figure 2, Table 1) coupled to H-bonding networks (Table 1, Figure S6), preserving the present forms, although alternative structures could acquire a lower Gibbs free energy."
+    }
+   ],
+   "note": "Compressione dei polimorfi di pressione ambiente senza fondere ne' sciogliere (esperimenti della letteratura): α resta tale fino a 5 GPa. Una frase per due forme: un evento per forma. L'abstract dice «extending to nearly 5 GPa»."
+  },
+  {
+   "id": "E9",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "max": 5,
+     "unita": "GPa",
+     "limite": "sotto"
+    }
+   },
+   "citazioni": [
+    "In those experiments, polymorphs α and β persisted to 5 GPa23,30,31 owing to the molecular conformations (Figure 2, Table 1) coupled to H-bonding networks (Table 1, Figure S6)",
+    "contrary to the compression experiments on ambient-pressure polymorphs α and β, when the high-pressure phases were hidden behind the wide hysteresis extending to nearly 5 GPa."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "a_possibili": [
+    "F3",
+    "F4"
+   ],
+   "riferimento": "rif. 23, 30, 31",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "molecular conformations coupled to H-bonding networks",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "In those experiments, polymorphs α and β persisted to 5 GPa23,30,31 owing to the molecular conformations (Figure 2, Table 1) coupled to H-bonding networks (Table 1, Figure S6), preserving the present forms, although alternative structures could acquire a lower Gibbs free energy."
+    }
+   ],
+   "note": "Compressione dei polimorfi di pressione ambiente senza fondere ne' sciogliere (esperimenti della letteratura): β resta tale fino a 5 GPa. Una frase per due forme: un evento per forma. L'abstract dice «extending to nearly 5 GPa»."
+  },
+  {
+   "id": "E10",
+   "da": "F3",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "via": "altro",
+   "sottovia": "esposizione_ambiente",
+   "condizioni": {},
+   "citazioni": [
+    "The limiting pressure of 0.20 GPa, where single crystals of polymorph ε obtained from pure resorcinol immediately transformed to polymorph α, was most surprising in the context of the prolonged handling of polymorph ε obtained from the mixture with tartaric acid.24"
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "citata",
+   "natura": "fisica",
+   "riferimento": "Zhu et al., rif. 24",
+   "senza_condizioni": true,
+   "esito_dettaglio": "nessuna_trasformazione",
+   "note": "Negativo riportato da un altro lavoro: la ε ottenuta dal resorcinolo con acido tartarico (film sottile congelato dal fuso, in miscela con β) resta stabile durante «prolonged handling» a pressione ambiente, mentre la ε del resorcinolo puro passa a α sotto 0.20 GPa. a = α e' la forma in cui la ε pura si trasforma. Nessuna condizione detta (durata, T, RH): certezza bassa."
+  },
+  {
+   "id": "E11",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "l-tartaric acid (l-Ta), 15 wt %"
+    ],
+    "altro": "dopante l-tartaric acid (l-Ta), 15 wt %; cd (rapporto molare dopante/ospite) = 0.1295; pressione interna del dopante pd = 0.52 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "l-Ta 15% | 0.1295 | 0.52 | 15% β:85% ε"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 15,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 85,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F2"
+   ],
+   "note": "Riga di Tabella 3 (resorcinolo + dopante, congelato dal fuso). α-resorcinolo mescolato per macinazione col dopante, fuso sul vetrino riscaldante e raffreddato; PXRD quantitativa dei polimorfi. "
+  },
+  {
+   "id": "E12",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "d-tartaric acid (d-Ta), 15 wt %"
+    ],
+    "altro": "dopante d-tartaric acid (d-Ta), 15 wt %; cd (rapporto molare dopante/ospite) = 0.1295; pressione interna del dopante pd = 0.52 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "d-Ta 15% | 0.1295 | 0.52 | 12% β:88% ε"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "riprodotta",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 12,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 88,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F2"
+   ],
+   "riferimento": "Zhu et al. [24]",
+   "note": "Riga di Tabella 3 (resorcinolo + dopante, congelato dal fuso). α-resorcinolo mescolato per macinazione col dopante, fuso sul vetrino riscaldante e raffreddato; PXRD quantitativa dei polimorfi. Procedura di Zhu et al. [24] ripetuta qui con d-Ta. "
+  },
+  {
+   "id": "E13",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "dl-tartaric acid (dl-Ta), 15 wt %"
+    ],
+    "altro": "dopante dl-tartaric acid (dl-Ta), 15 wt %; cd (rapporto molare dopante/ospite) = 0.1295; pressione interna del dopante pd = 0.52 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "dl-Ta 15% | 0.1295 | 0.52 | 10% β:90% ε"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 10,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 90,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F2"
+   ],
+   "note": "Riga di Tabella 3 (resorcinolo + dopante, congelato dal fuso). α-resorcinolo mescolato per macinazione col dopante, fuso sul vetrino riscaldante e raffreddato; PXRD quantitativa dei polimorfi. "
+  },
+  {
+   "id": "E14",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "2-methyl benzimidazole (M-BzIm), 15 wt %"
+    ],
+    "altro": "dopante 2-methyl benzimidazole (M-BzIm), 15 wt %; cd (rapporto molare dopante/ospite) = 0.1470; pressione interna del dopante pd = 0.42 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "M-BzIm 15% | 0.1470 | 0.42 | 77% β:23% ε"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 77,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 23,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F3"
+   ],
+   "note": "Riga di Tabella 3 (resorcinolo + dopante, congelato dal fuso). α-resorcinolo mescolato per macinazione col dopante, fuso sul vetrino riscaldante e raffreddato; PXRD quantitativa dei polimorfi. Il prodotto principale e' β (77%), ε e' la fase di alta pressione cercata (23%). "
+  },
+  {
+   "id": "E15",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "2-methyl benzimidazole (M-BzIm), 25 wt %"
+    ],
+    "altro": "dopante 2-methyl benzimidazole (M-BzIm), 25 wt %; cd (rapporto molare dopante/ospite) = 0.2777; pressione interna del dopante pd = 0.79 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "M-BzIm 25% | 0.2777 | 0.79 | 31% β:69% ε"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 31,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 69,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F2"
+   ],
+   "note": "Riga di Tabella 3 (resorcinolo + dopante, congelato dal fuso). α-resorcinolo mescolato per macinazione col dopante, fuso sul vetrino riscaldante e raffreddato; PXRD quantitativa dei polimorfi. "
+  },
+  {
+   "id": "E16",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "5,6-dimethylbenzimidazole (dM-BzIm), 25 wt %"
+    ],
+    "altro": "dopante 5,6-dimethylbenzimidazole (dM-BzIm), 25 wt %; cd (rapporto molare dopante/ospite) = 0.2509; pressione interna del dopante pd = 1.26 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "dM-BzIm 25% | 0.2509 | 1.26 | 31% β:69% ε"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 31,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 69,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F2"
+   ],
+   "note": "Riga di Tabella 3 (resorcinolo + dopante, congelato dal fuso). α-resorcinolo mescolato per macinazione col dopante, fuso sul vetrino riscaldante e raffreddato; PXRD quantitativa dei polimorfi. "
+  },
+  {
+   "id": "E17",
+   "da": "F7",
+   "a": "F8",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "benzimidazole (BzIm), 5 wt %"
+    ],
+    "altro": "dopante benzimidazole (BzIm), 5 wt %; cd (rapporto molare dopante/ospite) = 0.0303; pressione interna del dopante pd = 0.17 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "dopant (wt %) | cd | dopant pressure pd (GPa) | Im polymorphs BzIm 5% | 0.0303 | 0.17 | 100% α"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F7",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 100,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "note": "Riga di Tabella 4 per l'imidazolo: solo la fase α di pressione ambiente (100%), nessun polimorfo di alta pressione; a = β (la fase di alta pressione cercata) con esito non_avvenuta. Il dopante BzIm non e' fra quelli che la Tabella 2 elenca per l'imidazolo (solo M-BzIm).",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E18",
+   "da": "F7",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "benzimidazole (BzIm), 25 wt %"
+    ],
+    "altro": "dopante benzimidazole (BzIm), 25 wt %; cd (rapporto molare dopante/ospite) = 0.1920; pressione interna del dopante pd = 1.11 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "BzIm 25% | 0.1920 | 1.11 | 35% α:65% β"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F7",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 35,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F8",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 65,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F7"
+   ],
+   "note": "Riga di Tabella 4 per l'imidazolo: 35% α : 65% β. Il dopante BzIm non e' fra quelli che la Tabella 2 elenca per l'imidazolo (solo M-BzIm).",
+   "esito_dettaglio": null
+  },
+  {
+   "id": "E19",
+   "da": "F7",
+   "a": "F8",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "2-methyl benzimidazole (M-BzIm), 25 wt %"
+    ],
+    "altro": "dopante 2-methyl benzimidazole (M-BzIm), 25 wt %; cd (rapporto molare dopante/ospite) = 0.1716; pressione interna del dopante pd = 1.34 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "M-BzIm 25% | 0.1716 | 1.34 | 64% α:36% β"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F7",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 64,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F8",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 36,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F7"
+   ],
+   "note": "Riga di Tabella 4 per l'imidazolo: 64% α : 36% β, quindi la fase di alta pressione e' minoritaria (parziale).",
+   "esito_dettaglio": null,
+   "frequenza": null
+  },
+  {
+   "id": "E20",
+   "da": "F9",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "2-methyl benzimidazole (M-BzIm), 5 wt %"
+    ],
+    "altro": "dopante 2-methyl benzimidazole (M-BzIm), 5 wt %; cd (rapporto molare dopante/ospite) = 0.0469; pressione interna del dopante pd = 0.07 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "dopant (wt %) | cd | dopant pressure pd (GPa) | BzIm polymorphs M-BzIm 5% | 0.0469 | 0.07 | 100% β",
+    "In the experiment of mixing BzIm with 5% dM-BzIm, we obtained a 100% yield of doped BzIm polymorph β. This was the only case of full yield of the high-pressure polymorph in all our experiments."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F10",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 100,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "note": "Riga di Tabella 4 per il benzimidazolo: 100% β, l'unico caso di resa piena della fase di alta pressione («This was the only case of full yield of the high-pressure polymorph in all our experiments»). Il testo scrive che il dopante di questo esperimento e' 5% dM-BzIm («In the experiment of mixing BzIm with 5% dM-BzIm, we obtained a 100% yield of doped BzIm polymorph β»); la tabella ha M-BzIm 5%: si segue la tabella.",
+   "conflitto": "Il testo dice che il dopante e' 5% dM-BzIm; la Tabella 4 (riga del benzimidazolo) ha M-BzIm 5% | 0.0469 | 0.07 | 100% β. Si segue la tabella.",
+   "esito_dettaglio": null
+  },
+  {
+   "id": "E21",
+   "da": "F9",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "2-methyl benzimidazole (M-BzIm), 15 wt %"
+    ],
+    "altro": "dopante 2-methyl benzimidazole (M-BzIm), 15 wt %; cd (rapporto molare dopante/ospite) = 0.1588; pressione interna del dopante pd = 0.22 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "M-BzIm 15% | 0.1588 | 0.22 | 5% α:95% β"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F9",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 5,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F10",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 95,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F9"
+   ],
+   "note": "Riga di Tabella 4 per il benzimidazolo: 5% α : 95% β.",
+   "esito_dettaglio": null
+  },
+  {
+   "id": "E22",
+   "da": "F9",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "5,6-dimethylbenzimidazole (dM-BzIm), 15 wt %"
+    ],
+    "altro": "dopante 5,6-dimethylbenzimidazole (dM-BzIm), 15 wt %; cd (rapporto molare dopante/ospite) = 0.1436; pressione interna del dopante pd = 0.44 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "dM-BzIm 15% | 0.1436 | 0.44 | 13% α:87% β"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F9",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 13,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F10",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 87,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F9"
+   ],
+   "note": "Riga di Tabella 4 per il benzimidazolo: 13% α : 87% β.",
+   "esito_dettaglio": null
+  },
+  {
+   "id": "E23",
+   "da": "F11",
+   "a": "F12",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "5,6-dimethylbenzimidazole (dM-BzIm), 5 wt %"
+    ],
+    "altro": "dopante 5,6-dimethylbenzimidazole (dM-BzIm), 5 wt %; cd (rapporto molare dopante/ospite) = 0.0475; pressione interna del dopante pd = 0.10 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "dopant (wt %) | cd | dopant pressure pd (GPa) | M-BzIm polymorphs dM-BzIm 5% | 0.0475 | 0.10 | 100% α",
+    "gave in the case of M-BzIm mixed with 5% dM-BzIm only the ambient-pressure phase α-M-BzIm, which was consistent with the internal pressure pd (cf. eq 2, Table 4) being lower than the pressure of 0.26 GPa20 required for stabilizing pure polymorph β-M-BzIm."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F11",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 100,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "note": "Riga di Tabella 4 per il 2-metilbenzimidazolo: solo la fase α (100%). Il testo lo spiega con la pressione interna: «only the ambient-pressure phase α-M-BzIm, which was consistent with the internal pressure pd (cf. eq 2, Table 4) being lower than the pressure of 0.26 GPa20 required for stabilizing pure polymorph β-M-BzIm»; a = β (fase di alta pressione cercata), esito non_avvenuta.",
+   "esito_dettaglio": "nessuna_trasformazione"
+  },
+  {
+   "id": "E24",
+   "da": "F11",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "5,6-dimethylbenzimidazole (dM-BzIm), 15 wt %"
+    ],
+    "altro": "dopante 5,6-dimethylbenzimidazole (dM-BzIm), 15 wt %; cd (rapporto molare dopante/ospite) = 0.1606; pressione interna del dopante pd = 0.36 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "dM-BzIm 15% | 0.1606 | 0.36 | 23% α:77% β",
+    "However, 15% and 25% doping caused the formation of the β-M-BzIm polymorph as the main component of the frozen mixture (Table 4)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F11",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 23,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F12",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 77,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F11"
+   ],
+   "note": "Riga di Tabella 4 per il 2-metilbenzimidazolo: 23% α : 77% β («15% and 25% doping caused the formation of the β-M-BzIm polymorph as the main component»).",
+   "esito_dettaglio": null
+  },
+  {
+   "id": "E25",
+   "da": "F11",
+   "a": "F12",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 370,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "processo",
+     "circa": true
+    },
+    "additivi": [
+     "5,6-dimethylbenzimidazole (dM-BzIm), 25 wt %"
+    ],
+    "altro": "dopante 5,6-dimethylbenzimidazole (dM-BzIm), 25 wt %; cd (rapporto molare dopante/ospite) = 0.3012; pressione interna del dopante pd = 0.67 GPa (calcolata dagli autori con l'eq. 2, non applicata)"
+   },
+   "citazioni": [
+    "Samples of 4.1 mg of ambient-pressure polymorphs (α-phase) of selected compounds listed in Table 2 were mixed by grinding with a dopant at 5, 15, and 25 wt % ratios and recrystallized by freezing the melt, following the procedure reported for α-resorcinol mixed with d-tartaric acid (d-Ta) by Zhu et al.24",
+    "Each of these mixtures, as well as the reference sample of the pure compound, was heated on the thermal stage of a microscope until all crystal grains were molten, after which the samples were left to cool down to room temperature and recrystallize (Figure S9).",
+    "The cooling of the molten mixture from ca. 370–300 K took about 10 min, but the molten sample froze in few seconds.",
+    "Subsequently, the samples were characterized by PXRD using a Bruker D8 diffractometer operating in the θ–2θ geometry with a Johansson monochromator, λ(Cu Kα1) = 1.54060 Å, and a LynxEye silicon-strip detector. The PXRD patterns were compared with the reference patterns calculated for the pure-compound phases as well as the applied dopant.42,43 In this way, the polymorphs constituting the samples were identified, and their ratio was established by comparing the intensities of reflections.",
+    "dM-BzIm 25% | 0.3012 | 0.67 | 18% α:82% β",
+    "However, 15% and 25% doping caused the formation of the β-M-BzIm polymorph as the main component of the frozen mixture (Table 4)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": [
+     "via_fuso"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F11",
+      "prevalenza": "minoritaria",
+      "frazione": {
+       "valore": 18,
+       "unita": "%"
+      }
+     },
+     {
+      "forma": "F12",
+      "prevalenza": "prevalente",
+      "frazione": {
+       "valore": 82,
+       "unita": "%"
+      }
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "prodotti_secondari": [
+    "F11"
+   ],
+   "note": "Riga di Tabella 4 per il 2-metilbenzimidazolo: 18% α : 82% β («15% and 25% doping caused the formation of the β-M-BzIm polymorph as the main component»).",
+   "esito_dettaglio": null
+  },
+  {
+   "id": "E26",
+   "da": "F10",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "limite": "sopra",
+     "testo": "at least several months"
+    },
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente"
+    }
+   },
+   "citazioni": [
+    "This doped β-BzIm sample was stable for at least several months.",
+    "Rational doping by molecules larger than the host compound molecules can generate an internal strain in the melt, which mimics external compression and leads to high-pressure polymorphs. The doping pressure concept requires that single dopant molecules larger than the host molecules be randomly distributed in the host melt and crystal structure. Then, the internal pressure can be assessed from the molecular volume difference, dopant concentration, and host bulk modulus. The doping pressure is strongly inhomogeneous, but it shifts the thermodynamic equilibrium for nucleation toward high-pressure polymorphs and stabilizes them under ambient conditions."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "da_evento": "E20",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Campione di β-BzIm drogato (100% β, E20), «stable for at least several months»; la temperatura non e' scritta ('ambient conditions' nelle conclusioni), quindi tipo ambiente senza numero. La forma attesa a cui tornerebbe (α) non e' nominata per questa prova: a = ignota. Tecnica non detta per il controllo di stabilita'."
+  },
+  {
+   "id": "E27",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "MM 400 mill",
+     "frequenza_Hz": 30,
+     "durata": {
+      "valore": 4,
+      "unita": "h",
+      "tipo": "processo"
+     },
+     "sfere": "several steel balls",
+     "liquido": null,
+     "testo": "hardened steel containers"
+    },
+    "additivi": [
+     "l-tartaric acid (l-Ta)",
+     "dl-tartaric acid (dl-Ta)",
+     "d-tartaric acid (d-Ta)",
+     "2-methyl benzimidazole (M-BzIm)",
+     "5,6-dimethylbenzimidazole (dM-BzIm)"
+    ],
+    "altro": "dopante a 5, 10, 15, 20 e 25 wt %"
+   },
+   "citazioni": [
+    "Preparation of doped samples, analogous to those obtained in the melting and freezing process, by milling mixtures of 4.1 mg of the ambient-pressure polymorph with the dopants listed in Table 2 at 5, 10, 15, 20, and 25 wt % was attempted.",
+    "The samples were milled in hardened steel containers with several steel balls at a frequency of 30 Hz for 4 h. An MM 400 mill was used for all the powder samples.",
+    "The subsequent PXRD patterns showed no changes in the ambient-pressure components in the mixtures, and no high-pressure polymorphs were detected."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "a_possibili": [
+    "F3",
+    "F4"
+   ],
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "note": "Macinazione (non fusione) di resorcinol con i dopanti elencati per l'ospite nella Tabella 2 (5-25 wt %): nessun cambiamento, nessun polimorfo di alta pressione. La frase vale per tutti gli ospiti della Tabella 2 («the ambient-pressure polymorph»): un evento per ospite. Gli autori spiegano che la macinazione non distribuisce molecole di dopante isolate nel grano («milling is very unlikely to result in a uniform distribution of single dopant molecules»)."
+  },
+  {
+   "id": "E28",
+   "da": "F7",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "MM 400 mill",
+     "frequenza_Hz": 30,
+     "durata": {
+      "valore": 4,
+      "unita": "h",
+      "tipo": "processo"
+     },
+     "sfere": "several steel balls",
+     "liquido": null,
+     "testo": "hardened steel containers"
+    },
+    "additivi": [
+     "2-methyl benzimidazole (M-BzIm)"
+    ],
+    "altro": "dopante a 5, 10, 15, 20 e 25 wt %"
+   },
+   "citazioni": [
+    "Preparation of doped samples, analogous to those obtained in the melting and freezing process, by milling mixtures of 4.1 mg of the ambient-pressure polymorph with the dopants listed in Table 2 at 5, 10, 15, 20, and 25 wt % was attempted.",
+    "The samples were milled in hardened steel containers with several steel balls at a frequency of 30 Hz for 4 h. An MM 400 mill was used for all the powder samples.",
+    "The subsequent PXRD patterns showed no changes in the ambient-pressure components in the mixtures, and no high-pressure polymorphs were detected."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "a_possibili": [
+    "F8"
+   ],
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "note": "Macinazione (non fusione) di imidazole con i dopanti elencati per l'ospite nella Tabella 2 (5-25 wt %): nessun cambiamento, nessun polimorfo di alta pressione. La frase vale per tutti gli ospiti della Tabella 2 («the ambient-pressure polymorph»): un evento per ospite. Gli autori spiegano che la macinazione non distribuisce molecole di dopante isolate nel grano («milling is very unlikely to result in a uniform distribution of single dopant molecules»)."
+  },
+  {
+   "id": "E29",
+   "da": "F9",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "MM 400 mill",
+     "frequenza_Hz": 30,
+     "durata": {
+      "valore": 4,
+      "unita": "h",
+      "tipo": "processo"
+     },
+     "sfere": "several steel balls",
+     "liquido": null,
+     "testo": "hardened steel containers"
+    },
+    "additivi": [
+     "2-methyl benzimidazole (M-BzIm)",
+     "5,6-dimethylbenzimidazole (dM-BzIm)"
+    ],
+    "altro": "dopante a 5, 10, 15, 20 e 25 wt %"
+   },
+   "citazioni": [
+    "Preparation of doped samples, analogous to those obtained in the melting and freezing process, by milling mixtures of 4.1 mg of the ambient-pressure polymorph with the dopants listed in Table 2 at 5, 10, 15, 20, and 25 wt % was attempted.",
+    "The samples were milled in hardened steel containers with several steel balls at a frequency of 30 Hz for 4 h. An MM 400 mill was used for all the powder samples.",
+    "The subsequent PXRD patterns showed no changes in the ambient-pressure components in the mixtures, and no high-pressure polymorphs were detected."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "a_possibili": [
+    "F10"
+   ],
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "note": "Macinazione (non fusione) di benzimidazole con i dopanti elencati per l'ospite nella Tabella 2 (5-25 wt %): nessun cambiamento, nessun polimorfo di alta pressione. La frase vale per tutti gli ospiti della Tabella 2 («the ambient-pressure polymorph»): un evento per ospite. Gli autori spiegano che la macinazione non distribuisce molecole di dopante isolate nel grano («milling is very unlikely to result in a uniform distribution of single dopant molecules»)."
+  },
+  {
+   "id": "E30",
+   "da": "F11",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "meccanica",
+   "sottovia": "macinazione",
+   "condizioni": {
+    "macinazione": {
+     "mulino": "MM 400 mill",
+     "frequenza_Hz": 30,
+     "durata": {
+      "valore": 4,
+      "unita": "h",
+      "tipo": "processo"
+     },
+     "sfere": "several steel balls",
+     "liquido": null,
+     "testo": "hardened steel containers"
+    },
+    "additivi": [
+     "5,6-dimethylbenzimidazole (dM-BzIm)"
+    ],
+    "altro": "dopante a 5, 10, 15, 20 e 25 wt %"
+   },
+   "citazioni": [
+    "Preparation of doped samples, analogous to those obtained in the melting and freezing process, by milling mixtures of 4.1 mg of the ambient-pressure polymorph with the dopants listed in Table 2 at 5, 10, 15, 20, and 25 wt % was attempted.",
+    "The samples were milled in hardened steel containers with several steel balls at a frequency of 30 Hz for 4 h. An MM 400 mill was used for all the powder samples.",
+    "The subsequent PXRD patterns showed no changes in the ambient-pressure components in the mixtures, and no high-pressure polymorphs were detected."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "a_possibili": [
+    "F12"
+   ],
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "miscela",
+    "massa": "4.1 mg"
+   },
+   "note": "Macinazione (non fusione) di 2-methyl benzimidazole con i dopanti elencati per l'ospite nella Tabella 2 (5-25 wt %): nessun cambiamento, nessun polimorfo di alta pressione. La frase vale per tutti gli ospiti della Tabella 2 («the ambient-pressure polymorph»): un evento per ospite. Gli autori spiegano che la macinazione non distribuisce molecole di dopante isolate nel grano («milling is very unlikely to result in a uniform distribution of single dopant molecules»)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "methanol/water 1:1 (vol)"
+   ],
+   "solventi_alternativi": false,
+   "pressione": {
+    "valore": null,
+    "min": 0.2,
+    "unita": "GPa",
+    "limite": "sopra",
+    "tipo": "applicata"
+   },
+   "tempo": {
+    "valore": null,
+    "min": 1,
+    "max": 3,
+    "unita": "h",
+    "circa": true
+   },
+   "citazioni": [
+    "Polymorph ε nucleated above 0.20 GPa from the solution of resorcinol in a methanol/water 1:1 (vol) mixture (Figure S1).",
+    "On average, the crystallization of one single-crystal sample from its nucleation to the final equilibration of growth at room temperature required about 1–3 h of the controlled microscopic experiment."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "ε nucleata sopra 0.20 GPa in una DAC; il tempo di 1–3 h e' per un cristallo singolo, a temperatura ambiente (testo: «at room temperature»)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [],
+   "pressione": {
+    "valore": null,
+    "min": 0.2,
+    "max": 0.7,
+    "unita": "GPa",
+    "tipo": "applicata"
+   },
+   "citazioni": [
+    "High-quality single crystals of polymorph ε were grown in isochoric and isothermal conditions between 0.20 and 0.70 GPa (Figures S1 and S2)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Condizioni isocore e isoterme; l'abstract dice «High-pressure isothermal and isochoric recrystallizations yielded pure single crystals of resorcinol ε above 0.20 GPa». I solventi sono quelli delle prove (S1, S2, supplementare)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E5",
+   "solventi": [
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "pressione": {
+    "valore": null,
+    "min": 0.25,
+    "max": 0.5,
+    "unita": "GPa",
+    "tipo": "applicata"
+   },
+   "citazioni": [
+    "After further reduction of the pressure to 0.20 GPa, the monohydrate dissolved completely, and a crystal of ε-resorcinol was isothermally grown when the pressure was slowly increased up to 0.25 GPa (Figure S2); the crystal grew when the pressure was increased to 0.50 GPa"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "MeOH/EtOH/H2O (16:3:1)"
+   ],
+   "solventi_alternativi": false,
+   "pressione": {
+    "valore": null,
+    "min": 0.7,
+    "unita": "GPa",
+    "limite": "sopra",
+    "tipo": "applicata"
+   },
+   "citazioni": [
+    "Above 0.70 GPa, a new polymorph ζ of pure resorcinol was crystallized from the saturated solution in MeOH/EtOH/H2O (16:3:1) by the isochoric method (Figure S3).",
+    "All recrystallization procedures above 0.70 GPa resulted in crystals of a new polymorph ζ (Figure S3)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Metodo isocoro da soluzione satura. Le misure SCXRD di ζ sono poi ripetute con lo stesso cristallo compresso a 0.83, 1.00 e 1.20 GPa."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "pressione": {
+    "valore": 0.8,
+    "unita": "GPa",
+    "tipo": "applicata"
+   },
+   "citazioni": [
+    "first, the monohydrate crystal was grown in the DAC at 0.80 GPa"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "forma": "F1",
+     "grandezza": {
+      "valore": 0.14,
+      "unita": "GPa–1"
+     },
+     "metodo": "compressibilita' di volume βv = −(1/V) dV/dp a 296 K e 0.1 MPa (SCXRD ad alta pressione)",
+     "calcolato": false,
+     "citazione": "for polymorph α the compressibility, βv, is 0.140 GPa–1"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F2",
+     "grandezza": {
+      "valore": 0.091,
+      "unita": "GPa–1"
+     },
+     "metodo": "compressibilita' di volume βv = −(1/V) dV/dp a 296 K e 0.1 MPa (SCXRD ad alta pressione)",
+     "calcolato": false,
+     "citazione": "for polymorph β it is 0.091 GPa–1"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F3",
+     "grandezza": {
+      "valore": 0.081,
+      "unita": "GPa–1"
+     },
+     "metodo": "compressibilita' di volume βv = −(1/V) dV/dp a 296 K e 0.1 MPa (SCXRD ad alta pressione)",
+     "calcolato": false,
+     "citazione": "for polymorph ε it is 0.081 GPa–1"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F4",
+     "grandezza": {
+      "valore": 0.048,
+      "unita": "GPa–1"
+     },
+     "metodo": "compressibilita' di volume βv misurata solo sopra 0.7 GPa (T = 296 K)",
+     "calcolato": false,
+     "citazione": "for polymorph ζ the compressibility could be measured only above 0.7 GPa where it is equal to 0.048 GPa–1"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "ossidrili anti–anti",
+     "citazione": "The polymorphs also differ in the conformations of hydroxyl groups, approximately described as either anti–anti (polymorph α) or anti–syn (polymorphs β, ε, and ζ)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "ossidrili anti–syn",
+     "citazione": "The polymorphs also differ in the conformations of hydroxyl groups, approximately described as either anti–anti (polymorph α) or anti–syn (polymorphs β, ε, and ζ)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F3",
+     "testo": "ossidrili anti–syn (le distorsioni maggiori dai valori ideali di 180° o 0° sono in ε)",
+     "citazione": "The largest distortions from these ideal values are present in polymorph ε (Table 1)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F4",
+     "testo": "ossidrili anti–syn",
+     "citazione": "The polymorphs also differ in the conformations of hydroxyl groups, approximately described as either anti–anti (polymorph α) or anti–syn (polymorphs β, ε, and ζ)."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "angoli di torsione degli ossidrili C2–C1–O1–H e C2–C3–O3–H (180° o 0° ideali per anti e syn) e C–O···O–C che orientano i vicini legati da H",
+     "citazione": "The descriptors “anti” and “syn” refer to the positions of ideally located hydroxyl hydrogen atoms with torsion angles C2–C1–O1–H and C2–C3–O3–H equal to 180° or 0°, respectively."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.15,
+      "unita": "GPa–1"
+     },
+     "metodo": "compressibilita' di volume βv a 0.1 MPa e 296 K (rif. 45)",
+     "calcolato": false,
+     "citazione": "in imidazole, at 0.1 MPa/296 K, βv is 0.15 GPa–1, but it decreases to 0.07 GPa–1 at 0.7 GPa.45"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.07,
+      "unita": "GPa–1"
+     },
+     "metodo": "compressibilita' di volume βv a 0.7 GPa (rif. 45)",
+     "calcolato": false,
+     "citazione": "in imidazole, at 0.1 MPa/296 K, βv is 0.15 GPa–1, but it decreases to 0.07 GPa–1 at 0.7 GPa.45"
+    }
+   ]
+  },
+  {
+   "composto": "C3",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.13,
+      "unita": "GPa–1"
+     },
+     "metodo": "compressibilita' di volume βv a 0.1 MPa, simile per α e β (rif. 18)",
+     "calcolato": false,
+     "citazione": "In benzimidazole at 0.1 MPa the compressibility is similar, about 0.13 GPa–1, for polymorphs α and β, but the magnitude of βv at 0.7 GPa in polymorph β decreases to 0.07 GPa–1.18"
+    },
+    {
+     "tipo": "altro",
+     "forma": "F10",
+     "grandezza": {
+      "valore": 0.07,
+      "unita": "GPa–1"
+     },
+     "metodo": "compressibilita' di volume βv a 0.7 GPa (rif. 18)",
+     "calcolato": false,
+     "citazione": "In benzimidazole at 0.1 MPa the compressibility is similar, about 0.13 GPa–1, for polymorphs α and β, but the magnitude of βv at 0.7 GPa in polymorph β decreases to 0.07 GPa–1.18"
+    }
+   ]
+  }
+ ]
+}
