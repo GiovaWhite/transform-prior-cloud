@@ -1,0 +1,1098 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.5c01210",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Piperazinio tetrafluoroborato (PipBF4) e perrenato (PipReO4): sali organici molecolari, polimorfismo con transizioni di fase riscaldando e raffreddando. PipBF4 ha sei polimorfi fra 120 e 440 K (IV, III, II, I, piu' V e VI nuovi) osservati con VT-PXRD, SXRD e SHG variabile con la temperatura; PipReO4 ha due polimorfi (I a temperatura ambiente, II sotto 148 K). Sequenza di PipBF4 riscaldando: IV (Pn) -> III (P-1) -> II (Pmn21) -> I (Pmma); le temperature di transizione (riscaldamento/raffreddamento) sono del PXRD a 0.16 K min-1: 340/312 K, 381/346 K, 407/384 K. Un secondo PXRD su intervallo stretto di 2theta a 6 K min-1 (velocita' uguale a quella dell'SHG) da' 351/306 K, 380/347 K, 411/383 K; i valori di DSC a 10 K min-1 citati da Wojtas et al. sono 364/349 K, 386/372 K, 421/411 K (non sono estratti come eventi a parte: stessa transizione gia' coperta). Il SHG (riscaldando, da 298 a 430 K) segue le tre transizioni: perdita totale del segnale a circa 360 K (fase III centrosimmetrica), ricomparsa lenta fra 385 e 410 K (fase II polare), perdita sopra circa 420 K (fase I centrosimmetrica). Entropia di transizione II -> I: 11.2 J mol-1 K-1 per PipBF4 (3.84 microstati) e 14.5 per il perclorato PipClO4, citate. I polimorfi del perclorato PipClO4 (III, V, I) sono citati solo per l'analisi gruppo-sottogruppo e non hanno eventi sperimentali nell'articolo: non estratti. Due nuove strutture (PhPipBF4 e PhBorox) stanno nel supplementare. Non sono eventi: l'analisi gruppo-sottogruppo ISOTROPY, le previsioni FERROSCOPE (transizione ipotetica a P21/n da Pn, che e' la fase V ma solo come modello), il disordine rotazionale degli anioni BF4 e dei cationi senza cambio di fase. Incoerenze del testo: (1) par. 3.10 «On cooling, PipBF4–II transitions first to polymorph III (384 K) then to IV (346 K)» contro par. 3.2, dove la coppia riscaldamento/raffreddamento e' 381/346 K per III/II e 340/312 K per IV/III e 384 K e' il raffreddamento II/I: si seguono i risultati (par. 3.2) e l'altra lettura e' in `conflitto` di E4 ed E5; (2) PipReO4–II: il testo dice «this cell is 4 × the volume of the room temperature cell», la Tabella 1 da' Z = 12 contro Z = 4 per PipReO4–I; (3) la fase I di PipBF4 ha due celle: 446 K nel par. 3.5 (a = 5.2926, b = 6.2691, c = 12.3020 Å) e 415 K nella Tabella 1 (a = 12.3084, b = 5.2959, c = 6.2734 Å, setting permutato); (4) Wojtas suggeriva con l'NMR che i legami a idrogeno delle catene si rompono nella fase I, gli autori no (N–H···N ancora possibile).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "piperazine",
+   "nome_scritto": "piperazinium (Pip)"
+  },
+  {
+   "id": "C2",
+   "nome": "tetrafluoroboric acid",
+   "nome_scritto": "tetrafluoroborate (BF4–)"
+  },
+  {
+   "id": "C3",
+   "nome": "perrhenic acid",
+   "nome_scritto": "perrhenate (ReO4–)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "PipBF4–IV",
+   "etichette_alternative": [
+    "Form IV",
+    "phase IV",
+    "polymorph IV"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "Pn",
+   "cella": {
+    "a": 8.4324,
+    "b": 9.1762,
+    "c": 9.5654,
+    "beta": 98.418,
+    "Z": 4,
+    "Z_primo": 2,
+    "condizioni": "295 K",
+    "fonte": "SCXRD"
+   },
+   "refcode": "WAQBOH",
+   "strutture": [
+    {
+     "refcode": "WAQBOH",
+     "temperatura": {
+      "valore": 295,
+      "unita": "K"
+     },
+     "fonte": "SCXRD",
+     "citazione": "The room temperature structure of PipBF4 is deposited in the CSD with refcode WAQBOH. It crystallizes in space group Pn with cell parameters a = 8.4324(10) Å, b = 9.1762(11) Å, c = 9.5654(12) Å and β = 98.418(12)° at 295 K."
+    }
+   ],
+   "citazione": "The room temperature structure of PipBF4 is deposited in the CSD with refcode WAQBOH. It crystallizes in space group Pn with cell parameters a = 8.4324(10) Å, b = 9.1762(11) Å, c = 9.5654(12) Å and β = 98.418(12)° at 295 K.",
+   "note": "Polimorfo di temperatura ambiente, polare (Pn). La cella e il refcode sono quelli della struttura della letteratura a 295 K (Wojtas et al.). Gli autori ripetono l'SXRD e trovano un modello simile a 120 K (a = 8.3950(5), b = 9.1069(6), c = 9.4858(6) Å, β = 98.852(2)°); Z = 4 e Z' = 2 sono della Tabella 1 (riga a 120 K). La differenza con la voce del CSD: gli autori modellano BF4– disordinato su due orientazioni ugualmente occupate, la voce del CSD ha una sola orientazione. Segnale SHG a temperatura ambiente circa 0.2 × KDP, coerente con il gruppo polare. Esiste da temperatura ambiente fino a 340 K riscaldando e persiste fino ad almeno 120 K.",
+   "voce_contestata": "gli autori modellano BF4– disordinato su due orientazioni equamente occupate («in contrast to the single orientation model in the CSD entry»)",
+   "motivi_hb": [
+    {
+     "motivo": "chains of piperazinium running parallel to the c-axis, linked by hydrogen bonds between the amine groups",
+     "chi": "amine groups of adjacent piperazinium cations",
+     "citazione": "The structure contains chains of piperazinium running parallel to the c-axis, linked by hydrogen bonds between the amine groups of adjacent cations"
+    },
+    {
+     "motivo": "hydrogen atoms ordered within the chains (net polarization)",
+     "chi": "hydrogen atoms of the N–H···N chains",
+     "citazione": "Hydrogen atoms within the chains order such that a net polarization is present."
+    },
+    {
+     "motivo": "Chain 2 configuration (upright-face-on-upright piperazinium planes)",
+     "chi": "piperazinium planes along the chains",
+     "citazione": "In PipBF4–IV, the piperazinium planes along the chains alternate in an upright-face-on-upright pattern when viewed along the a-direction. This configuration is labeled Chain 2."
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "etichetta": "PipBF4–III",
+   "etichette_alternative": [
+    "phase III",
+    "polymorph III"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "a": 8.0065,
+    "b": 8.0351,
+    "c": 19.1239,
+    "alpha": 81.381,
+    "beta": 79.057,
+    "gamma": 76.226,
+    "Z": 6,
+    "Z_primo": 3,
+    "condizioni": "370 K",
+    "fonte": "SCXRD"
+   },
+   "citazione": "(centrosymmetric in accordance with SHG measurements) was found with cell parameters a = 8.0065(5) Å, b = 8.0351(6) Å, c = 19.1239(12) Å, α = 81.381(5)°, β = 79.057(5)°, γ = 76.226(6)° at 370 K.",
+   "note": "Fase non polare, esiste fra 340 e 381 K riscaldando (SXRD a 370 K; Rietveld sul PXRD a 357 K). La cella e' 1.5 volte quella di IV; nella base di IV e' una supercella 3 × 3 × 1. Z e Z' dalla Tabella 1 (riga PipBF4–III). Simmetria piu' bassa riscaldando (rara nei ferroelettrici molecolari). Il gruppo e' scritto «P1̅» (P-1).",
+   "motivi_hb": [
+    {
+     "motivo": "2/3 of the chains in Chain 2 configuration, with hydrogen order (dipoles along [010] and the opposite)",
+     "chi": "piperazinium chains, hydrogen atoms in the hydrogen bonds",
+     "citazione": "2/3 of the chains adopt the Chain 2 configuration with half of these having hydrogen order such that the piperazinium dipoles point along [010]"
+    },
+    {
+     "motivo": "1/3 of the chains in Chain 1 configuration with disordered hydrogen bonds",
+     "chi": "piperazinium chains, hydrogen bonds",
+     "citazione": "The remaining 1/3 of the chains retain the Chain 1 configuration with disordered hydrogen bonds and the whole chain undergoes a 90° rotation about the chain direction."
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "etichetta": "PipBF4–II",
+   "etichette_alternative": [
+    "phase II",
+    "polymorph II"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pmn21",
+   "cella": {
+    "a": 9.7292,
+    "b": 8.1355,
+    "c": 9.9939,
+    "Z": 4,
+    "Z_primo": 1,
+    "condizioni": "385 K",
+    "fonte": "SCXRD"
+   },
+   "citazione": "Between 381 and 407 K (on warming), PipBF4 adopts an orthorhombic structure with space group Pmn21 and cell parameters a = 9.7292(8) Å, b = 8.1355(7) Å, c = 9.9939(8) Å as solved by SXRD at 385 K.",
+   "note": "Fase polare (SHG la conferma noncentrosimmetrica); gruppo Pmn21 scelto su Pnnm. Esiste fra 381 e 407 K riscaldando. Z e Z' dalla Tabella 1. Dati ad alta temperatura: posizioni dell'idrogeno e disordine di BF4– non certi.",
+   "motivi_hb": [
+    {
+     "motivo": "all chains in Chain 1 configuration; hydrogen atoms ordered in the hydrogen bonds so that dipoles are parallel while chains are antiparallel",
+     "chi": "piperazinium chains, hydrogen atoms in the hydrogen bonds",
+     "citazione": "This symmetry breaking is due to the hydrogen atoms ordering in the hydrogen bonds such that piperazinium dipoles are parallel despite the chains themselves being antiparallel."
+    },
+    {
+     "motivo": "Chain 1 configuration (upright-flat-upright piperaziniums)",
+     "chi": "piperazinium chains",
+     "citazione": "The Chain 1 configuration features an upright-flat-upright sequence of piperaziniums when viewed from the side (Figure b)."
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "etichetta": "PipBF4–I",
+   "etichette_alternative": [
+    "phase I",
+    "polymorph I"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pmma",
+   "cella": {
+    "a": 5.2926,
+    "b": 6.2691,
+    "c": 12.302,
+    "condizioni": "446 K",
+    "fonte": "PXRD"
+   },
+   "citazione": "Indexing produced an orthorhombic unit cell with dimensions a = 5.2926 Å, b = 6.2691 Å, c = 12.3020 Å with systematic absences consistent with Pmc21 or Pmma.",
+   "note": "Fase di alta temperatura, risolta da dati di polvere (6 h a 446 K; il cristallo singolo si frantuma). Pmma scelto (centrosimmetrico per SHG) su Pmc21. Anioni BF4– disordinati su 4 orientazioni e cationi su 4 siti. La Tabella 1 ha la stessa fase a 415 K in un altro setting (a = 12.3084(9), b = 5.2959(4), c = 6.2734(6) Å, Z = 2, Z' = 1).",
+   "motivi_hb": [
+    {
+     "motivo": "N–H···N interactions along the c-axis (b-axis of the Pmma cell), hydrogen disordered between nitrogen atoms of adjacent piperaziniums",
+     "chi": "nitrogen atoms of adjacent piperaziniums",
+     "citazione": "It therefore seems likely the hydrogen is disordered between nitrogen atoms on adjacent piperaziniums."
+    }
+   ]
+  },
+  {
+   "id": "F5",
+   "etichetta": "PipBF4–V",
+   "etichette_alternative": [
+    "phase V",
+    "polymorph V"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 8.449,
+    "b": 9.235,
+    "c": 9.7842,
+    "beta": 92.276,
+    "Z": 4,
+    "Z_primo": 1,
+    "condizioni": "333 K",
+    "fonte": "PXRD"
+   },
+   "citazione": "The final unit-cell parameters were: a = 8.449(2) Å, b = 9.235(3) Å, c = 9.7842(19) Å and β = 92.276(14)°.",
+   "note": "Fase nuova, vista in un solo esperimento VT-PXRD fra 317 e 365 K («we do not consider it definitive»). Gruppo P21/n dal modello di partenza previsto da FERROSCOPE (fase paraelettrica di IV), con legami N–H···N centrati; qualche picco debole non spiegato. T della cella (333 K) dalla didascalia della Fig. 6 e dalla Tabella 1; Z e Z' dalla Tabella 1.",
+   "motivi_hb": [
+    {
+     "motivo": "centered N–H···N hydrogen bonds with the hydrogen atoms shared equally between both nitrogen atoms (modello di partenza)",
+     "chi": "nitrogen atoms of adjacent piperaziniums",
+     "citazione": "To achieve this symmetry, the N–H···N hydrogen bonds must become centered with the hydrogen atoms shared equally between both nitrogen atoms."
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "etichetta": "PipBF4–VI",
+   "etichette_alternative": [
+    "phase VI",
+    "polymorph VI"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Immm",
+   "cella": {
+    "a": 8.4621,
+    "b": 9.289,
+    "c": 9.8423,
+    "Z": 4,
+    "Z_primo": 2,
+    "condizioni": "383 K",
+    "fonte": "PXRD"
+   },
+   "citazione": "The final cell parameters refined to a = 8.4621(16) Å, b = 9.2890(19) Å and c = 9.8423(15) Å.",
+   "note": "Fase nuova, vista fra 316 e 427 K in un esperimento VT-PXRD, coesistente con la fase II a 383 K (raffinamento a due fasi, Pawley per VI). Gruppo Immm scelto come il piu' simmetrico che spiega tutte le riflessioni, fra Pnnm, Pnnn e Immm; modello disordinato derivato da IV (catene in configurazione Chain 2). Z e Z' dalla Tabella 1.",
+   "motivi_hb": [
+    {
+     "motivo": "piperazinium chains lose their directionality; hydrogen atoms within the hydrogen bonds disordered (Immm model)",
+     "chi": "piperazinium chains, hydrogen bonds",
+     "citazione": "In this Immm model, piperazinium chains lose their directionality such that the parallel or antiparallel chains observed in other phases become equivalent in VI."
+    },
+    {
+     "motivo": "hydrogen atoms within the hydrogen bonds disordered",
+     "chi": "hydrogen atoms in the N–H···N hydrogen bonds",
+     "citazione": "Site occupancies were set to reflect the molecular disorder and that the hydrogen atoms within the hydrogen bonds are disordered."
+    }
+   ]
+  },
+  {
+   "id": "F7",
+   "etichetta": "[fase transitoria non risolta, picchi a 18.5, 21.5 e 22.6° vicino a 397 K]",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "citazione": "The peaks that appear at 397 K labeled by the yellow asterisks at 18.5, 21.5 and 22.6° in Figure c are indicative of another new phase (we rule out sample decomposition as on continued heating they disappear and pure phase I is formed).",
+   "note": "Fase transitoria, struttura non risolta. Gli autori suggeriscono che sia un polimorfo di PipBF4 con parametri a e b intermedi fra quelli di II e VI, forse con miscela di catene Chain 1 e Chain 2 come in III. La composizione salina e' quella di PipBF4."
+  },
+  {
+   "id": "F8",
+   "etichetta": "PipReO4–I",
+   "etichette_alternative": [
+    "PipReO4 at room temperature"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "a": 7.6478,
+    "b": 8.467,
+    "c": 13.6549,
+    "alpha": 88.233,
+    "beta": 82.646,
+    "gamma": 73.807,
+    "Z": 4,
+    "Z_primo": 2,
+    "condizioni": "room temperature (298 K nella Tabella 1)",
+    "fonte": "SCXRD"
+   },
+   "citazione": "cell parameters a = 7.6478(8) Å, b = 8.4670(8) Å, c = 13.6549(13) Å, α = 88.233(4)°, β = 82.646(4)°, γ = 73.807(4)°. The structure is isostructural with that of PipClO4–III.",
+   "note": "Struttura nuova (nessuna caratterizzazione precedente in letteratura). Isostrutturale con PipClO4–III, l'unica coppia di polimorfi di composti diversi confermata. Z e Z' dalla Tabella 1. Fase stabile da 400 K fino a circa 148 K raffreddando.",
+   "motivi_hb": [
+    {
+     "motivo": "parallel hydrogen-bonded chains of piperazinium with antiparallel polarization of adjacent chains (nonpolar)",
+     "chi": "piperazinium chains",
+     "citazione": "This parent structure is made up of parallel hydrogen-bonded chains of piperazinium with the polarization of adjacent chains antiparallel leading to a nonpolar structure."
+    },
+    {
+     "motivo": "N–H···O hydrogen bonds between the rhenate anions and piperazinium cations (probabile stabilizzazione)",
+     "chi": "rhenate anions / piperazinium cations",
+     "citazione": "likely due to a stabilizing effect of N–H···O hydrogen bonds between the perchlorate/rhenate anions and piperazinium cations which does not occur with BF4 –."
+    }
+   ]
+  },
+  {
+   "id": "F9",
+   "etichetta": "PipReO4–II",
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C3",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "a": 12.7437,
+    "b": 15.1771,
+    "c": 15.6866,
+    "alpha": 103.781,
+    "beta": 110.959,
+    "gamma": 108.814,
+    "Z": 12,
+    "Z_primo": 6,
+    "condizioni": "120 K",
+    "fonte": "SCXRD"
+   },
+   "citazione": "SXRD analysis at 120 K gave a P1̅ structure with cell parameters a =12.7437(8) Å, b = 15.1771(9) Å, c = 15.6866(9) Å, α = 103.781(2)°, β = 110.959(2)°, γ = 108.814(2)°.",
+   "note": "Fase di bassa temperatura, sotto 148 K raffreddando; supercella del polimorfo I. Il testo dice che la cella e' «4 × the volume of the room temperature cell», la Tabella 1 da' Z = 12 contro Z = 4 di PipReO4–I (rapporto 3). Z e Z' dalla Tabella 1. Riempimento Rietveld a 106 K nel supplementare.",
+   "conflitto": "Testo: cella 4 volte quella a temperatura ambiente; Tabella 1: Z = 12 contro Z = 4 di PipReO4–I.",
+   "motivi_hb": [
+    {
+     "motivo": "nonpolar distribution of piperazinium chains maintained",
+     "chi": "piperazinium chains",
+     "citazione": "The transition to PipReO4–II maintains the nonpolar distribution of chains and instead involves slight positional differences in the cations and anions allowed by the higher Z of the large triclinic cell."
+    }
+   ]
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E4",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 340,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 0.16,
+     "unita": "K min-1"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD",
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "On warming, three phase transitions were evidenced by abrupt changes in the Bragg peaks confirming their discontinuous nature.",
+    "Wojtas et al. observed phase transition temperatures of (warming/cooling) 364/349 K, 386/372 K and 421/411 K; in our experiments these were observed at 340/312 K, 381/346 K and 407/384 K.",
+    "This is due to the heating rate differences between the DSC (10 K min–1) and PXRD measurements (0.16 K min–1).",
+    "Between 340 and 381 K (on warming), PipBF4 adopts a triclinic structure which was solved using SXRD data.",
+    "A first transition at ∼360 K shows complete loss of SHG intensity suggesting the appearance of a centrosymmetric phase.",
+    "The sample was loaded into a 0.7 mm external diameter borosilicate capillary to a length of 30 mm and sealed."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "riprodotta",
+   "riferimento": "Wojtas et al. (DSC, TGA, dilatometria, PXRD): 364 K riscaldando",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperazinium chains",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "forma": "F2",
+     "citazione": "The general arrangement of piperazinium chains and BF4 – anions is the same as phase IV, however 1/3 of the chains now adopt what we call the Chain 1 configuration with the rest remaining as Chain 2"
+    }
+   ],
+   "note": "Transizione IV -> III riscaldando: 340 K nel PXRD a 0.16 K min-1; un secondo PXRD a 6 K min-1 da' 351 K, il DSC della letteratura a 10 K min-1 da' 364 K, l'SHG circa 360 K (perdita completa del segnale: fase centrosimmetrica). Gli autori attribuiscono la differenza alle diverse velocita' di riscaldamento. Fonte riprodotta (Wojtas et al. avevano visto le tre transizioni); la struttura di III e' nuova. La fase III e' una supercella 3 × 3 × 1 di IV; il passaggio abbassa la simmetria riscaldando."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E5",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 381,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 0.16,
+     "unita": "K min-1"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD",
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "On warming, three phase transitions were evidenced by abrupt changes in the Bragg peaks confirming their discontinuous nature.",
+    "Wojtas et al. observed phase transition temperatures of (warming/cooling) 364/349 K, 386/372 K and 421/411 K; in our experiments these were observed at 340/312 K, 381/346 K and 407/384 K.",
+    "This is due to the heating rate differences between the DSC (10 K min–1) and PXRD measurements (0.16 K min–1).",
+    "Between 381 and 407 K (on warming), PipBF4 adopts an orthorhombic structure with space group Pmn21",
+    "Between 385 and 410 K, the SHG intensity gradually reappears showing the slow growth of a noncentrosymmetric phase.",
+    "The sample was loaded into a 0.7 mm external diameter borosilicate capillary to a length of 30 mm and sealed."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "riprodotta",
+   "riferimento": "Wojtas et al. (DSC): 386 K riscaldando",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "piperazinium chains",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "forma": "F3",
+     "citazione": "All chains now adopt the Chain 1 configuration."
+    },
+    {
+     "gruppo": "hydrogen atoms in the hydrogen bonds",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "forma": "F3",
+     "citazione": "This symmetry breaking is due to the hydrogen atoms ordering in the hydrogen bonds such that piperazinium dipoles are parallel despite the chains themselves being antiparallel."
+    }
+   ],
+   "note": "Transizione III -> II riscaldando: 381 K nel PXRD a 0.16 K min-1; PXRD a 6 K min-1: 380 K; DSC della letteratura: 386 K. Il SHG (primo esperimento) mostra la ricomparsa lenta del segnale fra 385 e 410 K: «this process is slow with respect to time rather than temperature: slower-warming through this temperature produced a transition as sharp as the other two transitions». Fra III e IV (o II) ci sono almeno quattro irreps: due transizioni discontinue nella sequenza IV -> III -> II."
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E6",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 407,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 0.16,
+     "unita": "K min-1"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD",
+     "SCXRD",
+     "altro"
+    ],
+    "integrita": "fratturato"
+   },
+   "citazioni": [
+    "On warming, three phase transitions were evidenced by abrupt changes in the Bragg peaks confirming their discontinuous nature.",
+    "Wojtas et al. observed phase transition temperatures of (warming/cooling) 364/349 K, 386/372 K and 421/411 K; in our experiments these were observed at 340/312 K, 381/346 K and 407/384 K.",
+    "This is due to the heating rate differences between the DSC (10 K min–1) and PXRD measurements (0.16 K min–1).",
+    "Between 381 and 407 K (on warming), PipBF4 adopts an orthorhombic structure with space group Pmn21",
+    "Above the final phase transition temperature, the crystal shattered and a structure for phase I could not be determined by SXRD.",
+    "This is consistent with the observed loss of single crystal integrity during the transition.",
+    "Finally, above ∼420 K, the SHG intensity is lost suggesting the highest temperature phase I is centrosymmetric.",
+    "The sample was loaded into a 0.7 mm external diameter borosilicate capillary to a length of 30 mm and sealed."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "riprodotta",
+   "riferimento": "Wojtas et al. (DSC): 421 K riscaldando",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N–H···N interactions",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F4",
+     "citazione": "However, the piperazinium position refines such that the nitrogen atoms are still able to form N–H···N interactions along the c-axis (b-axis of the Pmma cell)."
+    },
+    {
+     "gruppo": "BF4 – anions",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": "ruota",
+     "forma": "F4",
+     "citazione": "The resultant structure contains BF4 – anions disordered across 4 orientations which appears representative of isotropic free rotation."
+    },
+    {
+     "gruppo": "piperazinium cations",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": "ruota",
+     "forma": "F4",
+     "citazione": "The piperazinium cations are disordered across 4 sites such they appear to represent the molecule rotating in its pseudoplane, and the N–H hydrogens must be disordered by symmetry."
+    }
+   ],
+   "note": "Transizione II -> I riscaldando: 407 K nel PXRD a 0.16 K min-1, 411 K a 6 K min-1, 421 K nel DSC citato. Il cristallo singolo si frantuma («the crystal shattered»): perdita di integrita' consistente con le grandi differenze strutturali fra II e I, che stanno su rami diversi dell'albero dei sottogruppi e passano per il genitore ipotetico P4/mmm. Entropia di transizione 11.2 J mol-1 K-1 (3.84 microstati, vicino ai 4 siti del modello Pmma), valore citato. Wojtas et al. (NMR) pensavano che i legami a idrogeno delle catene si rompessero in I; gli autori, dopo il raffinamento, concludono che N–H···N restano possibili e centrati; la protonconduttivita' sale in questa fase."
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 312,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 0.16,
+     "unita": "K min-1"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "All transitions are reversible upon cooling, albeit with significant transition temperature hysteresis.",
+    "Wojtas et al. observed phase transition temperatures of (warming/cooling) 364/349 K, 386/372 K and 421/411 K; in our experiments these were observed at 340/312 K, 381/346 K and 407/384 K.",
+    "This is due to the heating rate differences between the DSC (10 K min–1) and PXRD measurements (0.16 K min–1)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "riprodotta",
+   "riferimento": "Wojtas et al. (DSC): 349 K raffreddando",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "conflitto": "Par. 3.10: «On cooling, PipBF4–II transitions first to polymorph III (384 K) then to IV (346 K)», cioe' III -> IV a 346 K; par. 3.2 (coppia riscaldamento/raffreddamento 340/312 K, 381/346 K, 407/384 K): III -> IV a 312 K. Si tiene il par. 3.2 (risultati, con la figura) sulla discussione.",
+   "note": "Ritorno III -> IV raffreddando: 312 K nel PXRD a 0.16 K min-1 (306 K a 6 K min-1, 349 K nel DSC citato). Isteresi di circa 28 K nel PXRD lento (340/312 K). Le tre transizioni sono tutte reversibili."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 346,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 0.16,
+     "unita": "K min-1"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "All transitions are reversible upon cooling, albeit with significant transition temperature hysteresis.",
+    "Wojtas et al. observed phase transition temperatures of (warming/cooling) 364/349 K, 386/372 K and 421/411 K; in our experiments these were observed at 340/312 K, 381/346 K and 407/384 K.",
+    "This is due to the heating rate differences between the DSC (10 K min–1) and PXRD measurements (0.16 K min–1)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "riprodotta",
+   "riferimento": "Wojtas et al. (DSC): 372 K raffreddando",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "conflitto": "Par. 3.10: «On cooling, PipBF4–II transitions first to polymorph III (384 K) then to IV (346 K)», cioe' II -> III a 384 K; par. 3.2: II -> III a 346 K (381/346 K) e 384 K e' il raffreddamento I -> II (407/384 K). Si tiene il par. 3.2.",
+   "note": "Ritorno II -> III raffreddando: 346 K nel PXRD a 0.16 K min-1 (347 K a 6 K min-1, 372 K nel DSC citato). Il testo del par. 3.10 collega «not continuous» alla comparsa di III fra II e IV."
+  },
+  {
+   "id": "E6",
+   "da": "F4",
+   "a": "F3",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E3",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 384,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "velocita": {
+     "valore": 0.16,
+     "unita": "K min-1"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "All transitions are reversible upon cooling, albeit with significant transition temperature hysteresis.",
+    "Wojtas et al. observed phase transition temperatures of (warming/cooling) 364/349 K, 386/372 K and 421/411 K; in our experiments these were observed at 340/312 K, 381/346 K and 407/384 K.",
+    "This is due to the heating rate differences between the DSC (10 K min–1) and PXRD measurements (0.16 K min–1)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "riprodotta",
+   "riferimento": "Wojtas et al. (DSC): 411 K raffreddando",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "note": "Ritorno I -> II raffreddando: 384 K nel PXRD a 0.16 K min-1 (383 K a 6 K min-1, 411 K nel DSC citato). Il sistema torna per la stessa via IV -> III -> II -> I e ritorno."
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 317,
+     "unita": "K",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "For example, room temperature phase IV typically transitions to phase III at 340 K, however in the experiment shown in Figure , a transition occurred to a previously unobserved phase at 317 K.",
+    "This phase (which we label V) is closely related to phase IV, as seen by the continuity of the strongest peaks through the phase transition (19.2, 21.0, 28.6 and 30.9°).",
+    "These appeared only over narrow temperature ranges and the behavior was not reproducible."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "frequenza": "una_volta",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N–H···N hydrogen bonds",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "forma": "F5",
+     "citazione": "To achieve this symmetry, the N–H···N hydrogen bonds must become centered with the hydrogen atoms shared equally between both nitrogen atoms."
+    }
+   ],
+   "note": "Polimorfo V visto in un solo esperimento (Fig. 6a): invece di IV -> III a 340 K, IV passa a V a 317 K. «The behavior was not reproducible»: i polimorfi nuovi appaiono su intervalli stretti di temperatura. V e' monoclino con beta piu' vicino a 90° di IV (i picchi (112) e (112̅) di IV si avvicinano senza fondersi). La struttura P21/n e' un modello (non definitivo)."
+  },
+  {
+   "id": "E8",
+   "da": "F5",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 365,
+     "unita": "K",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "In this experiment phase V transitioned to phase III at 365 K and then followed the expected phase sequence upon subsequent warming as in Figure ."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "frequenza": "una_volta",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "da_evento": "E7",
+   "note": "Dopo V, nello stesso esperimento (E7), il campione passa a III a 365 K e poi segue la sequenza attesa III -> II -> I."
+  },
+  {
+   "id": "E9",
+   "da": "F1",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 316,
+     "unita": "K",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "However, a minor secondary phase present at room temperature appears to seed a new phase of PipBF4 which was present between 316 and 427 K.",
+    "We label this new phase VI and, like V, it is closely related to IV with strong peaks at 19.1 and 21.0° appearing in the patterns of all three phases.",
+    "The separate heating experiment shown in Figure c reproduced the phase transition sequence observed in Figure with reasonable agreement between the transition temperatures."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "frequenza": "una_volta",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true,
+    "semina_involontaria": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen atoms within the hydrogen bonds",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "forma": "F6",
+     "citazione": "Site occupancies were set to reflect the molecular disorder and that the hydrogen atoms within the hydrogen bonds are disordered."
+    }
+   ],
+   "note": "Un secondo esperimento di riscaldamento (Fig. 6c) riproduce la sequenza IV -> III -> II -> I, ma in piu' una fase secondaria minore presente a temperatura ambiente sembra fare da seme a VI (semina involontaria): VI e' presente fra 316 e 427 K, anche con II a 383 K. 316 K e' dove compare. Ortorombica, picco singolo a 23.0° per sovrapposizione esatta dei (112) e (112̅) di IV/V. Non riproducibile («the behavior was not reproducible»)."
+  },
+  {
+   "id": "E10",
+   "da": "F7",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 397,
+     "unita": "K",
+     "limite": "sopra",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "The peaks that appear at 397 K labeled by the yellow asterisks at 18.5, 21.5 and 22.6° in Figure c are indicative of another new phase (we rule out sample decomposition as on continued heating they disappear and pure phase I is formed)."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "frequenza": "una_volta",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "note": "I picchi della fase transitoria compaiono a 397 K e «on continued heating they disappear and pure phase I is formed»; la temperatura della scomparsa non e' data (si tiene 397 K come limite inferiore). Il testo esclude la decomposizione del campione. La fase di partenza della comparsa (II o VI) non e' detta."
+  },
+  {
+   "id": "E11",
+   "da": "F8",
+   "a": "F9",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E12",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 148,
+     "unita": "K",
+     "circa": true,
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD",
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "VT-PXRD data were also collected on PipReO4 between 106 and 422 K to look for possible phase transitions.",
+    "Upon cooling from 400 K, no transitions are observed until two weak additional peaks appear at 15 and 17° (marked with * in Figure ) at around 148 K.",
+    "As there is significant hysteresis in the phase transition temperatures (189/148 K) and the weak additional peaks appear with only minor changes in the original peaks, this is likely a discontinuous phase transition to a structure with a supercell of the room temperature unit cell; this is discussed further below.",
+    "Upon cooling below 148 K, PipReO4–I undergoes a phase transition to a structure with a significantly larger triclinic cell."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen-bonded chains of piperazinium",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F9",
+     "citazione": "The transition to PipReO4–II maintains the nonpolar distribution of chains and instead involves slight positional differences in the cations and anions allowed by the higher Z of the large triclinic cell."
+    },
+    {
+     "gruppo": "piperazinium and rhenate ions",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "forma": "F9",
+     "citazione": "As expected from the minor changes in the powder diffraction patterns either side of the phase transition (Figure ), only small changes occur in the positions of the piperazinium and rhenate ions."
+    }
+   ],
+   "note": "PipReO4: da 400 K raffreddando nessuna transizione fino ad circa 148 K (E13), poi due picchi deboli aggiuntivi a 15 e 17° (supercella). SXRD a 120 K: P-1 con cella molto piu' grande. Transizione discontinua probabile («likely a discontinuous phase transition»), con isteresi (189/148 K). Non si osserva una discontinuita' in V/Z alla temperatura di transizione, solo un leggero cambio di pendenza (Fig. S1)."
+  },
+  {
+   "id": "E12",
+   "da": "F9",
+   "a": "F8",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E11",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 189,
+     "unita": "K",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "On warming, the transition is reversible.",
+    "As there is significant hysteresis in the phase transition temperatures (189/148 K) and the weak additional peaks appear with only minor changes in the original peaks, this is likely a discontinuous phase transition to a structure with a supercell of the room temperature unit cell; this is discussed further below.",
+    "As expected from the subtle diffraction pattern change, no discontinuity is observed in V/Z at the phase transition temperature (189 K) of PipReO4, although a slight gradient change does occur (Figure S1)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Ritorno riscaldando a circa 189 K (coppia riscaldamento/raffreddamento 189/148 K, nello stesso ordine usato per PipBF4)."
+  },
+  {
+   "id": "E13",
+   "da": "F8",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 148,
+     "max": 400,
+     "unita": "K",
+     "tipo": "intervallo",
+     "circa": true
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Upon cooling from 400 K, no transitions are observed until two weak additional peaks appear at 15 and 17° (marked with * in Figure ) at around 148 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo: nessuna transizione di PipReO4–I raffreddando da 400 K fino a circa 148 K."
+  },
+  {
+   "id": "E14",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 120,
+     "unita": "K",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "We repeated the SXRD analysis and found this Pn phase persists down to at least 120 K."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo: la fase Pn (IV) persiste fino alla temperatura minima misurata, 120 K («at least 120 K»; 120 K non e' un limite di transizione)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "deionized water"
+   ],
+   "solventi_alternativi": false,
+   "tempo": {
+    "valore": 2,
+    "unita": "week",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "stoichiometric amount (29 mmol of piperazine and 29 mmol of tetrafluoroboric acid)",
+   "citazioni": [
+    "A literature method was adapted to synthesize PipBF4. Piperazine (2.50 g, 29 mmol, Fisher Scientific, 99%) was dissolved in deionized water (5 mL) followed by the dropwise addition of a stoichiometric amount of tetrafluoroboric acid (1.8 mL, 29 mmol, Aldrich, 48 ± 2% in H2O). After 2 weeks of solvent evaporation, colorless plate-like crystals were produced. Successful synthesis was confirmed through Rietveld refinement using the literature structure (see Figure later)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Il polimorfo e' IV (la struttura della letteratura, WAQBOH)."
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "tempo": {
+    "valore": 7,
+    "unita": "day",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "stoichiometric amount (2.5 mmol of piperazine and 2.5 mmol of perrhenic acid)",
+   "citazioni": [
+    "To synthesize PipReO4, piperazine (0.215 g, 2.5 mmol) was dissolved in water (5.0 mL), followed by the dropwise addition of a stoichiometric amount of perrhenic acid (0.29 mL, 2.5 mmol, Fisher Scientific, 76.5 wt % in H2O, 99.99% pure). The solution was left to evaporate for 7 days until colorless plate-like single crystals were obtained."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Il cristallo singolo a temperatura ambiente e' la forma I (SXRD a temperatura ambiente)."
+  },
+  {
+   "metodo": "non_specificato",
+   "solventi": [],
+   "componenti_cercati": [
+    "gallium analogue",
+    "aluminum analogue"
+   ],
+   "citazioni": [
+    "Attempts to extend this structural family to gallium and aluminum analogues failed to produce the target compounds."
+   ],
+   "esito": "non_ottenuta",
+   "fonte_dati": "propria",
+   "note": "I metodi dei tentativi non sono descritti."
+  }
+ ],
+ "molecole": []
+}
