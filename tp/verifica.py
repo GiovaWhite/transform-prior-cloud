@@ -202,8 +202,10 @@ UNITA = {
 # Dopo il numero: un'incertezza fra parentesi o con ±, un suffisso ordinale
 # («2nd day»), e fino a otto altri numeri legati da trattino, «to», «and», «or»
 # o virgola, ciascuno con la sua incertezza: «235.2, 99.9, and 92.8 °C» e
-# «from 112.8 ± 0.5 to 149.8 ± 0.6 °C» reggono tutti i loro numeri.
-_INCERTEZZA = r"(?:\(\d+\))?(?:\s*±\s*[\d.,]+)?"
+# «from 112.8 ± 0.5 to 149.8 ± 0.6 °C» reggono tutti i loro numeri. L'incertezza
+# puo' stare staccata («0.942 (9) GPa», stile IUCr) e l'unita' attaccata col
+# trattino («365-nm light»).
+_INCERTEZZA = r"(?:\s?\(\d+\))?(?:\s*±\s*[\d.,]+)?"
 _ALTRI = r"(?:\s*(?:,\s*(?:and|or)?|-|to|and|or)\s*-?[\d.,]+" + _INCERTEZZA + r"){0,8}"
 
 
@@ -219,7 +221,7 @@ def _con_unita(numero, unita, citazioni):
     scritture = {str(numero)}
     if float(numero).is_integer():
         scritture.add(str(int(numero)))
-    coda = _INCERTEZZA + r"(?:st|nd|rd|th)?" + _ALTRI + r"\s*(?:" + rx_u + ")"
+    coda = _INCERTEZZA + r"(?:st|nd|rd|th)?" + _ALTRI + r"\s*-?\s*(?:" + rx_u + ")"
     for f in scritture:
         dec = "0*" if ("." in f) else ""
         if re.search(rf"(?<![\d.])(?<!\d,){re.escape(f)}{dec}{coda}", testo):
