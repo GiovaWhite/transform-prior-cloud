@@ -1,0 +1,697 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/jacsau.3c00059",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2211583",
+  "2211584",
+  "2211585",
+  "2234623",
+  "2234624",
+  "2234625",
+  "2234626",
+  "2234627"
+ ],
+ "note": "Cristalli liquidi colesterici derivati del benzoato di diidrocolesterile (BDC e analoghi H/D e H/F); solo 4-F-BDC ha la transizione solido-solido SC I -> SC II a ~327 K ed e' ferroelettrico nelle due fasi solide e nella fase LC. I CCDC sono due intervalli scritti nel testo (2211583–2211585 e 2234623–2234627), qui espansi; sono 8 strutture (BDC, 4-d-BDC, d5-BDC, 2-F-BDC, 3-F-BDC, PF-BDC, 4-F-BDC SC I, 4-F-BDC SC II) ma l'ordine non e' dichiarato, quindi non si attribuiscono alle forme. Non sono eventi: le texture della fase colesterica (planare, fingerprint, focal conic, omeotropica) sotto campo elettrico DC a 463 K e il passaggio planare -> focal conic prima del punto di chiarificazione; la ferroelettricita' (polarizzazione di 93.7 nC/cm2 in SC I, 350.3 in SC II e 29.6 nC/cm2 in LC; calcolata 78.2, 114.5 e 374.2 nC/cm2 per BDC, SC I e SC II), la risposta piezoelettrica (1.6 volte quella di BDC) e la SHG potenziata dalla fluorurazione. Il fuso/liquido isotropo (LP) e' la fase oltre il punto di chiarificazione. Per 2-F-BDC, 3-F-BDC, PF-BDC, d5-BDC il testo dice solo «similar phase transition behaviors» a BDC: nessuna T riportata, quindi niente eventi S -> LC per questi composti.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "dihydrocholesteryl benzoate",
+   "nome_scritto": "dihydrocholesteryl benzoate (BDC)"
+  },
+  {
+   "id": "C2",
+   "nome": "dihydrocholesteryl benzoate-4-d",
+   "nome_scritto": "dihydrocholesteryl benzoate-4-d (4-d-BDC)",
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C3",
+   "nome": "dihydrocholesteryl benzoate-d5",
+   "nome_scritto": "dihydrocholesteryl benzoate-d5 (d5-BDC)",
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C4",
+   "nome": "dihydrocholesteryl 2-fluorobenzoate",
+   "nome_scritto": "dihydrocholesteryl 2-fluorobenzoate (2-F-BDC)",
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C5",
+   "nome": "dihydrocholesteryl 3-fluorobenzoate",
+   "nome_scritto": "dihydrocholesteryl 3-fluorobenzoate (3-F-BDC)",
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C6",
+   "nome": "dihydrocholesteryl pentafluorobenzoate",
+   "nome_scritto": "dihydrocholesteryl pentafluorobenzoate (PF-BDC)",
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C7",
+   "nome": "dihydrocholesteryl 4-fluorobenzoate",
+   "nome_scritto": "dihydrocholesteryl 4-fluorobenzoate (4-F-BDC)",
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "BDC",
+   "etichette_alternative": [
+    "BDC solid crystal",
+    "SC phase of BDC"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21",
+   "citazione": "Single-crystal X-ray diffraction determinations indicate that the SC phase of BDC crystallizes in the monoclinic system with a chiral and polar space group P21 (Table S1 and Figure S1).",
+   "sistema_cristallino": "monoclino",
+   "note": "Tre molecole BDC nell'unita' asimmetrica, assi elicoidali 2_1 lungo b. Il testo scrive «chiral and polar space group P21»."
+  },
+  {
+   "id": "F2",
+   "composto": "C2",
+   "etichetta": "4-d-BDC",
+   "etichette_alternative": [
+    "SC phase of 4-d-BDC"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21",
+   "citazione": "The H/D substitution on the fourth position of the phenyl group of BDC maintains the crystal symmetry of the polar P21 space group and the phase transition behaviors without S-to-S phase transition in 4-d-BDC (Figure S2 and Table S1)."
+  },
+  {
+   "id": "F3",
+   "composto": "C3",
+   "etichetta": "d5-BDC",
+   "etichette_alternative": [
+    "SC phase of d5-BDC"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21",
+   "citazione": "Even replacing all the H atoms of the phenyl group of BDC with D atoms, the crystal symmetry of the polar P21 space group and similar phase transition behaviors still remain in d5-BDC (Figure S3 and Table S1)."
+  },
+  {
+   "id": "F4",
+   "composto": "C4",
+   "etichetta": "2-F-BDC",
+   "etichette_alternative": [
+    "SC phase of 2-F-BDC"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P212121",
+   "citazione": "However, 2-F-BDC and 3-F-BDC adopt the nonpolar P212121 and P41212 space groups, respectively (Table S1), both of which cannot meet the requirement of polar crystal symmetry for ferroelectrics."
+  },
+  {
+   "id": "F5",
+   "composto": "C5",
+   "etichetta": "3-F-BDC",
+   "etichette_alternative": [
+    "SC phase of 3-F-BDC"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P41212",
+   "citazione": "However, 2-F-BDC and 3-F-BDC adopt the nonpolar P212121 and P41212 space groups, respectively (Table S1), both of which cannot meet the requirement of polar crystal symmetry for ferroelectrics."
+  },
+  {
+   "id": "F6",
+   "composto": "C6",
+   "etichetta": "PF-BDC",
+   "etichette_alternative": [
+    "SC phase of PF-BDC"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21",
+   "citazione": "We also employed the pentafluoride substitution on the phenyl group of BDC, while the obtained PF-BDC keeps the polar P21 space group and the similar phase transition behaviors to the parent BDC, which thus also shows no detectable ferroelectricity (Figure S6 and Table S1)."
+  },
+  {
+   "id": "F7",
+   "composto": "C7",
+   "etichetta": "SC I",
+   "etichette_alternative": [
+    "SC I phase of 4-F-BDC",
+    "phase I",
+    "4-F-BDC SC I"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P1",
+   "citazione": "The asymmetric unit of its crystal structure in the SC I phase contains four 4-F-BDC molecules (Figure S16a), while that in the SC II phase halved to two molecules (Figure S16b).",
+   "note": "Quattro molecole di 4-F-BDC nell'unita' asimmetrica, molecole ordinate. Il testo dice «P1» (lowest symmetry, polare): si tiene P1. Le celle e il CCDC non sono attribuibili (vedi ccdc dell'articolo). La fase SC I e' quella a bassa T (sotto ~327 K), per l'ordine delle transizioni."
+  },
+  {
+   "id": "F8",
+   "composto": "C7",
+   "etichetta": "SC II",
+   "etichette_alternative": [
+    "SC II phase of 4-F-BDC",
+    "phase II",
+    "4-F-BDC SC II"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P1",
+   "citazione": "The asymmetric unit of its crystal structure in the SC I phase contains four 4-F-BDC molecules (Figure S16a), while that in the SC II phase halved to two molecules (Figure S16b).",
+   "note": "Due molecole nell'unita' asimmetrica (volume di cella dimezzato rispetto a SC I), parzialmente disordinata (alcuni carboni della catena alchilica chirale su due posizioni). Stessa simmetria P1 di SC I."
+  },
+  {
+   "id": "F9",
+   "composto": "C7",
+   "etichetta": "cholesteric phase of 4-F-BDC",
+   "etichette_alternative": [
+    "LC phase",
+    "cholesteric LC phase"
+   ],
+   "tipo": "altro",
+   "ospite": null,
+   "citazione": "The DSC curves of 4-F-BDC show that it undergoes an S-to-LC phase transition at TS-LC of 430 K and an LC to LP phase transition at the clearing point 485 K (Figure 1b), with an LC window of 55 K.",
+   "note": "Fase colesterica (liquido-cristallina), stabile fra 430 e 485 K secondo il DSC («LC window of 55 K»); non e' una fase solida cristallina."
+  },
+  {
+   "id": "F10",
+   "composto": "C1",
+   "etichetta": "cholesteric phase of BDC",
+   "etichette_alternative": [
+    "LC phase of BDC"
+   ],
+   "tipo": "altro",
+   "ospite": null,
+   "citazione": "The differential scanning calorimetry (DSC) analysis reveals that BDC undergoes no S-to-S phase transition but a solid-to-liquid crystal (S-to-LC) phase transition at the transition temperature (TS-LC) of 413 K (Figure 1a).",
+   "note": "Fase colesterica di BDC, fra 413 e 430 K secondo il DSC; il testo dice che il suo intervallo di T e' molto stretto."
+  },
+  {
+   "id": "F11",
+   "composto": "C7",
+   "etichetta": "[nuova fase solida di 4-F-BDC dopo raffreddamento dal fuso]",
+   "etichette_alternative": [
+    "new solid phase"
+   ],
+   "tipo": "non_specificato",
+   "ospite": null,
+   "citazione": "It is worth noting that in the second scan of DSC (Figure 1b), the peak of S-to-S phase transition is not observed in the cooling process, which is due to the fact that after cooling from above the clearing point, 4-F-BDC crystallizes into a new solid phase, and this new phase no longer exhibits phase transition behavior in the solid state (Figure S15).",
+   "note": "Senza nome nel testo: la fase che cristallizza raffreddando da sopra il punto di chiarificazione, che non mostra piu' la transizione solido-solido (Fig. S15)."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E1",
+   "da": "F7",
+   "a": "F8",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "condizioni": {
+    "temperatura": {
+     "valore": 327,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "dielettrica",
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "4-F-BDC molecules",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "forma": "F8",
+     "citazione": "The 4-F-BDC molecules in SC I are ordered (Figure 2a,b) and become partially disordered in SC II (Figure 2c,d)."
+    },
+    {
+     "gruppo": "chiral side alkyl",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "cambia": null,
+     "forma": "F8",
+     "citazione": "For a good structural refinement result, some carbon atoms, mainly from the chiral side alkyl, were split into two equivalent positions according to a certain occupancy rate to model a disorder state (Figure 2c)."
+    }
+   ],
+   "citazioni": [
+    "Note that the 4-F-BDC also experiences a new reversible S-to-S structural phase transition at about 327 K (TS-S), which was rarely found in other cases of H/F substitution.54−57",
+    "More importantly, the introduction of fluorine in 4-F-BDC brings about a new solid-to-solid (S-to-S) phase transition at 327 K (Ts-s)",
+    "Correspondingly, the real part (ε′) of dielectric constant of BDC and 4-F-BDC shows significant steplike anomalous changes near their respective TS-LC (Figure 1c,d), while 4-F-BDC presents an additional dielectric anomaly at around TS-S.",
+    "The PXRD data of 4-F-BDC also show the structural change from the SC I to SC II phase, as reflected from the merging of some PXRD diffraction peaks in SC II (Figure S17).",
+    "From the packing view, due to the same symmetry of the SC I and SC II phases, the two phases have a similar molecular packing, while the cell volume halves from the SC I to SC II phase.",
+    "The 4-F-BDC molecules in SC I are ordered (Figure 2a,b) and become partially disordered in SC II (Figure 2c,d)."
+   ],
+   "certezza": "alta",
+   "note": "Nuova transizione solido-solido di 4-F-BDC (SC I -> SC II), stesso gruppo P1, cella dimezzata, anomalia dielettrica e fusione dei picchi PXRD. DSC, dielettrica e PXRD sono dati alla stessa T (circa 327 K): un solo evento. «Reversible» dichiarato senza condizioni per il ritorno; nel secondo scan di DSC il picco non si vede piu' in raffreddamento perche' dopo il fuso cristallizza una fase nuova (E6). Direzione di riscaldamento dedotta dall'ordine delle fasi (SC I a temperatura ambiente)."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E2",
+   "da": "F8",
+   "a": "F9",
+   "sottovia": "riscaldamento",
+   "da_dedotto": true,
+   "condizioni": {
+    "temperatura": {
+     "valore": 430,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "microscopia",
+     "dielettrica"
+    ]
+   },
+   "citazioni": [
+    "The DSC curves of 4-F-BDC show that it undergoes an S-to-LC phase transition at TS-LC of 430 K and an LC to LP phase transition at the clearing point 485 K (Figure 1b), with an LC window of 55 K.",
+    "The S-to-LC phase transitions of 4-F-BDC and BDC were also confirmed from the variable-temperature powder X-ray diffraction (PXRD) data, where PXRD patterns at a wide-angle diffraction area in the SC phase vanish in the LC phase (Figures S12 and S13).",
+    "Upon heating, the polycrystalline thin film was melted into a cholesteric phase near 430 K, accompanied by the appearance of distinct planar textures (Figure 3e(ii)).",
+    "Correspondingly, the real part (ε′) of dielectric constant of BDC and 4-F-BDC shows significant steplike anomalous changes near their respective TS-LC (Figure 1c,d), while 4-F-BDC presents an additional dielectric anomaly at around TS-S."
+   ],
+   "certezza": "alta",
+   "note": "Solido -> fase liquido-cristallina colesterica a 430 K (DSC; POM: «near 430 K»). Il testo non dice quale fase solida (SC I o SC II) fonda: SC II e' la fase fra ~327 e 430 K per l'ordine delle transizioni (da_dedotto). Dal PXRD i picchi ad alto angolo della fase solida scompaiono nella LC."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E3",
+   "da": "F9",
+   "a": "fuso",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 485,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "The DSC curves of 4-F-BDC show that it undergoes an S-to-LC phase transition at TS-LC of 430 K and an LC to LP phase transition at the clearing point 485 K (Figure 1b), with an LC window of 55 K.",
+    "With further increase in temperature, the planar textures transform into small focal conic textures before the clearing point (485 K) and then enter an isotropic liquid state, which appears as a dark field under crossed polarizers (Figure 3e(iii) and (iv))."
+   ],
+   "certezza": "alta",
+   "note": "Punto di chiarificazione (LC -> liquido isotropo) di 4-F-BDC a 485 K."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E4",
+   "da": "F1",
+   "a": "F10",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 413,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "VT-PXRD",
+     "dielettrica"
+    ]
+   },
+   "citazioni": [
+    "The differential scanning calorimetry (DSC) analysis reveals that BDC undergoes no S-to-S phase transition but a solid-to-liquid crystal (S-to-LC) phase transition at the transition temperature (TS-LC) of 413 K (Figure 1a).",
+    "The S-to-LC phase transitions of 4-F-BDC and BDC were also confirmed from the variable-temperature powder X-ray diffraction (PXRD) data, where PXRD patterns at a wide-angle diffraction area in the SC phase vanish in the LC phase (Figures S12 and S13).",
+    "Correspondingly, the real part (ε′) of dielectric constant of BDC and 4-F-BDC shows significant steplike anomalous changes near their respective TS-LC (Figure 1c,d), while 4-F-BDC presents an additional dielectric anomaly at around TS-S."
+   ],
+   "certezza": "alta",
+   "note": "BDC: nessuna transizione solido-solido, ma solido -> fase colesterica a 413 K."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E5",
+   "da": "F10",
+   "a": "fuso",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 430,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The LC phase then transforms to a liquid phase (LP) at the clearing point of 430 K."
+   ],
+   "certezza": "alta",
+   "note": "Punto di chiarificazione di BDC a 430 K."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E6",
+   "da": "fuso",
+   "a": "F11",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "It is worth noting that in the second scan of DSC (Figure 1b), the peak of S-to-S phase transition is not observed in the cooling process, which is due to the fact that after cooling from above the clearing point, 4-F-BDC crystallizes into a new solid phase, and this new phase no longer exhibits phase transition behavior in the solid state (Figure S15)."
+   ],
+   "certezza": "media",
+   "note": "Nel secondo scan di DSC, raffreddando da sopra il punto di chiarificazione, 4-F-BDC cristallizza in una nuova fase solida non identificata (Fig. S15). T e velocita' non dette."
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E7",
+   "da": "F11",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_transizione_solido_solido",
+   "condizioni": {
+    "solventi": []
+   },
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "It is worth noting that in the second scan of DSC (Figure 1b), the peak of S-to-S phase transition is not observed in the cooling process, which is due to the fact that after cooling from above the clearing point, 4-F-BDC crystallizes into a new solid phase, and this new phase no longer exhibits phase transition behavior in the solid state (Figure S15)."
+   ],
+   "certezza": "media",
+   "note": "La nuova fase solida «no longer exhibits phase transition behavior in the solid state»: il picco S-to-S non si vede in raffreddamento nel secondo scan."
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E8",
+   "da": "F1",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_transizione_solido_solido",
+   "condizioni": {
+    "solventi": []
+   },
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The differential scanning calorimetry (DSC) analysis reveals that BDC undergoes no S-to-S phase transition but a solid-to-liquid crystal (S-to-LC) phase transition at the transition temperature (TS-LC) of 413 K (Figure 1a).",
+    "It is worth noting that although BDC, PF-BDC, and 4-F-BDC all have polar crystal symmetry, only the 4-F-BDC shows an S-to-S phase transition, which makes the 4-F-BDC molecules easily prone to reorientation and provides a variable for polarization switching, beneficial for the generation of ferroelectricity in 4-F-BDC."
+   ],
+   "certezza": "alta",
+   "note": "BDC non ha la transizione solido-solido che 4-F-BDC ha a ~327 K (negativo per confronto parallelo)."
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E9",
+   "da": "F2",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_transizione_solido_solido",
+   "condizioni": {
+    "solventi": []
+   },
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "The H/D substitution on the fourth position of the phenyl group of BDC maintains the crystal symmetry of the polar P21 space group and the phase transition behaviors without S-to-S phase transition in 4-d-BDC (Figure S2 and Table S1)."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E10",
+   "da": "F3",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_transizione_solido_solido",
+   "condizioni": {
+    "solventi": []
+   },
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Even replacing all the H atoms of the phenyl group of BDC with D atoms, the crystal symmetry of the polar P21 space group and similar phase transition behaviors still remain in d5-BDC (Figure S3 and Table S1)."
+   ],
+   "certezza": "bassa",
+   "note": "Negativo dedotto da «similar phase transition behaviors» a quelli di BDC, che non ha transizione solido-solido."
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E11",
+   "da": "F4",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_transizione_solido_solido",
+   "condizioni": {
+    "solventi": []
+   },
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In addition, the phase transitions of 2-F-BDC and 3-F-BDC are similar to those of parent BDC (Figures S4 and S5)."
+   ],
+   "certezza": "bassa",
+   "note": "Negativo dedotto da «the phase transitions of 2-F-BDC and 3-F-BDC are similar to those of parent BDC»."
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E12",
+   "da": "F5",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_transizione_solido_solido",
+   "condizioni": {
+    "solventi": []
+   },
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "In addition, the phase transitions of 2-F-BDC and 3-F-BDC are similar to those of parent BDC (Figures S4 and S5)."
+   ],
+   "certezza": "bassa",
+   "note": "Negativo dedotto da «the phase transitions of 2-F-BDC and 3-F-BDC are similar to those of parent BDC»."
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E13",
+   "da": "F6",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_transizione_solido_solido",
+   "condizioni": {
+    "solventi": []
+   },
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "We also employed the pentafluoride substitution on the phenyl group of BDC, while the obtained PF-BDC keeps the polar P21 space group and the similar phase transition behaviors to the parent BDC, which thus also shows no detectable ferroelectricity (Figure S6 and Table S1).",
+    "It is worth noting that although BDC, PF-BDC, and 4-F-BDC all have polar crystal symmetry, only the 4-F-BDC shows an S-to-S phase transition, which makes the 4-F-BDC molecules easily prone to reorientation and provides a variable for polarization switching, beneficial for the generation of ferroelectricity in 4-F-BDC."
+   ],
+   "certezza": "media",
+   "note": "«only the 4-F-BDC shows an S-to-S phase transition» fra BDC, PF-BDC e 4-F-BDC."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Their crystals were easily prepared by the slow evaporation of the respective ethyl acetate solutions.",
+    "The colorless crystals of 4-F-BDC and BDC were easily prepared by the slow evaporation of their ethyl acetate solutions, respectively, at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "note": "Evaporazione lenta di soluzioni in acetato di etile; «at room temperature» detto per 4-F-BDC e BDC. A temperatura ambiente 4-F-BDC e' SC I (sotto ~327 K), dedotto dall'ordine delle fasi."
+  },
+  {
+   "forme": [
+    "F7",
+    "F8"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "tetrahydrofuran"
+   ],
+   "temperatura": {
+    "valore": 373,
+    "unita": "K",
+    "tipo": "non_specificato"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "The thin films of 4-F-BDC used for the PFM measurements and hysteresis loop testing are prepared through the drop-casting method.",
+    "The precursor solution of 4-F-BDC was prepared by dissolving 10 mg of the crystals in 1 mL of tetrahydrofuran. Then, 40 mL of precursor solution was spread on a clean indium-doped tin oxide (ITO) glass substrate. The thin film was obtained after annealing at 373 K for 1 h."
+   ],
+   "fonte_dati": "propria",
+   "note": "Film sottile di 4-F-BDC per drop-casting da tetraidrofurano su ITO, ricotto a 373 K per 1 h (la temperatura e' quella della ricottura). Il film e' misurato con PFM in entrambe le fasi solide (SC I e SC II). Nel testo «40 mL» di soluzione precursore (probabile refuso)."
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Note that the 4-F-BDC also experiences a new reversible S-to-S structural phase transition at about 327 K (TS-S), which was rarely found in other cases of H/F substitution.54−57"
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F11"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E6",
+   "esito": "ottenuta",
+   "citazioni": [
+    "It is worth noting that in the second scan of DSC (Figure 1b), the peak of S-to-S phase transition is not observed in the cooling process, which is due to the fact that after cooling from above the clearing point, 4-F-BDC crystallizes into a new solid phase, and this new phase no longer exhibits phase transition behavior in the solid state (Figure S15)."
+   ],
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C7",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "forma": "F8",
+     "testo": "some carbon atoms, mainly from the chiral side alkyl, split into two equivalent positions (disorder) in SC II",
+     "citazione": "For a good structural refinement result, some carbon atoms, mainly from the chiral side alkyl, were split into two equivalent positions according to a certain occupancy rate to model a disorder state (Figure 2c)."
+    }
+   ]
+  }
+ ]
+}
