@@ -1,0 +1,514 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/jacs.3c14800",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Pigment Orange 34: fase LT (nota, triclina, 4 molecole nella cella, due indipendenti) e fase HT (nuova, triclina, 1 molecola), transizione del primo ordine reversibile con isteresi. Nel testo «LT» e' sia il nome della fase sia la bassa temperatura (-180 °C) delle misure 3D ED: nel negativo E5 «LT» vuol dire bassa temperatura. Non sono eventi: (a) lo spostamento continuo e reversibile della banda UV-vis da 600 nm (RT) a 616 nm: nessuna discontinuita' durante riscaldamento e raffreddamento, «the phase transition hysteresis LT <-> HT cannot be observed in the spectral range of UV-vis measurements» (nessun cambio di forma osservato con quella tecnica); (b) l'assenza di sublimazione della HT a 220 °C nel vuoto del TEM («the crystals showed no tendency for sublimation»), che non e' un cambio verso un'altra forma; (c) i raffinamenti Rietveld da XRPD a -180 °C, RT e 220 °C (stesse strutture della 3D ED, nessun refcode); (d) l'ottimizzazione DFT-D (RMSCD 0.049 e 0.073 A; differenza di entalpia calcolata 5.8 kJ/mol a favore della LT), solo calcolata, riportata nella relazione LT/HT; (e) la sintesi della polvere nanocristallina per bis-diazotazione di 3,3'-dichlorobenzidine e accoppiamento con 5-methyl-2-p-tolyl-pyrazol-5-one in acqua: la forma del prodotto non e' identificata esplicitamente, quindi non e' una preparazione di forma. Volumi di cella per molecola (3D ED): 730 (-180 °C), 753 (RT) e 784 A3 (220 °C), «Also, the unit cell volume increases from 730 via 753 to 784 A3 per molecule». Nel testo non ci sono CCDC ne' refcode. Le figure S6-S8 (DSC, XRPD) sono nel supplementare: velocita' di riscaldamento e di raffreddamento non dette.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "Pigment Orange 34 (P.O.34)",
+   "smiles": null,
+   "nome_scritto": "Pigment Orange 34 (C34H28N8O2Cl2)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "LT phase",
+   "etichette_alternative": [
+    "RT phase",
+    "known room-temperature phase"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "V": 3000,
+    "Z": 4,
+    "circa": true,
+    "condizioni": "RT e -180 °C (3D ED); V per molecola 730 A3 a -180 °C e 753 A3 a RT"
+   },
+   "strutture": [
+    {
+     "fonte": "elettroni",
+     "temperatura": {
+      "valore": -180,
+      "unita": "°C"
+     },
+     "citazione": "3D ED data of the LT phase were collected at RT and at −180 °C with accumulated electron doses of 45 e–/Å2 and 61 e–/Å2, respectively, distributed over large parts of the particle."
+    },
+    {
+     "fonte": "elettroni",
+     "temperatura": {
+      "valore": null,
+      "unita": null,
+      "tipo": "ambiente",
+      "testo": "RT"
+     },
+     "citazione": "3D ED data of the LT phase were collected at RT and at −180 °C with accumulated electron doses of 45 e–/Å2 and 61 e–/Å2, respectively, distributed over large parts of the particle."
+    }
+   ],
+   "citazione": "The patterns showed a triclinic unit cell with a volume of about 3000 Å3 (Table S1).",
+   "note": "Due molecole simmetricamente indipendenti in posizione generale (Z' = 2), 4 molecole nella cella, 148 atomi indipendenti, gruppo P1̅ (scritto con la barra combinata nel testo letto). Il volume 'about 3000 A3' e Z = 4 sono dati dal testo; la cella completa e' nella Tabella S1 (supplementare). Strutture determinate sia a -180 °C sia a RT (raffinamento anche dinamico). La stessa fase del prodotto industriale (vedi preparazioni, attribuzione dal testo: 'Hitherto, only one crystal phase is known' e 'We call the known room-temperature phase the LT phase')."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "HT phase",
+   "etichette_alternative": [
+    "high-temperature phase"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "V": 750,
+    "Z": 1,
+    "circa": true,
+    "condizioni": "220 °C (3D ED)"
+   },
+   "strutture": [
+    {
+     "fonte": "elettroni",
+     "temperatura": {
+      "valore": 220,
+      "unita": "°C"
+     },
+     "citazione": "For the determination of the crystal structure of the HT phase, 3D ED was performed at 220 °C by using a heating holder that allows tilting of the specimen at an angular range of approximately ±35°."
+    }
+   ],
+   "citazione": "The ED data allowed the crystal structure of the HT phase to be solved by Direct Methods45 in space group P1̅ (Z = 1).",
+   "conflitto": "Il volume di cella e' «only about 750 Å3» nei risultati (una molecola per cella), mentre piu' avanti il volume per molecola a 220 °C e' 784 A3 («from 730 via 753 to 784 A3 per molecule»). Si tiene il valore scritto per la cella, 'about 750'; 784 e' il volume per molecola (= cella, Z = 1) dai dati raffinati.",
+   "note": "Una sola molecola indipendente, su un centro di inversione; molecole in strati planari. Non si ottiene a RT perche' la transizione e' reversibile («the HT phase cannot be obtained at RT»). Dati 3D ED combinati da tre cristalli a 220 °C; riflessi affidabili solo fino a 0.8 A-1."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "stabile_a_temperatura_ambiente": "F1",
+   "condizioni": "a temperature piu' basse (LT preferita); l'articolo non dichiara mono/enantiotropia ne' una temperatura di equilibrio. Energia di reticolo DFT-D a favore della LT (calcolo).",
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "citazione": "Apparently, the LT phase is preferred at lower temperatures because it allows an energetically preferred twisting of the biphenyl fragment for half of the molecules, whereas the HT phase is preferred by entropy.",
+   "note": "«The LT phase was proven to have a more favorable lattice energy, with a calculated enthalpy difference of 5.8 kJ/mol»: valore calcolato, non una misura. La transizione osservata e' reversibile con isteresi (180 °C riscaldando, 140 °C raffreddando, DSC), ma l'articolo non la chiama enantiotropa."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 185,
+     "max": 195,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "ordine_transizione": "primo"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "biphenyl fragment",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Apparently, the LT phase is preferred at lower temperatures because it allows an energetically preferred twisting of the biphenyl fragment for half of the molecules, whereas the HT phase is preferred by entropy."
+    },
+    {
+     "gruppo": "hydrazone-tautomeric form −NH–N=C",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "citazione": "both phases were proven to exhibit the hydrazone-tautomeric form −NH–N=C instead of the azo form (−N=N–CH−) in the solid state"
+    }
+   ],
+   "citazioni": [
+    "Temperature-dependent XRPD revealed a first-order phase transition between 185 and 195 °C, yielding a new phase, which has never been described before (Figure 2, Figure S8).",
+    "Temperature-dependent XRPD patterns of P.O.34 showing the phase transition from the LT phase to the HT phase upon heating (sample in capillary, Cu–Kα1 radiation)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E4",
+   "note": "Intervallo di T fra due diffrattogrammi successivi (185 e 195 °C). Velocita' di riscaldamento non detta. La stessa transizione e' vista in DSC (onset 180 °C, E2) e in 3D ED a 220 °C (E3): temperature diverse, quindi eventi distinti."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 180,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "ordine_transizione": "primo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "biphenyl fragment",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Apparently, the LT phase is preferred at lower temperatures because it allows an energetically preferred twisting of the biphenyl fragment for half of the molecules, whereas the HT phase is preferred by entropy."
+    }
+   ],
+   "citazioni": [
+    "In the DSC analysis (Figure S6), the phase transition from the LT to the HT phase initiates at 180 °C."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E4",
+   "note": "«Initiates at 180 °C» letto come onset. Il 'first-order' e' detto dall'articolo per la transizione vista in XRPD; qui e' riportato lo stesso fenomeno. Velocita' di riscaldamento e crogiolo non detti."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 220,
+     "unita": "°C",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "3D ED"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "about 1 × 4 μm2"
+   },
+   "pretrattamento": "campione ricristallizzato da nitrobenzene bollente, disperso in etanolo e spruzzato su un film di carbonio amorfo su griglia TEM",
+   "citazioni": [
+    "For the determination of the crystal structure of the HT phase, 3D ED was performed at 220 °C by using a heating holder that allows tilting of the specimen at an angular range of approximately ±35°.",
+    "The HT phase has a triclinic unit cell, too, but its volume is only about 750 Å3, which corresponds to one molecule per unit cell."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E4",
+   "note": "Il testo non descrive il passaggio in TEM come evento (non dice che il cristallo LT e' stato scaldato e visto cambiare): la HT e' misurata a 220 °C con il portacampioni riscaldante su un campione che, a RT e -180 °C, e' la fase LT. Per questo certezza media; T 'osservata' = la temperatura a cui la fase HT e' vista, non una temperatura di transizione."
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "onset": 140,
+     "unita": "°C",
+     "tipo": "onset"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "biphenyl fragment",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Apparently, the LT phase is preferred at lower temperatures because it allows an energetically preferred twisting of the biphenyl fragment for half of the molecules, whereas the HT phase is preferred by entropy."
+    },
+    {
+     "gruppo": "hydrazone-tautomeric form −NH–N=C",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "citazione": "both phases were proven to exhibit the hydrazone-tautomeric form −NH–N=C instead of the azo form (−N=N–CH−) in the solid state"
+    }
+   ],
+   "citazioni": [
+    "The phase transition is reversible but with a considerable hysteresis: In the DSC, the back-transition from the HT to the LT phase starts at 140 °C without visibly losing crystallinity (Figure S7)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "note": "Isteresi di circa 40 °C fra 180 °C (riscaldando) e 140 °C (raffreddando) in DSC. «Without visibly losing crystallinity»: il materiale resta cristallino al ritorno. «Since the phase transition is reversible, the HT phase cannot be obtained at RT»."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": -180,
+     "unita": "°C",
+     "tipo": "intervallo",
+     "testo": "between RT and LT (−180 °C)"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "3D ED"
+    ]
+   },
+   "citazioni": [
+    "3D ED data of the LT phase were collected at RT and at −180 °C with accumulated electron doses of 45 e–/Å2 and 61 e–/Å2, respectively, distributed over large parts of the particle.",
+    "The 3D ED patterns measured at RT and LT were quite similar, proving the absence of a phase transition between RT and LT."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Nel testo «LT» qui e' la bassa temperatura (-180 °C), non la fase. Fra RT e -180 °C la fase LT non cambia (stessi diffrattogrammi 3D ED); il limite alto dell'intervallo e' RT, senza numero nel testo. 'a' ignota: il testo non nomina una forma attesa."
+  },
+  {
+   "id": "E6",
+   "da": "ignota",
+   "da_possibili": [
+    "F1",
+    "F2"
+   ],
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 351,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "citazioni": [
+    "P.O.34 melts under decomposition at 351 °C (Figure S6)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione con decomposizione. La forma che fonde non e' detta: con il riscaldamento il campione ha gia' passato la transizione LT -> HT a 180 °C (E2), ma il testo non lo dice per la fusione; da_possibili le due fasi. La tecnica (DSC) e' attribuita dal riferimento alla Figure S6, che prima e' citata come analisi DSC."
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "irraggiamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 220,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "luce": {
+     "sorgente": "electron beam",
+     "dose": {
+      "valore": 0.212,
+      "unita": "e–/Å2 s",
+      "circa": true
+     }
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "3D ED"
+    ]
+   },
+   "citazioni": [
+    "For the determination of the crystal structure of the HT phase, 3D ED was performed at 220 °C by using a heating holder that allows tilting of the specimen at an angular range of approximately ±35°.",
+    "However, the beam sensitivity was much higher than at RT, and the crystals rapidly decomposed in the electron beam, although a very low electron beam dose of approximately 0.212 e–/Å2 s was used."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Danno da fascio elettronico durante la misura (analogo del danno da raggi X): la sottovia 'irraggiamento' e' la piu' vicina, il fascio e' di elettroni. La dose e' scritta come velocita' di dose (e-/A2 s). Per la fase LT l'articolo dice solo che i cristalli erano «quite sensitive to the electron beam», senza decomposizione esplicita: nessun evento."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Commercial samples of P.O.34 generally have very small crystallite sizes (about 30 nm), because smaller particles lead to a better transparency and to a higher color strength"
+   ],
+   "fonte_dati": "propria",
+   "note": "Attribuzione alla fase LT dal testo: «Hitherto, only one crystal phase is known» e «We call the known room-temperature phase the “LT phase”»; le ricristallizzazioni danno «the same polymorphic form as the industrial product»."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "temperatura": {
+    "valore": null,
+    "min": 150,
+    "max": 300,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "Numerous attempts were performed at recrystallization, e.g., from organic solvents at 150–300 °C. XRPD analysis of the resulting powders revealed that all samples exhibit the same polymorphic form as the industrial product."
+   ],
+   "fonte_dati": "propria",
+   "note": "Solventi organici non nominati. Tutti i campioni ricristallizzati hanno la stessa forma del prodotto industriale, cioe' la LT. In alcuni esperimenti la dimensione dei cristalliti sale a circa 90 nm."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "nitrobenzene"
+   ],
+   "temperatura": {
+    "valore": 211,
+    "unita": "°C",
+    "tipo": "non_specificato",
+    "testo": "boiling nitrobenzene (bp 211 °C)"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "A sample, which was recrystallized from boiling nitrobenzene (bp 211 °C) was dispersed in ethanol and sprayed on a film of amorphous carbon supported by a Cu TEM grid."
+   ],
+   "fonte_dati": "propria",
+   "note": "Campione usato per le misure 3D ED (LT a RT e -180 °C; HT a 220 °C). 211 °C e' il punto di ebollizione del solvente, non una temperatura di processo dichiarata come tale."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E3",
+   "solventi": [],
+   "temperatura": {
+    "valore": 220,
+    "unita": "°C",
+    "tipo": "osservata"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "For the determination of the crystal structure of the HT phase, 3D ED was performed at 220 °C by using a heating holder that allows tilting of the specimen at an angular range of approximately ±35°."
+   ],
+   "fonte_dati": "propria",
+   "note": "La fase HT esiste solo in temperatura (non si ottiene a RT); si ottiene scaldando la LT (E1-E3)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "solubilita",
+     "grandezza": {
+      "valore": null,
+      "unita": null,
+      "testo": "fully insoluble"
+     },
+     "solvente": "water and all solvents",
+     "citazione": "Like other pigments, P.O.34 is fully insoluble in water and all solvents."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "tautomeria",
+     "testo": "hydrazone-tautomeric form −NH–N=C instead of the azo form, in both phases (H atoms located in difference Fourier maps)",
+     "citazione": "both phases were proven to exhibit the hydrazone-tautomeric form −NH–N=C instead of the azo form (−N=N–CH−) in the solid state"
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F1",
+     "testo": "two independent molecules: biphenyl almost planar in one (ϕ1B = 179.3(3)°), deviating by about 11.5(4)° from planarity in the other (ϕ1A = 168.5(4)°)",
+     "citazione": "The molecules differ in their conformation: In one molecule, the biphenyl fragment is almost planar (ϕ1B = 179.3(3)°), in the other one it deviates by about 11.5(4)° from planarity (ϕ1A = 168.5(4)°)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "biphenyl fragment exactly planar (molecule on an inversion center); planarity is a packing effect",
+     "citazione": "The molecules are situated on crystallographic inversion centers. Correspondingly, the central biphenyl fragment is exactly planar."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "torsione Ph–Ph del bifenile: la molecola isolata preferirebbe circa 42°",
+     "citazione": "An individual molecule would prefer a twisted conformation with a torsion angle ϕ1(Ph–Ph) of about 42°."
+    }
+   ]
+  }
+ ]
+}
