@@ -1,0 +1,929 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s205225251701096x",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "1541927",
+  "1541928",
+  "1541929",
+  "1541930"
+ ],
+ "note": "Il campione sperimentale e glycine-d5 (neutroni), ma l'articolo chiama le fasi come quelle della glicina (α, β, γ, δ, ∊, ζ): le forme sono associate al composto glycine (C1), il deuterato e C2. I numeri CCDC (4) non si attribuiscono ai 6 datablock (zeta_glycine_100K, epsilon_glycine_100K, profile_100K, beta_glycine_290K, zeta_glycine_290K, profile_RT). Non sono eventi: la ricerca di strutture (CSP/DFT, energie relative a 0 K: γ 0, α 0.084, β 1.055, ζ 1.070, ∊ 1.832, δ 2.019 kJ/mol, tutte calcolate), le energie di contatto intermolecolare. Il ζ è raffreddato a 100 K prima di scaldare: la storia termica decide l'esito (β invece di γ).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "glycine",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "glycine-d5",
+   "nome_scritto": "γ-glycine-d5",
+   "smiles": null,
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "α",
+   "etichette_alternative": null,
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "citazione": "The α and β forms are both monoclinic (space groups P21/n and P21, respectively), with crystal structures composed of hydrogen-bonded layers.",
+   "motivi_hb": [
+    {
+     "motivo": "hydrogen-bonded layers",
+     "chi": null,
+     "citazione": "The α and β forms are both monoclinic (space groups P21/n and P21, respectively), with crystal structures composed of hydrogen-bonded layers."
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "β",
+   "etichette_alternative": null,
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "citazione": "The α and β forms are both monoclinic (space groups P21/n and P21, respectively), with crystal structures composed of hydrogen-bonded layers.",
+   "cella": {
+    "a": 5.0907,
+    "b": 6.25954,
+    "c": 5.3871,
+    "alpha": 90,
+    "beta": 113.261,
+    "gamma": 90,
+    "V": 157.71,
+    "Z": 2,
+    "fonte": "NPD",
+    "condizioni": "298 K"
+   },
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 298,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "neutroni",
+     "citazione": "∊ (100 K) | ζ (100 K) | β (298 K) | ζ (298 K)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "hydrogen-bonded layers",
+     "chi": null,
+     "citazione": "The α and β forms are both monoclinic (space groups P21/n and P21, respectively), with crystal structures composed of hydrogen-bonded layers."
+    },
+    {
+     "motivo": "head-to-tail N1—H3⋯O2 hydrogen-bond chains connected into a layer via N1—H5⋯O1 hydrogen bonds",
+     "chi": "ammonium–carboxylate",
+     "citazione": "Both consist of chains composed of head-to-tail N1—H3⋯O2 hydrogen bonds which are connected into a layer via N1—H5⋯O1 hydrogen bonds."
+    }
+   ],
+   "note": "Cella della tabella 1 (β a 298 K, formata riscaldando ζ in questo lavoro); il testo e le datablock danno 290 K per lo stesso pattern. I 4 numeri CCDC non sono attribuibili ai 6 datablock."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "γ",
+   "etichette_alternative": null,
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "trigonale",
+   "gruppo_spaziale": "P31",
+   "citazione": "The γ form is trigonal (P31) and displays a three-dimensional hydrogen-bonded network featuring chains disposed about 31 screw axes.",
+   "motivi_hb": [
+    {
+     "motivo": "three-dimensional hydrogen-bonded network featuring chains disposed about 31 screw axes",
+     "chi": null,
+     "citazione": "The γ form is trigonal (P31) and displays a three-dimensional hydrogen-bonded network featuring chains disposed about 31 screw axes."
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "δ",
+   "etichette_alternative": [
+    "β′"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": "P21/n",
+   "citazione": "β-glycine undergoes a phase transition at only 0.8 GPa to the δ phase",
+   "note": "Alcuni autori chiamano β′ la fase δ e δ la fase ∊ («Note that some authors refer to the δ and ∊ phases as β′ and δ, respectively»): qui δ e la fase P21/n da β a 0.8 GPa."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "∊",
+   "etichette_alternative": [
+    "ε",
+    "∊-glycine"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": null,
+   "gruppo_spaziale": "Pn",
+   "citazione": "Application of pressure to γ-glycine leads to ∊-glycine (Pn;",
+   "cella": {
+    "a": 5.023,
+    "b": 5.9846,
+    "c": 5.4946,
+    "alpha": 90,
+    "beta": 114.654,
+    "gamma": 90,
+    "V": 150.12,
+    "Z": 2,
+    "fonte": "NPD",
+    "condizioni": "100 K"
+   },
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 100,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "neutroni",
+     "citazione": "∊ (100 K) | ζ (100 K) | β (298 K) | ζ (298 K)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "layered structure (layers very similar to those of ζ)",
+     "chi": null,
+     "citazione": "The structure changes substantially, the threefold helices being replaced by a layered structure."
+    }
+   ],
+   "note": "Cella della tabella 1 (100 K, questo lavoro; Z = 2). Il testo non dice il sistema cristallino. I 4 numeri CCDC non sono attribuibili ai 6 datablock."
+  },
+  {
+   "id": "F6",
+   "composto": "C1",
+   "etichetta": "ζ",
+   "etichette_alternative": [
+    "ζ-glycine"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "I1",
+   "citazione": "In addition to the peaks from ζ-glycine, the pattern also shows the presence of residual ∊- and a trace of γ-glycine.",
+   "gruppo_spaziale_numero": 1,
+   "cella": {
+    "a": 5.1,
+    "b": 6.285,
+    "c": 5.4295,
+    "alpha": 85.815,
+    "beta": 114.456,
+    "gamma": 104.136,
+    "V": 153.545,
+    "Z": 2,
+    "fonte": "NPD",
+    "condizioni": "100 K"
+   },
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 100,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "neutroni",
+     "citazione": "∊ (100 K) | ζ (100 K) | β (298 K) | ζ (298 K)"
+    },
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 298,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "neutroni",
+     "citazione": "∊ (100 K) | ζ (100 K) | β (298 K) | ζ (298 K)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "head-to-tail N1—H3⋯O2 hydrogen-bond chains connected into a layer via N1—H5⋯O1 hydrogen bonds",
+     "chi": "ammonium–carboxylate",
+     "citazione": "Both consist of chains composed of head-to-tail N1—H3⋯O2 hydrogen bonds which are connected into a layer via N1—H5⋯O1 hydrogen bonds."
+    },
+    {
+     "motivo": "layers connected through equivalent N1—H4⋯O contacts",
+     "chi": "ammonium–carboxylate",
+     "citazione": "In the ζ phase all layers are connected through equivalent N1—H4⋯O contacts (Fig. 3 ▸ b)."
+    }
+   ],
+   "note": "Gruppo «I1» (impostazione a corpo centrato di P1, vedi «body-centred triclinic setting»), Z = 2: cella della tabella 1 a 100 K. A 298 K (tabella; 290 K nel testo e nelle datablock) la cella e: a 5.1029, b 6.3450, c 5.4331, alfa 85.91, beta 114.26, gamma 103.55, V 155.85. Cella primitiva da Pawley a 100 K: a 4.9307, b 4.54798, c 3.9191 Å (alfa 95.550, beta 105.250, gamma 64.938; V 76.797). I 4 numeri CCDC non sono attribuibili ai 6 datablock."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F3",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "piu_stabile_fra": [
+    "F1",
+    "F2"
+   ],
+   "citazione": "Of the three polymorphs, γ-glycine is the most thermodynamically stable at room temperature",
+   "condizioni": "room temperature, pressione ambiente",
+   "fonte_dati": "citata",
+   "riferimento": "Perlovich et al., 2001",
+   "certezza": "alta"
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "citazione": "warming the sample from 100 K to room temperature yielded β-glycine, the least stable of the known ambient-pressure polymorphs.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "β e la meno stabile fra α, β, γ a pressione ambiente (stessa frase nell'abstract); T non detta. L'ordine α, β, γ calcolato con la DFT a 0 K concorda con la letteratura."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F3",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "grande_volume",
+   "condizioni": {
+    "pressione": {
+     "valore": 5.56,
+     "unita": "GPa",
+     "tipo": "applicata"
+    },
+    "mezzo_pressione": "deuterated methanol and ethanol (4:1 v/v)",
+    "idrostatica": null,
+    "solventi": []
+   },
+   "citazioni": [
+    "The sample was compressed to 5.56 GPa to yield a phase-pure sample of ∊-glycine.",
+    "Pressure was applied to the sample using a Paris–Edinburgh press modified for use at low temperature, utilizing zirconia-toughened alumina anvils.",
+    "A mixture of deuterated methanol and ethanol (4:1 v/v) was used as a pressure transmitting medium with a lead pellet as pressure marker.",
+    "The transition is sluggish and reconstructive, but is complete at between 4 and 5 GPa.",
+    "application of pressure to the γ phase yields the ∊ phase directly"
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "esito_dettaglio": "senza_intermedio",
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ],
+    "meccanismo": [
+     "ricostruttiva"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "γ-glycine-d5 da soluzione in D2O, cristalli leggermente frantumati (campione policristallino)",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "threefold helices",
+     "ruolo": null,
+     "con": "non_detto",
+     "cambia": "si_rompe",
+     "forma": "F3",
+     "citazione": "The structure changes substantially, the threefold helices being replaced by a layered structure."
+    },
+    {
+     "gruppo": "layered structure",
+     "ruolo": null,
+     "con": "non_detto",
+     "cambia": "si_forma",
+     "forma": "F5",
+     "citazione": "The structure changes substantially, the threefold helices being replaced by a layered structure."
+    }
+   ],
+   "note": "Campione deuterato (γ-glycine-d5). La pressione di 5.56 GPa e quella a cui il campione e stato portato per avere ε puro; il testo (letteratura, in introduzione) dice che la transizione γ→ε e lenta, ricostruttiva e completa fra 4 e 5 GPa, con isteresi: non e un secondo evento (stessa trasformazione). Comprimere γ da ε direttamente, senza passare da ζ.",
+   "inverso_di": "E9"
+  },
+  {
+   "id": "E2",
+   "da": "F5",
+   "a": "F6",
+   "esito": "parziale",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "temperatura": {
+     "valore": 200,
+     "unita": "K",
+     "tipo": null
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "load reduced to 0 tonnes"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The temperature was then rapidly lowered to 200 K and the load reduced to 0 tonnes. Then the temperature was further reduced to 100 K.",
+    "We now report the structure of the ζ phase, which was trapped at 100 K enabling neutron powder diffraction data to be obtained.",
+    "In addition to the peaks from ζ-glycine, the pattern also shows the presence of residual ∊- and a trace of γ-glycine.",
+    "the initial disappearance of ∊-glycine is the continuation of the original ∊ to ζ transition halted by the temperature decrease."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "da_evento": "E1",
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F6",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F5",
+      "prevalenza": "minoritaria"
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "tracce"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "ε puro ottenuto comprimendo γ-glycine-d5 a 5.56 GPa",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N1—C2—C1—O2 torsion angles",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F5",
+     "citazione": "In ∊-glycine the two zwitterionic molecules are related by an n-glide and have opposite conformations, the N1—C2—C1—O2 torsion angles being ±16.0 (5)°. In ζ-glycine the torsion angle increases to 35.1 (4)° and all the molecules have the same conformation."
+    },
+    {
+     "gruppo": "N1—C2—C1—O2 torsion angles",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F5",
+     "citazione": "The ∊- to ζ-glycine transition can thus be viewed as a switch of conformation of half the molecules in the structure, and in this regard it is similar to the β- to δ-glycine transition at 0.8 GPa."
+    },
+    {
+     "gruppo": "head-to-tail hydrogen bond chain",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "This same chain is present in all six known polymorphs, and the phases differ in the way these chains interact."
+    }
+   ],
+   "note": "Il carico e portato a zero a 200 K e poi il campione e raffreddato a 100 K: ζ e intrappolata (dati NPD raccolti per 5 h) ma resta ε residuo e una traccia di γ, quindi la transizione ε→ζ e parziale: «halted by the temperature decrease». T della decompressione: 200 K (non e detto a quale T era la compressione). Il testo dice che la transizione ε→ζ e il cambio di conformazione di meta delle molecole (torsione ±16.0° in ε, 35.1° con tutte le molecole uguali in ζ).",
+   "inverso_di": null
+  },
+  {
+   "id": "E3",
+   "da": "F5",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 250,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "When the sample of ζ-glycine prepared in this study was warmed from 100 K, the peaks due to the residual ∊ phase were first seen to disappear at 250 K.",
+    "the initial disappearance of ∊-glycine is the continuation of the original ∊ to ζ transition halted by the temperature decrease."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "da_evento": "E2",
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "ζ intrappolata a 100 K con ε residuo (decompressione a 200 K)",
+   "note": "Scomparsa dei picchi dell ε residuo a 250 K durante il riscaldamento da 100 K: gli autori la leggono come la prosecuzione della transizione ε→ζ, quindi a = ζ (interpretazione degli autori, non una fase osservata a parte)."
+  },
+  {
+   "id": "E4",
+   "da": "F5",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "tipo": "applicata",
+     "testo": "complete release of applied load"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Complete release of applied load yields yet another phase, ζ-glycine, which exists for as little as 30 min at room temperature before transforming back to the γ phase",
+    "The ζ phase, which has been characterized by X-ray powder diffraction and Raman spectroscopy, is only observed upon decompression of the ∊ form;",
+    "At room temperature ζ-glycine is a short-lived intermediate in the pressure-driven transition between the ∊ and γ polymorphs"
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "citata",
+   "riferimento": "Bordallo et al., 2008; Goryainov et al., 2006; Moggach et al., 2015",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "Raman"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N1—C2—C1—O2 torsion angles",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F5",
+     "citazione": "The ∊- to ζ-glycine transition can thus be viewed as a switch of conformation of half the molecules in the structure, and in this regard it is similar to the β- to δ-glycine transition at 0.8 GPa."
+    },
+    {
+     "gruppo": "layers",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F5",
+     "citazione": "Over the course of the ∊–ζ–γ transition (see the movie in the supporting information), the layers of ∊-glycine first slide over one another with small molecular rotations to give ζ-glycine."
+    }
+   ],
+   "note": "Dalla letteratura: ζ si forma solo togliendo del tutto il carico a ε; la T ambiente e quella a cui ζ esiste per 30 min (abstract: «At room temperature ζ-glycine is a short-lived intermediate»). Meccanismo letto nel testo: gli strati di ε scivolano con piccole rotazioni molecolari."
+  },
+  {
+   "id": "E5",
+   "da": "F6",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente",
+     "testo": "room temperature"
+    },
+    "tempo": {
+     "valore": 30,
+     "unita": "min",
+     "tipo": "trasformazione",
+     "testo": "as little as 30 min"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Complete release of applied load yields yet another phase, ζ-glycine, which exists for as little as 30 min at room temperature before transforming back to the γ phase",
+    "Previous work (Boldyreva et al., 2005 ▸; Bordallo et al., 2008 ▸; Goryainov et al., 2006 ▸; Moggach et al., 2015 ▸) using X-ray and neutron powder diffraction and vibrational spectroscopy has shown that ζ-glycine transforms spontaneously to the γ phase at room temperature."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "citata",
+   "riferimento": "Bordallo et al., 2008; Goryainov et al., 2006; Moggach et al., 2015",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "Raman"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "layer structure",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F6",
+     "citazione": "Larger reorientations that disrupt the layer structure are needed as the system transforms to the γ phase."
+    },
+    {
+     "gruppo": "head-to-tail hydrogen bond chain",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "This same chain is present in all six known polymorphs, and the phases differ in the way these chains interact."
+    }
+   ],
+   "note": "«As little as 30 min» e il tempo di vita minimo di ζ a T ambiente, non una durata fissa. La T ambiente e il carico zero sono le condizioni a cui lo dice la letteratura citata."
+  },
+  {
+   "id": "E6",
+   "da": "F6",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 290,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "At 290 K the peaks due to ζ-glycine began to diminish, to yield not the expected γ phase but rather the β phase (Fig. 2 ▸ b).",
+    "warming the sample from 100 K to room temperature yielded β-glycine, the least stable of the known ambient-pressure polymorphs.",
+    "(b) Rietveld fit of the neutron powder diffraction pattern of β-glycine (contaminated with ζ- and a trace of γ-glycine) at 290 K.",
+    "Persistence of the ζ polymorph after the disappearance of the ∊ polymorph shows that the transition to β-glycine is from ζ-glycine rather than ∊-glycine"
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "da_evento": "E3",
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F2",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F6",
+      "prevalenza": "minoritaria"
+     },
+     {
+      "forma": "F3",
+      "prevalenza": "tracce"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "ζ intrappolata a 100 K (da ε decompresso a 200 K), riscaldata monitorando il diffrattogramma",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "head-to-tail N1—H3⋯O2 hydrogen bonds",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F6",
+     "citazione": "Both consist of chains composed of head-to-tail N1—H3⋯O2 hydrogen bonds which are connected into a layer via N1—H5⋯O1 hydrogen bonds."
+    },
+    {
+     "gruppo": "N1—H5⋯O1 hydrogen bonds",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F6",
+     "citazione": "Both consist of chains composed of head-to-tail N1—H3⋯O2 hydrogen bonds which are connected into a layer via N1—H5⋯O1 hydrogen bonds."
+    },
+    {
+     "gruppo": "N1—C2—C1—O2 torsion angle",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "forma": "F6",
+     "citazione": "In the case of the β and ζ phases the symmetry operations preserve conformation, and this is why the cell dimensions of these two phases are so similar."
+    }
+   ],
+   "conflitto": "La tabella 1 intitola le colonne a 298 K (β e ζ), il testo e la Fig. 2 danno 290 K (e le datablock beta_glycine_290K): si tiene 290 K del testo, dove la trasformazione comincia.",
+   "note": "Prima volta che si osserva β partendo da ζ. A 290 K il prodotto e β contaminato da ζ residua (i picchi di ζ cominciano a diminuire) e da una traccia di γ; la conversione non e completa in quelle condizioni, ma l'articolo dice che il riscaldamento «yielded β-glycine». La storia termica conta: il campione era stato raffreddato, mentre in precedenza tutto era fatto a T ambiente. Il testo dice che nella transizione ζ–β si conserva la struttura a strati e serve una rotazione degli strati."
+  },
+  {
+   "id": "E7",
+   "da": "F6",
+   "a": "F3",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 290,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "At 290 K the peaks due to ζ-glycine began to diminish, to yield not the expected γ phase but rather the β phase (Fig. 2 ▸ b).",
+    "By contrast, in the present investigation, warming the sample from 100 K to room temperature yielded β-glycine rather than the expected γ phase.",
+    "The thermal history of the samples used in this and previous work were different: in previous studies all manipulations were carried out at room temperature, whereas here the sample had been cooled."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "da_evento": "E3",
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "ζ intrappolata a 100 K (campione raffreddato), poi riscaldata",
+   "note": "Negativo: partendo da ζ che era stata raffreddata a 100 K, riscaldando fino a T ambiente non si forma il γ atteso (solo una traccia di γ nel pattern, presente gia a 100 K) ma β. Contrasta con E5 (ζ→γ a T ambiente dopo decompressione fatta a T ambiente)."
+  },
+  {
+   "id": "E8",
+   "da": "F3",
+   "a": "F6",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "solventi": []
+   },
+   "citazioni": [
+    "The ζ phase, which has been characterized by X-ray powder diffraction and Raman spectroscopy, is only observed upon decompression of the ∊ form; application of pressure to the γ phase yields the ∊ phase directly."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "citata",
+   "riferimento": "Bordallo et al., 2008; Goryainov et al., 2006; Moggach et al., 2015",
+   "esito_dettaglio": "senza_intermedio",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "Raman"
+    ]
+   },
+   "note": "ζ non si forma comprimendo γ: la pressione sulla fase γ dà direttamente ε. Il testo non dà la pressione per questa frase di letteratura."
+  },
+  {
+   "id": "E9",
+   "da": "F5",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.28,
+     "unita": "GPa",
+     "tipo": "misura"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The γ- to ∊-glycine transition shows considerable hysteresis and the ∊ phase persists on decompression to 0.28 GPa"
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "citata",
+   "riferimento": "Moggach et al., 2015",
+   "inverso_di": "E1",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Isteresi della transizione γ→ε: ε persiste in decompressione fino a 0.28 GPa. Il testo non nomina la forma attesa a quella pressione (la forma di arrivo e `ignota`); ζ compare solo col rilascio completo del carico. Il testo non dice la T ne la tecnica per questa frase."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": "GPa",
+     "tipo": null,
+     "max": 23
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Although α-glycine persists to 23 GPa"
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "citata",
+   "riferimento": "Murli et al., 2003",
+   "note": "α-glycine non cambia fase fino a 23 GPa (letteratura); forma attesa, T e mezzo non detti."
+  },
+  {
+   "id": "E11",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": null,
+   "condizioni": {
+    "pressione": {
+     "valore": 0.8,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "β-glycine undergoes a phase transition at only 0.8 GPa to the δ phase",
+    "This transition is displacive and fully reversible as a result of the topological similarity of the β and δ phases, consisting of a concerted inversion of the O—C—C—N torsion angles in half the molecules which otherwise retain their positions and orientations."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "citata",
+   "riferimento": "Dawson et al., 2005; Goryainov et al., 2005",
+   "reversibile": true,
+   "osservazioni": {
+    "tecniche": [],
+    "meccanismo": [
+     "displaciva"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "O—C—C—N torsion angles",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "This transition is displacive and fully reversible as a result of the topological similarity of the β and δ phases, consisting of a concerted inversion of the O—C—C—N torsion angles in half the molecules which otherwise retain their positions and orientations."
+    }
+   ],
+   "note": "Dalla letteratura, completamente reversibile (nessuna condizione separata per il ritorno)."
+  },
+  {
+   "id": "E12",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": null,
+     "testo": "increased by ca 10 K by annealing the sample"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "while in glycine itself the temperature of the thermal γ-to-α phase transition can be increased by ca 10 K by annealing the sample"
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "citata",
+   "riferimento": "Perlovich et al., 2001",
+   "pretrattamento": "ricottura (annealing) del campione",
+   "note": "Esempio di sensibilita alla storia termica: la T della transizione termica γ→α sale di circa 10 K con la ricottura. T assoluta non detta."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "D2O"
+   ],
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "A sample of γ-glycine-d5 (CDN Isotopes, Canada) was obtained by non-photochemical laser-induced nucleation of a supersaturated solution in D2O",
+    "Colourless needle-like crystals were allowed to grow for 2 h at room temperature and then lightly crushed to form a polycrystalline sample."
+   ],
+   "fonte_dati": "propria",
+   "note": "Campione deuterato (glycine-d5): nucleazione indotta da laser non fotochimica di una soluzione soprassatura in D2O, poi cristalli lasciati crescere e frantumati leggermente."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The sample was compressed to 5.56 GPa to yield a phase-pure sample of ∊-glycine."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E2",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "We now report the structure of the ζ phase, which was trapped at 100 K enabling neutron powder diffraction data to be obtained."
+   ],
+   "fonte_dati": "propria",
+   "note": "ζ ottenuta decomprimendo ε a 200 K e raffreddando a 100 K (E2); con ε residuo e una traccia di γ."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E6",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "warming the sample from 100 K to room temperature yielded β-glycine, the least stable of the known ambient-pressure polymorphs."
+   ],
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "zwitterione",
+     "testo": "+H3N—CH2—CO2− in tutte le fasi",
+     "citazione": "All phases consist of the zwitterionic form +H3N—CH2—CO2 − and three polymorphs are known under ambient conditions."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "torsione N1—C2—C1—O2: ±16.0° (due molecole opposte) in ε, 35.1° con tutte le molecole uguali in ζ",
+     "forma": "F5",
+     "citazione": "In ∊-glycine the two zwitterionic molecules are related by an n-glide and have opposite conformations, the N1—C2—C1—O2 torsion angles being ±16.0 (5)°. In ζ-glycine the torsion angle increases to 35.1 (4)° and all the molecules have the same conformation."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "in β e ζ le operazioni di simmetria conservano la conformazione; in ε le due molecole hanno conformazioni opposte, in ζ hanno la stessa",
+     "citazione": "In the case of the β and ζ phases the symmetry operations preserve conformation, and this is why the cell dimensions of these two phases are so similar."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "campione sperimentale deuterato (γ-glycine-d5), usato per la diffrazione di neutroni",
+     "citazione": "A sample of γ-glycine-d5 (CDN Isotopes, Canada) was obtained by non-photochemical laser-induced nucleation of a supersaturated solution in D2O"
+    }
+   ]
+  }
+ ]
+}
