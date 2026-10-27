@@ -1,0 +1,708 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1038/s41467-021-22685-0",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Tre basi di Schiff tautomerizzabili (1a, 1b, 1c; 1d e' l'analogo N-metilato di 1b usato come controllo, senza idrato) che formano idrati 1:1 con H2O o D2O con fluorescenza accesa. Gli eventi sono rilevati con XRD in situ, FT-IR e fluorescenza. Nomi: le intestazioni dei Metodi e dell'introduzione sono coerenti (1a = 4-methoxyphenol, 1b = phenol, 1c = 5-methoxyphenol) ma i reagenti dei Metodi sembrano scambiati (1a da salicylaldehyde, 1b da 2-hydroxy-5-methoxybenzaldehyde); si tengono i nomi dell'introduzione. Non sono eventi: sensore della miscela H2O/D2O (Fig. 2d), spettri UV e di emissione, calcoli DFT e dinamica molecolare (1 ns, COMPASS), NMR di stato solido (1H DQ-filtered: -OH e -NH di 1a mobili, 12.0 ppm unico in 1a·H2O). Nessun CCDC o refcode nel testo; celle solo qualitative nel testo (idrati piu' grandi dell'anidro per 1a e 1c, piu' piccoli per 1b).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "2-(((1H-benzo[d]imidazol-2-yl)imino)methyl)-4-methoxyphenol",
+   "nome_scritto": "1a"
+  },
+  {
+   "id": "C2",
+   "nome": "2-(((1H-benzo[d]imidazol-2-yl)imino)methyl)phenol",
+   "nome_scritto": "1b"
+  },
+  {
+   "id": "C3",
+   "nome": "2-(((1H-benzo[d]imidazol-2-yl)imino)methyl)-5-methoxyphenol",
+   "nome_scritto": "1c"
+  },
+  {
+   "id": "C4",
+   "nome": "2-(((1-methyl-1H-benzo[d]imidazol-2-yl)imino)methyl)phenol",
+   "nome_scritto": "1d",
+   "analogo_di": "C2"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "1a",
+   "etichette_alternative": [
+    "anhydrous 1a",
+    "1a polycrystalline powder"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "intramolecular O–H···N and intermolecular N–H···N hydrogen bonds; 1D supramolecular chain",
+     "chi": "hydroxyl H and C=N nitrogen (intramolecular); N–H and N between adjacent 1a molecules",
+     "citazione": "An intramolecular hydrogen bond between the hydrogen atom of a hydroxyl group and the nitrogen atom of a C=N bond (N∙∙∙H distance, 1.892 Å) and one intermolecular hydrogen bond between two adjacent molecules (N–H∙∙∙N distance, 2.133 Å or 2.072 Å) supported the aforementioned organization of the 1a molecules (Supplementary Fig. 17)."
+    },
+    {
+     "motivo": "one-dimensional (1D) supramolecular chain",
+     "chi": "1a molecules",
+     "citazione": "Molecules of 1a interlinked to form a one-dimensional (1D) supramolecular chain (Supplementary Fig. 17)."
+    }
+   ],
+   "citazione": "Hydrated single crystals (microcrystals) and anhydrous single crystals of the compounds were obtained in the presence and absence, respectively, of water (H2O) or deuterium oxide (D2O).",
+   "conflitto": "Per 1a il testo dice «1D supramolecular chain» (single crystal, Supplementary Fig. 17) ma la dinamica molecolare «verified that a supramolecular ring was present via N–H···O and N–H···N hydrogen bonding in the single crystal of 1a»; l'anello e' detto altrove per 1c. Si tiene la catena (risultato cristallografico).",
+   "note": "Forma anidra di 1a (cristallo singolo e polvere policristallina, stesso diffrattogramma simulato)."
+  },
+  {
+   "composto": "C1",
+   "etichetta": "1a·H2O",
+   "etichette_alternative": [
+    "1a hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1
+   },
+   "citazione": "The stoichiometry of water molecules in the unit cell of hydrated single crystals was 1:1.",
+   "note": "Stechiometria 1:1 dichiarata per i cristalli singoli idrati; celle non riportate nel testo (Supplementary Tables 1–3): piu' grandi di quelle anidre per 1a e 1c, piu' piccole per 1b.",
+   "motivi_hb": [
+    {
+     "motivo": "water as tridentate H-bonding moiety linking three molecules into a 1D ladder-shaped superstructure",
+     "chi": "water ... 1a molecules",
+     "citazione": "Taking compound 1a as an example, a water molecule acted as a tridentate H-bonding moiety to link three surrounding molecules into a 1D ladder-shaped superstructure (Supplementary Fig. 17)."
+    }
+   ],
+   "id": "F2"
+  },
+  {
+   "composto": "C1",
+   "etichetta": "1a·D2O",
+   "etichette_alternative": [
+    "1a deuterium oxide hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "deuterium oxide (D2O)",
+    "stechiometria": 1
+   },
+   "citazione": "The stoichiometry of water molecules in the unit cell of hydrated single crystals was 1:1.",
+   "id": "F3"
+  },
+  {
+   "composto": "C2",
+   "etichetta": "1b",
+   "etichette_alternative": [
+    "anhydrous 1b",
+    "1b polycrystalline powder"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "dimer via two N–H···O hydrogen bonds, dimers forming a 1D supramolecular chain",
+     "chi": "1b molecules",
+     "citazione": "Two molecules of 1b interlinked to form a dimer via two N–H···O hydrogen bonds, with these dimers forming a 1D supramolecular chain (Fig. 2a)."
+    }
+   ],
+   "citazione": "Hydrated single crystals (microcrystals) and anhydrous single crystals of the compounds were obtained in the presence and absence, respectively, of water (H2O) or deuterium oxide (D2O).",
+   "id": "F4"
+  },
+  {
+   "composto": "C2",
+   "etichetta": "1b·H2O",
+   "etichette_alternative": [
+    "1b hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1
+   },
+   "citazione": "The stoichiometry of water molecules in the unit cell of hydrated single crystals was 1:1.",
+   "note": "Per 1b le celle degli idrati sono piu' piccole di quelle anidre («smaller than those of their anhydrous counterparts»).",
+   "id": "F5"
+  },
+  {
+   "composto": "C2",
+   "etichetta": "1b·D2O",
+   "etichette_alternative": [
+    "1b deuterium oxide hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "deuterium oxide (D2O)",
+    "stechiometria": 1
+   },
+   "citazione": "The stoichiometry of water molecules in the unit cell of hydrated single crystals was 1:1.",
+   "motivi_hb": [
+    {
+     "motivo": "N–H···O (–OCH3) hydrogen bonds between molecules in the hydrated structure",
+     "chi": "N–H and methoxy O between 1b molecules",
+     "citazione": "Combined with single-crystal data analysis, the disappearance of the stretching band at 1577 cm−1 was attributed to breakage of the N–H···O (–OH) hydrogen bond between organic molecules in the anhydrous structure (Fig. 3e), while the new stretching band at 1560 cm−1 suggested the formation of N–H···O (–OCH3) hydrogen bonds between molecules in the hydrated structure (Fig. 3c)."
+    },
+    {
+     "motivo": "N···D (D2O) hydrogen bond",
+     "chi": "benzimidazole N ... D2O",
+     "citazione": "Another new stretching band at 1025 cm−1 was attributed to the formation of a N···D (D2O) hydrogen bond (Fig. 3f)."
+    }
+   ],
+   "id": "F6"
+  },
+  {
+   "composto": "C3",
+   "etichetta": "1c",
+   "etichette_alternative": [
+    "anhydrous 1c",
+    "1c polycrystalline powder"
+   ],
+   "tipo": "anidro",
+   "ospite": null,
+   "motivi_hb": [
+    {
+     "motivo": "supramolecular ring of four molecules via N–H···O and N–H···N intermolecular hydrogen bonds",
+     "chi": "1c molecules",
+     "citazione": "Four molecules of 1c packed together to form a supramolecular ring via N–H···O and N–H···N intermolecular hydrogen bonds (Supplementary Fig. 20)."
+    }
+   ],
+   "citazione": "Hydrated single crystals (microcrystals) and anhydrous single crystals of the compounds were obtained in the presence and absence, respectively, of water (H2O) or deuterium oxide (D2O).",
+   "id": "F7"
+  },
+  {
+   "composto": "C3",
+   "etichetta": "1c·H2O",
+   "etichette_alternative": [
+    "1c hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1
+   },
+   "citazione": "The stoichiometry of water molecules in the unit cell of hydrated single crystals was 1:1.",
+   "id": "F8"
+  },
+  {
+   "composto": "C3",
+   "etichetta": "1c·D2O",
+   "etichette_alternative": [
+    "1c deuterium oxide hydrate"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "deuterium oxide (D2O)",
+    "stechiometria": 1
+   },
+   "citazione": "The stoichiometry of water molecules in the unit cell of hydrated single crystals was 1:1.",
+   "id": "F9"
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F4",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "D2O"
+     }
+    ],
+    "tempo": {
+     "valore": 24,
+     "unita": "h",
+     "tipo": "trasformazione",
+     "circa": true
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "IR"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N–H···O (–OH) hydrogen bond",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F4",
+     "citazione": "Combined with single-crystal data analysis, the disappearance of the stretching band at 1577 cm−1 was attributed to breakage of the N–H···O (–OH) hydrogen bond between organic molecules in the anhydrous structure (Fig. 3e), while the new stretching band at 1560 cm−1 suggested the formation of N–H···O (–OCH3) hydrogen bonds between molecules in the hydrated structure (Fig. 3c)."
+    },
+    {
+     "gruppo": "N–H···O (–OCH3) hydrogen bonds",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F6",
+     "citazione": "Combined with single-crystal data analysis, the disappearance of the stretching band at 1577 cm−1 was attributed to breakage of the N–H···O (–OH) hydrogen bond between organic molecules in the anhydrous structure (Fig. 3e), while the new stretching band at 1560 cm−1 suggested the formation of N–H···O (–OCH3) hydrogen bonds between molecules in the hydrated structure (Fig. 3c)."
+    },
+    {
+     "gruppo": "N···D (D2O) hydrogen bond",
+     "ruolo": "accettore",
+     "con": "ospite",
+     "cambia": "si_forma",
+     "forma": "F6",
+     "citazione": "Another new stretching band at 1025 cm−1 was attributed to the formation of a N···D (D2O) hydrogen bond (Fig. 3f)."
+    }
+   ],
+   "citazioni": [
+    "When the polycrystalline powder of anhydrous 1b was dipped in D2O, in situ XRD measurements showed new Bragg reflection peaks assigned to 1b·D2O (Fig. 3a).",
+    "For example, (002), (012), (122), and (131) lattice directions appeared when 1b polycrystalline powder was dipped in D2O for 1 h.",
+    "When the sample was dipped for almost 24 h, the XRD pattern matched well with that of the aforementioned 1b·D2O microcrystals, indicating successful in situ transformation from the anhydrous state to the hydrated state.",
+    "As 1b showed the fastest water-binding rate among the three molecules, 1b was used to explore the in situ formation of new hydrogen bonds with guest water molecules."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Nuovi picchi di Bragg gia' dopo 1 h in D2O; pattern uguale a quello dei microcristalli 1b·D2O dopo quasi 24 h. D2O usato per evitare lo stretching OH dell'acqua nell'IR in situ. 1b ha il legame all'acqua piu' rapido fra le tre molecole. Il testo scrive «N–H···O (–OH)» nel corpo e «–OD» nella didascalia di Fig. 3e; si tiene il corpo."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "sospensione",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "D2O"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "dihedral angle between R1 (benzimidazole ring) and R2 (phenyl ring)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "The dihedral angles between aromatic segments R1 and R2 in the 1a·H2O and 1a·D2O lattices were about 10.98° and 10.99°, respectively (Supplementary Fig. 18), indicating that molecule 1a in the 1a·H2O and 1a·D2O lattices was closer to planar compared with the anhydrous form."
+    }
+   ],
+   "citazioni": [
+    "Interestingly, new peaks for the (002) lattice direction occurred when anhydrous 1a and 1b polycrystalline powders were dipped in D2O."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Il testo dice solo che compaiono nuovi picchi (002) quando le polveri anidre di 1a e 1b sono immerse in D2O; la formazione dell'idrato di 1a e' dedotta da questo (e dal confronto con 1b), tempo non detto. L'angolo diedro R1–R2 passa da circa 18.56° (1a anidro) a circa 10.99° (1a·D2O)."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "reversibile": true,
+   "inverso_di": "E6",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "water molecule (tridentate H-bonding moiety)",
+     "ruolo": "coordina_ospite",
+     "con": "ospite",
+     "cambia": "si_forma",
+     "forma": "F2",
+     "citazione": "Taking compound 1a as an example, a water molecule acted as a tridentate H-bonding moiety to link three surrounding molecules into a 1D ladder-shaped superstructure (Supplementary Fig. 17)."
+    },
+    {
+     "gruppo": "nitrogen atom of the molecule",
+     "ruolo": "accettore",
+     "con": "ospite",
+     "cambia": "si_forma",
+     "forma": "F2",
+     "citazione": "Water acting as a hydrogen bond donor formed strong intermolecular hydrogen bonds (N∙∙∙H–O or N∙∙∙D–O) with the nitrogen atom of the molecule (Fig. 4a), inhibiting tautomer formation."
+    },
+    {
+     "gruppo": "dihedral angle between R1 (benzimidazole ring) and R2 (phenyl ring)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "The dihedral angles between aromatic segments R1 and R2 in the 1a·H2O and 1a·D2O lattices were about 10.98° and 10.99°, respectively (Supplementary Fig. 18), indicating that molecule 1a in the 1a·H2O and 1a·D2O lattices was closer to planar compared with the anhydrous form."
+    }
+   ],
+   "citazioni": [
+    "Water-induced in situ changes in molecular organisation and turn-on of molecular emission for polycrystalline powders of 1a, 1b, and 1c.",
+    "Intercalation of water molecules into crystal lattices was observed to alter the surroundings of these molecules, leading to structural rearrangement in the crystalline state.",
+    "Compounds 1a, 1b, and 1c in anhydrous polycrystalline and crystalline phases induced strong light emission through in situ assembly with water (Fig. 1).",
+    "The fluorescence quenching of the 1a·H2O film deposited on a PTFE membrane after heat treatment was turned on by adding water."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Idratazione della polvere anidra di 1a con acqua: modo, tempo e temperatura non sono detti. La frase finale (film di 1a·H2O dopo riscaldamento, fluorescenza riaccesa aggiungendo acqua) e' il ritorno di E6 rilevato solo dalla fluorescenza. L'angolo diedro R1–R2 va da circa 18.56° (anidro) a circa 10.98° (1a·H2O)."
+  },
+  {
+   "id": "E4",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "reversibile": true,
+   "inverso_di": "E7",
+   "citazioni": [
+    "Water-induced in situ changes in molecular organisation and turn-on of molecular emission for polycrystalline powders of 1a, 1b, and 1c.",
+    "Intercalation of water molecules into crystal lattices was observed to alter the surroundings of these molecules, leading to structural rearrangement in the crystalline state.",
+    "Compounds 1a, 1b, and 1c in anhydrous polycrystalline and crystalline phases induced strong light emission through in situ assembly with water (Fig. 1).",
+    "As 1b showed the fastest water-binding rate among the three molecules, 1b was used to explore the in situ formation of new hydrogen bonds with guest water molecules."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Idratazione della polvere anidra di 1b con acqua (frase valida per 1a, 1b e 1c, vedi E3 e E5); condizioni non dette."
+  },
+  {
+   "id": "E5",
+   "da": "F7",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "water"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "reversibile": true,
+   "inverso_di": "E8",
+   "citazioni": [
+    "Water-induced in situ changes in molecular organisation and turn-on of molecular emission for polycrystalline powders of 1a, 1b, and 1c.",
+    "Intercalation of water molecules into crystal lattices was observed to alter the surroundings of these molecules, leading to structural rearrangement in the crystalline state.",
+    "Compounds 1a, 1b, and 1c in anhydrous polycrystalline and crystalline phases induced strong light emission through in situ assembly with water (Fig. 1)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Idratazione della polvere anidra di 1c con acqua (frase valida per 1a, 1b e 1c); condizioni non dette."
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 25,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "PXRD",
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "altro",
+    "dimensione": "microcrystals"
+   },
+   "reversibile": true,
+   "inverso_di": "E3",
+   "citazioni": [
+    "Using 1a·H2O microcrystals as an example, the XRD pattern changed significantly after heat treatment, becoming similar to that of bulk 1a polycrystalline powder, indicating a rearrangement of molecules in the crystal lattice (Supplementary Fig. 37).",
+    "Furthermore, the surfaces of the hydrated microcrystals were covered with small dots after thermal treatment at 60 °C for 25 min, which might have been caused by water loss (Supplementary Figs. 21–23).",
+    "Upon thermal treatment, a 1a·H2O microcrystal film deposited on a polytetrafluoroethylene (PTFE) membrane (Supplementary Fig. 34) showed gradually decreasing fluorescence with prolonged heating.",
+    "The hydrated microcrystals were also found to be metastable structures."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Il diffrattogramma dei microcristalli 1a·H2O dopo «heat treatment» (condizioni non dette) diventa simile a quello della polvere di 1a; la perdita d'acqua e' solo ipotizzata («might have been caused by water loss») dai puntini in superficie dopo 60 °C per 25 min, e la fluorescenza di un film su PTFE cala col riscaldamento. Si assume che il trattamento sia lo stesso. I microcristalli idrati sono detti «metastable structures»."
+  },
+  {
+   "id": "E7",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "condizioni_ambigue": true,
+   "generalizzazione": true,
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "campione": {
+    "tipo": "altro",
+    "dimensione": "microcrystals"
+   },
+   "reversibile": true,
+   "inverso_di": "E4",
+   "citazioni": [
+    "Other microcrystals have shown similar fluorescence on-off switching behaviour.",
+    "Furthermore, reversible “on-off” fluorescence switching of the three organic compounds was achieved by hydration and dehydration of their polycrystalline samples."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "«Other microcrystals have shown similar fluorescence on-off switching behaviour»: commutazione di fluorescenza per idratazione/disidratazione, senza dati strutturali ne' condizioni per 1b·H2O. Qui la via 'riscaldamento' e' presa dal caso 1a·H2O (E6)."
+  },
+  {
+   "id": "E8",
+   "da": "F8",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "condizioni_ambigue": true,
+   "generalizzazione": true,
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "campione": {
+    "tipo": "altro",
+    "dimensione": "microcrystals"
+   },
+   "reversibile": true,
+   "inverso_di": "E5",
+   "citazioni": [
+    "Other microcrystals have shown similar fluorescence on-off switching behaviour.",
+    "Furthermore, reversible “on-off” fluorescence switching of the three organic compounds was achieved by hydration and dehydration of their polycrystalline samples."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Come E7 per 1c·H2O: commutazione on-off per idratazione e disidratazione, condizioni non dette."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F4",
+    "F7"
+   ],
+   "metodo": "altro",
+   "solventi": [
+    "ethanol"
+   ],
+   "esito": "ottenuta",
+   "tempo": {
+    "valore": 6,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "Target compounds 1a, 1b, and 1c were prepared in high yields by one-step aldimine condensations of commercially available materials",
+    "A mixture of 2-aminobenzimidazole (1.33 g, 10 mmol), salicylaldehyde (1.22 g, 10 mmol) and formic acid (0.1 mL) in ethanol (60 mL) was refluxed with vigorous stirring for 6 h. The precipitated compound was filtered and washed with ethanol (yield: 86 %)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Sintesi per condensazione di un'aldimmina in etanolo a riflusso (6 h, per 1a, 1b e 1c); il composto precipita, si filtra e si lava con etanolo. Il testo non dice esplicitamente che il precipitato sia la forma anidra."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2",
+    "F3",
+    "F4",
+    "F5",
+    "F6",
+    "F7",
+    "F8",
+    "F9"
+   ],
+   "metodo": "non_specificato",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Hydrated single crystals (microcrystals) and anhydrous single crystals of the compounds were obtained in the presence and absence, respectively, of water (H2O) or deuterium oxide (D2O)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli singoli anidri in assenza e idrati in presenza di H2O o D2O: il metodo di crescita non e' nel testo (Supplementary Information)."
+  },
+  {
+   "forme": [
+    "F2",
+    "F3",
+    "F5",
+    "F6",
+    "F8",
+    "F9"
+   ],
+   "metodo": "antisolvente",
+   "solventi": [
+    "ethanol",
+    "H2O",
+    "D2O"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "tempo": {
+    "valore": 6,
+    "unita": "h",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "In a typical procedure, a sample of 1a in ethanol (500 μL, 1 × 10−3 M) was injected drop-wise into deionized H2O or D2O (99.8 %, 3 mL). Well-defined 1a·H2O or 1a·D2O microcrystals were prepared by a facile self-assembly method. Samples were left to stand for 6 h to allow stabilization.",
+    "The crystallisation process was accelerated by adding H2O or D2O to molecular solutions in ethanol."
+   ],
+   "fonte_dati": "propria",
+   "note": "Microcristalli per autoassemblaggio: soluzione etanolica del composto iniettata goccia a goccia in H2O o D2O (H2O/D2O sono alternative, una prova per isotopo), lasciata 6 h. Tipicamente descritta per 1a."
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "esito": "ottenuta",
+   "citazioni": [
+    "When the sample was dipped for almost 24 h, the XRD pattern matched well with that of the aforementioned 1b·D2O microcrystals, indicating successful in situ transformation from the anhydrous state to the hydrated state."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E2",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Interestingly, new peaks for the (002) lattice direction occurred when anhydrous 1a and 1b polycrystalline powders were dipped in D2O."
+   ],
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 15.3,
+      "unita": "%",
+      "tipo": null
+     },
+     "forma": "F2",
+     "metodo": "resa quantica di fluorescenza (Φf) dei microcristalli",
+     "citazione": "The QY (Φf = 15.3%) of 1a·H2O microcrystals was about 55 times higher than that in ethanol solution (Φf = 0.28%)"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.28,
+      "unita": "%",
+      "tipo": null
+     },
+     "solvente": "ethanol",
+     "metodo": "resa quantica di fluorescenza (Φf) in soluzione",
+     "citazione": "The QY (Φf = 15.3%) of 1a·H2O microcrystals was about 55 times higher than that in ethanol solution (Φf = 0.28%)"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "tautomeria",
+     "testo": "active hydrogen atom in the benzimidazole ring shuttles between its two N atoms (tautomer formation), quenching fluorescence",
+     "citazione": "The active hydrogen atom in the benzimidazole ring was responsible for tautomer formation and shuttled between its two N atoms (Fig. 4a), resulting in fluorescence quenching."
+    },
+    {
+     "tipo": "legame_h_intramolecolare",
+     "forma": "F1",
+     "testo": "intramolecular hydrogen bond between the hydroxyl H and the N of the C=N bond (N···H 1.892 Å) in anhydrous 1a",
+     "citazione": "An intramolecular hydrogen bond between the hydrogen atom of a hydroxyl group and the nitrogen atom of a C=N bond (N∙∙∙H distance, 1.892 Å) and one intermolecular hydrogen bond between two adjacent molecules (N–H∙∙∙N distance, 2.133 Å or 2.072 Å) supported the aforementioned organization of the 1a molecules (Supplementary Fig. 17)."
+    },
+    {
+     "tipo": "flessibilita",
+     "forma": "F1",
+     "testo": "dihedral angle between R1 (benzimidazole ring) and R2 (phenyl ring) about 18.56° in the anhydrous single crystal; closer to planar in 1a·H2O/1a·D2O (10.98°, 10.99°)",
+     "citazione": "The molecular configuration of 1a single crystals showed a dihedral angle between R1 (benzimidazole ring) and R2 (phenyl ring) of about 18.56° (Supplementary Fig. 18)."
+    }
+   ]
+  },
+  {
+   "composto": "C4",
+   "descrizioni": [
+    {
+     "tipo": "tautomeria",
+     "testo": "no tautomer formation: the active hydrogen on the N of the benzimidazole is replaced by a methyl group",
+     "citazione": "Compound 1d strongly fluoresced in the solid state owing to the lack of tautomer formation after replacing the active hydrogen in the benzimidazole moiety."
+    }
+   ]
+  }
+ ]
+}
