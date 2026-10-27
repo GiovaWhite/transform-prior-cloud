@@ -1,0 +1,1278 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2052252525011601",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Clorpropamide (CPA), polimorfo delta sotto compressione idrostatica in DAC (cristallo singolo, SCXRD): delta -> fase incommensurabilmente modulata delta'inc -> fase commensurata delta''HP (b triplicato), con la pressione di trasformazione che dipende dal protocollo (tempo di permanenza in pressione, tipo di sorgente). Quattro serie: (1) laboratorio Gemini, dati troppo scadenti per dire se c'e' una transizione («too large to even conclude reliably whether a polymorphic transition occurred»: nessun evento); (2) BM01 ESRF; (3) ID27 ESRF (anche decompressione); (4) laboratorio Synergy-S (17 h per punto, 72 h a 2.37 GPa). Eventi 'citati' da altri lavori (tabelle 1 e 2 e introduzione): solo quelli con un numero o un refcode (ε per riscaldamento 398 K, β -> βII -> βIII in raffreddamento, ε -> ε', α -> α' a 2.9 GPa, delta Raman 2.4-3.3 GPa). Non sono eventi: l'analisi della deformazione (PasCal, WinStrain), le compressibilita' lungo gli assi, le curve a, b, c contro P, la statistica sul vettore di modulazione q contro P (Fig. 10) e le considerazioni sulla possibile stabilita' di delta'inc («the intermediate incommensurate phase could possibly be metastable or thermodynamically stable in a narrow pressure range»). CONFLITTI interni: (a) la pressione a cui a BM01 si osserva delta'inc: 2.03-2.59 GPa (risultati, 'phase transition ... in the pressure range 2.03 (5)-2.59 (5) GPa'; satelliti per la prima volta a 2.59 (5) GPa), ma piu' avanti «the data collected at BM01 allowed us to solve the structure at 2.37 (5) GPa only» e nelle conclusioni 2.03-2.37 GPa; si tiene 2.03-2.59 per BM01 e 2.37 per ID27; (b) la pressione di formazione di delta''HP a BM01: 3.51 (5) GPa (sezione sulla cinetica, discussione dei dati di cella) contro 3.70 (5) GPa (q = 0.33 raggiunto, struttura modello, sezione strain); si tiene 3.51; (c) i datablock del CIF riportano 2.02, 0.26, 2.59 e 3.6 GPa, il testo 2.03 (5), 2.59 (5) e 3.70 (5) GPa. I CCDC 2523428-2523431 sono attribuiti ai 4 datablock (global escluso) per ordine con ccdc_dedotto: 2523428 = deltaCPA2.59GPa (delta'inc), 2523429 = deltaCPA2.02GPa (delta), 2523430 = deltaCPA0.26GPa (delta), 2523431 = deltaCPA3.6GPa (delta''HP). Le pressioni di queste strutture non hanno un campo in strutture[] e sono scritte nelle note delle forme.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "1-(4-chlorophenyl)sulfonyl-3-propylurea (chlorpropamide, CPA)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "δ-CPA",
+   "etichette_alternative": [
+    "δ polymorph",
+    "initial δ-CPA phase",
+    "normal δ-CPA"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "Pbca",
+   "sistema_cristallino": "ortorombico",
+   "cella": {
+    "a": 9.3198,
+    "b": 10.3218,
+    "c": 26.266,
+    "beta": 90,
+    "V": 2526.74,
+    "Z": 8,
+    "Z_primo": 1,
+    "condizioni": "condizioni ambiente (Tabella 1, riferimento (d))"
+   },
+   "refcode": "BEGMIG03",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "refcode": "BEGMIG03",
+     "fonte": "non_detta",
+     "citazione": "REFCODE | BEGMIG | BEGMIG01 | BEGMIG02 | BEGMIG03 | BEGMIG04 | BEGMIG20 | BEGMIG21"
+    },
+    {
+     "ccdc": "2523429",
+     "fonte": "SCXRD",
+     "citazione": "Crystal structure: contains datablock(s) global, deltaCPA2.59GPa, deltaCPA2.02GPa, deltaCPA0.26GPa, deltaCPA3.6GPa."
+    },
+    {
+     "ccdc": "2523430",
+     "fonte": "SCXRD",
+     "citazione": "Crystal structure: contains datablock(s) global, deltaCPA2.59GPa, deltaCPA2.02GPa, deltaCPA0.26GPa, deltaCPA3.6GPa."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "N2–H2···O2 and N1–H1···O3 hydrogen bonds along the a axis",
+     "chi": "urea N–H donors and O acceptors",
+     "citazione": "This is the direction along which the N2—H2⋯O2 and N1—H1⋯O3 hydrogen bonds are formed in the structure (Figure S2)."
+    },
+    {
+     "motivo": "Z motif (orientation of neighboring hydrogen-bonded chains)",
+     "chi": "hydrogen-bonded chains",
+     "citazione": "Motif type | Z | π | Z | Z | Z | H | Z"
+    }
+   ],
+   "citazione": "The densest polymorph, δ-CPA, was probed by single-crystal X-ray diffraction at both laboratory and synchrotron facilities.",
+   "note": "Cella e refcode dalla Tabella 1 (colonna δ-CPA, riferimento (d), lavoro citato, condizioni ambiente). Strutture CIF di questo articolo: deltaCPA2.02GPa (CCDC 2523429) e deltaCPA0.26GPa (CCDC 2523430): CCDC attribuiti per ordine dei datablock (ccdc_dedotto). Il testo scrive 2.03 (5) GPa per il modello non modulato (vedi nota dell'articolo). Il polimorfo piu' denso fra i CPA, impaccamento simile a α ma con numero di molecole doppio nella cella. Orientazione molecolare di tipo I."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "δ′inc-CPA",
+   "etichette_alternative": [
+    "incommensurately modulated phase"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "Pbca",
+   "gruppo_spaziale_scritto": "Pbca(0β0)s00",
+   "sistema_cristallino": null,
+   "cella": {
+    "vettore_modulazione": "q = 0.278 (1)b*",
+    "condizioni": "2.59 (5) GPa (BM01)"
+   },
+   "ccdc": "2523428",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2523428",
+     "fonte": "SCXRD",
+     "citazione": "Crystal structure: contains datablock(s) global, deltaCPA2.59GPa, deltaCPA2.02GPa, deltaCPA0.26GPa, deltaCPA3.6GPa."
+    }
+   ],
+   "citazione": "The incommensurately modulated δ′inc-CPA structure at P = 2.59 (5) GPa with modulation vector q = 0.278 (1)b* was refined with Jana2020 (Petříček et al., 2023 ▸) in the space group Pbca(0β0)s00 using the non-modulated structure at P = 2.03 (5) GPa as an initial model.",
+   "note": "Gruppo di superspazio Pbca(0β0)s00; il gruppo ordinario e' Pbca (il testo non lo scrive per questa fase, e' quello di δ e di δ''HP). Struttura risolta a 2.59 (5) GPa (BM01) con modulazione posizionale armonica fino al secondo ordine per S1, O1-O3, N1, N2, C7, C8 e funzioni crenel per il frammento 4-clorobenzene (larghezze 0.56 e 0.44) e per il propile (0.45 e 0.55). q = 0.28 (1)b* al primo punto con satelliti a BM01 e 0.29 (1)b* a 2.37 (5) GPa a ID27. CCDC 2523428 attribuito per ordine al datablock deltaCPA2.59GPa (ccdc_dedotto). Satelliti lungo b fino al terzo ordine (Figura S1). Il vettore q cresce in modo monotono con la pressione fino a 0.33 (1)b*."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "δ′′HP-CPA",
+   "etichette_alternative": [
+    "commensurately modulated phase",
+    "δ′′HP",
+    "high-pressure commensurately modulated phase"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "Pbca",
+   "sistema_cristallino": null,
+   "cella": {
+    "Z_primo": 3,
+    "V_per_Z": 253.8,
+    "condizioni": "b triplicato rispetto a δ; struttura a 3.70 (5) GPa (BM01)"
+   },
+   "ccdc": "2523431",
+   "ccdc_dedotto": true,
+   "strutture": [
+    {
+     "ccdc": "2523431",
+     "fonte": "SCXRD",
+     "citazione": "Crystal structure: contains datablock(s) global, deltaCPA2.59GPa, deltaCPA2.02GPa, deltaCPA0.26GPa, deltaCPA3.6GPa."
+    }
+   ],
+   "citazione": "The crystal structure of the δ′′HP-CPA phase can be described in terms of a superstructure with a tripled b parameter relative to the initial phase (Fig. 4 ▸), using the original space-group symmetry Pbca. The V/Z ratio for the δ′′HP-CPA phase is 253.8 Å3, which is much smaller than for the polymorphs that have been described earlier (Tables 1 ▸ and 2 ▸).",
+   "note": "Superstruttura periodica con tre molecole simmetricamente indipendenti («with three symmetry-independent CPA molecules and with a tripled b parameter»), conformazione di tipo I per tutte e tre; q = 0.33 (1)b* («remains unchanged thereafter»). Non si puo' temprare: ritorna a δ in decompressione. Le tre molecole hanno torsioni N2–C8–C9–C10 di −45.14 (2)°, −58.83 (2)° e −63.64 (2)° a 3.70 (5) GPa contro −50.90 (8)° di δ a pressione ambiente. CCDC 2523431 attribuito per ordine al datablock deltaCPA3.6GPa (ccdc_dedotto); il testo parla di 3.70 (5) GPa per il modello."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "α-CPA",
+   "etichette_alternative": [
+    "α polymorph",
+    "α-chlorpropamide"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 5.23,
+    "b": 9.088,
+    "c": 26.673,
+    "V": 1258.54,
+    "Z": 4,
+    "Z_primo": 1,
+    "condizioni": "condizioni ambiente (Tabella 1, riferimento (a))"
+   },
+   "refcode": "BEGMIG",
+   "motivi_hb": [
+    {
+     "motivo": "Z motif (orientation of neighboring hydrogen-bonded chains)",
+     "chi": "hydrogen-bonded chains",
+     "citazione": "Motif type | Z | π | Z | Z | Z | H | Z"
+    }
+   ],
+   "citazione": "The thermodynamically stable (Drebushchak, Drebushchak, Chukanov & Boldyreva, 2008 ▸) α-polymorph is the commercially available form",
+   "note": "Forma commerciale, 'thermodynamically stable' (rif. citato). Orientazione molecolare di tipo I. Cella e refcode dalla Tabella 1 (colonna α-CPA)."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "β-CPA",
+   "etichette_alternative": [
+    "β polymorph"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "Pbcn",
+   "cella": {
+    "a": 14.777,
+    "b": 9.316,
+    "c": 19.224,
+    "V": 2646.4,
+    "Z": 8,
+    "Z_primo": 1,
+    "condizioni": "condizioni ambiente (Tabella 1, riferimento (b))"
+   },
+   "refcode": "BEGMIG01",
+   "motivi_hb": [
+    {
+     "motivo": "π motif (orientation of neighboring hydrogen-bonded chains)",
+     "chi": "hydrogen-bonded chains",
+     "citazione": "Motif type | Z | π | Z | Z | Z | H | Z"
+    }
+   ],
+   "citazione": "In the β polymorph the phase transition was related to commensurate structural modulation, and the number of molecules in the asymmetric unit changed from 1 at room temperature to 2 at ∼257 K and then to 4 at 125 K",
+   "note": "Il meno denso e stabile degli altri secondo il testo («the least dense and stable β form with a unique molecular π packing»); orientazione di tipo II. Cella e refcode dalla Tabella 1 (colonna β-CPA)."
+  },
+  {
+   "id": "F6",
+   "composto": "C1",
+   "etichetta": "ɛ-CPA",
+   "etichette_alternative": [
+    "ε-CPA",
+    "ɛ polymorph"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "Pna21",
+   "cella": {
+    "a": 19.912,
+    "b": 7.3459,
+    "c": 9.1384,
+    "V": 1336.69,
+    "Z": 4,
+    "Z_primo": 1,
+    "condizioni": "condizioni ambiente (Tabella 1, riferimento (d))"
+   },
+   "refcode": "BEGMIG04",
+   "motivi_hb": [
+    {
+     "motivo": "Z motif (orientation of neighboring hydrogen-bonded chains)",
+     "chi": "hydrogen-bonded chains",
+     "citazione": "Motif type | Z | π | Z | Z | Z | H | Z"
+    }
+   ],
+   "citazione": "by heating nearly to the melting point (ɛ-CPA, T = 398 K)",
+   "note": "Orientazione molecolare di tipo II. Cella e refcode dalla Tabella 1 (colonna ɛ-CPA). Nel testo il simbolo e' «ɛ» (epsilon latino)."
+  },
+  {
+   "id": "F7",
+   "composto": "C1",
+   "etichetta": "α′-CPA",
+   "etichette_alternative": [
+    "high-pressure polymorph formed on compression of α-CPA"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P2111",
+   "gruppo_spaziale_scritto": "P2111",
+   "cella": {
+    "a": 25.602,
+    "b": 4.634,
+    "c": 8.8525,
+    "alpha": 99.109,
+    "V": 1037.01,
+    "Z": 4,
+    "Z_primo": 2,
+    "condizioni": "2.9 GPa (Tabella 2, riferimento (a))"
+   },
+   "refcode": "BEGMIG17",
+   "motivi_hb": [
+    {
+     "motivo": "Z motif (orientation of neighboring hydrogen-bonded chains)",
+     "chi": "hydrogen-bonded chains",
+     "citazione": "Motif type | Z | π | π | Z"
+    }
+   ],
+   "citazione": "α′-CPA (2.9 GPa)",
+   "note": "Il simbolo del gruppo 'P2111' e' come letto dalla Tabella 2 (probabile P21 1 1). Due molecole indipendenti in conformazioni diverse; l'aumento di molecole indipendenti non ha raddoppiato un parametro di cella. Orientazione di tipo I."
+  },
+  {
+   "id": "F8",
+   "composto": "C1",
+   "etichetta": "βII-CPA",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P2/c",
+   "cella": {
+    "a": 14.5882,
+    "b": 9.2584,
+    "c": 9.1532,
+    "beta": 93.26,
+    "V": 2582.71,
+    "Z": 8,
+    "Z_primo": 2,
+    "condizioni": "200 K (Tabella 2, riferimento (b))"
+   },
+   "refcode": "BEGMIG11",
+   "motivi_hb": [
+    {
+     "motivo": "π motif (orientation of neighboring hydrogen-bonded chains)",
+     "chi": "hydrogen-bonded chains",
+     "citazione": "Motif type | Z | π | π | Z"
+    }
+   ],
+   "citazione": "βII-CPA (200 K)",
+   "note": "Fase di bassa temperatura di β (due molecole indipendenti a ~257 K secondo il testo). Orientazione di tipo II. Cella e refcode dalla Tabella 2."
+  },
+  {
+   "id": "F9",
+   "composto": "C1",
+   "etichetta": "βIII-CPA",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P2/n",
+   "cella": {
+    "a": 28.4475,
+    "b": 9.2322,
+    "c": 19.2298,
+    "beta": 95.562,
+    "V": 5026.6,
+    "Z": 16,
+    "Z_primo": 4,
+    "condizioni": "100 K (Tabella 2, riferimento (b))"
+   },
+   "refcode": "BEGMIG12",
+   "motivi_hb": [
+    {
+     "motivo": "π motif (orientation of neighboring hydrogen-bonded chains)",
+     "chi": "hydrogen-bonded chains",
+     "citazione": "Motif type | Z | π | π | Z"
+    }
+   ],
+   "citazione": "βIII-CPA (100 K)",
+   "note": "Fase di bassa temperatura di β con quattro molecole indipendenti (3 in orientazione II e 1 in I). Cella e refcode dalla Tabella 2. Il testo dice «4 at 125 K» per la comparsa di quattro molecole indipendenti e 100 K per la struttura."
+  },
+  {
+   "id": "F10",
+   "composto": "C1",
+   "etichetta": "ɛ′-CPA",
+   "etichette_alternative": [
+    "ε′-CPA"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "Pna21",
+   "cella": {
+    "a": 26.455,
+    "b": 5.1924,
+    "c": 9.1219,
+    "V": 1253.0,
+    "Z": 4,
+    "Z_primo": 1,
+    "condizioni": "200 K (Tabella 2, riferimento (c))"
+   },
+   "refcode": "BEGMIG05",
+   "motivi_hb": [
+    {
+     "motivo": "Z motif (orientation of neighboring hydrogen-bonded chains)",
+     "chi": "hydrogen-bonded chains",
+     "citazione": "Motif type | Z | π | π | Z"
+    }
+   ],
+   "citazione": "ɛ′-CPA (200 K)",
+   "note": "Fase di bassa temperatura di ɛ; orientazione molecolare di tipo I (ɛ e' di tipo II). Cella e refcode dalla Tabella 2."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F4",
+    "F1"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F4",
+   "piu_stabile_fra": [
+    "F5",
+    "F1",
+    "F6"
+   ],
+   "stabile_a_temperatura_ambiente": "F4",
+   "condizioni": "a temperatura e pressione ambiente",
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "Drebushchak, Drebushchak, Chukanov & Boldyreva, 2008",
+   "citazione": "The β, γ, δ, ɛ, ζ and η polymorphs are metastable at room temperature and pressure, but once obtained can be preserved.",
+   "note": "α e' «the thermodynamically stable» (rif. citato); β, δ ed ε sono metastabili a T e P ambiente. Nella frase su δ: «molecular packing in the densest CPA polymorph, namely δ-CPA, is similar to that in the thermodynamically more stable α-CPA»."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 2.03,
+     "max": 2.59,
+     "unita": "GPa",
+     "tipo": "forchetta"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "tempo": {
+     "valore": 1.5,
+     "unita": "h",
+     "circa": true,
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "cinetica": "satelliti lungo b fino al terzo ordine; q = 0.28 (1)b* al primo punto con satelliti; i parametri a e c cambiano bruscamente a 2.59 (5) GPa mentre il volume di cella varia con continuita'"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "50 × 50 × 15 µm"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "4-chlorobenzene molecular fragment",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "The positional modulation of the 4-chlorobenzene molecular fragment could be decomposed into two components: (1) discontinuous rotation around the [011] direction by ∼10°, corresponding to the interchange between the ‘a’ and ‘b’ orientations of the fragment (Figure S3), and (2) continuous rotation around the S1–Cl1a(Cl1b) axis by ∼20° for the ‘a’ fragment and ∼30° for the ‘b’ fragment (Fig. 7 ▸)."
+    },
+    {
+     "gruppo": "terminal propyl fragment",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "The discontinuous modulation of the terminal propyl fragment is described by switching between ‘a’ and ‘b’ orientations so that the angle between the normal to the C8–C9a(C9b)–C10a(C10b) plane and the S1–N1 direction changes from ∼10° to ∼70°, respectively."
+    }
+   ],
+   "citazioni": [
+    "The experiments revealed a phase transition to an incommensurately modulated phase in the pressure range 2.03 (5)–2.59 (5) GPa (denoted as the δ′inc-CPA phase).",
+    "At the first pressure point where satellite reflections were observed [2.59 (5) GPa] the modulation vector q = 0.28 (1)b*.",
+    "The parameters a and c underwent an abrupt change at 2.59 (5) GPa, simultaneously with the first observation of satellite reflections during the phase transition.",
+    "The time separating the measurements at selected pressure points in this series of experiments was about 1.5 h.",
+    "The 50 × 50 × 15 µm sample was loaded in an Almax-Boehler DAC with opening angles of 2θ = 80°."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Serie BM01 (ESRF), mezzo di pressione pentano–isopentano 1:1 come nella serie 1 («the gasket material and pressure-transmitting medium were the same as described above for the first series of experiments»). Forchetta = ultimo punto senza satelliti (2.03 (5) GPa, modello non modulato) e primo con satelliti (2.59 (5) GPa). Il tempo fra due punti di misura (circa 1.5 h) e' un dato che l'articolo usa per spiegare la differenza fra i protocolli. Transizione di tipo 'lock-in' secondo l'articolo (formazione brusca della struttura incommensurata, poi q evolve monotonicamente). Vedi la nota dell'articolo per il conflitto 2.37 / 2.59 GPa.",
+   "conflitto": "Pressione di comparsa di δ'inc a BM01: 'in the pressure range 2.03 (5)-2.59 (5) GPa' e primi satelliti a 2.59 (5) GPa nei risultati; piu' avanti «the data collected at BM01 allowed us to solve the structure at 2.37 (5) GPa only»; nelle conclusioni 'within the pressure range of 2.03 (5) to 2.37 (5) GPa'. Si tiene l'intervallo dei risultati."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 3.51,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "tempo": {
+     "valore": 1.5,
+     "unita": "h",
+     "circa": true,
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "cinetica": "q cresce in modo monotono da 0.28 (1)b* fino a 0.33 (1)b* e poi resta invariato; sopra 3.51 (5) GPa b e' descritto da un modello periodico con b triplicato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "50 × 50 × 15 µm"
+   },
+   "da_evento": "E1",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "terminal propyl molecular fragments",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "The commensurate modulation of the high-pressure δ′′HP phase is related to the variation in the positions of the terminal propyl molecular fragments, as well as to the rotation of the aromatic rings with respect to the N–C–N axis (Figs. 4 ▸ and 11)."
+    },
+    {
+     "gruppo": "aromatic rings",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "The commensurate modulation of the high-pressure δ′′HP phase is related to the variation in the positions of the terminal propyl molecular fragments, as well as to the rotation of the aromatic rings with respect to the N–C–N axis (Figs. 4 ▸ and 11)."
+    },
+    {
+     "gruppo": "N2–H2···O2 and N1–H1···O3 hydrogen bonds",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "This is the direction along which the N2—H2⋯O2 and N1—H1⋯O3 hydrogen bonds are formed in the structure (Figure S2)."
+    },
+    {
+     "gruppo": "crystal-structure-forming motif",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "This phase can be described in terms of a superstructure; the space group and crystal-structure-forming motif are similar to the original structure."
+    }
+   ],
+   "citazioni": [
+    "As pressure increased further, the value of the modulation vector increased monotonically, reaching q = 0.33 (1)b* at 3.70 (5) GPa, which corresponds to the formation of a commensurately modulated superstructure – denoted here as the δ′′HP-CPA phase.",
+    "The changes along the b axis were continuous up to 3.51 (5) GPa, above which the crystal structure could be described using a periodic model with a tripled b parameter.",
+    "This fact may also explain why the formation of the commensurately modulated high-pressure phase (δ′′HP) was observed at different pressures during synchrotron experiments at BM01 and ID27: 3.51 (5) GPa at BM01 and 4.9 (1) GPa at ID27.",
+    "The time separating the measurements at selected pressure points in this series of experiments was about 1.5 h."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il fatto che il motivo costitutivo resti e' dichiarato nelle conclusioni per δ''HP rispetto alla struttura originale. La lunghezza dell'asse b ha un minimo a 3.51 (5) GPa e poi cresce (ordine dei frammenti flessibili e loro spostamento). Sopra 4.04 (5) GPa il cristallo si degrada (E11).",
+   "conflitto": "Pressione di formazione di δ''HP a BM01: 3.51 (5) GPa (primo punto con modello periodico a b triplicato, e confronto fra sorgenti) contro 3.70 (5) GPa (q = 0.33 (1)b* raggiunto, struttura modello, sezione sullo strain). Si tiene 3.51 (5) GPa, il valore usato dall'articolo per confrontare le sorgenti."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 2.37,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "tempo": {
+     "valore": null,
+     "max": 1,
+     "unita": "h",
+     "tipo": "attesa",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "cinetica": "q = 0.29 (1)b* alla comparsa dei satelliti"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "50 × 50 × 15 µm"
+   },
+   "citazioni": [
+    "At 2.37 (5) GPa, satellite reflections along the b axis were observed, confirming the formation of the intermediate incommensurately modulated phase previously discovered at BM01. The modulation vector q = 0.29 (1)b* was also in agreement with previous results.",
+    "Owing to the use of significantly shorter wavelength radiation in combination with membrane-driven high-pressure cells, the time between pressure points was reduced to less than an hour.",
+    "The 50 × 50 × 15 µm sample was loaded in a membrane-driven DAC equipped with Almax-Boehler type anvils with opening angles 2θ = 64°."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Serie ID27 (ESRF, undulatore, 33 keV), cella a membrana; stesso mezzo di pressione delle serie precedenti. Tempo fra i punti di pressione inferiore a un'ora."
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 4.9,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "tempo": {
+     "valore": null,
+     "max": 1,
+     "unita": "h",
+     "tipo": "attesa",
+     "limite": "sotto"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "cinetica": "q cresce in modo monotono fino a 0.33 (1)b*"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "50 × 50 × 15 µm"
+   },
+   "da_evento": "E3",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N2–H2···O2 and N1–H1···O3 hydrogen bonds",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Within the pressure range of the existence of the incommensurately modulated phase [2.37 (5) to 4.9 (1) GPa] the compressibility along a was minimal, suggesting that the stability of the crystal structure is supported by N2—H2⋯O2 and N1—H1⋯O3 hydrogen bonds."
+    }
+   ],
+   "citazioni": [
+    "However, the δ′′HP phase formation was observed at 4.9 (1) GPa, which is significantly higher than in the BM01 experiment.",
+    "With increasing pressure, the modulation vector increased monotonically to q = 0.33 (1)b*, corresponding to the formation of a high-pressure commensurately modulated phase, which could be described in terms of a superstructure with a tripled b parameter, confirming the results obtained in the second series of experiments.",
+    "Owing to the use of significantly shorter wavelength radiation in combination with membrane-driven high-pressure cells, the time between pressure points was reduced to less than an hour."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Stesso campione e stessa serie di E3. Pressione di formazione piu' alta di BM01 (3.51 (5) GPa): per l'articolo e' un effetto cinetico del protocollo (a ID27 dopo lo stesso tempo il campione e' gia' a pressione piu' alta). Intervallo di esistenza di δ'inc a ID27: da 2.37 (5) a 4.9 (1) GPa."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 2.2,
+     "max": 2.84,
+     "unita": "GPa",
+     "tipo": "forchetta"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "50 × 50 × 15 µm"
+   },
+   "citazioni": [
+    "When releasing pressure in the DAC, the high-pressure commensurately modulated phase (δ′′HP) remained stable at pressures above 2.84 (5) GPa, while on reducing the pressure further to 2.20 (5) GPa, the initial δ-CPA phase reappeared. No satellite reflections corresponding to the incommensurately modulated structure were detected.",
+    "On decompression, the δ′′HP commensurately modulated phase transformed directly to δ-CPA, without the formation of the incommensurately modulated intermediate phase."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "esito_dettaglio": null,
+   "note": "Decompressione a ID27. Isteresi: la fase commensurata sparisce fra 2.84 (5) e 2.20 (5) GPa in decompressione, mentre si forma a 4.9 (1) GPa in compressione nella stessa serie. «The commensurate supercell structure transforms directly into the original ‘normal’ structure abruptly at a pressure below Pc». A BM01 la decompressione non e' stata fatta."
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 2.84,
+     "unita": "GPa",
+     "limite": "sopra"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "50 × 50 × 15 µm"
+   },
+   "citazioni": [
+    "When releasing pressure in the DAC, the high-pressure commensurately modulated phase (δ′′HP) remained stable at pressures above 2.84 (5) GPa, while on reducing the pressure further to 2.20 (5) GPa, the initial δ-CPA phase reappeared."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo sopra la soglia di E5: in decompressione δ''HP resta stabile finche' la pressione e' sopra 2.84 (5) GPa."
+  },
+  {
+   "id": "E7",
+   "da": "F3",
+   "a": "F2",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "senza_intermedio",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "50 × 50 × 15 µm"
+   },
+   "citazioni": [
+    "On decompression, there is no evidence of incommensurately modulated phases. The commensurate supercell structure transforms directly into the original ‘normal’ structure abruptly at a pressure below Pc (Fig. 10 ▸).",
+    "No satellite reflections corresponding to the incommensurately modulated structure were detected."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "In decompressione non compare la fase incommensurata intermedia (a differenza della compressione ID27: E3, E4)."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "esito_dettaglio": "senza_intermedio",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 3.4,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "tempo": {
+     "valore": 72,
+     "unita": "h",
+     "circa": true,
+     "tipo": "attesa"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "cinetica": "~17 h di raccolta dati per punto; a 2.37 (5) GPa compaiono massimi aggiuntivi non descritti dal modello di bassa pressione"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "150 × 50 × 20 µm"
+   },
+   "pretrattamento": "campione tenuto per circa 72 h a 2.37 (5) GPa",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "terminal propyl molecular fragments",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "The commensurate modulation of the high-pressure δ′′HP phase is related to the variation in the positions of the terminal propyl molecular fragments, as well as to the rotation of the aromatic rings with respect to the N–C–N axis (Figs. 4 ▸ and 11)."
+    },
+    {
+     "gruppo": "aromatic rings",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "The commensurate modulation of the high-pressure δ′′HP phase is related to the variation in the positions of the terminal propyl molecular fragments, as well as to the rotation of the aromatic rings with respect to the N–C–N axis (Figs. 4 ▸ and 11)."
+    }
+   ],
+   "citazioni": [
+    "In the first measurement, the initial pressure in the DAC was set to 2.37 (5) GPa – the point of the phase transition as found in previous experiments.",
+    "At this pressure the cell was kept for roughly 72 h.",
+    "After increasing the pressure to 3.4 (1) GPa the δ′′HP commensurately modulated phase was observed with the modulation vector q = 0.33 (1)b*. No intermediate incommensurately modulated structure could be detected",
+    "Investigations were performed using the same DACs and sample environments as in the first series of the laboratory experiments, using 150 × 50 × 20 µm crystals."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Serie 4 (Synergy-S, laboratorio), prima misura. δ''HP compare a 3.4 (1) GPa, molto prima che nelle serie sincrotrone ad alta velocita' (3.51 e 4.9 GPa): «the structure had more time for the rearrangement into the final δ′′HP phase, so this kinetically controlled transition could be observed at a lower pressure and without ‘freezing’ the intermediate incommensurately modulated states». Non si vede la fase incommensurata; il testo non esclude che si formi e si trasformi troppo in fretta per essere vista («it transforms into the commensurate phase more rapidly than it can be detected»). 3.4 GPa e' il punto in cui si e' osservata la fase, a 2.37 (5) GPa dopo 72 h c'erano gia' massimi aggiuntivi."
+  },
+  {
+   "id": "E9",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "esito_dettaglio": "senza_intermedio",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 1.94,
+     "max": 2.6,
+     "unita": "GPa",
+     "tipo": "forchetta"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "cinetica": "~17 h di raccolta dati per punto"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "150 × 50 × 20 µm"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "terminal propyl molecular fragments",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "The commensurate modulation of the high-pressure δ′′HP phase is related to the variation in the positions of the terminal propyl molecular fragments, as well as to the rotation of the aromatic rings with respect to the N–C–N axis (Figs. 4 ▸ and 11)."
+    },
+    {
+     "gruppo": "aromatic rings",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "The commensurate modulation of the high-pressure δ′′HP phase is related to the variation in the positions of the terminal propyl molecular fragments, as well as to the rotation of the aromatic rings with respect to the N–C–N axis (Figs. 4 ▸ and 11)."
+    }
+   ],
+   "citazioni": [
+    "The initial pressure value was set as 1.94 (5) – insufficient for a phase transition. Only reflections expected from the ‘normal’ δ-CPA model were detected during the pre-experiment.",
+    "The next pressure point was 2.60 (5) GPa, in the pressure range in which the incommensurately modulated phase δ′inc-CPA was observed in synchrotron experiments. However, only the reflections corresponding to the commensurately modulated δ′′HP phase with tripled b parameter and q = 0.33 (1)b* were observed.",
+    "Thus, the commensurately modulated high-pressure phase formation was detected at a much lower pressure than was observed when using synchrotron sources."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Serie 4 (Synergy-S, laboratorio), seconda misura, partita da 1.94 (5) GPa: la fase δ''HP compare gia' al punto successivo, 2.60 (5) GPa, dentro l'intervallo in cui al sincrotrone si vedeva δ'inc, senza la fase incommensurata. L'unita' del primo valore (1.94 (5)) manca nella frase: e' dedotta dal contesto (GPa). Forchetta fra i due punti di misura."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 1.94,
+     "unita": "GPa",
+     "tipo": "misura"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "150 × 50 × 20 µm"
+   },
+   "citazioni": [
+    "The initial pressure value was set as 1.94 (5) – insufficient for a phase transition. Only reflections expected from the ‘normal’ δ-CPA model were detected during the pre-experiment."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Negativo della seconda misura di laboratorio (serie 4): a 1.94 (5) GPa si vedono solo riflessi del modello 'normale' di δ. L'unita' GPa e' dedotta dal contesto (la frase successiva dice «2.60 (5) GPa»)."
+  },
+  {
+   "id": "E11",
+   "da": "F3",
+   "a": "ignota",
+   "da_dedotto": true,
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 4.04,
+     "unita": "GPa",
+     "limite": "sopra"
+    },
+    "mezzo_pressione": "1:1 mixture of pentane and isopentane",
+    "idrostatica": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "integrita": "degradato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "50 × 50 × 15 µm"
+   },
+   "citazioni": [
+    "At pressures above 4.04 (5) GPa partial destruction of the initial sample was observed, accompanied by the almost complete disappearance of the Bragg diffraction maxima (corresponding to a single crystal), making single-crystal data analysis no longer feasible."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Serie BM01. Distruzione parziale del campione e sparizione quasi completa dei massimi di Bragg: il prodotto non e' identificato (a: ignota). La fase di partenza e' δ''HP per sequenza (formata a 3.51 (5) GPa): da_dedotto."
+  },
+  {
+   "id": "E12",
+   "da": "F1",
+   "a": "ignota",
+   "da_dedotto": true,
+   "esito": "avvenuta",
+   "via": "luce",
+   "sottovia": "raggi_X",
+   "condizioni": {
+    "luce": {
+     "lunghezza_onda": {
+      "valore": 0.3738,
+      "unita": "Å"
+     },
+     "sorgente": "undulator (ID27, ESRF), focusing size 15 µm"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "integrita": "degradato"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "50 × 50 × 15 µm"
+   },
+   "citazioni": [
+    "However, the use of the high-brilliance beam combined with the focusing size of 15 µm led to radiation damage (Figure S5), therefore attenuators were used and the beam size was increased threefold.",
+    "This degradation of the CPA crystals under high-intensity irradiation negated the advantages of utilizing a specialized beamline, forcing us to operate the equipment in a highly inefficient mode.",
+    "An undulator was used as the X-ray source with λ = 0.3738 Å (33 keV)."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Danno da radiazione durante la misura a ID27 (Figura S5, supplementare). Il testo non dice a quale pressione ne' in quale fase: la fase di partenza e' δ (il cristallo caricato) per deduzione. Gli attenuatori e la dimensione del fascio triplicata hanno ridotto il problema. Natura chimica/strutturale non precisata (degradazione del cristallo)."
+  },
+  {
+   "id": "E13",
+   "da": "ignota",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 398,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": []
+   },
+   "citazioni": [
+    "by heating nearly to the melting point (ɛ-CPA, T = 398 K)"
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "citata",
+   "riferimento": "Drebushchak, Chukanov & Boldyreva, 2008; Drebushchak, Drebushchak, Chukanov & Boldyreva, 2008",
+   "natura": "fisica",
+   "note": "Evento di un lavoro citato (introduzione). Il testo non dice da quale forma si parta (la frase elenca vie di ottenimento 'from α-CPA' per β, γ e δ, poi il riscaldamento per ɛ) e non chiarisce se T = 398 K sia la temperatura di formazione o del punto di fusione."
+  },
+  {
+   "id": "E14",
+   "da": "F5",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 257,
+     "unita": "K",
+     "circa": true,
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "meccanismo": [
+     "SCSC"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "On cooling, reversible solid-state single-crystal-to-single-crystal phase transformations were observed for the β- and ɛ-CPA polymorphs. In the β polymorph the phase transition was related to commensurate structural modulation, and the number of molecules in the asymmetric unit changed from 1 at room temperature to 2 at ∼257 K and then to 4 at 125 K"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "Drebushchak, Drebushchak & Boldyreva, 2011",
+   "natura": "fisica",
+   "reversibile": true,
+   "note": "Lavoro citato. Le molecole nell'unita' asimmetrica passano da 1 (T ambiente) a 2 (~257 K, βII) e a 4 (125 K, βIII): l'assegnazione di βII e βIII e' fatta con la Tabella 2 (βII-CPA Z′ = 2, βIII-CPA Z′ = 4). Modulazione commensurata («commensurate structural modulation»)."
+  },
+  {
+   "id": "E15",
+   "da": "F8",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 125,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "meccanismo": [
+     "SCSC"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "molecular conformation (orientation type)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F9",
+     "citazione": "Orientation type | I | II | 3 molecules in II, 1 molecule in I | I"
+    }
+   ],
+   "citazioni": [
+    "On cooling, reversible solid-state single-crystal-to-single-crystal phase transformations were observed for the β- and ɛ-CPA polymorphs. In the β polymorph the phase transition was related to commensurate structural modulation, and the number of molecules in the asymmetric unit changed from 1 at room temperature to 2 at ∼257 K and then to 4 at 125 K"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "Drebushchak, Drebushchak & Boldyreva, 2011",
+   "natura": "fisica",
+   "reversibile": true,
+   "da_evento": "E14",
+   "note": "Lavoro citato. 125 K: T a cui le molecole indipendenti diventano 4; la struttura di βIII e' a 100 K (Tabella 2). Nella Tabella 2 βIII ha 3 molecole in orientazione II e 1 in I."
+  },
+  {
+   "id": "E16",
+   "da": "F6",
+   "a": "F10",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 200,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [],
+    "meccanismo": [
+     "SCSC"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "orientation of the aromatic ring and alkyl terminal group (conformation type II to type I)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "A reversible polymorphic transition on cooling another polymorph, namely ɛ-CPA, was not related to structural modulation, but was accompanied by a conformational change from type II to type I (Drebushchak et al., 2009 ▸)."
+    }
+   ],
+   "citazioni": [
+    "A reversible polymorphic transition on cooling another polymorph, namely ɛ-CPA, was not related to structural modulation, but was accompanied by a conformational change from type II to type I (Drebushchak et al., 2009 ▸).",
+    "ɛ′-CPA (200 K)"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "Drebushchak et al., 2009",
+   "natura": "fisica",
+   "reversibile": true,
+   "note": "Lavoro citato. 200 K e' la temperatura della struttura di ɛ′ (Tabella 2), non la temperatura di transizione, che il testo non dice. «On cooling, reversible solid-state single-crystal-to-single-crystal phase transformations were observed for the β- and ɛ-CPA polymorphs.»"
+  },
+  {
+   "id": "E17",
+   "da": "F4",
+   "a": "F7",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "idrostatica",
+   "condizioni": {
+    "pressione": {
+     "valore": 2.9,
+     "unita": "GPa",
+     "tipo": "misura"
+    },
+    "idrostatica": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "Also, a high-pressure polymorph formed on compression of α-CPA has twice as many molecules in the asymmetric unit than the starting polymorph, with the two symmetry-independent molecules differing in their conformations, but this increase in the number of independent molecules did not cause doubling of a unit-cell parameter (Seryotkin et al., 2013 ▸).",
+    "α′-CPA (2.9 GPa)"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "Seryotkin et al., 2013",
+   "natura": "fisica",
+   "note": "Lavoro citato. 2.9 GPa e' la pressione della struttura di α′ (Tabella 2), non la pressione di transizione, che il testo non dice. Il mezzo di pressione di quel lavoro non e' detto qui."
+  },
+  {
+   "id": "E18",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 2.4,
+     "max": 3.3,
+     "unita": "GPa",
+     "tipo": "forchetta"
+    },
+    "mezzo_pressione": "pentane–isopentane mixture",
+    "idrostatica": true,
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "Analysis of the Raman spectra of a crystal of δ-CPA on hydrostatic compression in a pentane–isopentane mixture in a diamond anvil cell (DAC) has revealed a reversible structural transformation upon increasing the pressure from 2.4 (1) to 3.3 (1) GPa (Zakharov, Goryainov & Boldyreva, 2016 ▸)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "Zakharov, Goryainov & Boldyreva, 2016",
+   "natura": "fisica",
+   "reversibile": true,
+   "note": "Lavoro citato: la fase di arrivo non e' strutturalmente identificata in quel lavoro («The aim of the present work was to solve the structure of this high-pressure phase»), quindi a: ignota. Reversibile secondo la frase, senza condizioni per il ritorno."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "47 mg of α-chlorpropamide (>97%, Sigma) were dissolved in 1 ml of heptane and brought to boiling."
+   ],
+   "fonte_dati": "propria",
+   "note": "α-chlorpropamide commerciale (Sigma, >97 %), usato come materiale di partenza per ottenere i cristalli di δ."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "raffreddamento",
+   "solventi": [
+    "heptane",
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 0,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "47 mg of α-chlorpropamide (>97%, Sigma) were dissolved in 1 ml of heptane and brought to boiling. Subsequently, 0.5 ml of ethyl acetate was added dropwise. Upon complete dissolution, the mixture was rapidly cooled in an ice bath at 0°C. The resulting precipitate (37 mg) was filtered on a glass filter. The single crystals were obtained as thin (less than 10 µm) transparent colorless plates, their maximum size not exceeding 250 µm."
+   ],
+   "fonte_dati": "propria",
+   "rapporto_solido_solvente": "47 mg in 1 ml of heptane, then 0.5 ml of ethyl acetate",
+   "note": "La parte sperimentale non nomina la forma ottenuta: i cristalli sono quelli del polimorfo δ studiati nelle serie di misura (abstract: «The densest polymorph, δ-CPA, was probed by single-crystal X-ray diffraction»). Attribuzione a δ per il contesto."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E1",
+    "E3"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The experiments revealed a phase transition to an incommensurately modulated phase in the pressure range 2.03 (5)–2.59 (5) GPa (denoted as the δ′inc-CPA phase).",
+    "At 2.37 (5) GPa, satellite reflections along the b axis were observed, confirming the formation of the intermediate incommensurately modulated phase previously discovered at BM01."
+   ],
+   "fonte_dati": "propria",
+   "note": "Fase intermedia osservata solo in compressione al sincrotrone (BM01, ID27)."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E2",
+    "E4",
+    "E8",
+    "E9"
+   ],
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The structural transformation was observed at different pressures depending on the pressure-increasing protocol and the time during which the sample remained under pressure exceeding 2.37 (5) GPa."
+   ],
+   "fonte_dati": "propria",
+   "note": "Si ottiene da δ per compressione idrostatica in DAC, direttamente (laboratorio, tempi lunghi) o via δ'inc (sincrotrone, tempi brevi)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "diversity of the conformational polymorphs from the orientation of the aromatic ring and the alkyl terminal group relative to the rigid core (type I or type II), the conformation of the C3H8 fragment, and the orientation of neighboring hydrogen-bonded chains (Z or π motif)",
+     "citazione": "The structural diversity of the conformational polymorphs arises from the changes in the orientation of the aromatic ring and the alkyl terminal group with respect to the ‘rigid core’ of the molecule (type I or type II,1 Fig. 1 ▸), the conformation of the C3H8 fragment itself, and variations of the orientation of the neighboring hydrogen-bonded chains with respect to each other (Z or π motif, Fig. 2 ▸) (Drebushchak, Drebushchak & Boldyreva, 2011 ▸)."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "CPA is prone to conformational polymorphism, often related to an increase in the number of symmetry-independent molecules and/or structural modulation",
+     "citazione": "CPA is prone to conformational polymorphism, which is often related to an increase in the number of symmetry-independent molecules and/or structural modulation (Fig. 12 ▸)."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F3",
+     "testo": "three symmetry-inequivalent molecules of conformation type I with N2–C8–C9–C10 torsions of −45.14 (2)°, −58.83 (2)° and −63.64 (2)° (initial value −50.90 (8)° at ambient pressure)",
+     "citazione": "At 3.70 (5) GPa, the values for the torsion angles N2–C8–C9–C10 of the three symmetry-inequivalent molecules of the asymmetric unit used to describe the conformation of type I differ significantly for all the three molecules from the initial value of −50.90 (8)° at ambient pressure, and are equal to −45.14 (2)°, −58.83 (2)° and −63.64 (2)°."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "sequence of molecular conformations along the modulation vector (not the same from one unit cell to another); atoms of the 4-chlorobenzene and propyl fragments split into ‘a’ and ‘b’ counterparts",
+     "citazione": "The conformation and atomic coordinates of the symmetry-independent molecules are the same from one unit cell to another in δ′′HP; however, for δ′inc this is not true: a sequence of molecular conformations is observed along the modulation vector."
+    }
+   ]
+  }
+ ]
+}
