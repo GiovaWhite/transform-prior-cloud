@@ -1,0 +1,134 @@
+{
+  "versione_schema": "v1.4",
+  "doi": "10.1038/ncomms8793",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "note": "Dalcetrapib: predizione di strutture cristalline (GRACE, DFT-D) e cristallizzazione ad alta pressione. Gli eventi sperimentali fra forme solide sono la transizione ordine-disordine A <-> B (DSC, PXRD) e la conversione della forma C (ottenuta in DAC) nella forma A quando si rilascia la pressione. NON sono eventi: i calcoli di energia di reticolo e le loro dipendenze dalla pressione (Fig. 2 e 4, «Pressure-dependent lattice energy calculations ... indicate that at high pressure a form belonging to the structure 2 family would be significantly more stable»: solo calcolo); la corrispondenza fra la struttura sperimentale e le strutture generate al computer (B = struttura 1, C = struttura 3, A compatibile con una miscela delle strutture 1 e 22); la cristallizzazione in situ in DAC (preparazioni). I dati sperimentali e le strutture stanno nelle Note Supplementari 1 e 2 (nessun refcode o CCDC nel testo). I confronti con altri lavori (olanzapina, GSK269984B, 2-clorofenolo, 4-fluorofenolo, acido maleico, acetaminofene, acido g-aminobutirrico) sono rassegna senza numeri propri e non sono estratti. Nel testo letto la temperatura della transizione A <-> B e' rovinata dal PDF («about  87 C», con il segno e il grado persi come U+0002).",
+  "composti": [
+    {"id": "C1", "nome": "Dalcetrapib", "smiles": null}
+  ],
+  "forme": [
+    {"id": "F1", "composto": "C1", "etichetta": "form A", "tipo": "anidro", "tipo_presunto": true, "ospite": null,
+     "motivi_hb": [
+       {"motivo": "one-dimensional hydrogen-bonded chains (subsequent molecules related by a twofold screw rotation)", "chi": "molecules in a chain, structure 1 family",
+        "citazione": "The crystal structures in both families have P21/c space-group symmetry, form almost identical unit cells and exhibit similar one-dimensional hydrogen-bonded chains; however, subsequent molecules in a chain are related by a twofold screw rotation for the structure 1 family and by a glide plane for the structure 2 family."}
+     ],
+     "citazione": "In numerous solvent-based crystallization trials only one crystal polymorph, form A, was observed at ambient pressure and temperature.",
+     "note": "Forma disordinata (catene alifatiche «highly disordered»), osservata a temperatura ambiente; «disordered high-temperature form A». Appartiene alla famiglia della struttura 1: «The two experimental forms A and B both belong to the structure 1 family»; gruppo spaziale non scritto per la forma (P21/c e' scritto per le famiglie di strutture calcolate). Tipo «anidro» presunto: nessun solvente in formula."},
+    {"id": "F2", "composto": "C1", "etichetta": "form B", "tipo": "anidro", "tipo_presunto": true, "ospite": null,
+     "strutture": [
+       {"fonte": "non_detta", "temperatura": {"valore": 100, "unita": "K", "tipo": "misura"}, "citazione": "Overlay of the experimental crystal structure of Dalcetrapib form B at 100 K (red) with the computer-generated crystal structure 1 (blue)."}
+     ],
+     "motivi_hb": [
+       {"motivo": "one-dimensional hydrogen-bonded chains (subsequent molecules related by a twofold screw rotation)", "chi": "molecules in a chain, structure 1 family",
+        "citazione": "The crystal structures in both families have P21/c space-group symmetry, form almost identical unit cells and exhibit similar one-dimensional hydrogen-bonded chains; however, subsequent molecules in a chain are related by a twofold screw rotation for the structure 1 family and by a glide plane for the structure 2 family."}
+     ],
+     "citazione": "The ordered low-temperature form B actually matches structure 1.",
+     "note": "Forma ordinata di bassa temperatura, «reported previously» (rif. 21). Catene alifatiche «fully ordered»; struttura quasi identica a quella di A. Struttura sperimentale a 100 K (Fig. 3): la tecnica non e' scritta."},
+    {"id": "F3", "composto": "C1", "etichetta": "form C", "tipo": "anidro", "tipo_presunto": true, "ospite": null,
+     "strutture": [
+       {"fonte": "SCXRD", "temperatura": {"valore": 295, "unita": "K", "tipo": "misura"}, "citazione": "Single-crystal diffraction data were collected at 295 K on a Bruker Apex II diffractometer equipped with Mo-sealed tube radiation."}
+     ],
+     "motivi_hb": [
+       {"motivo": "one-dimensional hydrogen-bonded chains (subsequent molecules related by a glide plane)", "chi": "molecules in a chain, structure 2 family",
+        "citazione": "The crystal structures in both families have P21/c space-group symmetry, form almost identical unit cells and exhibit similar one-dimensional hydrogen-bonded chains; however, subsequent molecules in a chain are related by a twofold screw rotation for the structure 1 family and by a glide plane for the structure 2 family."}
+     ],
+     "citazione": "The structure solved from and refined against in situ single-crystal X-ray diffraction data matches the computer-generated structure 3 (Supplementary Figs 4–6 and Supplementary Table 2), which is the second lowest-energy structure in the structure 2 family.",
+     "note": "Forma ad alta pressione, piu' densa di A e B; metastabile a pressione ambiente. Dati a 295 K dalla sezione dei metodi (esperimenti in DAC); pressione finale nella camera dopo la crescita circa 0.02 GPa. Disordine delle catene alifatiche. Il gruppo spaziale non e' scritto per la forma."}
+  ],
+  "relazioni": [
+    {"forme": ["F1", "F3"], "relazione": "non_dichiarata", "piu_stabile": "F1",
+     "condizioni": "ambient conditions", "fonte_dati": "propria",
+     "citazione": "Both experiments prove that form A is more stable than form C at ambient conditions.",
+     "note": "Il testo non dice se la relazione A/C e' enantiotropa o monotropa."}
+  ],
+  "eventi": [
+    {"id": "E1", "da": "F1", "a": "F2", "esito": "avvenuta", "reversibile": true,
+     "via": "termica", "sottovia": null,
+     "condizioni": {
+       "temperatura": {"valore": null, "unita": "°C", "tipo": "non_specificato", "circa": true, "testo": "about  87 C (segno e grado persi dal PDF)", "lettura_probabile": -87},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "PXRD"], "meccanismo": ["ordine_disordine"]},
+     "gruppi_coinvolti": [
+       {"gruppo": "aliphatic side chains", "ruolo": "torsione", "con": "stessa_molecola", "cambia": "ruota", "citazione": "The crystal structures of forms A and B are almost identical, with the exception of the aliphatic side chains that are fully ordered in form B and highly disordered in form A (Supplementary Notes 1 and 2)."}
+     ],
+     "citazioni": [
+       "Differential scanning calorimetry and X-ray powder diffraction experiments reveal that at about \u0002 87 \u0002C form A undergoes a reversible order–disorder phase transition to another polymorph, form B, that has been reported previously21",
+       "The crystal structures of forms A and B are almost identical, with the exception of the aliphatic side chains that are fully ordered in form B and highly disordered in form A (Supplementary Notes 1 and 2)."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Il testo scrive «at about \u0002 87 \u0002C form A undergoes a reversible order–disorder phase transition to another polymorph, form B»: i due U+0002 sono segni persi dal PDF (probabilmente il meno e il grado: −87 °C, coerente con A osservata a temperatura ambiente, B detta «low-temperature form» e struttura di B a 100 K); la lettura e' solo probabile, il numero non e' dato come sostenuto. Direzione (A -> B) come scritta; A e' la forma di temperatura piu' alta («disordered high-temperature form A»). Ritorno senza condizioni proprie («reversible»): un solo evento. Gli autori dicono che «does not present a development risk because of its reversibility and the low phase-transition temperature»."},
+    {"id": "E2", "da": "F3", "a": "F1", "esito": "avvenuta",
+     "via": "pressione", "sottovia": "decompressione",
+     "condizioni": {
+       "pressione": {"min": 0.02, "max": 0.50, "unita": "GPa", "tipo": "applicata"},
+       "tempo": {"valore": null, "tipo": "trasformazione", "testo": "instantly"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["PXRD"], "meccanismo": ["via_soluzione"]},
+     "gruppi_coinvolti": [
+       {"gruppo": "one-dimensional hydrogen-bonded chains", "ruolo": "sintone", "con": "altra_molecola", "cambia": "resta", "forma": "F3", "citazione": "The crystal structures in both families have P21/c space-group symmetry, form almost identical unit cells and exhibit similar one-dimensional hydrogen-bonded chains; however, subsequent molecules in a chain are related by a twofold screw rotation for the structure 1 family and by a glide plane for the structure 2 family."}
+     ],
+     "citazioni": [
+       "When crystallized from solution in the 0.02 to 0.50GPa pressure range, form C instantly converts to form A in a solution-mediated transformation on opening of the diamond anvil cell."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Forma C cresciuta da soluzione in DAC fra 0.02 e 0.50 GPa; all'apertura della cella (rilascio della pressione) si converte subito nella forma A, per via della soluzione. Sottovia decompressione perche' la leva e' il rilascio della pressione, ma la frase dice «solution-mediated transformation on opening of the diamond anvil cell»: il solvente della soluzione non e' nominato nella frase (l'esperimento in situ descritto usa THF 0.82 M). Il testo non dice se si parte da cristallo singolo o da policristallo (esperimenti di recupero su entrambi, metodi). Per la famiglia di strutture: C (struttura 3) e' nella famiglia 2 (catene con piano di scorrimento), A nella famiglia 1 (asse a vite): le catene di legami H unidimensionali restano in entrambe le famiglie (frase del testo sulle famiglie, non sulla trasformazione)."},
+    {"id": "E3", "da": "F3", "a": "F1", "esito": "avvenuta",
+     "via": "termica", "sottovia": "conservazione",
+     "condizioni": {
+       "temperatura": {"valore": null, "unita": null, "tipo": "ambiente"},
+       "tempo": {"valore": null, "tipo": "trasformazione", "testo": "timescale of hours"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["PXRD"]},
+     "campione": {"tipo": "polvere"},
+     "pretrattamento": "forma C cristallizzata dal fuso ad alta pressione in DAC; pressione rilasciata senza aprire la cella",
+     "gruppi_coinvolti": [
+       {"gruppo": "one-dimensional hydrogen-bonded chains", "ruolo": "sintone", "con": "altra_molecola", "cambia": "resta", "forma": "F3", "citazione": "The crystal structures in both families have P21/c space-group symmetry, form almost identical unit cells and exhibit similar one-dimensional hydrogen-bonded chains; however, subsequent molecules in a chain are related by a twofold screw rotation for the structure 1 family and by a glide plane for the structure 2 family."}
+     ],
+     "citazioni": [
+       "When form C is crystallized from the melt at high pressure and the pressure is released without",
+       "opening the diamond anvil cell, form C can be obtained at ambient pressure but converts to form A on a timescale of hours.",
+       "Both experiments prove that form A is more stable than form C at ambient conditions."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Forma C ottenuta dal fuso (campioni policristallini cresciuti in situ nella DAC) e recuperata a pressione ambiente: si converte in A in «a timescale of hours». Temperatura non detta: il testo dice solo «ambient pressure» e «ambient conditions» (usato qui per tipo ambiente). Tipo di campione «polycrystalline» dai metodi: «polycrystalline samples were grown in situ either from solution or from the melt in the DAC». Nessun solvente: conversione in assenza di soluzione, a differenza di E2."}
+  ],
+  "preparazioni": [
+    {"forme": ["F1"], "metodo": "non_specificato", "solventi": [], "esito": "ottenuta",
+     "citazioni": ["In numerous solvent-based crystallization trials only one crystal polymorph, form A, was observed at ambient pressure and temperature."],
+     "fonte_dati": "propria",
+     "note": "Solventi non nominati nel testo (nel supplementare). Unica forma osservata in condizioni ambiente."},
+    {"forme": ["F3"], "metodo": "non_specificato", "solventi": [], "esito": "non_ottenuta",
+     "citazioni": ["In numerous solvent-based crystallization trials only one crystal polymorph, form A, was observed at ambient pressure and temperature."],
+     "fonte_dati": "propria",
+     "note": "Negativo: a pressione e temperatura ambiente nelle prove da soluzione si osserva solo A; la forma C si ottiene solo ad alta pressione («high pressure is the sole or most reliable route for obtaining a particular solid form, as is the case for Dalcetrapib form C»)."},
+    {"forme": ["F3"], "metodo": "in_situ_pressione", "solventi": ["tetrahydrofuran"], "esito": "ottenuta",
+     "pressione": {"valore": 0.45, "unita": "GPa", "tipo": "applicata", "circa": true},
+     "tempo": {"valore": 24, "unita": "h", "tipo": "attesa", "circa": true},
+     "citazioni": ["A 0.82 M tetrahydrofuran solution was loaded in the diamond-anvil cell (DAC) and crystallization of",
+                   "polycrystalline material was observed after ca. 24 h from initial loading, at a pressure of ca. 0.45 GPa."],
+     "fonte_dati": "propria",
+     "note": "Soluzione 0.82 M in THF nella DAC; materiale policristallino dopo circa 24 h a circa 0.45 GPa."},
+    {"forme": ["F3"], "metodo": "in_situ_pressione", "solventi": ["tetrahydrofuran"], "esito": "ottenuta",
+     "pressione": {"max": 0.1, "unita": "GPa", "tipo": "applicata", "circa": true, "limite": "sotto"},
+     "temperatura": {"min": 323, "max": 333, "unita": "K", "tipo": "intervallo"},
+     "citazioni": ["A single crystal suitable for single-crystal X-ray diffraction was grown by pressure and temperature cycling below ca. 0.1 GPa.",
+                   "Gentle heating (323–333 K) was applied to avoid compound decomposition.",
+                   "The final pressure inside the chamber after crystal growth was ca. 0.02 GPa."],
+     "fonte_dati": "propria",
+     "note": "Cristallo singolo cresciuto con cicli di pressione e temperatura sotto circa 0.1 GPa; la pressione finale nella camera dopo la crescita e' circa 0.02 GPa (la pressione cala molto perche' il solido e' molto piu' denso della soluzione). La soluzione e' quella in THF dell'esperimento precedente (stessa DAC)."},
+    {"forme": ["F3"], "metodo": "in_situ_pressione", "solventi": [], "esito": "ottenuta",
+     "citazioni": ["When form C is crystallized from the melt at high pressure and the pressure is released without"],
+     "fonte_dati": "propria",
+     "note": "Cristallizzazione dal fuso ad alta pressione in DAC (campioni policristallini); pressione e temperatura non dette nel testo."},
+    {"forme": ["F3"], "metodo": "in_situ_pressione", "solventi": [], "esito": "non_ottenuta",
+     "tempo": {"valore": 1, "unita": "month", "tipo": "attesa"},
+     "citazioni": ["initial experiments gave no indication of crystallization from the melt under pressure 1 month after having initially loaded the diamond anvil cell"],
+     "fonte_dati": "propria",
+     "note": "Negativo: nessun segno di cristallizzazione dal fuso sotto pressione un mese dopo il caricamento della DAC («initial experiments»; il dettaglio e' nella Nota Supplementare 2). La forma cercata non e' nominata nella frase; successivamente la forma C e' stata ottenuta dal fuso."}
+  ],
+  "molecole": [
+    {"composto": "C1",
+     "descrizioni": [
+       {"tipo": "flessibilita", "testo": "10 gradi di liberta' torsionali", "citazione": "Chemical structure of Dalcetrapib highlighting the 10 torsional degrees of freedom."},
+       {"tipo": "conformeri", "testo": "il disordine delle catene alifatiche e' coerente con un modello di conformazioni molecolari popolate termicamente", "forma": "F3", "citazione": "The experimentally observed disorder of the aliphatic side chains is consistent with a model of thermally populated molecular conformations"}
+     ]}
+  ]
+}
