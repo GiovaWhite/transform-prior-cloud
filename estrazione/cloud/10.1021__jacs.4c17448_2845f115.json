@@ -1,0 +1,176 @@
+{
+  "versione_schema": "v1.4",
+  "doi": "10.1021/jacs.4c17448",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "ccdc": null,
+  "note": "Articolo senza parte sperimentale nel testo letto (dettagli nel supplementare: Tabelle S1-S3, Figure S1-S11). Nessun refcode ne' CCDC nel testo. Dati di attuazione (non eventi): la transizione allunga il cristallo di circa il 15% (a +14.8%, c -9.5%, b -0.48%), forze da 0.19 a 15 μN su nove cristalli, densita' di lavoro ~7 × 10–3 J m–3, corse da 4.3 a 89 μm, palla di vetro spostata di circa 1.1 mm entro 32.8 ms. Proprieta' ottiche: emissione di polveri a 451 nm (α) e 480 nm (β), rese quantiche 68.2% e 89.3%; la fluorescenza di α aumenta di colpo a 180 °C (transizione ad α′); l'intensita' SHG sale rapidamente sopra 160 °C e si stabilizza sopra 180 °C, cala raffreddando a 90 °C, rapporto di commutazione oltre 10, mantenuto per sei cicli. Questi non sono eventi aggiuntivi (stessa transizione α ↔ α′ vista con altre misure). Il testo parla di «possible cooperativity» e di «martensitic-like» in modo generico: non messi in meccanismo. Gli autori dicono α′ (alta T) diversa da β: nessun evento α′ → β.",
+  "composti": [
+    {"id": "C1", "nome": "3,7-di([1,1′-biphenyl]-4-yl)dibenzo[b,d]thiophene 5,5-dioxide (DBpT)", "smiles": null}
+  ],
+  "forme": [
+    {"id": "F1", "composto": "C1", "etichetta": "α-DBpT", "etichette_alternative": ["α phase", "low-temperature phase"], "tipo": "anidro", "tipo_presunto": true,
+     "sistema_cristallino": "monoclino", "gruppo_spaziale": "P21/c",
+     "cella": {"a": 7.3069, "b": 28.8319, "c": 12.1968, "beta": 90.372, "Z": 4},
+     "ccdc": null, "refcode": null,
+     "motivi_hb": [
+       {"motivo": "π···π interactions", "chi": "tra molecole impilate lungo l'asse a",
+        "citazione": "The molecules are packed along the crystallographic a axis and interact with each other via intermolecular π···π interactions."},
+       {"motivo": "C–H···π interactions", "chi": "deboli, tra molecole lungo gli assi a e c",
+        "citazione": "Furthermore, multiple weak intermolecular C–H···π interactions between the molecules along the crystallographic a and c axes could contribute to the ability of the structure to absorb stress caused by minor molecular alterations."}
+     ],
+     "citazione": "α-DBpT crystallizes in the monoclinic space group P21/c, with unit cell parameters a = 7.3069(3) Å, b = 28.8319(10) Å, c = 12.1968(4) Å, β = 90.372(2)°, and Z = 4 (Table S2).",
+     "note": "Cella senza temperatura dichiarata. Tipo anidro presunto: nessun solvente in formula. Centrosimmetrica (P21/c)."},
+    {"id": "F2", "composto": "C1", "etichetta": "β-DBpT", "etichette_alternative": ["β phase"], "tipo": "anidro", "tipo_presunto": true,
+     "gruppo_spaziale": "P21/n",
+     "cella": {"a": 9.4972, "b": 9.3172, "c": 28.5942, "beta": 95.463, "Z": 4},
+     "ccdc": null, "refcode": null,
+     "motivi_hb": [
+       {"motivo": "C–H···π interactions", "chi": "piu' deboli che in α; distanza nel piano h0l oltre 3.1 Å",
+        "citazione": "the overall twisting of the molecule in the β phase is smaller than that in the α phase, and thus the molecule is flattened on average, resulting in weaker C–H···π interactions (Figure S4)."}
+     ],
+     "citazione": "β-DBpT crystallizes in the space group P21/n, with unit cell parameters a = 9.4972(1) Å, b = 9.3172(1) Å, c = 28.5942(4) Å, β = 95.463(1)°, and Z = 4.",
+     "note": "Il testo da' solo il gruppo spaziale (sistema non scritto). Cella senza temperatura dichiarata. Dal TGA contiene solvente residuo (non stechiometrico): ospite non indicato."},
+    {"id": "F3", "composto": "C1", "etichetta": "α′-DBpT", "etichette_alternative": ["α′ phase", "high-temperature phase"], "tipo": "anidro", "tipo_presunto": true,
+     "sistema_cristallino": "ortorombico", "gruppo_spaziale": "Cmc21",
+     "cella": {"a": 28.693, "b": 11.038, "c": 8.375, "Z": 4},
+     "ccdc": null, "refcode": null,
+     "citazione": "it was modeled in the orthorhombic space group Cmc21, with unit cell parameters a = 28.693(9) Å, b = 11.038(3) Å, c = 8.375(2) Å, and Z = 4 (Figure 2b)",
+     "note": "Fase ad alta T ottenuta da α per transizione SCSC; non centrosimmetrica. Cella senza temperatura dichiarata (la Figura 2a copre da −123 a 207 °C)."}
+  ],
+  "relazioni": [],
+  "eventi": [
+    {"id": "E1", "da": "F1", "a": "F3", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"min": 155, "max": 195, "unita": "°C", "tipo": "intervallo"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "VT-PXRD"],
+                      "entalpia": {"valore": null, "testo": "4.7 × 103 J mol–1", "unita": "J mol-1", "tipo": "transizione"}},
+     "gruppi_coinvolti": [
+       {"gruppo": "dihedral angles between the phenyl rings", "ruolo": "torsione", "con": "stessa_molecola", "cambia": "ruota",
+        "citazione": "In this high-temperature phase, the main dihedral angles in the DBpT molecule decrease relative to those in the low-temperature phase, and the molecule acquires symmetry (Figure 1a)."},
+       {"gruppo": "C–H···π interactions", "ruolo": "sintone", "con": "altra_molecola", "forma": "F1",
+        "citazione": "During the phase transition of the crystal of α-DBpT, there is a significant change in the molecular stacking mode within the h0l plane."}
+     ],
+     "reversibile": true, "inverso_di": "E3",
+     "citazioni": [
+       "Detailed thermal analysis using differential scanning calorimetry (DSC) confirmed that, when heated, α-DBpT undergoes a phase transition in the temperature range 155–195 °C (ΔH = 4.7 × 103 J mol–1, ΔS = 10.5 J mol–1 K–1; Figure 1c).",
+       "In analysis by variable-temperature powder X-ray diffraction (VT-PXRD), the characteristic diffraction peaks of α-DBpT at approximately 7.6° and 15.5° disappear at 200 °C, and new diffraction peaks emerge around 8.4° and 13.5° (Figure 1d)."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "DSC: transizione a 155–195 °C, ΔH = 4.7 × 103 J mol–1, ΔS = 10.5 J mol–1 K–1. VT-PXRD: i picchi di α (circa 7.6° e 15.5°) spariscono a 200 °C e compaiono quelli di α′ (circa 8.4° e 13.5°). Stessa transizione di E2 vista su campione diverso (DSC e polvere contro cristallo singolo)."},
+    {"id": "E2", "da": "F1", "a": "F3", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 165, "min": 160, "unita": "°C", "tipo": "osservata"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["SCXRD", "microscopia"],
+                      "meccanismo": ["SCSC"], "ordine_transizione": null, "integrita": "intatto",
+                      "direzione_fronte": "asse lungo del cristallo, a partire dall'estremita' con difetti",
+                      "cinetica": "elongazione istantanea; fronte di interfase molto rapido; palla di vetro (~0.25 μg) spostata di circa 1.1 mm entro 32.8 ms"},
+     "campione": {"tipo": "cristallo_singolo", "dimensione": "~0.5 mm in length"},
+     "gruppi_coinvolti": [
+       {"gruppo": "dihedral angles between the phenyl rings", "ruolo": "torsione", "con": "stessa_molecola", "cambia": "ruota",
+        "citazione": "In this high-temperature phase, the main dihedral angles in the DBpT molecule decrease relative to those in the low-temperature phase, and the molecule acquires symmetry (Figure 1a)."},
+       {"gruppo": "C–H···π interactions", "ruolo": "sintone", "con": "altra_molecola", "forma": "F1",
+        "citazione": "We conclude that the weak interactions (C–H···π interactions) play an important role in the structural evolution of such dynamic crystals with rigid planes and flexible phenyl side chains."},
+       {"gruppo": "phenyl rings", "ruolo": "torsione", "con": "stessa_molecola", "cambia": "ruota",
+        "citazione": "The rearrangement of the phenyl rings serves as a basis for regulation of the weak intermolecular interactions and rearranging of molecular stacking."}
+     ],
+     "reversibile": true, "inverso_di": "E4",
+     "citazioni": [
+       "In situ VT-SCXRD analysis suggests that the unit cell parameters of α-DBpT remain nearly unchanged below 160 °C (Figure 2a). Above this temperature, a sudden change in the unit cell corresponds to the transition to α′-DBpT.",
+       "Upon heating to 165 °C, the crystal underwent instantaneous elongation due to the SCSC transition to the α′ phase and displaced the glass ball by around 1.1 mm within 32.8 ms (Figure 2f and Movie S3).",
+       "the phase transition is initiated at the end that had noticeable defects and rapidly propagates along the crystal’s long axis, creating a distinct boundary between the domains of the two phases.",
+       "Specifically, while the b axis remains almost unchanged (−0.48%), the a and c axes undergo strong and converse changes of +14.8% and −9.5%, respectively (Figure 2a)."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Cristallo singolo: nessuna T della transizione detta come valore unico. 160 °C e' l'ultima T senza cambio nella VT-SCXRD («remain nearly unchanged below 160 °C»), 165 °C e' la T alla quale nel test di attuazione si vede l'allungamento. Lo stesso articolo parla di «retention of macroscopic integrity» (abstract) nel riscaldamento. L'allungamento macroscopico e' circa 15%."},
+    {"id": "E3", "da": "F3", "a": "F1", "esito": "avvenuta", "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "temperatura": {"min": 60, "max": 100, "unita": "°C", "tipo": "intervallo"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "VT-PXRD"], "ordine_transizione": "primo"},
+     "reversibile": true, "inverso_di": "E1",
+     "citazioni": [
+       "The reverse phase transition occurs at 100–60 °C on cooling, with latent heat and an undercooling characteristic for a first-order phase transition.47",
+       "Upon cooling to ∼40 °C, the Bragg diffraction peaks essentially return to their positions before heating (40 °C), lending additional support for the reversibility of the phase transition."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Ritorno α′ → α in raffreddamento con isteresi (sottoraffreddamento). Con la VT-PXRD i picchi tornano alle posizioni di partenza raffreddando a circa 40 °C. Il testo dice che la fluorescenza e l'SHG sono reversibili anche dopo piu' cicli (SHG: sei cicli): non diventano eventi."},
+    {"id": "E4", "da": "F3", "a": "F1", "esito": "avvenuta", "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "velocita": {"testo": "slowly"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["microscopia"], "meccanismo": ["SCSC"], "integrita": "fratturato"},
+     "campione": {"tipo": "cristallo_singolo"},
+     "reversibile": true, "inverso_di": "E2",
+     "citazioni": [
+       "The thermal elongation is reversible, and the crystal shrinks as the temperature is slowly decreased over the phase transition (Figure S7). However, internal defects and inherent brittleness result in partial disintegration.",
+       "the crystals begin to show fractures, and these fractures become more pronounced with each subsequent cycle."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Ritorno sul cristallo singolo: il cristallo si accorcia, ma difetti interni e fragilita' portano a disgregazione parziale; le fratture aumentano a ogni ciclo. T del ritorno non detta in questa frase."},
+    {"id": "E5", "da": "F2", "a": "ignota", "esito": "avvenuta", "via": "desolvatazione", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 250, "circa": true, "unita": "°C", "tipo": "non_specificato"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["TGA"], "integrita": "opaco"},
+     "citazioni": [
+       "The TGA curve of the β-phase shows a weight loss around 250 °C due to evaporation of the residual solvent, which disrupts the crystal structure and results in increased opacity of the crystal surface and enhanced fluorescence (Figure S6)."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Evaporazione del solvente residuo (non nominato nella frase; la β e' stata ottenuta da tetrahydrofuran) in TGA: la struttura cristallina viene «disrupted», la superficie diventa piu' opaca e la fluorescenza aumenta. Il prodotto non e' caratterizzato: a ignota. Perdita di massa non quantificata. Non e' detto che β sia un solvato stechiometrico."},
+    {"id": "E6", "da": "F1", "a": "fuso", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 350, "unita": "°C", "tipo": "non_specificato"},
+       "solventi": []},
+     "osservazioni": {"tecniche": []},
+     "citazioni": [
+       "Thermogravimetric analysis (TGA) showed that the crystals of both α-DBpT and β-DBpT are thermally stable below their melting temperatures 350 and 340 °C for α-DBpT and β-DBpT, respectively (Figure S5)."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Punto di fusione dato nel paragrafo sulla TGA; la tecnica con cui e' misurato non e' detta. α si e' gia' trasformata in α′ a 155–195 °C (E1): il testo attribuisce comunque 350 °C a «α-DBpT»."},
+    {"id": "E7", "da": "F2", "a": "fuso", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 340, "unita": "°C", "tipo": "non_specificato"},
+       "solventi": []},
+     "osservazioni": {"tecniche": []},
+     "citazioni": [
+       "Thermogravimetric analysis (TGA) showed that the crystals of both α-DBpT and β-DBpT are thermally stable below their melting temperatures 350 and 340 °C for α-DBpT and β-DBpT, respectively (Figure S5)."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Punto di fusione dato nel paragrafo sulla TGA; la tecnica con cui e' misurato non e' detta."},
+    {"id": "E8", "da": "F2", "a": "ignota", "esito": "non_avvenuta", "esito_dettaglio": "nessuna_variazione_di_impacchettamento",
+     "via": "termica", "sottovia": "riscaldamento", "senza_condizioni": true,
+     "condizioni": {"solventi": []},
+     "osservazioni": {"tecniche": []},
+     "gruppi_coinvolti": [
+       {"gruppo": "molecular stacking mode in the h0l plane", "ruolo": "altro", "con": "altra_molecola", "cambia": "resta", "forma": "F2",
+        "citazione": "Upon thermal stimulation, there is no significant alteration observed in the molecular stacking mode in the h0l plane and no significant anisotropic thermal expansion in the crystal axes (Figure S8c,d)."}
+     ],
+     "citazioni": [
+       "However, the distance of the nonbonding interactions in the h0l plane of a crystal of β-DBpT exceeds 3.1 Å, which is greater than the sum of the van der Waals radii. Upon thermal stimulation, there is no significant alteration observed in the molecular stacking mode in the h0l plane and no significant anisotropic thermal expansion in the crystal axes (Figure S8c,d)."],
+     "certezza": "bassa", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Negativo debole: sotto stimolazione termica (T non detta) la β non mostra variazione del modo di impacchettamento ne' espansione anisotropa, a differenza di α. Il testo non dice esplicitamente «nessuna transizione di fase»."}
+  ],
+  "preparazioni": [
+    {"forme": ["F1"], "metodo": "altro", "solventi": ["toluene"], "esito": "ottenuta",
+     "citazioni": ["It was found to crystallize as two polymorphs, hereafter referred to as α-DBpT and β-DBpT, obtained by using the solvothermal method in toluene and tetrahydrofuran, respectively."],
+     "fonte_dati": "propria",
+     "note": "Metodo solvotermico in toluene (α)."},
+    {"forme": ["F2"], "metodo": "altro", "solventi": ["tetrahydrofuran"], "esito": "ottenuta",
+     "citazioni": ["It was found to crystallize as two polymorphs, hereafter referred to as α-DBpT and β-DBpT, obtained by using the solvothermal method in toluene and tetrahydrofuran, respectively."],
+     "fonte_dati": "propria",
+     "note": "Metodo solvotermico in tetrahydrofuran (β)."},
+    {"forme": ["F3"], "metodo": "da_evento", "da_evento": ["E1", "E2"], "solventi": [], "esito": "ottenuta",
+     "citazioni": ["Additionally, a new phase, α′-DBpT, can be obtained by in situ heating of α-DBpT."],
+     "fonte_dati": "propria"}
+  ],
+  "molecole": [
+    {"composto": "C1",
+     "descrizioni": [
+       {"tipo": "flessibilita", "forma": "F1",
+        "testo": "molecule twisted along its length; dihedral angles between the phenyl rings θ1–θ4 = 30.6°, 23.1°, −29.4°, −31.4°",
+        "citazione": "Due to the steric hindrance, the DBpT molecule in the crystal of the α phase is twisted along its length, as reflected in dihedral angles between the phenyl rings θ1 – θ4 = 30.6°, 23.1°, −29.4°, and −31.4°, as defined in Figure 1a."},
+       {"tipo": "flessibilita", "forma": "F2",
+        "testo": "dihedral angles θ1–θ4 = 27.5°, 12.3°, 24.5°, 12.0°; molecule less twisted than in α, flattened on average",
+        "citazione": "With dihedral angles θ1 – θ4 = 27.5°, 12.3°, 24.5°, and 12.0° (Figure S3), the overall twisting of the molecule in the β phase is smaller than that in the α phase, and thus the molecule is flattened on average"},
+       {"tipo": "flessibilita", "forma": "F3",
+        "testo": "dihedral angles decrease relative to α; molecule acquires symmetry; θ2′ = 17.5°, θ1′ = 16.6°",
+        "citazione": "The two phenyl rings adjacent to the central plane have an identical dihedral angle θ2′ = 17.5°, whereas the benzene rings at both ends of the molecule are at an angle θ1′ = 16.6° relative to the plane of the central dibenzothiophene fragment."}
+     ]}
+  ]
+}
