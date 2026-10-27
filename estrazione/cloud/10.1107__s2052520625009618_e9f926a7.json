@@ -1,0 +1,1129 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1107/s2052520625009618",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2403155",
+  "2403156",
+  "2499478",
+  "2499479"
+ ],
+ "note": "Tre transizioni simmetria-crescente di anilinio tetrafluoroborato (AnBF4) fra 130 e 490 K, polimorfi A-D, osservate in VT-PXRD (20 K/h), DSC (5 K/h in riscaldamento) e dielettrica. I CCDC sono 4 per 6 datablock (global, qehweg_a, qehweg_b, C_1, d6b_01628_415K.raw_1, D_1, d6b_01628_480K.raw_1) e non si possono attribuire alle forme. Non sono eventi: la dinamica dell'anilinio e dei BF4− vista al ssNMR (13C a 293, 373, 423, 473 K; 19F una sola risonanza per fase), lo scattering diffuso nel cristallo singolo di C a 430 K, e l'assenza di isteresi ferroelettrica a temperatura ambiente («hysteretic behaviour indicating ferroelectricity could not be observed at room temperature»). La transizione C -> D non e' stata raggiunta nella misura dielettrica (limite 420 K).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "aniline"
+  },
+  {
+   "id": "C2",
+   "nome": "fluoroboric acid",
+   "nome_scritto": "BF4−"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "polymorph A",
+   "etichette_alternative": [
+    "A",
+    "form A"
+   ],
+   "tipo": [
+    "sale"
+   ],
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 7.3672,
+    "b": 5.9633,
+    "c": 9.3181,
+    "beta": 96.52,
+    "condizioni": "290 K",
+    "fonte": "SCXRD"
+   },
+   "refcode": "QEHWEG",
+   "strutture": [
+    {
+     "refcode": "QEHWEG",
+     "temperatura": {
+      "valore": 100,
+      "unita": "K",
+      "tipo": "non_specificato"
+     },
+     "fonte": "SCXRD",
+     "citazione": "At 100 K, AnBF4 crystals are monoclinic with polar space group P21 (polymorph A, CSD refcode: QEHWEG)"
+    },
+    {
+     "temperatura": {
+      "valore": 290,
+      "unita": "K",
+      "tipo": "non_specificato"
+     },
+     "fonte": "SCXRD",
+     "citazione": "This was confirmed by our own SXRD experiment which gave unit-cell parameters of a = 7.3672 (9) Å, b = 5.9633 (7) Å, c = 9.3181 (11) Å, β = 96.520 (4)° at 290 K"
+    }
+   ],
+   "protonazione": "anilinium cation (–NH3+) con anione BF4−",
+   "motivi_hb": [
+    {
+     "motivo": "N—H⋯F hydrogen bonding interactions",
+     "chi": "–NH3+ group ... BF4− anions",
+     "citazione": "There are N—H⋯F hydrogen bonding interactions between the –NH3+ group and the BF4− anions."
+    }
+   ],
+   "citazione": "AnBF4 adopts the monoclinic form A when synthesized and retains this structure down to 130 K.",
+   "note": "Cella: quella della misura SXRD di questo lavoro a 290 K. La voce QEHWEG e' la struttura a 100 K della letteratura (Anderson et al., 2006): a = 7.3752 (16) Å, b = 5.7860 (9) Å, c = 9.3866 (19) Å, β = 97.620 (11)°, anioni ordinati. Nel presente lavoro gli anioni BF4− sono disordinati su due siti ugualmente occupati."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "polymorph B",
+   "etichette_alternative": [
+    "B",
+    "form B"
+   ],
+   "tipo": [
+    "sale"
+   ],
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P212121",
+   "cella": {
+    "a": 7.3841,
+    "b": 6.1477,
+    "c": 18.4441,
+    "condizioni": "360 K",
+    "fonte": "SCXRD"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "N—H⋯F hydrogen bonds (shortest 2.03 and 2.09 Å)",
+     "chi": "–NH3+ group ... BF4− anions",
+     "citazione": "The shortest hydrogen bonds are slightly longer than those in polymorph A (2.03, 2.09 Å for the two BF4− orientations)."
+    }
+   ],
+   "citazione": "AnBF4 is stable as polymorph B between ∼341 and ∼403 K and the structure was solved at 360 K using SXRD. This revealed a structure in P212121 with unit-cell parameters a = 7.3841 (3) Å, b = 6.1477 (3) Å and c = 18.4441 (8) Å",
+   "note": "Le celle a e b sono scambiate rispetto all'impostazione standard, come detto dal testo, per restare coerenti con gli altri polimorfi. Anioni BF4− disordinati su due orientazioni 0.75:0.25."
+  },
+  {
+   "id": "F3",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "polymorph C",
+   "etichette_alternative": [
+    "C",
+    "form C"
+   ],
+   "tipo": [
+    "sale"
+   ],
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "P21212",
+   "cella": {
+    "a": 6.3269,
+    "b": 7.3729,
+    "c": 9.135,
+    "condizioni": "423 K",
+    "fonte": "PXRD"
+   },
+   "citazione": "The structure of polymorph C was solved from PXRD data recorded over 11 h at 423 K.",
+   "conflitto": "La didascalia della Fig. 5 dice «polymorph C at 435 K»; il corpo dice 423 K per la struttura da PXRD (si tiene il corpo). 435 K e' invece la T della cella preliminare da SXRD (a = 7.362 (8) Å, b = 6.572 (7) Å, c = 9.012 (9) Å) presa prima della rottura del cristallo.",
+   "note": "Struttura risolta da PXRD (Rietveld, Rwp 4.69%): anilinio ordinato, BF4− con preferenze di orientazione. Nessun dettaglio sui legami H (disordine)."
+  },
+  {
+   "id": "F4",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "etichetta": "polymorph D",
+   "etichette_alternative": [
+    "D",
+    "form D"
+   ],
+   "tipo": [
+    "sale"
+   ],
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pmmn",
+   "cella": {
+    "a": 7.3115,
+    "b": 6.7187,
+    "c": 8.9102,
+    "condizioni": "477 K",
+    "fonte": "PXRD"
+   },
+   "citazione": "The structure was solved using powder data recorded over 10.5 h at 477 K.",
+   "note": "Struttura risolta da PXRD (Rietveld, Rwp 4.41%): anilinio disordinato su due orientazioni 50:50, BF4− liberi di ruotare."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "inverso_di": "E4",
+   "condizioni": {
+    "temperatura": {
+     "valore": 341,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "K/h",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "displaciva"
+    ],
+    "cinetica": "discontinua: l'angolo monoclino β cambia bruscamente da 95.4° a 90°"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N—H⋯F hydrogen bonding interactions",
+     "ruolo": "donatore",
+     "con": "controione",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "There are N—H⋯F hydrogen bonding interactions between the –NH3+ group and the BF4− anions."
+    },
+    {
+     "gruppo": "hydrogen bonds",
+     "ruolo": "donatore",
+     "con": "controione",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "The shortest hydrogen bonds are slightly longer than those in polymorph A (2.03, 2.09 Å for the two BF4− orientations)."
+    },
+    {
+     "gruppo": "alternating aniliniums in each chain",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "The structure of polymorph B is similar to that of polymorph A, however alternating aniliniums in each chain displace along the a axis which leads to the cell doubling."
+    }
+   ],
+   "citazioni": [
+    "Upon warming, a phase transition occurs at about 341 K.",
+    "We label the sequence of polymorphs as A (monoclinic, 130 to 341 K), B (orthorhombic, 341 to 403 K), C (orthorhombic, 403 to 454 K) and D (orthorhombic, 454 to >490 K).",
+    "Data were collected between 130 and 490 K with a warming/cooling rate of 20 K h−1 and a collection time of 28 min which corresponds to a pattern being recorded every 9.33 K.",
+    "The sample was sealed in a 0.7 mm external diameter borosilicate capillary to a length of 30 mm, and was spun at ten rotations a minute during the measurements.",
+    "Polycrystalline samples were prepared by gentle grinding of the crystals.",
+    "The monoclinic angle β changes abruptly from 95.4° to 90° at the transition temperature (see the inset of Fig. 3 ▸), further evidence for the discontinuous nature of the transition.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous."
+   ],
+   "certezza": "alta",
+   "note": "Monoclino (P21) -> ortorombico (P212121), raddoppio dell'asse c. «Molecular displacement» (A→B) reso con meccanismo displaciva. Temperatura 341 K in riscaldamento a 20 K/h; il testo la dà come «about 341 K» (passo di misura 9.33 K)."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E2",
+   "da": "F2",
+   "a": "F3",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "inverso_di": "E5",
+   "condizioni": {
+    "temperatura": {
+     "valore": 403,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "K/h",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "alternate anilinium molecules",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "Similarly, the transition from polymorph C to B can be described by the superposition of Z4 displacement modes on the structure of C. These modulate the structure such that alternate anilinium molecules are displaced relative to one another along the a direction."
+    },
+    {
+     "gruppo": "cation",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+    },
+    {
+     "gruppo": "BF4− anion",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+    }
+   ],
+   "citazioni": [
+    "Two subsequent phase transitions occur at ∼403 K and ∼454 K showed, inter alia, by the disappearance of weak peaks in the 2θ range 11° to 13° (marked with *), then loss of the peak marked †.",
+    "We label the sequence of polymorphs as A (monoclinic, 130 to 341 K), B (orthorhombic, 341 to 403 K), C (orthorhombic, 403 to 454 K) and D (orthorhombic, 454 to >490 K).",
+    "Data were collected between 130 and 490 K with a warming/cooling rate of 20 K h−1 and a collection time of 28 min which corresponds to a pattern being recorded every 9.33 K.",
+    "The sample was sealed in a 0.7 mm external diameter borosilicate capillary to a length of 30 mm, and was spun at ten rotations a minute during the measurements.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous."
+   ],
+   "certezza": "alta",
+   "note": "Debolmente discontinua. Nell'esperimento su cristallo singolo i dati di cella di C (435 K) sono stati presi prima della rottura del cristallo («crystal breakdown»): SXRD non e' stato possibile per C e D («loss of integrity of the single crystal»); non e' un evento a parte perche' e' la stessa transizione vista con un'altra tecnica."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E3",
+   "da": "F3",
+   "a": "F4",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "inverso_di": "E6",
+   "condizioni": {
+    "temperatura": {
+     "valore": 454,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "K/h",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ],
+    "ordine_transizione": "primo"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "anilinium ions",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "The main difference is the ordering of the anilinium ions from two orientations to one, which removes the symmetry planes of the Pmmn space group."
+    },
+    {
+     "gruppo": "BF4−",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "Due to the reduction in symmetry, the number of orientations of BF4− decreases from 16 to 8."
+    },
+    {
+     "gruppo": "BF4− anions",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": "ruota",
+     "forma": "F4",
+     "citazione": "The 16 potential orientations of the BF4− ions when viewed together show little anisotropy suggesting the BF4− anions are freely rotating in this phase."
+    },
+    {
+     "gruppo": "cation",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+    },
+    {
+     "gruppo": "BF4− anion",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+    }
+   ],
+   "citazioni": [
+    "Two subsequent phase transitions occur at ∼403 K and ∼454 K showed, inter alia, by the disappearance of weak peaks in the 2θ range 11° to 13° (marked with *), then loss of the peak marked †.",
+    "We label the sequence of polymorphs as A (monoclinic, 130 to 341 K), B (orthorhombic, 341 to 403 K), C (orthorhombic, 403 to 454 K) and D (orthorhombic, 454 to >490 K).",
+    "Data were collected between 130 and 490 K with a warming/cooling rate of 20 K h−1 and a collection time of 28 min which corresponds to a pattern being recorded every 9.33 K.",
+    "The sample was sealed in a 0.7 mm external diameter borosilicate capillary to a length of 30 mm, and was spun at ten rotations a minute during the measurements.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion.",
+    "The single irrep that is active and the smooth evolution of unit-cell parameters and hence Bragg peak positions at 461 K seen in Fig. 2 ▸ and Fig. 3 ▸ are consistent with DSC data indicating weakly first-order behaviour.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous."
+   ],
+   "certezza": "alta",
+   "conflitto": "Nel paragrafo 3.9 la transizione fra D e C e' detta «at ∼461 K» (e «at 461 K»), contro ∼454 K di 3.1 e dell'elenco dei polimorfi; si tiene 454 K (risultati battono discussione). Nel testo anche il numero di orientazioni di BF4− e' 16 -> 8 (3.5) contro «from eight orientations to four» (3.9).",
+   "note": "Ordine-disordine di catione e anione. «Weakly first-order» detto per la transizione D/C con i dati DSC; per BF4− il testo dice anche «Our model suggests a partial ordering for the BF4− ion from eight orientations to four»."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E4",
+   "da": "F2",
+   "a": "F1",
+   "sottovia": "raffreddamento",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "condizioni": {
+    "temperatura": {
+     "valore": 314,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "K/h",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "displaciva"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N—H⋯F hydrogen bonding interactions",
+     "ruolo": "donatore",
+     "con": "controione",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "There are N—H⋯F hydrogen bonding interactions between the –NH3+ group and the BF4− anions."
+    },
+    {
+     "gruppo": "hydrogen bonds",
+     "ruolo": "donatore",
+     "con": "controione",
+     "cambia": "resta",
+     "forma": "F2",
+     "citazione": "The shortest hydrogen bonds are slightly longer than those in polymorph A (2.03, 2.09 Å for the two BF4− orientations)."
+    },
+    {
+     "gruppo": "alternating aniliniums in each chain",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "The structure of polymorph B is similar to that of polymorph A, however alternating aniliniums in each chain displace along the a axis which leads to the cell doubling."
+    }
+   ],
+   "citazioni": [
+    "The lowest temperature transition between polymorphs A and B occurs at 314 K on cooling as opposed to 341 K on warming showing hysteresis and discontinuous character.",
+    "Data were collected between 130 and 490 K with a warming/cooling rate of 20 K h−1 and a collection time of 28 min which corresponds to a pattern being recorded every 9.33 K.",
+    "The sample was sealed in a 0.7 mm external diameter borosilicate capillary to a length of 30 mm, and was spun at ten rotations a minute during the measurements.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous."
+   ],
+   "certezza": "alta",
+   "note": "Isteresi: 314 K in raffreddamento contro 341 K in riscaldamento; transizione fortemente discontinua."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E5",
+   "da": "F3",
+   "a": "F2",
+   "sottovia": "raffreddamento",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "condizioni": {
+    "temperatura": {
+     "valore": 399,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "K/h",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "alternate anilinium molecules",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "Similarly, the transition from polymorph C to B can be described by the superposition of Z4 displacement modes on the structure of C. These modulate the structure such that alternate anilinium molecules are displaced relative to one another along the a direction."
+    },
+    {
+     "gruppo": "cation",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+    },
+    {
+     "gruppo": "BF4− anion",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+    }
+   ],
+   "citazioni": [
+    "On cooling, the two higher temperature phase transitions show little hysteresis: their transition temperatures on cooling were ∼452 K and ∼399 K.",
+    "Data were collected between 130 and 490 K with a warming/cooling rate of 20 K h−1 and a collection time of 28 min which corresponds to a pattern being recorded every 9.33 K.",
+    "The sample was sealed in a 0.7 mm external diameter borosilicate capillary to a length of 30 mm, and was spun at ten rotations a minute during the measurements.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous."
+   ],
+   "certezza": "media",
+   "note": "Il testo dice «the two higher temperature phase transitions ... on cooling were ∼452 K and ∼399 K»: C -> B a 399 K per l'ordine dell'elenco (dal piu' alto al piu' basso, come in riscaldamento) e per coerenza con il DSC (396 K); non e' scritto esplicitamente quale sia quale."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E6",
+   "da": "F4",
+   "a": "F3",
+   "sottovia": "raffreddamento",
+   "reversibile": true,
+   "inverso_di": "E3",
+   "condizioni": {
+    "temperatura": {
+     "valore": 452,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 20,
+     "unita": "K/h",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ],
+    "ordine_transizione": "primo"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "anilinium ions",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "The main difference is the ordering of the anilinium ions from two orientations to one, which removes the symmetry planes of the Pmmn space group."
+    },
+    {
+     "gruppo": "BF4−",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "Due to the reduction in symmetry, the number of orientations of BF4− decreases from 16 to 8."
+    },
+    {
+     "gruppo": "cation",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+    },
+    {
+     "gruppo": "BF4− anion",
+     "ruolo": "altro",
+     "con": "non_detto",
+     "cambia": null,
+     "citazione": "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+    }
+   ],
+   "citazioni": [
+    "On cooling, the two higher temperature phase transitions show little hysteresis: their transition temperatures on cooling were ∼452 K and ∼399 K.",
+    "Data were collected between 130 and 490 K with a warming/cooling rate of 20 K h−1 and a collection time of 28 min which corresponds to a pattern being recorded every 9.33 K.",
+    "The sample was sealed in a 0.7 mm external diameter borosilicate capillary to a length of 30 mm, and was spun at ten rotations a minute during the measurements.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion.",
+    "The single irrep that is active and the smooth evolution of unit-cell parameters and hence Bragg peak positions at 461 K seen in Fig. 2 ▸ and Fig. 3 ▸ are consistent with DSC data indicating weakly first-order behaviour.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous."
+   ],
+   "certezza": "media",
+   "note": "D -> C a 452 K per l'ordine dell'elenco (vedi E5). Nel paragrafo 3.9 D -> C e' detta a ∼461 K."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E7",
+   "da": "F1",
+   "a": "F2",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "inverso_di": "E10",
+   "condizioni": {
+    "temperatura": {
+     "valore": 336,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/h",
+     "tipo": null
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "meccanismo": [
+     "displaciva"
+    ]
+   },
+   "campione": {
+    "massa": "7.380 mg"
+   },
+   "citazioni": [
+    "These gave phase transition temperatures on warming/cooling between polymorphs A and B (336/321 K), B and C (400/396 K), and C and D (448/445 K).",
+    "DSC data were collected between 300 and 470 K with a heating rate of 5 K h−1 using a TA Instruments DSC2500.",
+    "AnBF4 (7.380 mg) was placed in an aluminium pan and referenced against an empty pan under an N2 atmosphere.",
+    "DSC data measured on AnBF4 similarly revealed three peaks in the temperature range 300 to 490 K (Fig. S1).",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+   ],
+   "certezza": "alta",
+   "conflitto": "Il DSC e' detto fra 300 e 470 K nei Metodi e fra 300 e 490 K nei Risultati. Il tipo di temperatura (onset o picco) non e' detto.",
+   "note": "Stessa transizione di E1 con un altro esperimento (DSC, 5 K/h, altra temperatura 336 K contro 341 K): evento a parte come da linee guida (temperature diverse per tecnica)."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E8",
+   "da": "F2",
+   "a": "F3",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "inverso_di": "E11",
+   "condizioni": {
+    "temperatura": {
+     "valore": 400,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/h",
+     "tipo": null
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "campione": {
+    "massa": "7.380 mg"
+   },
+   "citazioni": [
+    "These gave phase transition temperatures on warming/cooling between polymorphs A and B (336/321 K), B and C (400/396 K), and C and D (448/445 K).",
+    "DSC data were collected between 300 and 470 K with a heating rate of 5 K h−1 using a TA Instruments DSC2500.",
+    "AnBF4 (7.380 mg) was placed in an aluminium pan and referenced against an empty pan under an N2 atmosphere.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+   ],
+   "certezza": "alta",
+   "note": "Stessa transizione di E2 vista al DSC (400 K contro ∼403 K del VT-PXRD)."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E9",
+   "da": "F3",
+   "a": "F4",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "inverso_di": "E12",
+   "condizioni": {
+    "temperatura": {
+     "valore": 448,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 5,
+     "unita": "K/h",
+     "tipo": null
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ],
+    "ordine_transizione": "primo"
+   },
+   "campione": {
+    "massa": "7.380 mg"
+   },
+   "citazioni": [
+    "These gave phase transition temperatures on warming/cooling between polymorphs A and B (336/321 K), B and C (400/396 K), and C and D (448/445 K).",
+    "DSC data were collected between 300 and 470 K with a heating rate of 5 K h−1 using a TA Instruments DSC2500.",
+    "AnBF4 (7.380 mg) was placed in an aluminium pan and referenced against an empty pan under an N2 atmosphere.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "The single irrep that is active and the smooth evolution of unit-cell parameters and hence Bragg peak positions at 461 K seen in Fig. 2 ▸ and Fig. 3 ▸ are consistent with DSC data indicating weakly first-order behaviour.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+   ],
+   "certezza": "alta",
+   "note": "Stessa transizione di E3 vista al DSC (448 K contro ∼454 K del VT-PXRD); «weakly first-order»."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E10",
+   "da": "F2",
+   "a": "F1",
+   "sottovia": "raffreddamento",
+   "reversibile": true,
+   "inverso_di": "E7",
+   "condizioni": {
+    "temperatura": {
+     "valore": 321,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "meccanismo": [
+     "displaciva"
+    ]
+   },
+   "campione": {
+    "massa": "7.380 mg"
+   },
+   "citazioni": [
+    "These gave phase transition temperatures on warming/cooling between polymorphs A and B (336/321 K), B and C (400/396 K), and C and D (448/445 K).",
+    "AnBF4 (7.380 mg) was placed in an aluminium pan and referenced against an empty pan under an N2 atmosphere.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+   ],
+   "certezza": "alta",
+   "note": "La velocita' di raffreddamento del DSC non e' detta (5 K/h e' detta solo per il riscaldamento)."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E11",
+   "da": "F3",
+   "a": "F2",
+   "sottovia": "raffreddamento",
+   "reversibile": true,
+   "inverso_di": "E8",
+   "condizioni": {
+    "temperatura": {
+     "valore": 396,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "campione": {
+    "massa": "7.380 mg"
+   },
+   "citazioni": [
+    "These gave phase transition temperatures on warming/cooling between polymorphs A and B (336/321 K), B and C (400/396 K), and C and D (448/445 K).",
+    "AnBF4 (7.380 mg) was placed in an aluminium pan and referenced against an empty pan under an N2 atmosphere.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+   ],
+   "certezza": "alta",
+   "note": "La velocita' di raffreddamento del DSC non e' detta."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E12",
+   "da": "F4",
+   "a": "F3",
+   "sottovia": "raffreddamento",
+   "reversibile": true,
+   "inverso_di": "E9",
+   "condizioni": {
+    "temperatura": {
+     "valore": 445,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "atmosfera": "N2",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ],
+    "ordine_transizione": "primo"
+   },
+   "campione": {
+    "massa": "7.380 mg"
+   },
+   "citazioni": [
+    "These gave phase transition temperatures on warming/cooling between polymorphs A and B (336/321 K), B and C (400/396 K), and C and D (448/445 K).",
+    "AnBF4 (7.380 mg) was placed in an aluminium pan and referenced against an empty pan under an N2 atmosphere.",
+    "The reversible behaviours seen in Fig. 2 ▸ and in the DSC measurements show that no change in sample composition occurs during any of these transitions.",
+    "The single irrep that is active and the smooth evolution of unit-cell parameters and hence Bragg peak positions at 461 K seen in Fig. 2 ▸ and Fig. 3 ▸ are consistent with DSC data indicating weakly first-order behaviour.",
+    "The smaller hysteresis of the second two transitions and the less dramatic changes in the diffraction data suggest that two higher temperature transitions are weakly discontinuous whereas the first is strongly discontinuous.",
+    "These transitions are driven by molecular displacement (A→B) and order–disorder (B→C→D) of both the cation and the BF4− anion."
+   ],
+   "certezza": "alta",
+   "note": "La velocita' di raffreddamento del DSC non e' detta."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E13",
+   "da": "F1",
+   "a": "F2",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 333,
+     "unita": "K",
+     "tipo": "picco"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "dielettrica"
+    ]
+   },
+   "campione": {
+    "tipo": "compressa",
+    "dimensione": "∼2 mm, 10 mm diameter"
+   },
+   "citazioni": [
+    "The transition from A to B is observed as a smooth Gaussian-like peak in the real dielectric constant (ɛ′) at 333 K.",
+    "The dielectric constant of a pressed pellet of AnBF4 was measured at frequencies between 100 Hz and 100 kHz as the temperature was increased from 293 K to 420 K [Fig. 8 ▸(a)].",
+    "thicker pellets (∼2 mm, 10 mm diameter) for dielectric constant measurements with applied pressures of 10 and 7 tons, respectively."
+   ],
+   "certezza": "media",
+   "note": "Picco gaussiano di ε′ attribuito dagli autori alla transizione A -> B; vicino ai 341 K del VT-PXRD. La velocita' di riscaldamento non e' detta."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E14",
+   "da": "F2",
+   "a": "F3",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 387,
+     "unita": "K",
+     "tipo": "picco"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "dielettrica"
+    ]
+   },
+   "campione": {
+    "tipo": "compressa",
+    "dimensione": "∼2 mm, 10 mm diameter"
+   },
+   "citazioni": [
+    "A second peak is observed at 387 K, slightly below the PXRD measured temperature of 403 K for the transition from polymorph B to C.",
+    "The dielectric constant of a pressed pellet of AnBF4 was measured at frequencies between 100 Hz and 100 kHz as the temperature was increased from 293 K to 420 K [Fig. 8 ▸(a)].",
+    "thicker pellets (∼2 mm, 10 mm diameter) for dielectric constant measurements with applied pressures of 10 and 7 tons, respectively."
+   ],
+   "certezza": "media",
+   "note": "Secondo picco di ε′ a 387 K, «slightly below» i 403 K del VT-PXRD. Il montaggio non raggiungeva la T della transizione C -> D (454 K attesa): nessun evento per C -> D."
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E15",
+   "da": "F1",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 130,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "citazioni": [
+    "AnBF4 adopts the monoclinic form A when synthesized and retains this structure down to 130 K.",
+    "Data were collected between 130 and 490 K with a warming/cooling rate of 20 K h−1 and a collection time of 28 min which corresponds to a pattern being recorded every 9.33 K."
+   ],
+   "certezza": "alta",
+   "note": "A non cambia fino a 130 K, la T piu' bassa raggiunta nel VT-PXRD (130-490 K). Nessuna forma attesa nominata."
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "id": "E16",
+   "da": "F1",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 130,
+     "max": 490,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "VT-PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "crogiolo": "capillare",
+    "sigillato": true
+   },
+   "citazioni": [
+    "The specific structural transition to space group P21/m predicted by FERROSCOPE was not observed with changing temperature",
+    "Data were collected between 130 and 490 K with a warming/cooling rate of 20 K h−1 and a collection time of 28 min which corresponds to a pattern being recorded every 9.33 K."
+   ],
+   "certezza": "media",
+   "note": "La transizione strutturale verso il gruppo P21/m predetta da FERROSCOPE (rotazione degli anilinio nel piano bc) non e' stata osservata variando la temperatura nell'intervallo studiato. La fase P21/m e' solo predetta e non e' una forma dell'articolo: a = ignota."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "water"
+   ],
+   "tempo": {
+    "valore": 1,
+    "unita": "week",
+    "tipo": "processo"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "adding aniline (1 ml, 11.2 mmol, Merck Life Sciences, ≥99.5%) to water (5 ml).",
+    "The solution was stirred for 10 min, then the solvent was allowed to evaporate over one week, leading to colourless block-shaped crystals.",
+    "AnBF4 adopts the monoclinic form A when synthesized"
+   ],
+   "fonte_dati": "propria",
+   "note": "Anilina + acido fluoroborico (1.8 ml, 48 ± 2%wt in acqua) in acqua; cristalli incolori a blocchetto. I campioni policristallini si ottengono per macinazione leggera dei cristalli."
+  },
+  {
+   "forme": [
+    "F2",
+    "F3",
+    "F4"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E1",
+    "E2",
+    "E3"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "A series of significant changes in the Bragg peaks between 300 K and 490 K indicated the formation of three new polymorphs, labelled B, C and D."
+   ],
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": []
+}
