@@ -1,0 +1,633 @@
+{
+  "versione_schema": "v1.4",
+  "doi": "10.3390/cryst7070224",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "note": "Due sali supramolecolari di [(4-nitroanilinio)(18-crown-6)]+: 1 con HSO4− e 2 con PF6− e metanolo. Eventi estratti: le transizioni di fase reversibili LTP <-> HTP, ciascuna con DSC (picco in riscaldamento e in raffreddamento) e con la costante dielettrica (solo riscaldamento). Gli autori le chiamano 'iso-structural phase transitions' nell'abstract, ma 1 cambia gruppo spaziale (P21/n a 100 K, P21/c a 296 K). NON sono eventi: i valori della costante dielettrica dentro una fase, l'anomalia del 'second-order' di 2 (stessa transizione di E4), le TGA (Figure S2 e S3, nel supplementare). La formula di 2 e' C37H68F12N4O17P2 nella Table 1 e C37H66F12N4O17P2 nei Metodi. Z = 2 per 2 in Table 1 pur avendo due cationi indipendenti nell'unita' asimmetrica. La Table 1 e' scritta nel testo letto su una sola riga.",
+  "ccdc": null,
+  "composti": [
+    {
+      "id": "C1",
+      "nome": "4-nitroanilinium (4-HNA)",
+      "smiles": null
+    },
+    {
+      "id": "C2",
+      "nome": "18-crown-6",
+      "smiles": null
+    },
+    {
+      "id": "C3",
+      "nome": "hydrogen sulfate",
+      "nome_scritto": "HSO4−",
+      "smiles": null
+    },
+    {
+      "id": "C4",
+      "nome": "hexafluorophosphate",
+      "nome_scritto": "PF6−",
+      "smiles": null
+    }
+  ],
+  "forme": [
+    {
+      "id": "F1",
+      "etichetta": "1-LTP",
+      "componenti": [
+        {
+          "composto": "C1",
+          "stechiometria": 1
+        },
+        {
+          "composto": "C2",
+          "stechiometria": 1
+        },
+        {
+          "composto": "C3",
+          "stechiometria": 1
+        }
+      ],
+      "tipo": "sale",
+      "ospite": null,
+      "sistema_cristallino": "monoclino",
+      "gruppo_spaziale": "P21/n",
+      "cella": {
+        "a": 10.3715,
+        "b": 18.235,
+        "c": 13.384,
+        "beta": 112.736,
+        "V": 2334.4,
+        "Z": 4,
+        "condizioni": "100 K"
+      },
+      "ccdc": "1529205",
+      "motivi_hb": [
+        {
+          "motivo": "supramolecular rotator–stator [(4-HNA)(18-crown-6)]+ (N–H···O, –NH3+ to six O of 18-crown-6)",
+          "chi": "–NH3+ group and 18-crown-6",
+          "citazione": "The 4-HNA cations were connected to the 18-crown-6 ring to form a supramolecular rotator–stator structure through N–H· · · O interactions between the –NH3+ group and the six O (O1, O2, O3, O4, O5, and O6) atoms of 18-crown-6."
+        },
+        {
+          "motivo": "HSO4− anion dimer linked by O–H···O hydrogen bonds",
+          "chi": "two HSO4− anions",
+          "citazione": "The packing diagram for the LTP (100 K) indicates that the dimer structure of the two HSO4−anions is linked by O–H· · · O hydrogen bonds that ﬁll in the space to form four [(4-HNA)(18-crown-6)]+ supramolecular cations."
+        }
+      ],
+      "citazione": "At the LTP (100 K), crystal 1 crystallized in the monoclinic space group P21/n with small changes in cell parameters, i.e., a = 10.3715 (18) Å, b = 18.235 (3) Å, c =13.384 (3) Å, β = 112.736 (2)◦, and V = 2334.4 (8) Å3 (Table 1).",
+      "note": "Fase di bassa temperatura di 1 (100 K); CCDC dato con la temperatura: «CCDC:1529205 (100 K), CCDC:1529207 (296 K) for 1». Cella dalla frase (Table 1)."
+    },
+    {
+      "id": "F2",
+      "etichetta": "1-HTP",
+      "componenti": [
+        {
+          "composto": "C1",
+          "stechiometria": 1
+        },
+        {
+          "composto": "C2",
+          "stechiometria": 1
+        },
+        {
+          "composto": "C3",
+          "stechiometria": 1
+        }
+      ],
+      "tipo": "sale",
+      "ospite": null,
+      "sistema_cristallino": "monoclino",
+      "gruppo_spaziale": "P21/c",
+      "cella": {
+        "a": 10.45,
+        "b": 18.453,
+        "c": 13.466,
+        "beta": 112.672,
+        "V": 2396,
+        "Z": 4,
+        "condizioni": "296 K"
+      },
+      "ccdc": "1529207",
+      "motivi_hb": [
+        {
+          "motivo": "supramolecular rotator–stator [(4-HNA)(18-crown-6)]+ (N–H···O, –NH3+ to six O of 18-crown-6)",
+          "chi": "–NH3+ group and 18-crown-6",
+          "citazione": "The 4-HNA cations were connected to the 18-crown-6 ring to form a supramolecular rotator–stator structure through N–H· · · O interactions between the –NH3+ group and the six O (O1, O2, O3, O4, O5, and O6) atoms of 18-crown-6."
+        },
+        {
+          "motivo": "HSO4− anion dimer linked by O–H···O hydrogen bonds",
+          "chi": "two HSO4− anions",
+          "citazione": "The packing diagram for the LTP (100 K) indicates that the dimer structure of the two HSO4−anions is linked by O–H· · · O hydrogen bonds that ﬁll in the space to form four [(4-HNA)(18-crown-6)]+ supramolecular cations."
+        }
+      ],
+      "citazione": "Compound 1 crystallized in the monoclinic space group P21/c with a = 10.450 (6) Å, b = 18.453 (11) Å, c =13.466 (8) Å, β = 112.672 (7)◦, and V = 2396 (2) Å3 in the HTP at 296 K.",
+      "note": "Fase di alta temperatura di 1 (296 K); stessa struttura di base della LTP («The crystal structures of 1 are similar between the LTP and HTP structures»). Distanza fra i due anelli di corona: il testo dice 4.208 -> 4.063 Å da 100 a 296 K in 2.1 e 4.063 Å a 100 K e 4.208 Å a 296 K in 2.3 (contraddizione fra le due frasi)."
+    },
+    {
+      "id": "F3",
+      "etichetta": "2-LTP",
+      "componenti": [
+        {
+          "composto": "C1",
+          "stechiometria": 2
+        },
+        {
+          "composto": "C2",
+          "stechiometria": 2
+        },
+        {
+          "composto": "C4",
+          "stechiometria": 2
+        }
+      ],
+      "tipo": [
+        "sale",
+        "solvato"
+      ],
+      "ospite": {
+        "specie": "methanol",
+        "stechiometria": 1,
+        "riferito_a": "unita_formula"
+      },
+      "sistema_cristallino": "monoclino",
+      "gruppo_spaziale": "P21/c",
+      "cella": {
+        "a": 10.9491,
+        "b": 23.701,
+        "c": 21.9038,
+        "alpha": 90,
+        "beta": 113.961,
+        "gamma": 90,
+        "V": 5194.3,
+        "Z": 2,
+        "condizioni": "100 K"
+      },
+      "ccdc": "1529231",
+      "motivi_hb": [
+        {
+          "motivo": "supramolecular rotator–stator [(4-HNA)(18-crown-6)]+ (six N–H···O hydrogen bonds)",
+          "chi": "–NH3+ group and 18-crown-6",
+          "citazione": "The –NH3+ group resided in a perching position, and attained a conﬁguration similar to that of crystal 1; the group was linked by the oxygen atoms of the crown ethers through the six N–H"
+        }
+      ],
+      "citazione": "Although the temperature changed, the space group of crystal 2 remained unchanged.",
+      "note": "Fase di bassa temperatura di 2 (100 K): stesso gruppo spaziale P21/c della fase ad alta temperatura; l'unita' asimmetrica ha due cationi supramolecolari, due anioni PF6− e una molecola di metanolo. Cella dalla Table 1 (colonne 1-LTP, 1-HTP, 2-LTP, 2-HTP): a (Å) 10.3715 (18) 10.450 (6) 10.9491 (9) 10.9429 (9) b (Å) 18.235 (3) 18.453 (11) 23.701 (2) 23.687 (2) c (Å) 13.384 (3) 13.466 (8) 21.9038 (16) 21.8926 (16) α (◦) 90.00 90.00 90.00 90.00 β (◦) 112.736 (2) 112.672 (7) 113.961 (4) 113.962 (4) γ (◦) 90.00 90.00 90.00 90.00 V (Å3) 2334.4 (8) 2396 (2) 5194.3 (7) 5185.6 (7) Z 4 4 2 2 (Z = 2 come scritto in tabella)."
+    },
+    {
+      "id": "F4",
+      "etichetta": "2-HTP",
+      "componenti": [
+        {
+          "composto": "C1",
+          "stechiometria": 2
+        },
+        {
+          "composto": "C2",
+          "stechiometria": 2
+        },
+        {
+          "composto": "C4",
+          "stechiometria": 2
+        }
+      ],
+      "tipo": [
+        "sale",
+        "solvato"
+      ],
+      "ospite": {
+        "specie": "methanol",
+        "stechiometria": 1,
+        "riferito_a": "unita_formula"
+      },
+      "sistema_cristallino": "monoclino",
+      "gruppo_spaziale": "P21/c",
+      "cella": {
+        "a": 10.9429,
+        "b": 23.687,
+        "c": 21.8926,
+        "alpha": 90,
+        "beta": 113.962,
+        "gamma": 90,
+        "V": 5185.6,
+        "Z": 2,
+        "condizioni": "296 K"
+      },
+      "ccdc": "1529232",
+      "motivi_hb": [
+        {
+          "motivo": "supramolecular rotator–stator [(4-HNA)(18-crown-6)]+ (six N–H···O hydrogen bonds)",
+          "chi": "–NH3+ group and 18-crown-6",
+          "citazione": "The –NH3+ group resided in a perching position, and attained a conﬁguration similar to that of crystal 1; the group was linked by the oxygen atoms of the crown ethers through the six N–H"
+        }
+      ],
+      "citazione": "Although the temperature changed, the space group of crystal 2 remained unchanged.",
+      "note": "Fase di alta temperatura di 2 (296 K): gruppo NO2 disordinato su due siti. Cella dalla Table 1 (vedi 2-LTP)."
+    }
+  ],
+  "relazioni": [],
+  "eventi": [
+    {
+      "id": "E1",
+      "da": "F1",
+      "a": "F2",
+      "esito": "avvenuta",
+      "reversibile": true,
+      "inverso_di": "E2",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 257,
+          "unita": "K",
+          "tipo": "picco"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC",
+          "SCXRD"
+        ],
+        "ordine_transizione": "primo"
+      },
+      "campione": {
+        "massa": "16 mg"
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "–NH3+ group of 4-nitroanilinium (N–H···O to the six O atoms of 18-crown-6)",
+          "ruolo": "donatore",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The 4-HNA cations were connected to the 18-crown-6 ring to form a supramolecular rotator–stator structure through N–H· · · O interactions between the –NH3+ group and the six O (O1, O2, O3, O4, O5, and O6) atoms of 18-crown-6."
+        },
+        {
+          "gruppo": "HSO4− anion dimer (O–H···O hydrogen bonds)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "forma": "F1",
+          "citazione": "The packing diagram for the LTP (100 K) indicates that the dimer structure of the two HSO4−anions is linked by O–H· · · O hydrogen bonds that ﬁll in the space to form four [(4-HNA)(18-crown-6)]+ supramolecular cations."
+        },
+        {
+          "gruppo": "aromatic rings of 4-nitroanilinium (C–H···π interactions)",
+          "ruolo": "altro",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The aromatic rings formed two C–H· · · π interactions with distances of 3.195 Å at 100 K and 3.267 Å at 296 K (Figure 2)."
+        },
+        {
+          "gruppo": "aromatic ring of 4-nitroanilinium against the crown ether ring (dihedral angle)",
+          "ruolo": "torsione",
+          "con": "altra_molecola",
+          "cambia": "ruota",
+          "citazione": "Additionally, the dihedral angle between the aromatic ring and the crown ring slightly changed from 92.48◦in the LTP form to 93.47◦in the HTP form."
+        }
+      ],
+      "citazioni": [
+        "In the DSC spectrum obtained from crystal 1, a main endothermic peak and a main exothermic peak were observed at heating of 257 K and cooling of 252 K, respectively, with a 5 K hysteresis width (Figure 5a).",
+        "The wide heat hysteresis and peak shapes reﬂect the characteristics of a ﬁrst-order phase transition.",
+        "The crystal structures of 1 are similar between the LTP and HTP structures.",
+        "At the LTP (100 K), crystal 1 crystallized in the monoclinic space group P21/n with small changes in cell parameters, i.e., a = 10.3715 (18) Å, b = 18.235 (3) Å, c =13.384 (3) Å, β = 112.736 (2)◦, and V = 2334.4 (8) Å3 (Table 1).",
+        "Compound 1 crystallized in the monoclinic space group P21/c with a = 10.450 (6) Å, b = 18.453 (11) Å, c =13.466 (8) Å, β = 112.672 (7)◦, and V = 2396 (2) Å3 in the HTP at 296 K.",
+        "DSC measurements were performed by heating and cooling the samples (16 mg) within the temperature range 210–280 K on a TA Q2000 DSC instrument under nitrogen."
+      ],
+      "certezza": "alta",
+      "note": "Picco endotermico principale a 257 K in riscaldamento (DSC, Fig. 5a), isteresi di 5 K. Cambio di gruppo spaziale P21/n (LTP, 100 K) -> P21/c (HTP, 296 K). L'entropia di transizione e' troppo bassa per essere stimata. DSC su campioni da 16 mg fra 210 e 280 K (Metodi); velocita' di scansione non detta; tipo del campione non scritto per il DSC. Distanze: legame O–H···O 2.647 (100 K) e 2.657 Å (296 K); C–H···π 3.195 Å (100 K) e 3.267 Å (296 K); angolo diedro anello aromatico-corona 92.48° (100 K) e 93.47° (296 K).",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E2",
+      "da": "F2",
+      "a": "F1",
+      "esito": "avvenuta",
+      "reversibile": true,
+      "inverso_di": "E1",
+      "via": "termica",
+      "sottovia": "raffreddamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 252,
+          "unita": "K",
+          "tipo": "picco"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC",
+          "SCXRD"
+        ],
+        "ordine_transizione": "primo"
+      },
+      "campione": {
+        "massa": "16 mg"
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "–NH3+ group of 4-nitroanilinium (N–H···O to the six O atoms of 18-crown-6)",
+          "ruolo": "donatore",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The 4-HNA cations were connected to the 18-crown-6 ring to form a supramolecular rotator–stator structure through N–H· · · O interactions between the –NH3+ group and the six O (O1, O2, O3, O4, O5, and O6) atoms of 18-crown-6."
+        },
+        {
+          "gruppo": "HSO4− anion dimer (O–H···O hydrogen bonds)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "forma": "F1",
+          "citazione": "The packing diagram for the LTP (100 K) indicates that the dimer structure of the two HSO4−anions is linked by O–H· · · O hydrogen bonds that ﬁll in the space to form four [(4-HNA)(18-crown-6)]+ supramolecular cations."
+        },
+        {
+          "gruppo": "aromatic rings of 4-nitroanilinium (C–H···π interactions)",
+          "ruolo": "altro",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The aromatic rings formed two C–H· · · π interactions with distances of 3.195 Å at 100 K and 3.267 Å at 296 K (Figure 2)."
+        },
+        {
+          "gruppo": "aromatic ring of 4-nitroanilinium against the crown ether ring (dihedral angle)",
+          "ruolo": "torsione",
+          "con": "altra_molecola",
+          "cambia": "ruota",
+          "citazione": "Additionally, the dihedral angle between the aromatic ring and the crown ring slightly changed from 92.48◦in the LTP form to 93.47◦in the HTP form."
+        }
+      ],
+      "citazioni": [
+        "In the DSC spectrum obtained from crystal 1, a main endothermic peak and a main exothermic peak were observed at heating of 257 K and cooling of 252 K, respectively, with a 5 K hysteresis width (Figure 5a).",
+        "The wide heat hysteresis and peak shapes reﬂect the characteristics of a ﬁrst-order phase transition.",
+        "The crystal structures of 1 are similar between the LTP and HTP structures.",
+        "At the LTP (100 K), crystal 1 crystallized in the monoclinic space group P21/n with small changes in cell parameters, i.e., a = 10.3715 (18) Å, b = 18.235 (3) Å, c =13.384 (3) Å, β = 112.736 (2)◦, and V = 2334.4 (8) Å3 (Table 1).",
+        "Compound 1 crystallized in the monoclinic space group P21/c with a = 10.450 (6) Å, b = 18.453 (11) Å, c =13.466 (8) Å, β = 112.672 (7)◦, and V = 2396 (2) Å3 in the HTP at 296 K.",
+        "DSC measurements were performed by heating and cooling the samples (16 mg) within the temperature range 210–280 K on a TA Q2000 DSC instrument under nitrogen."
+      ],
+      "certezza": "alta",
+      "note": "Picco esotermico principale a 252 K in raffreddamento (DSC, Fig. 5a): verso inverso di E1, isteresi di 5 K.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E3",
+      "da": "F1",
+      "a": "F2",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 255,
+          "unita": "K",
+          "tipo": "picco",
+          "circa": true
+        },
+        "velocita": {
+          "valore": 2,
+          "unita": "K/min",
+          "circa": true
+        },
+        "altro": "costante dielettrica a 5, 10, 100 kHz e 1 MHz (massimo 22.5 a 5 kHz)",
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "dielettrica"
+        ]
+      },
+      "campione": {
+        "tipo": "polvere"
+      },
+      "citazioni": [
+        "The temperature-dependent dielectric constant of the powder samples of crystals 1 and 2 were presented at four selected frequencies, namely, 5 KHz, 10 KHz, 100 KHz, and 1 MHz.",
+        "Interestingly, when the temperature neared 255 K, the dielectric constant sharply increased to a maximum value of 22.5 at 5 KHz.",
+        "The temperature-dependent dielectric response of compound 1 and 2 both display one sharp peak-like anomaly upon heating at 255 K and 265 K, respectively.",
+        "temperature sweeping rate of approximately 2 K/min."
+      ],
+      "certezza": "alta",
+      "note": "Stessa transizione di E1 vista con la costante dielettrica: anomalia a picco acuto in riscaldamento a 255 K (la DSC da' 257 K, quindi un evento per tecnica). In raffreddamento non c'e' un'anomalia dielettrica distinta («there is no distinct dielectric anomaly for 1 and 2 upon cooling»): gli autori lo spiegano con il fatto che i cristalli hanno gia' subito la transizione con la variazione di temperatura una volta; non e' un negativo di transizione perche' la DSC la vede in raffreddamento (E2). Sotto 250 K la costante dielettrica sale lentamente; vicino a 255 K sale di colpo al massimo (22.5 a 5 kHz) e poi scende bruscamente a un minimo di 11.91 a circa 265 K.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E4",
+      "da": "F3",
+      "a": "F4",
+      "esito": "avvenuta",
+      "reversibile": true,
+      "inverso_di": "E5",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 266,
+          "unita": "K",
+          "tipo": "non_specificato"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC",
+          "SCXRD"
+        ],
+        "ordine_transizione": "secondo"
+      },
+      "campione": {
+        "massa": "16 mg"
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "–NH3+ group of 4-nitroanilinium (six N–H···O hydrogen bonds to 18-crown-6)",
+          "ruolo": "donatore",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The –NH3+ group resided in a perching position, and attained a conﬁguration similar to that of crystal 1; the group was linked by the oxygen atoms of the crown ethers through the six N–H"
+        },
+        {
+          "gruppo": "–NO2 group of 4-nitroanilinium (disordered over two sites in the HTP form)",
+          "ruolo": "torsione",
+          "con": "stessa_molecola",
+          "cambia": "ruota",
+          "forma": "F4",
+          "citazione": "Interestingly, it was found that obvious disorder phenomena occur in the HTP phase of the –NO2 group. The O14, O15, O16, O17 atoms of –NO2 group in supramolecular cations are distinctly disordered and occupy two sites (O14A, O14B, O15A, O15B, O16A, O16B, O17A, O17B)."
+        },
+        {
+          "gruppo": "PF6− anions (disordered)",
+          "ruolo": "altro",
+          "con": "controione",
+          "cambia": "resta",
+          "citazione": "In contrast to the ordered HSO4−anions in 1, the PF6−anions in 2 were disordered at both 100 K and 296 K."
+        }
+      ],
+      "citazioni": [
+        "those for crystal 2 were conducted within the temperature range 240–320 K, and revealed two anomalies at 266 K (heating) and 261 K (cooling) (Figure 5b).",
+        "The almost non-existent hysteresis and small heat anomalies clearly reﬂect the continuous characteristic of the phase transition and thus effectively show features of a second-order phase transition.",
+        "Although the temperature changed, the space group of crystal 2 remained unchanged.",
+        "The results indicated that crystals 1 and 2 both underwent an iso-structural phase transition."
+      ],
+      "certezza": "alta",
+      "note": "Anomalia DSC a 266 K in riscaldamento (Fig. 5b). Transizione isostrutturale: stesso gruppo spaziale P21/c a 100 K e 296 K («no structural symmetry breaking»). Gli autori la chiamano di secondo ordine («effectively show features of a second-order phase transition») ma scrivono anche «thermal hysteresis was about 5 K» e «almost non-existent hysteresis» nello stesso paragrafo: due frasi in contraddizione sull'isteresi. Il tipo di picco non e' detto. Intervallo DSC dichiarato nei risultati 240–320 K, nei metodi 210–280 K per i campioni di DSC.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E5",
+      "da": "F4",
+      "a": "F3",
+      "esito": "avvenuta",
+      "reversibile": true,
+      "inverso_di": "E4",
+      "via": "termica",
+      "sottovia": "raffreddamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 261,
+          "unita": "K",
+          "tipo": "non_specificato"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC",
+          "SCXRD"
+        ],
+        "ordine_transizione": "secondo"
+      },
+      "campione": {
+        "massa": "16 mg"
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "–NH3+ group of 4-nitroanilinium (six N–H···O hydrogen bonds to 18-crown-6)",
+          "ruolo": "donatore",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The –NH3+ group resided in a perching position, and attained a conﬁguration similar to that of crystal 1; the group was linked by the oxygen atoms of the crown ethers through the six N–H"
+        },
+        {
+          "gruppo": "–NO2 group of 4-nitroanilinium (disordered over two sites in the HTP form)",
+          "ruolo": "torsione",
+          "con": "stessa_molecola",
+          "cambia": "ruota",
+          "forma": "F4",
+          "citazione": "Interestingly, it was found that obvious disorder phenomena occur in the HTP phase of the –NO2 group. The O14, O15, O16, O17 atoms of –NO2 group in supramolecular cations are distinctly disordered and occupy two sites (O14A, O14B, O15A, O15B, O16A, O16B, O17A, O17B)."
+        },
+        {
+          "gruppo": "PF6− anions (disordered)",
+          "ruolo": "altro",
+          "con": "controione",
+          "cambia": "resta",
+          "citazione": "In contrast to the ordered HSO4−anions in 1, the PF6−anions in 2 were disordered at both 100 K and 296 K."
+        }
+      ],
+      "citazioni": [
+        "those for crystal 2 were conducted within the temperature range 240–320 K, and revealed two anomalies at 266 K (heating) and 261 K (cooling) (Figure 5b).",
+        "The thermal hysteresis was about 5 K",
+        "The almost non-existent hysteresis and small heat anomalies clearly reﬂect the continuous characteristic of the phase transition and thus effectively show features of a second-order phase transition.",
+        "Although the temperature changed, the space group of crystal 2 remained unchanged."
+      ],
+      "certezza": "alta",
+      "note": "Anomalia DSC a 261 K in raffreddamento (Fig. 5b): verso inverso di E4. Vedi la nota di E4 sull'isteresi contraddittoria.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E6",
+      "da": "F3",
+      "a": "F4",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 265,
+          "unita": "K",
+          "tipo": "non_specificato",
+          "circa": true
+        },
+        "velocita": {
+          "valore": 2,
+          "unita": "K/min",
+          "circa": true
+        },
+        "altro": "costante dielettrica a 5, 10, 100 kHz e 1 MHz (massimo circa 8.14 a 5 kHz)",
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "dielettrica"
+        ],
+        "ordine_transizione": "secondo"
+      },
+      "campione": {
+        "tipo": "polvere"
+      },
+      "citazioni": [
+        "The temperature-dependent dielectric constant of the powder samples of crystals 1 and 2 were presented at four selected frequencies, namely, 5 KHz, 10 KHz, 100 KHz, and 1 MHz.",
+        "For crystal 2, the dielectric constant slowly increased, with an abrupt slope at around 265 K during heating (Figure 6b).",
+        "The temperature-dependent dielectric response of compound 1 and 2 both display one sharp peak-like anomaly upon heating at 255 K and 265 K, respectively.",
+        "temperature sweeping rate of approximately 2 K/min."
+      ],
+      "certezza": "alta",
+      "note": "Stessa transizione di E4 vista con la costante dielettrica: pendenza brusca a circa 265 K in riscaldamento, anomalia debole («small DSC and dielectric anomalies at about 265 K; this pattern is a feature of a second-order phase transition»). In raffreddamento nessuna anomalia dielettrica distinta.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    }
+  ],
+  "preparazioni": [
+    {
+      "forme": [
+        "F2"
+      ],
+      "metodo": "evaporazione",
+      "solventi": [
+        "alcohol"
+      ],
+      "esito": "ottenuta",
+      "tempo": {
+        "valore": 5,
+        "unita": "days",
+        "tipo": "processo"
+      },
+      "temperatura": {
+        "valore": null,
+        "unita": null,
+        "tipo": "ambiente"
+      },
+      "citazioni": [
+        "Yellow crystals 1 were obtained by evaporating an alcohol solution containing 4-nitroaniline (20 mg), H2SO4 (50 mg), and 18-crown-6 (200 mg) at room temperature for 5 days to a 52% yield (based on 4-nitroaniline)."
+      ],
+      "fonte_dati": "propria",
+      "note": "Alcol non specificato. Cristalli ottenuti a temperatura ambiente: attribuiti a 1-HTP perche' la transizione e' a circa 255 K (non detto nella frase). Rese e quantita' di reagenti: 20, 50 e 200 mg; resa 52%."
+    },
+    {
+      "forme": [
+        "F4"
+      ],
+      "metodo": "evaporazione",
+      "solventi": [
+        "methanol"
+      ],
+      "esito": "ottenuta",
+      "tempo": {
+        "valore": 5,
+        "unita": "days",
+        "tipo": "processo",
+        "circa": true
+      },
+      "temperatura": {
+        "valore": null,
+        "unita": null,
+        "tipo": "ambiente"
+      },
+      "citazioni": [
+        "Single crystals of 2 were prepared by slowly evaporating a mixture of HPF6 (50 mg), 4-nitroaniline (20 mg), and 18-crown-6 (200 mg) in methanol solution (50 mL). The methanol solution was allowed to stand for approximately 5 days under room temperature.",
+        "The single crystals of salt 2 were colorless transparent crystals obtained at 58% yield."
+      ],
+      "fonte_dati": "propria",
+      "note": "Cristalli a temperatura ambiente: attribuiti a 2-HTP perche' la transizione e' a circa 265 K (non detto nella frase). Quantita': HPF6 50 mg, 4-nitroaniline 20 mg, 18-crown-6 200 mg in 50 mL di metanolo; resa 58%."
+    }
+  ],
+  "molecole": []
+}
