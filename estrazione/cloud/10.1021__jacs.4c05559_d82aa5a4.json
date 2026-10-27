@@ -1,0 +1,929 @@
+{
+  "versione_schema": "v1.4",
+  "doi": "10.1021/jacs.4c05559",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "note": "ImB: sei fasi cristalline (I-VI) e cinque transizioni cristallo-cristallo (I, V, VI -> II monotrope non SCSC; II <-> III e III <-> IV enantiotrope SCSC reversibili). Le temperature e le entalpie sono quelle delle corse DSC del testo; per le transizioni reversibili le due direzioni sono eventi distinti (E5/E6, E7/E8). Le corse DSC complete, le velocita' di scansione di ogni prova, le procedure di preparazione delle sei fasi, le celle a diverse temperature, i coefficienti di espansione termica e i dati Raman (Fig. 9: fase IV a 10 °C, III a 30 e 100 °C, II a 120 °C sullo stesso cristallo) sono nel supplementare o nelle figure; i coefficienti di espansione termica colossali (235 × 10–6 K–1 per IV lungo c, 208 × 10–6 K–1 per III lungo a) e la proposta di una mappa per predire le transizioni SCSC (supercelle comuni e orientazione delle catene rispetto all'asse b) sono considerazioni, non eventi. Nessun CCDC o refcode nel testo. Le temperature delle celle di Table 1 (colonna T) non hanno l'unita' scritta; Table 2 e' in °C e mostra celle II a 110, III a 100 e 25, IV a 20.",
+  "composti": [
+    {
+      "id": "C1",
+      "nome": "ImB (benzophenone condensed with 4-hydroxybenzohydrazide)",
+      "smiles": null
+    }
+  ],
+  "forme": [
+    {
+      "id": "F1",
+      "composto": "C1",
+      "etichetta": "phase I",
+      "tipo": "anidro",
+      "tipo_presunto": true,
+      "ospite": null,
+      "sistema_cristallino": "monoclino",
+      "gruppo_spaziale": "P21/c",
+      "cella": {
+        "a": 8.721,
+        "b": 27.143,
+        "c": 14.467,
+        "alpha": 90,
+        "beta": 104.61,
+        "gamma": 90,
+        "Z": 8,
+        "Z_primo": 2,
+        "T_scritta": "20",
+        "condizioni": "T = 20 (colonna T di Table 1, unita' non scritta)"
+      },
+      "motivi_hb": [
+        {
+          "motivo": "H-bonded chains by translation of couples of H-bonded independent molecules (chains perpendicular to b)",
+          "chi": "O–H donor to carbonyl O acceptor, Z' = 2",
+          "citazione": "In I, chains are formed by translation of couples of H-bonded independent molecules (blue/red), whereas in VI, chains are formed by glide reflection of the independent molecule."
+        }
+      ],
+      "citazione": "I | 8.721(4) | 27.143(7) | 14.467(5) | 90 | 104.61(2) | 90 | 1.268 | 20 | P21/c | 8 | 2",
+      "note": "Metastabile, trasformazione monotropa non SCSC in II. Fase con Z' = 2. Temperatura di misura della cella: colonna T di Table 1 (unita' non scritta; Table 2 e' in °C)."
+    },
+    {
+      "id": "F2",
+      "composto": "C1",
+      "etichetta": "phase II",
+      "tipo": "anidro",
+      "tipo_presunto": true,
+      "ospite": null,
+      "sistema_cristallino": "monoclino",
+      "gruppo_spaziale": "P21/c",
+      "cella": {
+        "a": 9.789,
+        "b": 14.384,
+        "c": 13.775,
+        "alpha": 90,
+        "beta": 117.21,
+        "gamma": 90,
+        "Z": 4,
+        "Z_primo": 1,
+        "T_scritta": "110",
+        "condizioni": "T = 110 (colonna T di Table 1, unita' non scritta)"
+      },
+      "motivi_hb": [
+        {
+          "motivo": "H-bonded chains wrapped around crystallographic screw axes (sole independent molecule)",
+          "chi": "O–H donor to carbonyl O acceptor",
+          "citazione": "In the high-temperature polymorph II, chains are generated in the simplest way. They are wrapped around crystallographic screw axes and comprise the sole independent molecule of the crystal structure."
+        }
+      ],
+      "citazione": "II | 9.789(4) | 14.384(5) | 13.775(5) | 90 | 117.21(3) | 90 | 1.218 | 110 | P21/c | 4 | 1",
+      "note": "Fase di alta temperatura (stabile ad alta T); la sua cella in Table 1 e' a 110 (unita' non scritta). Fonde a 239 °C."
+    },
+    {
+      "id": "F3",
+      "composto": "C1",
+      "etichetta": "phase III",
+      "tipo": "anidro",
+      "tipo_presunto": true,
+      "ospite": null,
+      "sistema_cristallino": "monoclino",
+      "gruppo_spaziale": "P21",
+      "cella": {
+        "a": 12.44,
+        "b": 14.383,
+        "c": 28.541,
+        "alpha": 90,
+        "beta": 94.94,
+        "gamma": 90,
+        "Z": 12,
+        "Z_primo": 6,
+        "T_scritta": "20",
+        "condizioni": "T = 20 (colonna T di Table 1, unita' non scritta)"
+      },
+      "motivi_hb": [
+        {
+          "motivo": "six independent molecules and four different H-bonded chains: two by b translation of couples of H-bonded molecules (as in IV), two around screw axes (as in II)",
+          "chi": "O–H donor to carbonyl O acceptor",
+          "citazione": "In fact, in III, there are six independent molecules and four different chains (Figure 6b)."
+        }
+      ],
+      "citazione": "III | 12.440(5) | 14.383(5) | 28.541(8) | 90 | 94.94(2) | 90 | 1.239 | 20 | P21 | 12 | 6",
+      "note": "Fase stabile a temperatura ambiente, Z' = 6, gruppo spaziale vero P21 ma fortemente pseudocentrosimmetrico («quasi P21/c»)."
+    },
+    {
+      "id": "F4",
+      "composto": "C1",
+      "etichetta": "phase IV",
+      "tipo": "anidro",
+      "tipo_presunto": true,
+      "ospite": null,
+      "sistema_cristallino": "monoclino",
+      "gruppo_spaziale": "P21/c",
+      "cella": {
+        "a": 14.494,
+        "b": 14.509,
+        "c": 16.685,
+        "alpha": 90,
+        "beta": 110.16,
+        "gamma": 90,
+        "Z": 8,
+        "Z_primo": 2,
+        "T_scritta": "–100",
+        "condizioni": "T = –100 (colonna T di Table 1, unita' non scritta)"
+      },
+      "motivi_hb": [
+        {
+          "motivo": "H-bonded chains produced by b translation of couples of two H-bonded independent molecules",
+          "chi": "O–H donor to carbonyl O acceptor",
+          "citazione": "In lower-temperature phase IV, chains are produced by b⃗ translation of couples of two H-bonded independent molecules (red/blue)."
+        }
+      ],
+      "citazione": "IV | 14.494(4) | 14.509(5) | 16.685(5) | 90 | 110.16(3) | 90 | 1.276 | –100 | P21/c | 8 | 2",
+      "note": "Fase di bassa temperatura, Z' = 2; cella a –100 (unita' non scritta in Table 1)."
+    },
+    {
+      "id": "F5",
+      "composto": "C1",
+      "etichetta": "phase V",
+      "tipo": "anidro",
+      "tipo_presunto": true,
+      "ospite": null,
+      "sistema_cristallino": "triclino",
+      "gruppo_spaziale": "P-1",
+      "cella": {
+        "a": 10.506,
+        "b": 10.621,
+        "c": 16.985,
+        "alpha": 79.249,
+        "beta": 80.65,
+        "gamma": 63.272,
+        "Z": 4,
+        "Z_primo": 2,
+        "T_scritta": "–100",
+        "condizioni": "T = –100 (colonna T di Table 1, unita' non scritta)"
+      },
+      "motivi_hb": [
+        {
+          "motivo": "closed tetramers (ring) of the O–H···O=C synthon",
+          "chi": "O–H donor to carbonyl O acceptor, two independent molecules almost orthogonal",
+          "citazione": "the usual O–H···O=C synthon produces closed tetramers instead of chains as in the other four polymorphs"
+        }
+      ],
+      "citazione": "V | 10.506(3) | 10.621(3) | 16.985(4) | 79.249(19) | 80.650(19) | 63.272(18) | 1.269 | –100 | P1̅ | 4 | 2",
+      "note": "Triclina, Z' = 2, metastabile; gruppo scritto P1̅ in Table 1.",
+      "gruppo_spaziale_scritto": "P1̅"
+    },
+    {
+      "id": "F6",
+      "composto": "C1",
+      "etichetta": "phase VI",
+      "tipo": "anidro",
+      "tipo_presunto": true,
+      "ospite": null,
+      "sistema_cristallino": "monoclino",
+      "gruppo_spaziale": "P21/c",
+      "cella": {
+        "a": 10.148,
+        "b": 11.192,
+        "c": 14.811,
+        "alpha": 90,
+        "beta": 109.337,
+        "gamma": 90,
+        "Z": 4,
+        "Z_primo": 1,
+        "T_scritta": "20",
+        "condizioni": "T = 20 (colonna T di Table 1, unita' non scritta)"
+      },
+      "motivi_hb": [
+        {
+          "motivo": "H-bonded chains by glide reflection of the independent molecule (chains perpendicular to b); phenolic OH in conformation Hb",
+          "chi": "O–H donor to carbonyl O acceptor, Z' = 1",
+          "citazione": "In I, chains are formed by translation of couples of H-bonded independent molecules (blue/red), whereas in VI, chains are formed by glide reflection of the independent molecule."
+        }
+      ],
+      "citazione": "VI | 10.1480(18) | 11.192(3) | 14.811(2) | 90 | 109.337(12) | 90 | 1.324 | 20 | P21/c | 4 | 1",
+      "note": "Metastabile rispetto alla triade II/III/IV; la piu' densa (1.324 g/cm3) e con il ΔH di transizione piu' alto; Z' = 1; conformazione Hb dell'OH fenolico (Ha in tutte le altre)."
+    }
+  ],
+  "relazioni": [
+    {
+      "forme": [
+        "F2",
+        "F3"
+      ],
+      "relazione": "enantiotropa",
+      "stabile_a_temperatura_ambiente": "F3",
+      "fonte_dati": "propria",
+      "citazione": "The transition II/III is enantiotropic, and heating phase III results in phase II again (ΔH = 1.24 kJ/mol).",
+      "note": "La transizione II/III avviene a 104 °C sia scaldando sia raffreddando (E5, E6; isteresi entro 0.5 °C): non registrata come temperatura_transizione perche' il numero non sta nella frase che dichiara l'enantiotropia. Dal sommario: «Phase III, with Z′ = 6, is stable at room temperature between phase II (Z′ = 1), stable at high temperature, and phase IV (Z′ = 2), stable at low temperature.»"
+    },
+    {
+      "forme": [
+        "F3",
+        "F4"
+      ],
+      "relazione": "enantiotropa",
+      "stabile_a_temperatura_ambiente": "F3",
+      "fonte_dati": "propria",
+      "citazione": "The transition III/IV is again enantiotropic, and by heating phase IV, transformation into phase III is observed at 22 °C (ΔH = 1.1 kJ/mol).",
+      "note": "Temperatura di equilibrio non data: la transizione ha forte sottoraffreddamento (–16 °C raffreddando, 22 °C riscaldando)."
+    },
+    {
+      "forme": [
+        "F5",
+        "F2"
+      ],
+      "relazione": "monotropa",
+      "fonte_dati": "propria",
+      "citazione": "The monotropic transition V → II is diffusive/reconstructive, as shown in Figure 2."
+    },
+    {
+      "forme": [
+        "F6",
+        "F2"
+      ],
+      "relazione": "monotropa",
+      "fonte_dati": "propria",
+      "citazione": "The monotropic transition VI → II is also diffusive, but unlike V → II, it is fast",
+      "note": "VI e' «metastable with respect to the triad II/III/IV»."
+    },
+    {
+      "forme": [
+        "F1",
+        "F2"
+      ],
+      "relazione": "monotropa",
+      "fonte_dati": "propria",
+      "citazione": "A similar behavior is also observed for the monotropic transition I → II (movie I_II)."
+    }
+  ],
+  "eventi": [
+    {
+      "id": "E1",
+      "da": "F1",
+      "a": "F2",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 163,
+          "unita": "°C",
+          "tipo": "non_specificato"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC",
+          "microscopia"
+        ],
+        "entalpia": {
+          "valore": 2.4,
+          "unita": "kJ/mol",
+          "tipo": "transizione"
+        },
+        "meccanismo": [
+          "ricostruttiva"
+        ]
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "H-bonded chains (orientation with respect to the unique axis)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "ruota",
+          "citazione": "On the other hand, in monoclinic phases I/II and VI/II, the H-bonded chains are differently oriented with respect to the unique axis, and transitions I → II and VI → II are not SCSC."
+        },
+        {
+          "gruppo": "amido N–H",
+          "ruolo": "donatore",
+          "con": "non_detto",
+          "cambia": "resta",
+          "citazione": "Amido N–H donor is never involved in H-bonds, nor is it involved in any short intermolecular contact at a distance less than the sum of van der Waals radii plus 0.1 Å."
+        }
+      ],
+      "citazioni": [
+        "A sample of phase I transforms at 163 °C (ΔH = 2.4 kJ/mol) into a new crystal phase (phase II).",
+        "A similar behavior is also observed for the monotropic transition I → II (movie I_II).",
+        "This is the reason transition I → II is not SCSC."
+      ],
+      "certezza": "media",
+      "note": "DSC (Fig. 1c): trasformazione a 163 °C, ΔH 2.4 kJ/mol. Monotropa, non SCSC; il testo dice «A similar behavior» dopo la descrizione di VI -> II (diffusiva, veloce, campione polverizzato): la natura ricostruttiva e' desunta da quel «similar»; velocita' di riscaldamento non detta. Le catene di legami H di I sono perpendicolari a b e orientate in modo diverso rispetto a II.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E2",
+      "da": "F5",
+      "a": "F2",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 200,
+          "unita": "°C",
+          "tipo": "non_specificato"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC"
+        ],
+        "entalpia": {
+          "valore": 6.2,
+          "unita": "kJ/mol",
+          "tipo": "transizione"
+        },
+        "meccanismo": [
+          "ricostruttiva"
+        ]
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "O–H···O=C synthon (closed tetramers in phase V, chains in phase II)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": null,
+          "forma": "F5",
+          "citazione": "the usual O–H···O=C synthon produces closed tetramers instead of chains as in the other four polymorphs"
+        },
+        {
+          "gruppo": "amido N–H",
+          "ruolo": "donatore",
+          "con": "non_detto",
+          "cambia": "resta",
+          "citazione": "Amido N–H donor is never involved in H-bonds, nor is it involved in any short intermolecular contact at a distance less than the sum of van der Waals radii plus 0.1 Å."
+        }
+      ],
+      "citazioni": [
+        "In a similar way, a sample of phase V at 200 °C (ΔH = 6.2 kJ/mol) and of phase VI at 172 °C (ΔH = 14.5 kJ/mol) transforms again into phase II.",
+        "The monotropic transition V → II is diffusive/reconstructive, as shown in Figure 2.",
+        "This is consistent with the diffusive/reconstructive nature and slowness of transition V → II, as previously discussed."
+      ],
+      "certezza": "alta",
+      "note": "DSC (Fig. 1a): V -> II a 200 °C, ΔH 6.2 kJ/mol. Transizione monotropa lenta. Il tetramero ad anello di V diventa catena in II. Vedi E3 per la stessa transizione al microscopio.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E3",
+      "da": "F5",
+      "a": "F2",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 210,
+          "unita": "°C",
+          "tipo": "osservata"
+        },
+        "velocita": {
+          "valore": 10,
+          "unita": "°C/min"
+        },
+        "tempo": {
+          "valore": 33,
+          "unita": "s",
+          "tipo": "trasformazione"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "microscopia"
+        ],
+        "meccanismo": [
+          "ricostruttiva",
+          "nucleazione_crescita"
+        ],
+        "cinetica": "punti di nucleazione della fase II dentro il cristallo di V; i fronti avanzano lentamente in direzioni diverse; il campione finale conserva dimensioni e forma ma contiene domini cristallini con orientazioni diverse"
+      },
+      "campione": {
+        "tipo": "cristallo_singolo"
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "O–H···O=C synthon (closed tetramers in phase V, chains in phase II)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": null,
+          "forma": "F5",
+          "citazione": "the usual O–H···O=C synthon produces closed tetramers instead of chains as in the other four polymorphs"
+        },
+        {
+          "gruppo": "amido N–H",
+          "ruolo": "donatore",
+          "con": "non_detto",
+          "cambia": "resta",
+          "citazione": "Amido N–H donor is never involved in H-bonds, nor is it involved in any short intermolecular contact at a distance less than the sum of van der Waals radii plus 0.1 Å."
+        }
+      ],
+      "citazioni": [
+        "During the transition, some nucleation points of daughter phase II are observed in the parent crystal of phase V, whose phase fronts slowly advance through the crystal in different directions (movie V_II).",
+        "As an indicative example, for the single crystal of Figure 2a, the transition was accomplished within 33 s at a 10 °C/min heating rate.",
+        "(b) snapshot of the same crystal of (a) after the complete transition to phase II at 210 °C.",
+        "As shown in Figure 2, a single crystal of phase V, after the transition, is transformed into a sample of phase II that keeps the original dimensions and shape but contains single crystal domains with different relative orientations"
+      ],
+      "certezza": "media",
+      "note": "Stessa transizione di E2 al microscopio polarizzatore con piastra calda (cristallo singolo). 210 °C e' la temperatura della foto a transizione completata (Fig. 2b), non il punto di transizione: tipo osservata. 33 s a 10 °C/min per il cristallo di Fig. 2a («indicative example»).",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E4",
+      "da": "F6",
+      "a": "F2",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 172,
+          "unita": "°C",
+          "tipo": "non_specificato"
+        },
+        "tempo": {
+          "valore": 3.5,
+          "unita": "s",
+          "tipo": "trasformazione"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC",
+          "microscopia"
+        ],
+        "entalpia": {
+          "valore": 14.5,
+          "unita": "kJ/mol",
+          "tipo": "transizione"
+        },
+        "meccanismo": [
+          "ricostruttiva"
+        ],
+        "integrita": "polverizzato"
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "H-bonded chains (orientation with respect to the unique axis)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "ruota",
+          "citazione": "On the other hand, in monoclinic phases I/II and VI/II, the H-bonded chains are differently oriented with respect to the unique axis, and transitions I → II and VI → II are not SCSC."
+        },
+        {
+          "gruppo": "amido N–H",
+          "ruolo": "donatore",
+          "con": "non_detto",
+          "cambia": "resta",
+          "citazione": "Amido N–H donor is never involved in H-bonds, nor is it involved in any short intermolecular contact at a distance less than the sum of van der Waals radii plus 0.1 Å."
+        }
+      ],
+      "citazioni": [
+        "In a similar way, a sample of phase V at 200 °C (ΔH = 6.2 kJ/mol) and of phase VI at 172 °C (ΔH = 14.5 kJ/mol) transforms again into phase II.",
+        "The monotropic transition VI → II is also diffusive, but unlike V → II, it is fast (3.5 s for the specimen of Figure 3) and, after the transition, a powdered specimen of daughter phase II is obtained (movie VI_II), which retains the original dimensions and shape.",
+        "(b) snapshot of the same crystal of (a) after the complete transition to phase II at 172 °C."
+      ],
+      "certezza": "alta",
+      "note": "DSC (Fig. 1b): VI -> II a 172 °C, ΔH 14.5 kJ/mol; al microscopio la foto a transizione completata e' a 172 °C (stessa temperatura: un solo evento per le due tecniche). Transizione monotropa, veloce (3.5 s per il campione di Fig. 3), prodotto polverizzato che conserva dimensioni e forma. Cambia la conformazione dell'OH fenolico (Hb in VI, Ha in II).",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E5",
+      "da": "F2",
+      "a": "F3",
+      "esito": "avvenuta",
+      "reversibile": true,
+      "inverso_di": "E6",
+      "via": "termica",
+      "sottovia": "raffreddamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 104,
+          "unita": "°C",
+          "tipo": "non_specificato"
+        },
+        "velocita": {
+          "min": 0.5,
+          "max": 20,
+          "unita": "°C/min"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC",
+          "microscopia"
+        ],
+        "meccanismo": [
+          "SCSC",
+          "displaciva"
+        ]
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "H-bonded chains (symmetry rules by which the chains are built: screw axis versus translation)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": null,
+          "citazione": "The sequence of reversible SCSC transitions IV ⇆ III ⇆ II involves a remarkable ping pong of the symmetry rules by which H-bonded chains are built."
+        },
+        {
+          "gruppo": "H-bonded chains running parallel to the unique axis b (screw-axis chains in II, translation chains in IV, mixture of both in III)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The common structural motif of polymorphs II, III, and IV is the formation of H-bonded chains running parallel to the unique axis b, as illustrated in Figure 6, and this accounts for the basically constant value of b axis in the three polymorphs."
+        },
+        {
+          "gruppo": "O–H···O=C hydrogen bond (phenolic O–H donor, carbonyl O acceptor)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The common feature of all six polymorphs of ImB is the formation of H-bonds between the O–H donor and carbonyl O acceptor, and this is the only strong H bond found in all the crystal structures."
+        },
+        {
+          "gruppo": "amido N–H",
+          "ruolo": "donatore",
+          "con": "non_detto",
+          "cambia": "resta",
+          "citazione": "Amido N–H donor is never involved in H-bonds, nor is it involved in any short intermolecular contact at a distance less than the sum of van der Waals radii plus 0.1 Å."
+        }
+      ],
+      "citazioni": [
+        "By cooling phase II, phases I, V, or VI are no longer obtained, but at 104 °C, there is transition to a new crystal phase (phase III).",
+        "The transition II/III is enantiotropic, and heating phase III results in phase II again (ΔH = 1.24 kJ/mol).",
+        "The difference between the (onset) transition temperature on heating and cooling is within 0.5 °C, over a range of heating/cooling rates spanning between 0.5 and 20 °C/min (see Supporting Information).",
+        "This strong metric similarity is consistent with the nondiffusive/displacive nature of the transitions between phases II, III, and IV."
+      ],
+      "certezza": "alta",
+      "note": "DSC (Fig. 1d): raffreddando II si ottiene III a 104 °C. L'isteresi fra riscaldamento e raffreddamento e' al massimo 0.5 °C (onset) fra 0.5 e 20 °C/min (quasi nessun sottoraffreddamento). Il verso inverso e' E6. Fase II: catene attorno a assi a vite; fase III: miscela di catene a vite e catene per traslazione («ping-pong» fra le simmetrie).",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E6",
+      "da": "F3",
+      "a": "F2",
+      "esito": "avvenuta",
+      "reversibile": true,
+      "inverso_di": "E5",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 104,
+          "unita": "°C",
+          "tipo": "non_specificato"
+        },
+        "velocita": {
+          "min": 0.5,
+          "max": 20,
+          "unita": "°C/min"
+        },
+        "tempo": {
+          "valore": 3,
+          "unita": "s",
+          "tipo": "trasformazione"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC",
+          "microscopia",
+          "SCXRD"
+        ],
+        "entalpia": {
+          "valore": 1.24,
+          "unita": "kJ/mol",
+          "tipo": "transizione"
+        },
+        "meccanismo": [
+          "SCSC",
+          "displaciva"
+        ],
+        "integrita": "intatto",
+        "cinetica": "un solo fronte di fase con geometria lineare regolare che avanza rapidamente; nessun cambio dimensionale rilevante; supercella: a' +1.4% e c' +0.2%"
+      },
+      "campione": {
+        "tipo": "cristallo_singolo"
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "H-bonded chains (symmetry rules by which the chains are built: screw axis versus translation)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": null,
+          "citazione": "The sequence of reversible SCSC transitions IV ⇆ III ⇆ II involves a remarkable ping pong of the symmetry rules by which H-bonded chains are built."
+        },
+        {
+          "gruppo": "H-bonded chains running parallel to the unique axis b (screw-axis chains in II, translation chains in IV, mixture of both in III)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The common structural motif of polymorphs II, III, and IV is the formation of H-bonded chains running parallel to the unique axis b, as illustrated in Figure 6, and this accounts for the basically constant value of b axis in the three polymorphs."
+        },
+        {
+          "gruppo": "O–H···O=C hydrogen bond (phenolic O–H donor, carbonyl O acceptor)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The common feature of all six polymorphs of ImB is the formation of H-bonds between the O–H donor and carbonyl O acceptor, and this is the only strong H bond found in all the crystal structures."
+        },
+        {
+          "gruppo": "amido N–H",
+          "ruolo": "donatore",
+          "con": "non_detto",
+          "cambia": "resta",
+          "citazione": "Amido N–H donor is never involved in H-bonds, nor is it involved in any short intermolecular contact at a distance less than the sum of van der Waals radii plus 0.1 Å."
+        }
+      ],
+      "citazioni": [
+        "The (reversible) transition III → II at 104 °C is SCSC.",
+        "The whole transition is accomplished within 3 s.",
+        "There are no relevant dimensional changes of the crystal during the transformation (movie III_II and movie II_III).",
+        "The transition II/III is enantiotropic, and heating phase III results in phase II again (ΔH = 1.24 kJ/mol).",
+        "The difference between the (onset) transition temperature on heating and cooling is within 0.5 °C, over a range of heating/cooling rates spanning between 0.5 and 20 °C/min (see Supporting Information).",
+        "Table 2 shows that the transition of phase III to II at 104 °C on heating produces small increases of a′ and c′ axis (1.4 and 0.2%, respectively)"
+      ],
+      "certezza": "alta",
+      "note": "Riscaldando III si ottiene II a 104 °C, SCSC, in 3 s. Inverso di E5 (isteresi entro 0.5 °C). Le velocita' 0.5-20 °C/min sono quelle delle prove DSC di isteresi (Supporting Information).",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E7",
+      "da": "F3",
+      "a": "F4",
+      "esito": "avvenuta",
+      "reversibile": true,
+      "inverso_di": "E8",
+      "via": "termica",
+      "sottovia": "raffreddamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": -16,
+          "unita": "°C",
+          "tipo": "non_specificato"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC"
+        ],
+        "meccanismo": [
+          "SCSC",
+          "displaciva"
+        ]
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "H-bonded chains (symmetry rules by which the chains are built: screw axis versus translation)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": null,
+          "citazione": "The sequence of reversible SCSC transitions IV ⇆ III ⇆ II involves a remarkable ping pong of the symmetry rules by which H-bonded chains are built."
+        },
+        {
+          "gruppo": "H-bonded chains running parallel to the unique axis b (screw-axis chains in II, translation chains in IV, mixture of both in III)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The common structural motif of polymorphs II, III, and IV is the formation of H-bonded chains running parallel to the unique axis b, as illustrated in Figure 6, and this accounts for the basically constant value of b axis in the three polymorphs."
+        },
+        {
+          "gruppo": "O–H···O=C hydrogen bond (phenolic O–H donor, carbonyl O acceptor)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The common feature of all six polymorphs of ImB is the formation of H-bonds between the O–H donor and carbonyl O acceptor, and this is the only strong H bond found in all the crystal structures."
+        },
+        {
+          "gruppo": "amido N–H",
+          "ruolo": "donatore",
+          "con": "non_detto",
+          "cambia": "resta",
+          "citazione": "Amido N–H donor is never involved in H-bonds, nor is it involved in any short intermolecular contact at a distance less than the sum of van der Waals radii plus 0.1 Å."
+        }
+      ],
+      "citazioni": [
+        "By cooling phase III, at −16 °C, a transition to a new crystal phase is observed (phase IV).",
+        "In contrast, strong undercooling, by almost 40 °C, is observed for the enantiotropic SCSC transition III → IV.",
+        "This strong metric similarity is consistent with the nondiffusive/displacive nature of the transitions between phases II, III, and IV."
+      ],
+      "certezza": "alta",
+      "note": "Raffreddando III si ottiene IV a –16 °C, con forte sottoraffreddamento (quasi 40 °C rispetto a E8, 22 °C). Transizione enantiotropa SCSC. Fase IV: catene per traslazione di coppie di molecole legate (Z' = 2); fase III: miscela di catene a vite e per traslazione.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E8",
+      "da": "F4",
+      "a": "F3",
+      "esito": "avvenuta",
+      "reversibile": true,
+      "inverso_di": "E7",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 22,
+          "unita": "°C",
+          "tipo": "non_specificato"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC",
+          "microscopia",
+          "SCXRD"
+        ],
+        "entalpia": {
+          "valore": 1.1,
+          "unita": "kJ/mol",
+          "tipo": "transizione"
+        },
+        "meccanismo": [
+          "SCSC",
+          "displaciva"
+        ],
+        "cinetica": "contrazione trasversale dei cristalli singoli di circa il 4%; supercella: asse b –0.8%, asse a' –4%"
+      },
+      "campione": {
+        "tipo": "cristallo_singolo"
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "H-bonded chains (symmetry rules by which the chains are built: screw axis versus translation)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": null,
+          "citazione": "The sequence of reversible SCSC transitions IV ⇆ III ⇆ II involves a remarkable ping pong of the symmetry rules by which H-bonded chains are built."
+        },
+        {
+          "gruppo": "H-bonded chains running parallel to the unique axis b (screw-axis chains in II, translation chains in IV, mixture of both in III)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The common structural motif of polymorphs II, III, and IV is the formation of H-bonded chains running parallel to the unique axis b, as illustrated in Figure 6, and this accounts for the basically constant value of b axis in the three polymorphs."
+        },
+        {
+          "gruppo": "O–H···O=C hydrogen bond (phenolic O–H donor, carbonyl O acceptor)",
+          "ruolo": "sintone",
+          "con": "altra_molecola",
+          "cambia": "resta",
+          "citazione": "The common feature of all six polymorphs of ImB is the formation of H-bonds between the O–H donor and carbonyl O acceptor, and this is the only strong H bond found in all the crystal structures."
+        },
+        {
+          "gruppo": "amido N–H",
+          "ruolo": "donatore",
+          "con": "non_detto",
+          "cambia": "resta",
+          "citazione": "Amido N–H donor is never involved in H-bonds, nor is it involved in any short intermolecular contact at a distance less than the sum of van der Waals radii plus 0.1 Å."
+        }
+      ],
+      "citazioni": [
+        "The transition III/IV is again enantiotropic, and by heating phase IV, transformation into phase III is observed at 22 °C (ΔH = 1.1 kJ/mol).",
+        "The transition from phase IV to III on heating is accompanied by a significant transversal contraction of single crystals (by about 4%; see movie IV_III), as shown in Figure 5.",
+        "The transition from phase IV to III on heating involves a small contraction of the b axis (−0.8%) and comparatively major deformations of the (a′,c′) net, with 4% contraction of the a′ axis, and this is also consistent with the macroscopic features of the transition."
+      ],
+      "certezza": "alta",
+      "note": "Riscaldando IV si ottiene III a 22 °C, ΔH 1.1 kJ/mol. SCSC (colossale espansione termica trasversale agli strati ondulati, 235 × 10–6 K–1 per IV e 208 × 10–6 K–1 per III: gli autori la propongono come possibile firma delle transizioni SCSC). Nella Fig. 5b la foto dopo la transizione completa e' a 35 °C.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E9",
+      "da": "F2",
+      "a": "fuso",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 239,
+          "unita": "°C",
+          "tipo": "non_specificato"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC"
+        ],
+        "entalpia": {
+          "valore": 31.2,
+          "unita": "kJ/mol",
+          "tipo": "fusione"
+        }
+      },
+      "citazioni": [
+        "Heating phase II leads to melting of ImB at 239 °C (ΔH = 31.2 kJ/mol), and cooling of the liquid phase produces phase II."
+      ],
+      "certezza": "alta",
+      "note": "Fusione di II a 239 °C. Raffreddando il liquido si ottiene II (vedi la preparazione dal fuso).",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    },
+    {
+      "id": "E10",
+      "da": "F2",
+      "a": "ignota",
+      "a_possibili": [
+        "F1",
+        "F5",
+        "F6"
+      ],
+      "esito": "non_avvenuta",
+      "esito_dettaglio": "ritorno_non_osservato",
+      "inverso_di": [
+        "E1",
+        "E2",
+        "E4"
+      ],
+      "via": "termica",
+      "sottovia": "raffreddamento",
+      "condizioni": {
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC"
+        ]
+      },
+      "citazioni": [
+        "By cooling phase II, phases I, V, or VI are no longer obtained, but at 104 °C, there is transition to a new crystal phase (phase III)."
+      ],
+      "certezza": "alta",
+      "note": "Negativo: raffreddando II non si riottengono I, V o VI (le tre trasformazioni verso II sono monotrope); la sola transizione osservata e' II -> III a 104 °C (E5). Fig. 1d: corsa di raffreddamento di un campione di fase II.",
+      "fonte_dati": "propria",
+      "natura": "fisica"
+    }
+  ],
+  "preparazioni": [
+    {
+      "forme": [
+        "F1",
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6"
+      ],
+      "metodo": "non_specificato",
+      "solventi": [],
+      "esito": "ottenuta",
+      "solo_supplementare": true,
+      "citazioni": [
+        "The different polymorphs were obtained by following the procedures described in Supporting Information."
+      ],
+      "fonte_dati": "propria",
+      "note": "I metodi per ciascuna delle sei fasi stanno solo nel supplementare."
+    },
+    {
+      "forme": [
+        "F2"
+      ],
+      "metodo": "dal_fuso",
+      "solventi": [],
+      "esito": "ottenuta",
+      "citazioni": [
+        "Heating phase II leads to melting of ImB at 239 °C (ΔH = 31.2 kJ/mol), and cooling of the liquid phase produces phase II."
+      ],
+      "fonte_dati": "propria",
+      "note": "Nella stessa corsa DSC: II fonde a 239 °C e il liquido raffreddato da' II (vedi E9). Velocita' di raffreddamento non detta."
+    }
+  ],
+  "molecole": [
+    {
+      "composto": "C1",
+      "descrizioni": [
+        {
+          "tipo": "flessibilita",
+          "testo": "angolo diedro τ fra l'anello C e il piano imminico 55.1(1)°-86.8(2)°, angolo φ fra l'anello B e il piano imminico 2.9(1)°-30.1(2)° nelle 14 molecole indipendenti dei sei polimorfi; anelli B e C non possono essere complanari (contatto fra gli H orto interni)",
+          "citazione": "In fact, in all the structures investigated (a total of 14 independent molecules out of six polymorphs), the dihedral angle τ between ring C and imino plane ranges between 55.1(1)° and 86.8(2)°, while dihedral angle φ between ring B and imino plane ranges between 2.9(1)° and 30.1(2)°"
+        },
+        {
+          "tipo": "conformeri",
+          "testo": "OH fenolico in conformazione Ha in tutte le molecole indipendenti dei polimorfi I-V, Hb nel VI",
+          "forma": "F6",
+          "citazione": "The conformation of the phenolic OH is Ha (Chart 1) in all independent molecules of polymorphs I, II, III, IV, and V, while it is Hb in VI."
+        },
+        {
+          "tipo": "conformeri",
+          "testo": "il polimorfismo non e' legato a cambi conformazionali drammatici nelle varie fasi",
+          "citazione": "This polymorphism is not related to dramatic conformational changes of the molecule in the various phases."
+        },
+        {
+          "tipo": "altro",
+          "testo": "N–H amidico in una tasca (H orto dell'anello A e anello C), poco accessibile a qualsiasi accettore; mai coinvolto in legami H ne' in contatti corti (frustrazione completa del donatore)",
+          "citazione": "amido NH is in a pocket delimited by the ortho hydrogen of ring A and by ring C, and thus, for any reasonable packing, it is hardly accessible by any acceptor group of close molecules, whatever their orientation be."
+        }
+      ]
+    }
+  ]
+}
