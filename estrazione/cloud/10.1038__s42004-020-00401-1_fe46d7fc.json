@@ -1,0 +1,1560 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1038/s42004-020-00401-1",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Nove polimorfi della nicotinammide (NIC) ottenuti da fuso sottoraffreddato in microscopia a piastra calda; le conversioni solido-solido (δ→γ, θ→β, ι→α) avvengono nel campione ancora in contatto col fuso. Non sono eventi: la previsione di strutture cristalline (CSP, solo calcolo), le velocita di crescita dal fuso in funzione di T (Fig. 3), le nucleazioni incrociate di ζ e δ (estratte come preparazioni: la forma nuova cresce dal fuso sulla superficie dell'altra, non e una conversione della forma vecchia). I calori di fusione per β, γ, ε sono nel supplementare. Le temperature di fusione della tabella 1 hanno unita «deg» nel testo letto (°C).",
+ "ccdc": null,
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "nicotinamide (NIC)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "isonicotinamide (iso-NIC)",
+   "smiles": null,
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "FA",
+   "composto": "C1",
+   "etichetta": "α",
+   "etichette_alternative": [
+    "Form α"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "gruppo_spaziale_numero": 14,
+   "cella": {
+    "a": 3.882666,
+    "b": 15.6453,
+    "c": 9.3836,
+    "alpha": 90,
+    "beta": 98.394,
+    "gamma": 90,
+    "V": 563.904,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1866090",
+   "citazione": "Surprisingly, nine NIC polymorphs were obtained from the supercooled melt, including seven new forms (γ, δ, ε, ζ, η, θ, and ι) and the previously known forms (α and β).",
+   "note": "Struttura SCXRD a 100 K (tabella 1: colonna Form α); cristallo cresciuto da microgoccia di fuso. Cella e gruppo dalla tabella 1; ccdc dalla riga \"CCDC number\". Riga \"NICOAM No.\" della tabella 1: \"1st str.\" = prima struttura della famiglia NICOAM (il testo non scrive un refcode completo).",
+   "refcode": "NICOAM",
+   "refcode_famiglia": true
+  },
+  {
+   "id": "FB",
+   "composto": "C1",
+   "etichetta": "β",
+   "etichette_alternative": [
+    "Form β"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P2/n",
+   "gruppo_spaziale_numero": 13,
+   "cella": {
+    "a": 14.9915,
+    "b": 10.6814,
+    "c": 15.1888,
+    "alpha": 90,
+    "beta": 101.955,
+    "gamma": 90,
+    "V": 2379.43,
+    "Z": 16,
+    "Z_primo": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1866091",
+   "citazione": "Surprisingly, nine NIC polymorphs were obtained from the supercooled melt, including seven new forms (γ, δ, ε, ζ, η, θ, and ι) and the previously known forms (α and β).",
+   "note": "Struttura SCXRD a 100 K (tabella 1: colonna Form β); cristallo cresciuto da microgoccia di fuso. Cella e gruppo dalla tabella 1; ccdc dalla riga \"CCDC number\". Refcode ricomposto dalla riga \"NICOAM No.\" della tabella 1 (valore \"04\"): il testo non scrive la voce intera.",
+   "refcode": "NICOAM04",
+   "refcode_ricostruito": true,
+   "motivi_hb": [
+    {
+     "motivo": "amide dimers",
+     "chi": null,
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "FG",
+   "composto": "C1",
+   "etichetta": "γ",
+   "etichette_alternative": [
+    "Form γ"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "gruppo_spaziale_numero": 14,
+   "cella": {
+    "a": 15.3671,
+    "b": 7.3847,
+    "c": 21.195,
+    "alpha": 90,
+    "beta": 104.65,
+    "gamma": 90,
+    "V": 2327.0,
+    "Z": 16,
+    "Z_primo": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1866092",
+   "citazione": "Surprisingly, nine NIC polymorphs were obtained from the supercooled melt, including seven new forms (γ, δ, ε, ζ, η, θ, and ι) and the previously known forms (α and β).",
+   "note": "Struttura SCXRD a 100 K (tabella 1: colonna Form γ); cristallo cresciuto da microgoccia di fuso. Cella e gruppo dalla tabella 1; ccdc dalla riga \"CCDC number\".",
+   "motivi_hb": [
+    {
+     "motivo": "amide dimers",
+     "chi": null,
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "FD",
+   "composto": "C1",
+   "etichetta": "δ",
+   "etichette_alternative": [
+    "Form δ"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "gruppo_spaziale_numero": 14,
+   "cella": {
+    "a": 7.3525,
+    "b": 20.7383,
+    "c": 7.4058,
+    "alpha": 90,
+    "beta": 91.044,
+    "gamma": 90,
+    "V": 1129.04,
+    "Z": 8,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1984661",
+   "citazione": "Surprisingly, nine NIC polymorphs were obtained from the supercooled melt, including seven new forms (γ, δ, ε, ζ, η, θ, and ι) and the previously known forms (α and β).",
+   "note": "Struttura SCXRD a 100 K (tabella 1: colonna Form δ); cristallo cresciuto da microgoccia di fuso. Cella e gruppo dalla tabella 1; ccdc dalla riga \"CCDC number\".",
+   "motivi_hb": [
+    {
+     "motivo": "amide dimers",
+     "chi": null,
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "FE",
+   "composto": "C1",
+   "etichetta": "ε",
+   "etichette_alternative": [
+    "Form ε"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "gruppo_spaziale_numero": 4,
+   "cella": {
+    "a": 3.81231,
+    "b": 14.38794,
+    "c": 5.11942,
+    "alpha": 90,
+    "beta": 94.256,
+    "gamma": 90,
+    "V": 280.032,
+    "Z": 2,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1893048",
+   "citazione": "Surprisingly, nine NIC polymorphs were obtained from the supercooled melt, including seven new forms (γ, δ, ε, ζ, η, θ, and ι) and the previously known forms (α and β).",
+   "note": "Struttura SCXRD a 100 K (tabella 1: colonna Form ε); cristallo cresciuto da microgoccia di fuso. Cella e gruppo dalla tabella 1; ccdc dalla riga \"CCDC number\". Refcode ricomposto dalla riga \"NICOAM No.\" della tabella 1 (valore \"07\"): il testo non scrive la voce intera.",
+   "refcode": "NICOAM07",
+   "refcode_ricostruito": true
+  },
+  {
+   "id": "FZ",
+   "composto": "C1",
+   "etichetta": "ζ",
+   "etichette_alternative": [
+    "Form ζ"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_numero": 2,
+   "cella": {
+    "a": 7.5564,
+    "b": 7.9413,
+    "c": 10.7974,
+    "alpha": 108.1,
+    "beta": 102.596,
+    "gamma": 98.293,
+    "V": 585.137,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1984570",
+   "citazione": "Surprisingly, nine NIC polymorphs were obtained from the supercooled melt, including seven new forms (γ, δ, ε, ζ, η, θ, and ι) and the previously known forms (α and β).",
+   "note": "Struttura SCXRD a 100 K (tabella 1: colonna Form ζ); cristallo cresciuto da microgoccia di fuso. Cella e gruppo dalla tabella 1; ccdc dalla riga \"CCDC number\".",
+   "gruppo_spaziale_scritto": "P1¯ (2)",
+   "motivi_hb": [
+    {
+     "motivo": "amide dimers",
+     "chi": null,
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "FH",
+   "composto": "C1",
+   "etichetta": "η",
+   "etichette_alternative": [
+    "Form η"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_numero": 2,
+   "cella": {
+    "a": 3.7525,
+    "b": 12.3229,
+    "c": 13.0618,
+    "alpha": 71.499,
+    "beta": 85.676,
+    "gamma": 85.202,
+    "V": 570.013,
+    "Z": 4,
+    "Z_primo": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1893049",
+   "citazione": "Surprisingly, nine NIC polymorphs were obtained from the supercooled melt, including seven new forms (γ, δ, ε, ζ, η, θ, and ι) and the previously known forms (α and β).",
+   "note": "Struttura SCXRD a 100 K (tabella 1: colonna Form η); cristallo cresciuto da microgoccia di fuso. Cella e gruppo dalla tabella 1; ccdc dalla riga \"CCDC number\". Refcode ricomposto dalla riga \"NICOAM No.\" della tabella 1 (valore \"08\"): il testo non scrive la voce intera.",
+   "gruppo_spaziale_scritto": "P1¯ (2)",
+   "refcode": "NICOAM08",
+   "refcode_ricostruito": true,
+   "motivi_hb": [
+    {
+     "motivo": "amide dimers",
+     "chi": null,
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "FT",
+   "composto": "C1",
+   "etichetta": "θ",
+   "etichette_alternative": [
+    "Form θ",
+    "θ-NIC"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "gruppo_spaziale_numero": 4,
+   "cella": {
+    "a": 10.7005,
+    "b": 35.1874,
+    "c": 15.8256,
+    "alpha": 90,
+    "beta": 102.58,
+    "gamma": 90,
+    "V": 5813.37,
+    "Z": 40,
+    "Z_primo": 20,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1893061",
+   "citazione": "Surprisingly, nine NIC polymorphs were obtained from the supercooled melt, including seven new forms (γ, δ, ε, ζ, η, θ, and ι) and the previously known forms (α and β).",
+   "note": "Struttura SCXRD a 100 K (tabella 1: colonna Form θ); cristallo cresciuto da microgoccia di fuso. Cella e gruppo dalla tabella 1; ccdc dalla riga \"CCDC number\". Refcode ricomposto dalla riga \"NICOAM No.\" della tabella 1 (valore \"09\"): il testo non scrive la voce intera.",
+   "refcode": "NICOAM09",
+   "refcode_ricostruito": true,
+   "motivi_hb": [
+    {
+     "motivo": "amide dimers",
+     "chi": null,
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "FI",
+   "composto": "C1",
+   "etichetta": "ι",
+   "etichette_alternative": [
+    "Form ι",
+    "ι-NIC"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "gruppo_spaziale_numero": 14,
+   "cella": {
+    "a": 9.9011,
+    "b": 5.87732,
+    "c": 10.2784,
+    "alpha": 90,
+    "beta": 100.003,
+    "gamma": 90,
+    "V": 589.028,
+    "Z": 4,
+    "Z_primo": 1,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "ccdc": "1984664",
+   "citazione": "Surprisingly, nine NIC polymorphs were obtained from the supercooled melt, including seven new forms (γ, δ, ε, ζ, η, θ, and ι) and the previously known forms (α and β).",
+   "note": "Struttura SCXRD a 100 K (tabella 1: colonna Form ι); cristallo cresciuto da microgoccia di fuso. Cella e gruppo dalla tabella 1; ccdc dalla riga \"CCDC number\". Il testo dice che l'azoto piridinico non partecipa ai legami H in ι.",
+   "motivi_hb": [
+    {
+     "motivo": "amide dimers",
+     "chi": null,
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    },
+    {
+     "motivo": "crystal packing and hydrogen bonding extremely similar to iso-NIC form I",
+     "chi": "form ι / iso-NIC form I",
+     "citazione": "Form ι shows extremely similar crystal packing and hydrogen bonding to that of its parent phase, iso-NIC form I (Fig. 6c)."
+    }
+   ]
+  },
+  {
+   "id": "FISO",
+   "composto": "C2",
+   "etichetta": "iso-NIC form I",
+   "etichette_alternative": [
+    "form I"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "The commercially available powder of iso-NIC (form I) was seeded at the edge of the NIC melt that was sandwiched between two coverslips at 70–95 °C.",
+   "note": "Isonicotinamide, polvere commerciale usata come seme (pseudoseeding); nessuna struttura riportata in questo articolo."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "FA",
+    "FB"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "FA",
+   "citazione": "Form α is the most stable polymorph.",
+   "fonte_dati": "propria",
+   "certezza": "alta",
+   "piu_stabile_fra": [
+    "FB",
+    "FG",
+    "FD",
+    "FE",
+    "FZ",
+    "FH",
+    "FT",
+    "FI"
+   ]
+  },
+  {
+   "forme": [
+    "FB",
+    "FG"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "FB",
+   "citazione": "Forms β and γ were determined as the second and third most stable polymorphs, respectively, according to the melting points (Table 1) and the experimentally observed polymorphic conversions.",
+   "fonte_dati": "propria",
+   "certezza": "alta"
+  },
+  {
+   "forme": [
+    "FG",
+    "FE"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "FG",
+   "citazione": "the experimental ranking obtained based on the heat of fusion (α > β (by 2.5 kJ/mol) > γ (by 3.0 kJ/mol) > ε (by 3.6 kJ/mol), Supplementary Fig. 10 and Supplementary Table 5) or the order of polymorphic transformation (α > β > γ > ε > η > θ, Supplementary Figs 11–19)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Ordine sperimentale dal calore di fusione; vale a T non detta."
+  },
+  {
+   "forme": [
+    "FE",
+    "FH"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "FE",
+   "citazione": "the experimental ranking obtained based on the heat of fusion (α > β (by 2.5 kJ/mol) > γ (by 3.0 kJ/mol) > ε (by 3.6 kJ/mol), Supplementary Fig. 10 and Supplementary Table 5) or the order of polymorphic transformation (α > β > γ > ε > η > θ, Supplementary Figs 11–19)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Ordine dalle conversioni polimorfiche osservate (catena α > β > γ > ε > η > θ)."
+  },
+  {
+   "forme": [
+    "FH",
+    "FT"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "FH",
+   "citazione": "the experimental ranking obtained based on the heat of fusion (α > β (by 2.5 kJ/mol) > γ (by 3.0 kJ/mol) > ε (by 3.6 kJ/mol), Supplementary Fig. 10 and Supplementary Table 5) or the order of polymorphic transformation (α > β > γ > ε > η > θ, Supplementary Figs 11–19)",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Ordine dalle conversioni polimorfiche osservate (catena α > β > γ > ε > η > θ)."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "FD",
+   "a": "FG",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 75,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Form δ was extremely unstable and rapidly converted to form γ at 75 °C.",
+    "Forms δ and θ were unstable and usually converted to the more stable forms γ and β, respectively.",
+    "Both δ-to-γ and θ-to-β solid-solid phase conversions occurred spontaneously, but the nucleation densities of the daughter polymorphs were quite different.",
+    "Form γ nucleated very densely from form δ and grew as crowded colourful granules (Fig. 4b)"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ]
+   },
+   "frequenza": "di_norma",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "FD",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ],
+   "note": "Conversione solido-solido osservata al microscopio a piastra calda nel campione ottenuto dal fuso sottoraffreddato (Fig. 4b: T 75 °C). La densita di nucleazione di γ su δ e molto alta. Amide dimers presenti sia in δ sia in γ secondo la frase sui dimeri (restano)."
+  },
+  {
+   "id": "E2",
+   "da": "FT",
+   "a": "FB",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 60,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 7,
+     "unita": "s",
+     "tipo": "trasformazione"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The induction time of θ-to-β conversion increased as the temperature increased (7 ± 3 s at 60 °C, 25 ± 11 s at 70 °C, and 58 ± 21 s at 80 °C, n = 15).",
+    "Both δ-to-γ and θ-to-β solid-solid phase conversions occurred spontaneously, but the nucleation densities of the daughter polymorphs were quite different.",
+    "while form β nucleated from form θ very sparsely and grew with a regular shape (Fig. 4a)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "FT",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    },
+    {
+     "gruppo": "torsion angle θ (C5-C4-C6-N2′)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": null,
+     "forma": "FT",
+     "citazione": "Therefore, forms α/β/η/ι were determined to be related to Forms γ/δ/ε/ζ/θ by conformational polymorphism27."
+    }
+   ],
+   "note": "Il tempo e il tempo di induzione della conversione θ→β (media ± deviazione: 7 ± 3 s at 60 °C; n = 15). Nei tre eventi cambia solo la T della prova. θ e β stanno nei due gruppi conformazionali diversi (γ/δ/ε/ζ/θ contro α/β/η/ι) secondo l'articolo: la torsione e citata come classificazione, il testo non descrive il cambio di conformazione durante la conversione."
+  },
+  {
+   "id": "E3",
+   "da": "FT",
+   "a": "FB",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 70,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 25,
+     "unita": "s",
+     "tipo": "trasformazione"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "NIC melt crystallized first as form θ and then transformed to form β at 70 °C.",
+    "The induction time of θ-to-β conversion increased as the temperature increased (7 ± 3 s at 60 °C, 25 ± 11 s at 70 °C, and 58 ± 21 s at 80 °C, n = 15).",
+    "Forms δ and θ were unstable and usually converted to the more stable forms γ and β, respectively.",
+    "Both δ-to-γ and θ-to-β solid-solid phase conversions occurred spontaneously, but the nucleation densities of the daughter polymorphs were quite different.",
+    "while form β nucleated from form θ very sparsely and grew with a regular shape (Fig. 4a)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "FT",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    },
+    {
+     "gruppo": "torsion angle θ (C5-C4-C6-N2′)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": null,
+     "forma": "FT",
+     "citazione": "Therefore, forms α/β/η/ι were determined to be related to Forms γ/δ/ε/ζ/θ by conformational polymorphism27."
+    }
+   ],
+   "note": "Il tempo e il tempo di induzione della conversione θ→β (media ± deviazione: 25 ± 11 s at 70 °C; n = 15). Nei tre eventi cambia solo la T della prova. θ e β stanno nei due gruppi conformazionali diversi (γ/δ/ε/ζ/θ contro α/β/η/ι) secondo l'articolo: la torsione e citata come classificazione, il testo non descrive il cambio di conformazione durante la conversione.",
+   "frequenza": "di_norma"
+  },
+  {
+   "id": "E4",
+   "da": "FT",
+   "a": "FB",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 80,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 58,
+     "unita": "s",
+     "tipo": "trasformazione"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The induction time of θ-to-β conversion increased as the temperature increased (7 ± 3 s at 60 °C, 25 ± 11 s at 70 °C, and 58 ± 21 s at 80 °C, n = 15).",
+    "Both δ-to-γ and θ-to-β solid-solid phase conversions occurred spontaneously, but the nucleation densities of the daughter polymorphs were quite different.",
+    "while form β nucleated from form θ very sparsely and grew with a regular shape (Fig. 4a)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "meccanismo": [
+     "nucleazione_crescita"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "FT",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    },
+    {
+     "gruppo": "torsion angle θ (C5-C4-C6-N2′)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": null,
+     "forma": "FT",
+     "citazione": "Therefore, forms α/β/η/ι were determined to be related to Forms γ/δ/ε/ζ/θ by conformational polymorphism27."
+    }
+   ],
+   "note": "Il tempo e il tempo di induzione della conversione θ→β (media ± deviazione: 58 ± 21 s at 80 °C; n = 15). Nei tre eventi cambia solo la T della prova. θ e β stanno nei due gruppi conformazionali diversi (γ/δ/ε/ζ/θ contro α/β/η/ι) secondo l'articolo: la torsione e citata come classificazione, il testo non descrive il cambio di conformazione durante la conversione."
+  },
+  {
+   "id": "E5",
+   "da": "FI",
+   "a": "FA",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Form ι had the lowest melting point among the nine NIC polymorphs and usually quickly transformed to form α (Supplementary Fig. 6). This ι-to-α conversion typically sped up as the temperature decreased to 70 °C."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "frequenza": "di_norma",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "FI",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ],
+   "note": "Temperatura della conversione non scritta: il testo dice solo che la conversione accelera abbassando la T fino a 70 °C (ι si forma per semina a 70–95 °C). Amide dimers presenti in ι ma non in α secondo la frase sui dimeri. Il testo dice anche che l'azoto piridinico non e coinvolto nei legami H in ι, mentre negli altri polimorfi quasi tutti i donatori e accettori lo sono («almost all of which are involved ... in every polymorph except for form ι»)."
+  },
+  {
+   "id": "E6",
+   "da": "FB",
+   "a": "FA",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "semina",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "altro": "nucleazione di α nel fuso residuo",
+    "solventi": []
+   },
+   "citazioni": [
+    "Once this form nucleated, it rapidly consumed the remaining liquid and triggered the phase transition of any metastable polymorphs into Form α."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "generalizzazione": true,
+   "note": "Frase generale su «any metastable polymorphs»: un evento per ciascuna delle forme cinetiche dell'articolo (β, γ, δ, ε, ζ, η, θ; ι ha il suo evento). Condizioni (T, tempi) non dette per forma; il testo non dice se avviene in tutte le prove. Amide dimers presenti nella forma di partenza e assenti in α (frase sui dimeri).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "FB",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "E7",
+   "da": "FG",
+   "a": "FA",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "semina",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "altro": "nucleazione di α nel fuso residuo",
+    "solventi": []
+   },
+   "citazioni": [
+    "Once this form nucleated, it rapidly consumed the remaining liquid and triggered the phase transition of any metastable polymorphs into Form α."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "generalizzazione": true,
+   "note": "Frase generale su «any metastable polymorphs»: un evento per ciascuna delle forme cinetiche dell'articolo (β, γ, δ, ε, ζ, η, θ; ι ha il suo evento). Condizioni (T, tempi) non dette per forma; il testo non dice se avviene in tutte le prove. Amide dimers presenti nella forma di partenza e assenti in α (frase sui dimeri).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "FG",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "E8",
+   "da": "FD",
+   "a": "FA",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "semina",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "altro": "nucleazione di α nel fuso residuo",
+    "solventi": []
+   },
+   "citazioni": [
+    "Once this form nucleated, it rapidly consumed the remaining liquid and triggered the phase transition of any metastable polymorphs into Form α."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "generalizzazione": true,
+   "note": "Frase generale su «any metastable polymorphs»: un evento per ciascuna delle forme cinetiche dell'articolo (β, γ, δ, ε, ζ, η, θ; ι ha il suo evento). Condizioni (T, tempi) non dette per forma; il testo non dice se avviene in tutte le prove. Amide dimers presenti nella forma di partenza e assenti in α (frase sui dimeri).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "FD",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "E9",
+   "da": "FE",
+   "a": "FA",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "semina",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "altro": "nucleazione di α nel fuso residuo",
+    "solventi": []
+   },
+   "citazioni": [
+    "Once this form nucleated, it rapidly consumed the remaining liquid and triggered the phase transition of any metastable polymorphs into Form α."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "generalizzazione": true,
+   "note": "Frase generale su «any metastable polymorphs»: un evento per ciascuna delle forme cinetiche dell'articolo (β, γ, δ, ε, ζ, η, θ; ι ha il suo evento). Condizioni (T, tempi) non dette per forma; il testo non dice se avviene in tutte le prove."
+  },
+  {
+   "id": "E10",
+   "da": "FZ",
+   "a": "FA",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "semina",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "altro": "nucleazione di α nel fuso residuo",
+    "solventi": []
+   },
+   "citazioni": [
+    "Once this form nucleated, it rapidly consumed the remaining liquid and triggered the phase transition of any metastable polymorphs into Form α."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "generalizzazione": true,
+   "note": "Frase generale su «any metastable polymorphs»: un evento per ciascuna delle forme cinetiche dell'articolo (β, γ, δ, ε, ζ, η, θ; ι ha il suo evento). Condizioni (T, tempi) non dette per forma; il testo non dice se avviene in tutte le prove. Amide dimers presenti nella forma di partenza e assenti in α (frase sui dimeri).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "FZ",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "E11",
+   "da": "FH",
+   "a": "FA",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "semina",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "altro": "nucleazione di α nel fuso residuo",
+    "solventi": []
+   },
+   "citazioni": [
+    "Once this form nucleated, it rapidly consumed the remaining liquid and triggered the phase transition of any metastable polymorphs into Form α."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "generalizzazione": true,
+   "note": "Frase generale su «any metastable polymorphs»: un evento per ciascuna delle forme cinetiche dell'articolo (β, γ, δ, ε, ζ, η, θ; ι ha il suo evento). Condizioni (T, tempi) non dette per forma; il testo non dice se avviene in tutte le prove. Amide dimers presenti nella forma di partenza e assenti in α (frase sui dimeri).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "FH",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "E12",
+   "da": "FT",
+   "a": "FA",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "semina",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "altro": "nucleazione di α nel fuso residuo",
+    "solventi": []
+   },
+   "citazioni": [
+    "Once this form nucleated, it rapidly consumed the remaining liquid and triggered the phase transition of any metastable polymorphs into Form α."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "generalizzazione": true,
+   "note": "Frase generale su «any metastable polymorphs»: un evento per ciascuna delle forme cinetiche dell'articolo (β, γ, δ, ε, ζ, η, θ; ι ha il suo evento). Condizioni (T, tempi) non dette per forma; il testo non dice se avviene in tutte le prove. Amide dimers presenti nella forma di partenza e assenti in α (frase sui dimeri).",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimers",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "FT",
+     "citazione": "Hydrogen bonding results in amide dimers in all of the polymorphs except for forms α and ε."
+    }
+   ]
+  },
+  {
+   "id": "E13",
+   "da": "FA",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 129,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Polymorphs | Form α | Form β | Form γ | Form δ | Form ε | Form ζ | Form η | Form θ | Form ι",
+    "Tm (deg)e | 129 | 116.5 | 115 | 114 | 110.5 | 109.5 | 108 | 104.5 | 103",
+    "These polymorphs were identified by morphologies, melting points, powder X-ray diffraction (PXRD) patterns, Raman and Fourier transform infrared (FTIR) spectra (Fig. 2 and Supplementary Figs. 1–3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Punto di fusione dalla riga «Tm (deg)» della tabella 1 (unita «deg» nel testo letto, °C per il contesto: η «108 °C» nel testo). La tecnica non e attribuita per forma nella tabella (solo per η: POM)."
+  },
+  {
+   "id": "E14",
+   "da": "FB",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 116.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Polymorphs | Form α | Form β | Form γ | Form δ | Form ε | Form ζ | Form η | Form θ | Form ι",
+    "Tm (deg)e | 129 | 116.5 | 115 | 114 | 110.5 | 109.5 | 108 | 104.5 | 103",
+    "These polymorphs were identified by morphologies, melting points, powder X-ray diffraction (PXRD) patterns, Raman and Fourier transform infrared (FTIR) spectra (Fig. 2 and Supplementary Figs. 1–3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Punto di fusione dalla riga «Tm (deg)» della tabella 1 (unita «deg» nel testo letto, °C per il contesto: η «108 °C» nel testo). La tecnica non e attribuita per forma nella tabella (solo per η: POM)."
+  },
+  {
+   "id": "E15",
+   "da": "FG",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 115,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Polymorphs | Form α | Form β | Form γ | Form δ | Form ε | Form ζ | Form η | Form θ | Form ι",
+    "Tm (deg)e | 129 | 116.5 | 115 | 114 | 110.5 | 109.5 | 108 | 104.5 | 103",
+    "These polymorphs were identified by morphologies, melting points, powder X-ray diffraction (PXRD) patterns, Raman and Fourier transform infrared (FTIR) spectra (Fig. 2 and Supplementary Figs. 1–3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Punto di fusione dalla riga «Tm (deg)» della tabella 1 (unita «deg» nel testo letto, °C per il contesto: η «108 °C» nel testo). La tecnica non e attribuita per forma nella tabella (solo per η: POM)."
+  },
+  {
+   "id": "E16",
+   "da": "FD",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 114,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Polymorphs | Form α | Form β | Form γ | Form δ | Form ε | Form ζ | Form η | Form θ | Form ι",
+    "Tm (deg)e | 129 | 116.5 | 115 | 114 | 110.5 | 109.5 | 108 | 104.5 | 103",
+    "These polymorphs were identified by morphologies, melting points, powder X-ray diffraction (PXRD) patterns, Raman and Fourier transform infrared (FTIR) spectra (Fig. 2 and Supplementary Figs. 1–3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Punto di fusione dalla riga «Tm (deg)» della tabella 1 (unita «deg» nel testo letto, °C per il contesto: η «108 °C» nel testo). La tecnica non e attribuita per forma nella tabella (solo per η: POM)."
+  },
+  {
+   "id": "E17",
+   "da": "FE",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 110.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Polymorphs | Form α | Form β | Form γ | Form δ | Form ε | Form ζ | Form η | Form θ | Form ι",
+    "Tm (deg)e | 129 | 116.5 | 115 | 114 | 110.5 | 109.5 | 108 | 104.5 | 103",
+    "These polymorphs were identified by morphologies, melting points, powder X-ray diffraction (PXRD) patterns, Raman and Fourier transform infrared (FTIR) spectra (Fig. 2 and Supplementary Figs. 1–3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Punto di fusione dalla riga «Tm (deg)» della tabella 1 (unita «deg» nel testo letto, °C per il contesto: η «108 °C» nel testo). La tecnica non e attribuita per forma nella tabella (solo per η: POM)."
+  },
+  {
+   "id": "E18",
+   "da": "FZ",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 109.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Polymorphs | Form α | Form β | Form γ | Form δ | Form ε | Form ζ | Form η | Form θ | Form ι",
+    "Tm (deg)e | 129 | 116.5 | 115 | 114 | 110.5 | 109.5 | 108 | 104.5 | 103",
+    "These polymorphs were identified by morphologies, melting points, powder X-ray diffraction (PXRD) patterns, Raman and Fourier transform infrared (FTIR) spectra (Fig. 2 and Supplementary Figs. 1–3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Punto di fusione dalla riga «Tm (deg)» della tabella 1 (unita «deg» nel testo letto, °C per il contesto: η «108 °C» nel testo). La tecnica non e attribuita per forma nella tabella (solo per η: POM)."
+  },
+  {
+   "id": "E19",
+   "da": "FH",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 108,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Polymorphs | Form α | Form β | Form γ | Form δ | Form ε | Form ζ | Form η | Form θ | Form ι",
+    "Tm (deg)e | 129 | 116.5 | 115 | 114 | 110.5 | 109.5 | 108 | 104.5 | 103",
+    "These polymorphs were identified by morphologies, melting points, powder X-ray diffraction (PXRD) patterns, Raman and Fourier transform infrared (FTIR) spectra (Fig. 2 and Supplementary Figs. 1–3).",
+    "Form η usually crystallized as needle crystals (Fig. 2) because the growth temperature (104 °C) is very close to its melting point (108 °C, determined by polarized optical microscopy (POM))."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ]
+   },
+   "note": "Punto di fusione dalla riga «Tm (deg)» della tabella 1 (unita «deg» nel testo letto, °C per il contesto: η «108 °C» nel testo). La tecnica non e attribuita per forma nella tabella (solo per η: POM)."
+  },
+  {
+   "id": "E20",
+   "da": "FT",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 104.5,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Polymorphs | Form α | Form β | Form γ | Form δ | Form ε | Form ζ | Form η | Form θ | Form ι",
+    "Tm (deg)e | 129 | 116.5 | 115 | 114 | 110.5 | 109.5 | 108 | 104.5 | 103",
+    "These polymorphs were identified by morphologies, melting points, powder X-ray diffraction (PXRD) patterns, Raman and Fourier transform infrared (FTIR) spectra (Fig. 2 and Supplementary Figs. 1–3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Punto di fusione dalla riga «Tm (deg)» della tabella 1 (unita «deg» nel testo letto, °C per il contesto: η «108 °C» nel testo). La tecnica non e attribuita per forma nella tabella (solo per η: POM)."
+  },
+  {
+   "id": "E21",
+   "da": "FI",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 103,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Polymorphs | Form α | Form β | Form γ | Form δ | Form ε | Form ζ | Form η | Form θ | Form ι",
+    "Tm (deg)e | 129 | 116.5 | 115 | 114 | 110.5 | 109.5 | 108 | 104.5 | 103",
+    "These polymorphs were identified by morphologies, melting points, powder X-ray diffraction (PXRD) patterns, Raman and Fourier transform infrared (FTIR) spectra (Fig. 2 and Supplementary Figs. 1–3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "osservazioni": {
+    "tecniche": []
+   },
+   "note": "Punto di fusione dalla riga «Tm (deg)» della tabella 1 (unita «deg» nel testo letto, °C per il contesto: η «108 °C» nel testo). La tecnica non e attribuita per forma nella tabella (solo per η: POM)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "FA"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "citazioni": [
+    "NIC and iso-NIC were purchased from Aladdin (Shanghai, China).",
+    "The as-received NIC sample was used to obtain the PXRD pattern of the α form."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "FISO"
+   ],
+   "metodo": "commerciale",
+   "solventi": [],
+   "citazioni": [
+    "NIC and iso-NIC were purchased from Aladdin (Shanghai, China).",
+    "The commercially available powder of iso-NIC (form I) was seeded at the edge of the NIC melt that was sandwiched between two coverslips at 70–95 °C."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta"
+  },
+  {
+   "forme": [
+    "FA"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "Form α is the most stable polymorph. It crystallized with a very high growth rate (768 ± 48 μm/s at 110 °C) (Fig. 3)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": 110,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "note": "Cristallizzazione isoterma dal fuso (crescita 768 ± 48 μm/s a 110 °C)."
+  },
+  {
+   "forme": [
+    "FD"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "Below 60 °C, form δ was the dominant polymorph."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "max": 60,
+    "unita": "°C",
+    "tipo": "isoterma",
+    "limite": "sotto"
+   },
+   "note": "Forma dominante, non l'unica."
+  },
+  {
+   "forme": [
+    "FD",
+    "FE",
+    "FT"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "At 60–80 °C, forms δ, ε and θ often concomitantly nucleate from the NIC melt."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "min": 60,
+    "max": 80,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "note": "Nucleazione concomitante spesso, non sempre."
+  },
+  {
+   "forme": [
+    "FH"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "Above 90 °C, it was difficult for most polymorphs to spontaneously nucleate, except for form η, which was observed to crystallize at 104 °C with an extremely low nucleation probability."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": 104,
+    "unita": "°C",
+    "tipo": "isoterma"
+   },
+   "note": "Probabilita di nucleazione estremamente bassa."
+  },
+  {
+   "forme": [
+    "FI"
+   ],
+   "metodo": "semina",
+   "solventi": [],
+   "citazioni": [
+    "The commercially available powder of iso-NIC (form I) was seeded at the edge of the NIC melt that was sandwiched between two coverslips at 70–95 °C. This successfully triggered the crystallization of another new polymorph (the ninth) of NIC, designated form ι (Supplementary Fig. 6).",
+    "b Acquisition of NIC form ι by seeding iso-NIC form I in the NIC melt at 70–95 °C."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "min": 70,
+    "max": 95,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "pretrattamento": "fuso di NIC tra due vetrini copri-oggetto, seminato con polvere di iso-NIC forma I (pseudoseeding)",
+   "note": "Il seme e un composto diverso (isonicotinamide, forma I)."
+  },
+  {
+   "forme": [
+    "FI"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "Form ι rarely self-nucleated from the NIC melt. We observed the spontaneous nucleation of form ι in only one sample after hundreds of experiments."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Nucleazione spontanea in un solo campione su centinaia di esperimenti; T non detta per questa nucleazione (le velocita di crescita di ι sono misurate fra 30 e 80 °C)."
+  },
+  {
+   "forme": [
+    "FZ"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "In addition to forms β and γ, form ζ is the third polymorph that cannot self-nucleate from the NIC melt. This polymorph usually cross-nucleated on the surface of form γ at 90–95 °C (Fig. 5a)",
+    "Single crystals of forms γ (a) and δ (b) were grown first at 114.5 and 114 °C, respectively, and then transferred to 94 and 100 °C, respectively, to trigger the cross-nucleation of form ζ."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "min": 90,
+    "max": 95,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "pretrattamento": "cristallo singolo di γ cresciuto a 114.5 °C e trasferito a 94 °C",
+   "note": "Nucleazione incrociata di ζ sulla superficie di γ (Fig. 5a: trasferimento a 94 °C)."
+  },
+  {
+   "forme": [
+    "FZ"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "In addition to forms β and γ, form ζ is the third polymorph that cannot self-nucleate from the NIC melt. This polymorph usually cross-nucleated on the surface of form γ at 90–95 °C (Fig. 5a) or on that of form δ at 90–105 °C (Fig. 5b).",
+    "Single crystals of forms γ (a) and δ (b) were grown first at 114.5 and 114 °C, respectively, and then transferred to 94 and 100 °C, respectively, to trigger the cross-nucleation of form ζ."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "min": 90,
+    "max": 105,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "pretrattamento": "cristallo singolo di δ cresciuto a 114 °C e trasferito a 100 °C",
+   "note": "Nucleazione incrociata di ζ sulla superficie di δ (Fig. 5b: trasferimento a 100 °C)."
+  },
+  {
+   "forme": [
+    "FD"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "As forms γ and ζ were transferred to 50–80 °C, they triggered the nucleation of form δ (Supplementary Fig. 4)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "min": 50,
+    "max": 80,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "pretrattamento": "cristalli di γ o ζ in contatto col fuso, trasferiti a 50–80 °C",
+   "note": "Nucleazione incrociata di δ innescata da γ e ζ."
+  },
+  {
+   "forme": [
+    "FD",
+    "FZ"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "At 90–95 °C, forms δ and ζ interactively cross-nucleated on each other’s surface and thus grew together (Supplementary Fig. 5)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "min": 90,
+    "max": 95,
+    "unita": "°C",
+    "tipo": "intervallo"
+   },
+   "note": "Nucleazione incrociata reciproca, crescita insieme."
+  },
+  {
+   "forme": [
+    "FB"
+   ],
+   "metodo": "da_evento",
+   "solventi": [],
+   "citazioni": [
+    "Forms β and γ were not observed to self-nucleate from the NIC melt but only crystallized as a result of polymorphic transformation from less stable polymorphs, usually forms θ and δ, respectively (Fig. 4)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "da_evento": [
+    "E2",
+    "E3",
+    "E4"
+   ],
+   "note": "β si forma solo per conversione, di norma da θ."
+  },
+  {
+   "forme": [
+    "FG"
+   ],
+   "metodo": "da_evento",
+   "solventi": [],
+   "citazioni": [
+    "Forms β and γ were not observed to self-nucleate from the NIC melt but only crystallized as a result of polymorphic transformation from less stable polymorphs, usually forms θ and δ, respectively (Fig. 4)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "da_evento": [
+    "E1"
+   ],
+   "note": "γ si forma solo per conversione, di norma da δ."
+  },
+  {
+   "forme": [
+    "FB",
+    "FG",
+    "FZ"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "Forms β and γ were not observed to self-nucleate from the NIC melt but only crystallized as a result of polymorphic transformation from less stable polymorphs",
+    "In addition to forms β and γ, form ζ is the third polymorph that cannot self-nucleate from the NIC melt."
+   ],
+   "fonte_dati": "propria",
+   "esito": "non_ottenuta",
+   "note": "Nucleazione spontanea dal fuso non osservata per β e γ; per ζ «cannot self-nucleate». Si ottengono per conversione (β, γ) o per nucleazione incrociata (ζ)."
+  },
+  {
+   "forme": [
+    "FA",
+    "FB",
+    "FG",
+    "FD",
+    "FE",
+    "FZ",
+    "FH",
+    "FT",
+    "FI"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "citazioni": [
+    "Following the partial melting of NIC polycrystals, a single-crystal seed was allowed to grow in an isolated microdroplet at 0.98–0.99 Tm (here, Tm refers to the melting point) to avoid the occurrence of noncrystallographic branching and interference from other crystals.",
+    "Single crystals of the nine polymorphs were grown from melt microdroplets, and all crystal structures were successfully determined by single-crystal X-ray diffraction (SCXRD)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "note": "Cristalli singoli per SCXRD: microgocce di fuso con un seme monocristallino, crescita a 0.98–0.99 Tm (frazione del punto di fusione, non convertita in temperatura)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 3.6,
+      "unita": "kJ/mol",
+      "tipo": null
+     },
+     "metodo": "scansione conformazionale rilassata B3LYP/6-31G(d) in fase gassosa",
+     "calcolato": true,
+     "citazione": "All these crystallographic conformations are related to two gas-phase conformers: the global minimum-energy confrmer ((E)-Form) with θ ≈ ± 18° (0 kJ/mol) and the local minimum-energy conformer ((Z)-Form)) with θ ≈ 180 ± 20° (3.6 kJ/mol) (Fig. 8)."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "torsione θ (C5-C4-C6-N2′) ammide-piridina",
+     "citazione": "The nine polymorphs of NIC have many different conformations with different torsion angles θ (C5-C4-C6-N2′) (Supplementary Table 2)."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "(E)-Form θ ≈ ±18° (minimo globale) e (Z)-Form θ ≈ 180 ± 20° (3.6 kJ/mol)",
+     "citazione": "All these crystallographic conformations are related to two gas-phase conformers: the global minimum-energy confrmer ((E)-Form) with θ ≈ ± 18° (0 kJ/mol) and the local minimum-energy conformer ((Z)-Form)) with θ ≈ 180 ± 20° (3.6 kJ/mol) (Fig. 8)."
+    },
+    {
+     "tipo": "altro",
+     "testo": "due accettori di legame H (ossigeno ammidico e azoto piridinico) e due donatori (idrogeni ammidici)",
+     "citazione": "NIC has two hydrogen bond acceptors (the amide oxygen and pyridine nitrogen) and two donors (the amide hydrogens), almost all of which are involved in the formation of hydrogen bonds in every polymorph except for form ι."
+    }
+   ]
+  }
+ ]
+}
