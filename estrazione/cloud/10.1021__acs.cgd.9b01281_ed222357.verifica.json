@@ -1,0 +1,193 @@
+{
+ "file": "estrazione/cloud/10.1021__acs.cgd.9b01281_ed222357.json",
+ "doi": "10.1021/acs.cgd.9b01281",
+ "schema": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "velocita 5: il numero c'e' ma non accanto a «°C/min»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E2",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "velocita 5: il numero c'e' ma non accanto a «°C/min»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E3",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "velocita 5: il numero c'e' ma non accanto a «°C/min»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E4",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "velocita 5: il numero c'e' ma non accanto a «°C/min»"
+   ],
+   "verdetto": "accettato_quasi"
+  },
+  {
+   "id": "E5",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E6",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E7",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [
+    "velocita 5: il numero c'e' ma non accanto a «°C/min»"
+   ],
+   "verdetto": "accettato_quasi"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F2",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F3",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "problemi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "problemi": [],
+   "verdetto": "accettato"
+  }
+ ]
+}

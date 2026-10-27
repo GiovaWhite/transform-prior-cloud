@@ -1,0 +1,184 @@
+{
+  "versione_schema": "v1.4",
+  "doi": "10.1021/acs.cgd.9b01281",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "ccdc": ["1950934", "1950920"],
+  "note": "Due polimorfi (alfa arancione, beta giallo) di un semiconduttore organico. Il testo dice «CCDC1950934 and 1950920 contain the supplementary crystallographic data» senza dire quale numero e' di quale forma: restano a livello di articolo. Le proprieta' meccaniche NON sono eventi di trasformazione: alfa si deforma elasticamente («the α phase undergoes elastic deformation»), beta plasticamente («the β phase tends to plastically deform with development of defects and delamination»), con moduli di Young E = 147 ± 30 MPa (alfa) e E = 13 ± 3 MPa (beta) da nanoindentazione AFM. Gap di banda da riflettivita': Eg = 2.10 eV (alfa), 2.29 eV (beta). Fase liquido-cristallina metastabile (mesofase) dal fuso, in raffreddamento, estratta come forma di tipo altro perche' ha condizioni sue (DSC e HSM). Alla HSM la transizione liquido-cristallo e' vista a 201 C (Figura 8a) contro 200 C in DSC: stessa prova con seconda tecnica, nessun evento nuovo. Il testo scrive «C4-N3TN» una volta (refuso per C4-NT3N). La fusione a 224 C e' attribuita a beta per deduzione: la curva DSC e' quella della fase alfa, che a 205 C e' gia' diventata beta.",
+  "composti": [
+    {"id": "C1", "nome": "2,2'-(2,2'-thiophene-5,5'-diyl)bis(5-butyl-5H-thieno[2,3-c]pyrrole-4,6)-dione (C4-NT3N)", "smiles": null}
+  ],
+  "forme": [
+    {"id": "F1", "composto": "C1", "etichetta": "α phase", "etichette_alternative": ["orange phase", "α crystals"], "tipo": "anidro", "tipo_presunto": true,
+     "sistema_cristallino": "triclino", "gruppo_spaziale": "P-1",
+     "cella": {"a": 4.833, "b": 11.579, "c": 21.82, "alpha": 79.98, "beta": 89.87, "gamma": 83.6, "V": 1194.8, "condizioni": "ambiente"},
+     "ccdc": null, "refcode": null,
+     "motivi_hb": [
+       {"motivo": "C—H---O bond", "chi": "tra due molecole adiacenti (interazione secondaria)",
+        "citazione": "A secondary intermolecular interaction is due to the presence of C—H---O bond and chalcogen bond (S---O)36 between two adjacent molecules"},
+       {"motivo": "chalcogen bond (S---O)", "chi": "tra due molecole adiacenti (interazione secondaria)",
+        "citazione": "A secondary intermolecular interaction is due to the presence of C—H---O bond and chalcogen bond (S---O)36 between two adjacent molecules"},
+       {"motivo": "π—π stacking interactions", "chi": "molecole impilate in colonne lungo l'asse a",
+        "citazione": "others, connected through π—π stacking interactions (Figure 2d)."}
+     ],
+     "citazione": "The structure of the α phase is triclinic, space group  𝑃1̅, and cell parameters a = 4.833(4) Å; b = 11.579(6) Å; c = 21.82(1) Å; α = 79.98(4)°; β = 89.87(6)°; γ = 83.60(5)°; volume = 1194.8 Å3), with one molecule in the asymmetric unit.",
+     "note": "La cella e' misurata a temperatura ambiente («Single crystal data were collected ... at room temperature»). Il tipo anidro e' presunto: nessun solvente in formula ne' ospiti. Gruppo P-1 scritto nel PDF con il carattere matematico «𝑃1̅»."},
+    {"id": "F2", "composto": "C1", "etichetta": "β phase", "etichette_alternative": ["yellow phase"], "tipo": "anidro", "tipo_presunto": true,
+     "sistema_cristallino": "monoclino", "gruppo_spaziale": "P21/c",
+     "cella": {"a": 22.937, "b": 5.6167, "c": 19.323, "beta": 104.806, "V": 2406.8, "condizioni": "ambiente"},
+     "ccdc": null, "refcode": null,
+     "motivi_hb": [
+       {"motivo": "π—π interactions", "chi": "tra molecole dello stesso strato (strati a molecole fortemente interconnesse)",
+        "citazione": "The crystals of the β phase are plate-like, and the morphology reflects the layered structure with preferred growth in the direction of the π—π interactions"}
+     ],
+     "citazione": "The structure of the β phase was solved in the monoclinic space group P21/c, with one molecule of C4-NT3N in the asymmetric unit (a = 22.937(2) Å; b = 5.6167(4) Å; c = 19.323(1) Å; β = 104.806(8)°; volume = 2406.8 Å3).",
+     "note": "Disordine interno della posizione degli atomi di zolfo in un gruppo tienoimmidico: 79% conformazione syn, 21% anti. Cella a temperatura ambiente (raccolta dati a temperatura ambiente)."},
+    {"id": "F3", "composto": "C1", "etichetta": "metastable liquid crystal phase", "tipo": "altro",
+     "ccdc": null, "refcode": null,
+     "citazione": "a transition from the melt to a metastable liquid crystal phase that crystallizes at 199 °C",
+     "note": "Mesofase non cristallina: compare in raffreddamento dal fuso fra il fuso e la forma beta. Non e' un solido cristallino."}
+  ],
+  "relazioni": [
+    {"forme": ["F1", "F2"], "relazione": "enantiotropa",
+     "citazione": "The thermal behaviour and the enantiotropic relationship of the polymorphs are reported.",
+     "relazione_scritta": "enantiotropic relationship",
+     "stabile_a_temperatura_ambiente": "F1", "fonte_dati": "propria", "certezza": "alta",
+     "note": "Il testo: «Together with the DSC results, these results suggest that α crystals are the stable phase at room temperature, while the β crystals are the stable form at high temperature.» Nessuna Ttr termodinamica dichiarata: i 205 C sono la transizione osservata in riscaldamento con DSC (5 C/min), non una Ttr scritta come tale."}
+  ],
+  "eventi": [
+    {"id": "E1", "da": "F1", "a": "F2", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 205, "unita": "°C", "tipo": "non_specificato"},
+       "velocita": {"valore": 5, "unita": "°C/min"},
+       "atmosfera": "N2",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "VT-PXRD", "HSM"],
+                      "entalpia": {"valore": 2.47, "unita": "kJ/mol", "tipo": "transizione"}},
+     "gruppi_coinvolti": [
+       {"gruppo": "π—π stacking interactions", "ruolo": "sintone", "con": "altra_molecola", "forma": "F1",
+        "citazione": "others, connected through π—π stacking interactions (Figure 2d)."},
+       {"gruppo": "C—H---O bond", "ruolo": "sintone", "con": "altra_molecola", "forma": "F1",
+        "citazione": "A secondary intermolecular interaction is due to the presence of C—H---O bond and chalcogen bond (S---O)36 between two adjacent molecules"},
+       {"gruppo": "chalcogen bond (S---O)", "ruolo": "sintone", "con": "altra_molecola", "forma": "F1",
+        "citazione": "A secondary intermolecular interaction is due to the presence of C—H---O bond and chalcogen bond (S---O)36 between two adjacent molecules"},
+       {"gruppo": "molecular conformation", "ruolo": "torsione", "con": "stessa_molecola", "cambia": "resta",
+        "citazione": "clearly shows that the molecules possess very similar conformations"},
+       {"gruppo": "van der Waals interactions between the layers", "ruolo": "altro", "con": "altra_molecola", "forma": "F2",
+        "citazione": "The plastic behaviour of the β form can be ascribed to the presence of van der Waals interactions between the layers of C4-NT3N"}
+     ],
+     "citazioni": [
+       "The first one, at 205 °C with H = 2.47 kJ/mol, is associated with transition to the β phase, as it was confirmed by variable temperature X-ray powder diffraction (VT XRPD) and in hot-stage microscopy",
+       "During heating α phase converts to the β phase above 205°C",
+       "The transition of the α crystals to the β form is visible between 205 and 212 °C.",
+       "in N2 atmosphere and a scanning speed of 5°/min."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "DSC a 205 C (tipo non detto), HSM: «above 205°C» e visibile fra 205 e 212 C (campione con alfa e beta). Stessa transizione con tre tecniche (DSC, VT-XRPD, HSM): un solo evento. Gruppi: l'articolo descrive i contatti di ciascuna forma (alfa: colonne impilate con C—H---O e calcogeno; beta: strati con van der Waals fra gli strati) ma non dice quale contatto cambia; la conformazione e' dichiarata molto simile nelle due forme."},
+    {"id": "E2", "da": "F2", "a": "fuso", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 224, "unita": "°C", "tipo": "non_specificato"},
+       "velocita": {"valore": 5, "unita": "°C/min"},
+       "atmosfera": "N2",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC"],
+                      "entalpia": {"valore": 35.5, "unita": "kJ/mol", "tipo": "fusione"}},
+     "citazioni": [
+       "while the second one, at 224 °C with H = 35.5 kJ/mol, is relating to melting.",
+       "in N2 atmosphere and a scanning speed of 5°/min."],
+     "da_dedotto": true,
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "da_evento": "E1",
+     "note": "Il testo parla della «DSC curve of the α phase» e dice solo che il secondo evento (224 C) riguarda la fusione. Poiche' il primo evento (205 C) e' gia' la trasformazione in beta e beta e' detta la forma stabile ad alta temperatura, la fase che fonde e' beta (deduzione, da_dedotto)."},
+    {"id": "E3", "da": "fuso", "a": "F3", "esito": "avvenuta", "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "temperatura": {"valore": 200, "unita": "°C", "tipo": "non_specificato"},
+       "velocita": {"valore": 5, "unita": "°C/min"},
+       "atmosfera": "N2",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "HSM"],
+                      "entalpia": {"valore": -2.36, "unita": "kJ/mol", "tipo": "transizione"}},
+     "citazioni": [
+       "The first at 200 °C with H = -2.36 kJ/mol correspond to a transition from the melt to a metastable liquid crystal phase",
+       "By cooling, the liquid C4-\nN3TN forms liquid crystal, which can be easily detected at 201 °C",
+       "in N2 atmosphere and a scanning speed of 5°/min."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Fuso -> mesofase in raffreddamento. In HSM la mesofase e' vista a 201 C (Figura 8a). Prima fase del passo doppio di cooling DSC («two very close yet distinct events»)."},
+    {"id": "E4", "da": "F3", "a": "F2", "esito": "avvenuta", "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "temperatura": {"valore": 199, "unita": "°C", "tipo": "non_specificato"},
+       "velocita": {"valore": 5, "unita": "°C/min"},
+       "atmosfera": "N2",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "HSM"],
+                      "entalpia": {"valore": -32.8, "unita": "kJ/mol", "tipo": "transizione"}},
+     "citazioni": [
+       "metastable liquid crystal phase that crystallizes at 199 °C with H = -32.8 kJ/mol (second peak) as  phase.",
+       "Usually the transition from liquid crystal to crystal resulted in formation of β phase only",
+       "in N2 atmosphere and a scanning speed of 5°/min."],
+     "da_evento": "E3", "frequenza": "di_norma",
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Cristallizzazione dalla mesofase in beta (secondo picco DSC a 199 C). «Usually ... β phase only»: di norma solo beta; con impurezze si ha cristallizzazione concomitante (E5) e il negativo corrispondente e' E6."},
+    {"id": "E5", "da": "F3", "a": "F1", "esito": "avvenuta", "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "altro": "presence of impurities",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["HSM"]},
+     "prodotti_secondari": ["F2"], "frequenza": "talvolta",
+     "citazioni": [
+       "however the presence of impurities was found to induce concomitant crystallization of the two polymorphs (Figure 8c)",
+       "Crystallization of the two concomitant polymorphs."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Dalla mesofase, con impurezze, cristallizzano insieme alfa e beta (HSM, Figura 8c). La didascalia 8b parla di «the impurity which promotes α crystallization»: alfa e' scelta come prodotto principale per questo, beta secondario; il testo non dice quale prevale. Le condizioni di raffreddamento (velocita', T) non sono date per questa prova."},
+    {"id": "E6", "da": "F3", "a": "F1", "esito": "non_avvenuta", "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "altro": null,
+       "solventi": []},
+     "osservazioni": {"tecniche": ["HSM", "DSC"]},
+     "frequenza": "di_norma",
+     "citazioni": [
+       "Usually the transition from liquid crystal to crystal resulted in formation of β phase only"],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Negativo ricavato dal «solo beta» (regola «only to Y»): di norma dalla mesofase si forma solo beta, quindi non alfa; il testo lo contrappone al caso con impurezze (E5). Condizioni dalla sola frase: nessuna T o velocita' specifica per questo passaggio."},
+    {"id": "E7", "da": "F2", "a": "F1", "esito": "non_avvenuta", "via": "termica", "sottovia": "raffreddamento",
+     "esito_dettaglio": "nessuna_transizione_solido_solido", "inverso_di": "E1", "reversibile": false,
+     "condizioni": {
+       "velocita": {"valore": 5, "unita": "°C/min"},
+       "atmosfera": "N2",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC"]},
+     "citazioni": [
+       "No solid-solid transition from  to  phase was observed during cooling.",
+       "in N2 atmosphere and a scanning speed of 5°/min."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Nel raffreddamento DSC non si osserva il ritorno beta -> alfa: la beta che cristallizza dalla mesofase resta tale. Mancato ritorno di E1, compatibile con la relazione enantiotropa (cinetica contro termodinamica)."}
+  ],
+  "preparazioni": [
+    {"forme": ["F1"], "metodo": "evaporazione", "solventi": ["toluene"], "esito": "ottenuta",
+     "citazioni": ["Crystals of the α phase suitable for single crystal X-ray diffraction (SCXRD) were obtained by solvent evaporation from a toluene solution."],
+     "fonte_dati": "propria"},
+    {"forme": ["F1"], "metodo": "evaporazione", "solventi": ["CH2Cl2", "CH3Cl", "toluene", "xylene", "THF"], "solventi_alternativi": true, "esito": "ottenuta",
+     "citazioni": ["The α phase can be obtained by solvent evaporation from a C4-NT3N solution (in CH2Cl2, CH3Cl, toluene, xylene, THF)."],
+     "fonte_dati": "propria"},
+    {"forme": ["F2"], "metodo": "raffreddamento", "solventi": ["toluene"], "esito": "ottenuta",
+     "temperatura": {"valore": 100, "unita": "°C"},
+     "citazioni": ["Plate-like crystals of the β phase, suitable for SCXRD, were obtained by slowly cooling a hot (100 °C) supersaturated solution of C4-NT3N in toluene or by using a solvothermal procedure.",
+                   "It was observed that usually the β phase crystallizes with some crystals from the α phase on the surface"],
+     "fonte_dati": "propria",
+     "note": "Di solito la beta cristallizza con qualche cristallo di alfa in superficie (Figura SI1 nel supplementare)."},
+    {"forme": ["F2"], "metodo": "raffreddamento", "solventi": ["toluene"], "esito": "ottenuta",
+     "temperatura": {"valore": 120, "unita": "°C"},
+     "citazioni": ["The β phase can be obtained inside a solvothermic reactor where a toluene solution of C4-NT3N is heated to a temperature of 120 °C and then slowly cooled down to the room temperature."],
+     "fonte_dati": "propria"},
+    {"forme": ["F2"], "metodo": "non_specificato", "solventi": ["toluene"], "esito": "ottenuta",
+     "citazioni": ["Precipitation of C4-NT3N in toluene as described in the synthetic protocol affords the β phase."],
+     "fonte_dati": "propria"}
+  ],
+  "molecole": [
+    {"composto": "C1",
+     "descrizioni": [
+       {"tipo": "conformeri", "forma": "F1", "testo": "aromatic fragment planar; thiophene rings in anti-anti conformation, curved molecular core",
+        "citazione": "The aromatic fragment is planar and the thiophene rings adopt an anti-anti conformation (Figure 2a)"},
+       {"tipo": "conformeri", "forma": "F2", "testo": "disorder of the S atoms in one thienoimide group: 79% syn, 21% anti",
+        "citazione": "The disorder was modelled with 79% in the syn conformation (Figure 5a) and 21% in the anti conformation."}
+     ]}
+  ]
+}
