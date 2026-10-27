@@ -1,0 +1,291 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1038/s41467-022-30541-y",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Nitrato di guanidinio (GN), sale ionico ferroelettrico: due polimorfi monoclini, forma I (bassa temperatura, Cm) e forma II (alta temperatura, C2). Transizione del primo ordine, martensitica e cooperativa, a 295-305 K riscaldando e 265-275 K raffreddando (isteresi di circa 20 K): il cristallo singolo si allunga del 51% lungo l'asse piu' lungo e si accorcia in larghezza, senza deterioramento, per piu' di 20 cicli. Meccanismo (DFT-D): riorientazione collettiva degli ioni legati a idrogeno e rotazione dei fogli; i fogli ionici passano da orientazione parallela (forma I) ad antiparallela (forma II) conservando il motivo esagonale; lo spessore fra i fogli passa da 3.605 a 3.749 Å; l'asse c raddoppia («The doubling of the c axis that occurs during the transition from form I to II»). Non sono eventi: l'espansione termica anisotropa della forma I prima della transizione (coefficienti −4.98 × 10–6 e −6.81 × 10–6 K–1 parallelamente ad a e b, 211.46 × 10–6 K–1 parallelamente a c); le misure di forza e lavoro dell'attuatore; le misure elettriche C–V, G–V e I–V (capacita' sette volte maggiore e conduttanza 35 volte maggiore nella forma II; permittivita' diversa del 30% circa); la nanoindentazione (E = 4.2 ± 0.4 GPa e H = 0.1 ± 0.02 GPa per la forma I; E = 3.5 ± 0.2 GPa e H = 0.1 ± 0.01 GPa per la forma II); il piegamento di cristalli lunghi durante il riscaldamento; i calcoli DFT-D (energia di deformazione fino a 11 kJ mol–1, energia rilasciata fino a −15 kJ mol–1). Il testo rimanda al supplementare per i dati cristallografici (Supplementary Table 1): nessun CCDC ne' refcode. Incoerenze del testo: (1) crescita di forma I: i Risultati dicono «slow evaporation from a saturated aqueous solution below 285 K», i Metodi una miscela acetone/acqua in una stanza «lower than 286 K»; si tiene la descrizione dei Metodi. Le temperature della DSC (295-305 K riscaldando, 275-265 K raffreddando) e del cambio di cella (sopra 295 K, sotto 275 K) coincidono: un solo evento per verso.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "guanidine",
+   "nome_scritto": "guanidinium"
+  },
+  {
+   "id": "C2",
+   "nome": "nitric acid",
+   "nome_scritto": "nitrate"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "etichetta": "form I",
+   "etichette_alternative": [
+    "low-temperature polymorph"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "Cm",
+   "cella": {
+    "a": 10.925,
+    "b": 7.272,
+    "c": 3.605,
+    "beta": 93.613,
+    "condizioni": "250 K",
+    "fonte": "SCXRD"
+   },
+   "citazione": "Form I crystallizes in the monoclinic space group Cm (a = 10.925(3) Å, b = 7.272(1) Å, c = 3.605(8) Å and β = 93.613(8)°).",
+   "note": "Temperatura della misura: 250 K («Crystal structure analysis of forms I and II was performed by X-ray diffraction from crystals at 250 and 310 K, respectively»). L'unita' asimmetrica contiene mezza unita' formula, con uno ione guanidinio e uno nitrato. Fogli ionici paralleli al piano (001) impilati a 3.605(1) Å. La cella a si compara con quella di forma II (Fig. 2a).",
+   "motivi_hb": [
+    {
+     "motivo": "hexagonal pattern of alternating guanidinium and nitrate ions in ionic sheets parallel to (001)",
+     "chi": "guanidinium and nitrate ions",
+     "citazione": "The layered crystal structure is composed of ionic sheets parallel to the (001) plane consisting of alternating guanidinium and nitrate ions in hexagonal pattern"
+    },
+    {
+     "motivo": "each guanidinium bonded to three nitrate anions through six hydrogen bonds (and each nitrate to three guanidinium cations)",
+     "chi": "guanidinium N–H and nitrate O",
+     "citazione": "Each guanidinium cation is bonded to three nitrate anions through six hydrogen bonds, and each nitrate anion is bonded to three guanidinium cations through six hydrogen bonds."
+    },
+    {
+     "motivo": "12-membered hydrogen-bonded rings, offset between adjacent sheets",
+     "chi": "hydrogen-bonded rings of adjacent sheets",
+     "citazione": "The 12-membered hydrogen-bonded rings of adjacent sheets are offset at a slippage angle of 76.8°"
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "etichetta": "form II",
+   "etichette_alternative": [
+    "high-temperature polymorph"
+   ],
+   "tipo": "sale",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 1
+    }
+   ],
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2",
+   "cella": {
+    "a": 12.69,
+    "b": 7.283,
+    "c": 7.256,
+    "beta": 120.828,
+    "condizioni": "310 K",
+    "fonte": "SCXRD"
+   },
+   "citazione": "The crystal structure of form II is also monoclinic (C2, Supplementary Table 1; a = 12.69(3) Å, b = 7.283(2) Å, c = 7.256(2) Å and β = 120.828(9)°).",
+   "note": "Temperatura della misura: 310 K. Fogli impilati a 3.749(1) Å, con scorrimento di 75.9°; ioni di strati adiacenti ruotati di circa 60°.",
+   "motivi_hb": [
+    {
+     "motivo": "hexagonal hydrogen-bonding pattern within the ionic sheets (preserved from form I); sheets antiparallel",
+     "chi": "guanidinium and nitrate ions",
+     "citazione": "Upon transformation to form II, the hexagonal hydrogen-bonding pattern within the ionic sheets is preserved, while the arrangement of the sheets adjacent to each other changes to an antiparallel pattern (Figs. 1h, i and 2a, c)."
+    }
+   ]
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 295,
+     "max": 305,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K min-1"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "less than a few milliseconds"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia",
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "martensitica",
+     "cooperativa"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) confirmed that crystals of form I undergo endothermic phase transition to form II at 295–305 K on heating, and form II reverts back to form I on cooling by an exothermic transition at 275–265 K (Fig. 1d).",
+    "The sharp transition, relatively large thermal hysteresis of about 20 K, and distinct peak shape confirm that the phase transition between forms I and II is of first order.",
+    "When transitioning to form II, needle-shaped crystals of form I expand strongly and visibly along their longest crystal axis, while they shrink across their width (Fig. 1e).",
+    "Measurement of the crystal size before and after the transition showed that the crystals expand by an impressive 51% during heating.",
+    "The transition is accompanied by abrupt changes of the unit cell above 295 K on heating and below 275 K on cooling.",
+    "The forward phase transition is very fast: at a heating rate of 10 K min−1, the transition of form I to form II occurs in less than a few milliseconds.",
+    "Both transitions depend on the rate of heating, and the phase boundaries were observed at different heating rates during the phase transitions (Supplementary Fig. 4 and Supplementary Movie 3).",
+    "which revealed that the rapid martensitic phase transition in GN is a consequence of the energetically favored collective rearrangement of hydrogen-bonded ions"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "hydrogen-bonding pattern within the ionic sheets",
+     "ruolo": "sintone",
+     "con": "controione",
+     "cambia": "resta",
+     "citazione": "Upon transformation to form II, the hexagonal hydrogen-bonding pattern within the ionic sheets is preserved, while the arrangement of the sheets adjacent to each other changes to an antiparallel pattern (Figs. 1h, i and 2a, c)."
+    },
+    {
+     "gruppo": "guanidinium cations",
+     "ruolo": "altro",
+     "con": "controione",
+     "cambia": "ruota",
+     "citazione": "The guanidinium cations in the 12-membered ring and the overlapping guanidinium cations of adjacent sheets are rotated by about 60°."
+    }
+   ],
+   "note": "Riscaldando la forma I diventa forma II a 295-305 K (DSC endotermica, 51% di allungamento lungo l'asse piu' lungo, cella a salto sopra 295 K). La velocita' di 10 K min-1 e' quella della frase sulla rapidita' («less than a few milliseconds»); la T di transizione dipende dalla velocita' di riscaldamento (Supplementary Fig. 3-4) e c'e' un piccolo spostamento fra il primo e il secondo ciclo termico. I cristalli ritengono l'integrita' dopo piu' cicli («retain their integrity»): nessun deterioramento visibile, nessuna fatica in 20 cicli. Le immagini della Fig. 1e-f sono prese fra 260 e 310 K. Alcuni cristalli lunghi si piegano un poco durante il riscaldamento («snake slithering»). Cristalli singoli o macinati leggermente si ciclano. DFT-D: gli impilamenti degli ioni nelle forme I e II sono equienergetici."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 265,
+     "max": 275,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K min-1"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "more than a few seconds"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia",
+     "SCXRD"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) confirmed that crystals of form I undergo endothermic phase transition to form II at 295–305 K on heating, and form II reverts back to form I on cooling by an exothermic transition at 275–265 K (Fig. 1d).",
+    "When transitioning at 295–305 K on heating and at 265–275 K on cooling the ferroelectric crystals of guanidinium nitrate exert a linear stroke of 51%",
+    "Upon cooling, they shrink to their original size without any visible deterioration (Fig. 1f).",
+    "The forward phase transition is very fast: at a heating rate of 10 K min−1, the transition of form I to form II occurs in less than a few milliseconds. At the same cooling rate, the transition of form II to form I takes more than a few seconds.",
+    "The transition is accompanied by abrupt changes of the unit cell above 295 K on heating and below 275 K on cooling.",
+    "The unit cell variation confirms that the transition is reversible with a thermal hysteresis."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Ritorno raffreddando: DSC esotermica a 275-265 K, accorciamento fino alla dimensione originale senza deterioramento (Fig. 1f). La velocita' di 10 K min-1 e' quella della frase («At the same cooling rate»). Isteresi di circa 20 K, con spostamento fra il primo e il secondo ciclo termico (Supplementary Fig. 2)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone",
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": null,
+    "max": 286,
+    "unita": "K",
+    "limite": "sotto",
+    "tipo": "ambiente"
+   },
+   "tempo": {
+    "valore": null,
+    "min": 3,
+    "max": 4,
+    "unita": "day",
+    "tipo": "processo"
+   },
+   "rapporto_solido_solvente": "200–400 mg of GN in approximately 5–10 mL of acetone, then small amounts of water until the solid was dissolved",
+   "citazioni": [
+    "Crystallization was based on slow evaporation of an acetone/water mixture. First, 200–400 mg of GN was taken into a conical flask. Approximately 5–10 mL of acetone was added and the conical flask was put inside the sonicator for 20–30 min at room temperature. Then, small amounts of water were added to the conical, until all the solid was dissolved. The solution was then filtered twice and the filtrate was collected in a crystallization dish, which was placed on top of ice to prevent crystallization at room temperature. Finally, the crystallization dish was taken to a crystallization room with temperature lower than 286 K at all times. GN crystals were observed in 3–4 days.",
+    "Single crystals of GN were grown by slow evaporation from a saturated aqueous solution below 285 K at ambient pressure following a reported procedure48",
+    "Below 285 K single crystals of the low-temperature polymorph (form I) were obtained as colorless elongated hexagonal needles, plates, or prisms with well-developed faces (Fig. 1a; Supplementary Fig. 1). Conducting the crystallization above 296 K resulted in a polycrystalline material."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "conflitto": "Risultati: evaporazione lenta da soluzione acquosa satura sotto 285 K; Metodi: miscela acetone/acqua in una stanza sotto 286 K. Si tiene la descrizione dei Metodi (piu' circostanziata) e il limite di 286 K.",
+   "note": "Sopra 296 K la cristallizzazione da' un materiale policristallino (forma non nominata). Il reagente e' commerciale (Sigma Aldrich), usato senza purificazione."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "citazioni": [
+    "Crystals converted from form I to form II by heating (e) and from form II to form I by cooling (f) between 260 and 310 K are shown."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "La forma II si ottiene riscaldando un cristallo di forma I oltre la transizione (E1); l'SXRD di forma II e' a 310 K."
+  }
+ ],
+ "molecole": []
+}
