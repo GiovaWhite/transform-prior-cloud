@@ -1,0 +1,657 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1038/s41598-025-07051-0",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "2430734",
+  "2430735",
+  "2430736"
+ ],
+ "note": "Sale/addotto dimetilglicinio idrogenomaleato–acido maleico (DMG·2MA), ferroelettrico organico: fasi I (Pnma, disordine dei cationi, > 295 K), II (modulata in modo incommensurato, 271–295 K), III (Pca21, polare, < ~271 K, commensurata dopo il lock-in). I tre CCDC 2430734‒2430736 sono dati come intervallo per le strutture delle fasi I e III (due fasi, tre numeri): non attribuibili; l'elemento 2430735 e ricavato dall'intervallo. Non sono eventi: lo scambio dei domini ferroelettrici nella fase III (ciclo P–E, campo coercitivo 422–595 V cm−1, campo di bias 65–362 V cm−1), la legge di Curie–Weiss non rispettata, il modello di Cole–Cole e di Vogel–Fulcher per la dinamica dielettrica nella fase III (punto di svolta a 240 K nei parametri della distribuzione dei tempi di rilassamento). Il valore della polarizzazione spontanea e dato solo come rapporto («approximately two times greater than ... Rochelle salt (0.25 µCcm− 2)»): non estratto.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "dimethylglycine",
+   "smiles": null,
+   "nome_scritto": "dimethylglycine [(CH3)2NCH2COOH, DMG]"
+  },
+  {
+   "id": "C2",
+   "nome": "maleic acid",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "phase I",
+   "etichette_alternative": [
+    "high-temperature phase I",
+    "HT phase I"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "gruppo_spaziale": "Pnma",
+   "citazione": "When cooling, the high-temperature disordered phase I of the space group Pnma transforms at 295 K to the incommensurately modulated phase II, and then at around 271 K a lock-in transition leads to commensurate phase III of the polar space group Pca21.",
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 300,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "SCXRD",
+     "citazione": "The determination of the structure in this phase at 300 K revealed two-site disorder of the DMG+ cations (Fig. 4)."
+    }
+   ],
+   "note": "Fase ad alta T, centrosimmetrica, con disordine a due siti dei cationi DMG+ (parametro c dimezzato rispetto ad a della fase III). Il testo non scrive il sistema cristallino. CCDC 2430734‒2430736 per le strutture delle fasi I e III: tre numeri, non attribuibili (vedi ccdc dell'articolo)."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "phase II",
+   "etichette_alternative": [
+    "intermediate phase II",
+    "incommensurately modulated phase II"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "citazione": "In intermediate phase II, the diffraction data revealed the presence of satellite reflections, indicating an incommensurate modulation of the structure.",
+   "note": "Fase modulata in modo incommensurato fra 271 e 295 K: satelliti di diffrazione, vettore di modulazione parallelo alla traslazione che si raddoppia in III. «The average crystal structure of phase II approximates that of phase I». Nessuna struttura depositata per II (le strutture risolte sono quelle delle fasi I e III). Gruppo spaziale non scritto."
+  },
+  {
+   "id": "F3",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "phase III",
+   "etichette_alternative": [
+    "low-temperature phase III",
+    "ferroelectric phase III"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "gruppo_spaziale": "Pca21",
+   "citazione": "In low-temperature phase III, the crystal symmetry is polar with the space group Pca21 (Table S1) and the polar axis along the longest lattice parameter c.",
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 160,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "SCXRD",
+     "citazione": "In phase III at 160 K the molecular ions are well ordered, but the entropy change during the heating of the crystal through the phase transitions region strongly suggests possible disorder in phase I."
+    },
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 260,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "SCXRD",
+     "citazione": "Layered packing of the unit cell of DMG·2MA in ferroelectric phase III at 260 K viewed along [100] (a)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "wavy ribbons of DMG+ cations and dimeric [2MA]− anions linked by O‒H···O and N‒H···O hydrogen bonds",
+     "chi": "DMG+ / [2MA]−",
+     "citazione": "As shown in Fig. 3b, DMG+ cations and dimeric monovalent [2MA]− anions are linked through the strong O‒H···O and N‒H···O hydrogen bonds (see also Tables S2 and S3), forming wavy ribbons that extend along c."
+    }
+   ],
+   "note": "Fase polare ferroelettrica sotto Tc ≈ 271 K, cationi completamente ordinati; modulata in modo commensurato (lock-in, vedi abstract). Strutture a 160 K e a 260 K (il testo non dice quale dei tre CCDC corrisponda). Il testo non scrive il sistema cristallino."
+  },
+  {
+   "id": "F4",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "melt of DMG·2MA",
+   "tipo": "fuso",
+   "ospite": null,
+   "citazione": "The salt melts at 392 K, which coincides with the onset of decomposition, and the substance does not crystallize in the subsequent cooling run, as evidenced by the DSC plots in Fig. S1.",
+   "note": "Fuso del sale a 392 K."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "onset",
+     "onset": 295
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The character of the thermal anomalies recorded in the cooling and heating runs (Fig. 2a) proves that at 295 K the crystal undergoes a second-order phase transition followed by a first-order transition at around 271 K.",
+    "When cooling, the high-temperature disordered phase I of the space group Pnma transforms at 295 K to the incommensurately modulated phase II, and then at around 271 K a lock-in transition leads to commensurate phase III of the polar space group Pca21.",
+    "The dashed line in part (a) marks the transition temperature, which for the second-order phase transition corresponds to the position of the anomaly minimum and the onset, respectively, in the heating and cooling runs; the arrows indicate the transition temperatures of the first-order transition.",
+    "In intermediate phase II, the diffraction data revealed the presence of satellite reflections, indicating an incommensurate modulation of the structure.",
+    "The powdered sample, which was prepared from a single crystal, was cooled/heated at a rate of 10 K/min."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "SCXRD",
+     "dielettrica"
+    ],
+    "ordine_transizione": "secondo",
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMG+ cations",
+     "ruolo": null,
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "In phase I, the cations occupy split positions and their ordering takes place through phase II, in which their positions are responsible for structural modulation."
+    },
+    {
+     "gruppo": "layered architecture of hydrogen-bonded DMG+ cations and [2MA]− anions",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "Temperature-dependent structural studies have shown that all DMG·2MA phases exhibit a layered architecture (Fig. 3a)."
+    }
+   ],
+   "note": "Transizione del secondo ordine I → II a 295 K in raffreddamento (nel DSC la T e l'inizio dell'anomalia in raffreddamento, il minimo in riscaldamento). Visto anche dallo SCXRD (cambio di struttura: disordine → modulazione incommensurata) e come anomalia continua della permittivita lungo b a circa 295 K. ΔS totale per le due transizioni (4.2±0.4) J mol−1 K−1, vicino a R ln 1.7: possibile contributo ordine-disordine. Le anomalie delle due transizioni si sovrappongono parzialmente."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 295
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The character of the thermal anomalies recorded in the cooling and heating runs (Fig. 2a) proves that at 295 K the crystal undergoes a second-order phase transition followed by a first-order transition at around 271 K.",
+    "The dashed line in part (a) marks the transition temperature, which for the second-order phase transition corresponds to the position of the anomaly minimum and the onset, respectively, in the heating and cooling runs; the arrows indicate the transition temperatures of the first-order transition.",
+    "Small stepwise changes visible at approximately 271 K confirm the first-order character of the transition between phases II and III, whereas continuous changes at approximately 295 K are consistent with the second-order transition between phases II and I.",
+    "The powdered sample, which was prepared from a single crystal, was cooled/heated at a rate of 10 K/min."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "SCXRD"
+    ],
+    "ordine_transizione": "secondo",
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMG+ cations",
+     "ruolo": null,
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "In phase I, the cations occupy split positions and their ordering takes place through phase II, in which their positions are responsible for structural modulation."
+    },
+    {
+     "gruppo": "layered architecture of hydrogen-bonded DMG+ cations and [2MA]− anions",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "Temperature-dependent structural studies have shown that all DMG·2MA phases exhibit a layered architecture (Fig. 3a)."
+    }
+   ],
+   "note": "Verso II → I in riscaldamento a 295 K (posizione del minimo dell'anomalia). Il testo non separa i due versi con parole proprie: la sua frase vale per i cicli di raffreddamento e riscaldamento («thermal anomalies recorded in the cooling and heating runs»)."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 271,
+     "unita": "K",
+     "tipo": null,
+     "circa": true
+    },
+    "velocita": {
+     "valore": null,
+     "unita": "K/min",
+     "tipo": null,
+     "valori": [
+      10,
+      0.2
+     ]
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The character of the thermal anomalies recorded in the cooling and heating runs (Fig. 2a) proves that at 295 K the crystal undergoes a second-order phase transition followed by a first-order transition at around 271 K.",
+    "When cooling, the high-temperature disordered phase I of the space group Pnma transforms at 295 K to the incommensurately modulated phase II, and then at around 271 K a lock-in transition leads to commensurate phase III of the polar space group Pca21.",
+    "Thus, the transition between phases II and III is of incommensurate-commensurate type.",
+    "For DSC runs recorded at the rate of temperature changes of 10 K/min, the hysteresis was about 0.5 K, as seen in Fig. 2a, while for much lower temperature rates used in dielectric measurements (0.2 K/min), it was observed to be even lower than 0.2 K.",
+    "Small stepwise changes visible at approximately 271 K confirm the first-order character of the transition between phases II and III, whereas continuous changes at approximately 295 K are consistent with the second-order transition between phases II and I.",
+    "Along the polar c direction at around TC = 271 K the crystal exhibits a large dielectric anomaly"
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": true,
+   "inverso_di": "E4",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "SCXRD",
+     "dielettrica"
+    ],
+    "ordine_transizione": "primo",
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMGH+ cations",
+     "ruolo": null,
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "The complete ordering of DMGH+ cations occurs after the transition to phase III, which is associated with the mutual shift of molecular ions, resulting in the generation of nonzero spontaneous polarisation."
+    },
+    {
+     "gruppo": "layered architecture of hydrogen-bonded DMG+ cations and [2MA]− anions",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "Temperature-dependent structural studies have shown that all DMG·2MA phases exhibit a layered architecture (Fig. 3a)."
+    }
+   ],
+   "note": "Transizione del primo ordine II → III (lock-in incommensurata-commensurata) a ~271 K = punto di Curie: appare la polarizzazione spontanea. Misurata con il DSC (10 K/min) e con la permittivita (0.2 K/min vicino alle transizioni, su lastrine di monocristallo orientate): stessa T, un solo evento. Meccanismo: ordinamento dei cationi DMGH+ attraverso la fase II; la polarizzazione nasce dallo spostamento ionico («Although the driving mechanism is of the order-disorder type, spontaneous polarisation originates from ionic displacement»)."
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "relativo_a": "E3",
+     "delta": 0.5,
+     "circa": true
+    },
+    "velocita": {
+     "valore": null,
+     "unita": "K/min",
+     "tipo": null,
+     "valori": [
+      10,
+      0.2
+     ]
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "For DSC runs recorded at the rate of temperature changes of 10 K/min, the hysteresis was about 0.5 K, as seen in Fig. 2a, while for much lower temperature rates used in dielectric measurements (0.2 K/min), it was observed to be even lower than 0.2 K.",
+    "The character of the thermal anomalies recorded in the cooling and heating runs (Fig. 2a) proves that at 295 K the crystal undergoes a second-order phase transition followed by a first-order transition at around 271 K.",
+    "Small stepwise changes visible at approximately 271 K confirm the first-order character of the transition between phases II and III, whereas continuous changes at approximately 295 K are consistent with the second-order transition between phases II and I."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": true,
+   "inverso_di": "E3",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "dielettrica"
+    ],
+    "ordine_transizione": "primo"
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "DMGH+ cations",
+     "ruolo": null,
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F3",
+     "citazione": "The complete ordering of DMGH+ cations occurs after the transition to phase III, which is associated with the mutual shift of molecular ions, resulting in the generation of nonzero spontaneous polarisation."
+    },
+    {
+     "gruppo": "layered architecture of hydrogen-bonded DMG+ cations and [2MA]− anions",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "Temperature-dependent structural studies have shown that all DMG·2MA phases exhibit a layered architecture (Fig. 3a)."
+    }
+   ],
+   "note": "Verso III → II in riscaldamento: isteresi molto piccola, circa 0.5 K nel DSC a 10 K/min e anche sotto 0.2 K nelle misure dielettriche a 0.2 K/min (il segno non e scritto). La T assoluta del riscaldamento non e data."
+  },
+  {
+   "id": "E5",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "campo",
+   "condizioni": {
+    "temperatura": {
+     "valore": 271.8,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "altro": "electric field sweep from 10 mHz to 1 Hz along the polar c direction",
+    "solventi": []
+   },
+   "citazioni": [
+    "In phase II, at 274 K (TC-T = -2.6 K), the crystal exhibited linear P(E) dependence as expected for normal dielectrics, but closer to the transition temperature, at 271.8 K (TC-T = -0.4 K), a double hysteresis loop was recorded.",
+    "The double loop indicates an electric field-induced transition from the incommensurately modulated phase to the commensurate phase with non-zero polarisation.",
+    "The loops were recorded at a low-frequency electric field sweep ranging from 10 mHz to 1 Hz."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "osservazioni": {
+    "tecniche": [
+     "dielettrica"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "oriented single-crystal plate"
+   },
+   "note": "Transizione indotta dal campo elettrico: a 271.8 K (0.4 K sotto Tc) il ciclo P–E ha un doppio anello, letto dagli autori come transizione indotta dal campo dalla fase modulata incommensurata alla fase commensurata polare. Il campo critico non e dato. Tecnica: cicli di isteresi polarizzazione–campo (elettrometro), classificata come dielettrica. Misura P–E fatta in raffreddamento (ciclo di abbassamento della T)."
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "F3",
+   "esito": "non_avvenuta",
+   "via": "altro",
+   "sottovia": "campo",
+   "condizioni": {
+    "temperatura": {
+     "valore": 274,
+     "unita": "K",
+     "tipo": "osservata"
+    },
+    "altro": "electric field sweep from 10 mHz to 1 Hz along the polar c direction",
+    "solventi": []
+   },
+   "citazioni": [
+    "In phase II, at 274 K (TC-T = -2.6 K), the crystal exhibited linear P(E) dependence as expected for normal dielectrics, but closer to the transition temperature, at 271.8 K (TC-T = -0.4 K), a double hysteresis loop was recorded.",
+    "The loops were recorded at a low-frequency electric field sweep ranging from 10 mHz to 1 Hz."
+   ],
+   "certezza": "bassa",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "osservazioni": {
+    "tecniche": [
+     "dielettrica"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "oriented single-crystal plate"
+   },
+   "note": "Negativo: a 274 K (2.6 K sopra Tc) in fase II la dipendenza P(E) e lineare, «as expected for normal dielectrics» (nessun anello di isteresi). La forma attesa III e la fase raggiunta a 271.8 K; l'articolo non dice in parole che a 274 K non c'e la transizione indotta: lettura dalla frase e dal confronto con E5."
+  },
+  {
+   "id": "E7",
+   "da": "F1",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 392,
+     "unita": "K",
+     "tipo": null
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The salt melts at 392 K, which coincides with the onset of decomposition, and the substance does not crystallize in the subsequent cooling run, as evidenced by the DSC plots in Fig. S1.",
+    "The powdered sample, which was prepared from a single crystal, was cooled/heated at a rate of 10 K/min."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "da_dedotto": true,
+   "prodotti_secondari": [
+    "decomposizione"
+   ],
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Fusione a 392 K che coincide con l'inizio della decomposizione. La forma di partenza non e detta: a 392 K (> 295 K) e la fase I. Il sale non ricristallizza nel raffreddamento successivo (E9)."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "decomposizione",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 390,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "citazioni": [
+    "The TGA measurements (Fig. S2) revealed that DMG·2MA is stable up to approximately 390 K. The substantial weight loss of the sample above this temperature indicates crystal decay.",
+    "The polycrystalline sample was heated in a nitrogen atmosphere at a temperature rate of 10 K/min."
+   ],
+   "certezza": "media",
+   "natura": "chimica",
+   "fonte_dati": "propria",
+   "da_dedotto": true,
+   "osservazioni": {
+    "tecniche": [
+     "TGA"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "TGA: stabile fino a circa 390 K, sopra questa T perdita di massa sostanziale = decomposizione del cristallo. Perdita di massa non quantificata. La fase di partenza (sopra 295 K: I) e dedotta. Stabilita chimica sotto 390 K non estratta come evento (la forma cambia solo per le transizioni I/II/III)."
+  },
+  {
+   "id": "E9",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min",
+     "tipo": null
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The salt melts at 392 K, which coincides with the onset of decomposition, and the substance does not crystallize in the subsequent cooling run, as evidenced by the DSC plots in Fig. S1.",
+    "The powdered sample, which was prepared from a single crystal, was cooled/heated at a rate of 10 K/min."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "Il fuso non cristallizza nel raffreddamento successivo (curve DSC); forma attesa non nominata."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "water"
+   ],
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": 301,
+    "unita": "K",
+    "tipo": "isoterma"
+   },
+   "tempo": {
+    "valore": 1,
+    "unita": "week",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "dimethylglycine:maleic acid 1:2 molar ratio",
+   "pretrattamento": "seme monocristallino montato sul fondo di una provetta conica di vetro e scaldato a 303 K per un giorno; soluzione satura filtrata (membrana PTFE 0.45 μm)",
+   "citazioni": [
+    "High-quality single crystals were grown at a constant temperature of 301 K by slow evaporation of water from an aqueous solution containing dimethylglycine and maleic acid in a 1:2 molar ratio.",
+    "For this purpose, a single crystal seed was mounted at the bottom of a conical glass test tube and heated at 303 K for one day.",
+    "After one week, the crystal was carefully removed."
+   ],
+   "fonte_dati": "propria",
+   "note": "Crescita unidirezionale per evaporazione lenta di acqua da soluzione acquosa a 301 K (provetta chiusa in modo lasco). Fase attribuita a I perche 301 K e sopra 295 K (non scritto dagli autori); i cristalli, raffreddati, passano da II e III."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "forma il monocatione semplice DMGH+ (dimetilglicinio); con l'acido maleico un monoanione dimerico legato da legami H, [2MA]−",
+     "citazione": "formed of simple monocations and complex dimeric H-bonded monoanions"
+    }
+   ]
+  }
+ ]
+}
