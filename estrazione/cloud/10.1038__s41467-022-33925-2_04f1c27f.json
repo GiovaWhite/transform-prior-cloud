@@ -1,0 +1,549 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1038/s41467-022-33925-2",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Tre derivati cholesterici (4I-CASS, 4I-CACS, 4I-CAHCS) con fasi liquido-cristalline; solo 4I-CASS ha la transizione solido-solido fase I -> fase II a ~342 K. Le fasi liquido-cristalline (Ch, SmC*) sono modellate come forme di tipo «altro». Non sono eventi: la ferroelettricita' (cicli P-V a 433 K nella SmC*, polarizzazione calcolata con fase di Berry 181.93, 233.17, 27.12, 28.53 nC/cm2), le misure PFM (risposta di fase II circa 1.5 volte quella di fase I), le texture della fase colesterica e l'effetto della pressione sulle texture (Supplementary Fig. 13). I domini ferroelettrici non cambiano da fase I a fase II («the polarization directions of the crystal have not changed during the phase transition, as both phases belong to point group 2»). Nessun CCDC ne' cella nel testo.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "β-sitosteryl 4-iodocinnamate",
+   "nome_scritto": "β-sitosteryl 4-iodocinnamate (4I-CASS)"
+  },
+  {
+   "id": "C2",
+   "nome": "cholesteryl 4-iodocinnamate",
+   "nome_scritto": "cholesteryl 4-iodocinnamate (4I-CACS)",
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C3",
+   "nome": "dihydrocholesteryl 4-iodocinnamate",
+   "nome_scritto": "dihydrocholesteryl 4-iodocinnamate (4I-CAHCS)",
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "phase I",
+   "etichette_alternative": [
+    "4I-CASS phase I",
+    "SC phase I"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "motivi_hb": [
+    {
+     "motivo": "parallel stacking of the benzene rings along the b-axis, C–I bonds almost perpendicular to the b-axis",
+     "chi": "benzene rings of adjacent molecules; C–I bonds",
+     "citazione": "For the packing view of the structure, the benzene rings of adjacent molecules in 4I-CASS are stacked parallelly along the b-axis, and the C–I bonds are almost perpendicular to the b-axis (Supplementary Fig. 2)."
+    },
+    {
+     "motivo": "double-row paddle from two-fold screw axes",
+     "chi": "4I-CASS molecules",
+     "citazione": "As Fig. 2c shows, the 4I-CASS molecules are each stacked by the symmetry operation of two-fold screw axes to form a structure similar to a double-row paddle."
+    }
+   ],
+   "citazione": "Structural analyses reveal that all of them crystallize in the same polar monoclinic space group P21 at 300 K (Supplementary Table 1).",
+   "note": "Fase sotto 342 K (Fig. 3a); due molecole indipendenti nell'unita' asimmetrica (The asymmetric unit of crystal structure in each compound consists of two crystallographically independent molecules (Fig. 2a and Supplementary Fig. 1).). Struttura a 300 K; celle e CCDC solo nel supplementare (non nel testo)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "phase II",
+   "etichette_alternative": [
+    "4I-CASS phase II",
+    "SC phase II"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "C2",
+   "citazione": "Above the structural phase transition temperature of 342 K for 4I-CASS, its crystal symmetry changes from P21 in phase I (the phase below the solid-to-solid phase transition temperature of 342 K) to C2 in phase II",
+   "note": "Fase fra 342 e 444 K (primo ciclo): impacchettamento simile alla fase I ma cella raddoppiata per gli assi binari; code molecolari parzialmente disordinate. Polarizzazione calcolata a 363 K."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Ch",
+   "etichette_alternative": [
+    "cholesteric LC phase of 4I-CASS",
+    "cholesteric liquid crystal phase"
+   ],
+   "tipo": "altro",
+   "ospite": null,
+   "citazione": "In the second heating run, the phase between 444 and 490 K is the cholesteric LC phase (Ch), and the phase beyond 490 K is liquid phase (LP).",
+   "note": "Fase liquido-cristallina colesterica di 4I-CASS fra 444 e 490 K nel secondo riscaldamento; non e' una fase solida cristallina."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "SmC*",
+   "etichette_alternative": [
+    "SmC* phase of 4I-CASS"
+   ],
+   "tipo": "altro",
+   "ospite": null,
+   "citazione": "In the second cooling run, an emerging LC phase between 389 and 431 K is SmC* phase, and a crystalline phase (phase III) is generated below 389 K.",
+   "note": "Fase smettica C* (liquido-cristallina) che compare solo in raffreddamento fra 389 e 431 K; spaziatura fra i piani molecolari 16.04 Å e lunghezza molecolare 25.88 Å (rapporto minore di 1)."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "phase III",
+   "etichette_alternative": [
+    "4I-CASS phase III"
+   ],
+   "tipo": "non_specificato",
+   "ospite": null,
+   "citazione": "In the second cooling run, an emerging LC phase between 389 and 431 K is SmC* phase, and a crystalline phase (phase III) is generated below 389 K.",
+   "note": "Fase cristallina che si forma sotto 389 K nel secondo raffreddamento (Fig. 3a); non e' detto se coincide con la fase I."
+  },
+  {
+   "id": "F6",
+   "composto": "C2",
+   "etichetta": "4I-CACS",
+   "etichette_alternative": [
+    "4I-CACS crystal"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "motivi_hb": [
+    {
+     "motivo": "parallel stacking of the benzene rings along the a-axis, C–I bonds almost parallel to the b-axis",
+     "chi": "benzene rings of adjacent molecules; C–I bonds",
+     "citazione": "In 4I-CACS and 4I-CAHCS, the benzene rings of adjacent molecules are parallel-stacked along the a-axis, while the C–I bonds are almost parallel to the b-axis (Supplementary Figs. 2–4)."
+    }
+   ],
+   "citazione": "Structural analyses reveal that all of them crystallize in the same polar monoclinic space group P21 at 300 K (Supplementary Table 1)."
+  },
+  {
+   "id": "F7",
+   "composto": "C2",
+   "etichetta": "cholesteric phase of 4I-CACS",
+   "etichette_alternative": [
+    "LC phase of 4I-CACS"
+   ],
+   "tipo": "altro",
+   "ospite": null,
+   "citazione": "Similarly, the 4I-CACS and 4I-CAHCS also have cholesteric LC phases observed by their changes of oil streak-like to focal-conic textures under polarized light (Supplementary Figs. 14–16)."
+  },
+  {
+   "id": "F8",
+   "composto": "C3",
+   "etichetta": "4I-CAHCS",
+   "etichette_alternative": [
+    "4I-CAHCS crystal"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "motivi_hb": [
+    {
+     "motivo": "parallel stacking of the benzene rings along the a-axis, C–I bonds almost parallel to the b-axis",
+     "chi": "benzene rings of adjacent molecules; C–I bonds",
+     "citazione": "In 4I-CACS and 4I-CAHCS, the benzene rings of adjacent molecules are parallel-stacked along the a-axis, while the C–I bonds are almost parallel to the b-axis (Supplementary Figs. 2–4)."
+    }
+   ],
+   "citazione": "Structural analyses reveal that all of them crystallize in the same polar monoclinic space group P21 at 300 K (Supplementary Table 1)."
+  },
+  {
+   "id": "F9",
+   "composto": "C3",
+   "etichetta": "cholesteric phase of 4I-CAHCS",
+   "etichette_alternative": [
+    "LC phase of 4I-CAHCS"
+   ],
+   "tipo": "altro",
+   "ospite": null,
+   "citazione": "Similarly, the 4I-CACS and 4I-CAHCS also have cholesteric LC phases observed by their changes of oil streak-like to focal-conic textures under polarized light (Supplementary Figs. 14–16)."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "sottovia": "riscaldamento",
+   "reversibile": true,
+   "condizioni": {
+    "temperatura": {
+     "valore": 342,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "dielettrica",
+     "VT-PXRD"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "carbon atoms in the 4I-CASS molecular tails",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "In phase II, the thermal motions of some carbon atoms in the 4I-CASS molecular tails are intensified to become disordered to a certain extent, so each of them is split to be modeled as two equivalent positions (Fig. 2b)."
+    }
+   ],
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) analysis reflects that 4I-CASS experiences a solid-to-solid structural phase transition at around 342 K (Fig. 3a), while 4I-CACS and 4I-CAHCS do not have structural phase transition behaviors.",
+    "Above the structural phase transition temperature of 342 K for 4I-CASS, its crystal symmetry changes from P21 in phase I (the phase below the solid-to-solid phase transition temperature of 342 K) to C2 in phase II (the phase above the solid-to-solid phase transition temperature of 342 K while below the solid-liquid crystal phase transition temperature of 444 K), both of which have a similar packing structure, except for the doubling of the unit cell because of the presence of the two-fold rotation axes in phase II (Fig. 2c, e and Supplementary Fig. 5).",
+    "Correspondingly, the real part (ε’) of the dielectric permittivity shows remarkable step-like anomaly near 342 K for 4I-CASS and λ-like anomalies at around 444, 442, and 423 K for 4I-CASS, 4I-CACS, and 4I-CAHCS (Supplementary Figs. 10–12), respectively.",
+    "From Fig. 3b, with the increase in temperature, the PXRD pattern at 423 K shows some changes accompanied by the shift and splitting of several peaks compared to that at 300 K, corresponding to the transition of phase I to phase II.",
+    "It should be pointed out that the structural phase transition from phase I to phase II is completely reversible in the temperature range below the transition temperature of 444 K.",
+    "In phase II, the thermal motions of some carbon atoms in the 4I-CASS molecular tails are intensified to become disordered to a certain extent, so each of them is split to be modeled as two equivalent positions (Fig. 2b)."
+   ],
+   "certezza": "alta",
+   "note": "P21 -> C2 con cella raddoppiata e disordine delle code; 342 K dal DSC (anomalia dielettrica «near 342 K»). Nel VT-PXRD il diffrattogramma a 423 K, gia' in fase II, differisce da quello a 300 K: non e' la T di transizione. Reversibile («completely reversible in the temperature range below ... 444 K») senza condizioni per il ritorno."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E2",
+   "da": "F2",
+   "a": "F3",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 444,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "dielettrica",
+     "microscopia",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "From DSC curves, all of 4I-CASS, 4I-CACS, and 4I-CAHCS experience a phase transition from solid crystal phase to liquid crystal phase with a transition temperature of 444, 442, and 423 K, respectively (Fig. 3a and Supplementary Fig. 10,11).",
+    "As the temperature rose to above 444 K, the sample of 4I-CASS softened and entered the LC state, by the observation under perpendicular polarized light (Fig. 3c).",
+    "When the temperature increased to 463 K, most of the diffraction peaks in the PXRD pattern disappeared, indicating entry into the cholesteric liquid crystal phase.",
+    "In the second heating run, the phase between 444 and 490 K is the cholesteric LC phase (Ch), and the phase beyond 490 K is liquid phase (LP)."
+   ],
+   "certezza": "alta",
+   "note": "Solido -> fase colesterica a 444 K (DSC; POM sopra 444 K; il PXRD a 463 K ha perso quasi tutti i picchi). Il PXRD a 463 K e la POM a 453 K sono T di osservazione nella fase LC."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E3",
+   "da": "F3",
+   "a": "fuso",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 490,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "In addition, the clearing point and crystallization temperature point of 4I-CASS are 490 and 389 K, respectively.",
+    "Subsequently, the visual field became dark with the temperature continuing to rise to 500 K, which means that the LC phase disappeared and entered an isotropic liquid state.",
+    "In the second heating run, the phase between 444 and 490 K is the cholesteric LC phase (Ch), and the phase beyond 490 K is liquid phase (LP)."
+   ],
+   "certezza": "alta",
+   "note": "Punto di chiarificazione 490 K (DSC); in POM il campo diventa scuro a 500 K (Ch ancora a 453 e 483 K nella didascalia di Fig. 3c): compatibile."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E4",
+   "da": "F3",
+   "a": "F4",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 431,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "Particularly, the DSC curves show that 4I-CASS has two liquid crystal phases with a transition temperature of 431 K measured in the cooling run.",
+    "In the second cooling run, an emerging LC phase between 389 and 431 K is SmC* phase, and a crystalline phase (phase III) is generated below 389 K.",
+    "However, as the temperature decreased to 423 K, the texture morphology further changed with the appearance of a broken lined focal-conic texture, meaning the appearance of a SmC* phase.",
+    "In the subsequent cooling runs, a distinct diffraction peak of 5.5° appeared at 408 K, suggesting the formation of a LC phase with a molecular layer spacing of 16.04 Å.",
+    "The ratio of the interlayer spacing to the molecular length (25.88 Å) is less than 1, indicating that this liquid crystal LC phase is SmC* phase."
+   ],
+   "certezza": "media",
+   "note": "Colesterica -> SmC* in raffreddamento a 431 K (DSC). La POM la vede a 423 K (texture focal-conic a linee spezzate) e il PXRD a 408 K (picco a 5.5°): T di osservazione a gradini, non transizioni diverse. Fra due fasi liquido-cristalline, riportata per completezza del ciclo termico."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E5",
+   "da": "F4",
+   "a": "F5",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 389,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia",
+     "VT-PXRD"
+    ]
+   },
+   "citazioni": [
+    "In addition, the clearing point and crystallization temperature point of 4I-CASS are 490 and 389 K, respectively.",
+    "In the second cooling run, an emerging LC phase between 389 and 431 K is SmC* phase, and a crystalline phase (phase III) is generated below 389 K.",
+    "Upon cooling back to 300 K, the 4I-CAHCS reverted to a crystalline phase."
+   ],
+   "certezza": "media",
+   "lettura_alternativa": "La frase del PXRD «Upon cooling back to 300 K, the 4I-CAHCS reverted to a crystalline phase» nomina 4I-CAHCS ma e' nel paragrafo su 4I-CASS: probabile refuso; se letta alla lettera riguarderebbe la fase LC di 4I-CAHCS.",
+   "note": "Cristallizzazione a 389 K in raffreddamento (secondo ciclo): la fase III che si forma sotto 389 K non e' detta uguale alla fase I."
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E6",
+   "da": "F6",
+   "a": "F7",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 442,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "dielettrica",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "From DSC curves, all of 4I-CASS, 4I-CACS, and 4I-CAHCS experience a phase transition from solid crystal phase to liquid crystal phase with a transition temperature of 444, 442, and 423 K, respectively (Fig. 3a and Supplementary Fig. 10,11).",
+    "Correspondingly, the real part (ε’) of the dielectric permittivity shows remarkable step-like anomaly near 342 K for 4I-CASS and λ-like anomalies at around 444, 442, and 423 K for 4I-CASS, 4I-CACS, and 4I-CAHCS (Supplementary Figs. 10–12), respectively.",
+    "Similarly, the 4I-CACS and 4I-CAHCS also have cholesteric LC phases observed by their changes of oil streak-like to focal-conic textures under polarized light (Supplementary Figs. 14–16)."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "esito": "avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E7",
+   "da": "F8",
+   "a": "F9",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 423,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "dielettrica",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "From DSC curves, all of 4I-CASS, 4I-CACS, and 4I-CAHCS experience a phase transition from solid crystal phase to liquid crystal phase with a transition temperature of 444, 442, and 423 K, respectively (Fig. 3a and Supplementary Fig. 10,11).",
+    "Correspondingly, the real part (ε’) of the dielectric permittivity shows remarkable step-like anomaly near 342 K for 4I-CASS and λ-like anomalies at around 444, 442, and 423 K for 4I-CASS, 4I-CACS, and 4I-CAHCS (Supplementary Figs. 10–12), respectively.",
+    "Similarly, the 4I-CACS and 4I-CAHCS also have cholesteric LC phases observed by their changes of oil streak-like to focal-conic textures under polarized light (Supplementary Figs. 14–16)."
+   ],
+   "certezza": "alta"
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E8",
+   "da": "F6",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_transizione_solido_solido",
+   "condizioni": {
+    "solventi": []
+   },
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) analysis reflects that 4I-CASS experiences a solid-to-solid structural phase transition at around 342 K (Fig. 3a), while 4I-CACS and 4I-CAHCS do not have structural phase transition behaviors."
+   ],
+   "certezza": "alta",
+   "note": "4I-CACS non ha la transizione solido-solido che 4I-CASS ha a ~342 K."
+  },
+  {
+   "esito": "non_avvenuta",
+   "via": "termica",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "id": "E9",
+   "da": "F8",
+   "a": "ignota",
+   "esito_dettaglio": "nessuna_transizione_solido_solido",
+   "condizioni": {
+    "solventi": []
+   },
+   "senza_condizioni": true,
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Differential scanning calorimetry (DSC) analysis reflects that 4I-CASS experiences a solid-to-solid structural phase transition at around 342 K (Fig. 3a), while 4I-CACS and 4I-CAHCS do not have structural phase transition behaviors."
+   ],
+   "certezza": "alta",
+   "note": "4I-CAHCS non ha la transizione solido-solido che 4I-CASS ha a ~342 K."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F6",
+    "F8"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "esito": "ottenuta",
+   "citazioni": [
+    "The crystals of 4I-CASS, 4I-CACS, and 4I-CAHCS were grown by slow evaporation of respective ethyl acetate solutions at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristalli a lastra per evaporazione lenta di soluzioni in acetato di etile a temperatura ambiente; la forma a temperatura ambiente di 4I-CASS e' la fase I (sotto 342 K, struttura a 300 K)."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Here, we study the domain-switching behavior on the thin films obtained by drop coating, as this method can obtain flat films with larger areas."
+   ],
+   "fonte_dati": "propria",
+   "note": "Film sottili di 4I-CASS per drop coating (e spin-coating) misurati in PFM nella fase I; solvente e dettagli solo nel supplementare."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "esito": "ottenuta",
+   "citazioni": [
+    "Above the structural phase transition temperature of 342 K for 4I-CASS, its crystal symmetry changes from P21 in phase I (the phase below the solid-to-solid phase transition temperature of 342 K) to C2 in phase II (the phase above the solid-to-solid phase transition temperature of 342 K while below the solid-liquid crystal phase transition temperature of 444 K), both of which have a similar packing structure, except for the doubling of the unit cell because of the presence of the two-fold rotation axes in phase II (Fig. 2c, e and Supplementary Fig. 5)."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E5",
+   "esito": "ottenuta",
+   "citazioni": [
+    "In the second cooling run, an emerging LC phase between 389 and 431 K is SmC* phase, and a crystalline phase (phase III) is generated below 389 K."
+   ],
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "chiralita",
+     "testo": "homochiral cholesterol derivative",
+     "citazione": "We report a ferroelectric homochiral cholesterol derivative, β-sitosteryl 4-iodocinnamate, where both solid and liquid crystal phases can exhibit the behavior of polarization switching"
+    }
+   ]
+  }
+ ]
+}
