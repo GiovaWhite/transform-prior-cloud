@@ -1,0 +1,789 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/jacs.4c09222",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "PT-BTD: quattro polimorfi cristallini (alfa, beta, gamma, delta) piu' una mesofase liquido-cristallina (smectica C nel raffreddamento) e il liquido isotropo. Transizione termosaliente beta -> delta a 78 °C da cristallo singolo a cristallo singolo (espansione del 33 % in lunghezza di una diagonale, 35 % lungo b, contrazione di c del 9.6 %, +2.2 % di volume). Non sono eventi: lo spostamento delle bande Raman (usato come prova delle transizioni, non come evento a parte), i calcoli TD-DFT e la superficie di energia potenziale (barriera 3.5 kcal/mol, calcolata, in molecole); «polymorph beta is highly stable in harsh conditions (Figure S12)» (condizioni ignote, solo supplementare: non estratto come negativo); «heating polymorph alpha does not show any visible shape transformation» (la forma cambia da alfa a gamma a 101 °C, e' solo la forma esterna del cristallo a non cambiare); la sintesi di Suzuki del composto (la forma del solido ottenuto non e' identificata). Non ci sono CCDC ne' refcode nel testo. La temperatura delle due misure SCXRD sullo stesso cristallo (beta e delta) non e' detta nel testo. Il testo chiama «melting» sia il passaggio mesofase -> liquido isotropo (IL) sia, nel testo corrente, quello dal cristallo; qui gli eventi sono tenuti separati (cristallo -> mesofase, mesofase -> fuso) come li descrive il testo. Le sequenze DSC (Figura 2, 10 °C/min) del primo ciclo: alfa -> gamma 101 °C, gamma -> mesofase 121 °C, mesofase -> fuso 142 °C; beta -> delta 78 °C, delta -> mesofase 120 °C, mesofase -> fuso 141 °C.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "4,7-bis[5-(4-nonylphenyl)-2-thienyl]-5,6-dimethoxy-2,1,3-benzothiadiazole (PT-BTD)",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "polymorph α",
+   "etichette_alternative": [
+    "α",
+    "PT-BTD α"
+   ],
+   "tipo": "solvato",
+   "ospite": {
+    "specie": "methanol (MeOH)",
+    "stechiometria": null
+   },
+   "gruppo_spaziale": "P21/c",
+   "sistema_cristallino": null,
+   "cella": null,
+   "motivi_hb": [
+    {
+     "motivo": "N–S interactions",
+     "chi": "pairs of molecules within each layer",
+     "citazione": "In contrast, in polymorph α, the repeating units within each layer form pairs of molecules that are connected by N–S interactions."
+    },
+    {
+     "motivo": "cooperative CH-π and N–S interactions",
+     "chi": "dimers (BTD units in opposition)",
+     "citazione": "These dimers are bound through cooperative CH-π and N–S interactions."
+    },
+    {
+     "motivo": "methoxy–methoxy contacts and OCH3–π interactions",
+     "chi": "adjacent dimers",
+     "citazione": "Adjacent dimers alternate interacting through methoxy–methoxy contacts and OCH3–π interactions."
+    }
+   ],
+   "citazione": "Single-crystal structure determination shows that polymorph α crystallizes in the P21/c space group with only one independent molecule in the unit cell (Figure S14a). In this structure, some fractional disordered MeOH molecules were located among the long alkyl chains.",
+   "note": "Una molecola indipendente. Il testo la chiama polimorfo ma ci trova «some fractional disordered MeOH molecules» fra le catene alchiliche: tipo 'solvato' con stechiometria non detta (frazionaria, disordinata). L'articolo non parla di desolvatazione nelle trasformazioni di alfa. Cristalli arancioni sottili, emissione a 646 nm; strati formati da coppie di molecole con distanza interstrato 31.73 A («polymorph α features layers formed by pairs of molecules, resulting in a significantly larger interlayer distance (31.73 Å)»); la geometria di alfa e' la piu' distorta dello scheletro coniugato."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "polymorph β",
+   "etichette_alternative": [
+    "β",
+    "PT-BTD β"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P-1",
+   "sistema_cristallino": "triclino",
+   "cella": {
+    "a": 11.46,
+    "b": 17.74,
+    "c": 21.9,
+    "condizioni": "temperatura non detta; assi come nel confronto beta -> delta del testo"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "a few CH–π and –OCH3–π interactions",
+     "chi": "close contacts between the aromatic units",
+     "citazione": "In fact, an analysis of the close contacts between the aromatic units in polymorph β reveals only a few CH–π and –OCH3–π interactions."
+    }
+   ],
+   "citazione": "Upon heating above the temperature of the phase transition, the crystal exhibits a giant positive thermal expansion (35%) along the b-axis (that increases from 17.74 to 24.01 Å) and negative thermal expansion along the other two axes (the a-axis contracts from 11.46 to 10.57 Å, while the c-axis suffers an extraordinarily large shrinkage of 9.6% going from 21.90 to 17.98 Å).",
+   "note": "Due molecole indipendenti per cella («polymorph β crystallizes in the triclinic P-1 space group and contains two independent molecules per unit cell (Figure S14b)»). Cristalli rossi a forma di rombo, emissione a 667 nm. Distanza interstrato 21.90 A. Il testo dice anche che le lunghezze dei tre assi si scambiano fra beta e delta («an exchange in the magnitudes of the three unit cell axes»): a, b, c qui sono i valori scritti nel confronto beta -> delta (a 11.46, b 17.74, c 21.90 Å), non e' detto che coincidano con la cella standard. Catene alchiliche: in una molecola indipendente si estendono lungo l'asse lungo, nell'altra sono molto contorte."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "polymorph γ",
+   "etichette_alternative": [
+    "γ"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "sistema_cristallino": null,
+   "cella": null,
+   "citazione": "When heated, polymorph α experiments a crystal-to-crystal transformation at 101 °C to yield polymorph γ, followed by a crystal-to-mesophase transformation at 121 °C, prior to melting at 142 °C (Figure 2a).",
+   "note": "Fase di alta temperatura ottenuta da alfa; nessuna struttura nel testo. Raman: «both the LC mesophase and polymorph γ exhibit a broadening of the 1250 cm–1 band ... reflecting a high degree of conformational disorder»."
+  },
+  {
+   "id": "F4",
+   "composto": "C1",
+   "etichetta": "polymorph δ",
+   "etichette_alternative": [
+    "δ"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21/c",
+   "sistema_cristallino": "monoclino",
+   "cella": {
+    "a": 10.57,
+    "b": 24.01,
+    "c": 17.98,
+    "condizioni": "temperatura non detta; assi come nel confronto beta -> delta del testo"
+   },
+   "motivi_hb": [
+    {
+     "motivo": "similar CH–π and –OCH3–π interactions (as in β) involving different aromatic rings",
+     "chi": "aromatic units",
+     "citazione": "Interestingly, after thermal transformation into polymorph δ, similar interactions can be observed, albeit involving different aromatic rings."
+    }
+   ],
+   "citazione": "Upon heating β, the two independent molecules converge to one unique molecule in the asymmetric unit in polymorph δ, which crystallizes in the monoclinic P21/c space group (Figure S14c).",
+   "note": "Una molecola indipendente nell'unita' asimmetrica. Distanza interstrato 17.98 A. Catene alchiliche con angoli di torsione intermedi fra quelli dei due conformeri di beta e molto disordinate. Cella: valori scritti nel confronto beta -> delta (vedi nota di F2 sugli assi scambiati). Ottenuta da beta scaldando oltre 78 °C, struttura risolta sullo stesso cristallo."
+  },
+  {
+   "id": "F5",
+   "composto": "C1",
+   "etichetta": "LC mesophase",
+   "etichette_alternative": [
+    "smectic C mesophase",
+    "mesophase"
+   ],
+   "tipo": "altro",
+   "ospite": null,
+   "gruppo_spaziale": null,
+   "citazione": "On the cooling cycle, the material transitions into a smectic C mesophase (see Figure S11), covering a temperature range from 141 to 65 °C, before crystallizing back into the initial polymorph α.",
+   "note": "Mesofase liquido-cristallina fra cristallo e liquido isotropo (non e' un solido cristallino): la smectica C e' detta per il raffreddamento (Figura S11); nel riscaldamento il testo scrive 'mesophase' / 'LC mesophase'. Le due mesofasi (riscaldamento e raffreddamento) sono trattate come la stessa fase."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 101,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia",
+     "Raman"
+    ],
+    "integrita": "fratturato"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "alkyl chains",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F3",
+     "citazione": "Finally, both the LC mesophase and polymorph γ exhibit a broadening of the 1250 cm–1 band and a change in the intensity ratio between the 1064 and 1073 cm–1 peaks, reflecting a high degree of conformational disorder."
+    }
+   ],
+   "citazioni": [
+    "When heated, polymorph α experiments a crystal-to-crystal transformation at 101 °C to yield polymorph γ, followed by a crystal-to-mesophase transformation at 121 °C, prior to melting at 142 °C (Figure 2a).",
+    "DSC cycles were recorded at 10 °C/min.",
+    "the thermal transformation of α into γ polymorph produces cracks in the crystal, which eventually leads to its breakage"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "frequenza": "sempre",
+   "note": "T da DSC (il testo non dice se onset o picco); il cristallo singolo scaldato al microscopio «at the temperature of the phase transitions» si fessura e si rompe. Il nome 'cristallo -> cristallo' e' dell'articolo. L'attribuzione 1064/1073 cm-1 alle catene alchiliche (isomeri trans e gauche) e' nella frase «the bands at 1064 and 1073 cm–1, assigned to the trans (ν(C–C)T) and gauche (ν(C–C)G) isomers of the alkyl chains, respectively». Campione della DSC non descritto. «This behavior is reproduced in subsequent cycles» si riferisce al ciclo di alfa."
+  },
+  {
+   "id": "E2",
+   "da": "F3",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 121,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "When heated, polymorph α experiments a crystal-to-crystal transformation at 101 °C to yield polymorph γ, followed by a crystal-to-mesophase transformation at 121 °C, prior to melting at 142 °C (Figure 2a).",
+    "DSC cycles were recorded at 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E1",
+   "da_dedotto": true,
+   "frequenza": "sempre",
+   "note": "Il testo scrive 'crystal-to-mesophase' dopo 'to yield polymorph γ': la fase di partenza e' la gamma per la sequenza della frase."
+  },
+  {
+   "id": "E3",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 142,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "When heated, polymorph α experiments a crystal-to-crystal transformation at 101 °C to yield polymorph γ, followed by a crystal-to-mesophase transformation at 121 °C, prior to melting at 142 °C (Figure 2a).",
+    "DSC cycles were recorded at 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E2",
+   "da_dedotto": true,
+   "frequenza": "sempre",
+   "note": "«Melting at 142 °C» dopo la mesofase: la fase che passa al liquido isotropo e' la mesofase (per la sequenza della frase)."
+  },
+  {
+   "id": "E4",
+   "da": "fuso",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "dal_fuso",
+   "condizioni": {
+    "temperatura": {
+     "valore": 141,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "On the cooling cycle, the material transitions into a smectic C mesophase (see Figure S11), covering a temperature range from 141 to 65 °C, before crystallizing back into the initial polymorph α. This behavior is reproduced in subsequent cycles.",
+    "Upon cooling back to room temperature, the material reverts to a mesophase, spanning the temperature range from 141 to 69 °C, before crystallizing (Figure 2b).",
+    "DSC cycles were recorded at 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "frequenza": "sempre",
+   "pretrattamento": "campione fuso nel riscaldamento precedente (da alfa: 142 °C; da beta: 141 °C)",
+   "note": "Una sola voce per i due campioni (da alfa e da beta) perche' la T dell'inizio della mesofase, 141 °C, e' la stessa. 141 °C e' l'estremo alto dell'intervallo di esistenza della mesofase in raffreddamento; l'estremo basso (65 °C da alfa, 69 °C da beta) e' la T della cristallizzazione (E5, E9)."
+  },
+  {
+   "id": "E5",
+   "da": "F5",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 65,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "On the cooling cycle, the material transitions into a smectic C mesophase (see Figure S11), covering a temperature range from 141 to 65 °C, before crystallizing back into the initial polymorph α. This behavior is reproduced in subsequent cycles.",
+    "DSC cycles were recorded at 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E4",
+   "frequenza": "sempre",
+   "pretrattamento": "campione di alfa riscaldato fino alla fusione (142 °C)",
+   "note": "65 °C e' il limite basso dell'intervallo della mesofase («from 141 to 65 °C, before crystallizing»): letto come T della cristallizzazione, il testo non scrive 'crystallizes at 65 °C'. Il prodotto e' «the initial polymorph α»."
+  },
+  {
+   "id": "E6",
+   "da": "F2",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 78,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia",
+     "SCXRD",
+     "Raman"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "martensitica",
+     "termosaliente"
+    ],
+    "integrita": "intatto",
+    "cinetica": "il fronte parte da un punto intermedio e si propaga in due dimensioni (fronte di fase rapido)"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "CH–π and –OCH3–π interactions",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "cambia_partner",
+     "forma": "F4",
+     "citazione": "Interestingly, after thermal transformation into polymorph δ, similar interactions can be observed, albeit involving different aromatic rings."
+    },
+    {
+     "gruppo": "five interconnected aromatic units",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Crystal structure analysis demonstrates that at the molecular level, the thermosalient behavior is associated with subtle coordinated conformational changes, including slight rotations of the five interconnected aromatic units and an enhanced dynamism within one peripheral alkyl chain with rising temperature, triggering the displacements of the molecules."
+    },
+    {
+     "gruppo": "peripheral alkyl chains",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F4",
+     "citazione": "In polymorph δ, the torsion angles of the alkyl chains are intermediate between those found in the two conformers of the preceding low-temperature phase and highly affected by the disorder."
+    },
+    {
+     "gruppo": "ortho-methoxy groups in the BTD moiety and cis–trans thiophene rings",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "citazione": "In all three polymorphs, the two ortho-methoxy groups in the BTD moiety are positioned one above and the other below the plane of the BTD ring, and the thiophene rings assume a cis–trans configuration with respect to the BTD (Figure 5a)."
+    }
+   ],
+   "citazioni": [
+    "It undergoes a crystal-to-crystal transformation at 78 °C (polymorph β to polymorph δ), followed by a crystal-to-liquid crystal (LC) mesophase transformation at 120 °C, before melting (IL) at 141 °C.",
+    "DSC cycles were recorded at 10 °C/min.",
+    "the transition of the rhombohedral red polymorph β into δ taking place at 78 °C maintains the single-crystal integrity, despite occurring with a clear shape deformation caused by an anisotropic thermal expansion (Figure 4).",
+    "In fact, during this single-crystal-to-single-crystal phase transition, a drastic expansion (33% in length) of one of the diagonals of the rhombus, together with a slight contraction with its orthogonal axis, takes place.",
+    "As can be observed in Figure 4b and Video S1, the transformation begins at a midpoint and propagates two-dimensionally, showing a clear phase front sweep characteristic of a martensitic transition."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E10",
+   "note": "Dimensioni della trasformazione: +33 % in lunghezza di una diagonale del rombo, +35 % lungo b (da 17.74 a 24.01 A), a da 11.46 a 10.57 A, c da 21.90 a 17.98 A (-9.6 %), +2.2 % di volume di cella; molecole separate fino a 3 A dalle vicine. Reversibile solo se il primo riscaldamento non raggiunge 120 °C (vedi E10); altrimenti nel ciclo successivo beta e' sostituita dalla alfa (E9). Il testo scrive «martensitic» e «thermosalient» come caratteristiche mostrate. La DSC non precisa se onset o picco; campione DSC non descritto."
+  },
+  {
+   "id": "E7",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 120,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "It undergoes a crystal-to-crystal transformation at 78 °C (polymorph β to polymorph δ), followed by a crystal-to-liquid crystal (LC) mesophase transformation at 120 °C, before melting (IL) at 141 °C.",
+    "DSC cycles were recorded at 10 °C/min.",
+    "However, this thermal behavior is not reproduced in the following cycles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E6",
+   "da_dedotto": true,
+   "frequenza": "una_volta",
+   "pretrattamento": "primo ciclo di riscaldamento di beta",
+   "note": "Solo nel primo ciclo di riscaldamento di beta. La fase di partenza (delta) e' dedotta dalla sequenza «crystal-to-crystal transformation at 78 °C ... followed by a crystal-to-liquid crystal (LC) mesophase transformation at 120 °C»."
+  },
+  {
+   "id": "E8",
+   "da": "F5",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 141,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "It undergoes a crystal-to-crystal transformation at 78 °C (polymorph β to polymorph δ), followed by a crystal-to-liquid crystal (LC) mesophase transformation at 120 °C, before melting (IL) at 141 °C.",
+    "DSC cycles were recorded at 10 °C/min.",
+    "However, this thermal behavior is not reproduced in the following cycles."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E7",
+   "da_dedotto": true,
+   "frequenza": "una_volta",
+   "pretrattamento": "primo ciclo di riscaldamento di beta",
+   "note": "«Melting (IL)»: passaggio al liquido isotropo dalla mesofase, per la sequenza della frase. Altro campione e altra T rispetto a E3 (142 °C da alfa)."
+  },
+  {
+   "id": "E9",
+   "da": "F5",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 69,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "°C/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "PXRD"
+    ]
+   },
+   "citazioni": [
+    "Upon cooling back to room temperature, the material reverts to a mesophase, spanning the temperature range from 141 to 69 °C, before crystallizing (Figure 2b).",
+    "Conversely, the subsequent heating–cooling cycles replicate the behavior observed during the thermal analysis of polymorph α (Figure S7), indicating that after the first cooling, polymorph β transforms again into polymorph α, as could be confirmed by powder X-ray diffraction (Figure S19a).",
+    "DSC cycles were recorded at 10 °C/min."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E8",
+   "frequenza": "una_volta",
+   "pretrattamento": "primo ciclo di riscaldamento di beta fino alla fusione (141 °C)",
+   "note": "Il prodotto della cristallizzazione in DSC («before crystallizing») non e' nominato nella stessa frase: e' la alfa per la frase seguente e la conferma PXRD (Figura S19a). 69 °C e' il limite basso dell'intervallo della mesofase, come per E5. Questo passo e' l'unico modo in cui beta torna come alfa: «after melting and subsequent cooling, polymorph β transforms again into polymorph α»."
+  },
+  {
+   "id": "E10",
+   "da": "F4",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ],
+    "integrita": "salta",
+    "meccanismo": [
+     "termosaliente"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "When cooling back, the crystal returns to its original shape, displaying thermosalient characteristics by appearing to “jump”.",
+    "Interestingly, if during the first heating cycle, polymorph β does not reach the crystal-to-mesophase temperature (120 °C), the transformation from polymorph β to polymorph δ remains reversible over multiple cycles (Figure S10)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E6",
+   "pretrattamento": "riscaldamento di beta senza raggiungere la transizione cristallo-mesofase (120 °C)",
+   "note": "Ritorno delta -> beta: la T di raffreddamento non e' detta. Al microscopio il cristallo recupera la forma e «appears to jump» (salto termosaliente; a volte si rompe, «on occasion, crystal breakage, probably attributed to the shock of the fall»). Reversibile su piu' cicli solo se nel primo riscaldamento non si raggiunge la transizione a 120 °C (DSC, Figura S10). Si ipotizza (testo) che lo spessore si contragga scaldando (espansione termica negativa) e si espanda di colpo al ritorno."
+  },
+  {
+   "id": "E11",
+   "da": "F4",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 78,
+     "max": 100,
+     "unita": "°C",
+     "tipo": "intervallo"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "several hours"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "It should be noted that polymorph β is highly stable in harsh conditions (Figure S12) and that as long as the temperature is maintained between 78 and 100 °C, the shape of the polymorph δ remains unchanged for several hours (Figure S13)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Il testo dice che la FORMA del cristallo di delta resta invariata fra 78 e 100 °C per ore: letto come assenza di ulteriori trasformazioni. La tecnica (microscopia) non e' nominata nella frase; e' dedotta dal contesto (forma del cristallo, Figure S13 nel supplementare)."
+  },
+  {
+   "id": "E12",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "solvente",
+   "sottovia": "antisolvente",
+   "condizioni": {
+    "solventi": [
+     {
+      "nome": "tetrahydrofuran (THF)",
+      "proporzione": null
+     },
+     {
+      "nome": "methanol (MeOH)",
+      "proporzione": "vapore di non-solvente diffuso nella soluzione di THF, soluzione arricchita progressivamente"
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia"
+    ],
+    "meccanismo": [
+     "via_soluzione"
+    ]
+   },
+   "citazioni": [
+    "Under these conditions, initially, orange thin crystals emitting at 646 nm (polymorph α) were obtained. However, curiously, as the THF solution is gradually enriched in MeOH, red-rhombus-shaped crystals were formed (polymorph β) that emitted at 667 nm.",
+    "This transformation can be understood as a solution-crystallization process.",
+    "(b) Evolution of the crystallization of PT-BTD visualized under a polarizing optical microscope by diffusion of MeOH vapors into a THF solution of the compound, showing the transformation of polymorph α into β."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Trasformazione dentro la soluzione durante la diffusione di vapore di MeOH in una soluzione di THF (Figura 1): prima si forma alfa, poi, con la soluzione sempre piu' ricca in MeOH, beta. «Depending on the duration of the ongoing diffusion process». Il tempo non e' dato in numeri. Sottovia 'antisolvente' scelta perche' la leva e' la composizione del solvente (MeOH come non-solvente), anche se il MeOH arriva come vapore."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "CH2Cl2"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "Attempts to crystallize PT-BTD by slow evaporation of a CH2Cl2 solution resulted in a polycrystalline red solid, in which visualization under a UV lamp (320 nm) revealed the presence of two polymorphs emitting different colors (orange and red)."
+   ],
+   "fonte_dati": "propria",
+   "note": "Miscela di due polimorfi (arancione e rosso); i polimorfi sono identificati con alfa (arancione) e beta (rosso) per i colori dati piu' avanti (alfa: cristalli arancioni; beta: cristalli rossi), non in questa frase."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "metodo": "diffusione",
+   "solventi": [
+    "THF",
+    "MeOH"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "citazioni": [
+    "We were able to selectively grow high-quality crystals of both polymorphs suitable for crystal structure determination by the vapor diffusion method, in which nonsolvent MeOH vapors were diffused into a THF solution of the compound.",
+    "Crystallization experiments involving the diffusion of MeOH vapors into a THF solution of PT-BTD resulted in the formation of two different polymorphs (polymorphs α and β) depending on the duration of the ongoing diffusion process."
+   ],
+   "fonte_dati": "propria",
+   "note": "Alfa si forma per prima (cristalli arancioni sottili); beta compare dopo, con piu' MeOH nella soluzione (vedi E12). MeOH come vapore di non-solvente."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E12",
+   "solventi": [
+    "THF",
+    "MeOH"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "citazioni": [
+    "However, curiously, as the THF solution is gradually enriched in MeOH, red-rhombus-shaped crystals were formed (polymorph β) that emitted at 667 nm."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "When heated, polymorph α experiments a crystal-to-crystal transformation at 101 °C to yield polymorph γ, followed by a crystal-to-mesophase transformation at 121 °C, prior to melting at 142 °C (Figure 2a)."
+   ],
+   "temperatura": {
+    "valore": 101,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E6",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "It undergoes a crystal-to-crystal transformation at 78 °C (polymorph β to polymorph δ), followed by a crystal-to-liquid crystal (LC) mesophase transformation at 120 °C, before melting (IL) at 141 °C."
+   ],
+   "temperatura": {
+    "valore": 78,
+    "unita": "°C",
+    "tipo": "non_specificato"
+   },
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 22.3,
+      "unita": "%"
+     },
+     "forma": "F1",
+     "metodo": "resa quantica di fotoluminescenza (ΦF)",
+     "citazione": "Interestingly, similar photoluminescence quantum yields (ΦF = 22.3% for α and ΦF = 17.2% for β) and lifetimes (τF ≈ 7–9 ns) are observed for both polymorphs (Figures S3 and S4)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 17.2,
+      "unita": "%"
+     },
+     "forma": "F2",
+     "metodo": "resa quantica di fotoluminescenza (ΦF)",
+     "citazione": "Interestingly, similar photoluminescence quantum yields (ΦF = 22.3% for α and ΦF = 17.2% for β) and lifetimes (τF ≈ 7–9 ns) are observed for both polymorphs (Figures S3 and S4)."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 3.5,
+      "unita": "kcal/mol"
+     },
+     "metodo": "calcolo della superficie di energia potenziale (ωB97XD/6-31G**)",
+     "calcolato": true,
+     "citazione": "This is in line with the sweep of the potential energy surface of these two ring rotations (Figure 5b), which show that the cis–trans and trans–trans configurations have similar energies with an activation barrier of 3.5 kcal/mol."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "five-ring conjugated structure, methoxy groups and nonyl chains give many rotational degrees of freedom; low barriers for the phenyl-thienyl rotation",
+     "citazione": "The flexibility of the conjugated five-ring structure and the methoxy functionalities increase the degrees of rotational freedom and give the molecule the capacity to adopt close, energetically stable conformers."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "differences among the independent molecules of the three polymorphs rely on the torsion angles between the five aromatic moieties (3–25°); thiophene rings cis–trans with respect to the BTD",
+     "citazione": "In fact, the crystal structure analysis reveals that the main differences among the independent molecules of the three polymorphs rely on the torsion angles between the five aromatic moieties, varying within the range of 3–25°."
+    },
+    {
+     "tipo": "conformeri",
+     "forma": "F2",
+     "testo": "two independent molecules: alkyl chains all-trans zigzag, extended along the long axis in one and highly contorted in the other",
+     "citazione": "In polymorph β, the alkyl chains are in an all-trans zigzag conformation, and in one of the two independent molecules, they extend along the long axis of the molecule, while in the other molecule, they are highly contorted and oriented in opposing directions."
+    }
+   ]
+  }
+ ]
+}
