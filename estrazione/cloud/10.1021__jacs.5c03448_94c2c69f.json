@@ -1,0 +1,355 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/jacs.5c03448",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Composto mesogeno sessifenilico H2 (Chart 1, nome chimico non scritto nel testo): fase I (da acetone o dal fuso) -> fase II a circa −40 °C raffreddando, transizione termosaliente monotropa, cristallo -> frammenti di cristallo singolo di fase II; la fase I fonde a 155 °C in una fase nematica che si isotropizza a 303 °C. Non sono eventi: lo spettro Raman a bassa frequenza e le frequenze di reticolo calcolate (modo principale a 21.103 cm–1 calcolato e 22.4 cm–1 osservato nella fase I, 25.213 e 24.4 cm–1 nella fase II: scorrimento di molecole centrosimmetriche lungo c in versi opposti, proposto come innesco della transizione I -> II), le energie libere di Gibbs calcolate (fase II piu' bassa di I a tutte le T, Figura S19 del supplementare), i coefficienti di espansione termica lineare della fase I (uno 'colossale' di 194·10–6 K–1 e gli altri −7.5 e 53·10–6 K–1) e le supercelle comuni delle due fasi (Tabella 2): variazione della supercella a' e b' +9 e +7 %, c' −5 % passando da I a II. Variazione di T della transizione con dimensione e forma dei cristalli: «Slight variations in the transition temperature, depending on the size and shape of the crystals are also observed». La fase II ha una catena terminale disordinata (posizione divisa), non la fase I secondo il testo (la Figura 2 mostra la posizione piu' occupata). Dati cristallografici completi nel supplementare (Tabella S1); nessun CCDC ne' refcode nel testo.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "H2 (sexiphenyl mesogenic compound)",
+   "smiles": null,
+   "sigla_non_sciolta": true
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "phase I",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "a": 9.9,
+    "b": 12.346,
+    "c": 17.154,
+    "alpha": 70.17,
+    "beta": 77.86,
+    "gamma": 81.59,
+    "V": 1921.8,
+    "Z": 2,
+    "Z_primo": 1,
+    "condizioni": "−15 °C"
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": -15,
+      "unita": "°C"
+     },
+     "citazione": "T (°C) | –15 | –123"
+    }
+   ],
+   "citazione": "Crystal data of the two phases are reported in Table 1 (full data are reported in Table S1 of the SI).",
+   "note": "Una molecola indipendente (Z′ = 1), Z = 2, densita' 1.132 g/cm3. Cristallizzata da acetone o dal fuso. Il diffrattogramma da cristallo singolo si raccoglie con sorgente convenzionale (Figura 1g). Asse molecolare lungo vicino a c; coefficiente di espansione termica 'colossale' (194·10–6 K–1) con asse principale nei componenti a e b."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "phase II",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P-1",
+   "gruppo_spaziale_scritto": "P1̅",
+   "cella": {
+    "a": 10.744,
+    "b": 13.165,
+    "c": 14.432,
+    "alpha": 104.27,
+    "beta": 98.52,
+    "gamma": 104.69,
+    "V": 1864.6,
+    "Z": 2,
+    "Z_primo": 1,
+    "condizioni": "−123 °C"
+   },
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": -123,
+      "unita": "°C"
+     },
+     "citazione": "T (°C) | –15 | –123"
+    }
+   ],
+   "citazione": "Hence, data were collected with a synchrotron source at the Elettra synchrotron facility (Trieste, Italy).",
+   "note": "Una molecola indipendente (Z′ = 1), Z = 2, densita' 1.166 g/cm3; i frammenti recuperati dopo la transizione sono piccoli e il diffrattogramma con sorgente convenzionale ha pochi riflessi, per questo la struttura e' da sincrotrone (Elettra). Catena terminale disordinata in due posizioni (nella Figura 2 e' mostrata la piu' occupata). Frammenti isolati e misurati anche a temperatura ambiente (Figura 1h)."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "nematic phase",
+   "tipo": "altro",
+   "ospite": null,
+   "citazione": "H2, crystallized from acetone or melt crystallized (phase I), melts at 155 °C to a nematic phase that isotropizes at 303 °C, Figure 1a.",
+   "note": "Mesofase nematica (non e' un solido cristallino), fra la fusione a 155 °C e l'isotropizzazione a 303 °C."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "monotropa",
+   "piu_stabile": "F2",
+   "piu_stabile_fra": [
+    "F1"
+   ],
+   "stabile_a_temperatura_ambiente": "F2",
+   "condizioni": "su tutto l'intervallo di temperatura (energia libera di Gibbs calcolata, Figura S19 del supplementare)",
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "citazione": "This, however, does not happen for thermodynamic reasons because phase II has Gibbs free energy lower than I over the whole temperature range, confirming the monotropic nature of the transition (see Figure S19 in the SI).",
+   "note": "Lo stesso articolo dice nei risultati: «This transition is monotropic, and by heating phase II, phase I is no longer obtained.». La fase I e' ottenuta da acetone o dal fuso e resta fino a circa −40 °C raffreddando (stabilita' cinetica). Le energie libere sono calcolate."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": -40,
+     "unita": "°C",
+     "circa": true,
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "K/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "Raman",
+     "SCXRD",
+     "microscopia"
+    ],
+    "meccanismo": [
+     "SCSC",
+     "termosaliente",
+     "displaciva"
+    ],
+    "integrita": "fratturato",
+    "entalpia": {
+     "valore": -0.9,
+     "unita": "kJ/mol",
+     "tipo": "transizione"
+    },
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": -40,
+       "unita": "°C",
+       "circa": true
+      },
+      "segno": "eso"
+     }
+    ],
+    "cinetica": "molto rapida: i cristalli si muovono e si frantumano in frammenti di cristallo singolo di fase II, oppure si piegano a scala e si frammentano in fette trasversali"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "phenyl rings (dihedral angles between consecutive phenyl rings)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "Looking at Figure 3a,b, transition I→II can be viewed as a slipping of molecules in opposite directions parallel to their long axis, with simultaneous rearrangement of dihedral angles between phenyl rings."
+    }
+   ],
+   "citazioni": [
+    "If a sample of phase I of H2 is cooled, at about −40 °C, a solid-state transition to a new solid phase, named phase II, is observed, as evidenced by the exothermic peak in Figure 1a, b.",
+    "This transition is monotropic, and by heating phase II, phase I is no longer obtained. The enthalpy change (ΔH = −0.9 kJ/mol) is comparable with other examples of thermosalient crystals",
+    "DSC thermograms of H2 (scan rate 2 K/min)",
+    "At the transition, crystals of phase I, Figure 1c, undergo rapid movements, and afterward, they are shattered in single crystal fragments of phase II, Figure 1d and movie_1.",
+    "Alternatively, they bend upward, taking at last a staircase shape and being fragmented into transversal single crystal slices, like the steps of the staircase, that can be recovered, Figure 1e, f and movie_2.",
+    "It is evident that molecules in the two phases keep their parallel orientation and basically also their relative position, this being consistent with the displacive, nondiffusive nature of the solid–solid transition.",
+    "Variable-temperature Raman spectra of H2 were recorded from one single crystal in phase I cooled across the transition to phase II (see the SI) and are shown in Figure 4a."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": false,
+   "inverso_di": "E2",
+   "note": "Transizione termosaliente a bassa temperatura (la T circa −40 °C e' quella dell'abstract e del testo; le curve DSC sono a 2 K/min). L'articolo la descrive come monotropa (vedi la relazione) e SCSC: «a new example of a low-temperature thermosalient transition ... the parent single crystal (phase I) shatters into single crystal fragments of the new phase (phase II)». Gli autori propongono che la transizione sia innescata da un'onda elastica coerente (fonone di reticolo) e non da fluttuazioni termiche casuali come nel meccanismo classico di nucleazione e crescita («our analysis suggests ...»): non registrato come meccanismo perche' e' una proposta. Le molecole slittano di circa meta' della lunghezza di un anello fenilico (ca. 1.4 Å) in versi opposti lungo l'asse lungo, mantenendo il centro di simmetria («slipped parallel to their long axes in opposite directions by about half the length of a phenyl ring (ca. 1.4 Å) while keeping the center of symmetry»). Cambio di supercella: c′ −5 %, a′ +9 %, b′ +7 % («This anisotropy can be responsible for the loss of integrity of single crystals during the transition»). T di transizione variabile con dimensione e forma del cristallo. Raman a bassa frequenza: la transizione e' visibile raffreddando da 288 a 218 K (Figura 4a): stessa transizione, non evento nuovo."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessun_ritorno",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "This transition is monotropic, and by heating phase II, phase I is no longer obtained.",
+    "This, however, does not happen for thermodynamic reasons because phase II has Gibbs free energy lower than I over the whole temperature range, confirming the monotropic nature of the transition (see Figure S19 in the SI)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E1",
+   "note": "Il ritorno II -> I non avviene, ne' scaldando ne' (per l'articolo) per via di una vibrazione di reticolo analoga a quella della fase I («a lattice vibration could produce transition II→I as well ... This, however, does not happen for thermodynamic reasons»). La frase non dice se la fase II rimane inalterata o cosa diventa scaldando, solo che la fase I non si riottiene."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 155,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "K/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "H2, crystallized from acetone or melt crystallized (phase I), melts at 155 °C to a nematic phase that isotropizes at 303 °C, Figure 1a.",
+    "DSC thermograms of H2 (scan rate 2 K/min)"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Fusione della fase I in una fase nematica (mesofase). La velocita' di 2 K/min e' quella delle curve DSC della Figura 1a."
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "fuso",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 303,
+     "unita": "°C",
+     "tipo": "non_specificato"
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "K/min"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "H2, crystallized from acetone or melt crystallized (phase I), melts at 155 °C to a nematic phase that isotropizes at 303 °C, Figure 1a.",
+    "DSC thermograms of H2 (scan rate 2 K/min)"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "da_evento": "E3",
+   "note": "Isotropizzazione della fase nematica a 303 °C (passaggio al liquido isotropo)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [
+    "acetone"
+   ],
+   "esito": "ottenuta",
+   "citazioni": [
+    "H2, crystallized from acetone or melt crystallized (phase I), melts at 155 °C to a nematic phase that isotropizes at 303 °C, Figure 1a.",
+    "single crystal of phase I, crystallized from acetone, with indication of unit cell axes; room temperature, crossed polarizers"
+   ],
+   "fonte_dati": "propria",
+   "note": "Cristallizzazione da acetone; il metodo (evaporazione, raffreddamento) non e' detto nel testo. Dettagli nel supplementare."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "dal_fuso",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "H2, crystallized from acetone or melt crystallized (phase I), melts at 155 °C to a nematic phase that isotropizes at 303 °C, Figure 1a.",
+    "expansion in the low-temperature region of three consecutive DSC thermograms of H2 on cooling after crystallization from the melt"
+   ],
+   "fonte_dati": "propria",
+   "note": "Fase I anche dal fuso (cristallizzazione dal fuso, poi raffreddamento); velocita' non detta oltre i 2 K/min delle curve DSC."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "If a sample of phase I of H2 is cooled, at about −40 °C, a solid-state transition to a new solid phase, named phase II, is observed, as evidenced by the exothermic peak in Figure 1a, b."
+   ],
+   "temperatura": {
+    "valore": -40,
+    "unita": "°C",
+    "circa": true,
+    "tipo": "non_specificato"
+   },
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "elongated molecule with six para-linked phenyl rings (A to F); its conformation is mainly determined by the dihedral angles between consecutive phenyl rings",
+     "citazione": "The independent molecules, with all phenyl rings connected in the para positions, have an elongated shape. The conformation is mainly determined by the dihedral angles between consecutive phenyl rings."
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "model compound biphenyl: minimum energy at a dihedral of 38°, conformations between 0 and 60° within 1.1 kcal/mol; crystal packing forces can easily change the dihedral angles in the range 0–60°",
+     "citazione": "The large and shallow minimum of the torsional energy centered at about 38° implies that crystal packing forces can easily induce changes in the dihedral angles in the range of 0–60°."
+    }
+   ]
+  }
+ ]
+}
