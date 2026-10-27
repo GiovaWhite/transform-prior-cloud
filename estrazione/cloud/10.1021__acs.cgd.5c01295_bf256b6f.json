@@ -1,0 +1,447 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1021/acs.cgd.5c01295",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "note": "Non sono eventi: la compressibilita' lineare negativa lungo X3 nella fase IV (X3 aumenta fino al 2% a 3 GPa) con la riduzione del volume vuoto da ~6.28 Å3 a zero a 3 GPa; l'equazione di stato (B0 = 6.7(2) GPa, B′ = 7.79(12)) e il fit di Einstein del volume (pyrazine d4 e benzene d6/h6); le analisi di Hirshfeld e delle energie di interazione a coppie. Fasi I e II (P21/c) citate nell'introduzione: «form upon heating», fase I «accessible only by cooling from the melt», senza numeri: non estratte come eventi. Il testo suggerisce la possibile esistenza di un punto triplo e di una transizione II -> IV («suggests the possible existence of a triple-point and alternative transition pathways (e.g., II → IV)»), non osservata. Pendenza dT/dP positiva per III -> IV.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "pyrazine-d4 (perdeuterated pyrazine, 1,4-diazine)",
+   "nome_scritto": "pyrazine (d4)"
+  },
+  {
+   "id": "C2",
+   "nome": "pyrazine (1,4-diazine)",
+   "analogo_di": "C1",
+   "nome_scritto": "Pyrazine (1,4-diazine); «(h4)» solo nel confronto sull'effetto della deuterazione"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "phase III",
+   "etichette_alternative": [
+    "III"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pmnn",
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 300,
+      "unita": "K",
+      "tipo": "non_specificato"
+     },
+     "fonte": "neutroni",
+     "citazione": "Hirshfeld 2D fingerprint plots for phase III (a), 300 K and phase IV (b), 10 K of pyrazine (d4) at ambient pressure."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "C–D···N hydrogen bonds (eight per molecule: four C–D donors, four N acceptors)",
+     "chi": "C–D donors and N acceptors of neighbouring pyrazine molecules",
+     "citazione": "Each pyrazine molecule participates in eight such interactions; four as C–D donors and four as acceptors via the two N atoms"
+    }
+   ],
+   "citazione": "At ambient conditions, it adopts an orthorhombic structure (phase III, Pmnn).",
+   "note": "Gruppo Pmnn dal testo (intro, fase a condizioni ambiente); cella non riportata nel testo. Forma stabile del campione di partenza a pressione e temperatura ambiente."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "phase IV",
+   "etichette_alternative": [
+    "IV"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "beta": 93.2,
+    "condizioni": "4 K (massimo dell'angolo)"
+   },
+   "strutture": [
+    {
+     "temperatura": {
+      "valore": 10,
+      "unita": "K",
+      "tipo": "non_specificato"
+     },
+     "fonte": "neutroni",
+     "citazione": "Hirshfeld 2D fingerprint plots for phase III (a), 300 K and phase IV (b), 10 K of pyrazine (d4) at ambient pressure."
+    },
+    {
+     "fonte": "neutroni",
+     "citazione": "The first loading was used to extract atomic coordinates, close to or within the hydrostatic limit of the pressure medium"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "two inequivalent C–D···N bonding environments",
+     "chi": "C–D···N between pyrazine molecules",
+     "citazione": "In phase IV, symmetry lowering leads to the emergence of two inequivalent bonding environments."
+    },
+    {
+     "motivo": "C–D···N hydrogen bonds (eight per molecule: four C–D donors, four N acceptors)",
+     "chi": "C–D donors and N acceptors of neighbouring pyrazine molecules",
+     "citazione": "Each pyrazine molecule participates in eight such interactions; four as C–D donors and four as acceptors via the two N atoms"
+    }
+   ],
+   "citazione": "The transition from phase III → IV involves a symmetry-breaking lattice distortion driven by the reorganization of C–H···N hydrogen bonds, accompanied by negative linear compressibility",
+   "note": "Il gruppo P21/n e' quello dato nell'introduzione per la fase IV (letteratura: «phase IV, P21/n»); per il campione d4 il testo dice solo «monoclinic phase IV». Fra 0.7 e 9.1 GPa (E2, E3) e sotto ~90 K (E1)."
+  },
+  {
+   "id": "F3",
+   "composto": "C2",
+   "etichetta": "phase III (h4 pyrazine)",
+   "etichette_alternative": [
+    "phase III"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pmnn",
+   "citazione": "At ambient conditions, it adopts an orthorhombic structure (phase III, Pmnn).",
+   "note": "Fase III della pyrazine non deuterata dei lavori citati (confronto h4/d4 nella discussione)."
+  },
+  {
+   "id": "F4",
+   "composto": "C2",
+   "etichetta": "phase IV (h4 pyrazine)",
+   "etichette_alternative": [
+    "phase IV"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21/n",
+   "citazione": "Under pressure, a fourth polymorph (phase IV, P21/n) emerges above ∼1.1 GPa, as shown by Raman and single-crystal X-ray studies.",
+   "note": "Fase IV della pyrazine non deuterata dei lavori citati."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F2",
+   "condizioni": "temperature piu' basse (pressione ambiente), energie di interazione calcolate",
+   "citazione": "The total energy for each of these is lower in phase IV than III, justifying the overall stability of this phase at lower temperatures.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "note": "Il giudizio e' basato sulle energie totali di interazione calcolate a coppie (CrystalExplorer, ωB97M-V), non su una misura di stabilita'."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 90,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "pressione": {
+     "valore": null,
+     "tipo": null,
+     "testo": "ambient pressure"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ],
+    "cinetica": "continua nel volume, senza collasso e senza coesistenza di fasi; β fino a 93.2° a 4 K",
+    "integrita": null
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "C–D···N hydrogen bonds",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "Despite this change in symmetry, the unit-cell volume evolves smoothly through the transition without collapse, indicating that the driving force is not packing density but the reorganization of weak C–D···N hydrogen bonds."
+    },
+    {
+     "gruppo": "hydrogen-bond linearity",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "Changes in the cell-volume are instead accommodated by a change in hydrogen-bond linearity; in the monoclinic phase IV, the average angle remains nearly constant with temperature, but the symmetry lowering creates two inequivalent environments that diverge in opposite directions, one angle increasing to ∼156.5°, the other decreasing to ∼148°."
+    },
+    {
+     "gruppo": "hydrogen bonding",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "This difference in bonding and lattice dynamics is consistent with the conclusion that hydrogen bonding dominates pyrazine aggregation in both phase III and IV, highlighting how directional interactions can govern thermal expansion in molecular solids."
+    }
+   ],
+   "citazioni": [
+    "The low-temperature neutron diffraction data reveal a direct transition from orthorhombic phase III to monoclinic phase IV near 90 K (Figure S1), marked by a symmetry-breaking distortion of the unit cell (β angle increasing to a maximum of 93.2° at 4 K) (Figure S3).",
+    "Despite this change in symmetry, the unit-cell volume evolves smoothly through the transition without collapse, indicating that the driving force is not packing density but the reorganization of weak C–D···N hydrogen bonds.",
+    "The transition is continuous in volume, with no evidence of phase coexistence, suggesting a second-order (or weakly first-order) mechanism.",
+    "This study establishes that phase IV of pyrazine (d4) is accessible either by cooling below ∼90 K or by compression beyond ∼0.7 GPa",
+    "showing that the form stabilized under pressure can also be accessed below ∼90 K at ambient pressure in the perdeuterated compound.",
+    "The sample was first cooled to a base temperature of 4 K and allowed to equilibrate for 30 min before starting data collection, with subsequent data collected on warming, with time to equilibrate at each temperature before starting collection."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "lettura_alternativa": "I dati sono raccolti in riscaldamento da 4 K (Experimental Section): nella misura la transizione sarebbe IV -> III vicino a 90 K; gli autori la descrivono come III -> IV («accessible ... by cooling below ∼90 K»).",
+   "note": "Transizione a bassa temperatura a pressione ambiente nel composto perdeuterato. Il testo dice «second-order (or weakly first-order)»: ordine non fissato. Il verso e' quello descritto dagli autori (raffreddamento); la misura e' stata fatta in riscaldamento."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "grande_volume",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 0.7,
+     "max": 0.8,
+     "unita": "GPa",
+     "tipo": "forchetta"
+    },
+    "temperatura": {
+     "valore": 290,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "mezzo_pressione": "Fluorinert",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ],
+    "cinetica": "continua nel volume, senza coesistenza di fasi"
+   },
+   "campione": {
+    "tipo": "polvere",
+    "mezzo": "Fluorinert (campione caricato come slurry)"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "C–D···N angles",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "Under compression, the D···N separation decreases and stabilizes at ∼2.375 Å, while the two inequivalent C–D···N angles diverge such that their average decreases continuously with pressure."
+    },
+    {
+     "gruppo": "hydrogen-bond geometry",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F2",
+     "citazione": "Importantly, the overall monoclinic framework of phase IV is preserved regardless of whether it is accessed via pressure or temperature, yet the evolution of the hydrogen-bond geometry is pathway dependent."
+    },
+    {
+     "gruppo": "molecule",
+     "ruolo": "torsione",
+     "con": "altra_molecola",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "The mechanism underlying the existence of this relatively narrow window of negative linear compressibility arises from the symmetry change that permits the molecule to tilt."
+    }
+   ],
+   "citazioni": [
+    "High-pressure data show that the transition to phase IV occurs between 0.7 and 0.8 GPa, with no evidence of phase coexistence (see Figure S4).",
+    "Pressure evolution of pyrazine (d4) at 290 K, as determined from neutron powder diffraction",
+    "As in the low-temperature study, the volume change through the transition is continuous.",
+    "The sample was loaded within an encapsulated null-scattering TiZr gasket as a slurry, with Fluorinert used as the pressure transmitting medium, and a pellet of Pb included to determine the sample pressure.",
+    "This study establishes that phase IV of pyrazine (d4) is accessible either by cooling below ∼90 K or by compression beyond ∼0.7 GPa"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Pressa Paris-Edinburgh (VX3) con incudini cBN; due caricamenti (fino a ~4.3 e ~9.1 GPa); la seconda serie e' usata per cercare una nuova fase oltre i 4.3 GPa (non trovata, vedi E3). Il mezzo e' vicino al limite idrostatico solo per il primo caricamento («close to or within the hydrostatic limit of the pressure medium»); idrostatica non dichiarata per questa frase. La stessa fase IV e' ottenuta da raffreddamento (E1) e da compressione: l'evoluzione dei legami H dipende dal percorso."
+  },
+  {
+   "id": "E3",
+   "da": "F2",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "grande_volume",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "max": 9.1,
+     "unita": "GPa",
+     "tipo": "forchetta",
+     "limite": "sotto"
+    },
+    "temperatura": {
+     "valore": 290,
+     "unita": "K",
+     "tipo": "isoterma"
+    },
+    "mezzo_pressione": "Fluorinert",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere",
+    "mezzo": "Fluorinert (campione caricato come slurry)"
+   },
+   "citazioni": [
+    "The sample remains indexed by the phase IV monoclinic cell up to the maximum pressure investigated, 9.1 GPa.",
+    "Two separate loadings were performed, both loaded in this way, one taken to a maximum pressure of ∼4.3 GPa, and the other taken to a maximum pressure of ∼9.1 GPa.",
+    "while the second loading was used to investigate the possible emergence of a new phase beyond this pressure.",
+    "Pressure evolution of pyrazine (d4) at 290 K, as determined from neutron powder diffraction"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "La fase IV resta l'unica fase indicizzata fino alla pressione massima (9.1 GPa); nessuna nuova fase oltre i ~4.3 GPa del primo caricamento."
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 1.1,
+     "unita": "GPa",
+     "tipo": "transizione",
+     "limite": "sopra",
+     "circa": true
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman",
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "Under pressure, a fourth polymorph (phase IV, P21/n) emerges above ∼1.1 GPa, as shown by Raman and single-crystal X-ray studies.",
+    "Deuteration induces a characteristic shift in the transition pressure, lowering it from ∼1.1 GPa (h4) to ∼0.7 GPa (d4)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "studi Raman e a raggi X su cristallo singolo citati nell'introduzione (i numeri dei riferimenti sono persi nel testo letto)",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Composto non deuterato: la frase del confronto dice «from ∼1.1 GPa (h4) to ∼0.7 GPa (d4)». Il testo dice «Pyrazine» senza sigla h4 nell'introduzione. Interessante per l'effetto isotopico sulla pressione di transizione (1.1 -> 0.7 GPa)."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 170,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman",
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "These studies also found that phase III remains stable down to 170 K"
+   ],
+   "certezza": "media",
+   "fonte_dati": "citata",
+   "riferimento": "«These studies» = gli studi Raman e a raggi X su cristallo singolo citati prima",
+   "natura": "fisica",
+   "verso": "noto",
+   "note": "Negativo citato: la fase III della pyrazine non deuterata resta stabile fino a 170 K; gli autori trovano poi la transizione III -> IV a ~90 K nel composto d4 (E1). Il composto h4 e' dedotto dal fatto che gli studi citati sono su «pyrazine» e non su pyrazine (d4)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "commerciale",
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "Polycrystalline pyrazine (d4) was purchased from Sigma-Aldrich."
+   ],
+   "note": "Il campione di partenza e' a condizioni ambiente la fase III («At ambient conditions, it adopts an orthorhombic structure (phase III, Pmnn)»)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": [
+    "E1",
+    "E2"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "citazioni": [
+    "This study establishes that phase IV of pyrazine (d4) is accessible either by cooling below ∼90 K or by compression beyond ∼0.7 GPa"
+   ]
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "rigid molecular ring",
+     "citazione": "The rigidity of the molecular ring, together with these structural adjustments, leads to negative linear compressibility along X3, primarily due to directional electrostatic interactions."
+    },
+    {
+     "tipo": "altro",
+     "testo": "fully deuterated sample",
+     "citazione": "Refinement of H/D occupancy of the ambient structure confirmed that the sample was fully deuterated."
+    }
+   ]
+  }
+ ]
+}
