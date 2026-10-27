@@ -1,0 +1,1061 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.3390/molecules24112174",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "ε-Caprolactam ad alta pressione: tre polimorfi (Forma I a pressione ambiente, dimero ammidico, C2/c; Forme II e III, entrambe P21/c, catene catemeriche N-H...O). Le trasformazioni sono viste con SXRD in cella a incudini di diamante (h-caprolattame) e con diffrazione di neutroni su polvere in pressa Paris-Edinburgh (caprolactam-d10, ammide protonata). Intervalli di stabilita' dichiarati nell'abstract: Forma II fra 0.5 e 0.9 GPa, Forma III da 0.9 a 5.4 GPa; ma la cinetica conta: Forma II si conserva oltre il suo intervallo (fino a 3.13 GPa, con solo poca Forma III da 2.0 GPa), e comprimendo da 0.44 a 0.94 GPa in cinque minuti la Forma II viene saltata (I -> III). Nessuna forma ad alta pressione e' recuperabile a pressione ambiente; nessuna polimerizzazione. Isotopologhi: il caprolactam-d10 dei neutroni e' un composto a parte (C2, analogo_di C1) con forme proprie (F4-F6); le tre fasi hanno la stessa etichetta I, II, III. Non sono eventi: i calcoli CrystalExplorer e DFT, le equazioni di stato, le direzioni principali di deformazione, la ricristallizzazione di caprolactam da sei solventi senza nuovi polimorfi (preparazione). Il testo dice che la struttura di Forma I fu ridefinita a 123 K ma non da' CCDC ne' celle: sono nelle Tabelle S1 e S2 del supplementare. Incoerenze del testo: (1) punti di pressione del cristallo da acetato di etile: risultati 0.64 e 1.64 GPa con perdita di cristallinita' a 2.31 GPa, Metodi 0.64 e 1.26 GPa con perdita a 2.2 GPa, par. 2.4 «no changes ... up to a pressure of 1.7 GPa» e perdita di intensita' a 2.18 GPa; (2) transizione I -> II del caricamento 1: «0.685(11) GPa» (par. 2.4), «0.678(8) GPa» (stesso paragrafo) e miscela a «0.692(14) GPa» (didascalia Fig. 4); (3) Forma II cristallizzata in cella a «~0.7 GPa» (testo) o «0.55 GPa» (didascalia Fig. 3); (4) pressione massima del caricamento 2: 5.64(2) GPa (testo) contro 5.69 GPa (Metodi) contro 5.4 GPa (abstract); (5) la didascalia di Fig. S4 dice che a 0.53 GPa si usa la cella di Forma III, il testo che la Forma II e' la fase principale a 0.53(4) GPa.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "ε-caprolactam"
+  },
+  {
+   "id": "C2",
+   "nome": "caprolactam-d10",
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "Form I",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "C2/c",
+   "refcode": "CAPLAC",
+   "strutture": [
+    {
+     "refcode": "CAPLAC",
+     "fonte": "SCXRD",
+     "citazione": "Winkler and Dunitz followed this report with a redetermination of the crystal structure of ε-caprolactam under ambient conditions in the standard monoclinic setting of C2/c (CAPLAC) [24]."
+    },
+    {
+     "refcode": "CAPLAC01",
+     "fonte": "non_detta",
+     "citazione": "They assigned the monoclinic B1 1 2/b space group to the structure and reported that the molecule adopted a chair conformation with the amide group being planar (Cambridge Structural Database (CSD) [22] refcode: CAPLAC01)."
+    }
+   ],
+   "citazione": "Winkler and Dunitz followed this report with a redetermination of the crystal structure of ε-caprolactam under ambient conditions in the standard monoclinic setting of C2/c (CAPLAC) [24].",
+   "note": "Forma a pressione ambiente. CAPLAC e' la determinazione di Winkler e Dunitz in impostazione standard C2/c; CAPLAC01 e' quella di Oya e Myasnikova in impostazione non standard B1 1 2/b (stessa struttura, impostazione diversa). Gli autori la ridefiniscono a 123 K (senza refcode ne' CCDC nel testo).",
+   "motivi_hb": [
+    {
+     "motivo": "amide dimer",
+     "chi": "amide groups of two adjacent caprolactam molecules (N…O 2.8754(12) Å)",
+     "citazione": "The dominant feature of the packing arrangement is an amide dimer interaction between two of the adjacent caprolactam molecules (Figure 1b,c, N…O 2.8754(12) Å; intermolecular energy of –68.2 kJ·mol−1)."
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "Form II",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21/c",
+   "citazione": "Single-crystal and neutron diffraction studies show that caprolactam undergoes two phase transitions to Form II and Form III (both P21/c).",
+   "note": "Fase ad alta pressione, stabile fra circa 0.5 e 0.9 GPa. Struttura risolta da cristallo singolo cresciuto in cella a circa 0.7 GPa (SXRD); le celle stanno nel supplementare (Tabelle S1 e S2). Torsione N…O-C-N −106.35°. Sistema cristallino non scritto.",
+   "motivi_hb": [
+    {
+     "motivo": "hydrogen bonded chains between the amide groups along the b-direction (catemeric chains)",
+     "chi": "amide groups of neighbouring molecules",
+     "citazione": "The structure of Form II is dominated by the hydrogen bonded chains between the amide groups along the b-direction (Figure 3c; −27.7 kJ·mol−1; energies from single crystal at 0.7 GPa)."
+    },
+    {
+     "motivo": "catemeric chains of the amide group",
+     "chi": "amide groups",
+     "citazione": "Instead, Forms II and III consists of catemeric chains of the amide group, similar to those of carbamazepine form V [34]."
+    }
+   ]
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "Form III",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21/c",
+   "citazione": "Single-crystal and neutron diffraction studies show that caprolactam undergoes two phase transitions to Form II and Form III (both P21/c).",
+   "note": "Fase ad alta pressione, stabile da 0.9 GPa a 5.4 GPa (abstract). Struttura risolta da SXRD (cristallo da 1-butanolo compresso a 1.20 GPa, o cristalli precipitati in cella a 3.45 GPa). Torsione N…O-C-N 105.34°. Sistema cristallino non scritto; le celle sono nel supplementare.",
+   "motivi_hb": [
+    {
+     "motivo": "same hydrogen-bond chain motif as in Form II (catemeric chains)",
+     "chi": "amide groups of neighbouring molecules",
+     "citazione": "Form III possesses the same hydrogen-bond chain motif as in Form II (−35.6 kJ·mol−1; energies from single crystal at 0.7 GPa)."
+    },
+    {
+     "motivo": "face-to-face contact between the carbonyl groups of molecules in neighbouring chains",
+     "chi": "carbonyl groups of neighbouring chains",
+     "citazione": "The CH…O interaction that was observed in Form I and II is not present in this structure; instead, there is a greater face-to-face contact between the carbonyl groups of molecules in neighbouring chains that is equally as energetic as the interactions between hydrogen-bonded molecules (−37.0 kJ·mol−1)."
+    }
+   ]
+  },
+  {
+   "id": "F4",
+   "composto": "C2",
+   "etichetta": "Form I",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Both loadings at ~0.2 GPa are consistent with Form I of caprolactam (Figure 2).",
+   "note": "Forma I del caprolactam-d10 dei neutroni (polvere ricristallizzata da acetato di etile o da etanolo-d6); la struttura di partenza e' CAPLAC. L'ammide e' protonata («the amide hydrogen being protonated»).",
+   "motivi_hb": [
+    {
+     "motivo": "amide dimer",
+     "chi": "amide groups of two adjacent caprolactam molecules",
+     "citazione": "The amide dimer arrangement, a prominent feature of Form I, is absent in both Forms II and III (Figure 8)."
+    }
+   ]
+  },
+  {
+   "id": "F5",
+   "composto": "C2",
+   "etichetta": "Form II",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21/c",
+   "citazione": "We applied the structure from our single crystal diffraction data to the neutron powder diffraction pattern of Form II and found that it was an excellent fit to the data. Form II shows a chain motif compared with the dimer in Form I.",
+   "note": "Forma II del caprolactam-d10 dai dati neutronici su polvere, descritta con la struttura da cristallo singolo del composto non deuterato (F2). Gruppo P21/c dalle conclusioni.",
+   "motivi_hb": [
+    {
+     "motivo": "chain motif (catemeric chains) in place of the dimer",
+     "chi": "amide groups",
+     "citazione": "Form II shows a chain motif compared with the dimer in Form I."
+    }
+   ]
+  },
+  {
+   "id": "F6",
+   "composto": "C2",
+   "etichetta": "Form III",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "gruppo_spaziale": "P21/c",
+   "citazione": "Form III compresses monotonically until the highest pressure is achieved (5.64(2) GPa). Form III can be fit with a 3rd Order Murnaghan Equation of State with parameters V0 = 645(12) Å3, K = 4.7(19) GPa, K’ = 14(4) (Figure 6, Figure S3) [31].",
+   "note": "Forma III del caprolactam-d10 dai dati neutronici su polvere (caricamento 2, ricristallizzato da etanolo-d6). Gruppo P21/c dalle conclusioni.",
+   "motivi_hb": [
+    {
+     "motivo": "same hydrogen-bond chain motif as in Form II",
+     "chi": "amide groups",
+     "citazione": "Form III possesses the same hydrogen-bond chain motif as in Form II (−35.6 kJ·mol−1; energies from single crystal at 0.7 GPa)."
+    }
+   ]
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F2",
+    "F3"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F3",
+   "condizioni": "da 0.9 GPa a 5.4 GPa la Forma III e' stabile; la Forma II e' stabile fra 0.5 e 0.9 GPa, ma si conserva oltre per ragioni cinetiche",
+   "citazione": "Form II of caprolactam shows a small pressure region of stability between 0.5 GPa and 0.9 GPa with Form III being stable from 0.9 GPa to 5.4 GPa.",
+   "fonte_dati": "propria",
+   "note": "Altre frasi: «Form II can be retained at pressures beyond its region of stability» e «providing evidence that Form III is the more stable form at pressure» (vuoti e volume molecolare). Non e' mono- o enantiotropia: la leva e' la pressione."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F2",
+   "condizioni": "fra circa 0.5 GPa e 0.9 GPa",
+   "citazione": "Through the combination of these techniques, we observed that Form II is stable over a narrow pressure range between approximately 0.5 GPa and 0.9 GPa, but kinetics plays a role in its observation.",
+   "fonte_dati": "propria"
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "max": 1.7,
+     "unita": "GPa"
+    },
+    "mezzo_pressione": "petroleum ether",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "Raman"
+    ]
+   },
+   "citazioni": [
+    "During the single crystal experiment, using the lab diffractometer, we observed no changes to the crystal structure of caprolactam up to a pressure of 1.7 GPa.",
+    "At both 0.64 and 1.64 GPa, the crystal was indexed as the known form, albeit with compressed cell axes.",
+    "Petroleum ether was used as the pressure-transmitting medium to maintain hydrostatic conditions.",
+    "SXRD and Raman data were taken at pressures of 0.64 GPa and 1.26 GPa."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo cresciuto per evaporazione lenta da acetato di etile",
+   "conflitto": "Punti di misura: risultati 0.64 e 1.64 GPa; Metodi 0.64 e 1.26 GPa; il par. 2.4 dice «no changes ... up to a pressure of 1.7 GPa». Si tiene 1.7 GPa come limite del negativo e gli altri valori in questa nota.",
+   "note": "Il cristallo da acetato di etile resta in Forma I fino alla perdita di cristallinita' (E2). Dopo la decompressione («on downloading») il cristallo era diventato morbido anziche' fragile, «indicating that the solid had been modified in some way»: il testo non dice in che forma. Il mezzo di pressione (etere di petrolio) e' dei Metodi per questo cristallo."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "ignota",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 2.31,
+     "unita": "GPa",
+     "tipo": "osservata"
+    },
+    "mezzo_pressione": "petroleum ether",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "We were able to collect two datasets at high pressure (0.64 and 1.64 GPa) before the sample lost crystallinity at 2.31 GPa.",
+    "At 2.18 GPa, there was a loss of diffraction intensity that could be attributed to a reconstructive phase transition or a transformation to an amorphous solid.",
+    "A third data collection, at 2.2 GPa showed that the sample quickly lost its crystallinity and that the intense spots associated with single-crystal diffraction were no longer present."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo cresciuto per evaporazione lenta da acetato di etile",
+   "lettura_alternativa": "amorfizzazione («a transformation to an amorphous solid») invece di una transizione ricostruttiva",
+   "conflitto": "Pressione della perdita di cristallinita': 2.31 GPa (par. 2.2), 2.2 GPa (Metodi), 2.18 GPa (par. 2.4). Si tiene 2.31 GPa (risultati).",
+   "note": "Il cristallo perde la diffrazione di cristallo singolo: gli autori non distinguono fra transizione ricostruttiva e amorfizzazione, quindi `a` e' ignota."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": 1.2,
+     "unita": "GPa",
+     "tipo": "misura"
+    },
+    "tempo": {
+     "valore": 1,
+     "unita": "week",
+     "tipo": "processo"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "ricostruttiva"
+    ],
+    "integrita": "fratturato"
+   },
+   "citazioni": [
+    "Initial indexing confirmed that the crystal was the known form of caprolactam before we loaded the sample into the diamond anvil cell.",
+    "At the first pressure point (1.20 GPa), we noted that the diffraction was of lower quality (multiple weaker crystals) than we observed from the unit cell check at ambient pressure (strong single crystal diffraction) and that the crystal indexed as a new form. The crystal had undergone a reconstructive phase transition on application of pressure; however, the fragmentation of the crystal still allowed data reduction and analysis of the crystal structure.",
+    "Ambient pressure analysis of a crystal obtained via slow evaporation of 1-butanol showed the crystal structure to again match that of the known phase. This crystal was then loaded into a DAC and analysed at 1.20 GPa, with the data obtained showing a phase transition had occurred.",
+    "Each of these compression studies were performed over the course of a week."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo cresciuto per evaporazione lenta da 1-butanolo",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimer",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F1",
+     "citazione": "The amide dimer arrangement, a prominent feature of Form I, is absent in both Forms II and III (Figure 8)."
+    },
+    {
+     "gruppo": "catemeric chains of the amide group",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F3",
+     "citazione": "Instead, Forms II and III consists of catemeric chains of the amide group, similar to those of carbamazepine form V [34]."
+    },
+    {
+     "gruppo": "CH…O interaction",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F3",
+     "citazione": "The CH…O interaction that was observed in Form I and II is not present in this structure"
+    },
+    {
+     "gruppo": "carbonyl groups",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F3",
+     "citazione": "there is a greater face-to-face contact between the carbonyl groups of molecules in neighbouring chains"
+    }
+   ],
+   "note": "Il cristallo da 1-butanolo (migliore qualita') passa gia' al primo punto a 1.20 GPa a una forma nuova, poi chiamata Forma III per coerenza col diagramma di fasi. La pressione di transizione e' fra la pressione ambiente e 1.20 GPa. Il mezzo di pressione per questo cristallo non e' detto (il solo mezzo dei Metodi e' l'etere di petrolio, per il cristallo da acetato di etile). Il testo dice che il comportamento cambia con il solvente di ricristallizzazione, ma poi (neutroni, caricamento 2) che l'ipotesi sul ruolo del solvente era sbagliata."
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "DAC",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 1.2,
+     "max": 2.18,
+     "unita": "GPa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "We collected datasets at 1.20 GPa, 1.70 GPa and 2.18 GPa (the latter pressure was taken for comparison of unit cell parameters with the neutron data).",
+    "Data collected at 1.70 GPa and 2.18 GPa showed this second polymorph to still be present."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo cresciuto da 1-butanolo, passato a Forma III a 1.20 GPa",
+   "da_evento": "E3",
+   "note": "La Forma III e' ancora presente a 1.70 e 2.18 GPa nello stesso esperimento."
+  },
+  {
+   "id": "E5",
+   "da": "F3",
+   "a": "F2",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.7,
+     "unita": "GPa",
+     "circa": true,
+     "tipo": "applicata"
+    },
+    "solventi": [
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "The cell was decompressed to ~0.7 GPa (where we observed Form II) but the sample was still Form III."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristalli di Forma III precipitati in cella da soluzione satura in acetato di etile a 3.45 GPa scaldando a circa 323 K",
+   "note": "Subito dopo la decompressione da 3.45 GPa a circa 0.7 GPa la Forma III resta tale; la Forma II compare solo dopo due giorni (E6). Barriera cinetica: la Forma III si conserva oltre il suo intervallo di stabilita'."
+  },
+  {
+   "id": "E6",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.7,
+     "unita": "GPa",
+     "tipo": "applicata"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "day",
+     "tipo": "trasformazione"
+    },
+    "solventi": [
+     {
+      "nome": "ethyl acetate",
+      "proporzione": null
+     }
+    ]
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "via_soluzione"
+    ]
+   },
+   "citazioni": [
+    "We assumed that Form II was stable at this pressure and left the cell for two days at 0.7 GPa to allow for the possibility of recrystallisation. During this period, a single crystal of Form II grew from solution (Figure 3) which we analyzed through single-crystal X-ray diffraction and identified it as a new phase (Form II).",
+    "(a) A crystal of Form II of caprolactam grown from ethyl acetate from Form III crystals on decompression from 3.45 GPa to 0.55 GPa"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristalli di Forma III precipitati in cella a 3.45 GPa e decompressi a circa 0.7 GPa (E5)",
+   "da_evento": "E5",
+   "conflitto": "Testo: due giorni a 0.7 GPa; didascalia della Fig. 3: «decompression from 3.45 GPa to 0.55 GPa». Si tiene 0.7 GPa (corpo). Meccanismo via soluzione dedotto da «grew from solution».",
+   "note": "Un cristallo singolo di Forma II cresce dalla soluzione in cella dopo due giorni a 0.7 GPa, partendo dai cristalli di Forma III (didascalia Fig. 3). E' il modo in cui si ottiene la struttura di Forma II. Il testo non dice la temperatura."
+  },
+  {
+   "id": "E7",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": [
+    "E9",
+    "E10"
+   ],
+   "via": "pressione",
+   "sottovia": "grande_volume",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 0.685,
+     "max": 0.943,
+     "unita": "GPa",
+     "tipo": "forchetta"
+    },
+    "mezzo_pressione": "1:1 mixture of perdeuterated pentane and isopentane",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "As we applied pressure to the sample in the neutron diffraction experiment, there was a change in the diffraction pattern at 0.685(11) GPa with complete conversion by 0.943(11) GPa.",
+    "Figure 4 shows the compression of Form I up to 0.678(8) GPa, at which point caprolactam undergoes a phase transition to Form II.",
+    "A 1:1 mixture of perdeuterated pentane and isopentane was used as the pressure-transmitting medium to ensure that the compression was quasi-hydrostatic.",
+    "The first loading used a sample recrystallized from ethyl acetate and the second loading used a sample recrystallized from deuterated ethanol; 1-butanol was not available."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "caprolactam-d10 ricristallizzato da acetato di etile e macinato leggermente in mortaio",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimer",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F4",
+     "citazione": "The amide dimer arrangement, a prominent feature of Form I, is absent in both Forms II and III (Figure 8)."
+    },
+    {
+     "gruppo": "chain motif",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F5",
+     "citazione": "Form II shows a chain motif compared with the dimer in Form I."
+    },
+    {
+     "gruppo": "H…O interaction",
+     "ruolo": "altro",
+     "con": "stessa_molecola",
+     "cambia": "resta",
+     "citazione": "allows for the same H…O interaction that was observed in Form I where the axial hydrogen atoms are in close proximity to the carbonyl oxygen"
+    }
+   ],
+   "conflitto": "La transizione e' a 0.685(11) GPa («a change in the diffraction pattern») con conversione completa a 0.943(11) GPa; lo stesso paragrafo dice «up to 0.678(8) GPa, at which point caprolactam undergoes a phase transition» e la didascalia della Fig. 4 la miscela a 0.692(14) GPa. Si tiene l'intervallo 0.685-0.943 GPa.",
+   "note": "Neutroni su polvere (Pearl, ISIS), caricamento 1, quasi idrostatico. Pressa Paris-Edinburgh (sottovia grande_volume); il mezzo e' quasi idrostatico. Forma II compare in questo esperimento ma non nel cristallo singolo da acetato di etile (E1): polvere e cristallo singolo, il testo non spiega la differenza. La struttura di Forma II e' stata risolta dopo, da cristallo cresciuto in cella (E6). La temperatura non e' detta."
+  },
+  {
+   "id": "E8",
+   "da": "F5",
+   "a": "F6",
+   "esito": "parziale",
+   "via": "pressione",
+   "sottovia": "grande_volume",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 2.0,
+     "max": 3.13,
+     "unita": "GPa",
+     "tipo": "forchetta"
+    },
+    "tempo": {
+     "valore": 20,
+     "unita": "h",
+     "circa": true,
+     "tipo": "processo"
+    },
+    "mezzo_pressione": "1:1 mixture of perdeuterated pentane and isopentane",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ],
+    "frazione_convertita": {
+     "valore": null,
+     "unita": "%",
+     "testo": "to a small extent"
+    }
+   },
+   "citazioni": [
+    "Beyond the transition point, further compression to 3.13 GPa showed no significant change in the observed diffraction pattern (Figure 4d).",
+    "We do observe that Form III, which we observed using single-crystal diffraction, grows in to a small extent and contributes to the peaks at approximately 3.6 & 4 Å. This growth begins at 2.0 GPa but does not show any increase as the pressure was applied.",
+    "The time for the diffraction data from 2–3.13 GPa to be collected was ~20 h so there was not a long time for the nucleation of Form III.",
+    "we observe that the kinetic barrier to the conversion can aid retention of phases beyond their region of stability"
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E7",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N…O-C-N torsion angle",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "citazione": "The orientation of the molecules with respect to the hydrogen-bonded chains are different and can be measured through the N…O-C-N torsion angle (Form II, −106.35°; Form III, 105.34°)."
+    },
+    {
+     "gruppo": "hydrogen-bond chain motif",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "Form III possesses the same hydrogen-bond chain motif as in Form II"
+    }
+   ],
+   "note": "Forma II (nata a 0.685-0.943 GPa) resta la fase principale fino a 3.13 GPa, oltre il suo intervallo di stabilita' (0.5-0.9 GPa); solo un poco di Forma III compare da 2.0 GPa e non aumenta. «A substantial reorientation required to transform between Form II and Form III» (grande trasformazione ricostruttiva) spiega la ritenzione. Il tempo di ~20 h e' la durata della raccolta dati fra 2 e 3.13 GPa."
+  },
+  {
+   "id": "E9",
+   "da": "F5",
+   "a": "F4",
+   "esito": "parziale",
+   "reversibile": true,
+   "inverso_di": "E7",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.63,
+     "unita": "GPa",
+     "tipo": "misura"
+    },
+    "tempo": {
+     "valore": 20,
+     "unita": "min",
+     "tipo": "attesa"
+    },
+    "mezzo_pressione": "1:1 mixture of perdeuterated pentane and isopentane",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F4",
+      "prevalenza": null
+     },
+     {
+      "forma": "F5",
+      "prevalenza": null
+     }
+    ]
+   },
+   "citazioni": [
+    "Rapid decompression to 0.63(4) GPa shows large changes in the diffraction pattern (Figure S2). At this pressure, there is a mixed phase of both Forms I and II. The solid was maintained for only 20 min at this pressure, so there was not enough time for true equilibration to be reached.",
+    "However, this pressure is similar to the pressure where the single crystal of Form II was formed and helps to define the lower boundary at which Form II is stable."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E8",
+   "note": "Decompressione rapida dal massimo del caricamento 1: a 0.63(4) GPa miscela di Forme I e II, senza vero equilibrio dopo 20 min. Definisce il limite inferiore di stabilita' della Forma II."
+  },
+  {
+   "id": "E10",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E7",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.24,
+     "unita": "GPa",
+     "tipo": "misura"
+    },
+    "tempo": {
+     "valore": 10,
+     "unita": "min",
+     "tipo": "attesa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "We fully released the load on the sample to observe whether Form II could be recovered. After a short time period (10 min), it was clear that Form I was present. It should be noted that the data point at which the pressure refined to 0.24(3) GPa was in fact collected after the complete removal of the mechanical load.",
+    "At 0.63 GPa is a mixed phase of Form I and II and the transition to Form I is complete by 0.24 GPa."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E9",
+   "note": "Rilascio completo del carico: dopo 10 min e' chiaro che c'e' Forma I. La pressione di 0.24(3) GPa e' quella raffinata dopo la rimozione del carico, in parte per la velocita' con cui e' stato tolto. La Forma II ad alta pressione non si recupera a pressione ambiente."
+  },
+  {
+   "id": "E11",
+   "da": "F4",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "grande_volume",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.94,
+     "unita": "GPa",
+     "tipo": "transizione"
+    },
+    "tempo": {
+     "valore": 5,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "mezzo_pressione": "1:1 mixture of perdeuterated pentane and isopentane",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ],
+    "meccanismo": [
+     "ricostruttiva"
+    ]
+   },
+   "citazioni": [
+    "On compression of this sample, we were able to observe Form I at two pressure points (0.235(13) GPa & 0.436(12) GPa) before a phase transition to Form III occurs at 0.94(4) GPa. At this pressure, we are able to partially fit Form II indicating that our initial hypothesis as to the role of the solvent was incorrect and that Form II has a narrow pressure range in which it is stable. Form II is still present at 1.54 GPa, but after this pressure was no longer observed.",
+    "Form II can be bypassed by compression beyond the phase boundary so that the reconstructive phase transition from Form I to III can take place. In our case, the compression from 0.44 GPa to 0.94 GPa was over a period of five minutes; hence, Form II did not have time to nucleate."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "caprolactam-d10 ricristallizzato da etanolo-d6",
+   "prodotti_secondari": [
+    "F5"
+   ],
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "amide dimer",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F4",
+     "citazione": "The amide dimer arrangement, a prominent feature of Form I, is absent in both Forms II and III (Figure 8)."
+    },
+    {
+     "gruppo": "catemeric chains of the amide group",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F6",
+     "citazione": "Instead, Forms II and III consists of catemeric chains of the amide group, similar to those of carbamazepine form V [34]."
+    },
+    {
+     "gruppo": "carbonyl groups",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "si_forma",
+     "forma": "F6",
+     "citazione": "there is a greater face-to-face contact between the carbonyl groups of molecules in neighbouring chains"
+    }
+   ],
+   "note": "Caricamento 2: la compressione da 0.44 a 0.94 GPa in cinque minuti salta la Forma II e la Forma I passa direttamente alla Forma III; a 0.94 GPa la Forma II e' adattata solo in parte (prodotto secondario), e' ancora presente a 1.54 GPa e dopo non si vede piu'. Il testo dice che il solvente di ricristallizzazione non conta."
+  },
+  {
+   "id": "E12",
+   "da": "F6",
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_altra_transizione",
+   "via": "pressione",
+   "sottovia": "grande_volume",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "min": 0.9,
+     "max": 5.64,
+     "unita": "GPa"
+    },
+    "mezzo_pressione": "1:1 mixture of perdeuterated pentane and isopentane",
+    "idrostatica": true
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "Form III compresses monotonically until the highest pressure is achieved (5.64(2) GPa).",
+    "Form II of caprolactam shows a small pressure region of stability between 0.5 GPa and 0.9 GPa with Form III being stable from 0.9 GPa to 5.4 GPa."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E11",
+   "note": "Forma III stabile sull'intero intervallo; la pressione massima e' 5.64(2) GPa (testo), 5.69 GPa (Metodi), 5.4 GPa nell'abstract. Rafforzato dal Rietveld a 5.4 GPa in Fig. S7."
+  },
+  {
+   "id": "E13",
+   "da": "F6",
+   "a": "F5",
+   "esito": "parziale",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 0.53,
+     "unita": "GPa",
+     "tipo": "misura"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ],
+    "composizione_prodotto": [
+     {
+      "forma": "F5",
+      "prevalenza": "prevalente"
+     },
+     {
+      "forma": "F6",
+      "prevalenza": "minoritaria"
+     }
+    ]
+   },
+   "citazioni": [
+    "On decompression to ambient pressure Form III is present to 1.44(4) GPa but at the next pressure (0.53(4) GPa) Form II is present as the major phase; there are small misfits that can be assigned to Form III."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E12",
+   "conflitto": "La didascalia di Fig. S4: «The Pawley fit of the data at 2 tonnes on decompression (0.53 GPa) using the cell parameters of Form III». Si tiene il testo, che dice Forma II fase principale a 0.53(4) GPa.",
+   "note": "Decompressione del caricamento 2 (da 5.69 GPa, con rilascio in circa 2 h): III persiste fino a 1.44(4) GPa (E14); a 0.53(4) GPa la fase principale e' II con piccoli disadattamenti attribuiti a III."
+  },
+  {
+   "id": "E14",
+   "da": "F6",
+   "a": "F5",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": 1.44,
+     "unita": "GPa",
+     "tipo": "osservata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "On decompression to ambient pressure Form III is present to 1.44(4) GPa but at the next pressure (0.53(4) GPa) Form II is present as the major phase; there are small misfits that can be assigned to Form III."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E12",
+   "note": "Decompressione: la Forma III e' ancora l'unica fase a 1.44(4) GPa."
+  },
+  {
+   "id": "E15",
+   "da": "F5",
+   "a": "F4",
+   "esito": "avvenuta",
+   "via": "pressione",
+   "sottovia": "decompressione",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "unita": null,
+     "testo": "complete release of pressure",
+     "tipo": "applicata"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD"
+    ]
+   },
+   "citazioni": [
+    "Complete release of pressure shows the conversion to Form I (Figure S4).",
+    "After the second loading (with the sample recrystallized from ethanol), the load was increased in increments of 5 tonnes. The maximum load (60 tonnes) was achieved after approximately 28 h before subsequent decompression to ambient conditions over the course of approximately 2 h."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "polvere"
+   },
+   "da_evento": "E13",
+   "note": "Al rilascio completo del carico (caricamento 2) il campione passa a Forma I. Il testo non dice a quale forma si riferisce la frase («the conversion to Form I»): si parte dalla Forma II, fase principale a 0.53(4) GPa."
+  },
+  {
+   "id": "E16",
+   "da": "F6",
+   "a": "reazione",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "pressione",
+   "sottovia": "grande_volume",
+   "condizioni": {
+    "pressione": {
+     "valore": null,
+     "max": 5.69,
+     "unita": "GPa"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "NPD",
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "In either of these studies, no polymerization was observed in this system.",
+    "Neutron diffraction data was collected at regular pressure intervals to a maximum pressure of 3.25 GPa and 5.69 GPa for the samples recrystallized from ethyl acetate and ethanol-d6, respectively (Table S2).",
+    "Neither of the high-pressure forms can be recovered to ambient pressure and there is no evidence of any polymerization occurring."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "chimica",
+   "note": "Negativo chimico generale: nessuna polimerizzazione del caprolattame in nessuna fase e in nessuno degli esperimenti. `da` e' la fase a pressione piu' alta (Forma III, fino a 5.69 GPa); la frase non nomina una forma. Il testo dice anche che il recupero della Forma I alla decompressione e' un'altra prova dell'assenza di polimerizzazione."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone",
+    "acetonitrile",
+    "ethyl acetate",
+    "ethanol",
+    "methanol",
+    "1-butanol"
+   ],
+   "solventi_alternativi": true,
+   "citazioni": [
+    "A solvent screen was set up in which caprolactam (Sigma-Aldrich, Gillingham, UK) was recrystallised via slow solvent evaporation from acetone, acetonitrile, ethyl acetate, ethanol, methanol, and 1-butanol.",
+    "All Raman spectra showed the same vibrational modes, indicating that no novel polymorphs had been obtained by recrystallization from the different solvents.",
+    "Analysis of crystals obtained from each of these recrystallized samples showed the crystals to match the known form of caprolactam."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Solo i campioni da acetato di etile e da 1-butanolo davano cristalli adatti all'SXRD, entrambi della forma nota (Forma I)."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "ethyl acetate",
+    "ethanol-d6"
+   ],
+   "solventi_alternativi": true,
+   "citazioni": [
+    "Caprolactam was recrystallized via slow solvent evaporation of ethyl acetate and ethanol-d6.",
+    "Prior to loading, we recrystallized the sample in a mortar and pestle whilst gently grinding the powder to ensure that there was no preferential orientation of the crystallites."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Due caricamenti: il primo da acetato di etile, il secondo da etanolo-d6 (il butanolo deuterato non era disponibile). L'acetato di etile non deuterato basta perche' non ci sono protoni labili che si scambiano."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "in_situ_pressione",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": false,
+   "temperatura": {
+    "valore": 323,
+    "unita": "K",
+    "circa": true,
+    "tipo": "non_specificato"
+   },
+   "pressione": {
+    "valore": 3.45,
+    "unita": "GPa",
+    "tipo": "misura"
+   },
+   "citazioni": [
+    "To identify Form II, we loaded a saturated solution of caprolactam in ethyl acetate into a Diamond Anvil Cell (DAC). We were not able to nucleate through pressure alone but the sample precipitated when we heated it to ca. 323 K. Multiple crystals were formed that were of sufficient quality for X-ray diffraction. These were identified as Form III (3.45 GPa)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Precipitazione indotta dalla pressione: la sola pressione non faceva nucleare, bastava riscaldare la cella a circa 323 K. Il tentativo era di ottenere la Forma II."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E6",
+   "solventi": [
+    "ethyl acetate"
+   ],
+   "solventi_alternativi": false,
+   "pressione": {
+    "valore": 0.7,
+    "unita": "GPa",
+    "tipo": "applicata"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "day",
+    "tipo": "processo"
+   },
+   "citazioni": [
+    "We assumed that Form II was stable at this pressure and left the cell for two days at 0.7 GPa to allow for the possibility of recrystallisation. During this period, a single crystal of Form II grew from solution (Figure 3) which we analyzed through single-crystal X-ray diffraction and identified it as a new phase (Form II)."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 5.1,
+      "unita": "GPa"
+     },
+     "forma": "F5",
+     "metodo": "modulo di bulk K, equazione di stato di Murnaghan del terzo ordine (fit sperimentale sui dati neutronici)",
+     "calcolato": false,
+     "citazione": "Form II can be fit with a 3rd Order Murnaghan Equation of State with parameters V0 = 660(9) Å3, K = 5.1(16) GPa"
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 4.7,
+      "unita": "GPa"
+     },
+     "forma": "F6",
+     "metodo": "modulo di bulk K, equazione di stato di Murnaghan del terzo ordine (fit sperimentale sui dati neutronici)",
+     "calcolato": false,
+     "citazione": "Form III can be fit with a 3rd Order Murnaghan Equation of State with parameters V0 = 645(12) Å3, K = 4.7(19) GPa"
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "conformeri",
+     "testo": "chair conformation with a planar amide group (Form I)",
+     "forma": "F1",
+     "citazione": "reported that the molecule adopted a chair conformation with the amide group being planar"
+    },
+    {
+     "tipo": "flessibilita",
+     "testo": "the molecules in Forms I, II and III show a similar conformation at ~1.2 GPa; the orientation with respect to the chain differs, measured by the N…O-C-N torsion angle (Form II −106.35°, Form III 105.34°)",
+     "citazione": "The orientation of the molecules with respect to the hydrogen-bonded chains are different and can be measured through the N…O-C-N torsion angle (Form II, −106.35°; Form III, 105.34°)."
+    }
+   ]
+  }
+ ]
+}
