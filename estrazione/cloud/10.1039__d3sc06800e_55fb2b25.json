@@ -1,0 +1,125 @@
+{
+  "versione_schema": "v1.4",
+  "doi": "10.1039/d3sc06800e",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "note": "Penciclovir (PCV): un'unica transizione LT <-> HT (ferroelastica, con rottura inversa di simmetria: la forma HT e' a simmetria piu' bassa). Eventi estratti: la transizione termica (DSC, scaldando e raffreddando; microscopia a piastra calda con temperature diverse) e la superelasticita' (HT -> LT sotto carico). NON sono eventi: la geminazione meccanica della forma HT (spostamento di dominio HT+ <-> HT−, stessa fase: «Under shearing stress in the [010] direction, the PCV HT form underwent twinning deformation»; ripristino «by shearing in the opposite direction»; la frattura di un cristallo HT per geminazione lungo (100)HT sotto la pressione di un ago e il suo ripristino con una pressione dolce lungo [001]HT); la comparsa di crepe e la loro scomparsa (self-healing): «in seldom cases, cracks appeared on the basal face during the HT to LT transition, yet upon heating the crystal above the LT to HT transition temperature, the cracks gradually disappeared» (avviene dentro le transizioni gia' estratte, E1/E2; contrazione del 1.76% lungo l'asse lungo fra 400 K e 380 K); il fatto che la forma LT resta rigida e fragile («the LT form of PCV remained rigid and brittle», nessun cambio di forma detto). I 60 cicli di DSC e i venti cicli al microscopio (transizione e entalpia invariate; cristalli intatti) sono in E1-E4 come ripetizioni, non come eventi propri. Il testo dice che le strutture sono state raccolte sopra (400 K) e sotto (380 K) la transizione; le celle sono nel supplementare (Table S2, S3).",
+  "composti": [
+    {"id": "C1", "nome": "penciclovir (PCV)", "smiles": null}
+  ],
+  "forme": [
+    {"id": "F1", "composto": "C1", "etichetta": "LT form", "etichette_alternative": ["low-temperature (LT) form"], "tipo": "anidro", "tipo_presunto": true, "ospite": null,
+     "gruppo_spaziale": "P21/c", "ccdc": "2313630",
+     "strutture": [
+       {"ccdc": "2313630", "temperatura": {"valore": 380, "unita": "K", "tipo": "misura"}, "fonte": "SCXRD",
+        "citazione": "Subsequently, PCV crystals were subjected to single-crystal X-ray diffraction above (400 K) and below (380 K) the transition point."}
+     ],
+     "motivi_hb": [
+       {"motivo": "infinite hydrogen-bonded tape along the b-axis, connected through O–H⋯N and N–H⋯O bonds into a 2D layered structure", "chi": "PCV molecules (one molecule in the asymmetric unit)",
+        "citazione": "Within the LT form, PCV molecules form an infinite hydrogen-bonded tape along the b-axis, which is further connected through O–H⋯N and N–H⋯O bonds, resulting in a 2D layered structure"}
+     ],
+     "citazione": "It reveals that the LT form (CCDC 2313630) belongs to the P21/c space group with only one PCV molecule in the asymmetric unit.",
+     "note": "Fase paraelastica, stabile sotto ~385 K. Il tipo «anidro» e' presunto (nessun solvente in formula o in TGA, mai detto «anhydrous»). La temperatura di 380 K e' assegnata alla forma LT perche' «below (380 K) the transition point»: la tabella S2 non e' nel testo. Sistema cristallino non scritto per LT."},
+    {"id": "F2", "composto": "C1", "etichetta": "HT form", "etichette_alternative": ["high-temperature (HT) form"], "tipo": "anidro", "tipo_presunto": true, "ospite": null,
+     "sistema_cristallino": "triclino", "gruppo_spaziale": "P-1", "gruppo_spaziale_scritto": "P1̄", "ccdc": "2313632",
+     "strutture": [
+       {"ccdc": "2313632", "temperatura": {"valore": 400, "unita": "K", "tipo": "misura"}, "fonte": "SCXRD",
+        "citazione": "Subsequently, PCV crystals were subjected to single-crystal X-ray diffraction above (400 K) and below (380 K) the transition point."}
+     ],
+     "citazione": "In contrast, the HT form (CCDC 2313632) crystallizes in a triclinic system (P1̄ space group) and contains two PCV molecules in the asymmetric unit",
+     "note": "Fase ferroelastica, stabile sopra ~385 K. Simmetria piu' bassa di LT (da 4 a 2 elementi di simmetria): «inverse temperature symmetry breaking». La temperatura di 400 K e' assegnata alla forma HT perche' «above (400 K) the transition point»."}
+  ],
+  "relazioni": [],
+  "eventi": [
+    {"id": "E1", "da": "F1", "a": "F2", "esito": "avvenuta", "reversibile": true, "inverso_di": "E2",
+     "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 385.80, "unita": "K", "tipo": "non_specificato"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "SCXRD"], "entalpia": {"min": 0.9, "max": 1.2, "unita": "kJ mol-1", "tipo": "transizione"}, "ordine_transizione": "primo", "meccanismo": ["SCSC", "cooperativa"]},
+     "campione": {"tipo": "cristallo_singolo"},
+     "gruppi_coinvolti": [
+       {"gruppo": "hydrogen-bonded layers (O–H⋯N and N–H⋯O, 2D layered structure)", "ruolo": "sintone", "con": "altra_molecola", "cambia": "resta", "forma": "F1", "citazione": "The HT form exhibits a similar layered structure to the LT form."},
+       {"gruppo": "hydrogen-bonded PCV molecules within the layered structure", "ruolo": "altro", "con": "altra_molecola", "cambia": "ruota", "citazione": "Notably, the hydrogen-bonded PCV molecules within the layered structure slightly tilt with increasing temperature, causing a displacement of molecules along the b-axis during the LT to HT phase transition (Fig. 2B and D)."},
+       {"gruppo": "interlayer CO⋯H–O hydrogen bonds", "ruolo": "sintone", "con": "altra_molecola", "cambia": "si_forma", "citazione": "the rapid reformation of CO⋯H–O hydrogen bonds across the cracked interface subsequently facilitates the crack healing"}
+     ],
+     "citazioni": [
+       "Upon heating, the crystals underwent a first-order endothermic phase transition at a temperature of 385.80 K.",
+       "The enthalpy change, estimated from the DSC curve, remained consistent at 0.9–1.2 kJ mol−1 for both cooling and heating processes.",
+       "Notably, after subjecting the crystals to 60 heating and cooling cycles, the transition temperature and enthalpy remained unchanged (Fig. 1B and Table S1†), indicating a high level of reversibility of this phase transition.",
+       "We employed polarized optical microscopy equipped with a hot stage (Fig. 3A) to investigate the single-crystal-to-single-crystal (SCSC) phase transition in PCV.",
+       "This crystal exhibits an unconventional ferroelastic phase transition through inverse temperature symmetry breaking, triggered by cooperative molecular displacement."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "385.80 K e' la temperatura scritta per il picco endotermico in riscaldamento, senza dire onset o picco. L'entalpia 0.9-1.2 kJ mol-1 e' un intervallo comune a riscaldamento e raffreddamento. Velocita' di scansione non detta. Il terzo gruppo (legami CO⋯H–O interstrato) riguarda i cristalli con crepe, che guariscono scaldando oltre la transizione LT -> HT («Surprisingly, some PCV crystals exhibited a remarkable self-healing behaviour»): non e' valido per tutti i cristalli. 60 cicli DSC senza variazione di T ed entalpia."},
+    {"id": "E2", "da": "F2", "a": "F1", "esito": "avvenuta", "reversibile": true, "inverso_di": "E1",
+     "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "temperatura": {"valore": 384.52, "unita": "K", "tipo": "non_specificato"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "SCXRD"], "entalpia": {"min": 0.9, "max": 1.2, "unita": "kJ mol-1", "tipo": "transizione"}, "ordine_transizione": "primo", "meccanismo": ["SCSC", "cooperativa"]},
+     "campione": {"tipo": "cristallo_singolo"},
+     "gruppi_coinvolti": [
+       {"gruppo": "hydrogen-bonded layers (O–H⋯N and N–H⋯O, 2D layered structure)", "ruolo": "sintone", "con": "altra_molecola", "cambia": "resta", "forma": "F2", "citazione": "The HT form exhibits a similar layered structure to the LT form."}
+     ],
+     "citazioni": [
+       "During the subsequent cooling cycle, an exothermic peak at 384.52 K was observed, with a small thermal hysteresis of approximately 1.3 K.",
+       "The enthalpy change, estimated from the DSC curve, remained consistent at 0.9–1.2 kJ mol−1 for both cooling and heating processes.",
+       "Notably, after subjecting the crystals to 60 heating and cooling cycles, the transition temperature and enthalpy remained unchanged (Fig. 1B and Table S1†), indicating a high level of reversibility of this phase transition.",
+       "During the HT to LT phase transition (400 K to 380 K), the PCV crystals underwent significant anisotropic contraction, experiencing a 1.76% contraction along the long axis, in contrast to changes along the other two axes, each less than 0.5%."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Picco esotermico a 384.52 K, isteresi termica circa 1.3 K rispetto a E1. In rari casi («in seldom cases») compaiono crepe sulla faccia basale durante la transizione HT -> LT (contrazione anisotropa 1.76% lungo l'asse lungo): le crepe guariscono scaldando oltre la transizione LT -> HT."},
+    {"id": "E3", "da": "F1", "a": "F2", "esito": "avvenuta", "reversibile": true, "inverso_di": "E4",
+     "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 387, "unita": "K", "tipo": "osservata"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["HSM"], "meccanismo": ["SCSC"], "geminazione": true, "integrita": "intatto",
+                      "cinetica": "il fronte di fase attraversa il cristallo a 0.1-10.0 mm s-1 e piega il cristallo di 3.7°; la forma HT geminata si piega in quattro domini (pareti a 7.2°)"},
+     "campione": {"tipo": "cristallo_singolo"},
+     "citazioni": [
+       "When heated to 387 K, the straight rod-shaped crystal bent into four recognizable domains, with domain walls intersected at angles of 7.2° (Fig. 4A).",
+       "Meanwhile, during the heating and cooling processes, we observed a phase boundary line (orange dotted line) in Fig. 3E(ii and v) sweeping across the crystal sample at a rate of 0.1–10.0 mm s−1, which resulted in crystal bending with an angle of 3.7° (Fig. 4A).",
+       "Notably, PCV crystals of both forms are exceptionally robust during the thermal-induced phase transition, retaining their single-crystal properties even after twenty cycles (Fig. 3B and C, Mov. S1†).",
+       "We employed polarized optical microscopy equipped with a hot stage (Fig. 3A) to investigate the single-crystal-to-single-crystal (SCSC) phase transition in PCV."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Stessa transizione di E1 vista al microscopio a piastra calda: la T (387 K) e' quella a cui il cristallo e' osservato in forma HT geminata, non una T di transizione. La partenza (LT) si deduce dal fatto che il cristallo e' scaldato da temperatura ambiente. La geminazione (HT+ / HT−, rotazione di 180° attorno a [010], angolo previsto 7.44°) e' cambio di dominio dentro la fase HT, non un evento. Venti cicli: i cristalli restano monocristalli."},
+    {"id": "E4", "da": "F2", "a": "F1", "esito": "avvenuta", "reversibile": true, "inverso_di": "E3",
+     "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "temperatura": {"valore": 382, "unita": "K", "tipo": "osservata"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["HSM"], "meccanismo": ["SCSC"], "integrita": "intatto"},
+     "campione": {"tipo": "cristallo_singolo"},
+     "citazioni": [
+       "Upon cooling the crystal back to 382 K, it regained its straight shape, demonstrating thermal shape recovery behaviour (Mov. S2†).",
+       "Moreover, the mechanically twinned crystal can also regain its straight shape by cooling (Fig. 3G and Mov. S5†).",
+       "Shape-recovery via cooling the mechanical twinned crystal with the generation of LT form through the HT to LT phase transition",
+       "Notably, PCV crystals of both forms are exceptionally robust during the thermal-induced phase transition, retaining their single-crystal properties even after twenty cycles (Fig. 3B and C, Mov. S1†)."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Raffreddamento fino a 382 K: il cristallo ritorna dritto (forma LT). Vale anche per il cristallo geminato meccanicamente (Fig. 3G), con la stessa transizione HT -> LT; per il cristallo geminato meccanicamente la T non e' detta. Effetto memoria di forma."},
+    {"id": "E5", "da": "F2", "a": "F1", "esito": "avvenuta",
+     "via": "meccanica", "sottovia": null,
+     "condizioni": {
+       "altro": "carico meccanico in direzione [010] o [100] sul cristallo di forma HT",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["HSM"], "cinetica": "deformazione superelastica con angolo di flessione di circa 3.7°"},
+     "campione": {"tipo": "cristallo_singolo"},
+     "citazioni": [
+       "Upon loading in the [010] or [100] direction, superelastic deformation of the HT form was also observed, with a bending angle of approximately 3.7°, indicating the generation of the LT form",
+       "In the case of superelastic deformation, two crystallographically independent molecules in an HT domain convert to those shown in an LT domain."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Transizione indotta da sforzo (superelasticita'): il carico genera la forma LT dentro il cristallo HT. Temperatura non detta (il cristallo e' nella forma HT, quindi sopra ~385 K). Tecnica ricavata dal contesto (microscopia, Fig. 3D); il testo non la nomina in questa frase. Ritorno dopo lo scarico non scritto esplicitamente."}
+  ],
+  "preparazioni": [
+    {"forme": ["F1"], "metodo": "evaporazione", "solventi": ["mixed alcohol solution"], "esito": "ottenuta",
+     "citazioni": ["Colourless single crystals of PCV, exhibiting either plate-like or rod-like morphology, were crystallized from a mixed alcohol solution using a solvent evaporation method (Fig. S1†)."],
+     "fonte_dati": "propria",
+     "note": "Alcoli non nominati. Forma attribuita a LT perche' i cristalli sono a temperatura ambiente, sotto la transizione (~385 K); il testo non lo dice in questa frase."}
+  ],
+  "molecole": [
+    {"composto": "C1",
+     "descrizioni": [
+       {"tipo": "conformeri", "testo": "nella forma HT due molecole indipendenti Z1 e Z2 con conformazioni molto simili", "forma": "F2", "citazione": "In the HT form, there are two crystallographically independent molecules, Z1 and Z2, exhibiting highly similar molecular conformations"}
+     ]}
+  ]
+}
