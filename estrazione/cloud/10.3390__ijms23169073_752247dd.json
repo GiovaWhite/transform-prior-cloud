@@ -1,0 +1,487 @@
+{
+  "versione_schema": "v1.4",
+  "doi": "10.3390/ijms23169073",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "ccdc": null,
+  "note": "Octametilciclotetrasilossano (D4, liquido a temperatura ambiente) cristallizzato in situ in capillare di vetro. Due fasi solide: alta T (HT, I41/a, siloxane a conformazione boat-saddle/cradle, S4) e bassa T (LT, P42/n, chair, C2h). Transizione solido-solido con grande isteresi. Il resto dell'articolo e' calcolo (DFT periodica, dinamica molecolare Born-Oppenheimer, metadinamica, fononi, ADP): non sono eventi. Valori calcolati utili come contesto (non estratti come eventi): barriera della transizione nel cristallo 4.27 kcal/mol (LT→HT) e 3.20 kcal/mol (HT→LT) a 238 K; differenza di energia totale fra le due fasi 3.14 kcal/mol a 0 K (VASP); ΔF = 0.08 kcal/mol a 258 K, curve di energia libera di Helmholtz che si incrociano a 263 K; variazione di energia libera di circa 1.07 kcal/mol per la transizione verso una fase metastabile disordinata (a–b in Fig. 9a). Le MD sull'alta T (240, 250, 270 K) portano sempre a una transizione di fase. Fase amorfa/metastabile intermedia: solo calcolo, nessuna evidenza sperimentale (l'abstract la dice possibile). Letteratura citata: Hoffman 1953 trova una transizione a −16.3 °C (dielettrica); Steinfink 1955 strutturo' la fase LT a −50 °C e non riusci' a strutturare la HT. Gli autori trovano la transizione a 236–238 K (raffreddamento) e 240–242 K (riscaldamento): «lower than the previously established temperature (257 K)». CCDC: «CCDC 2,182,853–2,182,861 ... at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K»: nove numeri per nove temperature in ordine, attribuiti per ordine (ccdc_dedotto) alle fasi: HT = 240, 250, 270 K; LT = 100–230 K (abstract: HT 238–270 K, LT 100–230 K). La transizione e' detta «shift-type» (Landau) e «asynchronous».",
+  "composti": [
+    {
+      "id": "C1",
+      "nome": "octamethylcyclotetrasiloxane (D4)",
+      "smiles": null
+    }
+  ],
+  "forme": [
+    {
+      "id": "F1",
+      "composto": "C1",
+      "etichetta": "high-temperature phase",
+      "etichette_alternative": [
+        "HT phase",
+        "high-temperature phase of D4"
+      ],
+      "tipo": "anidro",
+      "tipo_presunto": true,
+      "gruppo_spaziale": "I41/a",
+      "cella": {
+        "a": 16.25,
+        "b": 16.25,
+        "c": 6.943,
+        "condizioni": "270 K"
+      },
+      "ccdc": null,
+      "refcode": null,
+      "ccdc_dedotto": true,
+      "strutture": [
+        {
+          "ccdc": "2182859",
+          "temperatura": {
+            "valore": 240,
+            "unita": "K"
+          },
+          "fonte": "SCXRD",
+          "citazione": "The Cambridge Crystallographic Data Centre (CCDC 2,182,853–2,182,861) contains the supplementary crystallographic data for the D4 crystal at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K."
+        },
+        {
+          "ccdc": "2182860",
+          "temperatura": {
+            "valore": 250,
+            "unita": "K"
+          },
+          "fonte": "SCXRD",
+          "citazione": "The Cambridge Crystallographic Data Centre (CCDC 2,182,853–2,182,861) contains the supplementary crystallographic data for the D4 crystal at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K."
+        },
+        {
+          "ccdc": "2182861",
+          "temperatura": {
+            "valore": 270,
+            "unita": "K"
+          },
+          "fonte": "SCXRD",
+          "citazione": "The Cambridge Crystallographic Data Centre (CCDC 2,182,853–2,182,861) contains the supplementary crystallographic data for the D4 crystal at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K."
+        }
+      ],
+      "citazione": "The spacegroup and unit cell parameters in the high-temperature phase we studied at 270 K completely coincided with Steinfink’s observations (s.g. I41/a, a = b = 16.250(7) Å, c = 6.943(4) Å).",
+      "note": "Struttura ordinata (in contrasto con Steinfink che ipotizzava disordine): la molecola sta sull'asse 4-bar e l'unita' asimmetrica contiene un quarto di molecola (Si1, O1, C1, C2). Conformazione dell'anello a otto membri: boat-saddle (cradle). Z non dato. Sistema cristallino non scritto. I CCDC di questa fase sono attribuiti per ordine all'elenco delle T (240, 250, 270 K): non scritto esplicitamente. Steinfink scrive il gruppo come I41/n."
+    },
+    {
+      "id": "F2",
+      "composto": "C1",
+      "etichetta": "low-temperature phase",
+      "etichette_alternative": [
+        "LT phase",
+        "low-temperature phase of D4"
+      ],
+      "tipo": "anidro",
+      "tipo_presunto": true,
+      "gruppo_spaziale": "P42/n",
+      "ccdc": null,
+      "refcode": null,
+      "ccdc_dedotto": true,
+      "strutture": [
+        {
+          "ccdc": "2182853",
+          "temperatura": {
+            "valore": 100,
+            "unita": "K"
+          },
+          "fonte": "SCXRD",
+          "citazione": "The Cambridge Crystallographic Data Centre (CCDC 2,182,853–2,182,861) contains the supplementary crystallographic data for the D4 crystal at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K."
+        },
+        {
+          "ccdc": "2182854",
+          "temperatura": {
+            "valore": 150,
+            "unita": "K"
+          },
+          "fonte": "SCXRD",
+          "citazione": "The Cambridge Crystallographic Data Centre (CCDC 2,182,853–2,182,861) contains the supplementary crystallographic data for the D4 crystal at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K."
+        },
+        {
+          "ccdc": "2182855",
+          "temperatura": {
+            "valore": 200,
+            "unita": "K"
+          },
+          "fonte": "SCXRD",
+          "citazione": "The Cambridge Crystallographic Data Centre (CCDC 2,182,853–2,182,861) contains the supplementary crystallographic data for the D4 crystal at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K."
+        },
+        {
+          "ccdc": "2182856",
+          "temperatura": {
+            "valore": 210,
+            "unita": "K"
+          },
+          "fonte": "SCXRD",
+          "citazione": "The Cambridge Crystallographic Data Centre (CCDC 2,182,853–2,182,861) contains the supplementary crystallographic data for the D4 crystal at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K."
+        },
+        {
+          "ccdc": "2182857",
+          "temperatura": {
+            "valore": 221,
+            "unita": "K"
+          },
+          "fonte": "SCXRD",
+          "citazione": "The Cambridge Crystallographic Data Centre (CCDC 2,182,853–2,182,861) contains the supplementary crystallographic data for the D4 crystal at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K."
+        },
+        {
+          "ccdc": "2182858",
+          "temperatura": {
+            "valore": 230,
+            "unita": "K"
+          },
+          "fonte": "SCXRD",
+          "citazione": "The Cambridge Crystallographic Data Centre (CCDC 2,182,853–2,182,861) contains the supplementary crystallographic data for the D4 crystal at 100, 150, 200, 210, 221, 230, 240, 250, and 270 K."
+        }
+      ],
+      "citazione": "At 230 K and below, we found the diffraction pattern to be definitely indexing in the P42/n spacegroup.",
+      "note": "Stessa struttura descritta da Steinfink a −50 °C, qui con coordinate e parametri di spostamento piu' accurati (le lunghezze Si–C differiscono: 1.850(3)–1.855(3) Å contro 1.90–1.95 Å). Conformazione chair (C2h); il centro della molecola e' un centro di inversione. I CCDC di questa fase sono attribuiti per ordine all'elenco delle T (100–230 K): non scritto esplicitamente."
+    }
+  ],
+  "relazioni": [],
+  "eventi": [
+    {
+      "id": "E1",
+      "da": "F1",
+      "a": "F2",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "raffreddamento",
+      "condizioni": {
+        "temperatura": {
+          "min": 236,
+          "max": 238,
+          "unita": "K",
+          "tipo": "intervallo"
+        },
+        "velocita": {
+          "valore": 60,
+          "unita": "°C/h"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "SCXRD"
+        ],
+        "meccanismo": [
+          "displaciva"
+        ],
+        "cinetica": "transizione asincrona; le molecole si spostano di almeno 1.53 Å (lungo c)"
+      },
+      "campione": {
+        "tipo": "cristallo_singolo",
+        "crogiolo": "capillare",
+        "sigillato": true
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "eight-membered siloxane cycle (cyclosiloxane moiety)",
+          "ruolo": "torsione",
+          "con": "stessa_molecola",
+          "cambia": "ruota",
+          "citazione": "Indeed, the conformation of the eight-membered siloxane cycle in the high-temperature phase of D4 can be described as a boat-saddle, while that in the low-temperature phase presented as a chair conformation."
+        }
+      ],
+      "reversibile": true,
+      "inverso_di": "E3",
+      "citazioni": [
+        "According to data obtained, the phase transition occurs at 236–238 K on cooling and 240–242 K on heating of crystal samples of D4.",
+        "The most accurate structural data were obtained for a crystal grown at a temperature of about 270 K and cooled at a rate of 60 °C/h.",
+        "As a result of phase transition, I-centering disappeared, and the fourfold position of the D4 molecule transformed into the center of inversion (Figure 3).",
+        "According to Landau’s theory of phase transition types [29], D4 has a shift-type phase transition."
+      ],
+      "certezza": "alta",
+      "fonte_dati": "propria",
+      "natura": "fisica",
+      "note": "SCXRD con raffreddamento a gradini: cella e gruppo HT (I41/a) fino a 240 K, LT (P42/n) a 230 K; «the picture of diffraction changed drastically at temperatures near 237–238 K», con piu' riflessi e diffrattogramma simile a quello di un policristallo; la transizione e' osservata fra 230 e 238 K. Il 236–238 K e' detto per i campioni in generale; la velocita' di 60 °C/h e' quella del cristallo con i dati migliori (velocita' provate: 60, 30, 20 e 15 °C/h). Meccanismo displaciva: l'articolo dice «shift-type phase transition» (Landau) e spostamento delle molecole di almeno 1.53 Å."
+    },
+    {
+      "id": "E2",
+      "da": "F1",
+      "a": "ignota",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "raffreddamento",
+      "condizioni": {
+        "velocita": {
+          "max": 60,
+          "limite": "sotto",
+          "unita": "°C/h"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "SCXRD"
+        ],
+        "integrita": "degradato"
+      },
+      "campione": {
+        "tipo": "cristallo_singolo",
+        "crogiolo": "capillare",
+        "sigillato": true
+      },
+      "citazioni": [
+        "Surprisingly, at a cooling rate slower than 60 °C/h during the phase transition, the crystal is partially or completely destroyed. In this case, the diffraction pattern changes and becomes similar to the diffraction of a powder or even an amorphous body."
+      ],
+      "certezza": "media",
+      "fonte_dati": "propria",
+      "natura": "fisica",
+      "note": "Velocita' di raffreddamento piu' lente di 60 °C/h (provate 30, 20 e 15 °C/h): durante la transizione il cristallo viene distrutto del tutto o in parte e il diffrattogramma diventa simile a polvere o a un corpo amorfo. Il prodotto non e' identificato: a ignota. Le conclusioni dicono che questo fenomeno «may be a consequence of the existence of a metastable phase»."
+    },
+    {
+      "id": "E3",
+      "da": "F2",
+      "a": "F1",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "min": 240,
+          "max": 242,
+          "unita": "K",
+          "tipo": "intervallo"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "SCXRD"
+        ],
+        "meccanismo": [
+          "displaciva"
+        ]
+      },
+      "campione": {
+        "tipo": "cristallo_singolo",
+        "crogiolo": "capillare",
+        "sigillato": true
+      },
+      "gruppi_coinvolti": [
+        {
+          "gruppo": "eight-membered siloxane cycle (cyclosiloxane moiety)",
+          "ruolo": "torsione",
+          "con": "stessa_molecola",
+          "cambia": "ruota",
+          "citazione": "Indeed, the conformation of the eight-membered siloxane cycle in the high-temperature phase of D4 can be described as a boat-saddle, while that in the low-temperature phase presented as a chair conformation."
+        }
+      ],
+      "reversibile": true,
+      "inverso_di": "E1",
+      "citazioni": [
+        "According to data obtained, the phase transition occurs at 236–238 K on cooling and 240–242 K on heating of crystal samples of D4."
+      ],
+      "certezza": "alta",
+      "fonte_dati": "propria",
+      "natura": "fisica",
+      "note": "Ritorno LT → HT in riscaldamento. Isteresi di soli 4 K nei cristalli singoli (236–238 contro 240–242 K), ma in DSC il ciclo di isteresi supera 40 °C."
+    },
+    {
+      "id": "E4",
+      "da": "F2",
+      "a": "F1",
+      "esito": "avvenuta",
+      "verso": "ignoto",
+      "via": "termica",
+      "sottovia": null,
+      "condizioni": {
+        "velocita": {
+          "valori": [
+            2,
+            3,
+            5,
+            7
+          ],
+          "unita": "°C/min"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC"
+        ],
+        "entalpia": {
+          "valore": 1.04,
+          "unita": "kcal/mol",
+          "tipo": "transizione"
+        },
+        "cinetica": "grande ciclo di isteresi (>40 °C), transizione asincrona lenta"
+      },
+      "citazioni": [
+        "The other one was performed with a pure sample (>99.5% purity, Figure 5b). In the second experiment, we only observed two phases and a huge hysteresis loop (>40 °C).",
+        "The average enthalpy of solid–solid phase transition, calculated from the results of the DSC study, was 1.04(7) kcal/mol",
+        "Temperature change rates were 2, 3, 5, and 7 °C/min."
+      ],
+      "certezza": "media",
+      "fonte_dati": "propria",
+      "natura": "fisica",
+      "note": "DSC su campione puro (>99.5%): solo due fasi e un ciclo di isteresi di oltre 40 °C. Il testo non da' le temperature dei picchi ne' il verso per questo campione: verso ignoto, da/a sono la coppia LT/HT senza ordine. Entalpia media 1.04(7) kcal/mol (abstract: −1.04(7) kcal/mol nell'intervallo 230–238 K). Le velocita' 2, 3, 5 e 7 °C/min sono quelle dei metodi DSC (intervallo −80–60 °C), non legate a una frase di questo risultato."
+    },
+    {
+      "id": "E5",
+      "da": "F2",
+      "a": "F1",
+      "esito": "avvenuta",
+      "verso": "ignoto",
+      "via": "termica",
+      "sottovia": null,
+      "condizioni": {
+        "temperatura": {
+          "min": 218,
+          "max": 258,
+          "unita": "K",
+          "tipo": "intervallo"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC"
+        ],
+        "cinetica": "picchi a 218–220 e 256–258 K: ciclo di isteresi di una transizione asincrona lenta"
+      },
+      "citazioni": [
+        "The first experiments were carried out with an impure sample (98% purity, Figure 5a). We observed three peaks of differential heat on DSC: at 218–220, 256–258, and 280 K (melting point).",
+        "Thus, the phase that occurred at a temperature interval from 218 to 258 K is no other than a strange hysteresis loop, which should be a result of a slow asynchronous phase transition."
+      ],
+      "certezza": "media",
+      "fonte_dati": "propria",
+      "natura": "fisica",
+      "note": "DSC su campione impuro (98%): tre picchi a 218–220, 256–258 e 280 K (fusione). Gli autori interpretano i due picchi bassi come un ciclo di isteresi della transizione lenta e asincrona, non come una fase in piu' («only two phases could be found» da raggi X). Direzione dei picchi non assegnata dal testo."
+    },
+    {
+      "id": "E6",
+      "da": "F1",
+      "a": "fuso",
+      "esito": "avvenuta",
+      "via": "termica",
+      "sottovia": "riscaldamento",
+      "condizioni": {
+        "temperatura": {
+          "valore": 280,
+          "unita": "K",
+          "tipo": "non_specificato"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "DSC"
+        ]
+      },
+      "citazioni": [
+        "The first experiments were carried out with an impure sample (98% purity, Figure 5a). We observed three peaks of differential heat on DSC: at 218–220, 256–258, and 280 K (melting point)."
+      ],
+      "certezza": "media",
+      "fonte_dati": "propria",
+      "natura": "fisica",
+      "note": "Picco di fusione a 280 K nel campione impuro (98%). La fase che fonde non e' detta: HT per deduzione (e' la fase stabile sopra la transizione), da_dedotto.",
+      "da_dedotto": true
+    },
+    {
+      "id": "E7",
+      "da": "F2",
+      "a": "F1",
+      "esito": "avvenuta",
+      "verso": "ignoto",
+      "via": "termica",
+      "sottovia": null,
+      "condizioni": {
+        "temperatura": {
+          "valore": -16.3,
+          "unita": "°C",
+          "tipo": "non_specificato"
+        },
+        "solventi": []
+      },
+      "osservazioni": {
+        "tecniche": [
+          "dielettrica"
+        ]
+      },
+      "da_dedotto": true,
+      "citazioni": [
+        "Indeed, in 1953, the dependence of the dielectric constant on temperature was studied by J. Hoffman [7], who found a phase transition at −16.3 °C."
+      ],
+      "certezza": "bassa",
+      "fonte_dati": "citata",
+      "riferimento": "J. Hoffman, 1953 [7]",
+      "natura": "fisica",
+      "note": "Transizione di fase riportata da Hoffman con misure della costante dielettrica in funzione di T. Il testo non dice fra quali forme ne' in che verso; la coppia LT/HT e' dedotta perche' gli autori confrontano la loro temperatura di transizione con quella stabilita in precedenza (257 K) e in Figura 7 citano «258.15 K» dalla letteratura."
+    }
+  ],
+  "preparazioni": [
+    {
+      "forme": [
+        "F1"
+      ],
+      "metodo": "dal_fuso",
+      "solventi": [],
+      "additivi": [
+        "NaCl"
+      ],
+      "esito": "ottenuta",
+      "temperatura": {
+        "valore": 270,
+        "unita": "K"
+      },
+      "citazioni": [
+        "To decrease the effect of overcooling and then bring crystallization closer to equilibrium, an external nucleation initiator (a tiny NaCl crystal) was added.",
+        "As a result, a single crystal suitable for X-ray diffraction was grown at 270 K.",
+        "Single crystals of D4 were grown in a sealed glass capillary (0.3 mm diameter) upon slow crystallization using nichrome wire as a heater. Crystallization was performed at 270 K."
+      ],
+      "fonte_dati": "propria",
+      "note": "Cristallizzazione in situ in capillare di vetro sigillato sul diffrattometro, con riscaldatore (filo di nichrome) che si muove lungo il capillare; D4 e' liquido a temperatura ambiente. La fase ottenuta a 270 K e' la HT (I41/a a 270 K). Senza il seme di NaCl si ottenevano sovraraffreddamento (fino a 40 °C), fase amorfa o campione policristallino."
+    },
+    {
+      "forme": [],
+      "metodo": "dal_fuso",
+      "solventi": [],
+      "esito": "non_ottenuta",
+      "citazioni": [
+        "Despite the preliminary drying of the D4, the first attempts of crystallization upon gradual cooling of a capillary were unsuccessful. Indeed, after using the zone melting procedure, D4 formed an amorphous phase or a polycrystalline sample consisting of numerous domains."
+      ],
+      "fonte_dati": "propria",
+      "note": "Senza agente nucleante: nessun monocristallo adatto alla diffrazione, ma una fase amorfa o un campione policristallino a molti domini. La forma cercata e' un monocristallo di D4 (la fase non e' detta)."
+    }
+  ],
+  "molecole": [
+    {
+      "composto": "C1",
+      "proprieta": [
+        {
+          "tipo": "altro",
+          "grandezza": {
+            "valore": 0.07,
+            "unita": "kcal/mol"
+          },
+          "metodo": "PBE0/6-311G(d,p), molecola isolata (barriera della variazione di conformazione boat-saddle/chair)",
+          "calcolato": true,
+          "citazione": "According to PBE0/6-311G(d,p) calculation of isolated D4, such conformation changes are characterized by a low barrier (0.07 kcal/mol)."
+        }
+      ],
+      "descrizioni": [
+        {
+          "tipo": "flessibilita",
+          "testo": "molecular flexibility of the eight-membered siloxane ring",
+          "citazione": "The octamethylcyclotetrasiloxane (D4, [Me2SiO]4, Scheme 1) attracted our interest due to its molecular flexibility"
+        },
+        {
+          "tipo": "conformeri",
+          "forma": "F1",
+          "testo": "boat-saddle (cradle) conformation of the cyclosiloxane ring in the high-temperature phase",
+          "citazione": "Indeed, the conformation of the eight-membered siloxane cycle in the high-temperature phase of D4 can be described as a boat-saddle, while that in the low-temperature phase presented as a chair conformation."
+        },
+        {
+          "tipo": "conformeri",
+          "forma": "F2",
+          "testo": "chair conformation (C2h symmetry) of the cyclosiloxane ring in the low-temperature phase",
+          "citazione": "Later, Shklover et al. showed that the structure of the high-temperature phase can be ordered, and the boat-saddle conformation (S4 symmetry) is the most possible for an octa-membered cyclosiloxane ring in contrast to the chair conformation (C2h symmetry) in the low-temperature phase [9]."
+        }
+      ]
+    }
+  ]
+}
