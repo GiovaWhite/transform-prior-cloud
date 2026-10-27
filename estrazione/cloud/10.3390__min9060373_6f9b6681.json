@@ -1,0 +1,196 @@
+{
+  "versione_schema": "v1.4",
+  "doi": "10.3390/min9060373",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "ccdc": null,
+  "note": "Pertinente nonostante il titolo parli di minerali: acido urico (uricite) e acido urico diidrato (tinnunculite) sono cristalli molecolari di una molecola organica (purina), con eventi sperimentali fra forme solide (disidratazione, perdita di cristallinita'). Non sono eventi: l'espansione e la contrazione termica anisotrope di UA e UAD a bassa temperatura nella stessa fase (tensori in Tabella 3, SCXRD da −173 a 60 °C), il disordine dell'acido urico su due orientazioni in UAD (0.59:0.41), la variazione di pendenza delle curve dei parametri di cella di UA «after 210 °C» con la fusione di due massimi di diffrazione a 220 °C (gli autori non parlano di una fase nuova: «it is likely that an overall structural motif remains the same up to 380 °C»), l'interazione epitassiale UA-UAD (rif. 16, 17) e lo studio cinetico della disidratazione di UAD in microscopia, DSC e TGA di un altro lavoro (rif. 19, nessun dato qui). Le celle e i CCDC per temperatura sono nella Tabella 1; il testo non riporta refcode del CSD. Il monoidrato dell'acido urico (Schubert et al., rif. 20) non e' mai stato trovato nei calcoli della collezione degli autori.",
+  "composti": [
+    {"id": "C1", "nome": "uric acid (UA)"}
+  ],
+  "forme": [
+    {"id": "F1", "composto": "C1", "etichetta": "UA", "etichette_alternative": ["uricite", "uric acid", "anhydrous uric acid"], "tipo": "anidro", "ospite": null,
+     "gruppo_spaziale": "P21/n", "sistema_cristallino": "monoclino",
+     "citazione": "UA (s.g. P21/n)",
+     "strutture": [
+       {"ccdc": "1916030", "fonte": "SCXRD", "temperatura": {"valore": -143, "unita": "°C", "tipo": "misura"}, "citazione": "−143 6.2352(5) 7.2756(6) 13.1328(11) 90.710(8) 595.72(8) 0.055 1916030"},
+       {"ccdc": "1916031", "fonte": "SCXRD", "temperatura": {"valore": -100, "unita": "°C", "tipo": "misura"}, "citazione": "−100 6.2288(4) 7.3113(5) 13.1274(8) 90.632(6) 597.79(7) 0.056 1916031"},
+       {"ccdc": "1916032", "fonte": "SCXRD", "temperatura": {"valore": -60, "unita": "°C", "tipo": "misura"}, "citazione": "−60 6.2182(4) 7.3530(5) 13.1232(8) 90.519(6) 600.00(7) 0.053 1916032"},
+       {"ccdc": "1916033", "fonte": "SCXRD", "temperatura": {"valore": -30, "unita": "°C", "tipo": "misura"}, "citazione": "−30 6.2110(4) 7.3857(5) 13.1213(8) 90.447(6) 601.89(7) 0.048 1916033"},
+       {"ccdc": "1916034", "fonte": "SCXRD", "temperatura": {"valore": 0, "unita": "°C", "tipo": "misura"}, "citazione": "0 6.2025(4) 7.4163(5) 13.1147(8) 90.378(6) 603.26(7) 0.046 1916034"},
+       {"ccdc": "1916035", "fonte": "SCXRD", "temperatura": {"valore": 30, "unita": "°C", "tipo": "misura"}, "citazione": "30 6.1963(3) 7.4512(4) 13.1114(7) 90.282(5) 605.34(5) 0.042 1916035"},
+       {"ccdc": "1916036", "fonte": "SCXRD", "temperatura": {"valore": 60, "unita": "°C", "tipo": "misura"}, "citazione": "60 6.1898(3) 7.4857(4) 13.1103(5) 90.217(4) 607.46(5) 0.037 1916036"}
+     ],
+     "note": "Uricite. Le righe della Tabella 1 sono rimescolate dal PDF: l'etichetta «UA (s.g. P21/n)» segue il suo blocco di sette righe (da −143 a 60 °C, c circa 13.1 Å); il blocco da −173 a 30 °C con c circa 17.5 Å e' UAD (il testo dice che c di UAD e' piu' lunga di ~4.4 Å). Sistema monoclino: «the orthogonalization of the monoclinic angle». Singoli cristalli e polvere estratti da calcoli renali.",
+     "motivi_hb": [
+       {"motivo": "flat chains via the N1···O1 and N3···O3 H-bonding system", "chi": "uric acid - uric acid",
+        "citazione": "Uric acid molecules are arranged in flat chains parallel the (210) plane and connected via H-bonding system N1···O1 and N3···O3 (Figure 3a)."},
+       {"motivo": "parallel-displaced π-stacking between the pyrimidine cycles (layers parallel to (001))", "chi": "pyrimidine cycles",
+        "citazione": "These chains are linked with the neighboring ones via parallel-displaced π-stacking forces (Figure 3b, Table 2) between the pyrimidine cycles to form layers parallel to the (001) plane."},
+       {"motivo": "interlayer H-bonding system N2···O3 and N4···O2", "chi": "uric acid - uric acid (direct, between layers)",
+        "citazione": "Layers are connected together via another H-bonding system N2···O3 and N4···O2."}
+     ]},
+    {"id": "F2", "composto": "C1", "etichetta": "UAD", "etichette_alternative": ["tinnunculite", "uric acid dihydrate", "tinnunculite (holotype)"], "tipo": "idrato",
+     "ospite": {"specie": "water", "stechiometria": 2},
+     "gruppo_spaziale": "P21/c",
+     "citazione": "UAD (s.g. P21/c)",
+     "strutture": [
+       {"ccdc": "1916037", "fonte": "SCXRD", "temperatura": {"valore": -173, "unita": "°C", "tipo": "misura"}, "citazione": "−173 7.2559(4) 6.3669(4) 17.4739(13) 90.036(6) 807.25(9) 0.048 1916037"},
+       {"ccdc": "1916038", "fonte": "SCXRD", "temperatura": {"valore": -130, "unita": "°C", "tipo": "misura"}, "citazione": "−130 7.2830(3) 6.3616(3) 17.4781(9) 90.020(4) 809.79(7) 0.047 1916038"},
+       {"ccdc": "1916039", "fonte": "SCXRD", "temperatura": {"valore": -90, "unita": "°C", "tipo": "misura"}, "citazione": "−90 7.3175(3) 6.3565(3) 17.4962(8) 90.010(4) 813.82(6) 0.047 1916039"},
+       {"ccdc": "1916040", "fonte": "SCXRD", "temperatura": {"valore": -50, "unita": "°C", "tipo": "misura"}, "citazione": "−50 7.3553(4) 6.3485(3) 17.5125(9) 90.005(5) 817.75(7) 0.050 1916040"},
+       {"ccdc": "1916041", "fonte": "SCXRD", "temperatura": {"valore": -10, "unita": "°C", "tipo": "misura"}, "citazione": "−10 7.3872(4) 6.3397(3) 17.5312(9) 90.004(5) 821.03(7) 0.048 1916041"},
+       {"ccdc": "1916042", "fonte": "SCXRD", "temperatura": {"valore": 30, "unita": "°C", "tipo": "misura"}, "citazione": "30 7.4283(8) 6.3266(5) 17.5627(16) 90.044(10) 825.37(13) 0.094 1916042"}
+     ],
+     "note": "Tinnunculite, C5H4N4O3·2H2O. Sei strutture da −173 a 30 °C (blocco di sei righe della Tabella 1 che precede l'etichetta «UAD (s.g. P21/c)»); a 30 °C R1 sale a 0.094 (il cristallo comincia a perdere cristallinita', vedi E3). La molecola di acido urico e' disordinata su due orientazioni con rapporto 0.59(1):0.41(1). Il campione di polvere per il PXRD contiene circa il 15% di UA.",
+     "motivi_hb": [
+       {"motivo": "chains via H-bonding, combined into layers via π-stacking", "chi": "uric acid - uric acid",
+        "citazione": "Uric acid molecules are linked in the similar chains that are arranged parallel to (210) and (210) planes, and the chains are combined into the layers via π-stacking forces."},
+       {"motivo": "layers separated by an interlayer of H2O molecules, linked only through H-bonding with H2O", "chi": "uric acid layers - water",
+        "citazione": "layers in the structure of UAD are separated by an additional interlayer of H2O molecules (Figure 3c). Such intrusion leads to the linkage of neighboring uric acid layers only through the H-bonding with H2O molecules"}
+     ]},
+    {"id": "F3", "composto": "C1", "etichetta": "uric acid monohydrate", "tipo": "idrato", "ospite": {"specie": "water", "stechiometria": 1},
+     "citazione": "Notably, Schubert et al. described a urolith with uric acid monohydrate [20]",
+     "note": "Forma della letteratura (rif. 20), mai trovata dagli autori nei calcoli; il testo ne cita solo lo spettro IR (Fig. 8b) e non da' struttura ne' refcode."}
+  ],
+  "relazioni": [
+    {"forme": ["F1", "F2"], "relazione": "non_dichiarata", "piu_stabile": "F1", "fonte_dati": "citata", "riferimento": "[6]", "certezza": "media",
+     "relazione_scritta": "metastable uric acid dihydrate that irreversibly dehydrates into anhydrous uric acid",
+     "condizioni": "formazione dei calcoli urinari: l'UAD cristallizza per prima dall'urina sovrasatura (regola di Ostwald) e poi si disidrata; alle temperature fisiologiche la disidratazione e' possibile",
+     "citazione": "Recent studies [6] showed that the removal of supersaturation in uric acid in the urine in the initial stages of stone formation may occur due to the formation of metastable uric acid dihydrate, which serves as a nucleus for the subsequent growth of the stone during further formation stages; afterward, it irreversibly dehydrates into anhydrous uric acid.",
+     "note": "Il testo chiama l'UAD «metastable» e dice che si disidrata in modo irreversibile in UA: UA e' presa come la forma piu' stabile, ma una relazione termodinamica (mono/enantiotropia) non e' dichiarata e fra un idrato e il suo anidro dipende dall'attivita' dell'acqua."}
+  ],
+  "eventi": [
+    {"id": "E1", "da": "F2", "a": "F1", "esito": "avvenuta", "esito_dettaglio": "senza_intermedio", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 45, "min": 40, "unita": "°C", "tipo": "osservata"},
+       "velocita": {"valore": 2, "unita": "°C/min"},
+       "tempo": {"valore": 30, "unita": "min", "tipo": "attesa", "circa": true},
+       "atmosfera": "air",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["VT-PXRD"], "cinetica": "rapid release of H2O molecules"},
+     "campione": {"tipo": "polvere"},
+     "pretrattamento": "pezzi di calcolo renale macinati in un mortaio di agata; il campione di UAD contiene circa il 15% di UA",
+     "gruppi_coinvolti": [
+       {"gruppo": "H-bonding with H2O molecules", "ruolo": "coordina_ospite", "con": "ospite", "cambia": "si_rompe", "forma": "F2",
+        "citazione": "Such intrusion leads to the linkage of neighboring uric acid layers only through the H-bonding with H2O molecules"},
+       {"gruppo": "direct H-bonding systems between the layers of uric acid molecules", "ruolo": "sintone", "con": "altra_molecola", "cambia": "si_forma", "forma": "F1",
+        "citazione": "Total removal of H2O molecules from the structure of UAD results in the reduction of the interlayer space, and the recovery of the direct H-bonding systems between the layers of uric acid molecules."}
+     ],
+     "citazioni": [
+       "The crystal structure of tinnunculite is relatively stable up to 40 °C, whereas above this temperature, rapid release of H2O molecules occurs followed by the direct transition to uricite phase without intermediate hydration states.",
+       "The most significant visible changes occur at 45 °C, where the sample fully dehydrates and transforms to the UA phase",
+       "A Rigaku R-300 chamber using a Cu sample holder (20 × 12 × 2 mm3) was used to collect the data for UAD in air within 30–100 °C.",
+       "The temperature steps varied from 5 to 20 °C depending on the temperature range. The heating rate was 2 °C/min. The collection time at each temperature step was about 30 min."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Misura a gradini (passi da 5 a 20 °C, circa 30 min a ogni passo): 45 °C e' dove l'UAD e' vista completamente disidratata, 40 °C e' il limite fino a cui l'abstract la dice «relatively stable». Solo tre punti PXRD per l'UAD («only three points were obtained in PXRD experiments for UAD»). Il passaggio e' diretto, senza stati di idratazione intermedi (confermato dall'IR, E5). L'irreversibilita' e' in E6. Ogni punto e' in aria, con umidita' non detta."},
+    {"id": "E2", "da": "F2", "a": "F1", "esito": "non_avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"max": 40, "unita": "°C", "tipo": "intervallo", "limite": "sotto"},
+       "velocita": {"valore": 2, "unita": "°C/min"},
+       "atmosfera": "air",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["VT-PXRD"]},
+     "campione": {"tipo": "polvere"},
+     "citazioni": [
+       "The crystal structure of tinnunculite is relatively stable up to 40 °C, whereas above this temperature, rapid release of H2O molecules occurs followed by the direct transition to uricite phase without intermediate hydration states.",
+       "A Rigaku R-300 chamber using a Cu sample holder (20 × 12 × 2 mm3) was used to collect the data for UAD in air within 30–100 °C.",
+       "The temperature steps varied from 5 to 20 °C depending on the temperature range. The heating rate was 2 °C/min. The collection time at each temperature step was about 30 min."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "conflitto": "Altre prove danno disidratazione o perdita di cristallinita' a temperature piu' basse: singoli cristalli di UAD «start to lose crystallinity at 30 °C» (E3) e in atmosfera secca la disidratazione «may occur at even lower temperatures» (E4). Qui si riporta la soglia del PXRD in polvere («relatively stable up to 40 °C»).",
+     "note": "Negativo sotto la soglia della disidratazione di E1: «relatively stable» e non «stable». Il PXRD parte da 30 °C (intervallo 30–100 °C)."},
+    {"id": "E3", "da": "F2", "a": "ignota", "esito": "parziale", "via": "termica",
+     "condizioni": {
+       "temperatura": {"valore": 30, "unita": "°C", "tipo": "osservata"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["SCXRD"], "integrita": "degradato"},
+     "campione": {"tipo": "cristallo_singolo"},
+     "citazioni": [
+       "Single crystals of UAD start to lose crystallinity at 30 °C, which is seen from the significant degradation of the refinement parameters."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Il cristallo singolo di UAD, misurato a gradini da −173 a 30 °C (Tabella 1), comincia a perdere cristallinita' a 30 °C (R1 0.094, contro circa 0.048 alle temperature piu' basse). Il testo non dice che cosa si formi (non dice se si disidrata); a = ignota. Il verso (riscaldamento a gradini) si legge dall'ordine delle temperature della tabella, non e' scritto."},
+    {"id": "E4", "da": "F2", "a": "F1", "esito": "parziale", "esito_dettaglio": "senza_intermedio", "via": "desolvatazione", "sottovia": "aria",
+     "condizioni": {
+       "temperatura": {"valore": null, "unita": null, "tipo": "ambiente", "testo": "room temperature"},
+       "tempo": {"valore": 1, "unita": "year", "tipo": "trasformazione"},
+       "atmosfera": "dry air",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["IR"]},
+     "campione": {"tipo": "polvere"},
+     "citazioni": [
+       "Thus, almost complete dehydration of UAD powder sample in a dry room temperature conditions occurs during one year.",
+       "However, dehydration of UAD in a dry atmosphere may occur at even lower temperatures, and the dehydration speed also depends on the size of the crystals.",
+       "d: a product of incomplete UAD (holotype tinnunculite) dehydration in dry air at room temperature",
+       "which confirms direct transformation of UAD to UA without formation of an intermediate partly dehydrated phase"],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Disidratazione quasi completa in un anno in condizioni secche a temperatura ambiente («dry room temperature conditions»; la RH non e' data); la velocita' dipende dalla dimensione dei cristalli. Il prodotto dell'IR (Fig. 8d, tinnunculite olotipo parzialmente disidratata in aria secca a temperatura ambiente) e la frase dell'anno possono riguardare campioni diversi: sono riuniti perche' descrivono la stessa trasformazione nelle stesse condizioni. Prodotto: UA (la trasformazione e' diretta, senza fase parzialmente disidratata intermedia)."},
+    {"id": "E5", "da": "F2", "a": "F3", "esito": "non_avvenuta", "esito_dettaglio": "senza_intermedio", "via": "desolvatazione", "sottovia": "aria",
+     "condizioni": {
+       "temperatura": {"valore": null, "unita": null, "tipo": "ambiente", "testo": "room temperature"},
+       "atmosfera": "dry air",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["IR"]},
+     "campione": {"tipo": "polvere"},
+     "citazioni": [
+       "Strong characteristic bands of uric acid monohydrate (at 1475, 1323, and 1022 cm−1, Figure 8b) are not observed in the IR spectrum of partly dehydrated tinnunculite, which confirms direct transformation of UAD to UA without formation of an intermediate partly dehydrated phase.",
+       "d: a product of incomplete UAD (holotype tinnunculite) dehydration in dry air at room temperature"],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Negativo: nel prodotto di disidratazione incompleta dell'UAD non compaiono le bande dell'acido urico monoidrato (spettro di riferimento dal rif. 20): non c'e' il monoidrato come intermedio. «Intermediate partly dehydrated phase» e' letto come il monoidrato perche' e' la fase con cui l'IR e' confrontato."},
+    {"id": "E6", "da": "F1", "a": "F2", "esito": "non_avvenuta", "esito_dettaglio": "nessuna_irreversibile", "via": "termica", "sottovia": "raffreddamento",
+     "inverso_di": ["E1", "E4"],
+     "condizioni": {"solventi": []},
+     "osservazioni": {"tecniche": ["VT-PXRD"]},
+     "gruppi_coinvolti": [
+       {"gruppo": "direct H-bonding systems between the layers of uric acid molecules (rather strong H bonds)", "ruolo": "sintone", "con": "altra_molecola", "cambia": null, "forma": "F1",
+        "citazione": "Re-penetration of H2O molecules into the structure of UA seems impossible because it will result in the breaking of rather strong H bonds accompanied by the formation of significantly weaker H bonds with water molecules and the retraction of layers."}
+     ],
+     "citazioni": [
+       "The irreversibility of the observed phase transformations was verified by collecting PXRD data on cooling.",
+       "As a result, the reverse phase transition from UA to UAD cannot be realized."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Negativo del ritorno: la disidratazione UAD → UA e' irreversibile (verificata col PXRD in raffreddamento). La frase sul PXRD in raffreddamento vale per «the observed phase transformations» in generale; l'impossibilita' della reidratazione e' la spiegazione degli autori (i forti legami H diretti fra gli strati dovrebbero rompersi). Nessuna prova di reidratazione con acqua o umidita' e' descritta."},
+    {"id": "E7", "da": "F1", "a": "amorfo", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 380, "unita": "°C", "tipo": "osservata"},
+       "velocita": {"valore": 2, "unita": "°C/min"},
+       "atmosfera": "air",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["VT-PXRD"]},
+     "campione": {"tipo": "polvere"},
+     "citazioni": [
+       "The results of high-temperature PXRD experiments revealed that the structure of uricite is stable up to 380 °C, and then it loses crystallinity.",
+       "it is likely that an overall structural motif remains the same up to 380 °C, where the crystallinity of the phase is lost. The only diffraction peaks left within the pattern after 400 °C are attributed to the Pt sample holder.",
+       "A Rigaku SHT-1500 chamber was employed for experiments with UA in air within 25–440 °C; a Pt strip (20 × 12 × 2 mm3) was used as the heating element and sample holder.",
+       "The temperature steps varied from 5 to 20 °C depending on the temperature range. The heating rate was 2 °C/min."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Il testo dice solo che l'UA «loses crystallinity» a 380 °C (dopo 400 °C restano solo i picchi del portacampioni di Pt): a = amorfo e' la lettura letterale; se sia amorfizzazione o decomposizione non e' detto. Decomposizione o reazione non sono dichiarate."},
+    {"id": "E8", "da": "F1", "a": "ignota", "esito": "non_avvenuta", "esito_dettaglio": "nessuna_trasformazione", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"max": 380, "unita": "°C", "tipo": "intervallo", "limite": "sotto"},
+       "velocita": {"valore": 2, "unita": "°C/min"},
+       "atmosfera": "air",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["VT-PXRD"]},
+     "campione": {"tipo": "polvere"},
+     "citazioni": [
+       "The results of high-temperature PXRD experiments revealed that the structure of uricite is stable up to 380 °C, and then it loses crystallinity.",
+       "A Rigaku SHT-1500 chamber was employed for experiments with UA in air within 25–440 °C; a Pt strip (20 × 12 × 2 mm3) was used as the heating element and sample holder.",
+       "The temperature steps varied from 5 to 20 °C depending on the temperature range. The heating rate was 2 °C/min."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Negativo sotto la soglia di E7: la struttura dell'UA e' stabile fino a 380 °C. Il pattern resta quasi invariato fino a 220 °C, dove due massimi a 2θ = 32–33° si fondono; gli autori non lo leggono come cambio di forma («it is likely that an overall structural motif remains the same up to 380 °C»). Intervallo misurato 25–440 °C."}
+  ],
+  "preparazioni": [
+    {"forme": ["F1", "F2"], "metodo": "altro", "solventi": [], "esito": "ottenuta", "fonte_dati": "propria",
+     "citazioni": ["Single crystals and powder samples of UA and UAD (Figure 1) were extracted from the renal stones of our collection"],
+     "note": "Campioni naturali estratti da calcoli renali (non sintetizzati). Per il PXRD i pezzi di calcolo sono stati macinati in un mortaio di agata; il campione di UAD contiene circa il 15% di UA («an admixture of UA (about 15%) was found within the UAD sample»)."}
+  ],
+  "molecole": [
+    {"composto": "C1",
+     "descrizioni": [
+       {"tipo": "flessibilita", "testo": "flat heterocyclic aromatic purine molecule; aromatic rings are the most rigid units of the structures",
+        "citazione": "Uric acid is a flat heterocyclic aromatic compound that consists of six-membered pyrimidine and five-membered imidazole rings combined through a common C=C bond, thus forming a purine molecule, with each of non-shared C atoms making conjugate bonds with O atoms, and with all four N atoms being protonated (Figure 2a)."},
+       {"tipo": "altro", "testo": "in UAD the uric acid moiety is disordered over two superimposed orientations (0.59:0.41) by rotation around a statistical two-fold axis; no such disorder reported for UA", "forma": "F2",
+        "citazione": "Notably, the uric acid moiety in the structure of UAD is disordered over two superimposed orientations obtained by rotation around a statistical two-fold axis passing in the plane of the molecule and along the [001] direction (Figure 2b)."}
+     ]}
+  ]
+}
