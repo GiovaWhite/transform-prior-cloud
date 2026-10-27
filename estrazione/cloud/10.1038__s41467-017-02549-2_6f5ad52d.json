@@ -1,0 +1,186 @@
+{
+  "versione_schema": "v1.4",
+  "doi": "10.1038/s41467-017-02549-2",
+  "pertinente": true,
+  "motivo_non_pertinente": null,
+  "ccdc": null,
+  "note": "Azobenzene chirale trans-(S)-1: due polimorfi α (P212121) e β (P21) gia' riportati; i cristalli a lastra di β mostrano una transizione SCSC reversibile a γ (alta T) a circa 145 °C, usata per camminata «a bruco» (inchworm) e rotolamento dei cristalli per cicli di riscaldamento e raffreddamento. Il lavoro e' sulla locomozione, non sulla ricerca di forme: le sole forme coinvolte in eventi sono β e γ. La fase α e' citata (due polimorfi, rif. 15) ma non ha dati qui. Dati di locomozione (non eventi): camminata a 3.0 mm/h (silanizzato) e 2.2 mm/h (vetro non trattato), rotolamento fino a 16–17 mm/s; cristalli corti e spessi (rapporto spessore/lunghezza 0.006–0.027) non rotolano. Dati meccanici: modulo di Young di β 3.8 GPa, deformazione massima 0.48% (accorciamento) e sforzo 5.3 MPa. Variazioni di cella β→γ (125→160 °C): a −4.2%, b −0.30%, c +7.0%; nessun valore assoluto di cella nel testo. Disordine conformazionale: conformeri A (a −100 °C, senza disordine) e B; occupanze A:B 0.62:0.38 a 125 °C (β) e 0.44:0.56 a 160 °C (γ), dalla pedalata del gruppo azobenzene: stessa fase, non eventi. Il picco di transizione e' osservato anche dopo fusione e ricristallizzazione (Supplementary Fig. 1): nessun evento (non e' detto da quale forma si riparta). CCDC: «CCDC 1556537-1556541» per le cinque temperature di misura (−100, 20, 100, 125, 160 °C) elencate in ordine: attribuzione per ordine nelle forme (ccdc_dedotto).",
+  "composti": [
+    {"id": "C1", "nome": "N-[[4-p-dimethylaminophenylazo]benzoyl]-1-phenylethylamine (trans-(S)-1)", "smiles": null}
+  ],
+  "forme": [
+    {"id": "F1", "composto": "C1", "etichetta": "α phase", "etichette_alternative": ["α crystals"], "tipo": "anidro", "tipo_presunto": true,
+     "gruppo_spaziale": "P212121",
+     "ccdc": null, "refcode": null,
+     "citazione": "is crystallized to form two polymorphs—an α phase (space group: P212121) and a β phase (space group: P21)",
+     "note": "Polimorfo gia' riportato (rif. 15), senza dati in questo articolo e senza eventi."},
+    {"id": "F2", "composto": "C1", "etichetta": "β phase", "etichette_alternative": ["β crystals", "β form"], "tipo": "anidro", "tipo_presunto": true,
+     "gruppo_spaziale": "P21",
+     "ccdc": null, "refcode": null, "ccdc_dedotto": true,
+     "strutture": [
+       {"ccdc": "1556537", "temperatura": {"valore": -100, "unita": "°C"}, "fonte": "SCXRD",
+        "citazione": "X-ray crystallographic analyses of trans-(S)-1 crystal were successfully performed at −100, 20, 100, 125, and 160 °C"},
+       {"ccdc": "1556538", "temperatura": {"valore": 20, "unita": "°C"}, "fonte": "SCXRD",
+        "citazione": "X-ray crystallographic analyses of trans-(S)-1 crystal were successfully performed at −100, 20, 100, 125, and 160 °C"},
+       {"ccdc": "1556539", "temperatura": {"valore": 100, "unita": "°C"}, "fonte": "SCXRD",
+        "citazione": "X-ray crystallographic analyses of trans-(S)-1 crystal were successfully performed at −100, 20, 100, 125, and 160 °C"},
+       {"ccdc": "1556540", "temperatura": {"valore": 125, "unita": "°C"}, "fonte": "SCXRD",
+        "citazione": "X-ray crystallographic analyses of trans-(S)-1 crystal were successfully performed at −100, 20, 100, 125, and 160 °C"}
+     ],
+     "motivi_hb": [
+       {"motivo": "NH---O=C hydrogen bond chains", "chi": "tra i gruppi ammidici, lungo l'asse b (direzione longitudinale del cristallo)",
+        "citazione": "In the β-phase crystal, weak intermolecular NH---O=C hydrogen bond chains form between the amido groups, with distances of 2.603 and 2.728 Å for the A and B conformers, respectively, along the b axis, which is the longitudinal direction of the crystal (Fig. 3c, d, f)."}
+     ],
+     "citazione": "Crystal structures at all temperatures belonged to the same space group, P21.",
+     "note": "Strutture a −100, 20, 100 e 125 °C (β; gruppo P21 a tutte le T): i quattro CCDC sono attribuiti per ordine all'elenco delle temperature (non scritto esplicitamente). Nessuna cella assoluta nel testo. Il sistema cristallino non e' scritto."},
+    {"id": "F3", "composto": "C1", "etichetta": "γ phase", "etichette_alternative": ["γ crystal"], "tipo": "anidro", "tipo_presunto": true,
+     "gruppo_spaziale": "P21",
+     "ccdc": "1556541", "ccdc_dedotto": true, "refcode": null,
+     "strutture": [
+       {"ccdc": "1556541", "temperatura": {"valore": 160, "unita": "°C"}, "fonte": "SCXRD",
+        "citazione": "X-ray crystallographic analyses of trans-(S)-1 crystal were successfully performed at −100, 20, 100, 125, and 160 °C"}
+     ],
+     "motivi_hb": [
+       {"motivo": "NH---O=C hydrogen bond chains", "chi": "tra i gruppi ammidici, lungo l'asse b; distanze di legame leggermente piu' corte che in β",
+        "citazione": "The weak NH---O=C hydrogen bond chains (Fig. 3c, d, f and Supplementary Table 2) in the β and γ crystals should contribute to the spring-like behavior."}
+     ],
+     "citazione": "Here, the crystal structure above the transition temperature is referred to as the γ phase.",
+     "note": "Fase ad alta T (struttura a 160 °C), stesso gruppo spaziale P21 di β. CCDC attribuito per ordine (quinto dei cinque numeri 1556537-1556541, T = 160 °C)."}
+  ],
+  "relazioni": [],
+  "eventi": [
+    {"id": "E1", "da": "F2", "a": "F3", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"picco": 145.2, "unita": "°C", "tipo": "picco"},
+       "velocita": {"valore": 10, "unita": "°C/min"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "VT-PXRD"], "meccanismo": ["SCSC"],
+                      "entalpia": {"valore": 1.31, "unita": "kJ/mol", "tipo": "transizione"}},
+     "campione": {"massa": "ca. 3 mg"},
+     "reversibile": true, "inverso_di": "E2",
+     "citazioni": [
+       "Differential scanning calorimetry (DSC) measurements of β crystals of trans-(S)-1 were performed in the temperature range of 60–160 °C at a rate of 10 °C min−1 with heating and then cooling (Fig. 2a). On heating, the DSC curve showed an endothermic peak at 145.2 °C.",
+       "The enthalpies at these endothermic and exothermic peaks were small, 1.31 and −1.29 kJ mol−1, respectively.",
+       "Powder X-ray diffraction (XRD) profiles of β crystals of trans-(S)-1 changed between 140 and 150 °C on heating, and then returned to the initial pattern between 150 and 140 °C on cooling, showing that the reversible phase transition proceeded through a crystal-to-crystal process (Supplementary Fig. 2)."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "DSC: picco endotermico a 145.2 °C, 1.31 kJ/mol. VT-PXRD su polvere (passi di 10 °C fra 100 e 180 °C): il profilo cambia fra 140 e 150 °C. L'introduzione dice «reversible SCSC phase transition to a γ phase at 145 °C»."},
+    {"id": "E2", "da": "F3", "a": "F2", "esito": "avvenuta", "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "temperatura": {"picco": 143.0, "unita": "°C", "tipo": "picco"},
+       "velocita": {"valore": 10, "unita": "°C/min"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["DSC", "VT-PXRD"], "meccanismo": ["SCSC"],
+                      "entalpia": {"valore": -1.29, "unita": "kJ/mol", "tipo": "transizione"}},
+     "campione": {"massa": "ca. 3 mg"},
+     "reversibile": true, "inverso_di": "E1",
+     "citazioni": [
+       "Differential scanning calorimetry (DSC) measurements of β crystals of trans-(S)-1 were performed in the temperature range of 60–160 °C at a rate of 10 °C min−1 with heating and then cooling (Fig. 2a).",
+       "On subsequent cooling, the DSC curve had an exothermic peak at 143.0 °C, showing the small thermal hysteresis of 2.2 °C.",
+       "The enthalpies at these endothermic and exothermic peaks were small, 1.31 and −1.29 kJ mol−1, respectively.",
+       "Powder X-ray diffraction (XRD) profiles of β crystals of trans-(S)-1 changed between 140 and 150 °C on heating, and then returned to the initial pattern between 150 and 140 °C on cooling, showing that the reversible phase transition proceeded through a crystal-to-crystal process (Supplementary Fig. 2)."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Ritorno γ → β: picco esotermico a 143.0 °C, isteresi termica di 2.2 °C rispetto al picco di riscaldamento. Con il VT-PXRD il profilo iniziale ritorna fra 150 e 140 °C."},
+    {"id": "E3", "da": "F2", "a": "F3", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"valore": 160, "min": 125, "unita": "°C", "tipo": "osservata"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["SCXRD"], "meccanismo": ["SCSC"]},
+     "campione": {"tipo": "cristallo_singolo", "crogiolo": "capillare"},
+     "gruppi_coinvolti": [
+       {"gruppo": "NH---O=C hydrogen bond chains between the amido groups", "ruolo": "sintone", "con": "altra_molecola", "cambia": "resta",
+        "citazione": "After the transition to the γ phase, the phenyl ring of the conformer A becomes almost perpendicular to the b axis and parallel to the c axis, leading to a slight shortening of the hydrogen bond distances (2.596 and 2.664 Å) for conformers A and B (Fig. 3d)."},
+       {"gruppo": "phenyl ring of the side chain (conformer A)", "ruolo": "torsione", "con": "stessa_molecola", "cambia": "ruota",
+        "citazione": "The phenyl ring of the side chain in conformer A rotated by 25° (Fig. 2i, j)."},
+       {"gruppo": "dihedral angle between the azobenzene plane and the phenyl ring of the side chain", "ruolo": "torsione", "con": "stessa_molecola", "cambia": "ruota",
+        "citazione": "The dihedral angle between the azobenzene plane and the phenyl ring of the side chain, 81.03°, of conformer A at 125 °C decreased considerably, to 56.17° at 160 °C due to the phase transition (Fig. 2h and Supplementary Table 2)."},
+       {"gruppo": "phenyl ring of the side chain (conformer B)", "ruolo": "torsione", "con": "stessa_molecola", "cambia": "resta",
+        "citazione": "In contrast, the dihedral angles 87.93° (at 125 °C) and 82.88° (at 160 °C) of conformer B did not change significantly before and after the phase transition."},
+       {"gruppo": "azobenzene moiety", "ruolo": "torsione", "con": "stessa_molecola",
+        "citazione": "The disorder was caused by a pedal motion of the azobenzene moiety."}
+     ],
+     "citazioni": [
+       "X-ray crystallographic analyses of trans-(S)-1 crystal were successfully performed at −100, 20, 100, 125, and 160 °C, confirming the SCSC phase transition from the β to γ crystal (Fig. 2b–f and Supplementary Table 1).",
+       "The lattice constants changed discontinuously at 160 °C due to the phase transition to the γ phase.",
+       "The lengths of a and b axes shortened, by −4.2% and −0.30%, respectively, between 125 and 160 °C; that of the c axis elongated by +7.0% (Fig. 2b–d)."],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "SCXRD a gradini: β fino a 125 °C (ultima T senza cambio), γ a 160 °C. Assi a −4.2%, b −0.30%, c +7.0%. Conformeri A e B: occupanze 0.62:0.38 a 125 °C (β) e 0.44:0.56 a 160 °C (γ). Legami H NH---O=C fra i gruppi ammidici lungo b: 2.603 e 2.728 Å in β, 2.596 e 2.664 Å in γ (conformeri A e B). Il cambio conformazionale «allows the molecules to push away surrounding molecules along the c axis and to condense along the b axis». Il cristallo e' stato messo in capillare di vetro contro oscillazione e sublimazione."},
+    {"id": "E4", "da": "F2", "a": "F3", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"min": 120, "max": 160, "unita": "°C", "tipo": "intervallo"},
+       "velocita": {"valore": 20, "unita": "°C/min"},
+       "solventi": []},
+     "osservazioni": {"tecniche": ["microscopia"], "meccanismo": ["SCSC"], "integrita": "intatto",
+                      "direzione_fronte": "in riscaldamento parte dalla superficie inferiore del cristallo a lastra (a contatto con il vetro); in raffreddamento dalla superficie superiore",
+                      "cinetica": "forma del cristallo cambia con la transizione: lunghezza lungo b −0.56%, larghezza lungo c +4.5%, spessore lungo a −2.9%"},
+     "campione": {"tipo": "cristallo_singolo", "dimensione": "length 532 μm × width 133 μm × thickness 51.5 μm"},
+     "reversibile": true,
+     "citazioni": [
+       "When a piece of the plate-like β crystal (length 532 μm × width 133 μm × thickness 51.5 μm) was heated and then cooled on a conventional glass plate in the temperature range of 120–160 °C at a rate of 20 °C min−1 under a polarized optical microscope, the crystal shape changed with no fracture due to the SCSC phase transition (Fig. 3).",
+       "The crystal returned reversibly to the initial shape on subsequent cooling.",
+       "On heating, the phase transition, from β to the γ phase, begins from the lower surface of the plate-like β crystal, which contacts the glass plate"],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Cristallo a lastra su vetro in microscopio ottico polarizzato: il ritorno alla forma iniziale in raffreddamento ha le stesse condizioni, quindi un solo evento reversibile. Il cristallo si piega per il gradiente di T nello spessore («most probably»). Un cristallo piu' lungo e sottile (2100 × 50 × 25 μm3) ha mostrato flessione reversibile per oltre 200 cicli di riscaldamento e raffreddamento (Supplementary Fig. 4c)."},
+    {"id": "E5", "da": "F2", "a": "F3", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"min": 139, "max": 154, "unita": "°C", "tipo": "intervallo"},
+       "velocita": {"valore": 0.6, "unita": "°C/s"},
+       "tempo": {"min": 139, "max": 154, "unita": "°C", "tipo": "ciclo"},
+       "altro": "silanized glass; cooling at 1.0 °C/s; walking of a 8.5 mm long plate-like crystal with thickness gradient",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["microscopia"], "meccanismo": ["SCSC"],
+                      "cinetica": "il cristallo cammina verso destra come un bruco: 1.5 mm in 30 min (3.0 mm/h); corsa media 34 μm (0.4% della lunghezza)"},
+     "campione": {"tipo": "cristallo_singolo", "dimensione": "length 8.5 mm, width 200 μm, one end thickness 190 μm, and other end thickness 55 μm"},
+     "reversibile": true,
+     "citazioni": [
+       "When a long plate-like crystal (length 8.5 mm, width 200 μm, one end thickness 190 μm, and other end thickness 55 μm) with a thickness gradient in the longitudinal direction was repeatedly heated and cooled between 139 and 154 °C at speeds of 0.6 and 1.0 °C s−1, respectively, on a silanized glass, surprisingly, the crystal walked slowly to the right along the long axis (b axis), like an inchworm, with repeated slight bending and straightening (Fig. 4a and Supplementary Movie 5).",
+       "On heating, the crystal remained straight until the surface temperature of the glass plate reached 140 °C (0 s, 45 s, Fig. 4c, d). Then, the crystal bent gradually with fluctuation (45–98 s)"],
+     "certezza": "alta", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Cicli ripetuti di riscaldamento (0.6 °C/s) e raffreddamento (1.0 °C/s) fra 139 e 154 °C; l'osservazione e' la locomozione, che deriva dalla transizione β ⇄ γ (flessione per transizione dal lato inferiore, poi raddrizzamento a transizione completa). In osservazione con termografia IR (riscaldamento 0.2 e raffreddamento 0.4 °C/s fra 132 e 150 °C) il cristallo resta dritto finche' la superficie del vetro raggiunge 140 °C e poi si piega. «ciclo» in tempo con min e max in °C come da linee guida."},
+    {"id": "E6", "da": "F2", "a": "F3", "esito": "avvenuta", "via": "termica", "sottovia": "riscaldamento",
+     "condizioni": {
+       "temperatura": {"min": 137, "max": 142, "circa": true, "unita": "°C", "tipo": "intervallo"},
+       "velocita": {"valore": 1, "unita": "°C/s"},
+       "altro": "silanized glass; long, thin plate-like crystal with width gradient, heated from 134 to 147 °C",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["microscopia"], "meccanismo": ["SCSC"],
+                      "cinetica": "il cristallo rotola con ribaltamenti ripetuti: 3.7 mm in 0.8 s (4.6 mm/s)"},
+     "campione": {"tipo": "cristallo_singolo", "dimensione": "length 9.6 mm × left width 115 μm and right width 210 μm × thickness 70 μm"},
+     "reversibile": true, "inverso_di": "E7",
+     "citazioni": [
+       "When a long, thin plate-like crystal (length 9.6 mm × left width 115 μm and right width 210 μm × thickness 70 μm) with a width gradient was heated on a silanized glass from 134 to 147 °C (at 1 °C s−1), the crystal began to bend with fluctuation at ~137 °C. Then, the crystal rolled with repeating flip at 141 °C, and finally stopped at ~142 °C (Fig. 5a and Supplementary Movie 7)."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Un solo processo di riscaldamento: il cristallo si piega a circa 137 °C, rotola a 141 °C e si ferma a circa 142 °C. L'intervallo 137–142 °C e' quello della locomozione indotta dalla transizione β → γ, non una temperatura di transizione misurata."},
+    {"id": "E7", "da": "F3", "a": "F2", "esito": "avvenuta", "via": "termica", "sottovia": "raffreddamento",
+     "condizioni": {
+       "temperatura": {"valore": 140, "circa": true, "unita": "°C", "tipo": "osservata"},
+       "velocita": {"valore": 1, "unita": "°C/s"},
+       "altro": "silanized glass; same long, thin plate-like crystal with width gradient",
+       "solventi": []},
+     "osservazioni": {"tecniche": ["microscopia"], "meccanismo": ["SCSC"],
+                      "cinetica": "rotolamento rapido: 3.1 mm in 192 ms (16 mm/s) e 3.5 mm in 204 ms (17 mm/s)"},
+     "campione": {"tipo": "cristallo_singolo", "dimensione": "length 9.6 mm × left width 115 μm and right width 210 μm × thickness 70 μm"},
+     "reversibile": true, "inverso_di": "E6",
+     "citazioni": [
+       "In one process of cooling of the same crystal, similar rolling was observed as easily understood from the slow-motion video (Supplementary Movie 8) and the snapshots (Fig. 5b). First, large bending occurred at ~140 °C;",
+       "The slow-motion video (Supplementary Movie 9) taken from the slant upper side on cooling from 140 °C (at 1 °C s−1) showed visually and more clearly the fast rolling locomotion."],
+     "certezza": "media", "fonte_dati": "propria", "natura": "fisica",
+     "note": "Un solo processo di raffreddamento: grande flessione a circa 140 °C, poi rotolamento. La T e' quella della flessione indotta dalla transizione γ → β, non una temperatura di transizione misurata."}
+  ],
+  "preparazioni": [
+    {"forme": ["F2"], "metodo": "evaporazione", "solventi": ["methanol", "ethyl acetate"], "solventi_alternativi": true, "esito": "ottenuta",
+     "temperatura": {"tipo": "ambiente", "testo": "ambient temperature"},
+     "citazioni": ["Single crystals of the β form of trans-(S)-1 were recrystallized by slow evaporation from methanol or ethyl acetate at ambient temperature."],
+     "fonte_dati": "propria"}
+  ],
+  "molecole": [
+    {"composto": "C1",
+     "descrizioni": [
+       {"tipo": "chiralita", "testo": "S-enantiomer of a chiral azobenzene derivative, trans-(S)-1",
+        "citazione": "The S-enantiomer of chiral azobenzene, trans-(S)-1, was prepared according to a previously published procedure32, 33."},
+       {"tipo": "conformeri", "forma": "F2", "testo": "conformer A at −100 °C (no disorder) and conformer B; occupancy A:B 0.62:0.38 at 125 °C (β) and 0.44:0.56 at 160 °C (γ)",
+        "citazione": "Here, we define the molecular conformation at −100 °C as conformer A and the other conformation as conformer B."},
+       {"tipo": "flessibilita", "testo": "pedal motion of the azobenzene moiety; dihedral angle between the azobenzene plane and the phenyl ring of the side chain",
+        "citazione": "The disorder was caused by a pedal motion of the azobenzene moiety."}
+     ]}
+  ]
+}
