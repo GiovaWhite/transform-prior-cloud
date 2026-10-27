@@ -1,0 +1,1005 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1039/d3ra05713e",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Polimorfismo indotto dal solvente in due leganti N-donatori con nucleo bifenilico: 1 (4,4′-bis(pyridin-4-ylmethyl)-1,1′-biphenyl; fasi 1a e 1b) e 2 (4,4′-bis(1H-imidazol-1-ylmethyl)-1,1′-biphenyl; fasi 2a, 2b, 2c e il monoidrato 2H). Non sono eventi: i calcoli di energia reticolare (PIXEL) e le analisi di Hirshfeld; la stabilita termica dei composti con imidazolo, circa 30 °C superiore ai piridinici («much higher thermal stability of the imidazole based compounds (2) (ca. 30 °C) over the pyridine analogues (1)»), senza temperature. I numeri CCDC non sono riportati nel testo. Le tabelle 2–5 (contatti, energie) non sono estratte.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "4,4′-bis(pyridin-4-ylmethyl)-1,1′-biphenyl",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "4,4′-bis(1H-imidazol-1-ylmethyl)-1,1′-biphenyl",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "1a",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "cella": {
+    "a": 20.7777,
+    "b": 10.5881,
+    "c": 8.2502,
+    "alpha": 90,
+    "beta": 94.605,
+    "gamma": 90,
+    "V": 1809.16,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "citazione": "The isolated polymorphs 1a and 1b crystallise in monoclinic systems of the P21/c and P21 space groups, respectively.",
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 100,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "SCXRD",
+     "citazione": "Data collection was carried out at 100(2) K to minimize solvent loss, possible structural disorder and thermal motion effects."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "C–H⋯N interactions forming 3D supramolecular assemblies, supported by C–H⋯π forces",
+     "chi": "methylene/pyridine C–H (donors), pyridine N and benzene rings (acceptors)",
+     "citazione": "As could be expected, a large contribution is coming from C–H⋯N interactions leading to the formation of 3D supramolecular assemblies. These are further supported by C–H⋯π forces (Table 2), involving methylene groups and pyridine rings as donors and benzene rings as acceptors (1a), whereas for 1b either pyridine rings act as donors and pyridine rings as acceptors or benzene and pyridine rings as donors and benzene rings as acceptors."
+    },
+    {
+     "motivo": "weak π–π interactions between two adjacent pyridine rings",
+     "chi": "pyridine / pyridine",
+     "citazione": "Furthermore, weak intermolecular π–π interactions between two adjacent pyridine rings containing N24 (symmetry operator: 1 − x, 1 − y, −z) are present in 1a, with a centroid–centroid distance of 3.7092(6) Å."
+    }
+   ],
+   "note": "Fase metastabile, domina cristallizzando da THF. Cella della tabella 1 (formula C24H20N2, nessun solvente: anidro presunto)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "1b",
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "cella": {
+    "a": 5.768,
+    "b": 9.9821,
+    "c": 15.6039,
+    "alpha": 90,
+    "beta": 100.441,
+    "gamma": 90,
+    "V": 883.546,
+    "Z": 2,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "citazione": "The isolated polymorphs 1a and 1b crystallise in monoclinic systems of the P21/c and P21 space groups, respectively.",
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 100,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "SCXRD",
+     "citazione": "Data collection was carried out at 100(2) K to minimize solvent loss, possible structural disorder and thermal motion effects."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "C–H⋯N interactions forming 3D supramolecular assemblies, supported by C–H⋯π forces (stronger than in 1a); no π–π",
+     "chi": "pyridine/benzene C–H (donors), pyridine and benzene rings (acceptors)",
+     "citazione": "As could be expected, a large contribution is coming from C–H⋯N interactions leading to the formation of 3D supramolecular assemblies. These are further supported by C–H⋯π forces (Table 2), involving methylene groups and pyridine rings as donors and benzene rings as acceptors (1a), whereas for 1b either pyridine rings act as donors and pyridine rings as acceptors or benzene and pyridine rings as donors and benzene rings as acceptors."
+    }
+   ],
+   "note": "Fase piu stabile; predomina nei solidi da tutti i solventi tranne THF. Acentrica (P21, parametro di Flack −0.13(10) in tabella 1)."
+  },
+  {
+   "id": "F3",
+   "composto": "C2",
+   "etichetta": "2H",
+   "etichette_alternative": [
+    "monohydrate 2H"
+   ],
+   "tipo": "idrato",
+   "ospite": {
+    "specie": "water",
+    "stechiometria": 1
+   },
+   "sistema_cristallino": null,
+   "gruppo_spaziale": "P21/n",
+   "refcode": "COKCOV",
+   "cella": {
+    "a": 4.7126,
+    "b": 15.269,
+    "c": 24.148,
+    "alpha": 90,
+    "beta": 94.024,
+    "gamma": 90,
+    "V": 1733.33,
+    "Z": null,
+    "fonte": "SCXRD",
+    "condizioni": "293 K"
+   },
+   "citazione": "The crystal structure of 2 was reported and deposited at CSD earlier (refcode: COKCIP, 2a) as well as its corresponding mono-hydrated form (refcode: COKCOV, 2H).",
+   "strutture": [
+    {
+     "refcode": "COKCOV",
+     "ccdc": null,
+     "temperatura": {
+      "valore": 293,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "SCXRD",
+     "citazione": "Temperature/K | 100(2) | 100(2) | 293(2) | 293(2) | 100(2) | 100(2)"
+    }
+   ],
+   "note": "Struttura gia pubblicata (CSD); dati da tabella 1 a 293 K, MoKα; Z non riportato. Il testo non scrive il sistema cristallino di 2H."
+  },
+  {
+   "id": "F4",
+   "composto": "C2",
+   "etichetta": "2a",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "refcode": "COKCIP",
+   "cella": {
+    "a": 10.957,
+    "b": 9.964,
+    "c": 15.457,
+    "alpha": 90,
+    "beta": 94.43,
+    "gamma": 90,
+    "V": 1682.4,
+    "Z": null,
+    "fonte": "SCXRD",
+    "condizioni": "293 K"
+   },
+   "citazione": "2a and 2b crystallise in monoclinic systems of the P21/c and P21/n space groups respectively, whereas 2c crystallises in the space group Pbca of a higher symmetry orthorhombic system.",
+   "strutture": [
+    {
+     "refcode": "COKCIP",
+     "ccdc": null,
+     "temperatura": {
+      "valore": 293,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "SCXRD",
+     "citazione": "Temperature/K | 100(2) | 100(2) | 293(2) | 293(2) | 100(2) | 100(2)"
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "weak C–H⋯N hydrogen bonds forming 3D supramolecular assemblies, supported by C–H⋯π; no π–π",
+     "chi": null,
+     "citazione": "Like in 1, the molecular packing in 2a–2c involves weak C–H⋯N hydrogen bonds, leading to the formation of 3D supramolecular assemblies supported by C–H⋯π interactions (Table 4, Fig. S8†). π–π interactions are absent in this series."
+    }
+   ],
+   "note": "Struttura gia pubblicata (CSD); un anello imidazolico ha disordine posizionale N/C (50 : 50), che rende impossibile un confronto accurato con le altre fasi; dati a 293 K (MoKα), Z non riportato. Mai osservata nei solidi studiati."
+  },
+  {
+   "id": "F5",
+   "composto": "C2",
+   "etichetta": "2b",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/n",
+   "cella": {
+    "a": 5.6618,
+    "b": 14.6008,
+    "c": 19.1251,
+    "alpha": 90,
+    "beta": 90.651,
+    "gamma": 90,
+    "V": 1580.91,
+    "Z": 4,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "citazione": "2a and 2b crystallise in monoclinic systems of the P21/c and P21/n space groups respectively, whereas 2c crystallises in the space group Pbca of a higher symmetry orthorhombic system.",
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 100,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "SCXRD",
+     "citazione": "Data collection was carried out at 100(2) K to minimize solvent loss, possible structural disorder and thermal motion effects."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "weak C–H⋯N hydrogen bonds forming 3D supramolecular assemblies, supported by C–H⋯π; no π–π (largest H-bond contribution among 2a–2c)",
+     "chi": null,
+     "citazione": "Like in 1, the molecular packing in 2a–2c involves weak C–H⋯N hydrogen bonds, leading to the formation of 3D supramolecular assemblies supported by C–H⋯π interactions (Table 4, Fig. S8†). π–π interactions are absent in this series."
+    }
+   ],
+   "note": "Fase piu stabile di 2 (energia reticolare PIXEL −202.7 kJ/mol); predomina da DCM e THF."
+  },
+  {
+   "id": "F6",
+   "composto": "C2",
+   "etichetta": "2c",
+   "tipo": "anidro",
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "gruppo_spaziale": "Pbca",
+   "cella": {
+    "a": 18.288,
+    "b": 7.913,
+    "c": 22.3941,
+    "alpha": 90,
+    "beta": 90,
+    "gamma": 90,
+    "V": 3240.72,
+    "Z": 8,
+    "fonte": "SCXRD",
+    "condizioni": "100 K"
+   },
+   "citazione": "2a and 2b crystallise in monoclinic systems of the P21/c and P21/n space groups respectively, whereas 2c crystallises in the space group Pbca of a higher symmetry orthorhombic system.",
+   "strutture": [
+    {
+     "refcode": null,
+     "ccdc": null,
+     "temperatura": {
+      "valore": 100,
+      "unita": "K",
+      "tipo": null
+     },
+     "fonte": "SCXRD",
+     "citazione": "Data collection was carried out at 100(2) K to minimize solvent loss, possible structural disorder and thermal motion effects."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "weak C–H⋯N hydrogen bonds forming 3D supramolecular assemblies, supported by C–H⋯π; no π–π",
+     "chi": null,
+     "citazione": "Like in 1, the molecular packing in 2a–2c involves weak C–H⋯N hydrogen bonds, leading to the formation of 3D supramolecular assemblies supported by C–H⋯π interactions (Table 4, Fig. S8†). π–π interactions are absent in this series."
+    }
+   ],
+   "note": "Fase metastabile di 2, domina cristallizzando da EtOH (in miscela con 2H); cristalli di scarsa qualita."
+  },
+  {
+   "id": "F7",
+   "etichetta": "[solid grown from EtOH: 2c + 2H]",
+   "tipo": "miscela",
+   "forme_componenti": [
+    "F6",
+    "F3"
+   ],
+   "proporzioni": "2c ca. 74%, with 2H (2b absent)",
+   "ospite": null,
+   "citazione": "Interestingly, the powder pattern of crystalline material grown from EtOH allowed for isolation of another phase (2c, with a contribution of ca. 74%), which forms a mixture with 2H (2b was absent in this case).",
+   "note": "Miscela di partenza dei trattamenti termici di 2: il solido da EtOH contiene 2c (ca. 74%) e 2H; 2b assente."
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F2",
+   "citazione": "The crystal lattice energy calculations (Table 3) indicate a lower stability of form 1a, which is in good agreement with the lower Kitaigorodskii packing index (see KI indices in Table 1).",
+   "fonte_dati": "propria",
+   "certezza": "alta",
+   "condizioni": "energie reticolari PIXEL; sperimentalmente 1a → 1b irreversibile riscaldando",
+   "note": "Energia reticolare totale PIXEL: 1a −177.4, 1b −184.9 kJ mol−1 (calcolata). Indici di Kitaigorodskii 68.4 (1a) e 70.3 (1b). Anche l'abstract: le fasi metastabili si trasformano in una forma piu stabile riscaldando."
+  },
+  {
+   "forme": [
+    "F5",
+    "F6"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F5",
+   "citazione": "The crystal lattice energy calculation (Table 5) indicated the higher stability of form 2b over 2c, which is in good agreement with the higher Kitaigorodskii packing index of 2b (see KI indices in Table 1).",
+   "fonte_dati": "propria",
+   "certezza": "alta",
+   "condizioni": "energie reticolari PIXEL; sperimentalmente 2c → 2b irreversibile riscaldando o in aria",
+   "note": "Energia reticolare totale PIXEL: 2b −202.7, 2c −200.3 kJ mol−1 (calcolata). Indici di Kitaigorodskii 71.6 (2b) e 69.7 (2c)."
+  },
+  {
+   "forme": [
+    "F5",
+    "F4"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F5",
+   "citazione": "indicating the largest contribution of hydrogen bonds in the case of 2b which, as shown below, is the most energetically favoured phase.",
+   "fonte_dati": "propria",
+   "certezza": "media",
+   "condizioni": "energie reticolari PIXEL",
+   "note": "2a ha energia reticolare minore (media −172.5 kJ mol−1), ma gli autori avvertono che il risultato non e molto accurato: dati a T ambiente e disordine."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 100,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "°C min−1",
+     "tipo": null
+    },
+    "atmosfera": "dry nitrogen (100 ml min−1)",
+    "solventi": []
+   },
+   "citazioni": [
+    "To analyse the system further, thermal analyses (TG/DTA) of 1a and 1b were performed (Fig. S5 and S6†), which indicated a phase transition taking place in the case of 1a at ca. 100 °C.",
+    "All TGA experiments were performed at a heating rate of 2 °C min−1 under dry nitrogen with a flow rate of 100 ml min−1 covering the temperature range: 25–600 °C.",
+    "Upon heating, these phases transform into a more stable form, whereby the transformations were followed by PXRD studies (1, 2).",
+    "Moreover, we could also pinpoint solvents in which the metastable form was predominantly present, namely THF and EtOH, respectively, and follow the irreversible transformations of the isolated metastable forms to the stable arrangement upon heating."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": false,
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DTA"
+    ],
+    "meccanismo": []
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "C–H⋯N interactions",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "As could be expected, a large contribution is coming from C–H⋯N interactions leading to the formation of 3D supramolecular assemblies."
+    },
+    {
+     "gruppo": "C–H⋯π forces",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "These are further supported by C–H⋯π forces (Table 2), involving methylene groups and pyridine rings as donors and benzene rings as acceptors (1a), whereas for 1b either pyridine rings act as donors and pyridine rings as acceptors or benzene and pyridine rings as donors and benzene rings as acceptors."
+    },
+    {
+     "gruppo": "π–π interactions between two adjacent pyridine rings",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F1",
+     "citazione": "Furthermore, weak intermolecular π–π interactions between two adjacent pyridine rings containing N24 (symmetry operator: 1 − x, 1 − y, −z) are present in 1a, with a centroid–centroid distance of 3.7092(6) Å."
+    },
+    {
+     "gruppo": "dihedral angles between the planes of the pyridine rings",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": null,
+     "citazione": "The dihedral angles between the planes of the benzene rings are 34° and 35° for 1a and 1b, respectively, versus 57° and 20° between the planes of the pyridine rings."
+    }
+   ],
+   "note": "TG/DTA di 1a: transizione di fase a circa 100 °C. La velocita di 2 °C min−1 e quella dichiarata per gli esperimenti TGA nei metodi (la DTA e nello stesso strumento SDT): non e detto in modo esplicito per questa frase. Irreversibile (conclusioni: «irreversible transformations of the isolated metastable forms to the stable arrangement upon heating»). 1a e piu metastabile (energia reticolare PIXEL −177.4 contro −184.9 kJ/mol per 1b)."
+  },
+  {
+   "id": "E2",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 110,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 2,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "This was confirmed by a PXRD study, as heating a sample of 1a at 110 °C for 2 min revealed that this leads to irreversible conversion to 1b.",
+    "Upon heating, these phases transform into a more stable form, whereby the transformations were followed by PXRD studies (1, 2).",
+    "Moreover, we could also pinpoint solvents in which the metastable form was predominantly present, namely THF and EtOH, respectively, and follow the irreversible transformations of the isolated metastable forms to the stable arrangement upon heating."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": false,
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "C–H⋯N interactions",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "As could be expected, a large contribution is coming from C–H⋯N interactions leading to the formation of 3D supramolecular assemblies."
+    },
+    {
+     "gruppo": "C–H⋯π forces",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "These are further supported by C–H⋯π forces (Table 2), involving methylene groups and pyridine rings as donors and benzene rings as acceptors (1a), whereas for 1b either pyridine rings act as donors and pyridine rings as acceptors or benzene and pyridine rings as donors and benzene rings as acceptors."
+    },
+    {
+     "gruppo": "π–π interactions between two adjacent pyridine rings",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "si_rompe",
+     "forma": "F1",
+     "citazione": "Furthermore, weak intermolecular π–π interactions between two adjacent pyridine rings containing N24 (symmetry operator: 1 − x, 1 − y, −z) are present in 1a, with a centroid–centroid distance of 3.7092(6) Å."
+    },
+    {
+     "gruppo": "dihedral angles between the planes of the pyridine rings",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": null,
+     "citazione": "The dihedral angles between the planes of the benzene rings are 34° and 35° for 1a and 1b, respectively, versus 57° and 20° between the planes of the pyridine rings."
+    }
+   ],
+   "note": "Conferma PXRD della transizione 1a → 1b: riscaldando a 110 °C per 2 min la conversione e irreversibile. I diffrattogrammi sono raccolti a T ambiente («All data were acquired at ambient temperature»), quindi l'esperimento e ex situ. Evento a parte da E1 perche T e tecnica differiscono."
+  },
+  {
+   "id": "E3",
+   "da": "F7",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 140,
+     "unita": "°C",
+     "tipo": "non_specificato",
+     "circa": true
+    },
+    "velocita": {
+     "valore": 2,
+     "unita": "°C min−1",
+     "tipo": null
+    },
+    "atmosfera": "dry nitrogen (100 ml min−1)",
+    "solventi": []
+   },
+   "citazioni": [
+    "To analyse the system further, thermal analyses (TG/DTA) of the solids obtained from DCM and EtOH were performed. These indicated a phase transition taking place at ca. 140 °C in the case of solid grown from EtOH (Fig. S9†).",
+    "All TGA experiments were performed at a heating rate of 2 °C min−1 under dry nitrogen with a flow rate of 100 ml min−1 covering the temperature range: 25–600 °C.",
+    "A PXRD study revealed that after heating this sample at 150 °C for 3 min, the monohydrate is completely converted to 2b, whereas the 2c phase is only partially converted."
+   ],
+   "certezza": "bassa",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "osservazioni": {
+    "tecniche": [
+     "TGA",
+     "DTA"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "note": "TG/DTA del solido da EtOH (miscela 2c + 2H): «a phase transition taking place at ca. 140 °C». La DTA non identifica i prodotti; a = 2b e quello che il PXRD a 150 °C dello stesso campione trova (2H completamente convertito, 2c parzialmente: E4, E5). Il testo non dice quale processo (disidratazione di 2H, conversione di 2c, o entrambi) dia l'anomalia. La velocita di 2 °C min−1 e quella dei metodi TGA."
+  },
+  {
+   "id": "E4",
+   "da": "F3",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "desolvatazione",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 150,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "A PXRD study revealed that after heating this sample at 150 °C for 3 min, the monohydrate is completely converted to 2b, whereas the 2c phase is only partially converted.",
+    "Furthermore, not only the transformation of a metastable to a stable phase of different molecular packing was observed, but also the dehydration of monohydrate 2, transforming to the energetically favoured phase 2b of similar packing.",
+    "Interestingly, comparing the molecular packings formed by monohydrated 2H and 2b indicates the presence of the same main packing features, which could facilitate the dehydration/hydration process."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ],
+    "meccanismo": []
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "solido cresciuto da EtOH (miscela di 2c e 2H)",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "main packing features",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": "F3",
+     "citazione": "Interestingly, comparing the molecular packings formed by monohydrated 2H and 2b indicates the presence of the same main packing features, which could facilitate the dehydration/hydration process."
+    }
+   ],
+   "note": "Disidratazione del monoidrato 2H a 2b: «completely converted to 2b» dopo 3 min a 150 °C, nel campione cresciuto da EtOH. Gli imballaggi di 2H e 2b hanno le stesse caratteristiche principali (il testo: potrebbero facilitare il processo di disidratazione/idratazione). Perdita di massa non riportata."
+  },
+  {
+   "id": "E5",
+   "da": "F6",
+   "a": "F5",
+   "esito": "parziale",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 150,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": 3,
+     "unita": "min",
+     "tipo": "processo"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "A PXRD study revealed that after heating this sample at 150 °C for 3 min, the monohydrate is completely converted to 2b, whereas the 2c phase is only partially converted.",
+    "Moreover, we could also pinpoint solvents in which the metastable form was predominantly present, namely THF and EtOH, respectively, and follow the irreversible transformations of the isolated metastable forms to the stable arrangement upon heating."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": false,
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "solido cresciuto da EtOH (miscela di 2c e 2H)",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "imidazole ring orientation (torsion angles C7–C6–N1–C2 and C16–C19–N20–C21)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F6",
+     "citazione": "Another orientation of the imidazole ring is present in 2c which is facilitated by the flexibility of the molecule. The torsion angles C7–C6–N1–C2 and C16–C19–N20–C21, corresponding with the labelling in Fig. 4, are as follows: 89°/102°, 87°/−99°, 92°/−148° for 2a, 2b and 2c respectively."
+    },
+    {
+     "gruppo": "dihedral angle between the planes of the imidazole rings",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F6",
+     "citazione": "The dihedral angles between the planes of the benzene rings are 33°, 31°, 34° for 2a, 2b and 2c respectively, versus 10°, 11° and 61° between the corresponding planes of the imidazole rings."
+    },
+    {
+     "gruppo": "weak C–H⋯N hydrogen bonds",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "Like in 1, the molecular packing in 2a–2c involves weak C–H⋯N hydrogen bonds, leading to the formation of 3D supramolecular assemblies supported by C–H⋯π interactions (Table 4, Fig. S8†). π–π interactions are absent in this series."
+    }
+   ],
+   "note": "Dopo 3 min a 150 °C la fase 2c e solo parzialmente convertita in 2b (quota non quantificata)."
+  },
+  {
+   "id": "E6",
+   "da": "F6",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "isoterma",
+   "condizioni": {
+    "temperatura": {
+     "valore": 150,
+     "unita": "°C",
+     "tipo": "isoterma"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "processo",
+     "testo": "extended heating"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "A PXRD study revealed that after heating this sample at 150 °C for 3 min, the monohydrate is completely converted to 2b, whereas the 2c phase is only partially converted.",
+    "Upon extended heating at this temperature or after time (3 days in air), 2c is completely converted to 2b."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": false,
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "solido cresciuto da EtOH (miscela di 2c e 2H)",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "imidazole ring orientation (torsion angles C7–C6–N1–C2 and C16–C19–N20–C21)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F6",
+     "citazione": "Another orientation of the imidazole ring is present in 2c which is facilitated by the flexibility of the molecule. The torsion angles C7–C6–N1–C2 and C16–C19–N20–C21, corresponding with the labelling in Fig. 4, are as follows: 89°/102°, 87°/−99°, 92°/−148° for 2a, 2b and 2c respectively."
+    },
+    {
+     "gruppo": "dihedral angle between the planes of the imidazole rings",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F6",
+     "citazione": "The dihedral angles between the planes of the benzene rings are 33°, 31°, 34° for 2a, 2b and 2c respectively, versus 10°, 11° and 61° between the corresponding planes of the imidazole rings."
+    },
+    {
+     "gruppo": "weak C–H⋯N hydrogen bonds",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "Like in 1, the molecular packing in 2a–2c involves weak C–H⋯N hydrogen bonds, leading to the formation of 3D supramolecular assemblies supported by C–H⋯π interactions (Table 4, Fig. S8†). π–π interactions are absent in this series."
+    }
+   ],
+   "note": "«Upon extended heating at this temperature» (150 °C): 2c completamente convertita in 2b; durata non detta."
+  },
+  {
+   "id": "E7",
+   "da": "F6",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "altro",
+   "sottovia": "esposizione_ambiente",
+   "condizioni": {
+    "atmosfera": "air",
+    "tempo": {
+     "valore": 3,
+     "unita": "day",
+     "tipo": "conservazione"
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "Upon extended heating at this temperature or after time (3 days in air), 2c is completely converted to 2b.",
+    "Moreover, we could also pinpoint solvents in which the metastable form was predominantly present, namely THF and EtOH, respectively, and follow the irreversible transformations of the isolated metastable forms to the stable arrangement upon heating."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": false,
+   "osservazioni": {
+    "tecniche": [
+     "PXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "polvere"
+   },
+   "pretrattamento": "solido cresciuto da EtOH (miscela di 2c e 2H)",
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "imidazole ring orientation (torsion angles C7–C6–N1–C2 and C16–C19–N20–C21)",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F6",
+     "citazione": "Another orientation of the imidazole ring is present in 2c which is facilitated by the flexibility of the molecule. The torsion angles C7–C6–N1–C2 and C16–C19–N20–C21, corresponding with the labelling in Fig. 4, are as follows: 89°/102°, 87°/−99°, 92°/−148° for 2a, 2b and 2c respectively."
+    },
+    {
+     "gruppo": "dihedral angle between the planes of the imidazole rings",
+     "ruolo": "torsione",
+     "con": "stessa_molecola",
+     "cambia": "ruota",
+     "forma": "F6",
+     "citazione": "The dihedral angles between the planes of the benzene rings are 33°, 31°, 34° for 2a, 2b and 2c respectively, versus 10°, 11° and 61° between the corresponding planes of the imidazole rings."
+    },
+    {
+     "gruppo": "weak C–H⋯N hydrogen bonds",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "forma": null,
+     "citazione": "Like in 1, the molecular packing in 2a–2c involves weak C–H⋯N hydrogen bonds, leading to the formation of 3D supramolecular assemblies supported by C–H⋯π interactions (Table 4, Fig. S8†). π–π interactions are absent in this series."
+    }
+   ],
+   "note": "«after time (3 days in air), 2c is completely converted to 2b»: conversione spontanea a T ambiente non detta (nessuna T scritta). 2c e anidra: altro/esposizione_ambiente."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "THF"
+   ],
+   "citazioni": [
+    "The compounds 1 and 2 were recrystallized from a range of solvents of different geometry and polarity, such as acetone, acetonitrile, DCM, EtOH, MeOH and THF (10 mg of compound/10 ml of solvent). Vials covered with parafilm were left to undergo slow evaporation, which allowed us to obtain good quality crystals in all vials containing 1.",
+    "We isolated single-crystals from this solvent, collected SCXRD data, determined the crystal structure (1a) and generated its powder pattern, which corresponded very well with the experimentally determined trace (Fig. 1).",
+    "Moreover, the phase 1b shows its dominance in all studied solids, apart from the one obtained from THF, in which its contribution is negligible, at ca. 2%."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "rapporto_solido_solvente": "10 mg of compound/10 ml of solvent",
+   "note": "Evaporazione lenta in vials coperti da parafilm. Da THF la fase 1a domina e 1b e trascurabile (ca. 2%); aumentando la concentrazione la fase 1a non si forma (vedi sotto)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone",
+    "acetonitrile",
+    "DCM",
+    "EtOH",
+    "MeOH"
+   ],
+   "citazioni": [
+    "The compounds 1 and 2 were recrystallized from a range of solvents of different geometry and polarity, such as acetone, acetonitrile, DCM, EtOH, MeOH and THF (10 mg of compound/10 ml of solvent). Vials covered with parafilm were left to undergo slow evaporation, which allowed us to obtain good quality crystals in all vials containing 1.",
+    "Furthermore, a good quality single crystal was isolated from MeOH and the crystal structure was determined (1b).",
+    "Moreover, the phase 1b shows its dominance in all studied solids, apart from the one obtained from THF, in which its contribution is negligible, at ca. 2%."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi_alternativi": true,
+   "rapporto_solido_solvente": "10 mg of compound/10 ml of solvent",
+   "note": "1b e dominante in tutti i solidi studiati tranne quello da THF (il testo non elenca i solventi uno per uno: sono quelli dello screening meno THF); cristallo singolo da MeOH."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "THF"
+   ],
+   "citazioni": [
+    "Interestingly increasing the concentration of the solute in THF (15 or 20 mg/10 ml) leads to the formation of 1b exclusively."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "rapporto_solido_solvente": "15 or 20 mg/10 ml",
+   "note": "Aumentando la concentrazione in THF (15 o 20 mg/10 ml invece di 10 mg/10 ml) si forma esclusivamente 1b."
+  },
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "MeOH"
+   ],
+   "citazioni": [
+    "Powder Cell indicated the absence of 1a in the solid recrystallized from MeOH."
+   ],
+   "fonte_dati": "propria",
+   "esito": "non_ottenuta",
+   "note": "1a assente nel solido ricristallizzato da MeOH (PowderCell)."
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "DCM",
+    "THF"
+   ],
+   "citazioni": [
+    "The compounds 1 and 2 were recrystallized from a range of solvents of different geometry and polarity, such as acetone, acetonitrile, DCM, EtOH, MeOH and THF (10 mg of compound/10 ml of solvent). Vials covered with parafilm were left to undergo slow evaporation, which allowed us to obtain good quality crystals in all vials containing 1.",
+    "In DCM and THF, the form 2b was present exclusively, as shown by PXRD and by applying Powder Cell."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi_alternativi": true,
+   "rapporto_solido_solvente": "10 mg of compound/10 ml of solvent",
+   "note": "In DCM e THF la forma 2b e presente esclusivamente; cristalli singoli adatti da DCM."
+  },
+  {
+   "forme": [
+    "F5",
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "MeOH",
+    "acetone",
+    "acetonitrile"
+   ],
+   "citazioni": [
+    "The compounds 1 and 2 were recrystallized from a range of solvents of different geometry and polarity, such as acetone, acetonitrile, DCM, EtOH, MeOH and THF (10 mg of compound/10 ml of solvent). Vials covered with parafilm were left to undergo slow evaporation, which allowed us to obtain good quality crystals in all vials containing 1.",
+    "Solvents such as MeOH, acetone and acetonitrile led to the formation of mixtures of 2H and 2b with a contribution of more than 70% of the latter (the highest contribution of 2b was noticed in acetone, at 92%)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "solventi_alternativi": true,
+   "rapporto_solido_solvente": "10 mg of compound/10 ml of solvent",
+   "note": "Miscele di 2H e 2b con 2b maggioritaria (piu del 70%; 92% in acetone)."
+  },
+  {
+   "forme": [
+    "F6",
+    "F3"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "EtOH"
+   ],
+   "citazioni": [
+    "The compounds 1 and 2 were recrystallized from a range of solvents of different geometry and polarity, such as acetone, acetonitrile, DCM, EtOH, MeOH and THF (10 mg of compound/10 ml of solvent). Vials covered with parafilm were left to undergo slow evaporation, which allowed us to obtain good quality crystals in all vials containing 1.",
+    "Interestingly, the powder pattern of crystalline material grown from EtOH allowed for isolation of another phase (2c, with a contribution of ca. 74%), which forms a mixture with 2H (2b was absent in this case).",
+    "Though the crystals of 2c were of poor quality, we managed to select a crystal suitable for SCXRD measurements (Fig. 5).",
+    "In the case of 2, crystals suitable for SCXRD studies could only be grown from DCM, MeOH and EtOH (poor quality)."
+   ],
+   "fonte_dati": "propria",
+   "esito": "ottenuta",
+   "rapporto_solido_solvente": "10 mg of compound/10 ml of solvent",
+   "note": "Da EtOH: 2c (ca. 74%) in miscela con 2H, 2b assente; cristalli di 2c di scarsa qualita ma adatti allo SCXRD."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "acetone",
+    "acetonitrile",
+    "DCM",
+    "EtOH",
+    "MeOH",
+    "THF"
+   ],
+   "citazioni": [
+    "It also pointed out a lower stability of phase 2a, the presence of which was not observed in any of the studied solids, and which was previously isolated in solid form after silver salt complexation."
+   ],
+   "fonte_dati": "propria",
+   "esito": "non_ottenuta",
+   "solventi_alternativi": true,
+   "note": "La fase 2a non e stata osservata in nessuno dei solidi dello screening."
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "diffusione",
+   "solventi": [
+    "ethanol",
+    "chloroform"
+   ],
+   "citazioni": [
+    "The earlier reported crystal structures of 2 (monohydrate 2H and anhydrous form 2a) were isolated as unexpected products of the metal complexation reaction by applying slow diffusion of an ethanolic solution of AgBF4 into the ligand solution dissolved in chloroform or by slow diffusion of an aqueous solution of AgNO3 into a solution of ligand dissolved in acetone, respectively."
+   ],
+   "fonte_dati": "citata",
+   "esito": "ottenuta",
+   "solventi_alternativi": false,
+   "additivi": [
+    "AgBF4"
+   ],
+   "note": "Citata (rif. 17): 2H isolato come prodotto inatteso della complessazione metallica, per diffusione lenta di una soluzione etanolica di AgBF4 nella soluzione del legante in cloroformio."
+  },
+  {
+   "forme": [
+    "F4"
+   ],
+   "metodo": "diffusione",
+   "solventi": [
+    "water",
+    "acetone"
+   ],
+   "citazioni": [
+    "The earlier reported crystal structures of 2 (monohydrate 2H and anhydrous form 2a) were isolated as unexpected products of the metal complexation reaction by applying slow diffusion of an ethanolic solution of AgBF4 into the ligand solution dissolved in chloroform or by slow diffusion of an aqueous solution of AgNO3 into a solution of ligand dissolved in acetone, respectively."
+   ],
+   "fonte_dati": "citata",
+   "esito": "ottenuta",
+   "solventi_alternativi": false,
+   "additivi": [
+    "AgNO3"
+   ],
+   "note": "Citata (rif. 17): 2a isolato come prodotto inatteso della complessazione metallica, per diffusione lenta di una soluzione acquosa di AgNO3 nella soluzione del legante in acetone."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "anelli aromatici che ruotano liberamente; angoli diedri fra i piani dei benzeni 34° (1a) e 35° (1b), fra i piani delle piridine 57° e 20°",
+     "citazione": "The dihedral angles between the planes of the benzene rings are 34° and 35° for 1a and 1b, respectively, versus 57° and 20° between the planes of the pyridine rings."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "le molecole in 1a e 1b adottano conformazioni diverse",
+     "citazione": "The molecules in these two crystalline forms adopt different conformations as shown in Fig. 2."
+    }
+   ]
+  },
+  {
+   "composto": "C2",
+   "descrizioni": [
+    {
+     "tipo": "flessibilita",
+     "testo": "torsioni C7–C6–N1–C2 e C16–C19–N20–C21: 89°/102° (2a), 87°/−99° (2b), 92°/−148° (2c); la flessibilita della molecola facilita un altro orientamento dell'anello imidazolico in 2c",
+     "citazione": "Another orientation of the imidazole ring is present in 2c which is facilitated by the flexibility of the molecule. The torsion angles C7–C6–N1–C2 and C16–C19–N20–C21, corresponding with the labelling in Fig. 4, are as follows: 89°/102°, 87°/−99°, 92°/−148° for 2a, 2b and 2c respectively."
+    },
+    {
+     "tipo": "conformeri",
+     "testo": "angoli diedri fra i piani dei benzeni 33°, 31°, 34° e fra i piani degli imidazoli 10°, 11°, 61° per 2a, 2b, 2c",
+     "citazione": "The dihedral angles between the planes of the benzene rings are 33°, 31°, 34° for 2a, 2b and 2c respectively, versus 10°, 11° and 61° between the corresponding planes of the imidazole rings."
+    }
+   ]
+  }
+ ]
+}
