@@ -1,0 +1,349 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1039/c8ra10031d",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": null,
+ "note": "Ferroelettrico molecolare (perclorato di piridin-2-ilmetanammonio, composto 1): transizione reversibile fra fase a bassa T polare (LTP, P21) e fase ad alta T centrosimmetrica (HTP, P21/c) a Tc ≈ 264.8 K, di tipo ordine-disordine (disordine del perclorato). Le misure dielettriche, di polarizzazione spontanea (0.22 μC cm−2, campo coercitivo 1.1 kV cm−1 a 202 K), la legge di Curie–Weiss (Cpara 68 K, Cferro 250 K) e il confronto con altri ferroelettrici non sono eventi. Il testo dà ΔS = 8.28 J mol−1 K−1 e N = 2.71.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "pyridin-2-ylmethanamine",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "perchloric acid",
+   "nome_scritto": "perchlorate acid / perchloric acid",
+   "smiles": null
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "LTP",
+   "etichette_alternative": [
+    "low-temperature phase",
+    "compound 1 (173 K)"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21",
+   "ccdc": "1857987",
+   "protonazione": "both nitrogen atoms of pyridin-2-ylmethanaminium protonated",
+   "citazione": "Compound 1 transforms to a monoclinic crystal system with a polar space group P21 (point group: C2; symmetric operation elements: E, C2) at 173 K (CCDC number: 1857987).",
+   "motivi_hb": [
+    {
+     "motivo": "NH3+···ClO4− hydrogen bonds (two H atoms of –NH3 to two ClO4− anions)",
+     "chi": "–NH3 / ClO4−",
+     "citazione": "The two hydrogen atoms on the –NH3 attract two ClO4− anions to form hydrogen bonds, respectively."
+    }
+   ],
+   "note": "Fase polare ferroelettrica sotto Tc (struttura a 173 K); polarizzazione lungo l'asse b. Cella non riportata nel testo. Stechiometria 1:2 dalla formula H+yl-pyH+(ClO4−)2 (due ClO4− per catione) e dal rapporto 0.04 mol di acido perclorico su 0.02 mol di ammina."
+  },
+  {
+   "id": "F2",
+   "componenti": [
+    {
+     "composto": "C1",
+     "stechiometria": 1
+    },
+    {
+     "composto": "C2",
+     "stechiometria": 2
+    }
+   ],
+   "etichetta": "HTP",
+   "etichette_alternative": [
+    "high-temperature phase",
+    "compound 1 (293 K)"
+   ],
+   "tipo": "sale",
+   "ospite": null,
+   "sistema_cristallino": "monoclino",
+   "gruppo_spaziale": "P21/c",
+   "ccdc": "1857985",
+   "protonazione": "both nitrogen atoms of pyridin-2-ylmethanaminium protonated",
+   "citazione": "Compound 1 crystallizes in the monoclinic crystal system with a centrosymmetric space group P21/c (point group: C2h, symmetric operation elements: E, C2, σh, i) at 293 K (CCDC number: 1857985).",
+   "note": "Fase paraelettrica sopra Tc (struttura a 293 K): un quarto degli anioni ClO4− ha gli ossigeni disordinati. Cella non riportata nel testo."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 264.8,
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K min−1",
+     "tipo": null
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "citazioni": [
+    "The temperature-dependent DSC curve (Fig. 2) shows an endothermic peak around Tc = 264.8 K in the heating process and an exothermic peak around in the cooling process, which reveals a reversible phase transition.",
+    "Temperature dependence of DSC curve of the sample at a cooling/heating rate of 10 K min−1.",
+    "a new molecular ferroelectric pyridin-2-ylmethanaminium perchlorate was discovered, which undergoes a ferroelectric phase transition at around 264.8 K.",
+    "The entropy change (ΔS) at around Tc is 8.28 J mol−1 K−1.",
+    "manifesting that the phase transition at Tc is of an order–disorder type."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "SCXRD",
+     "Raman"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "ClO4− anions",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "There is no disorder of ClO4− anions in each cell, which indicates that the disorder is reduced from HTP to LTP."
+    },
+    {
+     "gruppo": "ClO4− anions",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "It is noteworthy that the oxygen atoms in ClO4− anions have multiple equilibrium positions in the HTP. A quarter of the ClO4− anions in each cell have disordered oxygen atoms."
+    },
+    {
+     "gruppo": "–NH3 (two hydrogen atoms)",
+     "ruolo": "donatore",
+     "con": "controione",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "The two hydrogen atoms on the –NH3 attract two ClO4− anions to form hydrogen bonds, respectively."
+    }
+   ],
+   "note": "Transizione ferroelettrica-paraelettrica LTP (P21, polare) → HTP (P21/c, centrosimmetrica) a Tc ≈ 264.8 K in riscaldamento (picco endotermico DSC, 10 K min−1). ΔS = 8.28 J mol−1 K−1, N = 2.71: transizione ordine-disordine, indotta dal disordine del perclorato. DSC su monocristalli in crogioli di alluminio, sotto azoto (tipo di crogiolo non detto). Anche la rottura di simmetria: «the essence of ferroelectric phase transition in compound 1 is symmetry breaking». Raman a 628 cm−1: la posizione del picco cambia a cavallo della transizione."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "relativo_a": "E1",
+     "delta": 18.6,
+     "circa": true
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K min−1",
+     "tipo": null
+    },
+    "atmosfera": "nitrogen",
+    "solventi": []
+   },
+   "citazioni": [
+    "The temperature-dependent DSC curve (Fig. 2) shows an endothermic peak around Tc = 264.8 K in the heating process and an exothermic peak around in the cooling process, which reveals a reversible phase transition.",
+    "The DSC curve shows a thermal hysteresis of about 18.6 K, which indicates a relaxation phase transition and a large thermal potential barrier.",
+    "Temperature dependence of DSC curve of the sample at a cooling/heating rate of 10 K min−1."
+   ],
+   "certezza": "media",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "SCXRD"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "ClO4− anions",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "There is no disorder of ClO4− anions in each cell, which indicates that the disorder is reduced from HTP to LTP."
+    },
+    {
+     "gruppo": "ClO4− anions",
+     "ruolo": null,
+     "con": "controione",
+     "cambia": "ruota",
+     "forma": "F2",
+     "citazione": "It is noteworthy that the oxygen atoms in ClO4− anions have multiple equilibrium positions in the HTP. A quarter of the ClO4− anions in each cell have disordered oxygen atoms."
+    },
+    {
+     "gruppo": "–NH3 (two hydrogen atoms)",
+     "ruolo": "donatore",
+     "con": "controione",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "The two hydrogen atoms on the –NH3 attract two ClO4− anions to form hydrogen bonds, respectively."
+    }
+   ],
+   "note": "Picco esotermico in raffreddamento: il numero del picco e perso nel testo («an exothermic peak around in the cooling process»). Il testo dà solo l'isteresi termica di circa 18.6 K rispetto al picco di riscaldamento (il testo non scrive il segno dello scarto; il valore e riportato come scritto)."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": "K",
+     "tipo": "picco",
+     "picco": 265.8
+    },
+    "solventi": []
+   },
+   "citazioni": [
+    "The dielectric constant (ε′) has a peak at the temperature of Tc = 265.8 K in the heating process.",
+    "Fig. 3a shows the dielectric behavior of compound 1 measured along b-axis in the heating process with frequency from 500 Hz to 1 MHz, demonstrating that the dielectric behaviour is frequency dependent."
+   ],
+   "certezza": "alta",
+   "natura": "fisica",
+   "fonte_dati": "propria",
+   "osservazioni": {
+    "tecniche": [
+     "dielettrica"
+    ],
+    "meccanismo": [
+     "ordine_disordine"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo",
+    "dimensione": "thin plates"
+   },
+   "note": "Stessa transizione di E1 vista con la costante dielettrica (picco di ε′ lungo l'asse b, in riscaldamento, frequenze da 500 Hz a 1 MHz); la T (265.8 K) differisce da quella DSC (264.8 K), quindi un evento a parte. Velocita di riscaldamento non detta."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "evaporazione",
+   "solventi": [
+    "methanol",
+    "water"
+   ],
+   "solventi_alternativi": false,
+   "esito": "ottenuta",
+   "temperatura": {
+    "valore": null,
+    "unita": null,
+    "tipo": "ambiente",
+    "testo": "room temperature"
+   },
+   "tempo": {
+    "valore": 2,
+    "unita": "week",
+    "tipo": "processo"
+   },
+   "rapporto_soluzione": "perchloric acid 0.04 mol : pyridin-2-ylmethanamine 0.02 mol",
+   "citazioni": [
+    "Concentrated perchloric acid (71 wt%, 5.66 g, 0.04 mol) was added dropwise to pyridin-2-ylmethanamine (99 wt%, 2.18 g, 0.02 mol) in methanol (50 mL).",
+    "A yellow block of compound was obtained after 2 weeks through the slow evaporation of aqueous solution at room temperature."
+   ],
+   "fonte_dati": "propria",
+   "note": "Fase attribuita a HTP perche la T ambiente e sopra Tc = 264.8 K e la struttura a 293 K e HTP (attribuzione non scritta dagli autori). Il testo dice «slow evaporation of aqueous solution» benche l'ammina sia sciolta in metanolo (50 mL)."
+  }
+ ],
+ "molecole": [
+  {
+   "composto": "C1",
+   "proprieta": [
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 0.22,
+      "unita": "μC cm−2",
+      "tipo": null
+     },
+     "forma": "F1",
+     "temperatura": {
+      "valore": 202,
+      "unita": "K",
+      "tipo": null
+     },
+     "metodo": "ciclo di isteresi P–E (50 Hz)",
+     "calcolato": false,
+     "citazione": "The spontaneous polarization (Ps) is 0.22 μC cm−2, and the coercive field (Ec) is 1.1 kV cm−1 as obtained from the ferroelectric hysteresis loop at 202 K."
+    },
+    {
+     "tipo": "altro",
+     "grandezza": {
+      "valore": 1.1,
+      "unita": "kV cm−1",
+      "tipo": null
+     },
+     "forma": "F1",
+     "temperatura": {
+      "valore": 202,
+      "unita": "K",
+      "tipo": null
+     },
+     "metodo": "ciclo di isteresi P–E (50 Hz): campo coercitivo",
+     "calcolato": false,
+     "citazione": "The spontaneous polarization (Ps) is 0.22 μC cm−2, and the coercive field (Ec) is 1.1 kV cm−1 as obtained from the ferroelectric hysteresis loop at 202 K."
+    }
+   ],
+   "descrizioni": [
+    {
+     "tipo": "altro",
+     "testo": "catione con entrambi gli azoti (piridina e ammina) protonati",
+     "citazione": "Both nitrogen atoms on pyridin-2-ylmethanaminium are protonated."
+    }
+   ]
+  }
+ ]
+}
