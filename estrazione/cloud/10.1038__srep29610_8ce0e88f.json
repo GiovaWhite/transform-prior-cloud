@@ -1,0 +1,978 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1038/srep29610",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "1415661–1415671",
+  "1415711–1415718",
+  "1415680–1415684"
+ ],
+ "note": "IMACET (N'-2-propylydene-4-hydroxybenzohydrazide), solido termosaliente (TS) di classe III, e due isotopologhi: IMACET-D2 (deuterato nei protoni acidi NH/OH) e IMACET-D6 (deuterato nei metili). Tre fasi ortorombiche per ciascuno (forme I, II, III): I -> II irreversibile in riscaldamento con effetto termosaliente (i cristalli esplodono e saltano), II -> III in raffreddamento senza effetto TS, III <-> II reversibile. Non sono eventi: l'espansione termica anomala della forma I (270 K -> 400-420 K, 10 K di passo, sotto la transizione) con αa = 225.9 × 10−6 K−1, αb = 238.8 × 10−6 K−1 e αc = −290.0 × 10−6 K−1 per IMACET (stessa tendenza per gli isotopologhi, D6 diversa da H6 e D2 nelle forme delle curve), che e' il tema del titolo ma e' una variazione di cella nella stessa fase; i coefficienti di espansione di altri solidi TS citati (acido L-piroglutammico β, composto organometallico di palladio) senza T di transizione; i calcoli DFT delle energie superficiali (Tabella 1: γ e area relativa delle facce delle forme I, II e III), la forma di Wulff-Gibbs e il modo di frammentazione del cristallo (si rompe perpendicolarmente all'asse a e talvolta a b; con cristalli incollati per la faccia (011)/(01) fessurazioni trasversali, per (100)/(00) esplodono in frammenti con propulsione verticale: stessa transizione I -> II, non evento nuovo). I CCDC 1415661–1415671, 1415711–1415718 e 1415680–1415684 sono dati come intervalli senza attribuzione alle singole forme (24 strutture a varie T e per i tre isotopologhi): restano a livello di articolo. Conflitto minore: il DSC e' descritto in metodi come riscaldamento 'to the corresponding phase transition temperature ... (300–430 K)', ma nei risultati il raffreddamento parte da 450 K.",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "N′-2-propylydene-4-hydroxybenzohydrazide (IMACET)",
+   "smiles": null
+  },
+  {
+   "id": "C2",
+   "nome": "IMACET-D2 (IMACET deuterated in the acidic NH/OH protons)",
+   "smiles": null,
+   "analogo_di": "C1"
+  },
+  {
+   "id": "C3",
+   "nome": "IMACET-D6 (IMACET deuterated in the methyl groups)",
+   "smiles": null,
+   "analogo_di": "C1"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "form I",
+   "etichette_alternative": [
+    "phase I",
+    "IMACET form I"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 298,
+      "unita": "K"
+     },
+     "citazione": "The transition of form I (298 K) to form II (373 K) is accompanied by strongly anisotropic deformation where two axes, a (+8.8%) and b (+12.3%) expand."
+    },
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 270,
+      "unita": "K"
+     },
+     "citazione": "Comparison of single crystal data at 270 K and 400 K showed that variation of coordination framework arises from the anisotropic change in hydrogen bonding."
+    },
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 400,
+      "unita": "K"
+     },
+     "citazione": "Comparison of single crystal data at 270 K and 400 K showed that variation of coordination framework arises from the anisotropic change in hydrogen bonding."
+    }
+   ],
+   "motivi_hb": [
+    {
+     "motivo": "N1—H1A···O2 amide N–H···carbonyl O hydrogen bond acting as a ‘hinge screw’ along the a axis",
+     "chi": "amide nitrogen and carbonyl oxygen",
+     "citazione": "the hydrogen bond between the amide nitrogen and carbonyl oxygen (N1—H1A···O2) acts like a “hinge screw”32 along the crystallographic a axis."
+    },
+    {
+     "motivo": "O1—H1···N2 hydrogen bond roughly parallel to the a axis",
+     "chi": "hydroxyl O–H and N2",
+     "citazione": "The distance of the O1—H1···N2 hydrogen bond (roughly parallel to the a axis) also increases with increasing temperature and accounts for the PTE along the a axis (Supplementary Figure 12)."
+    },
+    {
+     "motivo": "amide-like chains along the a axis (no hydrogen-bonded chains along b)",
+     "chi": "amide-like chains",
+     "citazione": "while the amide-like chains predominate along the a axis, there are no hydrogen-bonded chains along the b axis."
+    }
+   ],
+   "citazione": "It can be switched thermally between three orthorhombic phases (forms I, II and III) of which only the irreversible transition from form I to form II is accompanied by a TS effect17,18.",
+   "note": "Forma dei cristalli come sintetizzati. Espansione termica anomala di I (270 K -> 400–420 K): αa = 225.9 × 10−6 K−1, αb = 238.8 × 10−6 K−1, αc = −290.0 × 10−6 K−1 (la piu' grande espansione negativa osservata per un composto organico secondo l'articolo); cristalli di forma I: prismi allungati con facce (011), (01), (100), (00) ben sviluppate. Cella: a (+8.8 %), b (+12.3 %) si espandono e c (~−15 %) si contrae passando da I (298 K) a II (373 K)."
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "form II",
+   "etichette_alternative": [
+    "phase II",
+    "thermally generated form II"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "strutture": [
+    {
+     "fonte": "SCXRD",
+     "temperatura": {
+      "valore": 373,
+      "unita": "K"
+     },
+     "citazione": "The transition of form I (298 K) to form II (373 K) is accompanied by strongly anisotropic deformation where two axes, a (+8.8%) and b (+12.3%) expand."
+    }
+   ],
+   "citazione": "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III",
+   "note": "Corrispondenza uno-a-uno delle celle di I e II («The one-to-one correspondence of the unit cells of the forms I and II»); la transizione e' per l'articolo isosimmetrica ('Most of the TS phase transitions are isosymmetric'), ma questo e' detto in generale per le transizioni TS."
+  },
+  {
+   "id": "F3",
+   "composto": "C1",
+   "etichetta": "form III",
+   "etichette_alternative": [
+    "phase III"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "ortorombico",
+   "citazione": "It can be switched thermally between three orthorhombic phases (forms I, II and III) of which only the irreversible transition from form I to form II is accompanied by a TS effect17,18.",
+   "note": "Fase di bassa temperatura ottenuta raffreddando II. Variazione di superficie calcolata II -> III molto piu' pronunciata di I -> II (espansione su (001) e (010), contrazione su (011)); dato calcolato, non evento."
+  },
+  {
+   "id": "F4",
+   "composto": "C2",
+   "etichetta": "form I (IMACET-D2)",
+   "etichette_alternative": [
+    "form I of IMACET-D2"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "The deuterated crystals are also TS-active on heating (Supplementary Movies 6–10).",
+   "note": "Forma I dell'isotopologo deuterato nei protoni NH/OH. Il testo chiama le fasi degli isotopologhi con le stesse etichette I, II, III."
+  },
+  {
+   "id": "F5",
+   "composto": "C2",
+   "etichetta": "form II (IMACET-D2)",
+   "etichette_alternative": [
+    "form II of IMACET-D2"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III",
+   "note": "Fase ottenuta riscaldando la forma I dell'isotopologo."
+  },
+  {
+   "id": "F6",
+   "composto": "C2",
+   "etichetta": "form III (IMACET-D2)",
+   "etichette_alternative": [
+    "form III of IMACET-D2"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Unlike the irreversible transition I → II, in all deuterated variants the transition II ↔ III is reversible and can be repeated by heating-cooling cycles (Fig. 3).",
+   "note": "Fase di bassa temperatura dell'isotopologo D2."
+  },
+  {
+   "id": "F7",
+   "composto": "C3",
+   "etichetta": "form I (IMACET-D6)",
+   "etichette_alternative": [
+    "form I of IMACET-D6"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "The deuterated crystals are also TS-active on heating (Supplementary Movies 6–10).",
+   "note": "Forma I dell'isotopologo deuterato nei metili."
+  },
+  {
+   "id": "F8",
+   "composto": "C3",
+   "etichetta": "form II (IMACET-D6)",
+   "etichette_alternative": [
+    "form II of IMACET-D6"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III",
+   "note": "Fase ottenuta riscaldando la forma I dell'isotopologo."
+  },
+  {
+   "id": "F9",
+   "composto": "C3",
+   "etichetta": "form III (IMACET-D6)",
+   "etichette_alternative": [
+    "form III of IMACET-D6"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "citazione": "Unlike the irreversible transition I → II, in all deuterated variants the transition II ↔ III is reversible and can be repeated by heating-cooling cycles (Fig. 3).",
+   "note": "Fase di bassa temperatura dell'isotopologo D6."
+  }
+ ],
+ "relazioni": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 415.5,
+     "max": 422.7,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "dynamic helium atmosphere (flow rate 50 mL min−1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia",
+     "SCXRD"
+    ],
+    "meccanismo": [
+     "termosaliente"
+    ],
+    "integrita": "salta",
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "min": 415.5,
+       "max": 422.7,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ],
+    "cinetica": "effetto termosaliente: i cristalli esplodono e saltano dal vetrino; profilo a dente di sega in DSC; spostamenti da piccoli a lanci fino a un metro"
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "N1—H1A···O2 hydrogen bond (amide N to carbonyl O, ‘hinge screw’)",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "the hydrogen bond between the amide nitrogen and carbonyl oxygen (N1—H1A···O2) acts like a “hinge screw”32 along the crystallographic a axis."
+    },
+    {
+     "gruppo": "O1—H1···N2 hydrogen bond",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "The distance of the O1—H1···N2 hydrogen bond (roughly parallel to the a axis) also increases with increasing temperature and accounts for the PTE along the a axis (Supplementary Figure 12)."
+    },
+    {
+     "gruppo": "O1—H1···O2 hydrogen bond",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "forma": "F1",
+     "citazione": "On the contrary, increasing temperature brings about apparent contraction of the hydrogen bond O1—H1···O2 (Fig. 7g–i)."
+    }
+   ],
+   "citazioni": [
+    "As shown with the images in Fig. 2, on heating all crystals undergo irreversible phase transition from form I to form II. The transition I → II is accompanied by a strong TS effect whereby the crystals fiercely explode and hop off the stage (Supplementary Movies 1–5).",
+    "Deuteration at the methyl groups (IMACET-D6) increases (425–428 K) while deuteration of the NH/OH groups (IMACET-D2) decreases (406–408 K) the transition temperature relative to the protiated (non-deuterated) compound (415.5–422.7 K).",
+    "Crystals were taken on a Tzero aluminium pan and heated from room temperature (300 K) to the corresponding phase transition temperature at rate 10 K min−1 (300–430 K).",
+    "Differential Scanning Calorimetry (DSC) was carried out on TA DSC-Q2000 instrument in dynamic helium atmosphere (flow rate 50 mL min−1).",
+    "These events are accompanied by endothermic effects and a saw-tooth profile in the differential scanning calorimetry (DSC) measurements",
+    "The transition of form I (298 K) to form II (373 K) is accompanied by strongly anisotropic deformation where two axes, a (+8.8%) and b (+12.3%) expand.",
+    "As shown in Fig. 7a–c, however, axis c contracts (~−15%) on transitioning of form I to form II."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": false,
+   "inverso_di": "E4",
+   "frequenza": "sempre",
+   "note": "Transizione I -> II di IMACET non deuterato (protiato): 415.5–422.7 K in DSC su cristalli non macinati («as-synthesized, unground crystals»). Velocita' 10 K/min in DSC; al microscopio a piastra calda 5 K/min («Samples were heated or cooled ... at a constant heating rate of 5 K min−1»). I gruppi di legami H sono dalla comparazione dei dati di cristallo singolo a 270 K e 400 K della forma I, sotto la transizione, e sono il meccanismo che gli autori propongono per l'espansione anisotropa che precede la transizione («At a supramolecular level, these peculiarities are rooted in the thermal anisotropy of hydrogen bonding interactions»): la distanza del legame N1—H1A···O2 cresce con T (espansione lungo a), quella di O1—H1···N2 anche, mentre O1—H1···O2 si accorcia in modo apparente (contrazione di c, forse perche' il legame piu' forte O1—H1···N2 si allunga ruotando intorno a H1). Variazione della cella nella transizione: a +8.8 %, b +12.3 %, c ~ −15 %. Cristalli liberi: si spezzano perpendicolarmente all'asse a e talvolta a b."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F3",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 353,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "picco": 353,
+       "unita": "K"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "forma II generata termicamente da forma I, raffreddata da 450 K",
+   "da_evento": "E1",
+   "citazioni": [
+    "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III, which is accompanied by exothermic effect at 353, 354 and 349 K for IMACET, IMACET-D6 and IMACET-D2, respectively."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E3",
+   "frequenza": "sempre",
+   "note": "Transizione non termosaliente («non-TS transition»), esotermica a 353 K per IMACET. Velocita' di raffreddamento sopra 298 K non detta (il testo dice 5 K/min fra 298 e 173 K e 2 K/min fra 173 e 103 K). La T di 450 K e' quella di partenza del raffreddamento nei risultati; i metodi dicono che il DSC si riscalda fino a 430 K."
+  },
+  {
+   "id": "E3",
+   "da": "F3",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "It can be switched thermally between three orthorhombic phases (forms I, II and III) of which only the irreversible transition from form I to form II is accompanied by a TS effect17,18.",
+    "The anisotropic changes in the unit cell are reflected in “breathing” of the structure—reversible expansion and contraction of the crystal when it is thermally cycled over the reversible phase transition III ↔ II (Supplementary Movie 18)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "note": "Ritorno III -> II in riscaldamento: T non detta. Per IMACET non deuterato la reversibilita' e' dedotta dalle due frasi citate (la frase esplicita «in all deuterated variants the transition II ↔ III is reversible» e' per gli isotopologhi). Si veda la Figura 3 (DSC, due cicli)."
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessun_ritorno",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 450,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "testo": "cooling from 450 K"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III, which is accompanied by exothermic effect at 353, 354 and 349 K for IMACET, IMACET-D6 and IMACET-D2, respectively.",
+    "It can be switched thermally between three orthorhombic phases (forms I, II and III) of which only the irreversible transition from form I to form II is accompanied by a TS effect17,18."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E1",
+   "note": "Il mancato ritorno: la transizione I -> II e' «irreversible»; raffreddando, II da' III, non I. Negativo ricavato dalla parola 'irreversible' e da E2."
+  },
+  {
+   "id": "E5",
+   "da": "ignota",
+   "da_possibili": [
+    "F1",
+    "F3"
+   ],
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 103,
+     "unita": "K",
+     "tipo": "intervallo",
+     "testo": "below room temperature (down to 103 K)"
+    },
+    "velocita": {
+     "valore": null,
+     "testo": "5 K min−1 (298–173 K); 2 K min−1 (173–103 K)",
+     "tipo": "dispersione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "As shown with Supplementary Figure 6 and Supplementary Movies 11–13, no thermal effects could be detected below room temperature (down to 103 K).",
+    "The cooling rate was reduced to 5 K min−1 in the 298–173 K range and to 2 K min−1 in the 173–103 K range."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "note": "Frase generica nel paragrafo sui tre composti («all crystals»), con tre film supplementari (11–13): un evento per composto (E5, E10, E15), certezza bassa. La forma di partenza non e' detta (cristalli non riscaldati = forma I, oppure forma III ottenuta raffreddando II): da_possibili I e III."
+  },
+  {
+   "id": "E6",
+   "da": "F4",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 406,
+     "max": 408,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "dynamic helium atmosphere (flow rate 50 mL min−1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ],
+    "meccanismo": [
+     "termosaliente"
+    ],
+    "integrita": "salta",
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "min": 406,
+       "max": 408,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "deuterated N/O protons (NH/OH hydrogen bonding)",
+     "ruolo": "donatore",
+     "con": "altra_molecola",
+     "cambia": null,
+     "citazione": "however the effect is outweighed by strengthening of the hydrogen bonding"
+    }
+   ],
+   "citazioni": [
+    "The deuterated crystals are also TS-active on heating (Supplementary Movies 6–10).",
+    "Deuteration at the methyl groups (IMACET-D6) increases (425–428 K) while deuteration of the NH/OH groups (IMACET-D2) decreases (406–408 K) the transition temperature relative to the protiated (non-deuterated) compound (415.5–422.7 K).",
+    "Crystals were taken on a Tzero aluminium pan and heated from room temperature (300 K) to the corresponding phase transition temperature at rate 10 K min−1 (300–430 K).",
+    "As shown with the images in Fig. 2, on heating all crystals undergo irreversible phase transition from form I to form II.",
+    "Deuteration of the N/O protons (D2), on the other hand, brings about small increase in molecular mass, however the effect is outweighed by strengthening of the hydrogen bonding21,22,23,24."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": false,
+   "inverso_di": "E9",
+   "frequenza": "sempre",
+   "note": "IMACET-D2: la deuterazione dei protoni NH/OH abbassa la T di transizione (406–408 K contro 415.5–422.7 K del protiato) perche' per gli autori rafforza il legame a idrogeno. Il tempo di accumulo dello sforzo prima del salto cresce nell'ordine D2 < IMACET < D6 («the time required for stress accrual before the crystals hopped increases in the order IMACET-D2 < IMACET < IMACET-D6»)."
+  },
+  {
+   "id": "E7",
+   "da": "F5",
+   "a": "F6",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 349,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "picco": 349,
+       "unita": "K"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "forma II generata termicamente da forma I, raffreddata da 450 K",
+   "da_evento": "E6",
+   "citazioni": [
+    "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III, which is accompanied by exothermic effect at 353, 354 and 349 K for IMACET, IMACET-D6 and IMACET-D2, respectively."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E8",
+   "frequenza": "sempre",
+   "note": "IMACET-D2: esotermica a 349 K (l'ordine nella frase e' IMACET 353, D6 354, D2 349 K)."
+  },
+  {
+   "id": "E8",
+   "da": "F6",
+   "a": "F5",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Unlike the irreversible transition I → II, in all deuterated variants the transition II ↔ III is reversible and can be repeated by heating-cooling cycles (Fig. 3)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E7",
+   "note": "III -> II in riscaldamento per IMACET-D2: T non detta nel testo (Figura 3, due cicli consecutivi)."
+  },
+  {
+   "id": "E9",
+   "da": "F5",
+   "a": "F4",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessun_ritorno",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 450,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "testo": "cooling from 450 K"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III, which is accompanied by exothermic effect at 353, 354 and 349 K for IMACET, IMACET-D6 and IMACET-D2, respectively.",
+    "As shown with the images in Fig. 2, on heating all crystals undergo irreversible phase transition from form I to form II."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E6",
+   "note": "Il ritorno II -> I non avviene (transizione I -> II irreversibile per tutti i cristalli)."
+  },
+  {
+   "id": "E10",
+   "da": "ignota",
+   "da_possibili": [
+    "F4",
+    "F6"
+   ],
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 103,
+     "unita": "K",
+     "tipo": "intervallo",
+     "testo": "below room temperature (down to 103 K)"
+    },
+    "velocita": {
+     "valore": null,
+     "testo": "5 K min−1 (298–173 K); 2 K min−1 (173–103 K)",
+     "tipo": "dispersione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "As shown with Supplementary Figure 6 and Supplementary Movies 11–13, no thermal effects could be detected below room temperature (down to 103 K).",
+    "The cooling rate was reduced to 5 K min−1 in the 298–173 K range and to 2 K min−1 in the 173–103 K range."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "generalizzazione": true,
+   "note": "IMACET-D2: stessa frase generica di E5 (bassa certezza: la frase non nomina i composti). Forma di partenza non detta (I oppure III)."
+  },
+  {
+   "id": "E11",
+   "da": "F7",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 425,
+     "max": 428,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 10,
+     "unita": "K/min"
+    },
+    "atmosfera": "dynamic helium atmosphere (flow rate 50 mL min−1)",
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ],
+    "meccanismo": [
+     "termosaliente"
+    ],
+    "integrita": "salta",
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "min": 425,
+       "max": 428,
+       "unita": "K"
+      },
+      "segno": "endo"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "citazioni": [
+    "The deuterated crystals are also TS-active on heating (Supplementary Movies 6–10).",
+    "Deuteration at the methyl groups (IMACET-D6) increases (425–428 K) while deuteration of the NH/OH groups (IMACET-D2) decreases (406–408 K) the transition temperature relative to the protiated (non-deuterated) compound (415.5–422.7 K).",
+    "Crystals were taken on a Tzero aluminium pan and heated from room temperature (300 K) to the corresponding phase transition temperature at rate 10 K min−1 (300–430 K).",
+    "As shown with the images in Fig. 2, on heating all crystals undergo irreversible phase transition from form I to form II.",
+    "The retardation of the phase transition by deuteration in the methyl positions (D6) is related to increase in molecular mass."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": false,
+   "inverso_di": "E14",
+   "frequenza": "sempre",
+   "note": "IMACET-D6: la deuterazione dei metili alza la T di transizione (425–428 K) e per gli autori l'effetto e' dovuto all'aumento di massa molecolare («retardation of the phase transition ... related to increase in molecular mass»). Si noti che il limite superiore 428 K e' compatibile con il DSC fino a 430 K dei metodi."
+  },
+  {
+   "id": "E12",
+   "da": "F8",
+   "a": "F9",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 354,
+     "unita": "K",
+     "tipo": "non_specificato"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ],
+    "picchi_dsc": [
+     {
+      "grandezza": {
+       "valore": null,
+       "picco": 354,
+       "unita": "K"
+      },
+      "segno": "eso"
+     }
+    ]
+   },
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "forma II generata termicamente da forma I, raffreddata da 450 K",
+   "da_evento": "E11",
+   "citazioni": [
+    "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III, which is accompanied by exothermic effect at 353, 354 and 349 K for IMACET, IMACET-D6 and IMACET-D2, respectively."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E13",
+   "frequenza": "sempre",
+   "note": "IMACET-D6: esotermica a 354 K."
+  },
+  {
+   "id": "E13",
+   "da": "F9",
+   "a": "F8",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC"
+    ]
+   },
+   "citazioni": [
+    "Unlike the irreversible transition I → II, in all deuterated variants the transition II ↔ III is reversible and can be repeated by heating-cooling cycles (Fig. 3)."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "reversibile": true,
+   "inverso_di": "E12",
+   "note": "III -> II in riscaldamento per IMACET-D6: T non detta nel testo (Figura 3)."
+  },
+  {
+   "id": "E14",
+   "da": "F8",
+   "a": "F7",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessun_ritorno",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 450,
+     "unita": "K",
+     "tipo": "non_specificato",
+     "testo": "cooling from 450 K"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III, which is accompanied by exothermic effect at 353, 354 and 349 K for IMACET, IMACET-D6 and IMACET-D2, respectively.",
+    "As shown with the images in Fig. 2, on heating all crystals undergo irreversible phase transition from form I to form II."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "inverso_di": "E11",
+   "note": "Il ritorno II -> I non avviene (transizione I -> II irreversibile per tutti i cristalli)."
+  },
+  {
+   "id": "E15",
+   "da": "ignota",
+   "da_possibili": [
+    "F7",
+    "F9"
+   ],
+   "a": "ignota",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 103,
+     "unita": "K",
+     "tipo": "intervallo",
+     "testo": "below room temperature (down to 103 K)"
+    },
+    "velocita": {
+     "valore": null,
+     "testo": "5 K min−1 (298–173 K); 2 K min−1 (173–103 K)",
+     "tipo": "dispersione"
+    },
+    "solventi": []
+   },
+   "osservazioni": {
+    "tecniche": [
+     "DSC",
+     "microscopia"
+    ]
+   },
+   "citazioni": [
+    "As shown with Supplementary Figure 6 and Supplementary Movies 11–13, no thermal effects could be detected below room temperature (down to 103 K).",
+    "The cooling rate was reduced to 5 K min−1 in the 298–173 K range and to 2 K min−1 in the 173–103 K range."
+   ],
+   "certezza": "bassa",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "generalizzazione": true,
+   "note": "IMACET-D6: stessa frase generica di E5 (bassa certezza). Forma di partenza non detta (I oppure III)."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F4",
+    "F7"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "IMACET was synthesized following a published procedure18. The deuterated analogues (99% D) were prepared by using deuterated reactants and solvents (for details on the synthetic, crystallization and characterization procedures, see the Supplementary Methods)."
+   ],
+   "fonte_dati": "propria",
+   "solo_supplementare": true,
+   "note": "Cristalli come sintetizzati, forma I (si trasformano in II scaldando); i dettagli di sintesi e di cristallizzazione (ricristallizzazione per le abitudini cristalline, Figura S9) sono nel supplementare. Attribuzione alla forma I perche' i cristalli non scaldati sono quelli che danno I -> II (vedi E1, E6, E11)."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "As shown with the images in Fig. 2, on heating all crystals undergo irreversible phase transition from form I to form II."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E2",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III, which is accompanied by exothermic effect at 353, 354 and 349 K for IMACET, IMACET-D6 and IMACET-D2, respectively."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E6",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The deuterated crystals are also TS-active on heating (Supplementary Movies 6–10)."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E7",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III, which is accompanied by exothermic effect at 353, 354 and 349 K for IMACET, IMACET-D6 and IMACET-D2, respectively."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E11",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "The deuterated crystals are also TS-active on heating (Supplementary Movies 6–10)."
+   ],
+   "fonte_dati": "propria"
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E12",
+   "solventi": [],
+   "esito": "ottenuta",
+   "citazioni": [
+    "On cooling from 450 K all crystals of thermally generated form II undergo non-TS transition II → III, which is accompanied by exothermic effect at 353, 354 and 349 K for IMACET, IMACET-D6 and IMACET-D2, respectively."
+   ],
+   "fonte_dati": "propria"
+  }
+ ],
+ "molecole": []
+}

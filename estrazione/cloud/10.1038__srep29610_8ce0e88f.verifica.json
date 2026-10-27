@@ -1,0 +1,325 @@
+{
+ "file": "estrazione/cloud/10.1038__srep29610_8ce0e88f.json",
+ "doi": "10.1038/srep29610",
+ "schema": [],
+ "eventi": [
+  {
+   "id": "E1",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E2",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E3",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E4",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E5",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E6",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E7",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E8",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E9",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E10",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E11",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E12",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E13",
+   "via": "termica",
+   "esito": "avvenuta",
+   "citazioni": [
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E14",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "id": "E15",
+   "via": "termica",
+   "esito": "non_avvenuta",
+   "citazioni": [
+    "esatta",
+    "esatta"
+   ],
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F2",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F3",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F4",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F5",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F6",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F7",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F8",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  },
+  {
+   "id": "F9",
+   "problemi": [],
+   "citazione": "esatta",
+   "quota": 1.0
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1",
+    "F4",
+    "F7"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F3"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F5"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F6"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F8"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  },
+  {
+   "forme": [
+    "F9"
+   ],
+   "citazione": "esatta",
+   "quota": 1.0,
+   "problemi": [],
+   "avvisi": [],
+   "verdetto": "accettato"
+  }
+ ],
+ "molecole": [],
+ "relazioni": []
+}
