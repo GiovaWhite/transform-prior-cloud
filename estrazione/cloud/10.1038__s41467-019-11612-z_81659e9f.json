@@ -1,0 +1,589 @@
+{
+ "versione_schema": "v1.4",
+ "doi": "10.1038/s41467-019-11612-z",
+ "pertinente": true,
+ "motivo_non_pertinente": null,
+ "ccdc": [
+  "1854403",
+  "1854404"
+ ],
+ "note": "Acido tereftalico (TA), due polimorfi triclini: forma II (stabile) e forma I (metastabile a condizioni ambiente). Transizione del primo ordine, termosaliente, con isteresi termica di circa 33 K. Tema dell'articolo: la flessione plastica di cristalli di forma II avviene per transizione di fase parziale (lato concavo in forma I, lato convesso in forma II) e il riscaldamento oltre la transizione ripristina la forma retta (effetto memoria di forma). I due numeri CCDC (1854403 e 1854404) sono dei due punti misurati sul cristallo piegato (lato convesso e lato concavo) ma il testo non dice quale e' quale: restano a livello di articolo. Le celle e le Tabelle 1-4 stanno nel supplementare: il testo da' solo le distanze O...H e centroide-centroide (Fig. 1a e 3c). Non sono eventi: il danneggiamento meccanico che produce crepe o frammenti (cristalli di forma II pressati sulla faccia (001) che si spaccano in lastre rimaste unite, senza cambio di fase); i cicli ripetuti di flessione e raddrizzamento senza deterioramento; la nanoindentazione (modulo di Young 6.2 ± 0.7 GPa e durezza 0.33 ± 0.05 GPa per la forma II; 0.6 ± 0.2 GPa e 0.05 ± 0.03 GPa per la forma I). Il volume di cella delle due fasi nel cristallo piegato differisce solo dello 0.07%. Incoerenze del testo: (1) Metodi: «Bent crystals of form II were heated to 318 K», ma le figure 1d, 1e e 2 portano il riscaldamento a 359-360 K, oltre la transizione; (2) didascalia Fig. 1b: «which is transformed back to form I by cooling» (dovrebbe essere forma II); (3) i simboli di indici di faccia «(010) or (010)» hanno perso la barra nel PDF; (4) par. Mechanism: «the form I on the concave side is transformed back to form II» durante il riscaldamento, mentre la Fig. 5c parla di «transition to form I» e il testo dei risultati di «transition to form I»: si segue la lettura piu' diffusa (II -> I), l'altra e' in conflitto di E8; (5) la forma I e' detta metastabile dopo riscaldamento e raffreddamento (Fig. 1f), mentre altrove raffreddando a temperatura ambiente i cristalli di forma I tornano a forma II (E2, E9).",
+ "composti": [
+  {
+   "id": "C1",
+   "nome": "terephthalic acid (TA)"
+  }
+ ],
+ "forme": [
+  {
+   "id": "F1",
+   "composto": "C1",
+   "etichetta": "form II",
+   "etichette_alternative": [
+    "phase II"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P1",
+   "gruppo_spaziale_scritto": "P1",
+   "citazione": "We hypothesize that the retention of crystal integrity may be attributed to the identical crystal symmetry of the two phases (triclinic, space group P1)",
+   "note": "Forma stabile a condizioni ambiente. Il gruppo e' scritto «P1» per entrambe le fasi: nel PDF la barra di P-1 potrebbe essersi persa, ma il testo non da' un appoggio (numero del gruppo, centrosimmetrico) per correggerlo; si scrive come e'. Distanze: O...H 1.681(2) Å, distanza minima fra centroidi dei fenili di tape adiacenti 4.973(1) Å. Nessuna cella nel testo (supplementare).",
+   "motivi_hb": [
+    {
+     "motivo": "infinite tapes of carboxylic acid dimers along [001]",
+     "chi": "carboxylic acid dimers",
+     "citazione": "In form II, the carboxylic acid dimers form infinite tapes along the crystallographic direction [001]."
+    },
+    {
+     "motivo": "infinite tapes of hydrogen-bonded acid molecules (O···H = 1.681 (2) Å)",
+     "chi": "acid molecules",
+     "citazione": "A common motif in the structures of the two forms of TA are infinite tapes of hydrogen-bonded acid molecules (O···H = 1.681 (2) Å in form II and O···H = 1.633(1) Å in form I; Fig. 3c)."
+    },
+    {
+     "motivo": "C–H···O interactions linking the tapes into sheets; sheets stacked through π–π interactions",
+     "chi": "tapes / sheets",
+     "citazione": "The tapes are linked into sheets by C–H···O interactions, and the sheets are stacked and interact with each other through π–π interactions (Supplementary Fig. 20)."
+    }
+   ]
+  },
+  {
+   "id": "F2",
+   "composto": "C1",
+   "etichetta": "form I",
+   "etichette_alternative": [
+    "phase I"
+   ],
+   "tipo": "anidro",
+   "tipo_presunto": true,
+   "ospite": null,
+   "sistema_cristallino": "triclino",
+   "gruppo_spaziale": "P1",
+   "gruppo_spaziale_scritto": "P1",
+   "citazione": "We hypothesize that the retention of crystal integrity may be attributed to the identical crystal symmetry of the two phases (triclinic, space group P1)",
+   "note": "Forma metastabile a condizioni ambiente, ottenuta riscaldando un cristallo di forma II. Distanze: O...H 1.633(1) Å, distanza minima fra centroidi dei fenili di tape adiacenti 3.665(1) Å. Come per F1, il gruppo «P1» e' quello scritto.",
+   "motivi_hb": [
+    {
+     "motivo": "infinite tapes of hydrogen-bonded acid molecules (O···H = 1.633(1) Å)",
+     "chi": "acid molecules",
+     "citazione": "A common motif in the structures of the two forms of TA are infinite tapes of hydrogen-bonded acid molecules (O···H = 1.681 (2) Å in form II and O···H = 1.633(1) Å in form I; Fig. 3c)."
+    },
+    {
+     "motivo": "C–H···O interactions linking the tapes into sheets; sheets stacked through π–π interactions",
+     "chi": "tapes / sheets",
+     "citazione": "The tapes are linked into sheets by C–H···O interactions, and the sheets are stacked and interact with each other through π–π interactions (Supplementary Fig. 20)."
+    }
+   ]
+  }
+ ],
+ "relazioni": [
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "relazione": "non_dichiarata",
+   "piu_stabile": "F1",
+   "condizioni": "at ambient conditions",
+   "citazione": "TA can be obtained as two polymorphs, one of which is stable (form II), while the other is metastable",
+   "fonte_dati": "citata",
+   "riferimento": "rimando 52 alla fine della frase («at ambient conditions52»)",
+   "note": "L'articolo non dice se la relazione sia mono- o enantiotropa. La transizione e' del primo ordine con isteresi di circa 33 K (E1, E2); la temperatura di transizione non e' data come numero nel testo."
+  }
+ ],
+ "eventi": [
+  {
+   "id": "E1",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E2",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "trasformazione",
+     "testo": "several seconds"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia",
+     "altro"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Crystals of both forms are exceptionally robust and can be converted into each other by heating or cooling without visible deterioration (Fig. 1b, Supplementary Fig. 1).",
+    "A single crystal of form II is transformed to form I by heating",
+    "The thermal profile of the phase transition confirms that it is of first order52 and occurs with a thermal hysteresis of about 33 K (Supplementary Fig. 2).",
+    "The transition occurs by rapid transformation of well-defined parallel domains, resulting in intermediate states where the crystal contains alternating sectors of both phases4.",
+    "These multidomain crystals typically persist for several seconds before the remaining domains are converted to the product phase and the crystal becomes a single phase.",
+    "The transition of unrestrained crystals is accompanied by sudden strong motion4 known as thermosalient effect12,16."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "infinite tapes of hydrogen-bonded acid molecules",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "A common motif in the structures of the two forms of TA are infinite tapes of hydrogen-bonded acid molecules"
+    },
+    {
+     "gruppo": "molecular layers",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "citazione": "Upon repeated thermal cycling of the crystal over the phase transition, the molecular layers slide back and forth without other significant structural rearrangements"
+    }
+   ],
+   "note": "Il testo non da' la temperatura di transizione come numero per i cristalli diritti (Fig. 1b senza T nella didascalia). Isteresi termica di circa 33 K fra riscaldamento e raffreddamento. Prove: cristalli singoli di forma II; effetto termosaliente nei cristalli non vincolati («sudden strong motion»), per questo la fonte sono anche i riferimenti 4 e 12,16 ma la Fig. 1b e' dell'articolo. Le tecniche non sono nominate per Fig. 1b (profilo termico e immagini): «altro» per il profilo termico. Stati intermedi multidominio per alcuni secondi, in entrambi i versi (Fig. 1b)."
+  },
+  {
+   "id": "E2",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E1",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia",
+     "altro"
+    ],
+    "ordine_transizione": "primo",
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Crystals of both forms are exceptionally robust and can be converted into each other by heating or cooling without visible deterioration (Fig. 1b, Supplementary Fig. 1).",
+    "which is transformed back to form I by cooling",
+    "The thermal profile of the phase transition confirms that it is of first order52 and occurs with a thermal hysteresis of about 33 K (Supplementary Fig. 2).",
+    "Note the coexistence of domains of both phases in the intermediate stages."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Ritorno del cristallo diritto per raffreddamento. La didascalia della Fig. 1b dice «transformed back to form I by cooling» (refuso: il ritorno e' a forma II, come nel resto del testo: «form I crystals that have been straightened by heating were transformed to form II»). Nessuna temperatura per il ritorno nel testo; l'isteresi di circa 33 K e' nel profilo termico (supplementare)."
+  },
+  {
+   "id": "E3",
+   "da": "F1",
+   "a": "F2",
+   "esito": "parziale",
+   "via": "meccanica",
+   "sottovia": "compressione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente"
+    },
+    "altro": "flessione a tre punti con pressione localizzata sulla faccia (010); deformazione critica 2.5 ± 0.2% (sotto non c'e' transizione); forza minima 92 ± 5 mN (media su otto cristalli)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD",
+     "microscopia"
+    ],
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Here we report that upon bending, terephthalic acid crystals can undergo a mechanically induced phase transition without delamination and their overall crystal integrity is retained.",
+    "Prismatic crystals of form II can be easily bent when localized external pressure is applied on their (010) or (010) faces in a three-point bending geometry, either manually or by using a tensile tester (Fig. 1c, Supplementary Fig. 6, Supplementary Movie 6).",
+    "However, while the unit cell parameters on the convex side were consistent to those of the original form II, the unit cell on the concave side was identical with that of form I.",
+    "This result presents evidence that the inner side of the crystal has undergone phase transition during bending as a result of application of local pressure, and that the two phases co-exist in the bent crystal.",
+    "The critical strain for bending, based on several crystal samples, was found to be 2.5 ± 0.2%; below this strain no phase transition occurs (Supplementary Fig. 22).",
+    "The minimal force required to induce the phase transition of form II to form I by bending of the crystal obtained from the force–displacement profile along with the critical strain and averaged over eight crystals was determined to be 92 ± 5 mN",
+    "A tensile tester, SEMTester DAQ-linear (model 8000-0014, MTI Instruments), was used for three-point bend tests at room temperature."
+   ],
+   "certezza": "alta",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "gruppi_coinvolti": [
+    {
+     "gruppo": "infinite tapes of hydrogen-bonded acid molecules",
+     "ruolo": "sintone",
+     "con": "altra_molecola",
+     "cambia": "resta",
+     "citazione": "A common motif in the structures of the two forms of TA are infinite tapes of hydrogen-bonded acid molecules"
+    },
+    {
+     "gruppo": "molecular tapes",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "cambia": "ruota",
+     "forma": "F1",
+     "citazione": "This causes sliding and rotation of the molecular tapes in form II to nearly 30° on the concave side, where they reform the sheets along the crystallographic c axis, and the concave part of the crystal is transformed to form I."
+    },
+    {
+     "gruppo": "π–π interactions",
+     "ruolo": "altro",
+     "con": "altra_molecola",
+     "citazione": "The tapes are linked into sheets by C–H···O interactions, and the sheets are stacked and interact with each other through π–π interactions (Supplementary Fig. 20)."
+    }
+   ],
+   "note": "Esito parziale: solo il lato interno (concavo) del cristallo piegato passa a forma I; il lato convesso resta forma II e le due fasi coesistono (XRD con microfascio sincrotrone su due punti, supplementare). La trasformazione e' indotta dalla pressione locale della flessione, a temperatura ambiente («three-point bend tests at room temperature»). Il testo dice che il meccanismo e' diverso dalla delaminazione: «this is a qualitatively different mechanism for plastic bending». Le due fasi hanno la stessa simmetria (triclina, P1) e un volume di cella che differisce solo dello 0.07%. La forza, la deformazione e le velocita' del tester sono in `altro` perche' lo schema non ha un campo per lo sforzo."
+  },
+  {
+   "id": "E4",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "via": "meccanica",
+   "sottovia": "compressione",
+   "condizioni": {
+    "altro": "pressione locale con un oggetto affilato e duro (pungere il cristallo)"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "Raman",
+     "altro"
+    ],
+    "integrita": "salta"
+   },
+   "citazioni": [
+    "In addition to heating and cooling, the transition can be triggered in both directions by application of local pressure, for instance, by pricking a crystal of the metastable form I obtained by heating and cooling of form II with a sharp, hard object4,52.",
+    "Determination of the unit cell parameters by in situ X-ray diffraction (XRD) and phase identification by Raman spectroscopy before and after the mechanically stimulated phase transition as well as of partially transformed crystals of form I confirmed that during this process they transition to the stable form II",
+    "An unrestrained crystal of form I obtained as a metastable form after heating and cooling a crystal of form II is contacted with a metal needle. The crystal springs off within 5 ms due to the strain that develops in its interior."
+   ],
+   "certezza": "media",
+   "fonte_dati": "incerta",
+   "riferimento": "rimandi 4 e 52 nella frase; la Fig. 1f e i dati XRD e Raman sono dell'articolo",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo di forma I ottenuto come forma metastabile dopo riscaldamento e raffreddamento di un cristallo di forma II",
+   "note": "Effetto mechanosalient: il cristallo di forma I non vincolato, toccato con un ago metallico, salta via entro 5 ms per la tensione interna (Fig. 1f). Il prodotto e' identificato con XRD in situ (parametri di cella) e Raman: forma II stabile; la tecnica XRD non e' precisata (cristallo singolo o polvere): «altro». Fonte `incerta`: la frase rimanda ai riferimenti 4 e 52 ma la Fig. 1f e le tabelle supplementari sono dell'articolo. Tensione: il cristallo di forma I qui e' metastabile a temperatura ambiente dopo riscaldamento e raffreddamento, mentre in E2 e E9 il raffreddamento riporta a forma II: il testo non spiega la differenza."
+  },
+  {
+   "id": "E5",
+   "da": "F1",
+   "a": "F2",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "meccanica",
+   "sottovia": "compressione",
+   "condizioni": {
+    "altro": "deformazione di flessione sotto la deformazione critica di 2.5 ± 0.2%"
+   },
+   "osservazioni": {
+    "tecniche": [
+     "altro"
+    ]
+   },
+   "citazioni": [
+    "The critical strain for bending, based on several crystal samples, was found to be 2.5 ± 0.2%; below this strain no phase transition occurs (Supplementary Fig. 22)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "note": "Negativo sotto la soglia: «below this strain no phase transition occurs». La soglia e' mediata su piu' campioni e il dato e' in Supplementary Fig. 22. La deformazione e' una leva non prevista dallo schema (campo `altro`). Il positivo e' E3."
+  },
+  {
+   "id": "E6",
+   "da": "F1",
+   "a": "F2",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "indefinitely"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "Unlike the short time intervals of coexistence of the two phases during the thermosalient transition (seconds) and mechanosalient transition (milliseconds), the two phases in the bent crystal appeared to be indefinitely stable at constant (ambient) temperature."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo di forma II piegato plasticamente: lato convesso in forma II, lato concavo in forma I",
+   "generalizzazione": false,
+   "note": "La frase vale per entrambe le fasi del cristallo piegato («the two phases ... appeared to be indefinitely stable»): un negativo per ciascuna (E6 per la forma II, E7 per la forma I). La coesistenza non e' una trasformazione, e' la sua assenza ai tempi lunghi."
+  },
+  {
+   "id": "E7",
+   "da": "F2",
+   "a": "F1",
+   "esito": "non_avvenuta",
+   "esito_dettaglio": "nessuna_trasformazione",
+   "via": "termica",
+   "sottovia": "conservazione",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "ambiente"
+    },
+    "tempo": {
+     "valore": null,
+     "unita": null,
+     "tipo": "conservazione",
+     "testo": "indefinitely"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "SCXRD"
+    ]
+   },
+   "citazioni": [
+    "Unlike the short time intervals of coexistence of the two phases during the thermosalient transition (seconds) and mechanosalient transition (milliseconds), the two phases in the bent crystal appeared to be indefinitely stable at constant (ambient) temperature."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo di forma II piegato plasticamente: lato convesso in forma II, lato concavo in forma I",
+   "note": "Vedi E6: stessa frase, la forma I del lato concavo non torna a forma II a temperatura ambiente."
+  },
+  {
+   "id": "E8",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E9",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "min": 300,
+     "max": 360,
+     "unita": "K",
+     "tipo": "intervallo"
+    },
+    "velocita": {
+     "valore": 8,
+     "unita": "K min-1"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "As shown in Fig. 1d and Supplementary Movie 7, when the plastically bent crystals of form II are taken over the phase transition to form I their straight shape is partially recovered, in a manner that resembles the shape-memory effect",
+    "A straight crystal of form II is mechanically bent, and then taken over the phase transition by heating from 300 to 360 K, whereby it recovers its straight shape.",
+    "Bent crystals of form II were heated to 318 K at a constant heating rate of 8 K min−1.",
+    "For instance, after the transition, mechanically bent crystal of form II with a curvature of 0.51 mm−1 typically straightens up to a curvature of 0.18 mm−1 (Supplementary Note 3)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo di forma II piegato plasticamente con flessione a tre punti (lato concavo in forma I)",
+   "conflitto": "Metodi: «heated to 318 K» a 8 K min−1; didascalia Fig. 1d: riscaldamento da 300 a 360 K, oltre la transizione. Si tiene l'intervallo della didascalia (piu' specifico) e la velocita' dei Metodi. Par. Mechanism: «the form I on the concave side is transformed back to form II, and the unit cells in the two portions of the crystal become identical», mentre il testo dei risultati e la Fig. 5c dicono che la transizione e' a forma I: si estrae II -> I.",
+   "note": "Effetto memoria di forma: il cristallo piegato, portato oltre la transizione, ritrova in parte la forma diritta (curvatura da 0.51 a 0.18 mm−1 in media; in alcuni casi recupero completo). Le due porzioni del bimorph diventano la stessa fase («phase uniformity can be recovered thermally»). Il recupero dipende dal grado di piegatura e dallo spessore. Il ciclo piegato-diritto si ripete piu' volte senza deterioramento."
+  },
+  {
+   "id": "E9",
+   "da": "F2",
+   "a": "F1",
+   "esito": "avvenuta",
+   "reversibile": true,
+   "inverso_di": "E8",
+   "via": "termica",
+   "sottovia": "raffreddamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 300,
+     "unita": "K",
+     "tipo": "non_specificato"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "HSM"
+    ],
+    "integrita": "intatto"
+   },
+   "citazioni": [
+    "Further, upon cooling to room temperature, form I crystals that have been straightened by heating were transformed to form II, and the initial bent shape of the crystals was recovered.",
+    "The same crystal is then cooled to 300 K and it recovers its bent shape."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo di forma II piegato, raddrizzato per riscaldamento (forma I)",
+   "note": "Ritorno dell'esperimento di memoria di forma (E8): raffreddando a 300 K il cristallo diritto di forma I passa a forma II e riprende la forma piegata iniziale. La Fig. 1d mostra il raffreddamento a 300 K, il testo dice «cooling to room temperature»."
+  },
+  {
+   "id": "E10",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": null,
+     "unita": null,
+     "tipo": "non_specificato"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia",
+     "altro"
+    ],
+    "integrita": "fratturato"
+   },
+   "citazioni": [
+    "When a crystal of form II is lightly and uniformly pressed with a flat object on its (001) face, it develops cracks or it fragments parallel to its (010) face, but the resulting slabs remain conjoined (Fig. 2, Supplementary Movie 15).",
+    "If the cracked crystal is taken over the phase transition by heating, each of the slabs is transformed to phase I, and they appear to slide back and partially restore a shape that resembles the original shape of the crystal.",
+    "Upon heating over the phase transition temperature, the fragments transition from form II to form I, and they tend to realign and restore the original shape of the crystal.",
+    "unit cell at different locations of the shape-restored crystals confirmed that they were completely transformed to form I (Supplementary Fig. 12, Supplementary Table 2)."
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo di forma II pressato con un oggetto piatto sulla faccia (001): crepe e lastre parallele alla faccia (010) rimaste unite",
+   "note": "Proprieta' di ripristino dell'integrita' (shape-restorative): ogni lastra passa a forma I e le lastre si riallineano. Il testo non da' la temperatura per questo esperimento (le etichette della Fig. 2 portano 300, 350, 353, 358 K ma non sono nella didascalia). La cella determinata in punti diversi del cristallo e' di forma I («completely transformed to form I»); la tecnica XRD non e' precisata. Il danneggiamento (crepe) non e' un evento: e' il pretrattamento."
+  },
+  {
+   "id": "E11",
+   "da": "F1",
+   "a": "F2",
+   "esito": "avvenuta",
+   "via": "termica",
+   "sottovia": "riscaldamento",
+   "condizioni": {
+    "temperatura": {
+     "valore": 359,
+     "unita": "K",
+     "tipo": "non_specificato"
+    }
+   },
+   "osservazioni": {
+    "tecniche": [
+     "microscopia",
+     "altro"
+    ],
+    "integrita": "fratturato"
+   },
+   "citazioni": [
+    "A crystal of form II was heavily damaged by applying pressure on its (010) ace. After heating to 359 K, the crystal appears to have partially restored its integrity due to phase transition and realignment of the fragments.",
+    "Moreover, even crystals that are heavily damaged with a pointy metal object and appear strongly disintegrated can be heated to partially recover their initial shape (Supplementary Fig. 13, Supplementary Movies 18 and 19).",
+    "As established with XRD, the unit cell of such crystals was also invariably consistent with that of form I (Supplementary Figs. 13 and 14, Supplementary Table 3).",
+    "In all cases of mechanically damaged and converted crystals the hightemperature phase was identical with form I"
+   ],
+   "certezza": "media",
+   "fonte_dati": "propria",
+   "natura": "fisica",
+   "campione": {
+    "tipo": "cristallo_singolo"
+   },
+   "pretrattamento": "cristallo di forma II fortemente danneggiato per pressione sulla faccia (010) (Fig. 1e) o con un oggetto metallico appuntito (Supplementary Fig. 13)",
+   "note": "Due prove di cristalli fortemente danneggiati con lo stesso esito: la didascalia della Fig. 1e (danno per pressione sulla faccia (010), riscaldamento a 359 K) e il caso dell'oggetto metallico appuntito (supplementare). Il testo non dice che siano lo stesso campione; la T di 359 K e' della Fig. 1e. Un solo evento perche' esito e leva sono gli stessi. Il refuso «(010) ace» e' della didascalia."
+  }
+ ],
+ "preparazioni": [
+  {
+   "forme": [
+    "F1"
+   ],
+   "metodo": "altro",
+   "solventi": [],
+   "citazioni": [
+    "Crystals of form II were grown under hydrothermal conditions as reported previously4."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "Cristallizzazione idrotermale; il testo rimanda al riferimento 4 per i dettagli (temperatura e tempi non dati)."
+  },
+  {
+   "forme": [
+    "F1",
+    "F2"
+   ],
+   "metodo": "non_specificato",
+   "solventi": [],
+   "citazioni": [
+    "Under specific crystallization conditions (slow evaporation of solutions or hydrothermal crystallization), TA can be obtained as two polymorphs"
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "citata",
+   "note": "Frase generale (con rimando 52): evaporazione lenta di soluzioni o cristallizzazione idrotermale danno le due forme; il testo non attribuisce un metodo a ciascuna forma."
+  },
+  {
+   "forme": [
+    "F2"
+   ],
+   "metodo": "da_evento",
+   "da_evento": "E1",
+   "solventi": [],
+   "citazioni": [
+    "An unrestrained crystal of form I obtained as a metastable form after heating and cooling a crystal of form II is contacted with a metal needle."
+   ],
+   "esito": "ottenuta",
+   "fonte_dati": "propria",
+   "note": "La forma I si ottiene riscaldando un cristallo di forma II (E1); nel testo la forma metastabile e' quella ottenuta dopo riscaldamento e raffreddamento."
+  }
+ ],
+ "molecole": []
+}
